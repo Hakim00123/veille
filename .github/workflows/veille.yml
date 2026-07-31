@@ -1,0 +1,33 @@
+name: Collecte veille
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # toutes les 6 heures (UTC)
+  workflow_dispatch:         # bouton "Run workflow" dans l'onglet Actions
+
+permissions:
+  contents: write
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependances
+        run: pip install --quiet feedparser requests
+
+      - name: Collecte des flux
+        run: python scripts/collect.py
+
+      - name: Commit du resultat
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "actions@github.com"
+          git add data
+          git diff --staged --quiet || git commit -m "Veille : $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
