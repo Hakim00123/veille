@@ -1,18 +1,34 @@
 {
- "genere_le": "2026-07-31T12:53:03+00:00",
+ "genere_le": "2026-07-31T17:38:25+00:00",
  "fenetre_jours": 30,
- "nb_flux": 44,
- "nb_flux_en_erreur": 9,
- "nb_articles": 339,
+ "nb_flux": 62,
+ "nb_flux_en_erreur": 12,
+ "nb_articles": 384,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
   "chunk-03.json",
   "chunk-04.json",
   "chunk-05.json",
-  "chunk-06.json"
+  "chunk-06.json",
+  "chunk-07.json"
  ],
  "erreurs": [
+  {
+   "source": "Klement on Investing",
+   "url": "https://klementoninvesting.substack.com/feed/",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://klementoninvesting.substack.com/feed/"
+  },
+  {
+   "source": "The Diff",
+   "url": "https://diff.substack.com/feed/",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://diff.substack.com/feed/"
+  },
+  {
+   "source": "The Evidence-Based Investor",
+   "url": "http://www.evidenceinvestor.co.uk/feed/",
+   "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
+  },
   {
    "source": "Parlons RH",
    "url": "https://www.parlonsrh.com/feed/",
