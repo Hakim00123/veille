@@ -1,1 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Veille Perso - paie/legal, finance, personnel</title>
+    </head>
+    <body>
+        <outline text="Veille Perso" title="Veille Perso">
+            <!-- ============ PAIE / DSN / DROIT SOCIAL FR ============ -->
+            <outline type="rss" text="Village de la Justice - Droit social" title="Village de la Justice - Droit social" xmlUrl="https://www.village-justice.com/articles/spip.php?page=backend" htmlUrl="https://www.village-justice.com/articles/"/>
+            <outline type="rss" text="LegiSocial" title="LegiSocial" xmlUrl="https://www.legisocial.fr/rss.xml" htmlUrl="https://www.legisocial.fr/"/>
+            <outline type="rss" text="Silae" title="Silae" xmlUrl="https://www.silae.fr/feed/" htmlUrl="https://www.silae.fr/"/>
 
+            <!-- ============ FINANCE / INVESTISSEMENT ============ -->
+            <outline type="rss" text="Of Dollars And Data" title="Of Dollars And Data" xmlUrl="https://ofdollarsanddata.com/feed/" htmlUrl="https://ofdollarsanddata.com"/>
+            <outline type="rss" text="Klement on Investing" title="Klement on Investing" xmlUrl="https://klementoninvesting.substack.com/feed/" htmlUrl="https://klementoninvesting.substack.com"/>
+            <outline type="rss" text="The Diff" title="The Diff" xmlUrl="https://diff.substack.com/feed/" htmlUrl="https://www.thediff.co/"/>
+            <outline type="rss" text="The Evidence-Based Investor" title="The Evidence-Based Investor" xmlUrl="http://www.evidenceinvestor.co.uk/feed/" htmlUrl="https://www.evidenceinvestor.com"/>
+            <outline type="rss" text="Early Retirement Now" title="Early Retirement Now" xmlUrl="https://earlyretirementnow.com/feed/" htmlUrl="https://earlyretirementnow.com/"/>
+            <outline type="rss" text="Nicolas Cheron" title="Nicolas Cheron" xmlUrl="https://www.nicolascheron.fr/articles/rss/" htmlUrl="https://www.nicolascheron.fr/"/>
+            <outline type="rss" text="Morningbull" title="Morningbull" xmlUrl="https://morningbull.ch/feed/" htmlUrl="https://morningbull.ch"/>
+            <outline type="rss" text="Verdad Research" title="Verdad Research" xmlUrl="https://verdadcap.com/archive?format=rss" htmlUrl="https://verdadcap.com/archive/"/>
+
+            <!-- ============ PERSONNEL / SPIRITUALITE / LECTURES ============ -->
+            <outline type="rss" text="La maison de l'islam" title="La maison de l'islam" xmlUrl="http://www.maison-islam.com/articles/?feed=rss2" htmlUrl="https://www.maison-islam.com/articles"/>
+            <outline type="rss" text="Farnam Street" title="Farnam Street" xmlUrl="http://feeds.feedburner.com/68131" htmlUrl="https://fs.blog/"/>
+            <outline type="rss" text="Cal Newport - Study Hacks" title="Cal Newport - Study Hacks" xmlUrl="http://feeds.feedburner.com/StudyHacks" htmlUrl="https://calnewport.com/blog/"/>
+            <outline type="rss" text="Ness Labs" title="Ness Labs" xmlUrl="https://nesslabs.com/feed" htmlUrl="https://nesslabs.com/"/>
+            <outline type="rss" text="More To That" title="More To That" xmlUrl="https://moretothat.com/feed/" htmlUrl="https://moretothat.com"/>
+            <outline type="rss" text="Raptitude" title="Raptitude" xmlUrl="http://www.raptitude.com/feed/" htmlUrl="https://www.raptitude.com"/>
+            <outline type="rss" text="Derek Sivers" title="Derek Sivers" xmlUrl="http://sivers.org/en.atom" htmlUrl="https://sive.rs"/>
+
+        </outline>
+    </body>
+</opml>
