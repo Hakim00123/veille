@@ -1,0 +1,61 @@
+name: Transcription GDIY
+
+# Transcrit le dernier episode de Generation Do It Yourself pour en extraire
+# les outils cites par l'invite. Le MP3 vient directement du flux RSS.
+# Duree typique : 15 a 40 min selon la longueur de l'episode.
+
+on:
+  schedule:
+    - cron: "0 20 * * 0"   # dimanche 20 h UTC, pour etre pret le lundi matin
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: transcript-gdiy
+  cancel-in-progress: false
+
+jobs:
+  transcrire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Dependances
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install --quiet faster-whisper requests
+
+      - name: Transcription et extraction des outils
+        env:
+          WHISPER_MODEL: base    # tiny = plus rapide, base = meilleurs noms propres
+        run: python scripts/transcript_gdiy.py
+
+      - name: Commit du resultat
+        run: |
+          git config user.name "veille-bot"
+          git config user.email "actions@github.com"
+          git add data/gdiy
+          if git diff --staged --quiet; then
+            echo "Aucun nouvel episode."
+            exit 0
+          fi
+          git commit -m "GDIY : transcription $(date -u +'%Y-%m-%d')"
+          for tentative in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "Push reussi (tentative $tentative)."
+              exit 0
+            fi
+            echo "Push rejete, nouvelle tentative dans 5 s..."
+            sleep 5
+          done
+          echo "Push impossible apres 3 tentatives." >&2
+          exit 1
