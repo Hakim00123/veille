@@ -7,6 +7,7 @@
         <outline text="Veille Perso" title="Veille Perso">
             <!-- ============ PAIE / DSN / DROIT SOCIAL FR ============ -->
             <outline type="rss" text="Village de la Justice - Droit social" title="Village de la Justice - Droit social" xmlUrl="https://www.village-justice.com/articles/spip.php?page=backend" htmlUrl="https://www.village-justice.com/articles/"/>
+            <outline type="rss" text="Net-entreprises (DSN officiel)" title="Net-entreprises (DSN officiel)" xmlUrl="https://www.net-entreprises.fr/feed/" htmlUrl="https://www.net-entreprises.fr/"/>
             <outline type="rss" text="LegiSocial" title="LegiSocial" xmlUrl="https://www.legisocial.fr/rss.xml" htmlUrl="https://www.legisocial.fr/"/>
             <outline type="rss" text="Silae" title="Silae" xmlUrl="https://www.silae.fr/feed/" htmlUrl="https://www.silae.fr/"/>
 
