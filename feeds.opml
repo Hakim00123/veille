@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Veille Pro - HAKIM - SIRH &amp; projet entrepreneurial</title>
+    </head>
+    <body>
+        <outline text="Veille Pro" title="Veille Pro">
+
+            <!-- ============ SIRH / HR TECH ============ -->
+            <outline type="rss" text="Parlons RH" title="Parlons RH" xmlUrl="https://www.parlonsrh.com/feed/" htmlUrl="https://www.parlonsrh.com/"/>
+            <outline type="rss" text="Culture RH" title="Culture RH" xmlUrl="https://culture-rh.com/feed/" htmlUrl="https://culture-rh.com/"/>
+            <outline type="rss" text="Josh Bersin" title="Josh Bersin" xmlUrl="https://joshbersin.com/feed/" htmlUrl="https://joshbersin.com/"/>
+            <outline type="rss" text="HR Executive" title="HR Executive" xmlUrl="https://hrexecutive.com/feed/" htmlUrl="https://hrexecutive.com/"/>
+            <outline type="rss" text="HR Dive" title="HR Dive" xmlUrl="https://www.hrdive.com/feeds/news/" htmlUrl="https://www.hrdive.com/"/>
+            <outline type="rss" text="Workology" title="Workology" xmlUrl="https://workology.com/feed/" htmlUrl="https://workology.com/"/>
+            <outline type="rss" text="Workday Blog" title="Workday Blog" xmlUrl="http://blogs.workday.com/feed/" htmlUrl="https://blog.workday.com"/>
+            <outline type="rss" text="CIO Online" title="CIO Online" xmlUrl="https://www.cio-online.com/rss.php" htmlUrl="https://www.cio-online.com/"/>
+            <outline type="rss" text="NOVRH - Paie &amp; DSN" title="NOVRH - Paie &amp; DSN" xmlUrl="https://www.novrh.com/blog/feed/" htmlUrl="https://www.novrh.com/blog/"/>
+            <outline type="rss" text="Illizeo - People Analytics &amp; Paie" title="Illizeo - People Analytics &amp; Paie" xmlUrl="https://illizeo.com/blog/feed/" htmlUrl="https://illizeo.com/blog/"/>
+            <outline type="rss" text="AIHR - Academy to Innovate HR" title="AIHR - Academy to Innovate HR" xmlUrl="https://www.aihr.com/blog/feed/" htmlUrl="https://www.aihr.com/blog/"/>
+            <outline type="rss" text="Personnel Today" title="Personnel Today" xmlUrl="https://www.personneltoday.com/feed/" htmlUrl="https://www.personneltoday.com/"/>
+            <outline type="rss" text="Deel - Paie internationale" title="Deel - Paie internationale" xmlUrl="https://www.deel.com/blog/rss.xml" htmlUrl="https://www.deel.com/blog/"/>
+            <outline type="rss" text="Workable Resources" title="Workable Resources" xmlUrl="https://resources.workable.com/feed" htmlUrl="https://resources.workable.com/"/>
+
+            <!-- ============ BUSINESS MODELS EN LIGNE ============ -->
+            <outline type="rss" text="Indie Hackers" title="Indie Hackers" xmlUrl="https://www.indiehackers.com/feed.xml" htmlUrl="https://www.indiehackers.com/"/>
+            <outline type="rss" text="Lenny's Newsletter" title="Lenny's Newsletter" xmlUrl="https://www.lennysnewsletter.com/feed" htmlUrl="https://www.lennysnewsletter.com/"/>
+            <outline type="rss" text="SaaStr" title="SaaStr" xmlUrl="https://www.saastr.com/feed/" htmlUrl="https://www.saastr.com/"/>
+            <outline type="rss" text="Stratechery" title="Stratechery" xmlUrl="https://stratechery.com/feed/" htmlUrl="https://stratechery.com/"/>
+            <outline type="rss" text="Y Combinator Blog" title="Y Combinator Blog" xmlUrl="https://blog.ycombinator.com/feed/" htmlUrl="https://www.ycombinator.com/blog/"/>
+            <outline type="rss" text="Steve Blank" title="Steve Blank" xmlUrl="http://steveblank.com/feed/" htmlUrl="https://steveblank.com"/>
+            <outline type="rss" text="Startup Unlocked" title="Startup Unlocked" xmlUrl="https://pierregaubil.substack.com/feed" htmlUrl="https://pierregaubil.substack.com"/>
+            <outline type="rss" text="Cap Mission Freelance" title="Cap Mission Freelance" xmlUrl="https://capmissionfreelance.substack.com/feed" htmlUrl="https://capmissionfreelance.substack.com"/>
+            <outline type="rss" text="Silicon Carne" title="Silicon Carne" xmlUrl="https://siliconcarne.substack.com/feed" htmlUrl="https://siliconcarne.substack.com"/>
+            <outline type="rss" text="Venture Prose" title="Venture Prose" xmlUrl="https://2lr.substack.com/feed" htmlUrl="https://2lr.substack.com"/>
+            <outline type="rss" text="Nat Eliason" title="Nat Eliason" xmlUrl="https://www.nateliason.com/blog/rss.xml" htmlUrl="https://nateliason.com/blog"/>
+            <outline type="rss" text="Taylor Pearson" title="Taylor Pearson" xmlUrl="http://feeds.feedburner.com/TaylorPearson" htmlUrl="https://taylorpearson.me/"/>
+            <outline type="rss" text="The French Tech Journal" title="The French Tech Journal" xmlUrl="https://frenchtechjournal.substack.com/feed" htmlUrl="https://frenchtechjournal.substack.com"/>
+            <outline type="rss" text="Dans la Tete d'un VC" title="Dans la Tete d'un VC" xmlUrl="https://danslatetedunvc.substack.com/feed" htmlUrl="https://danslatetedunvc.substack.com"/>
+
+            <!-- ============ IA APPLIQUEE &amp; AUTOMATISATION ============ -->
+            <outline type="rss" text="Anthropic News" title="Anthropic News" xmlUrl="https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml" htmlUrl="https://www.anthropic.com/news"/>
+            <outline type="rss" text="OpenAI Developers" title="OpenAI Developers" xmlUrl="https://developers.openai.com/rss.xml" htmlUrl="https://developers.openai.com/"/>
+            <outline type="rss" text="Simon Willison" title="Simon Willison" xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net/"/>
+            <outline type="rss" text="Hugging Face Blog" title="Hugging Face Blog" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog"/>
+            <outline type="rss" text="The Batch - DeepLearning.AI" title="The Batch - DeepLearning.AI" xmlUrl="https://rsshub.bestblogs.dev/deeplearning/the-batch" htmlUrl="https://www.deeplearning.ai/the-batch/"/>
+            <outline type="rss" text="Google DeepMind News" title="Google DeepMind News" xmlUrl="https://deepmind.google/blog/rss.xml" htmlUrl="https://deepmind.google/blog/"/>
+            <outline type="rss" text="Zapier Blog" title="Zapier Blog" xmlUrl="https://zapier.com/blog/feeds/latest/" htmlUrl="https://zapier.com/blog"/>
+            <outline type="rss" text="Tech a suivre - L'ADN" title="Tech a suivre - L'ADN" xmlUrl="https://www.ladn.eu/tech-a-suivre/feed/" htmlUrl="https://www.ladn.eu"/>
+
+            <!-- ============ SIGNAUX D'OPPORTUNITE / MARCHE ============ -->
+            <outline type="rss" text="Sifted" title="Sifted" xmlUrl="https://sifted.eu/feed" htmlUrl="https://sifted.eu/"/>
+            <outline type="rss" text="Crunchbase News" title="Crunchbase News" xmlUrl="https://news.crunchbase.com/feed/" htmlUrl="https://news.crunchbase.com/"/>
+            <outline type="rss" text="Maddyness" title="Maddyness" xmlUrl="https://www.maddyness.com/feed/" htmlUrl="https://www.maddyness.com/"/>
+            <outline type="rss" text="TechCrunch" title="TechCrunch" xmlUrl="https://techcrunch.com/feed/" htmlUrl="https://techcrunch.com/"/>
+            <outline type="rss" text="Patent Drop" title="Patent Drop" xmlUrl="https://patentdrop.substack.com/feed/" htmlUrl="https://patentdrop.substack.com"/>
+            <outline type="rss" text="Sequoia Capital" title="Sequoia Capital" xmlUrl="https://www.sequoiacap.com/feed/" htmlUrl="https://sequoiacap.com/"/>
+            <outline type="rss" text="Blog du Moderateur" title="Blog du Moderateur" xmlUrl="https://www.blogdumoderateur.com/feed/" htmlUrl="https://www.blogdumoderateur.com/"/>
+            <outline type="rss" text="C'est pas mon idee !" title="C'est pas mon idee !" xmlUrl="http://cestpasmonidee.blogspot.com/feeds/posts/default" htmlUrl="https://blog.cestpasmonidee.fr/"/>
+
+        </outline>
+    </body>
+</opml>
