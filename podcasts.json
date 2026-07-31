@@ -1,0 +1,25 @@
+{
+ "fenetre_jours": 8,
+ "max_par_podcast": 3,
+ "podcasts": [
+  {"slug": "gdiy", "nom": "Generation Do It Yourself", "langue": "fr", "modele": "base",
+   "flux": "https://feeds.audiomeans.fr/feed/b4a5ee3a-9230-4f9f-988d-2ae156a2d5a9.xml",
+   "titre_valide": "^#\\d+", "preferer": " - VF - "},
+  {"slug": "a16z", "nom": "The a16z Show", "langue": "en", "modele": "base.en",
+   "flux": "https://feeds.simplecast.com/JGE3yC0V"},
+  {"slug": "mfm", "nom": "My First Million", "langue": "en", "modele": "base.en",
+   "flux": "https://feeds.megaphone.fm/HS2300184645"},
+  {"slug": "lennys", "nom": "Lenny's Podcast", "langue": "en", "modele": "base.en",
+   "flux": "https://api.substack.com/feed/podcast/10845.rss"},
+  {"slug": "acquired", "nom": "Acquired", "langue": "en", "modele": "base.en",
+   "flux": "https://feeds.transistor.fm/acquired"},
+  {"slug": "latent-space", "nom": "Latent Space", "langue": "en", "modele": "base.en",
+   "flux": "https://api.substack.com/feed/podcast/1084089.rss"},
+  {"slug": "dwarkesh", "nom": "Dwarkesh Podcast", "langue": "en", "modele": "base.en",
+   "flux": "https://api.substack.com/feed/podcast/69345.rss"},
+  {"slug": "knowledge-project", "nom": "The Knowledge Project", "langue": "en", "modele": "base.en",
+   "flux": "https://theknowledgeproject.libsyn.com/rss"},
+  {"slug": "invest-like-the-best", "nom": "Invest Like the Best", "langue": "en", "modele": "base.en",
+   "flux": "https://feeds.megaphone.fm/investlikethebest"}
+ ]
+}
