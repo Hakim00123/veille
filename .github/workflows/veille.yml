@@ -8,13 +8,20 @@ on:
 permissions:
   contents: write
 
+# evite deux collectes simultanees qui se marcheraient dessus
+concurrency:
+  group: collecte-veille
+  cancel-in-progress: false
+
 jobs:
   collecte:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0     # historique complet, necessaire au rebase
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -29,5 +36,19 @@ jobs:
           git config user.name "veille-bot"
           git config user.email "actions@github.com"
           git add data
-          git diff --staged --quiet || git commit -m "Veille : $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          if git diff --staged --quiet; then
+            echo "Aucun changement, rien a commiter."
+            exit 0
+          fi
+          git commit -m "Veille : $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # le depot a pu bouger pendant la collecte : on se resynchronise
+          for tentative in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push; then
+              echo "Push reussi (tentative $tentative)."
+              exit 0
+            fi
+            echo "Push rejete, nouvelle tentative dans 5 s..."
+            sleep 5
+          done
+          echo "Push impossible apres 3 tentatives." >&2
+          exit 1
