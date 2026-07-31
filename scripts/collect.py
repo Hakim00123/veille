@@ -4,6 +4,7 @@
 Sortie : data/latest/index.json + data/latest/chunk-NN.json
 Les chunks sont volontairement petits pour rester lisibles d'un seul tenant.
 """
+import glob
 import json
 import os
 import re
@@ -15,7 +16,7 @@ import feedparser
 import requests
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OPML = os.path.join(ROOT, "feeds.opml")
+OPML_GLOB = os.path.join(ROOT, "*.opml")
 OUT = os.path.join(ROOT, "data", "latest")
 
 FENETRE_JOURS = 30      # profondeur d'historique conservee
@@ -30,13 +31,15 @@ ENTETES = {
 }
 
 
-def flux_depuis_opml(chemin):
-    arbre = ET.parse(chemin)
-    flux = []
-    for o in arbre.iter("outline"):
-        url = o.get("xmlUrl")
-        if url:
-            flux.append((o.get("text") or o.get("title") or url, url))
+def flux_depuis_opml(motif):
+    """Lit tous les fichiers .opml a la racine du depot."""
+    flux, vus = [], set()
+    for chemin in sorted(glob.glob(motif)):
+        for o in ET.parse(chemin).iter("outline"):
+            url = o.get("xmlUrl")
+            if url and url not in vus:
+                vus.add(url)
+                flux.append((o.get("text") or o.get("title") or url, url))
     return flux
 
 
@@ -67,7 +70,7 @@ def nettoyer(html, n):
 
 
 def main():
-    flux = flux_depuis_opml(OPML)
+    flux = flux_depuis_opml(OPML_GLOB)
     limite = datetime.now(timezone.utc) - timedelta(days=FENETRE_JOURS)
     articles, erreurs = [], []
 
