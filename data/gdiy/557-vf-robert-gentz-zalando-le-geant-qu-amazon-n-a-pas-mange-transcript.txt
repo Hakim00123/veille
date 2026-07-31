@@ -1,0 +1,3366 @@
+#557 - VF - Robert Gentz - Zalando - Le géant qu’Amazon n’a pas mangé en Europe
+Sun, 26 Jul 2026
+
+
+[00:02] Fin 2008, c'est là où on a lancé Zalando.
+[00:08] Et ensuite on a fait un tout premier test avec des tongs.
+[00:11] Donc si tu veux lancer une boîte de tongs, il faut le faire en Allemagne au moins.
+[00:14] Ça a donné quoi ?
+[00:14] Ça a plutôt bien marché.
+[00:15] On a acheté des tongs en magasin et on les revendait en ligne.
+[00:18] On s'est développé en Allemagne en un an de 6 millions à 150 millions de revenus.
+[00:22] En fait la première année on a fait 6 millions, la deuxième année 150 ou 160 millions
+[00:26] et la troisième année 500 millions.
+[00:28] J'aimerais savoir selon toi, qu'est-ce qui fait le succès de Zalando ?
+[00:32] Quelle est la recette ?
+[00:33] La promesse qu'on a apporté aux consommateurs, c'était de démocratiser la mode.
+[00:37] Peu importe l'endroit où tu vies, genre à Paris, près des Champs-Élysées,
+[00:40] ou si tu vies en fait dans le nord de la Finlande,
+[00:42] t'as soudainement le même accès pratique à la mode et au lifestyle.
+[00:45] Ce n'était pas du tout le cas, il y a 15 ans.
+[00:48] À l'époque, il y avait juste pas de solutions scalables sur le marché.
+[00:51] Et on avait même nos propres serveurs.
+[00:53] Le logiciel de boutique, c'est le nôtre.
+[00:55] Le logiciel de logistique, c'est le nôtre.
+[00:57] Et donc ça, ce sont vraiment les gros points de différenciation
+[01:00] qu'on continue à développer nous-mêmes.
+[01:02] Donc si je veux lancer mon site, il commerce,
+[01:04] je peux le faire presque entièrement sur la technologie et l'infrastructure Zalando.
+[01:07] Ouais, enfin, c'est pas encore vraiment pensé pour les tout petits.
+[01:10] C'est plutôt un logiciel taillé pour les grandes entreprises.
+[01:17] Nous sommes la moyenne des personnes que l'on ferait content.
+[01:19] Je suis Mathieu Stéphanie, partenaire devenue capitaine.
+[01:22] Et je vous propose de rencontrer des entrepreneurs sportifs ou artistes
+[01:25] qui vont faire exploser notre moyen.
+[01:28] Robert, bienvenue chez Zalando.
+[01:29] Je suis vraiment content d'être avec toi chez toi en fait.
+[01:32] Ouais, ouais, merci. Merci d'être passé ici à Berlin.
+[01:34] On est super content.
+[01:36] J'ai lu quelque part que quand tu as lancé ta première startup,
+[01:40] c'était bien ta première, c'était à Monterey.
+[01:44] Monterey, ouais.
+[01:45] Ah, c'est espagnol ?
+[01:46] C'est éable, espagnol.
+[01:47] Ah, vous pouvez t'au.
+[01:48] Yo, on le pousse, on le pousse, on le pousse.
+[01:51] Alors, t'étais tellement fauchée quand t'es parti, enfin,
+[01:55] quand t'as fait faillite, que tu pouvais même pas te payer ton billet de retour pour l'Allemagne.
+[01:59] C'est vrai ou c'est...
+[02:01] Ouais, enfin, j'avais encore mes parents,
+[02:03] mais je crois que nous, mon associé et moi,
+[02:05] on ne pouvait vraiment pas se le permettre.
+[02:07] On n'avait pas assez d'argent sur le compte pour se payer un vol retour à l'époque.
+[02:11] Ouais, c'est vrai.
+[02:12] Mais bon, c'était il y a longtemps.
+[02:14] J'avais 23 ans.
+[02:16] Je crois que j'avais 23 ans.
+[02:18] D'accord.
+[02:19] Ou 24 peut-être, ouais.
+[02:20] Mais c'est pas si vieux que ça.
+[02:21] Enfin, c'était genre il y a 20 ans, un truc comme ça.
+[02:24] Ouais, c'est ça, ouais.
+[02:25] Il y a 17 ans.
+[02:26] Ouais.
+[02:27] Enfin, bon, on peut dire que t'as pas chômé entre temps, mais...
+[02:30] Ouais.
+[02:31] C'est vrai, c'est vrai.
+[02:32] Et c'était les mêmes fondateurs qu'avec Zalando ?
+[02:37] Ouais, alors c'est mon associé de Zalando, David et moi.
+[02:42] Et la toute première boîte qu'on a montée avant Zalando,
+[02:44] elle s'appelait Unibikat.
+[02:47] C'était un peu comme un réseau social latino-américain.
+[02:52] Et il y avait genre quelques associés en plus,
+[02:56] un du Mexique, un du Chili et deux, trois autres.
+[03:00] Mais ouais, c'était David et moi, et après, on a lancé Zalando ensemble.
+[03:05] Intéressant.
+[03:06] Bon, j'ai vraiment plein de questions pour toi.
+[03:07] Donc si t'es d'accord, on va beaucoup parler, évidemment, de Zalando,
+[03:11] de l'Europe, de l'Allemagne,
+[03:14] peut-être de logistique d'Ia.
+[03:16] J'espère aussi d'Ia agentique, de l'avenir du Hikomers.
+[03:23] Et de quoi d'autre ?
+[03:25] Enfin, j'ai plein plein de trucs en tête,
+[03:28] le marché allemand aussi.
+[03:30] J'ai vraiment beaucoup de questions là-dessus.
+[03:32] Comment on fait pour percer sur le marché allemand ?
+[03:34] C'est peut-être plus simple pour toi, vu que t'es d'ici,
+[03:37] mais pour les étrangers, pour les Français,
+[03:40] on dirait Fort Knock ce quelque part.
+[03:42] Enfin, et...
+[03:44] C'est probablement pareil pour les Allemands qui veulent entrer sur le marché français.
+[03:48] Ah ouais ? D'accord.
+[03:50] Tu me diras alors les difficultés que tu as ou que tu vois quand vous allez en France ?
+[03:54] Et peut-être ce que tu peux dire aux autres entrepreneurs
+[03:57] sur comment aller en France peut-être.
+[04:00] Mais avant tout ça, si tu me le permets,
+[04:03] est-ce que tu pourrais te présenter ?
+[04:07] Ouais, bien sûr.
+[04:10] Alors, je suis Robert, et je suis le fondateur de Zalando.
+[04:15] J'ai 42 ans, et je vis à Berlin.
+[04:19] Donc ouais, je suis entrepreneur en Allemagne.
+[04:22] Ok.
+[04:23] Et t'as lancé Zalando quand ?
+[04:25] Tu disais ?
+[04:26] Enfin, 2008, c'est là où on a lancé Zalando.
+[04:28] D'accord.
+[04:29] Et c'était dès le début avec roquette internet,
+[04:33] où est-ce que les frères sommeurs sont arrivés après ?
+[04:37] Non, je pense que tu m'as posé des questions sur la phase latino-américaine.
+[04:42] Donc, on a d'abord eu ce projet latino-américain
+[04:45] qu'on a construit pendant quelques mois.
+[04:47] Et ça a pas marché, donc on est rentré d'abord en Espagne.
+[04:51] On avait trouvé un plan pour bosser dans une startup en Espagne.
+[04:54] On a eu des billets pour Madrid.
+[04:57] On a aidé cette boîte pendant un moment,
+[05:00] et les frères sommeurs, eux, ils étaient un investisseur
+[05:02] de la première heure dans cette boîte.
+[05:05] Et c'est comme ça qu'on est entré en contact avec eux.
+[05:08] Et puis, d'avis des mois, on était vraiment, comment dire.
+[05:12] On débattait beaucoup le soir.
+[05:14] C'était pendant qu'on vivait à Madrid,
+[05:16] donc on se demandait ce qu'on allait faire par la suite.
+[05:20] Et au final, on s'est dit que Louis Comers
+[05:23] serait une super opportunité pour nous.
+[05:26] Et les frères sommeurs, eux aussi,
+[05:28] ils étaient intéressés pour financer du e-commerce.
+[05:32] Donc, on s'est dit, OK, c'est peut-être une bonne opportunité.
+[05:35] Et comme première idée,
+[05:37] on a choisi de faire du e-commerce de chaussures.
+[05:40] D'accord.
+[05:41] Et ça, c'était, alors, je pense, mid-2008.
+[05:45] Et puis, on est retourné en Allemagne.
+[05:48] Donc, d'avis des mois, on s'est installé chez mes parents
+[05:52] et on s'est vraiment plongé dans tous les détails.
+[05:55] On voulait comprendre comment marche vraiment le marché de la chaussure,
+[05:59] comment on fait les achats,
+[06:00] comment on se constitue une sélection.
+[06:03] C'est quoi les marges ?
+[06:04] Quelle importance on les marque ?
+[06:07] Comment ça se passe avec les points d'huile ?
+[06:09] On a vraiment creusé pour tout comprendre.
+[06:11] Et ensuite, on a fait un tout premier test avec des tongs.
+[06:14] Donc, on...
+[06:15] Donc, tu vendais des tongs ?
+[06:17] Oui.
+[06:17] On est allé à Berlin.
+[06:19] Et la toute première boutique qu'on a montée,
+[06:20] elle s'appelait Fliptops, un truc comme ça, Flip.
+[06:23] D'accord.
+[06:24] Donc...
+[06:25] Mais je crois que si tu essayes aujourd'hui, ça marche sûrement encore.
+[06:28] Si tu tapes Fliptops, t'es toujours redirigée vers Allendot.
+[06:32] Ça, c'était la toute première version.
+[06:34] D'accord, je vois.
+[06:35] Alors, je vais être un peu tackin, on peut dire ça, ou un solen.
+[06:39] Parce que je veux dire, l'allemand qui parle des tongs,
+[06:41] en gros, hier, on est arrivés ici.
+[06:43] Et à celle, tu l'as rencontrée, c'est notre techniciens...
+[06:46] Ouais.
+[06:47] Notre gars, à la vidéo, il est arrivé et on l'a vu porter des tongs
+[06:50] avec des chaussettes.
+[06:51] Et on était genre, c'est quoi ce bordel ?
+[06:53] Et il a dit, si il y a un endroit, une ville où je peux être en chaussettes
+[06:56] et en tong, c'est à Berlin.
+[06:58] Ouais.
+[06:59] Et donc, d'accord, il a raison.
+[07:00] C'est compris.
+[07:01] C'est la réputation des Allemands.
+[07:02] Non.
+[07:03] Les chaussettes blanches avec les...
+[07:04] Ouais, c'est gênant.
+[07:05] Ouais.
+[07:06] Donc, si tu veux lancer une boîte de tong,
+[07:07] il faut le faire en Allemagne au moins.
+[07:08] Alors, ça a donné quoi ?
+[07:10] Ça a plutôt bien marché.
+[07:11] En fait, on a acheté des tongs en magasin et on les revendait
+[07:15] au même prix, en ligne, comme le...
+[07:18] Une vraie preuve de concept, quoi.
+[07:19] Une vraie preuve de concept.
+[07:20] Ouais.
+[07:21] On a fait, comme en fait, je pense que c'était la seule fois de ma vie
+[07:24] où j'ai vraiment programmé, enfin pas vraiment programmé,
+[07:27] mais j'ai configuré genre une boutique traduo en HTML et ainsi de suite.
+[07:31] Et donc, on a mis ça en ligne,
+[07:33] on a fait du référencement payant et ça a fonctionné.
+[07:36] Et donc, en quelques jours,
+[07:38] on est monté à genre 30 commandes de tongs par jour.
+[07:42] Ouais.
+[07:43] Et on a vraiment vu tout ce tunnel de conversion.
+[07:45] Les gens qui cherchent des tongs sur Internet
+[07:48] qui arrivent sur notre site,
+[07:51] on a compris à quel point les options de paiement comptent,
+[07:53] à quel point les options de retour comptent.
+[07:55] Donc, plein de bons enseignements.
+[07:57] Et là, on s'est dit, bon.
+[07:58] Maintenant, c'est le bon moment.
+[08:00] On va lancer une vraie destination e-commerce pour les chaussures.
+[08:04] Incroyable.
+[08:05] Et les tongs, elles ont un avantage, non ?
+[08:08] C'est que probablement la taille est moins un problème
+[08:11] que pour des chaussures normales, pas vrai ?
+[08:14] Ouais, enfin, il en avait quand même un peu.
+[08:16] Donc, on a appris des trucs sur les retours.
+[08:19] Mais ce qu'on a aussi appris sur les retours,
+[08:22] c'était, en fait, je pense que le fait que les gens puissent
+[08:27] réellement retourner leurs articles,
+[08:30] c'est aussi une très bonne chose pour la valeur client.
+[08:33] Parce que si, par exemple, si les gens savent qu'ils peuvent commander
+[08:36] et qu'ils peuvent aussi rendre leur article,
+[08:38] si ça ne leur va pas, et qu'en plus, c'est assez simple,
+[08:41] et donc, ils séparnent plein d'autres trucs.
+[08:43] Ils ont plus besoin d'aller en ville,
+[08:44] chercher telle ou telle article.
+[08:46] Donc, c'est vraiment un compromis entre...
+[08:48] Je peux commander et renvoyer,
+[08:50] ou bien, je dois faire tous ces efforts moi-même.
+[08:53] Et on a réalisé que c'est, en fait, un aspect assez important.
+[08:56] C'est vraiment super important que tu facilites les retours
+[08:58] pour les gens, afin qu'ils se disent,
+[09:01] je prends de ma décision chez moi, pas au moment où je commande.
+[09:04] Ce qui est un truc énorme,
+[09:06] et tu vas m'expliquer parce qu'il y a des différences
+[09:08] entre les marchés, si j'ai bien compris.
+[09:10] Mais du coup, une de mes bibles,
+[09:11] quand j'étais dans le e-commerce,
+[09:13] c'était évidemment « Delivering Happiness » de tonifier.
+[09:17] Ouais.
+[09:18] Et en 2008, Zappos avait déjà été racheté par Amazon
+[09:21] ou pas encore.
+[09:22] Tu te souviens ?
+[09:24] Non, je crois qu'Amazon avait pas encore racheté,
+[09:26] mais c'était grand.
+[09:27] Oui, et je pense que ça a aussi aidé.
+[09:29] Zappos, c'était une entreprise américaine de e-commerce de chaussures.
+[09:33] À l'époque, il devait faire dans les 800 millions de dollars.
+[09:36] Donc ouais, c'était une grosse boîte.
+[09:38] Et ça nous a un peu aidé pour construire le discours
+[09:41] auprès des investisseurs, genre, ouais.
+[09:44] Il y a une boîte aux États-Unis
+[09:45] qui arrive à atteindre une taille significative avec ce modèle.
+[09:48] Donc ça, ça a vraiment aidé.
+[09:50] Et je crois que trois ans plus tard,
+[09:52] elle a été racheté par Amazon en 2010, je crois.
+[09:54] Ouais.
+[09:55] Ce livre est toujours un excellent livre, je crois.
+[09:58] Tu l'as lu, non ?
+[09:59] Je l'ai lu au début.
+[10:01] Ouais, je l'ai lu au début pour comprendre.
+[10:03] Pour comprendre ce que c'était.
+[10:06] Je crois que l'essence même de la création de valeur client,
+[10:09] c'est un truc qui est vraiment très précieux.
+[10:12] Le fait de vraiment creuser en profondeur
+[10:14] ce que les clients veulent,
+[10:16] je pense que ce qu'on pensait en tant que...
+[10:19] Et d'ailleurs, c'est peut-être un truc culturel allemand.
+[10:22] On s'est dit que créer un contact client,
+[10:25] un service client,
+[10:26] juste pour discuter avec les clients,
+[10:28] c'est pas vraiment ce que veulent les allemands,
+[10:31] eux, ils veulent des process, c'est efficace.
+[10:33] Ouais, ouais, d'accord.
+[10:35] Donc le contact client, le service client,
+[10:38] c'est un truc au bout d'un moment
+[10:39] on a plutôt considéré comme un échec.
+[10:41] En fait, parce que,
+[10:43] quand quelque chose casse,
+[10:44] là, les gens t'appellent.
+[10:45] Ouais.
+[10:46] Ce que tu dis, c'est que...
+[10:47] Donc on préférait se concentrer sur les process.
+[10:49] Un grand principe du livre,
+[10:50] et que, par exemple, tu pourrais appeler,
+[10:52] le service client de Zappos est commandé
+[10:54] une pizza et il s'en occuperait pour toi,
+[10:56] et c'était ça son grand truc, n'est-ce pas ?
+[10:57] Donc...
+[10:58] Ouais, exactement.
+[10:59] Donc le service client,
+[11:00] et le principal moteur de la valeur client,
+[11:02] ce qui n'était pas vraiment notre vision.
+[11:04] Voilà.
+[11:05] Interessant.
+[11:06] C'est un peu...
+[11:08] En fait, il y a un peu une sorte de décalage culturel,
+[11:10] quelque part.
+[11:11] Comme quoi, rien est universel là-dessus ?
+[11:14] Non, non.
+[11:16] Mais je crois que ce qui reste universel,
+[11:19] c'est que les gens,
+[11:20] ils adorent la simplicité,
+[11:22] ils adorent le choix,
+[11:23] ils adorent quant est sympa,
+[11:24] ils adorent quand leurs problèmes sont résolus.
+[11:27] Je pense qu'il y a quelques vérités qui sont universelles.
+[11:31] Mais pour nous, l'enseignement,
+[11:32] c'était pas que chaque appel d'un client
+[11:34] est une occasion de créer de la valeur client,
+[11:37] parce qu'il y a beaucoup de valeurs clients
+[11:39] que tu crées juste en faisant en sorte que ça marche
+[11:41] et que les gens n'aient pas besoin de t'appeler.
+[11:43] Quand vous vous êtes lancé en France,
+[11:45] on avait sûrement à la même époque.
+[11:46] Ils existent encore une grosse marque qui s'appelait Sarinza.
+[11:50] C'était un de vos concurrents.
+[11:51] Mais ils étaient déjà lancés.
+[11:53] J'essaie juste de comprendre la chronologie.
+[11:54] Je pense qu'ils étaient de deux.
+[11:56] Il y avait Sarinza et c'est partout.
+[11:57] Oh ouais, ouais.
+[11:58] C'est ça, ouais.
+[11:58] Il y en avait deux.
+[11:59] C'était partout qui était gros à un moment, non.
+[12:01] Je crois qu'ils étaient gros.
+[12:03] Je ne suis pas...
+[12:04] Je ne sais pas trop où ils en sont aujourd'hui.
+[12:06] Mais ouais, ils étaient gros.
+[12:08] Ils étaient très focalisés sur la chaussure à cette époque.
+[12:11] Non, on s'est lancé en France en 2010, je crois.
+[12:14] D'accord.
+[12:15] Ouais, ouais, rapide, d'accord.
+[12:17] Ouais, ouais.
+[12:18] 2010, je crois.
+[12:19] C'était en janvier.
+[12:20] Ouais, janvier 2010.
+[12:21] Je m'en souviens.
+[12:23] Alors, quand on parle de...
+[12:25] En fait, j'ai reçu quelques entrepreneurs
+[12:27] qui étaient passés par Rocket Internet.
+[12:30] Tu peux expliquer comment t'as fini par bosser avec eux.
+[12:33] Est-ce que c'était après ce premier site construit chez tes parents
+[12:37] ou alors, c'était dès le tout début?
+[12:39] C'est eux qui vous ont contacté.
+[12:41] C'est vous qui les avez contacté.
+[12:43] Et tu peux expliquer ce que ça change de bosser
+[12:45] avec un partenaire comme ça?
+[12:48] Alors, j'ai...
+[12:50] J'ai un des frères qui s'appelle Oliver.
+[12:53] Il était dans la même université
+[12:54] que c'était la même que d'avis des mois.
+[12:57] Donc c'est pour ça qu'on le connaissait.
+[13:01] Et il y avait aussi son petit frère, Alexandre.
+[13:05] C'est celui avec qui on a été le plus en contact.
+[13:08] D'ailleurs, je le considère maintenant comme un bon ami.
+[13:12] Et en fait, ils ont lancé Rocket Internet
+[13:14] quasiment en parallèle de Zalando, en fait.
+[13:16] Ils ont lancé en 2008 aussi, je crois.
+[13:19] Donc pendant qu'on construisait Zalando,
+[13:21] en parallèle,
+[13:22] les structures de Rocket Internet se montaient aussi.
+[13:25] Et je crois qu'à l'époque, Rocket Internet
+[13:27] était plus focalisé sur Groupon.
+[13:29] Il y avait quelques...
+[13:30] Je sais pas si tu connaissais cette entreprise.
+[13:32] C'était tellement grand, ils ont eu...
+[13:34] Ils ont même eu des parts plus grosses
+[13:36] que les fondateurs de Groupon
+[13:37] quand ils ont été rachetés par là...
+[13:40] Par les Américains.
+[13:41] Oui, voilà.
+[13:42] Ouais, je pense ou bien.
+[13:43] Ouais.
+[13:44] Et donc...
+[13:46] chez Zalando,
+[13:47] comme on grandissait en parallèle,
+[13:49] je crois qu'on était déjà un peu plus gros
+[13:51] quand Rocket a grossi aussi.
+[13:53] Donc il y avait des échanges,
+[13:54] il y avait des apprentissages communs.
+[13:57] Mais la personne avec qui j'ai le plus travaillé,
+[13:59] la personne qui était la plus utile pour moi,
+[14:01] c'était Alexandre Sommeur à cette époque.
+[14:03] Parce qu'il était vraiment...
+[14:07] Enfin, si je devais considérer,
+[14:08] je pense un mentor personnel.
+[14:10] Je pense que je dirais que c'était probablement Alexandre.
+[14:13] Ouais, Alexandre à l'époque.
+[14:15] Parce que lui, il avait beaucoup de bonnes expériences.
+[14:17] Mais c'était aussi un très bon partenaire
+[14:19] à la fois soutien et de challenge, tu vois.
+[14:22] Il était toujours du genre,
+[14:23] est-ce que tu vois assez grand?
+[14:24] Est-ce que tu rentres assez dans les détails?
+[14:27] Donc c'était un très bon partenaire de challenge, ouais.
+[14:29] Juste pour contextualiser
+[14:30] et vraiment sans vouloir te vexer.
+[14:33] Mais est-ce que tu dirais que
+[14:35] Zalando était un peu une copie de zappos
+[14:38] ou pas vraiment ou très différent?
+[14:42] Alors, bon, au bout du compte
+[14:44] et là-dessus, aucun jugement je m'en fiche.
+[14:46] C'est juste que...
+[14:47] Non. Mais au final, tu vois,
+[14:48] c'est une boîte de e-commerce de chaussures, quoi.
+[14:51] Donc, c'est pas vraiment...
+[14:54] comment dire...
+[14:55] Alors, en fait,
+[14:57] je crois que ce qui avait bien aidé à l'époque
+[15:00] c'était le fait de pouvoir pointer
+[15:03] n'importe où dans le monde.
+[15:04] Par exemple, vers une boîte qui fonctionnait déjà
+[15:06] à grande échelle,
+[15:08] tu vois.
+[15:10] Et je me refuse à dire que Zalando était une copie
+[15:12] parce que c'est pas du tout comme ça que je l'ai vécu.
+[15:15] Bon, c'est du e-commerce de chaussures.
+[15:17] Mais clairement,
+[15:18] c'est vrai qu'on a aussi utilisé
+[15:20] ce genre d'argument dans nos pitch-investisseurs.
+[15:22] Il y a une boîte zappos
+[15:24] aux États-Unis, 800 millions,
+[15:25] voire 1 milliard à ce stade.
+[15:27] Donc, ça aide quand tu dois lever des fonds.
+[15:29] Et c'est gros et ça aide à lever des fonds
+[15:31] en tout cas à l'époque, tu vois.
+[15:33] Et d'ailleurs, à l'époque,
+[15:34] c'était vraiment très, très dur en Europe
+[15:37] de lever des fonds.
+[15:38] Si tu ne pouvais pas montrer
+[15:39] que quelque part dans le monde,
+[15:40] il y avait déjà quelque chose.
+[15:41] C'est comme ça qu'on a eu le hubeur de ceci,
+[15:43] le Facebook de cela,
+[15:44] et puis le...
+[15:45] Exactement.
+[15:46] Et il y a eu une période avec le Airbnb
+[15:47] des camping cartes et compagnies.
+[15:48] Ouais, exactement.
+[15:49] C'était sûrement l'époque
+[15:50] où toi aussi, tu...
+[15:52] Ouais, non, il y en a eu plein des comme ça.
+[15:54] Euh, aussi...
+[15:56] Si tu te souviens à l'époque,
+[15:58] il y avait plein de galères.
+[16:00] Comandé des chaussures en ligne,
+[16:01] c'était pas genre...
+[16:03] Autorédie.
+[16:04] Jamais, je ferai ça.
+[16:06] C'était limite impensable,
+[16:08] à un moment,
+[16:09] construire un site web avant.
+[16:10] C'était pas genre...
+[16:11] Je vais sur Shopify et hop.
+[16:13] Il n'y avait pas de show-grain.
+[16:14] Il n'y avait pas de show-grain.
+[16:14] Pas de show-grain, non.
+[16:15] Et tu sais, même juste en qu'essai l'argent,
+[16:17] se faire payer en ligne,
+[16:18] c'était bien plus compliqué.
+[16:19] Oh, ouais, ouais.
+[16:20] Il n'y avait pas Stripe
+[16:21] ou ce genre de service qu'on a maintenant.
+[16:24] Tu peux expliquer comment
+[16:25] vous avez démarré avec tout ça
+[16:27] et l'évolution aujourd'hui,
+[16:29] c'est toujours votre techno.
+[16:31] J'ai vu que pas mal de boîtes récemment.
+[16:33] Je crois que ces vintèdes, en fait,
+[16:35] ils ont leurs propres vintèdes payes, non.
+[16:38] Je crois qu'ils n'utilisent pas de...
+[16:40] Comment on appelle ça déjà?
+[16:42] Un USB ou...
+[16:43] PSP.
+[16:44] PSP, ouais.
+[16:45] Tu peux m'expliquer où vous avez commencé,
+[16:47] comment ça a évolué.
+[16:49] C'était quoi vos réussites dans ces domaines?
+[16:52] Ouais.
+[16:54] Alors, quand on a démarré en 2009,
+[16:58] l'écosystème pour lancer une boîte
+[16:59] était totalement différent
+[17:01] de celui qu'on a aujourd'hui.
+[17:04] Donc, le logiciel de boutique, par exemple,
+[17:07] on n'avait vraiment pas beaucoup de choix disponibles.
+[17:11] Et donc, le logiciel de boutique
+[17:13] qu'on a utilisé au début,
+[17:14] c'était un truc open source.
+[17:16] Ça s'appelait Magento.
+[17:18] Ouais.
+[17:18] Évidemment.
+[17:19] Ouais, ouais.
+[17:21] Donc, ouais, c'était Magento
+[17:22] et c'était douloureux.
+[17:25] Ouais.
+[17:26] Ouais, une vraie galère.
+[17:27] Ouais.
+[17:28] Non, c'était...
+[17:29] Et on en est sorti au bout de deux ans
+[17:30] parce que ça, ce qu'il est plus.
+[17:31] Et on a développé nos propres logiciels de boutique.
+[17:34] Ah ouais?
+[17:35] D'accord.
+[17:36] Donc, à l'époque, c'était Magento
+[17:38] et il y en avait quelques autres aussi.
+[17:40] Mais par exemple,
+[17:41] pour le paiement,
+[17:42] on bossait évidemment
+[17:43] avec des prestataires de paiement,
+[17:45] mais très vite,
+[17:46] on a fait du paiement sur facture.
+[17:47] C'est le modèle de clarna en gros.
+[17:50] Le principe,
+[17:51] on t'envoie le produit
+[17:52] et tu paies après en crédit qu'on saut.
+[17:54] Ça, on a commencé à le construire nous-même
+[17:56] parce qu'il n'y avait tout simplement pas de clarna à l'époque.
+[17:59] D'accord.
+[18:00] Donc, on a fini par faire énormément de choses nous-même
+[18:03] parce qu'à l'époque,
+[18:04] il n'y avait juste pas de solutions scalables sur le marché.
+[18:07] Et on avait même nos propres serveurs
+[18:09] au démarrage,
+[18:10] tu te rends compte.
+[18:11] Mais on n'était pas sur un AWS
+[18:13] ni sur aucun cloud.
+[18:14] En fait,
+[18:15] on a vraiment démarré en mode tout maîtrisé,
+[18:17] tout fait maison.
+[18:18] Aujourd'hui,
+[18:19] on a encore beaucoup de choses en interne
+[18:21] mais on se demande constamment
+[18:22] ce qu'on a plus vraiment besoin de développer nous-même
+[18:25] parce que l'écosystème
+[18:26] est devenu tellement riche.
+[18:28] Mais il y a encore plein de trucs qu'on fait
+[18:31] sur la partie paiement, par exemple.
+[18:33] Le paiement sur facture,
+[18:34] c'est toujours un truc qu'on fait en interne
+[18:36] du moins pour l'Allemagne.
+[18:38] Le logiciel de boutique,
+[18:40] c'est le nôtre.
+[18:41] Le logiciel de logistique,
+[18:43] c'est le nôtre.
+[18:45] Et donc ça, ce sont vraiment
+[18:47] les gros points de différenciation
+[18:48] qu'on continue à développer nous-même.
+[18:51] Je trouve que
+[18:53] c'est un choix super difficile à faire de nos jours.
+[18:55] Je vois bien que
+[18:57] il y a plein de boîtes qui essaient, par exemple,
+[18:59] tu parlais du cloud.
+[19:01] Ils essaient de revenir sur leur propre cloud
+[19:03] parce que certains fournisseurs
+[19:06] sont les nommés genre Google,
+[19:08] AWS ou Microsoft,
+[19:10] deviennent tellement chers
+[19:12] que ça bouffe leur marge.
+[19:14] Parce que c'est le force bouffe ta marge,
+[19:16] parce que Google ads et métads
+[19:18] et au final tu astripes.
+[19:20] Je sais pas, la liste est longue,
+[19:23] tu les connais.
+[19:24] Mais il y a toute cette logistique
+[19:26] et tout le reste.
+[19:27] Et au final,
+[19:28] quelqu'un m'a dit l'autre jour,
+[19:29] je vais me débarrasser de mon
+[19:31] un de ceux que je viens de citer.
+[19:33] Et...
+[19:34] Ouais.
+[19:35] Et je vais sûrement gagner
+[19:36] genre 10% d'hébites d'a.
+[19:38] Et donc t'es là et tu te dis...
+[19:40] Attends, quoi ?
+[19:42] Enfin,
+[19:43] donc à un moment,
+[19:45] le message s'était
+[19:46] prend la voix facile.
+[19:48] Utilise tout ce qui
+[19:50] est disponible sur l'étagère grandit
+[19:52] et on verra après.
+[19:53] Ouais.
+[19:54] Et apparemment, c'est plus tellement vrai.
+[19:56] T'en penses quoi ?
+[19:58] Euh, ouais.
+[19:59] Alors...
+[20:00] Euh...
+[20:06] Eh bien, écoute.
+[20:08] Hier, justement,
+[20:09] j'ai parlé à un fondateur d'une boîte d'intelligence
+[20:11] artificielle allemande
+[20:13] qui tourne sur AWS
+[20:15] et qui d'un coup envisage de...
+[20:17] Enfin, de tout faire lui-même,
+[20:19] alors que c'est une boîte hurly stage.
+[20:21] Et je trouve ça intéressant
+[20:22] que ces questions reviennent.
+[20:23] Mais c'est très très dur de construire ça
+[20:26] soi-même tout en restant différencié
+[20:28] de façon plus efficace.
+[20:30] Parce que ces serveurs sont tarifés
+[20:32] d'une manière...
+[20:33] C'est quelque chose de vraiment, en fait,
+[20:36] il faut fournir tellement plus de boulot
+[20:39] pour arriver à la parité de...
+[20:41] de fonctionnalité qu'on aurait direct avec ces serveurs.
+[20:44] C'est une question difficile, franchement.
+[20:46] Après, peut-être que avec l'air de l'intelligence artificielle
+[20:50] et vu comme le code s'écrit facilement maintenant,
+[20:53] par exemple,
+[20:55] je pense qu'il y a tellement de codes
+[20:57] qui peuvent être écrits par l'IA.
+[20:59] Et donc, à mon avis,
+[21:01] ces questions se rouvrent un peu justement.
+[21:03] Mais ce que je veux dire,
+[21:05] c'est qu'il y a plein de compétences
+[21:07] pour gérer sa propre infrat
+[21:08] qui existait ici en Europe.
+[21:10] On sait plus trop où elles sont passées.
+[21:12] Donc il faudrait les reconstruire.
+[21:14] Oui.
+[21:15] C'est vrai que si tu prends juste la logistique
+[21:19] ou bien, comme tu disais,
+[21:21] le cloud computing,
+[21:22] le fait de repartir sur ses propres serveurs, tout ça.
+[21:25] Oui.
+[21:26] L'ardondance, partout dans le monde,
+[21:28] franchement, pfff.
+[21:29] Oui, c'était énorme.
+[21:30] C'est un truc que t'as sûrement pas envie de faire
+[21:32] et ça demande énormément d'investissement.
+[21:33] Oui, c'est pas notre approche.
+[21:35] Oui.
+[21:36] Ok, tu pourrais peut-être me donner quelques chiffres
+[21:39] sur Zalando aujourd'hui.
+[21:41] J'ai entendu que vous étiez 7 000 rien qu'ici à Berlin.
+[21:45] C'est bien quelque chose comme ça.
+[21:47] Pour les employés, tu veux dire ?
+[21:49] Oui.
+[21:50] Oui, alors la plupart des chiffres sont publiques.
+[21:52] 7 000 à Berlin, oui.
+[21:54] Je crois qu'on a 17 000 employés chez Zalando.
+[21:58] On emploie pas tous les centres logistiques,
+[22:01] donc une grande partie de la logistique.
+[22:03] C'est pas nous qui l'employons.
+[22:05] On passe par des boîtes qui employent les travailleurs.
+[22:08] Donc ça fait 17 000.
+[22:10] Et niveau grand chiffre.
+[22:12] Cette année, on est à environ 20 milliards de GMV.
+[22:16] Wow.
+[22:17] J'étais resté sur 16, donc c'était sûrement la année dernière, non ?
+[22:21] Le GMV, c'est-à-dire le GMV ?
+[22:22] Oui.
+[22:23] Le volume global.
+[22:24] Oui.
+[22:25] Donc c'est donc 20 milliards.
+[22:27] 20 milliards de GMV, oui.
+[22:29] Sur l'ensemble de nos activités grand-publieques globalement
+[22:33] et des bénéfices entre 650 et 750 millions.
+[22:36] On a une activité business to customer
+[22:38] porté principalement par trois applis.
+[22:40] L'appli Zalando, l'appli Aboutiu et Lunge,
+[22:43] ou Zalando privé, l'appli Lunge, quoi.
+[22:46] Et ensuite, on a une activité business to business
+[22:49] qu'on a lancé il y a deux ans.
+[22:51] En gros, on propose les services qu'on a construit pour nous-mêmes,
+[22:55] en tant que plateformes e-commerce au marque,
+[22:58] pour qu'elle gère leur activité non seulement sur Zalando,
+[23:01] mais aussi en dehors de Zalando grâce à ces services.
+[23:04] C'est un peu comme Amazon Fulfillment dans le genre.
+[23:07] Oui, mais en plus large, j'ai tu vois,
+[23:09] parce que quand une marque, par exemple, est active sur la marque
+[23:12] et de place Zalando sur le partner business
+[23:14] et qu'elle utilise notre service de Fulfillment
+[23:16] pour traiter les commandes et profiter des avantages,
+[23:19] des commandes groupées,
+[23:21] elle peut aussi utiliser le même genre de service
+[23:24] pour sa propre activité, en direct tout consumer.
+[23:26] D'accord.
+[23:27] Donc, pour le site de la marque, elle-même,
+[23:29] mais aussi pour d'autres marketplace, tu vois.
+[23:32] Elle peuvent tout gérer via notre système.
+[23:34] Ça, c'est le côté logistique.
+[23:36] Et on a aussi un logiciel de boutique e-commerce avec Scale,
+[23:39] qu'on a racheté il y a un an avec Aboutiu.
+[23:43] D'accord.
+[23:45] Super.
+[23:46] Donc, si je veux lancer mon site e-commerce,
+[23:48] je peux le faire presque entièrement sur la technologie
+[23:51] et l'infrastructure Zalando.
+[23:53] Ouais, enfin, c'est pas encore vraiment pensé pour les tout petits.
+[23:56] Ok.
+[23:58] Le logiciel de boutique non, Scale, c'est plutôt un logiciel taillé
+[24:01] pour les grandes entreprises.
+[24:03] Par exemple, des marques comme les vis et l'annonce
+[24:06] qu'ils ont fait aujourd'hui.
+[24:07] Donc, plutôt, ces grandes marques-là.
+[24:09] D'accord.
+[24:10] Et Zéos, le service de Fulfillement, c'est pareil.
+[24:13] C'est plutôt orienté, grande marque.
+[24:16] Mais à terme, on sera aussi mieux adapté pour les plus petites.
+[24:20] Et alors, le cloud, ce sera la prochaine étape, du coup ?
+[24:23] Ouais, enfin, je crois que certains...
+[24:25] Zalando web service.
+[24:27] Ouais.
+[24:28] En fait, notre façon de voir notre activité, business to business,
+[24:33] c'est qu'il y a des similitudes avec un modèle cloud.
+[24:38] Parce qu'au lieu de construire toi-même une solution e-commerce
+[24:41] ou un entrepôt e-commerce quelque part en Europe,
+[24:44] et d'investir tout le Québec et de faire tous les raccordements.
+[24:48] Pour pouvoir livrer en France, tu dois connecter tel et tel prestataire.
+[24:52] Sinon, pour livrer en Suisse, par exemple,
+[24:55] tu dois te brancher sur une solution doignère ou sur la Norvège
+[24:58] et ainsi de suite.
+[24:59] Donc, il y a tellement de raccordements à faire du point de vue,
+[25:02] e-commerce, au site jugeur, un service en silo séparé.
+[25:06] Et au lieu de ça, tu as zéos,
+[25:09] t'as tout le réseau Zalando, tout, et tu paies juste à l'usage.
+[25:13] Voilà.
+[25:14] Et t'as aussi l'avantage d'avoir un seul inventaire et un seul système
+[25:18] et t'as pas de système d'inventaire séparé
+[25:20] où tu dois destocker la marchandise séparément.
+[25:24] Ouais.
+[25:25] Et on investit beaucoup dans ce réseau.
+[25:28] Donc, avec tous ces investissements,
+[25:30] toutes ces nouvelles capacités, tu en profites
+[25:33] à coup marginal, très faible.
+[25:35] T'es en train de dire...
+[25:36] Donc, ça a des similarités.
+[25:38] Mais donc, t'es un peu en train de dire que,
+[25:41] qu'en fait, c'est très difficile de grandir en Europe,
+[25:44] notamment à cause de toutes ces spécificités fiscales ou bien...
+[25:48] Ouais.
+[25:49] Ouais, je pense que ce que nous, ce qu'on dit souvent,
+[25:53] c'est que je pense que la raison pour laquelle Zalando a toujours été
+[25:58] si performant, c'est six ou sept dernières années,
+[26:01] c'est à cause de la belle complexité de l'Europe, en fait.
+[26:04] Parce que c'est bien que ce soit, tu sais,
+[26:07] 400 millions de personnes, mais ce n'est pas comme 400 millions de personnes
+[26:10] sur un seul marché.
+[26:11] Donc, il y a tellement de langues différentes.
+[26:13] Il y a tellement de différents, par exemple,
+[26:15] moyens de paiement de systèmes logistiques ou bien de législations.
+[26:19] Et donc, ce n'est pas un marché unique du point de vue e-commerce.
+[26:23] Ouais.
+[26:24] Donc, c'est très difficile de vraiment construire une offre
+[26:26] pour tous ces différents pays.
+[26:29] Certains disent.
+[26:30] Et donc, pardon.
+[26:31] Et certains disent,
+[26:33] j'ai lu ça récemment qu'on a en quelque sorte
+[26:35] nos propres droits de douane.
+[26:36] C'est pas un droit de douane physique,
+[26:39] mais c'est une logistique.
+[26:40] C'est auto-infliger.
+[26:41] Et tout un cadre.
+[26:42] Auto-infliger.
+[26:43] Ouais.
+[26:44] Des droits de douane qui peuvent monter pour certains pays,
+[26:46] jusqu'à 100% parce qu'ils sont tellement dur à pénétrer.
+[26:48] Ouais.
+[26:49] Enfin, je dirais plutôt des droits de douane réglementaire
+[26:51] et culturel auto-infliger.
+[26:53] Mais est-ce que ça devrait changer un moment donné,
+[26:55] ça marche bien pour vous, tout ça,
+[26:57] parce que vous avez réussi à les décoder,
+[26:59] peut-être que vous n'aurez aucun intérêt à ce que ça change.
+[27:02] Enfin, je me mets à votre place,
+[27:05] parce que si c'est plus facile,
+[27:06] vous aurez peut-être plus de concurrents.
+[27:08] Bon, je pense qu'on aurait sûrement eu besoin
+[27:11] de bosser 40-50% de moins sur ces sujets
+[27:15] et on aurait eu plus de temps pour s'attaquer à d'autres trucs.
+[27:19] Donc, ouais, c'est peut-être un des moteurs de notre succès,
+[27:23] le fait qu'on se soit plus concentré
+[27:27] sur ces problèmes typiquement européens.
+[27:30] Mais globalement, pour l'Europe, ce serait bien mieux
+[27:32] d'avoir un vrai marché unique, simple
+[27:35] et surtout qui rendent les choses vraiment facile à construire.
+[27:38] Parce que c'est vrai qu'au final,
+[27:40] si on se compare aux Etats-Unis ou bien à la Chine,
+[27:42] c'est un marché qui est vraiment énorme, en fait.
+[27:45] Mais je pense qu'on se complique vraiment la vie
+[27:47] pour construire de grandes boîtes sur ce marché
+[27:49] parce qu'il est tellement...
+[27:50] Et donc, du coup, on a genre...
+[27:51] Il dit que c'est un sigre en marché, en théorie,
+[27:53] mais qui n'est pas un sigre en marché en pratique.
+[27:57] Et donc, tu crois que ça peut changer ?
+[27:59] Si je crois que ça peut changer,
+[28:02] j'espère que ça peut changer, ouais.
+[28:04] Et je veux dire,
+[28:09] j'espère que nous, en tant que européen,
+[28:13] nous voyons que dans cette course,
+[28:16] à la pertinence,
+[28:17] qui je pense se produit en ce moment,
+[28:20] dans cette course qui se produit en Chine ou aux Etats-Unis,
+[28:23] on ne peut gagner qu'en étant ensemble.
+[28:26] Parce que tous les marchés nationaux pris individuellement
+[28:28] sont trop petits,
+[28:30] vraiment trop petits, ni l'Allemagne, ni la France.
+[28:33] On est tous un peu trop petits,
+[28:36] mais ensemble, on peut vraiment être très puissant.
+[28:39] Mais il faut qu'on soit capable
+[28:42] ou prêt à travailler ensemble.
+[28:45] Je pense aussi qu'on doit être prêt
+[28:47] à s'aider un peu de nos intérêts nationaux parfois
+[28:50] pour le bien commun,
+[28:52] pour créer un beau chemin pour l'Europe à venir.
+[28:54] Voilà, c'est mon espoir.
+[28:56] Ouais, je pense que c'est ça.
+[28:58] C'est mon espoir aussi.
+[29:00] Tiens, en parlant de ça,
+[29:02] on parle de différences qui sont de bonnes choses,
+[29:04] être différents.
+[29:06] Mais d'abord,
+[29:08] j'aimerais qu'on revienne à ma question de tout à l'heure
+[29:10] sur les différences entre les marchés français et allemands.
+[29:14] Ouais.
+[29:15] Ce que je comprends du marché allemand,
+[29:17] c'est que le volume du e-commerce est bien plus gros
+[29:19] qu'en France, genre, sans comparaison.
+[29:21] Mais c'est aussi très complexe
+[29:23] parce que j'ai entendu,
+[29:25] je sais pas si c'est toujours vrai,
+[29:26] mais il y a longtemps que le volume de retour est aussi très élevé ici
+[29:31] et beaucoup plus qu'en France et dans d'autres pays.
+[29:34] Je veux dire que peux-tu m'expliquer la...
+[29:36] La différence ?
+[29:37] Oui, différence culturelle.
+[29:38] Ouais.
+[29:39] Et oui, comment sont par ça ?
+[29:41] Oui, enfin...
+[29:42] Et peut-être que d'autres pays seraient intéressés
+[29:45] par des choses très spécifiques, mais bon...
+[29:47] Ouais, je veux dire,
+[29:49] je pense que j'ai personnellement commencé à apprécier
+[29:51] à quel point l'Europe est vraiment différente
+[29:53] quand on est passé à l'international.
+[29:55] On est resté 15 ans et demi en Allemagne avec Zalando.
+[29:58] Et ensuite, on a commencé à s'internationaliser.
+[30:01] Le premier pays, c'était les Pays-Bas.
+[30:04] Et en Allemagne,
+[30:06] on a eu un énorme succès grâce à notre pub
+[30:08] qui est passé à la télé-laba
+[30:10] des gens dans ce spot.
+[30:12] Alors tu sais,
+[30:14] tu as un gars qui est assis dans une armoire
+[30:16] et il fait tout noir.
+[30:17] Et il chute à la caméra
+[30:19] ne laissez jamais votre femme découvrir Zalando,
+[30:22] et ça, c'était en 2010, tu vois,
+[30:24] ou genre en 2009.
+[30:26] Ouais, en 2009 ou 2010.
+[30:29] Et ouais, genre,
+[30:31] parce que ça a gâché ma vie, tu sais.
+[30:33] Et puis, il y a des chaussures partout.
+[30:35] Et là, le facteur sonne à la porte et la femme crie.
+[30:37] Et lui, il se met aussi à crier.
+[30:38] C'était un cri de joie, si tu veux pour elle.
+[30:40] C'était notre image de marque.
+[30:41] Ça a été un énorme succès.
+[30:43] On s'est développé en Allemagne
+[30:44] en un an de 6 millions à 150 millions de revenus.
+[30:47] Ouais, juste en un an.
+[30:48] Un an, d'accord.
+[30:49] Un an, donc c'était la deuxième année des opérations.
+[30:51] Et puis pendant la troisième année,
+[30:53] en fait, la première année, on a fait 6 millions,
+[30:55] la deuxième année 150 ou 160 millions
+[30:57] et la troisième année, 500 millions.
+[30:59] Du tout pas mal.
+[31:01] La logistique, le fric, tout ça,
+[31:03] ça a dû être un vrai cauchemar.
+[31:05] Ouais, tu sais.
+[31:06] J'ai fait plein de nuits blanches à cette époque.
+[31:09] Mais en fait, sur le moment, on se disait,
+[31:11] OK, on va déjà voir si c'est pas juste un truc allemand
+[31:14] ou si on peut vraiment fonctionner à l'échelle européenne.
+[31:17] Et donc, du coup, on est allé au Pays-Bas
+[31:21] et en fait, on avait déjà une équipenaire l'endès sur place.
+[31:23] Donc, on leur a juste demandé de faire passer cette pub
+[31:27] parce que ça marche.
+[31:29] Ça marche.
+[31:30] On voyait les chiffres et ça marchait vraiment bien.
+[31:32] Elle nous a vraiment aidée à passer de 6 à 150 millions.
+[31:34] Mais l'équipenaire l'endès nous a dit,
+[31:36] non, on ne peut pas la passer ici.
+[31:38] J'ai dit pourquoi pas.
+[31:39] Et en fait, ils ont expliqué qu'ils comprendraient juste pas cet humour.
+[31:41] Et donc, moi, j'ai dit quand même,
+[31:43] n'aire l'endès et allemand, c'est un peu pareil, non ?
+[31:45] Vous êtes frères, non, c'est pareil.
+[31:47] C'est simila.
+[31:48] Et au final, on les ajuste,
+[31:50] forcer, à faire passer la pub à la télé-nère l'endès.
+[31:53] Et on a été tellement critiqué au Pays-Bas,
+[31:57] on a reçu tellement de mauvais retours pour cette pub,
+[32:00] parce que tu sais, ce cliché des rôles de genre
+[32:03] passer encore très bien comme humour en Allemagne,
+[32:05] bien sûr, aujourd'hui, ça passeraient plus du tout.
+[32:07] Mais c'était encore vu comme du bon humour en Allemagne.
+[32:10] Mais par contre, on trouvait ça déjà plus drôle du tout au Pays-Bas.
+[32:13] Donc, on a été très critiqué.
+[32:14] Et je pense qu'on a gagné le prix de la pire pub
+[32:16] et de la pire image de Marc au Pays-Bas.
+[32:18] Alors, quand même temps, on a gagné un prix
+[32:19] pour l'efficacité de notre image de Marc en Allemagne.
+[32:21] Je pense que ça m'a vraiment appris quelque chose
+[32:23] sur la façon dont les pays peuvent être différents, tu sais.
+[32:27] J'ai juste une petite question avant de passer à la suivante.
+[32:31] Est-ce que ça a marché au final ?
+[32:33] Je veux dire, malgré la mauvaise pub et même la pire image de Marc ?
+[32:37] Oui.
+[32:38] Parce qu'on dit souvent qu'il n'y a pas de mauvaise publicité.
+[32:40] Et c'est vrai qu'au final, les gens savaient que
+[32:43] zalent d'auvender des chaussures et qu'à priori ils le faisaient bien.
+[32:46] Donc, vous avez bien vendu ?
+[32:48] Oui, donc je veux dire, ça a quand même marché commercialement
+[32:51] parce qu'on a apporté une gamme de choix tellement grande
+[32:53] qu'on avait construit en Allemagne au Pays-Bas,
+[32:55] ce qui était inédit.
+[32:56] Du coup, ça a vraiment marché, oui.
+[32:59] Mais pour ce qui est de la pub qui est passée à la télé,
+[33:03] elle a pas vraiment aidé pour le tunnel de conversion, tu sais.
+[33:07] Et ça nuit à la marque.
+[33:08] Oui, c'est clair, ça a vraiment nuit à notre image.
+[33:11] Genre, en Allemagne, à l'époque, les gens plaisantaient autour de la marque
+[33:15] et c'était toujours de bon cœur.
+[33:16] Par exemple, j'entendais souvent des gens criés dans la rue
+[33:19] quand ils me voyaient porter des colises à l'endôre, tu sais.
+[33:21] Mais au Pays-Bas, les gens avaient honte quand ils commandaient chez l'endôre.
+[33:25] Donc voilà, ça n'a pas vraiment aidé.
+[33:27] On avait vraiment une image de marque pas terrible.
+[33:29] On a dû investir pas mal pour améliorer ça
+[33:32] avec des pubs différentes et plus locales pour vraiment pouvoir décoller.
+[33:35] Donc c'est là que j'ai appris à quel point l'Allemagne
+[33:37] et le reste de l'Europe sont culturellement différentes.
+[33:40] Et d'ailleurs ensuite, la prochaine étape
+[33:42] ça a été d'essayer d'entrer dans le marché français.
+[33:45] Et je me souviens très bien, c'était en janvier.
+[33:48] Et donc, quand on a lancé Zalando sur le marché français,
+[33:53] on a vu des chiffres qui étaient vraiment très impressionnants.
+[33:56] Mais en fait, à l'époque, je comprenais pas vraiment à quel point...
+[34:01] Enfin, je comprenais pas l'importance culturelle des soldes.
+[34:04] Tu sais, parce que à l'époque c'était un phénomène culturelle vraiment important,
+[34:07] la période des soldes en France.
+[34:09] Vraiment, tout le monde achète à ce moment-là.
+[34:11] Donc quand j'ai vu ces chiffres et que j'ai fait la comparaison,
+[34:14] je me suis dit, d'accord, wow.
+[34:15] En fait, la France, c'est bon, c'est boucler, on peut passer au suivant.
+[34:18] Sauf que après la fin des soldes, nos chiffres ont chuté
+[34:20] à quasiment zéro au final.
+[34:22] Donc ouais, c'était vraiment un marché compliqué à serner.
+[34:24] Oui, donc pour ceux qui connaissent pas les soldes,
+[34:26] pour ceux qui parlent anglais, c'est en janvier et en juin.
+[34:29] Et c'est en fait des périodes de remises.
+[34:32] Oui.
+[34:33] Et en fait, il y a aussi un aspect légal.
+[34:36] Si tu veux, tu as certaines périodes données en janvier et juin,
+[34:39] il me semble.
+[34:40] Oui, c'est ça je crois.
+[34:42] Et gens, ce sont les seuls moments de l'année
+[34:44] où les commerçants ont le droit de faire de gros rabais.
+[34:47] Oui.
+[34:48] Et donc les gens achètent juste énormément.
+[34:50] Énormément au rabais.
+[34:51] Donc sur ces périodes-là, les ventes explosent.
+[34:53] Mais c'est qu'une période précise.
+[34:55] Et on voit bien que tout n'est pas disponible.
+[34:57] Je veux dire, tout n'est pas soldé.
+[34:59] Ça dépend des tailles et des couleurs.
+[35:01] C'est des produits spécifiquement soldés.
+[35:03] Mais oui, en général, t'achètes que des produits soldés
+[35:05] pendant cette période.
+[35:06] Oui, bien sûr, nos marches brutes n'étaient pas top.
+[35:08] Mais quand j'ai vu au ce volume qu'on a,
+[35:11] toute la France doit nous connaître maintenant.
+[35:13] Et donc moi, je prévoyais des tendances similaires à Jean-Lalmain
+[35:16] ou au Pays-Bas, tu sais.
+[35:18] Et donc j'avais dit à mon équipe à l'époque,
+[35:20] ouais, je pense que la France, c'est bon, c'est boucler.
+[35:23] Là, on peut juste passer au marché suivant.
+[35:25] Et puis, juste après, nos chiffres ont chuté.
+[35:28] J'ai toujours un peu la honte quand je repense à ce que j'ai dit.
+[35:31] Parce que ça a toujours été un marché très difficile à serner
+[35:35] avec un type de consommateur et de goût très différent.
+[35:38] Et puis, il y a aussi le comportement de retour des Français,
+[35:41] qui est aussi très différent d'une autre.
+[35:43] Donc ça reste un marché vraiment unique.
+[35:46] C'est toujours un marché difficile, d'après toi.
+[35:49] Et bien, je veux dire, c'est toujours un marché qui,
+[35:52] enfin, je dirais que maintenant on l'a bien développé
+[35:55] et on est très content de nos chiffres.
+[35:58] Mais oui, c'est toujours un marché différent.
+[36:01] C'est toujours un marché où je pense qu'on doit
+[36:03] vraiment penser différemment et permettre à nos responsables
+[36:05] dans ce pays beaucoup de liberté
+[36:07] pour pouvoir tester différents mécanismes.
+[36:09] C'est un pays qui fonctionne très différemment
+[36:11] des pays nordiques ou de l'Allemagne.
+[36:14] On est très focalisés sur les prix, je dirais.
+[36:16] C'est vraiment ce qu'on regarde.
+[36:18] Oui, les prix.
+[36:19] Les prix sont très importants.
+[36:21] Le comportement de retour est très différent.
+[36:23] Je veux dire, c'est intéressant parce que, en fait,
+[36:25] les Français ne font que moitié moins de retour
+[36:27] que les Allemands environ.
+[36:28] Mais ils sont beaucoup plus motivés par les prix.
+[36:31] Écurieusement, même en Suisse, où il y a des francophones
+[36:33] et des germanophones, bien que ce soit le même pays.
+[36:36] Et bien, on voit que les francophones
+[36:38] retournent beaucoup moins d'articles que les germanophones.
+[36:42] Et si le germanophones retourne plus,
+[36:44] sont sélevés et souvent plus élevés
+[36:46] parce qu'il est plus fidèle à la marque, tu sais.
+[36:47] Donc, il revienne plus souvent.
+[36:49] Et les Français, il faut les réacquérir
+[36:50] et les reconvencre bien plus souvent.
+[36:52] Oui, ça, je le vois bien carrément.
+[36:54] Oui, complètement.
+[36:55] Alors, qu'est-ce que tu vends aujourd'hui ?
+[36:57] Pas seulement des chaussures, tu vends aussi des sacs
+[37:00] et autres...
+[37:01] Oui.
+[37:02] Donc, je pense qu'on considère vraiment
+[37:04] la portée de Zalando comme centré sur le lifestyle, tu sais.
+[37:07] Donc, tout ce qui est un peu émotionnel,
+[37:09] c'est là où les marques jouent un grand rôle.
+[37:11] On boss avec environ 7 000 marques chez Zalando.
+[37:14] Les marques s'accontent et les émotions s'accontent aussi.
+[37:17] Les produits peuvent aussi être très personnels
+[37:19] comme un t-shirt que t'aime bien,
+[37:21] que moi, je pourrais ne pas aimer, tu vois.
+[37:23] Le t-shirt, lui-même, n'est pas important en fait.
+[37:25] C'est surtout l'œil du client qui compte.
+[37:27] Et donc, la façon dont les émotions jouent un grand rôle,
+[37:31] c'est à travers la mode, c'est à travers le sport.
+[37:34] Le sport est une de nos priorités en ce moment.
+[37:37] Il y a aussi les produits beautés et récemment
+[37:39] on a ajouté quelques articles pour la maison.
+[37:42] Donc, c'est vraiment un très large éventail de produits.
+[37:44] Et en gros, c'est un marché d'environ 500 milliards d'euros.
+[37:48] Donc, tu peux vendre des canapés et du maquillage et...
+[37:52] Non, non, pas des canapés, non.
+[37:53] En fait, il faut que tout ce qu'on vend puisse être livré dans un carton, tu vois.
+[37:56] Il ne faut pas avoir besoin de deux hommes pour le transport.
+[38:01] Si je prends Amazon, ils ont probablement
+[38:04] qu'on dit sous 14 ans de plus que Zalando
+[38:07] et ils vendaient des livres.
+[38:09] Oui.
+[38:10] Et vous, vous avez commencé par les chaussures.
+[38:13] Comment ça se fait qu'il n'y ait pas d'Amazon européen à ton avis ?
+[38:17] Vous êtes as-unit, tu veux dire ?
+[38:19] Non, en Europe.
+[38:20] Je veux dire, il n'y a rien de comparable.
+[38:22] Mais toi, tu pourrais l'être, non ?
+[38:25] Tu pourrais vendre plein d'autres choses.
+[38:29] Enfin, t'as choisi d'être dans le lifestyle,
+[38:32] mais tu pourrais vendre des livres
+[38:34] ou tout ce qu'on peut trouver sur Amazon, en fait.
+[38:38] C'est un choix délibéré, ça ?
+[38:40] C'est quelque chose auxquels on peut s'attendre, tu penses ?
+[38:43] Et pourquoi personne ne l'a encore fait ?
+[38:45] Et bien, je dirais que, ouais, c'est vraiment un choix qu'on a fait
+[38:49] de pas se diriger vers la vente de produits généraux.
+[38:52] Parce que, une fois que tu commences à te lancer là-dedans,
+[38:55] tout devient beaucoup plus accès sur la fonctionnalité.
+[38:57] Et sur le prix, tu vois ?
+[38:59] Alors, ça, à ces avantages.
+[39:01] Mais je pense que Amazon est déjà développé sur une échelle énorme et très bonne.
+[39:06] En fait, on a découvert que les défis
+[39:08] dans le domaine du lifestyle sont super intéressants et profonds.
+[39:11] Tu vois ? Il y a vraiment tellement de choses
+[39:13] qui ne sont pas encore résolues.
+[39:15] Je veux dire, ne se reste qu'au niveau de la taille et des mensurations, tu sais.
+[39:19] Combien de fois, ça t'est arrivé de commander un truc qui ne t'allait pas ?
+[39:22] C'est encore un problème pas totalement résolu
+[39:24] dans le monde du prêt à porter.
+[39:26] Ou alors, comme c'est un très long catalogue de produits,
+[39:28] comment faire pour vraiment guider les consommateurs vers le produit
+[39:31] qui est parfait pour eux et tout ça en très peu de temps ?
+[39:34] Donc, en fait, il y a tellement de types d'émotions différentes
+[39:37] qu'on peut ressentir dans ces parcours d'achat
+[39:40] qui ne sont pas encore vraiment accessible en ligne finalement.
+[39:44] Dans la mode et le lifestyle, il y a encore plein de choses
+[39:46] qui, je dirais, ne sont pas encore résolues si tu veux.
+[39:49] Et pour l'instant, on veut plutôt se concentrer sur ces problèmes-là.
+[39:52] Et je veux dire, on fait rentrer environ 20 milliards d'euros.
+[39:56] Tu sais, pour un marché européen qui en vaut 500 milliards.
+[39:59] Donc, au final, on représente encore qu'une petite par de notre propre marché
+[40:03] et la pénétration du e-commerce dans ce marché représente seulement 30 %.
+[40:07] Donc, environ 70 % de ce marché est encore hors ligne, tu comprends ?
+[40:11] Le reste, c'est genre dans des magasins physiques.
+[40:14] Donc, je pense qu'il y a tellement plus de potentiels à se concentrer uniquement sur ce domaine.
+[40:18] Et je pense que c'est aussi très crédible pour le consommateur
+[40:21] d'avoir une destination où tu vas plutôt pour retrouver un certain parcours d'achat
+[40:24] et pas seulement parce que je veux une machine à laver
+[40:26] et je veux la voir vite ou je veux un livre
+[40:29] et je sais exactement ce que je veux.
+[40:31] Donc, c'est surtout là-dessus qu'on se concentre.
+[40:33] C'est très intéressant parce que chez les champions du e-commerce,
+[40:36] si on peut les appeler comme ça,
+[40:38] en Europe, les gens prennent plein de directions différentes, non.
+[40:42] Enfin, j'ai reçu pas mal de monde sur ce podcast.
+[40:46] Y compris, par exemple, quelques fondateurs de VP,
+[40:49] vendent privé, ou le fondateur de COCA.
+[40:52] Tu le connais peut-être, parce qu'elle meilleurs en Suisse.
+[40:55] Et je veux dire, certains d'entre eux ont probablement
+[40:58] juste commencé avec tu sais, des chaussures ou des trucs comme ça.
+[41:02] Et ensuite, ils vendent du vin et ça devient pas leur délire,
+[41:04] ils se mettent à fond et tu te demandes, il s'est passé quoi là ?
+[41:08] Et genre, ça prend de l'ampleur très vite
+[41:10] et il développe leurs propres chaînes logistiques comme pour COCA
+[41:14] pour vendre du vin à travers l'Europe.
+[41:16] Avec tout un réseau de transports et tu te dis,
+[41:18] wow, d'accord, c'est bizarre, mais ensuite ça marche.
+[41:21] C'est vraiment étrange, mais c'est une bonne idée.
+[41:24] Mais de ton côté, tu as déjà essayé des idées bizarres
+[41:27] qui n'allait probablement pas marcher,
+[41:29] qu'elles sont tes idées les plus étranges
+[41:31] qui ont fonctionné ou pas ?
+[41:33] L'idée la plus étrange, les idées les plus étranges
+[41:36] qu'on a eu, ou les plus grosses échecs, je sais pas, les deux.
+[41:41] Et bien, je veux dire pour ce qui est de nos plus grosses échecs,
+[41:44] évidemment, après plus de 16 ans,
+[41:46] t'auras forcément essayé des trucs qui n'auront pas marché.
+[41:49] En fait, au début, on a essayé, je crois, en 2012 ou par là,
+[41:53] de créer une plateforme de luxe, tu vois.
+[41:56] Mais ça n'a pas marché,
+[41:58] c'était pas vraiment dans notre ADN.
+[42:00] On n'a pas pu vraiment travailler avec les marques de luxe
+[42:03] et offrir une autre expérience.
+[42:05] Et on pouvait pas vraiment s'appuyer sur notre propre fonctionnement
+[42:08] pour ça, tu sais.
+[42:09] Donc ça, c'était le luxe.
+[42:11] Un peu comme Farfetch, en fait.
+[42:13] Oui, c'était à peu près la même direction que Farfetch
+[42:16] et Net Apporté et ses marques-là.
+[42:18] Mais donc, on a aussi essayé,
+[42:20] en fait, on a essayé le modèle du consommateur à consommateur.
+[42:25] L'occasion, tu sais, comme Vinted.
+[42:27] Mais on a senti que c'était pas vraiment notre truc,
+[42:29] c'était pas dans notre ADN l'occasion.
+[42:32] En fait, en tant qu'entreprise de commerce en ligne,
+[42:35] t'es très concentré sur le processus,
+[42:37] faire en sorte que les choses fonctionnent vraiment.
+[42:39] Et pour le consommateur et consommateur,
+[42:40] ça marche un peu plus comme un réseau social.
+[42:42] Parfois, c'est un peu désordonné.
+[42:43] C'est dans notre ADN,
+[42:45] on veut toujours améliorer le processus,
+[42:47] ce qui le rend parfois un peu moins amusant.
+[42:49] Donc voilà, ces idées-là,
+[42:51] c'était vraiment ce qu'on a fait de plus bizarre
+[42:53] après un ou deux ans, on a fini par les laisser tomber.
+[42:56] Donc, vous avez essayé une entreprise de type Vinted ?
+[42:59] Oui, et alors, ça s'appelait circule, en fait.
+[43:02] Mais si tu veux,
+[43:03] il y avait des interactions avec Zalando.
+[43:05] Du coup, tu pouvais vraiment échanger
+[43:07] genre tous les articles Zalando que t'avais,
+[43:09] et puis aussi mettre en ligne tes propres articles
+[43:12] et profiter un peu du compte client Zalando.
+[43:14] Mais ouais, je pense que Vinted,
+[43:16] tu sais, le modèle consommateur à consommateur
+[43:19] c'est vraiment différent de ce qu'on fait.
+[43:21] Donc, je me suis dit,
+[43:23] ok, peut-être que c'est pas vraiment la bonne idée
+[43:25] de continuer à développer ça à grande échelle, en fait.
+[43:28] Et aussi, il y avait le fait que nos marques
+[43:30] et les marques avec lesquelles on travaille,
+[43:32] elles n'ont pas trop aimé qu'on soit une plateforme
+[43:34] où leurs articles pouvaient parfois se retrouver en seconde main
+[43:37] dans un marché d'occasion,
+[43:39] où elles n'avaient plus aucun contrôle dessus.
+[43:41] Et donc, on a arrêté.
+[43:42] Ça, c'est vous plus gros échecs ?
+[43:43] Et bien, je veux dire,
+[43:44] ouais, c'est nos plus gros échecs.
+[43:46] Mais je pense que au final,
+[43:47] ce sont plutôt des petits échecs tout qu'on te fait.
+[43:51] Mais en fait,
+[43:52] je pense que si tu me demandais qu'elle est honnêtement,
+[43:55] selon moi, la plus grande erreur de Zalando,
+[43:57] je dirais qu'on ne sait pas assez diversifier,
+[44:01] notamment vers des secteurs à la croissance à courbans S.
+[44:05] Donc, ce que je veux dire par courbans S,
+[44:08] tu vois, si tu prends des boîtes comme genre
+[44:11] les très grosses comme Google,
+[44:13] ou un Amazon ou Alibaba en Chine,
+[44:15] je pense qu'ils ont commencé par un petit noyau solide
+[44:19] et ont su, tu sais, entrer dans de nouvelles courbans S très rapidement.
+[44:23] Par exemple, tu sais, Amazon Books stagne totalement aujourd'hui.
+[44:27] Donc, s'ils étaient restés une entreprise de revente de livres,
+[44:30] je pense que ça serait resté une entreprise plutôt petite.
+[44:33] Ou genre, tu sais, Google maintenant,
+[44:35] ils ont map et YouTube, etc.
+[44:38] Donc, ils ont beaucoup de nouvelles entreprises.
+[44:40] Je crois que c'est certainement une grosse erreur
+[44:43] de ne pas avoir implementé assez tôt des secteurs à courbans S.
+[44:46] Et c'est trop tard pour ça ?
+[44:48] Genre, tu pourrais faire une partie de Zalando,
+[44:50] style le Roi Merlin pour la maison.
+[44:52] Tu sais, comment dire pour faire du bricolage,
+[44:54] tu vois ce que je veux dire ?
+[44:55] Du bricolage ?
+[44:56] Oui, tu sais, vous pourriez vendre des vis et des outils et tout ça
+[45:00] pour faire des petites travaux du bricolage à la maison, tu vois ?
+[45:04] Oui, oui, je vois.
+[45:05] Et bien sûr, on pense à ce genre de choses
+[45:07] et on essaye différentes idées,
+[45:09] mais tu sais, en regardant en arrière à l'époque
+[45:13] où on était encore une entreprise privée,
+[45:15] je pense que si on avait plus de courbans S à l'époque,
+[45:17] ça nous aurait aidé au début et en aval.
+[45:20] Parce que je veux dire, au final,
+[45:22] on est toujours une entreprise européenne, dit commerce,
+[45:24] accès sur la mode et le lifestyle.
+[45:26] Et ces dernières années, c'est un domaine
+[45:29] qui ne s'est pas vraiment développé.
+[45:30] Genre, structuruellement, en tant que marché.
+[45:32] Mais ouais, le B2B est maintenant un nouveau domaine
+[45:34] qui se développe de plus en plus.
+[45:35] Et je veux dire, dans notre portefeuille,
+[45:37] dans toutes les catégories auquel on touche,
+[45:39] il y a certains portefeuilles qui se développent plus vite.
+[45:42] C'est pas comme si vous aviez été lent,
+[45:44] ces ans pour 20 milliards de GMV, c'est pas rien.
+[45:47] Ouais, je pense que d'un côté, on ne peut pas dire
+[45:51] qu'on est une petite boîte.
+[45:53] Et si tu compare en parlant d'ambition européenne
+[45:56] à une entreprise aux Etats-Unis,
+[45:58] je veux dire, on est tout petit, non ?
+[46:00] Et je pense que c'est quelque chose que,
+[46:03] peut-être, qu'on aurait dû faire ça.
+[46:05] Tu sais, un peu plus agressivement et plutôt dès le début.
+[46:08] Comment ils font ça d'ailleurs ?
+[46:10] Parce que quand je te regarde et que j'entends ce que tu dis,
+[46:13] c'est incroyable de 0 à 20 millions de GMV.
+[46:17] C'est énorme.
+[46:18] J'ai du mal à imaginer ça.
+[46:20] T'as dit que vous étiez sur 29, 30 pays, c'est ça ?
+[46:23] 29 pays, oui.
+[46:24] Ouais, 29 pays quand même.
+[46:26] C'est plus d'un pays, presque deux pays par an.
+[46:30] Donc ouais, ça représente 17 000 personnes.
+[46:32] Enfin, ça, c'est le nombre de personnes
+[46:34] que t'embauchent actuellement,
+[46:35] mais en regardant plus en détail,
+[46:36] c'était sans doute au dessus de 30 000 à un moment donné.
+[46:40] Donc, c'est énorme.
+[46:42] Comment ils font ça ?
+[46:44] Ou sont-ils meilleur que nous ?
+[46:46] Ouais, c'est une bonne question.
+[46:49] Je pense qu'ils ont beaucoup de bonnes recettes
+[46:51] pour exécuter ça.
+[46:53] En fait, c'est surtout que leurs marchés de capitaux
+[46:56] sont plus développés.
+[46:57] C'est des marchés monétaires plus profonds.
+[46:59] Je pense aussi aux États-Unis, au final.
+[47:01] Mais je pense qu'on devrait éventuellement
+[47:03] pouvoir probablement résoudre tout ça en Europe.
+[47:06] Mais je veux dire, tu m'as posé des questions sur les regrets.
+[47:09] Et ouais, je pense que c'est probablement le fait
+[47:11] de ne pas avoir fait plus de courbes en S au début.
+[47:14] Je pense qu'on aurait dû être plus ambitieux et audacieux
+[47:17] dès le début. On l'ait toujours.
+[47:19] Mais je crois qu'on en aurait plus profité maintenant.
+[47:22] Ces dernières années, on a beaucoup grandi,
+[47:24] surtout dans les 13 premières années.
+[47:26] Mais depuis quelques années, on grandit un peu moins maintenant.
+[47:29] Actuellement, on grandit de 5 à 10% sur la même base.
+[47:33] J'aimerais vraiment revenir à une croissance de 20 à 30%.
+[47:36] Ça serait bien plus fun, tu ne trouves pas.
+[47:38] Et je pense que c'est bien plus.
+[47:40] Ouais, ça se transforme en une entreprise bien plus grande.
+[47:44] Alors, dis-moi, quels ont été les moments les plus difficiles?
+[47:48] J'ai vu que vous êtes passé d'une capitalisation boursière de 30 milliards,
+[47:53] à un peu plus de 6 milliards en 2022, ce qui est toujours énorme.
+[47:59] Mais bon, ça doit être dur à vivre tout ça.
+[48:02] C'est ça qui a été le plus difficile à traverser,
+[48:05] ou bien c'était autre chose.
+[48:08] Bien sûr, il y a eu plein de moments difficiles.
+[48:11] Mais bon, comme on en a parlé tout à l'heure,
+[48:13] le fait de passer de 6 à 160 millions en un an
+[48:16] puis, à 510 millions, l'année suivante, c'est déjà incroyable, en fait.
+[48:20] Mais bon, tu sais, au final, il n'y a pas un jour où tu trêveilles
+[48:24] sans qu'il y ait un nouveau gros problème à résoudre de toute urgence
+[48:27] dans telle ou telle branche de la boîte.
+[48:29] Je pense qu'il y a eu beaucoup de crises existentielles pendant ces deux premières années.
+[48:32] C'était une période très difficile, comme tu peux l'imaginer.
+[48:37] Est-ce que tu dis est tellement vrai ?
+[48:39] Si tu veux bien, j'aimerais parler un peu de ce que tu viens de dire.
+[48:42] J'ai entendu quelqu'un en parler,
+[48:44] je crois que c'était probablement Marc Andreessen,
+[48:46] à propos de Marc Zuckerberg.
+[48:48] Il disait que tous les jours,
+[48:50] il y a une urgence absolue à traiter.
+[48:53] Et ces problèmes peuvent être bien plus importants
+[48:55] que ce que j'ai vécu durant toute ma vie d'entrepreneur, tu vois ?
+[48:59] Eh bien, je veux dire, au début,
+[49:02] il y avait des jours où on avait carrément pas assez de cash
+[49:05] pour payer les salaires de nos employés, tu sais.
+[49:08] Donc, on a dû encourager les clients à payer à l'avance
+[49:10] pour avoir assez d'argent.
+[49:12] Ça, c'est le genre de moments catastrophiques dont je parlais
+[49:15] qu'on avait vécues.
+[49:17] Et puis, on a aussi eu des moments où...
+[49:20] On a aussi eu des moments où genre,
+[49:22] il y avait des soucis logistiques.
+[49:24] Tu sais, notre entrepôt était plein,
+[49:26] mais on avait toutes ces arrivées de marchandises
+[49:28] et l'entrepôt n'arrivait pas à les prendre
+[49:30] parce qu'en fait, on avait des stocks de la dernière saison.
+[49:32] Tu sais, c'est pas le même stock
+[49:34] en hiver, en hiver, t'as des bottes,
+[49:36] tu vois ? Des chaussures différentes.
+[49:38] Et t'as aussi des tailles différentes,
+[49:39] sauf qu'en fait, c'était organisé par rapport au nombre d'articles.
+[49:42] Ça prenait pas en compte le fait que les bottes
+[49:44] faisaient deux fois la taille des ballerines, tu vois ?
+[49:46] Donc, ça rentrait plus, forcément.
+[49:47] Alors, on a dû trouver un nouvel entrepôt,
+[49:49] mais il fallait payer le marchand.
+[49:50] Parce que si le marchand ne vend pas,
+[49:51] tu te retrouves avec des problèmes de trésorerie.
+[49:54] Et sinon, on a eu...
+[49:56] Enfin, on a eu des moments où,
+[49:58] genre, une fois,
+[50:00] on a carrément failli perdre notre nom,
+[50:02] à cause d'une réclamation de marque.
+[50:04] Tu te rends compte ?
+[50:06] Pourtant, on faisait déjà beaucoup de pubs sous ce nom de marque.
+[50:09] Donc, ouais, tu sais,
+[50:11] il y a eu tellement de moments comme ça,
+[50:13] chaque jour,
+[50:14] et tu tréveilles en te demandant,
+[50:16] bon, comment on va régler ça ?
+[50:18] Et ouais.
+[50:20] Je pense que pendant deux ou trois ans,
+[50:22] toutes les semaines,
+[50:23] il y avait un nouveau problème à résoudre.
+[50:25] Est-ce que tu as une sorte de recette parfaite
+[50:28] pour surmonter ça ?
+[50:31] Ouais, tu sais...
+[50:33] Je pense que...
+[50:36] Ce que j'ai découvert,
+[50:37] en parlant, à beaucoup d'entrepreneurs différents,
+[50:39] au fil des ans,
+[50:40] c'est qu'il y a toujours quelque chose,
+[50:43] quand on passe vraiment par des périodes difficiles,
+[50:45] qu'on fait tous, en fait.
+[50:48] Et je pense que tout le monde passe par ces phases.
+[50:50] Je crois qu'il y a quelque chose
+[50:52] dans nos personnalités qui est un peu similaire
+[50:54] que je retrouve complètement dans ma personnalité à moi,
+[50:57] et aussi chez les gens à qui je parle.
+[50:59] C'est ce genre d'optimisme, tu sais,
+[51:01] comme quoi les choses vont vraiment s'arranger au final.
+[51:04] Que le meilleur est à venir.
+[51:06] Ouais.
+[51:07] Et je pense que tu vois,
+[51:08] même si, en fait,
+[51:09] ça représente juste 1% de ce qui est dans notre esprit,
+[51:12] ce 1% est extrêmement important.
+[51:14] Tu sais, on est consommé par cet optimisme.
+[51:17] Il envahit notre réflexion, notre énergie,
+[51:19] et puis tu te concentres vraiment sur ce 1%,
+[51:22] et ça devient super important dans ta vie.
+[51:24] Je pense que ça crée beaucoup d'énergie
+[51:26] et aussi de l'espoir.
+[51:27] Et alors, d'une certaine façon,
+[51:29] ce 1% finit par prendre bien plus que 1% de place, tu vois.
+[51:33] Et je pense que c'est, je veux dire,
+[51:36] je me souviens, tu sais, pendant cette période,
+[51:38] en 2010, quand on travaillait vraiment,
+[51:40] tu sais, pour qu'une entreprise de e-commerce passe
+[51:42] de 6 millions à 160 millions en un an,
+[51:44] il faut imaginer que t'as besoin d'acheter
+[51:46] de la marchandise pour ça.
+[51:47] Tu payes la marchandise, genre, 6 mois à l'avance, tu vois.
+[51:49] Donc tu paries vraiment sur une croissance fois 10
+[51:51] dans les 6 prochains mois,
+[51:52] quand tu dépenses cet argent.
+[51:54] Parce que tu vois le stock et tout l'ensemble.
+[51:56] Ouais, tu reçois le stock et tu mets l'opération en place.
+[51:58] Et c'est à toi de faire tout ça.
+[52:01] Les équipes se posaient vraiment des questions
+[52:03] sur comment ça allait marcher.
+[52:05] Moi, je me disais bien sûr que ça va marcher.
+[52:07] Tu verras, quand la marchandise arrive,
+[52:09] le taux de conversion augmente.
+[52:10] Donc avec l'augmentation de la conversion,
+[52:13] on pourra vraiment réserver plus de moclé
+[52:15] et avec plus de moclé dans ma tête,
+[52:17] même si, avec du recul, c'était complètement fou,
+[52:19] j'avais vraiment aucun doute que ça marcherait.
+[52:22] Et ouais, finalement, ça a marché.
+[52:24] Je dirais que, en fait,
+[52:26] c'est quelque chose que pas mal d'entrepreneurs
+[52:28] ont probablement rencontré ce fameux 1%,
+[52:31] ça devient énorme dans leur tête
+[52:33] et, du coup, il finisse par réussir.
+[52:35] Et ce qui est intéressant,
+[52:37] c'est qu'à un moment donné,
+[52:38] vous étiez trois coupés d'égées, non ?
+[52:41] Ouais.
+[52:42] Ce qui est, wow, vraiment bizarre de l'extérieur.
+[52:44] Et maintenant, t'es le seul pdg ?
+[52:46] Non, on est deux.
+[52:48] Non, vous êtes toujours deux,
+[52:49] mais c'est toujours ton cofondateur ?
+[52:50] Non, ça a changé.
+[52:51] Ah, ça a changé.
+[52:52] Ok, ouais, c'est ce que j'ai vu.
+[52:54] D'accord.
+[52:55] Et, enfin, c'est quoi le dédiant ?
+[52:58] Pardon.
+[52:59] Non, mais je comprends,
+[53:01] parce que la plupart du temps, tu dois trouver,
+[53:03] tu sais, genre, la source.
+[53:05] Je sais pas comment on dit, mais tu vois.
+[53:06] Et puis tu en avais trois, maintenant deux,
+[53:08] et je sais pas trop quoi penser.
+[53:09] Oui, je comprends.
+[53:10] Mais il n'y a jamais eu qu'un seul pdg, si ?
+[53:13] Non, jamais.
+[53:14] Je veux dire, je pense qu'il n'y a jamais
+[53:16] vraiment eu un moment où on était un seul pdg.
+[53:18] Mais si tu peux faire que ça marche à deux ou à trois,
+[53:23] je trouve que c'est un modèle vraiment chouette.
+[53:25] Mais bon, ça ne fait pas tout seul.
+[53:27] Tu vois, il faut y mettre du sien pour que ça marche.
+[53:29] J'ai vu, désolé, je te coupe,
+[53:31] mais je voulais juste dire que j'ai eu des pdg vraiment influents,
+[53:34] me dire en face que une entreprise ne peut pas fonctionner
+[53:37] avec deux ou trois pdg.
+[53:38] Pour eux, c'est vraiment une évidence.
+[53:40] Mais toi, tu prouves,
+[53:41] avec probablement la plus grande entreprise,
+[53:44] dit commerce électronique,
+[53:45] en Europe que c'est possible,
+[53:46] et je veux juste comprendre, en fait.
+[53:48] Ouais, donc on est bien les plus grands,
+[53:50] d'ailleurs, c'est vrai.
+[53:51] En dehors d'Amazon, on est les plus grands.
+[53:53] Et, ouais, on a prouvé que ça marchait, je pense.
+[53:57] D'abord, je pense que quand tu commences vraiment
+[54:00] au tout début de l'entreprise,
+[54:02] tu penses pas vraiment en termes d'organicramme.
+[54:05] Tu penses pas vraiment à qui est au commande, en fait.
+[54:08] C'est surtout une question de responsabilité.
+[54:10] Ce que tu fais vraiment, c'est très clairement définie.
+[54:12] Et moi, je me suis vraiment abstenue
+[54:14] des organicramme pendant longtemps,
+[54:16] parce que je ne voulais pas enfermer les gens
+[54:18] dans des cases.
+[54:19] Je ne voulais pas délimiter leur responsabilité
+[54:21] sur quoi que ce soit, tu vois.
+[54:23] Donc, faut juste se dire un truc du genre.
+[54:25] Toi, t'es le patron de l'entreprise,
+[54:26] fais juste ce qui est le mieux pour la boîte.
+[54:28] Et si ça veut dire faire un peu de ménage,
+[54:30] tu fais le ménage.
+[54:31] Et si c'est prendre une décision,
+[54:33] peu importe.
+[54:34] Et donc, je pense que avec le temps,
+[54:36] tu sais, comme moi et mon cofondateur,
+[54:38] on a juste travaillé d'une certaine manière.
+[54:41] Mais en fait, on a toujours eu l'impression
+[54:43] qu'il manquait quelque chose.
+[54:45] Une personne d'un peu plus structurée et rationnelle que nous.
+[54:48] Pour nous aider à prendre des décisions.
+[54:51] Alors, on a décidé d'intégrer un de nos amis
+[54:54] avec qui on était à l'université Ruben,
+[54:56] dans l'entreprise.
+[54:58] Et dès le premier jour,
+[54:59] ça a vraiment collé avec lui
+[55:00] et on a commencé à être plus efficace.
+[55:03] Donc, je pense que la question de savoir
+[55:05] qui est vraiment le PDG ne s'est jamais vraiment posé, tu vois.
+[55:09] Mais ensuite, pour l'introduction en bourse,
+[55:11] on a vraiment dû prendre une décision, tu sais.
+[55:14] Et donc, on s'est dit,
+[55:15] bon, faisons juste 3 coups PDG.
+[55:17] Et les banquiers, ou plutôt les investisseurs,
+[55:20] nous ont demandé,
+[55:21] ok, comment ça marche.
+[55:23] Mais ça a toujours bien marché
+[55:25] parce qu'on était toujours totalement en phase.
+[55:28] Et puis, ce qui est bien,
+[55:29] quand tu as 3 coups PDG, en fait,
+[55:31] c'est que tu as un gros avantage, tu sais.
+[55:34] Parce que si vous n'êtes pas d'accord
+[55:38] de façon une anime sur une décision,
+[55:40] si vous n'êtes pas tous complètement alignés,
+[55:42] il y a quand même une majorité qui peut trancher.
+[55:44] Même si tu l'utilises pas souvent.
+[55:46] Est-ce que c'est déjà arrivé ?
+[55:48] Parfois, ça arrive,
+[55:49] mais pas sur des sujets très importants.
+[55:51] On passe vraiment beaucoup de temps
+[55:53] sur les grosses décisions
+[55:54] et on est très bons amis,
+[55:55] on se fait vraiment confiance.
+[55:57] Et puis, tu sais,
+[55:59] je pense que tu fais vraiment du bon boulot
+[56:01] parce que tu t'investis avec le même niveau d'énergie
+[56:03] que si t'étais le seul PDG de l'entreprise.
+[56:05] L'un peut parler aux investisseurs,
+[56:07] l'autre peut parler au marque
+[56:08] et l'autre peut bosser en interne,
+[56:09] le tout en même temps.
+[56:10] Et on a tous le même genre de, tu sais,
+[56:12] responsabilité et d'engagement.
+[56:13] Donc au final, vous aviez quand même vos propres responsabilités.
+[56:16] Je veux dire, il y en avait un qui s'occupeait des finances
+[56:18] comme un directeur financier,
+[56:19] un autre faisait directeur général
+[56:20] et l'autre était le directeur des opérations.
+[56:22] D'accord.
+[56:23] Et donc, depuis, on a toujours travaillé
+[56:25] dans une structure à 2 coups PDG.
+[56:27] Ruben est parti et avec David, mon cofondateur,
+[56:30] et maintenant avec un autre David
+[56:32] qui est dans la boîte depuis 16 ans.
+[56:34] D'accord.
+[56:35] Et que je connais aussi depuis 20 ans
+[56:36] et qui est un très bon ami.
+[56:38] En fait, je pense qu'avec 2 coups PDG,
+[56:40] c'est un peu comme être parent non.
+[56:42] Je veux dire, il faut toujours essayer de faire en sorte
+[56:45] que les enfants ne reçoivent pas une réponse de l'un.
+[56:47] Puis qu'ils aient demandé la même chose à l'autre
+[56:50] et qu'ils obtiennent une réponse complètement différente.
+[56:53] Mais je pense que, en termes de parentalité,
+[56:55] en fait, une famille où les 2 parents sont présents,
+[56:58] peut avoir des grosses avantages.
+[57:00] Tu sais si le père et la mère s'impliquent.
+[57:02] Et je pense que notre situation à 2 PDG
+[57:05] se rapproche vraiment de cette idée-là.
+[57:07] Est-ce que tu serais capable d'être le seul PDG un jour ?
+[57:10] Je veux dire, je pense que le fait dans l'être capable
+[57:13] c'est pas vraiment la question.
+[57:15] Évidemment, je pense que...
+[57:16] Le voudrais-tu ?
+[57:17] C'est ça, je pense que j'ai toujours vraiment apprécié
+[57:19] je dirais la configuration de coper PDG
+[57:21] parce que finalement, c'est une bonne façon de partager le fardo.
+[57:25] Si vous vous faisez vraiment confiance
+[57:28] et il faut s'assurer que je pense qu'il ne doit pas
+[57:31] être question d'ego,
+[57:33] il faut vraiment pouvoir faire confiance à ton partenaire,
+[57:36] à ton coper PDG.
+[57:37] Et oui, au final le résultat
+[57:40] c'est que vous vous partagez vraiment le fardo
+[57:42] mais aussi le succès ensemble.
+[57:44] Mais si j'étais un investisseur,
+[57:47] je m'inquiéterai quand même que si les choses tournent mal,
+[57:50] enfin, peut-être que tout ira bien
+[57:52] et qu'on n'aura jamais ce problème,
+[57:54] mais si il y a un gros problème,
+[57:56] ça pourrait potentiellement se désintégrer,
+[57:58] non, tout pourrait tomber à l'eau.
+[58:00] Peut-être que ça commence répar un des accords
+[58:02] ou l'un de vous dit non,
+[58:03] ça c'est pas ma faute,
+[58:04] je ne sais pas peu importe,
+[58:05] mais ça comporte un certain risque, non ?
+[58:08] Eh bien, je veux dire,
+[58:11] c'est surtout une question de personnalité,
+[58:13] je dirais,
+[58:14] mais je pense que ça n'arriverait jamais.
+[58:16] Je pense qu'on a toujours eu beaucoup de responsabilité
+[58:18] dans notre organisation.
+[58:20] Tout le monde s'est toujours senti
+[58:22] vraiment propriétaire de l'entreprise
+[58:24] et je crois que dans les moments de pression,
+[58:26] on s'est vraiment rapproché plutôt que de s'éloigner.
+[58:28] Ça a toujours été comme ça.
+[58:30] Donc je recommande vraiment ce modèle à tout le monde.
+[58:32] Oui.
+[58:33] Parce que ça dépend vraiment de ta personnalité, en fait.
+[58:36] Est-ce que tu fais confiance à ton partenaires ?
+[58:38] Je pense que je recommandrai jamais
+[58:40] une configuration à 2 KPDG,
+[58:42] à moins de vraiment bien connaître
+[58:44] et faire confiance à l'autre personne.
+[58:46] Mais si c'est le cas,
+[58:47] personnellement,
+[58:48] je préfère que ce soit juste à 2.
+[58:52] Et donc alors,
+[58:53] quand ça tourne mal,
+[58:55] j'ai repéré 2 ou 3 moments,
+[58:57] il y a eu la chute de la valorisation,
+[58:59] puis cette histoire, en 2019,
+[59:02] je ne sais plus trop si c'était un gros scandale
+[59:04] autour de l'évaluation des salariés
+[59:07] ou quelque chose comme ça.
+[59:09] Comment...
+[59:11] Comment ça marche à 2 dans ces moments-là ?
+[59:13] Enfin, comment vous...
+[59:15] Tu veux dire avec David,
+[59:17] mon KPDG, comment ça fonctionne aujourd'hui ?
+[59:20] Oui, voilà, et surtout comment ça se passe quand ça va mal ?
+[59:22] Est-ce que, par exemple,
+[59:24] vous êtes meilleur à 2 ?
+[59:26] Alors ouais, je...
+[59:28] En fait, je dirais que...
+[59:30] On arrive mieux à...
+[59:34] Ce que les KPDG disent souvent,
+[59:36] c'est qu'au sommet, on se sent très seul.
+[59:38] Et...
+[59:39] Quant à un KPDG,
+[59:40] en qui tu as vraiment confiance,
+[59:42] tu ne les plus ?
+[59:43] On peut discuter de la façon
+[59:45] de gérer la situation
+[59:46] et décider lequel de nous
+[59:47] doit prendre les deux vents sur telle ou telle sujet.
+[59:50] Et on parle aussi de la façon
+[59:52] dont on va s'y prendre,
+[59:53] ce genre de chose.
+[59:55] Il faut donc vraiment y consacré du temps.
+[59:57] Avec David Schreedeur,
+[59:59] le KPDG avec qui je dirige à l'endot,
+[60:01] on marche ensemble une heure,
+[60:03] au moins une fois par semaine.
+[60:06] On a aussi pas mal de...
+[60:08] On a aussi pas mal de réunion à 2.
+[60:10] Et tu vois,
+[60:12] on veille à ce que,
+[60:13] en toute circonstance,
+[60:14] les équipes voient clairement
+[60:15] qu'on ait parfaitement aligné.
+[60:17] Oui, c'est important.
+[60:18] D'accord.
+[60:19] Oui, toujours.
+[60:20] Tout le temps.
+[60:22] Parce que je dirais que
+[60:24] on a des personnalités différentes
+[60:26] et c'est une bonne chose.
+[60:28] On n'a pas toujours le même rapport au risque,
+[60:31] ni la même façon de structurer les choses.
+[60:34] En fait, je dirais que
+[60:36] lui est bien meilleur que moi pour structurer.
+[60:39] Donc t'es probablement le preneur de risques ?
+[60:41] Oui.
+[60:42] Je pense que je suis sans doute
+[60:44] un peu plus dans la prise de risques.
+[60:46] J'aime davantage me projeter à un ou deux ans
+[60:49] voire même au-delà.
+[60:52] Je dirais que lui, il est...
+[60:55] Lui, il est plus dans le détail
+[60:57] des 12 prochains mois.
+[60:58] Mais donc, je pense que,
+[61:00] mais ensemble,
+[61:02] on prend de bien meilleures décisions
+[61:04] parce qu'on a vraiment confiance
+[61:06] dans le jugement de l'autre.
+[61:09] Euh...
+[61:11] Tu as déjà fermé un pays ?
+[61:13] Tu as dû fermer ?
+[61:15] Est-ce que j'ai déjà fermé un pays ?
+[61:16] Oui.
+[61:17] Non.
+[61:18] D'accord.
+[61:19] Après, il y a par exemple des pays
+[61:20] où ça n'a jamais vraiment décollé
+[61:21] comme pour le Royaume-Uni.
+[61:23] On y a toujours une activité,
+[61:25] mais on a fermé aucun pays
+[61:26] parce que le coup marginal
+[61:28] pour en gérer un reste assez faible chez nous.
+[61:30] Donc le Royaume-Uni n'a pas...
+[61:32] C'est le seul marché européen
+[61:34] où on n'a jamais vraiment atteint une taille critique.
+[61:36] Mais on n'y a pas beaucoup investi non plus,
+[61:38] parce que c'est un marché très différent.
+[61:40] Oui.
+[61:41] Il y a que 50 millions d'habitants, après.
+[61:43] C'est sûrement tout petit.
+[61:45] Non.
+[61:46] En fait, c'est un gros marché.
+[61:48] Mais le marché britannique de la mode
+[61:50] est très particulier.
+[61:52] C'est très orienté genre
+[61:54] à esthrite, très jeune
+[61:56] et avec des consommateurs différents.
+[61:58] Pour la mode, tu dis ?
+[61:59] Oui, c'est différent aussi.
+[62:01] Oui.
+[62:02] Et ça, on le voit aussi
+[62:04] chez les marques avec lesquels on travaille.
+[62:06] Il y en a beaucoup qui ne sont pas très performantes
+[62:09] au Royaume-Uni.
+[62:11] Et si on reste sur l'expansion international,
+[62:16] tu as une recette ?
+[62:19] Par exemple, combien investir ?
+[62:21] Quel feuille de route suivre ?
+[62:24] Pardon, c'est ce que je voulais demander,
+[62:26] c'est pour lancer un nouveau pays.
+[62:28] Est-ce qu'il y a quelque chose qu'on peut apprendre de vous ?
+[62:32] De notre entreprise ?
+[62:35] Enfin, dans notre activité,
+[62:37] quand on lance un pays,
+[62:39] la première chose, c'est d'avoir le bon niveau de service.
+[62:42] Est-ce qu'on peut y livrer efficacement ?
+[62:45] Est-ce que l'expérience est vraiment pratique ?
+[62:48] Aussi, à quel point ça peut devenir simple et rapide pour la livraison ?
+[62:53] Comment les clients reçoivent leurs articles ?
+[62:56] Est-ce que les retours sont faciles ?
+[62:59] Ça, c'est la base.
+[63:01] Et ensuite, évidemment,
+[63:03] il faut avoir la bonne sélection de produits
+[63:06] parce que enfin, les marques n'ont pas la même affinité selon les pays.
+[63:10] Il faut donc adapter l'assortiment
+[63:12] puis régler les aspects plus opérationnels,
+[63:14] par exemple, tout ce qui se rapporte aux traductions
+[63:16] et ce genre de choses.
+[63:19] Et enfin, pour la dernière pièce, c'est le marketing.
+[63:22] C'est très important que tout soit correctement mis en place,
+[63:25] l'achat média, la programmatique et tout le reste.
+[63:28] Mais ensuite, aussi,
+[63:30] il faut réussir à lancer des campagnes très ciblées et spécifiques
+[63:33] pour, en fait, faire monter la reconnaissance de la marque très rapidement.
+[63:36] Oui.
+[63:38] Mais enfin, on l'a fait 29 fois maintenant.
+[63:40] Vous recrutez une personne locale à chaque fois ?
+[63:43] Oui, on recrute des personnes locales du pays.
+[63:45] Mais généralement, on recrute des personnes ici à Berlin, en fait.
+[63:48] D'accord.
+[63:50] Parce qu'on a fait nos apprentissages au fil des ans,
+[63:53] mais on a découvert qu'on a appris
+[63:56] qu'il était plus utile d'avoir les équipes réunies
+[63:59] et travaillant au même endroit que de disperser trop d'équipes locales
+[64:02] à travers l'Europe.
+[64:04] Et en revanche, c'est...
+[64:06] C'est très important que les équipes pays passent du temps
+[64:09] sur les marchés concernées pour bien saisir les attentes locales
+[64:13] et donc nos équipes sont souvent en train de voyager.
+[64:16] Oui, beaucoup.
+[64:18] D'accord, intéressant.
+[64:20] Si nous parlons de la concurrence, on voit que...
+[64:25] En fait, l'autre jour, nous étions dans les environs.
+[64:27] On avait parlé un peu d'Amazon et...
+[64:29] Je te disais que nous étions à Reclave.
+[64:31] Désolé si je prononce mal.
+[64:33] Et donc, on était donc à Reclave avec l'équipe
+[64:35] pour notre prochain film et on a vu
+[64:38] un entrepôt de la marque chinoise Shane.
+[64:42] C'était dingue.
+[64:44] Et donc, il y avait 400...
+[64:46] Comment on dit ?
+[64:47] Tu sais, c'est les emplacements où les camions viennent se mettre à K.
+[64:50] 400 pour les K.
+[64:53] Et c'était probablement le plus petit...
+[64:55] Oui, c'était le plus petit de tout leur bâtiment
+[64:58] et il n'est pas opérationnel.
+[65:00] Il le sera dans quelques mois, je crois.
+[65:02] Mais c'était, je veux dire, ton avis beaucoup
+[65:04] mais c'était genre 700 000 m².
+[65:08] Et donc ça me donne un peu cette impression
+[65:11] et j'ai envie de dire livre à rive, quoi.
+[65:14] Ça va être énorme.
+[65:16] Et juste à côté de ça, il y avait aussi
+[65:18] un immense centre logistique Amazon.
+[65:20] Oui.
+[65:21] Et tu vois, il y a l'aéroport et c'est juste de la logistique.
+[65:24] En fait, c'est assez effrayant, je dois dire.
+[65:26] Et qu'est-ce que tu penses de tout ça ?
+[65:28] Est-ce que livre à rive ?
+[65:30] Je pense que l'entrepôt non opérationnel que tu as vu,
+[65:34] il est en fait dû aussi au tarif.
+[65:36] Oui, c'est sans doute lié au droit de Doine
+[65:38] qui entre en vigueur en juillet.
+[65:41] Parce que, je veux dire, beaucoup de ces entreprises,
+[65:45] comme Shane ou bien Thému,
+[65:47] elles, ces entreprises,
+[65:49] elles importaient dans l'Union européenne
+[65:51] sans payer de droit de Doine.
+[65:53] Et donc, parce qu'il y avait cette règle de minimis
+[65:57] où toutes les importations de moins de 150 euros
+[66:00] n'étaient pas taxées,
+[66:02] toutes les autres marques qui importaient en Europe payaient des droits
+[66:05] mais pas ces entreprises.
+[66:07] Et donc, évidemment, ça leur donnait un gros avantage de coup
+[66:10] auxquels s'ajouter l'avantage de produire en Chine
+[66:14] avec le nouveau régime douanier qui arrive en juillet.
+[66:17] La concurrence devient un peu plus équitable.
+[66:21] Elles vont probablement devoir importer davantage
+[66:24] en gros volume dans l'Union européenne et payer ces droits.
+[66:27] Je dirais que c'est très positif pour l'Europe en général.
+[66:31] Et donc, je pense que c'est sans doute pour ça
+[66:34] qu'elle construise ça.
+[66:36] Chaque colis individuellement depuis la Chine,
+[66:38] elles vont opérer davantage depuis l'Union européenne.
+[66:41] Donc, plus centralisé en quelque sorte.
+[66:43] Oui, est-ce que ça t'inquiète ?
+[66:45] Si ça m'inquiète ?
+[66:46] Oui, parce que ce que je veux dire,
+[66:48] c'est qu'ils vont sûrement arriver à un moment
+[66:50] avec encore plus de produits, notamment des chaussures.
+[66:53] Quand on était en Chine, l'en dernier,
+[66:55] on voyait aussi la mode,
+[66:57] il prendra vraiment beaucoup d'ampleur.
+[66:59] Avec plein de nouvelles marques,
+[67:01] il vend encore beaucoup de marques européennes américaines.
+[67:04] Mais je veux dire, c'est en croissance.
+[67:07] Et la plupart de ces marques sont assemblées en Asie
+[67:09] ou en...
+[67:10] Ouais.
+[67:11] Donc ouais.
+[67:12] Alors, disons que leur modèle, c'est surtout
+[67:14] d'être très, très bon marché, tu vois.
+[67:17] Forcément, ce n'est donc possible
+[67:19] qu'avec le minimum requis en matière de règles
+[67:21] et de conformité,
+[67:23] même dans l'aspect légal et au-delà.
+[67:26] Nous, on travaille avec 7 000 marques sur notre plateforme.
+[67:31] Je dirais qu'il n'y a pas tant de chevochement avec Zalando
+[67:34] en termes de niveau de prix.
+[67:37] C'est vraiment un segment qui est très différent.
+[67:40] Le marché de la mode et du lifestyle est immense
+[67:43] et certains aimeront forcément la mode ultra-bonge marché.
+[67:48] Mais je pense que ce n'est pas le cœur du marché.
+[67:53] Je disais que c'est un marché de 500 milliards
+[67:56] et je crois que Chine est encore plus petit que Zalando en Europe.
+[68:00] Tu as dit que tu travailles avec...
+[68:03] Avec 7 000 marques ?
+[68:04] Oui, voilà, 7 000.
+[68:05] Est-ce que les grandes marques sont les mêmes dans chaque pays ?
+[68:08] Est-ce que la plus grande marque en France et en Allemagne, c'est la même ?
+[68:12] C'est pas, je veux dire, il y a des différences en termes de classement.
+[68:16] Mais après, évidemment, Nike est une grande marque partout en Europe.
+[68:19] C'est la numéro 1.
+[68:21] Alors, je préfère ne pas dire qu'il y a numéro 1.
+[68:24] Mais Nike et Adidas sont évidemment très importantes.
+[68:27] En France, par exemple, la coste est une très grande marque
+[68:30] d'avantage que dans certaines autres régions.
+[68:32] Et c'est aussi ce qu'on propose aux marques.
+[68:35] Car aussi notre rôle, c'est vraiment d'aider ces marques
+[68:38] à se développer dans toute l'Europe et à toucher les consommateurs européens.
+[68:42] On l'a très bien fait avec Next.
+[68:45] Tu vois, cette marque britannique utilise maintenant nos services,
+[68:49] business to business chez Zalando
+[68:51] et sa croissance en Europe continentale à dépasser 60%.
+[68:55] Ce sont des chiffres publics.
+[68:57] Donc, je peux les citer.
+[68:59] Et avec de meilleur coup,
+[69:01] c'est vraiment un des points que j'aime dans notre métier.
+[69:04] On aide les marques à devenir une meilleure version d'elle-même
+[69:07] dans toute l'Europe.
+[69:09] Et tu sais ce que je trouvais plutôt amusant,
+[69:12] c'est que tu vois les marques monter et descendre
+[69:14] et puis les nouvelles qui arrivent.
+[69:16] Qu'est-ce qui t'a le plus surpris ces dernières années ?
+[69:19] Qu'est-ce que tu as eu le temps de voir arriver
+[69:22] ou qu'est-ce que tu as vu émerger ?
+[69:25] Et bien, je dirais que je suis toujours fasciné par les cycles des marques.
+[69:31] Tu vois le cycle Nike, le cycle Adidas.
+[69:34] En France, on a vu Salomon, par exemple.
+[69:36] Salomon ?
+[69:37] Oui.
+[69:38] Il y en a vraiment énorme.
+[69:39] Exactement, grand.
+[69:40] Je sais pas si c'est juste la France,
+[69:41] en fait, mais...
+[69:42] Oui.
+[69:43] Je pense aussi à des marques communes de Rarmour
+[69:46] et il y a eu aussi Lululemon.
+[69:48] Et oui, t'observe ces cycles de marques.
+[69:51] Ce qui me fascine, c'est de voir à quel point
+[69:54] une marque peut créer un cycle puissant
+[69:56] quand elle comprend vraiment ses clients.
+[69:58] Et surtout quand elle a ligne bien produit, marque et exécution.
+[70:03] Et ensuite, ça retombe un peu et puis ça repart
+[70:05] et on a de nouveau un cycle.
+[70:07] Donc c'est vraiment, c'est un truc intéressant.
+[70:11] Pour nous, c'est bien qu'on travaille avec 7 000 marques.
+[70:14] Donc on a toujours, quand une marque est un peu plus faible,
+[70:17] on voit alors une autre marque prendre le relais.
+[70:20] Les basquettes, c'est ça qui domine tout, non.
+[70:23] Ce que je veux dire, c'est que c'est le plus gros segment.
+[70:26] Les basquettes sont un segment important.
+[70:28] Mais ce qu'on voit aussi, c'est que, juste récemment,
+[70:32] je pense que les basquettes ne sont pas toujours autant demandées.
+[70:35] En ce moment, on voit plutôt revenir les chaussures
+[70:37] plus habillées partout en Europe.
+[70:39] Ouais, j'ai vu ça.
+[70:40] Ouais, ouais, ouais.
+[70:41] Interessant.
+[70:42] Ouais.
+[70:43] On le voit dans certaines grandes villes, par exemple.
+[70:44] Ouais, ouais.
+[70:45] Peut-être que les jeunes en ont marrent des basquettes
+[70:47] d'une certaine manière.
+[70:48] Oui.
+[70:49] Ouais, je dirais qu'on peut le voir dans une certaine mesure.
+[70:52] Sur Zalando, on a une rubrique qui s'appelle Trend Spotter.
+[70:56] Et donc, dans cette rubrique, tu peux y voir ce qui cartonne dans chaque ville.
+[71:01] Et justement, les tendances diffèrent beaucoup d'une ville à l'autre.
+[71:06] Mais globalement, les basquettes sont un peu moins fortes en ce moment.
+[71:09] Et les chaussures plus habillées sont en train de progresser pas mal en Europe.
+[71:13] Oui.
+[71:15] Je vérifie juste ce que tu portes.
+[71:19] Mais t'as des prix sur les chaussures ?
+[71:21] Non, ouais.
+[71:22] Je ne suis pas sûr, genre, c'est une...
+[71:24] Il n'y a pas de marque.
+[71:25] Ouais.
+[71:26] Interessant.
+[71:27] Alors, après toutes ces années, on a parlé de tes concurrents français
+[71:30] dans la chaussure et aussi d'autres concurrents.
+[71:34] Mais j'aimerais savoir, selon toi,
+[71:37] qu'est-ce qui fait le succès de Zalando ?
+[71:41] Donc, tu vois, ce n'est pas seulement le prix.
+[71:43] On dirait du moins en Allemagne.
+[71:46] Est-ce que c'est la logistique ?
+[71:48] Est-ce que t'as dit que c'était même pas le service client ?
+[71:51] Donc, ouais, quelle est la recette ?
+[71:53] Alors, je dirais que c'est...
+[71:55] Je pense que c'est tout ça.
+[71:57] C'est la combinaison de tout ça.
+[71:59] Pour moi, la promesse de Zalando,
+[72:01] la promesse qu'on a apporté aux consommateurs,
+[72:04] c'était de démocratiser la mode.
+[72:06] Tu vois ?
+[72:07] Pour que peu importe l'endroit où tu vis, genre,
+[72:10] si c'est tu sais, à Paris, près des Champs-Élysées,
+[72:12] ou si tu vis, en fait, dans le nord de la Finlande,
+[72:14] tu as soudainement le même accès pratique à la mode et au lifestyle.
+[72:18] Et oui, ça...
+[72:20] Ce n'était pas du tout le cas.
+[72:22] Il y a 15 ans.
+[72:23] Tu vois, par exemple, aujourd'hui,
+[72:26] tu peux vraiment tout commander,
+[72:28] sans avoir besoin d'aller dans les grandes villes
+[72:30] pour faire les boutiques.
+[72:32] Et je pense que cette combinaison, cette sélection incroyable,
+[72:36] combinait avec la comodité, la confiance,
+[72:39] dans le fait que ça marche pour les marques,
+[72:41] ainsi que la confiance des marques
+[72:42] qui sont sûrs de vouloir avoir leur sélection complètement
+[72:45] sur notre plateforme, ce qui n'était pas à qui non plus.
+[72:48] Et puis, il y a une exécution très rigoureuse
+[72:51] sur tout ce qui fait la satisfaction client.
+[72:53] Donc, c'est un peu une obsession après l'autre.
+[72:56] Il faut être...
+[72:58] Ouais, je pense que c'est probablement vrai, oui.
+[73:01] Je pense que tu dois toujours être obsédé par le client,
+[73:03] par les attentes des clients.
+[73:05] Il faut aussi considérer la façon de répondre à ces attentes,
+[73:09] tout en te rend compte, des besoins des marques.
+[73:12] Il y a toujours de l'innovation,
+[73:14] mieux présenter les produits, mieux mettre les marques en valeur.
+[73:17] Côté praticité, forcément,
+[73:19] les clients ne se plaindront jamais
+[73:21] qu'une commande arrive trop vite ou trop à l'heure.
+[73:24] Et donc, je pense que oui, on peut toujours repousser les limites.
+[73:28] On peut toujours faire mieux.
+[73:30] Et pour les tailles, personne ne se plaindra jamais
+[73:33] si notre conseil est trop précis.
+[73:35] Si tu sais que ça tira,
+[73:37] tu ne retournes pas l'article
+[73:39] et ça fait économiser de l'argent à la marque comme à nous.
+[73:42] Donc, ouais, je pense qu'il y a énormément de domaines
+[73:45] où l'on peut progresser chaque jour.
+[73:47] On peut repousser ces limites encore et encore.
+[73:50] Après, s'il faut décider si l'on améliore d'abord la France,
+[73:53] la Pologne ou l'Allemagne,
+[73:55] il y a toujours beaucoup à faire.
+[73:57] Est-ce que tu as résolu ce problème de taille ?
+[74:00] Je veux dire.
+[74:02] Non, non.
+[74:03] C'est quand même dingue.
+[74:04] Tu vois moi, par exemple,
+[74:05] je fais un putain de 41.
+[74:07] Et selon les marques, je fais du 42 ou du 40.
+[74:10] Donc, ouais, qu'est-ce qu'il se passe ?
+[74:11] C'est quand même fou, tu sais, c'est bizarre.
+[74:14] Alors, je peux dire que là-dessus,
+[74:16] on a fait de bons progrès.
+[74:18] Les retours liés à la taille sont la première cause de retour,
+[74:21] mais ce n'est pas la seule.
+[74:23] Il y a deux catégories qu'on pourra peut-être résoudre
+[74:25] avec la technologie.
+[74:27] Les retours liés à la taille et ce liés à la présentation du produit.
+[74:31] Oui.
+[74:32] Jean, j'imaginais cette article différemment.
+[74:34] Ça ne me va pas.
+[74:35] J'aime pas le style.
+[74:36] Oui.
+[74:37] Et c'est sur ce genre de problème
+[74:39] que l'intelligence artificielle nous apporte de vraies améliorations.
+[74:43] Tu vois, l'an dernier grâce à nos propres moteurs,
+[74:46] on a pu réduire les retours liés au taille de 8%.
+[74:50] Ce qui était énorme.
+[74:51] Oui, complètement, c'est important.
+[74:54] Ça aide les clients, les marges et l'environnement.
+[74:57] Mais je pense tout de même qu'il reste encore beaucoup à faire
+[75:00] sur les retours liés au taille.
+[75:02] Pour les retours liés à la présentation,
+[75:04] on sait désormais créer des contenus très précis sur les pages produits,
+[75:08] avec davantage de photos ou des vidéos 3D à partir d'image 2D.
+[75:12] Donc ça devient très très précis.
+[75:15] bientôt, tu pourras aussi essayer virtuellement tous les articles
+[75:18] sur ton propre corps en indiquant ta taille.
+[75:21] Tout ça va beaucoup aider sur ces deux types de retours,
+[75:24] sur ces deux domaines de retours.
+[75:27] Alors, parce que tu as l'air d'être quelqu'un de très logique
+[75:31] et ce truc me paraît toujours étrange.
+[75:34] Tu vois, on dit chez Nike que je fais du 42,
+[75:37] parce que leurs tailles sont comme ça.
+[75:39] Et puis on va te dire ensuite ce modèle taille petit
+[75:42] et sous d'un tu fais du 40 et demi.
+[75:45] Enfin, pourquoi ce n'est pas réglé ?
+[75:49] Eh bien déjà, c'est pas réglé parce que le corps humain change.
+[75:54] Les gens prennent du volume.
+[75:57] D'accord, la taille de mon pied est...
+[75:59] Non, pas tellement les pieds.
+[76:00] Je pense aux autres parties du corps.
+[76:02] Bien sûr, bien sûr.
+[76:03] Ça change aussi genre, tu sais.
+[76:04] Oui, je suis devenu plus en forme avec l'âge.
+[76:06] En janvier, généralement.
+[76:08] Bien sûr.
+[76:09] C'est plus gros qu'en juillet.
+[76:10] Donc ça, je pense que c'est un problème.
+[76:12] Mais oui, le corps humain n'est en fait pas constant.
+[76:14] Et l'autre problème avec la chaîne d'approvisionnement
+[76:17] est en fait assez complexe.
+[76:20] Par exemple, même pour une seule marque,
+[76:22] deux articles identiques fabriqués dans des usines différentes
+[76:25] peuvent être légèrement différents.
+[76:27] Parfois, ça arrive qu'un 38 d'une usine ne corresponde
+[76:30] pas exactement à un 38 d'une autre.
+[76:33] Et c'est simplement parce que les procédés de fabrication
+[76:36] diffèrent un peu.
+[76:37] Vous essayez des choses sur qui arrivent.
+[76:39] J'en...
+[76:40] Vous avez un moyen de vérifier si un 41 correspond vraiment à un 41 ?
+[76:44] Oui.
+[76:45] Évidemment, on fait beaucoup de tests
+[76:48] pour vérifier la qualité ou la taille, mais...
+[76:51] Mais oui, on ne peut pas non plus essayer chaque article malheureusement.
+[76:56] Ce serait beaucoup trop coûteux.
+[76:58] Et si on teste seulement par catégorie ou par modèle,
+[77:01] vous le voyez sûrement dans les données.
+[77:03] En fait, on n'a pas forcément assez de données.
+[77:06] Au final, ce qui aide vraiment c'est le big data.
+[77:09] C'est la méthode.
+[77:11] Donc par exemple, si toi et moi avions une morphologie similaire
+[77:15] et disons que je suis client à l'endôre depuis 18 ans
+[77:18] que j'ai commandé plus de 500 articles en 15 ans,
+[77:21] retourner certains en expliquant pourquoi sur 20 marques différentes,
+[77:25] l'algorithme peut apprendre ce qui me convient
+[77:28] et identifier que tu as une morphologie proche de la mienne.
+[77:31] Et grâce à ce genre de données,
+[77:33] tu peux alors bénéficier de mes retours et de mon historique de commandes
+[77:37] pour recevoir un conseil de taille personnalisé.
+[77:40] C'est ce que tu vois maintenant sur l'endôre.
+[77:43] Donc tu sais, quand tu reçois un conseil de taille sur l'endôre,
+[77:47] il s'appuie sur les données de plus de 60 millions de clients.
+[77:52] Des clients qui commandent gardent ou retournent des articles chaque année.
+[77:56] Intéressant.
+[77:57] Tu vends la marque VJ sur l'endôre, tu sais VJ.
+[78:00] Ouais, je pense que oui.
+[78:01] Laisse-moi voir une marque française.
+[78:03] Tu peux vérifier ?
+[78:04] On va vérifier.
+[78:05] Mais je pense qu'on devrait en avoir.
+[78:06] On va vérifier parce qu'ils nous ont emmené l'année dernière.
+[78:09] En fait, il y a exactement un an.
+[78:11] On est allé au Brésil en forêt amazonienne
+[78:14] pour qu'ils nous montrent comment ils obtiennent leurs... oui.
+[78:17] Ouais.
+[78:18] Clement se m'a dit que vous en avez.
+[78:19] Ok bien, ouais.
+[78:20] Et donc, ouais.
+[78:21] On allant au Brésil l'année dernière
+[78:23] où on a pu voir,
+[78:24] d'où viennent leur cuire,
+[78:26] leur coton,
+[78:27] leur caoutchou,
+[78:28] toute leur matière pas la première.
+[78:29] D'accord.
+[78:30] Ouais.
+[78:31] Et c'était vraiment incroyable comment ils font ça
+[78:33] et surtout de voir à quel point c'est écologique.
+[78:37] Est-ce que c'est leur combat à eux seuls,
+[78:40] les gens s'en soucivent vraiment,
+[78:42] ou c'est encore très niche ?
+[78:44] On a parlé de Shane, ouais, donc.
+[78:47] Ouais.
+[78:48] Est-ce que les gens s'en soucient ?
+[78:49] Alors, très souvent ils disent que oui.
+[78:52] Mais ce qu'on a très rapidement appris,
+[78:54] c'est que dès qu'il s'agit du prix,
+[78:56] il y a ce qu'on appelle un écart
+[78:58] entre les intentions et les comportements.
+[79:01] Donc, l'intention c'est sa main porte.
+[79:04] Le comportement, c'est que non, pas vraiment.
+[79:07] Et on investit beaucoup en termes de...
+[79:09] genre juste créé de la transparence
+[79:11] sur toutes ces 7 000 marques
+[79:13] qui sont disponibles sur Zalando.
+[79:15] Pour par exemple,
+[79:17] aider nos clients à faire des choix plus durables.
+[79:21] Et ce qu'on voit,
+[79:23] c'est que ça aide le consommateur à faire ce choix.
+[79:28] Mais en fait, si la différence de prix est trop grande,
+[79:31] un les gens vont toujours vers le moins cher.
+[79:34] Si un article comparable est fabriquée
+[79:36] de façon plus durable, mais coûte plus cher,
+[79:38] les clients préfèrent en général
+[79:40] celui qui ressemble au premier,
+[79:42] mais qui coûte beaucoup moins.
+[79:44] C'est une réalité un peu triste.
+[79:47] Interessant.
+[79:49] Alors,
+[79:51] j'ai animé beaucoup de podcasts
+[79:54] avec de grandes enseignes de distribution française.
+[79:57] C'était pas car four,
+[79:59] mais il y avait superu ou ce genre d'enseigne.
+[80:03] Un point clé de leur métier,
+[80:05] c'est de bien acheter, donc pas cher.
+[80:07] Et donc, ma question, c'est,
+[80:09] et vous, comment vous achetez?
+[80:11] Chaque année, tu vas avoir naïk en disant
+[80:13] l'an prochain, je vais te vendre 13 millions de paire,
+[80:16] donc il faut me faire un meilleur prix.
+[80:18] C'est comme ça que ça marche.
+[80:20] Une grosse négociation quoi.
+[80:22] Eh bien, il y a une...
+[80:25] une grande partie de notre activité repose
+[80:28] sur ce qu'on appelle le programme partenaire.
+[80:30] Les marques restent propriétaires du stock.
+[80:32] Elle possède le stock et vous l'entreposez seulement.
+[80:35] Oui, c'est une grande partie de notre activité.
+[80:37] Les marques possède le stock
+[80:39] et utilise aussi notre service logistique pour le distribuer.
+[80:41] D'accord.
+[80:42] Donc le stock leur appartient.
+[80:44] Nous, on touche simplement des commissions pour nos services.
+[80:47] Pour la plateforme, la logistique, le marketing,
+[80:50] tout ce genre de choses.
+[80:52] Et puis, il y a l'activité impé
+[80:54] où nous achetons le stock et en devenons propriétaires.
+[80:58] Là, ça se rapproche davantage de ce que tu décris.
+[81:02] Et donc, on passe des commandes articles par article
+[81:06] en regardant l'historique et l'étendance.
+[81:10] Et c'est les acheteurs alandaux
+[81:12] qui décident de des modèles à commander.
+[81:14] Ils sont produits, puis ils intègrent nos systèmes.
+[81:17] Une fois qu'ils sont prêts à la vente.
+[81:20] C'est l'une de vos obsessions.
+[81:22] Pour pouvoir prédire combien de paire tu vas vendre.
+[81:24] Si je te montre cette chaussure, tu peux me dire...
+[81:26] Oui.
+[81:27] Oui, je suis capable de vendre.
+[81:28] Oui.
+[81:29] En fait, je pense que le fait de pouvoir prédire
+[81:33] précisément combien d'articles se vendront
+[81:35] et à quel prix c'est le gras l'ultime.
+[81:38] C'est même plus intéressant ou encore plus important
+[81:41] que de résoudre le problème des retours.
+[81:43] Et d'ailleurs, c'est la raison pour laquelle la mode
+[81:46] et le lifestyle restent inefficiant.
+[81:48] On produit constamment trop, ou bien pas assez.
+[81:51] Oui, et vous faites comment? Vous êtes bon là dessus.
+[81:54] Alors, je dirais que notre taille nous donne un avantage
+[81:59] parce qu'en fait, on opère dans 29 pays
+[82:02] avec un système centralisé.
+[82:04] Ça nous aide à mieux prévoir et à mieux gérer les stocks.
+[82:07] Parce que tu vois, il existe beaucoup de différentes sensibilités au prix.
+[82:12] On voit les consommateurs réagir complètement différemment au prix.
+[82:16] Les Français, par exemple, ils y sont très sensibles
+[82:19] d'autres consommateurs moins.
+[82:21] On a beaucoup d'outils pour écouler le stock au fil de la saison.
+[82:25] Donc, si je veux acheter une paire de disons une VJ Condor
+[82:29] ou bien une paire de Nike Air Max,
+[82:31] ou autre peu importe si je la vois en France,
+[82:34] est-ce que c'est la même chose qu'en Allemagne et partout ailleurs?
+[82:37] C'est le même produit, mais le prix peut différer tout comme certains aspects du service.
+[82:41] Un prix un peu différent, mais si vous l'avez en stock quelque part...
+[82:44] Oui, c'est disponible partout ou pas?
+[82:46] La plupart du temps, c'est disponible partout, oui.
+[82:49] Donc, ouais, c'est disponible,
+[82:51] mais parfois il y a des complications qui peuvent arriver.
+[82:54] Logistiquement, par exemple,
+[82:56] composé une commande de quatre articles répartis
+[82:58] dans plusieurs entrepots,
+[83:00] en une seule commande, c'est un énorme défi logistique.
+[83:03] Oui.
+[83:04] Ouais, c'est même un cauchemar,
+[83:06] mais d'un côté, c'est un cauchemar, mais c'est important.
+[83:09] Le client reçoit une seule livraison
+[83:11] et fait un seul retour au lieu de plusieurs colis.
+[83:14] Et ça permet aussi d'économiser de l'argent.
+[83:16] Oui, mais si tu sais que le 42 tu l'as,
+[83:18] mais qu'il n'en reste que 50
+[83:20] et que tu le vendras plus cher en Allemagne,
+[83:23] t'as sans doute aucun intérêt à me le montrer en France.
+[83:26] Tu me dis juste, désolé mon gars, désolé Matt.
+[83:29] Cette article n'est plus disponible.
+[83:33] Oui, tout ça,
+[83:35] ça relève des mécanismes de prix,
+[83:37] mais tu vois bien toute la complexité de cette optimisation.
+[83:41] Mais l'un des problèmes les plus difficiles,
+[83:43] c'est vraiment de composer une commande.
+[83:46] Comment est-ce possible de faire parvenir la commande du client
+[83:49] en un seul colis
+[83:51] et le plus rapidement possible
+[83:53] et pour le faire, en fait, d'une manière,
+[83:55] sans avoir à attendre plusieurs jours de consolidation,
+[83:58] en trouvant le chemin optimal
+[84:00] et les articles ne se trouvent pas forcément
+[84:02] dans le même entrepôt.
+[84:03] Oui.
+[84:04] Parce que l'inverse arrive très rarement.
+[84:06] Ce qui est intéressant, c'est que
+[84:08] vous êtes peut-être les seuls en Europe
+[84:10] à avoir ce genre de problème.
+[84:12] Vous devez les résoudre vous-même
+[84:14] d'une manière ou d'une autre,
+[84:16] c'est intéressant, mais...
+[84:18] Oui, après, je pense qu'Amazon a aussi certains de ces problèmes.
+[84:21] Mais oui,
+[84:23] faire fonctionner l'Europe comme un réseau de centres logistiques
+[84:26] à grand déchelles
+[84:27] et sur un marché de long terme
+[84:29] comme la mode et le lifestyle
+[84:31] avec des millions d'articles
+[84:33] et dont une grande partie ne vit que six mois
+[84:35] avant d'être remplacé.
+[84:37] C'est un problème très particulier à résoudre.
+[84:40] Oui.
+[84:41] Vous faites vous-même les photos des articles
+[84:43] et tout le reste?
+[84:44] Oui, nous avons des studios qui font les prises de vue.
+[84:47] Mais comme tu peux l'imaginer,
+[84:49] l'intelligence artificielle générative
+[84:50] bouleverse aussi beaucoup ce domaine.
+[84:52] Et d'ailleurs, justement, concernant l'IA,
+[84:54] vous en êtes ou,
+[84:56] vous l'utilisez comment sur votre site,
+[84:58] vous utilisez déjà OpenClow
+[85:01] ou Hermès
+[85:02] ou d'autres intelligences artificielles agentiques.
+[85:05] Alors oui, on a une équipe tech de 3000 personnes
+[85:08] pas seulement des ingénieurs logiciels.
+[85:11] C'est d'ailleurs l'un des plus gros métiers chez Alendo.
+[85:15] Et donc oui, bien sûr, on utilise CloudCode
+[85:19] et je pense que on progresse tous les jours,
+[85:23] on fait des progrès sur les outils contestes
+[85:26] et sur la façon d'augmenter encore notre productivité.
+[85:31] Mais ça a déjà changé?
+[85:34] J'en ai énormément?
+[85:36] Alors, je dirais que
+[85:38] dans le Cloud, clairement,
+[85:40] le nombre de poules requests explose.
+[85:43] Le métier d'ingénieurs logiciels
+[85:45] est en train de changer en profondeur.
+[85:47] C'est un domaine majeur.
+[85:49] On a aussi parlé du contenu sur le site.
+[85:52] Mais donc, dans le...
+[85:54] La production ça doit être tellement facile maintenant, non?
+[85:57] Oui, le service client aussi, il y a beaucoup de cas d'usage.
+[86:00] Mais pour le contenu du site, 90% de ce qu'on publie
+[86:03] est maintenant généré à partir de promptes.
+[86:05] D'accord.
+[86:06] Avant, tout était photographié, retouché
+[86:08] et planifié comme des campagnes.
+[86:10] Aujourd'hui, 90% du contenu
+[86:13] est créé par prompt via lia.
+[86:15] Ça réduit énormément le volume de travail
+[86:17] et le délai de mise en ligne.
+[86:19] Il y a aussi les tailles, le poids, les retours,
+[86:22] dont on a un peu parlé.
+[86:24] Et il y a aussi des cas d'usage
+[86:26] pour la prédiction de livraison.
+[86:28] Il s'agit de dire aux clients
+[86:30] dès qu'ils commandent
+[86:31] quand son colis arrivera.
+[86:33] Quand est-ce que la commande sera assemblée
+[86:35] dans le réseau d'entre pots,
+[86:37] expédiait, puis livré?
+[86:39] Rien que sur l'année dernière,
+[86:40] on a gagné 22 points de pourcentage
+[86:42] grâce à de nouveaux modèles
+[86:44] et algorithmes et quoi d'autres.
+[86:46] On a maintenant un...
+[86:49] Maintenant, on investit beaucoup
+[86:51] dans le commerce agentique.
+[86:53] L'idée, c'est de combiner nos données,
+[86:57] notre expérience et notre expertise mode
+[86:59] et lifestyle avec une expérience
+[87:01] plus agentique pour les clients.
+[87:03] Donc, par exemple,
+[87:07] si tu es coureur
+[87:10] et que tu as une surpronation,
+[87:12] tu as donc ce problème.
+[87:14] Et donc, tu cherche une chaussure adaptée
+[87:16] à la surpronation.
+[87:17] Oui.
+[87:18] Et comme dans le commerce,
+[87:20] jusqu'ici, on faisait surtout une recherche
+[87:23] et puis on affinait avec des filtres.
+[87:25] Oui.
+[87:26] Mais dans beaucoup de cas,
+[87:28] la recherche ou les filtres ne suffisent pas
+[87:30] parce que le besoin n'existe pas comme critère.
+[87:33] C'est parfois très difficile de trouver ce qu'on cherche.
+[87:36] Donc, je pense que avec le commerce agentique,
+[87:40] avec le commerce agentique,
+[87:42] on peut maintenant parler au client
+[87:44] vraiment très naturellement.
+[87:46] On peut mieux comprendre
+[87:47] son besoin et lui proposer les bons articles.
+[87:50] C'est ce sur quoi on travaille
+[87:52] avec déjà de bons résultats.
+[87:54] Rien qu'au dernier trimestre,
+[87:56] 10 millions de personnes ont interagé
+[87:58] avec nos expériences de commerce agentique.
+[88:00] Donc, c'est sur votre site Web.
+[88:02] C'est le vôtre.
+[88:03] Parce qu'il y a aussi sans doute
+[88:05] le commerce agentique via Claude
+[88:07] ou via chat GPT.
+[88:09] En fait, je trouve que plus en avance,
+[88:11] et par exemple,
+[88:13] ces deux dernières semaines,
+[88:15] entre Taline qui avait Berlin,
+[88:17] j'ai demandé à Claude et chat GPT,
+[88:19] la plupart de mes recommandations d'hôtels,
+[88:21] de restaurants et autres.
+[88:23] Et donc,
+[88:25] je dirais que c'est une super opportunité,
+[88:27] mais ça peut aussi devenir une menace à un certain moment.
+[88:31] Par exemple, c'est possible qu'un jour,
+[88:34] ils vont peut-être te dire,
+[88:36] Robert ont aime bien,
+[88:38] mais on ne peut pas faire ça gratuitement.
+[88:40] Si on recommande des gens,
+[88:42] alors recommandait Nike sur Zalando,
+[88:44] ça va te coûter tellement grand.
+[88:46] En fait, c'est la deuxième partie du Jane Commerce.
+[88:48] On se demande alors,
+[88:50] comment orchestrer des parcours
+[88:52] qui démarrent sur des agents
+[88:54] ou des chatbots comme chat GPT ou Gemini,
+[88:56] et c'est là que de nouvelles questions émergent
+[88:58] comment on peut faire pour gérer ça,
+[89:00] et quelle rôle joutons dans ces écosystèmes.
+[89:02] Pour moi, c'est une super opportunité,
+[89:04] car pour le moment,
+[89:06] 30 % des ventes de mode aux détails
+[89:08] qui se font en ligne,
+[89:10] contre 70 % hors ligne,
+[89:12] donc il y a très clairement une place à prendre,
+[89:14] et au vu de ces données,
+[89:16] que le gros du marché est encore offline,
+[89:18] mais qu'il est en train d'effectuer une bascule vers le digital.
+[89:20] Alors, on est bien placés,
+[89:22] parce qu'on est aujourd'hui le plus grand
+[89:24] Icomers Europe.
+[89:26] C'est un avantage indéniable,
+[89:28] et c'est aussi dû au fait que
+[89:30] on est déjà très avancé sur la tech.
+[89:32] Notre avancée technologique nous permet notamment
+[89:34] en ce moment un protocole commerce
+[89:36] pour définir comment les acteurs d'un écosystème interagissent,
+[89:38] et on est actuellement l'un des deux seules partenaires
+[89:40] avec qui ils travaillent pour le construire.
+[89:42] Au final,
+[89:44] ça devrait ramener plus de volume vers les commerces
+[89:46] et on va exerler l'âte d'enjeu pensent.
+[89:48] Mais,
+[89:50] pour le moment,
+[89:52] la meilleure façon de choper de la mode,
+[89:54] ça reste de combiner ça avec nos propres données.
+[89:56] Imagine que, dans quelques années,
+[89:58] idéalement, ça nous prendra que quelques années pour le faire.
+[90:00] Bref, tu puisses simplement demander
+[90:02] à l'endot de te surprendre.
+[90:04] Prenons ça comme exemple,
+[90:06] ça va nous permettre d'imaginer plus facilement.
+[90:08] Donc, tu lui dirais tout bêtement.
+[90:10] Surprend-moi.
+[90:12] Trouve-moi quelque chose qui me plaît pour 100 euros.
+[90:14] À partir de là, pour répondre à ta demande,
+[90:16] il faut pour commencer, accéder à tes données.
+[90:18] On va alors observer ton passé,
+[90:20] pour créer ton futur.
+[90:22] On regarde donc ce que t'as déjà commandé,
+[90:24] d'où tu commandes, ta taille, tes marques préférés
+[90:26] et toute autre information qui puisse être utile.
+[90:28] L'objectif premier est donc de serrer tes goûts.
+[90:30] C'est une question tellement personnelle, surprend-moi.
+[90:32] Que quand on est capable de répondre à ça,
+[90:34] on a un gros avantage.
+[90:36] On devient grâce à ça bien plus fort
+[90:38] que n'importe quel chatbot généraliste.
+[90:40] On les intègre et on travaille avec eux bien sûr,
+[90:42] mais on peut aller beaucoup plus loin dans la personnalisation.
+[90:44] C'est parce qu'on opère
+[90:46] dans un environnement très spécifique
+[90:48] que nous pouvons avoir cette personnalisation de la réponse.
+[90:50] On ne comprend pas seulement la question de l'utilisateur,
+[90:52] mais on essaye de comprendre qui il est pour mieux lui répondre.
+[90:56] C'est mon point de vue, en tout cas.
+[90:58] Donc sur cette question des données,
+[91:00] mon avis, c'est que, par exemple,
+[91:02] j'utilise Claude comme assistant sur plein de trucs.
+[91:04] Il y m'est maille, Gère Monagenda.
+[91:06] Et donc, à un moment,
+[91:08] il va en savoir beaucoup sur moi.
+[91:10] Oui, tout à fait.
+[91:12] Donc je me suis dit que mon assistant pourrait me dire
+[91:14] et t'as vu les nouvelles salles au monde qui viennent de sortir.
+[91:16] Oui.
+[91:18] Ou un truc genre,
+[91:20] t'en as pas eu une paire depuis longtemps.
+[91:22] Je sais pas comment ça va s'articuler entre vous,
+[91:24] mais ma crainte, c'était que vous deveniez une sorte de comodité,
+[91:26] juste un stock.
+[91:28] Je pense que vous devez garder ce truc de marque
+[91:30] qui fait que j'ai envie de commander sur Zalandot
+[91:32] et ça passe notamment par le fait que c'est rapide
+[91:34] et que je peux renvoyer ce qu'il ne me va pas.
+[91:36] C'est toutes ces choses qui font la magie de la marque
+[91:38] et que je ne veux pas voir disparaître.
+[91:40] Et c'est aussi ça pour moi
+[91:42] que vous avez construit durant ces 16 dernières années.
+[91:44] Oui, et je pense qu'il nous faut créer des expériences
+[91:48] meilleur que ce que Claude peut faire pour la mode
+[91:50] et la clé s'est d'exploiter les données très spécifiques
+[91:52] qu'on a en tant qu'il commerce.
+[91:54] C'est vraiment ces données qui vont nous permettre
+[91:56] la personnalisation et nous donner la possibilité
+[91:58] d'avoir une réponse meilleure que celle de Claude,
+[92:00] par exemple.
+[92:02] Mais alors comment on exploite ces données correctement
+[92:04] pour créer une solution meilleur que ce qui existe ?
+[92:06] Mais bon, comme je disais,
+[92:08] 70% se passent encore en magasin en Europe
+[92:10] et je vois vraiment ça comme une opportunité
+[92:12] de croissance digitale.
+[92:14] Est-ce que l'IA a changé ta façon de travailler
+[92:16] en tant que CEO, je veux dire ?
+[92:18] LIA ?
+[92:20] Oui, l'IA.
+[92:22] Oui, je pense que ce que nous observons aujourd'hui,
+[92:25] c'est que lorsqu'il s'agit de questions purement analytiques,
+[92:29] ce qui se passe réellement dans ce pays,
+[92:32] en comparaison avec ce qui se passe et hier,
+[92:34] pour toutes ces questions qui demandent principalement
+[92:36] de faire de l'analyse de données,
+[92:38] avant qu'on avait ce type de question,
+[92:40] on pouvait soit demander à quelqu'un de préparer une analyse
+[92:42] et s'apprenait deux ou trois jours,
+[92:44] soit elle est directement dans la base de données
+[92:46] pour regarder les chiffres soi-même.
+[92:48] Et là, toutes ces questions d'analyse
+[92:50] pour dire tous ces trucs se font maintenant très facilement
+[92:53] et avec une bonne qualité de résultat.
+[92:55] Donc ça nous facilite clairement les choses à ce niveau-là.
+[92:58] Mais l'autre grand changement,
+[93:00] qui est, je pense, l'un des changements majeurs
+[93:02] dans notre manière de faire,
+[93:04] c'est que je commence simplement en faisant des prontes
+[93:06] pour avoir une grande partie des informations dont j'ai besoin,
+[93:08] plutôt que de m'adresser aux autres
+[93:10] et de demander à des gens.
+[93:12] Personnellement, ce que j'ai pas encore vraiment fait
+[93:14] et que j'ai toujours sur mon agenda
+[93:16] et d'ailleurs, ça commence à faire un bout de temps
+[93:18] que je devrais le faire.
+[93:20] C'est de programmer mon propre agent.
+[93:22] Je vois bien depuis quelques temps maintenant
+[93:24] tout le monde faire ça autour de moi.
+[93:26] Je comprends bien l'intérêt, mais j'avoue,
+[93:28] j'ai du mal à me dégager le temps pour le faire.
+[93:30] Et pourtant, je pense que ça pourrait mettre utile,
+[93:32] mais bon, tu sais ce que c'est la gestion du temps
+[93:35] reste une difficulté.
+[93:37] Et je trouve tout simplement pas le bon moment pour le faire.
+[93:39] J'ai essayé de m'y mettre un peu pendant les vacances de paque,
+[93:42] mais au final, je me suis dit,
+[93:44] je peux quand même pas passer toutes mes vacances à faire ça.
+[93:47] Je pense que c'est un peu comme un rêve devenue réalité.
+[93:50] Ça fait plus de 20 ans que je travaille dans le numérique.
+[93:53] Et aujourd'hui, il suffit de donner une instruction à mon assistant Ia.
+[93:56] Le mien s'appelle Vadim.
+[93:58] Il fonctionne avec OpenClaw,
+[94:00] et il a son propre Macmini chez moi.
+[94:02] Et donc, une simple instruction suffit pour faire beaucoup de choses.
+[94:05] Je lui dis simplement, Vadim,
+[94:07] peut-tu créer une page sur mon site WordPress
+[94:09] qui parle de ceci ou de cela ?
+[94:11] Et boom, c'est fait ?
+[94:12] C'est fait.
+[94:13] Et en plus, c'est d'optimiser SEO.
+[94:15] C'est incroyablement optimisé.
+[94:17] Enfin, je lui ai appris à être meilleur en design,
+[94:19] en développement front-end,
+[94:21] et aussi en expérience utilisateur UX.
+[94:24] Donc oui, c'est vraiment intéressant et très utile.
+[94:26] Je pense que ça te plairait d'ailleurs.
+[94:28] En tout cas, moi, je suis impressionné par la qualité des résultats,
+[94:30] et le gain de temps est énorme aussi.
+[94:33] Oui, c'est tellement excitant de voir tout ce qu'on peut faire.
+[94:36] C'est vrai.
+[94:37] C'est assez fou tout ce qui se passe en ce moment.
+[94:39] Tu disais que 70% de la mode.
+[94:41] Au sens large du mode ?
+[94:42] Oui, c'est le lifestyle,
+[94:44] mais aussi la beauté, le bien-être.
+[94:46] Le lifestyle, oui.
+[94:47] Ça se passe donc offline,
+[94:48] et vous n'avez jamais envisagé
+[94:49] d'ouvrir des boutiques à l'endôme.
+[94:51] On a quelques outilettes en Allemagne.
+[94:53] Mais en dehors de ça, on n'a jamais vraiment investi
+[94:56] dans les grands magasins physiques.
+[94:58] C'est une expérience tellement différente.
+[95:00] Et c'est aussi pour nous une question de focus.
+[95:03] Je veux dire, les magasins physiques
+[95:05] ne connaissent pas vraiment de croissance.
+[95:07] En revanche, le e-commerce lui continue de progresser.
+[95:10] Et dans l'ensemble,
+[95:12] le marché du lifestyle est plutôt stable,
+[95:14] voire quasiment stagnant en Europe.
+[95:16] Ce qu'on observe surtout,
+[95:18] c'est un transfert des achats des magasins physiques
+[95:20] vers le commerce en ligne.
+[95:22] Ok, mais vous avez les données.
+[95:23] Donc vous savez ce qui va marcher.
+[95:24] Donc si vous ouvriez une grande boutique,
+[95:26] je sais pas sur les chansélysées.
+[95:28] Par exemple, vous sortiez déjà ce qui va se vendre ce week-end.
+[95:31] C'est d'une certaine manière,
+[95:33] un avantage des loyales.
+[95:34] Oui.
+[95:35] On a d'autres problèmes
+[95:36] plus intéressants à résoudre que le physique.
+[95:38] D'ailleurs, beaucoup d'autres ont de l'héritage là dedans.
+[95:40] Et pour ma part,
+[95:42] j'ai pas vu ça vraiment fonctionner quelque part.
+[95:44] Oui.
+[95:45] Alibaba a fait des tests sur le commerce physique.
+[95:47] Je pense qu'Amazon a aussi fait quelques tests.
+[95:49] Mais je pense que
+[95:51] ça n'a pas vraiment fonctionné du moins à ma connaissance
+[95:53] de devenir une boîte à grande échelle
+[95:55] pour une entreprise technologique,
+[95:57] vraiment performante dans le commerce physique.
+[95:59] Quelles sont les marques ou les entrepreneurs
+[96:01] qui inspire le plus en ce moment?
+[96:03] D'où devient ton inspiration?
+[96:04] Donc qui m'inspire?
+[96:06] Alors, je ne me suis jamais trop posé cette question à vrai dire.
+[96:08] Mais c'est intéressant de se la poser.
+[96:10] Oui, comme d'autres marques, des livres,
+[96:12] ou peut-être des gens.
+[96:13] Je trouve beaucoup d'inspiration
+[96:15] auprès des personnes avec lesquelles je travaille chez Alendo.
+[96:18] Je pense qu'elles sont une excellente source d'inspiration.
+[96:20] J'essaie aussi de m'exposer autant que possible
+[96:22] aux entrepreneurs en Europe.
+[96:24] Hier, par exemple,
+[96:26] j'étais un événement à Oxford
+[96:27] avec beaucoup d'entrepreneurs européens
+[96:29] et toutes ces conversations assez informelles
+[96:31] que je peux avoir avec eux,
+[96:33] que ce soit sur l'Europe, le monde, lia.
+[96:35] Je pense que ça m'apporte une vraie ouverture d'esprit
+[96:37] et aussi des idées.
+[96:39] Si je te demande qui est celui qui t'impressionne le plus,
+[96:41] en ce moment.
+[96:42] L'entrepreneur le plus impressionnant?
+[96:44] Oui, exactement, dis-moi le premier qui devient à l'esprit.
+[96:47] Si on parle d'entrepreneur,
+[96:49] alors, je dirais probablement,
+[96:51] Elon Musk.
+[96:52] Et parmi les gens que t'as rencontrés dans les européens?
+[96:55] En Europe, oui.
+[96:56] Je ne veux pas donner de nom,
+[96:57] mais je pense qu'il y a énormément d'entrepreneurs brillants
+[97:00] et ambitieux
+[97:01] qui, avec cette nouvelle haire de l'intelligence artificielle,
+[97:04] créent des entreprises vraiment impressionnantes
+[97:06] et se très très rapidement.
+[97:08] Donc oui, je trouve que ce qui est en train de se passer
+[97:10] est vraiment impressionnant.
+[97:12] C'est en partie une révolution
+[97:13] et pas tant dans la déconstruction de ceux
+[97:15] qui est déjà en place,
+[97:16] mais plus dans la rapidité et la vitesse de croissance
+[97:19] de ceux qui arrivent.
+[97:20] Oui.
+[97:21] Et dis-moi, à tu déjà eu l'occasion de rencontrer
+[97:23] en tonosica?
+[97:24] Oui, bien sûr.
+[97:25] Ah oui, c'est vrai, tu travailles là-bas aussi.
+[97:27] Oui.
+[97:28] Lui et ses collaborateurs se sont des gens
+[97:30] assez extraordinaires.
+[97:31] Je trouve.
+[97:32] On les a rencontrés récemment,
+[97:34] grand fan de...
+[97:35] C'est l'occasion de tu les as rencontrés?
+[97:36] On a enregistré avec lui l'année dernière.
+[97:38] Ok.
+[97:39] On est de grands fans de ce qu'ils font
+[97:41] et on utilise leur technologie presque tous les jours.
+[97:44] Vous utilisez l'ovable?
+[97:46] C'est ça?
+[97:47] Oui, l'ovable.
+[97:48] Et on s'en sert tout le temps.
+[97:49] Et autant pour le perso que pour le pro.
+[97:51] On a fait des trucs de dingue sur l'ovable.
+[97:53] Et puis, c'est bien plus accessible que CloudCode,
+[97:56] plus facile d'utilisation,
+[97:57] plus confortable et intuitif.
+[97:58] Oui, c'est vrai.
+[97:59] Quelque chose qu'on a essayé aussi,
+[98:01] c'est un de mes associés, Christopher,
+[98:03] qui a en quelque sorte créé un ERP ainsi que des CRM.
+[98:07] Oui.
+[98:08] Et il a fait ça sur l'ovable.
+[98:09] J'avais une agence digitale avant et on aurait facturé ça 150 000.
+[98:13] Ça nous aurait pris 8 mois à développer,
+[98:15] même peut-être plus genre un an, je pense.
+[98:17] Le temps de faire le brif puis le design.
+[98:19] Oui.
+[98:20] Le Cloud tout ça, alors que là, lui,
+[98:22] il a fait ça en moins de 30 heures.
+[98:24] Donc en une petite semaine de boulot avec un mec
+[98:26] qui gère bien quand même, ça peut être fait.
+[98:29] C'est juste...
+[98:30] Oui, je pense qu'il y a beaucoup de choses formidable
+[98:32] qui arrivent dans l'IA comme l'ovable.
+[98:34] Je pense notamment à une entreprise qui vient d'Europe,
+[98:36] comme l'ovable d'ailleurs.
+[98:37] C'est Black Forest Labs en Allemagne.
+[98:39] Et ici, à Berlin, nous avons N8N avec...
+[98:42] Oui, N8N, je connais.
+[98:43] C'est super intéressant.
+[98:44] Avec Pallois.
+[98:45] Oui.
+[98:46] Et Pallois fait du customer care.
+[98:47] On a aussi Lang Dock, à Berlin et Arthur avec Mistral.
+[98:50] Donc oui, je pense qu'il y a maintenant beaucoup de très belles entreprises
+[98:54] d'IA ambitieuses qui émergent ici en Europe.
+[98:57] Et je trouve ça vraiment passionnant.
+[98:59] Oui.
+[99:00] C'est aussi une nouvelle entreprise qui vient d'apparaître.
+[99:03] C'est bluffant.
+[99:04] Pour revenir au sujet, je t'ai dit qu'on parcourait l'Europe
+[99:07] pour un documentaire sur ma chaîne YouTube.
+[99:09] Donc l'idée, c'est d'essayer de récolter des idées concrètes
+[99:11] pour améliorer l'Europe.
+[99:13] Alors, je ne vais pas te demander de te positionner politiquement.
+[99:16] Je pense que ce n'est pas vraiment l'idée aujourd'hui,
+[99:18] mais plutôt te demander ce que tu as constaté ou vu
+[99:22] évoluer ces dernières années.
+[99:24] Je veux dire tuer l'un des rares nouveaux entrepreneurs
+[99:27] à être partout en Europe.
+[99:29] D'y compris le Royaume-Uni, tu es en Ukraine, toi ?
+[99:32] Non.
+[99:33] D'après toi, c'est subjectif bien entendu,
+[99:35] mais qu'est ce qui ne marche pas ?
+[99:37] Qu'est ce que tu changerais si tu pouvais ?
+[99:39] Pour toi, on devrait faire quoi avec notre Europe ?
+[99:41] Oui, je pense que l'un des points dont on a déjà parlé
+[99:44] c'est la prise de conscience de la valeur du marché unique.
+[99:46] Tu vois ?
+[99:47] Le fait de s'engager pleinement en faveur d'un véritable marché unique
+[99:50] européen aiderait énormément.
+[99:52] Parce que si nous ne nous engageons pas dans cette voie,
+[99:54] nous ne sommes finalement qu'un ensemble
+[99:56] de petits marchés individuelles fragmentés.
+[99:58] Et je pense que cela entraîne une perte d'efficacité et de force.
+[100:01] Donc je pense qu'il y a beaucoup de choses qui aiderait énormément.
+[100:04] Si l'Europe décidait vraiment d'avancer
+[100:07] et de porter un agenda très ambitieux
+[100:09] pour faire de se marcher un véritable marché unique
+[100:12] au sein de l'Union européenne,
+[100:14] c'est pour moi l'un des éléments les plus importants.
+[100:16] Car le marché européen unifié nous donnerait un poids,
+[100:19] un volume qui serait un avantage,
+[100:21] et on aurait sûrement tout à y gagner.
+[100:23] Et puis il y a aussi quelque chose auxquels
+[100:25] je réfléchis beaucoup en ce moment.
+[100:27] C'est cette question de savoir ce que l'IA est réellement
+[100:30] en train de faire aujourd'hui.
+[100:32] Et à mon sens, l'IA est en train de déplacer,
+[100:34] dans une certaine mesure, bien entendu,
+[100:36] une partie de la création de valeur.
+[100:38] On passe alors d'une valeur créée par le travail humain
+[100:41] à une valeur créée à l'aide du capital.
+[100:44] Donc par création de valeur grâce au capital,
+[100:47] j'entends le fait qu'on a maintenant des modèles
+[100:49] qui écrivent du code, qui font des analyses
+[100:51] et qui réalisent toutes sortes de taches
+[100:53] auparavant accomplis par des personnes.
+[100:55] Et ces modèles eux consomment du capital.
+[100:57] Par exemple, ils ont un coup énergétique,
+[100:59] mais aussi il y a les couliers à l'inférence
+[101:02] et ainsi de suite.
+[101:03] Donc je pense qu'aujourd'hui,
+[101:05] une part importante de la création de valeur
+[101:07] passe désormais par le capital.
+[101:08] Ok, donc ce que l'Europe doit faire en priorité,
+[101:11] c'est attirer ces capitaux, bien sûr.
+[101:13] Il ne faut pas oublier que ce sont les entreprises de demain
+[101:16] qui créeront une immense partie de la valeur.
+[101:18] Si nous ne les attirons pas en Europe,
+[101:20] si nous ne leur donnons pas envie de s'y développer,
+[101:22] alors cette valeur sera tout simplement créée ailleurs.
+[101:25] Tu vois, donc je pense que pour faire ça,
+[101:27] il faut être très concentré et donner la priorité
+[101:29] à la question suivante.
+[101:30] Comment aider les nouvelles entreprises
+[101:32] et les entrepreneurs à se lancer en Europe,
+[101:34] à rester en Europe et faire en sorte
+[101:36] que ce soit le plus simple possible pour eux.
+[101:38] Parce qu'ils ont aussi un choix assez évident à faire,
+[101:40] tu vois, s'installer ailleurs.
+[101:42] Et pour les entreprises qui existent déjà aujourd'hui,
+[101:44] il faut aussi leur donner la possibilité
+[101:46] de se réinventer très rapidement.
+[101:47] Parce que je pense qu'elles doivent maintenant
+[101:49] adopter et déployer beaucoup d'y-a
+[101:51] pour pouvoir réellement créer cette valeur.
+[101:54] Ok, c'est déjà un peu ce qui est en train d'arriver.
+[101:57] Donc je pense que c'est vraiment là dessus
+[101:59] que je concentrerai les efforts européens.
+[102:01] Comment attirer le capital chez nous
+[102:03] et comment faire en sorte
+[102:04] qu'ils restent investis dans les entreprises
+[102:06] et ce efficacement bien entendu.
+[102:08] Ok, et votre IPO,
+[102:10] c'est faite à la bourse de Frankfurt.
+[102:13] C'est bien ça ?
+[102:14] Oui.
+[102:15] C'est courageux, enfin.
+[102:16] La plupart des gens que nous avons vu
+[102:18] pendant notre voyage
+[102:19] quand on leur posait la question
+[102:20] d'une introduction en bourse,
+[102:21] ils disaient,
+[102:22] « Moi, j'irais sans hésiter au NASDAQ.
+[102:24] Pour eux, ça ne servait absolument à rien
+[102:26] d'aller autre part.
+[102:27] Car il n'y a pas de financement
+[102:29] et qu'ils doivent penser à leurs actionnaires.
+[102:31] Et là, on leur répond.
+[102:32] Donc vous deviendriez une entreprise américaine,
+[102:34] et ils disent,
+[102:35] « Oui, bien sûr.
+[102:36] »
+[102:37] Et je pense que c'est justement
+[102:39] le gros problème dont on nous parle actuellement non.
+[102:41] Cette différence de marché
+[102:42] qui attire vers le NASDAQ,
+[102:43] les entrepreneurs,
+[102:44] via les besoins
+[102:45] ou demandent de leurs actionnaires.
+[102:47] Concrètement, toi,
+[102:48] tu vendrais à une boîte américaine ?
+[102:50] T'as probablement déjà eu des offres ?
+[102:53] On n'a jamais eu de discussion concrète avec personne
+[102:55] sur une vente.
+[102:56] T'as jamais eu d'offres ?
+[102:57] On n'a jamais eu de discussion vraiment concrète.
+[102:59] Ok.
+[103:00] Ni poursuivi quoi que ce soit.
+[103:01] Parce que l'influence.
+[103:02] Et pour nous, c'était, enfin,
+[103:04] nous sommes d'une entreprise européenne.
+[103:06] Nous avons tous nos employés ici en Europe.
+[103:08] Enfin, pas tous,
+[103:09] mais la plupart de nos employés sont en Europe.
+[103:11] Et nous servons les consommateurs européens.
+[103:13] Actuellement, c'est environ 15% de la population européenne
+[103:16] qui est un client actif chez nous.
+[103:18] Donc, pour nous, s'introduire en Bourse
+[103:20] or Europe aurait franchement été bizarre.
+[103:22] Oui, mais c'est philosophique, ce que tu dis.
+[103:24] Tu trouves ?
+[103:25] Oui, ça me semble être plus philosophique comme choix.
+[103:27] Ce n'est pas vraiment une question financière
+[103:29] d'une certaine manière.
+[103:30] Certaines personnes auraient pu choisir de le faire ailleurs
+[103:32] parce que c'est ailleurs que se trouvent le capital.
+[103:34] Parce que le marché des capitaux
+[103:36] était beaucoup plus profond.
+[103:37] Je veux dire,
+[103:38] peut-être qu'aujourd'hui,
+[103:39] la différence est un peu moins importante,
+[103:41] mais je pense qu'en 2014,
+[103:42] lorsque nous sommes entrés en Bourse,
+[103:44] il y avait évidemment des discussions.
+[103:46] Est-ce que ce n'est pas une opportunité d'aller ailleurs?
+[103:48] Mais on a vite écarté l'idée,
+[103:50] en tant que boîte basée en Europe,
+[103:52] suivre le calendrier et la réglementation américaine
+[103:54] aurait été très étrange.
+[103:56] Et je crois que ça devrait vraiment pouvoir se faire en Europe.
+[103:58] Et oui, je pense que notre grand défi
+[104:00] c'est plutôt de rendre l'Europe meilleur
+[104:02] au lieu de partir aux Etats-Unis ou en Chine.
+[104:04] Nous n'avons pas choisi la voie d'une logique purement financière
+[104:08] car nous croyons que sur le long terme,
+[104:10] ça fait plus de sens que nous restions européens
+[104:12] et que nous soutenions ainsi le développement de notre territoire.
+[104:15] Je comprends. Si je reviens à ton premier point,
+[104:17] facilité la croissance sur plusieurs marchés,
+[104:20] pendant ce voyage,
+[104:21] je me suis demandé pourquoi on l'a pas fait.
+[104:23] Ça devrait être déjà fait depuis un moment, non?
+[104:25] Il y a probablement une...
+[104:26] Oui, tout à fait.
+[104:27] Bon, soyons honnêtes,
+[104:28] chaque pays mène ces combats,
+[104:30] les Français défendent leur vin,
+[104:32] leur sac en cuire et plein d'autres choses du luxe
+[104:34] et de la gastronomie,
+[104:36] alors que les Allemands eux défendent leur voiture de luxe.
+[104:39] Oui.
+[104:40] Et nous n'avons pas forcément les mêmes intérêts.
+[104:42] Peut-être que c'est une bonne chose
+[104:44] de notre point de vue,
+[104:46] mais je ne pense pas que ce soit évident pour tous,
+[104:48] car c'est confortable pour les marchés nationaux de dire,
+[104:51] écoutez, avec votre banque ou votre opérateur téléphonique,
+[104:54] restez chez vous.
+[104:55] Nous avons nos propres acteurs,
+[104:56] nous n'avons pas besoin de vous.
+[104:58] Tu vois, évidemment,
+[104:59] il sera difficile de faire évoluer ça,
+[105:01] ouvrir les marchés à un coup.
+[105:02] Il y a un coup, oui,
+[105:03] mais je pense qu'à un moment donné,
+[105:05] nous avons tous fait le choix de nous rassembler
+[105:07] et de dire créant l'Union européenne,
+[105:09] parce que nous croyons qu'ensemble,
+[105:11] nous pouvons faire mieux.
+[105:12] Oui.
+[105:13] Plus tôt que de le faire chacun de notre côté.
+[105:15] Et nous nous sommes tous engagés à avoir une monnaie commune.
+[105:17] Alors, j'aimerais vraiment qu'il y ait
+[105:19] une nouvelle forme de prise de conscience.
+[105:21] Comprendre que c'est en réalité la voile
+[105:23] la plus importante pour nous
+[105:24] afin de rester pertinents dans nos choix.
+[105:26] Si on ne le fait pas,
+[105:27] je vois un vrai danger
+[105:28] que l'Europe devienne beaucoup moins pertinente.
+[105:30] Ce marché commun, c'est ça notre grande force.
+[105:32] Pour moi, on doit t'entirer profit.
+[105:34] Je pense qu'une grande partie
+[105:35] de la création de valeur
+[105:36] ne se fera plus en Europe.
+[105:38] Mais plutôt aux États-Unis,
+[105:39] en Chine,
+[105:40] est probablement dans d'autres régions.
+[105:42] Et avec le temps,
+[105:43] le décalage va s'accentuer.
+[105:45] Et pour nous,
+[105:46] le sentiment pourrait être assez frappant.
+[105:48] Quand on voyagera aux États-Unis,
+[105:49] en tant que touristes,
+[105:50] on pourrait avoir l'impression
+[105:51] de venir d'un pays pauvre.
+[105:53] Donc c'est important de continuer à avancer.
+[105:55] Oui.
+[105:56] Si on ne change pas ça.
+[105:57] Et c'est déjà en train d'arriver.
+[105:59] Oui, ça commence déjà.
+[106:00] Et ça va s'accentuer.
+[106:01] Et j'aimerais vraiment que l'Europe puisse avoir davantage.
+[106:04] Enfin,
+[106:05] que nous partageons tous la même compréhension
+[106:07] de l'urgence qu'il y a aujourd'hui
+[106:08] à construire une vision positive
+[106:10] pour l'Europe,
+[106:11] à concrétiser pleinement l'idée du marché unique
+[106:13] et à davantage collaborer.
+[106:15] Il nous faut aussi nous allier économiquement.
+[106:17] Tu penses que ça bouge?
+[106:18] Avec ta position,
+[106:19] tu rencontres des gens importants,
+[106:21] des ministres, des présidents.
+[106:23] Donc tu as sûrement pu observer pas mal de choses.
+[106:25] Il se passe quelque chose en ce moment.
+[106:27] Il y a une compréhension générale, oui.
+[106:30] Le besoin est déjà là.
+[106:31] Mais j'espère que ça n'a pas besoin
+[106:33] d'empire avant de s'améliorer.
+[106:35] C'est ce que Raphaël Broskadin Post nous disait l'autre jour.
+[106:39] On va forcément passer par une crise.
+[106:42] Pour lui, il n'y a pas d'autre option.
+[106:44] Alors que pour toi, il y a encore l'espoir
+[106:46] d'une prise de conscience,
+[106:47] menant à l'action politique.
+[106:48] On t'allère d'accord avec lui quelque part,
+[106:50] t'espère,
+[106:51] mais dans le fond tu sais comment fonctionne l'humain.
+[106:53] J'espère vraiment qu'on n'aura pas besoin d'une crise
+[106:55] pour avancer sur ce sujet là.
+[106:57] Parce que c'est franchement urgent.
+[106:59] Si on agit par rapidement,
+[107:00] ça sera trop tard malheureusement.
+[107:02] Tu dors bien?
+[107:03] Oui, plutôt bien.
+[107:04] C'est surtout au début,
+[107:06] je ne priorisais pas du tout mon sommeil,
+[107:08] ni ma santé.
+[107:09] J'étais à fond dans mon travail
+[107:11] en oubliant un peu que le corps et l'esprit sont liés.
+[107:13] Mais tu sais,
+[107:15] passer la quarantaine,
+[107:16] j'ai compris que pour tenir dans la durée,
+[107:18] il faut absolument prioriser sa santé
+[107:20] et sa passe par son sommeil, son énergie.
+[107:22] Donc maintenant, je le fais.
+[107:24] Je reste sérieux là-dessus,
+[107:25] en adoptant une bonne hygiène de vie.
+[107:27] Ah ok mais, qu'est-ce qui te stress ?
+[107:29] Je veux dire,
+[107:30] qu'est-ce qui t'empêche de dormir ?
+[107:32] Est-ce qu'il y a des choses
+[107:33] qui te tiennent éveillées la nuit ?
+[107:35] Des pensées,
+[107:36] des rêves ou des cauchemars ?
+[107:38] Ce qui me tient éveillé ?
+[107:40] Oui, si ça t'arrive ?
+[107:42] Il faut que j'y réfléchisse un peu.
+[107:44] Mais je crois que ma plus grande préoccupation,
+[107:47] c'est la vitesse d'exécution.
+[107:49] Il est très difficile de maintenir une vitesse d'exécution très élevée
+[107:52] lorsqu'on opère à grand échelle en Europe.
+[107:54] Et donc,
+[107:55] je me demande en permanence comment faire
+[107:57] pour accélérer l'entreprise.
+[107:59] La rendre encore plus efficace,
+[108:01] comment mieux exécuter et plus vite.
+[108:03] Parce que,
+[108:04] je pense que c'est ça, le vrai sujet.
+[108:06] Surtout aujourd'hui,
+[108:07] avec l'IA,
+[108:08] où l'on voit tellement de choses se passer,
+[108:10] il faut aller vite.
+[108:11] Je pense que le plus important,
+[108:12] c'est d'être rapide.
+[108:13] Lancer rapidement,
+[108:14] puis hiterrer sans cesse.
+[108:16] Ne pas avoir peur de se tromper
+[108:18] et être capable de prendre beaucoup de décisions
+[108:20] très rapidement
+[108:21] et diffuser ça
+[108:22] dans toute une organisation,
+[108:23] donner un rythme
+[108:24] et une cadence
+[108:25] qui soit suffisante
+[108:26] pour répondre aux besoins actuels.
+[108:28] C'est ce qui me préoccupe.
+[108:29] Les boîtes finoise
+[108:30] et américaines sont tellement plus rapides parfois.
+[108:32] Tout cela est beaucoup plus ancré
+[108:34] dans leur culture,
+[108:35] leur manière de fonctionner,
+[108:36] leur vitesse d'exécution
+[108:37] et leur écosystème.
+[108:38] Et je trouve que c'est justement
+[108:40] ce qu'il est difficile
+[108:41] de reproduire en Europe.
+[108:42] Et concrètement,
+[108:43] toi, comment tu t'y prends
+[108:44] pour gagner en vitesse?
+[108:45] Comment tu fais pour être plus rapide?
+[108:47] Par exemple,
+[108:48] est-ce que tu prends
+[108:49] tes décisions plus vite?
+[108:50] Je suis quelqu'un d'impatient
+[108:52] de nature
+[108:53] et puis j'essaie de me mettre au défi.
+[108:55] Tu sais, quand je suis en réunion
+[108:56] ou en discussion,
+[108:57] j'essaie de ne pas m'atarder
+[108:59] dans des débats,
+[109:00] quand je sens que la décision
+[109:01] n'est pas si importante
+[109:02] ou que le coup d'une erreur
+[109:03] est finalement assez faible.
+[109:05] Je préfère dire
+[109:06] qu'est-ce qu'on essaie d'accomplir?
+[109:07] Maintenant, on avance.
+[109:08] On avance vite.
+[109:09] Et ensuite,
+[109:10] je m'assure qu'on fasse
+[109:11] un suivi très rapidement.
+[109:12] Donc, quand une équipe me dit,
+[109:14] il nous faut trois mois.
+[109:15] Je challenge systématiquement ce délai.
+[109:17] Tu le rends d'eux.
+[109:18] Je les challenge pour qu'ils aient plus vite.
+[109:20] Oui.
+[109:21] Je pense que ce sont les méthodes
+[109:22] que j'essaie d'appliquer.
+[109:23] Mais je crois qu'il est vraiment
+[109:25] essentiel de rester toujours vigilant
+[109:27] pour garder le rythme
+[109:28] et agir rapidement.
+[109:29] Très intéressant.
+[109:30] Ça n'a pas vraiment été
+[109:31] dans notre culture ça.
+[109:32] Au cours des vins,
+[109:33] voire 40 dernières années,
+[109:34] enfin, je dirais plutôt vins,
+[109:36] les Américains,
+[109:37] oui, dans une certaine mesure,
+[109:38] et les Chinois ont la vue,
+[109:40] ont été très...
+[109:41] Il y a une vraie culture de la rapidité.
+[109:43] Et aussi une vraie tolerance
+[109:44] au fait de se tromper parfois
+[109:45] parce que la quantité de décision prise
+[109:47] est beaucoup plus importante.
+[109:49] Le rythme auquel nous prenons
+[109:50] des décisions ici
+[109:51] est tout simplement plus lent
+[109:52] et parfois plus réfléchi.
+[109:53] Mais je pense que ça ne doit
+[109:54] pas forcément toujours
+[109:55] être aussi approfondi.
+[109:56] Tu vois?
+[109:57] Je pense que le niveau
+[109:58] de réflexion très poussé
+[109:59] ne doit être appliqué
+[110:00] qu'au problème,
+[110:01] vraiment important.
+[110:02] Au final, on doit juste prendre
+[110:03] beaucoup plus de décision,
+[110:04] beaucoup plus vite.
+[110:05] Je ne dis pas qu'il faut
+[110:06] foncer cette baissée,
+[110:07] mais il faut arrêter
+[110:08] de traîner pendant des semaines
+[110:09] parfois même des mois
+[110:10] pour prendre une décision.
+[110:11] Ça doit être un cauchemar
+[110:13] car dans une entreprise qui
+[110:14] évolue aussi rapidement
+[110:15] et qui change des chèles aussi vite.
+[110:17] Ça doit être très difficile
+[110:19] parce que parfois,
+[110:20] quand je regarde déjà nous
+[110:21] ou nous en sommes aujourd'hui,
+[110:22] c'est effrayant.
+[110:23] Quand on ajoute
+[110:24] une nouvelle personne,
+[110:25] j'ai parfois l'impression
+[110:26] que d'une certaine manière
+[110:27] ça ralentit les choses.
+[110:28] Tu vois ce que je veux dire?
+[110:30] Oui bien sûr.
+[110:31] Plus on est nombreux.
+[110:32] Oui.
+[110:33] Plus je sens qu'on ralentit
+[110:35] et...
+[110:36] Ouais et les couches hiérarchiques
+[110:37] aussi n'être pas
+[110:38] et les niveaux hiérarchiques
+[110:40] dans une boîte, c'est un vrai problème.
+[110:41] Mais t'as des politiques,
+[110:42] des trucs que t'as essayé?
+[110:44] Il faut constamment
+[110:45] travailler contre ça.
+[110:46] Se demander quelle est la façon
+[110:48] la plus rapide de faire quelque
+[110:49] chose et est-ce qu'on a
+[110:50] vraiment besoin de plus de temps.
+[110:52] Dans une grande entreprise,
+[110:53] il est toujours très facile
+[110:54] de mettre en place
+[110:55] de nouvelles règles
+[110:56] ou de nouvelles politiques
+[110:57] parce qu'un moment donné,
+[110:58] quelque chose ne fonctionne pas
+[110:59] ou qu'un problème survient.
+[111:01] Mais c'est quelques mois plus tard
+[111:02] que plus personne
+[111:03] ne sait vraiment pourquoi
+[111:04] cette règle avait été mise
+[111:05] en place au départ.
+[111:06] Règle après règle,
+[111:07] elle s'accumule.
+[111:08] Donc il faut constamment
+[111:09] remettre en question
+[111:10] en atton, encore besoin.
+[111:11] C'est l'état d'esprit
+[111:12] du jour 0, du jour 1.
+[111:14] Et si je partais de 0 aujourd'hui,
+[111:16] comment je construirais ça,
+[111:17] je mettrai vraiment
+[111:18] cette règle en place.
+[111:19] Surtout à l'air de l'IA,
+[111:20] il est vraiment essentiel
+[111:21] de se poser cette question.
+[111:22] Comment est-ce que
+[111:23] je ferai les choses aujourd'hui
+[111:24] si je devais tout recommencer
+[111:26] à partir de maintenant?
+[111:27] Et je pense que,
+[111:28] dans beaucoup de domaines,
+[111:29] la réponse est toujours
+[111:30] différente de ce que l'on fait
+[111:31] réellement aujourd'hui.
+[111:32] Jours 0, du jour 1,
+[111:33] retenez ça.
+[111:34] Oui.
+[111:35] Tu sais quoi, Robert?
+[111:36] J'ai un nouveau poste pour toi.
+[111:37] J'aimerais t'envoyer à Bruxelles
+[111:38] pendant un an.
+[111:39] Avec ton état d'esprit,
+[111:40] je suis sûr que tu leur serais très utile.
+[111:42] C'est bien possible, oui.
+[111:43] J'aimerais te voir
+[111:44] les challenges.
+[111:45] Avant nous, vraiment,
+[111:46] besoin de cette réunion,
+[111:47] est-ce qu'on a vraiment besoin
+[111:48] d'un bureau à Strasbourg
+[111:49] et d'un parlement à Bruxelles?
+[111:51] Parfois, j'ai l'impression
+[111:52] qu'il y a beaucoup de...
+[111:53] Ouais.
+[111:54] Là, on parle de nuit sans sommeil.
+[111:55] Ça sera sans moi.
+[111:56] Je comprends.
+[111:57] Ouais.
+[111:58] Vous faites.
+[111:59] Où est-ce qu'on peut te suivre?
+[112:00] Est-ce que t'es actif
+[112:01] sur les réseaux sociaux,
+[112:02] sur LinkedIn, par exemple,
+[112:04] ou ailleurs?
+[112:05] Pas vraiment non.
+[112:06] Enfin, le podcast
+[112:08] d'aujourd'hui en fait partie,
+[112:09] je m'efforce d'être
+[112:10] un peu plus présent
+[112:11] et de prendre davantage la parole
+[112:13] parce que je pense
+[112:14] que c'est important
+[112:15] de s'exprimer davantage
+[112:16] sur ces sujets.
+[112:17] J'essaie à mon niveau
+[112:18] d'apporter ma contribution
+[112:20] et de réfléchir à la manière
+[112:21] dont on peut résoudre ces problèmes.
+[112:23] Parce que l'avenir de l'Europe
+[112:24] me tient vraiment à cœur,
+[112:26] ainsi que sa capacité
+[112:27] a rester un acteur majeur
+[112:29] à continuer de compter
+[112:30] et même pourquoi pas
+[112:31] à remporter certaines
+[112:32] des grandes compétitions
+[112:33] qui se jouent aujourd'hui.
+[112:35] Et c'est pour ça que je prends
+[112:36] un peu plus souvent la parole.
+[112:38] En revanche,
+[112:39] je n'utilise pas Twitter,
+[112:40] enfin X ni d'autres.
+[112:41] Peut-être parfois un peu LinkedIn
+[112:42] mais vraiment pas souvent.
+[112:43] Ok.
+[112:44] J'ai une question très importante.
+[112:46] En baladant dans tes bureaux,
+[112:48] j'ai vu des chaise
+[112:49] tout alignés dans la même direction.
+[112:51] Ouais, ok.
+[112:52] Tu vois ce que je veux dire ?
+[112:53] Non, genre.
+[112:54] A chaque étage,
+[112:55] toutes les chaise
+[112:56] sont parfaitement alignés.
+[112:57] Je te jure.
+[112:58] Et je me demandais
+[112:59] qui peut être aussi maniac.
+[113:00] Ça pourrait être moi, donc.
+[113:02] C'est pas un reproche.
+[113:04] J'ai adoré, en tout cas.
+[113:06] C'est très graphique,
+[113:07] très organisé,
+[113:08] quelque chose de très épuré.
+[113:09] Je pensais qu'il y avait
+[113:11] quelque chose qui se cachait
+[113:12] derrière ça.
+[113:13] Mais apparemment,
+[113:15] t'as aucune idée d'où ça vient.
+[113:17] Non, enfin,
+[113:18] il y a peut-être une explication.
+[113:19] Mais je ne sais pas d'où ça vient.
+[113:21] Peut-être que c'est une habitude
+[113:23] qu'on les gens très organisés,
+[113:24] qui aime bien que les chaises soient
+[113:26] parfaitement alignées.
+[113:27] Mais je ne sais pas.
+[113:28] Pourquoi ?
+[113:29] Ça t'évoque quelque chose ?
+[113:30] Je pensais que c'était toi.
+[113:32] Alors, c'était juste une de mes petites questions
+[113:34] très intéressantes.
+[113:35] Non, non, pas du tout.
+[113:36] C'est pas moi.
+[113:37] Merci beaucoup.
+[113:38] J'ai encore deux ou trois questions
+[113:40] avant de te laisser.
+[113:41] Si tu avais l'occasion de rencontrer
+[113:43] le Robert qui était fauché au Mexique,
+[113:45] qu'est-ce que tu te dirais ?
+[113:46] Quel conseil tu te donnerais ?
+[113:48] Eh bien,
+[113:49] qu'est-ce que je me serai dit à ce moment-là ?
+[113:52] Je crois que je me dirais quelque chose comme.
+[113:54] Tu viens d'apprendre
+[113:55] une leçon très importante.
+[113:56] Tu as connu un échec.
+[113:58] Oui.
+[113:59] Mais ne t'inquiète pas au final.
+[114:00] Tout ira bien.
+[114:01] Pour moi,
+[114:02] ça a été une leçon vraiment importante
+[114:03] que j'ai apprise à ce moment-là.
+[114:05] Je m'étais lancé dans quelque chose
+[114:07] qui au final n'a absolument pas fonctionné.
+[114:09] Avec le recul,
+[114:10] j'aurais dû avoir de meilleurs plan B.
+[114:12] Mais à cette époque-là,
+[114:13] je me remettais beaucoup en question.
+[114:15] C'est probablement quelque chose comme ça
+[114:17] que je me dirais.
+[114:18] Oui, quelque chose comme.
+[114:19] On apprend de ces erreurs.
+[114:20] Tu viens d'apprendre une leçon,
+[114:22] continue à avancer et ça ira.
+[114:24] Parce que j'ai pu lire que tu avais fait
+[114:26] bon stage.
+[114:27] Je veux dire,
+[114:28] t'as travaillé chez B.C.G.
+[114:29] Et t'as aussi travaillé.
+[114:30] Oui.
+[114:31] D'ailleurs, j'avais des offres
+[114:32] pour travailler chez B.C.G.
+[114:33] Oui.
+[114:34] Et d'autres ?
+[114:35] Oui, comme Monster ?
+[114:36] T'aurais facilement pu faire quelque chose de sérieux.
+[114:38] Mais au lieu de tout ça ?
+[114:39] Oui.
+[114:40] Enfin, je pense que pour moi,
+[114:43] je savais que ce n'était pas vraiment mon chemin.
+[114:45] C'est pour ça que je voulais être de venir entrepreneur.
+[114:48] Je voulais créer quelque chose,
+[114:49] construire quelque chose.
+[114:51] Et je savais que,
+[114:52] dans le conseil en management,
+[114:53] ce n'était pas vraiment ce qui me correspondait.
+[114:55] Ça n'aurait pas été mon chemin vers le bonheur.
+[114:58] Interessant.
+[114:59] Tu as un lecteur.
+[115:00] J'aime bien avoir de bonnes recours.
+[115:02] De lecture.
+[115:03] Oui.
+[115:04] Si tu pouvais offrir un livre à quelqu'un,
+[115:06] tu choisirais quoi ?
+[115:07] En ce moment,
+[115:08] je suis plutôt avec des audiobooks,
+[115:10] quand j'ai du temps,
+[115:11] j'en écoute un bout,
+[115:12] et j'aime bien faire comme ça.
+[115:13] J'adore sortir à vélo,
+[115:15] en écoutant des audiobooks.
+[115:16] Du coup, moi,
+[115:17] j'écoute beaucoup de trucs sur l'IA
+[115:18] en ce moment,
+[115:19] c'est d'actualité, tu comprends.
+[115:20] Mais pour répondre à ta question,
+[115:21] un livre m'a beaucoup marqué.
+[115:23] Life 3.0 de Max Techmark.
+[115:25] Un chercheur sur la singularité.
+[115:27] Ok.
+[115:28] Ce que j'ai trouvé intéressant,
+[115:29] c'est que quand tu lis le livre
+[115:31] et que tu réalises ensuite à quel moment
+[115:33] il a été écrit.
+[115:34] Faut essayer juste de tester, d'accord ?
+[115:36] Oui, ce n'est pas un livre particulièrement divertissant,
+[115:38] mais il est vraiment intéressant quand on le lit,
+[115:40] et qu'on réalise à quelle époque il a été écrit,
+[115:43] ainsi que ce qui s'est réellement passé ?
+[115:45] 2017.
+[115:46] Oui.
+[115:47] C'est bien ça.
+[115:48] Il y a donc 10 ans ?
+[115:49] Oui, tout à fait 2017,
+[115:51] c'était il y a quasiment 10 ans.
+[115:52] Et oui, presque 10 ans.
+[115:53] Oui, et quand on se rend compte
+[115:55] de ce qui s'est passé depuis,
+[115:56] on réalise à quel point certain
+[115:57] de ses prédictions était juste.
+[115:59] En fait, c'est un livre
+[116:01] qui anticipe ce qui pourrait se passer
+[116:03] à mesure que l'on se rapproche
+[116:04] d'une intelligence artificielle générale
+[116:06] ou AGI,
+[116:07] et ça explique les différentes étapes
+[116:09] qui vont se produire.
+[116:11] Je pense que c'était vraiment un livre intéressant.
+[116:13] Ce n'est pas une lecture facile,
+[116:14] mais en tout cas, moi,
+[116:15] il m'a beaucoup fait réfléchir.
+[116:17] Je vais lire ce livre.
+[116:18] J'essaierai peut-être en audiobook,
+[116:20] mais je n'aime pas trop les audiobooks,
+[116:22] parce qu'il concurrence les podcasts
+[116:23] dans mes oreilles, tu sais,
+[116:24] dans mon temps d'écoute, en fait.
+[116:26] Je reste sur le livre.
+[116:28] Je suis assez traditionnel là-dessus.
+[116:30] Merci beaucoup, c'était super.
+[116:32] La plupart du temps, quand je parle avec des marchands,
+[116:35] j'essaie de négocier quelque chose.
+[116:37] Si les gens qui nous écoutent commandent
+[116:38] pour la première fois sur Zalando,
+[116:40] peut-être que tu peux faire quelque chose pour eux,
+[116:42] avec un code ou...
+[116:44] Il faudrait voir ça avec l'équipe,
+[116:45] avec notre Country Manager France,
+[116:47] pour qu'il mette quelque chose en place.
+[116:48] Tu penses que c'est faisable ?
+[116:49] Il faut voir ce qu'on peut faire là-dessus.
+[116:51] Je vais négocier ça pour vous la communauté,
+[116:53] promis. Je vais faire de mon mieux.
+[116:55] Désolée de ne pas t'avoir prévenu avant,
+[116:56] mais j'aime bien que ce soit en direct.
+[116:58] Merci beaucoup, Robert.
+[116:59] Merci à toi.
+[117:00] C'était un vrai plaisir d'échanger avec toi.
+[117:02] Cette conversation a été très inspirante.
+[117:04] Nous allons essayer de nous lancer prochainement en Allemagne.
+[117:07] Génial maintenant, j'ai la recette.
+[117:09] Merci beaucoup pour voir, c'était super.
+[117:11] Bravo, vous avez écouté cet épisode de Génération Duitur Self jusqu'au bout.
+[117:21] Je tiens vous remercier votre fidélité, vos messages.
+[117:24] Et si vous voulez m'aider, vous pouvez partager cet épisode.
+[117:27] A 2, 3, 5, 10 amis, c'est peut-être parce que vous l'avez aimé
+[117:30] qu'il leur plera aussi.
+[117:32] Vous êtes, j'espère abonner,
+[117:34] si c'est pas le cas, abonnez-vous sur Spotify, sur Apple Podcasts,
+[117:36] sur YouTube, un peu partout.
+[117:38] Et puis, sur nos réseaux sociaux, on est ravis de vous retrouver toutes les semaines.
+[117:41] Vous pouvez aussi me laisser votre email sur gd-y-gric.fr-slashmail
+[117:45] et je vous en verrai l'épisode de la semaine,
+[117:47] ainsi que 2, 3 bons plans.
+[117:48] Je suis Mathieu Stéphanie et je vous embrasse.

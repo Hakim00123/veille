@@ -1,0 +1,41 @@
+{
+ "titre": "#557 - VF - Robert Gentz - Zalando - Le géant qu’Amazon n’a pas mangé en Europe",
+ "date": "Sun, 26 Jul 2026",
+ "lien": "",
+ "modele": "base",
+ "langue": "fr",
+ "taille_transcript": 152769,
+ "transcript": "557-vf-robert-gentz-zalando-le-geant-qu-amazon-n-a-pas-mange-transcript.txt",
+ "nb_outils": 8,
+ "outils": {
+  "Claude": [
+   "n travaille avec déjà de bons résultats. Rien qu'au dernier trimestre, 10 millions de personnes ont interagé avec nos expériences de commerce agentique. Donc, c'est sur votre site Web. C'est le vôtre. Parce qu'il y a aussi sans doute le commerce agentique via Claude ou via chat GPT. En fait, je trouve que plus en avance, et par exemple, ces deux dernières semaines, entre Taline qui avait Berlin, j'ai demandé à Claude et chat GPT, la plupart de mes recommandations d'hôtels, de restaurants et autres. Et donc, je dirais que",
+   "onc, c'est sur votre site Web. C'est le vôtre. Parce qu'il y a aussi sans doute le commerce agentique via Claude ou via chat GPT. En fait, je trouve que plus en avance, et par exemple, ces deux dernières semaines, entre Taline qui avait Berlin, j'ai demandé à Claude et chat GPT, la plupart de mes recommandations d'hôtels, de restaurants et autres. Et donc, je dirais que c'est une super opportunité, mais ça peut aussi devenir une menace à un certain moment. Par exemple, c'est possible qu'un jour, ils vont peut-être te dir",
+   "on de la réponse. On ne comprend pas seulement la question de l'utilisateur, mais on essaye de comprendre qui il est pour mieux lui répondre. C'est mon point de vue, en tout cas. Donc sur cette question des données, mon avis, c'est que, par exemple, j'utilise Claude comme assistant sur plein de trucs. Il y m'est maille, Gère Monagenda. Et donc, à un moment, il va en savoir beaucoup sur moi. Oui, tout à fait. Donc je me suis dit que mon assistant pourrait me dire et t'as vu les nouvelles salles au monde qui viennent de so"
+  ],
+  "CloudCode": [
+   "vous utilisez déjà OpenClow ou Hermès ou d'autres intelligences artificielles agentiques. Alors oui, on a une équipe tech de 3000 personnes pas seulement des ingénieurs logiciels. C'est d'ailleurs l'un des plus gros métiers chez Alendo. Et donc oui, bien sûr, on utilise CloudCode et je pense que on progresse tous les jours, on fait des progrès sur les outils contestes et sur la façon d'augmenter encore notre productivité. Mais ça a déjà changé? J'en ai énormément? Alors, je dirais que dans le Cloud, clairement, le nombre de poules requests explose. Le"
+  ],
+  "Gemini": [
+   "recommande des gens, alors recommandait Nike sur Zalando, ça va te coûter tellement grand. En fait, c'est la deuxième partie du Jane Commerce. On se demande alors, comment orchestrer des parcours qui démarrent sur des agents ou des chatbots comme chat GPT ou Gemini, et c'est là que de nouvelles questions émergent comment on peut faire pour gérer ça, et quelle rôle joutons dans ces écosystèmes. Pour moi, c'est une super opportunité, car pour le moment, 30 % des ventes de mode aux détails qui se font en ligne, contre 70 %"
+  ],
+  "Segment": [
+   "e minimum requis en matière de règles et de conformité, même dans l'aspect légal et au-delà. Nous, on travaille avec 7 000 marques sur notre plateforme. Je dirais qu'il n'y a pas tant de chevochement avec Zalando en termes de niveau de prix. C'est vraiment un segment qui est très différent. Le marché de la mode et du lifestyle est immense et certains aimeront forcément la mode ultra-bonge marché. Mais je pense que ce n'est pas le cœur du marché. Je disais que c'est un marché de 500 milliards et je crois que Chine est enco",
+   "ous, c'est bien qu'on travaille avec 7 000 marques. Donc on a toujours, quand une marque est un peu plus faible, on voit alors une autre marque prendre le relais. Les basquettes, c'est ça qui domine tout, non. Ce que je veux dire, c'est que c'est le plus gros segment. Les basquettes sont un segment important. Mais ce qu'on voit aussi, c'est que, juste récemment, je pense que les basquettes ne sont pas toujours autant demandées. En ce moment, on voit plutôt revenir les chaussures plus habillées partout en Europe. Ouais, j'",
+   "avec 7 000 marques. Donc on a toujours, quand une marque est un peu plus faible, on voit alors une autre marque prendre le relais. Les basquettes, c'est ça qui domine tout, non. Ce que je veux dire, c'est que c'est le plus gros segment. Les basquettes sont un segment important. Mais ce qu'on voit aussi, c'est que, juste récemment, je pense que les basquettes ne sont pas toujours autant demandées. En ce moment, on voit plutôt revenir les chaussures plus habillées partout en Europe. Ouais, j'ai vu ça. Ouais, ouais, ouais. I"
+  ],
+  "Shopify": [
+   "h, aussi... Si tu te souviens à l'époque, il y avait plein de galères. Comandé des chaussures en ligne, c'était pas genre... Autorédie. Jamais, je ferai ça. C'était limite impensable, à un moment, construire un site web avant. C'était pas genre... Je vais sur Shopify et hop. Il n'y avait pas de show-grain. Il n'y avait pas de show-grain. Pas de show-grain, non. Et tu sais, même juste en qu'essai l'argent, se faire payer en ligne, c'était bien plus compliqué. Oh, ouais, ouais. Il n'y avait pas Stripe ou ce genre de service"
+  ],
+  "Stripe": [
+   "genre... Je vais sur Shopify et hop. Il n'y avait pas de show-grain. Il n'y avait pas de show-grain. Pas de show-grain, non. Et tu sais, même juste en qu'essai l'argent, se faire payer en ligne, c'était bien plus compliqué. Oh, ouais, ouais. Il n'y avait pas Stripe ou ce genre de service qu'on a maintenant. Tu peux expliquer comment vous avez démarré avec tout ça et l'évolution aujourd'hui, c'est toujours votre techno. J'ai vu que pas mal de boîtes récemment. Je crois que ces vintèdes, en fait, ils ont leurs propres vin"
+  ],
+  "WordPress": [
+   "instruction à mon assistant Ia. Le mien s'appelle Vadim. Il fonctionne avec OpenClaw, et il a son propre Macmini chez moi. Et donc, une simple instruction suffit pour faire beaucoup de choses. Je lui dis simplement, Vadim, peut-tu créer une page sur mon site WordPress qui parle de ceci ou de cela ? Et boom, c'est fait ? C'est fait. Et en plus, c'est d'optimiser SEO. C'est incroyablement optimisé. Enfin, je lui ai appris à être meilleur en design, en développement front-end, et aussi en expérience utilisateur UX. Donc oui,"
+  ],
+  "n8n": [
+   ". C'est juste... Oui, je pense qu'il y a beaucoup de choses formidable qui arrivent dans l'IA comme l'ovable. Je pense notamment à une entreprise qui vient d'Europe, comme l'ovable d'ailleurs. C'est Black Forest Labs en Allemagne. Et ici, à Berlin, nous avons N8N avec... Oui, N8N, je connais. C'est super intéressant. Avec Pallois. Oui. Et Pallois fait du customer care. On a aussi Lang Dock, à Berlin et Arthur avec Mistral. Donc oui, je pense qu'il y a maintenant beaucoup de très belles entreprises d'IA ambitieuses qui",
+   "Oui, je pense qu'il y a beaucoup de choses formidable qui arrivent dans l'IA comme l'ovable. Je pense notamment à une entreprise qui vient d'Europe, comme l'ovable d'ailleurs. C'est Black Forest Labs en Allemagne. Et ici, à Berlin, nous avons N8N avec... Oui, N8N, je connais. C'est super intéressant. Avec Pallois. Oui. Et Pallois fait du customer care. On a aussi Lang Dock, à Berlin et Arthur avec Mistral. Donc oui, je pense qu'il y a maintenant beaucoup de très belles entreprises d'IA ambitieuses qui émergent ici en"
+  ]
+ }
+}
