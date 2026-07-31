@@ -21,7 +21,13 @@ OUT = os.path.join(ROOT, "data", "latest")
 FENETRE_JOURS = 30      # profondeur d'historique conservee
 TAILLE_CHUNK = 60       # articles par fichier
 TIMEOUT = 20
-UA = "Mozilla/5.0 (compatible; VeilleBot/1.0)"
+UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+ENTETES = {
+    "User-Agent": UA,
+    "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.7",
+    "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
+}
 
 
 def flux_depuis_opml(chemin):
@@ -37,7 +43,7 @@ def flux_depuis_opml(chemin):
 def recuperer(item):
     nom, url = item
     try:
-        r = requests.get(url, timeout=TIMEOUT, headers={"User-Agent": UA})
+        r = requests.get(url, timeout=TIMEOUT, headers=ENTETES)
         r.raise_for_status()
         return nom, url, feedparser.parse(r.content).entries, None
     except Exception as e:
