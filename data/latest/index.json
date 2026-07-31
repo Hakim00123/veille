@@ -1,0 +1,62 @@
+{
+ "genere_le": "2026-07-31T12:47:02+00:00",
+ "fenetre_jours": 30,
+ "nb_flux": 44,
+ "nb_flux_en_erreur": 9,
+ "nb_articles": 339,
+ "chunks": [
+  "chunk-01.json",
+  "chunk-02.json",
+  "chunk-03.json",
+  "chunk-04.json",
+  "chunk-05.json",
+  "chunk-06.json"
+ ],
+ "erreurs": [
+  {
+   "source": "Parlons RH",
+   "url": "https://www.parlonsrh.com/feed/",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.parlonsrh.com/feed/"
+  },
+  {
+   "source": "Personnel Today",
+   "url": "https://www.personneltoday.com/feed/",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.personneltoday.com/feed/"
+  },
+  {
+   "source": "Startup Unlocked",
+   "url": "https://pierregaubil.substack.com/feed",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://pierregaubil.substack.com/feed"
+  },
+  {
+   "source": "Cap Mission Freelance",
+   "url": "https://capmissionfreelance.substack.com/feed",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://capmissionfreelance.substack.com/feed"
+  },
+  {
+   "source": "Silicon Carne",
+   "url": "https://siliconcarne.substack.com/feed",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://siliconcarne.substack.com/feed"
+  },
+  {
+   "source": "Venture Prose",
+   "url": "https://2lr.substack.com/feed",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://2lr.substack.com/feed"
+  },
+  {
+   "source": "The French Tech Journal",
+   "url": "https://frenchtechjournal.substack.com/feed",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://frenchtechjournal.substack.com/feed"
+  },
+  {
+   "source": "Dans la Tete d'un VC",
+   "url": "https://danslatetedunvc.substack.com/feed",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://danslatetedunvc.substack.com/feed"
+  },
+  {
+   "source": "Patent Drop",
+   "url": "https://patentdrop.substack.com/feed/",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  }
+ ]
+}
