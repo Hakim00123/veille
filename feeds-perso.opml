@@ -30,6 +30,9 @@
             <outline type="rss" text="Raptitude" title="Raptitude" xmlUrl="http://www.raptitude.com/feed/" htmlUrl="https://www.raptitude.com"/>
             <outline type="rss" text="Derek Sivers" title="Derek Sivers" xmlUrl="http://sivers.org/en.atom" htmlUrl="https://sive.rs"/>
 
+            <!-- ============ PODCAST ENTREPRENEURIAT ============ -->
+            <outline type="rss" text="Generation Do It Yourself" title="Generation Do It Yourself" xmlUrl="https://feeds.audiomeans.fr/feed/b4a5ee3a-9230-4f9f-988d-2ae156a2d5a9.xml" htmlUrl="https://www.gdiy.fr/"/>
+
         </outline>
     </body>
 </opml>
