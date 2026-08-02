@@ -58,6 +58,10 @@
             <outline type="rss" text="Blog du Moderateur" title="Blog du Moderateur" xmlUrl="https://www.blogdumoderateur.com/feed/" htmlUrl="https://www.blogdumoderateur.com/"/>
             <outline type="rss" text="C'est pas mon idee !" title="C'est pas mon idee !" xmlUrl="http://cestpasmonidee.blogspot.com/feeds/posts/default" htmlUrl="https://blog.cestpasmonidee.fr/"/>
 
+
+            <!-- ============ IA / LONG TERME ============ -->
+            <outline type="rss" text="Future of Life Institute" title="Future of Life Institute" xmlUrl="https://futureoflife.org/feed/" htmlUrl="https://futureoflife.org/" />
+            <outline type="rss" text="Max Tegmark &#8211; publications" title="Max Tegmark &#8211; publications" xmlUrl="http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&amp;sortBy=submittedDate&amp;sortOrder=descending&amp;max_results=15" htmlUrl="https://arxiv.org/a/tegmark_m_1" />
         </outline>
     </body>
 </opml>
