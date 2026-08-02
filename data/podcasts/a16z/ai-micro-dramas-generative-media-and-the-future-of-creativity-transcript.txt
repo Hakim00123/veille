@@ -1,0 +1,640 @@
+The a16z Show
+AI Micro Dramas, Generative Media, and the Future of Creativity
+Wed, 29 Jul 2026
+https://a16z.simplecast.com/episodes/ai-micro-dramas-generative-media-and-the-future-of-creativity-ZbK1xyzO
+
+[00:00] I think folks would be surprised by how many TV shows and movies today already have some
+[00:05] element of AI being used.
+[00:07] I spend a lot of time with studio execs and Amazon and Netflix have already both announced
+[00:13] programs for fully AI-generated animations.
+[00:16] It's 90, 95% of the quality of filming, but it's so much cheaper and faster and easier.
+[00:22] And I think the mass market consumer does not care that it was made of AI.
+[00:27] But many of the people who were early adopters of AI video were not inherently amazing storytellers.
+[00:33] And so they were making things that were novel, but were not necessarily the most compelling
+[00:37] narratives.
+[00:38] That is the major challenge.
+[00:39] Now what we're starting to see is professional creatives who have worked in the space, seen
+[00:44] the opportunity in this.
+[00:46] And so we have people who know how to tell a narrative, which means we're going to get
+[00:50] an explosion of really ripping stories.
+[00:53] It sort of just unlocks all of this crazy, weird, interesting ideas that people have in
+[00:58] their imagination that they could never make before.
+[01:01] You see a lot of folks who have either started kind of full new AI-native studios or who are
+[01:06] just individuals running a brand and scaling their own content, creating narrative stories,
+[01:11] turning around things in hours or days.
+[01:14] And so most people don't want to be competing on more of the low-brow, soft content.
+[01:19] But I think in terms of what creators should do, it really depends on like...
+[01:24] AI isn't just changing how content is made, it's changing who gets to make it.
+[01:29] In this feed drop from new economies, A16Z's Justine Moore joins the show to discuss the
+[01:34] rise of AI-native entertainment, why AI microdramas are exploding in popularity, and how generative
+[01:41] media is lowering the barriers to storytelling for creators around the world.
+[01:46] They also explore AI agents, consumer startups, and the next wave of opportunities at the
+[01:51] intersection of AI and media.
+[01:55] Justine, welcome to new economies.
+[01:58] We've been in touch kind of over the years from DMs, but this is the first time we're meeting.
+[02:02] And wow, so much is happening across AI, new media, and now the latest trend, AI microdramas.
+[02:11] So we have so much impact, but big welcome to the show.
+[02:15] Thanks for having me.
+[02:16] I'm excited to chat about all those things.
+[02:19] So I feel like we're at this incredible inflection point around generative media.
+[02:25] And so much has just been happening really in the last six months.
+[02:29] We've had this explosion new term, new media, which is kind of just replacing the creator
+[02:35] economy.
+[02:37] We've had obviously so much change in AI.
+[02:40] And like we said, at the beginning, this new incredible form of entertainment, AI microdramas,
+[02:47] help us unpack what is the current state of everything happening in generative media?
+[02:53] What's your heartache?
+[02:54] Yeah, I would say I've been following the generative media space for a couple of years.
+[03:01] Actually really got into it a couple of months before chat GPT came out when the first stable
+[03:06] diffusion models came out and you had folks like Levels.io building really cool products
+[03:12] on top of them, like the original profile picture, AI profile picture generators.
+[03:17] And it's really been remarkable to see the progress we've made since then, like we went
+[03:21] from not very good images to not very good two second videos, now to like full coherent
+[03:28] 15 second videos that people can generate, let alone, you know, all the advancements that
+[03:34] have happened in image and voice and 3D.
+[03:38] I think we've we're at a really interesting point where the model quality has gotten good
+[03:42] enough that you can actually make things that are compelling to watch and that carry a storyline
+[03:49] versus things that are just like interesting for the novelty value of like, whoa, AI can
+[03:54] make something that almost looks real.
+[03:57] And so as a result, we've had a ton of progress happening both on the model layer, obviously,
+[04:02] and those improvements will continue to happen.
+[04:05] But also on the product layer, like when the models are finally good enough for people to
+[04:09] use, you kind of have to create the right harnesses and workflows for people to actually
+[04:15] leverage them, especially people who, you know, aren't full time prompting all of these models
+[04:21] and so they don't know what model to pick for which use case, how to write a really good
+[04:26] prompt, things like that.
+[04:28] So to me, it feels like where we are in generative media right now is really the entire ecosystem
+[04:34] maturing, both consumers, but also professionals, studios, waking up to the fact that these are
+[04:40] models are finally good enough to use and the product builders realizing that there's a lot
+[04:45] of opportunity to create like the interfaces through which we use them.
+[04:50] And the content which is being produced by some of these AI models for AI and micro dramas,
+[04:55] some of the storytelling is so good and your accuracy is incredible.
+[05:00] What do you think makes these AI micro dramas, and we should probably explain actually what
+[05:04] AI micro dramas are, what do you actually think makes these AI micro dramas so cool to watch?
+[05:09] Yeah, so I describe micro dramas as almost like the tick tockified version of soap operas.
+[05:18] So they're usually like pretty dramatic, salacious, like interesting pieces of content
+[05:25] that are relatively short, they're typically vertical video, they play both on places like
+[05:30] tick tock but also on apps like real short or drama box.
+[05:35] They really started blowing up first in China like a few years ago and now the micro drama
+[05:41] market in China is larger than their domestic box office.
+[05:45] There's everyone there is just, you know, subscribing to these apps, viewing all of these
+[05:49] micro dramas and I think they started to take off in the US quite a bit last year, like when
+[05:56] you look at the app store data, they were some of the fastest growing and the highest monetizing
+[06:01] apps in the country, which is pretty rare that you have a couple apps in a new category
+[06:06] like that grow that quickly.
+[06:09] That's kind of when I started paying attention.
+[06:11] And then I think the AI element of it came in when you know you look at this sort of content
+[06:16] and the micro dramas often similar to soap operas have like a relatively limited cast.
+[06:23] They have relatively limited sets, like it's not a game show or competition show where
+[06:28] you're filming all over the world, like it's not a big blockbuster movie and the thing
+[06:33] that really gets people interested is the storyline and the suspense and the drama and like what's
+[06:39] going to happen next.
+[06:41] And so it doesn't need to be a Hollywood grade production to get people interested.
+[06:46] And so I think a lot of folks looked at that and said, this is sort of this kind of content
+[06:50] is sort of a perfect fit for what we can do with AI models today.
+[06:55] Some of the dramas I have seen, they are so gripping.
+[07:00] I don't know if you saw this one around, Dario from Infropic force and love with this girl
+[07:06] from China, you may have seen this.
+[07:08] So I met the creative designers and I thought the storytelling is incredible.
+[07:14] We'll link it in the show notes.
+[07:16] And then I later found out the girl who's actually in the micro drama.
+[07:22] It is a true story and the whole story came to light and I thought this storyline storytelling
+[07:30] is so incredible.
+[07:32] But there are two sides of these, I think, AI and micro dramas working right.
+[07:36] You have the one side where it's incredible storytelling.
+[07:39] You have incredible designs, low cost to make, which is absolutely fine.
+[07:43] But then you have the other side where it's well designed, but the storytelling is just
+[07:47] not as good as it could be, right?
+[07:50] Where do you think this actually will go next in order for AI and micro dramas actually to
+[07:56] stay around?
+[07:58] I mean, I think the good thing about it is there are a lot of, so I have this, I have
+[08:04] this thought for a lot of AI video actually, which is many of the people who were early
+[08:09] adopters of AI video were not inherently amazing storytellers.
+[08:13] They were early adopters of technology.
+[08:16] And so they were making things that were novel, but were not necessarily the most compelling
+[08:20] narratives.
+[08:21] Like, I put myself in that category 100%.
+[08:24] Like, I never trained or learned how to shape overly compelling narrative.
+[08:29] And now what we're starting to see is, you know, professional creatives who have worked
+[08:34] in the space, who know how to tell really good stories, maybe they're not like what we would
+[08:39] think of as a traditional professional creative, but they've been a creator for a long time.
+[08:45] And they've learned through honing their craft how to tell a story all the way to the
+[08:50] big studios are seeing the opportunity in this.
+[08:54] And so we have people who know how to tell a narrative, seeing the opportunity in the micro
+[08:58] drama space, which to me means we're going to get an explosion of actually really ripping
+[09:04] stories, like super interesting content beyond the AI element of it.
+[09:10] I actually think we might be at this point already, but there's going to be a lot of micro drama
+[09:15] content that you don't even know is AI, and people don't even care.
+[09:19] They're just there for the story.
+[09:22] I'm happy you pulled this off because honestly, six months ago, I was like, I'm never going
+[09:27] to watch an AI generator program, never going to watch an AI generator movie.
+[09:32] Now I'm like, actually, if it's gripping and it's interesting, I'll watch it.
+[09:37] Totally.
+[09:38] I think the quality has gotten a lot better too.
+[09:41] I spend a lot of time with studio execs and sort of, you know, who want to get involved
+[09:46] in the investing space or curious sort of what's happening in generative media from an early
+[09:51] stage perspective.
+[09:52] I was just down at AI on the lot in Hollywood and like sat through a bunch of panels of how
+[10:00] people are actually using this, and I think folks would be surprised by how many TV shows
+[10:05] and movies today already have some element of AI being used and how many of the big studios
+[10:11] are considering fully generative content, like Amazon and Netflix have already both announced
+[10:18] programs for fully AI-generated animations, and I think the bigger studios are afraid
+[10:23] of PR risk around things like that, but are absolutely exploring very similar things.
+[10:29] Yeah, and you know, when I talk to creators as well, execs found those people were interested
+[10:34] in their space and also just like white consumers.
+[10:37] Some people are like, this isn't just going to replace Netflix or, you know, movies or
+[10:44] actors, actresses, and I'm like, no, I just actually think it's going to be a different
+[10:47] type of content and entertainment we consume.
+[10:51] Do you feel as accurate and is that where we're going?
+[10:55] I think it's going to be a mix.
+[10:56] So I think we're going to get new types of content.
+[10:59] Microdramas are a great example of that, where I think in the US they're really taking
+[11:04] off with AI now, making them much cheaper and easier to produce.
+[11:09] I also think we're going to see AI used in a lot of traditional production pipelines,
+[11:15] and so many of the big studios, they're not like, we're going to replace every actor and
+[11:20] actress and do an entire movie that is fully generated, but they are like filming people
+[11:27] on sound stages and generating the background with AI or generating like the big scary monster
+[11:32] or the giraffe or whatever kind of crazy animal with AI, instead of either having to
+[11:39] go film that somehow or using CGI.
+[11:42] So yeah, I think it's going to be a mix.
+[11:43] I think we're going to see new entertainment formats, and then I think we're also going
+[11:47] to see folks using AI in traditional entertainment formats like TV and movies to bring down the
+[11:54] cost of production.
+[11:55] The opportunity also for creators and especially individual creators, maybe even with a small
+[12:01] team rise, is insane.
+[12:05] There are a couple of AI microdramas, there's one in China, which was published not too long
+[12:09] ago, and it's had like 100 million views in a space of I think two or four weeks, which
+[12:15] is crazy.
+[12:17] You had this AI microdram I mentioned around, Dario from Monphropic, pulling it up with this
+[12:24] girl from China, this thing has had like two or three million views, and if it's that
+[12:29] great thing, creators can sell them monetizing that ride.
+[12:32] I think a lot have honestly, I mean, on, you know, X on Instagram, on YouTube, you see
+[12:38] a lot of folks who have either started kind of full new AI native studios or who are just
+[12:44] individuals, you know, running a brand and scaling their own content, creating narrative
+[12:49] stories, folks like Syop Anime or Gossip Goblin or Charlie Curran are putting out like insane
+[12:58] numbers in terms of who actually have used their content, the consistency at which they're
+[13:02] releasing content and how their audiences are growing over time.
+[13:06] And when you watch the content, it's, it's immediately clear that one person or small teams
+[13:13] could have never created this before AI, it's whether it's animation or anime or whether it's,
+[13:19] you know, photorealistic live action, I'm not sure what you call it when it's AI, like, would
+[13:24] have required massive budgets and months to do and they're turning around things in, you
+[13:30] know, hours or days.
+[13:32] Before we saw the recording, we got chatting around.
+[13:35] We've actually had a go at creating our own AI micro dramas as actually pretty good fun.
+[13:41] Have you had a go at creating your own and how have you found the experience?
+[13:47] I try to create all sorts of AI content largely to test the tools.
+[13:54] I try not to delude myself into thinking that I have some incredible story that I need to
+[13:58] tell that people want to watch, but I do like testing various things across different styles,
+[14:04] like, you know, anime, 3D animation, photorealistic, just to get a sense of how the model quality
+[14:09] is improving and then also how the harnesses are improving.
+[14:14] There are things about it, like we were chatting how, you know, the models have gotten
+[14:18] so much better, but they're not perfect.
+[14:21] And so you can spend a lot of money generating over and over and over again to try to fix
+[14:26] a small mistake or to try to get a scene perfect.
+[14:30] But at the same time, we've come super far, like with things like character consistency
+[14:35] with, you know, the physics of the real world working in most scenes, even if it's not perfect,
+[14:42] with video models being able to follow prompts around camera control and transitions and
+[14:47] things like that, much better than they used to.
+[14:50] So it's much more fun than frustrating.
+[14:52] I remember it must be like three years ago now or whatever.
+[14:56] I was trying to create a super basic, it was almost like a slideshow animation of like Calvin
+[15:02] and Hobbes, you know, through the years.
+[15:05] And oh my gosh, it took days and the output was terrible.
+[15:09] At the time, I was like, this is incredible.
+[15:10] I made this at AI, but it was a very frustrating process and now I would say it's a lot more
+[15:16] fun.
+[15:17] Exactly.
+[15:18] I think we're still at the early infancy stages, right?
+[15:21] I was saying before we came on, I started creating our own micro drama around the Nike
+[15:29] story.
+[15:30] So the idea was anyone who's listening can take this idea, right?
+[15:34] All these incredible companies we talk about on a daily basis, they all have an origin story,
+[15:39] but nobody actually knows a lot of the time what the origin story is.
+[15:43] How cool would it be to have an AI micro drama series called the origins or the tech origins
+[15:48] or something around how all of these incredible companies got created?
+[15:52] Anyway, I saw the playing around with a couple of these AI models and tools around how the
+[15:57] Mikey stories, you know, journey started the origin story.
+[16:01] And the storytelling, I think is pretty good.
+[16:04] The design, the aesthetics of the actual show is so good.
+[16:08] And maybe where it's still lagging is the camera lens, the lighting, how quickly people
+[16:14] are walking every AI micro drama needs some of like romantic story to it.
+[16:22] So maybe the romantic story for the Nike story could be around when they found me Michael Jordan
+[16:27] for the first time, Michael Jordan falls in love with this incredible shoot.
+[16:32] You can make it so good.
+[16:33] I don't see, I need to spend like two or three hours playing around with it and I think it's
+[16:38] quite good.
+[16:39] And that's in three hours.
+[16:41] That sounds incredible.
+[16:42] I think also it's fun to think about different iterations of micro dramas like that.
+[16:47] Like I think historically when people think micro dramas, they think like soap operas or
+[16:51] just kind of, you know, crazy, suspenseful, pure romance.
+[16:56] But there's an opportunity to tell so many different types of stories like what you're mentioning.
+[17:00] There's an opportunity for it to be somewhat educational.
+[17:03] Like there's so many different sorts of content that are unlocked here.
+[17:07] And it's pretty interesting to see the consumer adoption of this.
+[17:12] I was actually just in China last week and seeing the adoption of technology and consumer
+[17:18] social apps is so interesting to see versus what happens in the West, right?
+[17:26] How do you see the adoption of these AI micro dramas as she sticking around?
+[17:33] And is it just, are we just going for a phase, is it just going to die or is it going to
+[17:39] last?
+[17:40] I think from a consumer perspective, my instinct at least is that people don't actually care
+[17:47] what it's made with.
+[17:48] You know, at first maybe the folks on X or Reddit or wherever, people who care about technology
+[17:53] and want to follow the progress may watch something because it's AI and may follow along
+[17:56] because it's AI.
+[17:58] The mass market consumer does not care that it was made with AI and isn't going to watch
+[18:03] it for that reason.
+[18:04] And so the question is, do we hit the quality bar where it makes sense for all micro dramas
+[18:09] or many micro dramas to be created with AI because it's, you know, 90, 95% of the quality
+[18:16] of filming, but it's so much cheaper and faster and easier.
+[18:20] And I think we are quickly approaching that point where some micro dramas can be entirely
+[18:25] made with AI, some are made with the combination of, you know, human filming and then some sort
+[18:31] of AI editing, adding backgrounds, adjusting things, dubbing, that sort of thing.
+[18:36] So yeah, I don't think this is a trend just because it so massively shifts the what the
+[18:43] supply curve can look like because now for $100,000, you can make so many more episodes
+[18:49] than you could make before.
+[18:51] It just makes a ton of sense for the producers of the micro dramas to be using AI because historically,
+[18:58] like one of their biggest problems was just having enough content, having the volume, having
+[19:03] the diversity of content to be able to get viewers in and retain them on the platform.
+[19:10] I think it's also going to be interesting to see the type of content, doesn't even have
+[19:16] to be micro dramas in this case, that individual creators create versus the micro studios, right?
+[19:24] Like I was saying, it is still pretty expensive as a individual creator to create an AI micro
+[19:30] drama.
+[19:31] Like we didn't spend too much creating our own, maybe, you know, under $500, but that's
+[19:36] a lot.
+[19:37] And there's still in these multiple iterations, right?
+[19:40] Do you think the cost for individual creators will go down over time where you can maybe knock
+[19:45] something out for a couple hundred dollars?
+[19:49] For sure.
+[19:50] I think the trend we see with all of these models is that over time, the quality that
+[19:56] you can get for a certain price goes up, which is great, as more and more new models come out.
+[20:01] I think the frontier models, like right now, that seat ends too, will always be very expensive.
+[20:07] I think there's an incentive with more and more competition in the space for the model providers
+[20:14] to both continue improving their models and also to make their models less expensive over
+[20:18] time so more people can use them.
+[20:21] I think Google did this with VO3 when they released VO3 fast.
+[20:25] And we saw yesterday Cdance is now doing this with Cdance too fast, which is much cheaper
+[20:30] and faster.
+[20:31] And so my instinct is we're just going to keep seeing that the cost go down over time.
+[20:37] And then of course, hopefully we'll have better and better kind of frontier models that will
+[20:42] likely stay pricey for a little while.
+[20:44] Yeah.
+[20:45] And you know, I feel this is all changed in maybe six months.
+[20:48] I think if you asked a regular consumer six months ago, would you was a AI-generated
+[20:54] movie program, will it be on an episode?
+[20:57] They'll probably say no.
+[20:59] Now, I think it's, they don't mind if it's good quality.
+[21:05] Right.
+[21:06] I mean, some of the most viral clips I've seen from the World Cup are AI-generated, hilarious
+[21:11] things of like an entire team forming a circle and moving down the field to score a goal or
+[21:16] like the Brazil team building a brick wall in front of their goal.
+[21:20] So no one can score like it sort of just unlocks all of this stuff, like these crazy weird
+[21:27] interesting ideas that people have in their imagination that they could never make before
+[21:32] that they can then share with the world and a bunch of other people can be like, whoa, this
+[21:35] is super cool or interesting or weird or entertaining kind of whatever it's intended to be.
+[21:41] Exactly.
+[21:42] You know, we're both in this new media ecosystem rise, you know, it's running so much around
+[21:47] what's happening in the category and ecosystem.
+[21:51] And one trend I keep hearing, I'd love to give you a take us around, what is AI stop?
+[21:57] And to turn this around should creators be thinking about is their content timely or timeless.
+[22:04] I know your colleague Eric did a great tweet about this recently, where really, you know,
+[22:10] the terms came from, is that how creators should be thinking about creating content to
+[22:15] avoid potentially being accused of all, this is just all AI generators.
+[22:21] The stop concept is very interesting to me because I think it came out around AI, but my
+[22:27] take at least has been there's a ton of human produced slop.
+[22:32] Like, slop is more about the quality of the content and the narrative and like what it does
+[22:39] to your brain versus whether it's made with AI or not.
+[22:42] Like, I think you could argue that a ton of the like clickbait YouTube, like insane slime
+[22:48] challenge, whatever shorts that that people were posting far before AI are like human
+[22:54] swap and AI swap is similar to me, it's like, I don't know, I guess the way I understand
+[23:00] swap is like, there's no really underlying, I don't even know if compelling, because some
+[23:05] of them do have like compelling narratives, but they just like trigger this primal part
+[23:11] in your brain that like makes you kind of keep watching and be hooked, even though it's
+[23:16] not the highest quality store your narrative typically.
+[23:19] I think, yeah, like we shouldn't all spend our time watching AI swap, but I think also
+[23:23] we shouldn't pretend that slop originated with AI because there was plenty of human produced
+[23:29] slop content before that.
+[23:31] I think in terms of what creators should do, it really depends on like what sort of creator
+[23:37] you want to be.
+[23:38] I mean, there's a lot of creators who optimize for kind of near term impressions and growing
+[23:43] their audience and jumping on every trend.
+[23:46] You see this in non AI spaces, you see this with traditional YouTube creators, like some
+[23:51] are on every single trend, like one week they're doing the 10,000 calorie challenge and the
+[23:56] next week they're doing the like, poor buckets of water on random people down the street,
+[24:01] like hopping around between things that are definitely not like timeless, whereas others
+[24:06] take a long time researching and filming really in depth kind of deep dives and videos.
+[24:13] I think usually for companies, it makes sense to be more on the timeless side of things or
+[24:20] at least to have sort of thoughtful content that articulates your thesis and who you are
+[24:25] and who you want to be, but there are a lot of creators for whom they can grow an audience
+[24:30] quickly and monetize really well by producing, I guess, more of the low brow slop content.
+[24:37] Are we just going to go to a stage where we don't actually know what is AI generated
+[24:43] or not?
+[24:44] Perhaps for a lot of these social platforms, like sort of sub-stag, maybe it's just like
+[24:49] larger platforms, maybe some new ones which come into play, should creators start citing
+[24:55] if their content was created using any of the tools they use on a daily basis for better
+[25:04] transparency?
+[25:06] I think my view on that has been, it's super hard to say what is AI or not.
+[25:12] Like I remember when people asked this question, I saw a Reddit post like a year and a half
+[25:18] ago where like Steam or one of the game, one of the game marketplaces was requiring games
+[25:25] made with AI to be labeled AI and one of the developers was like, well, I use like a tab
+[25:32] complete model and cursor when I was coding parts of this game.
+[25:37] Like does that mean I have to label it as an AI generated game?
+[25:41] And I think Steam's intention was like, oh, if it's an AI generated assets or images or
+[25:46] music or whatever, but like it's just such a slippery slope of like, oh, you know, what
+[25:52] everyone assumes AI means, like people will look at that, many people, I think we'll look
+[25:57] at that and assume this is fully AI generated and in many cases, it's like a collaboration
+[26:02] between human and some sort of model.
+[26:05] I think my instinct is like the vast, vast majority of content will end up being partially
+[26:12] AI produced or AI edited in the future.
+[26:15] So there's probably no point in even labeling it because that's just going to be the default.
+[26:21] That said, I am surprised on platforms, especially like Instagram, how many people don't recognize
+[26:27] like clearly an AI video.
+[26:29] So I know the social platforms are, you know, putting more disclosures and things like that
+[26:35] over that sort of stuff.
+[26:38] It's becoming much harder for sure on what has been AI generated.
+[26:42] I mean, for videos, I think it's hopefully fairly easy to, you know, figure out, especially
+[26:49] for like newsletters, right?
+[26:51] I saw this start the other day, someone put together where if you look at the top newsletters globally
+[26:57] on all platforms, something like 20% of the top newsletter writers, all of their content,
+[27:04] it was like 80% of their content is AI generated.
+[27:07] And then it's like you get to that phase where it's, if you were top newsletter, but as
+[27:12] AI generated content, I'm not sure where you stand with that.
+[27:17] I think I have a controversial take on this, which is I don't actually care if the person
+[27:23] is choosing to read the content and the person is choosing if they find the content meaningful
+[27:27] or not, and whether it resonates with them and whether it kind of speaks to something in
+[27:32] their life.
+[27:33] And so it's sort of in the eye of the beholder, like I think folks who are, and we've already
+[27:40] seen this, like people who have a popular newsletter and have like pivoted to just putting
+[27:45] out purely claw generations that are like not really in their voice and like don't make
+[27:50] a ton of sense, get called out for that, like as they should.
+[27:54] But I think there are some people who, you know, I've even been surprised by it, find
+[27:59] a lot of meaning and really resonate with certain things, certain AI outputs that people get
+[28:05] by, you know, going back and forth with clawed or GPT or whatever model about a certain question
+[28:10] and then publishing it.
+[28:12] I think some people get like really offended when they see AI written output.
+[28:15] I just sort of, you know, skim it and decide, is this meaningful to me?
+[28:21] Do I want to read it?
+[28:22] Even if it has an AI tinge, is there still some element of sort of, I can understand what
+[28:26] the author wanted to say and why?
+[28:28] And if so, I'll still read it.
+[28:30] Yeah, my personal take is also change fairly recently, where if it's a creator who I respect
+[28:38] and I'm going to create a, because they're sharing the latest tech trends or is the latest
+[28:44] startups or what's happening like in healthcare, for example, I don't really care if I'm still
+[28:49] going to get the same insight as what the creator is trying to say, great, I don't mind.
+[28:55] Maybe six months ago would have been different.
+[28:57] Why do you think your viewpoint changed on that?
+[29:01] Because there's two points.
+[29:03] One is, so many of these creators are using these AI models and tools anyway to help them
+[29:09] with their work, which I think is totally okay, right?
+[29:13] They're very small teams and I guess they need as much support as they can.
+[29:17] And secondly, it's just where the world's going.
+[29:20] As long as the information I think is accurate and what the, what the creators are saying
+[29:24] is still accurate, then, you know, I think it's okay.
+[29:28] I agree.
+[29:29] I mean, I think the thing that I don't like to play the devil's advocate is I don't know
+[29:35] if they still do this, but for a while, both quad and GPT had this terrible habit of being
+[29:42] incredibly long-winded in like a way that like, you know, human would be when explaining something.
+[29:49] And so you could clearly tell if something was AI-generated because it would take three
+[29:53] paragraphs to say like one sentence worth of calm.
+[29:56] And that is like very annoying, but I don't know, a lot of what I do when I write blog posts
+[30:01] and stuff now is like, it's really hard to start from a blank page.
+[30:05] And so often what I'll do is I'll create some sort of outline of what I want to say.
+[30:08] I'll give it to both Claude and GPT.
+[30:11] I'll see what angles they come up with.
+[30:13] I'll pace them both in the doc.
+[30:15] I'll take parts I like from each of them.
+[30:17] And then I'll rewrite a bunch of it myself.
+[30:20] And you know, the end output is probably like 70, 60 to 70% written by me, like 30 to 40%
+[30:28] written by AI.
+[30:30] But I'm actually like, the process of writing is no longer as painful because I'm not starting
+[30:34] from a completely blank page.
+[30:36] Well, it's actually the same.
+[30:38] We use all of the models to check for spelling mistakes, which I think is always a good thing.
+[30:42] There's always like one or two things we should miss out, right?
+[30:45] We ask each of the AI model to rate the newsletter edition out of 10 based on all of our previous
+[30:51] content.
+[30:52] So if Claude is saying 6.5, Gemini is saying nine, and GPT is saying, I think it's on 8.59.
+[31:00] You know, perhaps you're on the right track for something, right?
+[31:05] If it's like all of our designs, we do these beautiful marker maps, 70 U, all of those
+[31:10] are human generated for now, but we just ask it to rate it.
+[31:14] What do you think of this design?
+[31:16] How should we make it a bit clearer?
+[31:19] Should we move like the box around when you've got 200 companies on a market map, it does
+[31:23] get a bit hard.
+[31:24] But it's actually super useful for a spurring partner on what great content could look like.
+[31:31] Yeah, I find it super like I've also given it sort of presentations that I'm giving at
+[31:37] our like GP meetings or whatever.
+[31:40] And it's really sometimes when you get deep in writing something or creating a presentation,
+[31:46] you have so much context in your own brain that it's hard for you to imagine.
+[31:51] Does this make sense to an external person looking at this for the first time?
+[31:55] And I find the models are really good at reviewing something fresh and saying like, there is
+[32:01] no coherent narrative underlying this, or like, you really need to move this part of
+[32:06] the presentation before these other parts, because without it, the rest of the parts don't
+[32:11] make sense for someone who's not super deep in this space.
+[32:14] And I find that to be super valuable.
+[32:17] And I think we'll actually really improve how a lot of people communicate because that's
+[32:22] a really hard skill to be able to do on your own.
+[32:26] The hardest part also for creators like us, maybe you agree, is there are so many tools
+[32:31] out there deciding which ones to stick with and deciding which ones to try out every week.
+[32:39] It's opportunity course, it's just time, at the end of the day, you just go inside, I guess
+[32:46] what works best for you.
+[32:47] It's hard because you get on something that works well for you, and then something else
+[32:52] comes out the next week that you want to try that looks even better.
+[32:56] And then your original product upgrades.
+[32:58] And so I don't know.
+[33:00] It's difficult.
+[33:01] I think I'm lucky that since I'm investing in a lot of early stage stuff, it's helpful
+[33:09] for me to use both all of the early stage products, but then also know what the incumbents, which
+[33:14] at this point are like the open AI and the anthropics and the Googles are doing and releasing,
+[33:19] so I can know how the product experiences actually compare.
+[33:24] We have a lot of founders who listen to the show, and I think a useful question would be to
+[33:29] talk around one of the hottest parts of building a generated media type of company from a startup
+[33:36] point of view, and any characteristics you've seen there on all the hundreds of companies
+[33:43] you've met?
+[33:44] Yeah.
+[33:45] Generative media, I think, is a great space, and it's also a really competitive space.
+[33:50] So I think to me, the hardest thing right now has been figuring out who you want to serve
+[33:57] and how you're going to be differentiated, largely because it's gotten pretty expensive
+[34:02] to train foundation models that compete with folks like OpenAI and Google, not as much
+[34:09] anthropics, they do sort of less on the media side, but there's now a number of startups
+[34:15] that have raised a bunch of money across different modalities, as well as the big tech companies
+[34:19] that are training models here.
+[34:21] And so, from a research perspective, it's harder than it used to be to train a new image
+[34:26] or video or audio model scratch and be a competitor in the market, which is not to say folks shouldn't
+[34:32] do it, but I would say the bar has raised in terms of what folks expect, in terms of differentiation,
+[34:39] what your model can do that others can, that sort of thing.
+[34:43] I think a lot of folks are now trying to compete at the app or workflow layer, and at first
+[34:50] the applications for these models were incredibly simple.
+[34:54] It was like a text box, prompt input, and then you would get the output, and now there's a
+[35:01] bunch of great services that host a ton of different models, and they all offer text input
+[35:08] to output, and so most people don't want to be competing on just offering the lowest price
+[35:14] for every model, or offering the fastest inference or things like that.
+[35:19] And so, they're really trying to think about how can I serve a certain user base better than
+[35:25] anyone else can, like what can I build product-wise?
+[35:30] How can I create features that really resonate with a particular audience?
+[35:33] How can I go deeper into a particular type of creator or professional workflow so that
+[35:39] they have a real reason beyond price to stick with my platform?
+[35:43] I would say that is the major challenge that everyone is thinking through right now, and
+[35:47] it's worth probably having a point of view on that if you're starting a new company today
+[35:52] in the generative media space.
+[35:55] There are so many incredible creators out there who you can sell to, but also figuring
+[36:00] out where the opportunities are because things are changing all the time is the hardest part
+[36:05] of the ride.
+[36:06] Where do you think the untapped opportunity is for a founder to build a defining company
+[36:12] in this category?
+[36:14] I mean, I think most of the companies in this space initially targeted the AI-native
+[36:20] creators, folks like us who were early adopters of all of these tools who were using and sharing
+[36:26] and posting about it, who were reachable on platforms like X and Reddit, but I think there's
+[36:31] a massive market of other people that are largely untapped, who are less technically sophisticated,
+[36:38] who don't know every single tool out there, and in some ways that's a benefit because if
+[36:41] you get them on your tool and you get them to have a sticky workflow there, they're
+[36:46] less fickle, they're less likely to turn and go to whatever they see the next day.
+[36:50] I think there's a lot of opportunity in consumer that's honestly untapped, like sort of the
+[36:55] social layer of generating and sharing stuff is still almost entirely done on the existing
+[37:01] incumbent platforms versus creating really fun and interesting and compelling new playgrounds
+[37:07] where consumers can make and share this sort of stuff.
+[37:10] I also think types of content like micro-jamas are a great example where you need really specific
+[37:16] things like and I saved ideas of characters with certain voices, saved sets, like a sense
+[37:22] of the right timing and pacing for a micro-jama in particular, like that sort of knowledge
+[37:28] in those features are going to be different than a general video product.
+[37:32] And then I think there are also a lot of opportunities in like vertical industries, things like architecture,
+[37:38] things like design, marketing and ad industry is huge and is just starting to adopt AI.
+[37:44] And so I think going into those markets that are not necessarily like the most AI-native
+[37:51] is an enormous opportunity right now.
+[37:54] It feels like there are so many opportunities, founders could go towards, I'm just going
+[38:00] to be like a robot's equivalent for AI micro-jamas maybe, all of these AI tools where you can
+[38:07] create ads in like a couple of minutes, I think it's been so interesting to see.
+[38:11] We mentioned earlier about like presentations, creators have to create slide decks and partnership
+[38:17] agreements and stuff that's kind of all now being done.
+[38:21] I still think maybe where there is opportunity is actually just a typical creator stack, like
+[38:26] running a credit business and just like all the day-to-day stuff you have to do, like reaching
+[38:31] out to podcast, gas, potential sponsors, partnership agreements, we still have to do this right.
+[38:39] And it feels like maybe there is still some opportunity there, but it's pretty hard.
+[38:45] For sure.
+[38:46] I mean, yeah, there's so much work that is done beyond just the pure content creation side
+[38:50] of it.
+[38:51] I think a lot of the things you're talking about is more sort of the business, the tasks that today
+[38:56] humans have to do, whether it's research and outreach or whether it's creating and sending
+[39:02] invoices or reviewing legal contracts or things like that, and obviously big companies have
+[39:07] a bunch of people who do those things, but for most creators, they can't afford to have
+[39:12] big teams who are taking care of all of that for them.
+[39:15] And so every minute they spend on that sort of thing is a minute that they can't spend
+[39:19] on creating content, which is generally what they like to do.
+[39:23] So one of my takes is that AI agents are going to be particularly powerful for individual
+[39:30] creators and small businesses, just because they're so much more constrained, time-wise
+[39:35] and resource-wise, and it's going to be a massive step-function improvement for them
+[39:40] when they can spend much more of their time on their creation, their business, whatever
+[39:46] they like to do, and less on all of this administrative and logistical type stuff.
+[39:51] Have you tried any cool personal AI agents that you're really excited about, and do you have one?
+[39:58] This is going to sound like I'm shilling for an investment, but I was actually a user of this
+[40:02] months before we invested. There's this new product called Town. It connects to your email
+[40:07] and your calendar, and what I really like about it is it ingests all of this information about
+[40:12] you, and then it proactively suggests things that can do for you. So most AI products,
+[40:19] you're going to it and saying like, hey, can you set up this recurring workflow and describing
+[40:25] exactly how it's done? Town looks at everything you've done and creates the description of what
+[40:31] it needs to do, and then asks if you can do it. One great example is I often get warm intros from
+[40:38] other investors or other folks to companies, and one day Town was just like, hey, I notice every
+[40:44] time you get one of these, you send an email back thanking the referrer, you move them to BCC,
+[40:50] and then you loop in your EA, Lauren to schedule a meeting. How about I just do that for you every
+[40:55] time one of these warm intros you've agreed to comes in? Or like, I've noticed Friday nights at 11pm,
+[41:02] you are forwarding in receipts that you get to your to novon, your guys' expense provider.
+[41:08] How about every time you get an email that's an invoice or receipt, I just auto forwarded in for
+[41:13] you and then stored it so it's not clogging your inbox. I think things like that, I'm really
+[41:17] excited for them to reach more people. They just announced a fundraiser, right? Yes.
+[41:23] This is almost what I feel we've been waiting for for the last two years.
+[41:31] And it feels like consumer tech intersecting AI is back. Consumer tech has always been,
+[41:38] there's no opportunity. The returns have been super bad, but it feels like it's back.
+[41:44] Where are you most excited about seeing consumer go next?
+[41:51] It's, I always say it's super hard to predict consumer. It's sort of can only be observed
+[41:58] just because it's consumer behavior is very difficult to say like, even if you look at
+[42:04] things like a TV show or music or a movie or a game, what is going to be the next major hit?
+[42:09] I think you can see early signs though, just like you can see early signs of an indie songwriter
+[42:15] rising up in TikTok and then eventually they become a big star. You can see signs from early
+[42:21] adopters of these sorts of products of what the future might look like once everyone can get a
+[42:27] hold of it. If something is a magical enough experience for the early adopters, it will likely
+[42:32] continue to grow and spread. I mean, that's why we invested in town. Like me and a number of
+[42:38] other people on the team use it. And we're just like, I think we see similar things for like
+[42:42] texting, being able to text AI agents, for example, like a lot of people do not like having tons of
+[42:49] apps on their phone and having to open an app and wait for it to connect and then send something
+[42:57] to AI and then wait for the response to come back versus go just on your phone
+[43:02] and your loss or you don't know when your next meeting is or you get some important email you
+[43:08] missed and you can text your AI assistant or it can text you with products like Polk or Ollie,
+[43:14] which is doing this for more kind of family and household management. And I think we saw the first
+[43:20] wave of a lot of that kind of stuff with open claw, honestly, and the Hermes agent, where really
+[43:26] technical people were setting up super interesting things and finding a lot of value from it. But
+[43:31] the vast majority of users are not going to like get a Mac mini or install the like amphetamines
+[43:37] thing on their Mac to keep it running all the time and and go through the whole process of
+[43:42] installing some open source project to set up their assistant and connecting the API key. Like
+[43:48] there's still so much friction around that sort of thing that we have not yet reached the point
+[43:53] where it's come to everyday consumers and a cool well packaged product. So I'm super excited to see
+[44:00] that that wave kind of reach everyday people. Yeah, and we have to remember a lot of these
+[44:06] typical consumers, they're not that technically savvy right outside of San Francisco. I mean,
+[44:13] they probably don't know how to have their open claw right. So when that becomes much easier,
+[44:18] you know, massively widely adopted, that's potentially the breaking point.
+[44:24] Yeah, I mean, I think we saw something similar with generative media, honestly, where it's like
+[44:30] before it required these really specialized skills to be able to make a good image or video
+[44:35] or design or something like that. And AI is really democratized that. And I think we're going to see
+[44:40] something similar for code. Like a lot of what a lot of these agents are doing is they're writing
+[44:44] some sort of code or some sort of ongoing workflow for people and running it for you.
+[44:49] Just something that the vast majority of people like me included cannot do well on their own.
+[44:54] It's such an exciting time to be building. If you were to go and build a company tomorrow,
+[45:01] what category would you build in? And I'm sure you've thought about it or you've got some ideas,
+[45:07] you would maybe, you know, new to long on the weekends. You know, I never had the bug of like,
+[45:12] I have to go start a company. I think like in general, the good advice is probably start a
+[45:18] company in a space that you know a lot about and you're really passionate about. So for me,
+[45:23] it would probably be either something in generative media or consumer agents. I just I think there's
+[45:31] so much potential to build the to bring the power of these models to consumers and consumer-friendly
+[45:39] interfaces. Like we we have not at all reached sort of saturation in terms of the number of products
+[45:46] that people will use. We're just so early, like we don't even have kind of friendly,
+[45:51] accessible product experiences, let alone like good brands or like great marketing for a lot of
+[45:56] these AI products. And so I just think that's like a massively underserved space right now.
+[46:02] I think there's a ton of really exciting things happening in B2B and on the infraside and sort of
+[46:07] in research. I'm not a researcher or like I've ever been like a kind of core B2B software person.
+[46:13] So those are not my areas of expertise. So I would probably lean more on the consumer side of things.
+[46:19] There are also just so many incredible founders out there who people can like draw inspiration from.
+[46:25] Any founders you really admire right now who are just building incredible things.
+[46:31] There's so many really fantastic founders right now. I think the 11 Labs founders,
+[46:36] I will give a shout out to just because we did this series A and a bunch around since. So I've
+[46:42] had the opportunity to work with them a bunch over time. And I think with all these these AI products
+[46:48] right now, you sort of have to find like an initial wedge where you can get an attention
+[46:53] an initial user base. And for 11, that was with a lot of random audio use cases.
+[47:02] We talked to them a few weeks after they launched and it was like people making voiceovers for games
+[47:07] or people dubbing audio books in obscure languages or interesting long tail use cases where you're like,
+[47:16] I wonder what this is going to be as a big company. Like I wonder who's that who was going to be using
+[47:21] this. And then I think kind of co-developing like the research, the product and the go to market,
+[47:28] which is super hard to do so that they're all moving forward so that as the models themselves
+[47:35] get better, they have these new products interfaces that can sort of capture and harness the value of
+[47:40] the models. And then they can go and sell those to customers, which at first was like
+[47:45] largely consumers and prosumers, but now is a lot of traditional enterprises. And expanding
+[47:51] across categories, like starting largely in the creative ecosystem and media, which is still a
+[47:57] really big space for them, but then also exploring like where are the other places voices used and
+[48:02] as voice agents became more popular. So to me, they're sort of like, how do you execute very well
+[48:09] across all of these different categories at once? Staying focused on the core, kind of keeping
+[48:15] the models getting better and better, but also not letting product or go to market fall behind so
+[48:21] that you can really take advantage of the opportunity in front of you. I have so much respect for them,
+[48:26] Matty and Pietro to Polish founders from this tiny little country in Europe, they just crossed
+[48:35] $500 million, I think, and kind of revenue. And they're only a few years old, so for us back to them.
+[48:44] Yeah, no, it's remarkable working with them. They're like, I think we knew that they were very
+[48:49] special, but it's also super fun to watch founders mature from like a team of maybe like 10 people
+[48:55] when we invested to suddenly like hundreds of people at this company that they've created from
+[49:00] nothing. Like it's when you kind of follow something like that, it's just truly remarkable.
+[49:06] You know what's really annoying? I had a very similar idea to 11 Labs about five years ago.
+[49:11] There's a tweet somewhere out there where I said at some point, how cool would it be for every
+[49:16] creator in the world to translate their content into any language using their voice and at the time
+[49:22] I was at another VC fund and 11 Labs came along, so I had to ask them, I'm really excited to see
+[49:28] what they can ask. Me too. Hey, Justin, this has been amazing.
+[49:32] Thank you so much. We've covered so much. I feel like now is the greatest time to be building,
+[49:37] but also anyone who's just interested in new media, give it a go and get building some AI
+[49:44] microdramas. Totally. Yeah, I cannot wait to see all of the incredible content that's going to be
+[49:49] coming out over the next few months. See what happens. Thank you so much for coming on the show.
+[49:54] Awesome. Thanks for having me. Thanks for listening to this episode of the A16Z podcast.
+[50:01] If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review,
+[50:07] and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts,
+[50:12] and Spotify. Follow us on X, A16Z, and subscribe to our substack at a16z.substack.com. Thanks again
+[50:19] for listening, and I'll see you in the next episode. This information is for educational
+[50:24] purposes only and is not a recommendation to buy, hold, or sell any investment or financial product.
+[50:29] This podcast has been produced by a third party and may include pay promotional advertisements,
+[50:34] other company references and individuals unaffiliated with A16Z. Such advertisements,
+[50:38] companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of
+[50:44] its affiliates. Information is from sources deemed reliable on the date of publication,
+[50:48] but A16Z does not guarantee its accuracy.

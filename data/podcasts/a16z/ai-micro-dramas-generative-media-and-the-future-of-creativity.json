@@ -1,0 +1,28 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "AI Micro Dramas, Generative Media, and the Future of Creativity",
+ "date": "Wed, 29 Jul 2026",
+ "date_iso": "2026-07-29",
+ "lien": "https://a16z.simplecast.com/episodes/ai-micro-dramas-generative-media-and-the-future-of-creativity-ZbK1xyzO",
+ "duree": "00:51:02",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 4.5,
+ "taille_transcript": 53000,
+ "transcript": "ai-micro-dramas-generative-media-and-the-future-of-creativity-transcript.txt",
+ "nb_outils": 3,
+ "outils": {
+  "Claude": [
+   "t is like very annoying, but I don't know, a lot of what I do when I write blog posts and stuff now is like, it's really hard to start from a blank page. And so often what I'll do is I'll create some sort of outline of what I want to say. I'll give it to both Claude and GPT. I'll see what angles they come up with. I'll pace them both in the doc. I'll take parts I like from each of them. And then I'll rewrite a bunch of it myself. And you know, the end output is probably like 70, 60 to 70% written by me, like 30 to 40% wr",
+   " the models to check for spelling mistakes, which I think is always a good thing. There's always like one or two things we should miss out, right? We ask each of the AI model to rate the newsletter edition out of 10 based on all of our previous content. So if Claude is saying 6.5, Gemini is saying nine, and GPT is saying, I think it's on 8.59. You know, perhaps you're on the right track for something, right? If it's like all of our designs, we do these beautiful marker maps, 70 U, all of those are human generated for now"
+  ],
+  "Cursor": [
+   "ked this question, I saw a Reddit post like a year and a half ago where like Steam or one of the game, one of the game marketplaces was requiring games made with AI to be labeled AI and one of the developers was like, well, I use like a tab complete model and cursor when I was coding parts of this game. Like does that mean I have to label it as an AI generated game? And I think Steam's intention was like, oh, if it's an AI generated assets or images or music or whatever, but like it's just such a slippery slope of like, "
+  ],
+  "Gemini": [
+   "or spelling mistakes, which I think is always a good thing. There's always like one or two things we should miss out, right? We ask each of the AI model to rate the newsletter edition out of 10 based on all of our previous content. So if Claude is saying 6.5, Gemini is saying nine, and GPT is saying, I think it's on 8.59. You know, perhaps you're on the right track for something, right? If it's like all of our designs, we do these beautiful marker maps, 70 U, all of those are human generated for now, but we just ask it t"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

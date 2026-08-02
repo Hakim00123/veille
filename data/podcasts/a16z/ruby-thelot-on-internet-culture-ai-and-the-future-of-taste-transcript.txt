@@ -1,0 +1,621 @@
+The a16z Show
+Ruby Thelot on Internet Culture, AI, and the Future of Taste
+Sun, 02 Aug 2026
+https://a16z.simplecast.com/episodes/ruby-thelot-on-internet-culture-ai-and-the-future-of-taste-CvhHSpzt
+
+[00:00] Americans don't like AI.
+[00:02] AI is a very broad term.
+[00:04] They all use chat and like, I love it.
+[00:06] I love chat, but they don't like AI.
+[00:09] There's the boogeyman of like, I'm gonna lose my job.
+[00:12] But when I talk to mothers in Brian, Texas,
+[00:15] like, oh yeah, like I had a leak in my mouth.
+[00:18] Whatever I took a photo and in about an hour or two,
+[00:21] I was able to fix that thing.
+[00:22] I love that.
+[00:23] There's a bit of a language issue here
+[00:25] around what does this technology do for me
+[00:28] versus what is the negative impact that's coming
+[00:31] in a somewhat near potential future.
+[00:35] Today's episode comes from our list of recommended listening,
+[00:38] where we feature standout conversations
+[00:40] from people across our broader network.
+[00:42] This one stuck with us for its thoughtful perspective on AI,
+[00:45] internet culture, and the ways technology
+[00:48] is quietly reshaping how we communicate
+[00:50] and relate to one another.
+[00:52] MTS hosts Sofia Du and Sofia Puccini
+[00:55] are joined by designer, cyber ethnographer,
+[00:58] and NYU professor Ruby Jay Tullow
+[01:00] to discuss digital communities, online identity,
+[01:04] taste, and what it means to live alongside
+[01:06] rapidly evolving technology.
+[01:11] Today, I'm joined by my co-host, Sofia,
+[01:14] as well as Ruby Justice Tullow,
+[01:16] who is a designer, artist, cyber-ethanographer,
+[01:19] and professor at the Integrated Design and Media at NYU.
+[01:22] So he's written about everything from internet full-core
+[01:27] to digital memory to AI companions,
+[01:29] creativity in the future of culture,
+[01:31] and I think he has one of the most interesting perspectives
+[01:34] on what it really means to live alongside this technology.
+[01:38] So Ruby, I am so excited to have you on today.
+[01:41] The question on everyone's mind,
+[01:42] what is a cyber ethnographer?
+[01:44] And also, how has the field evolved through the years?
+[01:46] So a cyber ethnographer is someone who studies
+[01:49] groups of people online and how they behave in what they do.
+[01:52] So my research ranges from studying furries
+[01:56] all the way to now studying how people are using Instagram.
+[01:59] I had a recent piece for protein where I asked people
+[02:03] how they understood what an Instagram story
+[02:07] like meant to them.
+[02:09] And so around 500 people, 20 sort of closer interviews
+[02:14] to build a lexicon, a glossary of what does this digital
+[02:18] interaction mean to people?
+[02:19] Is it content appreciation?
+[02:21] Is it romantic affiliation?
+[02:23] Or is it just, you know, friendship continuation,
+[02:26] which are the three sort of three-part-type meeting structure
+[02:29] that I build for Instagram story likes?
+[02:31] With the Mozilla Foundation recently,
+[02:32] I did research on close friends.
+[02:34] Okay, so we have this new thing now called close friends
+[02:36] on Instagram.
+[02:38] If you're in my close friends, are we acquaintances?
+[02:41] Are we like families?
+[02:43] And how do we choose who gets to be
+[02:45] in these different sort of digital spaces?
+[02:47] These are novel behaviors that did not exist
+[02:49] two years or three years ago.
+[02:51] And we need to build understanding and language around them.
+[02:54] And that's a big part of my research.
+[02:55] Yeah, what's interesting here is that cyberethnography
+[02:58] is not something that's necessarily new.
+[03:00] This is not a new field.
+[03:01] However, my hunch is that this field has probably been
+[03:06] changing a lot in the last two years,
+[03:08] or at least in the past decade,
+[03:09] with just the progress of technology
+[03:11] and the introduction of new types of social media
+[03:14] as new types of online behaviors,
+[03:16] even just gen alpha, just a generation underneath,
+[03:19] has a whole different interaction with their technology
+[03:22] than we do as Gen Z or then millennials above us.
+[03:25] And so I'm curious to get your perspective
+[03:26] on how this whole space has changed.
+[03:29] I mean, there's a, there's a goats like Dana Boyd.
+[03:32] I mean, she's a big inspiration for my own research.
+[03:35] A big part of me trying to understand
+[03:37] what close friends meant was looking at her research
+[03:39] on my space top eight, when she was at Microsoft
+[03:42] for a long time, not sure that Cornell as a professor,
+[03:45] and she was leading a team at Microsoft research.
+[03:47] And so people have been doing these things
+[03:50] for a long time, but of course,
+[03:51] the cycles are accelerating.
+[03:54] And the features are getting shipped faster and faster.
+[03:58] And we have these changes in, you know,
+[04:01] I like to say that every novel technology
+[04:03] leads to changes in being, communicating and belief.
+[04:08] And the faster these things happen,
+[04:10] the less time we have as researchers or academics
+[04:12] to do the research and do the interviews.
+[04:15] But I think it still needs to be done
+[04:17] because millions of people are using these tools
+[04:20] and these students' features.
+[04:21] Yeah, yeah, totally.
+[04:22] So one of my questions was like,
+[04:24] basically how long does it take to identify
+[04:26] a new social phenomena online?
+[04:29] And then how many of them are actually perceptible
+[04:32] versus imperceptible?
+[04:33] Because I think, for example, like a lot of teachers,
+[04:36] if they have young kids and they're teaching like Jen Alpha,
+[04:39] they will like be very confused for a long time
+[04:41] about like, what is this new six, seven thing?
+[04:44] And so they, like there's a whole layer
+[04:47] that they are just like not privy to.
+[04:49] So yeah, what do you see?
+[04:50] So this is one of the hardest things to do on the internet.
+[04:54] I like to say, is this a real thing?
+[04:56] Or is this three TikToks and a trench coat, right?
+[04:59] Because oftentimes what feels like a trend,
+[05:02] what feels like a novel social behavior
+[05:06] can just be super micro, super small.
+[05:09] And so what my firm R2S will be do at 131
+[05:13] is we do a lot of like quantitative analysis
+[05:15] of social media to see how prevalent is this thing really.
+[05:18] Six, seven was definitely real.
+[05:20] Not only do we see an increase in the mentions
+[05:23] of that on social media, we also see the behavior
+[05:25] seed through the IRL.
+[05:27] And when you're doing interviews with teachers,
+[05:29] when I'm traveling the country,
+[05:30] asking people how they're using technology,
+[05:32] I'm also seeing that sort of leap over
+[05:35] into the physical world.
+[05:38] A good example of this is there's been a few articles
+[05:41] about this thing called heteropessimism.
+[05:42] This is the sort of aversion
+[05:44] that certain straight women have about dating men.
+[05:47] And I was like, okay, is this a real thing?
+[05:49] So what we did, we took a look at the top posts
+[05:52] about dating on TikTok.
+[05:53] Editing over a million views,
+[05:55] take a look at 2,000 videos,
+[05:56] and then using the scripts,
+[06:00] identifying did heteropessimism grow since 2020
+[06:04] on TikTok reels and across different platforms?
+[06:08] And we found that dating content is mostly positive,
+[06:11] but our beloved journalists, I think,
+[06:14] because of their algorithms,
+[06:15] I think are getting hit with a lot of that content.
+[06:17] And then they think it's a trend.
+[06:19] But when I take a look at the data
+[06:20] at the top 2,000 videos across five years,
+[06:23] I can say that it's actually kind of decreased over time.
+[06:26] And most dating content is for the most part positive,
+[06:30] about 40 or 50%.
+[06:32] Yeah, that's fascinating.
+[06:33] So there is a sort of loud minority phenomenon
+[06:37] with content, how many of the trends do you see
+[06:40] are like entirely sort of like the proportion of them
+[06:44] is just like wrong, like erroneous.
+[06:46] And it's not only the loud minority,
+[06:48] it's also the people who write about them
+[06:50] have specific algorithms.
+[06:52] Yeah.
+[06:52] You know, they have specific lives
+[06:54] that push certain things to them.
+[06:56] And so that also has an influence of what gets reported.
+[06:59] Yeah.
+[07:00] So I'm a critic, I write for magazines
+[07:02] and sometimes I'm looking for a piece
+[07:04] and I'm gonna go on social media
+[07:06] and I'm gonna try to find something interesting.
+[07:08] That does not mean whether it's a fashion trend,
+[07:10] whether it's a behavior like six, seven,
+[07:11] that that actually has any prevalence
+[07:13] in the rest of America, you know?
+[07:16] So how do you determine that?
+[07:17] How do you actually determine what has prevalence?
+[07:19] How do you determine what might just be a biases
+[07:20] that's on your algorithm
+[07:22] or on a different journalist's algorithm?
+[07:24] Well, you do research, but you know,
+[07:26] sometimes when you run a piece,
+[07:28] you don't have time to do full research.
+[07:30] So you actually will interview the TikTok
+[07:32] or the person who's made the first post.
+[07:35] So there still is something happening,
+[07:38] but the question to me is always,
+[07:39] is this only in Bushwick
+[07:40] or is this actually happening outside?
+[07:44] Yeah, that's so true.
+[07:45] So what have you observed about where culture starts?
+[07:48] Because like there's been a lot of like culture theorists
+[07:51] that talk about this of how like,
+[07:53] you know, they're very contained environments
+[07:55] that sort of breach containment
+[07:57] and it's all like very, you know,
+[08:00] small subcultures that are honestly pretty weird.
+[08:03] Like for example, the like in cell subculture
+[08:05] ended up, you know, trickling out
+[08:07] and like now everyone uses terms like looks maxing version.
+[08:11] And there's been a million examples
+[08:12] of this sort of thing happening online.
+[08:14] You mentioned furries.
+[08:15] I feel like this is another one
+[08:16] where it's like a very core group of people
+[08:18] and then like things just start like coming out of there.
+[08:21] Like they start emanating out of there.
+[08:24] Yeah, we're definitely in a period
+[08:26] of what I would call a blurry culture, right?
+[08:28] Where before we had 10, five channels,
+[08:31] we all watch the same things.
+[08:33] Now, we are in a blurry culture where there's very strong,
+[08:37] very generative, very active cultural epicenters
+[08:41] that are kind of sometimes touching each other,
+[08:43] sometimes far away from each other.
+[08:45] That's something that feels as big
+[08:47] as like a show like white Lotus of succession.
+[08:49] If you take a look at what the viewership for that is
+[08:52] compared to a show like mash,
+[08:53] compared to even the finale for loss,
+[08:56] not that many people have seen it.
+[08:58] But if you're on X, it feels like
+[08:59] everyone's watching succession.
+[09:01] And yet the numbers kind of,
+[09:03] when you compare them to even a show like big,
+[09:05] more people watching, they're watching session,
+[09:07] which kind of sounds crazy when you think about it.
+[09:09] And so I think what's very important for me,
+[09:12] and you know, my friend Ruiye and I worked on this paper
+[09:16] called The Balcanization and the Babilification of the Internet.
+[09:20] So the Balcanization is this splitting
+[09:23] of our monoculture into these small digital enclaves,
+[09:27] you know, they've been balkanized.
+[09:29] And on our little insular digital islands, what do we do?
+[09:32] We have speciation, we develop our own languages,
+[09:35] much like the turtles on the Galapagos Islands, right?
+[09:38] Our own specific vernacular, our own specific language.
+[09:41] And the problem with containment, with being so insular
+[09:45] is that when we have something like looks maxing
+[09:49] or anything that breaks, well,
+[09:52] because now we've been sort of a bellified,
+[09:54] we've developed our own unique idiosyncratic
+[09:58] micro languages, we no longer know what things mean
+[10:02] when we speak to each other online.
+[10:03] You know, we're using the same word,
+[10:05] but they have like completely different meaning
+[10:06] if you're in the furry community,
+[10:08] if you're in the in-sale community,
+[10:10] if you're in the, you know, high fashion Twitter,
+[10:12] whatever it is, and you're using the same word
+[10:13] and being completely different things,
+[10:15] because you've been in that digital bubble.
+[10:17] And that's the kind of that balification of me
+[10:19] is very dangerous.
+[10:20] And there's digital bubbles too.
+[10:22] There's some external incentives
+[10:24] that group people into specific individual bubbles
+[10:27] because it's easier to market to them.
+[10:29] And you know, even on like Spotify,
+[10:30] it's like, oh, you are a pink pony princess pop girl.
+[10:35] And everyone's like, ah, like this is the my culture.
+[10:39] These are the people I identify with.
+[10:40] And it's almost, people want to feel like they're part
+[10:44] of a tribe.
+[10:45] And at the same time, companies want us
+[10:48] to also feel like a part of the tribe.
+[10:49] Are you seeing that just happen more and more
+[10:51] and more and more that there's just
+[10:53] such tiny subnishes of our new culture?
+[10:56] Yeah, I mean, a big part of my job
+[10:58] when I do consulting, you know, anywhere from H&M to Pepsi
+[11:02] is to kind of go in these small digital communities
+[11:06] and like map them so that H&M knows what to sell, you know?
+[11:10] Interesting.
+[11:11] H&M recently had a dime square shirt last year.
+[11:13] And so that is based on research that was done
+[11:16] on different digital communities.
+[11:17] As someone who was in New York for two weeks
+[11:20] over a few weeks ago, not sure if you know
+[11:21] dime squirts of new micro neighborhood.
+[11:24] Oh, I know.
+[11:26] So people want to market, right?
+[11:28] They want to be able to say, okay, I have this specific group.
+[11:31] And it also makes the job of the algorithm easier
+[11:34] because the title, the name, the nomenclature
+[11:38] makes it more legible to the algorithm.
+[11:42] How is this now playing into our current modern day world
+[11:45] where you don't just have people who are deciding
+[11:47] these algorithms, but rather it's artificial intelligence
+[11:50] that are deciding these algorithms?
+[11:52] Is this accelerating the development of these micro communities
+[11:55] of these labelings of almost these decisions
+[11:59] that get made by algorithms, not less humans?
+[12:03] So I have an essay that came out recently
+[12:06] called Maschinek Taste for the Random Art
+[12:09] where I kind of talk about this.
+[12:10] So we might have seen the numbers from Kyle from CloudFlare
+[12:13] coming out this year, about 50% of internet traffic
+[12:16] as they see it as bots.
+[12:17] What does this do?
+[12:19] So you had a period of time where people were posting
+[12:21] to their friends.
+[12:23] Then you started posting to their followers
+[12:26] and then they started posting an audience.
+[12:27] When a creator or a poster develops an audience,
+[12:30] what we see is that their content changes
+[12:32] they become captured by their audiences,
+[12:35] meaning when they see that something works
+[12:37] they tend to do more of it.
+[12:38] The concept of audio capture I get from my dear friend,
+[12:40] Matt Klein, who's the head of insights I'd read it.
+[12:43] The thing that's happening now is that not only
+[12:45] is their audience captured, but to get to your audience,
+[12:48] there's also a gatekeeper which is the algorithm.
+[12:51] That's why Mr. B's looks like that on every single video.
+[12:54] And even our beloved tech podcasters also kind of do
+[12:57] the same kind of Mr. B's face in order to get views.
+[13:00] And so you have audience capture, you have algorithmic capture.
+[13:05] And now when your audience is now 50% bot, 50% human,
+[13:09] we suddenly see machineic or agentic capture happening too.
+[13:13] Because who is responding to your post?
+[13:15] We see this on X, it's not just human, it's also bots.
+[13:18] And so there's this waltz, this three legged waltz
+[13:20] between machine algorithm and your human audience.
+[13:25] And if we predict as I do that the number of bots
+[13:28] is going to increase, suddenly it may just be
+[13:31] that we will only have bots making things, right?
+[13:36] We'll only have AI generator content and AI audience.
+[13:42] And suddenly what we'll see is what I call machining tastes.
+[13:44] We'll actually get to see what are the aesthetic proclivities?
+[13:47] What are the aesthetic preferences of an agent to agent connection?
+[13:52] Yes, yeah, that is absolutely fascinating to me.
+[13:56] Do you think that the agents will have diversified preferences?
+[14:00] Or do you think that there will be some sort of conversion?
+[14:02] Like, you know, well, agents have subcultures is basically
+[14:06] kind of what we're talking about before.
+[14:07] If we have a rich LLM ecosystem with different kind of models
+[14:12] and different kind of ways, then we can one can surmise
+[14:14] that they'll have their own specific aesthetic preferences.
+[14:18] That's awesome. So speaking of aesthetics,
+[14:20] you wrote a piece about or you participated in an event about, like,
+[14:24] why are there no new aesthetics?
+[14:26] So I wanted to get your take on this because this is something
+[14:29] that I think about all the time.
+[14:30] Even people like Tyler Cowen have like created fellowships for,
+[14:33] like, somebody please make a new aesthetic.
+[14:35] So why do you think this is?
+[14:36] So in the lecture, I think the first thing is
+[14:40] that there are many new aesthetics that are just not mass.
+[14:44] And it's very difficult to make a new mass aesthetic
+[14:46] because for the most part, mass culture has been subsumed by finance.
+[14:50] I give the example of architecture.
+[14:52] I give examples in movies, right?
+[14:53] If you take a look at the graph of sequels over time,
+[14:55] just way more sequels than there were before.
+[14:58] But I think we also have, as an audience,
+[15:01] a responsibility to seek out the things that are novel.
+[15:05] And, you know, I say new aesthetics require search,
+[15:08] new aesthetics require a novel philosophy as well, right?
+[15:12] We need to start to think about what the world is going to be.
+[15:16] New aesthetics require a novel vision of the future.
+[15:19] Also that new aesthetics emerge from synthesis.
+[15:21] Like it's the kid who's making this amazing kind of like Brazilian funk
+[15:25] that's like mixed with like Japanese pop right now that's being made on YouTube.
+[15:29] And I think it's a kid with three screens.
+[15:31] He's like playing Counter-Shrike.
+[15:32] He's listening to Brazilian funk and like also listening to anime at the same time.
+[15:36] And that's how the music sort of like...
+[15:37] Yes, yeah, yeah.
+[15:38] And that's become the new aesthetic, Brazilian funk anime.
+[15:41] Yes, but it's happening.
+[15:43] And like, I think it's not at all like the number one.
+[15:46] I played them Elle Langley's Chasing Texas
+[15:48] because I was like, that's number one song in America.
+[15:50] Yeah, yeah.
+[15:50] And so there's a difference with the revealed preference of like,
+[15:53] that's number one song.
+[15:54] People say we want new things, but are we actually engaging with new things?
+[15:59] Are we actually giving that kid a shot?
+[16:01] It's very difficult for our current culture industry to do so
+[16:05] because all their decisions have been financialized.
+[16:08] They will make a movie if they think that like it's going to place well,
+[16:12] do well, they'll pick a person who already has a following on Instagram.
+[16:15] If they think the song is going to do well.
+[16:16] And the last thing that I deplore, and this is like me talking about my own job as a critic,
+[16:21] is that critics also are no longer doing their job, right?
+[16:25] Because we publish on platforms that are advertising based.
+[16:28] And so we can't be as mean and as critical as we used to be,
+[16:31] or uplift something that like very little people are going to care about, right?
+[16:37] There's like an incentive to, I think,
+[16:40] you know, the optimism to be more popular because the platform lives on clicks.
+[16:45] Yeah.
+[16:46] So you're almost designing your own human judgment,
+[16:48] your own human taste based off of what these algorithms are probably going to be promoting.
+[16:53] I am also curious to get your takes on what taste even means.
+[16:59] You write a lot about it.
+[17:00] And I think this is a very misunderstood term.
+[17:02] Even I personally, it's like, OK, I see everyone's like,
+[17:04] oh, it tastes is the only moat in the AI age and all of these conversations about it.
+[17:09] And I was like, OK, personal preference, like having good style.
+[17:12] OK, interesting.
+[17:13] Reading your works, you really go through the actual historical meaning behind this
+[17:18] and how it's almost connected to morality and all of these other aspects of it.
+[17:23] And I think this is a really important information that maybe isn't talked about quite enough.
+[17:28] I'm curious to get your perspective here.
+[17:30] So I wrote a book called A Few S Is On Taste,
+[17:32] where the first essay is called A Brief History of Taste.
+[17:36] And I make the case that taste is not just aesthetic preference.
+[17:42] Taste is a way for people to consume virtuously.
+[17:47] The question of taste emerged in the 17th century at a time where people needed guidance
+[17:53] as to how to consume properly.
+[17:56] So in 1688, the Bill of Rights happens in England after the Glorious Revolution
+[18:02] and the nobility's powers are restrained.
+[18:04] And as they lose political power, they also lose cultural power.
+[18:08] At the same time, you have the growth of the British colonies.
+[18:12] You have immense amounts of wealth that are being generated in the United Kingdom.
+[18:18] And suddenly, you have this nouvelle bourgeoisie,
+[18:20] you have this sort of new elite that emerges.
+[18:23] And there's a belief that this emergence of excessive luxury
+[18:31] will lead to the decay of society, right?
+[18:34] There's even them as Secola writes in Luxury in 1977,
+[18:37] says that they believe that excess would lead to effeminacy,
+[18:42] that men would lose their masculinity because things were too good.
+[18:47] And so it is in the vacuum, in the reduction of the cultural power of the previous nobility,
+[18:53] that the question of taste emerges.
+[18:56] And so you have people like the Earl of Shaftesbury,
+[18:58] people like Alexander Pope who write about this in the 17th and 18th century.
+[19:04] What's interesting to me is that we're in a similar position now.
+[19:07] We're entering a similar industrial revolution.
+[19:09] We are faced with or maybe in the midst of immense amounts of wealth being created
+[19:15] and we're asking ourselves, how do we consume virtuously?
+[19:18] And that is why the question of taste is emerging.
+[19:21] It mirrors 17 and 18th century ink, in that sense.
+[19:24] It's like a self-governing sort of structure that emerges so that people,
+[19:29] in a way it's kind of like a survival instinct to so much content being out there
+[19:34] and so much slop being out there.
+[19:36] And so what's notable about this is that what Pope and Shaftesbury tells us,
+[19:40] Shaftesbury is the first ascension of the English tradition.
+[19:45] He says, taste is harmony with nature, right?
+[19:49] Because he says it's kind of a deus, he says, well, if nature is God and so nature is beauty,
+[19:54] taste, the decisions must be in line with what unity, harmony,
+[20:00] and that is his perspective on taste.
+[20:03] And so the Nuvo Riche, the person who's tasteless,
+[20:06] I think the way Pope says, his house looks like no proportions, like a big, big gate,
+[20:13] and then he looks like an insect next to the gate.
+[20:15] The lake looks like an ocean, right? Everything's too big because there's too much wealth.
+[20:18] And so it pushes for a natural harmonious restraint,
+[20:23] tasteful decision because it is virtuous to make good aesthetic decisions.
+[20:29] Yeah, it's almost we become ungovernable.
+[20:31] Good taste means I can't be fit into this little box that the algorithm is designed for this.
+[20:36] And it's almost when people say the importance of taste is not just about having a preference
+[20:41] or it's not just about the aesthetics of it, but it's this bigger mission of how do you actually
+[20:47] become ungovernable? How can you see past these algorithms and all of that?
+[20:52] Yeah. Yeah, that is so beautiful.
+[20:55] The virtuous point, I just keep ruminating on it.
+[20:58] How do you think, how else do you think tastes manifest beyond just aesthetic preference
+[21:03] in a digital age?
+[21:05] I mean, what's interesting to me is that I think it could be effectuated
+[21:08] around so many different facets of one's life, right?
+[21:11] If it is truly virtue, then virtue is about daily action.
+[21:15] Not to be guru and self-help, but one can take people's decisions in many
+[21:20] different spheres of life. I do like in SF when people talk about like taste and also problems
+[21:27] to find, right? And there are virtuous problems and some problems that are a bit less virtuous,
+[21:32] perhaps. But fundamentally, it is a question of how to deal with abundance, right? Now we've
+[21:39] been bunches of intelligence, abundance of capabilities, and it is a question of how to deal with that
+[21:44] so that this abundance is not wreck and destroy society. That is the purpose and the function of
+[21:49] taste. In SF speak, we call it like signal-to-noise ratio.
+[21:53] Signal-to-noise ratio. That's the very SF way of putting it.
+[21:57] How would you compare and contrast the dime-square phenomenon in New York?
+[22:04] It's a very different cultural landscape, and then we have SF.
+[22:07] And SF is the complete opposite of all of that. Do you see these cultures merging or talking to
+[22:16] each other? How do you see them evolving?
+[22:20] Well, I'm not American, so I feel very much like I'm Alexander Togville. I'm here,
+[22:24] and I'm just in America, and I'm seeing how things are.
+[22:27] Yeah, yeah. It's a good term.
+[22:30] So I think it's all very fascinating to me. I'm learning as I'm going with the different
+[22:38] parts of the culture. I'm quite a bit of rationalist here, and I'm kind of learning
+[22:45] about that culture. I'm famously banned from less wrong.
+[22:49] Why? Why? How does that happen?
+[22:51] You say certain things, and suddenly you're banned from there.
+[22:56] No, I mean, I was trying to have, I think, what was a healthy, productive debate.
+[23:02] The essay that got me banned actually ended up being a talk that I gave at BetaWorks,
+[23:05] the VC fund in New York. It's called The Devil You Know, so it's still out there.
+[23:09] I think it's cogent and sensible. I don't know why that'd be a bad ban,
+[23:12] but sometimes you speak truth to power and things go bad for you.
+[23:16] But you learn, and the language is a vernacular here. It's very specific,
+[23:22] it's an alternative to noise, agency, all that stuff.
+[23:25] And I mean, New York is highly diverse. There's everything from Dime Square to specific enclaves
+[23:31] in the broth that are completely different. But I think what I'm learning more is I'm traveling
+[23:36] the United States and actually asking people these questions about technology is that
+[23:40] every single region has its own particularities, frankly. Like I'm going to LA tonight,
+[23:45] and LA has its own culture and own thing going on. And the way that they use their tech is very
+[23:51] different. And whether they talk about it is very different. And same thing in New York,
+[23:56] and same thing when I go to Miami, where I spend a lot of time in Texas as well. So
+[23:59] all these places have different relationships with their language, their tech, and how they
+[24:05] use their software. When I'm on a plane and I'm sitting next to a young person,
+[24:08] I'm always looking at their phone. And like I asked them the question, okay, I was at the
+[24:13] San Francisco Art Book Fair yesterday. It was two young girls talking about how she broke
+[24:19] up with a guy because he was texting her too much. And I was like, interesting. What is the
+[24:23] proper amount of time that he should have texted you? Mind you, the guy texted him, texted her 14
+[24:27] times. And so I was like, okay, is there an acceptable amount of time, right? This is a novel mode of
+[24:31] communication, which comes at its new sets of rules. And maybe she has a set of rules. And the
+[24:38] girl is like, oh, no, I kind of like, he's obsessed, right? And like, we have to find these
+[24:43] things societally because otherwise, you know, you grew up, you're 16 and you don't know what
+[24:48] it means to be texted 14 times, right? So yeah, that's kind of like the ever, ever ongoing research
+[24:55] as I like move around the United States and try to understand how people use their technology.
+[24:58] How people use their technology or is the conversation really recently how people are
+[25:02] interacting with AI or even the sentiment on AI itself?
+[25:06] That's very interesting. I mean, so this is, I think, the biggest difference that I've seen
+[25:11] for the most part. And this might be, you know, a state versus revealed preference.
+[25:15] I find that Americans don't like AI. AI is a very broad term, a very broad umbrella here
+[25:23] because they all use chat. And like, I love it. I love, I love chat, but they don't like AI.
+[25:29] That makes sense. There's like a bit of a divergence there. This is the boogie man of the data center.
+[25:35] There's the boogie man of like, I'm going to lose my job. But you know,
+[25:39] if you take a look at an anthropic survey, they surveyed 85,000 people to ask how they were using
+[25:43] their AI for career advancements, like at work or life management. And so when I talked to mothers
+[25:50] in Brian, Texas, like, oh, yeah, like I had a leak in my, in my closet, whatever, I took a photo
+[25:55] and in about an hour or two, I was able to fix that thing. I love that.
+[25:59] Yeah. But to them, it's kind of like Google. And it's, that's not the thing that replaces
+[26:03] their work. And it's going to put them on unemployment. So there's a bit of a, once again,
+[26:08] a language issue here around what does this, what does this technology do for me versus what
+[26:14] is the negative impact that's coming in a somewhat near potential future? Yeah. And that hasn't been
+[26:21] really sort of split. The good thing, I guess, from an AI perspective that people, for the most
+[26:28] part, still like essentially free chat. Yeah. That's like quite useful.
+[26:33] Right. Right. Yeah. I think that's absolutely fascinating. I was literally at a mass yesterday
+[26:39] because my cousin was in town and like our aunt made us go to mass. And the pope, or not the pope,
+[26:43] the priest there was like anti AI. He was like giving like an anti and he was like an ex-software
+[26:48] engineer. So it was really fascinating. Do you think like we're going to trend towards a more,
+[26:53] like maybe a more rigorous like categorization of what AI is so that people can actually be like,
+[26:58] okay, I disagree with this part, but I do agree with this part. Do you think like techno-optimism
+[27:02] will be on the rise? Like where do you think the current, will it stay very like, you know,
+[27:06] segmented? Tough question. Not a seer, but my sense is techno-optimism will be on the rise once.
+[27:13] The claimed benefits of the technology are aligned with the desires and interests of American
+[27:19] constituents. What do Americans want? A wife, some food, some clothes to feed their children,
+[27:25] right? The world is called the Gil Scott Heron. It's quite simple, right? We all know kind of like
+[27:31] the picture of the American dream, which you know, in many ways, when you tell, but very simply,
+[27:37] even Dave Chappelle says this one of the specialists says, you never get between a man and his bread.
+[27:43] So I don't know who thought it was a good idea to go on national television, tell people they're
+[27:47] going to lose their job. But if I'm an American, which happened, not of course, but I wouldn't want
+[27:52] to lose my job. Because that's how I, in my family, it's kind of very simple, frankly.
+[27:57] Yeah. And I think the thing that I love with doing all my research is that I get to talk to people who
+[28:04] put in very blunt terms, which, you know, I could have written like a five-page report on this,
+[28:09] you know, there's a make a paper out of all this, but it's quite simple. You know, people want to
+[28:14] be employed. Right. So it's more of the threat to employment you think that is just like,
+[28:19] yeah, I don't think, I don't think your average person cares about extension. I said,
+[28:22] exceptional risk, frankly. Right. No, totally. I, I wonder too, if maybe the people who are talking
+[28:27] about this, the journalists who are talking about this, their algorithms themselves are also
+[28:30] extra biased to find the things that are going to get people to be super hyper aware or scared
+[28:37] or longer at R2S and one, three, one, we have a paper coming out specifically on that. Same thing
+[28:42] with the heteropessimism. We're going to be analyzing about 5,000 videos on AI to sort of
+[28:46] determine what is the current sort of positive negative and see how it checks over time. It's
+[28:51] going to be one of our indexes that we publish in the next month. Yeah, another question because
+[28:55] we touched on this briefly. Do you think we're getting better or worse at social cues? Because
+[29:01] one would make the argument that there are more social cues to keep track of now that we're online.
+[29:05] Yeah. And like now a social cue is like the story like, you know, like the, like we are getting
+[29:10] literally more and we have to keep track of more, but at the same time, I feel like IRL,
+[29:15] there's like a sentiment that everyone's just getting more like awkward, you know, like your
+[29:18] people are less like well socialized in the real world. So what do you think?
+[29:22] I think everyone should be charm-maxing, you know, I think we should leave charm-maxing. Yeah.
+[29:27] Yeah. You know, the little wave, the little finger and the little wink,
+[29:30] because for the most part, I think there's a lot of beauty in these sort of human team and interactions.
+[29:35] We've all heard about the Gen Z stair, you know, you ask for your coffee and you get the
+[29:40] upstairs. Now imagine the Gen Alpha stair.
+[29:42] Oh, God. So, but the funny thing is there was this big event happening in New York called
+[29:46] the Summer of Blood, right? And it's this sort of grassroots Gen Z Gen Alpha movement.
+[29:51] People try to reject their footing and just go into the park together dancing, having all these
+[29:56] events, I mean, you know, Washington Post and Wired, I think reported about this. So I think
+[30:01] you're seeing a bit of a pushback against the infringement of technology across all facets of
+[30:07] life. But I think it is very difficult, right? Think about your book of etiquette that your grandma
+[30:12] might have had on a table. This is what you're supposed to do at a restaurant. This,
+[30:16] when you meet someone, shake their hands. And now you have this times, like all the different
+[30:20] apps you're on. Yeah. I can ask the studio, like, what's an acceptable amount of time to respond
+[30:24] someone via text? Somebody will say 24 hours, might say three days. And these and people feel very
+[30:31] differently about these behaviors, right? Someone might be insulted that you take 24 hours,
+[30:36] between me, like, no, I'm a 72. I'm a 72 hour kind of person. And you have to hold these rules,
+[30:43] not only just for yourself, but for all different people in your life, which is highly difficult.
+[30:47] You have to calibrate to somebody's online etiquette whenever you meet them.
+[30:52] It's like a different rules for what you do online versus in person. And no one has the
+[30:56] guidebook for that. And whereas culture usually is somewhat ethnicity-based or nation-based,
+[31:03] I'm French-Canadian. When I meet someone, I give them that visa. I kiss them on the cheek.
+[31:07] The culture online is not specific to what a person looks like, but more which platforms
+[31:11] they're on. I would argue that there's a tumbler culture, right? There's definitely a Twitter culture.
+[31:17] Oh, yeah. Instagram culture. It's interesting, even for MTS, because we're trying to figure out the
+[31:22] algorithms for the different, you know, for X has a very specific culture that they want.
+[31:26] Instagram has a very specific culture that they want. And yet they try to figure out how to blend
+[31:31] all the things together. And it's almost like even in real life, when you meet someone,
+[31:34] you can tell which platform they're on. Yeah, exactly. You know how they talk.
+[31:39] Yeah, exactly. Based off of what words they use, like, yeah, like sense of humor, I think,
+[31:44] is very platforms now. My friends and I have Twitter lingo in my everyday vernacular.
+[31:49] I'm like, oh, my gosh, I don't know how that works. Yeah. Like, I remember when I bought my first job,
+[31:53] my manager was like, you talk internet. Like, internet. I was like, wow, you talk internet.
+[31:59] Yeah. Yeah. I do know we're at time, but Ruby, I didn't want to thank you for joining us today.
+[32:03] And maybe one last thing for you is you are a professor at NYU, specifically in the integrated
+[32:08] design and media lab. What do you think is the most interesting thing that your students are
+[32:12] curious about for this next decade? I mean, my students are sort of gung ho about using it. Like,
+[32:18] I mean, they quite love it, especially because we're into disciplinary. So you might be an engineer,
+[32:24] like, well, my students in the year, but they might not know how to fabricate. And so the ability
+[32:28] to be like, okay, I want to make a robot. And then having access to that information,
+[32:31] it changes your thesis quite drastically. Because before maybe you'd find the information,
+[32:36] we have a lot of TAs and a lot of help overall. But I've actually seen an increase in like the
+[32:42] size and the scope of the project. People feel like they are able to tackle them now. So that's
+[32:47] always super, super exciting. I specifically teach thesis. So that's the final grad program project.
+[32:53] So that's very, very exciting. And then as always known, the goal is not to just make something cool
+[32:59] and big, but to be critical and to think about it. So we always try to push them to be, you know,
+[33:04] intentional and very conscientious in what they build. Definitely. Totally. Well, that's a great
+[33:09] place to wrap. Yeah. Well, thank you so much for joining us. This was so awesome. Thank you so much.
+[33:15] Thanks for listening to this episode of the A16Z podcast. If you liked this episode,
+[33:20] be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends
+[33:25] and family. For more episodes, go to YouTube, Apple podcast, and Spotify. Follow us on X,
+[33:31] a A16Z, and subscribe to our sub stack at a16z.substack.com. Thanks again for listening,
+[33:37] and I'll see you in the next episode. This information is for educational purposes only and is not a
+[33:43] recommendation to buy, hold, or sell any investment or financial product. This podcast has been produced
+[33:48] by third party and may include pay promotional advertisements, other company references in
+[33:52] individuals unaffiliated with A16Z. Such advertisements, companies, and individuals are not endorsed by
+[33:58] AH Capital Management LLC, A16Z, or any of its affiliates. Information is from sources deemed
+[34:04] reliable on the date of publication, but A16Z does not guarantee its accuracy.

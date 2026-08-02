@@ -1,0 +1,995 @@
+The a16z Show
+Fei-Fei Li on Spatial Intelligence and Robotics
+Tue, 28 Jul 2026
+https://a16z.simplecast.com/episodes/fei-fei-li-on-spatial-intelligence-and-robotics-j8HvsWJf
+
+[00:00] We are building the next frontier of AI,
+[00:03] which is what we call spatial intelligence.
+[00:06] As cynics, we are developing what we call a real
+[00:09] to seem to real pipeline.
+[00:11] We can replace all the data or the evaluation we need
+[00:15] in the real environments by using the data
+[00:17] that can generate at a scalable way in our digital world.
+[00:20] Think about human intelligence.
+[00:23] We do a lot of simulation in our head.
+[00:25] You know, why?
+[00:27] There's a very important role simulation place
+[00:30] that real world data doesn't play,
+[00:32] which is counterfactual, reasonably.
+[00:34] What we are building is a consistent world.
+[00:37] Consistent both over space, over time,
+[00:40] over different viewpoints,
+[00:41] and over different types of interactions.
+[00:43] My North Star is I want a lot to work.
+[00:45] The world we live in can be multiverse,
+[00:47] that we create technology to allow people, builders,
+[00:51] developers to act within different spaces.
+[00:55] Do you believe we'll ever be able to build robots
+[00:58] that have the power efficiency of a human being?
+[01:02] How far away are we from this?
+[01:03] Is this like five years, or this is like never?
+[01:06] The TLDR is...
+[01:08] Language models transformed how AI understands words.
+[01:12] The next frontier is teaching AI to understand
+[01:14] and act within the physical world.
+[01:17] Following world labs acquisition of cynics,
+[01:19] Martine Casado sits down with Fei-Fei Li and Yoon Joon Li
+[01:23] to unpack the vision behind the deal.
+[01:25] They discuss spatial intelligence, world models, simulation,
+[01:30] and why solving robotics will require
+[01:32] a new generation of AI,
+[01:33] built for three-dimensional reasoning, not just language.
+[01:39] All right, well, it's great to have you both here.
+[01:42] So Fei-Fei for the listeners
+[01:44] that may not have the background,
+[01:45] maybe you can give an overview of what world labs does.
+[01:49] Yeah, well, world lab is a two-year-old startup.
+[01:53] I think we should just recognize
+[01:55] it's a frontier model lab.
+[01:57] We are building the next frontier of AI,
+[02:00] which is what we call spatial intelligence.
+[02:03] And spatial intelligence is about creating AI
+[02:08] that has the ability to generate,
+[02:12] understand, reason with, and interact with spaces,
+[02:16] whether it's physical or virtual.
+[02:19] And of course, a means to an end
+[02:21] towards spatial intelligence is building large world models.
+[02:24] And that's what world labs is mostly focused on.
+[02:28] Yeah, so you've been saying this since the very beginning,
+[02:30] which is the machine's ability to perceive
+[02:33] and reason about spaces and act on spaces.
+[02:36] But I always had the assumption that the acting on spaces
+[02:39] was some long and distant shoes for things,
+[02:41] but now you're acquiring a robotics company.
+[02:44] And so maybe talk a little bit about the timeliness
+[02:46] of this and the intentions.
+[02:48] Yeah, so first of all,
+[02:49] it doesn't just take robotics to act within spaces
+[02:54] or to interact, right?
+[02:56] I mean, look at the creative field,
+[02:58] whether it's VFX or gaming or design, many use cases,
+[03:04] you can create and act within virtual spaces.
+[03:07] A world labs thesis has always been that
+[03:11] the world we live in can be multiverse,
+[03:13] that we create technology to allow people, builders,
+[03:17] developers to act within different spaces.
+[03:21] Having said that,
+[03:23] the ability to act within the physical space
+[03:26] is one of the most exciting and most profoundly important
+[03:30] capability of the future AI world.
+[03:34] So robotics is very much that.
+[03:37] So world lab has always believed that robotics
+[03:41] is an important application as well as use case
+[03:47] of spatial intelligence and world modeling.
+[03:49] So by joining force with inviting CNX and CNX team
+[03:55] to world labs is part of our long-term vision
+[03:58] and vision, we've always committed to that.
+[04:01] Amazing.
+[04:02] So you're the co-founder of CNX,
+[04:04] so maybe provide everyone with a quick overview
+[04:07] of your background and what CNX does?
+[04:09] Yeah, so I'm an intro,
+[04:11] so I'm currently co-founder of CNX
+[04:13] and also assistant professor at Columbia University.
+[04:16] So my research started from my PhD at MIT
+[04:21] and then post-doc with Ph.D.
+[04:22] Really?
+[04:23] Yes.
+[04:24] That's great.
+[04:25] The world is small.
+[04:26] The world is small.
+[04:27] Throughout my career,
+[04:28] my goal has been very simple.
+[04:29] Trying to help the robots better perceive
+[04:31] and interact with the physical world.
+[04:33] So I'm a very practical person.
+[04:34] I want my robot to work in the real physical environments.
+[04:38] So for CNX, the unique opportunity we see
+[04:41] is that there has been a lot of bottlenecks.
+[04:44] Right now, we see, faced by the developments
+[04:46] of general purpose robots,
+[04:48] especially around training and also around evaluations.
+[04:52] So as CNX, we're developing what we call a real-to-seam
+[04:56] to real pipeline.
+[04:57] We're going to map the real environments
+[04:59] into the digital world.
+[05:00] That has the best alignments with the real environment.
+[05:04] By alignments, we mean that whatever happens
+[05:06] in the digital world is also going to happen
+[05:08] in the real environment,
+[05:10] such that we can replace all the data
+[05:12] and all the evaluation we need in the real environment
+[05:15] by using the data that can generate
+[05:17] at a scalable way in our digital world.
+[05:20] So that is how everything started in CNX,
+[05:23] we put together a very, very strong and best teams
+[05:26] around robotics, robot learning,
+[05:27] and also simulation and rendering,
+[05:29] trying to build this real-to-seam-to-real stack
+[05:31] to solve some of the keyboard connects.
+[05:33] It's amazing that you two work together.
+[05:35] Yeah, and there is a funny story here
+[05:37] because you would think because we worked together,
+[05:40] it was my amazing poster.
+[05:42] We've been talking about the CNX and WorldLab integration
+[05:46] for a long time.
+[05:47] It's actually not true.
+[05:48] They came into WorldLabs as a customer.
+[05:51] Really?
+[05:52] When we released the first version
+[05:54] of our generative model called Marble Last Winter
+[05:57] around November, December, CNX just signed up.
+[06:02] Ah, no kidding of the customer.
+[06:04] Yes, yes, and I didn't even know what it was.
+[06:07] And then I realized this is Windows company.
+[06:11] I can't be drawn like, wow, this is your company.
+[06:15] And then we realized there's so much synergy.
+[06:18] Maybe safely just quickly describe what Marble is.
+[06:21] Yeah, Marble is the code name for the base model
+[06:24] that WorldLab is being training and iterating
+[06:27] on the fundamental capability right now of Marble
+[06:30] that is publicly released is to take a prompt.
+[06:34] It can be an image, it can be a few images,
+[06:37] or a text, and turn that into a geometrically consistent world
+[06:44] that can be represented in 3D geometry,
+[06:47] whether it's Gaussian Splat or Mesh.
+[06:50] Really what CNX team is doing is trying to solve
+[06:54] this extremely difficult problem in robotics,
+[06:57] which is the lack of data.
+[06:59] The lack of data in training,
+[07:01] a lack of data in evaluation,
+[07:04] this is very, very different from language models,
+[07:07] where data is abundant on the internet.
+[07:10] And we know that in order for robotics to work,
+[07:14] we have to somehow unlock the power of scaling law.
+[07:18] But where does that come from?
+[07:19] This is something that there's a profound problem
+[07:22] that everybody's battling with in robotics.
+[07:25] It'd actually be great to talk about this energy.
+[07:26] You have put together a very, very talented team.
+[07:29] You have put together a very talented team.
+[07:31] And so to what extent is there overlapped one extent?
+[07:33] Is this an extension?
+[07:34] Maybe talk a little bit about that.
+[07:35] Yeah, that's how complementary it is.
+[07:37] It's actually, the TLDR is very complementary
+[07:40] and with the shared mission.
+[07:42] So, Andrew is one of the three technical co-founders.
+[07:45] The other two are Kangxi Zhang,
+[07:48] and another Columbia professor
+[07:50] who has been a world-class technologist in simulation.
+[07:55] And Changxi has his background in also VFX.
+[07:58] He worked at Weta, he worked at Tencent,
+[08:01] he's being an entrepreneur.
+[08:03] Then there's Sunny, who is a phenomenal engineering leader
+[08:07] who was also in a startup that was acquired by Amazon
+[08:11] many years ago.
+[08:12] So, he worked in many different tech stacks
+[08:15] in the computer vision field in Amazon.
+[08:18] So, when we started talking more seriously,
+[08:21] I recognized that a couple of things that Cinex has
+[08:25] from a talent point of view
+[08:27] is extremely complementary to world apps.
+[08:30] One is obviously introducing credible thought leadership
+[08:34] and just technical prowess in robotics, right?
+[08:38] So, from really, from hardware, full stack robotics.
+[08:42] And even when he was my postdoc at Stanford,
+[08:46] at that time, you already had your faculty offer.
+[08:49] So, you were there only for one year.
+[08:50] I wanted you for more than one year,
+[08:52] but he had to go become a, have the real job.
+[08:55] So, he was a full stack researcher in robotics
+[08:59] from modeling to hardware.
+[09:01] And of course, Andrew and his students as Cinex
+[09:06] was that pool of talent world app hasn't had yet.
+[09:10] Then on the Cinex side is just incredible simulation capability,
+[09:17] right?
+[09:18] He's such a senior researcher and technologist in simulation
+[09:23] and what world apps is doing
+[09:26] is very much interfacing the world of simulation.
+[09:30] So, I think what they don't have,
+[09:34] obviously, is on the generative model side,
+[09:37] as well as the computer vision 3D reconstruction side,
+[09:41] we're also very strong at world labs.
+[09:43] So, that's a technology that Cinex needs.
+[09:46] So, together, these two sides come together
+[09:50] and make it much more complete.
+[09:51] J-phase motivation in this is an extension
+[09:55] in a complement to get into robotics.
+[09:57] Having been in your situation,
+[09:59] which is deciding when to sell a company,
+[10:00] it would be great to hear from you
+[10:01] and how you think about training world labs
+[10:03] and kind of the sit there
+[10:05] and why you made the decision to do it.
+[10:07] Yeah.
+[10:07] So, at the very beginning, we were deciding,
+[10:10] okay, do we want to just keep going?
+[10:12] But after chatting with Fivnei,
+[10:14] after seeing all the synergies that have happened in the middle,
+[10:16] it just makes perfect sense for the forces to join each other.
+[10:20] So, in Cinex, as Cinex, while webbing doing
+[10:22] is real to seem too real,
+[10:24] is to do dense reconstruction of the environment.
+[10:27] So, we capture the appearance of the environment,
+[10:29] geometry of the environment,
+[10:31] and also the dynamics of the environment,
+[10:33] meaning how the environment is going to change
+[10:34] when you apply actions.
+[10:36] So, this dense reconstruction right now
+[10:38] is still a little bit on the heavier side.
+[10:40] And what world labs right now has been doing
+[10:43] involves a lot of profound capabilities
+[10:46] around sparse reconstruction and generations.
+[10:49] So, we see a lot of opportunities
+[10:51] of leveraging like a marble and other capabilities
+[10:54] as world labs in order to do very efficient reconstructions
+[10:58] and modeling of the environment.
+[10:59] So, can we expect a foundation model
+[11:02] for robotics from world labs?
+[11:05] World lab is building a foundation model.
+[11:07] As you know, Martin, we're building the base model.
+[11:10] And as the technology has been evolving,
+[11:15] some of the most exciting base models are omnimodels, right?
+[11:19] They take multi-modal input.
+[11:22] They have multi-modal outputs.
+[11:24] And what is a foundation model for robotics?
+[11:29] It's very likely to involve actions.
+[11:32] It's very likely to involve the output of actions
+[11:37] in addition to the state of the world.
+[11:39] And we're definitely not ruling this out.
+[11:41] Yeah, great.
+[11:42] So, for example, for the foundation models,
+[11:44] it essentially needs to be a multi-modal model.
+[11:46] So, it has to take into account frame text, image,
+[11:50] depth, and different kind of modalities.
+[11:52] And action is a very, very important part
+[11:54] of that modality.
+[11:56] So, if you think about frame actions as an input,
+[11:58] that is essentially a forward sim rate.
+[12:01] That is going to predict how the environment
+[12:03] is going to change when you apply a specific action.
+[12:05] When the action is an output,
+[12:07] this is essentially a policy model
+[12:09] that is trying to predict giving a specific goal
+[12:11] by what should be the action you take
+[12:13] in the real environment to get you closer to that goal.
+[12:16] So, this kind of only models actually can benefit a lot
+[12:19] and actually provide huge amount of values
+[12:21] for the robotics communities
+[12:22] in trying to understand how to model the environments
+[12:25] and at the same time, how to act in the environments.
+[12:28] And this can also add as a backbone
+[12:30] for you to find you into specific robotic applications
+[12:33] to making sure it's really leading up to the reliability
+[12:37] and efficiency that's expected by the clients.
+[12:39] You know, if you don't mind a kind of a lay investor question,
+[12:44] I see a lot of robotics companies.
+[12:46] And a very popular approach right now
+[12:48] for the robotics companies that come in
+[12:50] is like, we'll use a video model, you know,
+[12:52] and like, you know, that's the predominant method
+[12:56] where this is, you know, 3D and simulation,
+[12:59] it's a very different approach.
+[13:00] And so maybe you could contrast, you know,
+[13:03] this popular approach of just using video only
+[13:05] versus kind of what the ambition here is.
+[13:07] Yeah.
+[13:08] So, in order to create words with the robot canular,
+[13:10] the words as I mentioned,
+[13:12] is to capture the essential structure of the problem.
+[13:14] And one of the very important and necessary requirements
+[13:18] for those words will be consistency.
+[13:20] So that is where I actually see
+[13:22] there's very, very strong synergies with marble,
+[13:24] because what we are building is a consistent word,
+[13:27] consistency both over space, over time,
+[13:30] over different viewpoints
+[13:31] and over different type of interactions.
+[13:34] And marble, the generated words from marble
+[13:36] is also provide an infrastructure,
+[13:38] a components of that entire words
+[13:40] that we believe is necessary for the robot to learn.
+[13:43] Imagine if a robot's pushing an object forwards,
+[13:45] the object just magically disappears,
+[13:47] which has been a problem
+[13:48] of many of the existing video prediction models.
+[13:51] It's one provides good enough signal
+[13:53] for the robot to know like what is the right thing to do.
+[13:55] But obviously right now,
+[13:56] there has been a lot of investigation
+[13:58] on building better and better and stronger and stronger
+[14:00] like video models.
+[14:01] So we actually see away where some of the infrastructure
+[14:05] with views can provide as unusual momentum.
+[14:08] And to go into this data flywheel
+[14:11] of going from this like a more simulation driven models
+[14:14] into like a robot policy models,
+[14:16] which gonna do the execution in the real environment,
+[14:19] connecting new data, the data will come back in,
+[14:21] where the model doesn't necessarily have to be physics only
+[14:24] or learning only, but somewhere in the middle,
+[14:26] which be able to capture the essential structure
+[14:28] of the problem, but at the same time,
+[14:31] be able to scale and become better and better
+[14:33] as you'll accumulate more data.
+[14:34] You know, I've worked now, say favor closely for a while
+[14:38] and you've always had this North Star,
+[14:42] which has driven this and you've articulated variously
+[14:45] is kind of 3D and in a number of other ways.
+[14:48] And I'm just wondering for you,
+[14:49] is there also a similar philosophical North Star
+[14:52] or you're more the pragmatic?
+[14:54] Like I am, I feel the system like do the thing.
+[14:58] My North Star is to make robots work in the real environment.
+[15:01] I'm a very practical person.
+[15:02] I want the robot to work.
+[15:04] Well, interesting thing that's actually coming
+[15:06] from my collaborations with Phoebe during that first talk.
+[15:09] We are building this kind of benchmark.
+[15:11] We actually send out surveys asking the general public,
+[15:14] what they want the robots to do for them.
+[15:16] Among the southern tasks we connected,
+[15:19] one third of the tasks are about cream.
+[15:21] People just don't like to do those like a thou and dirty tasks.
+[15:25] And those are the scenarios we really want to make sure
+[15:28] we have robotic solutions to deal with.
+[15:30] One thing I really like about CNX, Martin,
+[15:33] especially continuing your question,
+[15:36] there's a lot of robotics companies building models
+[15:40] and all that.
+[15:41] One thing I truly like about CNX
+[15:43] is Rindrew and his co-founders
+[15:46] have such an incredibly pragmatic approach to robotics.
+[15:51] They especially, they come from academia, right?
+[15:55] Sunny doesn't, but Rindrew and Janshi come from academia.
+[15:58] But their first instinct is work with design partners
+[16:02] and customers in real industry,
+[16:05] whether it's is labs at industry labs or warehouses
+[16:11] or electronics as, you know, assembly.
+[16:16] That is such a refreshing way of approaching robotics.
+[16:22] And that really made me very excited to work with it.
+[16:26] Babe, this is for you, Janshi,
+[16:27] but this is personal curiosity,
+[16:29] which is it seems to me that for robotics,
+[16:31] you have to be pretty exact.
+[16:32] I mean, not perfect, but pretty close.
+[16:35] But for the creative use cases,
+[16:36] which Roleps has done a lot of,
+[16:37] you kind of don't need to because, you know,
+[16:40] I mean, you know, even sometimes like being wrong
+[16:43] is stylistic or intentional or whatever.
+[16:45] And so from a technical perspective,
+[16:48] what is the challenge here for reconciling these two things?
+[16:51] Or do they never get reconciled?
+[16:52] Like there always be two points in the design space.
+[16:56] So they will be reconciled in advanced terms, of course.
+[17:00] And both learning of the environments
+[17:04] doesn't have to be perfect.
+[17:05] The model doesn't have to be perfect in robotics.
+[17:08] And by the way, is it, I didn't get this as pure curiosity,
+[17:10] but is there like a bit more formal way to say that?
+[17:13] Like, what does that mean not to be perfect?
+[17:15] That has to be pretty close.
+[17:17] So let me put in this way.
+[17:18] For example, models over the developments
+[17:21] of all different kind of robotic applications
+[17:23] has been a very important cornerstone.
+[17:25] If you look at all the existing robotic applications,
+[17:28] like playing Jones, Roomba,
+[17:30] or even for quadruped robots, bipedal robots,
+[17:33] model has been the way for them to actually work
+[17:35] and be able to transfer from simulation to the robots.
+[17:38] But if you look at those locomotion robots,
+[17:40] like quadruped robots, bipedal robots,
+[17:42] they can working on snows, they can working on bushes,
+[17:45] but you don't need to have a simulator.
+[17:47] They can simulate all the bushes and snows,
+[17:48] like very precisely.
+[17:50] You need to have a simulation
+[17:52] that captures the essential structure of the problem.
+[17:54] And do whole different kind of randomizations
+[17:57] inside the digital environments.
+[17:58] So that is what we're aiming for.
+[18:00] So basically, we syncs and together with world apps
+[18:03] are trying to investigate
+[18:04] like what is the level of fidelity we need
+[18:07] to model the mess in the world besides the robots.
+[18:10] So I said, we'll be able to transfer the robotic systems
+[18:13] training the simulated environment digital worlds
+[18:15] back into the browsing hours.
+[18:16] As an investor, I've heard other researchers say,
+[18:19] like Sergey Levine say, simulation will always
+[18:23] eventually deviate from the physical world
+[18:26] and real world data collection is absolutely critical.
+[18:30] And so maybe talk a little bit about the viability
+[18:33] of this approach where simulation is a cornerstone
+[18:36] as opposed to some other approach.
+[18:39] So they don't contradict with each other.
+[18:41] So if you're thinking about the simulation,
+[18:43] simulation essentially trying to predict
+[18:46] how the environment is going to change
+[18:48] when you apply the actions.
+[18:49] And this is essentially a model of the world
+[18:52] that doesn't necessarily have to be pure physics.
+[18:55] It can be a combination between both physics
+[18:57] and also learning.
+[18:58] We are collecting real world data.
+[19:00] We will be using those real world data.
+[19:02] And just at different stages of this,
+[19:04] like a data fly, maybe at the very beginning,
+[19:06] we have stronger unversized arm.
+[19:08] We have more physics to making sure we have
+[19:10] the right consistency and right structure
+[19:11] for us to learn the world for us to train the robot policies,
+[19:16] but as well accumulates more and more data,
+[19:18] both through data collection
+[19:20] and also through the collaboration with our clients.
+[19:22] We'll have the data that will be moving
+[19:24] towards more towards more learning-based,
+[19:27] like modeling of the environments.
+[19:29] So this kind of transition and also this kind of data file
+[19:32] is really enabling factors of both getting the best
+[19:35] of both physics and the geometry and consistency
+[19:38] as well as all the power and magic from the data and compute.
+[19:42] I wanna add to this and be slightly philosophical here
+[19:47] is there isn't a binary choice
+[19:52] between simulation or no simulation.
+[19:54] All this come in together to make robotics work.
+[20:00] Think about human intelligence.
+[20:02] We do a lot of simulation in our head.
+[20:05] You know, why?
+[20:06] There's a very important role simulation plays
+[20:10] that real world data doesn't play,
+[20:12] which is counterfactual reasoning,
+[20:14] is that you play out events that hasn't happened
+[20:18] or cannot happen or you don't have enough data
+[20:21] to make it happen in real world.
+[20:23] And while you play it out, you learn how to act in it.
+[20:28] Humans do this all the time.
+[20:29] We probably don't, you know, we just,
+[20:31] I know you were at World Cups.
+[20:35] Congratulations to Spain winning.
+[20:37] I'm sure in the planning of every game,
+[20:41] there is simulation, whether it's digital
+[20:43] or on the whiteboard or whatever,
+[20:46] that simulation, the role simulation plays
+[20:48] is counterfactual reasoning.
+[20:50] And that's really important in robotics
+[20:53] because we just do not have,
+[20:54] cannot possibly have enough real world data for that.
+[20:58] Here's a real life example,
+[21:01] the industry of self-driving cars.
+[21:04] Weibo has officially said they use billions of hours
+[21:09] of simulation.
+[21:10] And actually Weibo is more simulation heavy
+[21:14] than just real world data heavy.
+[21:16] So these are real examples.
+[21:18] And as you know, Martin and Andrew too,
+[21:21] cars are the simplest kind of robots.
+[21:23] Yeah, 2D, yeah.
+[21:24] Of course, yeah.
+[21:25] So clearly simulation plays a huge role in robotic learning.
+[21:30] I also want to add to that.
+[21:32] So like they are, if you put things more specific,
+[21:36] simulation can provide two levels of benefits.
+[21:39] The first one is reliability and the second one is efficiency.
+[21:43] So for reliability, if you're thinking about
+[21:45] a robotic system working reliable in the real environments,
+[21:48] you need data to provide systematic coverage
+[21:51] of all the state space and the variations
+[21:53] that robots might encounter.
+[21:55] That's how you can learn of how that is robust.
+[21:58] So with simulation, you can do systematic randomizations
+[22:01] and control and the variations of lighting,
+[22:03] friction, geometries, object types,
+[22:06] and also all different kind of physical parameters
+[22:08] to making sure you have sufficient coverage
+[22:10] of the state space.
+[22:11] So this is what can give the robotic systems reliability.
+[22:15] My second is about efficiency.
+[22:17] So right now many people are doing teleoperation.
+[22:20] And if you look at many of the tele-efficient device
+[22:23] imagining all the actual skeletons you are using,
+[22:26] you're actually collecting the data at a speed
+[22:28] that is actually slower than human actually doing the task.
+[22:31] But for many of our clients, human speed to them
+[22:34] is no good enough.
+[22:35] They want faster than human speed.
+[22:37] So for the robot to move faster,
+[22:39] it's not as simple as just drives a robot faster
+[22:42] because gravity doesn't change.
+[22:44] But in simulation, you can do systematic speed up
+[22:46] of the robot's behaviors to train the robots
+[22:49] such that it considers all the dynamics,
+[22:51] changes of the environments.
+[22:53] So this is what can give our clients for them efficiency.
+[22:57] So both for the reliability and efficiency,
+[23:00] there are some kind of very unique values
+[23:03] where simulation can provide.
+[23:05] You've talked about the technology and the platform,
+[23:06] what it does.
+[23:07] Let me talk about the specific use cases people use it for.
+[23:11] These are essential like the two specific use cases,
+[23:13] especially around both training and also around evaluations.
+[23:17] Okay.
+[23:18] Starting from the evaluations.
+[23:19] So evaluation is something like a people often overlooked
+[23:23] in the robotics.
+[23:25] But if you are training like robotic models,
+[23:27] you have to know how well it works.
+[23:29] And that is the only source of information for you to iterate.
+[23:32] By the way, a lot of every AI person
+[23:36] really understands what the valves are
+[23:37] and uses it all the time.
+[23:39] Non-AI people, it often means something a little different.
+[23:41] So maybe it's even worth just describing specifically
+[23:44] what you mean by evaluation.
+[23:45] Okay.
+[23:46] So what I mean by evaluation is you'll be able to understand
+[23:48] for this specific checkpoints, how well does it perform?
+[23:52] Does it perform for example, 95% of the time
+[23:55] or 99.9% of the time?
+[23:58] And the key criteria people use in industry is
+[24:01] how long does it take?
+[24:02] How long in what's the time does it take
+[24:06] for you to distinguish between a checkpoints and 90%
+[24:09] from a checkpoints that is 90 points.
+[24:12] And if you only do that in the real environment,
+[24:14] that's just so long for you to do the distinguishments.
+[24:18] And you really think about also the robotic evaluations.
+[24:21] Right now people are doing in the real environments.
+[24:23] The iteration speeds is multiple orders of magnitude slower
+[24:28] than iterations of those language models.
+[24:30] So not only is the robotic tasks very varied, very diverse.
+[24:35] Oh, you actually have to do the thing.
+[24:37] Yeah, yeah, yeah, yeah, yeah, right.
+[24:38] Like Adam's have to move through space.
+[24:41] Yes.
+[24:42] Exactly.
+[24:43] But only there are the laws of physics have to be varied.
+[24:45] And have you watched those robotics videos?
+[24:47] Every video has like 10 X, eight X,
+[24:50] because it moves so slowly.
+[24:52] Exactly.
+[24:53] So not only is slow, it's dangerous, it's constantly,
+[24:56] but at the same time, the speed is also like a multiple orders
+[25:00] of magnitude like slower.
+[25:01] So some of our clients actually need this digital environment
+[25:06] that can be used to evaluate their robotic systems.
+[25:09] And because our digital environment has proven alignments
+[25:12] with the real world, so meaning whatever happens in the scene
+[25:15] is also likely to happen in the real environment.
+[25:17] If a checkpoint is working better in the simulation,
+[25:20] it's also highly likely to also work better
+[25:22] in the real environment, as we have also been discussed
+[25:24] in the blog post.
+[25:26] So that actually gives our clients very strong confidence
+[25:30] in actually using the data, using the signal
+[25:32] from the digital environment to do scalable, safe,
+[25:36] and much faster evaluations of their robotic systems.
+[25:39] Great.
+[25:39] So that is on the evaluation, then on the training.
+[25:42] So on the training sites, so basically like I also mentioned,
+[25:45] it's about controllability.
+[25:47] So you want to control all the different possible variations
+[25:50] of states, parameters, lighting, friction, physical parameters,
+[25:54] like even object geometry, object types.
+[25:56] So you want to make sure you have sufficient coverage
+[25:58] of all different kind of scenarios, such that we will be able
+[26:01] to generate informative data for your robots to be robust.
+[26:05] And this is just going to be so hard to do,
+[26:07] just in the real environment.
+[26:09] Like we discussed, if you do teleoperation,
+[26:11] the speed at which you are collecting data is slow,
+[26:13] you're also limited by how many robots you have,
+[26:16] how many teleoperation device you have.
+[26:18] There's a whole different kind of challenges
+[26:21] around all the data operations around it.
+[26:24] But in simulation, everything can be controllable,
+[26:27] everything can be systematic, and everything can be
+[26:30] understand at a level where you know exactly
+[26:33] and making claims about exactly what distribution
+[26:35] you have covered.
+[26:36] To develop confidence about within the distribution,
+[26:39] we know the robot will work.
+[26:41] So those kind of confidence and efficiency and scalability
+[26:44] is something that our clients also value
+[26:46] to use our digital words for the training of robotic systems.
+[26:50] Here's a crazy thing.
+[26:51] Even before Cinex and we are talking,
+[26:55] our in-bound customers for Marble
+[26:57] were already seeing this kind of demands.
+[27:00] We just cannot serve these customers,
+[27:02] but we are already getting a lot of phone calls
+[27:04] from robotics, early stage robotics companies
+[27:08] who are developing their models
+[27:10] all the way to downstream very pragmatic use cases.
+[27:14] And we're seeing these needs.
+[27:18] When people hear you're going into robotics,
+[27:20] what they're gonna envision is you're pulling out
+[27:23] a 3D printer and you're gonna be making hardware,
+[27:26] and then you're gonna be programming the brain
+[27:29] of a robot and sticking it in the robot
+[27:31] and then you've got a robot.
+[27:33] And I don't think that's what you guys are talking about here.
+[27:35] So maybe talk about what, you know,
+[27:38] where this fits in the lifecycle of creating a robot
+[27:41] and like where you will end
+[27:43] and where the rest of the ecosystem will begin.
+[27:46] So what we are building,
+[27:48] you can imagine is a infrastructure,
+[27:51] like with the software around these infrastructures
+[27:55] for people to for them build words,
+[27:57] such as robot can learn and evaluate.
+[27:59] And these infrastructures is naturally model agnostic
+[28:04] and embodiment agnostic.
+[28:05] So I just wanna be very clear,
+[28:07] just because this actually a very subtle,
+[28:08] I mean, it's obvious, but it's a very subtle point,
+[28:10] which is from what you said,
+[28:13] that's not building a robot.
+[28:14] It's building an environment
+[28:16] which another company can place their robot brain
+[28:20] to navigate and to learn.
+[28:22] Yeah.
+[28:22] So for our customers right now,
+[28:24] they have all different kind of robots.
+[28:26] Some are using for them single robot arms,
+[28:28] some are using by manual,
+[28:29] some are using a fixed arm,
+[28:30] some are using like a mobile manipulators,
+[28:32] some using grippers,
+[28:33] some are using some more elaborate versions
+[28:35] of the unlike factors.
+[28:36] So our platform right now is just naturally embodiment agnostic.
+[28:40] We can very easily integrate different kind of robotic
+[28:43] embodiments, be able to put them into the words
+[28:46] we generated, we digitalized,
+[28:47] such as we will be able to give those individual robots
+[28:50] capabilities of doing the right tasks
+[28:53] and at the right levels of reliability
+[28:55] and efficiency in the real environments.
+[28:57] And we are also, for example, model agnostic.
+[29:00] So we can just using the data generated by our words
+[29:04] to train different models either from scratch
+[29:06] or doing post-training of existing foundation models,
+[29:09] like vision language action models or word action models.
+[29:12] So to us, it doesn't matter.
+[29:14] We just want to make sure we have the infrastructure,
+[29:17] we have all the words such as the robots
+[29:19] can work reliable in the real environment.
+[29:21] You know, you have told me that you'd think
+[29:26] a lot of the predictions around humanoids
+[29:29] are a little bit aggressive and we're likely
+[29:30] to see more constrained rollouts like warehouses
+[29:33] or whatever.
+[29:34] Can you talk a little bit about that
+[29:35] and like how that impacts what you're gonna be tackling here
+[29:38] at the world labs?
+[29:41] So that's a very good question.
+[29:42] So if you look at, for example,
+[29:44] all the progressions of robotic applications
+[29:47] in the real environments,
+[29:48] it has always followed the trend from going
+[29:51] from fully structured environments
+[29:53] into semi-structured environments
+[29:54] and then into unstructured environments.
+[29:57] For fully structured environments,
+[29:58] what do we mean is that you have knowledge
+[30:00] and the control over all the configurations
+[30:03] within the environments, like factories
+[30:05] or for example, car main factory nice.
+[30:07] Those has been automated for decades.
+[30:09] And then you have, for example, semi-structured environments,
+[30:12] which you have certain controls over the environments,
+[30:15] for example, like the Amazon warehouses
+[30:18] or for example, like restaurants, hotels,
+[30:21] where you have certain control over the environment,
+[30:23] so it just makes the task easier for your robots.
+[30:26] But there are obviously many other like objects
+[30:28] or for example, clothes, those are the objects
+[30:30] you don't have control.
+[30:31] And then for the unstructured environments,
+[30:33] it's like your home and my home.
+[30:35] This is, I would say, the grand challenge.
+[30:39] Especially my house trust me, three dollars,
+[30:42] five year olds, dogs, if you're thinking about
+[30:47] where does the robotics is coming from?
+[30:48] The robotics is coming from a sufficient coverage
+[30:51] of the scenarios and robots might encounter.
+[30:53] So it's so much easier and more approachable, at least,
+[30:56] like right now, to focus more on the semi-structured environments
+[30:59] before we move on to fully unstructured environments.
+[31:02] So we will move into that direction.
+[31:04] It's just we want to take a more sustainable
+[31:06] and more realistic approach towards it.
+[31:09] I think your point here is that human noise mimics human body.
+[31:14] An evolution has optimized human body
+[31:17] for unstructured environment.
+[31:20] And so our fingers, our legs are not the best apparatus
+[31:27] to do one thing.
+[31:29] For example, if our only goal as a species is to climb trees,
+[31:34] we will not have this body necessarily, right?
+[31:37] So we'll have different kind of fingers.
+[31:40] But what humans end up having are involved into
+[31:44] is this body shape that can be very general,
+[31:49] but not necessarily best at everything.
+[31:51] And that is for the survival of unstructured environment.
+[31:55] But from a business point of view,
+[31:57] from a pragmatic technology point of view,
+[32:02] that this unstructured environment and a generalized body
+[32:08] is actually the hardest problem to solve.
+[32:10] It's not necessarily even the right way to solve the problem.
+[32:14] It's we specialize.
+[32:15] So we take more specialized body to solve a narrower problem.
+[32:22] But the challenge for CNX is that to be more body agnostic
+[32:27] so that their infrastructure can serve different bodies
+[32:31] and different semi-structured environments.
+[32:35] It will a common lens to look at exactly this question
+[32:38] is an economic lens, right?
+[32:39] Which is you compare it to like,
+[32:42] General Vallems, they can create a pros or a code
+[32:47] 10,000 times faster than a human being,
+[32:49] a bunch cheaper than a human being.
+[32:50] So the economic case makes sense
+[32:52] because our brains are very efficient at that.
+[32:55] However, our brains and our bodies are very efficient
+[32:58] at 3D navigation, right?
+[33:00] Like movies of the world are picking things up.
+[33:02] And so this is just a prediction question,
+[33:04] but do you believe we'll ever be able to build robots,
+[33:08] at least in the foreseeable future,
+[33:10] that have the power efficiency of a human being
+[33:14] when it comes to a menial task.
+[33:16] So let's say just basically, you know,
+[33:18] minimum weight or something like that.
+[33:20] Like how far away are we from this?
+[33:22] Is this like five years or this is like never?
+[33:25] I think it's gonna take a very long time.
+[33:27] So if you really think about like robots
+[33:29] in the real environments,
+[33:31] in the end it will always be a system.
+[33:33] So every working robot in the real environment
+[33:35] is a system work.
+[33:36] It's new need to be very mindful and thoughtful
+[33:38] about how the systems are coming together.
+[33:40] The hardware, the software, the brain,
+[33:43] even like to the details of for example,
+[33:45] what's the friction coefficients of your finger?
+[33:47] So there's a lot of things you have to consider
+[33:49] to make these things a reality.
+[33:52] And these will take iterations.
+[33:54] But what I am excited about is that
+[33:57] I have always been at the state of the arts
+[33:58] of robot bearing
+[33:59] and also trying to push the state of the art forward.
+[34:02] But the state of the arts always moving faster
+[34:05] than I expected.
+[34:06] So what I'm focusing on and trying to investigate right now
+[34:09] is very different from, for example,
+[34:11] when I started my PhD.
+[34:12] So this is a speak to how fast
+[34:15] the whole ecosystem has been evolving
+[34:18] and all the moving pieces start you coming together
+[34:20] or building these robotic systems.
+[34:22] But we also have to be like calibrate it
+[34:25] about our predictions.
+[34:26] So we will see a lot of like a progress
+[34:28] but you achieve, for example,
+[34:30] human level efficiency and capabilities,
+[34:32] it will take longer.
+[34:34] Martina, the hardest thing in today's AI
+[34:36] is to have the right measured optimism, right?
+[34:41] Right, it's totally true, yeah.
+[34:43] I mean, even LLMs does not have human bearing efficiency,
+[34:47] human bearing operates on 30 watts.
+[34:50] Yeah, that's true.
+[34:51] That's so we are far from that, so.
+[34:53] But I mean, performance to power, it may be close, right?
+[35:00] In narrow tasks like software engineering.
+[35:03] Like generating an image or a software engineering
+[35:05] that it is, right?
+[35:06] Yeah, I think so.
+[35:07] I don't think we're anywhere close
+[35:08] to make sure about it.
+[35:09] This is change how you think about your,
+[35:12] like strategically the level of ambition
+[35:14] that your team can go after.
+[35:15] I mean, does it change that?
+[35:17] Or is it still very much in line with what you expected to do
+[35:20] when you started?
+[35:21] It definitely changed, though,
+[35:22] to actually using a very profound manners.
+[35:25] So we see a lot of unlock in be able to do this whole process
+[35:29] through the modeling of the environments.
+[35:30] Yeah, much more efficient
+[35:31] and much more scalable manners,
+[35:33] especially in partners together with world apps.
+[35:36] And I also want to add to Favek,
+[35:38] if you think about, for example,
+[35:40] the current states of the language models.
+[35:42] So those are models that's with incredible capabilities.
+[35:45] But still you don't just blank trust it
+[35:48] to book your flight tickets
+[35:49] or make your hotel reservations.
+[35:51] You still, hopefully they're still a person
+[35:53] who's reading the output from those language models.
+[35:56] But that is very different from how people
+[35:58] and will be using for them robotic models.
+[36:00] Visual robotic models out of the box,
+[36:03] the robots has to work reliably in the real environment.
+[36:06] So, and we don't even have the data.
+[36:08] We don't even have all the necessary infrastructures
+[36:11] around those for the robots to just out of box
+[36:14] work reliable in the real environment.
+[36:16] So for that reason,
+[36:17] be able to create these digital words,
+[36:19] there's a scalable digital words where the robot can learn
+[36:22] and evaluate within.
+[36:23] Yes, it's gonna unlock so much more potentials
+[36:26] for being able to replace all the custody
+[36:29] and unsafe data in the real environments
+[36:31] with the data generated from the words
+[36:35] for the robots to be able to do scalable learning
+[36:37] and evaluations.
+[36:38] You know, I've seen many of these kind of integrations.
+[36:41] They actually worked very well at this stage
+[36:43] when they have this much alignment, which is great.
+[36:46] But there's always like this question of,
+[36:48] do you integrate now into what's happening now
+[36:50] or do you keep things quite separate
+[36:52] and provide kind of like a long-term trajectory
+[36:55] that will be realized in the year timeframe?
+[37:00] How are you thinking about this, Faith?
+[37:02] Is this something that integrates right away
+[37:04] or is this kind of a separate longer term?
+[37:06] This is a great question.
+[37:07] I think at this point, you know,
+[37:10] Andrew, Tanshi, Sunny, Justin, Ben
+[37:12] and I have been talking about this.
+[37:15] At this point, we are going to take it thoughtfully.
+[37:19] We're not rushing to integrate everything
+[37:24] from codebase to Teams
+[37:26] because I think Cinex does have a very well thought
+[37:31] and I wouldn't call it standalone completely,
+[37:34] but fairly contained tech stack
+[37:39] as well as their customers,
+[37:41] as well as the kind of products they're building.
+[37:45] We're going to take time.
+[37:47] We definitely will, we already have a simulation side
+[37:50] as well as the potential base model,
+[37:54] action condition model side.
+[37:55] We already are starting to talk
+[37:57] and also they are using marble as an internal customer.
+[38:01] So we will be integrating,
+[38:04] but we're not rushing to blend the team
+[38:08] as like full salad bowl.
+[38:11] How are you thinking about geography?
+[38:12] So this was Cinex move.
+[38:14] Is it going to stay in the same place?
+[38:16] We're going to, Andrew is going to move.
+[38:18] Oh, we're welcome.
+[38:19] Here?
+[38:20] We'll be two seconds.
+[38:21] Yeah, Florence to the Red Sox perfect.
+[38:23] I think we, our labs is officially becoming a bi-coastal company
+[38:28] where the headquarters in San Francisco.
+[38:31] I've, you know, I live in Palo Alto.
+[38:33] I feel like I'm in a different state.
+[38:35] We, we, but we, but I'm actually excited
+[38:42] that we're going to have an office in New York
+[38:44] that can help us to attract talent on East Coast.
+[38:47] And also we have been talking about
+[38:49] making sure that in both offices,
+[38:52] we set up the robots so that we get to
+[38:56] basically test out and, and, and mature our engineering stack
+[39:01] so that we can work with robots remotely
+[39:04] because we have to do that for, for our customers anyway.
+[39:07] So maybe, maybe just to be very concrete,
+[39:09] say, maybe let's just pencil out,
+[39:10] like what is the perfect success case in two years?
+[39:13] Like what product do you have?
+[39:15] Who's engaging with it?
+[39:17] How do they use it?
+[39:18] Just, just the crisp, like, with this company.
+[39:20] I will be very happy that Cinex team and world apps team
+[39:26] will have validated customers in, in a small number of
+[39:38] important vertical use cases where our system,
+[39:42] our infrastructure has proven to be truly beneficial
+[39:47] to their automation needs.
+[39:50] And these customers became our lighthouse examples
+[39:56] to scale our business.
+[39:58] Now, how early, let's say someone listening to this
+[40:03] is running a robotics company.
+[40:05] How, at what stage should they engage with world labs?
+[40:10] Is it really early on?
+[40:11] Is it somewhere in the middle?
+[40:14] So right now on for our customers,
+[40:16] because we are building this kind of real to seem
+[40:18] to real pipelines, like where the simulation
+[40:20] is essentially the words we're gonna provide
+[40:23] the training and evaluation grounds,
+[40:25] some customers, they need only the real to seem part.
+[40:28] They want to visualize the task they care about
+[40:30] and be able to do the evaluations of their robotics systems.
+[40:34] Some customers need this real to seem to this entire pipeline,
+[40:37] such that they will be able to have policies
+[40:39] like running on their hardware.
+[40:41] So our platform is also designed in a way
+[40:43] that is flexible, depending on what our clients needs.
+[40:47] And at the same time, the kinds of work we're working with
+[40:50] are actually pretty close to the deployments like a stage.
+[40:54] So basically, they are working on very, very practical tasks.
+[40:57] Those tasks, when replaced, when we have a robotic solutions
+[41:00] that are there, can just create value immediately.
+[41:03] And they have at least tons or hundreds
+[41:07] of this kind of situations.
+[41:09] They are thinking about to do the automations for.
+[41:11] So as together with the world labs,
+[41:14] we'll be able to develop reliable solutions
+[41:16] for those scenarios.
+[41:18] As we have already showed, we have a number of scenarios
+[41:20] already instantiated in our blog post.
+[41:23] And we'll be able to further our investigation
+[41:25] to see how they can actually solve the key requirements
+[41:29] and also constraints faced by the real world deployment.
+[41:32] I want to be very specific about this.
+[41:34] Is it ever too late or too early to call world labs
+[41:37] if you're a robotics company?
+[41:38] No, I agree.
+[41:39] Well, once everybody to class,
+[41:41] we want to learn about your use case.
+[41:43] Wonderful.
+[41:44] If you're listening, if you're listening to this,
+[41:45] and you're anywhere close to a robotics project
+[41:47] or a robotics company, please track world labs.
+[41:50] Yes, thank you.
+[41:53] Definitely open for business.
+[41:55] Yeah, we are open for business.
+[41:56] All right.
+[41:57] Not too early.
+[41:58] All right.
+[41:59] If you're doing robotics, call world labs.
+[41:59] Thank you both very much for coming.
+[42:01] Thank you.
+[42:04] Thanks for listening to this episode of the A16Z podcast.
+[42:08] If you liked this episode, be sure to like, comment,
+[42:10] subscribe, leave us a rating or review
+[42:13] and share it with your friends and family.
+[42:15] For more episodes, go to YouTube, Apple podcast and Spotify.
+[42:19] Follow us on X at A16Z and subscribe to our substack
+[42:22] at A16Z.substack.com.
+[42:25] Thanks again for listening
+[42:26] and I'll see you in the next episode.
+[42:29] As a reminder, the content here is for informational purposes only.
+[42:33] Should not be taken as legal business,
+[42:34] tax or investment advice,
+[42:36] or be used to evaluate any investment or security
+[42:38] and is not directed at any investors
+[42:40] or potential investors in any A16Z fund.
+[42:43] Please note that A16Z and its affiliates
+[42:45] may also maintain investments in the companies
+[42:47] discussed in this podcast.
+[42:48] For more details, including a link to our investments,
+[42:51] please see a16z.com forward slash disclosures.

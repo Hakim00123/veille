@@ -1,0 +1,24 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Fei-Fei Li on Spatial Intelligence and Robotics",
+ "date": "Tue, 28 Jul 2026",
+ "date_iso": "2026-07-28",
+ "lien": "https://a16z.simplecast.com/episodes/fei-fei-li-on-spatial-intelligence-and-robotics-j8HvsWJf",
+ "duree": "00:43:04",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.9,
+ "taille_transcript": 48923,
+ "transcript": "fei-fei-li-on-spatial-intelligence-and-robotics-transcript.txt",
+ "nb_outils": 2,
+ "outils": {
+  "Palo Alto": [
+   "ame place? We're going to, Andrew is going to move. Oh, we're welcome. Here? We'll be two seconds. Yeah, Florence to the Red Sox perfect. I think we, our labs is officially becoming a bi-coastal company where the headquarters in San Francisco. I've, you know, I live in Palo Alto. I feel like I'm in a different state. We, we, but we, but I'm actually excited that we're going to have an office in New York that can help us to attract talent on East Coast. And also we have been talking about making sure that in both offices, we set up the robots so tha"
+  ],
+  "Teams": [
+   "rate longer term? This is a great question. I think at this point, you know, Andrew, Tanshi, Sunny, Justin, Ben and I have been talking about this. At this point, we are going to take it thoughtfully. We're not rushing to integrate everything from codebase to Teams because I think Cinex does have a very well thought and I wouldn't call it standalone completely, but fairly contained tech stack as well as their customers, as well as the kind of products they're building. We're going to take time. We definitely will, we al"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

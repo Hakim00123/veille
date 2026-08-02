@@ -1,0 +1,24 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+ "date": "Sun, 02 Aug 2026",
+ "date_iso": "2026-08-02",
+ "lien": "https://a16z.simplecast.com/episodes/ruby-thelot-on-internet-culture-ai-and-the-future-of-taste-CvhHSpzt",
+ "duree": "00:34:08",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.4,
+ "taille_transcript": 40360,
+ "transcript": "ruby-thelot-on-internet-culture-ai-and-the-future-of-taste-transcript.txt",
+ "nb_outils": 2,
+ "outils": {
+  "Bubble": [
+   "different meaning if you're in the furry community, if you're in the in-sale community, if you're in the, you know, high fashion Twitter, whatever it is, and you're using the same word and being completely different things, because you've been in that digital bubble. And that's the kind of that balification of me is very dangerous. And there's digital bubbles too. There's some external incentives that group people into specific individual bubbles because it's easier to market to them. And you know, even on like Spotify, "
+  ],
+  "Cloudflare": [
+   "es of these labelings of almost these decisions that get made by algorithms, not less humans? So I have an essay that came out recently called Maschinek Taste for the Random Art where I kind of talk about this. So we might have seen the numbers from Kyle from CloudFlare coming out this year, about 50% of internet traffic as they see it as bots. What does this do? So you had a period of time where people were posting to their friends. Then you started posting to their followers and then they started posting an audience. When "
+  ]
+ },
+ "mentions_publicitaires": {}
+}
