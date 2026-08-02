@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-08-02T02:28:16+00:00",
+ "genere_le": "2026-08-02T08:17:53+00:00",
  "fenetre_jours": 30,
  "nb_flux": 64,
- "nb_flux_en_erreur": 13,
- "nb_articles": 364,
+ "nb_flux_en_erreur": 15,
+ "nb_articles": 386,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -28,6 +28,21 @@
    "source": "The Evidence-Based Investor",
    "url": "http://www.evidenceinvestor.co.uk/feed/",
    "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
+  },
+  {
+   "source": "Morningbull",
+   "url": "https://morningbull.ch/feed/",
+   "erreur": "ConnectionError: HTTPSConnectionPool(host='morningbull.ch', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='morningbull.ch', port=443): Failed to "
+  },
+  {
+   "source": "La maison de l'islam",
+   "url": "http://www.maison-islam.com/articles/?feed=rss2",
+   "erreur": "HTTPError: 503 Server Error: Service Unavailable for url: http://www.maison-islam.com/articles/?feed=rss2"
+  },
+  {
+   "source": "Ness Labs",
+   "url": "https://nesslabs.com/feed",
+   "erreur": "ConnectTimeout: HTTPSConnectionPool(host='nesslabs.com', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='nesslabs.com', port=443) at 0x7f0150c3501"
   },
   {
    "source": "Parlons RH",
@@ -68,11 +83,6 @@
    "source": "Dans la Tete d'un VC",
    "url": "https://danslatetedunvc.substack.com/feed",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://danslatetedunvc.substack.com/feed"
-  },
-  {
-   "source": "Sifted",
-   "url": "https://sifted.eu/feed",
-   "erreur": "HTTPError: 500 Server Error: Internal Server Error for url: https://sifted.eu/feed"
   },
   {
    "source": "Patent Drop",
