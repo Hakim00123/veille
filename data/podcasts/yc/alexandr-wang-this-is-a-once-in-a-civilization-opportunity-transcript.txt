@@ -1,0 +1,729 @@
+Y Combinator Startup Podcast
+Alexandr Wang: “This is a Once-in-a-Civilization Opportunity”
+Fri, 31 Jul 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/Alexandr-Wang-This-is-a-Once-in-a-Civilization-Opportunity-e3mq1mh
+
+[00:07] All right, full rock star treatment
+[00:09] for Alexander Wang, everyone, all right.
+[00:16] So why don't we start out backstage?
+[00:18] We're saying, one of the cool ways to think about this event
+[00:21] is this room is actually full of people who are just like us.
+[00:25] But when we were 18 or 20, there's 16-year-olds
+[00:30] in this audience.
+[00:33] Let's jump to your story.
+[00:34] I mean, it came up always really smart,
+[00:37] like Math Olympian jumped us to the Alex of that time.
+[00:42] What were you feeling?
+[00:43] What were you thinking?
+[00:44] And what drove you down this road?
+[00:47] Yeah, I grew up in New Mexico, well,
+[00:51] I almost knew Mexico, which now Oppenheimer famous.
+[00:56] But it really was the middle of nowhere.
+[00:58] And I remember I did all these math competitions,
+[01:02] all these computer science competitions.
+[01:05] But then I knew I wanted to do really big things.
+[01:09] And it was like, not exactly clear
+[01:11] how or what the exact path to do that would be.
+[01:15] And I had a friend who was really into programming.
+[01:19] And after high school, I got an internship in the Valley.
+[01:23] I think his first internship was at Palantir.
+[01:25] And he was kind of this influence for me.
+[01:30] And so after I finished high school,
+[01:32] I ended up working at Quora here in Silicon Valley.
+[01:36] And then I worked there for a year.
+[01:40] I took a gap year to work there.
+[01:42] And then I went to MIT.
+[01:44] And this was, I was 19 when I worked at Quora.
+[01:47] I was 18 when I went to MIT.
+[01:48] And it was 19 when I started scale.
+[01:51] And I remember this period from like 17 to 19.
+[01:54] It was, I felt like I was constantly changing,
+[02:00] like, you know, exactly what I want to do
+[02:02] is constantly changing.
+[02:04] I was learning so much just from the people around me.
+[02:06] And it was just like, I felt like I
+[02:07] was drinking from the fire hose pretty constantly
+[02:10] during that time.
+[02:12] And I would definitely recommend the two things
+[02:15] that were really important.
+[02:16] One is, I think working at a company was really valuable.
+[02:19] Because like, I think from the outside in,
+[02:22] you have no idea how companies work.
+[02:23] You have no idea what it looks like to actually build something.
+[02:25] You have no idea what it looks like to iterate on something.
+[02:27] You have no idea what it looks like for groups
+[02:29] of people to make decisions.
+[02:30] And so I thought that was really important.
+[02:31] And then going to school at MIT was actually really important
+[02:35] because it just gave me a lot of opportunity
+[02:39] to explore what was interesting.
+[02:41] And so it was at MIT that I started training my first models
+[02:45] and that I played around with TensorFlow, which had just
+[02:49] come out that year at MIT.
+[02:50] And where I, like, ultimately came up with the idea of scale.
+[02:53] And then after one year of MIT, I applied to YC.
+[02:57] You know, it felt like kind of like a miracle
+[02:58] to get in at that time.
+[03:00] And YC was really critical to my entrepreneurial journey.
+[03:04] Like, I don't think, like, YC is this amazing blend of, you know,
+[03:10] they're very supportive.
+[03:11] And they obviously want you to succeed.
+[03:13] But they also give it to you very real.
+[03:14] And they tell you when you're being a dumbass, which I think is,
+[03:18] you know, that's what we all need in life.
+[03:19] So yeah, that was, I think, the story till there's 19
+[03:23] starts scale and the rest is history.
+[03:25] I guess you worked with Jared Friedman at the time.
+[03:29] And he came in with actually a very different idea
+[03:32] than what ended up becoming scale.
+[03:35] Yeah, so we wanted to build, like, an AI agent,
+[03:38] I mean, for doc, for to help people, like, get medical care.
+[03:43] And it was like the right, it was a great example of an idea
+[03:47] that I think will ultimately exist.
+[03:49] Like, I think we're even seeing it now.
+[03:51] Like, AI agents to help people get medical care are very real.
+[03:54] But it was the wrong timing.
+[03:56] And we worked on it for about a month or two
+[04:00] before Jared pulled us aside.
+[04:02] And we're like, guys, this is, I don't know
+[04:04] if this is going to go anywhere.
+[04:06] And that's exactly what we need to hear.
+[04:09] And it was at that time when, like, you know,
+[04:12] I had studied AI at MIT, I had, like, trained models.
+[04:15] And we thought we sort of went back to the drawing board,
+[04:17] thought deeply about where the opportunity was
+[04:19] and came up with scale.
+[04:21] I guess selling data at the time, you know,
+[04:24] large language models were not even, had not really
+[04:26] come to the fore yet.
+[04:28] But self-driving cars were sort of coming up.
+[04:31] And computer vision suddenly became,
+[04:33] so that was sort of the first market, is that right?
+[04:36] Yeah, so the story here is that, like, I was,
+[04:39] when I was at MIT, I did a bunch of projects,
+[04:42] like, trained models of various forms.
+[04:44] And these were, like, you know, by comparison today,
+[04:46] they're like little toy models.
+[04:48] And I remember to train a model, I needed three things.
+[04:52] I needed a GCP account, like, I needed an account
+[04:56] on some cloud servers to get compute.
+[04:58] I needed the code to run to actually train the model.
+[05:03] And I needed data.
+[05:04] I needed a data set.
+[05:05] And for two out of these three things,
+[05:09] you could just press a button online and get them.
+[05:11] And then for the last one, for data,
+[05:14] there was, like, no effective way to get data
+[05:16] for training these models.
+[05:19] And so it felt incredibly obvious that this
+[05:22] was going to be the future, that there was going to be a way
+[05:25] to, you know, press a button, so to speak, and get data.
+[05:29] And it was very funny, because in the years that followed,
+[05:34] like, in the first many years of scale,
+[05:36] data was very unsexy.
+[05:38] So every time we would go out to fundraise,
+[05:40] even though our numbers were great and we had great revenue,
+[05:43] you know, VCs and investors would always be very skeptical.
+[05:46] They'd be like, oh, I don't know if this is a good business.
+[05:48] Does it have longevity?
+[05:50] Is it stirrable?
+[05:52] And it was really weird to me, but, you know,
+[05:54] none of the investors had ever trained a model.
+[05:56] So I guess they didn't really get it.
+[05:59] And fast forward to today, you know, we managed to raise money.
+[06:03] We managed to keep going, managed to keep growing the business.
+[06:05] But the very same investors who passed on us
+[06:09] and were very dour on the potential of AI
+[06:13] are writing think pieces today about how data is so critical
+[06:17] and is one of the biggest business opportunities in AI.
+[06:19] So it's very funny to see that whole thing come full circle.
+[06:23] It seems like that's actually a real good case study
+[06:26] in first principles thinking, right?
+[06:28] Like, you can't start a company by opening the pages
+[06:31] of the Wall Street Journal and saying, well, this data is hot.
+[06:34] Like, we're going to go work on that.
+[06:36] Like, you literally couldn't have started scale that way.
+[06:38] You had to start from, I think, like, simple statements
+[06:42] that are about the world that you know to be true
+[06:46] and then sort of building something for that.
+[06:49] Yeah, I think the key thing is you need to develop conviction
+[06:53] in a set of beliefs that nobody else agrees with.
+[06:57] Like, I think if you look at all the most successful companies
+[06:59] in the world, they were started at a time long before the sort
+[07:06] of like core idea was popular.
+[07:08] And they work on that.
+[07:09] They toil in obscurity for years and years before, you know,
+[07:13] the idea or the space or the concept of the business,
+[07:17] you know, becomes consensus.
+[07:18] And the only way you're going to be successful is
+[07:20] if you're able to identify these truths
+[07:23] about the world early long before everyone else.
+[07:26] And I think that like, I mean, one of the most surprising things,
+[07:29] like, you know, scale we've been working on AI for a decade,
+[07:33] you know, you just, you can't base your business decisions
+[07:36] based on what everyone else is saying around you.
+[07:39] Like, if you go too much with a herd,
+[07:42] you will get immensely confused and you will end up nowhere.
+[07:46] And so you have to develop your own compass
+[07:48] of what you think the future is going to look like
+[07:51] because everyone else will just confuse you.
+[07:53] It seems like one of the things you got incredibly great at
+[07:56] was, you know, you start with this kernel of like,
+[07:58] we believe X and nobody else believes it.
+[08:01] But then the mechanics of building the business
+[08:03] are talking to investors and convincing them
+[08:06] and not letting them demoralize you,
+[08:09] talking to customers who, I mean, should just get it.
+[08:13] And then especially like convincing people
+[08:15] to come work for you.
+[08:17] Yeah, I think that the, these early mechanics
+[08:21] of building a company, like, these are things that
+[08:24] I think you might have some predisposition to be good at,
+[08:26] but like, nobody is good at starting a company
+[08:29] when they start a company.
+[08:31] And I remember talking to a lot of the investors
+[08:35] who I met very early on and they, you know,
+[08:37] a lot of them would say like, oh, like, you know,
+[08:40] you just grew so quickly and you changed so quickly.
+[08:42] And like, I didn't, you know, I didn't see it at the time.
+[08:44] And I think that's probably true for literally everyone
+[08:47] who starts a company.
+[08:48] Like nobody is, nobody is good at something
+[08:51] they've never done before, right?
+[08:52] And so I think for all entrepreneurs,
+[08:56] you start out pretty shitty at everything.
+[08:59] And the whole game is how do you develop yourself
+[09:03] to continuously improve, to get better, and learn quickly?
+[09:06] Backstage, we were talking about,
+[09:07] this is actually a really lucky time to start a company
+[09:10] because, you know, obviously you can come to YC,
+[09:13] you know, the people in this room have each other,
+[09:15] which is kind of wild.
+[09:17] But not only that, now you have ideally a personal AI
+[09:21] that's gonna tell you, you know,
+[09:23] hey, these are some ways to do it.
+[09:26] Do you think that would have helped you,
+[09:27] like, accelerate even faster?
+[09:29] Like, you know, talk, what do you think
+[09:32] is like to start a company today with AI, in the age of AI?
+[09:36] Yeah, I mean, I really think, I think we're at this,
+[09:40] like, amazing moment in the world
+[09:43] where the bottleneck is not the progress of AI models.
+[09:47] The bottleneck is diffusing that through the rest of the world
+[09:51] and helping the world adapt to this amazing technology
+[09:55] that already exists.
+[09:56] Like, I think if the models didn't improve at all from today,
+[09:58] there would still be, like, decades and decades
+[10:01] of, like, total upheaval and change in the economy
+[10:03] and how the world operates and everything around us.
+[10:06] And so I think it's, as a result,
+[10:09] it's like one of the most incredible,
+[10:12] is probably a, like, once in a civilization opportunity
+[10:16] to be a dreamer and to have a vision
+[10:18] and to have ambition and to impose a view
+[10:22] of how the future world should look
+[10:23] by building something amazing.
+[10:26] You know, one of the things that we were chatting about,
+[10:29] you know, backstage, is, you know, when I started scale,
+[10:34] or, you know, 10 years ago, if you started a company,
+[10:37] you had to be, you know, it was like David versus Goliath.
+[10:42] And you had to be clever and you had to find, like,
+[10:44] an angle into the market and you had to sort of, like,
+[10:46] you know, figure out a way to compete
+[10:49] even though you had much fewer resources.
+[10:51] And now I actually think with the power of agents
+[10:55] and AI, broadly speaking,
+[10:57] it's much closer to Goliath versus Goliath.
+[11:00] Like, I think, but maybe the startup is like a mecca goliath
+[11:03] that is, like, vastly enhanced by the power of agents and AI.
+[11:07] And, you know, the large companies are the sort of,
+[11:09] like, more traditional Goliath, so to speak.
+[11:12] But I think that startups now, like,
+[11:14] if you properly embrace AI agents
+[11:17] and figure out the way to leverage their strengths
+[11:21] in the most, like, ambitious ways,
+[11:23] you can easily out-compete incumbents.
+[11:27] So let's talk about super-intelligence,
+[11:29] because that's clearly, that's even in the name of your lab.
+[11:33] What does super-intelligence mean operationally inside meta right now?
+[11:38] Yeah, I think that, you know, we, a year ago,
+[11:42] Mark wrote this memo about personal super-intelligible,
+[11:46] which I think actually is very similar
+[11:47] to your concept of personally, GI.
+[11:49] But, you know, we believe that everybody in the world,
+[11:52] you know, all the billions of people in the world
+[11:55] are going to have a super-intelligence
+[11:57] that is adapted and tailored to them,
+[12:00] that enables them to accomplish their goals,
+[12:02] knows their context,
+[12:03] and ultimately is an expander of their own agency.
+[12:06] Like, I think the thing that we think a lot about is,
+[12:09] is agency expansion.
+[12:10] How do we help people accomplish things
+[12:12] that they couldn't have ever dreamed of before?
+[12:15] And what would everyone in the world do
+[12:17] if everything was just easy?
+[12:20] And we think about this in an ecosystem way as well.
+[12:23] I think, you know, Patrick mentioned it,
+[12:25] but, you know, we don't believe in this totalizing, you know,
+[12:29] totalitarian view of, you know,
+[12:31] AIs that control the world.
+[12:32] We believe that these are going to enhance
+[12:34] this very broad ecosystem.
+[12:36] So, you know, we believe in billions of people
+[12:39] all around the world,
+[12:40] all having their own personal super-intelligence,
+[12:42] and we also believe in, you know,
+[12:44] an explosion of entrepreneurship.
+[12:45] There's 200 million businesses
+[12:47] that are on Metas platforms today.
+[12:50] We think that numbers should go to billions
+[12:52] with this explosion of creativity and using AI tools.
+[12:56] And ultimately we think that, you know,
+[12:58] it's going to be this like dynamic ecosystem
+[13:00] of business agents working with, you know,
+[13:02] personal agents and developing this sort of like,
+[13:06] complex ecosystem that is fully AI supercharged.
+[13:10] So, I was really psyched to see Metas Spark 1.1.
+[13:13] My open claw absolutely loved it.
+[13:17] How, you know, how has running a Frontier Lab been,
+[13:21] you know, the Metas Spark level is sort of the opus level.
+[13:25] What's coming down the pipe?
+[13:26] And also I think that you're increasingly looking
+[13:30] at open source, which I think this audience really loves.
+[13:33] Yeah, yeah.
+[13:34] So, I think it was, it's been, you know,
+[13:37] I've been at Meta for about a year now,
+[13:38] and it's been quite a year.
+[13:41] I think, you know, getting in and, you know,
+[13:45] Meta, we've talked about it publicly,
+[13:47] like one before wasn't on the trajectory
+[13:48] that was needed for Meta.
+[13:51] And so, I got in there and we kind of did a zero based build
+[13:54] of how do you, you know, build an entire Frontier Lab,
+[14:00] you know, in some ways kind of from scratch,
+[14:01] obviously using a lot of what we had,
+[14:04] and move as quickly as possible.
+[14:05] And so, within nine months of that moment,
+[14:08] we launched Metas Spark 1, and then two months later,
+[14:11] we launched News Image and Metas Spark 1.1.
+[14:13] And, you know, there's a few things
+[14:16] that I think have really struck me about this.
+[14:18] The first is, talent density was incredibly important.
+[14:22] That was the core thing to bet on,
+[14:24] and like, talent density is something
+[14:27] that compounds naturally.
+[14:28] Like, the more talented people you have,
+[14:30] the more of the most talented people want to join you.
+[14:34] You know, and I think it's kind of amazing
+[14:38] to see on the inside, but, you know,
+[14:40] Frontier AI work is research.
+[14:43] Like, we are, it is scientific work.
+[14:44] We're exploring what can you do with these malls?
+[14:47] How can you push these models?
+[14:48] What is the, what are the reaches
+[14:49] of what could be accomplished with these models,
+[14:51] which requires a totally different mindset
+[14:54] and operating model than, you know,
+[14:56] existed for internet companies or internet products
+[14:59] and whatnot.
+[15:00] There's a lot more about experimentation,
+[15:01] about science, about scaling.
+[15:03] And everything ultimately is about,
+[15:04] how do you develop a lab and operating model,
+[15:08] a system that will just be able to compound
+[15:11] with all of the exponential growth that will happen
+[15:14] in the ecosystem?
+[15:15] Both the exponential growth and capabilities,
+[15:16] the exponential growth and compute,
+[15:18] the exponential growth in adoption and usage.
+[15:20] Like, these are all, we are on this like,
+[15:23] very, very steep exponent across maybe every dimension
+[15:27] of the ecosystem.
+[15:28] And it's important to develop like, like an organism,
+[15:32] that's how you think about the lab,
+[15:33] that is able to grow with that.
+[15:36] No, it's been, it's been very exciting
+[15:37] and we're gonna be shipping a lot more.
+[15:39] So I think, you know, we will,
+[15:43] we just launched me Sport 1.1,
+[15:44] which was a great model.
+[15:45] We're gonna continue to have updates on the Muse Sparkline.
+[15:48] We're also have bigger models on the way,
+[15:51] that I think will be much more competitive
+[15:53] with even the very best models that are out there today.
+[15:56] We're gonna be launching a harness soon
+[15:58] and have been working on a harness to help empower
+[16:01] all the developers and agent developers out there.
+[16:05] And then we're also, you know, as you mentioned,
+[16:08] we're working on open source models.
+[16:10] And we want to, kind of as I described before,
+[16:12] like we believe in a decentralized world
+[16:16] of AI capability and progress and development.
+[16:19] We want to, we want to empower the broader ecosystem
+[16:23] and everyone in the world to be able to build
+[16:25] and develop using this technology.
+[16:26] And so we have a lot of exciting things on the way.
+[16:29] And I think we wanna be,
+[16:32] we wanna empower the ecosystem and developers
+[16:34] as much as humanly possible.
+[16:36] And it sounds like one of the ways,
+[16:37] I mean, certainly when I was using a Muse Spark
+[16:40] with my open claw, like it became clear
+[16:42] that it was as good as Opus,
+[16:44] especially for that sort of a gentic flow with skill files,
+[16:48] but it was like 8X cheaper actually.
+[16:50] Yes.
+[16:52] Well, I think this goes to it.
+[16:53] Like, you know, we don't believe in a world
+[16:56] where these models are so expensive that,
+[16:58] you know, they get rationed only for the most wealthy
+[17:01] of developers and companies.
+[17:03] It's important for everyone to be able to use the technology
+[17:06] to, and to build whatever they wanna build with it.
+[17:10] And I think that, you know, we take a view,
+[17:13] I think the best AI products haven't even been developed yet.
+[17:16] You know, if you look at the AI ecosystem
+[17:20] and everything that's happened,
+[17:21] like every wave is 10 times bigger than the past wave.
+[17:24] So, you know, when I started scale,
+[17:26] the first wave was maybe self-driving cars.
+[17:28] Self-driving cars are really awesome.
+[17:30] They're like really, really cool.
+[17:32] But that was like pales in comparison
+[17:34] to large-language models and chatbots.
+[17:36] And like, you know, chatbots became this thing
+[17:38] that was like probably 10 times bigger
+[17:39] even than, you know, self-driving cars.
+[17:43] And then the recoding agents, which came a few years later,
+[17:46] and coding agents are probably 10 times bigger than chatbots.
+[17:49] And I think we're just on this steep curve.
+[17:52] Like, we're gonna keep seeing these new modalities
+[17:55] and form factors and developments of the AI paradigm
+[17:58] that will each be dramatically bigger than the last.
+[18:00] And so, you know, our point of view is like,
+[18:02] let's unleash the ecosystem.
+[18:04] Let's explore and let's see what's built,
+[18:07] you know, kind of the future of the world together.
+[18:09] So what's the best way to actually take advantage
+[18:12] of the coding model from use Spark?
+[18:14] It's open code, right?
+[18:16] Yeah, today, the easiest way is to use open code.
+[18:19] We have like onboarding on the website.
+[18:21] And then soon we'll have a harness of our own.
+[18:23] And ultimately, I think we want great models
+[18:26] that plug into all of the available harnesses
+[18:28] and empower as much sort of combinatorial innovation
+[18:32] ecosystem as possible.
+[18:34] Yeah, I know the harness is, you know, under wraps still,
+[18:36] but like, can you tease us with, you know,
+[18:38] I mean, I still use open cloud, I still use Hermes agent.
+[18:42] You know, it's, you know, these things are,
+[18:44] I call them Ferraris that break down
+[18:46] on the side of the road all the time.
+[18:47] Like, is this a Ferrari that won't break down?
+[18:49] Like, you know, tease us a little bit.
+[18:51] Yeah, hopefully it doesn't break down.
+[18:54] I mean, I think we're really focused on speed.
+[18:56] I think speed is, you know, for anyone that uses
+[18:59] these tools, speed is probably the, you know,
+[19:01] one of the most critical things.
+[19:03] I think also reliability, like you mentioned,
+[19:04] we want to be extremely reliable.
+[19:07] We want to be very extensible and to scale to
+[19:10] as complex and interesting of a multi-agent setup
+[19:13] that you want to have.
+[19:14] Like, I think there's so much innovation that will occur
+[19:17] even above the harness, frankly,
+[19:19] in terms of like how to orchestrate and set up loops
+[19:21] and develop like, you know, very complex ecosystems
+[19:24] of these agents working together.
+[19:27] We want to be really extensible and ultimately,
+[19:30] we want to just empower people to harness this technology
+[19:34] because harness, no pun, actually pun not intended,
+[19:38] but there's like, I truly believe these models
+[19:43] are already just incredibly powerful.
+[19:46] Like, they should be so powerful to fuel, you know,
+[19:50] many, many points of expansion of GDP growth.
+[19:54] And I think it's like up to smart people with vision
+[19:58] and ambition to make all that happen.
+[20:01] Let's see.
+[20:02] So one question.
+[20:03] I mean, when you look back on the decade,
+[20:05] what do you think they'll say was obvious in hindsight
+[20:08] about AI that people are just missing in real time right now?
+[20:14] You know, so much of the debate that happens these days
+[20:17] is around, oh, how good are the models actually getting?
+[20:21] And can the models actually rage this issue?
+[20:24] And, you know, when are we going to get super intelligence?
+[20:27] Is that in like two years or five years?
+[20:29] And, you know, are we going to hit a wall?
+[20:30] And, you know, so much of that debate is like,
+[20:33] I think in some ways, a little bit of a waste of time
+[20:38] because, you know, I think it's inevitable
+[20:41] that we're going to have very powerful models.
+[20:43] And, you know, rather than, I think we'll look back and say,
+[20:47] oh, all this arguing around like when exactly
+[20:49] was going to happen was sort of, was shortsighted
+[20:53] because the reality is we are just as a entire human
+[20:57] self-realization on this incredible exponential.
+[21:00] Like, you cannot look at the progress of AI
+[21:03] over the past decade and not just be totally awestruck
+[21:07] by how far it's come.
+[21:08] Like a decade ago, the best AI models could recognize cats
+[21:13] in YouTube videos.
+[21:14] And now, you know, we're talking to, you know,
+[21:17] a digital god that can, you know,
+[21:21] I mean, we've all seen some of the hacks
+[21:22] and some of the things these systems are capable of.
+[21:25] And you just can't help but be awestruck.
+[21:27] And I think this trend will just continue.
+[21:30] Like these models are going to become more and more powerful.
+[21:32] And so, I think a decade looking back,
+[21:35] it'll be obvious that intelligence became abundant
+[21:40] and that agency became abundant.
+[21:42] Like, the current trends we're on
+[21:43] are just going to keep continuing.
+[21:45] And this will be very strange.
+[21:47] I mean, I think for the history of humanity, you know,
+[21:52] groups of smart people getting together
+[21:54] towards a shared goal was the bottleneck of progress.
+[21:57] You know, the United States of America,
+[22:00] in some sense, was an example.
+[22:01] It's like the United States of America is formed
+[22:02] from a group of very smart people getting together
+[22:05] and having a vision for the future that they wanted to enact.
+[22:08] And that's the story of nearly every company in America
+[22:11] and the story of every YC company.
+[22:14] And that's going to change.
+[22:16] Like all of a sudden, the scarce resource
+[22:19] isn't going to be intelligence or agency.
+[22:22] I really think it's going to be vision and ambition.
+[22:24] It's like, do you have a clear view
+[22:27] of what you want the world to look like in the future?
+[22:30] What is the like one way in which you want to put your finger
+[22:33] on the scale for how the future of the world will develop?
+[22:36] And how the world will look like in five to 10 years
+[22:39] that it does not look like today
+[22:40] and do you have the ambition and drive
+[22:42] to like go through all the crap to make that happen?
+[22:46] And AI will make that easier.
+[22:48] Like agents and AI makes that maybe 10 times
+[22:51] or a hundred times easier than it was a decade ago.
+[22:54] But the flip side of that is that all of a sudden
+[22:55] you can dream bigger.
+[22:56] Like I think, and the world is like,
+[23:00] you know, there's so many things that need to evolve
+[23:04] for us to be able to fully embrace this technology.
+[23:07] You know, the world is like really just, you know,
+[23:09] barely even ready for this technology today.
+[23:12] And I think, you know, as a builder,
+[23:14] we have a responsibility to prepare the world, right?
+[23:17] Like, we have to help enterprises and governments,
+[23:20] you know, adapt to this new technology.
+[23:22] We have to help figure out how we secure the world
+[23:25] from a biosecurity perspective
+[23:26] or a cyber security perspective.
+[23:28] We have to figure out how we,
+[23:30] how we're going to manage all these risks
+[23:33] that we see with this new technology.
+[23:34] But on the flip side, it's also the time of like,
+[23:37] you know, unprecedented opportunity for humans.
+[23:39] Like we can develop new sciences,
+[23:41] we can solve problems in health and biology
+[23:43] that have been forever unsolved.
+[23:45] We can build new businesses
+[23:46] that you couldn't have even imagined before.
+[23:47] There's like new creative opportunities
+[23:49] that couldn't have existed before.
+[23:51] So it's like, it's just this incredible cradle
+[23:54] of opportunity and risks that I think makes it like,
+[23:58] no better time to be someone who's a builder
+[24:01] and has a strong view of how the world should change.
+[24:06] Do you think the path has changed?
+[24:07] I mean, one of the things I saw,
+[24:09] I think Stanford, the amount of computer science majors
+[24:12] actually dropped by some double digit percentage,
+[24:15] people sort of worried like, which is sort of insane to me.
+[24:18] Like you still sort of need those skills
+[24:20] to even create agents that are that good.
+[24:22] Maybe that won't be true, I'm not really sure.
+[24:25] How, you know, what would you say
+[24:28] to people in this audience right now?
+[24:29] Like this is sort of a real question
+[24:31] that people are sort of facing.
+[24:33] Like should they become more word cell
+[24:35] and less shape rotator?
+[24:36] Like what, you know, what's the move?
+[24:38] And has that changed the kind of people you're looking to hire
+[24:44] and how you manage your teams right now in that area?
+[24:47] I think systematic and rigorous thinking
+[24:50] are still incredibly important because, you know,
+[24:53] the abstraction layer, I mean, I didn't used to believe
+[24:55] that this is how this is gonna play out,
+[24:56] but it really has, like, the abstraction layer
+[24:58] just keeps changing.
+[24:59] So, you know, when I started a company, back in my day,
+[25:03] we wrote code, and now, you know,
+[25:07] I'm sure nobody here writes code anymore,
+[25:08] that's ridiculous, but now it's about
+[25:11] how do you orchestrate the agents together?
+[25:13] And then it's like, how do you develop
+[25:14] these organizations of agents?
+[25:16] Like, how do you get, like, a million agents
+[25:17] to work together well?
+[25:18] And then it'll be, how do you get, like,
+[25:20] a trillion agents to work together well?
+[25:21] Like, I think that there's gonna be this continued need
+[25:26] to figure out how you structure workflows
+[25:30] at the abstraction layer that we're gonna be operating at.
+[25:32] And that form of, like, rigorous, systematic thinking,
+[25:36] I mean, traditionally, the way this would work, like,
+[25:39] in my era of certain companies,
+[25:41] is you would start by writing code,
+[25:42] and then you would have organizations of humans,
+[25:44] and you'd figure out how to organize those humans.
+[25:47] And that required systems thinking.
+[25:48] And now, maybe it's, like, much more, much closer to,
+[25:51] first, you orchestrate the agent,
+[25:53] then you figure out how to orchestrate,
+[25:54] like, these armies of agents.
+[25:55] But I think systems thinking is never gonna go to style.
+[26:00] So I think, it's definitely a mistake
+[26:01] to go all in on word-style.
+[26:03] Like, I think you need to, you need to shape, rotate.
+[26:06] But then I think the sort of, like,
+[26:09] much more of, I think, what's necessary,
+[26:12] going to the future, is having a deeper,
+[26:16] sort of compass and philosophical view
+[26:19] on how the world should develop.
+[26:20] Because I think there are many, many lessons
+[26:24] from human history around how we think civilization
+[26:29] go through this period, and humanity will change more
+[26:34] in the next decade than it has in the past 100 years,
+[26:36] probably.
+[26:37] And so I think, like, the imperative for us
+[26:41] to have positive visions for that,
+[26:43] and have coherent articulations
+[26:46] of how that should develop are more important than ever.
+[26:51] Let's get a little more concrete.
+[26:52] I mean, one of the things I'm curious about is,
+[26:54] like, are there sort of applications of AI
+[26:56] that you're seeing among your friends,
+[26:59] or internal, the meta that you can talk about,
+[27:01] that are, you know, the sort of obvious in your term,
+[27:04] maybe people haven't figured out yet.
+[27:06] I mean, give us some alpha.
+[27:08] I mean, I think there's still just, like,
+[27:12] astronomical opportunity in agent looping,
+[27:16] and figuring out how you develop systems
+[27:19] that enable you to spend, like, 1,000 X more,
+[27:23] or 1,000,000 X more on tokens to drive an outcome
+[27:27] in a continuous feedback loop.
+[27:29] Like, if you think about most companies,
+[27:31] companies are just these, like, large-scale feedback loops
+[27:35] where humans are operating each of the edges.
+[27:37] Like, you know, companies, they get customers,
+[27:40] and they figure out how to make those customers happier,
+[27:42] and if the customers are happier, then they spend more.
+[27:44] And if they spend more, then you can hire more people
+[27:45] who can then go figure out how to get more customers
+[27:47] and make those customers happier.
+[27:48] And that's like this, you know, that, in some sense,
+[27:51] is the feedback loop of every startup or every business.
+[27:55] And, you know, these, within that,
+[27:58] there are microfeedback loops that exist.
+[28:00] And I think developing agentic systems
+[28:02] that can operate and optimize these feedback loops
+[28:05] is, there's, like, just huge amounts of alpha there.
+[28:09] Like, I think we've seen, internally, a meta,
+[28:12] cases where if you can develop the right agentic loop
+[28:15] and you have the right eval or the right metric
+[28:17] for the agents to optimize, you can have a swarm of agents
+[28:22] accomplish more than, like, a team of 100 engineers
+[28:25] in, you know, very, very handily, actually, very, very easily.
+[28:29] And so, I think figuring out what the world looks like
+[28:34] with lots of sort of this, like, these agentic coordination
+[28:39] problems, I think that is, like,
+[28:40] one of the most interesting problems today.
+[28:42] So, mechanically speaking, I mean, markdown files,
+[28:45] cron jobs is, I mean, is it, that's,
+[28:47] and then basically pointing the agent at enough data
+[28:51] so that it can figure something out
+[28:53] that, you know, maybe is an in-distribution.
+[28:56] Yeah, I think figuring out, yeah, yeah, mechanically
+[28:58] figuring out what the metric is.
+[29:00] And then, yeah, just comes down to skills,
+[29:02] markdown files, cron jobs.
+[29:05] Flash goal.
+[29:06] Yeah, flash goal.
+[29:06] Like, I think, I think it's always funny
+[29:08] how mundane everything is once you really dig into it.
+[29:11] But, you know, I mean, some people put a lot of magic,
+[29:15] there's, like, some LinkedIn threads out there
+[29:17] about some magic stuff.
+[29:18] Top advice, ignore LinkedIn.
+[29:20] Hey.
+[29:20] LinkedIn is where you get customers.
+[29:22] Ha, ha, ha, ha, ha, ha, ha, ha, ha, ha, ha, ha.
+[29:25] So, I like to end on this, which is, you know,
+[29:30] you get a telegram to send to the 18-year-old version
+[29:33] of yourself, you know, what do you say
+[29:36] to that person right now, given all, you know,
+[29:38] I mean, thank you for coming back
+[29:40] and sharing your wisdom with this audience.
+[29:42] I mean, you know, what would you send in a message
+[29:45] in a bottle to the 18-year-old version of yourself right now?
+[29:47] Yeah, I think the, I think it really boils down
+[29:51] to develop your own internal compass
+[29:55] for how you think the future will develop
+[29:57] and have strong conviction in it,
+[29:59] because, you know, you will get so,
+[30:03] you will get inundated with noise
+[30:05] and people telling you shit.
+[30:06] And, like, you'll be very confusing
+[30:08] and it'll be very hard.
+[30:09] And especially when you're young
+[30:11] and you don't have experience, like,
+[30:13] it can feel very difficult to have true conviction
+[30:17] in what you believe and what you wanna do.
+[30:19] But I think that's the most important thing,
+[30:21] kind of as we talked about, you know,
+[30:24] it took a deep, deep conviction in what we were building
+[30:28] to be able to weather the sort of storms
+[30:31] of many years of chaos in the market,
+[30:35] in the industry and the people around us.
+[30:37] And so, and then the other piece of advice I would have
+[30:40] is try to identify what is the exponential in the world
+[30:45] that has both the steepest curve and will go the longest.
+[30:50] And, you know, many decades ago,
+[30:52] this curve was Moore's law.
+[30:55] And that probably was, you know, that was,
+[30:57] at the time, like, clearly the right thing to invest on.
+[30:59] I think right now it's AI progress,
+[31:01] but there will be more of these very steep curves
+[31:03] in the future.
+[31:04] And it's fine if these curves start,
+[31:07] you know, the starting point is very boring
+[31:09] or, like, it doesn't even seem that interesting.
+[31:11] Like, you know, when we started,
+[31:13] when I started working on scale, you know,
+[31:15] we had cat detectors and YouTube videos.
+[31:18] And that felt, you know, it's hard to say that you explain
+[31:21] the story that that's, like, the most important technology
+[31:23] over time, but it was on just this, like,
+[31:25] unbelievable exponential.
+[31:28] And I think I have one last thing I gotta say.
+[31:30] Yes. Yes.
+[31:31] Which is, we are, Meta is proud to offer everyone
+[31:34] in this room $1,000 of free credits for the new Spark API.
+[31:39] Fantastic.
+[31:44] And, and we're gonna keep making the models better.
+[31:50] And right now, new Spark is, I think,
+[31:52] 8X cheaper than Opus.
+[31:54] So, if you can bring that to Opus dollars,
+[31:58] a lot more.
+[31:59] But, no, everyone here will work to get,
+[32:01] everyone the details on how to get these credits.
+[32:04] And we're really excited to see what everyone builds.
+[32:06] I was end of wearing, everyone.

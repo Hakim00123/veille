@@ -1,0 +1,492 @@
+Y Combinator Startup Podcast
+Blake Scholl: Breaking the Supersonic Ban
+Wed, 29 Jul 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/Blake-Scholl-Breaking-the-Supersonic-Ban-e3mngh9
+
+[00:07] I want to start by saying Houston we have a problem. In 1969 we landed on the moon for the first time
+[00:19] and the same year we flew Concord the faster the speed of sound airliner the future was supposed
+[00:25] to be faster and better we're supposed to look forward to innovation in air and in space and yet
+[00:33] half a century later we can't go to the moon and we can't fly fast in the speed of sound and not
+[00:40] only have we lost the ability to go fast we've lost the ability to do things even at any kind of
+[00:46] reasonable speed this was the Wall Street Journal just a couple weeks ago it now takes Lockheed more
+[00:52] than two years to build a new Patriot missile interceptor this is crazy this is no way to build
+[01:00] the future and this is no way to win a war if we look back at history this is the Boeing 707
+[01:08] this is the airliner that brought us into the jet age but if we fast forward half a century
+[01:13] this is the 787 their latest airliner which by the way was launched more than 20 years ago
+[01:20] you can't spot the difference it doesn't fly any faster it doesn't make the world any more
+[01:25] accessible prior to boom the closest the America ever got to a supersonic airliner
+[01:32] was a mock-up but I guess it's all okay because flying is really great right but for me personally
+[01:42] there is nothing so moving as flying think about that experience of going down the runway
+[01:48] of gathering speed rushing to hundreds of miles per hour then climbing into the sky having this
+[01:54] thing that we call a bird's eye view but it really is a humans eye view in near perfect safety
+[02:01] being able to look down at the beauty of the natural world as well as the beauty of everything
+[02:05] humanity has created we get to ride aboard the wings of Newton and the Wright brothers while
+[02:10] taking in the creations of Edison and Rockefeller yet flying which what should be one of the most
+[02:17] inspiring experiences we can ever do we've turned into something that most people dread
+[02:24] but if we look back in history it wasn't always this way those first jetliners truly did double
+[02:31] the speed of what had come before them and it was a double the speed of air travel the most
+[02:37] important changes were on the ground Hawaii was simply not a tourist destination before the speed
+[02:43] of the jack it was the ability to get from the u.s to Honolulu in seven eight nine hours that turned
+[02:50] Hawaii into a mainstream tourist destination shoes there's a connection even between air travel
+[02:57] and the shoes we wear Phil Knight the founder of Nike started the company in the 1960s on a
+[03:04] chance trip to Japan when he fell in love with Japanese style running shoes and Nike got their
+[03:09] start importing Japanese running shoes to America or music long before Spotify or Napster music
+[03:19] started to become global the Beatles took the first world tour in the late 1960s a tour that
+[03:25] simply would not have been practical 10 years earlier with slower airplanes so I'd like to
+[03:32] invite you to imagine with me what would happen if we had another doubling of speed what would happen
+[03:38] if we could cross the Atlantic in three and a half hours what would happen if Sydney was easy to
+[03:44] get to as Honolulu is today what would be the Beatles the Nike's and the Hawaii's of a supersonic
+[03:51] age in my mid 20s I started to think about what it would take to bring back supersonic passenger
+[03:58] travel and I set a lifetime role of breaking the sound barrier so like any tech nerd in my 20s
+[04:04] what did I do I put a Google news alert on supersonic and yet there was more progress in
+[04:10] supersonic music than supersonic flying so I started to wonder how would it be that supersonic
+[04:16] travel could come back the obvious thing seemed to be that it would be a private jet a business jet
+[04:21] made by somebody like Gulfstream for the wealthiest people on the planet but one of the fall outs of
+[04:27] the Concord era was that we actually banned supersonic flight in the US and since most Gulfstream
+[04:34] miles are over land in the US there simply wasn't much of a business case without a regulatory change
+[04:40] and nobody in the business jet world wanted to try to change the regulations they didn't want
+[04:44] to build an airplane that might not be legal but about an airliner wouldn't you expect Boeing to
+[04:50] carry us forward into a supersonic age well now they're not even building new airplanes anymore
+[04:55] let alone innovative new airplanes so could a startup do this not all that long ago the idea of
+[05:02] a startup supersonic airliner seemed laughable one of my very many failed investor pitches
+[05:10] was in 2015 when Jeff Bezos passed on our seed round at boom and then he wrote in the 2015 Amazon
+[05:16] shareholder letter about how there's certain things that only big companies can do and he cited
+[05:23] airliners as one of these so an even more laughable idea was what if I could do this
+[05:30] I was a software engineer by training we spent time at early Amazon I found it was an apps company
+[05:37] they got acquired by Groupon could I do this my knowledge about airplanes was limited to a pilot
+[05:42] slices I could fly a Cessna but one of the things I learned from that time was I didn't think I
+[05:49] could really know what I was capable of except by picking a mission that inspired me something that
+[05:54] I wanted to create in the world and giving it everything I could only that way could I find my limits
+[05:59] so in 2014 we got started and it wasn't a very auspicious start that's right this is a supersonic
+[06:06] airliner mockup made of cardboard plywood and seats from office depot that was before YC
+[06:14] and by the end of YC batch this is what boom looked like now we had a cardboard mockup of our first
+[06:19] airliner prototype and people laughed who would name an airplane startup after the sound of an
+[06:25] explosion but we didn't let this deter us and we kept going we started building our first prototype
+[06:32] airliner XB1 which could live as baby boom we didn't know what it would really take to build
+[06:39] a supersonic passenger plane and so we figured the only way to learn the lessons was to go build
+[06:44] to go build the first supersonic jet made outside of a government or military and that was how
+[06:50] XB1 got started last year XB1 became the first independently developed jet to break the sound barrier
+[06:58] more than a decade after founding the company I'd like to invite you to relive that moment with me
+[07:04] from just about a year ago in the Mojave Desert. Historically the human races always wanted to go
+[07:14] faster. The future of supersonic travel is looking incredibly promising it's not just about
+[08:21] speed it's about making the world more connected thank you um I've come to come to believe as a
+[08:37] startup founder you really have to optimize for two days the worst day and the best day there's no
+[08:43] such thing as a startup that doesn't have tough days along the way to that flight boom nearly failed
+[08:48] several times there was a moment where we got down to seven days of cash and the board told me
+[08:52] to shut the company down I told them no we're getting through this we just haven't found the way
+[08:57] through yet and we did and because I believed that what we were creating was important because I
+[09:02] wanted it to exist in the world I was able to keep going even when it seemed almost impossible
+[09:08] and because of that we got to have the best day that moment where I got to watch the team pull the
+[09:13] airplane out of the hangar watch the pilot push the throttles forward and see that we broke in the
+[09:18] sound barrier this is why you have to build things that matter things that matter not just to yourself
+[09:24] but to the world things that inspire you things that keep you going through the inevitable ups and downs
+[09:30] so exp one accomplished some radical things not only did we break the sound barrier but we did
+[09:37] something that we didn't even think was part of the original plan which is related to solving sonic
+[09:42] boom exp one broke the sound barrier and two flights six times through the sound barrier each
+[09:48] time no audible sonic boom in the ground we actually demonstrated a principle that had been
+[09:54] talked about for a long time called mock cut off where if you break the sound barrier at a
+[09:59] sufficiently high altitude and at the right speed for the current weather the sonic boom actually
+[10:05] makes a u-turn in the sky and never touches the ground so it's like if a tree falls in a forest
+[10:11] and no one's there to hear it did it really make a sound so by making the sonic boom disappear
+[10:16] entirely we are able to put aside a question that had long plagued people talking about
+[10:22] supersonic flight which is how quiet is quiet enough if there's no boom at all there's nothing
+[10:27] to argue about and so it was about 24 hours from breaking the sound barrier to be invited to the
+[10:33] west wing and 115 days from breaking the sound barrier to an executive order making supersonic
+[10:42] legal again in the u.s. yeah people talk about isn't it a bad idea to build an
+[10:53] unregulated industry turns out you can change the regulations and the way you do it is just by
+[10:59] building the thing and communicating why it's okay but demonstrating that we could have supersonic
+[11:04] flight without a sonic boom everybody got excited about it and i like to say that supersonic flight
+[11:10] isn't red or blue it's red white and blue after the executive order a bill dropped in the house
+[11:16] from the senate to make the supersonic legalization permanent it passed the house unanimously and
+[11:22] just last week it got out of the senate commerce committee again with a unanimous vote the supersonic
+[11:28] flight is coming back thank you we were able to do many things for the first time on that airplane
+[11:40] first the first privately developed supersonic jet previously this had been the work of governments
+[11:45] and militaries with enormous budgets it was also the first supersonic jet made in america
+[11:51] the first human piloted airplane landed solely on augmented reality with no natural view of the
+[11:57] runway and the first supersonic air-to-air live stream filmed on an iphone stream via starlink
+[12:04] and of course the most importantly legalizing supersonic flight in the u.s we did all of this
+[12:12] with a remarkably small team the xb-1 team was just 50 incredibly committed passionate men and
+[12:18] women who were willing to keep going when other reasonable people would have given up
+[12:24] so how is it that something that used to take billions of dollars and thousands of people was
+[12:30] suddenly done by a small team with a comparatively small budget the key thing is to make hardware
+[12:36] development look more like software development to reduce the cost of iteration both in the world
+[12:41] of bits and in the world of atoms what does that look like if you're coming at this from a software
+[12:47] perspective i think we all know that great software is modular if you change something in
+[12:52] this pit of code over here it shouldn't change something and the behavior of this code over here
+[12:56] not if it's well designed but great airplanes are incredibly integrated and everything affects
+[13:02] everything else uh the the best airplane design is interplay of propulsion of aerodynamics of
+[13:08] structures of all kinds of optimizations how you fit the systems into it and if we do something
+[13:14] like at another row of passenger seats it makes the fuselage heavier the engines have to get more
+[13:19] powerful the wings have to get redesigned everything changes and so classically these pace of iteration
+[13:27] for complex integrated hardware has been very slow imagine a whole bunch of engineering specialists
+[13:32] each working in an excel spreadsheet on their own discipline and then handing off the results
+[13:37] of analysis from one engineer to another so iteration would take very large teams
+[13:42] enormous amounts of time and eventually you'd have to say good enough it's time to move on and
+[13:47] actually build uh but instead we took a different approach we said all of this engineering that
+[13:52] historically exists in spreadsheets really should exist in software these spreadsheet engineering is
+[13:58] like it's like baby software it's really code but it's getting treated like a second class citizen
+[14:03] with no automated integration no automated testing no continuous integration none of that stuff
+[14:08] so we said let's fix it and we built the system called make boom and make boom lets you literally
+[14:14] define an airplane in a configuration file and then you can run a script that does a whole aircraft
+[14:20] simulation and in just a few minutes you can have a good idea of how well your design performed how
+[14:26] far could it fly what would its fuel burn be uh oh how many passengers could it carry what would
+[14:31] the trade-offs be and this would allow us not just to evaluate design ideas would allow us to go
+[14:37] do studies of what airplane we should build out of the infinitely many conceivable supersonic jets
+[14:42] what is the correct one to build how do we get to product market fit you can't get to product
+[14:46] market fit on a supersonic jet by building it and seeing if anybody likes it you have to analyze
+[14:51] very carefully the art of the possible and also what will maximize the market opportunity and by
+[14:56] being able to understand the universe of conceivably buildable airplanes digitally we're able to narrow
+[15:02] in on the one that we would actually want to go build we're also taking the same approach
+[15:07] to how we design uh our engines which we're now building for the first time and we built a tool
+[15:12] called blade runner and blade runner allows us with really just a couple engineers to change
+[15:19] a blade design in real time and see exactly how it's going to behave structurally and aerodynamically
+[15:26] this reduces literally to real time a process that previously would have taken dozens of engineers
+[15:32] many months so investing in the iteration in the world of bits is very important
+[15:37] and with thanks to AI the cost of software development is dropping and it's now possible to have many
+[15:43] more uh software tools than previously would have been possible to build but you also have to iterate
+[15:49] in the world of atoms and one of the most important things we discovered along the way
+[15:53] is it's extremely difficult to iterate with outside suppliers particularly outside suppliers
+[15:58] and aerospace which are let's just say I have no kind words for them so we chose to build our
+[16:04] own machine shop and now we can go from a digitally designed engine part to a prototype part
+[16:10] in about 24 hours this is a this is our R&D shop in Denver this is a room that's not exist at GE
+[16:17] or Rolls Royce or Boeing or any other large aerospace company so our engineers were able to work hand
+[16:24] in hand with our manufacturing technicians and were able to go from design idea to part
+[16:30] in hours and then iterate much faster than it's otherwise possible we're also vertically
+[16:36] integrating our own test assets we're building our own engine stand about half an hour from where
+[16:41] the engineers and the manufacturing facility exists this means that when we've got something ready
+[16:46] to test we can test whatever we want we don't have to reserve time in someone else's test cell
+[16:50] and wait for that slot so what happens next as we're scaling up from XB1 the test airplane
+[16:57] to overture the passenger airliner that we all get to fly on we have to go big we're taking our
+[17:03] vertically integrated manufacturing and building a super factory that will allow us to build engines
+[17:09] and ultimately airplanes at scale this is what it'll look like when it's complete in just a few months
+[17:15] and this is what it's been like over the last few months in January this was an empty building
+[17:22] with a lease that we had just signed and now six months later the first machines are going in
+[17:27] and in just a couple weeks would make in our first production engine parts. Along the way we
+[17:32] solve what was the other hard problem with building a supersonic airliner just how do you finance
+[17:37] the development when you're building something that you know is going to take billions of dollars
+[17:43] in R&D capital and when it's impossible to predict exactly how much capital it will take
+[17:48] or exactly how long it will take it's very very difficult to race financing and but we discovered
+[17:54] along the way that because we had made a choice to vertically integrate our own propulsion we were
+[17:59] able to take the engine that we were building for a supersonic flight and sell it separately on
+[18:03] the ground as a natural gas power turbine and that's what we call superpower this is a supersonic engine
+[18:10] adapted for ground power generation that can ship without the rest of the airplane thereby
+[18:16] generating the test data the learnings the reliability and also the capital that we need to go big the
+[18:22] first superpower turbines under construction right now and goes to the first customer in less
+[18:26] than 12 months so let's take a step back and think about why we're doing this
+[18:35] I think it's important to create things that we want to exist in the world and I think it's
+[18:39] important to create things that inspire other creators because of that we chose the live stream
+[18:44] XB1's supersonic flight this was the first supersonic installation of Starlink the first
+[18:50] supersonic air-to-air live stream and when we turned that stream on millions of people around the world
+[18:55] tuned in and some of my favorite shots were from classrooms around the country where kids
+[19:01] who were otherwise not tuned in to aviation or to science tuned in and some of them stood up
+[19:10] and some of them jumped up and down in one of those classrooms somewhere in the world
+[19:16] is the next chief engineer of another supersonic jet I just haven't gotten to meet him or her yet
+[19:29] we think it's important to do that inspiration and so we build in public the best way to follow
+[19:34] along is to follow me or follow the company on X and now we have actually quite a bit of time
+[19:41] for Q&A so I'd love to make this interactive I'd love to make this a conversation
+[19:45] and you know if you can send your question to the Y Combinator agent they are filtering them
+[19:52] backstage and we'll we'll pop them up here and we'll talk about them so what is something widely
+[20:01] believed in tech that's just not true boy lots of things but there was one false belief
+[20:10] that almost stopped me from founding boom just you tend to get told that every technology
+[20:17] gets created kind of at the earliest moment of history that it that it could be and if you're
+[20:23] therefore if your idea is any good and nobody else is working on it there's probably something
+[20:29] wrong with the idea maybe there's something wrong with you and what this and then investors
+[20:33] ask you the question why now and so all of this kind of compounds to a whole bunch of founders
+[20:40] running at a relatively small space of ideas that are only recently possible this is why we've got
+[20:47] an explosion of AI companies now and why a little while ago we had an explosion of like photo sharing
+[20:52] apps that it's not true there are many many unsolved problems in the world many great ideas
+[20:59] hiding in plain sight that were actually solvable that could have been multi-billion or multi-trillion
+[21:04] dollar businesses a while ago but nobody's building them and not for any reason other than nobody went
+[21:09] and did it the technology for supersonic flight existed actually a long time before boom was
+[21:14] founded technologically the company could have been created 10 years earlier but nobody started it
+[21:21] the law of large numbers you might think applies to startups just doesn't the world is a smaller
+[21:26] place than we're told so I deeply believe that you should pick a problem that went to go solve
+[21:32] in the world and don't worry too much about the answer to why now the answer to why now can be
+[21:39] because I started now okay is it possible for America to actually compete with China on manufacturing
+[21:47] at scale yes absolutely but we have to do it smartly it won't work to try to repatriate
+[21:59] the manufacturing that left the US that's a you don't you don't be trying to add its own game
+[22:06] what you do is invent the future invent the next way of manufacturing and build that here
+[22:12] and and I can give you some examples of that so one of the ways that that China hollowed out
+[22:18] American manufacturing was by kind of hoovering up the tool and dye industry and which used to be
+[22:25] big in the US and about it so if for any of you are not hardware people one of the things you need
+[22:29] to understand about building hardware is you have to make custom precision molds tools and fixtures
+[22:35] to create your precise parts and you know so for example for a carbon fiber wing there is a mold
+[22:45] the size of the wing the contour of the wing and which you lay up layers and layers of carbon fiber
+[22:50] fabric and then cure in that mold to make your make your wing or for metallic parts you might
+[22:57] have stainless steel tools in which you injection mold or make wax masters that then go through
+[23:02] some other complex process and the the downside of all this this tooling a couplefold one one is
+[23:10] because so much manufacturing went to China the tool and dye industry of the US basically died
+[23:16] and it's very very hard to find tool and dye engineers in the US but if you throw a baseball in China
+[23:22] you'll hit one so a lot of what we're doing at boom is trying to figure out how to get rid of the
+[23:27] tooling entirely at for example for our turbine blades we're working in an all digital manufacturing
+[23:32] process that will let us go in 24 hours from a digital design to the most advanced turbine
+[23:38] blade in the world with absolutely no tooling and that example matters because this is I think how
+[23:45] we win versus China we don't win in a game where the most labor is what matters we don't win in a game
+[23:51] we're having the tool and dye industry is what really matters will you do invent the next generation
+[23:55] of manufacturing scale that here because what America is still best at is invention and freedom
+[24:01] and innovation okay in what ways has AI made building in the physical world easier what things
+[24:10] remain really hard the first thing I think we've seen is that the AI has dramatically reduced
+[24:16] the cost of software development and what that means is that we can have custom engineering
+[24:24] tools that otherwise would have been unaffordable to create I was lucky to start my career at
+[24:32] Amazon in 2001 when my family thought it was a bookstore and one of the things that
+[24:41] was I think great about Amazon culture is they built their own business software to run their own
+[24:47] business like the personalization algorithms that power the recommendations on the websites
+[24:53] the things that powered people who bought this item also bought all of that was in-house software
+[24:57] the back end software was also completely custom the things that would power the warehouses and the
+[25:03] delivery trucks etc and and I think that is a part of why Amazon was able to be so to be the
+[25:09] winner in e-commerce is that they had software that fit the business operation like a glove
+[25:14] but to do that in the early 2000s required scale that much software couldn't have been created by
+[25:20] a small company with a small operation and what AI does is reduce the cost of building custom
+[25:25] software which I think allows more businesses to have software that fits them perfectly and
+[25:31] one of the things that's traditionally inefficient about custom software or really software at all
+[25:35] is that people building the software the people using the software are in two different companies
+[25:40] and two different organizations and they don't necessarily understand each other very well but AI
+[25:45] allows anybody who is a user to become a tool builder and I think that's a really really big deal
+[25:52] and so that's I think that's what AI has already made better about building the physical world
+[25:57] I think what's left is we don't really have great physical world AI yet like programming a CNC machine
+[26:03] is still an incredibly manual task and despite lots of pitches about AI for industrial automation
+[26:09] we haven't yet seen much that works but I think that's going to come
+[26:13] okay what do I look for when hiring people this is one of for me this has been one of the most
+[26:22] difficult things to really learn and to get right is building the team and in particular boom
+[26:29] the last company entrepreneur founded that went on to build a commercial airliner
+[26:34] was Douglas aircraft in 1921 so this is an industry that has not had startups for an incredibly long
+[26:42] time and it has only kind of big companies Boeing Lockheed etc that are really terrible cultures
+[26:49] and and so we often found that we had this tension between being able to hire people who
+[26:55] were technically competent who are good culture fits and who are really experienced and and so
+[27:01] what I what I found is that when looking for you know to really value early career talent
+[27:08] people who are young ambitious smart who have not yet been destroyed by working at one of the
+[27:13] legacy big aerospace companies value people who are hands-on who've gone out into the world and built
+[27:19] smart gets things done optimistic at at senior levels it gets even harder and that's one of the
+[27:27] reasons why when you're building a company if you can manage to promote from within people that you
+[27:31] have been growing up in your own culture that is much much better okay what are some products
+[27:40] that boomerai wished existed from a boom perspective you know actually delivering on physical AI for
+[27:51] manufacturing would be huge like imagine a large format manufacturing capability that could go
+[28:00] from a CAD design to an automatically Q aid part with one machine without a programmer that would
+[28:07] be incredible there's no reason to believe that's impossible it just hasn't been just has been
+[28:13] created yet for an early hardware startup in a regulatory gray zone do you engage regulators
+[28:21] before deploying or deploy first and legitimatize after how do we make that call with them i don't
+[28:27] think this is one size fits all i think this is very contextual what you should do you know so for
+[28:32] example at building uber uh trav is basically ignored the regulators and built the service anyway
+[28:39] built a fan base of customers who that he could use against the regulators that were trying to shut
+[28:43] him down and i i i don't i think if uh uber had tried to befriend the regulators first uh it just
+[28:50] it just wouldn't have worked and and one of those reasons is that there was an active opponent
+[28:55] right like the the entrenched tra uh taxi industry was using the regulators to block their competition
+[29:03] by the way this is the pattern in a lot of regulation it doesn't come from like some well-meaning
+[29:07] person trying to keep the public safe it comes from some entrenched frankly lazy interest that
+[29:13] doesn't want to have to compete and runs to dc or runs the local regulator and tries to use
+[29:18] the power of government to shut their competition down maybe this is deeply unethical but it happens
+[29:23] all the time and so uh so if you can do what travis did and go launch your product and have your
+[29:29] customers be your ally i think that can work great that was never going to work in aviation and uh
+[29:35] on the other hand we didn't really have an entrenched enemy uh bowing has pulled me of its own self-inflicted
+[29:41] problems uh they thought boom was kind of cute would probably never succeed uh so in a
+[29:46] sense we were flying under the radar and in that context and also building a product that was
+[29:51] safety critical it made a lot of sense uh to engage regulatory early so uh when we started the
+[29:57] company started building xp1 uh i went to the faa i told them what we were doing why we were doing
+[30:03] it why we thought it mattered and we asked them to help us and we asked them for feedback we said
+[30:09] hey come anytime you want see anything you want to see uh if you see us doing something we could do
+[30:13] better please tell us uh we're going to show you our plans before they're finalized so you can
+[30:18] give us feedback and we want to listen and so what we found was that the approvals process for xp1
+[30:24] that even for an r and d airplane because stretch on for months actually happened in 90 minutes
+[30:29] from when we said we think we're ready to fly and faa said here's the paperwork we agree go
+[30:34] we got the first ever permit for flying a civil supersonic airplane supersonic even before the
+[30:40] airplane had flown for the first time why we engaged early we made the regulators part of the team
+[30:46] and we worked together we made it boom plus faa versus the problem not boom versus faa
+[30:52] um what's the best piece of advice i've ever received um i think about uh i think about what
+[31:05] Steve Jobs talked about in his stand for his commencement address which i assume many of you
+[31:09] have seen but if not you should watch it if you've watched it go watch it again and he talks about
+[31:15] what it takes to do great work and how it's important if you're going to do great work to work
+[31:20] on something you love and the importance of not compromising on that and holding out to find that
+[31:25] thing that you really want to go build that you really want to go do because that's the only way
+[31:29] to build something great and i think this also harkens back to the earlier question about what
+[31:33] i look for in people one of the most important thing to look for in people are those who actually
+[31:37] care as you can teach skills you can teach knowledge you can learn any kind of engineering
+[31:43] but the one thing i've never been able to teach somebody else is to care when they just didn't care
+[31:48] and that is an important thing to look for in your partners personally professionally
+[31:53] and your employees people who care oh what's the worst piece of advice i've received and why
+[31:59] uh the worst piece of so my mom hi mom uh my mom told me not to start boom and you know what she
+[32:09] said was shouldn't you work on something you know something about and this is this is common well
+[32:15] needed advice right uh you know when i started my first company i had uh i figured i knew e-commerce
+[32:21] my time at amazon i'd been at one of the very first mobile app company so i thought i knew mobile
+[32:26] so i thought i should work on mobile e-commerce because my resume said that's where i would have
+[32:31] expertise and yeah so i actually knew how to do mobile e-commerce but i had no idea what mobile
+[32:36] e-commerce should be and i actually didn't really give a shit about anything we were building
+[32:39] and so although i cranked out you know high quality apps i wasn't having a good time and i had
+[32:44] no product vision so i think the worst advice is like work on what you know
+[32:49] what you know can be changed particularly in a world where you everyone has personalized
+[32:53] AI tutors anybody with passion and dedication can learn new knowledge and learn new skills
+[32:59] but what you can't change easily is what you love knowledge is changeable passion is not
+[33:06] and there never has there been uh uh more reason to work on what you love
+[33:13] okay um it took boom about 10 years just to break the sound barrier yeah oof
+[33:20] how do you convince investors to give a deep tech company enough runway to survive that long
+[33:25] before there's a real payoff so i don't recommend following our footsteps in this regard uh boom
+[33:30] nearly died many times uh it took a lot more time and a lot more money even to get to a
+[33:36] real proof of concept than than i expected and so uh two things one one is i mean with the benefit
+[33:43] of hindsight we were very early in a deep tech uh and we should had we known on day one what i think
+[33:49] the whole community knows today it wouldn't have taken five years it had taken more like
+[33:54] two or three and it would have been much easier and so if i say okay what are the what are the
+[33:58] specific lessons uh behind that part of it is about iteration and the most important iteration
+[34:04] and hardware by the way is to integrate iterate the product level uh we bit off an extremely
+[34:10] challenging prototype challenge in exp one but we should have planned is something simpler and
+[34:15] easier that would give us multiple shots on goal is that is how you discover not only if you got
+[34:20] engineering decisions wrong maybe you've gotten requirement decisions wrong and if you do that
+[34:25] you can iterate faster you can get to prove points faster and the fundraising challenge that boom
+[34:30] had is not one you'll have so i guess i i recommend um uh i i recommend not following our footsteps
+[34:36] in that that regard um okay uh what would i work on if i was 20 um
+[34:46] i i i think founders should work on the most uh exciting thing that they can imagine themselves
+[34:54] doing with a stretch wherever they are in life so if you're 20 uh if you have a startup that is like
+[35:01] calling you um that that you can you think about day or night maybe you're not even sure whether
+[35:08] you can pull it off but if you're in that state you should go build that thing um and if you don't
+[35:14] have that you should go uh work with the best people you can find solving the problem they're
+[35:20] working on that you're most excited about solving that the magic happens early in your career
+[35:24] when you find an intersection of uh what you love doing that you can become really good at
+[35:31] that matters to the organization uh around you when you hit all three of those your career goes
+[35:36] vertical at early amazon i was lucky to get to work on something uh that jeff bazos cared about
+[35:42] that mattered to amazon so there i was i was like 23 24 i had a 300 million dollar p&l
+[35:47] with a project that one of the world's greatest entrepreneurs cared about so when i screwed up
+[35:52] i had the most like significant people at amazon telling me how i screwed up and trying to help me
+[35:57] not fail those are the kinds of things that are game changing experiences to have early in your
+[36:01] career so go work with great people uh on a problem you care about that matters to the organization
+[36:06] you're in and if it's a startup that you want to go create that you love that you can't get out of
+[36:11] your system then don't wait just go start it okay uh on paper uh uh you didn't have the credentials
+[36:20] to start boom but you did it anyway where did that self-belief come from can it be cultivated um
+[36:27] truth be told i didn't have the self-belief on day one uh i had nowhere close to the resume
+[36:33] to build a supersonic airliner uh when i told my friends i was thinking about it
+[36:38] i could just watch their eyes roll back and the oxygen would left the room one friend told me
+[36:42] like call me back when you got something less pie in the sky um but i started thinking about uh
+[36:49] the founders that i admire the most the steve jobs is the bill gates and i think in particular
+[36:54] about something that bill said in the 1970s bill said his goal for microsoft was to put a personal
+[37:00] computer in every home and on every desk running microsoft software and this was a time where personal
+[37:05] computers mostly didn't exist and not only does he want to make them exist he's gonna put them
+[37:09] everywhere and he's gonna own the market and of course microsoft did that and then some but you know what
+[37:14] was it like to be bill on that day nobody comes down and taps you on the shoulder and says by the
+[37:20] way you're the one out of all the billions of people that could have done this incredible thing
+[37:24] like you're the one that's actually to do it so like here's the confidence go like that that conversation
+[37:29] never happens no one gives you that permission and a thing i came to believe was that the only
+[37:35] way to know what i was capable of was to pick something that i'd work really hard at and give
+[37:40] it everything i got and to stop worrying about whether i could do it and to put all my mental
+[37:44] energy on how to do it and so the self belief actually came late you know and there's still
+[37:51] some days i get up and think oh man this is hard can i pull this off i think that kind of self
+[37:56] doubt is is normal you have to put it aside do it anyway and become the person you need to become
+[38:02] to succeed at what you've set out to do
+[38:08] okay what did i learn from working at amazon in the early days and any lessons from from basis
+[38:14] um i have an enormous enormous respect for jeff and i was very lucky to get to work with
+[38:19] them even a little bit when i was young i think one of the things that that amazon did
+[38:24] really well that is difficult to do together is is to think very long range while having
+[38:31] incredible operating discipline in the moment uh so jeff liked to make kind of seven-year business
+[38:36] plans uh and because of that he would tackle things that um uh seemed bizarre to much of the rest of
+[38:45] the world he was laughed at internally and laughed at by his board when he launched amazon web services
+[38:51] he was laughed at by the world for e-commerce and yet both of those stories ended really well
+[38:56] uh i think you can tell a lot of a character of a company uh pretty public company by its
+[39:01] quarterly behavior and uh you know when he got to the end of a quarter amazon would never like
+[39:07] massage you know their choices to try and make earnings look good that quarter they just take
+[39:12] the long-term cash flow decisions and yet at the same time there was incredible operating discipline
+[39:16] there were goals operational excellence focused on the here and now i think doing those two things
+[39:20] together a vision that exists long range and the operational excellence day-to-day that's unusual
+[39:27] it's rare but this is what great companies are made of um you taught yourself the fundamentals
+[39:37] of aerospace engineering do i have any advice about how to teach yourself hard things uh
+[39:43] i think if it's important to know the difference between knowing enough to pass a test and really
+[39:51] understanding something and at least for me going through school you know i got mostly good grades
+[39:57] but i didn't understand half of what i was actually doing uh not not really deep down not first
+[40:03] principles uh but as i was learning aerospace engineering i i bought textbooks i went back
+[40:09] and i did remedial con academy physics in calculus because i hadn't had any since high school i was
+[40:13] doing the problem sets and i uh i started making a list that i called my confusion list which is my
+[40:19] list of things i didn't think i really understood even if i could answer the question uh on a test or
+[40:25] answer the question plausibly and uh my goal was every week to take one thing off the confusion
+[40:29] list it turns out that was wildly optimistic the confusion list grew without bound uh because i was
+[40:35] always finding things that i wish i understood completely and i just didn't understand yet
+[40:38] but what it created in myself is a a mental awareness of that difference between i really get this
+[40:46] and i'm kind of waving in my hands and uh and so that that self-awareness i think really matters
+[40:53] because when there's a thing that you don't know yet that you need to know you can stay on it and
+[40:58] do whatever it takes cognitively until you have that internal sense of uh of clarity of not being
+[41:03] confused um let's see there's a lot of uncertainty about what jobs will look like as AI develops
+[41:12] uh do you have advice to early career technical people about what skills to learn um i think all
+[41:19] this AI do marism is like deeply wrong and confused so my my biggest piece of advice is don't worry
+[41:25] about it just go do useful things and um you know as an example the notion that software engineering
+[41:32] is dead i just don't buy it at boom we need far more software engineers and a post AI world
+[41:37] they would need a pre AI world why because the cost of software development is dropped
+[41:43] anybody including hardware engineers can now become a coder and we need software engineers to
+[41:47] make sure the architectures are right and make sense and are coherent uh so our need for software
+[41:52] engineers has actually gone up as the cost of software engineering has gone down uh so the thing
+[41:59] you know again i think let's go back and think about uh you know what what really matters from first
+[42:03] principles what will be true over a long period of time uh the the being able to discover what's
+[42:09] useful in the world and go learn how to do it and go create something that's real working with other
+[42:13] people uh being multi-disciplinary like one of the reasons i went to amazon early in my career
+[42:19] is i knew that i'd be able to work on software for marketing and i didn't know jack about marketing
+[42:24] i wanted to learn it uh and so finding a way to kind of see things from multiple perspectives
+[42:28] matters but mostly go find something you want to create go create it um and uh don't worry too
+[42:35] much about being replaced um in software young builders have an edge and hardware experience
+[42:43] seems to win high barriers deep expertise required uh how does a young engineer break in and actually
+[42:48] stand out i don't believe the premise of the question uh this this like in hardware uh experience
+[42:55] wins this is one of these lies told by old people at big dumb companies and it's just not true and
+[43:01] by the way all those people suck uh so don't worry about it uh go build real things go have hobbies
+[43:06] like if you're into airplanes do RC model airplanes um and uh and you know and learn not just how to
+[43:13] design things but learn how to actually make them and and the barriers are not actually that high
+[43:18] you can just go do this stuff um so uh don't try to become a deep expert the moment you become
+[43:25] an expert what you're steeped in is the past and then you're completely useless uh so um and you
+[43:31] don't listen to all the people that tell you need ages and ages of experience there is one thing about
+[43:35] experience that matters though um in a rule we have developed a rule about this at boom it is
+[43:41] totally okay for a young engineer to do something they've never done before just the way it's okay
+[43:45] for them to do something that nobody has ever done before but uh but if somebody has done it
+[43:50] before in the world uh our rule is you have to go find one of those people call them and ask them
+[43:55] your advice and you don't have to take it you just have to hear it and uh i find it's very rare
+[44:01] that there are uh experience accomplished people that aren't willing to take that call
+[44:05] and some form of passion um and to give you that give you that advice so so go seek that wisdom
+[44:10] where it's out there but don't listen to it too much and uh just go build uh do i recommend
+[44:17] starting a company or working at a company early in your career uh i don't think this is a one size
+[44:22] that's all uh i think the moment you have a startup that you desperately want to start a thing that
+[44:29] you want to go create even if you're not sure how to do it even if you worry you might fail uh but
+[44:33] you can't get that idea out of your head i think at that point you should go start it uh and don't
+[44:40] wait and the world is full of examples of great companies that were started by young people
+[44:45] the world is also full of great companies that were started a little bit later in life
+[44:49] um i started boom when i was 33 uh i started my first company and my parents basement in high
+[44:56] school uh internet service provider that i basically started because i wanted to get a better internet
+[45:00] connection and i needed a way to finance it and starting an ISP was the way to do it um
+[45:05] right out of college i didn't really know what startup i wanted to start and so i went to work
+[45:10] at amazon and got some great experience there so i don't think this is what any size fits all uh and
+[45:15] don't start a company just to start a company uh that's a good uh recipe for misery and the worst
+[45:22] the worst thing you can do is start a company that you don't love and then get stuck and uh this
+[45:28] sounds like a champagne problem but it's actually pretty bad and i know i know like successful
+[45:32] founders that have had this problem who are running like successful companies that they actually
+[45:36] don't love but they feel the debt of responsibility to their employees and their investors and it's
+[45:41] very hard to replace a founder's CEO so now they're like trapped so start a company but only if one
+[45:47] only if it's a company you want to keep okay uh it says we've got time for three more questions
+[45:54] um okay do uh do founders need to move to san francisco uh no this founder moved
+[46:03] from san francisco to start boom uh you know we uh i left san francisco and moved to denver
+[46:11] uh to put boom uh to put boom there because it did not seem feasible to build uh in the physical
+[46:18] world affordably uh at scale in the bay area uh that said i do think there's enormous benefit
+[46:24] in uh being surrounded by other ambitious people and there is there is no ecosystem uh
+[46:31] better than that than what exists you know here in san francisco so unless there let me put it this
+[46:36] way uh unless there is a specific reason why the the uh you should not be in an ecosystem you
+[46:43] should be in an ecosystem like think san francisco uh la austin uh be around other people that will
+[46:50] inspire you um but what i look for in a freshman or sophomore in college he doesn't have work
+[46:58] experience yet um side projects uh when i was something like 15 uh i got my first real software
+[47:09] job at what was probably the only software company in san francisco where i grew up uh because i
+[47:16] think because i did okay in an interview and i built some things on the side and they felt like
+[47:20] they just kind of had to give me a chance and uh at at boom we will um we will hire people early
+[47:27] career uh with no work experience but they have to have done something else that demonstrates
+[47:32] having been extraordinary so so if you if you want for example to come work at boom uh go to boom
+[47:38] supersonnet.com slash careers and there is a there's a job opening it's called your dream job and it's
+[47:44] basically go create whatever you want to go do but in in doing that you have to tell us something
+[47:49] extraordinary about yourself something that makes you really stand out and if you don't have work
+[47:54] experience yet uh just show the most impressive thing that you've built on the side and show
+[48:00] what pictures and that's how you can bootstrap yourself and i i find this is true of a lot of
+[48:04] good people that they find a way to do things that had normally young ages and so this notion of
+[48:09] like oh you have to be like a junior in college to get an internship nope that's baloney all the
+[48:15] best people have gotten internships way earlier than that and you can do it too um okay does work
+[48:22] life balance matter uh i think um i believe in work life harmony like this this notion that like
+[48:31] there's like life and work and they're somehow in opposition uh it doesn't doesn't make any
+[48:36] doesn't make any sense to me if you have meaningful work it is a big part of your life and the meaning
+[48:41] of your life and you know i i believe we spend so much of our you know so much of our energy doing
+[48:46] our work that we should find work that we love that that is meaningful that is not just punching
+[48:51] in and punching out um and i've i've never um i've never found that when there was one more thing i
+[48:58] wanted to like add to my life but i couldn't find a way to do it when i when i started boom um i had
+[49:05] three kids under the age of two and uh and you know it wasn't easy but i but i but i made it work and
+[49:14] you can have a family and be a good dad and be a good CEO too uh it's not easy but it can be figured
+[49:20] and uh and in fact i find that like doing you know being a parent and being a good CEO is very
+[49:26] synergistic sometimes i take a parenting lesson and uh uh and bring it bring it to work and find
+[49:33] it's the exact same leadership lesson at the office that was part of help help me with the kids
+[49:36] it's so cross pollinates all the time just do things in your life that your love don't let
+[49:41] detritus into your life uh don't let things that are not meaningful soak up your time and energy and
+[49:46] passion okay we are done all right well thank you all very much uh for coming and if i leave you with
+[49:52] just one thing go build something you love go build something that should exist in the world
+[49:56] leave this planet better than you found it thank you all very much

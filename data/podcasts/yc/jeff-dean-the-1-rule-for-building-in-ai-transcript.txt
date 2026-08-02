@@ -1,0 +1,565 @@
+Y Combinator Startup Podcast
+Jeff Dean: The 1% Rule for Building in AI
+Sat, 01 Aug 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/Jeff-Dean-The-1-Rule-for-Building-in-AI-e3mq28a
+
+[00:07] All right. Should we get started, Jeff?
+[00:10] Sure. Sounds great.
+[00:11] All right, Jeff. Welcome.
+[00:12] Again, thank you so much for being here,
+[00:14] especially I just got a cold and thank you for being here.
+[00:17] I'm afraid I've lost my voice.
+[00:19] I don't normally sound quite like this,
+[00:20] but we'll do what we can.
+[00:22] So, you built MapReduce,
+[00:26] big table, TensorFlow, the TPU,
+[00:28] Gemini, we could spend a whole hour on all the things you've done.
+[00:32] But what I love is that you're still making
+[00:35] bold predictions in public.
+[00:37] Last year, last year in May 2025 at AI Ascent,
+[00:44] you said that AI is at the level of a junior engineer.
+[00:49] That was about a year ago.
+[00:53] It's been, how close are we to that prediction?
+[00:57] Yeah. I mean, I feel like the models have been getting a lot better at
+[01:01] agent-based, longer-running coding tasks,
+[01:04] and it seems pretty clear that they are now actually pretty capable,
+[01:08] and depending on exactly your definition of junior engineering,
+[01:11] it seems pretty spot-on, I would say.
+[01:14] What did you underestimate from that prediction?
+[01:20] I mean, I think the ability to do more and more complex tasks
+[01:26] has been growing faster than I thought.
+[01:29] And I also think outside of coding,
+[01:32] these agent-based systems are really starting to shine in other domains.
+[01:37] And I think that's going to be an important trend in the future.
+[01:42] So, give us another bold prediction.
+[01:47] What do you think is going to be the 2027 edition?
+[01:51] I think you will see a lot more automation of ML systems themselves,
+[01:58] basically getting ML systems to improve their capabilities
+[02:02] by running lots of experiments, breaking things down into some problems,
+[02:06] running those sub-problems in a tight automatic experimentation loop,
+[02:10] putting the results together, and being able to then get some improved
+[02:16] system out from that fully automated problem decomposition
+[02:21] and automated experimentation that I think is going to be really exciting.
+[02:25] I think that also applies not just to ML, but also to other fields of science and engineering.
+[02:31] Basically, anything where you can have a measurable objective,
+[02:35] I think you can actually make a lot of progress these days.
+[02:39] Now, let's go back to a little bit in history.
+[02:42] Way back in 2001, Google Search used to run on hard drives.
+[02:49] And you and Sanjay did the math and realized that at some point the whole search index
+[02:55] would finally fit in all of the RAM of all the computers you had running.
+[03:03] And you made that radical realization.
+[03:07] And you basically in a few days with Sanjay shipped in production,
+[03:11] a whole new search version that worked in RAM rather than hard drive.
+[03:15] And that was the thing that got Google to be so fast, Google searches.
+[03:21] So history tends to remix.
+[03:25] What is the, it fits the memory moment right now in 2026 that everyone in this room
+[03:32] is still should be thinking about and designing.
+[03:36] Yeah, I mean, it's a little different, but I think you're going to see more and more
+[03:42] high performance and low energy inference hardware systems.
+[03:50] Because I think everyone is now realizing that inference is the key to making these agent-based
+[03:56] systems be available to more and more people and that latency is really important and that
+[04:02] specialization of the hardware is a really key way you can make things that are more energy
+[04:08] efficient and lower latency than more general purpose computational devices like say GPUs or
+[04:14] TPUs. Because I think all everyone here is used to waiting for responses on models.
+[04:21] Yeah, waiting is no fun. Master speed. So you're saying what if we don't have to wait anymore?
+[04:30] Yeah, I mean, I think we'll imagine what you could do with something where the latency is
+[04:35] 50x better. Interesting thought. Now, what's one assumption that perhaps
+[04:43] 6,000 people in this room hold us already false about AI? Yeah, that's a good question. I think
+[04:55] probably one thing is people don't quite realize how possible it is to have
+[05:00] agent-based systems that can run not just for an hour or two hours on a problem you care about.
+[05:07] But for some problem domains and with highly capable models underlying them,
+[05:11] you can get them to run for days or weeks and do really, really complicated tasks. And I think
+[05:17] that's starting. Some people are starting to see inklings of this, but I don't think everyone has
+[05:23] really internalized this. And that's going to be really a pretty big deal.
+[05:27] What's a particular task that you have run that has run for weeks? What did you tell the agents to
+[05:34] solve? Yeah, I mean, I think you can tell agents to go off and implement
+[05:44] completely new versions of software in any different programming languages. It might be have
+[05:49] better safety properties or better performance properties that and then they can go off and
+[05:54] actually do that in a pretty serious way. That's pretty cool. Now, one thing that you've been very
+[06:03] well known for is you're really good at napkin math. Sounds funny. So one of the stories about you
+[06:10] is that back in 2013, when speech recognition started to work at Google, you did the napkin math,
+[06:19] where if every Google user used their phone and talked to it and used the speech recognition system
+[06:26] for just three minutes a day, you found that the system requires a Google server, you would have
+[06:32] to double the fleet, which would be really, really expensive just to do speech translation.
+[06:41] Instead, you basically built a custom ship, and that was the origin story of the TPU.
+[06:48] Yeah, I mean, I sort of had done, we were starting to see really good
+[06:54] quality results on the sort of deep learning based speech models we were training. But they
+[07:02] were computationally expensive compared to the old speech system, but they have the error rate.
+[07:06] So that was like the equivalent of 20 years of advances in speech recognition in just a few months
+[07:12] of fiddling with the modeling and scaling it up a bit and getting better data. And so we started
+[07:19] to get worried that if speech worked a lot better, people would use it more. And so that back
+[07:24] of the envelope calculation was really about that. Well, what if people start to use speech recognition
+[07:30] more to dictate emails or to talk to their phone or whatever. And yeah, it turned out that
+[07:39] we realized that we needed some better solution than running on CPUs at the time.
+[07:45] And so we came up with TPUs, which are sort of very specialized for essentially low precision
+[07:51] dense linear algebra, which is at the heart of nearly all of the modern machine learning algorithms
+[07:56] we use today. And if you build a specialized chip for low precision dense linear algebra and can't
+[08:04] do anything else, that turns out to be really useful for machine learning inference, even though it
+[08:09] can't run Chrome or Word or whatever. And so that system produced a chip a couple of years later
+[08:15] that was 30 to 80 times more energy efficient than CPUs and GPUs of the day. And also much,
+[08:24] much lower latency, like 20 to 30x lower latency, which is incredible what the foundation that TPU
+[08:31] has become today. No way you would have predicted that TPU would be so foundational now with
+[08:36] transformer architecture, which was invented way later before you actually invented the TPU.
+[08:41] Yeah, I mean, that's sort of why we built a general purpose linear algebra system,
+[08:46] which is what a TPU is really. Because we knew ML algorithms were still evolving,
+[08:52] and you didn't want to over specialize, but you wanted to specialize enough that you got
+[08:57] the dramatic performance benefits of we could have very big multiplier units. We could have high speed
+[09:04] memory, we could have high speed interconnect or later TPUs that like brought many, many chips to
+[09:09] bear on the same problem efficiently. And we continued to scale those up and improve the performance
+[09:17] for over many, many generations without. Incredible napkin math. So what's it?
+[09:23] Napkins are good. So actually, what's a good napkin math that everyone here wants to be a future
+[09:31] founder should run tonight to potentially build something as consequential as the TPU?
+[09:38] Yeah, I mean, it's always hard to say. I think, think about what problems you see and whatever it
+[09:49] is you're thinking about, what what bottlenecks you see. And are there very different ways of
+[09:55] thinking of the solutions to some of those problems that would get you, you know, in order of magnitude
+[10:01] or towards and magnitude better performance or capability or whatever it is, you know, because
+[10:08] sometimes if you just squinted a problem and you think about not necessarily being anchored on
+[10:14] exactly how that problem is solved today, but how you would solve it from first principles,
+[10:19] you can come up with really good ideas that are, you know, maybe not what other people are thinking
+[10:23] about. That's a good tip. No, for everyone here who doesn't know, years ago, Jeff wrote a very
+[10:32] famous list called the latency numbers every engineer should know. And these are numbers around,
+[10:40] for example, how long a cash mistakes, a disk, seek, a network package traveling, let's say from
+[10:48] California to Netherlands, lots of numbers like this about distributed systems and systems
+[10:54] engineering. And it's been sort of taped and become the bible for a lot of distributed systems
+[10:59] engineers. Okay. Now fast forward, that list is up for an update. Give us the AI edition for now
+[11:08] 2026. Yeah, I mean, I think if you looked at what is important in AI systems these days,
+[11:14] you would want to know things like the bandwidth between, you know, your main memory system on your
+[11:21] accelerator to the on chip memory to the, you know, the multiplier unit or whatever, you want to know
+[11:29] how much energy does it take to do a single multiplier operation? You know, what is the
+[11:36] interconnect bandwidth between chips and how much does that, how many chips can you connect with
+[11:42] that bandwidth? And then if you go beyond that domain, like, what is the fall off in, in network
+[11:49] bandwidth when you need to talk to 10,000 chips instead of, that of 500 or something. I think these
+[11:56] are all really important numbers to learn and really affect how you think about solving
+[12:02] particular kinds of problems. And one interesting thing that I've heard you talk about is that
+[12:09] nowadays, the unit that you measure everything is energy. Yeah, you pointed out that doing a
+[12:17] calculation or math costs about one people drill. But moving the data and doing data IO costs 1000
+[12:24] times that. Yeah, just bring it in from HPM on an accelerator into the browser so it can actually
+[12:31] compute on it. Yep. That gap kind of quietly decides what products are possible and how these
+[12:38] algorithms and AI are built. So, what are the kinds of problems that founders keep calling
+[12:45] model problems, but are in fact actually energy or data IO problems? Yeah, I mean, I think the
+[12:53] example you raised of 1000x difference in bringing moving data versus actually computing on it in
+[13:01] terms of energy is a pretty significant one. And it shapes a lot of aspects of what we do in machine
+[13:06] learning. Because if you didn't have that 1000x difference, then you wouldn't have to do
+[13:13] batching. But you have to do batching of many examples or maybe many tokens at once in order
+[13:20] to amortize that data movement so that you can not pay a 1000x slowdown, but pay a 1000x divided
+[13:28] by batch size energy cost. And you know, for really low latency, batching is not really good.
+[13:38] So I think these kinds of things and the energy behind various decisions in the computer hardware
+[13:44] we use really affects a lot of decisions we make in building higher level systems.
+[13:51] A very concrete example is just how training models is done. There's this whole concept of
+[13:57] batching, the data sets and running epochs that's basically people perhaps may confuse that as a
+[14:03] model problem, but it's really a systems data IO problem, right? Yeah, I mean, you have to assemble
+[14:10] batches to get better efficiency in your hardware. You know, ideally you might do batch size one
+[14:15] training, but you know, it's not as not as good in terms of efficiency. So people use
+[14:23] these pretty large batches. Do you think it's possible for, I know you're well known for taking
+[14:30] off on a long weekend and coming up with this brilliant solution. Is there such things of
+[14:35] Jeff Dean going and working on it for a couple of weeks and getting batch size equals one training done?
+[14:43] Yeah, I've been thinking more about inference actually. So I think inference is a pretty interesting
+[14:47] problem because you do want very low latency. You know, training you don't necessarily need
+[14:53] incredibly low latency. And I think there's a lot of room for specializing hardware more for
+[14:59] inference than we are today. What are some of those interesting things that are on inference that
+[15:04] you're really thinking a lot about? I mean, just trying to minimize data movement,
+[15:10] trying to think about incredibly low precision operations, and maybe not supporting lots and lots
+[15:19] of different kinds of decisions. If you feel like you have a good answer for what kinds of
+[15:26] precision you need, maybe just build that into the hardware and not much else.
+[15:32] Which I think it brings down to a core analogy I heard from famous computer scientists that
+[15:40] really the whole process of AI is a big compression problem. Because in order to
+[15:47] have the data to be fully lossy and compressed and then restore it, you basically need to
+[15:52] understand it. Yeah, I mean, if you truly understand the data, you should be able to compress it really
+[15:58] well. And now transformer architecture is basically one of the ways that has turned out to work really
+[16:05] well. Yeah, I would say, working pretty well so far. Good work by my colleagues.
+[16:11] Yes. Now let's zoom out a bit. AI progress used to mean just better models. You had more data,
+[16:19] train, bigger models with bigger parameters. But increasingly in the last years or so, it's
+[16:26] everything around the model, not just the model size and number of parameters or more data.
+[16:30] It's everything around things like trivial tools, memory, agent tools. And it might kind of get
+[16:37] consolidated into what people call context engineering, right? Yeah, I mean, I think
+[16:44] the model is really only one piece of what you're trying to do, which is build an overall system
+[16:49] that can solve really interesting problems. And that involves a model that knows how to use
+[16:56] various tools, it maybe knows how to retrieve relevant information, maybe has a history of other
+[17:04] information that has retrieved for past problems. And it can put information into the context of the
+[17:12] model. And the nice thing about that is that information is really clear to the model. Unlike
+[17:18] the training data, the model is trained on where it's all kind of like trillions of tokens stirred
+[17:23] together into a soup of hundreds of billions or trillions of parameters. But it's all less clear
+[17:30] than the actual context that the model sees directly for this particular problem or use case.
+[17:37] And then I think being able to understand what tools are available, which ones are going to help me
+[17:44] solve the help the model solve this next phase of the problem, how to decompose a problem into a
+[17:49] sequence of tool calls, maybe trying multiple approaches to solve the problem and seeing which
+[17:55] ones work and be able to evaluate that. This is the whole orchestration of complex agent and
+[18:03] multi-agent systems that I think is going to be more and more important and super exciting times
+[18:10] And I think the fun thing about this particular problem domain set is actually something that
+[18:14] everyone in this room can actually do. Because before to train a model, you needed an incredible
+[18:19] amount of resources, an incredible amount of access to GPUs and data, but for context engineering,
+[18:25] everyone here could do it. You have to just meet the API to something like Gemini and then work on
+[18:31] your own setup for your own retrieval, your own tool calls, etc. So what are some tips for
+[18:39] everyone here? How does everyone get better at and become exceptional at context engineering?
+[18:47] Yeah, I mean, I think a really good way to do it is to use these models and sort of harnesses
+[18:55] and tools and so on to try to solve problems. And then sometimes you can actually see where
+[19:00] the models are failing. And often you can actually make the model work better and succeed at that
+[19:07] kind of problem by not just adjusting the model parameters, which is hard to do from the outside,
+[19:13] but from creating better guidelines for the model, writing skills for the model to know how to use
+[19:20] different tools that would be incredibly useful for solving this particular class of problem.
+[19:25] And I think as you do that, you end up on this kind of improving, self-improving of the setup that
+[19:32] you're trying to use to solve things. And that's a really good way to get better at understanding
+[19:41] what additional information the model would want in order to become more capable.
+[19:46] Can you give an example of some context engineering you personally have done?
+[19:51] I don't know, skills you wrote, tools that really made a huge difference in your workflow?
+[19:56] Yeah, I mean, I guess Sanjay and I were working a few weeks ago, and we often do some amount of
+[20:03] performance improvement for very low-level libraries. And we have a microbenchmark library
+[20:10] we've written at Google where you can write microbenchmarks of how long different kinds of operations
+[20:16] take or how long does it take to populate this data structure or whatever. And sometimes those
+[20:20] data structures are used on millions of processes across Google. So it's actually pretty important
+[20:26] to make sure they're high performance. And so you can write microbenchmarks. But then,
+[20:31] without an agent-based system, what you usually do is you measure what the current performance
+[20:36] is on some benchmarks you care about. You make some modifications to improve the performance
+[20:42] you hold. Then you rerun the benchmarks, see where things improved. You run maybe a broader
+[20:49] set of benchmarks, measure the cache footprint of things. And so we wrote a skill that basically
+[20:56] taught the model how to do most of those things in various sequences so that it could actually
+[21:02] do self-improving benchmark measurement, benchmark improvement code changes, measure the performance
+[21:08] improvement, and then iterate on that. And that seemed to work pretty well for some kinds of problems.
+[21:14] And it really just is us giving the approach we would use as people to the model in a form that
+[21:22] it could use. Wow, that seems very impressive. So you're saying you have this skill that if someone
+[21:27] got access to it, it could do perform optimizations like Jeff Dean. Seems like the world would love
+[21:35] this and it's worth an infinite amount of money. Do someone have access to it?
+[21:39] Oh, we actually published a document maybe a few months ago called performance hints.
+[21:44] That's on there and I wrote that's like a 30 page document about various kinds of performance
+[21:49] tricks. And some people have taken that and then given it in summarized form to various models and
+[21:55] seemed that model can now get better at reasoning about performance issues and code.
+[22:01] So you heard it all here. You could actually get your own, optimize your own code like Jeff Dean
+[22:06] if you take this paper that you publish when performance hints. It's all free available.
+[22:11] So you should all try it. Very cool. Now we're talking about agents. Everyone here is probably
+[22:16] building one or built one at some point. And I'm sure everyone has seen your agent go off the rail
+[22:23] at perhaps like step 30 or 40. Like agents are great for like up to step, I don't know,
+[22:28] 10 or something and then get shaky at step 50. What do you think is the constraint today? Is it
+[22:33] like contact contacts evaluators or just errors that compound because it's basically an open-loop system?
+[22:41] Yeah, I mean, obviously we want agents to be able to run for very long periods of time because
+[22:46] that's how they're going to solve more and more complicated problems. But as you observe today,
+[22:53] they sometimes stop working after 10 interactions with tools and so on. And sometimes that's because
+[23:03] the model is trying to do something. It doesn't have a lot of experience doing. So it's been
+[23:08] trained on a whole set of things. And as soon as you get a little bit off the distribution of
+[23:12] things it knows how to do, then like most machine learning models, its performance will suddenly
+[23:19] will start to degrade. And the farther you get off the comfort zone of what it knows how to do,
+[23:25] the more likely it is to not work as well. So there's a bunch of things you can do. So one is,
+[23:32] you know, give the model skills and hints that kind of tend to keep it in the
+[23:38] sort of more brightly lit path of things that does know how to do. I think having multi-agent systems
+[23:44] where you have multiple agents trying different approaches and you can evaluate,
+[23:48] you have maybe another model or another agent that's evaluating which ones of those seem promising
+[23:54] is another way to kind of, in some sense, search the path, search the face of possible solutions
+[24:03] and stick to the ones that seem most promising and discard the ones that didn't seem to work
+[24:10] or maybe that went off the rails or whatever. And that's a very, very useful general technique
+[24:15] is, you know, inference time compute to perform search over plausible ways of solving the problem
+[24:22] that can get much, much higher performance or much more reliability in long-running agent flows.
+[24:29] How are some ways you implemented this particular workflow for your agents internally?
+[24:35] Yeah, I mean, we have, you know, harnesses and then we have a whole set of skills,
+[24:41] particularly in the internal Google development environment. We have skills so that the agents
+[24:45] can know how to use lots of our internal tooling for coding or for code reviews or for, you know,
+[24:52] measuring performance or, you know, fetching log files. And those are just skills that you can
+[24:59] add to make the base model more capable, even though it hasn't necessarily been trained on
+[25:03] exactly the way that, you know, Google internal engineers would fetch log files from our,
+[25:11] you know, proprietary system with the right kind of skill definition, you can actually get it to work.
+[25:17] And that improves the usefulness of the agents.
+[25:21] Now let's talk about where startups can win. This section is one that I personally care a lot about
+[25:29] because also everyone here in this room needs to decide what to build in the future of your
+[25:34] future founder. So the thing about Google is you could design everything on the system from
+[25:41] the processors to the products. Which are the layers that someone like Google would keep building
+[25:49] and compounding being better and where does a two, three person team can still win?
+[25:56] Yeah, I mean, I think, obviously, Google and our Gemini models and our hardware infrastructure
+[26:03] are really trying to build very general models that can do almost anything. But in a lot of cases,
+[26:11] that means that we don't have a lot of attention on particular domains where perhaps a really well
+[26:18] designed surface that and maybe a model and set of skills or maybe a specialized model
+[26:25] that isn't in sort of the general mix of things that our models do well and actually have a
+[26:32] significant advantage. Because you can build something delightful and, you know, really high accuracy,
+[26:37] really high quality for a domain that you are really passionate about. And I think that's where,
+[26:44] you know, the two or three people in a room building that that they're really excited about
+[26:50] can have an advantage. But I would also caution that the general models are definitely getting better
+[26:57] at a broader and broader range of things. So you have to figure out, you know, is that
+[27:02] thing you're working on? Is that going to be a durable thing? Or do you think the models
+[27:07] at the forefront are going to get better at that in the next six months or 12 months? Or is it
+[27:12] something they're not going to be able to do for a couple of years or three years? And you know,
+[27:17] you want to weigh that as you're as you're deciding what to work on.
+[27:21] So let's dive deeper into this. So the general models, of course, you're going to keep working
+[27:26] on and keep making them all better. And how should the audience reason about what are those areas that
+[27:33] it doesn't? I mean, how should founder think about things to pick on and work on?
+[27:40] Yeah, I mean, I mean, the most important thing is to pick something you're super excited about
+[27:44] and want to build and you think would be useful in the world, right? So if you do that,
+[27:50] that's you're already way ahead. Then if you wake up and you're like, oh, I don't really want to do
+[27:55] this or whatever, or you're going to build something that is actually not that useful to the world
+[28:01] or to many people. So I think that's the number one selection criteria I try to apply for
+[28:09] what problems should I work on next. Second, I think you want to look at what the current
+[28:16] more general models can do in that problem domain, right? You can test them with like,
+[28:22] are they able to do this thing very well? And if they're completely failing, that's probably a good
+[28:28] sign. If they're kind of able to do some of it but not very well, that's maybe not a great sign
+[28:34] because that's probably a sign that the capability is starting to be present in those models. And
+[28:41] with more training data or larger scale models or whatever, it's likely to get better. So you
+[28:48] know, look for something where the model succeeds 0% or 1% of the time, not 20%.
+[28:54] How do you find those? I mean, are those things effectively
+[28:58] out of distribution from the training set? And what exactly is the problem shape that fits that?
+[29:04] Yeah, I mean, I think sometimes it's a product that you build that might have
+[29:11] access to particular kind of data that the underlying model might not, on general model.
+[29:16] So it might be you're building something to help users organize all their own personal information
+[29:21] and the model won't necessarily have access to that. And so there you can have a big advantage
+[29:26] because all of a sudden your model has visibility or your product as visibility into
+[29:32] important data. It could be some incredibly hard problem where if you get the right training
+[29:40] data and you can train a more specific model than a general purpose one, you can actually do that
+[29:45] in a very affordable way. You maybe doesn't take that much compute to train a niche model
+[29:50] for this particular problem, but you can get something as highly accurate. That can sometimes be a
+[29:55] really good building block for solving a important problem that is maybe not handled very well by
+[30:03] the general model. I think that's interesting. I think you're personally two paths. The first path
+[30:07] is a little bit funny is you guys are organizing the world's information. That's probably well
+[30:14] covered. But organizing your personal information that's open, which is funny. And then the second
+[30:22] path, you talked about more specialized models in certain domains. Can you tell us more about
+[30:28] what are some of these domains? Yeah, I mean, I think like if you look at my colleagues work on
+[30:34] the alpha fold, that was a very specific model for protein folding. And it was highly successful
+[30:41] and was able to really handle that domain quite well. So then all of a sudden you now have this
+[30:46] amazing tool and model that can give you answers to questions about proteins and their structure
+[30:53] really effectively. But it's not a general model. It's a very specific one. And there are other,
+[31:00] I think, domains where that kind of approach can work really well, maybe in material science or
+[31:06] chip design or things like that, that will enable you to leverage the capabilities of a very accurate
+[31:14] but niche model to do things that are hard today. Those are good examples. So if some of you find
+[31:21] a problem that's similar shape like alpha fold could be a good problem to work on, now let's
+[31:25] assume you found a problem to work on. We're going to talk a bit about how do you become an
+[31:30] AI native founder? How do you really become good at it? You in the past said that managing a fleet
+[31:36] of agents is like 50 or 100 agents is all about writing really good crisp design,
+[31:42] docs or specs. And how do people get good at that? What do those look like?
+[31:49] Yeah, I mean, I think it's you'll have a lot more success when working with your virtual agents
+[32:00] if you can clearly specify what it is you want. And the clearer you are and what it is you want,
+[32:05] the more the agent will have sort of guidelines and rules of, you know, an outline of what it is
+[32:12] trying to accomplish. Whereas if you don't specify very much stuff, the agent has to sort of infer
+[32:18] what it is you meant. And in many cases, it might infer things that are different than what you
+[32:23] imagined. So we've always told computer scientists from the very beginning that really it's really
+[32:28] important to specify what the software that you're writing is trying to accomplish before
+[32:34] then going and writing it. And so now we actually have agent-based systems that can do the writing,
+[32:39] but the importance of specifying what it is you want has actually gone up. Because before,
+[32:46] you'd be handing it off to a very intelligent human who maybe has contacts or can ask you follow
+[32:51] up questions. And agents can sometimes do that, but I think clear specifications is a really good
+[32:58] idea. And to give you an example of a use of a coding agent that works extremely well
+[33:05] is you can ask today's models to translate software from one computer language to another
+[33:12] very effectively. Because in that case, you actually have a incredibly detailed specification of the
+[33:19] whole software that says what the system is supposed to do. And so if you have a Python
+[33:24] implementation of something and you want a Go implementation of it, that is something that the
+[33:29] models seem incredibly capable of doing these days. Because it can sort of take all the tests
+[33:35] that are in Python, make sure they pass in the Go version, translate the test to Go, compare
+[33:42] behavioral differences between the implementations until there aren't any. And be highly effective
+[33:48] because that spec is so clear. Now, let's assume now every founder gets good at running hundreds
+[33:54] of agents at the same time. And all the code is written for them by the agents. What becomes the
+[34:00] scarce skill? Yeah, I mean, I think it's really having incredibly good taste in what you ask your
+[34:09] agents to work on, right? That is the crux of, you know, from my background, a research problem,
+[34:17] you know, a researcher can have all the tools and all the techniques. But often most of the battle
+[34:23] is what problem are you gonna spend your time on? And if you pick the problem well, and you succeed
+[34:30] in solving it, that's way better than if you, you know, delightfully execute a research
+[34:38] investigation into a rather boring problem. And so that high level wisdom of what to work on,
+[34:44] I think is incredibly important. I think models are not necessarily going to be that good on it.
+[34:48] So you're going to have people steering a lot of AI assisted computation in order to accomplish
+[34:58] great things and more quickly. But that essence of what it is you want your models to do is the
+[35:05] key thing you should focus on. So let's talk a bit more about taste because it gets talked a lot
+[35:11] about right now in this current era with agent decoding. How do you exactly build taste and
+[35:18] do that? I mean, yeah, that sounds so esoteric. How do you make it concrete?
+[35:23] Yeah, I mean, it is a difficult thing. It's not like there's a measurable
+[35:28] perspective of taste in a lot of cases. I think some of it is from experience, you know, working on
+[35:35] a lot of different problems in the past kind of teaches you about what kinds of problems might be
+[35:41] interesting in the future or what kinds of things might be just barely possible by cobbling together
+[35:48] these previous approaches. And then some open problems you might have to work on in order to get
+[35:54] to something kind of magical or, you know, highly useful. Another way you can get more experience
+[36:02] for yourself is to just write down a bunch of things you think might be important in the next
+[36:07] 12 months. And maybe you pick one of them to work on, but go back and evaluate in 12 months
+[36:15] of these other things, which ones actually seemed important or which ones did other people in the
+[36:20] world go out and create and which ones that they did not seem to do yet. That can give you a lot
+[36:27] more samples for your own sort of taste creation capability. And that's an important skill to have.
+[36:35] I think a third way we were talking earlier was doing very crazy thought experiments.
+[36:42] Oh yeah, that's another good way. I mean, I think sometimes it's good to
+[36:49] not take as a given things that most people seem to take as a given.
+[36:55] So I was doing a crazy thought experiment with some colleagues the other day about,
+[37:00] you know, for 60 years, the whole silicon chip design industry, design and fabrication industry
+[37:10] have done tremendous work to make smaller and smaller scale transistors that are
+[37:18] very low error rate, right? Like, because what the assumption that we want is that every chip we
+[37:25] manufacture of the same design should be identical to every other chip. You don't want any bits to
+[37:30] flip everything? No bits should flip. There's all kinds of things. There's all kinds of error
+[37:35] margins built into, you know, memories, have ECC memory these days. You know, at the macro scale,
+[37:43] we don't make that assumption when we're building large scale distributed systems.
+[37:48] Right? We build reliable large scale distributed file systems out of unreliable parts, right?
+[37:55] Like individual disks can fail, but your data should be safe. And so we have mechanisms at higher level
+[38:01] to enable us to have, you know, three copies of the data on three different machines and
+[38:06] three different racks, so that if any racks switch or individual machine or disk fails,
+[38:11] you still have your data. We have read Solomon encoding techniques.
+[38:16] But we don't seem to do this at a really extreme level in the sort of transistor level scale of
+[38:25] the technology we're working on. So what would have, basically, an interesting thought experiment is,
+[38:30] what would happen if you tried to build a system out of transistors that might have, you know,
+[38:36] 20 errors per day, rather than one every million years, right? That would be a very different
+[38:43] design point and might be might enable you to do really interesting things in the fabrication side
+[38:48] of things. You have very different kind of design methodologies, because if you want to get a signal
+[38:53] from here to there and you have these super unreliable transistors, you might have very different ways
+[38:59] of signaling. You might send it along multiple redundant paths in order to make sure that it gets
+[39:04] along one of them. And I think that would be a pretty interesting set of thought experiments.
+[39:09] I'm not saying we should go do this, but you know, that's the kind of thing where you do want to
+[39:14] you know, occasionally question assumptions. Now, oftentimes these thought experiments
+[39:21] don't work out because they're very good reasons that, you know, for the last 50 years, we've done
+[39:26] this thing this way and not that way. But it's good to kind of revisit those every so often.
+[39:32] That is so wild. I mean, it's starting to rhyme a lot with neuromorphic computing or the human brain
+[39:38] and how nature works. I mean, exactly, like signals in our brain are not especially reliable from
+[39:43] getting one place to another. And so I think in brains when there are really important things
+[39:49] they need to get from one place to another, there are multiple pathways that enable you to sort of do
+[39:54] that. What is in, I mean, you have such an impressive career. What is one of these crazy assumptions
+[40:01] that you threw out of the window that actually built a consequential system in the past?
+[40:09] Yeah, I mean, I guess that worked out actually.
+[40:13] Yeah, I mean, I think, well, TPUs is a good example. Like being able to
+[40:17] specialize hardware for a very niche problem domain before that problem domain seemed as important as
+[40:23] it is today is one thought experiment. You know, I think the origin of MapReduce is another good
+[40:33] example. We had worked, you know, Sanjay and myself and a number of other colleagues had worked
+[40:40] on various iterations of the crawling and indexing system at Google. And, you know, we've sort of
+[40:47] written lots of hand paralyzed code with lots of checkpointing to make sure it would be robust
+[40:52] and reliable if it was running on 100 computers with housing computers and some of those died.
+[40:58] But that code tended to be intermixed with the actually relatively simple thing you often were
+[41:05] trying to do. Like, I just want to like look at all the contents of all the web pages and then
+[41:11] compute on the side mapping from URL to, you know, what language is this page in? It's the text
+[41:17] in this page. And it would get obscured by all this kind of other code for parallelization and
+[41:24] reliability. And so we sort of remembered our training in functional languages and realized we
+[41:30] could squint at those problems and develop this MapReduce abstraction that you could have above
+[41:36] this implementation. And then below the implementation, you could put all the checkpointing and reliability
+[41:44] mechanisms into that lower level library that everything could then build on. And so that
+[41:49] became a hugely successful way of dealing with very large-scale computations at Google in a
+[41:55] robust and reliable way from that broad experiment of like, well, if we squint at it,
+[42:00] could we find lots of problems that fit into this abstraction?
+[42:03] That's impressive. So this thought experiment led you to create MapReduce. Awesome. Now,
+[42:10] let's go back to you. You talked a bit about your interest right now working on a lot of customized
+[42:16] hardware. So right now, alpha chip lays out chips. Now you also got alpha evolve that proposes
+[42:23] solutions, evaluates them and keeps all the ones that work. Seems like you're starting to build
+[42:27] all these systems that can compound and build AI that builds AI.
+[42:32] Yeah, I mean, I think more generally there's this sort of the foundation of the scientific
+[42:40] method of you propose an experiment, you implement what you need to run the experiment,
+[42:47] and you evaluate the experiment, and then you get results from that. And I think there are more
+[42:52] and more problems that are now possible to implement where that whole loop of running,
+[42:59] you know, not just a few experiments, but running many, many experiments because you're able to
+[43:03] automate that loop and make the latency of that loop extremely low is going to be really,
+[43:08] really important. It's going to enable us to tackle, you know, lots of different problem
+[43:12] domains and science and engineering and machine learning model design itself, and also in engineering
+[43:21] tasks like designing chips. And so if you can actually do those things in an automated way and
+[43:27] have some orchestration framework that can take very high level objectives and break them down
+[43:34] into sub problems. And each of those sub problems can be one of these automated
+[43:38] loop that is exploring the best way to solve that sub problem. And then a orchestration
+[43:44] framework that can put together sub problem solutions into a, you know, the overall solution
+[43:51] for the higher level problem, that's going to be really impactful. And it's really,
+[43:55] really important. And I think it'll enable us to do, you know, accelerate machine learning progress.
+[44:02] It'll enable us to accelerate science and enable us to accelerate engineering. And I think that's,
+[44:07] that's going to be amazing. That sounds awesome. I mean, it sounds like a lot of fields basically
+[44:11] where you can have very good evaluators and maybe adjacent to basically things that can be
+[44:17] formally verified, right? Those are ripe for AI systems that can self improve.
+[44:22] Yeah, I think in a lot of cases, sometimes your evaluators need to be made much faster.
+[44:28] So as an example, my colleagues did some work maybe a decade ago on some problems in quantum
+[44:36] chemistry, where you're trying to understand the properties of a particular molecule. And you can,
+[44:42] you know, generate some molecule configuration, and then you want to understand what properties it
+[44:47] has. And so you can run a very computationally intensive density functional theory simulator,
+[44:53] which is something that might take like a night of computation to tell you the answer for one thing.
+[45:00] But what my colleagues did was take a bunch of output from those simulation runs, the input,
+[45:08] molecule configurations, and the outputs of the expensive simulator, and then use it to train a
+[45:14] neural approximation to the simulator. So this is now a validation device. But instead of it taking
+[45:22] a night, they made something that was 300,000 times faster and nearly as accurate as running
+[45:28] the full scale simulator. So now that completely changes how you would do science, right? Because
+[45:34] now you have 10 million things to screen, you know, you could do that while you go to lunch,
+[45:40] rather than it being a six month endeavor, where you could try to scrape together enough compute
+[45:45] to run all these simulations. And I think there's a lot of room and a lot of domains for
+[45:52] much faster validation models, possibly learned validation models that can, you know,
+[45:59] get you a approximation to the true answer much, much more rapidly. And that changes how those
+[46:05] experimental loops can be thought of, and how quickly you can go around those loops.
+[46:09] What are some of the spaces and problems that you're super excited that this super sped up
+[46:17] scientific method is going to solve or achieve what particular problems are spaces?
+[46:23] Yeah, I mean, I think, well, clearly machine learning itself is one. So can we have a model
+[46:32] that is able to recursively self improve itself by running lots of experiments? And, you know, if
+[46:38] you think about how models are improved today in large research teams, you know, what usually
+[46:44] happens is people think of some ideas, they run a bunch of small scale experiments, they see if
+[46:49] those small scale experiments worked out well, if so, they take the most promising ones of those,
+[46:54] they try them at larger scale, and that gets then evaluated, and then the results get integrated
+[47:00] together into, you know, a new recipe for your model. But I think there's no, you know,
+[47:09] real impediment to making that be a much more automated loop where the model itself decides
+[47:16] it's going to explore, or maybe with a nudge from some people at the various highest level,
+[47:21] like, oh, why don't you try some new ideas around model architectures that incorporate this?
+[47:27] And then it will go run lots of experiments, see which ones work, and then those will get
+[47:31] incorporated at a much more rapid rate. And, you know, effectively, you want to optimize,
+[47:38] you know, your discoveries per unit of compute input. Very cool. Now, going back to the room,
+[47:48] as all of you will become at some point founders or start your careers, you will probably collect
+[47:54] lots of rejections. That will happen. It has happened to you too, Jeff. I mean, there's a story
+[48:01] that in 2014, you with Jeff Hinton and oil, vinyls, wrote a paper on distillation, which has to do
+[48:13] with taking a big teacher model to train a much smaller and more efficient model that's a lot
+[48:21] cheaper to compute less model parameters. And it has become a trick that everyone is using right
+[48:28] now in industry. Yeah. And the thing is this paper got rejected at NeurIPS.
+[48:35] Yeah, I mean, yeah, I mean, I think I don't fault the program committee because, you know, a lot of
+[48:42] times a paper gets three reviews and someone will look at one of the reviewers will look at it.
+[48:48] And in this case, they said, oh, it's unlikely to have significant impact.
+[48:51] Unlikely thinking of an impact. But, you know, I think, you know, when we wrote the paper, we actually
+[48:56] saw this was a super important problem because we knew making cheaper, highly capable models from
+[49:03] larger scale models was something we desperately wanted to do because we wanted to serve models
+[49:08] to more and more people in many different domains, like speech or vision. But, you know, sometimes
+[49:13] the reviewer maybe didn't have that experience because maybe they're not thinking about
+[49:19] large scale AI services and are thinking about, you know, is this a fundamental advance.
+[49:25] So, so, you know, it gets rejected every so often. That's fine. We put it on our kind of people
+[49:30] Reddit, people use it. It's all good. And we, you know, we do use it in making our flash models,
+[49:37] for example, from our larger scale program model is partly why our flash models, for example,
+[49:42] and Gemini are so capable of their size and speed.
+[49:47] They're some of the best in the benchmark for the model size class.
+[49:50] Yeah. Just impressive. And I think part of the lesson is that even if you get rejected,
+[49:55] keep going. Yeah, that's that's the lesson I would distill from that.
+[50:02] Now, I think the fun thing is that you basically join when you when you join Google is a 20
+[50:06] person startup back in 1999. Now, if you were to take the young Jeff Dean from way back then
+[50:14] to tele transport him to now today, in this era with your skills,
+[50:20] I'm feeling so vigorous and young now.
+[50:25] What would you do? Do you join a frontier lab, start a company? I don't know. What would you
+[50:31] do? The Jeff Dean today, 25 year old Jeff Dean?
+[50:36] Yeah, I mean, it's always hard to say and it's a very personal choice of what it is you want
+[50:42] to spend your time on. To me, some of the most important questions are are you going to work
+[50:51] on something you really care about? Will you're working on that? And if you're able to make progress
+[50:58] on it with a bunch of colleagues you like working with, if you're able to make collectively solve it
+[51:04] or make progress on it, will that make a difference in the world in some positive way?
+[51:09] Right? Like, will you suddenly be able to do something and offer that service to,
+[51:14] you know, pretty maybe it's a very niche thing, but it will tremendously help biochemists or something
+[51:20] or maybe it's a broader thing and it'll help programmers or it will help all consumers
+[51:26] on the internet or or other things. What you're, you know, what you should strive to do is to
+[51:33] have impact in the world that is positive and to work with people you enjoy working with
+[51:38] and to, you know, work hard and do your best. So in terms of, say, the particular trade-off you
+[51:47] offered, joining a Frontier Lab versus, say, starting a company with just one or two or three of you
+[51:53] and your close friends, I think those are different experiences, right? In a large established
+[51:59] organization, you have some structure, you have lots and lots of amazing colleagues who know lots of
+[52:06] things you don't, you have lots of interesting problems that you can work on and you already
+[52:15] have a platform for impact by your work, you know, influencing lots and lots of people in the world
+[52:20] already. And then as a very small startup, you know, you have to have something you're passionate about
+[52:29] and there's a lot of risk in taking on, you know, working on that particular problem in a way
+[52:36] that you're going to succeed and you're going to grow, you know, an endeavor in order to do that,
+[52:42] but that can also be incredibly rewarding, I would imagine. So I think, you know, it's really
+[52:48] up to personal taste, but at the very least, regardless of what path you take, ask yourself,
+[52:55] if I work on this problem and the best possible outcome happens, you know, will the world be a
+[53:01] lot better in some way or will the world go, eh, that's kind of cool, but whatever, that's not the
+[53:07] kind of thing you should spend your time on. Now let's talk a bit about more about the best
+[53:13] second path of working with people that you really like in a small team. You've been able to
+[53:19] be an incredible mentor and manager to many, many engineers and you've been able to build huge
+[53:25] systems. What are some of the lessons for everyone here on how to get the most and how to work with
+[53:33] smart people or find smart people? Yeah, I mean, you always want to find people who
+[53:42] have really good skills in some area that's needed in, you know, a team you're trying to
+[53:49] form whether that's inside a company or starting a company. But you also want to find people that are
+[53:57] people you delight being around, right, because you're going to spend a lot of time around people
+[54:02] working on really hard problems. And you want people who are low ego that are team players that,
+[54:09] you know, have complementary skills to your own, perhaps I always find working in a small team
+[54:16] where people know things that I don't know. And where maybe I have some skills that other
+[54:20] people don't have as much of, you know, it's super fun because you're collectively building
+[54:25] something or working on something that none of you could maybe do individually. But in the process
+[54:31] of working on that, you actually gain a lot of new knowledge and new skills for yourself and so do
+[54:38] they. And you kind of want to view your engineering or research career as you have an amazing tool
+[54:45] belt of techniques. And you always want to be adding new tools to that tool belt because you
+[54:51] never know when you might come across a problem where you need these four specialized tools rather
+[54:57] than these three. And adding more tools makes it more likely that the problems you encounter in
+[55:02] the future will be solvable by you. Hmm. Now one last thing, I'm pretty sure someone
+[55:10] in this room or multiple people will eventually build something as consequential as you've done
+[55:17] with MapReduce, TPU, Distillation, et cetera, et cetera. What problem do you hope they would be working
+[55:25] on? Oh, yeah. I mean, I think there's a lot of interesting problems in the world. And I'll just
+[55:32] rattle off a few. This is not exhaustive because the world is a very big place and full of problems.
+[55:38] You know, I'm particularly excited about new approaches to hardware. You know, we thought
+[55:43] experiment there was kind of, you know, a, you know, indication of that or much more efficient
+[55:51] inference hardware. You know, I think there are radically different kinds of algorithms for
+[55:56] machine learning that might be much more data efficient than the approaches we're using today.
+[56:01] If you think about our large-scale models today, they probably see a thousand times as much data
+[56:06] as a human does by the age of 18. Yet the human by the age of 18 is better in a lot of things and,
+[56:13] you know, on par with those frontier models that have seen way more data. So could you come up with
+[56:18] much more data efficient systems that can learn continuously, learn from their own actions,
+[56:25] continual learning is a really interesting thing. I think multi-agent interactions is an
+[56:30] interesting thing. You know, I think, you know, creating ways of having better discourse among
+[56:37] people in the world could be interesting. Are there ways to have much more civil conversations and,
+[56:43] you know, helping people meet other people all over the world that they should know based on their
+[56:48] interests? You know, these are kind of interesting things. I think there's lots of cool things in the
+[56:54] world. And we should all go and strive to make even cooler things occur.
+[56:59] That sounds wonderful. Thank you so much, Jeff Dane. That's all we have today. I appreciate it.
+[57:05] Thank you all.

@@ -1,0 +1,1010 @@
+Underscore_
+Comment une armée d'IA a percé le code de GTA — Salim Trouvé
+Mon, 27 Jul 2026
+https://www.youtube.com/watch?v=XbKYW4Pg7QA
+
+[00:00] Insurance est pas une chose du seul.
+[00:02] C'est pourquoi le Prise Tool a été emploi.
+[00:06] Avec le nom de Prise Tool, vous tellingez ce que vous voulez et vous redonnez
+[00:09] et vous vous appellez à la fin de votre budget.
+[00:11] Donc, à vous prendre la première place de votre propre policy
+[00:14] ou à vous de la voir quelque chose qui fonctionne mieux dans votre famille,
+[00:18] ils vont être plus facile pour vous voir vos options.
+[00:20] Visit progressive.com.
+[00:21] Vous pensez à la réponse qui fonctionne avec le nom de Prise Tool,
+[00:24] prise de l'insurance-compignement du Prise,
+[00:26] la prise et la coverage max de votre Prise est limitée par la state-là.
+[00:31] Si vous avez déjà joué à Minecraft ou à Skyrim, vous savez qu'il existe des modes,
+[00:36] des programmes conçus par la communauté pour changer le fonctionnement même du jeu.
+[00:40] Et ben, pour d'autres jeux, c'est beaucoup plus difficile,
+[00:43] parce que l'éditeur c'est assuré que ça n'arrive jamais.
+[00:46] C'est typiquement le cas de Rockstar qui fait tout pour empêcher qu'on modifie ces jeux.
+[00:51] Or, en 2019, une communauté de développeurs s'est lancée dans un chantier titanesque.
+[00:57] Essayez de reconstituer en entier le code de GTA San Andreas.
+[01:02] À la main, c'est un travail de rétroingénierie absolument titanesque,
+[01:07] mais qui pourrait ouvrir des possibilités incroyables.
+[01:10] Créer des nouvelles missions, un éditeur de map,
+[01:13] un nouveau jeu dans le jeu ça peut aller très loin.
+[01:16] Sauf que après 6 ans d'acharnement,
+[01:18] il n'en était encore qu'à la moitié du puzzle.
+[01:20] Et là, des varques célimes qui n'est pas développeurs,
+[01:23] mais qui utilisent l'IA de Codex à la perfection.
+[01:26] Il va nous raconter comment, avec ces ia,
+[01:28] il a bouclé le travail en seulement deux mois.
+[01:31] Et ce que ça veut dire de vertigineux sur le futur de la rétroingénierie, on reprend.
+[01:37] Et justement pour nous faire un petit peu le tableau,
+[01:39] est-ce que tu peux nous expliquer,
+[01:40] c'est ça veut dire quoi, réverser une génierie un jeu?
+[01:43] Est-ce que tu en as besoin typiquement pour faire des modes?
+[01:45] Et qu'est-ce que ça représente comme travail?
+[01:46] Alors, le reverse ingéniering, ça a assez simple.
+[01:48] On va prendre l'image d'un gâteau qui est ton fiché binaire, ton jeu en l'occurrence.
+[01:51] Le but, ça va être d'essayer de trouver la recette de ce gâteau.
+[01:55] On va essayer de se rapprocher le plus possible du résultat final,
+[01:57] à partir du gâteau.
+[01:58] À partir du gâteau.
+[01:59] Donc pour ça, après derrière, on va utiliser des assemblures,
+[02:02] etc., pour analyser et retourner le binaire dans tous les sens,
+[02:05] pour essayer de le comprendre, cartographier,
+[02:06] et derrière de pouvoir le réécrire au propre.
+[02:09] Et donc, à la fin, comme ça, t'as ton propre code, ta recette.
+[02:12] Et quand tu le compiles, du coup, ça te donne, en tout cas, c'est le but.
+[02:15] C'est de se rapprocher le plus possible du binaire original.
+[02:18] C'est là l'intérêt de la rétroingénierie.
+[02:20] C'est une fois que t'as le recette, tu peux tout faire.
+[02:22] Donc, dans le cas dans du moding, t'es plus là à bidouiller,
+[02:25] tu as accès directement à la source.
+[02:27] Et donc, tout de suite, c'est beaucoup plus simple.
+[02:29] C'est à aller chercher ce que Rockstar nous a pas donné.
+[02:31] Quel genre de mode sont compliqués à faire dans un cas
+[02:33] et pas quant à la source ?
+[02:35] Typiquement, on peut penser aux modes qui touchent aux moteurs physiques,
+[02:39] que ce soit des meilleures systèmes de ragdolles, par exemple,
+[02:43] qu'on peut avoir sur JTHK, JTH5, mais sur les anciens JTH,
+[02:45] c'est vraiment très très basique.
+[02:46] Tout ce qui touche aux moteurs de jeu.
+[02:48] Là, c'est très compliqué parce que c'est pas une couche à laquelle on a accès.
+[02:52] C'est à dire que pour des modes un peu plus simples,
+[02:54] d'ajoutes de véhicules, par exemple, ça, c'est assez trivial.
+[02:57] Tu trouves la liste des véhicules,
+[02:59] tu comprends que les textures elles sont sauvegardées comme ça,
+[03:02] la vitesse à l'écoute, des comme ça.
+[03:03] Exactement, et hop, tu ajoutes à voiture quoi.
+[03:06] C'est ça.
+[03:06] C'est exactement ça.
+[03:07] Tu sais où le véhicule est défini,
+[03:09] tous les fichés d'attaques qui vont avec,
+[03:11] les couleurs,
+[03:12] le handling, vous voyez, on est fait de la la conduite.
+[03:15] Mais du coup, quand tu disais que toi, t'es pas d'ève,
+[03:18] mais tu peux quand même lire le code ?
+[03:20] Non.
+[03:20] Non ?
+[03:21] Ok.
+[03:21] Pour l'anecdote, je sais pas t'as fait une ligne de HTML.
+[03:24] Justement pour expliquer toi la aventure dans laquelle tu t'es lancé.
+[03:28] Tu t'es dit alors que, alors même que tu n'étais pas à développeur,
+[03:31] que tu allais te lancer dans le reverse ingéniering complet
+[03:34] de GTA, c'est un Andreas.
+[03:36] D'où t'es venu cette drogue d'idée ?
+[03:37] C'était la suite logique dans le sens où j'étais dans un contexte
+[03:41] où ça faisait déjà un an et demi que je m'amuser avec les agenries.
+[03:45] Donc j'ai commencé à écouter X, Claude, etc.
+[03:48] J'avais un savoir de jeu, donc notamment sur une plateforme en effet multijoueur
+[03:52] qui n'est pas natif du tout à 100 adresse.
+[03:54] Je pense que la plupart s'en souhaitent, il n'y avait pas de mode online sur 100 adresse.
+[03:57] Donc ça, c'est une autre histoire, c'est une plateforme multijoueur
+[03:59] qui a été développée par la communauté à force de reverse ingéniering
+[04:02] qui est encore en développement et au point de source aujourd'hui.
+[04:04] Pour dire à quel point en fait, ça a jamais été complété d'un coup.
+[04:08] C'est en constant développement.
+[04:09] Et du coup, c'est dans ce contexte-là où j'ai développé des serveurs de jeu.
+[04:12] RpG, alors par moi, personnellement,
+[04:13] j'étais toujours entouré de développeurs évidemment.
+[04:15] Mais j'avais fait mûmuse un peu avec codex avec les agents IA.
+[04:18] J'avais entrevue la lumière assez rapidement.
+[04:20] Alors, c'est des vieux modèles.
+[04:21] Vous pouvez développer en fait, et qu'il y avait accès à toute la codebase.
+[04:23] Pourtant, c'est une grosse codebase gigantesque.
+[04:26] Et il faut y développer comme ça des nouveaux scripts, des systèmes de jobs,
+[04:28] parce que c'est un savoir RpG typiquement, des missions, etc.
+[04:31] Et donc, après le temps est passé, je continue à faire mûme un peu avec les modes.
+[04:35] Et je me suis dit, ok, je me suis posé un moment.
+[04:37] C'est quoi le maximum, jusqu'on peut aller en fait.
+[04:40] Et code source.
+[04:42] Une fois que t'as le code source, quand tu peux pas faire plus.
+[04:44] C'est mon talent.
+[04:45] Alors, c'est parfait.
+[04:46] Tu peux pas aller plus loin.
+[04:47] Et donc, c'est de là où m'est venue l'idée.
+[04:49] Et donc, pour donner un peu le contexte sur le fait de faire des réverses complèges,
+[04:53] justement, est-ce que ça a déjà été fait ?
+[04:55] Est-ce qu'il y a d'autres jeux vidéo qui sont connus pour justement avoir été réversentièrement
+[05:00] et ça représente quel genre de travail tu as pour qu'on se voie l'ampleur de la tâche ?
+[05:05] Alors, il y a plusieurs jeux qui ont été réveurs.
+[05:07] Je pense que le plus marquant est celui qui a lancé un peu le mouvement.
+[05:10] C'est Super Mario 64.
+[05:12] Donc, il y a été réveur ce entièrement, il me semble, en quatre ans.
+[05:15] Et qui a permis, du coup, de pouvoir avoir des portes natifs, notamment sur PC,
+[05:19] même sur toutes les plateformes, on soit.
+[05:21] Le développement en effet d'un multi-joueur.
+[05:23] Oui, quand tu dis.
+[05:24] Natif, ça veut dire que de base, tu peux jouer à Super Mario 64.
+[05:28] Et un des intérêts, c'est que au lieu de devoir émuler la Nintendo 64,
+[05:32] en fait, quand tu dis que ça tourne en natif, c'est vraiment...
+[05:34] On prend le code source sur le compile et il tourne comme si il était sorti sur PC dès le premier jour.
+[05:40] PC, Mac, Linux, Nintendo 3DS, ils l'ont porté partout.
+[05:43] On a eu ensuite...
+[05:45] Il y a eu les Pokémon, notamment rouge, bleu, et meureux de cristal, etc.
+[05:49] Ou là, bon, non seulement ça a permis, comme l'habitude, du portage,
+[05:52] toutes les plateformes.
+[05:53] Mais au-delà, il y a des communes des terres...
+[05:56] Bon, la commune de Pokémon est très détaire, qui ont créé des jeux complet Pokémon 2.0.
+[05:59] Donc Pokémon Unbound, si certains ont entendu parler.
+[06:03] Donc, c'est à dire qu'avec, ils ont les assets.
+[06:05] Ils ont les savoir faire à les interfaces.
+[06:07] Et donc ça leur permet d'en créer plus facilement des nouveaux, c'est ça.
+[06:11] Mais les assets, en soi, c'est quelque chose auxquels tu as accès, normalement, dès le début.
+[06:14] C'est pas le plus compliqué.
+[06:15] C'est vraiment derrière le fonctionnement de jeu, la logique du jeu, qu'il faut aller chercher.
+[06:20] Oui, donc typiquement, l'algorithme qui permet de savoir si quand tu l'en stable,
+[06:23] tu as le Pokémon ou pas, là eux ils peuvent dire que c'est le vrai.
+[06:28] C'est ça. Et là, typiquement, sur juste cette action-là,
+[06:30] il peut y avoir 20 fonctions différentes qui s'occupent de cette partie-là du gameplay.
+[06:34] Et le but, c'est de reverse, les fonctions une à une.
+[06:37] Pour ensuite avoir au final toutes les fonctions de jeu qui sont reverse.
+[06:40] Et c'est pour ça que ça prend des années pour jeter à son reste.
+[06:42] On est sur entre 12 000 et 15 000 fonctions.
+[06:44] Donc toi, tu te dis, je veux faire ça globalement.
+[06:47] Alors que tu n'es pas développé à l'origine.
+[06:49] Et c'est ça qui est intéressant.
+[06:50] C'est comment quel est ton approche ?
+[06:52] En gros, tu commences par quoi ?
+[06:54] Quand tu veux, reverse, un jeu aussi important.
+[06:56] Alors, déjà, tu sais, de comprendre ce que le reverse ingénirigne.
+[06:59] Il faut des assemblées, il faut installer tel océal.
+[07:02] Donc en l'occurrence, je sais pas si c'est sur Hydra qui est un logiciel de l'Ainessa.
+[07:05] Qui est open source et qui permet, qui contient des assemblures.
+[07:08] Tu vas lui donner le binaire.
+[07:09] Il va te donner les fonctions, le code assemblure, le pseudo code.
+[07:14] Donc le code assemblure, c'est le binaire qui va être traduit en assemblure qui est de la source de vérité.
+[07:19] Et donc moi, le procédé, c'était de comprendre, ok, j'ai accès à ça.
+[07:23] Je pose la question aux agents concrètement.
+[07:26] Qu'est-ce qu'on peut faire ?
+[07:27] Alors, ils m'ont coupé au cours.
+[07:29] Bon, j'ai fait l'héro.
+[07:30] Oublie.
+[07:31] Il n'y a pas droit.
+[07:32] Même pas, c'est trop compliqué, si tu ne connais pas,
+[07:34] les spambées retournent sur tes scripts.
+[07:36] Mais bon, après, tu déconstruis, tu demandes à l'agent,
+[07:38] qu'est-ce qui est possible de faire ?
+[07:40] Qu'est-ce que je peux te donner comme data au final ?
+[07:42] Parce que moi, j'ai tout ou toi, tu vois, t'as pas accès.
+[07:44] Donc on fait des tests.
+[07:45] Première fonction, fonction assez simple qu'on va reverse.
+[07:48] Donc il me dit d'aller copier le code assemblure du donner.
+[07:51] Donc en fait, c'est 500 à lire tout comme ça où tu vas aller.
+[07:53] Choper le code, lui envoyer, va te dire,
+[07:55] Ah non, en fait, vas aller voir une autre fonction qui appelle
+[07:57] tel fonction laborieux.
+[07:59] J'étais étu pendant deux semaines, j'ai fait ça.
+[08:01] Ça suffit pour reverse pas mal le fonction qui sont simples.
+[08:03] Question, mais comme tu sais que...
+[08:05] J'arrive aussi.
+[08:06] C'est-à-dire que le jeu, autant c'est arrivé,
+[08:08] si tu le fais complètement à la fin.
+[08:10] Tu peux jouer.
+[08:11] Tu le lance.
+[08:12] Oui.
+[08:13] Et tu regardes, c'est jamais, il est pareil,
+[08:14] qu'on va graphiquement.
+[08:15] Et chaque fonction, comment tu sais ?
+[08:16] Quand tu les testes à chaque fois une par une.
+[08:18] Quand t'es au tout début, comment tu fais ?
+[08:19] Alors, il y a une technique assez simple,
+[08:21] ou en gros, toutes les fonctions qu'on va reverse.
+[08:23] C'est une forme de plug-in, ce forme de mode, en fait.
+[08:25] On va débrancher la fonction de base du jeu
+[08:28] et on va brancher la notre qui arrive.
+[08:30] Comme ça, en fait, tu peux tester une à une ou par batch.
+[08:34] Et donc là, tu fais une première fonction.
+[08:36] Tu te rends compte que ça se comporte correctement.
+[08:38] C'est tu régis comment ?
+[08:40] Faut dire que toi, de base, c'était un monde qui était inaccessible,
+[08:44] parce que tu me disais que tu n'as pas fait d'études là-dedans.
+[08:47] Comment tu as vécu ça ?
+[08:49] Quand j'ai vu que les premières fonctions que j'ai réveures
+[08:51] j'étais comme un fou.
+[08:52] Je suis parti voir les mecs qui étaient en train de réverses
+[08:54] depuis 6 ans.
+[08:55] Et les gars, c'est bon, j'ai trouvé, c'est résolu.
+[08:58] C'était comme un fou.
+[09:00] Après, j'ai pris le mur quand j'ai vu que, en fait,
+[09:02] c'était juste des fonctions ultra-simples
+[09:04] que l'imite, si j'avais les connaissances,
+[09:05] j'aurais pu réverser beaucoup plus rapidement.
+[09:07] Donc, au final, tu te rends compte
+[09:08] que quand ça commence à se complexifier,
+[09:09] quand tu commences à toucher à des plus grosses fonctions,
+[09:11] si tu chauffes caméras, la physique, etc.
+[09:13] Galaire, ou alors, tu dois faire un milliard d'allées retour.
+[09:16] C'est impossible.
+[09:17] Au bout de semaine, je vois qu'il y a un pattern qui ressort,
+[09:20] un pattern d'un jeu ou d'un tas de méthodes.
+[09:22] Dans la méthode ?
+[09:23] Ok, bon, je suis...
+[09:25] T'es-tu à faire des copiers collés des allerts ou etc.
+[09:27] J'ai les Ajoyas.
+[09:29] Est-ce que ils peuvent déjà m'aider
+[09:31] à peut-être faire un workflow, une pipeline pour, justement,
+[09:33] une même e-book ?
+[09:34] Automate, c'est les choses.
+[09:35] Pour ça, le premier truc à faire,
+[09:37] ça a été de leur donner les outils pour pouvoir avoir
+[09:39] accès à Guidra directement.
+[09:40] Et en fait, au fur et à mesure, le but, ça a été de créer
+[09:42] comme ça un agent qui, en fait, m'a remplacé moi,
+[09:44] qui va orchestrer plusieurs sous-argent.
+[09:46] Donc, bon, je vais simplifier la boucle,
+[09:48] mais c'est un agent qui va déjà les trouver
+[09:50] la prochaine fonction arriverse dans la logique des choses.
+[09:52] Donc, il y a parfois une fonction comme ça au hasard.
+[09:54] Peut-être qu'il y en a certaines qui ont déjà été rivers,
+[09:56] ce qui facilite le river du suivant,
+[09:58] qui va ensuite, du coup, aller chercher le code assemblure,
+[10:00] le pseudo code, qui va donner cette data à un autre agent
+[10:02] qui va s'occuper du river.
+[10:03] Une fois que le river s'est complété,
+[10:05] du coup, il y a un agent qui va s'occuper de la review,
+[10:08] la vérification.
+[10:09] Donc, il va lire ligne par ligne, le code du coup réécrit
+[10:13] et qui va le comparer toujours ligne par ligne au code assemblure,
+[10:15] qui est la source de vérité.
+[10:16] Et celle-là où c'est intéressant, c'est qu'il y a une source de vérité.
+[10:18] Donc, c'est stable en fait.
+[10:20] C'est est stable et du coup, même avant même,
+[10:22] de tester en jeu.
+[10:23] Mais pour finir, justement, sur cette boucle là,
+[10:24] c'est un agent qui va review contre le code assemblure,
+[10:27] source de vérité.
+[10:28] Et ensuite, une fois qu'il y a un concept,
+[10:29] parce que si il y a quelque chose qui va pas dans le code,
+[10:31] il communique entre les agents hier,
+[10:32] jusqu'à ce qu'il y a un consensus.
+[10:33] Et le river, il fait OK et après,
+[10:35] ça monte autour d'aller tester en jeu cette fois-ci.
+[10:36] Donc, c'est vraiment essayé d'avoir la route
+[10:38] le plus qualitatif possible, pas perdre du temps.
+[10:41] Et en effet, oui, pour instance,
+[10:42] c'est lui-même qu'il a quand même testé en jeu,
+[10:44] mais la sucre logique,
+[10:45] ça serait peut-être dans un an de deux ans
+[10:46] les y à tester eux-mêmes, elle-même, quoi.
+[10:47] Oui.
+[10:48] Parce que là, du coup,
+[10:50] cette boucle là,
+[10:52] comment tu l'as mis au point,
+[10:54] en fait, au fur et à mesure,
+[10:55] en testant des méthodes, ça ?
+[10:56] Au final, tout ce que je faisais manuellement,
+[10:58] comment le faire automatiquement
+[11:00] et par exemple, tu t'es de même pour ça
+[11:02] avec les agents hier,
+[11:03] toute la situation,
+[11:04] c'est quoi le word le plus optimisé,
+[11:07] quels outils je peux te donner,
+[11:09] quels outils on peut développer, etc.
+[11:11] C'est vraiment les mettre dans les mers conditions
+[11:13] et pour avoir derrière un agent autonome
+[11:16] qui s'occupe de tout, en fait.
+[11:18] Tu disais quoi, comme outil,
+[11:19] pour orchestrer tes agents entre eux ?
+[11:21] De base, je les orchestrer manuellement,
+[11:23] c'est-à-dire que tout ce que je viens de dire là,
+[11:25] je le faisais moi-même, en fait,
+[11:26] j'aurais disais, ok, go chercher la prochaine fonction,
+[11:28] goriverse, goriview, ça.
+[11:29] Et je faisais des copies collantres à agent
+[11:31] pour les faire communiquer.
+[11:32] Lui, l'adissa, lui, l'adissa.
+[11:34] Et au final, après, j'ai développé mon outil,
+[11:37] ou que j'ai plus sorti après,
+[11:39] qui permet d'avoir toutes ces pipelines,
+[11:41] non, en stand-alone,
+[11:42] quoi que tu peux utiliser sur un importe qu'elle binaire.
+[11:44] Donc là, actuellement, t'acrites à un outil
+[11:46] qui permet d'automatiser
+[11:48] la rétroigénérite de jeu.
+[11:49] C'est ça, ou même de binaire,
+[11:51] quand on peut essayer ?
+[11:52] Oui, il est disposé sur GitHub.
+[11:54] Ce qui me fume, c'est que,
+[11:55] comme tu l'as dit,
+[11:56] tu n'es pas développé,
+[11:57] mais t'as un outil.
+[11:59] C'est tout utile actuel à développer.
+[12:01] Du coup, il permet d'aller encore plus vite
+[12:03] que tu peux nous expliquer un peu comment ça s'est passé.
+[12:05] À combien, un peu de % de reverse du jeu,
+[12:08] tu étais un peu comment ça évolue, et tu vois ?
+[12:11] Moi, je suis arrivé en cours de route,
+[12:12] le projet de JTAS Sonlandreias
+[12:14] pour le coup,
+[12:15] il avait été commencé depuis 2019,
+[12:16] et en termes de progrès,
+[12:18] il était à peu près à 60 %.
+[12:19] Du moment que j'ai commencé à river,
+[12:22] du coup, ce qui est resté,
+[12:23] jusqu'au moment où on a le river
+[12:25] ce qu'on plaît du jeu,
+[12:26] c'était de moi.
+[12:27] De moi.
+[12:28] Ah oui !
+[12:29] Oh la la, mais il y a très mal.
+[12:31] Mais c'est ouf.
+[12:33] Donc toi, tu lances ta molinette,
+[12:35] est-ce que plus tard,
+[12:36] tu l'as lancé,
+[12:37] tu t'es barré pendant deux mois et t'es revenu ?
+[12:39] J'imagine que c'était pas ça.
+[12:40] C'est quoi un peu les étapes d'après
+[12:42] pour améliorer le système, en fait ?
+[12:44] Le but, ça va être de tester déjà
+[12:45] au début, chaque fonction,
+[12:47] chaque batch de fonction.
+[12:48] Tu fais la jambe tourner pendant une heure, deux heures,
+[12:51] et tu vois toutes les fonctions qu'il arriveur,
+[12:52] tu sais à peu près quel domaine,
+[12:53] parce que c'est par classe.
+[12:54] Il va river,
+[12:55] les fonctions pour rentrer dans un véhicule,
+[12:57] pour conduire le véhicule.
+[12:58] Donc, le maillon faible, c'est l'humain pour l'instant,
+[13:00] c'est parce que j'étais là, en fait, à devoir dire,
+[13:02] ok, attend, tu vas très très vite,
+[13:03] laisse-moi tester en jeu,
+[13:04] comme ça, si il y a des trucs qui ne marchent pas,
+[13:06] je lui dis, et derrière, on fixe.
+[13:07] Et donc c'est ça qui a pris beaucoup de temps.
+[13:09] Je pense que ça aurait pris beaucoup moins de temps,
+[13:11] si c'était automatisé ou si le côté testing,
+[13:13] mais c'est comme ça.
+[13:14] C'est fait à par étape, en fait.
+[13:15] Et concrètement, où j'avais des nuits où je le laissais tourner
+[13:17] et réverser deux cents fonctions dans la nuit,
+[13:19] j'aurais pris, enfin, des mois.
+[13:21] C'est quoi ?
+[13:22] Une fois que le jeu et le code source est publié
+[13:25] et que, du coup, on peut y jouer,
+[13:27] c'est quoi le statut légal de ces répaux ?
+[13:29] Est-ce que, comme ça, le droit de vivre en fin de source,
+[13:33] il y a une question ?
+[13:34] Parce que techniquement, ton code,
+[13:36] c'est ton code,
+[13:37] il n'y a rien qui appartient à l'occurrence,
+[13:39] à Rockstar dans...
+[13:40] Il n'y a pas Euline qui a été copié-cogé.
+[13:41] Il n'y a pas Euline qui a été copié-cogé.
+[13:43] Tu parles d'un binaire, en fait.
+[13:45] C'est toi qui le fais maison.
+[13:46] Maintenant, ceux qui sont aventurés dans le river,
+[13:50] de n'importe quel,
+[13:51] j'étais à son exception,
+[13:52] ils sont pris une plante,
+[13:53] et ils ont dû enlever le repo.
+[13:55] Les jeunes Nintendo sont un peu plus...
+[13:57] Enfin, ils sont un peu plus clément là-dessus,
+[13:58] mais Rockstar sont très très...
+[14:00] Enfin, je sais que du moment que je vais réaliser,
+[14:02] dans ça-là,
+[14:03] j'essaie de perfectionner avant de risque
+[14:04] que je sais que je donne pas une semaine au repo avant le...
+[14:06] C'est pas encore...
+[14:07] C'est pas encore dans la nature.
+[14:09] Ouais, je sais que je pourrais même plus travailler tout,
+[14:11] c'est d'ailleurs la condition...
+[14:13] Ah oui, oui.
+[14:14] Pour les dotes, pour ceux qui ont travaillé sur le GTA III,
+[14:16] il va ici-t-il le river,
+[14:17] ils sont pris vraiment une plainte,
+[14:18] ils allaient payer plusieurs millions d'amandes
+[14:20] par le texte où...
+[14:21] Alors, tu peux aller en justice contre eux et leur dire,
+[14:23] ça c'est mon code,
+[14:24] mais tu n'as pas...
+[14:25] Je n'aurai pas l'expérience.
+[14:26] Au final, ils ont trouvé un accord
+[14:28] et l'accord, c'était qu'ils ont plus droit de toucher,
+[14:30] en fait, au product Rockstar.
+[14:31] Ok.
+[14:32] Bidouillée, plus droit.
+[14:33] Donc, je ne fais pas d'histoire,
+[14:36] enfin, je ne fais pas de scénario ou quoi,
+[14:38] de films.
+[14:39] Je sais que sans exception de tous les GTA,
+[14:41] on était strahiques.
+[14:42] Donc voilà, tous ces...
+[14:44] C'est ton projet de Curl,
+[14:46] donc j'imagine,
+[14:47] ça va t'empêcher de le faire jusqu'au bout.
+[14:49] J'imagine.
+[14:50] Mais surtout que, une fois que c'est release,
+[14:51] c'est release.
+[14:52] Ça va le télécharger,
+[14:53] ils pourront le faire dans leur coin.
+[14:54] Ça aura contribué dans tous les cas aux modignes,
+[14:56] parce que c'est ça le but.
+[14:57] Oui, oui.
+[14:58] Parce que toi là, donc tu l'as terminé.
+[14:59] Le reverse du jeu,
+[15:00] alors là, il y a plus de fonctions qui sont par reverse.
+[15:03] Là, je suis encore dans la phase de testing.
+[15:05] C'est-à-dire que je dois faire le jeu encore et encore à 100%
+[15:08] parce que, comme tu l'as dit, c'est...
+[15:09] Tu as le connaître par cœur.
+[15:10] Non, à l'argent en travers.
+[15:11] Pour faire à 100%, c'est...
+[15:13] Bon, pré-jeux triche.
+[15:14] Mais 60-70 heures de jeu facile.
+[15:16] Mais c'est ça,
+[15:17] c'est chaque fonction doit être testée.
+[15:20] C'est un travail qui va durer...
+[15:22] En fait, je pense qu'il va durer toute une vie.
+[15:24] Chaque fois, tu as trouvé des petits bugs,
+[15:25] tu vas les corriger au fur et à mesure.
+[15:26] Mais du coup, une fois que ça se réalise,
+[15:27] on pourra faire des modes de ou,
+[15:29] à partir de ton code.
+[15:30] Oui, c'est ça.
+[15:31] C'est déjà le cas,
+[15:32] sur plusieurs projets, notamment.
+[15:34] Et bien, tu peux créer une autre map,
+[15:36] genre une autre île,
+[15:38] que tu vas accrocher à Sandra,
+[15:40] ce qui sera genre une autre quête,
+[15:42] avec une nouvelle mission.
+[15:44] Une nouvelle mission avec des nouveaux gens,
+[15:46] des nouvelles villes-là.
+[15:47] Oui.
+[15:48] Ok, ok.
+[15:49] Ça a été fait récemment,
+[15:51] mais qui est un nouveau jeu,
+[15:52] qui a été fait sur le moteur de Sandra,
+[15:54] grâce au reverse,
+[15:55] et une nouvelle map de zéro,
+[15:57] une nouvelle mission,
+[15:58] nouveau mode d'histoire.
+[15:59] C'est un jeu qui s'appelle GT-A-Carser,
+[16:01] ici.
+[16:02] Donc ça reprend une ville des Manhattan,
+[16:04] qui est un genre que ça a aussi,
+[16:05] mais qui a jamais été modélisé,
+[16:06] parce que ce n'était pas un jeu open-ward.
+[16:07] Et du coup, c'est une map fait de zéro,
+[16:09] avec un mode d'histoire.
+[16:10] Et c'est vraiment, en fait,
+[16:11] garder cette vibe de l'RPS2,
+[16:13] l'opoli, etc.
+[16:14] Donc c'est vraiment quand tu le vois
+[16:15] et quand tu joues,
+[16:16] c'est vraiment un jeu de l'A-Carser.
+[16:18] Alors si en GT-A en fait,
+[16:19] et ça, ça a été,
+[16:20] en partie possible,
+[16:21] grâce au reverse,
+[16:22] parce qu'on a dû comprendre
+[16:23] comment fonctionner le système de mission,
+[16:25] le système pour ajouter de nouveaux véhicules.
+[16:28] Alors, c'est des choses
+[16:29] qui avaient déjà été explorées
+[16:30] par avant,
+[16:31] mais là, en l'occurrence,
+[16:32] il y a des zones
+[16:33] qu'on n'avait jamais vu avant,
+[16:34] parce que le mode-ing a toujours été fait
+[16:35] à partir de ce qu'on avait découvert.
+[16:37] Du coup, on a toujours été bridé,
+[16:38] et ça le paradoxe,
+[16:39] c'est que Sandra c'est un des jeux
+[16:40] les plus modés évers,
+[16:41] qui a encore,
+[16:42] alors d'aujourd'hui,
+[16:43] tu vas sur l'issit de moding,
+[16:44] tant là, des centaines qui sortent chaque jour,
+[16:45] mais qui a été historiquement bridé,
+[16:47] en fait,
+[16:48] par juste...
+[16:49] Mais l'essence...
+[16:50] Du coup, c'est un,
+[16:51] parce que le niveau d'investissement,
+[16:52] mais même toi, sur ce reverse-là,
+[16:53] pareil,
+[16:54] par vraiment d'intérêt et quelconque,
+[16:57] à part, j'imagine le juste, le plaisir,
+[16:59] tu sais combien de temps ça t'a pris,
+[17:00] par exemple, de faire tout ça,
+[17:01] sur ce reverse-là.
+[17:02] En tout, pour tout,
+[17:03] trois, quatre mois,
+[17:04] après il reste quand même la partie
+[17:05] de testing, des beigages, etc.
+[17:06] Mais j'ai aussi du cours reverse,
+[17:07] c'est un autre jeu,
+[17:08] à partir de cet agent-là,
+[17:09] que j'ai créé du coup qui est sur GitHub,
+[17:11] j'ai été...
+[17:12] Arrêtez, t'es à...
+[17:13] Ah c'est mon plus fidie,
+[17:14] ok go.
+[17:15] Donc, certains connaîtres,
+[17:16] j'étais à Liberty City Stories,
+[17:18] et j'étais pas aussi connu que les autres,
+[17:20] parce qu'il était censé que sur PS2
+[17:21] et sur PSP,
+[17:22] et Android restamment.
+[17:23] Et donc là, enfin c'est bon,
+[17:24] il est terminé,
+[17:25] les gens y jouent sur PC,
+[17:26] sur...
+[17:27] Donc là, tu l'as fini.
+[17:28] Il est fini,
+[17:29] j'ai réalisé le binaire seulement.
+[17:30] Ok.
+[17:31] Donc, tu l'as compié sur...
+[17:32] sur...
+[17:33] Et du coup, ça permet à des nouvelles personnes
+[17:35] de rejoindre.
+[17:36] C'est ça.
+[17:38] Dans les...
+[17:39] les...
+[17:40] les...
+[17:41] ces jeux, enfin ce jeu,
+[17:42] justement que t'as pu explorer de fond en compte,
+[17:43] est-ce qu'il y a des trucs intéressants
+[17:44] que tu as...
+[17:45] des couverts que tu as appris
+[17:46] sur les...
+[17:47] un peu les coulisses
+[17:48] de comment sont construits ces jeux.
+[17:49] Tu nous mentionnées le fait que
+[17:50] Rockstar a inventé, par exemple,
+[17:51] un langage
+[17:52] qui leur permet
+[17:53] de décrire des missions, c'est ça ?
+[17:55] Alors, sur les anciens GTA,
+[17:56] donc j'étais à 3,
+[17:57] Vaï City et Saint-Landre As.
+[17:59] Donc le jeu a été codé en C++,
+[18:02] mais le système de mission et de script
+[18:04] a été codé,
+[18:05] justement,
+[18:06] le langage de programmation a inventé par Rockstar,
+[18:08] donc ça s'appelle le GTA 3 script,
+[18:09] qui est indécrivé du basique.
+[18:11] Donc ça aussi, c'est adué de rivers
+[18:12] pour le comprendre,
+[18:13] pour ainsi de d'ailleurs
+[18:14] pour voir, justement,
+[18:15] l'utiliser.
+[18:16] Et en fait,
+[18:17] une fois qu'on a compris
+[18:18] et ce sont fonctionnements,
+[18:19] t'es créé une suite de lignes,
+[18:20] en fait,
+[18:21] ça décrit une mission
+[18:22] avec des personnages,
+[18:23] des points où il faut se déplacer,
+[18:26] des choses, c'est ça.
+[18:27] Exactement,
+[18:28] les véhicules,
+[18:29] justement les pèdes,
+[18:31] les checkpoints ou allées,
+[18:33] etc.
+[18:34] Qu'est-ce qui se passe quand je vais là ?
+[18:35] C'est vraiment des coutines,
+[18:36] enfin des animations avec les cinématiques.
+[18:38] Tout le système de mission
+[18:40] utilisent le GTA 3 script,
+[18:42] qui a été reverse
+[18:43] et qui a permis ensuite
+[18:44] de pouvoir faire des modes
+[18:45] en GTA 3 script.
+[18:46] Du coup, c'est marrant que maintenant
+[18:47] les missions internatives, en fait.
+[18:48] Il y a d'autres trucs
+[18:49] intéressantes à découvrir
+[18:50] dans les entrailles de GTA.
+[18:53] Il y a une mécanique assez intéressante
+[18:55] qu'on a retrouvé sur GTA 5,
+[18:57] qui est le système de multi-protagoniste,
+[19:00] donc sur GTA 5,
+[19:01] qu'on peut jouer avec Franklin,
+[19:02] Trévor, Michael,
+[19:03] qui n'avait jamais été fait avant,
+[19:04] mais en fait, c'était un système
+[19:06] qui était prévu sur Saint-Landreas,
+[19:07] on a retrouvé du coup
+[19:09] le code quasi-terminé,
+[19:10] et en fait de base,
+[19:12] il devait y avoir
+[19:13] un système multi-protagoniste
+[19:14] sur Saint-Landreas,
+[19:15] alors pas caché,
+[19:16] mais qui n'a jamais été utilisé, en fait.
+[19:18] C'est ça.
+[19:19] Pas aussi poussé que c'est le GTA 5,
+[19:20] couta des missions, etc.
+[19:21] Mais tu pouvais changer de personnage
+[19:23] dans le mode libre,
+[19:24] et le code est là,
+[19:26] quasi intact,
+[19:27] il y a même un mode récent du coup
+[19:28] qui réactive cette mécanique-là,
+[19:30] et avec très peu de modifications,
+[19:31] c'est juste un bouton,
+[19:33] on réactive ça.
+[19:34] Il paraît que par amis,
+[19:35] justement, les trucs qui sont possibles,
+[19:37] que tu peux faire,
+[19:38] t'as créé un mode pour jouer à GTA,
+[19:41] dans GTA.
+[19:42] Qu'est-ce que ça veut dire ?
+[19:43] Inception.
+[19:44] Alors, c'est un mode,
+[19:46] basé sur Saint-Landreas,
+[19:47] ou en gros, concrètement,
+[19:48] tu vas avec ton petit personnage,
+[19:49] donc si je vais,
+[19:50] tu vas dans sa maison,
+[19:51] tu vas devant la télé,
+[19:52] et tu as un petit bouton
+[19:53] pour lancer ta console,
+[19:55] et tu vas pouvoir,
+[19:56] comme ça, choisir,
+[19:57] de lancer Vice City,
+[19:58] ou GTA 3.
+[19:59] Ah non, oui, trop bien !
+[20:01] Cette épisode est délicate
+[20:05] par la progression de l'insurance.
+[20:06] Do you ever think about switching insurance companies
+[20:08] to see if you could save some cash ?
+[20:10] Progressive makes it easy to see
+[20:12] if you could save when you bundle
+[20:13] your home and auto-polices.
+[20:15] Try it, at progressive.com.
+[20:17] Progressive casualty insurance company and affiliates,
+[20:19] potential savings will vary,
+[20:20] not available in all states.
+[20:22] Ok !
+[20:25] Voic comme ça, la télé,
+[20:26] l'auvergner de la télé,
+[20:27] et donc là, c'est si je suis qui joue.
+[20:28] C'est vraiment ça tourne dans,
+[20:30] ça tourne dans le processus,
+[20:31] c'est dans le moteur de Saint-Landreas.
+[20:33] En fait, t'as vraiment embarqué le jeu,
+[20:36] J'étais à trois,
+[20:37] dans le jeu Saint-Landreas.
+[20:38] Ouais !
+[20:39] En fait, c'est un sidecar,
+[20:40] quoi, c'est un...
+[20:41] C'est pas juste à lancer un point exé
+[20:42] ou quoi, c'est vraiment intégré dedans.
+[20:43] Ok !
+[20:44] Parce qu'on a le reverse de GTA 3,
+[20:45] de GTA Vice City,
+[20:46] de GTA Saint-Landreas maintenant,
+[20:47] et donc tu combine tout en un,
+[20:48] sachant que c'est le même moteur de jeu,
+[20:49] donc ça facilite un peu la chose.
+[20:50] Ah, ça rame pas ?
+[20:51] Ça rame pas du tout.
+[20:52] Tu as récupéré les frames
+[20:53] qui sortent du moteur,
+[20:55] à côté, J'étais à trois.
+[20:56] C'est ça ?
+[20:57] Tu les foutons dans la télé,
+[21:03] c'est-à-dire que t'as le système de soft guard,
+[21:05] de mission,
+[21:06] il n'y a rien qui chant,
+[21:07] en fait, c'est une émulation one-one,
+[21:08] dans Saint-Landreas.
+[21:09] Ouais, on l'a...
+[21:10] Euh...
+[21:11] J'ai suffisé.
+[21:12] Je parlais qu'il y a
+[21:13] avant de venir dans cette émission.
+[21:14] Ouais, c'est nous-à-mêmes préparer un mode.
+[21:16] Ouais, c'est vrai,
+[21:17] j'ai défces ça dans la nuit
+[21:19] avant-cière.
+[21:20] C'est un outil, plutôt,
+[21:22] qui va permettre de...
+[21:24] tu te prends vidéo
+[21:25] en train de danser,
+[21:27] de faire un signe, de marcher,
+[21:28] et tu vas lui bloquer cette vidéo sur l'outil,
+[21:30] et il va te sortir
+[21:31] une animation prête à être jouée,
+[21:33] dans le jeu.
+[21:34] Rien besoin de faire sa détecte,
+[21:35] ton squelette,
+[21:36] sa détecte tout,
+[21:37] ça lui transforme du coup.
+[21:38] Il fait le même geste que toi,
+[21:39] dans le jeu.
+[21:40] C'est ça, c'est une animation
+[21:41] qui est réutilisable.
+[21:42] Là, je vais faire un exemple
+[21:43] où j'ai pleut juste une vidéo
+[21:44] d'YouTube,
+[21:45] donc celle-là,
+[21:46] MisterVice en train de danser.
+[21:48] Ah, énorme.
+[21:49] Donc, je lui donne juste la vidéo,
+[21:50] et il va détecter le squelette,
+[21:52] les eaux du coup,
+[21:54] tout ce qu'il faut pour faire
+[21:55] l'animation,
+[21:56] littéralement,
+[21:57] cinq secondes, quoi.
+[21:58] Donc là,
+[21:59] tu utilises des modèles incroyables.
+[22:00] Donc,
+[22:01] j'imagine que tu utilises
+[22:02] des modèles de détection de pause, en fait,
+[22:04] et ça,
+[22:05] qui transforme la vidéo
+[22:06] de MisterVice en des mouvements de squelette,
+[22:08] et toi, comme tu as
+[22:10] la source du moteur en lui-même?
+[22:13] Du moteur.
+[22:14] Tu as recréé une animation,
+[22:15] j'étais à San Andreas.
+[22:16] C'est quasi un instantané,
+[22:18] et là où c'est intéressant,
+[22:19] c'est que ça marche,
+[22:20] même du coup, avec...
+[22:21] Même du motion capture,
+[22:23] tu peux pas acheter avec ton téléphone,
+[22:25] il suffit que tu mettes deux téléphones,
+[22:27] ça te fait un rendu un peu en 3D,
+[22:28] et ça te donne des résultats.
+[22:30] C'est sûr que Rockstar,
+[22:31] en moment,
+[22:32] ils ont développé San Andreas,
+[22:33] n'avaient pas des audits.
+[22:34] Non.
+[22:35] Bien du tout.
+[22:36] Ça que là, tu peux créer
+[22:37] des nouvelles missions dans San Andreas,
+[22:38] les gens,
+[22:39] ils ont des comportements
+[22:40] beaucoup plus réalistes
+[22:42] que le jeu original.
+[22:43] C'est ça l'idée,
+[22:44] c'est d'essayer de faire des outils,
+[22:46] avec cette idée de Rockstar,
+[22:47] ils auraient aimé avoir ça à l'époque.
+[22:49] C'est un éditeur d'animation complet,
+[22:51] c'est pas juste cette nationalismality.
+[22:53] C'est-à-dire que tu as toutes les K-Frames,
+[22:54] ou de base,
+[22:55] tu devais utiliser des logiciels 3D,
+[22:57] là tout est sur le site,
+[22:58] et d'ailleurs, c'est le site,
+[22:59] c'est un des premiers projets
+[23:00] que j'ai fait grâce au Reverse.
+[23:02] C'est 35 outils dans un seul site,
+[23:04] qui en place,
+[23:05] énormément de logiciels pour faire du moding,
+[23:06] surtout remplacer des déficits audio,
+[23:08] des textures,
+[23:09] créer et compiler des scripts,
+[23:11] j'étais à 3 scripts,
+[23:12] collision,
+[23:13] éditeur, enfin,
+[23:14] tu peux tout faire, en fait.
+[23:15] Tu as aussi, du coup, un outil,
+[23:16] des éditions de maps, c'est ça.
+[23:18] Parce que de base,
+[23:19] j'allais dire, est-ce que Rockstar n'a,
+[23:20] mais enfin,
+[23:21] on en sait rien,
+[23:23] mais on pense que
+[23:25] certains lits qu'on a eu à l'époque,
+[23:26] documentaire et tout,
+[23:27] ils utilisaient des logiciels 3D,
+[23:28] en fait, pour faire la map.
+[23:29] Comme on en a,
+[23:30] actuellement, sur 3DS Max,
+[23:31] mais là, du coup, c'est un éditeur de map,
+[23:33] qui va émuler one-one le jeu.
+[23:35] Donc le rendu extra,
+[23:36] on voit que c'est comme si on dit dans le jeu,
+[23:37] là.
+[23:38] Ouais.
+[23:39] Mais en fait, non, c'est un logiciel.
+[23:40] Et en fait, tu voles.
+[23:41] Et tu crées du coup,
+[23:43] une nouvelle map ou tu,
+[23:45] c'est toi qui m'elle décorait tout, là.
+[23:46] C'est ça, ça charge,
+[23:47] en fait, la map que t'as à toi,
+[23:48] donc si t'as une map modifiée,
+[23:49] que t'as installé des modes,
+[23:50] ça va le reconnaître aussi.
+[23:52] Et ça va te permettre de voir,
+[23:53] comme ça, en fait,
+[23:54] manipuler à sa map,
+[23:55] l'éditeur ultra complet,
+[23:56] qui facilite énormément, quoi.
+[23:57] Donc tu peux faire quoi, par exemple.
+[23:59] Alors là, en l'occurrence, par exemple,
+[24:00] je veux ajouter cette maison,
+[24:01] qui est la maison de Michael,
+[24:02] dans GTA 5,
+[24:03] dans Saint-Landrias.
+[24:05] Donc tu vas télécharger le modèle, c'est ça ?
+[24:07] C'est ça.
+[24:08] Avant, il fallait galérer,
+[24:10] à bidouiller fichier du jeu,
+[24:11] ça pourrait prendre facile 10 minutes.
+[24:13] Là, c'est littéralement un Dragon Drop.
+[24:15] Ça ajoute le modèle
+[24:17] dans les fichiers correspondents,
+[24:18] dans les fichiers de définition,
+[24:19] ça crée la collision automatiquement.
+[24:21] Ça apparaît pour créer une collision avant
+[24:23] c'était une galère.
+[24:24] En fait, c'est cette idée de vraiment tout fusionner,
+[24:26] que ce soit le plus simple possible.
+[24:27] Et même des choses qui étaient pas...
+[24:28] Et donc là, tu l'as ajouté là.
+[24:30] C'est ça.
+[24:31] En deux secondes,
+[24:32] et là, tu peux directement la modifier,
+[24:33] les positions, les rotations.
+[24:35] Et c'est vraiment ultra complet.
+[24:36] C'est dur de tout résumer en quelques secondes.
+[24:38] Ouais, mais si, mais c'est génial.
+[24:40] Tu peux la mettre là.
+[24:41] C'est un peu comme l'éditeur de map,
+[24:43] genre d'entraquement.
+[24:44] Tu peux créer du coup tes propres terres.
+[24:46] C'est ça.
+[24:47] C'est justement sauf que là, Roxanne,
+[24:48] nous ont vraiment jamais donné les outils pour ça,
+[24:50] quoi, là, c'est...
+[24:51] Mais en fait, je veux dire,
+[24:52] qu'il y a forcément des gens
+[24:53] chez Roxstar qui doivent péter un câble
+[24:56] qui doit regarder...
+[24:57] Et là, aujourd'hui,
+[24:58] il doit pas avoir des salles outils quand même.
+[25:00] Et si l'on reste de l'époque sans l'endresse,
+[25:02] d'ailleurs, j'ai une anecdote sur ça,
+[25:04] sur un développeur que j'ai rencontré par Azar.
+[25:06] Grâce à une casquette un peu similaire,
+[25:08] quand j'étais à l'osant de je laisse.
+[25:09] Dans le stage,
+[25:10] je me suis fait interpeller, est-ce que tu travailles chez Roxstar ?
+[25:12] Non.
+[25:13] Et en fait, c'est non...
+[25:15] C'est une ancienne développeuse de chez Roxstar en 2002-2003,
+[25:18] ultra rare, un probeur,
+[25:20] parce qu'à l'époque,
+[25:21] c'était moins de 100, je pense,
+[25:22] qui a développé Vice City sans l'endresse, etc.
+[25:24] Et elle m'a raconté les anecdotes.
+[25:25] C'est sympa.
+[25:26] De notamment, est-ce que vous le saviez
+[25:29] que tous les textures que vous voyez dans le jeu,
+[25:31] c'est des photos ?
+[25:32] Et pour faire d'abri,
+[25:33] vous prenez une photo de fait, quoi ?
+[25:34] Pour faire la texture d'art ?
+[25:35] Tu vas devant un bâtiment,
+[25:36] tu vois la porte, la fenêtre.
+[25:37] Ça, c'est une photo qui s'ont pris dans la vraie vie.
+[25:39] Ok.
+[25:40] Et elle m'a dit, du coup, comme ça,
+[25:41] en fait,
+[25:42] deux, trois semaines entre Glosson-Gelès,
+[25:44] Las Vegas.
+[25:45] Ok.
+[25:46] Ah bah, ça, c'est...
+[25:47] Je vais vous expliquer.
+[25:48] Ne prenez pas pour un fou, si vous plaît.
+[25:50] Mais...
+[25:51] Mais du coup, en gros,
+[25:53] je suis parti, l'idée,
+[25:54] ça a été de retrouver, en fait,
+[25:56] toutes les textures dans la vraie vie.
+[25:57] Ouais.
+[25:58] C'est un genre qu'on est 20 ans après quand même,
+[25:59] 22 ans, à fait.
+[26:00] Mais donc, t'es vraiment très, très fan de ce jeu.
+[26:02] Comment ça sort d'un compte ?
+[26:05] T'as retrouvé les endroits,
+[26:07] où les photos ont pris les textures ?
+[26:09] C'est ça.
+[26:10] Des fois, c'est juste une fenêtre.
+[26:11] C'est juste un craquement dans un mur et tu reconnais le mur.
+[26:13] Bon, alors, l'occurrence, c'est des bâtiments,
+[26:15] c'est pas que les textures, c'est vraiment les bâtiments
+[26:16] dans lequel ils sont inspirés.
+[26:17] Donc ça, ça va, c'est assez simple.
+[26:18] Et parfois, c'est un bâtiment qu'a rien à voir.
+[26:20] Et c'est juste une porte.
+[26:21] En fait, tu l'as regretté.
+[26:22] Mais le plus fou, c'est que la plupart,
+[26:24] il n'existe plus.
+[26:25] C'est très rare de trouver.
+[26:26] Ah oui.
+[26:27] Mais là, du coup, je montre.
+[26:28] Là, c'est un petit craquement dans un...
+[26:30] Sur le pont.
+[26:31] Ah, ça.
+[26:32] Le pire, c'est que ça me met,
+[26:33] c'est que je fais des explosions de mon saroc,
+[26:35] parce que je l'ai reconnée.
+[26:36] Et tout le monde qui passe par là,
+[26:38] passe ça sur un compte.
+[26:40] Mais vous, vous passez devant l'état de l'autre.
+[26:42] Bon, ça m'a eu l'expose.
+[26:44] Ouais.
+[26:45] C'est vous.
+[26:46] C'est incroyable.
+[26:47] Et même une boutique du coup,
+[26:49] qui était sur Saint-Landre As.
+[26:51] Et j'ai de retrouver dans la vraie vie.
+[26:52] Je suis allé parler au commerceant.
+[26:53] Non.
+[26:54] Je lui dis, est-ce que tu savais que tu étais sur Saint-Landre As?
+[26:56] Alors, c'était un vieux monsieur.
+[26:57] Il comprenait même pas loin.
+[26:58] J'ai pas compris.
+[27:00] Il jouait même pas au jeu.
+[27:01] Non, c'est vraiment...
+[27:02] Tu sais quoi, c'était le paint shop
+[27:04] où tu pouvais rependre ta raquesse ?
+[27:07] Cela, c'était une épicerie, on va dire,
+[27:10] dans le jeu qui n'était pas utilisé,
+[27:11] c'était une texture.
+[27:12] Mais en fait, c'est ça qui est fou.
+[27:13] C'est que Rockstar.
+[27:14] J'ai été en mode.
+[27:15] On prend une photo, on l'a met dans le jeu.
+[27:16] Et c'est vraiment quasi-copé-coller.
+[27:17] J'ai été croqué, en fait.
+[27:18] Et il mettait dans le jeu.
+[27:19] Ils s'en foutaient.
+[27:20] Il ne m'ont pas de droit à rien.
+[27:21] C'était notre époque.
+[27:22] Je fais ça.
+[27:23] J'étais à quatre.
+[27:24] J'étais à cinq.
+[27:25] C'était un propre texture, ou alors, en tout cas, plus proprement quoi.
+[27:27] Un gros merci à toi.
+[27:28] Nous avons repartagé ta passion.
+[27:30] Avant de vous quitter, j'ai un petit message
+[27:32] pour tous ceux qui aimerait simplifier la production de vidéos
+[27:35] dans leur entreprise.
+[27:36] Vous allez forcément être intéressés par nos studios autodomes.
+[27:39] Ce sont des studios professionnels complètement automatisés
+[27:42] qui peuvent être installés dans votre entreprise.
+[27:44] C'est exactement ce qui fait marcher le studio d'Underscore.
+[27:47] Même quelqu'un qui n'y connaît rien en informatique
+[27:50] ou en audiovisuel,
+[27:51] peut sans devoir appeler un technicien
+[27:53] se rendre dans la salle qui a été équipée,
+[27:55] allumer le studio en un clic
+[27:57] et repartir avec son émission montée.
+[27:59] L'interface de contrôle est ultra simple.
+[28:02] Les changements de plan se font en temps réel
+[28:04] et le studio regorge de fonctionnalité intelligente.
+[28:07] Si vous voulez en savoir plus, on a fait une vidéo complète
+[28:09] qui présente toutes les fonctionnalités.
+[28:11] Je vous mets ça en description et je vous dis à très bientôt.

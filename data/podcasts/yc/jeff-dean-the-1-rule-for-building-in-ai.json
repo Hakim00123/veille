@@ -1,0 +1,23 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "Jeff Dean: The 1% Rule for Building in AI",
+ "date": "Sat, 01 Aug 2026",
+ "date_iso": "2026-08-01",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/Jeff-Dean-The-1-Rule-for-Building-in-AI-e3mq28a",
+ "duree": "00:57:06",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 4.6,
+ "taille_transcript": 54437,
+ "transcript": "jeff-dean-the-1-rule-for-building-in-ai-transcript.txt",
+ "nb_outils": 1,
+ "outils": {
+  "Gemini": [
+   "especially I just got a cold and thank you for being here. I'm afraid I've lost my voice. I don't normally sound quite like this, but we'll do what we can. So, you built MapReduce, big table, TensorFlow, the TPU, Gemini, we could spend a whole hour on all the things you've done. But what I love is that you're still making bold predictions in public. Last year, last year in May 2025 at AI Ascent, you said that AI is at the level of a junior engineer. That was about a year ago",
+   " this room can actually do. Because before to train a model, you needed an incredible amount of resources, an incredible amount of access to GPUs and data, but for context engineering, everyone here could do it. You have to just meet the API to something like Gemini and then work on your own setup for your own retrieval, your own tool calls, etc. So what are some tips for everyone here? How does everyone get better at and become exceptional at context engineering? Yeah, I mean, I think a really good way to do it is to us",
+   "verything on the system from the processors to the products. Which are the layers that someone like Google would keep building and compounding being better and where does a two, three person team can still win? Yeah, I mean, I think, obviously, Google and our Gemini models and our hardware infrastructure are really trying to build very general models that can do almost anything. But in a lot of cases, that means that we don't have a lot of attention on particular domains where perhaps a really well designed surface that "
+  ]
+ },
+ "mentions_publicitaires": {}
+}

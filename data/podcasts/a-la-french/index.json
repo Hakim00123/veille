@@ -1,0 +1,16 @@
+{
+ "slug": "a-la-french",
+ "traites": [
+  "episode-bonus-recap-saison-1-et-annonces"
+ ],
+ "episodes": [
+  {
+   "fiche": "episode-bonus-recap-saison-1-et-annonces.json",
+   "titre": "Épisode BONUS : recap saison 1 et annonces",
+   "date": "Tue, 28 Jul 2026",
+   "date_iso": "2026-07-28",
+   "nb_outils": 2
+  }
+ ],
+ "maj": "2026-08-02T19:06:57Z"
+}

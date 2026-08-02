@@ -1,0 +1,28 @@
+{
+ "podcast": "Underscore_",
+ "slug": "underscore",
+ "titre": "Comment une armée d'IA a percé le code de GTA — Salim Trouvé",
+ "date": "Mon, 27 Jul 2026",
+ "date_iso": "2026-07-27",
+ "lien": "https://www.youtube.com/watch?v=XbKYW4Pg7QA",
+ "duree": "27:25",
+ "modele": "base",
+ "langue": "fr",
+ "minutes_transcription": 5.5,
+ "taille_transcript": 43110,
+ "transcript": "comment-une-armee-d-ia-a-perce-le-code-de-gta-salim-trouve-transcript.txt",
+ "nb_outils": 3,
+ "outils": {
+  "Claude": [
+   "le reverse ingéniering complet de GTA, c'est un Andreas. D'où t'es venu cette drogue d'idée ? C'était la suite logique dans le sens où j'étais dans un contexte où ça faisait déjà un an et demi que je m'amuser avec les agenries. Donc j'ai commencé à écouter X, Claude, etc. J'avais un savoir de jeu, donc notamment sur une plateforme en effet multijoueur qui n'est pas natif du tout à 100 adresse. Je pense que la plupart s'en souhaitent, il n'y avait pas de mode online sur 100 adresse. Donc ça, c'est une autre histoire, c'es"
+  ],
+  "Codex": [
+   "des nouvelles missions, un éditeur de map, un nouveau jeu dans le jeu ça peut aller très loin. Sauf que après 6 ans d'acharnement, il n'en était encore qu'à la moitié du puzzle. Et là, des varques célimes qui n'est pas développeurs, mais qui utilisent l'IA de Codex à la perfection. Il va nous raconter comment, avec ces ia, il a bouclé le travail en seulement deux mois. Et ce que ça veut dire de vertigineux sur le futur de la rétroingénierie, on reprend. Et justement pour nous faire un petit peu le tableau, est-ce que tu",
+   "té complété d'un coup. C'est en constant développement. Et du coup, c'est dans ce contexte-là où j'ai développé des serveurs de jeu. RpG, alors par moi, personnellement, j'étais toujours entouré de développeurs évidemment. Mais j'avais fait mûmuse un peu avec codex avec les agents IA. J'avais entrevue la lumière assez rapidement. Alors, c'est des vieux modèles. Vous pouvez développer en fait, et qu'il y avait accès à toute la codebase. Pourtant, c'est une grosse codebase gigantesque. Et il faut y développer comme ça des"
+  ],
+  "Tableau": [
+   "tilisent l'IA de Codex à la perfection. Il va nous raconter comment, avec ces ia, il a bouclé le travail en seulement deux mois. Et ce que ça veut dire de vertigineux sur le futur de la rétroingénierie, on reprend. Et justement pour nous faire un petit peu le tableau, est-ce que tu peux nous expliquer, c'est ça veut dire quoi, réverser une génierie un jeu? Est-ce que tu en as besoin typiquement pour faire des modes? Et qu'est-ce que ça représente comme travail? Alors, le reverse ingéniering, ça a assez simple. On va prend"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

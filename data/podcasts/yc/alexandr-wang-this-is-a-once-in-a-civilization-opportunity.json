@@ -1,0 +1,21 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "Alexandr Wang: “This is a Once-in-a-Civilization Opportunity”",
+ "date": "Fri, 31 Jul 2026",
+ "date_iso": "2026-07-31",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/Alexandr-Wang-This-is-a-Once-in-a-Civilization-Opportunity-e3mq1mh",
+ "duree": "00:32:09",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.1,
+ "taille_transcript": 37350,
+ "transcript": "alexandr-wang-this-is-a-once-in-a-civilization-opportunity-transcript.txt",
+ "nb_outils": 1,
+ "outils": {
+  "GCP": [
+   " is that, like, I was, when I was at MIT, I did a bunch of projects, like, trained models of various forms. And these were, like, you know, by comparison today, they're like little toy models. And I remember to train a model, I needed three things. I needed a GCP account, like, I needed an account on some cloud servers to get compute. I needed the code to run to actually train the model. And I needed data. I needed a data set. And for two out of these three things, you could just press a button online and get them. An"
+  ]
+ },
+ "mentions_publicitaires": {}
+}
