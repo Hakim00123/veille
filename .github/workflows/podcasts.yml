@@ -102,6 +102,19 @@ jobs:
           echo "--- contenu ---"
           find data/podcasts -name '*.json' | sort
 
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Dependance
+        run: pip install --quiet requests
+
+      # Rejoue la detection sur TOUTES les transcriptions deja stockees :
+      # une amelioration du reperage profite retroactivement aux anciennes fiches,
+      # sans retelecharger ni retranscrire un seul MP3.
+      - name: Regeneration des fiches
+        run: python scripts/transcript_podcast.py --rejouer
+
       - name: Commit
         run: |
           git config user.name "veille-bot"
