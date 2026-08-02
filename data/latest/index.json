@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-08-01T19:04:11+00:00",
+ "genere_le": "2026-08-02T02:28:16+00:00",
  "fenetre_jours": 30,
  "nb_flux": 64,
- "nb_flux_en_erreur": 12,
- "nb_articles": 388,
+ "nb_flux_en_erreur": 13,
+ "nb_articles": 364,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -68,6 +68,11 @@
    "source": "Dans la Tete d'un VC",
    "url": "https://danslatetedunvc.substack.com/feed",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://danslatetedunvc.substack.com/feed"
+  },
+  {
+   "source": "Sifted",
+   "url": "https://sifted.eu/feed",
+   "erreur": "HTTPError: 500 Server Error: Internal Server Error for url: https://sifted.eu/feed"
   },
   {
    "source": "Patent Drop",
