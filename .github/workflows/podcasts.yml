@@ -32,6 +32,9 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      - name: Dependance
+        run: pip install --quiet requests
+
       - id: gen
         run: |
           if [ -n "${{ inputs.podcast }}" ]; then
@@ -65,7 +68,7 @@ jobs:
 
       - name: Remontee des fiches
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: podcast-${{ matrix.slug }}
           path: data/podcasts/${{ matrix.slug }}
@@ -82,7 +85,7 @@ jobs:
           fetch-depth: 0
 
       - name: Recuperation des fiches
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           path: /tmp/fiches
           pattern: podcast-*
