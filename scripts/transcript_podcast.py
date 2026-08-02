@@ -36,19 +36,20 @@ TAILLE_MAX_MO = 400     # au-dela, l'episode est ignore (evite les rediffusions 
 ENTETES = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                          "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
 
+
 # Amorce : outils frequemment cites. Les motifs contextuels rattrapent les autres.
 OUTILS = [
     "Notion", "Slack", "Figma", "Airtable", "Zapier", "Make", "n8n", "HubSpot", "Salesforce",
     "Pipedrive", "Intercom", "Zendesk", "Stripe", "Qonto", "Pennylane", "Payfit", "Silae",
     "Workday", "SuccessFactors", "Cegid", "Lucca", "Personio", "Deel", "Alan", "Swile",
-    "Rippling", "Gusto", "Justworks", "BambooHR", "Greenhouse", "Lever", "Ashby",
+    "Rippling", "Gusto", "BambooHR", "Greenhouse", "Lever", "Ashby",
     "Google Analytics", "Amplitude", "Mixpanel", "Metabase", "Looker", "Tableau", "Power BI",
     "Snowflake", "BigQuery", "Databricks", "dbt", "Segment", "Fivetran", "Airbyte", "Hex",
-    "Asana", "Trello", "Monday", "Jira", "Linear", "ClickUp", "Basecamp", "Height", "Shortcut",
+    "Asana", "Trello", "Monday.com", "Jira", "Linear", "ClickUp", "Basecamp", "Shortcut",
     "Canva", "Webflow", "Framer", "Shopify", "WordPress", "Wix", "Squarespace", "Ghost",
-    "Mailchimp", "Brevo", "Klaviyo", "Lemlist", "Apollo", "Clay", "PhantomBuster", "Instantly",
+    "Mailchimp", "Brevo", "Klaviyo", "Lemlist", "Apollo", "Clay", "PhantomBuster",
     "ChatGPT", "Claude", "Claude Code", "Gemini", "Perplexity", "Midjourney", "Cursor",
-    "Copilot", "Codex", "Devin", "Windsurf", "Replit", "Lovable", "Bolt", "v0",
+    "Copilot", "Codex", "Devin", "Windsurf", "Replit", "Lovable", "Bolt",
     "LangChain", "LlamaIndex", "Pinecone", "Weaviate", "Chroma", "Ollama", "vLLM",
     "Hugging Face", "Modal", "Together", "Fireworks", "Groq", "Baseten", "LangSmith",
     "Superhuman", "Missive", "Loom", "Miro", "Whimsical", "Obsidian", "Roam", "Craft",
@@ -58,6 +59,27 @@ OUTILS = [
     "Vercel", "Netlify", "Supabase", "Firebase", "Render", "Fly.io", "Railway",
     "AWS", "GCP", "Azure", "Cloudflare", "Datadog", "Sentry", "PostHog", "Stytch",
 ]
+
+# Noms qui sont aussi des mots courants en anglais ou en francais.
+# Pour ceux-la : majuscule exigee, et un debut de phrase ne compte pas
+# (« Make sure that... » n'est pas une mention de Make).
+AMBIGUS = {
+    "make", "together", "teams", "zoom", "notion", "lever", "craft", "monday", "railway",
+    "excel", "segment", "bolt", "modal", "chroma", "alan", "clay", "apollo", "render",
+    "linear", "hex", "ramp", "mercury", "discord", "loom", "roam", "otter", "oracle",
+    "sap", "brex", "granola", "amplitude", "ghost", "height", "shortcut", "fireworks",
+}
+
+# Lectures publicitaires : une mention dans ce contexte ne dit rien de l'usage reel.
+PUBLICITE = re.compile(
+    r"brought to you by|sponsored by|sponsor of|is the only platform|sign ?up at|use code|"
+    r"visit [a-z0-9\-]+\.com|\.com/[a-z]*podcast|for a limited time|learn more at|"
+    r"% off|free trial|check out |thanks? to our friends at|"
+    r"cet episode est (?:sponsorise|presente)|partenaire de l'episode|code promo|"
+    r"rendez-vous sur ",
+    re.IGNORECASE,
+)
+
 
 # Formulations qui introduisent generalement un outil
 MOTIFS = [
@@ -181,18 +203,33 @@ def transcrire(chemin_audio, modele, langue):
 
 
 def reperer_outils(texte):
-    """Mentions d'outils avec leur contexte, dedoublonnees. Bruyant par nature :
-    la synthese doit confirmer chaque mention en lisant le contexte."""
-    plat = re.sub(r"\[\d+:\d+\]\s*", "", texte)
+    """Mentions d'outils avec leur contexte.
+
+    Retourne (outils, publicite). Les mentions qui tombent dans une lecture
+    publicitaire sont mises a part : elles disent ce que le podcast vend,
+    pas ce que l'invite utilise.
+
+    Reste bruyant par construction : la synthese doit confirmer chaque mention
+    en lisant le contexte, et verifier qui parle — Whisper ne separe pas les voix.
+    """
+    corps = "\n".join(texte.split("\n")[4:])          # saute l'entete du fichier
+    plat = re.sub(r"\[\d+:\d+\]\s*", "", corps)
     plat = re.sub(r"\s+", " ", plat)
-    trouves = {}
+    outils, pub = {}, {}
 
     for outil in OUTILS:
-        for m in re.finditer(r"\b" + re.escape(outil) + r"\b", plat, re.IGNORECASE):
-            d, f = max(0, m.start() - CONTEXTE), min(len(plat), m.end() + CONTEXTE)
-            trouves.setdefault(outil, []).append(plat[d:f].strip())
+        ambigu = outil.lower().split(".")[0] in AMBIGUS
+        drapeaux = 0 if ambigu else re.IGNORECASE
+        for m in re.finditer(r"\b" + re.escape(outil) + r"\b", plat, drapeaux):
+            if ambigu:
+                avant = plat[max(0, m.start() - 2):m.start()]
+                if m.start() == 0 or avant.strip().endswith((".", "?", "!")):
+                    continue                           # majuscule de debut de phrase
+            large = plat[max(0, m.start() - 350):m.end() + 350]
+            cible = pub if PUBLICITE.search(large) else outils
+            cible.setdefault(outil, []).append(plat[max(0, m.start() - CONTEXTE):m.end() + CONTEXTE])
 
-    connus = {k.lower() for k in trouves}
+    connus = {k.lower() for k in outils} | {k.lower() for k in pub}
     for motif in MOTIFS:
         for m in re.finditer(motif, plat):
             brut = m.group(1).strip().rstrip(".,;:")
@@ -203,11 +240,12 @@ def reperer_outils(texte):
                 continue
             if nom.lower() in connus or any(nom.lower().startswith(c) for c in connus):
                 continue
-            d, f = max(0, m.start() - CONTEXTE), min(len(plat), m.end() + CONTEXTE)
-            trouves.setdefault(nom, []).append(plat[d:f].strip())
+            large = plat[max(0, m.start() - 350):m.end() + 350]
+            cible = pub if PUBLICITE.search(large) else outils
+            cible.setdefault(nom, []).append(plat[max(0, m.start() - CONTEXTE):m.end() + CONTEXTE])
 
-    return {k: v[:3] for k, v in sorted(trouves.items())}
-
+    return ({k: v[:3] for k, v in sorted(outils.items())},
+            {k: v[:2] for k, v in sorted(pub.items())})
 
 def traiter(pod, ep, cfg):
     ident = slugifier(ep["titre"])
@@ -236,7 +274,7 @@ def traiter(pod, ep, cfg):
     with open(os.path.join(dossier, ident + "-transcript.txt"), "w", encoding="utf-8") as fh:
         fh.write(f"{pod['nom']}\n{ep['titre']}\n{ep['date']}\n{ep['lien']}\n\n{texte}")
 
-    outils = reperer_outils(texte)
+    outils, pub = reperer_outils(texte)
     fiche = {
         "podcast": pod["nom"], "slug": pod["slug"],
         "titre": ep["titre"], "date": ep["date"], "date_iso": ep["date_iso"],
@@ -247,19 +285,61 @@ def traiter(pod, ep, cfg):
         "transcript": ident + "-transcript.txt",
         "nb_outils": len(outils),
         "outils": outils,
+        "mentions_publicitaires": pub,
     }
     with open(os.path.join(dossier, ident + ".json"), "w", encoding="utf-8") as fh:
         json.dump(fiche, fh, ensure_ascii=False, indent=1)
     return ident, fiche
 
 
+def rejouer(cfg):
+    """Regenere les fiches depuis les transcriptions du depot, sans rien retelecharger."""
+    import glob
+    total = 0
+    for pod in cfg["podcasts"]:
+        dossier = os.path.join(OUT, pod["slug"])
+        for chemin in sorted(glob.glob(os.path.join(dossier, "*-transcript.txt"))):
+            fiche = chemin.replace("-transcript.txt", ".json")
+            if not os.path.exists(fiche):
+                continue
+            with open(fiche, encoding="utf-8") as fh:
+                data = json.load(fh)
+            with open(chemin, encoding="utf-8") as fh:
+                texte = fh.read()
+            outils, pub = reperer_outils(texte)
+            avant = data.get("nb_outils", 0)
+            data["outils"], data["mentions_publicitaires"] = outils, pub
+            data["nb_outils"] = len(outils)
+            with open(fiche, "w", encoding="utf-8") as fh:
+                json.dump(data, fh, ensure_ascii=False, indent=1)
+            print(f"  {pod['slug']:20} {avant:>2} -> {len(outils):>2} outils, "
+                  f"{len(pub):>2} en publicite   {data['titre'][:50]}")
+            total += 1
+        # l'index porte aussi le compteur
+        idx = lire_index(pod["slug"])
+        for e in idx.get("episodes", []):
+            f = os.path.join(dossier, e["fiche"])
+            if os.path.exists(f):
+                with open(f, encoding="utf-8") as fh:
+                    e["nb_outils"] = json.load(fh)["nb_outils"]
+        if idx.get("episodes"):
+            ecrire_index(pod["slug"], idx)
+    print(f"{total} fiche(s) regenere(s).")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--slug")
     ap.add_argument("--matrice", action="store_true", help="ecrit la matrice GitHub Actions")
+    ap.add_argument("--rejouer", action="store_true",
+                    help="refait les fiches a partir des transcriptions deja stockees")
     ap.add_argument("--a-blanc", action="store_true", help="liste sans telecharger ni transcrire")
     args = ap.parse_args()
     cfg = charger_config()
+
+    if args.rejouer:
+        rejouer(cfg)
+        return
 
     if args.matrice:
         matrice = {"include": [{"slug": p["slug"], "nom": p["nom"]} for p in cfg["podcasts"]]}
