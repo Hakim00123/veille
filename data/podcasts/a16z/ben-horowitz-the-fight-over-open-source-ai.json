@@ -1,0 +1,26 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Ben Horowitz: The Fight Over Open Source AI",
+ "date": "Sun, 26 Jul 2026",
+ "date_iso": "2026-07-26",
+ "lien": "https://a16z.simplecast.com/episodes/ben-horowitz-the-fight-over-open-source-ai-RnXTUEqk",
+ "duree": "00:32:35",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.0,
+ "taille_transcript": 33627,
+ "transcript": "ben-horowitz-the-fight-over-open-source-ai-transcript.txt",
+ "nb_outils": 2,
+ "outils": {
+  "Cursor": [
+   " mean, I think that, you know, well, a lot of software companies are able to use it for kind of various tax. But I think on the things like customer support and specialized applications, to be able to benefit a lot from them. And then, you know, look, I think Cursor survived for a long time because it was able to have an open source alternative for cheap tasks that they have. And, you know, now they're, of course, they're on, they're on GRAC. But, you know, I think I'll, every application company in AI world benefits fro"
+  ],
+  "Hugging Face": [
+   "s many reasons, the first will just start academia. Like, academia is completely out of the AI game, if they're still open source, so like that goes away. I think secondly, you know, we just had a really interesting security incident with open AI hacking into hugging face. And the only way hugging face was able to prevent it because the proprietary model said guard rails, which prevented them from doing security tasks, was to use an open source model. So, you know, and I think the important point there is, you can't actually b",
+   "just start academia. Like, academia is completely out of the AI game, if they're still open source, so like that goes away. I think secondly, you know, we just had a really interesting security incident with open AI hacking into hugging face. And the only way hugging face was able to prevent it because the proprietary model said guard rails, which prevented them from doing security tasks, was to use an open source model. So, you know, and I think the important point there is, you can't actually ban open source, of course. You ",
+   " can prevent the good guys from using it. And that's what would happen, I think, in the case of an open source ban is, you know, the threats would be, well, you can't work with the US government if you use open source, or you can't do this. So, a company like hugging face would not be able to actually use the product. So, that, you know, would be bad. But then kind of getting into just like the, if you look at the history of the industry, the open source version of everything has been much safer. So, the internet and limits we"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

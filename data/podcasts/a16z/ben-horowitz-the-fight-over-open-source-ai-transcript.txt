@@ -1,0 +1,667 @@
+The a16z Show
+Ben Horowitz: The Fight Over Open Source AI
+Sun, 26 Jul 2026
+https://a16z.simplecast.com/episodes/ben-horowitz-the-fight-over-open-source-ai-RnXTUEqk
+
+[00:00] If you look at the history of the industry,
+[00:03] the open source version of everything has been much safer.
+[00:06] So the internet and Linux were far safer than Windows,
+[00:10] like by a lot.
+[00:12] The safest thing for the world is that there's not one AI
+[00:16] to rule them all, that there's AI for everybody.
+[00:20] And I think that open source is basically
+[00:22] the best path towards Echo.
+[00:25] It's probably the single most important
+[00:27] policy issue around AI.
+[00:30] It feels like we're at a stable equilibrium in the market,
+[00:34] but the truth is the AI market is probably less than 3%
+[00:38] penetrated.
+[00:40] Should AI be open?
+[00:42] Theo Jaffe and Sophia Puccini are
+[00:44] joined by Ben Horowitz to discuss the battle over open source AI,
+[00:48] why he believes open models are essential to innovation
+[00:51] and national security, and what the future of AI competition
+[00:54] means for startups from tier labs,
+[00:57] and the broader technology ecosystem.
+[01:01] We are live with Ben Horowitz of Andreessen Horowitz,
+[01:06] who needs no introduction, so we'll just dive right into it.
+[01:08] Ben, welcome back to MTS.
+[01:11] Thank you, thank you, happy to be here.
+[01:14] So so much has happened in the world of open source,
+[01:19] open weights in the last couple of weeks.
+[01:21] It's gotten, you know, it's gotten real.
+[01:23] There's some drama going on.
+[01:24] There's an open letter released by NVIDIA today,
+[01:29] called open weights in American AI leadership,
+[01:31] signed by many companies, including Andreessen Horowitz.
+[01:35] So can you tell us a little bit about the intent behind this
+[01:39] letter and what you hope to achieve from it?
+[01:43] Yeah, so I think that it's probably the single most important
+[01:47] policy issue around AI that's kind of currently going on.
+[01:53] And the kind of battle is between almost an anti-competitive
+[02:01] stance, guys in a kind of safety cloak for what we ought to be doing.
+[02:11] And so if you look at why is open source important,
+[02:16] and there's many reasons, the first will just start academia.
+[02:21] Like, academia is completely out of the AI game,
+[02:25] if they're still open source, so like that goes away.
+[02:28] I think secondly, you know, we just had a really interesting
+[02:32] security incident with open AI hacking into hugging face.
+[02:38] And the only way hugging face was able to prevent it
+[02:40] because the proprietary model said guard rails,
+[02:43] which prevented them from doing security tasks,
+[02:47] was to use an open source model.
+[02:49] So, you know, and I think the important point there is,
+[02:54] you can't actually ban open source, of course.
+[02:57] You know, it's out there, it's a file, it's on the internet.
+[03:01] Like, we have no way of doing that, and it reminds me of years
+[03:06] ago when I was at Netscape, they tried to ban cryptography.
+[03:10] And like, there's, you know, the math is out there,
+[03:12] like you're not going to ban it, it's not actually possible,
+[03:15] but you can prevent the good guys from using it.
+[03:18] And that's what would happen, I think,
+[03:20] in the case of an open source ban is, you know,
+[03:23] the threats would be, well, you can't work with the US government
+[03:25] if you use open source, or you can't do this.
+[03:27] So, a company like hugging face would not be able
+[03:31] to actually use the product.
+[03:33] So, that, you know, would be bad.
+[03:34] But then kind of getting into just like the,
+[03:37] if you look at the history of the industry,
+[03:40] the open source version of everything has been much safer.
+[03:44] So, the internet and limits were far safer than Windows,
+[03:49] like by a lot.
+[03:51] And why is that?
+[03:52] Well, because the whole community could work
+[03:55] on the safety problems, as opposed to just the company,
+[03:59] and particularly a monopoly company, that, you know, like,
+[04:04] you can't, even if Windows has a million security bugs,
+[04:07] there's nothing we can do about it,
+[04:09] because it was a monopoly at the time, right?
+[04:11] And so that's a very difficult position for the world to be in.
+[04:16] If you look at, now, the argument against open AI,
+[04:21] or AI being open source is, oh, well, nobody understands
+[04:26] how the weights work.
+[04:27] So, you know, it's not like people could inspect it,
+[04:31] but why is it better to not see the weights, if that's the case?
+[04:36] And I think in reality, if you look at the really tough problems
+[04:41] that we have, safety-wise, the toughest being reward hacking,
+[04:44] currently, and obviously, anthropic has not solved it.
+[04:47] Obviously, open AI has not solved it,
+[04:49] because we just had these incidents.
+[04:53] Well, shouldn't the whole world be able to look at,
+[04:56] okay, how are the weights moving?
+[04:57] Why is it that guardrails don't prevent the reward hack?
+[05:01] And maybe somebody can come up with an answer,
+[05:04] somebody who doesn't work for one of the proprietary labs
+[05:07] who are much more focused on obviously keeping ahead
+[05:11] on the benchmarks and getting the money and all that kind of thing,
+[05:15] you know, what if the whole community could work on it?
+[05:17] So, it's like really, really important, I think,
+[05:19] to safety in general.
+[05:21] And then, you know, kind of finally,
+[05:24] the safest thing for the world is that there's not one AI
+[05:28] to rule them all, that there's kind of AI for everybody.
+[05:32] And I think that open source is basically the best path,
+[05:36] you know, kind of towards that goal.
+[05:39] Right, so Jensen made a Twitter account, basically,
+[05:43] to publish this.
+[05:44] Good for Jensen.
+[05:46] Right, so that I think speaks to the significance
+[05:49] of where we are right now, that he was like, okay,
+[05:52] it now is the time to, you know, speak out about this
+[05:55] and get all these companies to like, you know, cosign it.
+[05:59] What do you think are some of the risks right now
+[06:00] from like a government action perspective on open source?
+[06:04] Well, look, I think there's a huge push
+[06:08] with a lot of money behind it, you know,
+[06:11] particularly from anthropic to ban open source.
+[06:15] I think that it is kind of nefarious, from my point to you,
+[06:22] but, you know, whatever their motivation is,
+[06:26] they do have, so one of the things that happened
+[06:29] with cryptography is there are people who are
+[06:34] very senior in the intelligence community
+[06:37] who didn't understand the technological aspect of it,
+[06:42] who push for banning cryptography because they wanted control.
+[06:47] And I think that it's a similar thing here
+[06:50] where it just feels like more control
+[06:53] if you can stop some kind of AI.
+[06:57] And, you know, but those are very powerful forces
+[07:01] in the conversation right now.
+[07:03] And I think that there is certainly a kind of pretty strong
+[07:07] community pushing for the banning of open source.
+[07:12] And so that's why this letter was so important
+[07:15] to I'd celebrate that, you know, not just Jensen,
+[07:18] but Elon, Satya, Sam all supported it.
+[07:23] And I think it's, I just think it's very obviously
+[07:27] the right answer for safety, the right answer for America.
+[07:32] And it would be a real shame if we, you know,
+[07:34] kind of shot ourselves and put on this.
+[07:36] Yeah, well, another angle that many people talk about
+[07:40] with respect to open source is China and national security,
+[07:44] as opposed to like AI safety stuff.
+[07:47] And some people say, you know, it's a national security risk
+[07:50] for so many American startups to be dependent on like
+[07:54] infrastructure that comes from China.
+[07:56] You know, in the event that, for example,
+[07:58] China decided to cut everything off
+[07:59] and stop releasing better open source models
+[08:02] to American companies.
+[08:04] Or perhaps they could, you know, in an AI future,
+[08:09] make these open source models like sleeper agents basically.
+[08:13] Or you could think of all kinds of things that they could do.
+[08:16] Yeah, I mean, as could the right,
+[08:19] a Chinese national working for anthropic or opening AI
+[08:22] or, you know, SpaceX, right?
+[08:24] Like it's not like these Chinese nationals
+[08:28] cannot be activated by the Chinese government.
+[08:31] Like we've seen that.
+[08:32] So like if that's a threat,
+[08:34] like I think that's just a general threat,
+[08:36] not specific to open source AI.
+[08:38] And that nothing against Chinese nationals,
+[08:42] we love them, they're great for our country and so forth.
+[08:45] But like if you're worried about that,
+[08:48] you know, you ought to be worried about it.
+[08:50] Like the more likely way I think would be
+[08:51] that kind of spy activation.
+[08:55] But like it's open source.
+[08:57] And so if they stop making it,
+[09:00] like we've still got the last code base,
+[09:02] we can train up the model,
+[09:03] we can, you know, we can learn from it.
+[09:05] And meanwhile, there's, I mean,
+[09:07] the great thing about open is it's open.
+[09:10] And, you know, look, we need to build our own
+[09:12] open source products here.
+[09:14] Thinking machines is doing a good job of that.
+[09:16] I think in France, you know,
+[09:18] Mistral is doing a good job of that.
+[09:19] So like we need to keep pushing the technology forward,
+[09:23] the open technology.
+[09:25] So that, look, it needs to be available everywhere
+[09:28] for everyone, like we can't be held hostage by,
+[09:32] like the worst scenario is there ends up being a monopoly in AI.
+[09:36] I mean, I think it's fairly obvious how dangerous
+[09:39] that could be and how powerful that company would be
+[09:42] and what a national security risk that would be.
+[09:45] We've already seen a glimpse of it, right,
+[09:47] with anthropics saying like, I don't care
+[09:50] who got elected in the US,
+[09:52] I don't care about the government,
+[09:53] I don't care about the Department of Work,
+[09:55] I'm not going to work with you.
+[09:56] We're in charge.
+[09:57] And so you look at that, you go, okay,
+[10:01] that seems like a much bigger national security risk
+[10:04] than the kinds of little holes people are trying
+[10:08] to poke in the open source story.
+[10:10] So I just think it's very, very important
+[10:13] that this technology proliferate
+[10:15] and not be kept contained in a single company.
+[10:19] Yeah, definitely.
+[10:21] So we have like kind of become a little more defenders
+[10:24] of distillation recently.
+[10:26] So we talk about how like distillation is not actually
+[10:32] like illegal, like a lot of the labs
+[10:36] are still paying API prices to use the models.
+[10:40] So what are your thoughts?
+[10:41] Do you think it's part of like a healthy competitive landscape?
+[10:43] We talked to Aaron Levy earlier about this
+[10:45] and he was like, how can anthropic
+[10:48] like just take everyone's training data
+[10:50] without paying them at all?
+[10:51] But when other labs pay then it's distillation,
+[10:54] it needs to be banned.
+[10:56] Yeah, I actually agree with Aaron.
+[10:57] And I think that's right.
+[10:58] Like from a legal standpoint,
+[11:00] there is the output to AI models are not copyright
+[11:03] and they don't fall under copyright law.
+[11:05] So the only thing it could be is the terms of service violation.
+[11:10] But look, I think generally that's right.
+[11:13] You know, anthropic just paid $1.5 billion
+[11:17] for stealing everybody's book, including mine better.
+[11:20] They trained on back book and I joined
+[11:22] that class action lawsuit.
+[11:24] So, you know, not to say, look,
+[11:27] I'm for training the model, building a statistical model,
+[11:31] the things we know, I think that's generally good
+[11:33] for the world and so forth as long as you don't violate
+[11:36] the copyright and reproduce the original work.
+[11:39] And I think the same, yeah,
+[11:41] like I think distillation is generally good for the world.
+[11:43] I also think they're gonna have a very hard time
+[11:45] stopping it for many reasons.
+[11:47] Yeah, they have theories on how they're gonna stop it,
+[11:49] but I'm not sure that those are gonna succeed.
+[11:53] So we'll see.
+[11:56] But yeah, I think distillation is good
+[11:58] in like the whole idea that we're stealing American stuff.
+[12:03] By the way, the data companies are all out selling
+[12:08] to everybody, you know, including the Chinese companies
+[12:12] that are building these things.
+[12:13] So, you know, I don't know how much you can contain
+[12:16] all this stuff anyway.
+[12:18] So why do you think that so far over the last few years,
+[12:23] Chinese labs have surpassed American labs
+[12:25] in terms of open source performance?
+[12:29] Well, because I think that all the American labs
+[12:31] have kind of built their businesses on proprietary models
+[12:37] and there's a lot kind of that becomes,
+[12:40] and they have to to kind of afford the GPUs,
+[12:45] you know, they need these very high valuations
+[12:47] to keep ahead on the GPUs to keep going.
+[12:51] And you know, because they're in the lead,
+[12:54] you know, distillation doesn't work for them
+[12:56] because their model is on the cutting edge,
+[12:58] it's on the frontier.
+[13:01] And that's just how kind of the markets evolved.
+[13:04] I think, look, generally that's been the way it is,
+[13:06] like the number one is never opened.
+[13:10] And then, you know, number two goes open
+[13:12] is kind of the history of the software industry.
+[13:15] Yeah.
+[13:16] I do think that we're going to see,
+[13:18] I mean, like I said, we're thinking machines,
+[13:19] they've got, you know, they're making really good headway
+[13:22] with their open source efforts.
+[13:24] So, you know, hopefully we'll see kind of more of that
+[13:28] and kind of more breakthroughs, you know,
+[13:31] on the open source side, but like part of the challenge
+[13:34] or part of the reason why AI is just so different
+[13:37] than software is you can throw money at the problem, right?
+[13:41] Like, so if you have more GPUs,
+[13:43] that actually turns out to be a really big deal.
+[13:46] Yeah.
+[13:47] What about open source in industries like robotics?
+[13:50] Because like, unitry is at least like, you know,
+[13:54] a large percentage open source.
+[13:56] And it looks like, you know, like they have just had like
+[14:00] such a, you know, booming industry
+[14:01] and like so much deployment within China.
+[14:04] And we don't have anything like that here.
+[14:07] Do you think that we're missing like that open source
+[14:09] ecosystem in the US?
+[14:11] Or is it just a different thing?
+[14:12] I mean, there's obviously supply chain and stuff.
+[14:13] No, I think there's a lot to be set for that, right?
+[14:16] Because, you know, as an application,
+[14:20] so what's happened, the other thing that we haven't spoken
+[14:22] about like is, well, what's the AI platform?
+[14:26] And, you know, so if you're an application provider,
+[14:30] what do you build on?
+[14:32] And what we've seen is it's been already fairly dangerous
+[14:38] to build on AMPRAPIC because they,
+[14:41] every time an application category starts to do well,
+[14:44] they move into that category.
+[14:47] And then they've, you know, like we've seen them do
+[14:51] like very aggressive things where, you know,
+[14:54] the price for the application provider is full price
+[14:56] and then they subsidize their version of the application.
+[15:00] And so it's a kind of that, they've kind of fast forwarded,
+[15:04] I would say the Microsoft playbook from the old days
+[15:07] to like skipping the platform generation
+[15:10] and just going straight to the monopoly generation.
+[15:14] And so if you're an application provider like,
+[15:16] okay, how can I safely build on a proprietary model?
+[15:20] If that company is going to come attack me
+[15:22] and then charge me much more
+[15:25] than they're charging themselves to do the same thing.
+[15:27] And so open source is kind of a way
+[15:29] that the ecosystem gets built.
+[15:31] So if you're building robots, for example,
+[15:34] if you were to build your robot on AMPRAPIC,
+[15:37] then at some point, you know AMPRAPIC
+[15:39] is going to go into the robot business
+[15:40] and put you out of business just by either cutting you off
+[15:43] or overcharging you.
+[15:44] And so this is kind of a way that their ecosystem can grow
+[15:49] by building on the open source.
+[15:50] And hopefully look, by the way,
+[15:52] a lot of our industry has grown,
+[15:54] a lot of our application companies had used open source
+[15:57] to kind of bootstrap themselves or get going
+[16:00] or that kind of thing.
+[16:01] And often Chinese open source, which is why,
+[16:05] you know, it's really important to the US ecosystem
+[16:08] that we have applications, that we have embodied AI,
+[16:10] that we have robots and all these things
+[16:13] that we have access to that technology
+[16:15] because the kind of other model is a monopoly model
+[16:18] where there's one company that owns all the applications
+[16:20] and all the robots and all of everything.
+[16:23] And what I'm not even saying,
+[16:24] I'm not even mad at them for doing that necessarily.
+[16:27] It's like that's their business approach,
+[16:30] but like the consequences of it,
+[16:32] if they're able to ban their competitors is not good.
+[16:37] Yeah, I also worry about these, you know,
+[16:39] very monopolistic, like centralized futures.
+[16:43] And like one area in particular
+[16:46] that I think might be concerning in the future
+[16:48] is like if one AI company is able to use its AIs
+[16:51] to automate its AI research process
+[16:54] and then become much more capable
+[16:56] than everyone else very quickly.
+[16:57] It seems like, you know, that wouldn't be so good
+[17:00] for like a pluralistic, you know, startup ecosystem.
+[17:03] So.
+[17:03] Yeah, that's certainly very strategy, you know,
+[17:06] and we'll see how it goes.
+[17:07] But I think that kind of the best hedge against that
+[17:10] is for like many, many companies being able to do AI,
+[17:13] which is why the open models are powerful in that context.
+[17:18] Yeah, I guess speaking of China,
+[17:21] there's a lot of things that are like, you know,
+[17:23] either like tariff or, I mean, we export control,
+[17:28] we also tariff them, like things like EVs, right?
+[17:30] We talk about EVs all the time.
+[17:32] And if we had like a, you know, BYD level pricing
+[17:36] for EVs in the US, that would just be like so huge.
+[17:40] Do you think there's a way that we could move
+[17:42] towards that future?
+[17:43] Like what would have to, what would it take to get to that?
+[17:47] Well, I think that, you know, with BYD in particular,
+[17:50] there are a lot of subsidies from the Chinese government
+[17:54] that enabled them to achieve this amazing pricing.
+[17:59] And a lot of it is a kind of a,
+[18:03] well, so kind of getting into manufacturing and, you know,
+[18:07] the US is, so we as a country kind of invented,
+[18:12] you know, so much of manufacturing
+[18:15] and then kind of forgot what we knew.
+[18:17] So like if you go back to we won World War II,
+[18:20] based on our superior manufacturing capability,
+[18:23] and then like over the next, whatever 100 years
+[18:27] we forgot to hold that, we need to rebuild that capability
+[18:32] and manufacturing has changed and is becoming much more
+[18:35] automated, much more kind of AI-centric.
+[18:37] And so I think as we kind of build into the second,
+[18:41] or you call it the third industrial revolution,
+[18:47] that, you know, being able to be competitive
+[18:51] on manufacturing by building automated factories
+[18:54] and so forth, you know, similar to what Elon
+[18:56] has been able to do at Tesla and into Gigafactory
+[19:00] and so forth, is going to be the way
+[19:03] that we get to competitiveness there for sure.
+[19:06] Yeah, definitely.
+[19:09] Yeah.
+[19:11] What other open source companies with regards to AI?
+[19:14] No, we have like A16Z port co-thinking machines.
+[19:19] But you know, where else in Mistral, yeah, yeah.
+[19:23] Where else do you see like new open source models
+[19:26] coming out of?
+[19:26] Would it require literally just like a Gates Foundation level?
+[19:31] Yeah, there's not a lot coming out in America right now,
+[19:35] but, you know, but I think it can happen.
+[19:41] And then there are some real efforts in academia,
+[19:44] my friend, Jan Stoyka from Berkeley
+[19:48] is kind of working hard to put together a project
+[19:52] where we can fund kind of open source model
+[19:56] in that everybody in academia can use and build on.
+[20:00] And, you know, I think that's just really important.
+[20:02] You know, if you look at the history of technology
+[20:05] in this country, a lot of it, you know,
+[20:06] kind of starts in universities
+[20:08] and they've kind of been iced out of AI.
+[20:12] Yeah.
+[20:13] Do get the incredible costs
+[20:16] and then the threat that open source is under.
+[20:21] So, and the lack of US open source in particular, yeah.
+[20:25] In the long run, what exactly is the incentive
+[20:28] for a business to release open source models,
+[20:32] especially at the very foundation lab
+[20:34] and most of their businesses making the models
+[20:36] which are very expensive?
+[20:38] Yeah, so I think that, I mean, this is where like,
+[20:40] I'm glad you both are pro-distillation
+[20:44] because I think that's an important equation,
+[20:46] but look, I think that there's different business.
+[20:50] Like, I think the business model of selling,
+[20:54] serving the model at a very high premium
+[20:57] doesn't work if you're open source,
+[20:58] but there's other things, you know, particularly,
+[21:02] like one of the things we already know is that, you know,
+[21:04] for an enterprise in a B2B context,
+[21:08] a really well-post-trained, kind of less powerful,
+[21:13] smaller model works often better for a business task
+[21:18] than like a large, you know,
+[21:21] kind of a large proprietary model
+[21:23] and as much cheaper as well.
+[21:24] So cheaper, faster and gets your answer.
+[21:28] So I think that it would be more like
+[21:30] a kind of a palantier-looking business model
+[21:33] than it would be after a couple-looking business model
+[21:36] for a company.
+[21:39] And then, you know, true also on the consumer side,
+[21:42] you know, we've seen on consumer,
+[21:46] like the use case really, really matters.
+[21:50] And so kind of tuning a model for that kind of thing
+[21:54] can really work.
+[21:57] Do you think that open-source models
+[21:59] are currently a threat to the business model
+[22:02] of large, closed-source foundation model developers?
+[22:04] Like I can imagine, yes, because if people can get
+[22:08] similar capabilities for a much lower price point,
+[22:10] they'd switch over, but also like when you compare
+[22:14] Kimi to Fable or Sol,
+[22:16] there's definitely areas where Fable and Sol
+[22:18] are just way better and people will pay for him anyway.
+[22:20] Yeah, I don't think anybody's a threat,
+[22:22] a real kind of current threat to anybody else's business
+[22:25] right now, like in that we're so early in the market.
+[22:28] So the thing that's very deceptive about AI
+[22:31] is because the market is so much larger
+[22:33] than any other market we've seen prior,
+[22:36] that it feels like, okay, we're kind of at a stable
+[22:42] equilibrium in the market.
+[22:43] But the truth is the AI market is probably
+[22:46] less than 3% penetrated.
+[22:49] Yeah.
+[22:50] And so everybody's gonna grow, right?
+[22:53] Like when deep-seak came out, it was a deep-seak moment
+[22:56] and oh my gosh, and this is the end of anthropic
+[22:58] and open AI and all that.
+[23:00] And nothing changed, right?
+[23:03] Like nothing changed, zero.
+[23:05] And that's because, but deep-seak is more valuable.
+[23:07] And anthropic is more valuable.
+[23:09] And open AI is more valuable, you know, they all agree.
+[23:13] And this face sets is more valuable.
+[23:14] So I think that at this stage of the market,
+[23:17] everything is gonna grow a lot.
+[23:20] And nobody's gonna pounce on other people's market share
+[23:24] in a way that is so material that it's gonna like cripple them.
+[23:30] Yeah.
+[23:31] Now, someday, when we get to some kind of equilibria
+[23:34] in the market and there's so much share to go around
+[23:37] and then you're fighting each other for share,
+[23:39] then these things may come into play.
+[23:42] But for right now, I don't think so.
+[23:44] Yeah, the pie overall is so big.
+[23:46] I wonder if this follows also for like-
+[23:48] It's like the biggest pie of all time.
+[23:49] Yeah.
+[23:50] Mm-hmm.
+[23:51] When would we like have some indication of like,
+[23:55] the AI market is actually settling to an equilibrium?
+[23:58] Like we can't really rely on historical data
+[24:01] because this is sort of an unprecedented technology.
+[24:06] Yeah, I think it's, I think it's pretty hard to see
+[24:09] because like everybody who's using it keeps using it
+[24:13] more and more and more and more.
+[24:16] Well, like you talk to businesses
+[24:18] and their kind of token usage is growing like 10 fold annually.
+[24:26] So we're, but I think we'll see it when you kind of see
+[24:31] growth really slow down in the various players
+[24:36] and things like that.
+[24:37] But as long as things are growing like several,
+[24:40] a thousand percent a year, five hundred percent a year,
+[24:43] like we're nowhere near to that.
+[24:46] You know, in stable markets things grow like, you know,
+[24:48] whatever.
+[24:49] Yeah.
+[24:50] I mean, what companies do you see are currently benefiting
+[24:54] the most from like very, very cheap intelligence?
+[24:57] Like the kind of companies that use like, you know,
+[24:59] the chemis and the deep seeks.
+[25:03] Yeah, that's a good question.
+[25:05] I mean, I think that, you know, well,
+[25:09] a lot of software companies are able to use it
+[25:12] for kind of various tax.
+[25:14] But I think on the things like customer support
+[25:17] and specialized applications,
+[25:19] to be able to benefit a lot from them.
+[25:23] And then, you know, look,
+[25:24] I think Cursor survived for a long time
+[25:27] because it was able to have an open source alternative
+[25:30] for cheap tasks that they have.
+[25:34] And, you know, now they're, of course,
+[25:35] they're on, they're on GRAC.
+[25:38] But, you know, I think I'll,
+[25:42] every application company in AI world benefits
+[25:46] from open source right now, to some degree,
+[25:48] like they're all using some,
+[25:50] nobody's not using an open source model
+[25:52] who's an application provider that I know of.
+[25:55] So it's kind of that whole field.
+[25:58] And so it's really a catastrophe for,
+[26:02] for that whole part of the ecosystem,
+[26:04] if, you know, if these guys get there right.
+[26:08] When it comes to these, like, very cheap models,
+[26:12] it seems like I can imagine a future
+[26:14] where if the really good models,
+[26:16] like the flagship frontier models,
+[26:18] get much more capable and can, you know,
+[26:21] really do a lot of the tasks that an employee can do at a job,
+[26:25] that enterprises would be gladly willing to spend
+[26:28] a lot more on that rather than go to the much cheaper models
+[26:32] in order to cut costs.
+[26:34] So do you think that could...
+[26:36] I think that's been the case so far, right?
+[26:39] Like, so it's not like anthropics having trouble selling fable
+[26:45] or opening eyes having trouble selling so like that,
+[26:48] those things are growing very fast,
+[26:51] but growing very fast.
+[26:54] So I think that's true.
+[26:57] And then there's a question about which categories of jobs
+[27:03] would you rather have super intelligence and pay 8X
+[27:07] or 10X as much for?
+[27:09] And then which class of jobs would you rather have something
+[27:13] faster and cheaper?
+[27:15] And that'll be a question.
+[27:17] And I think there's probably plenty of jobs in each category,
+[27:20] just like the humans, right?
+[27:22] Like, would you pay a crazy amount of money
+[27:25] for an AI researcher?
+[27:27] Oh, definitely, like clearly.
+[27:29] And then there's, okay, would you pay an insane amount
+[27:34] of money for a janitorial service?
+[27:37] And probably, you know, like would you pay 100X
+[27:41] for a better janitor?
+[27:42] Maybe not.
+[27:44] You know, would you pay 100X more for a better accountant?
+[27:48] I don't think so.
+[27:49] Yeah.
+[27:50] So like, so there's different jobs and different categories.
+[27:56] So, you know, not everything will be that,
+[27:59] but there will be plenty of jobs that are that.
+[28:01] Another question, it's kind of random,
+[28:03] but how optimistic are you about AI art?
+[28:08] Like, do you think, how do you think we're gonna fix
+[28:10] the slot problem?
+[28:11] Do you think it's gonna get worse before it gets better?
+[28:15] No, I think it'll,
+[28:19] the way I would look at it is,
+[28:20] I'm not that worried about the slot problem.
+[28:22] I think that,
+[28:26] I think the exciting thing is that for creatives,
+[28:30] any idea you have is now possible.
+[28:33] And so we're gonna get a lot of new ideas,
+[28:37] great new ideas and everything in our film, music,
+[28:42] you know, new kinds of things that,
+[28:44] you know, new kinds of video ideas and so forth.
+[28:48] So I think it's gonna be a little bit
+[28:51] of a renaissance for art in that,
+[28:52] like every time we have a new technology,
+[28:54] we get new kinds of art.
+[28:55] Yeah.
+[28:56] And, you know, from like the invention of the saxophone,
+[29:01] which I think was like in 1850 or something like that,
+[29:06] the invention of the electric guitar,
+[29:09] you know, we got rock and roll from that.
+[29:11] We got jazz from the invention of the saxophone.
+[29:13] And then we got hip-hop from the invention
+[29:16] of the drum machine.
+[29:16] Like every time there was a new technology,
+[29:19] we get a new kind of art form in music.
+[29:22] And I think that's gonna happen here.
+[29:25] And there will be stuff that's really good.
+[29:27] And there will be more people who can make bad things.
+[29:29] There was more people who could be bad rappers
+[29:32] than there were who could be bad rock and rock.
+[29:34] They didn't have to learn how to play an instrument.
+[29:37] But that's okay.
+[29:38] Like I think that's fine.
+[29:40] I'm for that, like, you know, anything that,
+[29:44] I also think it's just good for everybody
+[29:46] to be able to express themselves.
+[29:48] And so better tools for expression is generally a good thing.
+[29:53] There are issues with it.
+[29:55] You know, I do get nostalgic for some of the things
+[29:58] in the past, of course, but, you know, like it.
+[30:01] And generally.
+[30:02] What music are you listening to now?
+[30:06] Yeah, so it's been a little bit of a drag for me on new music,
+[30:11] but I actually liked the new, the Wyclef album.
+[30:16] I thought it was pretty interesting that he just did.
+[30:20] And I've been listening to a lot of old music.
+[30:22] I've been listening to Curtis Mayfield's.
+[30:25] It was really underrated, really good, but.
+[30:29] Yeah, I think like with things like this,
+[30:31] it increases the amount of like really mediocre artists,
+[30:36] not mediocre because that's mean, but like, yeah.
+[30:38] And then it makes it really hard to be very, very good.
+[30:42] Just because there's so much competition in the space
+[30:45] and everyone is like, it's like very democratized,
+[30:47] which is a good thing.
+[30:48] But it's just hard for like,
+[30:50] from a discernment perspective kind of.
+[30:54] Yeah, but that kind of happened in a big way.
+[30:57] It was Spotify too, right?
+[30:58] Yeah.
+[30:59] SoundCloud.
+[31:00] SoundCloud, yeah.
+[31:02] Yeah, SoundCloud like anybody could put anything
+[31:04] on their YouTube, all that kind of thing.
+[31:07] But, you know, I still think there's,
+[31:10] there's great stuff that's higher art
+[31:12] and there's, and there will continue to be, I think.
+[31:17] Yeah.
+[31:17] I totally agree.
+[31:19] Well, Ben has been so great having you on MTS,
+[31:22] talk about opening up.
+[31:22] Thanks for joining us.
+[31:23] And music.
+[31:24] Thanks so much for joining.
+[31:26] Okay, thanks a lot and appreciate it very much.
+[31:29] Thanks, Ben.
+[31:32] Thanks for listening to this episode of the A16Z podcast.
+[31:36] If you liked this episode, be sure to like, comment,
+[31:38] subscribe, leave us a rating or review,
+[31:41] and share it with your friends and family.
+[31:43] For more episodes, go to YouTube, Apple Podcast, and Spotify.
+[31:47] Follow us on X, A16Z,
+[31:49] and subscribe to our substack at A16Z.substack.com.
+[31:53] Thanks again for listening, and I'll see you in the next episode.
+[31:57] This information is for educational purposes only,
+[31:59] and is not a recommendation to buy, hold, or sell
+[32:02] any investment or financial product.
+[32:04] This podcast has been produced by a third party
+[32:06] and may include pay promotional advertisements,
+[32:08] other company references, and individuals unaffiliated
+[32:10] with A16Z.
+[32:12] Such advertisements, companies, and individuals
+[32:14] are not endorsed by AH Capital Management LLC, A16Z,
+[32:18] or any of its affiliates.
+[32:19] Information is from sources deemed reliable on the date of publication,
+[32:22] but A16Z does not guarantee its accuracy.

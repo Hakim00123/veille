@@ -6,7 +6,9 @@
   "ai-for-america-s-small-businesses-lassie",
   "ruby-thelot-on-internet-culture-ai-and-the-future-of-taste",
   "ai-micro-dramas-generative-media-and-the-future-of-creativity",
-  "fei-fei-li-on-spatial-intelligence-and-robotics"
+  "fei-fei-li-on-spatial-intelligence-and-robotics",
+  "steven-sinofsky-ai-doesn-t-need-new-rules-yet",
+  "ben-horowitz-the-fight-over-open-source-ai"
  ],
  "episodes": [
   {
@@ -50,7 +52,21 @@
    "date": "Tue, 28 Jul 2026",
    "date_iso": "2026-07-28",
    "nb_outils": 2
+  },
+  {
+   "fiche": "steven-sinofsky-ai-doesn-t-need-new-rules-yet.json",
+   "titre": "Steven Sinofsky: AI Doesn't Need New Rules Yet",
+   "date": "Mon, 27 Jul 2026",
+   "date_iso": "2026-07-27",
+   "nb_outils": 0
+  },
+  {
+   "fiche": "ben-horowitz-the-fight-over-open-source-ai.json",
+   "titre": "Ben Horowitz: The Fight Over Open Source AI",
+   "date": "Sun, 26 Jul 2026",
+   "date_iso": "2026-07-26",
+   "nb_outils": 2
   }
  ],
- "maj": "2026-08-02T16:41:54Z"
+ "maj": "2026-08-02T17:58:09Z"
 }

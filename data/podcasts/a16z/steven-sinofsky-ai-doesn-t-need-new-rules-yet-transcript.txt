@@ -1,0 +1,464 @@
+The a16z Show
+Steven Sinofsky: AI Doesn't Need New Rules Yet
+Mon, 27 Jul 2026
+https://a16z.simplecast.com/episodes/steven-sinofsky-ai-doesnt-need-new-rules-yet-BuNOSzIn
+
+[00:00] The whole topic of regulation for me just seems completely backwards because it's starting
+[00:07] before we even know what we're regulating.
+[00:11] There's no reason why the AI company should be against open source other than we just don't
+[00:17] want our competition to exist and we don't want to bother to compete.
+[00:21] We'd rather just compete with each other and not worry about that crazy open source competitor.
+[00:26] True, there's no one knows the future.
+[00:28] What those assumptions mean are we should regulate this based on our own personal predictions
+[00:34] of the future.
+[00:36] But the history of being right about those predictions is pretty limited and so we should
+[00:40] be really careful about that because those are all self-serving.
+[00:44] How should governments regulate AI when the technology is still evolving?
+[00:49] Theo Jaffe and Sofia Puccini are joined by Steven Sonofsky to discuss why he believes
+[00:55] AI regulation is moving too fast.
+[00:57] The case for open source models and what previous waves of technological innovation can
+[01:02] teach us about building policy without stifling progress.
+[01:09] We are live with Steven Sonofsky, amazing tech analyst, author of hardcore software, longtime
+[01:15] Microsoft leader and we're so glad to have you back on, Steven.
+[01:20] Welcome back there.
+[01:21] Hey there.
+[01:22] Super fun to be here.
+[01:23] Yeah, so so much in AI, like where do we even start?
+[01:27] So our goal is to say stuff that we haven't said yet, so let's see if we can do that.
+[01:32] We will try.
+[01:33] Novel insights time, yeah.
+[01:34] Novel insights.
+[01:36] So open source, there's been much discussion of regulation of open source Chinese open source
+[01:42] models in particular on both sides of the pond.
+[01:46] China has considered export controls, but also Xi Jinping has said we're encouraging open
+[01:51] source and then in America we've had Scott Bessin says we're going to be looking into IP
+[01:56] theft and some people have considered import controls are requiring a license.
+[02:00] So there's a lot going on right now.
+[02:02] It's very fluid.
+[02:03] What are your takes on regulation of open source models?
+[02:07] Well, it just seems the whole topic of regulation for me just seems like completely backwards
+[02:16] because it's starting before we even know what we're regulating.
+[02:22] If you go back in history, one of the best things about the 20th century in America was
+[02:30] that so much experimentation was happening, so much innovation.
+[02:34] And that does have this potential downstream of like, oh gosh, this thing happened that
+[02:39] we have to roll back like a super famous example was safety in cars and that car company spent
+[02:46] the first 50 years making cars, making cars and then in the 1960s, it sort of became clear
+[02:52] that wow, we could actually make cars much, much safer.
+[02:56] Now it took 60 years to understand that cars were super dangerous and it was all that evolution
+[03:02] and in all fairness, like it wasn't a design criteria, you know, seat belts and airbags and
+[03:09] these things became a very long process to get them put into the upstream of making cars.
+[03:16] And you could go through every sort of dimension.
+[03:19] There's antitrust law and the whole reason why, you know, oh my God, you can't be an oil
+[03:23] company where you sell gasoline, produce gasoline and also pull it out of the ground where you
+[03:31] can't make movies, have actors and actresses under contract and own the movie theaters
+[03:38] and distribution and maybe that shouldn't be right.
+[03:40] And there are millions of examples that the challenge is the story of regulation is always
+[03:46] told as though if they would have gotten in early, they would have prevented this stuff
+[03:52] from happening.
+[03:53] And you know, you look back and you're like, oh, you know, what if they would have shown
+[03:56] up at Henry Ford and said, we need airbags.
+[04:00] And Henry Ford is like, okay, we can't figure out how to make engines work.
+[04:05] Like, let's get that done.
+[04:07] And you know, also these cars go 15 miles an hour and, you know, we're just trying to
+[04:12] make them go.
+[04:13] And, you know, of course, air travel is like that.
+[04:15] Every technology innovation, it took a long time for two things to happen.
+[04:21] One, for it to just work at all.
+[04:23] And, you know, today we're talking about AI and it can't be that AI is both the most
+[04:30] intelligent thing in the world and it generates gibberish hallucinations and the answers are
+[04:36] why and you rely on it like those both can't be true at the same time.
+[04:40] You can look at social networking had the same effect where like, oh, it's a toy.
+[04:45] It's a giant waste of time.
+[04:48] You know, it's either that or it can topple governance.
+[04:51] You know, it couldn't be and they were at the same time.
+[04:54] People were saying both of those things about social networks.
+[04:57] And so it can't be and now they've added this dimension that they, they are mind control
+[05:02] devices on our nation's use.
+[05:05] And at the same time, they're huge waste of time and the contents is all slop, like all
+[05:10] of these things can't be true.
+[05:12] And so a lot of times it just in this whole motion of regulating is this hindsight.
+[05:17] And you assume that only good would have happened if regulation happens.
+[05:22] But that's just that you can't prove that.
+[05:24] And so you're in this very tricky situation.
+[05:26] And so today you have this, those worlds, I just got lost on video.
+[05:33] Hey, give me just a second and girls.
+[05:35] What just happened?
+[05:36] Oh, I just crash.
+[05:37] No worries.
+[05:38] You're still here in voice form.
+[05:40] So yeah, I got you in voice and and I just crack.
+[05:45] I like literally crashed.
+[05:46] Hang on.
+[05:47] The spirit of Steven Sinoski still is a beautiful like gear icon.
+[05:52] Yeah.
+[05:53] Is that it?
+[05:54] I don't know.
+[05:55] Oh, is it?
+[05:56] Yeah, we can pause the screen for a second while we figure it out.
+[06:00] No, I like officially and I'm working.
+[06:06] I am closer.
+[06:07] Well, can we do it this?
+[06:09] Is that working?
+[06:10] It works.
+[06:11] It works with audio.
+[06:12] You just have an anonymous guest.
+[06:14] No, hang on.
+[06:15] Your newest anon guest is like suspiciously knowledgeable about the Microsoft Surface
+[06:19] Pro.
+[06:20] How about that?
+[06:21] You're back.
+[06:22] You're so back.
+[06:23] It's not the right video, but it is video.
+[06:27] And so, so we have this thing where everybody that was just a total crash, by the way, of
+[06:33] my like a V stack.
+[06:36] And so we have this thing where people are just trying to rush to regulate and that it's
+[06:40] it actually came up.
+[06:41] It happened so often that is guy came up with a term and it's called the precautionary principle.
+[06:47] And the idea is regulators who, you know, look, you don't get a job in government to
+[06:51] regulate and then say, and then don't regulate, like you come to work to create craft regulations
+[06:58] and to come up with what you want to do.
+[07:00] And so the precautionary principle was like, well, let's just get ahead and let's let's
+[07:05] regulate before anything bad happens.
+[07:08] But when you do that, what you really do is you you constrain the solution set.
+[07:13] And I think back to the internet and what would have happened if we would have precautionarily
+[07:18] regulated the internet, where would it have start?
+[07:21] Like would we all just be using AOL instant messenger right now?
+[07:25] Because that was like the internet that everybody knew and and it had all these attributes
+[07:29] that that regulators like, like it was one company and it was in Virginia, like literally
+[07:35] that's even the best case because it was practically in the government already.
+[07:40] And you know, you could, you could go to them and you could tell them to do stuff.
+[07:44] And and it was a walled garden.
+[07:46] If they didn't, if you didn't like something, you could turn it off.
+[07:50] And and it was perfect.
+[07:52] Or would it have been in like web 1.0, where everybody is using six tags and HTML, there
+[07:58] was not yet really commerce.
+[08:01] And we all would have just looked things up on Yahoo and excite.
+[08:04] And they would have said, okay, these are the two companies were blessing Yahoo and excite.
+[08:08] And there's no video, there's no audio, you know, we're just, you know, and you just,
+[08:13] you kind of go and you pick your time of when it was, we're all comfortable with like
+[08:18] whatever it is that that's going on.
+[08:20] And so that's of course what happens is at that moment, the companies that are really hot
+[08:25] are the ones that the government seeks input from.
+[08:29] And some people think that that's bad.
+[08:30] I actually think it's good because they know presumably more than anybody else.
+[08:34] But what they also know is what they want to do.
+[08:38] And so those companies then, they sort of push government to go in a certain direction.
+[08:44] Historically, technology companies have said, whoa, how about this government hands off?
+[08:49] We don't like regulation like at all.
+[08:53] And yeah, that's a lot different than say what happens, you know, if the government's already
+[08:57] regulating like safety of chemicals, it's very hard for the farmers who will have companies
+[09:02] to say, leave us alone and don't regulate us at all.
+[09:05] And so that was one of the first early regulatory bodies.
+[09:08] But the tech companies this time around and AI have completely just blown my mind.
+[09:15] Now you have to understand, I spent like I was a Microsoft employee for like two years,
+[09:20] and then the government started investigating Microsoft in like 1992, told you for what it
+[09:26] you wouldn't even you wouldn't even understand what I was talking about.
+[09:29] But now we had, you know, two years ago, like two years ago, what were people doing with
+[09:35] AI?
+[09:36] Like chatbots were new, and you had the leaders of the AI companies, showing up to Congress,
+[09:41] literally, please regulate us, oh, we're begging you to regulate us.
+[09:47] And that is just this crazy notion.
+[09:50] And so what you had was they just played right into the government's view that they missed
+[09:55] regulating technology.
+[09:57] They missed it, regulating the internet.
+[09:59] They missed regulating the PC.
+[10:01] They missed regulating the mainframe.
+[10:04] And so this was their chance and they were being asked.
+[10:06] And so they like rolled out the red carpet.
+[10:09] And the government knew what was going on, but because it solved a problem for them, which
+[10:14] was how to really get into regulating big technology companies, they sort of went with it.
+[10:21] And so the government normally like they kind of go, oh, they're going to try to control us.
+[10:27] They're going to lobby us and tell us what to do.
+[10:29] And in fact, everybody knew that was what's happening.
+[10:31] And that's it's called regulatory capture.
+[10:34] And this is a long history.
+[10:36] And most of the people in government that are savvy with government know that's what's happening,
+[10:40] that they know the companies are saying, do this thing because it's good for everybody.
+[10:45] And they always have good reasons.
+[10:46] They always say, oh, the products will be better, or the price will be lower, or there'll be
+[10:51] much clear lines of service and the marketplace will be more fair.
+[10:55] Like for example, AT&T, which is a fascinating example, because they were actually a government
+[11:00] created monopoly, like literally the government created the phone company and they owned it
+[11:06] essentially.
+[11:08] But then when the government was saying, you know, we think we need to control your prices
+[11:12] and do stuff.
+[11:13] AT&T went to them and they said, OK, here's the deal.
+[11:16] We can guarantee that every single address in America will have a telephone.
+[11:23] And it's called universal access.
+[11:26] And that's why you can only let us do this.
+[11:29] And so basically they made this deal that AT&T was going to be the national phone company,
+[11:35] even though it was a private company, if they promised to deliver phones everywhere.
+[11:41] And it got really tricky because with that came like a bunch of rules about using the
+[11:46] telephone lines that today led to surveillance, you know, and all of this stuff.
+[11:51] And because so what happened was basically the AT&T, a private company became really the
+[11:58] United States phone company.
+[12:01] And it was just a branch of the government.
+[12:03] And this has happened time and again, JP Morgan became the National Bank of America.
+[12:09] You know, the standard oil became the National Oil Company of America, even at some crazy
+[12:14] extreme Warner Brothers became the movie theater of America.
+[12:18] Yeah, and every instant, it turns out, radio, television, and telephone all sort of followed
+[12:26] the same path where they were there were private companies that were basically beholden
+[12:31] to the federal government.
+[12:33] You saw the lot of this when the New Deal was created.
+[12:37] And FDR basically used the Federal Communications Commission to control the messaging of the
+[12:43] New Deal by basically threatening the licenses of the radio broadcasters.
+[12:51] And there's a lot of controversy of just how much they did.
+[12:54] Did it really cross some line?
+[12:56] But the truth is they were going to, they were just in line whether they wanted to be or not,
+[13:01] they were going to be in line.
+[13:03] And the same thing happened with television.
+[13:05] And so this whole idea of being against open source, it's really rooted in like no one,
+[13:12] the government can't be against open source because if you get a government grant, you're
+[13:16] required to release all your software's open source.
+[13:19] Like that's the government way of doing computer science research.
+[13:23] So how can all of a sudden the government say, we don't want open source?
+[13:28] It doesn't even make sense because none of the leading academic researchers will be government
+[13:34] funded.
+[13:35] And so it just makes no sense at all to me.
+[13:39] And Microsoft, we were a closed source, Bill Gates invented the closed source business model.
+[13:47] And so we lived through the rise of HTTP and Apache and Web and Linux and all of this
+[13:54] other stuff.
+[13:56] But there is a role for open source.
+[13:58] And most importantly, the open source existed even when Microsoft existed, even when IBM existed.
+[14:06] And so there's no reason why the AI company should be against open source other than we
+[14:13] just don't want our competition to exist.
+[14:15] And we don't want to bother to compete.
+[14:17] We'd rather just compete with each other and not worry about that crazy open source
+[14:21] competitor, which I just I can't even put words into how obnoxious that is.
+[14:26] It's just not it's just not sure.
+[14:29] And they benefited enormously from the academic research community, all of which was open published
+[14:34] on in open source, you know, it's just crazy.
+[14:38] And that's how we got here.
+[14:39] And that's why we're even having this debate.
+[14:42] Well, I think that, you know, most AI labs, AI companies would be like totally on board
+[14:47] with this idea of like, yeah, of course, we don't want, you know, government centralization
+[14:51] and regulation, but they think, you know, AI is not like the other technologies.
+[14:56] It's not like the internet.
+[14:57] It's not like the PC.
+[14:59] They're building towards, you know, artificial super intelligence.
+[15:02] And this will be like a totally different thing and will require like a novel approach.
+[15:07] But I think maybe different people in this debate are working on like different assumptions
+[15:11] of like where the technology is headed.
+[15:14] Well, those are those let's let's that that's the most generous way to express it is different
+[15:20] assumptions.
+[15:21] The truth is no one knows the future.
+[15:24] So what it what those assumptions mean are we should regulate this based on our own personal predictions
+[15:31] of the future.
+[15:32] But the history of being right about those predictions is in those history of being right
+[15:38] about those predictions is pretty limited.
+[15:41] And and so we should be really careful about that because those are all self serving.
+[15:46] There's no there's no reason to say it's different.
+[15:50] I genuinely believe there are people who work on AI who who really believe in this ASI AGI
+[15:56] arc of super intelligent.
+[15:58] I mean, they they went to Congress two years ago and they said literally there was fear in
+[16:03] their eyes for the economy and for people dying everywhere.
+[16:08] At the same time, of course, it didn't work and it was hallucinating and it was silly and
+[16:14] it was making things up.
+[16:15] So again, it's not they're drawing some predictive arc.
+[16:20] And even today people are fighting over is AI good enough to do stuff?
+[16:24] What is it good at?
+[16:26] So it's just you can't have all of these things being true at the same time.
+[16:30] So what it really says is not now is not the time to regulate because we don't know where
+[16:37] it's heading.
+[16:39] So all you're going to do is kneecap innovation and and there are laws in place for a zillion
+[16:45] almost any scenario.
+[16:46] In fact, I would say a hundred percent of the scenarios that people say are problematic.
+[16:52] There are already laws against them.
+[16:54] Like there are already laws against, you know, putting bad drugs on the market.
+[16:59] There are already laws against not giving people bank loans for their their gender or their
+[17:03] race or their other attributes.
+[17:06] And there's already like Senator Warner today came out the big four point plan about AI
+[17:11] and he's like, well, we have to address the issue of non-consensual nudity.
+[17:17] And it's like, okay, but there are laws against this like you you can't be showing nude pictures
+[17:22] to children.
+[17:23] Like that's already law and you can't be showing nude pictures of children.
+[17:27] It's already a law.
+[17:29] And so like every one of these evil scenarios that they worry about, it's already illegal.
+[17:35] Like I saw one state like you can't you can't be registered as an attorney if you're an AI.
+[17:43] Well, of course you can't be registered as attorney.
+[17:45] You can't even sign your name on the license.
+[17:49] Like you know, like you have to have a license to be a lawyer.
+[17:52] You have to take a test.
+[17:53] You have to do all of this stuff.
+[17:55] And the AI doesn't do any of these things nor can it like it can't register for college.
+[18:00] Like people aren't making they're being coherent because they're just so enamored with like
+[18:07] getting their point of view and leaving off competition in some way or decapping big tech in
+[18:13] some way.
+[18:15] So if we have like the precautionary principle in mind, what would be the opposite of it?
+[18:19] Like what would be a very like responsible, like iterative way to start regulating AI knowing
+[18:25] that like your view point is like we don't even know exactly what it's capable of.
+[18:31] It's not even like, you know, like hashed out enough as a technology or as a sector to
+[18:36] even know what to regulate.
+[18:37] Well, the first thing that's super easy is you can go through all the laws and say
+[18:44] like, hey, in this state with this law for this thing, you know, did we make it clear
+[18:51] that you can't be an optician if you're not an AI?
+[18:55] Like should we just make sure that AI can't just go give I test?
+[18:58] Like you can't set up an iPhone and the mall with like a camera and write letters prescriptions
+[19:05] for people.
+[19:06] Like, okay, maybe you can do that because Ohio didn't word their law correctly and states
+[19:13] are responsible for licensing opticians.
+[19:15] So there is this step one, okay, we have a whole new technology.
+[19:20] Should we like you?
+[19:21] This happened with EVs, like where EVs weren't gas combustion engines and you they had to adhere
+[19:28] to all the safety rules of cars, except they had a whole bunch of different components
+[19:34] in them and all the rules for cars sort of got based on the gas combustion engine.
+[19:38] So they need to go back and make sure that all the laws applied if you're you had a battery
+[19:42] operated car and and so they're like, how many cars had front trunks?
+[19:48] Not very many.
+[19:49] So were there laws about safety and crash zones and all of this that accounted for front
+[19:54] trunks?
+[19:55] Let's go check it out and make sure we're okay.
+[19:57] And so there's a first step, which is there are a lot of laws.
+[20:00] There's two million laws on the books about everything.
+[20:03] So do the right ones apply to AI?
+[20:06] Like do a bunch of places need to go add and AI to their laws?
+[20:10] And maybe that's CSAM, maybe that's spam, maybe that's surveillance.
+[20:16] Like there's a bunch of stuff to just go do.
+[20:18] And maybe today those are wrong.
+[20:20] That's like, that should keep everybody busy while we go figure out AI.
+[20:25] And of course we had to do this with computers, like you had to make sure that if you used a
+[20:30] computer to do something that like you couldn't like, you know, that all the anti-forgery laws
+[20:35] applied, if you happen to output in a computer, that, you know, I went through getting the
+[20:40] legal system to use Microsoft Word, and it turned out there were a whole bunch of features
+[20:45] we had to go change in Word just to work correctly in the legal system as it stood.
+[20:51] Legal system didn't have to do anything.
+[20:53] We had to go and just make sure we worked within the constraints of like here, like a
+[20:57] crazy example, like in the legal system, having footnotes that are longer than a page.
+[21:03] So footnotes have like a limit.
+[21:04] They can only take up like a third of the page in a legal brief.
+[21:07] But if your footnote is longer than that, you have to have like a feature in a word processor
+[21:11] that continues the footnote on the next page.
+[21:14] Like we were like, wow, who thought of doing that?
+[21:18] And it's no good deal for using a typewriter because you haven't even gotten to typing that
+[21:22] page yet.
+[21:23] So it worked fine.
+[21:24] So we had to go do that.
+[21:25] So that's like a great step.
+[21:28] And that's an idea like then we'll know what's missing and also while the technology evolves.
+[21:33] Yeah, I'm a big believer in like domain experts will sort of know that like in the case of
+[21:38] the like opticians, well, it should be like opticians, registered opticians and people who
+[21:42] are like have expertise that are sort of like working with the states to along with like
+[21:47] some AI experts.
+[21:48] And then it becomes like a perfect union.
+[21:50] And that's how we like figure out where to go next.
+[21:53] So I totally agree.
+[21:54] Yeah, there was an episode, there was an episode of the new TV show The Pit where one of the
+[21:59] residents is using the an AI system to sort of make it easier to do the patient notes.
+[22:06] And then she makes an AI mistake, like AI makes a mistake.
+[22:10] And and there's no ambiguity, it's her no, like she's in trouble.
+[22:15] She can like go, Oh my God, it's AI.
+[22:18] And there's just something you could do.
+[22:20] It's her medical license.
+[22:22] It's not the AI's medical license, completely unambiguous.
+[22:25] Now, if she went and hurt the patient, the super tragic, but she still hurt the patient.
+[22:30] And it's her accountability, no matter who wrote the note.
+[22:33] Yeah.
+[22:34] Going back to open source.
+[22:35] So something interesting of like the last week or so has been that like on one hand, you
+[22:39] have like China considering export controls on like chips and like open weight models.
+[22:45] And then you also have the US government, like considering maybe like some action against
+[22:50] like Chinese regulating Chinese open source models.
+[22:52] So it seems like on both sides, like there is an incentive to do that.
+[22:55] Like, how do you see this playing out?
+[22:58] Well, in this case, this is this.
+[23:02] There is an actual innovation war with China happening right now.
+[23:06] There's not a Cold War.
+[23:07] There's sort of a trade war, but we're very mutually reliant on each other for trade.
+[23:11] So it's hard to call it a trade war, but there's absolutely an innovation leadership war.
+[23:16] And if you're the government and you're participating in innovation leadership war,
+[23:21] there are two tools that you have.
+[23:24] One of them is you bludgeon your international competitors with the regulations that are already
+[23:30] in place.
+[23:31] And then the other is you fund or nationalize companies to go compete.
+[23:39] And those are the tools that are you seeing put in place now.
+[23:41] China is very pro-woring money into the companies at a national level.
+[23:47] This is something that we saw with Japan in the 1980s.
+[23:50] In the 1980s, Japan was going to take over the technology world.
+[23:54] And they set up a huge ministry that sort of tried to shepherd the memory industry to dominate it.
+[24:01] And if you look, they don't dominate the memory industry anymore.
+[24:04] So it didn't really work.
+[24:07] But they did for a long time dominate other aspects of tech.
+[24:11] And they're very, very good at what they do.
+[24:13] But this central planning, it's not there's no tracker where it really succeeds.
+[24:19] These trade wars, this is where you get into what I think of as bank shots.
+[24:25] The government's not going to go after AI directly.
+[24:29] It's going to do these things on the side.
+[24:32] Like you see, we're going to, oh, we're going to ban the chips.
+[24:36] Okay, well, that doesn't, that may or may not slow them down.
+[24:41] But it doesn't have any to do with the model in the end.
+[24:44] Like, okay, so it'll train longer or it'll, you know, there's no shortage of power in China.
+[24:49] So they're not going to run at a power running the models longer or something like that.
+[24:53] And so these bank shots are very popular with, with the government, because also it doesn't
+[24:58] look so rude.
+[24:59] Like there's one going on with China or with Canada now over Canadian lumber.
+[25:04] And we put a tariff on, I have no idea what Canadian lumber has done to us.
+[25:09] But it's probably nothing.
+[25:11] And this is over something that they did to us that isn't lumber because often you can't
+[25:15] do the same thing back.
+[25:17] Like it happened, you seen us in the brutality of war, where like one side bombs a school
+[25:22] by accident, you don't bomb a school of theirs on purpose.
+[25:26] You go and you bomb, you know, a factory that's important to the military or something.
+[25:30] And so you get these indirectionals and signals.
+[25:34] These are the tools of diplomacy.
+[25:36] And you can fight all you want about how, how crazy they sound.
+[25:40] But this is what they do.
+[25:42] And they're going to come to work every day and, and participate in the innovation war
+[25:48] with the tools that they have.
+[25:50] And it's unfortunate for us that there are people helping them with, with their own bank
+[25:58] shots.
+[25:59] So like when anthropic says, Hey, the best way to hurt China is to curtail open source.
+[26:04] What that means is the best way to help anthropic is to curtail our open source competitor,
+[26:10] whether it's from China or the United States.
+[26:13] And that's just that is kind of un-American.
+[26:18] And so, and it's definitely on tech.
+[26:21] Like we've just, the tech industry has just never wanted this.
+[26:26] It's very different than say the auto industry.
+[26:28] In the 1970s, when I was a kid that, you know, the Detroit was just getting crushed by small
+[26:34] Japanese cars because Detroit just couldn't make fuel efficient cars.
+[26:40] And they also couldn't make quality cars.
+[26:43] Japan had a reputation for low quality and through the 1960s really perfected making super
+[26:51] high quality cars.
+[26:52] They invented quality engineering.
+[26:53] And then they are a very compressed city with a zillion people.
+[26:58] So they made really small commerce that became immensely popular in the United States.
+[27:02] And Detroit just convinced the administration that they were selling these cars below their
+[27:08] cost, that they were dumping them.
+[27:09] Does this sound familiar?
+[27:11] This guy used this week about about about chemo.
+[27:15] Yeah.
+[27:16] And so the idea is that, oh, they're dumping it well, dumping, it turns out to be it has
+[27:20] to have a very specific definition about how much does it cost you and are you really offering
+[27:26] it at less price.
+[27:27] And even then, this is a bigger international trade diplomacy dialogue.
+[27:32] It's not so cut and dry.
+[27:34] You can't just say, because this product exists, it's being dumped.
+[27:39] And yet the Detroit was like, dumping, dumping, dumping, you got to stop it.
+[27:43] So what did Japan do?
+[27:44] They actually built all their factories.
+[27:45] And so you might remember right now that there's a bunch of Japanese car vent manufacturing
+[27:50] plants in the US, in the Carolinas and Alabama and Mississippi.
+[27:55] And so that's what they got out of this.
+[27:58] They still lost.
+[27:59] Detroit doesn't even make cars anymore.
+[28:01] So they still lost.
+[28:03] Yeah.
+[28:04] And so it didn't really help.
+[28:06] Right.
+[28:07] Yeah.
+[28:08] Well, it's been super interesting.
+[28:09] Steven, thank you so much for coming on MTS.
+[28:11] It's been great having you on.
+[28:15] Thanks for listening to this episode of the A16Z podcast.
+[28:18] If you liked this episode, be sure to like, comment, subscribe, leave us a rating we're
+[28:23] review and share it with your friends and family.
+[28:26] For more episodes, go to YouTube, Apple Podcasts and Spotify, follow us on XA16Z and subscribe
+[28:32] to our sub stack at a16z.substack.com.
+[28:36] Thanks again for listening and I'll see you in the next episode.
+[28:40] This information is for educational purposes only and is not a recommendation to buy, hold
+[28:44] or sell any investment or financial product.
+[28:46] This podcast has been produced by a third party and may include pay promotional advertisements,
+[28:51] other company references and individuals unaffiliated with A16Z.
+[28:54] Such advertisements, companies and individuals are not endorsed by AH Capital Management
+[28:58] LLC, A16Z or any of its affiliates.
+[29:02] It is from sources deemed reliable on the data publication, but A16Z does not guarantee
+[29:06] its accuracy.
