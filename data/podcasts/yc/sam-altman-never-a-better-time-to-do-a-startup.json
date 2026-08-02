@@ -1,0 +1,32 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "Sam Altman: \"Never a Better Time to Do a Startup\"",
+ "date": "Tue, 28 Jul 2026",
+ "date_iso": "2026-07-28",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/Sam-Altman-Never-a-Better-Time-to-Do-a-Startup-e3mld12",
+ "duree": "00:39:00",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.8,
+ "taille_transcript": 43488,
+ "transcript": "sam-altman-never-a-better-time-to-do-a-startup-transcript.txt",
+ "nb_outils": 4,
+ "outils": {
+  "Cambridge. PG": [
+   "mpany called Loubed. What do you remember about that? And what was your best PG's Paul Graham story? I think if it were possible to get as far from this moment, as like I can imagine, it was startups are not cool at all. We were like hiding out in this little building in Cambridge. PG was making us dinner and what took three months to build at the time that each company built over the whole YC startup could now be done with like in like seven minutes by a coding agent. And it was only, I mean, only 20 years ago. And I think the difference in what's pos"
+  ],
+  "Codex": [
+   "now be done with like in like seven minutes by a coding agent. And it was only, I mean, only 20 years ago. And I think the difference in what's possible for a startup now, what a startup can take on. I think you could either be sad and be like, oh man, like a Codex prompt is a whole startup or you could be like, I can go start the world's most ambitious, crazy company. I can have like experts in every field working together. I can do these very hard technological things that were just impossible. And it's gonna be amazi"
+  ],
+  "Hugging Face": [
+   "s is the kind of like loose network and the spirit of helping each other. And it's like very long-term outlook has been an awesome thing. Yeah. Well, let's get back to the impending AGI. Okay. I guess you had a, I mean, we've all had an eventful week with the hugging face. Yeah. I wonder what you can tell us about that. And I think that's actually a really big moment for people including me who, you know, in the past I've been known to be skeptical about safety and AI. But on the other hand, like this is a real moment, like we",
+   "to, you know, be fairly quite reserved about not imposing our world view about what we think people should or shouldn't do with AI or even what we think the good ideas are, while still making sure that we can ensure enough of a safety bar, that stuff like the hugging face incident is not happening. One of the things is, you know, this is a room full of people who will do really amazing things. They're often right at the beginning of their career and they might look at AI safety or concentration in power and say, well, you know"
+  ],
+  "Stripe": [
+   "of people. It's like fun to do. You'll see a lot of interesting stuff. It's like kind of gratifying to be helpful. But, you know, even that example you were just talking about, I met Greg Brockman, my co-founder, OpenAI, because I was a very early investor in Stripe when I was like 22 or something. And they were like, this was before they had, you know, like real investors that could really help them. And they said, you know, we're trying to close our first hire. Will you like drive down the Palo Alto tonight and have di",
+   ", you know, like real investors that could really help them. And they said, you know, we're trying to close our first hire. Will you like drive down the Palo Alto tonight and have dinner with this guy to convince him he should like drop out of school and join Stripe, which is Greg Brockman. And then like eight years later, we started a company together. So, and I could like, you know, you could too. We could like spend the rest of this time just telling stories like that that was totally unpredicted but ended up being im"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

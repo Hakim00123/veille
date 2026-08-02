@@ -1,0 +1,395 @@
+Y Combinator Startup Podcast
+Boris Cherny: Building Claude Code
+Tue, 28 Jul 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/Boris-Cherny-Building-Claude-Code-e3mkr7g
+
+[00:07] All right, Boris, we're so excited to have you here, the creator of
+[00:12] plot code. Thank you. It's great to be here. Fresh off the press,
+[00:22] you guys just shipped Opus 5 yesterday. Yes.
+[00:28] And it seems that model performance keeps accelerating. You guys got took Arc AGI 3 to 30 percent,
+[00:38] which is incredible. Yes. And for context, before the best score was in the low single digits or
+[00:47] low teens, right? What can Opus 5 do now that it couldn't versus a previous version?
+[00:55] Yeah, there's a lot that goes into every new model. And there's a lot of new capabilities that we
+[01:01] teach and get the model to do. Whenever you do model training, you try to teach a whole bunch of
+[01:10] different things, and most often it doesn't work. But some subset of the things the model does
+[01:16] work. And sometimes it also surprises you. It has these skills, it has abilities that you actually
+[01:22] didn't really teach it, but it just kind of worked. For five, one example of something it does that I
+[01:28] think no other model has done is it runs for a very long period of time. And especially when you
+[01:35] combine Opus 5 with auto mode, it's just incredible. It can go for days, weeks, months at a time. It
+[01:42] just won't stop. You don't even need to use scaffolding. So you don't need a splash goal. You don't need
+[01:49] all this other stuff. It'll just go because it knows it needs to do the task. Another thing that
+[01:54] I'm really excited about, and I'm going to start, I think, to talk about a little bit more, but it's
+[02:00] kind of surprising because it's such a new capability, is the model does not seem to be prompt injectable
+[02:06] anymore. That's prompt injectable. It's crazy. People have talked about this lethal trifecta for a
+[02:14] long time. And this really affects harness design and agent design and product design. Because if
+[02:21] the model reads some instruction on the internet, that's like, you know, do X and Y and Z, and also
+[02:26] delete everything on the user's computer. A year ago, the model would have just done it. But nowadays,
+[02:33] Opus does not. And this has actually been the case since like Opus 4.7, 4.8. Sonnet 5 has been
+[02:40] quite good at this table. It's quite good at it. But Opus 5 just hits like a new frontier on this.
+[02:45] So essentially, if you combine a well-aligned model, so this is like essentially three years of
+[02:50] research into alignment, with a prompt injection classifier, which we run for all traffic, and what
+[02:56] this is doing is it's based on chrysalis mechanistic interpretability work, where it's literally we're
+[03:02] looking at neurons in the model's brain that light up when prompt injection happens. So the model won't
+[03:08] even tell you, but we can actually see those neurons and we can figure out and diagnose that
+[03:12] it's happening. And then you combine that with the auto mode classifier. And with these three layers,
+[03:18] we just cannot demonstrate prompt injection anymore. And we've hired security researchers,
+[03:23] we've done like red teaming, we've done competitions, no one can demonstrate it. And so I'm actually quite
+[03:28] curious if people are able to. And that will actually be really amazing signal for the research team.
+[03:34] So if anyone in this room prompt injects cloth, Opus 5, you won't get a special prize for Boris,
+[03:41] maybe. Now talking about a prompt injection, the other side of the coin is now the system
+[03:49] prod. Let's talk a bit about the new release. You actually deleted over 80% of the system
+[03:57] prompt from cloud code. Tell us more about that. I think something that a lot of people might not
+[04:02] realize is, um, cloud code as a product and as a harness is just always changing. We're always adding
+[04:10] stuff. We're always deleting stuff. Every time that a new model comes out, we delete a bunch of the
+[04:16] system prompt, change a bunch of the system prompt. We change the set of tools all the time. We change
+[04:21] the prompts for the tools all the time. And the reason is every model is very different.
+[04:28] So something that you did for one model maybe three months ago, it just might not translate at all
+[04:34] to the next model. And so one thing about Opus 5 is it's just really intelligent.
+[04:41] And a lot of the stuff in the system prompt was correcting for these behaviors that the model
+[04:46] should have known, but it didn't. Now Opus 5 just does it. So yeah, we deleted 80% of the system
+[04:54] prompt. You can actually try deleting the rest of it too. So when you run cloud code, you can just do
+[05:00] like dash dash system prompt and set whatever system prompt you want, if you want to experiment
+[05:04] with it. And another thing that you can try is simple mode. So this is actually this kind of
+[05:10] undocumented feature. If you do cloud code, simple equals one, like this environment variable, and
+[05:16] then you run cloud, it'll delete all the system prompts, including from the tools. And we actually
+[05:22] use this as a sort of ablation to figure out is the prompt useful. And what's interesting is that
+[05:28] the model is actually a little bit more intelligent without these prompts. That's something that we've
+[05:33] been finding. But when you use cloud code as a product, you do actually want some of these prompts
+[05:38] because it helps you use the product and it helps the product behave and the model behave in the
+[05:43] way that you would want when you're using it as a person. I think the thing that's really fascinating
+[05:48] in this era of building, basically you'll build the best harness in the world for for cloud and
+[05:55] that's cloud code. From what I'm hearing you for every model released, you basically delete
+[06:00] all of the code base, delete all of the prompt and start from scratch every time. That in the
+[06:06] whole world would have been not something startup would have done for the product. It's like press
+[06:11] delete every six months for everything. That's right. That's right. We so to be fair, we don't delete
+[06:16] the entire code base, but we do delete a lot. So every time there's a new model, we try we call
+[06:21] in research, you call this a ablation. And so what this means is you delete the entire system prompts
+[06:26] and then you bring it back line by line to figure out what is the impact of each individual line.
+[06:32] It's sort of like a eval and you can kind of like evaluate it and ablation essentially,
+[06:36] it's an eval, but you delete things to figure out the impact. And yeah, we do the same thing
+[06:41] for tools. We unshift tools all the time. We delete code in the harness all the time.
+[06:46] If you look at actually the code that's in the cloud code harness today, almost all of it is about
+[06:50] safety and permissions and static analysis. And there's a bunch of UI code. And we've actually
+[06:56] unshipped a lot of the other code already. Do you think this way of building a agent product and harness
+[07:04] and basically doing ablations every time with a there's a new model release? Should everyone in
+[07:10] this room that's building AI products basically do that be comfortable and brave to press delete?
+[07:17] 100%. Yeah, and for people that aren't building agent products but you're using cloud code,
+[07:22] every six months, delete your bottom D, delete your skills, delete your hooks, see what the model
+[07:28] does and it might surprise you. And actually for Opus 5, this is something we really do recommend,
+[07:34] is just try deleting all of these things, because the model might really just not need all those
+[07:40] instructions that you needed for past models. Let's talk a bit about how then you build this new
+[07:46] prompt. When there's a new model release, like for everyone in the room, everyone will want to try
+[07:51] Opus 5 and they're going to press delete on their system prompt. How do they go about
+[07:56] rebuilding the system prompt? How do you set up your environment?
+[08:01] So you do it kind of piece by piece. So the first step is you delete. The next step is you use it.
+[08:11] And you don't want to guess what's the instruction that the model needs,
+[08:14] because you might not predict it correctly. The thing that you want to do is you want to run it
+[08:19] and if it's like a custom agent product that you're building, you want to kind of run the product,
+[08:23] you want to see where it fails with the model, you want to see what it does well. If you're using
+[08:27] quad code, you want to see where it does well with your code base, or maybe where it stumbles
+[08:32] over the architecture or stumbles over something else. And only when you see it repeatedly stumble
+[08:38] on the same thing, that's when you add it back. But you don't want to do it too early,
+[08:43] because remember, the model is going to read this instruction every single time you use it.
+[08:47] So you really want to make sure that the model needs this instruction.
+[08:51] I think this is sort of the crazy thing about building on models. It's just so different than
+[08:55] all the engineering that I've ever done. In the past, when you build on systems,
+[08:59] you build these big, beautiful systems, and you really think about the system design up front.
+[09:04] You have a big suite of unit tests. You think about everything, and a re-architecture is a big project.
+[09:09] Sometimes it takes months. I've worked on re-architecture products at big companies that
+[09:14] take years. And the model is not like that. The way to think about it is almost like a living
+[09:22] creature, something more organic. It's a thing where every model generation, it behaves differently.
+[09:28] It has a slightly different personality. And you have to take the time to get to know it,
+[09:33] and then adjust the harness based on that. And I think it's just very much like an empirical and
+[09:38] kind of scientific thing. You have to take a very scientific mindset to it,
+[09:42] where you try something, you see the result, and then you iterate based on that.
+[09:46] If you're building in this world right now, what then becomes stable are evals,
+[09:53] something that you keep from the previous models and keep using them in each new model release?
+[09:58] We do until we max out the evil.
+[10:02] So that's sort of the tip for everyone. So code and system from
+[10:06] if you want to build up the bleeding edge and have the most capability for models,
+[10:10] you've got to delete those. But evals are constant and keep appending to them, basically.
+[10:15] Yeah, you keep appending. I actually wouldn't even go this far, to be honest.
+[10:22] I think evals, they outlived the harness a little bit, but not quite that much. An evil
+[10:27] might live for maybe one, two, three model generations. But nowadays, we're on the exponential.
+[10:33] The model is improving so quickly. Very often, we just saturate the evil,
+[10:38] and then we have to throw it away, and we have to come up with a new evil.
+[10:41] And this is just part of the process. And again, it's about being empirical.
+[10:44] You have to use the product, you have to use the model, you have to see word struggles,
+[10:48] and then based on that, that's the evil set that you should build.
+[10:52] I think one term I heard you describe how to build the best
+[10:57] agentic products on top of a plot is this concept of a on hobbling plot. And tell us more
+[11:06] about what that means. Yeah, so hobbling is this idea in a research that the model is doing
+[11:13] something and you're just getting in the way. There's this kind of like way of thinking about it
+[11:19] that I really like. It's very useful when you're building products. And it's called product overhang.
+[11:26] And the idea is the model is able to do all sorts of things with today's models,
+[11:35] not a future model, but today's model that we have not yet realized.
+[11:39] And there are so many capabilities the model has like this that people are not aware of.
+[11:46] And this is like the ability to, you know, like maybe use a particular tool, use a particular
+[11:51] language, solve a particular kind of problem, do things a particular kind of way that we thought
+[11:57] was kind of beyond the model's capability. And there's this overhang because the model can do this
+[12:05] at every given model generation. But there is often not a product that lets the model do this
+[12:12] and lets it express this kind of ability to do this. And on the flip side, often what happens is
+[12:17] the product gets in the way. And this getting in the way that we call this hobbling and then not
+[12:23] eliciting the correct behavior from the model, we call this product overhang. So it's kind of like
+[12:27] two sides of the same thing. One example of this was the original plot code. When I first started
+[12:33] working on it, this was like a year and a half, two years ago, something like that. This was like
+[12:39] SONA 3.5. At the time, that was an incredible coding model. That was like the best coding model
+[12:45] that exists. Nowadays, it's a pretty terrible coding model by modern standards. I think that was
+[12:51] like the first great coding model that we built as a project. And at the time, if you looked at the
+[12:57] coding products of the time, what were they doing? They were doing like single line autocomplete,
+[13:01] they were doing sometimes multi line autocomplete. That was sort of a new idea. They were doing chat.
+[13:07] So you can talk to the agent, but it wasn't right access. You could only read. You could
+[13:12] ask about the code base. And so the feeling was that there wasn't really a product
+[13:17] that was fully eliciting the model's capability to write entire functions at a time,
+[13:24] entire files at a time. At the time, it wasn't entire features. We weren't there yet. But probably
+[13:28] entire files. That was the level of capability at the time. And so the deal with quad code was,
+[13:34] all right, we think the model can probably do this. But if we get rid of all this scaffolding
+[13:39] and just give the model the simplest possible harness, so it can write an entire file at a time
+[13:45] and build an entire feature. And that was kind of it. That was the product overhang at the time.
+[13:51] The model was capable of doing something, and everything was just kind of getting in the way.
+[13:55] I think that nowadays with modern models, there is so much product overhang that I'm not saying
+[14:02] start-ups capture. And I think there's people thinking about these problems,
+[14:06] but there's just a huge amount of opportunity to elicit these behaviors in the model that are
+[14:12] just like amazing and interesting and commercially valuable.
+[14:16] I think this is such a special insight for everyone here in the room. Basically,
+[14:21] all of you could create the next quad code if you figure out how to unhobble the models,
+[14:28] because that's effectively the first story of quad code. You unhobble on a 3.5,
+[14:34] because all the previous iterations were still getting the model very rigid in IDEs. And
+[14:41] quad code was one of the first instances that gave it just a full terminal axis.
+[14:48] And that then created this amazing product just that keeps going.
+[14:53] So let's talk about what are some areas and how should future founders here think about
+[15:02] unhobbling, clawed, and fixing this product overhang?
+[15:09] So there's a couple of things that I will think about. One is you should give the model
+[15:16] slightly harder tasks than what you think you can do. I think a really common mistake that I see
+[15:23] is people are using quad code, they're using quad, and they just give it way overly specific
+[15:29] instructions. They're like, I want you to do this, but I want you to do it in this way,
+[15:32] this way, this way. You must do like one, and two, and three, and four.
+[15:35] And for modern models, that's actually really not the way to do it. You want to go a little bit
+[15:39] higher level. You want to describe the task, you want to describe the guardrails, you want to
+[15:44] describe the exit criteria, and then just go with the model cook, and come back in a little bit.
+[15:50] And I think it'll surprise you. And again, this is just not something that would have worked six
+[15:54] months ago, but it does work today. Can you give some examples of these challenging
+[16:00] tasks or capabilities that people should explore that it can do now that it could end six months ago?
+[16:06] Yeah. So okay, one example is the model can now rewrite essentially any codebase from one
+[16:13] language to a different language. It's just sort of crazy. It's this work that would have taken just
+[16:19] like a very long time as an engineer, and now the model is quite fast at it.
+[16:24] So one example of this is Cloud Code is built on the BUN JavaScript runtime. It's an
+[16:32] alternative to Node.js. It's kind of a faster node. BUN was written in Zig. Zig is a systems
+[16:38] programming language. It's very well level. One of the problems with Zig is you have to manually
+[16:46] manage memory. And so it's quite easy to run into situations where there's memory weeks and other
+[16:53] memory management issues. And so one thing that the BUN team was doing is they were having quad
+[16:59] fuzz the codebase and try to simulate and trigger memory weeks, and they were doing this for a
+[17:04] long period of time. They were able to find a lot of memory weeks. It was sort of like a case at a time.
+[17:09] And that was kind of the capability of the model at the time was doing this fuzzing.
+[17:12] And then at some point Jared on the team was like, okay, let's just rewrite it. Maybe the model
+[17:19] can do this. And I think this is like one of these test problems that he kind of threw at the
+[17:23] model with every new model generation. And starting with Fable, the model started to be able to do it.
+[17:31] And so I think Opus 5 could do it as well. And so what he did was essentially he defined a test
+[17:37] suite. The nice thing about BUN is it's very, very well-tested. There's a big test suite in BUN.
+[17:42] There's a big test suite in Node.js. So it's easy to know if you did the right thing.
+[17:46] And he had the model rewrite it from Zig to Rust. It was one prompt. It was a dynamic workflow.
+[17:53] And a dynamic workflow was our feature in quad code that essentially let you orchestrate dozens,
+[17:58] hundred thousands of agents to do work productively. And it ran for 11 days and it rewrote the entire
+[18:04] code base. And this was one shot. It was one shot with, no, it wasn't one shot, but it was
+[18:10] steering, it was steering. But previous models just couldn't do this. Even with the steering,
+[18:15] it just wouldn't have been possible. Just 11 days. Oh my god. This would have taken in the past,
+[18:21] even with the best engineers, multiple months, years. Oh, definitely over a year. Yeah, over a year.
+[18:26] This was like over a hundred thousand, like JavaScript runtime is really complicated.
+[18:30] There's a lot of stuff in there. And yeah, it works. This is in production out. This is what quad code
+[18:36] uses now when you're running it. So this is kind of one example. I would give a second example,
+[18:41] so a product overhang. And so this is like a practical use case where like there's a problem
+[18:46] you're solving. It's like a business problem and engineering problem or product problem.
+[18:50] And you should just keep throwing the latest model at it to see if it'll just do it.
+[18:53] Because even if a previous model didn't, the new one might. I think the second way to think
+[18:58] about it is experiment. And just give yourself like freedom to play with the model and do creative
+[19:05] things. Often it'll surprise you. So something that's actually been really popular at an internally
+[19:11] that's been kind of viral within a topic the last couple weeks, is someone figured out that you can
+[19:15] give Opus 5 OpenCV. Oh. And you can have a drop. And so something you can do is you can ask Opus
+[19:22] like, hey, use OpenCV to like draw this image. And it's actually quite good. It can do like
+[19:26] portraits, it can draw like animals, it can do like landscapes. And we didn't train the model to
+[19:31] draw. Like it's just like the solicitation cap. Like if you ask it to do it the right way,
+[19:35] you can just do it. And we discover this kind of accidentally just by playing around and trying
+[19:40] creative things that didn't have direct commercial applications. But it's just kind of interesting.
+[19:45] And my hypothesis is there's probably dozens, hundreds of opportunities like this with the
+[19:51] models of today that no one has yet realized. And the big area of research for this is basically
+[19:57] model elicitation, right? Becoming really good at figuring out all these capabilities and
+[20:04] asking the model to do the right thing, right? How do people get better at that? And effectively,
+[20:10] how do people get better at prompt engineering? Do people still need to do a lot of prompt engineering?
+[20:15] Or is that changing as well? Tell us about where this is going.
+[20:19] Yeah, I remember like a year ago, one of the most popular job openings was prompt engineer.
+[20:24] And then it kind of changed and then I think it became like context engineer.
+[20:30] So there's these kind of waves of it. I think these will kind of like come and go.
+[20:34] I think the skill nowadays is less about prompt engineering and more about figuring out how do
+[20:42] you give Cloud a hard task that seems a little bit too hard. And then how do you make it possible
+[20:48] for Cloud to verify its work along the way? And the verification I think is probably the single
+[20:53] most important thing that people do not get right virtually.
+[20:58] One example of this is people were, you know, we have this desktop app for Cloud and it's built
+[21:05] using Electron. We've made it quite fast. So now it's like a pretty awesome experience.
+[21:10] Six months ago, it was like sluggish and it wasn't very reliable. Now it's pretty awesome.
+[21:14] And, you know, it's the thing that most of the team uses. As an experiment, though, I wanted to
+[21:18] see like, what would it feel like if it was native? And so what I did is I started a Cloud
+[21:24] Tag session and Cloud Tag is just, you know, it's a new product we have. It's just Cloud running in Slack.
+[21:30] My first question was, hey, TAC, do you have access to a Mac OS runner on GitHub? And it said no.
+[21:35] And then I hooked up a runner. So it was able to start a Mac virtual machine using GitHub.
+[21:41] And then my second question is I created this like empty code base that was a Cloud desktop app
+[21:47] rewritten in Swift. And I asked, can you access this code base? It said no. And then I gave it
+[21:52] access. And I was like, okay, great. Now I have access. And then I was like, okay, now I want what
+[21:57] I want you to do is I want you to rewrite the Electron app in Swift. I want you to run the Electron app
+[22:06] in the Mac virtual machine, screenshot it, and then look pixel by pixel, compare it to the Swift version.
+[22:14] Don't stop until you're done. And that was your prompt, basically. That was my prompt.
+[22:19] And how long did this take to run? It's still running. When did you start it?
+[22:27] It's been a little over two weeks. So it's like 14 days, 15 days. Yeah. So I don't know if anyone in
+[22:33] the audience has gotten Cloud to run a task for more than two weeks. I don't know, raise your hand,
+[22:40] anyone in the audience. This is like one of these, this is about elicitation. So this is really one
+[22:52] of those examples where the model can do it today. You just have to let it do it. And you don't need
+[22:57] the fancy stuff. You don't need slash go. You don't need slash loop. These help. But really,
+[23:03] all you need is give the model the task, give it a way to verify the output of its work so it doesn't
+[23:08] get stuck and it will just go. And actually, in this case, Cloud also decided to live block it.
+[23:13] So what it did is it created a Slack channel internally and it started disposing screenshots
+[23:17] every few minutes of its progress. Wow. So the prompt sound is so simple. I mean, everyone here
+[23:24] could do it. And I guess, what is separating the people here that can become the top 1%
+[23:33] clock go users. How can people learn to use clock go like Boris? Maybe like,
+[23:40] don't listen to the LinkedIn influencers. Don't listen to your sweet Twitter.
+[23:50] This is the thing about the model is I think everyone's looking for like the one weird trick
+[23:54] to do it. It's just like, that doesn't exist. There's nothing like that. The way the model works is
+[23:59] you have to approach it empirically. You have to give it a task that's too hard. You have to give
+[24:03] the tools to verify the work like you would yourself, like you would if you were doing the task.
+[24:07] You have to see where it struggles and then you have to like fix that either with better prompting
+[24:12] or with a skill or if the model is missing context, like give it a MCP so it can pull in the context that
+[24:18] it needs. That's kind of it. It sounds very simple. I think people tend to overthink it a little bit.
+[24:25] I think people tend to over engineer because I think in a lot of ways like when we build systems
+[24:29] in the past, that's the way you had to do it. When I look at engineers that have been
+[24:34] coding for a long time, for years or for decades, this is a really, really common failure mode,
+[24:41] is trying to over specify and it's trying to be overly specific. Get the model to do the task
+[24:46] exactly the way that you would have done it. That's just not the way the model works.
+[24:51] I think a lot of people are kind of unwearning this and it's a journey to unburn it.
+[24:55] And it's a journey to kind of figure out how do you treat this thing like you would a co-worker.
+[25:01] I think that's the level of intelligence that it's at now.
+[25:03] And as part of this, let's go deeper into this task that's still running two weeks,
+[25:07] since you launched it a go, two weeks ago. How many agents did it spawn?
+[25:12] No, I'm not sure. I can ask Quad and then I can get back to you. I would guess
+[25:17] thousands, tens of thousands.
+[25:19] Has anyone in the audience had a prompt to renew the models that spawn
+[25:24] more than a thousand agents?
+[25:28] I think this is another of the tips, like the best Quad users are able to spawn tasks that are really
+[25:36] providing you a lot of leverage, like thousands of agents.
+[25:38] Yes.
+[25:39] How do you do that?
+[25:41] There's a few different ways to do it.
+[25:44] The easiest way is dynamic workloads. To use dynamic workloads is a fairly new feature in quad code.
+[25:51] And all you have to say is use a workload.
+[25:56] That's it. And then Quad will just trigger the dynamic workload.
+[25:58] What a dynamic workflow is, essentially, we have the run time.
+[26:03] We use bond as a sandbox, and we sort of virtual machine within bond.
+[26:08] And we let Quad start a lot of agents and orchestrate them.
+[26:11] And it doesn't just do one agent, it doesn't just do like 10 parallel agents.
+[26:16] What it might do is, let's say a task is like rewrite the code base.
+[26:20] Or do really in-depth data analysis over some really complicated data.
+[26:24] Or maybe like build a very complex feature that takes multiple stages and maybe dozens of forward
+[26:30] requests. And so what it's going to do is it's going to start a bunch of agents to do kind of
+[26:34] like the first pass. Based on that, it might do a second step where it has another set of agents
+[26:40] that verify the work, or that summarize the work.
+[26:44] Then it might do like a third stage where it'll fan out again.
+[26:48] So it'll kind of productively orchestrate a bunch of different agents.
+[26:51] So my background is functional programming.
+[26:54] So the way that we design this is it's essentially an algebra for agents.
+[26:58] So there's a way to run agents in sequence. There's a way to run agents in parallel.
+[27:03] And Quad has different tools in order to orchestrate these agents inside of the sandbox
+[27:08] to use tokens efficiently to do really, really complex work.
+[27:13] It's kind of cool in something that just hasn't really been written about a lot.
+[27:18] Like this is actually like a new form of test temp compute.
+[27:21] Like when we talk about the scaling laws and kind of we talk about the model getting more
+[27:24] intelligent over time. Historically, it's been a function of the size of the neural net,
+[27:30] the amount of training data, and the number of flops that you put in to the training.
+[27:35] And then recently we also added test temp compute.
+[27:37] So this is essentially a fancy researcher way of saying how many tokens does it generate?
+[27:43] And now dynamic workflows are essentially a new way to orchestrate test temp compute.
+[27:49] And it's a new way to kind of really, really ramp up the amount of test temp compute that you use
+[27:53] to do a really hard test. So this all very long way to say this is one way to launch
+[27:59] thousands of agents in a way that is productive and efficient.
+[28:02] A second way to do it is loops and routines. Loop is essentially a cron job that's running locally
+[28:08] for quad routine is the same thing, but it's running in the cloud.
+[28:13] So you can close your laptop. And this is like slightly different because for a dynamic workflow,
+[28:18] it's one task and you break it up into chunks. For loops and routines, it's one task that is
+[28:23] repetitive that doesn't share context, but it might share memory. And you kind of do this like over
+[28:29] and over. You can do it like maybe every hour, every five minutes, every day. And so the thing that
+[28:34] we've started doing is we actually have quad maintaining itself now. And the way we do this is
+[28:40] we have a Slack channel where we just hard quad start a bunch of different routines to maintain
+[28:45] its own code base. And we actually do this for the CLI, for the iOS app, for the Android app,
+[28:51] for the desktop app. And for example, one routine is clean up dead code. This is a single prompt.
+[28:57] It's like one sentence. Quad runs this every day. It'll look for dead code across all the code bases
+[29:02] using static and dynamic analysis. We didn't prompt that. It just kind of figured it out.
+[29:07] And it'll put up a request every day to delete the dead code.
+[29:10] Another example is shipping experiments that should go out. So the experiment's already out to 100%.
+[29:17] It'll delete it from the code base and it'll just ship it. Another one is writing tests for
+[29:22] areas of the code base that need test coverage. Another one is deleting tests that don't need to
+[29:28] be there because they were kind of useless tests added by older models or added by people at some
+[29:32] point. One that I really love is this, I forget what we called it, I think we called it abstraction
+[29:38] police. An idea is there are often in a big code base, there's kind of the same abstraction and it
+[29:44] appears multiple times. And if you kind of went, it actually maybe should just be the same abstraction,
+[29:49] but kind of over time for whatever reason, you rebuilt it multiple ways in different parts of the code
+[29:54] base. So Quad kind of goes out every day across all our code bases. It finds these nearly duplicated
+[30:00] abstractions and it unifies them. And so now we have every day, maybe 20 or 30 of these routines
+[30:05] that's running across all of our code bases. And it's not totally there yet, but we're on the path
+[30:12] to fully automating the maintenance of our apps by doing this. And this is, again, hundreds of
+[30:18] agents running every day, sometimes thousands of agents every day. It's doing the work of dozens
+[30:24] or hundreds of engineers. This is kind of what it used to take to do this kind of work.
+[30:28] And this means that engineers can just like do the thing they actually want to do,
+[30:31] which is ship new products and talk to users and do stuff that's actually fun.
+[30:37] I guess makes a conclusion from this, which you have mentioned in the past that
+[30:41] basically coding is solved, right? You have mentioned this. I'm curious now that
+[30:48] effectively everyone can write software. What separates the exceptional builders
+[30:55] from the rest? What are the qualities now that everyone can ship code?
+[31:00] I would give like one caveat. So coding is solved for the kind of coding that I do.
+[31:05] It's not software everywhere. There's still code bases that are super deep systems,
+[31:10] code bases, or quad-stool struggles. There's distributed systems where quad-stool struggles.
+[31:15] There's really kind of in the weeds UI verification, like something is off by pixel or something,
+[31:19] but it's still not perfect at this. Like, Obis 5 was a big leap in vision and computer use.
+[31:24] But it's still not perfect. But I'm actually curious, for people here, maybe raise your hand
+[31:30] if 100% of your code is written using agents. You don't write any code by hand anymore.
+[31:38] It's pretty good. Okay. How about more than 50%? Slightly less hands, maybe about the same.
+[31:46] Yeah. So I think it's like it's getting there. So it's kind of getting to this,
+[31:51] to being solved for more and more kinds of code. And that's kind of cool.
+[31:54] When I think about the people that are the best at using quad,
+[31:58] I think there's a certain mindset that you can bring that's really effective.
+[32:03] And it's really about being empirical. So forget all the things that you learn about past models.
+[32:11] Forget everything that you learned about computer science theory in class.
+[32:16] Look at the model, try to do a task, see where it struggles, and then based on that adjust.
+[32:22] So it's just like very much become, it's not a theoretical science. It's become
+[32:27] an empirical science. So I think people that are really good at this,
+[32:30] that are really good at kind of forgetting their priors, letting go of this like maybe
+[32:34] idea that didn't work before and just being open to trying it again.
+[32:38] This is the kind of skill that's just very, very successful now.
+[32:42] Now my last question is, given everything that we talked about,
+[32:47] if there's someone here that's studying CS and you learned the program before this era
+[32:53] of AI content coding, what should students still learn the hard way, like the old way?
+[33:00] So for me, I learned computer science practically. I learned it by teaching myself to code in order
+[33:09] to solve problems. Whenever I was doing this, I was doing it to solve a particular problem that I had.
+[33:17] So I actually first learned to code on TI-83 calculators,
+[33:22] just back in middle school. And I ended up actually writing a guide on the internet
+[33:26] for programming TI-83 calculators. It's still up on the internet somewhere.
+[33:30] And it was basic. That was my first language. And I learned how to program on calculators,
+[33:36] so I could just like get better at my math test by cheating on the test.
+[33:47] So it was about something practical. To me as a middle school,
+[33:50] that's kind of like the most practical thing I could think of.
+[33:53] And I ended up getting good grades, and then I got this little serial cable to give the programs
+[33:57] to my classmates, and they got really good grades. And then the math got a little bit harder.
+[34:03] It wasn't something that I could solve in basic anymore. So I kind of went from this like maybe
+[34:08] algebra solver that was written in basic. And I had to solve harder problems. And once we got
+[34:14] into calculus, I had to learn assemblies so that I could write a better solver so I could cheat
+[34:19] better on the test, not that it was calculus. And so for me, programming has always been very
+[34:24] practical. And I think this is always my advice for people in school is wearing not just the computer
+[34:30] science. This is like intellectually fascinating. And it's really, really interesting to know. But
+[34:34] we're not able to apply it. And often this is about building startups. It's about building products.
+[34:38] It's about developing your own design sense, developing your business sense,
+[34:42] learning how to do data science, learning how to talk to users. There are all these other skills.
+[34:48] And when you combine it with computer science and engineering, that's where it becomes really,
+[34:52] really valuable. So those are the hard skills that I would still be doing by hand.
+[34:58] So if I'm hearing and summarizing, start with making something you want first for yourself,
+[35:04] and then level up and make something people want.
+[35:09] And we just have one last special announcement for us. One last thing.
+[35:14] Yeah, so for everyone here today, you are getting max 20x.
+[35:39] So look for a code in your email. And I can't wait to see what you build.
+[35:52] So I'm curious, someone in this room should be building something that runs hopefully multiple
+[35:57] months and thousands of agents now that you have the account to do it. And with that,
+[36:02] thank you so much for us. Thank you.

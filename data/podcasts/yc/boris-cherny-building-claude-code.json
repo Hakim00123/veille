@@ -1,0 +1,23 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "Boris Cherny: Building Claude Code",
+ "date": "Tue, 28 Jul 2026",
+ "date_iso": "2026-07-28",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/Boris-Cherny-Building-Claude-Code-e3mkr7g",
+ "duree": "00:36:13",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.3,
+ "taille_transcript": 37639,
+ "transcript": "boris-cherny-building-claude-code-transcript.txt",
+ "nb_outils": 1,
+ "outils": {
+  "Slack": [
+   "ng that most of the team uses. As an experiment, though, I wanted to see like, what would it feel like if it was native? And so what I did is I started a Cloud Tag session and Cloud Tag is just, you know, it's a new product we have. It's just Cloud running in Slack. My first question was, hey, TAC, do you have access to a Mac OS runner on GitHub? And it said no. And then I hooked up a runner. So it was able to start a Mac virtual machine using GitHub. And then my second question is I created this like empty code base th",
+   " loop. These help. But really, all you need is give the model the task, give it a way to verify the output of its work so it doesn't get stuck and it will just go. And actually, in this case, Cloud also decided to live block it. So what it did is it created a Slack channel internally and it started disposing screenshots every few minutes of its progress. Wow. So the prompt sound is so simple. I mean, everyone here could do it. And I guess, what is separating the people here that can become the top 1% clock go users. How",
+   " might share memory. And you kind of do this like over and over. You can do it like maybe every hour, every five minutes, every day. And so the thing that we've started doing is we actually have quad maintaining itself now. And the way we do this is we have a Slack channel where we just hard quad start a bunch of different routines to maintain its own code base. And we actually do this for the CLI, for the iOS app, for the Android app, for the desktop app. And for example, one routine is clean up dead code. This is a si"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

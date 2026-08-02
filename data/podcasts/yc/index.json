@@ -3,7 +3,10 @@
  "traites": [
   "jeff-dean-the-1-rule-for-building-in-ai",
   "alexandr-wang-this-is-a-once-in-a-civilization-opportunity",
-  "blake-scholl-breaking-the-supersonic-ban"
+  "blake-scholl-breaking-the-supersonic-ban",
+  "sam-altman-never-a-better-time-to-do-a-startup",
+  "boris-cherny-building-claude-code",
+  "jensen-huang-the-mindset-that-built-nvidia"
  ],
  "episodes": [
   {
@@ -26,7 +29,28 @@
    "date": "Wed, 29 Jul 2026",
    "date_iso": "2026-07-29",
    "nb_outils": 0
+  },
+  {
+   "fiche": "sam-altman-never-a-better-time-to-do-a-startup.json",
+   "titre": "Sam Altman: \"Never a Better Time to Do a Startup\"",
+   "date": "Tue, 28 Jul 2026",
+   "date_iso": "2026-07-28",
+   "nb_outils": 4
+  },
+  {
+   "fiche": "boris-cherny-building-claude-code.json",
+   "titre": "Boris Cherny: Building Claude Code",
+   "date": "Tue, 28 Jul 2026",
+   "date_iso": "2026-07-28",
+   "nb_outils": 1
+  },
+  {
+   "fiche": "jensen-huang-the-mindset-that-built-nvidia.json",
+   "titre": "Jensen Huang: The Mindset That Built NVIDIA",
+   "date": "Mon, 27 Jul 2026",
+   "date_iso": "2026-07-27",
+   "nb_outils": 1
   }
  ],
- "maj": "2026-08-02T19:12:04Z"
+ "maj": "2026-08-02T19:37:26Z"
 }

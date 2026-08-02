@@ -1,0 +1,1008 @@
+Y Combinator Startup Podcast
+Jensen Huang: The Mindset That Built NVIDIA
+Mon, 27 Jul 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/Jensen-Huang-The-Mindset-That-Built-NVIDIA-e3mkd1q
+
+[00:06] Welcome to Startup School, 2026.
+[00:10] Now, let's get started.
+[00:12] Please join me in welcoming you to the stage,
+[00:17] the founder and CEO of NVIDIA, Jensen Hwa.
+[00:20] Hey, Jerry.
+[00:36] Please.
+[00:38] Hey, everybody.
+[00:41] Oh, my God.
+[00:44] This is a surreal moment for me.
+[00:45] Thank you. Thank you for being here, Jensen.
+[00:47] I'm delighted to do it.
+[00:48] It's great to be here.
+[00:50] Oh.
+[00:53] Apparently, if you're here, you are going to make it.
+[01:02] So I'm happy I'm here.
+[01:07] Oh, Jensen.
+[01:09] Well, for the students who only know NVIDIA as a company
+[01:12] at the center of AI, what part of the early NVIDIA story
+[01:17] do they most need to understand?
+[01:19] The thing that most people don't believe
+[01:22] is that the choice of our technology
+[01:27] that we started the company with was absolutely wrong.
+[01:31] And so we had started with the idea
+[01:32] that we would reinvent 3D graphics.
+[01:34] Well, the company's philosophy and perspective
+[01:39] was that the general purpose computers, the CPUs,
+[01:44] were really useful, but if we could augment it
+[01:47] with accelerators, we could solve problems
+[01:50] that otherwise too hard to solve.
+[01:53] And one of the first problems we chose was 3D graphics.
+[01:57] And during that time, 1993, the PC was just rumored to be coming.
+[02:03] And our big idea was that we would turn every single personal
+[02:07] computer into a game console, because we grew up
+[02:10] in the era of game consoles.
+[02:12] And so we thought, if we could design a system that
+[02:17] would fit into the personal computer
+[02:19] and it would turn it into a game console.
+[02:21] And so we thought we would reinvent the algorithm that
+[02:25] would require these large supercomputers,
+[02:28] and we would fit it into the PC.
+[02:30] And we came up with some new algorithms,
+[02:32] and we were excited about it.
+[02:34] We believed in it.
+[02:36] We reasoned about it in a thoughtful way.
+[02:40] And we went to start the company to go build it.
+[02:43] Well, it turns out the algorithm was exactly wrong.
+[02:47] And the technology that founded the company
+[02:50] turns out to be exactly wrong.
+[02:52] And so in 1995, we realized that.
+[02:56] And it was almost too late, because by then,
+[03:00] there were some 35, 40 other companies
+[03:02] that were building 3D graphics for PCs.
+[03:06] And so we realized that it didn't work.
+[03:08] And I went back to the company, and we were at the company.
+[03:10] I said, what are we going to do?
+[03:11] It doesn't work, and we're all talking about it.
+[03:14] And I said, look, we won't have a company
+[03:19] if we don't confront the fact that this doesn't work
+[03:22] and start working towards the right algorithm.
+[03:25] And then somebody told me, it turns out, none of us
+[03:29] knew how to do it the right way.
+[03:31] And not only did we choose the wrong technology,
+[03:33] we didn't know how to do it the right way.
+[03:35] And so that was a big day for me.
+[03:38] I had a couple of $60 in my pocket,
+[03:42] and so I went down to Fries and I bought three textbooks.
+[03:46] And the textbooks was about OpenGL
+[03:49] and how to design OpenGL pipelines.
+[03:52] I brought it back to the company and gave it to the engineers.
+[03:55] And here we are.
+[03:56] We reinvented computer graphics.
+[03:58] We were the world leader in modern computer graphics.
+[04:00] We invented most of the major breakthroughs
+[04:03] in the last 25 years.
+[04:10] Everybody would have thought that NVIDIA started out
+[04:14] as world leaders in 3D graphics.
+[04:16] And we learned it from a textbook.
+[04:18] And so we actually started the company, raised money,
+[04:21] and bought textbooks when you think about it.
+[04:24] And so the big lesson is that, for me,
+[04:27] is technology is changing all the time.
+[04:29] And so long as you're able to confront the reality,
+[04:33] so long as you are able to learn,
+[04:36] the technology itself actually doesn't matter.
+[04:40] And so since then, NVIDIA has been inventing
+[04:45] all kinds of technology since,
+[04:46] all kinds of technology we've never really done before.
+[04:50] And we approach everything with the same attitude.
+[04:53] This is, if it's important to do,
+[04:55] we're going to go learn it and how hard can it be.
+[04:57] And it always turns out to be much, much harder than we expect.
+[05:03] But you go into it with the attitude, how hard can it be?
+[05:06] I mean, backstage, we were talking about how,
+[05:09] I mean, we were talking with some of the top YC companies,
+[05:12] and you're saying that each one has an expertise
+[05:15] in a domain that you and NVIDIA have an expertise in.
+[05:19] And they're all just, I forget what you said,
+[05:21] it was like an algorithmic domain of a sort.
+[05:24] And so it sounds like 3D graphics
+[05:26] was merely the first of an algorithmic domain.
+[05:29] That's right.
+[05:30] And it came from a textbook, but then anyone
+[05:33] could have read that textbook.
+[05:34] You created the particle physics, fluid dynamics.
+[05:37] Yeah.
+[05:38] But you created the thing that people want,
+[05:40] like the end product that people want to pay a lot of money for.
+[05:43] The big idea of the company that was spot on
+[05:46] is that it is possible to augment the CPU,
+[05:49] to solve problems that otherwise are too difficult to solve.
+[05:53] And molecular dynamics is one of them.
+[05:55] Image processing is one of them.
+[05:57] Inverse physics is another one.
+[05:59] And so all kinds of different algorithms,
+[06:01] of course, deep learning is one of the major ones.
+[06:03] And in order to create the company that we have today,
+[06:08] we realized early on that it's not about building a great chip.
+[06:13] It's about accelerating an algorithm domain.
+[06:16] And so one of the things that I've always believed in
+[06:19] is what makes great companies is a unique perspective about the world
+[06:23] that you deeply believe in.
+[06:24] It's not so much the technology.
+[06:26] It's not so much the market even.
+[06:28] Those things all matter.
+[06:30] And if you have the right technology for the right market
+[06:33] at the right time, your life is going to be a lot easier.
+[06:36] A high-level vision about the future of some important thing,
+[06:41] a perspective about it that's somehow unique,
+[06:44] that you deeply believe in.
+[06:46] And ideally, pursuing that vision is hard to do.
+[06:50] Those are kind of good combinations.
+[06:52] In our case, we realized that accelerated computing
+[06:55] was going to be important.
+[06:56] And accelerated computing turns out to be very important.
+[07:00] And our realization is everything to do with algorithm,
+[07:03] not the chip, turns out to be exactly right.
+[07:06] So you've said a lot about, I guess, the hardships of a founder.
+[07:10] Are there a few stories that really jump out at you?
+[07:13] I mean, the people in this room would love to start a company.
+[07:16] But are they really prepared for eating glass
+[07:20] and possibly having to shut down the company like things going wrong?
+[07:24] What are some of the pivotal moments that really jump out at you?
+[07:28] I think you were just in Japan, right?
+[07:29] And you were sort of honoring Sega, was it?
+[07:36] So I feel like that was a really powerful story.
+[07:38] The project that led us to realize the algorithm which
+[07:42] shows was wrong was a partnership with Sega.
+[07:44] Sega had contracted us to build the game console after Saturn
+[07:53] that turned out to have been Dreamcast.
+[07:55] I don't know if anybody know what Dreamcast is?
+[07:58] OK.
+[08:00] So we did not build Dreamcast.
+[08:03] We were originally supposed to build Dreamcast.
+[08:06] But because our algorithm and our technology
+[08:08] was fundamentally flawed, I went to Japan
+[08:11] and I told Irumandrisan, the CEO at the time,
+[08:14] that the contract that they gave us was at like $12 million contract.
+[08:22] We will not be able to fulfill because the technology doesn't work.
+[08:26] And I told them the reasons why.
+[08:28] And then I advised that they choose somebody else to do it.
+[08:34] But then I asked them, I told them
+[08:36] that I unfortunately still need the money.
+[08:39] And he asked me, you could just imagine a conversation.
+[08:43] So what you're telling me is, what
+[08:45] I contract you to do, you can't do,
+[08:49] but you would like all the money on the contract.
+[08:52] And I said, you got it.
+[08:53] That's exactly right.
+[08:54] But obviously I was polite.
+[08:56] I was humble.
+[08:57] And he realized that I was honest and everything made sense.
+[09:06] And if he didn't give us the money, we'd be out of business.
+[09:09] And I think that this happens in this room.
+[09:13] You don't invest in companies.
+[09:14] You invest in people.
+[09:16] And what Irumandris recognized was, here's somebody and a company
+[09:21] that he trusted in the first place, the contract,
+[09:24] and that he believed in.
+[09:26] And that he would love to make it to the next day.
+[09:30] And so that $5 million kept us alive
+[09:33] and gave me enough time to discover what to do.
+[09:37] And then I guess if they sold it for $15 million, I heard.
+[09:40] Yeah, they sold it the moment we went public.
+[09:43] When NVIDIA went public, our valuation was $300 million.
+[09:50] $300 million in 1999.
+[09:53] That was real money.
+[09:54] I think it's north of a trillion dollars now or so.
+[09:57] It's more the truth.
+[09:58] Yeah, that's wild.
+[10:01] So you're sort of the core.
+[10:03] We like to say that you're the man who controls the spice.
+[10:09] Before that, I don't think anyone
+[10:12] could have really predicted, per se,
+[10:14] how important GPUs and the technology
+[10:18] you built would be for this AI revolution.
+[10:22] What did you see?
+[10:24] I mean, was it the accelerator and being
+[10:26] in the right place the right time?
+[10:27] Or surely, there were a lot of things that led up to that,
+[10:30] that allowed you to sort of capture this position.
+[10:32] Yeah.
+[10:35] I saw AlexNet, just like everybody else saw AlexNet.
+[10:38] And but remember, our lens of the world,
+[10:44] my view of the world, was always looking for algorithms.
+[10:48] And that algorithm, the algorithm could be NANDY.
+[10:51] The algorithm could be VAST.
+[10:53] The algorithm could be OpenGL.
+[10:55] It could be SQL.
+[10:57] Some domain specific language, some algorithm.
+[11:00] And so my lens of the world was always looking for some problem
+[11:05] that we might be able to help solve.
+[11:07] When AlexNet came along, the algorithm was deep learning.
+[11:10] And so the question is, what is this algorithm?
+[11:13] And why does it matter?
+[11:14] Why was it so effective?
+[11:17] And what else can it do?
+[11:20] And if you were to scale algorithms and scale it beyond that,
+[11:24] what could it solve that otherwise you can't solve today?
+[11:27] And the breakthrough for us was realizing that AlexNet was not
+[11:33] AlexNet.
+[11:34] That AlexNet was an approach with deep learning
+[11:39] that allows you to learn any function.
+[11:43] And so 15 years ago, I was telling everybody that, hey, guess
+[11:46] what, we just learned the universal function approximator.
+[11:50] We just discovered the universal function approximator.
+[11:53] We could give it the answer for almost any function.
+[11:57] And it could learn what the function is.
+[12:00] And for a lot of functions, you don't have to be precise.
+[12:03] And in fact, it's impossible to be precise.
+[12:06] And so most of the interesting problems
+[12:08] are imprecise in this way.
+[12:10] And so the day that we realized we have a universal function
+[12:15] approximator, the question then is, what does that do
+[12:20] to the computing stack?
+[12:22] What does that happen to software?
+[12:23] What are the industries that this could impact, so on and so forth?
+[12:28] Almost right away, we started working on computer vision.
+[12:31] Almost right away, we started working on robotics,
+[12:33] self-driving cars, because that fundamental capability
+[12:39] you could imagine solving some important problems
+[12:42] in the area of computer vision and robotics.
+[12:45] So I think the big breakthrough was simply
+[12:48] that this is much more foundational than AlexNet.
+[12:51] This is a way of doing software, and the implications
+[12:55] to the processor, the middleware, the algorithms,
+[12:59] the applications, what I now describe
+[13:02] as the fiber layer cake, that entire industrial stack,
+[13:06] I imagine reinventing altogether about 15 years ago.
+[13:11] And this is simply about asking questions, reasoning
+[13:15] about things to first principles, asking questions like,
+[13:19] if this can get better than so what,
+[13:24] asking all of the basic questions about something
+[13:27] that you observe that's really impactful.
+[13:30] I mean, one of the things that really jumps out at me
+[13:32] is to what degree you go all the way into the weeds.
+[13:35] You read papers, you talk directly
+[13:37] to the principal scientists who are sort of coming up
+[13:41] with these things.
+[13:42] Do you have any advice for people in the audience?
+[13:44] I mean, that's like true founder mode.
+[13:47] And then at the same time, you probably,
+[13:49] you have an organization, and you have executives,
+[13:52] and you have people who say like,
+[13:53] here's the graph, we want to stay on this graph,
+[13:56] sometimes it ruffles feathers.
+[13:58] Like, do you have any advice for people
+[13:59] about an organization and how you navigate that really?
+[14:03] Like, how do you build an org that allows you
+[14:05] to think in first principles?
+[14:07] Because if the Fortune 500 did that,
+[14:09] like the Fortune 500 would probably look
+[14:11] a lot more like Nvidia than not, and it doesn't.
+[14:14] Like, you have built a very unique company.
+[14:18] My state of mind when I'm, my state of mind
+[14:21] always starts with curiosity.
+[14:25] I have a whole bunch of questions myself.
+[14:27] And of course, like anybody else,
+[14:31] I'll seek the shortest path to the answer.
+[14:34] But oftentimes, the answers from the people that are near me
+[14:39] might not be satisfying, and I might have other questions.
+[14:42] And maybe they're busy doing something,
+[14:44] and they're pursuing something.
+[14:45] And so my first inclination is to go discover
+[14:49] the answers to my own curiosity.
+[14:52] My second is if I find that the information is,
+[14:55] and that the domain of information,
+[14:58] or in a particular field, could be really important
+[15:01] to somebody, and could be important to our company,
+[15:04] then my next inclination is how can I learn
+[15:07] as much as possible so that I could be of service
+[15:09] to the company and share it with everybody else.
+[15:13] This is no different than you when you're sharing knowledge.
+[15:16] I mean, I watch your podcasts, and I watch your videos,
+[15:19] and I really enjoy them.
+[15:20] You're sharing ideas with everybody else.
+[15:22] In a lot of ways, I think a CEO is in service of the company,
+[15:27] in service of all the people that are working there,
+[15:29] and you want to empower them with some insight.
+[15:34] And so that's really where it's coming from.
+[15:36] It's not so much a management technique,
+[15:37] but a personality technique.
+[15:39] I want to empower you, and this is something really important
+[15:43] that I just observed.
+[15:44] Let me tell you why it's so important.
+[15:46] Now, part of having to be near the ground
+[15:50] and be in the weeds, if you will,
+[15:52] is because oftentimes the technology is complicated
+[15:56] or it's changing really fast,
+[15:58] and especially when it's changing fast, like our world.
+[16:02] Unless you have a tactile sensation
+[16:06] of what is actually happening,
+[16:08] it could either, to you, feel like it's just moving
+[16:11] way too fast to understand,
+[16:13] but if you understand the first principles of it over time,
+[16:16] then everything kind of makes sense.
+[16:18] You know, it's kind of like surfing, I would imagine.
+[16:20] I don't know how to surf,
+[16:21] but I can imagine it's kind of like surfing.
+[16:23] You get it on the wave.
+[16:24] To me, it looks like chaos, but to a surfer, you know,
+[16:28] somehow they get, right, they can read the waves
+[16:30] and they know how to stay on top of it.
+[16:33] And so, I think being CEO is very similar to that.
+[16:36] You know, you have to learn how to surf
+[16:38] and in order to learn how to surf,
+[16:39] you have to understand the waves,
+[16:40] and you have to be able to read the wind
+[16:42] and you have to have good timing,
+[16:44] and you can't have any of that unless you try.
+[16:46] And so you actually do it.
+[16:48] And so, partly is to inform myself,
+[16:51] partly is to try to figure out,
+[16:54] you know, what is, try to break down the problem
+[16:57] so that the company can learn it in a way
+[16:59] that they can do something about,
+[17:01] part of it is by inspiring other people.
+[17:04] And, you know, it's all those basic traits
+[17:07] of all the people in this room.
+[17:09] You don't have to change your personality
+[17:11] or your behavior when you become CEO.
+[17:14] It is possible for you to continue to be yourself.
+[17:17] And one of the things that I learned a long time ago,
+[17:23] and I have no idea what I saw of this,
+[17:26] but you know, the CEO or the founders,
+[17:32] you are the, you're building a car
+[17:36] that you are going to race.
+[17:38] You're going to build an F1 racer,
+[17:39] but you're going to build it in a way that you can drive.
+[17:42] You should adapt the car to you.
+[17:46] You know, somebody, I think, asked me, you know,
+[17:48] Jensen, if you don't use conventional management techniques
+[17:54] and organizational techniques,
+[17:57] you know, what's going to happen when you leave the company?
+[17:59] Well, you know, when I die on the job someday,
+[18:04] you know, I told them they just have to reshape the company
+[18:07] for the next CEO.
+[18:09] And the reason that wisdom is because we're the F1 drivers,
+[18:13] you know, we're the racers.
+[18:15] And the world is really competitive.
+[18:17] And we've got to stay, we've got to, you know, we've got to win.
+[18:20] And we've got to achieve our mission.
+[18:22] And so whatever it takes to fit the car to you,
+[18:25] whatever it takes to fit the organization to you,
+[18:28] that's what you ought to do.
+[18:29] And the next CEO, whatever the personality is,
+[18:31] they can figure it out.
+[18:32] Amazing.
+[18:33] I mean, it doesn't seem like any change you make to the car
+[18:37] will just slow you down and lose you races that, you know,
+[18:40] isn't fit to you.
+[18:42] Yeah, or we're constantly tweaking the car to our needs.
+[18:45] And that's really what I'm doing all the time.
+[18:48] I'm constantly tweaking the company,
+[18:50] constantly reshaping business processes
+[18:52] and the way things work so that I can, you know,
+[18:55] be more effective for the company.
+[18:57] True founder mode.
+[18:58] Yeah, founder mode.
+[18:59] Founder mode could scale for 34 years.
+[19:02] That's right.
+[19:03] From zero to five trillion.
+[19:05] Do you know evidence?
+[19:06] No.
+[19:12] I'd love to switch gears to like what, you know,
+[19:14] what are the frontier algorithms
+[19:16] that you're most interested in now?
+[19:18] I mean, I love that you're all the way down
+[19:21] into the material science all the way up into the app level.
+[19:25] You know, you're the first to speak on stage about open claw
+[19:29] and now Hermes agent.
+[19:32] I wonder if you can sort of like walk us through a day
+[19:35] in the life of like how you think about the different stages.
+[19:38] I mean, going from materials to chips to data centers
+[19:43] to even like the app level, like how people are going to work.
+[19:46] Like there's sort of this idea of a full stack AI factory.
+[19:50] Well, this is one of the things that is probably
+[19:53] going to be the most useful skill in the future.
+[19:57] And in fact, just in listening to you talk about technology
+[20:00] and your use of it, you know, one of the most important things
+[20:03] is systems understanding.
+[20:06] Systems awareness, system design, system organization,
+[20:12] but systems thinking.
+[20:14] And the reason for that is because most of the low level
+[20:18] things that has to be done are going to be done
+[20:20] agentically anyways.
+[20:22] They're going to be automated anyhow.
+[20:23] And so whether it's, you know, in my generation,
+[20:26] it's about compiling chips and synthesizing transistors
+[20:30] and gates and functional blocks and all of that
+[20:33] is now synthesized.
+[20:35] And so most of our designers are systems designers.
+[20:38] In the case of software, most software
+[20:41] is going to be done agentically anyhow.
+[20:43] So you have to be much more able to think abstractly
+[20:46] about systems.
+[20:47] What are the problems you're trying to solve?
+[20:50] What are the constraints?
+[20:51] Where's the input?
+[20:53] Where's the output?
+[20:55] Where information coming from?
+[20:57] What is the rate of information flowing in and out
+[21:00] of the system?
+[21:02] What are the constraints?
+[21:04] And so is the processor, is it memory, is it networking?
+[21:09] So understanding these systems' problems
+[21:14] at a sufficiently technical level
+[21:16] is going to be very helpful to all of the people in this room.
+[21:19] And I don't think that way of that fundamental knowledge
+[21:24] is ever going to be useless.
+[21:26] I think it's going to be more and more useful.
+[21:28] And so I try to understand systems the best I can.
+[21:33] One of the things, speaking of agents,
+[21:37] the fact that matters, we kind of have
+[21:39] course level recursive self-improvement already.
+[21:44] And the fact that every time you use it,
+[21:46] it improves the markdown files.
+[21:48] Every time you use it, it updates its long-term memory.
+[21:52] And the long-term memory is being processed,
+[21:55] either compacted or turned into knowledge graphs,
+[21:57] or so on and so forth.
+[21:59] It's being improved all the time, asynchronously.
+[22:04] And so the agent's getting smarter and smarter every time.
+[22:08] Still, the problem is, and this is one of the problems
+[22:11] that I think can be helpful for everybody to solve,
+[22:13] is how can we have very, very specific fine-grained control?
+[22:19] If not for rags, if not for conditional inputs,
+[22:22] if not for all of our prompts directly into output
+[22:27] was two cores.
+[22:30] And so the fact that we can condition,
+[22:31] the fact that we can control the agents,
+[22:34] all the way down to eventually, when it comes up
+[22:37] with a plan, I change one word in a plan file.
+[22:41] And that one word makes a delta difference,
+[22:45] not complete difference, but specific difference.
+[22:49] Maybe it's one pixel, maybe it's one triangle,
+[22:51] maybe it's one component in a CAD file,
+[22:54] maybe one layer, one via, one connection.
+[22:57] And then it regenerates everything else.
+[23:00] I think that that level of control
+[23:01] and that level of collaboration with agents
+[23:03] will be game-changing.
+[23:05] We don't need the agents to be 100% accurate, 100% high quality
+[23:10] in order for us to use it.
+[23:12] It could literally be 80%.
+[23:15] And then we help it the rest of the way,
+[23:16] or it could be 99%, we help it the rest of the way.
+[23:19] And so I think controllability is probably
+[23:21] the single biggest breakthrough that we need
+[23:24] for agents at every single level.
+[23:26] Do you think people will, with Hermes or Open Claw,
+[23:30] it feels like that might actually be somewhat existential,
+[23:34] like people should control their own personal AGI.
+[23:38] They shouldn't outsource that at
+[23:40] and have it be just in the cloud and someone else's agent
+[23:44] that kind of tells you what to do,
+[23:46] what to kind of want it to be your own.
+[23:47] Is that part of the thrust behind NVIDIA being so involved?
+[23:51] I think, well, first of all, I need to understand agents
+[23:54] because agents is the new software.
+[23:56] And how is this new software processed
+[23:59] matters a lot to computer architecture.
+[24:01] And the more intimate we are about the nature of agents
+[24:07] and how it's different than chatbots,
+[24:11] which is how different than maybe inference
+[24:15] in the very beginning.
+[24:16] However we think about these processing layers,
+[24:19] the more intimate we are about the nature
+[24:21] of the processing, the better we can design systems.
+[24:24] We kind of have to live in the future five to 10 years
+[24:29] because it takes three or so years just to build a system.
+[24:33] It takes a couple of years to ramp it up.
+[24:35] And you're dealing and you would like them to be able
+[24:37] to use the computer for 10 years after.
+[24:39] So you kind of have to live in the future for a while.
+[24:42] And so, agentic systems for us at the first principles
+[24:45] is just what is the workload?
+[24:47] What's the algorithm?
+[24:48] How is it going to evolve?
+[24:49] Where are the bottlenecks?
+[24:51] You know, where are the MDOLs' laws problems?
+[24:53] And how does it scale?
+[24:56] What happens to concurrency?
+[24:58] How do you deal with SAM boxes?
+[25:01] How do you deal with MCP?
+[25:02] How do you deal with working memory, long-term memory?
+[25:06] How do you have all these autonomous systems,
+[25:08] asynchronous systems working all the time?
+[25:11] And so, what kind of design architecture
+[25:13] makes perfect sense for that?
+[25:14] And so we have to go and go discover that.
+[25:18] And then of course, the second thing is
+[25:19] I want to use agents ourselves to make a video go faster.
+[25:22] And so, we have horses in the back
+[25:25] and we've got cloud code autonomously running
+[25:28] in SAM boxes all over NVIDIA.
+[25:30] And that's really fantastic.
+[25:31] And some people use codecs, some people use cloud code,
+[25:34] some people use cursor, some people use cognition.
+[25:38] And we let kind of a thousand flowers bloom
+[25:41] let people select the tools they want to use.
+[25:43] And then we learn from all of that.
+[25:45] And so the second part is just helping the company
+[25:48] move faster, use the tools.
+[25:50] And the more they use it, the more you're going to learn
+[25:52] about how to make it work better in the future.
+[25:56] And the last part is discovering the future
+[25:59] of solutions technology for the future.
+[26:03] And maybe, when we saw the early versions
+[26:09] of Chain of Thought come out of Stanford,
+[26:11] it's probably a decade ago at this point,
+[26:13] maybe eight years ago.
+[26:14] The question is, how effective is that going to be
+[26:19] in reasoning and how scalable is it going to be?
+[26:22] And what is the implication, for example,
+[26:25] in computer vision, if we can reason from prior knowledge?
+[26:31] And then the big breakthrough, of course,
+[26:34] just in thinking through that small little domain,
+[26:38] you come to realize that maybe we don't need as much data
+[26:41] for cars to train a self-driving car,
+[26:44] which led us to creating Alpamio,
+[26:46] which is the world's first thinking self-driving car.
+[26:50] And with just a million miles or so, a couple million miles,
+[26:54] it's an incredibly great self-driving car.
+[26:57] And the reason for that is it's kind of like us, right?
+[27:00] We don't need that many miles before we could drive
+[27:03] fairly well most of our lives.
+[27:06] And the reason for that is because we have prior knowledge
+[27:08] from our language model, and we can decompose
+[27:12] a situation we've never seen before,
+[27:14] and build it up out of things that we understood
+[27:19] and know very well.
+[27:20] And so that's an example of seeing something,
+[27:23] and then realizing the impact some time later.
+[27:27] When the agent systems came along,
+[27:30] it's very, very clear that obviously,
+[27:33] a large language model needs memory,
+[27:36] it needs prior knowledge, it needs tools,
+[27:39] it needs ways to network with other agents.
+[27:42] And so that kind of, once you see some early indicators
+[27:47] and you're able to reason about the future,
+[27:50] helps you get a leap into the future.
+[27:54] I feel like there's this pattern that I'm starting to see
+[27:57] around NVIDIA, where it's like you see a problem,
+[27:59] there's a new algorithm, there's some new thing happening,
+[28:03] and then actually you're right there with open source.
+[28:05] I mean, I remember when Open Claw came out
+[28:06] and people said it was unsafe,
+[28:08] but you guys came out with a sandboxing toolkit
+[28:13] that surrounds any harness and makes it safe.
+[28:16] When I saw Open Claw, my first thought was,
+[28:18] well, first of all, I learned about it.
+[28:20] And then, you know, without much imagination,
+[28:26] you just realized we just designed the modern computer.
+[28:29] This is the operating system that's gonna hold
+[28:32] a large language model.
+[28:33] And in a lot of ways, Open Claw to me
+[28:37] was very Linux moment to me.
+[28:40] And now everybody can build their own AI.
+[28:42] And I was so excited about that,
+[28:44] and we contacted the Peter and we said,
+[28:47] you know, all of NVIDIA's engineers are your engineers.
+[28:51] That's what I told Peter.
+[28:52] You've got this battleship outside your house.
+[28:54] You break down the problem as you desire,
+[28:58] and we'll contribute as you wish.
+[29:00] Same thing with the Hermes team, you know?
+[29:04] And I'm so excited about the work that they're doing.
+[29:06] I do think that the world needs the ability
+[29:10] for everybody to build their own AI.
+[29:13] And you could, you could of course,
+[29:15] and I encourage everybody to use cloud services
+[29:18] as much as possible.
+[29:19] Everybody should use chat, GBT, and CLOD,
+[29:22] and right, everybody should use that.
+[29:24] And, but if you need to build your own AI
+[29:28] because you're a company and you need to build
+[29:31] your own domain-specific AIs, now you have Hermes
+[29:34] and you have Open Claw, you've got all kinds of,
+[29:36] you've got Langchain, Deep Agent,
+[29:38] you've got all these different ways, right,
+[29:40] to build your own AI.
+[29:41] And it's, quite frankly, relatively easy.
+[29:45] Because the software's smart, you know?
+[29:47] And so AI's smart, and therefore AI must be so smart,
+[29:51] you could adapt it easily.
+[29:52] And so I think that we want, we want to encourage everybody
+[29:55] in every company to build their own AIs.
+[29:58] And who knows what innovation will come
+[30:01] from the fact that it's open source?
+[30:03] I feel like all the alpha is in building your own AI.
+[30:06] I mean, if someone else is using whatever is off the shelf,
+[30:10] but you have a thing that can recursively self-improve,
+[30:13] and it is, you know, I mean, people are very flippant
+[30:16] about Markdown files.
+[30:18] They say like, oh, ha-ha, it's just text,
+[30:20] but like, text is intelligence,
+[30:22] and we're in a different way.
+[30:23] Words are thoughts, yeah.
+[30:25] Yeah, words are thoughts.
+[30:26] Yeah, and it turns out you can.
+[30:27] Try to think without words.
+[30:29] Yeah, that's right.
+[30:31] So switching gears again, I mean, a lot of people are,
+[30:34] anytime you move the cheese, people get a little worried.
+[30:38] Intelligence is gonna be on tap, which is really awesome.
+[30:42] I think it bodes well for everyone in this room.
+[30:45] What do you think changes about the economy?
+[30:48] What do you think happens in sort of a broader sense?
+[30:51] Obviously, what I'm gonna say is uneven.
+[30:54] There are some, you know, we're gonna automate tasks.
+[30:59] We're gonna automate cognitive tasks.
+[31:01] If that task is, somebody makes a phone call
+[31:04] and sends a bunch of words, you know, across the phone to you,
+[31:09] and your job is to provide a response.
+[31:12] And if all the information is at your fingertip,
+[31:16] because you have all the database here,
+[31:18] and you should be able to answer that question completely.
+[31:22] In that case, that task will be automated away, okay?
+[31:26] Ignoring that for a second.
+[31:28] Not that we're ignoring this, but my point is,
+[31:31] I'm gonna answer the question about really the great opportunity.
+[31:36] And so many tasks will be automated away.
+[31:39] Many jobs, every single job will change,
+[31:41] and there'll be a whole bunch of new jobs,
+[31:43] and that I think we know.
+[31:45] The bottom line is this.
+[31:47] The evidence would show that, and it makes perfect sense,
+[31:51] that AI and automation is creating jobs everywhere.
+[31:55] The narrative about AI destroying jobs
+[31:58] is exactly backwards.
+[32:00] AI eliminates tasks.
+[32:04] AI automates tasks away.
+[32:07] But it doesn't necessarily eliminate jobs.
+[32:12] And the reason for that is because the job of a person
+[32:15] has a purpose, and that purpose has many tasks.
+[32:18] Some of those tasks could be automated away.
+[32:20] Many of those tasks cannot be.
+[32:23] And so the evidence suggests that here we are,
+[32:26] we've automated coding, which is a task,
+[32:28] but the job of a software engineer appears to be growing.
+[32:32] The number of software engineer jobs year over year
+[32:35] has increased 10%.
+[32:37] The task of reading radiology scans has been automated,
+[32:42] but the number of radiology jobs has increased
+[32:47] some 20% in the last several years,
+[32:49] even though AI has taken over the whole field.
+[32:51] And the reason for that is because the backlog of patients
+[32:56] is incredibly high.
+[32:57] Now doctors and hospitals could admit a lot more patients.
+[33:01] In order to admit a lot more patients,
+[33:03] even more nurses, more radiologists.
+[33:05] And so the same thing with software.
+[33:07] We hit the backlog of ideas,
+[33:09] the backlog of ambition and aspiration is so high
+[33:14] that if we can automate away the task of programming,
+[33:18] we could hire more software engineers to do more things.
+[33:22] We could be more ambitious.
+[33:23] Same thing just across the board.
+[33:27] They said Harvey is gonna eliminate all of the paralegal jobs
+[33:31] that the number of lawyers will be reduced.
+[33:34] Turns out paralegals are growing like crazy.
+[33:37] And the reason for that is because the backlog of lawsuits
+[33:39] is really high, and now these law firms
+[33:42] could get a lot more cases through in order to do so.
+[33:45] You gotta hire more people.
+[33:46] And so this is a classic example of productivity
+[33:51] increasing growth, increasing growth
+[33:54] drives more employment.
+[33:55] This is the reason why there's more employment today
+[33:58] than there was when I first came out of school.
+[34:00] So we've been talking a lot about software and agents.
+[34:05] Another really exciting thing that NVIDIA
+[34:07] is all the way out on the edge on
+[34:08] is actually physical robots.
+[34:11] How far out?
+[34:13] I think in the past, you might have even said,
+[34:15] as soon as this year, what's the latest thinking on?
+[34:19] When can we expect practical robotics?
+[34:21] Yeah, the moment that I saw as generating video,
+[34:26] that was a great moment for me.
+[34:29] The moment that I saw as generating video,
+[34:32] I mean, we did the original work on auto progressive games.
+[34:37] And we did the original work on conditional games.
+[34:42] Long before the first videos were generated
+[34:45] outside that people saw, a couple of years earlier
+[34:48] inside our labs, we were driving a simulator
+[34:53] completely generated by video
+[34:55] and completely generated by neural networks.
+[34:57] And so the moment I saw us generating articulation,
+[35:03] if I can generate video of a finger moving,
+[35:06] if I could generate video of a hand picking up a glass,
+[35:09] why can't I cause a robot to do the same?
+[35:13] And so the moment I saw that generative AI happening,
+[35:16] I realized that robotics articulation was around the corner.
+[35:20] And so now the question is,
+[35:22] how is the robot going to understand
+[35:25] to generate motions that obey the laws of physics?
+[35:29] How does it understand causality?
+[35:32] How does it understand friction, tension?
+[35:35] How does it understand the laws of physics?
+[35:37] And so it started us down the journey
+[35:40] of creating what we call physical AI now.
+[35:42] And everybody calls it physical AI and physical AI.
+[35:45] We started working on world foundation model
+[35:47] and AI that understands the laws of physics
+[35:49] and how the world works.
+[35:51] And we started down the journey of working on robotics.
+[35:55] I would say the chat GPT moment of robots
+[35:59] happened a couple of years ago already.
+[36:02] And the reason for that is remember
+[36:03] when chat GPT first came out,
+[36:07] it didn't do anything productive.
+[36:10] It didn't do anything useful,
+[36:11] but it opened our imagination about what's possible.
+[36:14] And I would say a couple of years ago,
+[36:17] robots walking around that we could do reinforcement learning,
+[36:20] fine-tuned it for grounded in physics really happened
+[36:25] a couple of years ago.
+[36:26] So now what do we need to do?
+[36:27] We need to do all the same things
+[36:29] that we're doing now for agent systems.
+[36:32] We have to create environments for them to learn it,
+[36:34] to eval in, eval against.
+[36:36] And so we have to do real to SEM to create environments.
+[36:41] We have to do, we have to generate simulators
+[36:44] that are based on simulation,
+[36:45] grounded physics simulation,
+[36:47] as well as generative physics simulations.
+[36:50] And so Isaac Sim, Cosmos,
+[36:53] and all the work that we do in that area
+[36:55] is related to simulation.
+[36:56] And then the last part is SEM to real.
+[36:59] And so that part has something to do
+[37:02] with reinforcement learning, grounding in on physics,
+[37:06] grounding on all the electrical mechanical systems
+[37:10] that robots require.
+[37:12] And so, but these three basic systems
+[37:14] I think builds up the eval, if you will,
+[37:18] the post-training of robotics.
+[37:21] And I think we're gonna see it right around the corner.
+[37:24] Amazing.
+[37:25] Where does physical AI show up first
+[37:26] in a way that's really economically real?
+[37:29] Are you seeing that already?
+[37:30] We conjecture that robotics was gonna come along
+[37:35] and decided that the first application of robotics
+[37:39] that has both a large enough market,
+[37:42] relatively standardized technology
+[37:45] so that we could scale and get the flywheel going,
+[37:49] and has real economic value was self-driving cars.
+[37:53] And so, inside Waymo, our chips from NVIDIA,
+[37:59] at Tesla, we were in the car.
+[38:01] Now we're in the data center, Mercedes,
+[38:04] we're in the data center, we're in the car,
+[38:06] we're in the software stack.
+[38:07] We worked on Alpameo and we open sourced it.
+[38:11] And the reason why we open sourced the self-driving car stack
+[38:13] is because you need it for agriculture,
+[38:15] you need it for mail delivery,
+[38:17] you need it for warehouse AMRs.
+[38:19] There's so many different ways
+[38:20] that you could apply autonomous navigation.
+[38:26] And none of those markets are big enough
+[38:28] to be a self-driving car market,
+[38:29] and we thought it was sufficiently diverse
+[38:32] that we would create the whole stack for it.
+[38:34] And so, we're working with autonomous vehicles
+[38:36] in all kinds of different places.
+[38:38] Our robotics business, autonomous vehicle business,
+[38:41] basically physical AI business
+[38:43] is probably almost like $10 billion,
+[38:45] so it's really, really big already.
+[38:48] Likely this will be one of the largest industries
+[38:50] in the world, and it'll take longer than a couple,
+[38:53] two, three years, it'll take less than 10.
+[38:56] And so, this will be our next $100 billion business.
+[38:59] Amazing.
+[39:00] I wanna take a moment, I think this is the exact right crowd
+[39:04] to, you know, maybe as a arena,
+[39:07] we can welcome Jensen to X, welcome to X.
+[39:11] I think you made your first post,
+[39:12] and thank you for your leadership.
+[39:18] You know, that just shows you how introverted I am.
+[39:24] It took me until 2026 to have the first post on X, you know?
+[39:30] I'm probably the last human on earth that did it.
+[39:33] But what I posted was too important to me,
+[39:36] and too important to the industry,
+[39:38] and too important to the world.
+[39:39] And so I overcame my shyness
+[39:45] and put my first thing out on X.
+[39:47] No, thank you for your leadership.
+[39:49] I mean, open source, open weights,
+[39:51] open source models are incredibly important for,
+[39:54] I mean, what all of us in this room want to do,
+[39:56] and we want to create startups.
+[39:58] If not for open source,
+[40:00] the mobile cloud industry would have never happened.
+[40:03] If not for open, if not for Linux,
+[40:05] if not for Kubernetes,
+[40:06] if not for all of these, you know, platform,
+[40:08] if not for TensorFlow or more important PyTorch, right?
+[40:14] And the early versions of a cafe, right?
+[40:16] Torch, I mean, all of the theano,
+[40:19] remember the early versions of all,
+[40:21] those were all open source.
+[40:23] If not for all of that,
+[40:24] how would we have modern AI?
+[40:26] Well, thank you for your leadership
+[40:28] and your voice is incredibly important here.
+[40:30] Thank you.
+[40:38] Before we go, I feel like we,
+[40:39] I just really resonate with your story.
+[40:42] I think that everyone here,
+[40:44] I mean, would love the wisdom of your journey coming here.
+[40:48] I mean, what should a young person learn now
+[40:50] given all the things that you're seeing,
+[40:52] all the algorithms that are gonna take hold in society?
+[40:57] What should a young person learn now
+[40:58] that will still matter based on what you're seeing?
+[41:01] Well, some of the things that I saw today,
+[41:03] and some of the starters I met today,
+[41:05] was really, really quite encouraging.
+[41:09] And the thing that the big takeaway is, of course,
+[41:14] the simple stuff is gonna get automated away.
+[41:18] And when I say simple stuff, I mean, software coding,
+[41:22] the idea that you would solve a problem
+[41:26] by sitting in front of a computer
+[41:28] and you're actually writing code,
+[41:32] that concept is obviously gonna get automated away.
+[41:36] In my generation, when I was growing up,
+[41:39] we had to do long division.
+[41:41] I mean, for God's sakes,
+[41:42] who has to learn long division, you know?
+[41:45] And so that got coded away, that got automated away.
+[41:48] And so I think the simple stuff is gonna get automated away,
+[41:50] but the hard problems, the hard sciences,
+[41:54] physics, chemistry, biology,
+[41:57] computer science, computer engineering, systems thinking,
+[42:02] and particularly the domains that are intersecting,
+[42:06] those hard problems will never go away.
+[42:08] And so AI is just an incredible tool
+[42:11] that helps us become even more ambitious,
+[42:14] even more impatient about solving
+[42:18] these extraordinarily large
+[42:19] and incredibly hard problems than before.
+[42:23] And so if you look at my generation,
+[42:26] when I first graduated, a chip designer
+[42:30] would design a chip with maybe a thousand transistors,
+[42:33] and that would be a very large chip.
+[42:35] Now, designing a trillion transistor chips
+[42:39] is not even, if somebody would have told me
+[42:41] Jensen, our next chip is a trillion transistor,
+[42:43] I said, okay, it's not a thing.
+[42:45] And the reason for that is because we are so ambitious now,
+[42:49] that the scale of the problem,
+[42:52] the scale of the task is no longer a matter.
+[42:55] And so you don't have to worry about
+[42:59] how much coding, how many engineers,
+[43:02] you don't have to think about those things anymore,
+[43:04] you just have to think about what is the problem
+[43:06] you have to solve.
+[43:07] And so I think that the deep tech stuff,
+[43:09] the deep science stuff, understanding the intersection
+[43:13] between technology and social issues,
+[43:16] understanding market gaps and holes, opportunities,
+[43:21] I think all of that still exists.
+[43:23] And the better you are at systems thinking,
+[43:26] so that you could orchestrate millions of agents
+[43:30] solving problems autonomously, the better off you are.
+[43:34] And so that's why system thinking is gonna be so important.
+[43:37] But otherwise, I think the world's gonna continue
+[43:40] to have a lot of great challenges for us to solve.
+[43:43] Go to school the same old way, you know?
+[43:46] Stay in school.
+[43:47] Stay in school.
+[43:51] I guess I usually like to end with,
+[43:55] you're looking out on the crowd, there are a lot of people
+[43:57] who, I mean, I started this, the opener with like,
+[44:02] I honestly look in the crowd and I see people
+[44:04] who are not different than us per se, you know?
+[44:07] We actually just are technical and like love systems.
+[44:12] You know?
+[44:13] Thank you.
+[44:14] Thank you.
+[44:15] What advice would you give to this room of, you know,
+[44:20] and you see yourself in this room
+[44:23] and like I'm curious what you would say.
+[44:24] If you could send a telegram, a message
+[44:28] to the 18 to 22 year old version of yourself,
+[44:31] what would that be?
+[44:32] I could tell you exactly how I felt when I first,
+[44:35] when NVIDIA first founded and the three of us started.
+[44:41] The thing I felt at the time is,
+[44:44] there was so much for me to know
+[44:45] and so much for me to learn and I didn't know it.
+[44:49] And I was telling you earlier that at the time
+[44:51] there was, there were no YouTube, there's, you know,
+[44:54] no YC, nobody's teaching you how to start a company
+[44:57] and so I went to the bookstore and I bought a book
+[44:59] and the book said how to start a company.
+[45:02] Unfortunately, the book was like 500 pages long.
+[45:06] And so, you know, I figured by the time I read it,
+[45:09] you know, I'd be out of business
+[45:11] and Lori and I'd be out of money
+[45:13] and so there's no sense reading it.
+[45:15] But the thing that, the thing I remember very, very vividly
+[45:20] is that how scared I was to go raise money
+[45:25] because I felt that I was about to talk to a bunch of people
+[45:28] and I didn't know how to answer their questions
+[45:31] and it's true and I barely know how to answer
+[45:34] their questions even today.
+[45:36] But the thing that I learned is none of that stuff matters
+[45:41] as it turns out and you're always gonna have things
+[45:46] that you don't know.
+[45:48] And every single day, the world's changing,
+[45:50] technology's changing, obviously,
+[45:52] this is the greatest time in the last 60 years
+[45:55] to start a company.
+[45:57] The whole industry has changed.
+[45:59] It's a complete reset from a technology perspective.
+[46:02] The single most important technology in human history
+[46:05] that computer has been completely reset.
+[46:08] And so, this is absolutely the single greatest time
+[46:11] to start a company and I'm jealous of all of you
+[46:14] and the opportunities you have ahead.
+[46:17] It's gonna be incredible.
+[46:19] So, it's the perfect time on the one hand.
+[46:21] On the other hand, the technology's changing so fast.
+[46:24] And so, the question is, what's the right feeling for you?
+[46:27] And eventually, and I told you the story of us,
+[46:30] of me buying the other book, the textbook.
+[46:33] I think the psychology and the feeling that I have today
+[46:37] on all of the new experiences and the new technology
+[46:41] and new markets and new dynamics, I look at it
+[46:44] and I say, this is important, I've gotta go learn it.
+[46:47] And I've gotta go do something about it
+[46:49] and I better get to it as fast as I can.
+[46:51] And how hard can it be?
+[46:54] I always have this feeling how hard can it be?
+[46:58] And truth be told, it is way harder than you think.
+[47:06] And, but you don't want your mind to be there.
+[47:09] You want your mind to be, how hard can it be?
+[47:12] And let the suffering come to you a little bit at a time.
+[47:18] Don't imagine how hard it's gonna be
+[47:22] and let all of that turn into anxiety
+[47:24] and not doing something about it.
+[47:27] You wanna imagine your head, how hard can it be?
+[47:29] I got a bunch of AI agents helping me anyways.
+[47:33] And so, how hard can it be?
+[47:35] And then you get going on working on it.
+[47:37] And so, that's probably the attitude of an entrepreneur.
+[47:41] You know you have to learn a bunch of stuff along the way.
+[47:44] You believe in your ability to learn,
+[47:46] which is learning as the single greatest superpower.
+[47:50] And if you go into it with the attitude how hard can it be?
+[47:53] If anybody can do it, I can do it.
+[47:55] And just realize that it will be hard.
+[47:58] And you just have to have the resilience
+[48:00] to overcome it every single day.
+[48:02] You don't have to overcome life in one day.
+[48:05] You just have to overcome that morning.
+[48:07] That morning, you have to overcome today today.
+[48:10] And so, it's not a big deal.
+[48:11] Just get through today, wait till, right?
+[48:14] Work towards tomorrow.
+[48:15] Keep following your dreams.
+[48:17] And the rest of everything, if you stick with it long enough,
+[48:22] and video happens.
+[48:24] And so, I think that the wisdom that I can,
+[48:28] if there's anything, resilience is probably
+[48:31] the single most important thing.
+[48:34] And if you believe in something, just get going on it.
+[48:37] And get your mind out of keeping yourself
+[48:42] from pursuing it, because of fear or anxiety
+[48:46] or lack of confidence or whatever it is.
+[48:48] And that you're just gonna tell yourself,
+[48:49] I'm gonna learn my way there.
+[48:51] And so long, everybody.
+[48:54] All right, guys.
+[48:55] Thank you.
+[48:56] Thank you so much.
+[48:57] Yes, it was incredible.
+[48:58] Thank you guys.

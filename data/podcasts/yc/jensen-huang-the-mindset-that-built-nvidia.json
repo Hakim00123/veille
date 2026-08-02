@@ -1,0 +1,25 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "Jensen Huang: The Mindset That Built NVIDIA",
+ "date": "Mon, 27 Jul 2026",
+ "date_iso": "2026-07-27",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/Jensen-Huang-The-Mindset-That-Built-NVIDIA-e3mkd1q",
+ "duree": "00:48:59",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 4.4,
+ "taille_transcript": 50315,
+ "transcript": "jensen-huang-the-mindset-that-built-nvidia-transcript.txt",
+ "nb_outils": 1,
+ "outils": {
+  "LangChain": [
+   "e chat, GBT, and CLOD, and right, everybody should use that. And, but if you need to build your own AI because you're a company and you need to build your own domain-specific AIs, now you have Hermes and you have Open Claw, you've got all kinds of, you've got Langchain, Deep Agent, you've got all these different ways, right, to build your own AI. And it's, quite frankly, relatively easy. Because the software's smart, you know? And so AI's smart, and therefore AI must be so smart, you could adapt it easily. And so I think th"
+  ]
+ },
+ "mentions_publicitaires": {
+  "Cursor": [
+   "use agents ourselves to make a video go faster. And so, we have horses in the back and we've got cloud code autonomously running in SAM boxes all over NVIDIA. And that's really fantastic. And some people use codecs, some people use cloud code, some people use cursor, some people use cognition. And we let kind of a thousand flowers bloom let people select the tools they want to use. And then we learn from all of that. And so the second part is just helping the company move faster, use the tools. And the more they use it, "
+  ]
+ }
+}

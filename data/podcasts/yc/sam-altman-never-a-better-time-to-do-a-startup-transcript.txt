@@ -1,0 +1,877 @@
+Y Combinator Startup Podcast
+Sam Altman: "Never a Better Time to Do a Startup"
+Tue, 28 Jul 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/Sam-Altman-Never-a-Better-Time-to-Do-a-Startup-e3mld12
+
+[00:07] Sam, thanks for joining us.
+[00:10] This is something.
+[00:11] This is a lot bigger than the earlier startup schools.
+[00:13] Yeah, I mean, startups are a lot bigger now
+[00:16] than they've ever been.
+[00:17] So, I mean, they're bigger than they've ever been
+[00:23] because of the vision that you had for AGI, which is Nye.
+[00:28] I think this is gonna be the best time in the world
+[00:30] to do a startup and it's gonna be quite amazing to see.
+[00:33] So I wanna start with a time and place,
+[00:38] which is you were in the very first batch
+[00:40] of Y Combinator in 2005
+[00:43] with a location sharing company called Loubed.
+[00:47] What do you remember about that?
+[00:48] And what was your best PG's Paul Graham story?
+[00:52] I think if it were possible to get as far from this moment,
+[00:57] as like I can imagine, it was startups are not cool at all.
+[01:02] We were like hiding out in this little building in Cambridge.
+[01:07] PG was making us dinner and what took three months
+[01:15] to build at the time that each company built
+[01:18] over the whole YC startup could now be done
+[01:21] with like in like seven minutes by a coding agent.
+[01:24] And it was only, I mean, only 20 years ago.
+[01:29] And I think the difference in what's possible
+[01:32] for a startup now, what a startup can take on.
+[01:37] I think you could either be sad and be like,
+[01:38] oh man, like a Codex prompt is a whole startup
+[01:40] or you could be like, I can go start
+[01:42] the world's most ambitious, crazy company.
+[01:44] I can have like experts in every field working together.
+[01:47] I can do these very hard technological things
+[01:49] that were just impossible.
+[01:51] And it's gonna be amazing, but at the time,
+[01:53] it felt nothing like that.
+[01:54] And it was very difficult to get anything to work.
+[01:59] I think Paul Graham is probably the most important force
+[02:01] in startups of the last few decades.
+[02:04] And no question.
+[02:04] Yeah, no question.
+[02:11] And my kind of Paul Graham memory is we would all every week
+[02:16] come, I think it was on Tuesdays
+[02:18] and he would like cook up, he himself would cook us dinner
+[02:22] and we would all walk in feeling like very hopeless
+[02:24] and very dejected.
+[02:26] And we would, there were eight companies
+[02:28] and then we would all go home at the end of it.
+[02:30] And he had convinced like each of us
+[02:32] that our startups were about to like take over the world.
+[02:34] And we're gonna be like, you know, the next Google
+[02:36] or whatever, Facebook maybe at the time.
+[02:39] And that ability to sort of like create optimism
+[02:44] and momentum and belief out of nothing
+[02:46] was like a real PG special.
+[02:48] And in the early days, when YC seemed like a terrible idea
+[02:52] and startup seemed like a bad idea
+[02:53] and certainly startups that were like young technical founders
+[02:56] with no business people seemed like a terrible idea,
+[02:58] PG just sort of like wielded into existence.
+[03:02] But it also takes someone who actually,
+[03:04] I mean, you're sort of famously par excellence
+[03:09] an agent person, like even before we thought
+[03:11] about agents, period.
+[03:13] I mean, you just, I remember Paul wrote,
+[03:16] I mean, it's making the rounds on X today even
+[03:19] that Paul wrote in the early, in the late 2000s
+[03:22] that you would be, you were one of the top five entrepreneurs
+[03:25] he'd ever met.
+[03:27] That's very nice for me to say.
+[03:29] I think like many 20 year olds,
+[03:32] I had like a lot of energy and a lot of ambition
+[03:34] but it was sort of very not directed
+[03:37] and I wasn't sure what to do.
+[03:40] Paul had this thing he used to say of like the job
+[03:43] of being a good startup investor is a teacher,
+[03:46] but it's a kind of teacher we don't usually use.
+[03:48] Like we usually think of teachers,
+[03:50] somebody who like gives a lecture
+[03:51] and you can't help someone that much
+[03:54] by like giving a lecture about a startup.
+[03:56] There's another kind of teacher
+[03:57] which is like a flight instructor,
+[03:58] the person who like sits next to you saying like,
+[04:00] do this, don't do this, that work,
+[04:02] this isn't that you missed that thing
+[04:03] or you're making these mistakes
+[04:04] and I'm just gonna talk to you about this one.
+[04:06] And that very like hands on kind of,
+[04:10] you know, here's where to like direct
+[04:12] this sort of like brownie and motion energy.
+[04:14] That was very important to me.
+[04:16] Yeah.
+[04:16] I guess later you came on to become president of YC
+[04:22] and you sort of brought exactly the same energy
+[04:26] to a great many YC founders over the years.
+[04:30] Did you have anything, like,
+[04:32] did anything jump out at you from that time around,
+[04:35] you know, taking this raw energy
+[04:38] of someone really, really smart
+[04:39] and maybe a little undirected
+[04:41] and then driving them more towards agency?
+[04:44] Yeah.
+[04:45] So first of all, I love startups.
+[04:48] I think not everyone, they're not like for everyone,
+[04:50] but I think startups are the coolest thing
+[04:51] in all of business.
+[04:52] I think startups are really like the main thing
+[04:56] that keeps the economy from becoming stagnant.
+[05:01] I think companies do just like drift towards suckiness
+[05:04] and startups will continue to be important forever.
+[05:07] In fact, if we are right that AI
+[05:09] is gonna be such a big change,
+[05:10] startups will be much more important
+[05:12] to making sure that the power of this technology
+[05:15] gets widely distributed throughout the economy and society
+[05:18] and is not just concentrated in a few companies or models.
+[05:21] So I think startups are just like unbelievable
+[05:26] cool, fun, extremely painful and difficult,
+[05:29] but wonderful thing.
+[05:30] And I think a big part of the job of running YC
+[05:35] is you are kind of the like unofficial flag bearer
+[05:41] for the startup movement.
+[05:45] There's lots of startups,
+[05:46] there's lots of ways to do a startup.
+[05:48] You obviously don't need to do YC,
+[05:49] but it has always been a huge help to companies
+[05:52] and a very powerful force.
+[05:55] And so starting with PG and then all of us,
+[05:59] like we have to make YC successful,
+[06:02] but I think we really have to like fight
+[06:03] for why startups are important
+[06:05] and why people should consider startups
+[06:07] and help put like relatively more power in the hands
+[06:10] of founders and encourage more people to start them.
+[06:12] And that's actually worked really well.
+[06:14] I think thinking back to the early days of YC,
+[06:17] it was like very little leverage
+[06:21] in being a founder relative to an investor.
+[06:23] And that shift,
+[06:25] I think that's even been good for the investors.
+[06:28] I think it's just been like much better
+[06:29] for the whole startup ecosystem.
+[06:31] So mostly what I tried to do at YC
+[06:35] was just push for more startups
+[06:38] and encourage people to think about startups
+[06:40] and figure out what we could do to help founders
+[06:42] and help make startups
+[06:44] and the startup ecosystem as good as possible.
+[06:46] Definitely part of that was pushing people
+[06:48] towards more ambition and bigger swings,
+[06:52] but it feels like the minor leads relative to no.
+[06:55] I mean, I think you were one of the people
+[06:57] who really brought hard tech to YC in a really grand way.
+[07:01] And then one of the things we're seeing at YC now
+[07:04] is that number was maybe five or 10% for many years.
+[07:08] And then now we're getting to 15, 20, 25%.
+[07:12] I would argue on the back of how much easier it is
+[07:16] to use agents and cost coming down.
+[07:20] I think like ambitious startups are always awesome
+[07:24] and hard tech startups are appealing to a lot of people,
+[07:27] but they're hard or they've been hard, they still will be hard.
+[07:29] But what you can do now to go take on a really ambitious project,
+[07:34] like in the same way that you can make the startup
+[07:37] that took us three months of non-stop work in 17 seconds
+[07:41] with three months of work and a lot of agents,
+[07:43] you can do unbelievable things.
+[07:45] So I think we will see a golden age of startups
+[07:47] where people are like, you know what?
+[07:48] I'm gonna do things that would have been completely impossible
+[07:52] for a startup to even dream at a year ago
+[07:57] in sort of like the YC time frame.
+[07:59] I mean, that's actually a really big reframe.
+[08:00] I mean, there are probably people even in this room
+[08:02] who might be worried that, well, intelligence on tap
+[08:07] means that they might be looking at a looped
+[08:10] or my startup posturist and they're like,
+[08:12] well, I can't start that company anymore.
+[08:14] But guys, that was like a long time ago actually.
+[08:19] Man, there's this whole meme going around,
+[08:21] which is like, you know, you have to join a frontier lab
+[08:25] or you're gonna be a member of the permanent underclass
+[08:27] because it's so dumb because there's gonna be like,
+[08:31] you know, startups are over
+[08:32] and there's like no economic value.
+[08:37] That's not true.
+[08:37] I mean, if that were true,
+[08:39] the world is like totally fucked and it's a very bad place.
+[08:43] But it's, I would bet that the average startups created today
+[08:49] will be like, I bet there's some future trillion
+[08:51] in this room.
+[08:52] And I would bet that the startups created today
+[08:54] will be much more valuable, much more impactful
+[08:57] than startups of the past.
+[08:58] And I kind of think people see that a little bit more now.
+[09:02] I mean, there was this period where like,
+[09:04] our is AI just gonna break the whole economy.
+[09:06] And I think people are like,
+[09:07] mostly over this sort of shock response of that.
+[09:11] But there was like, yeah, definitely a time.
+[09:13] You know, come every YC batch and I'll be interested to see
+[09:17] how the kind of like level of anxiety versus ambition
+[09:20] was trending.
+[09:21] And it feel like it went through this like big trough
+[09:23] where people were like, you know, it's over.
+[09:24] It's models are just going to eat everything.
+[09:26] So now it's back towards like, let's go do it.
+[09:29] What are some practical things here?
+[09:30] I mean, heart tech, for instance, I was hearing, you know,
+[09:34] at one of the breaks someone was asking like,
+[09:36] should I go get my PhD?
+[09:37] How important are credentials?
+[09:41] You know, how would you answer that?
+[09:43] Especially people who want to do these harder tech things?
+[09:50] Well, as a general observation first,
+[09:51] I think startups tend to win when the sort of like
+[09:57] technology landscape is moving very quickly,
+[10:00] when costs are coming down, when cycle times are short
+[10:03] and all of those things are happening right now.
+[10:07] So if you look at when there have been like
+[10:09] the great clusters of startups in the past, you know,
+[10:13] there was the internet boom and whatever that was like
+[10:15] 99, 98, 99, when new things became possible.
+[10:19] There was another version of a mini version of people
+[10:22] building on top of basically like Facebook apps.
+[10:24] There was then another big version
+[10:26] when the iPhone app store launched.
+[10:30] But the great startups tend to cluster
+[10:32] when the ecosystem shifts and incumbents lose
+[10:35] a lot of their advantage.
+[10:36] And then also when you have these like cost
+[10:38] and cycle time change, this moment feels very big
+[10:43] for those things.
+[10:44] It also has this other thing that you were talking about,
+[10:46] which is a lot of the traditional things
+[10:48] that were hard to get expertise, you know,
+[10:52] the ability to go like higher excellent people
+[10:55] that were, that could do specific things you needed.
+[10:58] That's really shifted.
+[10:59] And in the last few months, I have seen a lot of people
+[11:03] who just kind of grew up using AI the last few years
+[11:09] for like, I can kind of automate an entire startup
+[11:12] of agents and four of us, four people and, you know,
+[11:15] all this compute.
+[11:16] And I think we're going to see much more about,
+[11:18] I clearly like taste and agency
+[11:22] and understanding of kind of like the physics of business,
+[11:26] like where you can build up a valuable business,
+[11:28] how to think about like a good network of factor
+[11:30] or sort of a good moat looks like versus a fake one.
+[11:34] But I would bet that this generally will cut
+[11:38] against many years of experience in favor of people
+[11:41] who have a lot of fluency with the tools.
+[11:44] I guess I want to get into the beginning of OpenAI
+[11:48] and that it actually started as voicey research,
+[11:51] looking at this idea, I mean, kind of a crazy idea
+[11:54] that, you know, you and a ragtag crew decided
+[11:58] we're going to dedicate our lives to this creation of AGI.
+[12:02] But you know, today it sounds fatal complete, right?
+[12:07] But that really wasn't how it felt when you started.
+[12:11] It's really hard because it now it like
+[12:14] is the only thing people want to talk about.
+[12:16] It's really hard to remember what it was like.
+[12:19] It's even hard for me to remember this
+[12:20] without like finding notes from the time 10 years ago
+[12:23] when everyone was like, not only are they wrong
+[12:27] about saying they think it might be possible to build AGI,
+[12:30] but they're going to, they're single-handedly going
+[12:32] to cause another AI winter.
+[12:33] It's the wrong and irresponsible and bad.
+[12:38] And maybe like my highest order,
+[12:43] but like my highest bit of advice to all of you
+[12:46] is find the things that you can develop
+[12:51] like reasonable conviction in
+[12:53] that people decide, like the conventional wisdom
+[12:58] is they're just wrong and be okay with it taking a long time
+[13:02] and having people be like very, you know,
+[13:06] very frustratingly wrong and dismissive.
+[13:09] For years at OpenAI I felt like we knew
+[13:12] the biggest secret in the world.
+[13:14] Everybody was calling us an idiot and we had
+[13:19] increasing data points to convince ourselves
+[13:21] we weren't delusional.
+[13:22] And it was very frustrating.
+[13:25] It was extremely frustrating, but looking back
+[13:29] it was like an incredible gift because it meant
+[13:31] we didn't have this like massive competitors
+[13:33] and we had time to do our research
+[13:34] and build our stuff and build our company.
+[13:38] And I've since noticed that this is the case
+[13:40] for like a lot of companies in different ways.
+[13:45] They end up doing something that other people
+[13:48] that like experts in the field or the industry
+[13:51] are convinced is a very bad idea.
+[13:55] And on the other side of this,
+[13:56] if you're starting the same startup as everybody else,
+[13:58] it's like, you get a lot of hype
+[14:00] and you can raise a lot of money,
+[14:01] but it's sort of like those are much less frequently
+[14:04] the big option, the big outcomes.
+[14:06] So if I were you all, I would figure out
+[14:09] what the really big brand new thing is
+[14:12] that is possible now that wasn't possible a few years ago.
+[14:15] In our case, it was no way I had really been working
+[14:19] and then the deep learning magic moment happened
+[14:21] and the world didn't update enough.
+[14:22] The world, this is another great PGism.
+[14:25] The world does not understand how to intuit exponentials.
+[14:29] And so they missed this one.
+[14:30] There's gotta be new exponentials forming right now.
+[14:32] I don't know what they are, but if you can figure those out
+[14:35] and if you can develop continuing conviction
+[14:37] based on more data, be grateful
+[14:40] that the world doesn't understand.
+[14:41] They will eventually, this is like a huge superpower.
+[14:43] It sounds like in your journey,
+[14:45] there were like a few different things that stacked.
+[14:47] Maybe the first one was even that AGI was possible
+[14:51] to be built and finding other people who believe that thing.
+[14:55] You know, it didn't matter that lots of people
+[14:57] didn't think it was possible.
+[14:58] It mattered that you found really, really smart people
+[15:01] who did believe that.
+[15:03] Yeah, we used to joke that only 50 people in the world
+[15:07] believe that AGI was possible, but it was okay
+[15:09] because 45 of them worked at OpenAI.
+[15:12] And I think that's kind of true.
+[15:15] Like you don't need a ton of people.
+[15:17] And in fact, saying the heretical thing was probably
+[15:21] why those people wanted to like all be together.
+[15:24] So again, I think like really figuring out what you believe,
+[15:28] being willing to be misunderstood for a long time
+[15:30] and bringing together the like crew of misfits
+[15:32] that believes that that's also what YC was like
+[15:34] in the early days.
+[15:37] One of the things that people in the room
+[15:39] are probably thinking is like, well, I believe this thing,
+[15:41] but I haven't found my people yet.
+[15:43] Like, is that delusion?
+[15:44] You know, what, is that actually maybe even a gate
+[15:47] that you would propose people have?
+[15:48] It's like, well, you need to find, you know,
+[15:51] five people who might believe that
+[15:52] or even one like a co-founder, you know,
+[15:55] people that maybe that's one of the explanations
+[15:57] for why we like co-founders at YC so much.
+[16:00] Yeah, I think if you can't find anybody else
+[16:02] that shares your belief, you should pay attention to that.
+[16:08] And it's also very hard to do a startup on your own
+[16:11] and very lonely, but I don't think you need
+[16:13] to find a lot of people.
+[16:14] And in fact, if everybody believes it,
+[16:17] that's also like a bad sign.
+[16:20] The question, I don't know if this is still,
+[16:23] what feels like the limiter on more startups,
+[16:25] but five or 10 years ago, what felt like
+[16:28] was limiting the number of good startups YC could fund
+[16:32] is figuring out how to solve the co-founder mashing problem.
+[16:35] Like a lot of really talented people
+[16:37] and they just couldn't find their tribe,
+[16:38] they couldn't find their people.
+[16:42] You know, it used to be very heretical
+[16:44] that YC told people they had to move to San Francisco.
+[16:47] And looking back, it was clearly right.
+[16:49] I think, I don't know if this is still gonna be true
+[16:51] for the next 10 years, I suspect it will be.
+[16:53] But the best thing you could do
+[16:55] if you wanted to like find your people
+[16:56] to do a startup with was to move to the Bay Area.
+[16:59] You just like, magic happened,
+[17:01] you got a lot of like lucky chances and collisions.
+[17:04] I still think that's probably good advice,
+[17:06] although I feel like I have less of an intuition for it now.
+[17:09] I also think that I can say this Gary probably can't.
+[17:16] I think the premium on doing YC is bigger now
+[17:20] than it's like ever been before.
+[17:22] The distance between like YC and second place is expanded.
+[17:27] And this is a reminder of the power of network effects.
+[17:29] And so finding networks that you can be part of
+[17:33] that help you just meet those people.
+[17:35] Like the people that I started OpenAI with,
+[17:39] I met like many, many years in some cases
+[17:43] before starting OpenAI and I kind of like got to know them
+[17:47] over the long, like a very long career journey.
+[17:51] And this happens again and again.
+[17:53] And so the sooner you can put yourself
+[17:55] just in a flow where you're gonna meet the people
+[17:56] that will be your eventual co-founders
+[17:58] for this startup or the next one or whatever,
+[18:00] I think the better.
+[18:02] It takes a long time to compound.
+[18:04] I guess I'm keying off what you just said,
+[18:06] which is like, you know, some of the people
+[18:07] you ended up starting, you know, all these different things
+[18:10] with you didn't necessarily know what that was for
+[18:14] or that it would be useful in a, you know,
+[18:17] sort of network setting at all.
+[18:18] Like you just collected cool, interesting people.
+[18:21] I mean, I think you do this.
+[18:23] I think Peter Keel does this really, really well.
+[18:25] What would you say to a room full of people
+[18:27] who are just starting out and like figuring out
+[18:30] who their people are?
+[18:32] Just like the highest confidence piece of advice here
+[18:36] is just like find a way to be like
+[18:37] mildly helpful to a lot of people.
+[18:40] It's like fun to do.
+[18:41] You'll see a lot of interesting stuff.
+[18:44] It's like kind of gratifying to be helpful.
+[18:46] But, you know, even that example you were just talking about,
+[18:48] I met Greg Brockman, my co-founder, OpenAI,
+[18:52] because I was a very early investor in Stripe
+[18:55] when I was like 22 or something.
+[18:57] And they were like, this was before they had, you know,
+[19:01] like real investors that could really help them.
+[19:03] And they said, you know, we're trying to close our first hire.
+[19:06] Will you like drive down the Palo Alto tonight
+[19:08] and have dinner with this guy to convince him
+[19:10] he should like drop out of school and join Stripe,
+[19:12] which is Greg Brockman.
+[19:14] And then like eight years later,
+[19:15] we started a company together.
+[19:17] So, and I could like, you know, you could too.
+[19:20] We could like spend the rest of this time
+[19:22] just telling stories like that that was totally unpredicted
+[19:25] but ended up being important in big ways.
+[19:27] So I have, yeah, it's fun to do.
+[19:31] And I think you should do it for its own reason
+[19:33] or it's like its own sake,
+[19:35] but just like helping people a lot
+[19:38] really goes a long way
+[19:39] in terms of these things coming together later.
+[19:41] I mean, I think that's actually a really important message.
+[19:43] You know, one of the things,
+[19:44] one of the memes right now is I see it on X
+[19:47] is live action role play.
+[19:50] That's like one of the things that people have been saying on X.
+[19:53] I mean, I can't tell why they're doing it
+[19:55] because it just seems wrong to me.
+[19:57] Like, I mean, one of the things that we really love
+[20:01] at YC, for instance, is earnestness
+[20:03] and also words matter.
+[20:04] So, you know, this idea that what we're trying to do
+[20:07] is a live action role play is like kind of deeply offensive
+[20:10] to me actually.
+[20:10] It's very, sorry guys, please don't do that.
+[20:15] They say that about YC specifically.
+[20:17] No, the people just attendees in this room
+[20:19] have been tweeting that and we'd like them to stop.
+[20:24] What do they claim, what's the claim block?
+[20:26] I think it's just being a little sarcastic about
+[20:29] and you know, it's sarcasm is sort of the opposite
+[20:31] of what I think you and I like is it's like,
+[20:33] we like earnestness, it's like,
+[20:34] we're actually trying to do a thing here.
+[20:36] I'll tell you another thing.
+[20:40] Can I go on a little rant please?
+[20:41] Okay.
+[20:43] Rant away.
+[20:44] Get, one of the annoying thing,
+[20:46] I can say these things for Gary
+[20:48] because he can't say them right now,
+[20:49] but he'll say them for the next guy.
+[20:52] One of the many annoying things about running YC
+[20:55] is you just have to deal with these haters on Twitter,
+[20:57] all of the fucking time.
+[20:59] It's so frustrating.
+[21:01] You have to sit there and be like a statesman.
+[21:03] Well, you're better at it.
+[21:04] I kind of like took the bait a lot.
+[21:06] And you just want to argue with them.
+[21:08] And the thing that I realized eventually
+[21:13] and take from this, whatever you want
+[21:15] is it is very hard to run YC or run a startup
+[21:21] or create like an actual thing of value in the world.
+[21:25] It is very easy to go take shots on Twitter
+[21:30] and make a sarcastic comment and get a lot of likes
+[21:33] and feel like you're doing something really important
+[21:35] and sticking it to the man and being like,
+[21:36] Gary, ha, ha, I got you, you idiot.
+[21:41] And it will poison your soul.
+[21:43] It is a morally bankrupt thing to do.
+[21:46] It is, and it's like bad in a very insidious way.
+[21:50] Like I totally get blowing off steam and having fun,
+[21:53] but don't like hold yourself to a higher bar than this.
+[21:58] It's so easy to take shots at people
+[22:02] that are trying to do hard things
+[22:03] and trying to build companies.
+[22:05] And you'll see some like, you know,
+[22:07] kid with a bad startup idea,
+[22:09] trying to get excited about what he's doing on Twitter.
+[22:11] It's so easy to like make a sarcastic comment
+[22:14] and get the 10,000 likes and feel like,
+[22:16] man, I really like, I scored my internet points today.
+[22:21] But it'll have an effect on you.
+[22:23] And the, when I like reflected on the years
+[22:26] of like Twitter trolls that said mean things
+[22:28] about YC and startup, I was running YC.
+[22:31] I was like, I bet there were like a lot of days
+[22:33] where they really felt like they got me.
+[22:35] And like over the decade, none of them did.
+[22:38] And you should like put all of your energy into building stuff
+[22:42] and like resist the easy shots.
+[22:44] I mean, I really like this as a con day, seriously.
+[22:55] I mean, I like this as a contrast to the story you just told
+[22:59] about helping Patrick with Greg Brockman.
+[23:02] I mean, you know, it helped like there are people
+[23:05] in this room who are going to be lifelong friends
+[23:08] and they're going to do that for one another.
+[23:09] And then sort of these magical connections happen like,
+[23:12] you know, this already is the most rarefied set of people.
+[23:16] And then when you join YC, it's like even more rarefied.
+[23:19] And then there's just a set of people out there
+[23:21] who like they're ambitious.
+[23:24] Yeah, someone in this like someone in this room
+[23:27] is going to meet someone else that you're going to start
+[23:28] a company with and somebody you'll meet somebody
+[23:30] that'll introduce your spouse.
+[23:31] Like they're all of these things will happen.
+[23:33] And then there will be a bunch of non-obvious things
+[23:35] that take a decade or two to figure out in some way,
+[23:39] you know, one of you will help each other now
+[23:41] which will turn into some amazing new thing.
+[23:45] I think this is a huge part of what has made YC work
+[23:47] in the broader startup ecosystem.
+[23:50] I think this is like for all of the negatives
+[23:53] of the culture of the Bay Area.
+[23:54] This is the kind of like loose network
+[23:57] and the spirit of helping each other.
+[23:58] And it's like very long-term outlook has been
+[24:00] an awesome thing.
+[24:01] Yeah.
+[24:02] Well, let's get back to the impending AGI.
+[24:05] Okay.
+[24:08] I guess you had a, I mean, we've all had an eventful week
+[24:12] with the hugging face.
+[24:14] Yeah.
+[24:15] I wonder what you can tell us about that.
+[24:16] And I think that's actually a really big moment
+[24:18] for people including me who, you know,
+[24:22] in the past I've been known to be skeptical
+[24:24] about safety and AI.
+[24:26] But on the other hand, like this is a real moment,
+[24:28] like we're entering a new moment
+[24:30] in what's happening with these frontier models.
+[24:33] Yeah.
+[24:33] This is the real deal.
+[24:35] And I think anybody who's not taking it seriously
+[24:39] and at least a little bit scared or humbled
+[24:44] wore a lot of those things,
+[24:45] but at least a little bit is not taking this seriously enough.
+[24:55] You know, for a long time,
+[24:56] the field has been talking about AI safety incidents
+[25:00] of this kind of a shape.
+[25:02] And this is not a big one.
+[25:03] I also don't want to over blow it and say,
+[25:05] this is like real loss of control incident.
+[25:07] And this is the, this is the thing.
+[25:08] But if you had asked most people when we started 10 years ago,
+[25:13] like where on the spectrum of nothing to super intelligence,
+[25:18] do you have like an AI system breaking out of its sandbox
+[25:23] and hacking into some other company
+[25:24] and kind of, you know, doing what this happened?
+[25:27] I think like people would have said pretty far
+[25:30] towards the like super intelligence point.
+[25:32] Now the goal post have moved and it's easy to say,
+[25:35] well, you know, here's how this happened
+[25:38] and here are the mistakes that open AI made
+[25:40] and we did make some big ones, of course,
+[25:42] but these systems have gotten incredibly capable.
+[25:47] So I think it's an alignment failure.
+[25:48] I think it's a security failure.
+[25:50] I think it's like a very serious thing,
+[25:52] even though it's, you know,
+[25:54] not the biggest example of consequence.
+[26:01] And I think it's a real reminder of the stakes
+[26:03] of what's happening and that loss of control accidents
+[26:07] are not entirely theoretical things.
+[26:11] I think we will learn, we, the whole field that we open
+[26:13] and I will learn a lot from this one
+[26:15] and be able to address it.
+[26:17] But, you know, the things that I,
+[26:23] there are all of the things about like cyber safety
+[26:25] and biosafety, but this other category of things
+[26:29] that have been maybe just outside the public's
+[26:31] over the window of it's really important.
+[26:33] We don't have a loss of control accident with AI.
+[26:36] It's really important.
+[26:36] We don't have power be too concentrated
+[26:39] in a small number of models or companies,
+[26:40] but diffuse throughout the economy
+[26:42] so people can defend themselves.
+[26:43] Like, you know, it's really important
+[26:46] that people, human values are guiding
+[26:49] these systems every step of the way.
+[26:53] Yeah, I think we're like in the real deal phase of this.
+[26:56] I mean, I really like how you've been thinking about
+[26:58] both concentration but also thinking of opening AI
+[27:01] as a utility, which is actually a really important message
+[27:05] because not everyone out there is saying that message.
+[27:08] Like, you know, there's, yeah,
+[27:10] there's a lot to be worried about
+[27:12] in terms of concentration power.
+[27:14] I think concentration of power has basically been bad
+[27:18] in every moment of human history, to varying degrees,
+[27:22] of course, but I have a real spirit
+[27:24] and I think this is part of the startup spirit
+[27:27] of thinking that the world, the economy, society is
+[27:31] the best off when power is very widely distributed
+[27:34] and when anybody with a great idea can start a company
+[27:38] or make a great art project or, you know,
+[27:41] run for office or do whatever they want.
+[27:44] And I can totally imagine worlds
+[27:46] where AI leads to the greatest distribution
+[27:49] of power we've ever seen.
+[27:50] And I can also imagine worlds
+[27:52] where AI concentrates power to a degree we have never seen.
+[27:57] And one company or person or model
+[28:01] having more power than everybody
+[28:03] or everything else on earth put together,
+[28:05] whatever the sci-fi stories have said, I think that's terrible
+[28:08] and would really, you know,
+[28:10] maybe we would get some short-term safety benefit from that,
+[28:13] but long-term disaster.
+[28:15] I don't think any of us should want to be locked in
+[28:17] to one AI's or one person's or one company's moral worldview.
+[28:23] I think startups have a very important role to play here.
+[28:26] You know, one way that that happens
+[28:28] is too much economic concentration in one company
+[28:32] or one AI model.
+[28:33] And I think startups because of the things we talked about
+[28:37] earlier will be naturally very well suited
+[28:39] to make sure that this is widely distributed.
+[28:44] But we want to enable as many startups,
+[28:45] as many companies, many people as possible.
+[28:47] And that means that we have to, you know,
+[28:50] be fairly quite reserved about not imposing our world view
+[28:55] about what we think people should or shouldn't do with AI
+[28:57] or even what we think the good ideas are,
+[28:59] while still making sure that we can ensure enough
+[29:02] of a safety bar, that stuff like the hugging face incident
+[29:04] is not happening.
+[29:06] One of the things is, you know,
+[29:08] this is a room full of people who will do really amazing things.
+[29:12] They're often right at the beginning of their career
+[29:15] and they might look at AI safety or concentration in power
+[29:18] and say, well, you know, I can't really do it.
+[29:20] That must be something labs have to do.
+[29:21] Like, you know, there is something that can do, though.
+[29:26] I mean, you can help on the concentration of power issues
+[29:31] simply by starting a successful startup.
+[29:34] That's the only thing you do.
+[29:35] And the economy keeps working in the kind of magic
+[29:37] of capitalism and having this ecosystem
+[29:42] that works together, continuing,
+[29:45] that alone would be a huge contribution.
+[29:46] But look, I think it's very natural
+[29:50] at the beginning of the career to doubt yourself
+[29:52] and not assume you can go do an amazing thing.
+[29:56] I certainly went through that.
+[29:57] I'm sure you went through that.
+[29:58] You kind of learn as you go on, you can do more and more.
+[30:02] There will be far more, like, I think it is both true
+[30:05] that, you know, maybe creating super intelligence
+[30:10] will be the most important thing yet to happen
+[30:12] in the history of business or human society
+[30:15] and also that it will pale in comparison
+[30:17] to some new startup, something that hopefully
+[30:19] one of you will do.
+[30:21] And so this whole trap of like,
+[30:23] this is the end of history.
+[30:25] This is the end of the economy, like clearly wrong.
+[30:28] And I think the right approach is
+[30:30] you can now do three months of work in 17 minutes,
+[30:33] but you better just go do three months of work
+[30:35] in three months of work with whatever the new bar for that is.
+[30:39] I guess I would be remiss in asking, you know,
+[30:42] what alpha leak can you give us about,
+[30:44] what's the latest about, you know,
+[30:47] how much more awesome are the models going to be?
+[30:50] To the extent you can say.
+[30:52] I think it will feel like the next six months
+[30:55] is like maybe equivalent to the last two years
+[30:58] of model progress, something like that.
+[31:00] So I think we'll go through like a very steep,
+[31:03] we'll go through like a very steep period,
+[31:06] which again, never a better time to do a startup
+[31:08] than right now.
+[31:09] I hope we can say that again every year from now on,
+[31:12] but it's certainly true about this
+[31:13] to any moment in history.
+[31:16] Let's see.
+[31:17] If someone here has an idea that feels too ambitious,
+[31:19] what would you tell them?
+[31:22] I would love to hear that pitch.
+[31:23] Yeah.
+[31:24] I'd probably be very interested in that.
+[31:25] Yeah.
+[31:27] Yeah, it sounds like it would,
+[31:29] it would take a similar shape to creating opening eye
+[31:33] and that like, do you need to be ready
+[31:37] for people to attack you or dismiss you?
+[31:43] Definitely.
+[31:44] I mean, if you do anything that matters in the world,
+[31:47] you will have a lot of people call you an idiot
+[31:51] or just dismiss you the more you do,
+[31:54] the better you do, the more they'll attack you,
+[31:57] the more you kind of like,
+[31:59] threaten the existing state of the world,
+[32:02] it will just continue to escalate.
+[32:08] One thing that I've noticed about many of the best ideas
+[32:12] is the vision is clear,
+[32:14] like we wanted to build AGI,
+[32:16] but the first steps were super unclear.
+[32:20] Like, we didn't know that we were gonna be a product company.
+[32:23] We started this nonprofit research lab for many reasons,
+[32:26] but one of which was,
+[32:27] it really didn't occur to us
+[32:29] that we were gonna make a product
+[32:31] that people would be able to pay for.
+[32:33] Like, this was years till we came up with the idea
+[32:35] of touch EPT, the API.
+[32:38] And so, I think if the kind of like,
+[32:42] highest level vision is clear,
+[32:45] but the first few steps are very unclear,
+[32:48] that's not a bad thing,
+[32:49] that often happens with like very ambitious ideas.
+[32:52] And I wouldn't let that cause you to lean out.
+[32:56] Now, you do still have to take some steps forward,
+[32:58] imperfect, though they may be,
+[32:59] and ours were certainly very imperfect.
+[33:01] So, there's like another failure case
+[33:02] where you have this like brilliant big idea,
+[33:04] and you can kind of never make any forward progress.
+[33:07] At some point, you've got to just like,
+[33:09] get some new data points.
+[33:10] Yeah.
+[33:11] What do you think is gonna happen to inference?
+[33:13] I really like Roon's tweet about this.
+[33:15] Like, you either die a model company
+[33:19] or live long enough to sell inference,
+[33:22] which is a very funny Roon tweet.
+[33:25] I think what he meant with that tweet
+[33:27] is like, if you end up falling off
+[33:31] of the sort of model frontier,
+[33:33] you can at least sell the inference.
+[33:34] Like, with a lot of other...
+[33:35] Not even the inference.
+[33:36] It's a training computer.
+[33:37] Like, compute is so valuable
+[33:39] that if you buy a lot of compute as an AI lab,
+[33:43] you've been okay by the fact
+[33:44] that you can resell it to somebody else.
+[33:46] But separately, I would guess that worldwide demand
+[33:52] for inference sign and kind of subjectively
+[33:54] grows 10X a year for the next many years.
+[33:57] I mean, it might be, I don't know,
+[33:58] by our accounts internal to YC,
+[34:00] it's like might be 90,000 X.
+[34:02] I mean, it's gonna be one of the wildest.
+[34:05] The world can support that many years of 1,000 X in a row.
+[34:08] Fair enough.
+[34:09] But we'll try our best.
+[34:09] We'll figure something out.
+[34:11] I mean, the capacity, I guess it's a function
+[34:14] of how much bigger your ambitions are for intelligence
+[34:17] and how, you know, if you do a lot more,
+[34:21] I think we will sort of never be out
+[34:23] of the compute shortage.
+[34:26] I've never seen any commodity quite like this one,
+[34:28] but it seems to me like the demand
+[34:31] for sufficiently high quality intelligence
+[34:34] at a sufficiently low price is effectively uncapped.
+[34:38] The demand for electricity certainly goes up
+[34:40] as the price goes down.
+[34:42] But at some point, like,
+[34:44] it gets harder to figure out incremental things
+[34:46] to do with electricity,
+[34:48] at least historically it has.
+[34:50] But, you know, there's a lot of things to do
+[34:52] with incremental intelligence.
+[34:53] You can just keep having stuff be better for you.
+[34:55] It reminds me of some of those quotes
+[34:58] from the early computing revolution.
+[35:00] When people would say like, you know,
+[35:01] no one needs more than 640K of RAM or whatever
+[35:04] in their computer, it turns out you do.
+[35:06] We just keep thinking of like more and better stuff.
+[35:09] And I think that's gonna happen with AI
+[35:11] and actually maybe a statistic here
+[35:16] that I really like six and a half years ago,
+[35:18] the world token leader was an open AI employee
+[35:21] using about 100,000 tokens a month.
+[35:24] And this seemed ludicrous at the time.
+[35:27] The worldwide average per capita is like zero.
+[35:31] Now, the worldwide average of tokens per month,
+[35:34] which I think tokens are the dumbest metric
+[35:36] but it's what we have, it's like 100,000.
+[35:39] And the token leader at open AI
+[35:41] uses something in the hundreds of billions.
+[35:45] If that happens again, which I think it probably will,
+[35:49] then in another six and a half years,
+[35:51] the average person uses let's say 500 billion tokens a month
+[35:55] and the token leader uses a quadrillion,
+[35:57] or quadrillion of tokens a month.
+[36:00] And I think that will just become the expectation.
+[36:04] So all of these things happen.
+[36:05] They come to pass, it's 10 years from now.
+[36:09] What's the best version of that 10 years from now
+[36:13] with intelligence fully on tap, super intelligence here.
+[36:18] And we figure it out, we make it, you know,
+[36:20] the society makes it.
+[36:22] I kind of think if every year,
+[36:27] people have more freedom and agency
+[36:30] to spend more of their time doing the stuff they wanna do,
+[36:33] and they feel like the quality of life
+[36:35] and the quality of their time is going up year after year,
+[36:38] will probably be mostly okay.
+[36:40] We will have avoided like a crazy concentration of power
+[36:43] or an economic collapse.
+[36:44] We'll have necessarily avoided a huge safety incident.
+[36:48] We'll have avoided like too much change
+[36:50] in any one time unit.
+[36:54] And you know, there's like one dystopia
+[36:58] that I'm particularly nervous about 10 years from now
+[37:00] is we overreact to AI safety.
+[37:03] And so we say, look, everyone,
+[37:05] you're gonna get a cure for cancer.
+[37:07] You're gonna have material abundance,
+[37:08] but you will have no freedom.
+[37:09] You will have no agency.
+[37:10] It will be a perfect surveillance state.
+[37:12] There will be no privacy.
+[37:13] And that's what it, you're gonna get,
+[37:17] you're gonna get great comfort,
+[37:18] but there will be nothing left in the world for you
+[37:22] to really do, nothing that really matters.
+[37:23] You'll just kind of live at the service
+[37:27] of the AI giving you material wealth.
+[37:30] I'd really like to avoid that.
+[37:32] And I think it's easy to accept temporary trade-offs.
+[37:35] So if we say every year, freedom and agency
+[37:37] has gotta go up.
+[37:38] People have gotta be more in control of their time
+[37:40] and do more of the stuff they want.
+[37:42] And more long-term fulfillment,
+[37:43] I think that'd be very good.
+[37:45] Let me put you back into sophomore year of Stanford.
+[37:51] You're coming to YC.
+[37:53] If you could give yourself like a message in a bottle
+[37:58] to that Sam Altman, what would you say to him right now?
+[38:06] I'm just, it's all gonna work out.
+[38:07] Like it was, you know, it feels like such a crazy,
+[38:11] it is a crazy and it's a very stressful thing
+[38:13] to do a startup.
+[38:15] And, you know, my first startup like didn't work out great.
+[38:18] And it was like a sort of difficult time in my life.
+[38:21] But it, one of the things,
+[38:25] I think there's many people say this
+[38:26] as they like look back on the early part of their career,
+[38:29] you can make a lot of mistakes, you can fail at stuff.
+[38:32] Like the tech industry in particular
+[38:34] is very forgiving of this.
+[38:36] And I would have just like,
+[38:39] I wish I could have like told myself
+[38:40] like have all the drive and the ambition
+[38:41] but just like be a little happier along the way
+[38:43] and trust that like eventually it was gonna be okay.
+[38:46] Cause it feels so difficult
+[38:48] and scary and painful in the moment.
+[38:50] Well, I can't think of a better way
+[38:52] to end startup school, 2026, Sam Altman.
+[38:54] Thank you all so much.
+[38:56] Thanks.
