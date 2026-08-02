@@ -1,0 +1,1714 @@
+The a16z Show
+How Enterprise AI Really Gets Deployed
+Fri, 31 Jul 2026
+https://a16z.simplecast.com/episodes/decagons-playbook-for-building-enterprise-ai-applications-VB3G3VC1
+
+[00:00] An AI agent should just be the front door of your business,
+[00:02] and every interaction, whether it's like reactive
+[00:05] or proactive with a customer, should be handled by AI.
+[00:07] This narrative dominated the first half of 2026,
+[00:11] which is that anthropic, open AI.
+[00:13] They're the last startups.
+[00:14] They're gonna take over everything.
+[00:16] Even once you have AGI, agents are going to need somewhere
+[00:19] to store work and pull information from
+[00:21] and reason about things.
+[00:23] I don't think software as a whole,
+[00:25] in any meaningful ways going away.
+[00:27] Unfortunately, the Frontier Labs,
+[00:29] they do have small models,
+[00:30] but you can't really control them in the way that you want.
+[00:32] So today, 90% of our workflow is on open source.
+[00:35] On the specific task we want them to do,
+[00:37] they actually outperform the large state of the art model.
+[00:42] The thing that we built was not an agent
+[00:44] that does customer support well,
+[00:46] but rather an agent that follows business process well.
+[00:49] Instead of us having to write these AOPs,
+[00:52] do I just does all of that?
+[00:53] Let's say like we hit AGI,
+[00:54] and the models can do all sorts of things
+[00:56] we can't even imagine today.
+[00:57] What's Decagon's moat?
+[00:59] I'm like, why does Decagon, like 10 years from now,
+[01:01] still have a right to exist?
+[01:03] The biggest breakthroughs in enterprise AI
+[01:06] aren't just happening inside foundation models,
+[01:08] they're happening in the products built around them.
+[01:11] In this episode, Sarah Wang and Kimberly Tan
+[01:14] sit down with Decagon co-founders
+[01:15] Jesse Zhang and Ashwin Srinivas
+[01:18] to discuss why they shifted most of their AI stack
+[01:20] to open source models.
+[01:22] How they think about deploying AI inside large enterprises
+[01:25] and why the future of enterprise software
+[01:28] will be shaped by AI agents, not just better models.
+[01:34] Hey guys, welcome back to the studio.
+[01:36] Thanks for having us.
+[01:37] Yeah, good to see you.
+[01:38] Thank you for being here.
+[01:39] Before we get into customer support,
+[01:41] I actually wanted to widen out a bit.
+[01:44] And Jesse, I'm gonna actually mention a piece
+[01:47] that you wrote recently that went pretty viral
+[01:49] because it's right in the middle
+[01:51] of the zeitgeist of conversation right now
+[01:53] on open source versus closed source models.
+[01:55] And then thinking machines, can be K3,
+[01:58] some very interesting open source models
+[02:00] came out sort of right after.
+[02:02] And there's this really interesting debate going on
+[02:04] around what does it mean to own your destiny
+[02:08] when it comes to AI, especially in the enterprise.
+[02:10] And what does that evolution look like by use case?
+[02:13] So actually, since that's a pretty live topic right now,
+[02:16] why don't we start there?
+[02:16] Yeah, sounds good.
+[02:17] So I'm gonna talk about our journey first,
+[02:19] just to make it very concrete for people.
+[02:20] So when we started the company,
+[02:22] the goal was just to get something working.
+[02:24] Of course, you're just gonna use the frontier models
+[02:27] because you wanna get something out there
+[02:29] and have actually deliver value.
+[02:31] And so we were using opening and anthropic at that time,
+[02:33] they were kind of like one up each other
+[02:35] in terms of how the models performed.
+[02:37] And then at some point, as we got to larger scale,
+[02:39] we started working with larger and larger companies
+[02:41] and they had millions of customers.
+[02:43] And then we all launched our voice agent, right?
+[02:45] So a big factor became latency.
+[02:48] So it wasn't just like you can deliver good responses.
+[02:50] You have to deliver them really fast.
+[02:53] And the only way to get latency down,
+[02:56] but also kind of make our agent operate
+[02:58] the way we want it to, is to use smaller models.
+[03:01] And when you wanna go to smaller models,
+[03:04] unfortunately, the frontier labs,
+[03:06] they do have small models,
+[03:07] but you can't really control them the way that you want.
+[03:09] And most small models out of the box are not gonna be good enough.
+[03:12] That's the task that we want them to do.
+[03:13] So you have to fine-toot them, you have to change them.
+[03:16] And so that's when we started looking at open source.
+[03:18] So this was about a year plus ago.
+[03:21] And it worked really well,
+[03:23] because if you think about it in the agent, right?
+[03:26] So in our agent's job is to have conversations.
+[03:28] So it needs to do a lot of things at once, right?
+[03:31] Like the first step I might do is,
+[03:33] what topic is this person talking about?
+[03:34] Or something else I might do is,
+[03:36] is this person a bad actor that's coming in
+[03:38] and trying to mess things up?
+[03:40] There's all these tasks it has to do.
+[03:42] Each individual task doesn't need
+[03:44] all of the intelligence of a big model.
+[03:46] So all the frontier models are obviously very smart,
+[03:48] but they can do a bunch of different things.
+[03:50] Like they can do math, they can do coding.
+[03:52] You just need them to be good at that one task.
+[03:54] And so that's why you can use a smaller model.
+[03:56] And if you fine-toot it to be really good at that task,
+[03:58] it can be just as good or better than the big models, right?
+[04:01] So that was step one for us.
+[04:02] About a year ago, we were like,
+[04:03] okay, let's start using these open source models.
+[04:05] If we took the small ones
+[04:06] and then that's why we have now a research team.
+[04:10] And it's a very expensive team, but we have it
+[04:13] because we need people that are really good
+[04:14] at taking these open source models and tuning them and so on.
+[04:16] So today, 90% of our workflow is on open source.
+[04:20] And again, the main reason was for latency
+[04:23] to really optimize our voice agents.
+[04:25] And I think just over the last year,
+[04:27] we've seen tremendous improvement in how it sounds,
+[04:29] how it feels, but still also keeping the accuracy high.
+[04:32] And then the remaining 10% of course,
+[04:34] we're still using the closed source models
+[04:35] and the frontier models for a lot of new projects
+[04:37] or new products.
+[04:40] And I think that's just where the industry is moving to.
+[04:42] So if you kind of want to generalize this,
+[04:44] every model, you can kind of evaluate along three dimensions.
+[04:48] It's costs, intelligence and latency.
+[04:52] And depending on what you need,
+[04:53] you want to kind of be at the limit of those three.
+[04:55] And sometimes you can trade off right.
+[04:56] So in our case, we knew that we could actually
+[04:59] pull back on the intelligence
+[05:00] because all I had to do was that one task,
+[05:02] but now we get these latency advantages.
+[05:04] I want to push a tiny bit on that point actually
+[05:07] because oftentimes when you see these debates
+[05:10] being had on Twitter, the trade off tends to be,
+[05:13] oh, do we want the smartest model that is very expensive
+[05:17] or can we dumb it down a little bit and get it cheaper?
+[05:21] I actually think that is a false trade off, right?
+[05:23] Because what we've seen in practice is
+[05:25] even if you have a quote, dumber model,
+[05:28] you can get it and we've seen this in practice.
+[05:30] You can get it to higher performance
+[05:33] on that specific task.
+[05:34] So when we fine tune smaller, dumber models,
+[05:38] it's that they're just not as general purpose,
+[05:41] but on the specific task we want them to do,
+[05:43] they actually outperform the large,
+[05:46] smart state of the art models.
+[05:48] So we end up getting all three things.
+[05:50] It is better at the task, it is cheaper and it is faster.
+[05:54] And so do you feel like today,
+[05:55] like you need the most frontier models
+[05:57] for really anything at Decagon
+[05:59] because your performance is very good already, so.
+[06:01] We do and we often end up needing them for auxiliary tasks,
+[06:05] right?
+[06:06] Where when you sort of have auxiliary models
+[06:08] to our sort of primary conversational flow,
+[06:11] that you have an agent and it's helping a customer
+[06:14] with their re-booking or it's helping them
+[06:17] with a process in healthcare,
+[06:19] then these are like well-defined parts.
+[06:22] So we have smart, fast models to do that,
+[06:24] but we've for instance recently launched Duo Autopilot, right?
+[06:28] Which is our agent that improves
+[06:30] the core conversational agent.
+[06:32] Now for something like autopilot,
+[06:34] it is doing a very complicated job, right?
+[06:36] It's saying I'm gonna go and review
+[06:38] a million conversations that just happen.
+[06:39] I'm gonna try and find trends.
+[06:41] I'm gonna create variants of the primary model
+[06:44] and see which of those variants does better.
+[06:46] So now this is a much more broad, open-ended exploratory task.
+[06:50] So we think four jobs like that,
+[06:52] frontier models that are very smart,
+[06:54] that can try out a lot of things, make a lot of sense.
+[06:57] Do you think that, I mean, you guys obviously,
+[06:59] and you referenced it,
+[07:01] Jesse, that you have a research team, right?
+[07:02] You guys launched Decagon Labs,
+[07:03] but even before the formal launch,
+[07:05] it's always been a part of your culture.
+[07:06] Do you think that enterprises will get there as well
+[07:09] on post-training open source models?
+[07:11] Oh, okay, what's the timeline?
+[07:13] Yeah, I think they'll get there,
+[07:14] but it'll probably take longer than people think,
+[07:16] because even with our team,
+[07:18] fine-tuning these models is non-trivial.
+[07:20] It's not just, oh, you can,
+[07:22] it's like, all right, we made decisions to use open source.
+[07:24] Let's just use open source.
+[07:25] Like you have to get the data,
+[07:26] and then more importantly, you have to like have good evals.
+[07:29] And if you think about our evals, right,
+[07:30] our evals are very specific to us.
+[07:32] You can't just like use some public eval set
+[07:34] and like that just does the job.
+[07:36] It's like we're testing it on our task,
+[07:38] and so we have to generate our own benchmarks and evals.
+[07:41] But I think the point is that at a certain point,
+[07:44] it's strictly better to use open source models
+[07:46] because when your use case is solidified
+[07:50] and your in production at scale,
+[07:51] and you're pretty sure this is the sort of shape of the agent,
+[07:54] then there's no reason not to use open source
+[07:56] because you get these latency benefits,
+[07:58] and at the same time, you get the cost benefits.
+[08:00] I mean, again, we didn't do these for cost benefits,
+[08:02] but that's a nice side effect, right?
+[08:03] And once you're there,
+[08:04] it's like why use frontier for that?
+[08:06] But for everything that's new and sort of experimental
+[08:09] or your last option was saying what,
+[08:11] or like kind of these products
+[08:12] where you really need the intelligence,
+[08:14] you're still gonna use frontier models.
+[08:16] And it's just so much easier to use frontier models.
+[08:18] Don't worry about the infra, use the APIs.
+[08:20] And I think that's why in enterprises right now,
+[08:23] even though there's a lot of hype for open source,
+[08:25] the sort of share of open source inference
+[08:27] is actually going down right now
+[08:29] because people are spending up all these new use cases
+[08:31] and if you're spending up new use cases,
+[08:32] of course, you can use up frontier models
+[08:34] until they're working.
+[08:36] Of those use cases, some might die off,
+[08:38] but like some might, like the enterprises are like,
+[08:40] okay, great, we wanna keep shipping this and we'll let it out.
+[08:42] Once it's at that point,
+[08:43] they're heavily incentivized to use open source.
+[08:45] It's way cheaper and faster.
+[08:47] At that point, maybe they can do it in house
+[08:49] or maybe they'll need help from people
+[08:50] to help them fine tune it,
+[08:52] but that'll eventually happen.
+[08:54] I just think it'll be kind of slow.
+[08:56] And even right now in our experience,
+[08:57] like enterprises have a lot of desire to move,
+[09:00] but they only do so many use cases at once.
+[09:02] There is inertia there
+[09:04] and you have to go through all the model risk governance
+[09:06] and all the security things.
+[09:07] And so I think it'll take time, but it will get there.
+[09:10] Yeah, the other reason I think it makes a lot of sense
+[09:12] for enterprises to kind of build their cool event of labs
+[09:16] is that the shape of these models is changing constantly.
+[09:21] We don't just build our set of open source models
+[09:24] and then it's done, we can move on to our next thing
+[09:27] and maybe we'll revisit this in two years.
+[09:29] You often need to train new models all the time
+[09:33] because as the frontier changes,
+[09:36] as the capability of the models changes,
+[09:39] you come up with new use cases for them.
+[09:41] You find new places where you're like,
+[09:43] oh, this task seems to be getting repeated a lot
+[09:46] because now I have this totally new frontier model
+[09:49] or open source model that now has this capability
+[09:51] that they didn't have before.
+[09:53] So we find ourselves constantly training new models
+[09:56] and deprecating old ones that are no longer relevant
+[09:58] because maybe the frontier has advanced a lot,
+[10:01] the open source frontier has advanced a lot
+[10:03] and the model out of the box can do a lot of things
+[10:05] that it couldn't do before.
+[10:06] So because the model landscape is changing so quickly,
+[10:09] Dakion Labs is in a way a model factory of source, right?
+[10:13] We really built it to compress the time
+[10:17] between new model coming out
+[10:19] and useful fine-tune to our task model
+[10:22] kind of popping out the other end.
+[10:24] Yeah, just because this happens all the time.
+[10:27] How do you guys think about what to in-house
+[10:30] from a talent perspective versus,
+[10:33] there's also a pretty broad ecosystem right now
+[10:36] that is, could be RL as a service,
+[10:39] EVALS, et cetera, like, how do you guys,
+[10:41] what's your framework for, hey, this is mission critical
+[10:44] and we need to do this best versus,
+[10:47] yes, it'd be great to outsource this.
+[10:51] In practice, we've seen that so many things
+[10:54] relevant to model training are so tightly coupled
+[10:57] to the use case that we have, right?
+[11:01] We find that we end up needing to build
+[11:02] a lot of tooling internally.
+[11:03] We do have open source models that we want to fine-tune.
+[11:08] We find that if we can clearly tailor our EVALS
+[11:13] to customer outcomes,
+[11:14] it's way better than just looking at,
+[11:16] like, loss curves over time, right?
+[11:18] We're not just saying, oh, can I do this one specific task?
+[11:21] We're measuring the entire system end-to-end.
+[11:23] We're not just saying, is this model good at this task?
+[11:25] We're saying, is this model working in concert
+[11:27] with all of these other models,
+[11:29] delivering the end customer outcome that we care about?
+[11:32] And because that is so unique to our setup,
+[11:35] we found that in practice,
+[11:36] we've needed to build a lot of the infrastructure
+[11:40] that we need to train these models and evaluate them.
+[11:42] Now, for other things like getting labeled data
+[11:45] and measuring the diversity of our data sets,
+[11:48] we're like, yep, these are tasks
+[11:49] that are common across possible companies,
+[11:51] in which case, we want to buy things from other vendors
+[11:54] because that'll just help us get those models
+[11:56] in production posture.
+[11:57] Ultimately, the only thing that we care about
+[11:59] is how can we get the best model to production
+[12:01] as quickly as we can?
+[12:02] And so it sounds like, you know,
+[12:03] there's a lot of talk right now about, like,
+[12:04] tokenomics and how expensive it is
+[12:06] to actually run a lot of these models.
+[12:08] Based on this conversation,
+[12:09] it doesn't sound like you guys spend that much time
+[12:12] actually thinking about the costs of these models.
+[12:15] Is that correct?
+[12:16] It's really about the performance for you.
+[12:17] Performance, latency and accuracy
+[12:22] is definitely the driving factor for most of this, right?
+[12:25] Cost is a nice benefit in that, you know,
+[12:28] surprisingly, this is one of the few, like, tasks
+[12:31] where you kind of get all the things for free, right?
+[12:33] Like, we don't actually have to trade off costs
+[12:36] and latency and performance.
+[12:37] And so just by optimizing for the drivers
+[12:40] actually latency and performance,
+[12:42] then we just get cost as a nice side benefit.
+[12:44] And do you think that's like something that's unique
+[12:46] to the way Decagon is run?
+[12:48] Or do you think there's something about,
+[12:49] like, this conversation about tokenomics
+[12:51] that for some reason just doesn't affect you guys
+[12:53] in the same way?
+[12:54] I think if you're a growth stage company,
+[12:56] then you're honestly like,
+[12:59] obviously we have to be responsible with our costs,
+[13:01] but that's not the highest priority, right?
+[13:03] The highest priority is just growing.
+[13:05] And when you're talking to a customer,
+[13:07] they don't really care what your costs are.
+[13:09] They just care about how well your agent performs.
+[13:12] So that's the main thing.
+[13:14] So actually, if you look at like our unit of output
+[13:17] of our agent, which is, in our case, a conversation,
+[13:20] that's really what our customers care about.
+[13:22] They don't really care about how much that conversation
+[13:24] costs to us or how many tokens are in it.
+[13:25] And actually over time, the number of tokens
+[13:27] we're using pro-conversation has gone up
+[13:29] because we're actually doing more model calls
+[13:32] to make the quality better, to do more checks,
+[13:34] to paralyze more things.
+[13:36] And that's just the stage we're in right now.
+[13:40] Like eventually, if we've won the market,
+[13:42] then that's when it's like, okay, yeah,
+[13:44] now it's time to look at our costs
+[13:45] and see if we can optimize further.
+[13:47] But it's just not the top priority.
+[13:50] I also think we as a company are at a different stage
+[13:54] than a lot of people that are talking about tokenomics
+[13:58] on X, right, because the tokenomic debate
+[14:01] really is around, hey, I'm on a frontier model today.
+[14:06] Should I, and how do I analyze my costs
+[14:08] and should I move to open source, right?
+[14:10] And there, I actually think it makes complete sense.
+[14:12] If we ran our entire business
+[14:15] exclusively on frontier models,
+[14:18] I would care a lot about costs,
+[14:20] and I would think a lot about that.
+[14:21] But once you've already made the jump to saying, okay,
+[14:25] now we know how to think about open source models,
+[14:27] we know how to decompose upon,
+[14:29] we know how to build, train,
+[14:31] and deploy these models very, very quickly.
+[14:33] All of a sudden, that the cost aspect
+[14:35] becomes a lot less pressing.
+[14:37] But if you're still in the world
+[14:38] where you're using frontier models for everything,
+[14:41] then I do think thinking about how it makes more sense.
+[14:44] I just want to make this meta observation
+[14:46] that a lot of the conversation,
+[14:47] even just now, has been about things like training models,
+[14:51] right, we're talking about reinforcement learning,
+[14:54] and it really does blow away.
+[14:56] What I think is a lingering misperception
+[15:00] about what an AI application is.
+[15:03] And just to get into that debate a little bit,
+[15:06] because I think it's sort of this narrative
+[15:08] that dominated the first half of 2026,
+[15:11] which is that anthropic open AI, they're the last startups.
+[15:15] They're gonna take over everything, applications.
+[15:17] They're thin UIs with implementation attached to it.
+[15:23] We talked a little bit about deck gun labs,
+[15:25] but can you guys just share what is your,
+[15:28] how do you think about this potentially false dichotomy
+[15:31] of app versus infrastructure company?
+[15:34] Clearly, you guys are so much more than the UI
+[15:37] or the implementation.
+[15:39] And does agent lab, popular description,
+[15:45] floating around the last couple of weeks,
+[15:46] like does that describe it?
+[15:47] Like how do you guys think of deck gun?
+[15:50] So I'll give a quick perspective,
+[15:51] just like from the POV of like an enterprise,
+[15:55] and then maybe we can talk about like broader the industry.
+[15:57] So let's say I'm like a Fortune 100 company, right?
+[16:00] And I'm looking out there on all my use cases,
+[16:03] and I have a choice of partnering with an application company
+[16:07] or sort of using the labs and building from scratch.
+[16:11] I think there is a lot of merit
+[16:12] to partnering with the labs in certain cases.
+[16:15] I think if you look at our case, right,
+[16:16] we just talked about all this fine-tuning stuff.
+[16:19] I think a common misconception that people have is fine-tuning
+[16:22] is a way to customize it for that customer.
+[16:25] In fact, most of the fine-tuning we do
+[16:27] is like customizing it for our use case,
+[16:30] like the customer service use case,
+[16:32] and it's worth it for us to do it
+[16:33] because that's all we do, right?
+[16:34] We do these agents across all of these different customers,
+[16:37] and so it is worth it for us to put in a ton of time
+[16:40] and research into like how to tune this one model
+[16:43] to be good at selecting customer service topics.
+[16:46] But if you're the enterprise,
+[16:48] is it really worth your valuable resources
+[16:51] to tune a model for these customer service behaviors?
+[16:54] Probably not.
+[16:55] So that's one reason why people partner with applications.
+[16:59] Another reason is, let's say I do put in the engineering effort
+[17:03] to build some agent myself using the frontier models.
+[17:07] And to my earlier point, I'm not fine-tuning for behavior,
+[17:11] but I'm sort of teaching the AI my own procedures.
+[17:14] And again, that doesn't happen through fine-tuning.
+[17:16] That happens in context because if you were to fine-tune on that,
+[17:19] you would have to reverse it every single time
+[17:21] you change your procedures, which doesn't make sense.
+[17:23] And so you kind of build out your logic
+[17:25] and you're building your business logic in.
+[17:27] Well, then you launch the agent,
+[17:28] and then the second day you look at your conversations
+[17:30] and you're like, oh, well, actually,
+[17:32] I need to change these three things.
+[17:34] And now it's more engineering effort to do that.
+[17:35] And it's like constantly engineering effort.
+[17:37] So I think people will partner with applications
+[17:39] when the use case calls for a broader platform,
+[17:43] where there's a lot of value in using the stuff
+[17:45] that we've fine-tuned and using the software stack
+[17:48] we've built on top of the models to capture business logic.
+[17:51] And that stuff has nothing to do with the models.
+[17:53] How the business logic gets captured by this AI?
+[17:57] How do you handle someone calling in
+[17:59] because their flight was canceled
+[18:01] and they need to re-book three people at once?
+[18:04] That is business logic that the AI needs to know
+[18:06] and you're encoding that,
+[18:08] but that has nothing to do with the models themselves.
+[18:09] And so that has to exist in the application there.
+[18:12] I think that's where applications will still shine
+[18:15] because you still need the application there
+[18:18] and it's not so much the models.
+[18:19] And the labs themselves will have more
+[18:22] application capabilities, but those will be fairly general.
+[18:25] Like there, you can maybe build general agents
+[18:28] that can do this thing or that thing,
+[18:29] but for a lot of these like core verticals like ours
+[18:32] or our thesis is that you're gonna need something
+[18:34] that's like very deep and has all the integrations,
+[18:37] has all the ability to capture business logic,
+[18:39] has the ability to run tests and experiments
+[18:42] and then review the conversations and run QA
+[18:44] and like have tooling for your compliance team
+[18:46] to monitor like what's happening.
+[18:48] So that's our thesis on it.
+[18:51] And so it's kind of, it's not black and white.
+[18:53] Like there will be some use cases where it does make sense
+[18:55] to use the frontier models,
+[18:56] but there will be these like core verticals
+[18:58] where going super deep makes sense.
+[19:00] Yeah.
+[19:01] I also think everyone is kind of bleeding
+[19:04] into everybody else's space a little bit, right?
+[19:06] That's a convergence.
+[19:07] All the labs are building applications on top of it
+[19:11] because rightly so they're saying,
+[19:14] this is how the enterprise is built up some more, right?
+[19:17] And this is how the enterprises see ROI
+[19:19] from using our products.
+[19:21] Us on the application layer,
+[19:22] we're realizing that we can squeeze out
+[19:25] a lot more performance and latency and cost
+[19:28] for the use cases that we care about
+[19:30] by building our own models, right?
+[19:32] And I think this split,
+[19:35] this kind of bleed over makes sense.
+[19:37] And I think it'll continue.
+[19:40] I'm not as bought into the,
+[19:42] the labs are less startup view of the world though.
+[19:45] And I think this is true both for SaaS companies
+[19:48] and for the new AI startups.
+[19:49] Because in a way we, human beings are kind of AGI, right?
+[19:53] And human beings have needed to use software
+[19:55] for lots of things.
+[19:56] You know, you need databases to put stuff in.
+[19:59] You need CRMs to track things.
+[20:01] And I think even once you have AGI,
+[20:04] all our AGI agents are going to need somewhere
+[20:07] to store work and pull information from
+[20:10] and reason about things.
+[20:11] So I think, you know, a certain class of SaaS companies
+[20:15] that were solely built for people to do work
+[20:17] might face a bit of heat.
+[20:19] But I don't think software as a whole
+[20:22] in any meaningful ways going away.
+[20:24] And I still think, you know, on the application layer,
+[20:27] there's so many different kinds of work
+[20:30] that need to be done that can be done
+[20:33] faster, more efficiently, more cheaply.
+[20:36] So I think there will always be a space
+[20:39] for application layer companies.
+[20:40] Maybe in the long term application layer companies
+[20:42] just become labs for specific verticals,
+[20:45] you know, because your primary product ends up being
+[20:47] the models that are just really good
+[20:49] at doing those specific tasks.
+[20:50] But I think the application layer is probably here to stay.
+[20:54] I also want to kind of pick on another thing
+[20:55] that you kind of said in passing.
+[20:57] Yeah, please.
+[20:58] And maybe this is like a spicier take of,
+[21:02] oh, our application layer companies just for deployed
+[21:05] companies that are kind of doing the last mile of work.
+[21:07] Yes, right.
+[21:08] Well, I was saying that's a misperception,
+[21:10] but I think it is a common one.
+[21:11] Yeah, I think it's a really hot thing.
+[21:14] Also again, not to pick on tech Twitter to be like,
+[21:16] oh, like, you know, we need to bring back
+[21:18] the for deployed engineer and, you know,
+[21:20] every company is hiring tons of for deployed engineers.
+[21:23] I think this is a trap, actually.
+[21:26] Oh, say more, okay.
+[21:28] My view on this is that for deployed engineers are necessary,
+[21:34] are newly necessary for early stage AI companies
+[21:39] because the workflows are new, right?
+[21:41] If you're building a SaaS company five years ago,
+[21:45] most SaaS products are pretty well explored, right?
+[21:48] Like you roughly know what the user is trying to do,
+[21:51] and your job is maybe come with a slightly cleaner work post,
+[21:53] but broadly, you know what the user is trying to do
+[21:56] with a design app or a CRM or something like that
+[21:59] because those workflows have been explored.
+[22:01] With AI products, nobody knows what the workflows are
+[22:05] because nobody's used these things before.
+[22:07] So a forward deployed engineer in this case
+[22:09] is honestly just embedding with the customer
+[22:13] to learn the workflow for the first time
+[22:15] as the customer learns the workflow for the first time.
+[22:17] And they're kind of, you know, kind of paving the road,
+[22:21] like, you know, they're kind of laying out the track
+[22:23] as they see which way the train is going in a way.
+[22:26] But long-term, I think they should just be building product,
+[22:30] right? Like once you know what the workflow is,
+[22:33] you should not be relying on forward deployed engineers anymore
+[22:36] because once you know what the workflow is,
+[22:38] if you can productize it, you should productize it
+[22:40] and then become, you know, a typical company
+[22:42] with the scaling properties of a tech company.
+[22:45] And if you can't do that,
+[22:47] then you're just building a glorified consulting truck.
+[22:49] Well, I thought to dig into this more
+[22:51] because I know when we started working together,
+[22:52] probably almost exactly three years ago
+[22:54] when you guys landed on this idea,
+[22:55] there were two things that were relatively contrarian
+[22:58] that now feel kind of standard.
+[23:00] The first was when you started an AI customer service,
+[23:03] a lot of people were like, that's a GPT rapper
+[23:04] and we talked a lot about like why that's not the case.
+[23:07] And then the second thing you did was say,
+[23:08] like, hey, we actually want to do the work ourselves.
+[23:10] Like we don't want to just be a software platform.
+[23:12] And now we have the term for that.
+[23:13] That's like AI agents and everything.
+[23:15] And you've popularized agent PMs
+[23:17] and forwards deployed as a new type of role
+[23:20] or more common type of role in Silicon Valley.
+[23:22] But you're like agent PM slash forward deployed team
+[23:26] has actually evolved a lot since you first got started
+[23:28] to now and so we'll love to talk about that.
+[23:30] Like in the early days, what did it actually look like?
+[23:32] And then as you started to learn about these workflows
+[23:35] and we're able to productize them better,
+[23:37] how is that function actually evolved for you guys?
+[23:40] Yeah, if you look at a lot of our forward deployed teams,
+[23:45] they are building product in one way or another, right?
+[23:49] So all of our forward deployed engineers, for instance,
+[23:53] build core product, right?
+[23:54] Their job is to go in and understand
+[23:57] as we're working with an enterprise,
+[23:59] what are the things that they need
+[24:00] that the product does not do today?
+[24:02] But the output of that is not a one off thing
+[24:05] that is just built for that customer.
+[24:07] It is something that is contributed to core product
+[24:10] in a way that the next 10 customers
+[24:12] that ask about the same thing get it for free, right?
+[24:16] Similarly, our Asian PMs are working with our customers
+[24:19] to understand how is the product broken today?
+[24:24] How can this actually be deployable within an enterprise?
+[24:28] What are the new things that we need to build
+[24:30] to our core product to make it deployable
+[24:32] within an enterprise?
+[24:33] So at the end of the day,
+[24:35] all of this boils down into product improvements,
+[24:40] either through actual product improvements
+[24:41] or through honestly process improvements, right?
+[24:45] Like we work with very, very large enterprises
+[24:47] and we help them through the journey to go from,
+[24:51] okay, this is what your org looks like today.
+[24:53] Here is how we can take you through changing your processes,
+[24:57] through implementing new technology into this world
+[24:59] where, yeah, agents are doing a lot of work for you.
+[25:01] So a lot of their product work is also processizing
+[25:05] a lot of how we make that,
+[25:07] how we help accompany through that transition.
+[25:09] And also when you used to be a deployment strategist
+[25:11] at Palantir, so you're very familiar
+[25:13] with the Ford deployed model that Palantir popularized.
+[25:16] How different is that at what you did at Palantir
+[25:18] versus the way you conceptualize this role at Decagon?
+[25:21] So I do think people use the term FD very loosely
+[25:23] in Silicon Valley.
+[25:24] Yeah, and I think it's dangerous to mix the two
+[25:27] of free consulting work versus actually doing product.
+[25:31] You know, Sham, who's the CTF Palantir today
+[25:33] had a phrase internally.
+[25:36] I think now it's been written about a ton.
+[25:38] He would say,
+[25:39] Ford deployed engineers eat pain and extreme product.
+[25:43] Yeah, that was kind of the same.
+[25:47] Yeah, I think it's like a massive misconception
+[25:49] because people are like, oh, Palantir is such a hot company
+[25:51] and like they're doing so well.
+[25:52] Like this is like a cool take on how to implement stuff.
+[25:55] But first of all, very few companies,
+[25:59] if any can do what Palantir does,
+[26:01] which is like close massive deals off the bat
+[26:02] and like it's kind of worth it to spend all that effort.
+[26:05] So I think a lot of the, you know,
+[26:09] people that are doing this like super forward
+[26:11] deployed strategy and like, hey,
+[26:13] we'll do any AI use case for you.
+[26:15] They will eventually have to reckon with like, okay,
+[26:17] can we find a product that's scalable?
+[26:20] Otherwise you are just building like a modern like
+[26:24] Accenture or something, which yeah, it could be,
+[26:26] but it could be good if that's what you want to do.
+[26:28] But I think people kind of conflate the two.
+[26:30] It's like, hey, I'm building a hot like software company.
+[26:32] And you know, we also have FDEs and like,
+[26:34] that's our big strategy.
+[26:35] So that's something that we've generally been very mindful
+[26:37] about from the beginning is that we really view ourselves
+[26:40] in our core.
+[26:41] It's a product led company, right?
+[26:44] In the sense of, you know, we're building a core product
+[26:48] that everyone can use.
+[26:49] And we're not just here to,
+[26:51] even though we have a large team now,
+[26:52] just like build whatever use case that pops up
+[26:54] because, you know, ultimately everything has to go
+[26:56] into the core product.
+[26:57] Otherwise you can't scale.
+[27:01] At the same time, of course, you know,
+[27:02] I should say we also kind of sales led in the sense of like,
+[27:05] the product is informed by sales.
+[27:07] So we're not sitting there
+[27:08] and just coming up with product to build.
+[27:10] And so you kind of have this system where,
+[27:12] as Ashman was saying, we have all these people that are,
+[27:15] you know, forward deployed in the sense
+[27:16] that they work very closely with the customers.
+[27:18] Their job isn't just to spin up like,
+[27:20] random new use cases here and there
+[27:22] and like just doing whatever the customer wants.
+[27:24] Cause in the short term that it could actually eat
+[27:26] so like larger contracts and you can kind of hunt for
+[27:29] wherever the pain is, but then long term
+[27:31] is just very difficult to scale.
+[27:32] So their job is to kind of compile all those learnings
+[27:34] from sales into a core product.
+[27:37] And the goal at the end of the day is like,
+[27:39] we should have the best product out there
+[27:41] and like be able to iterate on that faster
+[27:42] than anyone else.
+[27:44] And that's in our space at least,
+[27:46] our vision of like, hey, the winner in this space
+[27:49] is going to be very product driven.
+[27:52] I actually want to pull on this thread of, you know,
+[27:54] that you talked about where your FDs are actually
+[27:56] approving the product, you know,
+[27:57] Deccon is a very product driven company.
+[28:00] So just to kick off with a very small,
+[28:03] seemingly unrelated anecdote,
+[28:04] but I was just trying to convince someone
+[28:08] on the broader team to not leave A16Z
+[28:11] for a Frontier Lab.
+[28:13] And one of my arguments was that
+[28:16] there was a good long-term career here.
+[28:18] And the response that this person gave me was,
+[28:22] we'll have AGI, we don't need careers in the long-term.
+[28:26] And it really hit me cause I thought I was AGI pilled
+[28:28] and I'd really not thought about from that perspective.
+[28:31] And I'm curious, you know,
+[28:33] we talked about the product improving, right?
+[28:36] Can you make that concrete for us?
+[28:38] Like, what are some of the oh shit moments
+[28:41] as you improve your product for your customer,
+[28:44] either from your end or your customer's end?
+[28:46] If you can share on like, oh my God,
+[28:48] I didn't realize, hey, I could do that.
+[28:50] And then of course I'm going to ask you
+[28:52] your thoughts on AGI and what that timeline looks like.
+[28:55] Cause you're in the nitty gritty trenches
+[28:57] and the enterprise is using AI.
+[28:58] So you may have a different perspective than we do.
+[29:01] The first thing I want to say is,
+[29:03] I'm like, certain there will be careers after AGI.
+[29:06] And the reason for that is, like most of our jobs.
+[29:10] Yeah.
+[29:12] We're sure are for jobs, we're kind of like made up to be different.
+[29:16] Most jobs are made, like, unless you're like
+[29:20] building infrastructure or like growing food or something.
+[29:23] It's like, like most jobs are kind of like layers
+[29:26] of abstraction built on top of like other stuff, right?
+[29:29] And that doesn't say like the jobs aren't valuable.
+[29:31] It's just they're kind of made up.
+[29:32] So when AGI is here, like it'll change people's jobs,
+[29:35] but people sell jobs cause you're still going to do things
+[29:38] for other humans and whatever.
+[29:40] So I don't really believe that careers will be gone after AGI.
+[29:43] I don't think people are just going to be sitting around.
+[29:44] I'll say one observation, which is like,
+[29:46] for me it was definitely duet.
+[29:48] So early days when we were building the product, right?
+[29:50] Like the core problem we're solving again,
+[29:52] being back to CLSLAD, we talked to a bunch of customers
+[29:55] and they're like, yeah, the value we want to get
+[29:57] out of what you're building for us is that
+[29:59] we can put in front of customers, they can have conversations
+[30:02] and it's giving them much better experience.
+[30:04] And also it's like way easier for us operationally, right?
+[30:07] It's like you're saving costs
+[30:08] and you're making customers happier.
+[30:10] So that's like the first agent that we built.
+[30:12] And that was like the core agent we worked on
+[30:15] for the first year or two years.
+[30:18] And the agent on our end, when we were building it
+[30:22] can sit just sit at a ton of stuff.
+[30:23] Like we would have to write these procedures
+[30:26] and we kind of create our own format of procedures.
+[30:29] We call them agent operating procedures
+[30:30] that teach the AI how to do things.
+[30:32] We have to write these tools that the procedures
+[30:34] can use to access systems and pull APIs and whatever.
+[30:38] And then after that we need to like create all these tests
+[30:40] to make sure that this thing is working well
+[30:42] and that you can kind of simulate
+[30:43] all these different situations.
+[30:45] And afterwards once they're in production
+[30:46] like we would manually be reading conversations, right?
+[30:48] There's like a ton of work that goes into it.
+[30:50] Even though the core product we're building
+[30:53] is itself an agent.
+[30:54] And so what we do at is it's kind of a separate agent.
+[30:57] It's like a second agent that's much bigger and much slower
+[31:00] but its job is to do all the tasks I just described.
+[31:03] So now instead of us having to write these AOPs
+[31:07] and write these integrations and tools into their systems
+[31:10] and write these tests and monitor the conversations
+[31:13] do I just does all of that, right?
+[31:14] So it's like a second agent
+[31:16] that is smarter than to do all of these things.
+[31:19] And it just feels very magical
+[31:22] because you can just literally tell it like,
+[31:24] hey, I have nothing built yet so far
+[31:26] but here's a bunch of transcripts I have
+[31:28] and here's some documentation.
+[31:29] Like you go figure out the best way
+[31:31] to like do all these procedures I want.
+[31:33] And it'll go do it.
+[31:35] And then of its own accord
+[31:36] it'll also write the tests and simulations
+[31:39] that go along with those.
+[31:40] And once you're done with that
+[31:42] and you actually put it in front of customers
+[31:43] it'll be the one that's monitoring all the conversations
+[31:45] and it'll flag things where things are going well
+[31:47] or poorly and it'll say like,
+[31:48] yeah, I read these 1,000 conversations
+[31:50] and actually there's this one topic
+[31:52] that we do really poorly on.
+[31:54] And I've noticed that
+[31:55] and I've also drafted these improvements for you.
+[31:57] So it's like, wow, it's like one agent
+[32:00] I can do all of that.
+[32:01] And so that's very magical
+[32:03] because well, first of all, it was not possible
+[32:05] when we first started the company.
+[32:06] It only became possible when all the reasoning models
+[32:09] got better and of course,
+[32:11] anthropic open AI are making these reasoning models
+[32:13] mostly for like the cloud codes of the world.
+[32:16] But they are also really good for like do it, for example.
+[32:20] And that was kind of like a moment where it's like,
+[32:23] oh, wow, like first of all,
+[32:25] you can just see the improvement over time of the models.
+[32:28] And two, it can do all these tasks
+[32:30] where it just would not be,
+[32:32] we would not expect an AI to be able to do all these tasks
+[32:35] at once, but it can and can do them very well.
+[32:38] And I think that's like a very visceral moment
+[32:42] of like, okay, well, the models are getting a lot better
+[32:44] and they're becoming like very generalized,
+[32:45] you know, like they can do all these things.
+[32:47] Like clearly the models were not trained
+[32:49] on like our specific task,
+[32:50] which is you're writing these procedures
+[32:52] and writing these tests, but they're still good at it.
+[32:55] And also to your other question of how,
+[32:58] you know, how did we come up with all this
+[33:01] and how did the product improve?
+[33:03] Every single thing that Jesse just talked about
+[33:05] was the result of four deployed people doing things
+[33:09] and not figuring out how to prioritize it, right?
+[33:11] So for instance, we realized that,
+[33:14] hey, when we go into a new customer,
+[33:15] we need to spend all this time writing up the AOPs manually.
+[33:19] And we're like, wow, this is quite a lot of time.
+[33:21] How do we productize this?
+[33:22] And we built that into Duet.
+[33:24] And then the second part,
+[33:25] which we called Duet Autopilot was once we built Duet,
+[33:28] you know, people were using Duet to write things up
+[33:31] and then we're like, oh, wow,
+[33:32] there's still a lot of time that goes into iterating
+[33:34] upon the Asian, right?
+[33:35] Once it goes live, like reviewing conversations,
+[33:37] figuring out how to improve it.
+[33:38] And we're like, wait, let's productize that
+[33:40] as Duet Autopilot.
+[33:41] In fact, AOPs themselves were a result
+[33:44] of this exact scenario because before AOPs,
+[33:48] you would have to write all these procedures in code.
+[33:51] And then we found that, oh,
+[33:52] it's taking a lot of forward deployed engineering work
+[33:54] to write all these things in code.
+[33:56] Wow, wouldn't it be so much easier and efficient?
+[33:58] If we could productize it by writing it in plain text, right?
+[34:01] So the way we think about like product improvements,
+[34:05] forward deployed engineering investment,
+[34:06] everything is built around what can we productize
+[34:10] from forward deployed work so that engineers
+[34:14] and any kind of customer facing resources on our team
+[34:18] don't need to be kind of as heavily involved.
+[34:22] Can I ask you a kind of a blunt question
+[34:24] on this line of thinking?
+[34:25] So I know we've already talked about like why open-end
+[34:27] and the topic won't be the last startups
+[34:29] and you've talked about like why there's room
+[34:31] to have like much more specific use cases
+[34:33] and specific companies.
+[34:34] But you know, you've also had like, oh shit moments
+[34:37] where you're like these labs are getting so much better
+[34:39] and the models are getting so much better.
+[34:42] And so long term let's say like we hit AGI
+[34:45] and the models can do all sorts of things
+[34:47] we can't even imagine today.
+[34:48] What's Decagon's moat at the end of the day after all of that
+[34:52] and like why does Decagon like 10 years from now
+[34:54] still have a right to exist?
+[34:55] I think in the short term actually,
+[34:58] it is the ability to work with enterprise resources.
+[35:02] And what I mean by this is that the capability
+[35:05] of models today is far greater
+[35:09] than they are being used for within the enterprise, right?
+[35:12] By which you can't just take a model and say
+[35:16] I'm just gonna give this model access
+[35:18] to everything within the enterprise
+[35:20] and I'll just figure everything out, right?
+[35:23] Like that's practically not how these things work.
+[35:25] So to make models like this deployable
+[35:28] within the enterprise, right?
+[35:29] Like let's assume that every model is like just perfect
+[35:32] and makes no mistakes.
+[35:33] But to make something like this deployable
+[35:35] within the enterprise, you need to say, okay,
+[35:37] I need a way to be able to tell the model
+[35:39] what it can and cannot do
+[35:40] and make sure that it cannot do anything
+[35:42] like how it's perfectly wrong.
+[35:43] Then I need a way to make sure that, you know,
+[35:45] hundreds of people within the enterprise can collaborate
+[35:48] to make sure that the agent is behaving as expected
+[35:51] in the use cases in which they're experts.
+[35:53] Then I need a way to be able to test this model
+[35:56] and make sure that it doesn't cross any like regulatory lines
+[35:59] that I have and test it, make sure it works well.
+[36:01] Then I need a way to, you know,
+[36:04] look over the millions of conversations
+[36:06] that happen for me to extract insights
+[36:08] for the rest of my teams, right?
+[36:09] So there's a lot of just infrastructure
+[36:12] and software that you need to build around these models
+[36:15] to make them deployable within an enterprise,
+[36:18] to make them work with all the legacy systems
+[36:21] that these companies have.
+[36:23] And so I think for the next few years,
+[36:26] that's probably going to be, you know,
+[36:29] the primary thing that these models need to be able to work.
+[36:33] Now, once that gets commoditized
+[36:34] because the agents can build that on the fly,
+[36:36] that I don't know, and we'll crash in three years from now.
+[36:39] By the way, I think just listening to you guys,
+[36:41] it's very clear that you guys deeply understand
+[36:45] how to sell AI to the enterprise.
+[36:47] And I don't just mean, you know, mid-market,
+[36:50] newly IPO companies,
+[36:52] I'm talking about some of the largest companies in the world.
+[36:54] And I think this is particularly interesting
+[36:56] because you both are very, very technical,
+[36:59] but also go to market animals.
+[37:02] So I want to talk a little bit about that.
+[37:04] But you know, it just feels like you've turned
+[37:06] what maybe started as feeling more like a David and Goliath,
+[37:11] with multiple Goliath's market dynamic
+[37:15] to really a two-horse race between you and Sierra.
+[37:18] So share a little bit more about
+[37:21] why some of the largest enterprises in the world
+[37:23] are buying from you guys.
+[37:24] And I think what's really remarkable to us
+[37:26] is people have studied application software
+[37:29] for over a decade.
+[37:31] The sales cycles are crazy fast.
+[37:33] I mean, I'm sure you guys with urgency
+[37:35] want them to be faster, but like,
+[37:37] usually you don't sell contracts that big
+[37:39] to enterprises that big, right?
+[37:40] That takes two years sometimes.
+[37:42] So maybe just share a little bit more on,
+[37:45] there's a long question, but like,
+[37:46] how did you grow that commercial?
+[37:48] Did you come with that into founding the business?
+[37:52] And what's resonating with these large companies
+[37:55] that enables you to get in and move so quickly?
+[37:57] Yeah, I mean, we have a lot of respect for Sierra
+[38:00] and also just, you know, other folks in the space,
+[38:01] you know, like the big platforms,
+[38:02] like they all,
+[38:04] like the platforms themselves move a bit slower,
+[38:06] but I think that we've met a lot of those teams.
+[38:08] They're very competent teams.
+[38:09] They're optimizing for a lot of different things at once.
+[38:12] Zechon versus Sierra, I mean,
+[38:13] our most recent customer, actually,
+[38:15] turned off of Sierra to come to Decagon.
+[38:17] And sort of the reasoning when we asked them was,
+[38:22] it kind of goes back to this like deployment model.
+[38:24] It's like, you know, when they worked with Sierra,
+[38:26] it was mostly FDs.
+[38:28] And it just felt like a black box
+[38:31] where, you know, the FDs were good,
+[38:32] but they had to go through the FDs for everything.
+[38:34] So to build new journeys or to even get like
+[38:37] a deeper understanding of what was happening
+[38:38] in the conversations.
+[38:40] And then over time, that kind of just
+[38:43] create a lot of drag on how quickly they could move, right?
+[38:45] So in the initial deployment, that was good.
+[38:47] But then over time, maybe the FDs were staffed
+[38:49] to other things and it just took them a while
+[38:52] to get insight into what was happening
+[38:55] and then build out new journeys, right?
+[38:56] So over the course of the year,
+[38:57] they maybe built out, I think they said three.
+[39:00] And so the reason they came to us is
+[39:02] because they had that frustration
+[39:04] and they wanted to kind of have a different model
+[39:06] where it was a lot more productized, right?
+[39:08] Back to us being like very product driven in our vision.
+[39:11] It's, they should have a core product
+[39:13] that even if we're there helping them,
+[39:14] even if we are forward deployed,
+[39:16] it is like an in service of helping them build a product
+[39:21] that they can use themselves and iterate really fast
+[39:24] and kind of have everything in their control, right?
+[39:27] So we like to call this like a glass box approach
+[39:29] instead of a black box.
+[39:31] And yeah, so within a, basically a month,
+[39:34] they spun up like seven new journeys.
+[39:35] Exactly. Wow.
+[39:36] Yeah, I'm mostly.
+[39:37] And it took in three a year to get three.
+[39:40] Yeah. Okay.
+[39:41] Interesting.
+[39:42] And so it's just kind of the speed of iteration.
+[39:44] Like some teams will really like this,
+[39:46] like, hey, we have control of it.
+[39:47] Our teams, especially our non-technical people
+[39:49] can come in and do things
+[39:50] and they understand what's happening
+[39:52] and in the conversations.
+[39:54] And maybe there's other teams out there
+[39:56] that actually do like the like,
+[39:57] hey, you guys do everything for us and that approach,
+[40:00] but that's kind of the difference in their approaches.
+[40:03] And that's why we've been,
+[40:05] I would say having a lot of success there.
+[40:07] And then zooming out, just selling to the enterprise.
+[40:10] Yeah, I mean, this is something that's,
+[40:12] you know, Ashwin and I have never sold to the enterprise
+[40:14] before and I think it just so happens
+[40:16] that both of us find sales exciting.
+[40:19] And the enterprise,
+[40:20] it was kind of a quick learning curve for us.
+[40:22] So I don't think, I think a lot of it
+[40:25] honestly came kind of naturally,
+[40:27] just because our space is so hot
+[40:29] and like generally in these conversations,
+[40:31] we're not really having to convince people
+[40:33] to like invest in this space.
+[40:34] It's like more of a, we're the right approach for you.
+[40:37] So like partner with us.
+[40:39] And yeah, with the enterprises,
+[40:41] it's really just about like navigating the orgs
+[40:43] and really having empathy for what they value
+[40:45] and what they're afraid of.
+[40:48] So yeah, I mean, we just back to being sales led, right?
+[40:52] Like we always from the beginning were like,
+[40:53] hey, we're going to be like extremely strong
+[40:56] on the good market side.
+[40:57] And that's going to inform the product,
+[40:58] even though we have this product driven philosophy,
+[41:00] like we don't want to just be dreaming up
+[41:02] random products to build.
+[41:05] So we always had that DNA.
+[41:06] And then in the early days,
+[41:07] we were just, yeah, pushing really hard.
+[41:09] And I think I also want to say I think we got kind of blessed
+[41:12] with a really strong early sales team.
+[41:15] And we have a lot of really talented people in that group.
+[41:18] And that helped us really get leverage
+[41:19] as we were talking to the big enterprise.
+[41:21] Some of whom cold applied to you guys in the early days,
+[41:24] I remember.
+[41:25] Yes, yeah, yeah, yeah, cold, cold applied.
+[41:29] So I think they were working in the space already
+[41:31] and they were seeing from afar
+[41:33] like what Decagon was starting to do.
+[41:35] Yeah, so some of them had like non-traditional sales
+[41:39] backgrounds, you know?
+[41:39] So they had non-traditional sales backgrounds
+[41:41] that come into sales.
+[41:42] The other profile we had a lot of in the early days
+[41:44] was like like Ivy League athletes, I guess.
+[41:47] And those profiles were kind of a good foundation
+[41:52] for the group.
+[41:53] And you know, we've had the scale that team really fast,
+[41:55] which is never easy.
+[41:57] So there are things that we're still trying to catch up on
+[41:59] in terms of enablements and in org structure.
+[42:01] But because we've always had that intensity on the sales side
+[42:05] and the whole company knows that like, you know,
+[42:07] everything starts with sales and it kind of propagates back.
+[42:12] And we've always had that focus.
+[42:13] The other thing I think that helped us a lot,
+[42:17] you know, to your earlier point about
+[42:19] how did you get some of these large deals close so quickly
+[42:22] was I think we were very curious
+[42:25] about how we could productize parts of it within the enterprise.
+[42:29] Yeah.
+[42:30] By which I mean, we aren't a company that just says,
+[42:34] hey, here's a product will sort of the wall
+[42:36] and you know, you get it a year later.
+[42:38] Because within a lot of these enterprises,
+[42:40] the question they have internally,
+[42:42] in addition to will this product work for me is
+[42:45] can I actually get this live, right?
+[42:47] And within a lot of these enterprises,
+[42:48] it's actually complicated,
+[42:49] especially if you're in financial services
+[42:52] and you're regulated, for instance.
+[42:54] So we actually spent a lot of time sort of mapping out
+[43:00] that part of the journey very well
+[43:02] so that when we walk in to one of these enterprises,
+[43:05] we can walk them through in very granular detail
+[43:08] how we go from this first meeting today
+[43:11] to going live at 100%.
+[43:15] You know, at this stage for a company like you,
+[43:17] this is what your model process is likely to be.
+[43:20] This is how your testing process should look like.
+[43:23] This is how we should do the initial rollout.
+[43:25] This is how we should catch any issues that come up
+[43:27] and how we're going to fix them
+[43:28] and how we'll ensure that they don't happen again.
+[43:30] So the product and technology part
+[43:33] of what we sell is important.
+[43:35] But for these large companies,
+[43:37] equally important is us helping them think through the process
+[43:41] to actually get this deployed and at scale.
+[43:45] Because I think that is something that often gets overlooked
+[43:48] by tech companies selling into enterprise.
+[43:51] Yeah, for sure.
+[43:52] And by the way, I can also personally attest
+[43:55] to the strength of your early good market team
+[43:56] having met a bunch of them.
+[43:58] That being said, I don't want to underplay
+[44:00] how many times a decision maker has told me
+[44:04] that one of the reasons of many, right,
+[44:06] that they're going with Decagon
+[44:08] is they want to make a bet on you guys.
+[44:11] They'll literally say we think the founding team
+[44:14] of Decagon is going to move the fastest.
+[44:16] This is a very fast-paced market.
+[44:19] It's changing on a weekly, if not daily basis.
+[44:22] And we think that you guys are going to look at the chess pieces
+[44:25] and make the right moves
+[44:26] because it's not sort of like a,
+[44:28] oh, everything's going to be the same
+[44:29] in a year or even six months type of market.
+[44:33] So I'm curious, I mean, don't give up too much alpha here,
+[44:35] but how much time do you guys spend on sales as founders
+[44:40] and how has that evolved over time?
+[44:44] I probably spend most of my time, like 80%, maybe.
+[44:49] And yeah, I think a lot of it is just pushing speed.
+[44:51] So some of it is like,
+[44:53] Hey, like as one of the founders,
+[44:55] you just have to be in calls
+[44:56] and like, you know, people want to meet the founders,
+[44:58] but also it's just how can I be the sort of the main force
+[45:03] that's pushing our team to go faster,
+[45:04] but also just like the partnership to go faster.
+[45:07] One of the things with that is like, you know,
+[45:09] now we work with several of the largest,
+[45:12] you know, banks in the world and airlines and telcos
+[45:16] and no matter how fast you go,
+[45:19] like there's those are still like massive organizations
+[45:22] and it will take time.
+[45:23] And so one of the things that we really try to do
+[45:26] is kind of take the project and piecemeal it.
+[45:29] So we're not just deploying across every surface area,
+[45:32] every use case at once.
+[45:33] That's really just pick, you know,
+[45:35] one or two of the top use cases and just get a win there.
+[45:37] And I would say that's been helpful, right?
+[45:39] If you navigate like a big bank,
+[45:42] like it's not going to be like a quick,
+[45:44] like, you know, use to close a big deal.
+[45:46] Right.
+[45:47] At least for us, it's not me.
+[45:48] Some people can do it, but it's, yeah,
+[45:51] it's still a lot of effort and it takes time.
+[45:54] And so you have to figure out ways to, you know,
+[45:56] design things from a process perspective
+[45:58] and an oral perspective and product perspective as well
+[46:01] that like just keep shortening that
+[46:03] and like finding clever tactics.
+[46:05] And that kind of takes founder involvement.
+[46:09] You wouldn't really expect a like a sales team to just like
+[46:15] constantly be coming up with new configurations there
+[46:18] because, you know, they're not responsible for the product.
+[46:20] They're not responsible for, you know,
+[46:21] the end-to-end, you know, process that the company runs.
+[46:24] So having the founder involved there is very important,
+[46:26] I would say.
+[46:27] And then the salespeople, their job is to kind of execute
+[46:29] on the sales side, like build champions
+[46:31] and navigate the org and so on.
+[46:32] The other reason to also spend a ton of time
+[46:36] with both sales, process and existing customers
+[46:38] is also because the market is changing so quickly,
+[46:42] being able to really quickly understand
+[46:44] what are the things that we are not doing today?
+[46:47] That we should be doing very quickly, right?
+[46:50] Because model capabilities are changing all the time
+[46:53] as models roll out, people are seeing other things
+[46:56] that happen and they're like, oh, wow, this was really cool.
+[46:57] And like I'm seeing this here
+[46:59] and you guys aren't doing that as well.
+[47:00] So being able to stay really, really close
+[47:03] to that feedback loop,
+[47:04] because that's something we never want to,
+[47:07] never want to let go of.
+[47:08] Yeah.
+[47:09] Do you want to talk about how that like informs product roadmap,
+[47:11] meaning probably like two years ago or so,
+[47:15] most of DecoGod's customers were focused
+[47:17] purely on customer support.
+[47:18] And nowadays I would say that's actually not true.
+[47:20] You guys have broadened your vision
+[47:21] to mostly to be like an AI concierge for your customers.
+[47:25] Like don't want to talk about what the distinction
+[47:26] between those two actually is and in practice,
+[47:28] like what that means for both your sales teams
+[47:31] and your product teams.
+[47:32] So, you know, when we launched the original set
+[47:37] of use cases that we sold were in customer support.
+[47:40] And the reason was because one,
+[47:42] that was one of the biggest challenges
+[47:45] that a lot of our early customers were facing.
+[47:47] And two, that was where the capabilities of the models
+[47:51] ended at the time, right?
+[47:52] Like that is all, that is the pretty much the limit
+[47:55] of what they were capable of doing.
+[47:57] Now, however, as models have gotten better
+[48:00] and our customers have realized,
+[48:02] well, why would I have one set of models
+[48:04] that just learns about my customers
+[48:06] when they have another, when they have a problem
+[48:08] and something else when they come to me to buy something,
+[48:11] right?
+[48:12] And so we had a customer
+[48:13] that we really went live with them for customer support.
+[48:17] And then they realized they were like,
+[48:19] well, you know a lot about our product now.
+[48:21] You know about the capabilities that it has
+[48:23] because you need to do that for customer support.
+[48:25] You know how we like talking to our customers
+[48:28] and our brand, can you help us with inbound sales, right?
+[48:31] When someone comes in,
+[48:32] answer questions about us, do some discovery,
+[48:35] and then assign it to the right enterprise rep
+[48:38] if it's a deal of large enough value.
+[48:41] We had another customer that started using us
+[48:45] for a lot of operational workflows, right?
+[48:48] So we are able to now proactively reach out to them
+[48:52] once we start seeing any kind of issues
+[48:56] on that customer's account.
+[48:58] Because ultimately at the end of the day,
+[49:00] the thing that we built,
+[49:01] and we kind of built this intentionally from the start,
+[49:04] was not an agent that does customer support well,
+[49:06] but rather an agent that follows business process well, right?
+[49:11] And executing on operational workflows,
+[49:13] doing sales lead qualifications,
+[49:15] answering customer support questions.
+[49:17] At the end of the day,
+[49:18] is just an agent following a business process.
+[49:21] And we kind of built it
+[49:22] possibly enough to kind of do all these things
+[49:25] because we realized that, hey, at certain points,
+[49:27] the models are going to get better and they have.
+[49:29] And what do they specifically get better at
+[49:31] that allows you to do that?
+[49:32] It is specifically the ability to follow instructions well, right?
+[49:38] So when you had models, you know,
+[49:41] let's say a few years ago,
+[49:42] you'd have to give it very, very tight guidance,
+[49:45] very specific instructions
+[49:47] that you didn't want it to deviate from.
+[49:49] And as the models got smarter,
+[49:51] you could kind of give it broader and broader guidance,
+[49:54] bigger and bigger instructions
+[49:55] and just trust that the models have good enough sense
+[49:58] to interpret it like a human would,
+[50:01] kind of fill in any missing gaps, right?
+[50:03] Because for, again, for customer support,
+[50:05] you can have a very tight path that a model should fall
+[50:08] and that's all you really need.
+[50:10] Whereas for sales qualifications,
+[50:11] you kind of want to ask open-ended discovery questions.
+[50:14] The conversation is going to kind of bob and weave.
+[50:17] And so you need the model to kind of fill in
+[50:19] with reasonable things.
+[50:20] So that's specifically kind of what the model
+[50:22] got better out of the years.
+[50:24] Yeah.
+[50:25] I think if you think about, you know,
+[50:28] what is the like 12-month product roadmap
+[50:31] because things are moving so fast,
+[50:33] like the real answer to that is like,
+[50:35] you know, kind of like see how it evolves
+[50:37] and we obviously know what we're working on now.
+[50:39] But I think realistically in today's AI world
+[50:42] is very difficult to have like a 12-month roadmap to a T.
+[50:45] You maybe know how like some themes
+[50:46] of what you want to build.
+[50:47] But ideally, if you have those things,
+[50:49] you should just build it like right now
+[50:50] because it's so fast to build things now.
+[50:52] So I would say that that is one element,
+[50:57] but then the sort of long-term vision
+[50:58] is still very clear to us now, right?
+[51:00] Which is we use the term concierge,
+[51:01] but really it just means like,
+[51:02] hey, an AI agent should just be the front door
+[51:04] of your business or your brand.
+[51:06] And every interaction, whether it's like reactive
+[51:09] or proactive with a customer should be handled by AI.
+[51:13] And we've already seen that AI is very good at that.
+[51:15] Right? Customer service is like a huge pillar of that
+[51:17] or it's all these amount interactions.
+[51:19] But why not also be able to do all these other things?
+[51:22] So over time, again, we're not trying to
+[51:26] figure out on our own what these things are.
+[51:27] We kind of have now have a lot of customers
+[51:29] that will give a signal on the things that they care about.
+[51:32] And those will be the things that we built.
+[51:34] We've talked a lot about how the models are getting better
+[51:38] and obviously your capabilities are moving along
+[51:41] even ahead of that progress.
+[51:43] What are some of the bottlenecks right now
+[51:45] that you're seeing?
+[51:46] Whether that's on the capability side,
+[51:50] I don't know, it could also be around persistent memory.
+[51:52] I don't know if you guys feel like that's kind of up to snuff
+[51:55] on where you would like it or could be other bottlenecks.
+[51:59] But curious, like what would you like to see
+[52:00] and what's kind of holding you back?
+[52:02] Hiring.
+[52:03] Yeah, it's less on the AI side.
+[52:07] It's actually like people.
+[52:08] We are voracious consumers of tokens
+[52:12] but we've always loved more people.
+[52:14] I think there's so much to build these days.
+[52:17] And why can't you hire AI agents to do the things that you're doing?
+[52:21] Yeah, we are voracious consumers of token.
+[52:25] We're like, our token bills are very, very low.
+[52:30] But there are still things I don't quite yet think
+[52:34] we're at the point where we can have the AI agents
+[52:38] make decisions on what to build and kind of have that.
+[52:42] The taste of is this done yet, right?
+[52:47] So we can outsource a lot of specific execution steps.
+[52:51] But I don't yet think they're the point
+[52:53] where they can make the call on what to build,
+[52:56] what to exclude, things like that.
+[53:00] So the models improving have they since like you found it three years ago.
+[53:03] Has it changed your hiring needs at all?
+[53:07] Because a lot of people are like, oh, you can build like one person unicorns.
+[53:10] Yeah, I think this argument does get tossed around a lot.
+[53:15] But I think an easy counter example to this
+[53:19] is all the AI coding started to hire them like crazy.
+[53:24] You know, they're like the most sophisticated users presumably
+[53:27] as well as they are hiring like crazy.
+[53:29] And I think the reason is just because everybody has access to these tools.
+[53:35] And so if our competitors are going to use them
+[53:38] and build more things, we need to build more things, right?
+[53:42] If somebody else said, oh, here's our roadmap
+[53:44] and now we can get through it in, you know, a third of the time
+[53:47] and then they just stop hiring, we would just take that to mean,
+[53:51] wow, we can get through it in a third of the time.
+[53:52] Great. Let's build three times as much stuff.
+[53:54] And turns out everybody, you know, does the same calculus.
+[53:57] So everybody both needs to keep hiring more and shifts more.
+[54:01] So it is great for consumers of these models.
+[54:05] But I don't think it has material to change our hard on plan.
+[54:09] It's so funny that you're going to say something like, I don't know,
+[54:12] latency of voice models or something like that.
+[54:14] But it seems like on the technological
+[54:17] I mean, they're spot on the side. It's yeah,
+[54:20] there's still stuff that we're waiting for, right?
+[54:22] Like, you know, voice to voice models is an interesting frontier
+[54:25] that there's still research happening on, you know,
+[54:28] the getting smaller models to be smarter, smarter out of the box.
+[54:32] Right. So there's there are going to be still developments
+[54:34] that we are watching closely that we care about.
+[54:36] But from a business perspective, it's less on the model side
+[54:40] and more on the just like, can you build the company fast?
+[54:43] Yeah, actually, maybe since we're on the topic of hiring
+[54:47] and, you know, I feel like grindslop has become this theme on X
+[54:53] and it's so funny because, you know, as a as a VC, like I'll admit,
+[54:59] you know, when I mean, you guys are famously in the office six, seven days a week.
+[55:05] I hope this doesn't get marked as grindslop now, but, you know,
+[55:08] I think constantly hustling for your teams and your customers.
+[55:11] And it's so funny to see that kind of turned on its head.
+[55:15] And so I'm just curious, what is your, what are your thoughts
+[55:18] on the narrative out there and like,
+[55:21] grindslop is such a general term, but like, you know, you guys grind,
+[55:25] but there's also a lot of camaraderie and excitement in the office.
+[55:28] So like just, you know, say more about that and like how you're building the culture.
+[55:32] Yeah, I mean, grindslops is funny term.
+[55:36] So we have never posted grindslop because we kind of view that like working
+[55:40] hard is just like, I don't think people are like working hard to grind.
+[55:44] It's just like, oh, there's a lot of stuff to do.
+[55:46] Like we kind of people spend time there, mostly because like, hey,
+[55:53] it's, you know, this is like a fun time of our life.
+[55:55] Like we want to take advantage of our talent and sort of potential
+[56:01] so that it's not wasted.
+[56:03] I think that's, that's the main reason.
+[56:05] And it's a very sort of like, it's like a many orders from like the main goal,
+[56:09] which is like, can you build a good product and you went into space?
+[56:12] And, but it's like one of the effects of that is that people work harder.
+[56:15] And even from the, from the beginning, like we, yes, we have an office culture,
+[56:19] but like we're never mandating people to come out on the weekends.
+[56:21] We don't really care how long they are, they are in the office.
+[56:24] It's just people are in the office just so that like we can maximize communication.
+[56:29] And that's how we view it.
+[56:33] Like I don't view ourselves as like, you know, abnormally grindy or abnormally ambitious.
+[56:40] So I think like we're, I think we just like, I have a lot of ambitious people around me,
+[56:46] like Ashwin and all these people.
+[56:47] So they kind of just become normal and like everyone works hard.
+[56:50] So it's kind of like normal.
+[56:52] So I don't think it's like something that we view as, you know, something like super special.
+[56:57] And we kind of also view a lot of what we do very much as a team sport, right?
+[57:03] Where we very rarely have lines between our orgs in that you will very commonly see
+[57:11] engineers on early stage sales calls.
+[57:14] You will see salespeople like debugging parts of the product.
+[57:17] You will see our APM team in absolutely both ends of the spectrum.
+[57:23] And so I think being able to have teams that are so kind of disparate from like a function perspective,
+[57:33] all working together, kind of one kind of needs people in the office because everybody's kind of jamming on ideas together.
+[57:40] But two, it also makes it fun in a way because, you know, everyone is like working together
+[57:45] towards some very specific outcome, right?
+[57:48] It's either getting this, building this thing for this customer in time for the deal to close
+[57:54] or launching this new thing.
+[57:56] And because it's so many different teams working together, it's kind of a, it's kind of a we're rolling this together
+[58:00] to just across the line.
+[58:02] Yeah.
+[58:03] And how does that scale as, you know, you've launched a lot of new offices recently,
+[58:06] you've been to Australia office, London office, your New York office is growing like crazy.
+[58:10] How do you maintain that culture when you guys are both in San Francisco?
+[58:14] I don't know.
+[58:14] I mean, I don't think it's a solved problem for us.
+[58:18] Like we're constantly working on it.
+[58:19] And then like every single time the company gets to the next days, there's like new things.
+[58:23] We have the Institute to just make sure that everyone understands the culture.
+[58:27] And there's like very high accountability and, you know, there is pressure because there should be.
+[58:33] And so that's something that we're constantly adding on.
+[58:36] Because in the first 100 people, it doesn't really matter because everyone kind of knows each other
+[58:40] and like everyone's, but like as you grow, people might not have no one's communicated the visions of them
+[58:46] or communicated the culture to them.
+[58:47] And yeah, I know like Ben was talking to us about the A16Z culture, right?
+[58:53] And it's like how it's very like action oriented and you can't just like put like fluffy stuff on there.
+[58:58] And so yeah, it's all these things that we're trying to do a better job of as we grow.
+[59:04] The other thing is also we bring everybody that we hire out to San Francisco for a couple of weeks.
+[59:11] When they start, so they're kind of immersed in the kind of the original kind of soup of culture.
+[59:20] And then for every new office, right?
+[59:22] At this point, New York and London and all these officers are big enough that they have the original
+[59:27] Decagon culture there anyway, but for brand new offices, we actually have people from one of these hubs go out
+[59:35] and spend a few months there really until the office becomes big enough
+[59:40] and has its own kind of culture so that it doesn't kind of become too different
+[59:45] from what kind of the original Decagon culture was.
+[59:48] Actually, on the topic of international, we're, so we brought on Raghuram last year,
+[59:56] obviously former CEO of VMware.
+[59:59] And in addition to investing, he's helping us build out a ton of our international capabilities.
+[60:04] And I think one of the things that we've seen is that our AI companies
+[60:09] they're just getting pulled internationally way earlier, like for you to have an Australian office,
+[60:14] it seems premature except for the fact that you have cost for a poll.
+[60:19] Your scale is quite large for, you know, how long ago you were founded.
+[60:24] But maybe say more about that.
+[60:25] Like, does that translate?
+[60:27] Like, does your product translate well to these other GOs?
+[60:31] Are there more enterprise concerns or fewer or is it kind of just comparable to the US market?
+[60:38] Yeah, I think there's two trends.
+[60:39] The one is that AI is just such a phenomenon that every buyer out there has, you know, tried chat TBT or whatever.
+[60:46] And so there is a lot of just top down pressure from boards and C-suites
+[60:51] just get moving on something.
+[60:52] And if you think about a lot of these businesses, they're like, hmm, how do we adopt AI?
+[60:56] Well, it's, you know, it's just some coding agents and like, let's do customer service
+[61:00] because those are like the audience ones.
+[61:01] And so there is a lot of poll to your points.
+[61:04] And then the other trend is that the language is a lot easier with AI.
+[61:09] So in the past, maybe a blocker would be, oh, my language just doesn't work in,
+[61:15] or my app just doesn't work in German or picture language, right?
+[61:19] But now it's a lot easier to adapt to your app.
+[61:21] So I think for those reasons, international has been a lot faster.
+[61:25] Like at the same time, right, like we also want to make sure that we're not getting spread too thin.
+[61:30] And so it's kind of this balance where it's like very unclear what the perfect answer is.
+[61:35] But, you know, we've kind of made a determination of like which markets were OK
+[61:39] with really investing in and if we're going to invest, we're going to really invest.
+[61:42] And generally those markets are ones where we already just like naturally picked up
+[61:47] some customers out of the US office or something.
+[61:50] And then now it's like time to deploy people.
+[61:54] Because yeah, even though these, there are these trends that make it easier to go internationally.
+[61:58] Like, you know, there's also other things that you don't really think about, right?
+[62:03] Like you have that data residency, there's all these things where there's like local competitors,
+[62:07] which are just know the market a lot better.
+[62:09] And so you have to navigate that well.
+[62:12] Yeah, absolutely.
+[62:14] Do you think there is a like a space for like local competitors to the large categories
+[62:20] that we know about?
+[62:21] I mean, there is space for them.
+[62:23] I think the question is like long term is their consolidation.
+[62:27] And it's it's you can see that for both the geographies, but also verticals.
+[62:33] And then also market segments, right?
+[62:35] So like there are going to be people that find their niche in different places.
+[62:40] Like our view, the reason why we've kind of built so horizontally is that we believe
+[62:44] that in our space, the winners are going to be horizontal.
+[62:47] There's just not that much.
+[62:48] That is like super verticalized that where like you could see a pure vertical solution
+[62:53] surviving.
+[62:54] And historically, that's just been true in our space, right?
+[62:57] Like say all sorts of very horizontals and necessary horizontal, like all these solutions
+[63:02] are very horizontal because you just gain more from having that scale and having a very
+[63:06] robust and deep product than you do from like having very vertical specific features.
+[63:11] And over time, we're also going to build, you know, vertical features into it.
+[63:14] But our view is that like from a vertical and sort of market point of view, there will be
+[63:20] consolidation, consolidation, and then consolidation.
+[63:22] Just sort of on related to consolidation, but maybe not just geographic consolidation.
+[63:28] I'm curious if AI concierge becomes really the interface between the business and its customers.
+[63:36] Do you see like how does CRM and all of these, you know, sort of traditional data, very important
+[63:44] systems of record, right, for the end customer?
+[63:48] How do those evolve in this new world?
+[63:50] And do you see any consolidation there in terms of your own role?
+[63:54] Yeah, I don't, I don't think it's necessarily in either or, right?
+[63:59] Because ultimately, what we're doing here is trying to democratize access or availability of
+[64:10] these concierges, right, which is if you were going to a business where you were spending
+[64:15] $100,000 a year, you would get the most personalized treatment.
+[64:20] They would know exactly who you are, what your preferences were.
+[64:23] They want to help you, you know, shop, for instance.
+[64:26] They'll shut the whole store down for you.
+[64:27] Actually, I don't know if they did that for a hundred times.
+[64:30] But you get the jobs, right?
+[64:31] You've never tried that before.
+[64:35] However, if you're at a business where you're spending $10, they can't do this for you,
+[64:42] because they can't make it economical, right?
+[64:45] It is not a lack of desire to do this for their customers.
+[64:48] It is just that the unit economics don't support that.
+[64:51] And so effectively, all we're doing here is saying, okay, if you couldn't give them that
+[64:56] experience for 10 cents, all of a sudden it is economical and they'd want to do that.
+[65:01] Now, to the point of, does that mean CRMs go away?
+[65:05] I mean, my answer is no, because if you had, you know, if you have a company today where
+[65:11] either concierge is a human being, they still write your info in a CRM so they can track it for
+[65:17] later.
+[65:18] And I think when we have these AI agents, they will need somewhere to put that information.
+[65:23] So I don't necessarily think those kind of auxiliary pieces of software go away,
+[65:29] because for us, as we're building these conciergeers, our goal really is,
+[65:35] how do we create that great experience?
+[65:38] We will still need places to put that data somewhere, right?
+[65:43] Yeah, I actually think CRMs could do quite well.
+[65:48] They'll be slightly different in the sense of like CRMs are kind of databases in a way.
+[65:52] And, you know, the frustration people have with them sometimes is that the interfaces are
+[65:57] really difficult to use, et cetera.
+[65:59] But in the future, maybe the agents are just using the interfaces.
+[66:03] And you know, you may have graphical interfaces or whatever.
+[66:06] And so the CRMs are still very valuable because they hold the source of truth.
+[66:10] And, you know, then the agents, they're just kind of getting pinged a lot more
+[66:13] because the agents are using them.
+[66:15] So that that is one possible world.
+[66:16] So that's kind of bullish on CRMs.
+[66:18] And for us personally, like so far, what's actually on, there's like, we have zero desire
+[66:22] to build a CRM because we think there's so much to do in the agentic layer.
+[66:27] And that's where we want to focus.
+[66:28] Yeah.
+[66:29] Okay.
+[66:29] So SAS is not dead.
+[66:30] I'm not going to get off these after you've been here.
+[66:33] Oh, maybe last thing is we were chatting right before we started recording that you guys
+[66:38] had done some little AI experimentation on your own as you just figure out how to,
+[66:42] you know, make your own life more productive and effective.
+[66:44] And also, it sounds like you've done something kind of interesting.
+[66:47] Yeah.
+[66:48] You know, I think the models have gotten very smart over the last several years.
+[66:55] And, you know, the two of us will often use it to brainstorm ideas, right?
+[67:01] Because they are genuinely very smart at coming up with great ideas.
+[67:05] However, the bottleneck, I realize at least for a lot of the work that I do is business context,
+[67:11] right?
+[67:11] There's a lot of context for every idea around, okay, the constraints that we have,
+[67:15] the goals that we're going for and things I've had that is difficult to re-explain to the agents
+[67:21] every time. And so I actually spent a while building agents for myself to capture all
+[67:27] the business context well. So it just kind of looks over my shoulder all the time and is
+[67:33] constantly compiling context on, oh, here are the people that we've hired.
+[67:37] Here are the people that we need to hire. Here are the deals that we're working on.
+[67:40] Here are the problems. Here are the current challenges that we have.
+[67:43] So that later on, I can just go to it and say, hey, there's this new person that we're thinking
+[67:49] of hiring. What do you think? And I was able to automatically reason over.
+[67:52] Well, we had two candidates that were very similar. And these candidates had these kind of
+[67:58] drawbacks or skills that they didn't have. And so if we hire this person, it's going to be another
+[68:02] person that has those kind of exact same things. So we need someone complimentary.
+[68:07] So this is probably not the best person to have. Or in this deal, we're barreling down a very
+[68:14] similar path because we didn't validate these things early enough. So this time we should validate
+[68:18] them slightly early. So it's really all about how do you capture context well, because then,
+[68:23] you know, my job is making decisions with lots of context. So if I can outsource that
+[68:29] more and more tomorrow, maybe I can put myself a job quicker. Sounds like you created Jesse.
+[68:36] There we go. I do think like one of the big struggles being a solar founder is you don't
+[68:41] have anyone's bounce ideas off of. So you just arrive at conclusions of loss slower.
+[68:45] And you guys were both others in the past. Right. Yeah. So like us working the other,
+[68:49] I think the reason it was so much easier is that we could, you know, iterate on things much faster.
+[68:54] You kind of just talk something out. And yeah, now you talk to fable or whatever. It's like,
+[69:01] it's pretty good, honestly. You know, like very original.
+[69:05] Because in the past, it's just like they just kind of are kind of sick offense, right,
+[69:09] where they just agree with you. Oh, that's a good idea. But now they're like, no, that's a bad idea.
+[69:13] Don't do that. I actually for a while, Mark at one point had
+[69:21] posted the prof that he used for Claude. I was like, you know, disagree with me. Be very
+[69:26] durable and things like that. So I actually used that for one. It was great. The funny
+[69:31] story on this was I really enjoyed it because it would agree with me very aggressively. It would
+[69:36] disagree with me very aggressively. And I think it's my wife that I was like, this is great. You
+[69:41] should use it. She put it on. And then, you know, a day later, she was like, Oh, Claude was being
+[69:46] so mean to me all day. I had to turn it off. I just kept telling me. Yeah, I was disagreeing
+[69:52] with me so aggressively. Amazing. Well, is that's where on this topic of founders using AI to do
+[70:01] things? I have to bring up the whole AI slop. Fiasco, maybe is a strong word that Brian Chesky just
+[70:10] went through. And I want to bring it up because you both have grown your profile a lot over these
+[70:16] last few years. And, you know, you know, I sort of mentioned just you had these pieces that were
+[70:21] just hitting the zeitgeist of the discussion that everyone wanted to have and came in with a very
+[70:26] differentiated take. And, you know, that's the kind of stuff that we see exactly hit on, you know,
+[70:33] you're hitting the conversation right at the right message, right time, a unique message,
+[70:37] right time. Do you use AI for writing? And separately, this is more of a meta question, but how
+[70:47] important is X and like the sentiment on X to you? So yeah, for most of our early days, it was
+[70:57] mostly LinkedIn's with the reasoning of like, hey, our customers are LinkedIn, you know, we're not
+[71:01] going to get someone seeing us on Twitter and then coming as a customer probably. But I think the
+[71:07] sort of learning we had with X is, or at least I was kind of reflecting on it, X is kind of like
+[71:12] the timeline that people talk about. And most of that timeline is not really about your company.
+[71:18] Like if you're, if you're very like, just like promoting yourself on X, like it's going to get
+[71:23] no traction whatsoever. Totally. But it is sort of like a single timeline that everyone reads. So I
+[71:28] kind of like, it kind of like, my controls everyone to be thinking about the same thing.
+[71:32] Yes. And that's where it's valuable to have some say in it. And who was I listening to?
+[71:42] There's like, there's this guy like Jeremy Giffon or something who's on Patrick
+[71:46] Casey's podcast and you're like doing, he like made some claim about how like, you know,
+[71:52] it used to be that like the big status symbols in the world is like everyone wants to be a billionaire
+[71:58] because like he calls it like the priest class or whatever. So it's like the billionaires are
+[72:01] the priest class. But nowadays actually it's when people become billionaires, now they want to become
+[72:06] ex-influencers. Because like those people hold the real power because they can like influence
+[72:10] what the whole world's thinking about. So that's like one reason to have some presence on X, I suppose.
+[72:17] And when we now when I post on X, I don't really post about like Deculon specifically. It's more
+[72:23] about, you know, our thoughts on what is happening. So I think that's that's like a good, good way to
+[72:29] do it. And you write it all yourself, right? Yeah. I mean, AI is good for sort of helping
+[72:36] you brainstorm like what topics to write about. I think that's pretty good. But I think that's
+[72:41] kind of like learning that like LinkedIn and X work can vary differently. You can't just like come
+[72:45] up with something cool, like post the same thing on both. Because like very few things like do well
+[72:52] on both. Yeah. So like LinkedIn is really good for, you know, classic stuff, you're making announcements
+[72:57] and talking about your products and, you know, your fundraise or whatever. I guess you can do
+[73:03] fundraising on X as well. But X is a lot more about kind of like place yourself on top of that
+[73:09] single timeline that everyone's on. And is that so is it too much of a simple, you know,
+[73:14] simplification to say X for hiring, especially, you know, AI research talent, etc.
+[73:20] Um, maybe ecosystem as well. And then LinkedIn more for enterprise customers or you actually
+[73:25] seeing enterprise CIOs pay attention to X. Heart attribution is hard, obviously.
+[73:31] Yeah, it's hard because, you know, I think you could say like, Oh, well, you know, I made a post
+[73:37] on X and then, you know, the people on the all in podcasts were talking about it. Like CIOs
+[73:41] definitely. Yes. So it's like a indirectly, I'm sure we got like some eyeballs from CIOs.
+[73:49] Is the CIO themselves like scrolling X all day? Maybe not. But if you are part of that major
+[73:56] timeline, then you have, there's all these like secondary effects and then, and then like reporters
+[74:01] will reach out to like from my mainstream media. And then if they write about you, then like,
+[74:06] Austin was on the New York Times recently. You know, it's like, if they write about you, then
+[74:09] those for sure get eyeballs. Yeah, you were.
+[74:13] Mm hmm. That just open source stuff. Kimberly's only on X.
+[74:21] I guess maybe the last question I'd read just since we touched on like hot button X topics.
+[74:28] One, and this is kind of a serious one actually, but it sort of reentered the narrative, I think with,
+[74:34] you know, the anthropic video and it's just sort of maybe never left the narrative, but it's
+[74:38] on this concept as progress gets better around jobs. And the messaging around that
+[74:47] is a sensitive topic, obviously, but it's interesting because I really think customer support was maybe
+[74:53] the first end to end use case where you could really take an entire job. Sorry, do an entire
+[75:03] job, I should say, take is the wrong word versus coding was always, you know,
+[75:06] pair programming to start with. How has that, you know, we sort of joked before, but I, you know,
+[75:14] we weren't really joking that AI is actually creating jobs. I'm curious, how do you turn that
+[75:19] narrative on its head that folks are just losing their jobs, right? Like, do you see the upleveling
+[75:25] of folks with AI where, you know, maybe they were doing this job and now they're doing something
+[75:30] else? Yeah, I mean, we see this all the time because if you recall earlier on when we were
+[75:36] talking about, okay, what are we truly doing? We found that, you know, for a lot of our customers,
+[75:43] there's actually just more demand for things like customer support than their supply, right?
+[75:51] Yeah. Where companies realize that they're like, okay, if our cost of doing customer support
+[75:57] drops by 30%, most of them are not just immediately saying, okay, now what I will do is, you know,
+[76:04] let go of 60% of my team, they're saying, okay, now that this thing which is clearly valuable for
+[76:09] my customers is much cheaper, let me do more of it so that my customers retain for longer so that,
+[76:16] you know, they don't turn off as much so that they activate sooner, things like that.
+[76:21] You know, we had a customer in the early days, they, and this was, you know, probably two and a
+[76:26] half years ago at this point where they said, you know, our ticket volume, you know, the amount of
+[76:32] customer support inquiries that we get per month was, I think, I think it was like 50,000 a month
+[76:38] or something based on, you know, the existing surfaces that they had. Once they started using us,
+[76:44] they said, wow, turned out our customers have a lot of problems. They said, let us make support
+[76:49] more easily accessible, right? So instead of it just being in one part, like buried within a
+[76:55] support panel, they're like, let's put support on every page and let's make it more prominent in
+[77:00] places where people are more likely to get stuck. Let's all that immediate support for even free
+[77:05] users rather than paying users, right? So because of this kind of, there's more kind of
+[77:11] related demand for support. Yeah, then there is supply. So automating things doesn't necessarily
+[77:17] result in just kind of people laying off their entire teams. That may be the best example of
+[77:22] Jevin's paradox in real life that I've heard. So yeah, I think it's like AI will
+[77:27] kill jobs, but not careers in a way, because like those jobs that are being done currently
+[77:32] should not be done by humans. Like they're very mundane and menial. It's like, it's like a super
+[77:37] high volume use case and people are just like, thinking out the phone is like, okay, let me click
+[77:42] here, click here and like, okay, here's the answer, right? And that should be done by AI. But there
+[77:47] is actually like a near infinite amount of things that people could be doing to make their
+[77:51] customers happier and take care of them more. And so people end up doing those things and more and
+[77:57] more of the mundane, repeatable things will get eaten up by AI. So that's what we think will happen.
+[78:03] Just I think on a podcast, maybe Patrick Lachaunas, these podcasts a couple months ago,
+[78:07] you had mentioned that even your customers, when they've been using BPOs for customer support instead,
+[78:14] you haven't actually seen like layoffs at the BPO, just turns out that those employees have gone
+[78:18] and done other things instead. Is that still true? Oh, I mean, it's it really depends on the situation.
+[78:25] So there are definitely scenarios where people use their BPOs a lot less or don't need the BPO anymore.
+[78:32] The other situations where they are not in cost cutting mode whatsoever. And their goal is to either
+[78:39] their business is growing so quickly that they don't want to scale their operations along with their
+[78:43] growth. And so with that gone, they can kind of like keep a flat or whatnot. Or it's actually we
+[78:50] still need people, but now there's all these other things that could be doing. And it could
+[78:54] be more revenue generating things. That's like a big area for for us, even as like as the AI matures,
+[79:03] we first start with these costs cutting use cases because those are easy. But then
+[79:07] like revenue generating use cases should also be able to be done through this conversational interface.
+[79:12] So yeah, there's it really depends on the customer, but you know, we definitely have customers that
+[79:17] made massive changes. Actually, I like to end it on that uplifting note. And just to repeat what Jesse
+[79:22] said, it may kill jobs, but not careers. I love that. Thank you so much for joining us guys.
+[79:27] It's a pleasure to have you. Thanks for having us. Thanks for listening to this episode of the A16z
+[79:34] podcast. If you liked this episode, be sure to like, comment, subscribe, leave us a rating or a
+[79:40] review and share it with your friends and family. For more episodes, go to YouTube, Apple Podcasts
+[79:45] and Spotify. Follow us on X and A16z and subscribe to our sub stack at a16z.substack.com. Thanks again
+[79:53] for listening, and I'll see you in the next episode. As a reminder, the content here is for
+[79:59] informational purposes only. Should not be taken as legal business, tax or investment advice,
+[80:03] or be used to evaluate any investment or security and is not directed at any investors or potential
+[80:08] investors in any A16z fund. Please note that A16z and its affiliates may also maintain investments
+[80:14] in the companies discussed in this podcast. For more details, including a link to our investments,
+[80:19] please see a16z.com forward slash disclosures.

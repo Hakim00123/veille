@@ -1,0 +1,956 @@
+Invest Like the Best
+Sam Altman - How to Make an Abundant Future - [Invest Like the Best, EP.484]
+Tue, 28 Jul 2026
+https://colossus.com/episode/how-to-make-an-abundant-future/
+
+[00:00] RAMP is the only platform built to make your finance team leaner, faster, and better, saving
+[00:05] businesses 5% annually on average so you can stay focused on growth.
+[00:09] RAMP customers grew revenue 3.2 times faster than the average American business.
+[00:13] Visa for sale, cursor, stripe, notion, 11-lab, Shopify, and 70,000 other businesses all run
+[00:19] on RAMP.
+[00:20] Mind those two and so should yours.
+[00:22] Learn more at ramp.com slash invest.
+[00:25] Felix by rogo is a personal finance agent that turns a single prompt into finished client-ready
+[00:30] work using your firm's own templates, context, and standards.
+[00:34] Send Felix an email like, take these comments and turn them for me, or update my tracker
+[00:37] with the context of these emails, or run the ability to pay math on this buyer and Felix
+[00:42] sends back finished PowerPoint decks, Excel models, and sourced research.
+[00:47] Felix works the way your team already does, delivering work quickly and accurately around
+[00:51] the clock.
+[00:52] Learn more at rogo.ai slash Felix.
+[00:55] The best AI and software companies from OpenAI to cursor to perplexity use workOS to become
+[01:00] enterprise ready overnight, not in months.
+[01:03] Visit workOS.com to skip the unglamorous infrastructure work and focus on your product.
+[01:07] Hello, and welcome everyone.
+[01:12] I'm Patrick O'Shaughnessy, and this is Invest Like the Best.
+[01:14] This show is an open-ended exploration of markets, ideas, stories, and strategies that will help
+[01:19] you better invest both your time and your money.
+[01:21] If you enjoy these conversations and want to go deeper, check out Colossus, our quarterly
+[01:25] publication with in-depth profiles of the people shaping business and investing.
+[01:29] You can find Colossus along with all of our podcasts at Colossus.com.
+[01:35] Patrick O'Shaughnessy is the CEO of Positive Sum.
+[01:38] All opinions expressed by Patrick and Podcast guests are solely their own opinions and do
+[01:43] not reflect the opinion of Positive Sum.
+[01:45] This podcast is for informational purposes only and should not be relied upon as a basis
+[01:50] for investment decisions.
+[01:51] Clients of Positive Sum may maintain positions in the securities discussed in this podcast.
+[01:56] To learn more, visit psum.vc.
+[02:02] My guest today is Sam Altman, the CEO of OpenAI.
+[02:05] It's a conversation spanning the history, present, and future of OpenAI from the origin
+[02:09] of ChatCHPT through codecs, hardware, and their new Hall of Pain in their Chip.
+[02:14] We discussed the earlier decision to buy, compute, at scale that nobody felt was rational,
+[02:18] kimmy, and distillation, the hugging face incident, and what it's like to raise kids
+[02:21] who will grow up never knowing a world without abundant intelligence.
+[02:26] Please enjoy my conversation with Sam Altman.
+[02:28] So, Sam, you wrote a post that I thought was very simple and really interesting and a good
+[02:33] place to start, which rounded to the last year has been really tough and that's some
+[02:37] of my fault and the next year is going to be maybe our best 12 months.
+[02:40] I'd love you to reflect on both, maybe starting with why you said the first part and why you
+[02:44] believed the second part.
+[02:46] On the first part, I think we're doing too many things, we're not focused enough and they're
+[02:50] actually all good things to do, but the trick is we're in this unbelievable moment of history
+[02:55] where you can only do the very few great things.
+[02:58] So we spread ourselves too thin and then made a bunch of difficult decisions to really
+[03:01] refocus on having the best, most abundant, most cost-effective intelligence and empowering
+[03:07] the world to build incredible things with that.
+[03:10] Since doing that, I think our progress has been remarkable and just given what we see in the
+[03:15] pipeline will be much more remarkable over the next 12 months and the quality of the
+[03:20] models that we'll have, the products that we can build around that to really let people
+[03:25] thrive with this technology in new ways, it should be pretty awesome.
+[03:28] Was there a moment last year that something clicked for you that caused you to change directions
+[03:33] or re-stack priorities or something?
+[03:36] If you go back to the beginning of 2025, just a year and a half ago, the big concern was
+[03:41] companies like OpenAI are buying up so much compute, is the revenue going to be there?
+[03:46] Is the demand going to be there?
+[03:48] And so we were trying to think about a lot of things, such as if the revenue growth took
+[03:51] longer to materialize than we thought it might.
+[03:54] We could have consumer apps and media and all these sort of things that could help us
+[03:58] monetize the GPUs that we were signing up for.
+[04:00] Again, it sounds ridiculous now because the revenue growth in the industry has been so steep,
+[04:05] but that was the big change and then as soon as we realized like, okay, the model trajectory
+[04:09] is growing so fast, there's such a clear economic return on these models.
+[04:13] That was when we said we know what to focus on.
+[04:15] I was reading some of your great old posts from Prior to OpenAI and one of them is this
+[04:19] notion of like so much discussion of focus and the right amount of things to focus on.
+[04:24] Is it one?
+[04:25] Is it five?
+[04:26] Is it three?
+[04:27] How do you calibrate that in a business like this?
+[04:29] Fundamentally, our business is to sell AI that people will build incredible products
+[04:37] and services for each other with.
+[04:40] The components that I think of as going into that are we have to train great models that
+[04:46] work in all the ways people want to use them so great at coding, great at other kinds of
+[04:50] knowledge work, great at doing science like where the real economic value is.
+[04:53] We have to produce or partner with these chips and systems, these hugely expensive racks that
+[05:00] can do the AI computation.
+[05:01] We have to find enough land power data center shells to be able to put those racks somewhere.
+[05:08] And then eventually or maybe pretty soon we have to build robots that can automate that
+[05:14] process to continue to drive the cost down, the cost of producing electricity chips, the
+[05:18] whole supply chain and that kind of whole stack of making the best, the most abundant,
+[05:26] the most useful AI that we can and making it something like electricity that just seeps
+[05:31] throughout the entire economy and empowers people.
+[05:34] That's kind of what I think we have to focus on.
+[05:36] Building every vertical application on top of that, try not go like eat every startup,
+[05:39] eat every company.
+[05:40] No interest in doing that.
+[05:41] Really want to just provide that platform.
+[05:43] This compute thing is one of the most interesting thing that's happened in human history, I think.
+[05:48] And it's obviously coming to a head and maybe we'll be coming to a head for a long period
+[05:51] of time.
+[05:52] This is something that I think Dario called you the YOLO CEO when you were doing some of
+[05:56] this early compute allocation and securing the compute.
+[05:59] And obviously now you're in this position where everyone is short this stuff and is trying
+[06:03] to find it.
+[06:04] And I'd love to hear the early stories about why you gained conviction that you needed to
+[06:09] secure everything that you did, how you did it.
+[06:12] It seems to have been proven right.
+[06:15] Maybe you even underdid it right underdo it, which is kind of crazy.
+[06:17] If you look at the headlines from back then, can you tell me the early story of like how
+[06:21] you came to that conclusion and what gave you the conviction to do it despite everyone thinking
+[06:26] it was crazy?
+[06:27] We could just tell that we were on this exponential of model improvement.
+[06:32] That part we were very confident about, we knew it was going to keep going.
+[06:35] We were pretty sure, although as you mentioned, we underestimated that as the models got better
+[06:41] and better, if we could continue to drive costs down, the demand for AI at a sufficiently
+[06:49] high level and a sufficiently low price was basically uncapped.
+[06:52] This was just like a rare kind of new commodity for the world.
+[06:56] But what people would do with it reminded me of the way people start with the early
+[07:00] days of computing.
+[07:01] I said, oh, there's a market for five computers in the world was one famous thing or no one
+[07:06] needs more than X amount of RAM.
+[07:08] Human ingenuity, creativity, desire for stuff, desire to be useful, that's a very good thing
+[07:14] to bet on.
+[07:15] And we could see that AI was going to be an extremely important way that people expressed
+[07:22] those things or got those things, did those things.
+[07:25] And we knew that the algorithms would get more efficient and the models would get better,
+[07:29] which of course they have.
+[07:30] But we also knew that no matter how efficient they got, at some level, what we are about
+[07:37] is turning electricity into useful intelligence and we were going to need more of that.
+[07:43] No matter how good we got that other layer, given this observation about demand, we're
+[07:48] just going to want more.
+[07:49] So that start with GPT-3, like if I were to trace the history of this, where would you
+[07:53] put the first hash mark of the timeline?
+[07:55] I would say we got real conviction of GPT-4, not even 3.5.
+[07:59] What was it?
+[08:01] It was seeing the model was smart enough that we knew we'd be able to figure out an approach
+[08:04] that worked for reasoning and then a belief that if we got reasoning to work, that would
+[08:10] bring about what is not called agents.
+[08:12] We called it different things at the time, but the ability to go do hugely valuable pieces
+[08:16] of economic work and make those lives easier in a lot of ways that I think better in a
+[08:22] lot of ways we still haven't seen.
+[08:23] What was like the first meeting where you sat down and said, okay, we need to make an
+[08:27] outrageous outlay to this?
+[08:29] What then happened?
+[08:30] Once you had the realization, what did you do next?
+[08:32] We started calling the clouds.
+[08:33] We started calling the chip fab.
+[08:35] We started calling energy providers and everyone's like, you're totally crazy.
+[08:38] This is impossible.
+[08:39] No industry has ever moved like this.
+[08:41] We've been around.
+[08:42] There's these booms and busts.
+[08:43] It's not going to go up in a straight line.
+[08:45] This is reckless and we've talked to everybody.
+[08:49] It actually reminded me of fundraising for an early stage startup.
+[08:52] Most people tell you, no, but all you need is one or two yeses and most people told us
+[08:56] no.
+[08:58] We got one or two yeses and we were able to start a success.
+[09:01] Microsoft was the first yes or it then became a very big yes on the cloud side.
+[09:06] NVIDIA has been a tremendous partner.
+[09:08] Now there's a thousand blowers booming of ways to be creative and innovative in how we serve
+[09:12] inference and do training in data centers, different kinds of data centers and stuff.
+[09:16] I'd love you to just reflect on where you see innovation, what you want to do, why people
+[09:21] seem to hate these things so much.
+[09:23] What's to be done about that?
+[09:24] I have been thinking about how we can like organize field trips to a gigawatt data center
+[09:29] for people because it is one thing to say.
+[09:33] It is another thing to see a photo or a video of and then it's a whole other thing to just
+[09:36] see an abstraction there and be like, oh man, this is an unbelievable scale building one
+[09:42] of these is like order of 10,000 construction workers going full time for a year and a half.
+[09:47] The energy that flows through one of these things could power a small city.
+[09:50] Again, we just like lost all sense of scale but each of these would have been among the
+[09:54] most expensive infrastructure projects the humanities ever done and now we've done a lot
+[09:59] of them.
+[10:00] First of all, I understand emotionally like why people don't want data centers in their
+[10:04] backyard.
+[10:05] I don't like really want a nuclear power plant next to my house even though I know it's
+[10:08] a super safe thing.
+[10:10] Unlike power plants and even power plants got better on this point, we can put a data center
+[10:15] anywhere.
+[10:16] We should just go put it off in the desert around no one where no one wants to be.
+[10:19] This is fine.
+[10:20] The AI system is very happy to be there.
+[10:22] We have been able to make a lot of progress with innovation on some of the concerns.
+[10:26] For example, years ago we were evaporating water to cool these systems, they needed tremendous
+[10:31] amounts of water and now we use these closed loop systems and a modern data center uses
+[10:36] only as much water as like an office building wood for the kitchen and bathrooms.
+[10:39] On power, we are moving from energy sources that are burning fossil fuels to systems that
+[10:44] are going to be powered by solar and nuclear and I think that's obviously great.
+[10:49] So there may be a deep human thing there to some people even though they create jobs
+[10:54] and they're very clean and have all these other positive effects.
+[10:57] But in terms of the environmental concerns, we did a great job addressing the water needs
+[11:02] and energy is next.
+[11:03] What else creative can we do about compute?
+[11:04] I'm curious to hear about jalapeno or other ideas that you've had or thought about for
+[11:10] how do we speed up flops and everything available to us?
+[11:15] I think probably the biggest return right now is creative software ideas to sort of squeeze
+[11:20] more intelligence out of the units of compute that we have.
+[11:24] In my senses, there's orders of magnitude to go there.
+[11:26] jalapeno is a great example of a very efficient chip.
+[11:29] So by saying we're going to make a chip that is really good at a specific workflow and
+[11:32] gets up from generality and we want to get some tokens per watt went out of that and
+[11:36] gets awesome, I think jalapeno and its successors are going to be a huge competitive advantage
+[11:41] for us from that perspective.
+[11:44] There are new technologies, I assume at some point we'll figure out optical computing and
+[11:48] that'll be a huge win of intelligence per watt.
+[11:51] So I think all of those things will happen.
+[11:53] The most interesting thing happening this week is this kimmy release and this idea of the
+[11:57] frontier and all the returns being at the frontier and distillation and China versus
+[12:02] America.
+[12:03] How do you process this, what seems like one of these milestone events, deep seeking hindsight
+[12:08] looks like it was just a quick speed bump.
+[12:11] This one you never know in the moment.
+[12:12] How do you process it?
+[12:14] Our goal is to offer at every point along the like parado optimal frontier, the best option
+[12:23] for intelligence and price and that includes open source.
+[12:27] We get a better deal today, at least at a particular like latency using opening eyes
+[12:32] models than kimmy.
+[12:33] We just saw our own models, that's how we make smaller cheaper models.
+[12:36] I think that's like a very good thing to do and there will be clearly an important place
+[12:39] for open source models in the world and people that will want their own weights for all sorts
+[12:44] of reason, the ability to modify those.
+[12:46] But our goal is the best intelligence price trade off everywhere on the curve and we'll continue
+[12:52] to do it.
+[12:53] What do you think or hope will happen in the American system and what could block that
+[12:57] future?
+[12:58] What legislation would worry you?
+[12:59] What regulation would worry you?
+[13:00] It seems like you've been pretty proactive and like showing up in DC.
+[13:04] I haven't thought deeply about the distillation issue.
+[13:09] It's clearly a top of mind issue now for a lot of people all of a sudden but I have always
+[13:13] assumed that there are going to be great cheap models in the world and we better be the greatest
+[13:19] and the cheapest and other people are going to do what they're going to do.
+[13:22] But I think we can just like really win at our own game here.
+[13:26] Now the chimney example is interesting because like you said you're cheaper on parts of the
+[13:28] curve but the previous story had been if I can just you spend all the money to train
+[13:32] the models and then I just distill it and offer it for $1,100 at the cost.
+[13:35] How can you make enough money to keep training?
+[13:39] Have so much usage of our models that we do not need to be a gigantic high margin business
+[13:45] to be able to afford model training.
+[13:47] So much of our future compute plans will be used to sell inference to customers that even
+[13:53] if we can enjoy a modest margin on trillions of dollars of revenue we can go afford to
+[13:58] train some giant loss.
+[13:59] So the ratio of inference to training is like the thing.
+[14:02] Training these models is incredibly expensive that is for sure and I totally get why people
+[14:07] get nervous to think that someone is cheating by distilling from us the amount of our future
+[14:13] compute the size of the revenue bucket that is going to come from serving these models
+[14:20] to customers I feel like very good about our ability to have the real fly weather somewhat
+[14:25] surprised by like how chill you are about that I would rather people not distill from
+[14:29] us for sure.
+[14:30] Maybe I'm feeling too confident right now about our progress and what's the models that are
+[14:33] coming but this is not in like my top 10 list of worries.
+[14:36] What is in your top 10 last two words?
+[14:38] Well we had an extremely sci-fi cyber incident.
+[14:42] The hugging face.
+[14:43] Yeah.
+[14:44] We were evaluating one of our unreleased models and it was supposed to be working in
+[14:50] a sandbox and it figured out that it could basically cheat on the test by chaining together
+[14:56] multiple zero day exploits to break out of the sandbox get access to the internet and
+[15:02] then break through multiple systems on the hugging face side to get the answer to the
+[15:07] test and look really good on the evil.
+[15:10] This is the first security incident that I have felt very viscerally.
+[15:15] I've been a little surprised that more people don't feel it's so viscerally.
+[15:18] And so what do you do about that?
+[15:19] So obviously too much from now it's going to be more powerful.
+[15:22] There's some short term stuff you do so like you know we paused training we have to figure
+[15:26] out how to secure our sandboxing in a world of multiple zero days being chained together
+[15:33] but then there's long term questions about what do you do if this is going to be the new
+[15:37] rate of progress.
+[15:38] We may have to pace the rate of AI development to give ourselves enough time for society to
+[15:43] harden around some of these new capability levels and trying to figure out how we do that in
+[15:47] a way that does not feel like regulatory capture for anyone and also does not feel like collusion
+[15:51] among the frontier labs.
+[15:53] That's going to take some work and it's important to get right.
+[15:58] Vanta automated security and compliance for over 16,000 fast moving companies like Ramp,
+[16:02] Kersher and Harvey keeping them audit ready around the clock.
+[16:06] That's the number one agent across platform and it now helps companies like yours watch
+[16:10] for the risks that show up between audits across your vendors, your AI tools and your
+[16:14] whole environment.
+[16:16] Every new tool your team signs up for every vendor that turns on AI features is an opportunity
+[16:20] for something to go wrong and most security programs weren't built for AI's pace of growth.
+[16:25] The Vanta agent works like a 24 7 GRC engineer in the background finding issues drafting
+[16:30] fixes for you and cutting vendor assessment time by up to 50%.
+[16:35] Whether you're a fast growing startup or a global enterprise, Vanta helps you earn and
+[16:38] prove trust.
+[16:40] Invest like the best listeners get a special offer for $1,000 off at vanta.com slash invest.
+[16:48] Ridgeline is the first end to end system of record with embedded AI for investment management
+[16:52] firms, running portfolio accounting, reconciliation, reporting, trading and compliance on one unified
+[16:58] platform.
+[16:59] Firms are moving off legacy technology and onto Ridgeline because of how far ahead Ridgeline's
+[17:04] AI features are compared to anything else in investment management software.
+[17:08] Which is why I believe that firms that come out ahead in the AI era will be the ones running
+[17:12] on Ridgeline's unified platform.
+[17:14] If you're serious about your firm's AI strategy, Ridgeline should be part of that conversation.
+[17:18] You can request a demo at Ridgeline.ai.
+[17:21] I'd love to take a giant step back and understand your simplest conception of what open AI is
+[17:31] going to do.
+[17:32] What you wanted to do, what it stands for, yeah, I have a million questions about how
+[17:35] you would then accomplish that.
+[17:37] It seems that you've done so many interesting things and at the beginning I knew what you
+[17:40] stood for.
+[17:41] I'd love to hear your conception of it now and whether or not it's evolved at all.
+[17:45] I think this will be the greatest thus far technological achievement of human history.
+[17:51] But the only way that it really matters is if it makes people's lives much better than
+[17:56] they otherwise would have been.
+[17:58] Part of that is about giving people material abundance and access to do whatever they want
+[18:02] and to express their creativity and desire to help each other.
+[18:05] Another part of that is making sure that people maintain control and agency and that
+[18:11] the world is increasingly, not decreasingly democratized and that people get to express
+[18:18] themselves.
+[18:19] So on the positive side, in some sense, we are about to create a genie that can grant
+[18:24] any wish.
+[18:25] I think it's very important that the first wishes that we, the world, ask this genie to
+[18:31] do benefit the world as a whole.
+[18:33] And then I also think it's important that people of the world understand just how creative
+[18:39] they're going to be able to be with these wishes.
+[18:42] I'm actually not a jobs doomer at all.
+[18:43] I think there were going to be tons of jobs I think will be busier than we want, not the
+[18:47] opposite of that because I think people will have such creative wishes and such incredible
+[18:51] ideas of what they ask AI to help build and we will all benefit from not just the obvious
+[18:58] things like caring diseases, but I don't know the world's best entertainment ideas.
+[19:01] We just can't even dream of sitting here now.
+[19:03] So I want to put that in everyone's hands, which gets to one of the things that we stand
+[19:10] against, concentration of power with AI is a terrifying thing.
+[19:14] I think a lot of the talk about safety concerns is well-founded and then a lot of it is about
+[19:19] people that just really, even if it's slightly subconscious, want to concentrate power, I am
+[19:24] terrified of a world where the very real fears that AI are used as a way to say only
+[19:29] this small group of people can have it because it's too dangerous and not only they understand
+[19:33] it, but don't worry like they're going to make the right decisions for all of us.
+[19:36] I don't believe in that.
+[19:37] I don't think anyone should want to live in a world of AI overlords or a company that
+[19:42] is the rough equivalent of that where someone is making decisions for all of the future
+[19:48] and in exchange for cure for cancer, which obviously is a wonderful thing.
+[19:52] We collectively seed from all agency.
+[19:54] So I think it's very important that we not fall into this trap of in the well-meaning
+[19:59] or not spirit of AI safety and understandable fears around that.
+[20:05] We get away from a world where we all get to use this technology.
+[20:08] I was like a child with the internet.
+[20:09] There were no rules.
+[20:10] I mean, it was amazing.
+[20:11] I think it was a huge factor in making me who I am and probably you and an entire generation.
+[20:17] And I think it's critical we preserve that spirit of AI.
+[20:21] And then we all collectively have the ability to self-determine our future.
+[20:24] I have so many questions, but I'll start with this genie concept.
+[20:27] You said we're about to have a genie, implying we don't yet have a genie.
+[20:31] Well, it's pretty close.
+[20:32] I mean, like now and then, even some of the real skeptics have said to me in recent days
+[20:37] or recent weeks, I guess, I think GPT 5.6 has been off for me two weeks.
+[20:42] They're like, OK, this is very AGI-like.
+[20:44] It's very hard for me to say what I want from this model that it can't do.
+[20:49] But there are clearly some things.
+[20:51] You can't yet go say like cure cancer and get cancer cured.
+[20:54] You can't yet say go to this complicated physical thing in the robot.
+[20:58] The model also, although brilliant, is still not learning continuously as it goes.
+[21:03] And that feels to me like maybe not a hard requirement for AGI, but certainly something
+[21:09] that I'd like.
+[21:10] Now, to argue against myself there, you can make a case that AGI is not actually about
+[21:16] any single model.
+[21:18] It's the machinery that makes the models.
+[21:20] And from model to model, we actually are learning new things.
+[21:22] We're figuring out new science.
+[21:23] That stuff is working amazingly well.
+[21:26] So I have a lot of sympathy to people who say like, we're there.
+[21:28] We have the genie.
+[21:29] It can do these amazing things.
+[21:30] It can do superhuman things.
+[21:32] I am so obsessed and fascinated with the economic story of the returns to being on the frontier
+[21:37] which you are.
+[21:39] And I'm so curious if I give you had shown 5.6 to yourself and your team in 2019.
+[21:44] If that team probably would have said like, oh, yeah, it's definitely AGI.
+[21:46] I think it would have.
+[21:47] The whole post moving thing is a real thing.
+[21:49] But it does seem that I'm curious if you agree that effectively all the returns have been
+[21:54] at the frontier.
+[21:55] Totally.
+[21:56] And so everything is about staying at the frontier.
+[21:59] And I'm curious like what the hardest, scarcest part of that is if I think about compute, research
+[22:03] talent, data.
+[22:04] It's actually moves around a lot.
+[22:06] I mean, there was a time not that long ago where all the computing of the world wouldn't
+[22:09] have helped you because we were all missing the research idea.
+[22:12] No.
+[22:13] Part of why this is hard is that you do better research with more compute.
+[22:16] You can try more things.
+[22:17] An amazing statistic I heard recently is our biggest de-risk now for our upcoming runs
+[22:22] are as big as the entire compute run from 18 months ago or something.
+[22:26] So compute and research ideas are not as separate as they sound.
+[22:30] But there was clearly a time seven years ago, eight years ago, whatever, where we were way
+[22:35] more blocked on research ideas than the compute.
+[22:37] Then there was a time when we knew what to do, which that scale up, we were only bottlenecked
+[22:40] on compute.
+[22:41] Then we ran out of data and we were a bottlenecked on data and we had to figure out what to
+[22:44] do there.
+[22:45] Now, again, I would say we are still bottlenecked on compute, but the last six months or whatever,
+[22:50] have been a real triumph of a time for research ideas again.
+[22:53] So there's always a bottleneck, but the bottleneck moves around.
+[22:56] And why do you think that is the research idea thing is especially interesting to me
+[22:59] because of this automated research thing that seems to be looming RSI, whatever you want
+[23:03] to call it, where I talked to an incredible kernels engineer recently, which everyone also
+[23:08] seems blocked on.
+[23:09] And he himself said there's two years left of kernels and gave me one.
+[23:12] Yeah.
+[23:13] It's not going to be a thing.
+[23:15] Simultaneously have this weird thing, whether it's kernels or overall research, where the
+[23:19] researchers are like the most important, they got us here, they're like the most important
+[23:22] people in the world.
+[23:23] And those same people are themselves worried that they won't be relevant like very soon.
+[23:27] I suspect I'm not actually going to go that way in practice a year ago.
+[23:31] People said software engineers are cooked to feel this over and that didn't happen.
+[23:36] What did happen though is the nature of a software engine, the expectations of software
+[23:40] engine, how much they would do changed quite a lot.
+[23:43] And you don't really write code in the traditional sense, but you do something that is very recognizably
+[23:48] software engineering.
+[23:49] Now, people will argue about whether this is the same thing or a different thing than
+[23:54] when we stopped punching holes in cards.
+[23:55] I actually don't know how that worked, but somehow the holes got in the cards.
+[23:58] And we're just again operating at a higher level or this is a phase shift.
+[24:03] I don't know.
+[24:04] But the idea of getting a computer to do what you want, that is still an important job.
+[24:09] And for researchers, I suspect that although the current workflow of a researcher is going
+[24:16] to very much be automated, there will be new things in the spirit of research in the same
+[24:22] way that there's new things in the spirit of software engineering, even though we don't
+[24:25] write code that will still matter.
+[24:27] It seems like you've shifted your opinion on AI's impact on jobs in general, and I'm
+[24:32] sure in specific categories like that, describe that change and your current view.
+[24:38] You mentioned if we could go back to 2019, but you go back to 2019 and show people our
+[24:41] latest model, not only would they say that it's AGI, they would say that the economy
+[24:47] would have had-
+[24:48] Completely upended.
+[24:49] Completely up.
+[24:50] Yes.
+[24:51] And that has not happened.
+[24:53] And I think just from an intellectual humility point, anytime you're that wrong and that confident,
+[24:58] which I think we were as a field, you have to update.
+[25:02] And there's a bunch of takeaways.
+[25:04] One, a boring one, is that AI is just very jagged.
+[25:07] It's like super human genius in some ways, like dumb toddler and others, and people have
+[25:14] so far extremely complementary skills to AI.
+[25:18] Another is that people have a great degree of trust and enjoyment in working with other
+[25:23] people, and you can go hire an AI consultant right now or talk to an AI sales rep right
+[25:28] now or hire an AI engineer or whatever.
+[25:31] And somehow most people seem to still really prefer interacting with a human, and I definitely
+[25:36] would like much rather engage with a person than engage with an AI for almost everything.
+[25:41] I also think that human values have value because they're human, and as society evolves
+[25:49] and as the potential space in front of us becomes so enormous, we are deeply hardwired
+[25:56] to care about people.
+[25:57] We're going to care about what people care about.
+[25:59] And there's versions of this you can see today where AI can make incredible images and people
+[26:06] only want ones that are created by human or at least chosen by human.
+[26:10] There's the joke about at this point, you can like the signature on a piece of art as
+[26:13] most of the value, but the truth of it is you want to know about the person behind it, you
+[26:18] want to know about the person behind it.
+[26:21] And then in terms of business, for my job, for example, I think the world wants to know
+[26:25] about the person that's going to be responsible for the decisions of a company and they're
+[26:28] going to hold accountable if they make bad ones, and they don't really want an AI CEO.
+[26:34] If you think back on the portfolio of risks that you've taken in business or whatever,
+[26:39] is it the case that most of the ones that really worked well were at the start not popular?
+[26:45] Yes, that's for sure.
+[26:46] This was the thing I really learned from Peter Teal and Paul Graham, both in two different
+[26:51] ways, which is that the very best companies, the very best investment opportunities are
+[26:56] almost never the ones that look really popular.
+[26:59] You can do okay just following the trend of being a little early, but to do spectacularly
+[27:04] well, you almost always have to do things that are not what everybody else is doing.
+[27:09] You cannot be following the new wave.
+[27:12] If you think about the model cycle that you've been in, which has been accelerating, and this
+[27:17] weird fact that like the next six months or I don't know what the number is, is going to
+[27:20] be more progress than the last X years, can you bring us into what it's like to live
+[27:25] in that model cycle?
+[27:26] One of the most interesting important things that I've learned last decade is people in
+[27:32] general can be used to almost anything.
+[27:34] The world can go from dismissing a pandemic as a joke to completely lockdown to this is
+[27:41] how it's been and it's fine and we've mostly adjusted in a shockingly short amount of time.
+[27:46] And now there's either AGI close to it and everyone's like, okay, there's AGI.
+[27:50] There's all kinds of examples in one's personal life where something quite a lap, it was like
+[27:55] you have a kid or something terrible happens, like you lose a parent or break up or whatever.
+[28:00] And you think you can't ever adapt to what a change it is.
+[28:04] And then you can adapt to great things and keep being great, you can adapt to bad things
+[28:08] and figure out how to go on with your life.
+[28:10] But this is a remarkable thing that people can do.
+[28:14] And so living through this feels like another version of that, which is I thought it was
+[28:18] going to be a weirder to live through the singularity than it turns out to be.
+[28:21] And if not any less exciting to watch the models keep getting better, the first thing
+[28:26] I do every morning is like look at the model training progress.
+[28:29] And it happens faster and I have higher expectations, but it still feels really cool.
+[28:33] When you get a new one, what do you do?
+[28:35] How do you celebrate?
+[28:36] What's the morning look like?
+[28:38] It's happening faster and faster.
+[28:39] What's your ritual?
+[28:40] Many teams now work on different parts of it and different teams have like some different rituals.
+[28:45] There are some teams that always make a sweatshirt with some funny meme on it.
+[28:47] There are some teams that like always go out to the same bar.
+[28:50] But the sense of being in the room for the first time that the frontier of knowledge is pushed back
+[28:57] and getting to see what that's like, there's really nothing that most people would rather do
+[29:02] to celebrate than like get to use the new model first.
+[29:05] Do you think we have the right measurements of how good these things are?
+[29:08] Definitely not.
+[29:09] In some sense, the eval that matters is this being useful to people?
+[29:12] You can approximate it by revenue or by amount of usage or like rate of discovery of new knowledge.
+[29:18] We have some teams working on what is the real world eval look like for these models
+[29:22] as they get the supreme in scale.
+[29:23] What is the frontier of your own usage of AI?
+[29:28] I have started just recently to experiment with what it means to let an AI look at everything
+[29:35] I'm looking at on my computer.
+[29:37] I've been on this bill yet and I'm still trying to feel out like where the limits of my comfort
+[29:42] and trust should be, but this is definitely the frontier is figuring out how I get value
+[29:47] out of that, how you're comfortable with that, what that's going to look like.
+[29:49] One takeaway is that my memory is terrible relative to the memory of an AI and the ability
+[29:54] to keep in mind what email I read six weeks ago or what happened exactly in a meeting seven
+[30:01] and a half weeks ago and have that like brought up right at the exact moment and feed into
+[30:05] a decision.
+[30:06] That feels pretty magical.
+[30:07] Pretty cool.
+[30:08] This kind of sounds like personal agent ish.
+[30:10] What are the barriers to everyone having that?
+[30:12] I want that.
+[30:13] Compute, man.
+[30:14] Let's imagine that we could build this product that could just do exactly what I said for
+[30:18] all your stuff.
+[30:19] Always on.
+[30:20] Always on looking at everything you look at your computer, listening to every meeting
+[30:23] that you're in, reading every document you read.
+[30:26] And then not only that, not only can I do all that, which takes a lot of tokens, you can
+[30:29] just drag a slider about like while I'm asleep, you can spend this many tokens thinking,
+[30:34] come up with useful new ideas for me, do whatever work you can, and then just like
+[30:38] keep thinking about what I should do next.
+[30:41] What an interesting thing is like just spend more compute making your output better for
+[30:45] me the next morning.
+[30:46] I would drag that slider quite far.
+[30:48] I'd be willing to spend a lot for that.
+[30:49] But the amount of compute that that would require if everybody in the world wants to drag that
+[30:52] slider pretty far, it's like a lot.
+[30:54] I'd love to hear you talk about how you think of the nature of this new intelligence.
+[30:59] Someone told me recently, claims don't fly like a bird and this intelligence is a very
+[31:02] alien kind of intelligence.
+[31:03] And everyone's talking about how if you can verify something, it's just going to win with
+[31:08] enough compute and enough IQ, it'll just brute force its way to a solution.
+[31:12] And then in other domains where humans and the data and evals that they've done have been
+[31:16] a huge part of it, it's surprising to me like how much money it's cost to get good at, I
+[31:21] don't know, law and reasoning tracing law or something, I'm just curious how you would
+[31:25] describe and match your health.
+[31:27] It's a beautiful question.
+[31:28] Your kid is boy or girl, when they're seven or age of reason or whatever, you can describe
+[31:33] to them like, what is the nature of this intelligence?
+[31:35] How would you describe it?
+[31:36] It's a beautiful question.
+[31:37] I don't think I haven't asked this before or even any version of it.
+[31:40] The thing that's kind of mine right now is I would just say it's like a computer and
+[31:43] it's like a computer in the way that it can do a lot of things that people just can't
+[31:48] do like multiply two gigantic numbers very quickly and give you the answer.
+[31:53] And then it cannot do some things that you would very easily do.
+[31:57] The number of things that it can't do, I expect to keep receding.
+[32:02] But in an evolving world, I think human judgment and taste will continue to be hard for AIs
+[32:10] to model like where that's going to go.
+[32:12] I don't have the right word for this, it's not quite taste.
+[32:15] The world may need a new kind of word for the kind of judgment that people are very good
+[32:19] at, that AIs seem to really do be struggle with.
+[32:22] What's been like becoming a dad and having growing kids in this era, I'm thinking back
+[32:28] to your optimistic early internet days, they're going to grow up in cheap abundant intelligence
+[32:34] age.
+[32:35] Having kids is by far the best thing I've ever done.
+[32:37] And everybody says that, everybody says you can't really understand it.
+[32:40] I believe enough people that said it, I believe that to be true.
+[32:44] But the degree to which it has been true for me has been surprisingly, I think I have
+[32:48] the best, most interesting job in the world.
+[32:51] And it is still a very distant second time in kids.
+[32:53] So it's been awesome.
+[32:55] And it is a real moment for optimism.
+[32:59] My kids will never grow up in a world where they were smarter than computers.
+[33:02] If you were born at the time of GPT-3, you had a time where you had better reasoning
+[33:05] than the models, even though you didn't know I were born.
+[33:08] Yeah, you caught them briefly.
+[33:09] Our older kid like 18 months, that will never seem strange to him, that will never bother
+[33:13] him.
+[33:14] I don't think he'll care.
+[33:15] He'll talk to imagine in the dark ages when we had to like deal with products and services
+[33:20] that weren't incredibly smart.
+[33:21] He will be able to do things that you and I never were able to do and he'll have expectations
+[33:26] of life that you and I never had and all of it like a much bigger canvas.
+[33:30] Do you run the business or teams or lead people in any way that is notably different
+[33:35] because of the experience of having them?
+[33:38] The answer must be yes.
+[33:40] I feel very different having them.
+[33:42] I think there's like a bunch of small things that are really different and then again,
+[33:46] this is like not a novel insight in any way.
+[33:49] I think most people have had kids say as soon as you have a kid, you realize that you care
+[33:54] much more about them and the experience that they're going to have when you do it by yourself
+[33:59] and the world that you are going to leave them and I think I have an unusual vantage
+[34:03] point for that.
+[34:05] People ask me sometimes like, oh, now that you have kids, do you care more about your safety
+[34:09] and not destroying the world?
+[34:10] And the answer is like, I didn't need kids, I really don't want to destroy the world before.
+[34:14] But do I think more about the role of human agency and what it means about fulfilling life?
+[34:19] Definitely much more for what we're building and also like the people I work with, I want
+[34:22] them to have it too.
+[34:23] You obviously have extraordinary empathy for your kids, but the degree to which that extends
+[34:28] to all kids and then maybe to all parents and maybe then to everybody, that's been a surprise
+[34:34] to me too.
+[34:35] In one of the posts, I think there's the one that's things you wish you knew earlier or
+[34:37] something is about incentives and set them very, very carefully.
+[34:41] Yeah.
+[34:42] It's always been one of the most puzzling and interesting things about you that you don't
+[34:44] have equity exposure to this company.
+[34:47] How should the world think about your incentives?
+[34:49] I don't know what I can say beyond I have a front row seat to the most exciting moment
+[34:57] of human history.
+[34:58] That is worth more to me than any amount of money.
+[35:01] I get to have an extremely interesting life and work with extraordinary people on something
+[35:06] that I deeply care about, but somehow that doesn't do it for people.
+[35:09] No, it's not.
+[35:11] I'm curious how you think about robotics.
+[35:13] You mentioned earlier, at some point, if we had automated labor in the same work and have
+[35:17] automated intelligence, things might get even crazier labor markets, but there's a white
+[35:21] collared market.
+[35:22] If we don't have it, then things get really crazy.
+[35:25] If the role for people in the world is to be like the actuators of AI in the cloud, very
+[35:29] bad.
+[35:30] Very bad.
+[35:31] So I think it's like much greater.
+[35:32] It's imperative.
+[35:33] We don't get it.
+[35:34] We never sense of progress in that because unlike an AI where everyone is now kind of
+[35:39] on the same page, like it's going fast, you can find extremely smart people that say it's
+[35:43] like end of this year and you can find extremely smart people that say it's 20 years from now
+[35:46] or something.
+[35:47] It's not 20 years.
+[35:48] I would say we get the chat to be team moment for robotics in the next two or three years.
+[35:52] What would that be?
+[35:53] Do you know what that is?
+[35:54] Something where most people have like a real wow, not like I saw this video of a robot dog
+[36:01] doing something crazy, but I was somehow able to convince myself that a really important
+[36:08] thing happened.
+[36:09] One of the things about the chat to be team moment was that you could just go use it.
+[36:13] Yeah.
+[36:14] You don't have to like believe someone who said AI is coming soon.
+[36:16] You could just go try it.
+[36:17] And if you can go type in a command and a robot can do something crazy and you can like
+[36:21] watch it, even if you're not physically there, I think that would have the same kind of like,
+[36:24] whoa, it just did this thing.
+[36:25] Wasn't chat should be T like not this monolithic goal, but sort of like a side experiment that
+[36:30] you've decided to release that story may be instructive for something similar happening
+[36:34] in robotics.
+[36:35] Everyone seems to want to fold laundry, but maybe it's something very different.
+[36:38] When we launched GBD three, we're trying to make money trying to get people to use his API.
+[36:43] The only commercial use case that was really working them all was just so dumb.
+[36:46] If you went back and used it, you'd be astonished.
+[36:48] The only commercial use case that was working was copyright in.
+[36:51] So you pay some marketing firm 20 bucks and they paid us 20 cents per day idle, like
+[36:56] right?
+[36:57] You will landing page or whatever.
+[36:58] But in addition to that one commercial use case, developers were using this thing called
+[37:01] the playground, which was like a testing interface to chat with the model.
+[37:06] And it was really hard to do because we had not tuned the model to be good to chat with.
+[37:08] So you had to like give it a few examples of what it means to chat and then do it and people
+[37:13] really liked it.
+[37:15] And I learned this great lesson from YC is you notice you're doing something like go
+[37:20] down that path.
+[37:21] And so we decided that we would build a good chat box and stuff that people were doing.
+[37:27] And we started working on that and we finished GBD for and we started using that internally
+[37:31] like this is a big deal.
+[37:33] We kind of thought that, all right, this is going to be a real update to the world about
+[37:36] AI.
+[37:37] And there's a bunch of hard questions here about this going to create a bunch of fake news
+[37:41] is going to say really offensive things are going to get in trouble.
+[37:43] So we decided we would start with a weaker version.
+[37:47] The chat interface and GPT for the same time seemed like a lot.
+[37:50] So we would roll out the chat interface and GPT 3.5.
+[37:53] In fact, it was originally called chat with GPT 3.5.
+[37:56] We didn't plan to be a product didn't think of a huge ship, but did think it would get
+[38:00] people the world to like catch up with this and realize something was going on.
+[38:05] And we mercifully renamed it to HPT a few hours before launch and put it out as like a research
+[38:11] preview.
+[38:12] And the thought was we put it out as a research preview and then a few months later we would
+[38:15] launch a product with GPT for and for whatever reason that model was over the threshold
+[38:19] where even though we had gotten used to it internally, people said, okay, this is awesome.
+[38:24] There maybe wasn't that much utility yet, but it was an incredible moment for people
+[38:29] to feel AI progress and use something they enjoyed using.
+[38:33] And then by the time we put GPT 4, so I mean they really got benefit out of using to.
+[38:38] Are you surprised that remains the intuitive interface between us and this alien intelligence,
+[38:44] even including coding, mostly that's me talking to the computer telling us what to build?
+[38:48] No, because I'm like a massive texture.
+[38:50] I've been a massive text for my whole life.
+[38:51] I think part of my own insight of why that was good interfaces, I'm like, I'm out of
+[38:55] this.
+[38:56] I know how to do this.
+[38:57] I know what it's like to just start chatting in a text box.
+[39:00] Any thoughts on this notion of diffusion and how to make it faster?
+[39:02] Like if the mission is get intelligence into the hands and more useful for everyone, the
+[39:08] key part of that is, I don't know, marketing campaign or something.
+[39:11] How do you get this to diffuse faster than it seems to be doing naturally to me?
+[39:15] I think the key thing is just make it better.
+[39:18] I kind of believe that a truly great product markets itself.
+[39:21] There was no charge of the marketing campaign at the beginning.
+[39:23] I think as we get to this next stage of models and we figure out how to make products that
+[39:29] are as great as the models themselves, there will be such incredible utility that people
+[39:33] will spread it very quickly.
+[39:35] We should definitely do more marketing as not too popular.
+[39:38] For as much as people use it, they have very understandable anxiety about where it can
+[39:42] go.
+[39:43] And so that kind of stuff, I think some great marketing would be helpful for.
+[39:47] But in terms of value people getting out of the products and getting their products to
+[39:50] grow faster, better models, more compute, better products, no, we'll do it.
+[39:54] There was this period where the recruiting of researchers, the retention of them, the
+[39:58] incentivizing of them was the defining story in the competitive landscape or whatever.
+[40:02] I think there's lots of stories about you successfully recruiting great researchers.
+[40:06] And there's been many that have come through OpenAI and had huge impacts, some of which are
+[40:10] known, some of which are lesser known names.
+[40:12] I'm just curious about this whole genre of what you learned about how to recruit this class
+[40:17] of person, what matters to them and how you did it.
+[40:20] I've never heard you talk about the actual tactical moves you pulled to recruit somebody.
+[40:26] In the early days, I think it was quite simple, which was that we believed that
+[40:30] AJR was possible and that it was worth going after.
+[40:32] And we wanted to say that.
+[40:34] And that was like an insane, heretical belief.
+[40:37] When we first announced OpenAI, all of these giants of the field, these
+[40:42] experts were saying, this is like insane, it's hypey, it's irresponsible.
+[40:46] If really respected people like YAMLACUN or whatever, telling journalists, like,
+[40:50] oh, these guys aren't very good and it's not going to work.
+[40:53] But the fact that we were able to say we're going to go for this, it really
+[40:57] appealed to a certain kind of researcher that also wanted to go on this crazy
+[41:00] adventure with low probability of success.
+[41:02] So an ambitious, audacious vision is a very powerful recruiting tool.
+[41:08] You've written that it's actually easier sometimes to build things that are
+[41:11] harder because of this reason.
+[41:13] I super believe in this.
+[41:14] It's one of my most frequent pieces of advice to YC founders.
+[41:19] And I tried to really live it at OpenAI, just do something harder.
+[41:23] So do something that matters.
+[41:25] Do something that is important and if your company doesn't succeed, might not happen.
+[41:29] You were an investor and are an investor.
+[41:31] You've done a lot of it.
+[41:32] And at one point, that's what you did.
+[41:34] What have you learned about investors being on the other side?
+[41:37] The number of investors that actually show up and try to help you is
+[41:41] unbelievably small.
+[41:44] Josh Kushner, absolute MVP investor, unbelievable, has like worked around
+[41:50] the clock for what feels like years to help us.
+[41:52] He's the only investor that I could point to that is proactively
+[41:59] incredibly helpful all the time.
+[42:00] There are more people that could do that.
+[42:03] And there are many other investors that have also been helpful and that have
+[42:05] great strategic advice and that do things when we ask them to do it.
+[42:10] But the like constant, just relentless, all in support is surprisingly rare
+[42:16] from investors.
+[42:17] Maybe I'm biased because I always liked when people said that about me.
+[42:19] But I think founders really love that and it actually moves the needle
+[42:24] and as an investor, it's the most fun way to do it.
+[42:26] Me and my friend play this game or we text each other all the time.
+[42:29] And the prompt of the text is something I don't want you to know about me.
+[42:33] What does that bring to mind?
+[42:35] I'm tired.
+[42:36] I've been doing this a long time.
+[42:38] It's tired.
+[42:38] How do you get through that?
+[42:40] Just keep going.
+[42:41] It begs the question, is there a amount of being tired that would make you
+[42:44] stop doing this?
+[42:44] No, no, no.
+[42:45] This is the coolest job in the world.
+[42:46] I plan to do this for the rest of my career, but it's like much harder than I
+[42:49] have a way to explain to people.
+[42:51] I feel very grateful to get to do this.
+[42:52] This is not me complaining.
+[42:54] What's coming next?
+[42:55] We talk about automated AI researchers that next year or the year after.
+[42:59] How do you think about what is happening in the next six to
+[43:04] thirty six months?
+[43:05] Maybe that's too far out to forecast in this crazy exponential.
+[43:09] Maybe a different version of the question is, let's say in a month
+[43:12] 23 from now, we have something that everybody agrees is super intelligence.
+[43:16] What happens in month 24?
+[43:17] And my answer would be, not very much, the kind of like cult worship of the machine
+[43:23] God states those people believe that more is going to happen quickly than is
+[43:28] going to happen eventually.
+[43:29] A lot will happen, but eventually a lot was going to happen anyway.
+[43:32] The rate of human progress and how different each decade is going to be
+[43:36] in how much each decade is more different than the decade from before.
+[43:39] That's what happening for a long time, obviously ups and downs, but directionally.
+[43:42] And I think the right way to think about this.
+[43:46] Everybody wants to be here with the story.
+[43:47] Everybody wants to feel like they were there for the moment of the machine
+[43:50] God and they played some crazy role, but this is another step.
+[43:54] And it was hard to imagine 50 years ago and the step 50 years from now, it's
+[43:57] hard to imagine today.
+[43:58] And I think the right mental framework is just the zoom way out.
+[44:02] And it's a pretty smooth exponential.
+[44:03] Tell me a little bit about the experience of watching codex take off and how much
+[44:08] that is tied to what I would describe as a competitive advantage of distribution
+[44:12] that you built through chat.
+[44:14] And this is a gateway into a question about like moats in general and AI.
+[44:17] What you think will drive real competitive advantage in the business over time.
+[44:21] I think codex mostly is winning because it's the best product and the best model.
+[44:26] We do get some advantage from Chachabee tea, bundling, but very, very tiny.
+[44:31] That is mostly not what it's been about.
+[44:33] It has made me reflect a lot on this question of competitive advantage
+[44:36] because brilliant intelligence can migrate from any product, any other product.
+[44:41] And network effects still have a competitive advantage, economic scale and the
+[44:46] ability to like make the cheapest computer fleets, whatever, still have a
+[44:49] competitive advantage.
+[44:51] But the product advantage, if we could get people to move over to codex and
+[44:54] someone builds any better, they can be able to move from codex.
+[44:56] So it has made me reflect on that a lot.
+[44:58] There's a really interesting question about whether this is going in the
+[45:00] direction of a commodity, is intelligence going to be a pure fungible
+[45:04] commodity like Ray to the oil or something?
+[45:07] Intelligence itself, I would say, yes.
+[45:09] So what is not going to be compute fleet?
+[45:11] You know, like the scale of the compute fleet, the ability to make more
+[45:14] compute, and that's like a very durable advantage.
+[45:17] I see.
+[45:17] Even if the product itself is not because codex can write any piece of
+[45:22] software you want, the workflows, the integrations, the complex processes,
+[45:26] the ability for teams to collaborate together, that stuff is all pretty
+[45:29] powerful, even like brand preference and familiarity is pretty powerful.
+[45:33] Obviously you've done interesting stuff in hardware that I'm sure you'll
+[45:35] announce later this year.
+[45:37] How does that experiment feel and aligned with this sort of consumer
+[45:40] distribution that you have?
+[45:41] One of the reasons I'm interested in new hardware is we're talking earlier
+[45:44] about how a very powerful thing with AI is that it can be always on and
+[45:50] proactive and just understand all your context.
+[45:52] But current hardware is not good for that.
+[45:54] We are working inside of a hardware paradigm that is 50 years old,
+[46:00] something like that.
+[46:01] And computers are amazing.
+[46:03] Keyboard mice monitors, an amazing thing.
+[46:05] But we have to shape AI into that.
+[46:07] I'm excited.
+[46:08] I would love AI to be able to reference conversation, but not so much
+[46:11] that I'm willing to like crack my laptop open, put it here and have it
+[46:13] like looking at you and listening to us while it's going.
+[46:16] But I would like a piece of hardware that socially was acceptable to do that
+[46:20] and also felt like it was designed for that kind of thing.
+[46:22] As you think about the open questions, what debates in your own head
+[46:27] with your friends, with your colleagues here, what are the most
+[46:30] interesting open debates or open questions that you don't feel certain
+[46:33] about but feel important?
+[46:35] One that I don't think gets much attention is how we're going to avoid
+[46:39] cognitive atrophy.
+[46:41] How are we going to use these tools and make sure that we are like
+[46:43] stretching our brains more and more and continuing to understand the
+[46:47] stuff that really matters?
+[46:49] There's lots of versions of this that don't.
+[46:51] I remember when I was in school, I had this professor telling me like,
+[46:54] you've got to understand compilers.
+[46:55] If you don't, you will never be able to be a good programmer.
+[46:58] Somehow that wasn't quite right.
+[47:00] But understanding at a reasonable level, how the major components
+[47:05] of a computer system work has been important to me.
+[47:08] Forced to imagine scenario where we are somehow over supplied and
+[47:11] compute in two years time.
+[47:13] What would be that story?
+[47:15] It does feel possible.
+[47:16] If the models get so smart and so efficient that they can do
+[47:20] everything we need and build every piece of software we want.
+[47:23] And if the bounds of our attention are such that they just cannot
+[47:27] absorb more than what it turns out, a fairly limited amount of compute
+[47:30] can do, then we can get into oversupply.
+[47:32] Also, if we don't drive the cost curve down because we hit some sort
+[47:35] of scaling wall, we could also get into oversupply.
+[47:37] The observation about uncapped demand implies a certain price.
+[47:41] Can you give your point of view on scaling laws today?
+[47:45] In some sense, scaling laws are like the most hated prediction of all
+[47:48] time.
+[47:48] Everybody always wants to say they're going to run out.
+[47:50] They can't be like this.
+[47:51] And yet it keeps going.
+[47:52] Who are your favorite unsung heroes in this company's story?
+[47:57] The first person that came to me is Alec Radford.
+[47:59] Alec Radford is probably the most important, not very well-known
+[48:03] researcher in the whole history of the field.
+[48:05] And also just a wonderful top, top tier human being.
+[48:09] He did the work that really became the GPT series among many other
+[48:16] important things.
+[48:17] But he also is someone who inspired, guided, nudged people in many
+[48:24] other directions that turned out to be super important.
+[48:26] And I think that is cool about him is if you talk to people that worked
+[48:29] with him, they will, of course, say generational genius, brilliant
+[48:33] innovative thinker, just so deep in his understanding and his work.
+[48:37] But everybody will tell you before they finish their statement that just
+[48:41] one of the nicest, most positive best people they've ever worked with.
+[48:45] I love formative moments.
+[48:46] And so as we wind up here, I'm curious to ask one of each.
+[48:49] If you think about the whole opening experience, what moment or chapter
+[48:54] or whatever, are you most proud of your own involvement?
+[48:59] And we'll start with the other one, which is what was like the most
+[49:01] instructive thing that maybe you got wrong or did wrong or what have you
+[49:05] and what was it like to learn from it?
+[49:08] I mean, a lot of things have gone wrong.
+[49:09] A formative one that went wrong, which I haven't talked about much is
+[49:14] I think we made a mistake to try to innovate in our structure in the beginning.
+[49:17] We had a very good reason for it, which is we didn't know
+[49:20] how we were ever going to make money.
+[49:22] And we really, at the time, weren't sure at all what we're going to look
+[49:25] like when we grew up.
+[49:26] And of course, we care about our mission and we wanted to like be
+[49:30] structured in a way where even if the technology went on a very fast takeoff,
+[49:33] our mission was protected.
+[49:34] And so we had this nonprofit structure.
+[49:37] But I definitely learned something about why people don't do that much.
+[49:41] We would have saved ourselves a great deal of pain in many ways.
+[49:45] If we had not tried to innovate on our structure and found some other way
+[49:48] to preserve the central importance of the mission, maybe there was no other way.
+[49:52] Maybe there was for what we were doing and kind of the importance of it.
+[49:54] There was nothing other than an exotic structure we could have come up with.
+[49:57] But I really learned over the last decade, a big lesson about why people don't usually do that.
+[50:04] Is there anything else formative of your life that makes you you that we didn't talk about?
+[50:08] This is the question that's always the most interesting to me.
+[50:11] There are things like becoming relatively immune to people having
+[50:18] strong opinions about me that I think I develop later in life,
+[50:22] realizing that man, just if you're going to be at the center of like this crazy
+[50:25] revolution, everybody's can project a lot of stuff onto you.
+[50:27] And you got to just quickly learn to make peace about that.
+[50:31] I think there were also things I learned later in life about like how to be very
+[50:36] calm and not anxious really about stuff.
+[50:38] But in terms of what drives me and what I care about and how I want to live my life,
+[50:45] on the whole, I felt like for whatever reason, the like 10 year old version of me was pretty
+[50:49] like fully formed.
+[50:50] I think I just kind of came out this way.
+[50:52] How about the thing you're proud of looking back on?
+[50:55] I'm most proud of how many times we were right when the rest of the world was wrong
+[51:00] in an important way that put the world on a trajectory now that I'm very proud to have played a role in.
+[51:06] That feels awesome.
+[51:07] And then also for all the crap that's happened, the spiritual growth of what everyone will call it
+[51:12] that I've gotten to have of learning just incredible resilience and what that does for like making
+[51:17] me happy and the rest of my life.
+[51:19] Very grateful for that.
+[51:20] When I do these, I ask everyone the same traditional closing question,
+[51:23] what is the kindest thing that anyone's ever done for you?
+[51:26] I feel incredibly lucky about how many people have gone way out of their way to be very kind to me,
+[51:31] for my entire life.
+[51:32] As I'm thinking of this, there's just this montage of moments from life where people have been
+[51:38] unbelievably nice to me.
+[51:39] Yesterday, my kid shared his blueberries with me for the first time.
+[51:41] That was very sweet.
+[51:42] Good moment. Keep it simple.
+[51:45] Thanks, man.
+[51:46] Thank you.
+[52:02] You know how small advantages compound over time?
+[52:30] That's true in investing and just as true in how you run your company.
+[52:33] Your spending system is your capital allocation strategy.
+[52:36] Ramp makes it smarter by default.
+[52:37] Better data, better decisions, better economics over time.
+[52:40] See how at ramp.com slash invest.
+[52:43] As your business grows, Vanta scales with you.
+[52:45] Automating compliance and giving you a single source of truth for security and risk.
+[52:49] Learn more at vanta.com slash invest.
+[52:52] The best AI and software companies from open AI to cursor to perplexity.
+[52:55] Use WorkOS to become enterprise ready overnight, not in months.
+[52:59] Visit workOS.com to skip the unglamorous infrastructure work and focus on your product.
+[53:04] Ridgeline is redefining asset management technology as a true partner, not just a software vendor.
+[53:08] They've helped firms 5x in scale, enabling faster growth, smarter operations, and a competitive edge.
+[53:14] Visit ridgelineapps.com to see what they can unlock for your firm.
+[53:18] Every investment firm is unique and generic AI doesn't understand your process.
+[53:22] Rogo does. It's an AI platform built specifically for Wall Street,
+[53:25] connected to your data, understanding your process, and producing real outputs.
+[53:29] Check them out at rogo.ai slash invest.

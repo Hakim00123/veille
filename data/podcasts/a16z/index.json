@@ -1,0 +1,32 @@
+{
+ "slug": "a16z",
+ "traites": [
+  "marc-andreessen-and-chris-dixon-what-s-at-stake-in-crypto-regulation",
+  "how-enterprise-ai-really-gets-deployed",
+  "ai-for-america-s-small-businesses-lassie"
+ ],
+ "episodes": [
+  {
+   "fiche": "marc-andreessen-and-chris-dixon-what-s-at-stake-in-crypto-regulation.json",
+   "titre": "Marc Andreessen and Chris Dixon: What’s at Stake in Crypto Regulation",
+   "date": "Sat, 01 Aug 2026",
+   "date_iso": "2026-08-01",
+   "nb_outils": 5
+  },
+  {
+   "fiche": "how-enterprise-ai-really-gets-deployed.json",
+   "titre": "How Enterprise AI Really Gets Deployed",
+   "date": "Fri, 31 Jul 2026",
+   "date_iso": "2026-07-31",
+   "nb_outils": 4
+  },
+  {
+   "fiche": "ai-for-america-s-small-businesses-lassie.json",
+   "titre": "AI for America's Small Businesses | Lassie",
+   "date": "Thu, 30 Jul 2026",
+   "date_iso": "2026-07-30",
+   "nb_outils": 11
+  }
+ ],
+ "maj": "2026-08-02T09:57:33Z"
+}

@@ -1,0 +1,24 @@
+{
+ "slug": "gdiy",
+ "traites": [
+  "558-cyril-benzaquen-champion-de-kickboxing-reveiller-son-instinct-anim",
+  "557-vf-robert-gentz-zalando-le-geant-qu-amazon-n-a-pas-mange-en-europe"
+ ],
+ "episodes": [
+  {
+   "fiche": "558-cyril-benzaquen-champion-de-kickboxing-reveiller-son-instinct-anim.json",
+   "titre": "#558 - Cyril Benzaquen - Champion de Kickboxing - Réveiller son instinct animal",
+   "date": "Sun, 02 Aug 2026",
+   "date_iso": "2026-08-02",
+   "nb_outils": 2
+  },
+  {
+   "fiche": "557-vf-robert-gentz-zalando-le-geant-qu-amazon-n-a-pas-mange-en-europe.json",
+   "titre": "#557 - VF - Robert Gentz - Zalando - Le géant qu’Amazon n’a pas mangé en Europe",
+   "date": "Sun, 26 Jul 2026",
+   "date_iso": "2026-07-26",
+   "nb_outils": 11
+  }
+ ],
+ "maj": "2026-08-02T10:21:08Z"
+}

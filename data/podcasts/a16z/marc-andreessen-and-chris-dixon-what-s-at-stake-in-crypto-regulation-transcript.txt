@@ -1,0 +1,1556 @@
+The a16z Show
+Marc Andreessen and Chris Dixon: What’s at Stake in Crypto Regulation
+Sat, 01 Aug 2026
+https://a16z.simplecast.com/episodes/marc-andreessen-and-chris-dixon-whats-at-stake-in-crypto-regulation-2sleSszn
+
+[00:00] Stablecoins are tokenized stocks or dollars on blockchains.
+[00:04] Rivals the size of the Visa network.
+[00:05] Trillions of dollars transacted.
+[00:07] If you have a dollar of that stablecoin,
+[00:09] there is a dollar sitting in the bank
+[00:10] and that's why the Clarity Act,
+[00:12] working its way from the Senate is so important.
+[00:14] One of the biggest opponents to the bill
+[00:15] is Senator Elizabeth Warren.
+[00:17] And why?
+[00:19] Why are we working on this?
+[00:20] She says that North Korea and terrorists
+[00:23] and ransomware hackers are gonna run wild
+[00:26] if this bill passes.
+[00:27] The National Security people,
+[00:28] I talk to you typically don't agree with that
+[00:30] because there's a trail.
+[00:31] Another debate that has been opened
+[00:34] with respect to Clarity bill,
+[00:35] developers should be held more reliably
+[00:37] for the software that they write.
+[00:38] If you sell people who don't want us,
+[00:40] they can use by many people for many reasons.
+[00:42] It's a kill shot to be in the street,
+[00:43] which is clearly the goal.
+[00:44] Volumes are now rivaling Visa Network,
+[00:47] which is insane.
+[00:48] Lots of gigantic financial institutions of Rushton,
+[00:51] BlackRock, JP Morgan, Visa itself, MasterCard.
+[00:54] What happens if Clarity does not?
+[00:58] Crypto has reached a pivotal moment.
+[01:01] As Congress debates landmark market structure legislation,
+[01:04] the decisions made today could shape
+[01:06] where the next generation of financial infrastructure
+[01:08] is built and whether the United States
+[01:11] remains the global leader in crypto innovation.
+[01:14] In this episode, Robert Hackett sits down
+[01:16] with Mark Andreessen and Chris Dixon
+[01:18] to discuss why regulatory clarity matters,
+[01:21] but the Clarity Act would change
+[01:23] and how clear rules could unlock the next phase
+[01:25] of blockchain adoption.
+[01:26] From stablecoins and tokenized assets
+[01:29] to the future of the internet itself.
+[01:38] Welcome to the A16Z Crypto Show.
+[01:40] I'm Robert Hackett, and I'm here
+[01:41] with Mark Andreessen and Chris Dixon.
+[01:43] Who, if you watch the show, need no introduction.
+[01:46] Good to be here.
+[01:47] So today we're talking about regulation.
+[01:50] Congress is currently hashing through some legislation.
+[01:54] Once in a generation market structure legislation
+[01:56] that could determine where the future
+[01:59] of the financial system and internet get built.
+[02:04] It passed in the House last year with bipartisan support,
+[02:08] and it has been making its way
+[02:09] through the Senate ever since.
+[02:11] Now there's been lots of fights and obstacles over it,
+[02:13] which we'll get into,
+[02:15] but before we do, I wanna zoom out and go big picture
+[02:19] and talk about why regulatory clarity matters,
+[02:24] what the status quo costs us
+[02:26] and what's at stake for the country
+[02:28] and for anybody who may end up using this technology.
+[02:32] So Mark, I'd like to start with you.
+[02:34] Back in January 2014, you wrote Notbed
+[02:38] for the New York Times called Why Bitcoin Matters.
+[02:42] Things were a little bit different then.
+[02:44] This was a pretty contrarian position to stake out.
+[02:47] The crypto industry, which if you could even call it that,
+[02:50] back then looked very, very different.
+[02:54] How have things changed from then to now?
+[02:58] Yeah, sure, so 2014, so 2014 was so long ago,
+[03:02] that the New York Times actually ran a positive piece
+[03:03] on crypto from you, right?
+[03:08] And for me, with my name on it.
+[03:10] And so, yes, this was in the distant past.
+[03:12] This is for the kids watching this.
+[03:14] This is when dinosaurs were on the Earth 13 years ago,
+[03:17] might as well have been in the 1500s.
+[03:19] But yeah, I'm actually really proud of that piece.
+[03:22] So if you read that piece today,
+[03:23] I think it holds up really well.
+[03:24] I think it holds up in a few respects.
+[03:27] So, one is, and I should say this,
+[03:29] it's actually fairly amazing.
+[03:31] The Bitcoin web paper,
+[03:32] this piece is even five years into the macro trend.
+[03:36] And it was still the kind of thing
+[03:38] where it was still big news to even believe
+[03:40] that this technology mattered at all.
+[03:42] So I think it was, I think I was prescient,
+[03:45] not that Bitcoin is gonna matter,
+[03:46] but I think I was prescient and kind of forecasting
+[03:47] that we were still in the beginning of the adoption curve.
+[03:49] There were still a lot of people
+[03:51] that were gonna have to learn about this,
+[03:53] want to learn about this and be part of it.
+[03:56] And so I think that holds up.
+[03:58] I spent a lot of time in the piece
+[04:00] and around that time trying to really educate people
+[04:02] on the nature of this technology,
+[04:06] with Bitcoin, with the blockchain,
+[04:07] because that was new.
+[04:08] And for people who are not,
+[04:11] they don't have computer science degrees or math degrees,
+[04:12] like that, it's kind of a,
+[04:14] for people who do have computer science degrees,
+[04:16] it's kind of a weird idea.
+[04:16] So for people who don't have computer science degrees,
+[04:18] like it's a genuinely new idea.
+[04:19] So, and I think the importance of that
+[04:21] has held up really well.
+[04:23] I think the thing that, in retrospect,
+[04:27] needs to be changed about the piece is,
+[04:29] every time I said Bitcoin, you just swap in crypto, right?
+[04:32] Which is like at that time, Bitcoin was crypto.
+[04:34] Like it was, you know, it was essentially
+[04:35] the only game in town.
+[04:37] You know, Chris, you can correct me on the timing
+[04:38] if you want, but I believe at that point,
+[04:40] there was a proposal for what we're called colored coins.
+[04:44] Around the new.
+[04:45] Around that.
+[04:46] So, and some people don't remember there,
+[04:47] there was a proposal for the single colored coins,
+[04:49] which by the way, is the single worst branding proposal
+[04:52] of all time, you know, much, much, much worse than New Coke.
+[04:57] But the concept of it was actually Bitcoin,
+[05:00] bitcoins, bitcoins that were going to be tagged,
+[05:02] basically with properties that would let them
+[05:04] represent other things.
+[05:05] And so that's part of idea was that Bitcoin would be extended
+[05:08] to basically enable both tokenization of real world assets
+[05:11] and also, you know, virtual assets like NFTs.
+[05:14] You know, of course, what happened was that didn't happen.
+[05:16] And what happened instead was the creation of new blockchains
+[05:19] and the creation of new crypto platforms.
+[05:21] And then ultimately, you know, Ethereum
+[05:23] and everything else that followed.
+[05:24] And so, you know, what started as a technology
+[05:27] that came in industry.
+[05:28] And so I think if you read that piece,
+[05:30] you'll see that I projected many of the use cases
+[05:32] and the future development of technology,
+[05:34] but it took a different path.
+[05:35] Now, Bitcoin obviously has been very successful since then,
+[05:38] but you know, what we've really seen since then
+[05:40] is this explosion of innovation.
+[05:43] This explosion of innovation that has both happened
+[05:44] and wants to happen around all the other use cases
+[05:47] that we talked about at the piece.
+[05:50] Yeah, it's actually remarkable how well that piece holds up.
+[05:53] But there is one forecast in there
+[05:55] that I want to cite in particular that stands out,
+[05:57] which is, and I quote, you say the coming years
+[06:00] will be a period of great drama and excitement
+[06:03] revolving around this new technology.
+[06:05] I think you were spot on there.
+[06:08] Chris, you've been there since the start as well.
+[06:10] You were an early advocate and acolyte of crypto.
+[06:14] How have things changed from the early days to now?
+[06:17] Well, as Mark was saying, at the time,
+[06:20] way back sort of 2014 in the early days,
+[06:22] it was mostly kind of hobbyists and, you know,
+[06:25] super enthusiast and kind of a subculture cultish thing.
+[06:30] The technology was, you know, Bitcoin was sophisticated,
+[06:34] but a lot of the things Mark alluded to,
+[06:36] like kind of the newer blockchains were early,
+[06:39] had performance issues, scaling issues,
+[06:42] other kinds of things.
+[06:44] Fast forward today, you know,
+[06:47] every day you'll see a new announcement
+[06:48] from a major bank or FinTech company
+[06:50] announcing a platform involving stablecoins
+[06:53] or tokenized stocks or other kinds of digital assets,
+[06:57] the stablecoin volume, you know,
+[06:59] stablecoins for those who don't know
+[07:00] are basically what Mark described with Bitcoin,
+[07:02] except their dollars on blockchains.
+[07:05] That is now a, you know, rivals the size of the Visa network,
+[07:09] trillions of dollars transacted.
+[07:11] You can go into WhatsApp and send money anywhere in the world
+[07:14] for almost free in the same way you'd send a text message
+[07:18] using stablecoins.
+[07:20] It's, you know, really the way money should work.
+[07:22] You know, it was, I think Mark could speak to this
+[07:24] as one of the pioneers of the internet,
+[07:26] but I think was one of the kind of ideas
+[07:28] that early internet pioneers expected to happen
+[07:32] honestly much sooner.
+[07:34] And for a variety of reasons took a lot longer,
+[07:36] but we're now finally kind of seeing that dream, you know,
+[07:39] come alive with money moving as easily as bits.
+[07:44] So now it's a very mature industry.
+[07:45] The technology, the underlying infrastructure
+[07:47] has gotten much, much more sophisticated.
+[07:49] Even three years ago, my cost, what I just described,
+[07:52] my cost a couple of dollars, if not tens of dollars,
+[07:54] to do that transaction.
+[07:56] Now, you know, on most of the popular blockchains,
+[07:59] Alana, Ethereum and so forth, it's a sub one second
+[08:03] to close to settle the transaction,
+[08:05] sub one penny to send something, right?
+[08:07] So, and then that's due to kind of the equivalent
+[08:09] of Moore's law on blockchains,
+[08:10] which is you've gotten, you've gotten sort of more
+[08:12] and more performant chains.
+[08:14] You know, you read about hacks and things
+[08:16] in the newspaper about crypto.
+[08:19] The reality is Bitcoin has never been hacked.
+[08:20] Ethereum has never been hacked.
+[08:22] Organizations that use these things have had lack security
+[08:25] and have been hacked, but the chains themselves
+[08:28] highly secure, highly performant now.
+[08:31] And you have, you know, big institutions
+[08:34] and, you know, trillions of dollars moving
+[08:36] around in these things, which, you know,
+[08:38] of course brings us to our topic,
+[08:40] which is you need, you know, when you have that going on,
+[08:42] you need regulatory clarity.
+[08:44] You need to framework around that.
+[08:46] Well, let's talk about that.
+[08:48] Because, you know, you cited that stablecoin volumes
+[08:51] are now rivaling the Visa network, which is insane.
+[08:55] You know, this is trillions of dollars per quarter
+[08:57] turning through the system.
+[09:00] Lots of gigantic financial institutions have rushed in,
+[09:03] BlackRock, JP Morgan, Visa itself, Fidelity, MasterCard.
+[09:08] I mean, you could rattle off just any number of names
+[09:10] and they're all building on this technology right now.
+[09:13] But we've gotten this far without rules.
+[09:16] So there's been very little in the way
+[09:18] of regulatory clarity or guidance.
+[09:21] Why do we need rules now?
+[09:24] Well, so yeah, so good question.
+[09:26] So for a variety of reasons,
+[09:28] the kind of for political and policy reasons,
+[09:31] the regulation of our crypto was broken into two components,
+[09:34] stablecoins and the rest of the market.
+[09:35] So stablecoins are roughly 15%, let's call it the market.
+[09:39] 85% is the rest.
+[09:41] There was a bill.
+[09:42] And that's my market cap.
+[09:43] That's my market cap.
+[09:44] Last year, a bill passed Congress was signed
+[09:46] by the president called the Genius Act,
+[09:48] which provides a comprehensive regulatory framework
+[09:51] for stablecoins.
+[09:52] And it's not a coincidence that stablecoins
+[09:54] are also the area that's taken off the most in the last year.
+[09:56] Because once you have regulatory clarity,
+[09:59] that means that builders have certainty,
+[10:01] consumers can know if you're an American consumer
+[10:04] and you use USDC or another genius compliance stablecoin,
+[10:08] you know that if you have a dollar of that stablecoin,
+[10:11] there is a dollar sitting in the bank
+[10:12] because that's the genius regulation,
+[10:14] that that bank is audited and that's sitting
+[10:16] in short-term treasuries,
+[10:18] which is the basically the safest thing
+[10:20] the financial system can offer.
+[10:21] And so you know that dollar,
+[10:23] you can be assured that dollar is there,
+[10:25] it's not an FTX, it's not a lunatera situation
+[10:27] where it will disappear tomorrow.
+[10:29] That gives you as a consumer confidence and protection.
+[10:32] If you're an institution, if you're a bank,
+[10:33] if you're stripe, if you're PayPal
+[10:35] and you want to go and enter this market,
+[10:37] you want to know there are predictable rules
+[10:39] that there's a framework around it,
+[10:40] there's not going to be an FTX
+[10:42] that what you build will be compliant,
+[10:45] not just next year, but next 10 years, right?
+[10:48] And so for, and then if you're an entrepreneur,
+[10:51] of course, it's similar kind of logic,
+[10:52] you want to know there's certainty,
+[10:54] you want to know their rules,
+[10:55] you know, all our entrepreneurs are happy to hire lawyers
+[10:58] and pay a lot of money to be compliant,
+[11:00] they just need to know what they're aiming for.
+[11:02] And so as a result of that bill,
+[11:05] we've seen a takeoff in particularly around stablecoins
+[11:08] and then kind of the close cousin of stablecoins
+[11:10] is like, once you put a dollar in a blockchain,
+[11:12] you can put a stock, you can put a treasury bill.
+[11:13] And so that's also, you know,
+[11:16] there's been a lot of adoption there
+[11:17] with people kind of, you know, relying on agency guidance
+[11:20] and other non-legislative regulatory levers
+[11:24] to give them guidance on how to do that.
+[11:26] But the big kind of hanging problem right now
+[11:28] is that you've got sort of this other section of the market,
+[11:30] including blockchains themselves,
+[11:32] which stablecoins are built on,
+[11:34] which don't have a comprehensive federal regulatory framework.
+[11:37] And that's why the Clarity Act,
+[11:38] which is being working its way through the Senate,
+[11:40] is so important because that provides,
+[11:42] that's sort of the other 85% of the market.
+[11:43] So you can kind of imagine it's like,
+[11:44] as if we had a regulatory framework for cell phones,
+[11:48] but not for cell towers or something,
+[11:49] like half the technologies regulated,
+[11:52] the other half has this sort of uncertainty around it.
+[11:56] People are still building there,
+[11:57] people are trying to do their best
+[11:59] to kind of, you know, understand what the rules are.
+[12:03] They're, you know, there's this other lever of policymaking,
+[12:05] which is the agencies, such as the SEC and SEC,
+[12:09] they provided some guidance and things.
+[12:11] But ultimately, you know,
+[12:12] what industries are built on is,
+[12:14] you alluded to in the beginning,
+[12:15] with the internet, is they're built on legislation.
+[12:18] Legislation is solid ground to build on.
+[12:20] It's immutable, you know,
+[12:22] has the stamp of approval of the US Congress.
+[12:25] It's, you know, the result,
+[12:27] importantly, legislation is the result
+[12:29] of a lot of smart people getting together,
+[12:31] people from different political parties,
+[12:32] compromising, you know,
+[12:34] finding the right balance between industry
+[12:36] and consumer protection and so forth.
+[12:39] And, you know, so we think ultimately
+[12:42] that's what is required
+[12:44] and why the Clarity Act is so important.
+[12:46] So, as you mentioned, we do have some rules.
+[12:49] It's for stable coins.
+[12:50] That covers a sliver of the market,
+[12:51] but there's this gigantic swath of the market
+[12:53] that remains largely unregulated.
+[12:57] Mark, why do we need rules for all of this?
+[13:00] And why do we need them now?
+[13:02] Yeah, so, you know, as we've been,
+[13:06] it's just kind of bizarre to the final state
+[13:07] for the last several years, you know,
+[13:09] where sort of crypto is developing,
+[13:11] you know, largely without rules, you know,
+[13:12] for better or for worse in kind of, you know,
+[13:14] what I described as sort of experimental ways,
+[13:16] you know, between sort of inception through 2020.
+[13:19] And then we had, you know, between 2020 and 2024,
+[13:22] we had an administration, you know,
+[13:25] in the White House that just like absolutely
+[13:26] just decided to just kill the industry,
+[13:28] like just, you know, flat out, you know, to third war.
+[13:30] Specifically, by the way, declined to regulate,
+[13:32] refused to regulate and instead decided to prosecute.
+[13:36] And, you know, this kind of really remarkable thing happened,
+[13:38] which is the industry didn't die through that process.
+[13:41] Like crypto is still standing
+[13:42] and the sort of most bizarre sort of aspect of that for me
+[13:44] is I've had these conversations with some lawmakers in DC
+[13:46] where they say, well, you know, I'm going to support crypto now
+[13:49] because like if it didn't die during this whole period,
+[13:51] when we tried to kill it, then it must be good.
+[13:54] And, you know, we should probably support it,
+[13:56] which, you know, is sort of the most, you know,
+[13:57] kind of reverse logic way I can think of
+[14:00] to end up positive on something,
+[14:01] but I guess I'll take it.
+[14:04] And so, and then it also led to this kind of bizarre situation
+[14:07] where people said, well, you know, crypto hasn't, you know,
+[14:08] materialized in the way that you guys all said, you know,
+[14:10] you don't have all these use cases that, you know,
+[14:12] sort of where all the use cases, you know,
+[14:13] why isn't everybody using crypto?
+[14:15] And it's like, well, because there was like a five year
+[14:17] like regulatory result, you know, that tried to kill it.
+[14:22] And, you know, in most areas of tech, you know,
+[14:25] most areas of the industry never go through that.
+[14:28] Occasionally you get one that does, and when they do, you know,
+[14:30] they say they live a very different life
+[14:32] under very different kinds of pressures.
+[14:35] And then, you know, along the way, you know,
+[14:37] when that sort of assault was happening in America,
+[14:39] you know, against American companies primarily,
+[14:41] you know, overseas companies by and large, you know,
+[14:43] ran in whatever way their local jurisdiction allowed.
+[14:46] And that culminated in the catastrophe of FTX, right?
+[14:49] You know, stealing, you know,
+[14:50] to stop right stealing customer funds.
+[14:52] And then that led to catastrophic law.
+[14:54] And then people look at that and they're like,
+[14:55] well, I'll see that, you know, you can't trust crypto.
+[14:57] And then of course the real answer is you can't trust
+[14:59] like fully unregulated crypto.
+[15:00] You like actually have to have a framework
+[15:02] and you have to have less risk controls
+[15:03] in these companies and you have to have compliance
+[15:05] and you have to have auditing.
+[15:06] And you have to have all the things that have grown up,
+[15:08] you know, financial services business has.
+[15:10] And so anyway, a long way away, I'm kind of getting
+[15:12] to the point, which is like, we need a regulatory,
+[15:15] we need a stable permanent regulatory structure for crypto
+[15:17] in the U.S. the same way we have for stocks
+[15:19] and bonds and everything else.
+[15:21] And we need it both because we need this industry
+[15:23] to succeed, which we think, you know,
+[15:25] and many people think is extremely important.
+[15:27] We can talk about that.
+[15:29] And then we also need it so that it doesn't lead
+[15:31] to catastrophe, we need it so that it doesn't result
+[15:33] in where FTX is.
+[15:34] And so we need it so that people's money doesn't get stolen
+[15:37] and we need it so that, you know, the winners of the market
+[15:39] aren't fly-by-net operations operating on, you know,
+[15:41] yachts off some coast somewhere.
+[15:43] And so in a lot of ways, it's like the most obvious thing
+[15:45] in the world, the U.S. financial system has been
+[15:47] through this many times before.
+[15:48] The most famous case is, you know,
+[15:50] the securities acts that created the SEC regulated
+[15:54] the stock market after which, you know,
+[15:55] the U.S. capital markets in the next, you know,
+[15:58] 100 years, you know, 90 years became
+[15:59] that, you know, the envy of the world.
+[16:01] You know, we're not looking for a free lunch.
+[16:03] We're not looking for subsidies.
+[16:04] We're not looking for, you know, protectionism.
+[16:06] We're not looking for support in that way.
+[16:08] We're just looking for a basic, a permanent framework
+[16:10] that lets people do business in a responsible way.
+[16:12] And, you know, I think it's in a lot of ways
+[16:15] that's the most obvious thing in the world.
+[16:17] So you mentioned something in there which is FTX.
+[16:20] I think everybody might remember that exchange
+[16:22] and it's big implosion and collapse
+[16:24] and all the fallout from it.
+[16:27] What is inside of the clarity bill
+[16:29] that would prevent something like that from happening again?
+[16:32] Yeah, so, well, right now there is no federal regulator
+[16:35] for crypto exchanges as an example.
+[16:37] So, you know, New York Stock Exchange, NASDAQ,
+[16:40] they have federal regulators.
+[16:41] Right now there is no, the Coinbase's, Kraken's, FTX,
+[16:45] you know, for every good company like Coinbase,
+[16:47] there are many offshore ones that are not good.
+[16:49] There is simply no regulator.
+[16:51] They, there is no, and this is one of the very important
+[16:53] things.
+[16:54] It's a big chunk of the clarity act is to provide that.
+[16:57] So the SEC and the CFTC have oversight.
+[17:00] They put in, you know, disclosure regimes,
+[17:02] anti-fraud regimes, insider trading rules,
+[17:07] all the things that, you know, that you are,
+[17:09] we are used to, as Mark was saying,
+[17:10] with the, with other financial markets.
+[17:13] It's just the same kinds of rules
+[17:15] with the same agencies overseeing them that would, you know,
+[17:20] so for example, FTX wasn't audited properly,
+[17:23] very simple.
+[17:23] This is what ultimately happened, right?
+[17:25] They were moving, apparently moving money
+[17:26] between different entities.
+[17:27] They didn't have all the money there.
+[17:29] You know, if you're a federally registered crypto exchange,
+[17:33] you have at an absolute minimum, you're being audited.
+[17:36] You have all sorts of controls.
+[17:38] They have surveillance regimes.
+[17:39] They, you know, there's a whole, you know,
+[17:42] suite of things that are in the, in the, in the act
+[17:45] that would empower federal regulators to do their job.
+[17:50] And, and if you're not compliant with these things,
+[17:52] you could not operate in the U.S. is how it works, right?
+[17:54] So it would have prevented that.
+[17:57] You know, other big catastrophes,
+[18:00] Terra Luna was a big one.
+[18:01] It was a stablecoin that wasn't stable.
+[18:02] It didn't have dollars or any other kind
+[18:04] of stable currency behind it.
+[18:06] It was essentially this kind of, you know,
+[18:08] self-referential thing where the token
+[18:11] has valued by the token and would, you know,
+[18:14] should never have been presented to the stablecoin
+[18:16] and would be illegal, is illegal under, you know,
+[18:19] the genius framework.
+[18:21] As well when things are going out.
+[18:22] A lot of things work well when things are going up
+[18:24] and then don't work otherwise.
+[18:26] So yeah, these are, these are not, I mean, it's not,
+[18:31] look, the details are hard,
+[18:32] which is why it's been seven years or so
+[18:34] that some of us have been working on the Clarity Act
+[18:36] and it's now been a year, I think over a year
+[18:38] since the house passed its version of it.
+[18:41] And, you know, a year of the Senate's been working on it.
+[18:43] There's a lot of hard details.
+[18:45] It takes a lot of kind of working across the aisles.
+[18:48] It's been a very bipartisan effort.
+[18:50] So I'm not to say the details, but, you know,
+[18:52] this is, has been done before, right?
+[18:54] Financial industries have been regulated
+[18:56] and the principles that are used in other industries
+[18:59] are applied here.
+[19:00] And it's a very robot, what's in the Clarity Act now,
+[19:03] the text that was released, you know,
+[19:06] it's frustrating to read some of the news coverage
+[19:08] which apparently just doesn't, you know,
+[19:10] they don't read the bill as far as I can tell
+[19:12] because they say things like there aren't, you know,
+[19:15] sort of safeguards, for example, AML and, you know,
+[19:18] sanctions regimes and all this is simply not true.
+[19:21] There's a very, it has strict definitions
+[19:25] of who is subject to, you know, these requirements.
+[19:30] It applies all the same kind of money laundering
+[19:33] and, you know, treasury, other kind of treasury rules
+[19:36] to crypto intermediaries that are applied in other markets.
+[19:40] The fraternal order police just came out
+[19:42] with their endorsement of the Clarity Act,
+[19:46] the largest law enforcement organization in the country.
+[19:49] You know, so people are sort of opponents are saying
+[19:51] it doesn't have proper law enforcement, you know,
+[19:54] clauses and rules, but this is simply not true.
+[19:59] Yeah, let's talk about that.
+[20:00] Well, let's go over the fights that are going on
+[20:03] with this bill.
+[20:04] By the way, it's like 600, something pages, I think,
+[20:05] at this point, but still you can-
+[20:07] Go ahead, so drag it into such at GBT
+[20:10] and ask, is there money laundering?
+[20:11] Not that hard, you know, if people want to actually
+[20:15] learn about this, you can do it.
+[20:17] Yeah, it's so exciting.
+[20:19] But so let's go over each of these fights,
+[20:22] each of these debates that's going on.
+[20:24] You talked about illicit finance.
+[20:25] That's one of the big ones.
+[20:27] And in fact, one of the biggest opponents to the bill
+[20:30] is Senator Elizabeth Warren, her and her camp.
+[20:33] She's called it a ticket to sanctions evasion.
+[20:36] Yeah, that's a quote from her.
+[20:38] You know, if you hear her describe it,
+[20:40] she says that North Korea and terrorists
+[20:43] and ransomware hackers are going to run wild
+[20:45] if this bill passes.
+[20:47] What do you say to that?
+[20:49] Right now, it's extremely unclear, for example,
+[20:53] which entities are subject to what rules?
+[20:57] And so what you have is essentially a dynamic.
+[20:59] What I've learned is, when you have gray areas
+[21:02] and regulation, you have essentially a race to the bottom.
+[21:05] Because you'll have, look, I was on the board
+[21:07] of Coinbase for a long time, marks on the board.
+[21:09] Coinbase is a US-based company there.
+[21:12] They take regulation and compliance extremely seriously.
+[21:15] But for every Coinbase, it costs a lot of money
+[21:17] and it slows down your product development.
+[21:19] And so every year, a new offshore competitor will pop up
+[21:23] that doesn't do those things.
+[21:25] And becomes popular because they can offer lower fees
+[21:27] or whatever, better iterate their product faster
+[21:31] because they're not doing all the kind of compliant things.
+[21:34] And so over and over again, we've had this phenomenon
+[21:36] where the good actor, this is one of the things
+[21:39] that's frustrated us, frankly, is that we try to bet
+[21:41] on the good actor, the compliant actor.
+[21:43] And then for everyone, there's kind of this evil twin,
+[21:46] the doppelganger offshore that sort of copies all the features
+[21:49] but doesn't do the compliance.
+[21:51] And it gets, yes, and gains popularity.
+[21:53] And so what you end up having is just you end up,
+[21:55] the ambiguity ends up favoring the bad actors, right?
+[22:01] And so what the important thing to do
+[22:03] with good regulation, I think the Clarity Act does this,
+[22:05] is you very clearly define the regulatory perimeter,
+[22:08] like who's subject to this and who isn't.
+[22:10] And if you're not subject to, you can't do business in the US.
+[22:12] So like if you're in the US and doing business,
+[22:14] you have to be subject to it,
+[22:15] you give clear definitions and then you have clear rules.
+[22:17] And so as an example, in the Clarity Act,
+[22:20] if you're a financial intermediary,
+[22:23] if you're somebody like a Coinbase or like a company
+[22:27] that's holding customer funds,
+[22:28] you're subject to all of the same regulatory,
+[22:31] the same rules that a fintech, a company like Stripe
+[22:35] or PayPal or anyone else, and it's simply,
+[22:37] it's black and white in the bill.
+[22:38] So I don't know how to argue people that just simply
+[22:40] are saying things that aren't factually untrue like that.
+[22:46] And as I mentioned, the endorsement
+[22:49] of the various law enforcement agencies,
+[22:52] a bunch of very, look, it's not just,
+[22:55] there's a lot of Republican senators
+[22:56] who are very strong on national security sanctions
+[22:59] in North Korea who support the bill
+[23:01] and a number of Democrats who we think
+[23:03] will end up supporting it similarly are.
+[23:05] So I don't think it's neither true nor is it shown
+[23:09] by the range of support for the bill.
+[23:12] Mark, what do you think about this criticism
+[23:14] that the bill enables sanctions evasion?
+[23:17] Yeah, so it's really, so I've spent quite a lot of time
+[23:21] kind of in national security world
+[23:23] and I would say the national security people
+[23:24] I talk to typically don't agree with that.
+[23:27] In fact, the typically say something quite different
+[23:29] which is ironically, they're hoping that more criminals
+[23:32] and terrorists use crypto and use blockchains
+[23:34] because there's a trail, there's a blockchain
+[23:38] and there's a trail and that is contrasted specifically
+[23:42] with how a lot of, for example,
+[23:43] terror financing happens today.
+[23:44] And so I'll just give you an example of this.
+[23:45] There's a thing in kind of the Middle Eastern
+[23:47] kind of terror world is terror organizations.
+[23:49] There is an existing legacy payment system
+[23:52] that by the way is not the banks,
+[23:54] it's not any piece of technology.
+[23:56] It's a system called the Hwala system
+[23:58] and it's an ancient centuries old system.
+[24:01] It's basically sort of informal peer-to-peer payments
+[24:05] and it operates fluently across borders.
+[24:07] And the way that it works is you'll have like two cousins,
+[24:10] one in one country and one in the other country
+[24:11] and you go give money to the cousin in one country
+[24:14] and then the money never actually moves
+[24:17] but like that cousin tells the other cousin
+[24:19] that the family now has that amount of money
+[24:20] and then as a result, the money effectively
+[24:22] becomes a lot to the other location.
+[24:24] And so you literally have peer-to-peer payments happening
+[24:27] around the world with actually no actual transfer,
+[24:30] no actual transfer of physical cash.
+[24:31] So you can't like catch it at the border.
+[24:33] No digital trail whatsoever
+[24:35] because nothing has happened digitally.
+[24:37] No paper trail, no nothing.
+[24:38] And that's I think for example,
+[24:40] that's actually how a lot of terror plots are enhanced.
+[24:43] And so it would be, there was actually a term a while ago
+[24:46] that national security people were kicking around.
+[24:47] They called crypto, they called it prosecution futures,
+[24:50] which is if we could just get the bad guys
+[24:52] to use crypto instead of using the other methods,
+[24:54] like we would actually be able to then mind the blockchain
+[24:56] to be able to prosecute down the road.
+[24:58] And so this is one where it's just the whole thing
+[25:00] and it's just been incredibly confusing the whole time
+[25:01] because it's kind of this upside down backwards kind of thing.
+[25:04] And quite frankly, not talking about anybody in office,
+[25:07] but there are many people in the industry
+[25:08] who have said things like, well, crypto is inherently
+[25:10] anonymous and you can't trace anything,
+[25:13] which is just like upside down bizarre world kind of claims,
+[25:18] which I think frankly just does for people
+[25:20] not understanding the technology.
+[25:22] And so I think just the actual reality of it is
+[25:25] if more bad guys were running more money through crypto,
+[25:28] I think more bad guys would get caught not fewer.
+[25:31] Right on, yeah.
+[25:32] And, you know, there's this thing that happens on TV shows.
+[25:36] I'm sure you watch them, crime procedurals,
+[25:38] car procedurals where they're like, I'm the criminal.
+[25:41] You know, why are me the money in Bitcoin?
+[25:43] Nobody's going to know about it.
+[25:44] Oh, it's totally crazy.
+[25:46] Yeah, so the traditional thing that they do in TV shows,
+[25:50] the traditional thing they do is they say,
+[25:51] well, you need to put a gun to somebody said,
+[25:53] they say, do a wire transfer,
+[25:54] like wire transfer the money, right?
+[25:56] And then they literally show a digital display
+[25:59] and it'll literally like have one of these things
+[26:00] where it's like zero to 100% as the money moves.
+[26:03] And the whole thing happens within like two minutes, right?
+[26:04] And then in the real world, it's like, okay,
+[26:06] try to move money through the banking system
+[26:08] across borders, you know, it's good luck, right?
+[26:10] Like days and days and days, you know,
+[26:13] because the systems are shut down
+[26:14] and they don't work on weekends and the paperwork
+[26:16] and then this and that.
+[26:17] It's just like, it's just like
+[26:18] I incompletely flat on a plausible.
+[26:19] So you're exactly right.
+[26:21] What's happened is they've extrapolated that straight
+[26:22] to crypto and it's all in here.
+[26:24] And yeah, it's like any of these things,
+[26:26] which is like, yes, it works, it's great on TV, you know,
+[26:30] country, maybe what a lot of people think,
+[26:34] you know, television is not actually realized.
+[26:37] And yeah, it very much does not work that way.
+[26:39] Both existing payment system does not work that way
+[26:42] in real life and crypto does not work that way in real life.
+[26:45] It's actually a non-trivial kind of research problem
+[26:48] that's going on today, research and product development
+[26:51] to build blockchains that do have privacy
+[26:53] because they are so, they are so public.
+[26:56] And that fact, one of the funny things that happened was,
+[26:57] you know, we think that's important,
+[26:59] just not for nefarious reasons
+[27:01] because if you want to like pay, you know, whatever,
+[27:03] I want to pay you for some service, maybe it's a private,
+[27:06] you know, maybe it's a medical thing or a financial thing.
+[27:08] You don't want everyone to know about it.
+[27:09] Just like we do in the regular financial system,
+[27:11] you'd want to have some privacy.
+[27:12] And that since I'm going to digital dollar,
+[27:13] you want some privacy, right?
+[27:14] It seems like a natural thing.
+[27:16] It's funny because, you know, for a long time,
+[27:19] everyone said, well, why would you want to build privacy?
+[27:20] It's only for criminals.
+[27:21] Since genius has passed and now,
+[27:24] dollar-nominated stablecoins have gotten more popular.
+[27:26] We've actually heard in DC now,
+[27:27] people are saying, well, what about privacy?
+[27:29] You need to have privacy.
+[27:29] I'm like, yes, we agree, we agree.
+[27:32] It's not always, it actually is very reminiscent
+[27:34] of the early internet, you know, when Mark,
+[27:37] when you guys added, it didn't, it wasn't an escape.
+[27:39] You guys invented SSL, right?
+[27:40] Or you did.
+[27:41] Yeah, we did.
+[27:42] And so, you know, for the kids, don't know this,
+[27:44] that HTTPS, that was an escape, that was an invention.
+[27:48] And at the time, it was like, well, who would need that?
+[27:49] Why would you need to send secret stuff?
+[27:52] And at the time, probably some bad guys did use it maybe,
+[27:55] but of course, over time, we all realized
+[27:57] that was an important, and 99.9% of it is like good behavior,
+[28:01] right?
+[28:02] It's people interacting with their bank or something, right?
+[28:05] You guys had to go, you got to go in front of Congress
+[28:07] and didn't you have some?
+[28:09] It was a four-year fight.
+[28:10] It was actually quite analogous to this.
+[28:11] And so when we started, so when we started,
+[28:13] so that's kids was the first,
+[28:15] as people as their first piece of consumer software
+[28:17] that got widely used that incorporated
+[28:20] public key, public key encryption,
+[28:21] modern encryption with public keys.
+[28:23] And at the time we shipped,
+[28:25] we actually had to ship two different versions.
+[28:26] We had to ship a strong encryption version inside the US,
+[28:30] but we were classified, encryption was classified
+[28:33] as a munition under, we're called itar export control rules
+[28:36] at the time.
+[28:37] So encryption was classified in the same category
+[28:39] as a Tomahawk missile, which meant that the Netscape browser
+[28:42] was classified in the same category as a Tomahawk missile.
+[28:44] And so we had to ship deliberately, deliberately
+[28:47] insecure versions of the product overseas.
+[28:49] And you can imagine how much our overseas customers
+[28:51] enjoyed that, they get this.
+[28:53] And by the way, we literally labeled it in the box,
+[28:55] which is like, we encryption, basically do not trust this.
+[28:57] And you can imagine how that one for sales.
+[28:59] And of course, immediately what happened was,
+[29:01] of course, foreign competitors immediately then stepped in
+[29:03] and started making a stronger encryption.
+[29:06] So people outside the US just didn't use our product,
+[29:08] they used products that were made outside the US.
+[29:10] And so we went to Washington, as you do when you're a kid,
+[29:14] you go to Washington, you kind of explain things logically
+[29:16] and they tend to stare at you.
+[29:19] Like, you've grown a third eye.
+[29:20] And so you start to really kind of get
+[29:22] into the specific details of it.
+[29:25] But then you get into this like fundamental dichotomy,
+[29:27] which is as you said, which is like, okay,
+[29:29] is encryption bad?
+[29:31] Because bad guys are gonna do bad things with it.
+[29:35] Or is it good because it is the key to establishing trust
+[29:39] and being able to do business.
+[29:40] And for law abiding citizens, both here and overseas
+[29:43] to be able to cooperate together
+[29:45] and be able to conduct business.
+[29:46] And so it's like, do you want to completely eliminate
+[29:49] the risk of any sort of ever cyber criminality
+[29:52] or do you want to make Amazon.com possible, right?
+[29:56] And those questions are kind of deeply intertwined.
+[30:00] And so anyway, it was this very long
+[30:02] kind of education process.
+[30:03] It took four years, it took a very, very long time to unwind.
+[30:07] They did ultimately make that change.
+[30:09] By the way, the world did not end.
+[30:11] And the world did not end for several reasons.
+[30:14] One is, as you said, overwhelmingly the use cases were positive.
+[30:18] And then the sort of intelligence services adapted in many ways.
+[30:22] And then the other just incredibly positive thing
+[30:25] that happened was American industry won, right?
+[30:27] And by the way, not just Netscape,
+[30:29] but like many other, the global internet economy
+[30:33] is dominated by American companies.
+[30:35] And by the way, if you're in the national security state
+[30:38] and you ask them the question of,
+[30:39] would you rather have this giant industry
+[30:41] be dominated by American companies
+[30:42] or non-American companies 100% of the time?
+[30:44] They'll tell you they want dominated by American companies
+[30:46] because they can deal with American companies, right?
+[30:48] Whereas, you know, they can't deal with some company
+[30:50] that's running in some other jurisdiction.
+[30:52] You know, a lot of times they can't even talk to them.
+[30:55] And so anyway, so it was this classic case study.
+[30:58] That one took four years.
+[31:00] This one, Chris, this is like a, you know,
+[31:01] we're now in like year seven.
+[31:04] And so for people who think the modern world is speeding up,
+[31:06] it's at least in this respect, it's not, it's slowing down.
+[31:09] But yeah, and then this is why, by the way,
+[31:11] there's so much pressure right now on clarity
+[31:13] to get clarity of paths is because, you know,
+[31:14] it's seven year after one of these two of these issues,
+[31:16] I think it's clearly enough.
+[31:17] So let's talk about some of the other objections to the bill.
+[31:20] Another big one is ethics reform.
+[31:23] So the president, his family members,
+[31:24] they have interests in crypto businesses.
+[31:27] This will come as a surprise to nobody
+[31:29] who's been reading the news.
+[31:35] And so the critics say that this bill will enrich
+[31:37] the people who are most vocally supportive of it.
+[31:41] How do you address that?
+[31:43] Yeah, I mean, I would say first of all,
+[31:44] like it's not my area of expertise,
+[31:47] but like also as a citizen,
+[31:48] I think there should be ethics rules for government officials.
+[31:51] I don't think those should be exclusive to crypto.
+[31:54] I think there should be ethics rules around trading stocks
+[31:56] and other crypto for sure, other financial assets.
+[32:00] That seems reasonable to me.
+[32:03] Number one, number two, the clarity act,
+[32:07] even without specific ethics provisions
+[32:10] will add significant restrictions to anyone in crypto,
+[32:13] including requirements for disclosures
+[32:16] around the risks and holdings of a crypto asset.
+[32:20] It will add lockup requirements.
+[32:22] So it's only an increase in the restrictions
+[32:25] that would be applied to anybody,
+[32:26] including government officials, point number two.
+[32:29] And then point number three,
+[32:30] I think what's been frustrating from a political point of view
+[32:32] is that the specific ethics kind of provision
+[32:38] around crypto has been coupled with the topic
+[32:41] we've been discussing, which is regulating this industry.
+[32:44] This bill, as proposed right now,
+[32:47] would be the first bill in US history,
+[32:49] I'm told that regulates an industry
+[32:52] and also adds specific ethics provisions
+[32:55] for government officials in it, right?
+[32:56] This is very exceptional.
+[32:57] Normally, government ethics rules are done separately
+[33:01] and an industry is regulated separately.
+[33:03] So, I think that we're being held to,
+[33:09] this industry is being held to a completely different standard
+[33:11] than other industries.
+[33:12] That said, I look, I think that a very reasonable debate
+[33:15] for people to have and for politicians
+[33:17] and policymakers to figure out
+[33:19] is what ethics rules should there be
+[33:22] for all financial assets, including crypto.
+[33:26] Specifically, right now, there is an active negotiation.
+[33:29] I hope, obviously, I hope there's a resolution.
+[33:32] It's between the various politicians,
+[33:34] not sort of industry.
+[33:36] Obviously, I hope they can come figure something out
+[33:39] so that we can move forward
+[33:40] because we wanna regulate this industry.
+[33:42] By the way, this bill puts controls
+[33:44] on government officials' use of crypto
+[33:46] that are stronger than apply to government officials'
+[33:49] stock trading.
+[33:51] And so, if you don't like how government officials
+[33:54] trade stocks, this bill puts in place something
+[33:57] that is much stronger than that for crypto.
+[34:00] Yeah, and one other point I would add is,
+[34:02] right now, we think of crypto,
+[34:04] most people think crypto has a thing you can trade.
+[34:07] I think what they're missing in that
+[34:08] is that increasingly, like the stablecoins
+[34:11] we've been discussing, it's a thing you can use.
+[34:13] And if the industry is successful,
+[34:16] it will get more, you'll have more and more use cases
+[34:18] and more and more ways in which it's sort of embedded
+[34:20] into our financial life.
+[34:21] It'll be a normal thing for a kid to buy tokenized stocks
+[34:24] instead of going to some traditional stockbroker.
+[34:28] And so, I also think it's important with these rules
+[34:30] to make sure you separate that kind of trading behavior
+[34:34] from the use behavior, because I think it's important
+[34:37] for government officials to have access
+[34:40] to modern technology.
+[34:41] And I think this is the future of finance.
+[34:44] Okay, so there are government ethics rules in the bill
+[34:48] and also it's a separate issue
+[34:49] from creating market structure rules for crypto.
+[34:53] Maybe these are separable issues.
+[34:55] Like the reality of where the politics are right now
+[34:57] is that there are ethics provisions in the current bill.
+[34:59] They're still being kind of negotiated.
+[35:01] I hope they come to resolution.
+[35:02] But I think from our perspective,
+[35:04] the important thing is that after this many years
+[35:06] of kind of regulatory gray area and an environment
+[35:08] that favors, as I was describing before,
+[35:10] kind of a race at the bottom,
+[35:12] the important thing from our perspective
+[35:13] is we get regulatory framework passed
+[35:17] and we think the Clarity Act, while not perfect,
+[35:20] is significantly better than the status quo.
+[35:22] And so I hope that those issues are resolved.
+[35:25] Got it.
+[35:27] You mentioned stablecoins again, just now.
+[35:30] And one of the big fights has been over the treatment
+[35:33] of stablecoins in this bill.
+[35:34] In particular, the banking lobby,
+[35:37] most notably JP Morgan Chase has been very vocal about this.
+[35:42] They are unhappy with the idea
+[35:44] that you could earn interest on stablecoin holdings.
+[35:49] Now, the fear, the concern, the worry is that
+[35:52] if consumers can earn interest on stablecoins,
+[35:54] that they're going to pull their money out of banks
+[35:56] and keep them in these other accounts,
+[35:59] that's going to cause deposit flight,
+[36:01] and they don't want that to happen.
+[36:03] So what's the state of that debate right now?
+[36:06] Yeah, I think the bill will end.
+[36:08] Yeah, in the bill, essentially,
+[36:10] I would say the banks got mostly what they wanted,
+[36:12] which is that in the bill, you cannot pay,
+[36:15] you cannot pay interest on balances.
+[36:18] You can pay, I think the exact language is anything
+[36:22] that's functionally or economically similar to a bank account
+[36:26] and there's further legal clauses.
+[36:30] What you can do is sort of more complicated things,
+[36:34] like if somebody did multiple transactions
+[36:37] and if they did sort of a formula
+[36:38] that's not functionally or economically similar
+[36:41] to paying out on a balance,
+[36:42] like you can give them rewards for using their stablecoin
+[36:48] wallet twice a month at Walmart,
+[36:50] Walmart could give them some kind of reward back.
+[36:53] So it's more like a credit card kind of.
+[36:55] Which is what they'd ask for,
+[36:56] the banks that's basically asked for,
+[36:57] and the industry, it's all been sort of in the press.
+[37:02] There was a sort of a prolonged discussion
+[37:05] and they kind of got what they seemed like
+[37:09] they got what they had asked for,
+[37:10] but then remained, I don't know, seemed to then want more.
+[37:14] So I think going any farther,
+[37:17] you start to ban, for example,
+[37:19] I think you start to ban things
+[37:22] like Starbucks rewards points and things, right?
+[37:24] So I mean, I think it's kind of gotten to the,
+[37:28] as far as it can go.
+[37:28] And essentially, it was a compromise,
+[37:31] it was somewhat painful for the crypto industry,
+[37:34] but in the context of the broader bill,
+[37:37] we think it nets out,
+[37:39] still very supportive of the overall bill.
+[37:41] The thing that I find so interesting is,
+[37:44] this debate has been embodied by Brian Armstrong
+[37:47] versus Jamie Diamond.
+[37:48] They're kind of the two leading voices on this,
+[37:52] but JP Morgan has a big blockchain unit.
+[37:55] They're working on this stuff.
+[37:56] They have tokenized deposits that are live on-chain.
+[38:01] So it's just interesting that they're trying to slow roll
+[38:05] clarity, but also-
+[38:06] I mean, these are massive organizations, I guess,
+[38:08] with many, they're almost like countries or something,
+[38:11] the JP Morgan, so there are many different factions and things.
+[38:14] But yes, as far as I know, every big bank,
+[38:16] including JP Morgan, have significant blockchain efforts.
+[38:19] And I think if clarity passes,
+[38:22] you'll see a lot of those efforts will roll out
+[38:26] in a significant way.
+[38:27] We're way past the kind of,
+[38:29] the way enterprises kind of use new technology,
+[38:31] sometimes they kind of dip their toe in
+[38:34] and do experimental stuff, we're way past that now.
+[38:36] We speak to a lot of these organizations on a regular basis,
+[38:39] like they have real significant deployments
+[38:41] that are gonna go live, some of them are live,
+[38:43] some of them are gonna go live
+[38:44] with greater regulatory clarity.
+[38:47] They, you know, I think they see significant opportunity.
+[38:49] I mean, you have to remember the banking system is,
+[38:52] for a bunch of reasons, I'm not necessarily their fault,
+[38:55] it's just that these systems are very complex
+[38:57] and very intertwined with each other,
+[38:58] but a lot of the technology is very antiquated.
+[39:01] I mean, it's not, it's sort of a joke in Silicon Valley
+[39:03] that they still have co-ball programmers at banks,
+[39:05] but it's actually true because a lot of them
+[39:07] have very old code bases.
+[39:09] And in their defense, it's because it's a very hard,
+[39:12] they're so intertwined that you can't just sort of
+[39:15] upgrade your software by yourself,
+[39:17] you have to do it all together.
+[39:18] And so one of the things that blockchains have done
+[39:19] for the financial industry is it's sort of given them
+[39:22] a unified framework where they can all kind of say,
+[39:25] hey, together, let's move into the 21st century.
+[39:28] And it's kind of solved not just a technology problem
+[39:31] but a coordination problem.
+[39:32] And I think if you speak to them,
+[39:33] and as we have, they're all very excited about that.
+[39:37] And so you'll see, I think as a result,
+[39:38] the other thing I'll say is just like the simple way
+[39:40] to think about blockchains is they just remove layers
+[39:42] of mediation, sort of their disintermediation machines,
+[39:46] they remove many of these things now.
+[39:48] Like Mark was saying, you send money through a wire.
+[39:50] We had a case where we had funded a portfolio company,
+[39:52] it was international.
+[39:53] Literally two weeks later, we couldn't find the money.
+[39:55] Like this is a significant financing, right?
+[39:58] And it turns out, if you actually dig into it,
+[40:00] there is no international wire system.
+[40:03] Like it's basically you wired a bank,
+[40:05] the bank has some piece of paper,
+[40:06] they just move somewhere else, they wired another bank.
+[40:08] Like there is no financial network,
+[40:11] like global network, the way there is a global internet
+[40:13] or a global WhatsApp network.
+[40:15] It's a patchwork of systems.
+[40:18] And so one of the beautiful things with say, stablecoins
+[40:20] is you're just sort of, you're building something
+[40:22] just the way you would build it on the internet,
+[40:23] which is just one big thing that kind of goes
+[40:25] in over the top network.
+[40:27] And so the banks see that opportunity.
+[40:30] They say, wow, this is, you know,
+[40:33] we can save a lot of money,
+[40:34] we can provide better products.
+[40:36] You know, we can modernize a whole bunch of things.
+[40:39] And so we see that across the board
+[40:41] that a lot of these organizations are very excited
+[40:44] about this, including JP Morgan.
+[40:46] So this is an opportunity for a big technological upgrade.
+[40:49] All these systems you mentioned,
+[40:51] they have parts of it that are still running on COBOL,
+[40:53] many decades old, and this is a chance to.
+[40:55] And don't take it from me.
+[40:57] I mean, Goldman just came out, you know,
+[40:58] see you have David Solomon, the Goldman Sachs,
+[41:01] endorsing the Clarity Bill, Fidelity, BlackRock,
+[41:04] a bunch of other kind of major financial organizations.
+[41:07] They all have major efforts.
+[41:09] Many of this is public, you know,
+[41:10] the most innovative FinTech companies like Stripe
+[41:13] have gone in a big way.
+[41:15] So if you don't have to listen to me,
+[41:16] just look at the news.
+[41:17] I mean, at the beginning, we were talking
+[41:19] about the early Bitcoin days.
+[41:20] We're very far away from that now.
+[41:22] These are very big organizations.
+[41:25] And the technology is, you know,
+[41:27] on the verge of going very mainstream
+[41:28] with the right regulation.
+[41:30] There are a lot of endorsements, a lot of support.
+[41:32] The one that sticks out for me you mentioned earlier
+[41:34] is a lot of the biggest law enforcement organizations
+[41:37] are for it, which I think is a major tell.
+[41:40] I want to shift over to another debate
+[41:43] that has been opened with respect to the Clarity Bill,
+[41:46] which is over liability for developers.
+[41:51] There's a former White House Cybersecurity official,
+[41:53] Carol House, she's raised this concern
+[41:55] that developers should be held more liable
+[41:57] for the software that they write.
+[42:00] She argues that this, if you don't hold them liable,
+[42:03] that this could set a dangerous precedent
+[42:04] for other areas of technology
+[42:06] like AI.
+[42:08] So Mark, I know you spend a lot of your time
+[42:10] in the AI world working on this stuff.
+[42:13] What do you think about this argument?
+[42:16] Yeah, I mean, it's a kill shot to the industry.
+[42:18] Like it's just like, it's impossible.
+[42:20] It makes software development impossible
+[42:21] because how can any software developer
+[42:22] who didn't hesitate to use the software down the road?
+[42:25] And you don't even need to think about this
+[42:26] in terms of software, just think in terms of anything.
+[42:29] You know, if I run a hotel in a criminal state as a hotel,
+[42:31] they use the hotel, you know,
+[42:32] and they plan their operation.
+[42:33] Does that make you part of their conspiracy?
+[42:36] You know, if I'm an engineer in a car
+[42:37] and the car is used in a bank robbery,
+[42:39] does that make me an accessory to bank robbery?
+[42:41] Like, it's completely insane.
+[42:42] You cannot, if you saddle people who build products
+[42:45] that get used by many people for many reasons,
+[42:47] if you saddle them with dial stream liability
+[42:49] for the purposes of just kill the industry,
+[42:51] which is clearly the goal.
+[42:54] And just to add to that, it's important not to conflate,
+[42:57] like in some of these like core cases,
+[42:59] there's been some conflation of if you go,
+[43:01] if you're to use Mark's analogy,
+[43:03] if you make, build a car,
+[43:04] and then you actually like knowingly help a criminal do it,
+[43:08] like then you, then you are in trouble, okay?
+[43:10] And no one's debating that, okay?
+[43:12] And so if you build a piece of software and you're like,
+[43:13] hey, criminals come use it and they send you an email
+[43:15] and you're like, how do I do a crime?
+[43:16] And you're like, here's how you do a crime?
+[43:18] And there have been cases like that in the software world.
+[43:20] Like that is a crime and no one's debating that, okay?
+[43:22] Like, no one, like what we're talking about here
+[43:24] is you're making software like open source software,
+[43:27] whether it's AI or crypto,
+[43:29] and you're making it for a, you know,
+[43:31] like a constructive use case.
+[43:35] You're making a car, you're making a hammer,
+[43:36] whatever, you're making an AI model,
+[43:38] you're making a blockchain.
+[43:40] And, you know, and then you, for example,
+[43:42] make it open source.
+[43:43] If you had unlimited downstream liability
+[43:46] or criminal liability or civil liability or any kind,
+[43:50] it says Mark said, you just simply like,
+[43:52] how could you ever make the,
+[43:54] how could you ever decide to do that
+[43:55] as an open source developer with that kind of risk?
+[43:57] You couldn't, they almost, I think in Mark,
+[43:59] you know better, but in the AI world,
+[44:00] I think there've been a few bills,
+[44:01] including California, that almost passed,
+[44:04] that would have imposed that kind of
+[44:06] basically unlimited downstream liability on AI models,
+[44:08] which, I mean, these people aren't,
+[44:11] they aren't big companies,
+[44:12] they can afford defending themselves,
+[44:14] like some five guys in a garage
+[44:16] are gonna take unlimited liability,
+[44:18] like it's gonna kill it,
+[44:19] it's gonna kill the whole,
+[44:20] it's gonna kill open source.
+[44:21] Yeah, this is the thing, so that's the thing.
+[44:23] So the first thing, and this is a very live issue
+[44:24] in AI policy also,
+[44:25] when people are trying to try to do this AI,
+[44:27] which I think is very clearly
+[44:29] what they're trying to do.
+[44:30] So first is open source dies, right?
+[44:32] So just like right out of the gate opens source dies,
+[44:34] because open source developers
+[44:35] aren't getting paid to start with.
+[44:37] You know, they certainly can't take on,
+[44:38] you know, no, no, most negative liability.
+[44:40] You know, they certainly can't, you know,
+[44:42] even if there were insurance available,
+[44:43] even if there were insurance available
+[44:44] to cover unlimited downstream liability
+[44:46] for products used in millions of people,
+[44:47] you know, you still couldn't, you know,
+[44:48] open source people can't afford to do it.
+[44:50] So open source dies,
+[44:51] because open source dies, academic research dies, right?
+[44:53] Cause without open source,
+[44:54] there is no, there is no computer science research
+[44:56] in any of these fields.
+[44:57] It's entirely dependent on the source.
+[44:58] So it kills computer sciences in the field.
+[45:01] And that's just to start.
+[45:02] Then it kills venture investing, right?
+[45:04] Cause like we can't,
+[45:05] we obviously can't invest in a company
+[45:06] if they have, you know, a million times the level of exposure
+[45:09] because somebody does something
+[45:10] that they didn't even know about.
+[45:12] And then it kills all the companies, right?
+[45:13] All the startups.
+[45:14] And then it kills the big companies.
+[45:15] And it just kind of, you know,
+[45:16] cause they also can't take that on.
+[45:19] And so it risks right through.
+[45:19] And so this is the thing where it's just like the level
+[45:23] of misunderstanding of what it takes
+[45:25] to actually like run a business
+[45:26] to do anything productive is either like
+[45:28] just completely absent when people make that argument
+[45:30] or they are deliberately trying to kill the industry,
+[45:32] which by the way,
+[45:34] I think they're trying to deliberately kill the industry.
+[45:37] Maybe, maybe.
+[45:40] Let's move on to one of the last objections
+[45:42] that I've heard most often,
+[45:44] which is that this bill would punch a hole
+[45:47] in securities laws.
+[45:49] You know, Mark, you mentioned that securities laws
+[45:51] have allowed US capital markets to thrive
+[45:53] over the past 90 some odd years
+[45:56] and have made the US the envy of the world.
+[45:59] So some people say that if this bill gets through,
+[46:01] a company will just go,
+[46:02] Hey, I'm going to just tokenize whatever.
+[46:04] I'm going to tokenize some asset.
+[46:06] I'm going to, you know, put it on a blockchain
+[46:08] and that is going to exempt me from SEC oversight
+[46:11] and securities law in general.
+[46:13] What do you, what's your response to that?
+[46:15] So if you take a stock and you talk,
+[46:17] this is in the bill,
+[46:18] if you take a stock and you tokenize it,
+[46:19] that's a security and it's regular by the SEC,
+[46:22] like a security is, it's very black and white and clear.
+[46:25] The only thing that is different
+[46:30] and with respect to blockchain regulation
+[46:32] is that it delineates in certain situations
+[46:38] that blockchains like a token like Bitcoin or Ethereum
+[46:45] in the clarity bill, it delineates in some cases,
+[46:47] it'll be regulated by the SEC,
+[46:48] in other cases, it'll be regulated by the CFTC.
+[46:51] In all cases, they have a federal regulator.
+[46:53] And now this, by the way,
+[46:54] this is even the sort of the last administration
+[46:58] that was opposed to crypto implicitly agreed
+[47:00] with this framework, okay,
+[47:01] because let me just walk you through it.
+[47:03] So Bitcoin, when it started was presumably one
+[47:07] or some set of people, whoever Satoshi was
+[47:10] and by definition, when something starts, it centralized.
+[47:13] There's a person behind it,
+[47:14] they have sort of inside information and control
+[47:17] and the way the Clarity Act works,
+[47:18] at that point, you are regulated by that token
+[47:20] is regulated by the SEC, right?
+[47:23] So someone creates a new blockchain,
+[47:25] they have control over it.
+[47:28] And they have rules like if they have lockups, for example,
+[47:32] they have disclosure rules,
+[47:33] they have all the kinds of things
+[47:34] you expect from securities laws.
+[47:37] Over time, when you hit certain thresholds
+[47:40] of decentralization and start to look more like a Bitcoin
+[47:42] and Ethereum today, where there is no central actor
+[47:46] that controls it as inside information and so forth,
+[47:48] the Clarity Act designates that the CFTC oversees that token.
+[47:53] So it's regulated as a commodity and out of security
+[47:55] because at that point, you still need regulation
+[47:57] to make sure that people aren't dumping on the market
+[48:00] or cornering the market and all the other things
+[48:02] that commodities laws regulate,
+[48:04] but it's a different regulatory regime
+[48:06] depending on sort of the nature of the asset.
+[48:09] So it becomes more like things like gold,
+[48:11] precious metals, metals, metals.
+[48:12] Yes, it's like Bitcoin
+[48:14] and even a lot of administration who was anti-crypto,
+[48:17] they said at some point that Bitcoin and Ethereum
+[48:19] were sufficiently decentralized to be regulated as commodities, right?
+[48:23] So this has been implicit in court cases
+[48:25] and in agency decisions from both parties for the last 10 years,
+[48:29] all Clarity does is enshrine it in law
+[48:32] and make the definitions really specific
+[48:35] so that people know exactly where they are,
+[48:37] so you don't have to go to court to figure it out, right?
+[48:39] So it's really just kind of taking what's been consensus
+[48:41] across the courts and the regulators
+[48:43] and making it sort of hard coding it and making it specific,
+[48:47] but at every moment, so first of all, all existing assets
+[48:50] by putting on a blockchain,
+[48:50] they still are securities number one.
+[48:53] And number two, all assets, digital assets
+[48:56] have a federal regulator, right?
+[48:58] And have a framework.
+[48:59] And today, if I create a token and, you know,
+[49:03] and this is the biggest issue you have
+[49:05] with like a lot of these things is there's no rules
+[49:07] for disclosure, there's no rules for insider trading lockups.
+[49:11] But if the Clarity Act passes, like our investments,
+[49:13] we are effective lock up here, meaning that the period
+[49:16] in which we can sell will increase significantly
+[49:20] because we'll invest in someone, the launch of product,
+[49:23] it'll have a token and until these criteria are met
+[49:27] for sort of hitting sufficient decentralization,
+[49:29] there are lockups on venture capitalists
+[49:31] and founders and so forth, right?
+[49:33] Which is how it should be.
+[49:34] I mean, it should be, it's a smart risk-based
+[49:37] regulatory framework and we think will allow
+[49:40] for people to build products that are long-term products
+[49:44] and build trust in the market.
+[49:46] Consumers will, you know, consumers, investors,
+[49:48] and so forth, all the market participants
+[49:50] will have trust in the market because it's regulated,
+[49:52] because it's a framework around it.
+[49:54] And that's how you build a real industry, long-term.
+[49:59] All right, so we've walked through a number
+[50:01] of the live fights, all these things
+[50:02] are being debated right now.
+[50:04] Any one of them could potentially tank this bill.
+[50:07] What happens if Clarity does not pass?
+[50:11] Yeah.
+[50:13] Well, one is we'll keep working on it and some day it will pass.
+[50:17] Number one, it will pass.
+[50:19] Number two, a lot of these things can and are being done
+[50:23] by at the agency level, meaning the agencies,
+[50:26] the SEC, CFTC, Treasury, and so forth.
+[50:30] And so, you know, I think that the big difference
+[50:32] is legislation is, you know, de facto permanent
+[50:37] in a way that agency rulemaking is less so
+[50:40] and that's important both to, you know,
+[50:42] make sure the rules are there and, you know,
+[50:45] for the long-term for protecting consumers.
+[50:48] But also for industry, to have confidence is, you know,
+[50:51] you were going to make an investment,
+[50:52] you want to build something,
+[50:54] those things can take many years to build.
+[50:55] And so, you know, if you have to try to build
+[50:57] on like shifting sands,
+[51:00] you're much less likely to make that investment
+[51:02] of time and money and it's just much harder
+[51:05] to kind of, you know, you've got enough to worry
+[51:08] about as an entrepreneur already without having, you know,
+[51:12] kind of a shifting maze of regulatory changes.
+[51:15] So, so that would be the downside.
+[51:17] It'd be just, it would just be sort of prolong that.
+[51:19] But also, like we're going to, I think I'm optimistic
+[51:22] well, it will get passed in the near future,
+[51:24] but if it doesn't, we will keep working on it.
+[51:27] Some people have this idea that regulation
+[51:29] and innovation are just opposites.
+[51:30] They're on odds with one another, they're opposed.
+[51:34] Mark, you spend a lot of your time
+[51:35] on what you call the little tech agenda,
+[51:38] advocating for startups, for builders, for developers.
+[51:42] How does all of this fit into that regime?
+[51:46] And why is regulation good in this case?
+[51:50] Yeah, so I would say political theorists
+[51:52] talk about all the different forms of government
+[51:54] and the thing that they are, you know,
+[51:55] the different debates about different forms of government,
+[51:57] how well they work and the one that I think everybody agrees on
+[51:59] is there's a specific degenerate form of government
+[52:02] called anarcho tyranny.
+[52:04] So anarcho from anarchy and then tyranny.
+[52:07] And anarcho tyranny is a social government
+[52:09] by which you regulate the law-abiding people of death.
+[52:12] The anarcho part of it is you let the real breakers
+[52:15] go actually nuts.
+[52:16] And then the tyranny part of it is you regulate
+[52:18] or prosecute the good actors to death.
+[52:20] And so you basically encourage the criminals
+[52:22] and you condemn the law-abiding.
+[52:26] And so that was the governance regime
+[52:29] under the prior administration.
+[52:31] You know, that was the system
+[52:33] and you know, to your question,
+[52:34] like to start off self act like very directly.
+[52:37] And by the way, in two segments,
+[52:38] which was started south side of the US,
+[52:39] just went wild and did whatever they wanted,
+[52:41] you know, which as we discussed led to FTX,
+[52:44] standards inside the US got brutal punished
+[52:47] with no route to safety,
+[52:48] with no route to a way to actually say to conduct business.
+[52:52] And so like if you were designing from scratch
+[52:54] or saying like, what's the worst possible policy,
+[52:56] what's the worst possible approach?
+[52:57] Like it would be anarcho tyranny,
+[52:59] which is what we had, you know,
+[53:00] what do you actually want?
+[53:01] You want predictability.
+[53:02] You want predictability.
+[53:03] You want stability.
+[53:05] You want prudence.
+[53:06] You want reasonableness.
+[53:07] You want, you know, protections
+[53:09] at the right level of protection.
+[53:10] You know, you want cause protections.
+[53:12] You want investor protections.
+[53:14] You know, you want things to be happening in a fair way,
+[53:17] but you also want innovation.
+[53:19] You want freedom.
+[53:20] You want the ability to innovate.
+[53:21] You want the ability to deploy high quality products
+[53:25] that work in the way that they say they do.
+[53:28] You want to be able to have customers
+[53:29] be able to trust you.
+[53:30] And you want to be able to know
+[53:32] that you're going to be in business in a year
+[53:34] and not being sort of want to lay attacked
+[53:36] and destroyed by a system that gives you no way to do it legally.
+[53:40] And so it's, you know, like a lot of things in life.
+[53:42] It turns out there is a middle ground.
+[53:45] There is a centerist position.
+[53:48] You know, the centerist position involves
+[53:49] the correct level of regulation.
+[53:52] You know, without that, you know,
+[53:53] either side of that is just, you know,
+[53:55] absolutely devastating.
+[53:57] You know, not as devastating too much
+[53:59] as devastating as so you want it.
+[54:00] You want to kind of only locks it right in the middle,
+[54:02] which is what we think this,
+[54:03] which is very much what we think clarity does.
+[54:06] Let's zoom out to and talk about what,
+[54:10] what's at stake for the country
+[54:12] and for American leadership?
+[54:14] Passing the Clarity Act,
+[54:15] why is it so important for the country to do this?
+[54:18] What will it lead to?
+[54:20] Oh, I mean, so this is in the law,
+[54:22] we would argue this is in the long tradition
+[54:23] of American technological leadership
+[54:25] and I would say American technological supremacy,
+[54:28] which is do you want to be the country
+[54:30] that leads the world of technology or not?
+[54:32] And by the way, there's two parts of that,
+[54:34] which is one is do you want the technology to exist
+[54:36] when, you know, some people argue that, you know,
+[54:38] you better open up certain technologies,
+[54:39] but then there's another part of it,
+[54:41] which is technologies do tend to exist.
+[54:43] You know, once they get impacted
+[54:44] and then do you want that to happen inside your own country
+[54:46] or do you want to have that happen somewhere else?
+[54:48] And you know, we always make a very strong argument
+[54:50] on this, which is you 100%,
+[54:52] every American citizen should want America,
+[54:54] you know, regardless of political position or whatever,
+[54:57] if you want America to be the technology leader
+[54:58] in the world, that has many benefits
+[55:01] that has, you know, direct economic benefits
+[55:03] in terms of the wealth of the country
+[55:04] and the ability to, you know, pay for all the things
+[55:06] that we want to pay for.
+[55:07] It has enormous benefits in terms of all sorts of security,
+[55:12] our ability, like, for the crypto industry
+[55:15] to be based in the U.S.
+[55:16] is overwhelmed for United States security,
+[55:18] like an overwhelmingly good for United States law enforcement,
+[55:20] overwhelmingly good for United States national security,
+[55:23] because then, you know, if you're the FBI
+[55:25] or if you're any agency, a government,
+[55:27] you're dealing with American companies,
+[55:28] which is a much more straightforward thing to do
+[55:31] when you need something.
+[55:32] And so it's good from a security perspective.
+[55:35] By the way, I think it's also good for, you know,
+[55:37] opportunities for kids, you know,
+[55:38] or you're kids able to get educated in the state of the art,
+[55:42] you know, technologies, time, lots of career opportunities,
+[55:44] and are they able to work in those fields?
+[55:46] And, you know, American kids for 100 years
+[55:47] have had that edge, kids, you know, all over the planet
+[55:50] and hopefully that continues.
+[55:53] And so, like, you know, it's just one of these
+[55:55] fairly amazing things.
+[55:56] We're in some ways, this is like,
+[55:57] like, we're so used to America being the technology leader
+[56:00] that it almost feels embarrassing to make this argument,
+[56:02] because it's such an obvious argument.
+[56:03] Like, America has so clearly benefited from this
+[56:06] for the last 100 years.
+[56:08] And in my view, we should all want that
+[56:10] to continue for hundreds of years to come.
+[56:12] Chris, you literally wrote the book on this stuff
+[56:14] on blockchains, read, write, own.
+[56:17] Tell us, what does clarity unlock
+[56:20] if it passes in a year to years in the indeterminate future?
+[56:26] Yeah, well, as I mentioned before,
+[56:26] I think of a simple way to think of a blockchain
+[56:28] is a disintermediation machine.
+[56:31] It lets you build internet services
+[56:33] where instead of having kind of a bunch of, you know,
+[56:37] organizations in the middle,
+[56:39] taking pieces of the sort of the take, the money along the way,
+[56:43] you can build advanced internet services
+[56:45] where it's, think of it as peer-to-peer,
+[56:47] I can send you a dollar.
+[56:48] Stablecoin is a simple example.
+[56:50] I can send you a dollar.
+[56:51] There's no intermediary taking, you know,
+[56:54] if you send to Mexico right now
+[56:55] using a traditional financial service provider,
+[56:57] it'll take 8%, 10%.
+[56:59] Stablecoin, it's almost zero
+[57:01] because there's not someone sitting in the middle, right?
+[57:02] So that's the simplest case.
+[57:04] What's worked so far has been financial use cases.
+[57:08] Stablecoins, we're seeing now people, you know,
+[57:11] stocks and bonds and treasury bills
+[57:13] and other kinds of financial assets, lending.
+[57:16] I think that will, in the next couple of years,
+[57:18] be the dominant use case.
+[57:19] So I think we'll see what I hope is a significant upgrade
+[57:22] of the financial system.
+[57:25] By the way, a lot of the benefits are global,
+[57:27] but, you know, I think we take for granted here
+[57:28] that we have a very high functioning currency
+[57:32] and financial system.
+[57:33] This makes us accessible, you know, globally.
+[57:37] Longer term, and what I kind of talk about in my book,
+[57:39] I think that you could take this technology
+[57:41] and apply it beyond that.
+[57:42] And you can imagine, for example, a world where, you know,
+[57:46] if AI agents proliferate the way that, you know,
+[57:50] we hope they will and I think a lot of people
+[57:51] in the AI industry think they will,
+[57:53] you can imagine internet of, you know,
+[57:54] billions and trillions of AI agents conducting economic
+[57:59] transactions and the natural way they would do that
+[58:00] would be through crypto assets.
+[58:03] You can also imagine just, you know, all sorts.
+[58:05] And I kind of, you know, allude to this at the end
+[58:08] of my book where I speculate about future use cases,
+[58:10] other, you know, other kinds of things from, you know,
+[58:14] services for creative people, social networks, games,
+[58:17] all sorts of things.
+[58:18] I think you can, you know, but I think for the next
+[58:21] couple of years, mostly what we'll be focused on
+[58:23] is this sort of finance 2.0 upgrade that we talked about.
+[58:28] All right.
+[58:29] Well, time will tell whether policymakers listen to you guys,
+[58:32] heed your advice and realize that rules are better
+[58:36] than no rules, that the time is urgent
+[58:39] and that the benefits will accrue to whoever sets the standards
+[58:42] first.
+[58:44] Thank you both for coming on the show.
+[58:45] Thank you.
+[58:46] Good, thanks Robert.
+[58:50] Thanks for listening to this episode of the A16Z podcast.
+[58:53] If you like this episode, be sure to like, comment,
+[58:56] subscribe, leave us a rating or review
+[58:58] and share it with your friends and family.
+[59:00] For more episodes, go to YouTube, Apple Podcasts
+[59:03] and Spotify.
+[59:05] Follow us on X and A16Z and subscribe to our
+[59:07] substack at a16z.substack.com.
+[59:11] Thanks again for listening and I'll see you
+[59:12] in the next episode.
+[59:15] As a reminder, the content here is for informational purposes
+[59:18] only, should not be taken as legal business,
+[59:20] tax or investment advice or be used to evaluate
+[59:22] any investment or security and is not directed at any
+[59:25] investors or potential investors in any A16Z fund.
+[59:29] Please note that A16Z and its affiliates may also
+[59:31] maintain investments in the companies discussed
+[59:33] in this podcast.
+[59:34] For more details, including a link to our investments,
+[59:37] please see a16z.com forward slash disclosures.
