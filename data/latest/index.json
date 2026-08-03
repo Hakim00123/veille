@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-08-03T14:32:02+00:00",
+ "genere_le": "2026-08-03T19:26:34+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
  "nb_flux_en_erreur": 13,
- "nb_articles": 387,
+ "nb_articles": 386,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -30,14 +30,14 @@
    "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
   },
   {
+   "source": "Early Retirement Now",
+   "url": "https://earlyretirementnow.com/feed/",
+   "erreur": "HTTPError: 429 Client Error: Too Many Requests for url: https://earlyretirementnow.com/feed/"
+  },
+  {
    "source": "Parlons RH",
    "url": "https://www.parlonsrh.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.parlonsrh.com/feed/"
-  },
-  {
-   "source": "CIO Online",
-   "url": "https://www.cio-online.com/rss.php",
-   "erreur": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.cio-online.com/rss.php"
   },
   {
    "source": "Personnel Today",
