@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-08-04T08:31:42+00:00",
+ "genere_le": "2026-08-04T14:03:31+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
+ "nb_flux_en_erreur": 12,
  "nb_articles": 388,
  "chunks": [
   "chunk-01.json",
@@ -38,11 +38,6 @@
    "source": "Personnel Today",
    "url": "https://www.personneltoday.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.personneltoday.com/feed/"
-  },
-  {
-   "source": "Indie Hackers",
-   "url": "https://www.indiehackers.com/feed.xml",
-   "erreur": "ReadTimeout: HTTPSConnectionPool(host='www.indiehackers.com', port=443): Read timed out. (read timeout=20)"
   },
   {
    "source": "Startup Unlocked",
