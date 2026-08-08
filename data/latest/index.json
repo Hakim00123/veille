@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-08-08T12:40:20+00:00",
+ "genere_le": "2026-08-08T18:32:47+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
  "nb_flux_en_erreur": 13,
- "nb_articles": 343,
+ "nb_articles": 358,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -39,6 +39,11 @@
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.personneltoday.com/feed/"
   },
   {
+   "source": "Indie Hackers",
+   "url": "https://www.indiehackers.com/feed.xml",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='www.indiehackers.com', port=443): Read timed out. (read timeout=20)"
+  },
+  {
    "source": "Startup Unlocked",
    "url": "https://pierregaubil.substack.com/feed",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://pierregaubil.substack.com/feed"
@@ -67,11 +72,6 @@
    "source": "Dans la Tete d'un VC",
    "url": "https://danslatetedunvc.substack.com/feed",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://danslatetedunvc.substack.com/feed"
-  },
-  {
-   "source": "Sifted",
-   "url": "https://sifted.eu/feed",
-   "erreur": "ReadTimeout: HTTPSConnectionPool(host='sifted.eu', port=443): Read timed out. (read timeout=20)"
   },
   {
    "source": "Patent Drop",
