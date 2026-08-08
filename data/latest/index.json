@@ -1,16 +1,17 @@
 {
- "genere_le": "2026-08-08T01:18:31+00:00",
+ "genere_le": "2026-08-08T06:44:58+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 15,
- "nb_articles": 360,
+ "nb_flux_en_erreur": 12,
+ "nb_articles": 366,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
   "chunk-03.json",
   "chunk-04.json",
   "chunk-05.json",
-  "chunk-06.json"
+  "chunk-06.json",
+  "chunk-07.json"
  ],
  "erreurs": [
   {
@@ -27,11 +28,6 @@
    "source": "The Evidence-Based Investor",
    "url": "http://www.evidenceinvestor.co.uk/feed/",
    "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
-  },
-  {
-   "source": "Morningbull",
-   "url": "https://morningbull.ch/feed/",
-   "erreur": "ConnectionError: HTTPSConnectionPool(host='morningbull.ch', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='morningbull.ch', port=443): Failed to "
   },
   {
    "source": "Parlons RH",
@@ -74,19 +70,9 @@
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://danslatetedunvc.substack.com/feed"
   },
   {
-   "source": "Tech a suivre - L'ADN",
-   "url": "https://www.ladn.eu/tech-a-suivre/feed/",
-   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.ladn.eu/tech-a-suivre/feed/"
-  },
-  {
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
-  },
-  {
-   "source": "Max Tegmark – publications",
-   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
-   "erreur": "ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
   }
  ]
 }
