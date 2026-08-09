@@ -1,17 +1,16 @@
 {
- "genere_le": "2026-08-09T12:42:01+00:00",
+ "genere_le": "2026-08-09T18:35:25+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 12,
- "nb_articles": 376,
+ "nb_flux_en_erreur": 15,
+ "nb_articles": 350,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
   "chunk-03.json",
   "chunk-04.json",
   "chunk-05.json",
-  "chunk-06.json",
-  "chunk-07.json"
+  "chunk-06.json"
  ],
  "erreurs": [
   {
@@ -28,6 +27,16 @@
    "source": "The Evidence-Based Investor",
    "url": "http://www.evidenceinvestor.co.uk/feed/",
    "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
+  },
+  {
+   "source": "Morningbull",
+   "url": "https://morningbull.ch/feed/",
+   "erreur": "ConnectionError: HTTPSConnectionPool(host='morningbull.ch', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='morningbull.ch', port=443): Failed to "
+  },
+  {
+   "source": "La maison de l'islam",
+   "url": "http://www.maison-islam.com/articles/?feed=rss2",
+   "erreur": "HTTPError: 503 Server Error: Service Unavailable for url: http://www.maison-islam.com/articles/?feed=rss2"
   },
   {
    "source": "Parlons RH",
@@ -68,6 +77,11 @@
    "source": "Dans la Tete d'un VC",
    "url": "https://danslatetedunvc.substack.com/feed",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://danslatetedunvc.substack.com/feed"
+  },
+  {
+   "source": "Sifted",
+   "url": "https://sifted.eu/feed",
+   "erreur": "HTTPError: 500 Server Error: Internal Server Error for url: https://sifted.eu/feed"
   },
   {
    "source": "Patent Drop",
