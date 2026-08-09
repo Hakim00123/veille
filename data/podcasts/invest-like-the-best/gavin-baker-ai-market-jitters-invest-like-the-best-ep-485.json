@@ -1,0 +1,55 @@
+{
+ "podcast": "Invest Like the Best",
+ "slug": "invest-like-the-best",
+ "titre": "Gavin Baker - AI Market Jitters - [Invest Like the Best, EP.485]",
+ "date": "Tue, 04 Aug 2026",
+ "date_iso": "2026-08-04",
+ "lien": "",
+ "duree": "3904",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 4.7,
+ "taille_transcript": 72719,
+ "transcript": "gavin-baker-ai-market-jitters-invest-like-the-best-ep-485-transcript.txt",
+ "nb_outils": 5,
+ "outils": {
+  "Apollo": [
+   "t in some way, and maybe they just put up some cash up front. So it's like they're not on the hook. I'm just making this up. But like do something like you can because you have money now and credit markets are revolting. I'm sure our friends at Blackstone and Apollo are suggesting some variant of this to the memory companies. But hey, we will put up some amount of money from our cash flow today. And then it's God. It's surety that makes the person is extending the debt feel better. But we want some sort of a cut of the o"
+  ],
+  "Claude": [
+   "'re back to it's stock market terms. There's never really been this way in the stock market before, but people talk about the fragmentation of media and how it used to be like Walter Cronkite, only voice of truth. And now we don't have that anymore. It's like Claude, it's kind of Walter Cronkite for the stock market. And everybody just believes whatever it says. And by the way, it's really smart, but it's not always right. It's interpretation isn't always correct. And with the stock market, you were fundamentally dealing",
+   "ays right. It's interpretation isn't always correct. And with the stock market, you were fundamentally dealing about, you know, a probabilistic, Bayesian interpretation of the future. It feels like in the market, here's this piece of news. It gets fed through Claude, Claude interpreted this way. It's a huge chunk of people trade on Claude's view. And so you've seen stuff. There's this guy, TBU. He's like part of the anonymous semiconductor mafia on X, actually, a very smart guy. I know I'm in real life, but he posted thi",
+   "t. It's interpretation isn't always correct. And with the stock market, you were fundamentally dealing about, you know, a probabilistic, Bayesian interpretation of the future. It feels like in the market, here's this piece of news. It gets fed through Claude, Claude interpreted this way. It's a huge chunk of people trade on Claude's view. And so you've seen stuff. There's this guy, TBU. He's like part of the anonymous semiconductor mafia on X, actually, a very smart guy. I know I'm in real life, but he posted this amazin"
+  ],
+  "Cursor": [
+   " can just see anthropic shareholders. Like they want to be like, it's not true. It's hard for me to believe that open source and open AI have accelerated to the extent they did. But yeah, anthropic is clearly in the poll position. And oh, by the way, Groc and cursor have also you can see from third party data. Like July was a pretty transformational month with Groc 4.5, Groc builds coming out. So it has been a tricky month. And I have a friend, I have a friend of Fidelity who just says the way to have navigated the last ",
+   "operating cash flow thing doesn't play out? And therefore, we just need to get financed as well. The operating cash flow does not continue to accelerate. That would be negative. And that to some degree is going to be a function of how anthropic, open AI, rock cursor, an open source. If there was a pretty dramatic contraction in GPU prices that was kind of sustained, the market would react to that instantly. That would be worrisome. If it started to get to be really easy to get GPUs. I mean, have you heard anyone say they",
+   "eally, really hard. Because if you buy too much compute, you could go bankrupt at the scale of these things. But if you don't buy it off, you could lose. Well, open AI just got back into the game. And now SpaceX is in the game and a big way with Grock 4.5 and cursor. After watching that from a game theory perspective, is anybody going to back off any time soon, especially if it can be funded out of operating cash flow? Have you met anyone in your travels out here that you would say is like way more bullish than you? And "
+  ],
+  "Ramp": [
+   "vertical and then whoosh. Like the actual fundamentals haven't even hit. And yet you've already had what probably would have normally been a three year cycle in like six weeks. Vanta automated security and compliance for over 16,000 fast moving companies like Ramp, Kersher, and Harvey, keeping the audit ready around the clock. It's the number one agentic trust platform. And it now helps companies like yours watch for the risks that show up between audits across your vendors, your AI tools, and your whole environment. E"
+  ],
+  "Stripe": [
+   ". Like they're not really doing jack-as-eye, like huge scale layoffs, which probably tells you something about where they think there will be lots of opportunity to still have people plus 100%. Well, the bull case you've seen church from cognition, ray of its stripe that the companies that are spinning the most on AI are growing meaningfully faster. Yeah, I love that cognition index. The cognition index is wild. All the skeptics will point out rightfully. It's not really controlling for industry. But then if like you dig"
+  ]
+ },
+ "mentions_publicitaires": {
+  "Cursor": [
+   " RAMP is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grew revenue 3.2 times faster than the average American business. Visa for sale, cursor, stripe, notion, 11-lab, Shopify, and 70,000 other businesses all run on RAMP. Mind those two and so should yours. Learn more at ramp.com slash invest. Felix by Rogo is a personal finance agent that turns a single prompt into finished client-ready work using ",
+   "x sends back Finish PowerPoint decks, Excel models, and sourced research. Felix works the way your team already does, delivering work quickly and accurately around the clock. Learn more at Rogo.ai slash Felix. The best AI and software companies from OpenAI to cursor to perplexity use WorkOS to become enterprise-ready overnight, not in months. Visit WorkOS.com to skip the unglamorous infrastructure work and focus on your product. Hello, and welcome, everyone. I'm Patrick O'Shaughnessy, and this is Invest Like The Best. Th"
+  ],
+  "Excel": [
+   "irm's own templates, context, and standards. Send Felix an email like, take these comments and turn them for me, or update my tracker with the context of these emails, or run the ability to pay math on this buyer, and Felix sends back Finish PowerPoint decks, Excel models, and sourced research. Felix works the way your team already does, delivering work quickly and accurately around the clock. Learn more at Rogo.ai slash Felix. The best AI and software companies from OpenAI to cursor to perplexity use WorkOS to become e"
+  ],
+  "Perplexity": [
+   "ck Finish PowerPoint decks, Excel models, and sourced research. Felix works the way your team already does, delivering work quickly and accurately around the clock. Learn more at Rogo.ai slash Felix. The best AI and software companies from OpenAI to cursor to perplexity use WorkOS to become enterprise-ready overnight, not in months. Visit WorkOS.com to skip the unglamorous infrastructure work and focus on your product. Hello, and welcome, everyone. I'm Patrick O'Shaughnessy, and this is Invest Like The Best. This show is an ",
+   "how at ramp.com slash invest. As your business grows, Vanta scales with you, automating compliance and giving you a single source of truth for security and risk. Learn more at vanta.com slash invest. The best AI and software companies from OpenAI to cursor to perplexity use WorkOS to become enterprise ready overnight, not in months. Visit workOS.com to skip the unglamorous infrastructure work and focus on your product. Ridgeline is redefining asset management technology as a true partner, not just a software vendor. They've "
+  ],
+  "Shopify": [
+   "t to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grew revenue 3.2 times faster than the average American business. Visa for sale, cursor, stripe, notion, 11-lab, Shopify, and 70,000 other businesses all run on RAMP. Mind those two and so should yours. Learn more at ramp.com slash invest. Felix by Rogo is a personal finance agent that turns a single prompt into finished client-ready work using your firm's own templates, contex"
+  ],
+  "Stripe": [
+   "s the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grew revenue 3.2 times faster than the average American business. Visa for sale, cursor, stripe, notion, 11-lab, Shopify, and 70,000 other businesses all run on RAMP. Mind those two and so should yours. Learn more at ramp.com slash invest. Felix by Rogo is a personal finance agent that turns a single prompt into finished client-ready work using your fir"
+  ]
+ }
+}

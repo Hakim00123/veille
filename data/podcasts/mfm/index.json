@@ -3,9 +3,25 @@
  "traites": [
   "the-surprising-product-that-built-italy-s-richest-family",
   "this-guy-made-80m-in-profit-here-s-his-next-3-stock-picks",
-  "killer-marketing-secrets-that-always-work-ft-ogilvy-adman-rory-sutherl"
+  "killer-marketing-secrets-that-always-work-ft-ogilvy-adman-rory-sutherl",
+  "9-drunk-ideas-that-sound-stupid-but-are-secretly-genius",
+  "we-found-the-internet-s-best-sales-advice"
  ],
  "episodes": [
+  {
+   "fiche": "9-drunk-ideas-that-sound-stupid-but-are-secretly-genius.json",
+   "titre": "9 drunk ideas that sound stupid (but are secretly genius)",
+   "date": "Thu, 06 Aug 2026",
+   "date_iso": "2026-08-06",
+   "nb_outils": 4
+  },
+  {
+   "fiche": "we-found-the-internet-s-best-sales-advice.json",
+   "titre": "We found the internet's best sales advice",
+   "date": "Tue, 04 Aug 2026",
+   "date_iso": "2026-08-04",
+   "nb_outils": 1
+  },
   {
    "fiche": "the-surprising-product-that-built-italy-s-richest-family.json",
    "titre": "The surprising product that built Italy's richest family",
@@ -28,5 +44,5 @@
    "nb_outils": 3
   }
  ],
- "maj": "2026-08-02T19:37:24Z"
+ "maj": "2026-08-09T17:46:11Z"
 }

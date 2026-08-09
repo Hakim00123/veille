@@ -1,9 +1,17 @@
 {
  "slug": "invest-like-the-best",
  "traites": [
-  "sam-altman-how-to-make-an-abundant-future-invest-like-the-best-ep-484"
+  "sam-altman-how-to-make-an-abundant-future-invest-like-the-best-ep-484",
+  "gavin-baker-ai-market-jitters-invest-like-the-best-ep-485"
  ],
  "episodes": [
+  {
+   "fiche": "gavin-baker-ai-market-jitters-invest-like-the-best-ep-485.json",
+   "titre": "Gavin Baker - AI Market Jitters - [Invest Like the Best, EP.485]",
+   "date": "Tue, 04 Aug 2026",
+   "date_iso": "2026-08-04",
+   "nb_outils": 5
+  },
   {
    "fiche": "sam-altman-how-to-make-an-abundant-future-invest-like-the-best-ep-484.json",
    "titre": "Sam Altman - How to Make an Abundant Future - [Invest Like the Best, EP.484]",
@@ -12,5 +20,5 @@
    "nb_outils": 4
   }
  ],
- "maj": "2026-08-02T19:37:25Z"
+ "maj": "2026-08-09T17:46:12Z"
 }

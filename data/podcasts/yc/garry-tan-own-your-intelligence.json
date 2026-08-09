@@ -1,0 +1,28 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "Garry Tan: Own Your Intelligence",
+ "date": "Thu, 06 Aug 2026",
+ "date_iso": "2026-08-06",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/Garry-Tan-Own-Your-Intelligence-e3n2rc1",
+ "duree": "00:42:07",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.5,
+ "taille_transcript": 39696,
+ "transcript": "garry-tan-own-your-intelligence-transcript.txt",
+ "nb_outils": 3,
+ "outils": {
+  "Codex": [
+   "ented and a commodity, and getting cheaper by the quarter, plus your context, which is owned by you and unique, and ideally nobody else on this earth has it, plus a harness that wires them together, that harness might be open claw, Hermes agent, clawed coder, codex, add that up and that gives you an agent that acts like a very fast version of you. Your quality is rented, but your brain is owned, ideally, by you. Marshall McLuhan said that technology is an extension of man, Steve Jobs called a computer a bicycle for the ",
+   " and run an agent on your own machine. I use Openclaw and Hermes agent with G brain, a hosted version of this is at gbrain.io. It's free. G brain itself is free and open source. I always recommend the Ferrari. But I'll be honest, the Honda is really good too. Codex, cloud code, whatever. Any of them will do 99% of this and the upside of not Ferrari is that it will also get you to your destination with a little less of less getting out to fix it on the side of the road. The concepts are the point not any given repo or pr"
+  ],
+  "Excel": [
+   "ge model, and that's why it's not just for engineers anymore. At YC, our media people, events staff, finance team, people who never opened a terminal in their lives are building skill files and scheduled jobs, one of our finance folks compiled about a hundred Excel workbooks into a single app she built with an internal agent, she's not a programmer, she's a manager of agents now, everyone is about to be. The most important question to ask here is where is the computation happening, and there are exactly two answers and "
+  ],
+  "Openclaw": [
+   "g so far is philosophy and receipts. So let's get into some how to. If you do what I describe in the next six minutes, you'll be ahead of 99% of people who watch this talk and just nodded. Step one tonight, pick a harness and run an agent on your own machine. I use Openclaw and Hermes agent with G brain, a hosted version of this is at gbrain.io. It's free. G brain itself is free and open source. I always recommend the Ferrari. But I'll be honest, the Honda is really good too. Codex, cloud code, whatever. Any of them will do 99% of this and the up"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

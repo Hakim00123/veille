@@ -1,0 +1,575 @@
+Y Combinator Startup Podcast
+Building the First Data Centers in Space
+Wed, 05 Aug 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/Building-the-First-Data-Centers-in-Space-e3n13ek
+
+[00:00] The first thing every space company should do is book the first available launch they can before they built the thing that they're going to before they built the thing before they probably even know what they're going to launch booking a launch is such a good forcing function for a space company.
+[00:12] So we found the company January 1st, 2024, January 2nd, we booked the first available space X right here launch and we were like, okay, something is going to be on that rocket.
+[00:22] I'm not sure 100% sure what it's going to be at this point, but something is going to be on that.
+[00:26] That was like the same advice for all the software companies. You just got to keep launching and launching. Same thing.
+[00:38] Welcome back to another episode of the Lightcone. Today, we're sitting down with Philip Johnston, the co-founder and CEO of Star Cloud.
+[00:45] Star Cloud is building data centers and space to address the energy bottleneck that AI is creating here on Earth.
+[00:51] Earlier this year, they raised $170 million led by Benchmark and became the fastest growing unicorn in YC history, just 17 months after demo day.
+[01:03] Philip, welcome to the Lightcone.
+[01:05] Thanks so much for having me.
+[01:06] So to start off, why data centers in space?
+[01:09] So we are very quickly running up on constraints on where we can build new energy projects, terrestrially.
+[01:16] And so by building them in space, we get access to this almost unlimited low-cost energy in the form of solar.
+[01:22] Of course, there's other costs, like the cost of launch.
+[01:25] And the cost of launch is actually very rapidly trending down, you know, with new launch vehicles coming online, the Falcon 9 program
+[01:31] and Starship on the horizon.
+[01:33] And so that's the reason we're building data centers in space.
+[01:35] How do you come up with the idea?
+[01:36] It's not sort of like the typical idea that if you're people come up with.
+[01:43] I'd actually been working, I was with McKinsey for a few years, working with the space agencies of different governments.
+[01:48] And I could see that the launch cost was very rapidly trending down.
+[01:51] And actually in early 2023, I decided randomly on a weekend to take a trip down to Starbase, Texas, where they're building the Starship launch program,
+[02:00] even before the first launch.
+[02:01] And not many people were paying attention back then.
+[02:03] And I could see that they were just building a enormous capacity.
+[02:07] So they're building these two Starship Gigafactories that are designed to produce something like three Starships per day.
+[02:12] And because Starship is reusable, you know, on a sort of three or four year timeframe, that could lead to us having thousands of times the capacity to get things to space.
+[02:20] And so I started thinking, okay, let's just run the clock forward.
+[02:24] If the launch cost was 10 times lower than it is today and the launch capacity was maybe a thousand times more than we have today.
+[02:29] What would make sense that currently doesn't make sense?
+[02:33] And so started thinking about some of the concepts from sci-fi that I remember as a kid, you know, like space-based solar, where you have these huge solar panels in space, you beam that power down.
+[02:42] And essentially, I just reached out to a few folks in the space industry and got connected with a few others and started ideating on, okay, what would make sense if the launch cost was much lower than it is today?
+[02:53] I'm curious, are there any other ideas that occur to you during this process when you were like thinking of, like, what people could build in space?
+[03:01] Yeah, tons.
+[03:03] I mean, we definitely looked at manufacturing in space and there's VARDA.
+[03:06] We looked at asteroid mining and, you know, obviously, YC has Astrophage.
+[03:11] We looked at space hotels.
+[03:12] We looked at basically anything where it could make sense if the launch cost was a lot lower than it is today.
+[03:17] And how come data centers was the best choice?
+[03:20] Data centers makes a lot of sense to be the first thing that you do because you don't need to reenter a product.
+[03:25] So with things like asteroid mining or with manufacturing in space or space hotels, they require this very expensive reentry process.
+[03:35] Initially, what we actually started doing was space-based solar.
+[03:37] So huge solar panels and then you beam that power down.
+[03:39] And it's a concept from, I think, like the 60s, even Azimov in the 40s was writing about it.
+[03:44] The problem with space-based solar is you actually lose 95% of the energy in transmission from space to Earth.
+[03:50] And so for the first two months of the company, that was literally what we're doing.
+[03:53] We were called Loom and Orbit because of that reason, Loom and Oste in orbit.
+[03:57] We were thinking, OK, once we get that power down, what are we going to be using it for?
+[04:00] And even back in 23, most new energy projects were being built for data centers.
+[04:05] So we were like, OK, well, either directly or indirectly, this power is going to go into data centers.
+[04:09] Let's rerun those numbers.
+[04:10] So initially, we'd run the numbers to know what's the launch cost break even that makes sense for space-based solar.
+[04:16] And we'd come to a number of like $50 a kilo.
+[04:18] So then we rerun the calculations.
+[04:20] We were like, OK, let's spend a month figuring out what would the launch cost break even need to be to make data centers in space break even.
+[04:26] And we came to a much closer to reality number of $500 a kilo.
+[04:29] And that's what we think currently that the break even launch cost is.
+[04:34] And so then we rapidly pivoted the company towards that.
+[04:37] So, Philip, you launched Star Cloud 1 in November of 2025.
+[04:42] And that was a real emotional moment.
+[04:44] Like, can you walk us through what that was like?
+[04:47] Yeah, I mean, it was incredible.
+[04:49] So just to tell people a bit about Star Cloud 1, so we'd set this launch date, you know, 18 months in the future.
+[04:56] And we initially started with something quite unimpressive.
+[04:59] Like, we were going to fly some NVIDIA jets and chips.
+[05:01] They've been flown in space before, and we were going to try and do some new new workloads on there.
+[05:06] Yeah, so it was an addy that came on and said, no, we need to do something way, way cooler than that.
+[05:09] And we actually ended up putting five GPUs on there, two, three from NVIDIA, two from ARM.
+[05:15] But the most interesting one was this NVIDIA H100.
+[05:18] We did some crazy things.
+[05:19] Like, for example, you have to put it through thermal cycling.
+[05:22] And we didn't have time to like book the vacuum chamber, the thermal and vacuum chamber.
+[05:28] And but we needed to know, OK, if we heat up this face change material and cool it down,
+[05:33] and heat it up and cool it down, is it going to crack anything?
+[05:35] And so at like 5am the day we had to ship it down, we were working through the night.
+[05:40] Addy and Ezra, like dunking this thing in an ice bath to cool it down.
+[05:46] And then we pull out the ice bath and I'm like, you're sure it's going to find me the electronics.
+[05:49] I'm like, don't worry about it.
+[05:50] It's telling you fine.
+[05:51] They pulled out the ice bath, then we had these like, like, hair dries to heat it up and melt all the lights.
+[05:56] Like, or like, like, or air guns.
+[05:58] And then we're dunking it back in the ice bath.
+[06:00] It is a miracle that it works, to be honest.
+[06:03] You can just do things.
+[06:04] You can just do things.
+[06:05] Yeah, this is the kind of thing you can do as a startup, because we actually had a quote
+[06:08] from one of the primes on what it would cost to do Star Cloud One.
+[06:11] And they said 75 million to a hundred million dollars.
+[06:13] I mean, hold a star by two, including the launch for two million dollars.
+[06:16] Yeah. So yeah, leading up to the launch, I mean, we we got the most incredible separation video.
+[06:23] I think we're going to play it now.
+[06:24] Star Cloud One separation confirmed.
+[06:26] So half the time as it deploys, it will be behind the shadow of the earth.
+[06:30] And you don't see anything the other half of the time, it would deploy not into the
+[06:33] silhouette of the earth.
+[06:34] And so I mean, it just is the most perfect, like deployment video I've ever seen.
+[06:38] And this was played by Jensen as he walked on stage at the GTC conference this year,
+[06:43] this five story tool, like screen behind it playing the Star Cloud One separation.
+[06:50] So now it was the most incredible feeling seeing this deploy.
+[06:53] Where was the team for this?
+[06:54] Did you all like the whole team down?
+[06:56] Yeah, there was only 12 in the team at the time of Star Cloud One launched.
+[06:59] So we took the whole team to Florida and we had like a hundred friends and family
+[07:04] investors, some of our team brought their family and kids down.
+[07:07] And like it was a real nice, really nice day.
+[07:10] We're going to release a behind the scenes video of some of the family moments in that launch.
+[07:15] How long was it from like when the rocket lifted off until the thing deployed,
+[07:19] until you powered it up and were able to verify the thing actually worked?
+[07:22] Yeah. So it lifted off.
+[07:24] We were all on what they call the banana bleachers.
+[07:27] It's like the famous from the Apollo era, but it was in the middle of the night.
+[07:31] So it lifted off for around midnight and then at one AM, they closed the bleachers
+[07:35] and everyone had to get on a bus and leave and we're like, oh, shut.
+[07:37] I thought we were going to like be able to watch the deployment.
+[07:39] And then I'm sitting in the back of a cab, like watching the live feed on SpaceX.com,
+[07:44] literally. Oh my God, it's deploying.
+[07:47] I can't hear it's deploying.
+[07:49] And then it took about 12 hours to make first contact, which is not bad.
+[07:51] Actually, it usually takes at least 24 hours to get first contact.
+[07:54] And then it's like a two week commissioning period.
+[07:56] And we had a whole bunch of software issues we had to work through.
+[07:59] Like it kept the whole satellite kept restarting every two hours.
+[08:03] And what was happening was one of 20 different like failure, like triggers was
+[08:08] triggering and we didn't know which one it was.
+[08:12] And we can only get a ground station pass every like at least every hour and a half,
+[08:16] maybe longer.
+[08:17] And so we had to manually turn off each one,
+[08:19] turn back on everything else and wait for a ground station pass to know which one it was.
+[08:22] So that took like, you know, that took like three days just to figure out that
+[08:26] software issue.
+[08:27] And then yeah, two weeks after that, then we started commissioning and turning on
+[08:31] all the different payloads.
+[08:31] And then we trained the first model around the first version of Gemini.
+[08:35] We did the first fine tuning of a model in orbit, do the first high pout
+[08:39] inference on satellite imagery and all this kind of stuff.
+[08:42] So star cloud one right now, as we speak, is just left Chinese airspace, I think.
+[08:47] Yeah, it's heading to Japan.
+[08:48] Yeah.
+[08:50] It's going quite fast, actually.
+[08:52] Yeah.
+[08:53] So it travels around 17,000 miles an hour.
+[08:55] It's about an hour and a half to do one circumnavigation.
+[08:59] So I mean, by star cloud four or so, this won't be like one, it'll be a giant network
+[09:06] sort of covering the earth, actually.
+[09:08] Yeah.
+[09:09] From star cloud three onwards, we'll have 88,000 and they'll all fly.
+[09:13] This one is in what they call mid inclination orbit.
+[09:16] So it doesn't go over the poles star cloud.
+[09:19] And that's another point here on how janky this one is.
+[09:21] It doesn't even fly in the right orbit, but at least it enables us to test the hardware.
+[09:27] The next one will fly over the poles and that gives us 24-hour, always in the sun.
+[09:32] In order to do that, you need to put thrusters on the satellite and move it into that orbit.
+[09:35] In the end, they will be deployed in that orbit, but you need thrusters anyway to maintain the
+[09:39] orbit because you have drag from the upper atmosphere there.
+[09:42] What are the engineering and physics trade-offs you have to make this happen?
+[09:46] Because what you basically are doing with star cloud is you are getting infinite energy
+[09:51] because the sun is basically the natural fusion reactors as a giant mass that generates
+[09:58] a nuclear reaction with the giant mass and you have infinite energy, basically abundant
+[10:03] and lots of space.
+[10:05] But as a result of that, which we're constrained of that in earth, you have a bunch of other
+[10:09] really hard problems to solve, like things around interconnect, how you send all the
+[10:13] data back and forth, back to earth, how do you handle cooling?
+[10:16] People think that space is cold, but actually there's no unlike earth, there's no air
+[10:21] to circulate it back, so you need some crazy solutions with cooling.
+[10:25] There's things around radiation to flip the bits in processors, and there's probably other
+[10:32] things around how to get the solar panels to become really big and expand.
+[10:36] And many more.
+[10:37] I mean, these are the ones that I could think of.
+[10:38] I mean, what are, there's like so many things that are just so hard to build?
+[10:44] Yeah, you are correct.
+[10:45] There are many engineering challenges to be solved.
+[10:48] The two biggest ones that are outstanding and most of our engineering, our engineering
+[10:54] team is split basically 50-50 down these two lines is number one, as you mentioned, how
+[10:58] do you get rid of this heat in a vacuum?
+[11:00] And then number two, how do we make the chips work in a higher radiation environment?
+[11:04] Some of the other problems are being solved by other people, you know, they're interconnect,
+[11:07] we've just signed a contract with SpaceX for our next 20 satellites to have our styling
+[11:11] laser terminal.
+[11:12] That gives us very high bandwidth, low latency, connectivity.
+[11:15] Other people are solving some other parts of this.
+[11:17] The core ones we're solving are that.
+[11:18] And so for the first one, for the thermal management side of things, we are building a
+[11:24] very large, low-cost and low-mass deployable radiator.
+[11:27] Now radiators in space are not new, it's not a new physics solution, it's more of a manufacturing
+[11:33] and engineering challenge because the International Space Station has had a radiator which dissipates
+[11:39] lots of heat already, very similar mechanism, so a liquid-cooled loop.
+[11:45] The challenge with it is making it cheap and light, so our radiators at least 10 times
+[11:48] less mass per watt of dissipation than the ISS radiator, and 500 times less cost per watt
+[11:55] of dissipation than the ISS radiator, so a very low-bench, very easy benchmark to beat on cost
+[12:00] for the ISS.
+[12:01] And then on radiation, it's just a lot of ground testing in different particle accelerators,
+[12:06] so we've done several rounds of testing at the Brookhaven National Lab particle accelerator
+[12:10] for heavy ions, and also there's a cyclotron for high-velocity protons down in Knoxville,
+[12:16] so we ship all of our hardware down there, my co-founder Addy runs in and out wearing this
+[12:20] protective thing.
+[12:23] Addy is elunatic when he comes for this stuff, he's like, oh yes, it's the same as flying
+[12:27] transatlantic, don't worry about the radiation.
+[12:30] So yeah, basically you expose it over a 24-up period to the same radiation dose that you would
+[12:34] have in a five-year mission, and then all of that telemetry and data then informs our choice
+[12:38] on both shielding and software to mitigate bit flips.
+[12:41] I think we're the only people in the world now that know where both an H100, a B200, H200
+[12:46] will fail if you blast it with high-velocity protons and heavy ions.
+[12:49] Do you have to change any of the underlying electronics to solve the problem, or do you just build
+[12:53] shielding around it?
+[12:54] Both, both.
+[12:55] So we do build shielding around it, there's a lot of it is just component selection, so for
+[13:00] example all of the SSDs, all of the power delivery system, all of the power converters and everything
+[13:05] else, we test 10 components and whichever the best one is, we pick.
+[13:09] We're trying not to use space-grade rad-hard components, we're trying to use off-the-shelf-like
+[13:15] automotive-style components because it's way cheaper.
+[13:18] And most people have never tested those in radiation chambers.
+[13:20] I think that's one of the secrets of how SpaceX has actually reduced a lot of the cost of a
+[13:26] lot of the satellites as well.
+[13:27] They use not space-graded electronics, which would be exorbitantly very expensive, but instead
+[13:34] you take regular components that there's a supply chain and run through all the tests
+[13:38] and make sure if it works.
+[13:39] And I think actually this is one of the things that Stranis does as well, to make sure that
+[13:44] telecommunication satellites actually work in space, because they're also in geo, which has
+[13:50] more radiation.
+[13:51] Are you in geo as well?
+[13:53] No, we're in Leona.
+[13:55] When you first told people that you were going to put data centers in space, what were people's
+[13:59] reactions?
+[14:01] For a very long time, their reactions was, this is the dumbest thing I've ever heard.
+[14:08] So we actually applied to YC once, and we tried to raise, and it took two million posts on
+[14:17] a safe.
+[14:18] It took three months, and we got rejected from at least 100 VCs.
+[14:20] And then even after YC, when we went out to raise after demo day, I think we got rejected
+[14:25] from at least 20 VCs before we got to the first check.
+[14:30] This is one of these ideas that was extremely unpopular with investors.
+[14:34] And if you had listened to what all the investors were telling you, you would have quit and not
+[14:39] ever done this idea.
+[14:40] I'm curious, why did people tell you that they were not investing, and what did they get wrong?
+[14:45] People had a hard time visualizing a world with low-cost launch.
+[14:50] And to be fair, we're still not out of the woods on that front.
+[14:53] Lots of things need to go right with the Starship program for that to make sense.
+[14:56] So that's one thing.
+[14:57] I think it just sounds too sci-fi, and to, yeah, to make this work, there's a convergence
+[15:03] of two factors.
+[15:04] One is the launch cost coming down, and people have to believe that.
+[15:08] The second is it becoming way harder to build stuff to restually.
+[15:13] Maybe two years ago, that wasn't quite as obvious as it is today.
+[15:15] Now people are like, okay, well, they're just band building new data centers in New York.
+[15:19] They're going to ban it in like seven other states.
+[15:21] Now, those two things, I think, converge to make it more investable, essentially.
+[15:26] I think the other thing, after hearing you explain all the engineering and physics, it
+[15:30] actually is doable.
+[15:31] It doesn't sound like sci-fi from first principles.
+[15:33] It's like it's actually buildable.
+[15:35] The reason I had confidence in it is because we had such a strong engineering team.
+[15:43] So if you have, you know, the world's best base engineers saying this is possible, and to
+[15:49] be frank, my background isn't as a base engineer.
+[15:51] But, you know, I have full confidence in my two co-founders, one from SpaceX, the other
+[15:55] was building satellites for NASA, saying it's possible, then, you know, it's good enough
+[16:01] for me.
+[16:02] Once you had the idea, and then once you're in YC, how did you sort of break the problem
+[16:07] down into like a plan for what to do, obviously in software, you think of your MVP and you launch
+[16:12] quickly and you get feedback, but hard to do that with, it's in space.
+[16:17] I have a very tangible piece of advice for all the space companies.
+[16:21] First thing every space company should do is book the first available launch they can.
+[16:26] Before they built the thing that they're going to launch.
+[16:27] Before they built the thing, people, they probably even know what they're going to launch.
+[16:30] Booking a launch is such a good forcing function for a space company.
+[16:34] So we founded the company January 1st, 2024, January 2nd, we booked the first available SpaceX
+[16:40] right here launch, and it was cheap, it was like 300 grand, you know, which was how far
+[16:45] out was the launch?
+[16:46] It was 18 months out, and then it got pushed to 21 months out, and we were like, okay,
+[16:50] something is going to be on that rocket, I'm not sure 100% sure what it's going to be
+[16:52] at this point, but something is going to be on that.
+[16:55] That's interesting.
+[16:56] Sounds like the same advice for all the software companies, you're just going to keep launching
+[17:00] and launching, same thing.
+[17:01] Yeah, yeah.
+[17:02] And what we initially planned to launch was very unimpressive, actually, it was like we
+[17:06] were going to put a Jetson chip which has been flown on many satellites before, and we were
+[17:10] going to use it for kind of edge processing and things.
+[17:14] We actually had a co-founder change quite early on when we got Addy from SpaceX, Addy was like,
+[17:19] wow, that's lame, let's put an 8-shot 100 on there, we're like, Addy, you can't put 8-shot
+[17:23] 100 on a satellite, he's like, sure you can.
+[17:27] The amount of people who said it was physically impossible to run a chipless, that power dance
+[17:35] in orbit, people just thought it was literally impossible to run data centigrade GPUs on orbit.
+[17:41] What would have caused it to be impossible?
+[17:42] The two things.
+[17:43] One is the thermal side of things, they produce a lot of heat, and the second is they've never
+[17:48] been tested in the radiation environment in this space, and both of those, so for the
+[17:52] first one, it's kind of a wacky solution, like we submerged the entire thing in this phase
+[17:59] change material, so everything on stock cloud one is submerged in this phase change material,
+[18:05] so it's like an immersion calling for all of the components, all of the power delivery,
+[18:10] memory, everything is submerged, like nobody's ever considered doing anything like that in space
+[18:14] before.
+[18:15] It's not a particularly scalable solution, it's not like you have quite a low duty cycle,
+[18:19] you have to wait for it to melt, and then it solidifies every so often, but it enables us
+[18:25] to prove that you can run the H100 in space.
+[18:27] The next one is this director chip liquid calling architecture, that we can run continuously,
+[18:32] but yeah, I give full credit to my co-founder, Addy, for coming out with some pretty wacky
+[18:36] and crazy ideas.
+[18:38] To get to a data center that's like commercial scale, where you can actually make money on
+[18:42] it, it's actually like profitable, it's going to require many steps, how did you like think
+[18:46] about like sequencing out like the journey to get there?
+[18:49] So as a first step was book, whatever the first launched lowest MVP we can have available.
+[18:56] Second step is producing something which is a product we can sell to customers, so that's
+[19:02] stock out to that's a 10 kilowatts based craft that we can sell compute to government and
+[19:07] military satellites, and then the third step is the product that we're going to be able to
+[19:12] sell to hyperscale data centers.
+[19:14] So that's the stock cloud three, we can it's 200 kilowatt three tons spacecraft, that's six
+[19:19] meters long, with that we can fit 50 of them per star ship, so about 10 megawatts of new
+[19:23] compute capacity per starship.
+[19:25] And we've just followed with the FCC for a constellation of 88,000 of those, so that means
+[19:30] on the order of 20 gigawatts of new compute capacity, and we can fit up to 10 terawatts
+[19:35] in the Dondos sense synchronous orbit, so that's like 20 times the entire US power grid.
+[19:39] Our context was the largest data center deployment on Earth, because you're talking
+[19:43] about 22 gigawatts, oh my god, what's the largest one here on Earth today?
+[19:48] They're about a gigawatt is the largest.
+[19:51] What's the timetable for all of this to become real?
+[19:54] Yeah, it's very dependent on the launch cost, and so this estimates for starship, if you
+[20:01] believe Elon, it will be end of this year, but let's say it could be end of next year, early
+[20:05] 2028 for starship deploying, you know, ramping up the launch cadence, they're actually phasing
+[20:11] out Falcon 9, so they're going to be moving over commercial customers to starship.
+[20:15] There's also a whole bunch of other launch vehicles coming online, Stokespace has the
+[20:18] Nova rocket, rocket lab has neutron, blue glen, Blue Origin has a new glen, so end of 2028
+[20:26] I'd say is when we're starting to ramp up for the terrestrial business, competing with
+[20:30] terrestrial data centers.
+[20:31] So your customers are actually anyone who wants compute, and then initially, initially
+[20:35] it's government and military, but then as starship ramps up, so for the next two, three
+[20:39] years, we've just won four contracts with various DOW and government entities.
+[20:45] And then initially also, it's people who want that compute actually, like four other purposes
+[20:50] in space then, is that right?
+[20:52] Yeah, exactly.
+[20:53] So right now, many satellites are very constrained with the amount of data they can downlink,
+[20:57] and so using optical terminals, we'll have three optical terminals on our second satellite,
+[21:00] they can ship enormous amounts of raw satellite imagery and sour data, synthetic capital radar
+[21:06] data to us, we then process that on orbit, and then we can just downlink very quickly
+[21:11] the insight from that, and the insight might be the coordinates of a vessel or something
+[21:15] like that.
+[21:16] In terms of NVIDIA, I mean, how are you partnering with them around chip design, and are there
+[21:22] changes that you have to make to the design to, I mean, as you scale, like making it
+[21:27] more radiation resistant, or, you know, what does that look like?
+[21:31] Yeah, so we're working very closely with NVIDIA, they recently announced this space, Ruben
+[21:38] One chip that we're working with them on, so that's designed for the space environment.
+[21:43] We very heavily modified the H100 to make it work in space, so on the mass side of things,
+[21:48] we stripped out a lot of things like the AC to DC converters, the directly cold plates
+[21:55] and everything else we stripped out, and then we stiffened the board, we made it radiation
+[21:58] tolerant.
+[21:59] So because of that, they're very interested in, you know, with any people, basically they
+[22:03] have any data on how one of these high-powered GPUs operates in space, so yeah, we're working
+[22:08] with them very closely on designing this new space chip, because you can actually do very
+[22:13] simple things to make these chips way more effectively effective to run in space, and so that's what
+[22:18] we're doing.
+[22:19] The next batch is now taking applications, gotta start up in you, apply at ycombinator.com
+[22:25] slash apply, it's never too early, and filling out the app will level up your idea.
+[22:31] Okay, back to the video.
+[22:32] I think the thing of getting GPUs to now natively run on DC, you avoid the whole conversion of
+[22:40] energy ECDC, because that's what makes solar panels not as efficient, it's the whole conversion
+[22:45] exactly.
+[22:46] It moves a lot of power, which is great.
+[22:47] Yeah, and our solar panels generate DC immediately, so there's no point doing, we just need DC
+[22:52] to DC converters, but that's much better than AC to DC converters.
+[22:56] So you couldn't unlock a bunch of companies also, just building GPU data centers using
+[23:01] solar power, period, whether in space, and the water, or in earth.
+[23:05] Yeah, I mean, yeah, actually people can definitely use this tech for other things.
+[23:09] Can you talk about Star Cloud 2 a little bit more, like, is there actually a Bitcoin miner
+[23:12] in there as well?
+[23:14] Yes, we will be flying a Bitcoin mining ASIC next year, which the crypto community is very
+[23:20] excited about.
+[23:21] There's much more enthusiasm than I was expecting, to be honest about that, so.
+[23:25] I was doing it, I was a good narrative.
+[23:28] The number of people that want me to launch Starcoin, you have an idea.
+[23:33] There is actually a Star Cloud meme coin, I think, out there.
+[23:35] Yeah, don't buy it.
+[23:36] It's not efficient.
+[23:37] You're not buying the Star Cloud meme coin.
+[23:40] Yeah, yeah.
+[23:42] We'll be launching, we'll have one of those on there.
+[23:45] We'll have a whole bunch more H100s, BlackWarch, we're also partnering with AWS on launching
+[23:51] the Outpost hardware, that's their on-premises server blade that they give to customers
+[23:55] to run a local instance of VC2, and that will be useful for particularly for our military
+[23:59] customers.
+[24:00] Something we were talking about earlier is, at YC we just observed, over the last few years
+[24:05] it's been quite hard for hard tech companies to raise funding in general, and there's not
+[24:09] been much investor appetite for it.
+[24:11] It certainly seems to have changed over the last six months.
+[24:15] From your perspective, I'm curious, how was it raising the seed round in Jerusalem during
+[24:20] YC, and then this huge round you raised from Benchmark to maybe tell us the inside story
+[24:26] of how that all came together and what it feels like being a hard tech founder raising
+[24:31] money today?
+[24:32] So, when we first raised the end of 2023, we tried to raise $2 million at 10 post, and that
+[24:38] took three months to get together, about 100 VCs said no, deep tech and hard tech and
+[24:43] space were definitely not a cool thing to invest in back then.
+[24:46] Then after YC, it took us quite a while to raise, so I think we got rejected from at least
+[24:52] 20 VCs before we got our first check on the demo day raise, and things have definitely
+[24:58] swung around since then, it's become a lot easier to raise for deep tech, I think.
+[25:04] I think a number of reasons for that one is people think that software doesn't have a
+[25:08] moat anymore, which I think is probably accurate.
+[25:11] That's sort of high, it's funny, the hive mind just switched, it seemed to me very quickly,
+[25:15] it was just like the SaaS stocks, like Claude Code came out, SaaS stock, public company stocks
+[25:19] all went down, and then suddenly it was, I think the fastest I've seen sort of things
+[25:24] in the public markets directly affect demo day was suddenly everyone's like, we need to invest
+[25:29] in the hard tech now.
+[25:30] That's fascinating, I think people are just much more open to investing in hard tech now.
+[25:35] Like I think we were the first space investment benchmark we've done.
+[25:38] Yeah, whatever you can shit like, how did that round come together, and again, what do
+[25:42] you think sort of benchmark saw in you guys?
+[25:45] So to be frank, that round wasn't as easy as it looks from the outside, there's a lot
+[25:50] of VCs that have big space expositions for one thing, and SpaceX midway through the round
+[25:56] came out saying they're doing exactly what we're doing, and it wasn't public then, and
+[25:59] so anybody with like a conflict policy then was like, okay, we're conflicted out.
+[26:05] But I mean, towards the end of the round, it's only came together much faster.
+[26:08] I think to be frank, I don't think, so Chathan is our partner, and Chathan is awesome.
+[26:15] Amazing.
+[26:16] Yeah, he's great.
+[26:17] I think basically he saw a really, really strong technical team doing something that,
+[26:23] if it worked, could be incredible.
+[26:27] I think when he came to visit us, he spent a lot of time doing DD on other things, you
+[26:31] know, on the backgrounds of all of our, we've got the best, and we literally have the best
+[26:35] fricking engineering team in the world in Redmond building this stuff, you know, half of them
+[26:39] from SpaceX, half from some of the hyperscalers, so he spent a lot of time with the team,
+[26:43] he spent a lot of time, but I don't think if he'd come across a report that said that
+[26:50] cooling in space was impossible, that would have thrown him off.
+[26:53] I think he was like, okay, this is a good enough team that they can figure out.
+[26:56] How did you build such an awesome team?
+[26:59] So my co-founders, Adi and Ezra, I reached out to him after being down to Starbase, Texas,
+[27:06] and I was like, have you got any ideas that would make money if launch cost was 10x cheaper
+[27:10] than it is today?
+[27:11] And we started with this space-based soda idea, with Adi, who's introduced to a friend, he
+[27:17] actually had already been thinking about this.
+[27:20] He already had registered the domain name StellarCloud.com before.
+[27:24] And then with the team, we were just ruthlessly slow at hiring, and like picky about hiring.
+[27:31] After I see we'd raised like 11 million at 40, which is like a decent round in YC, and even
+[27:36] then it took us six months to make our first hire, and we got like the most kick-ass-based
+[27:41] engineers off our first hire.
+[27:43] We've raised like a lot of money now, even this round that we announced in March, we've
+[27:46] raised a much larger round since then, we're still only 20 engineers.
+[27:51] We have one commercial guy who came from the Space Force who was working on Golden Dome.
+[27:56] We are so picky about who we hire.
+[28:01] To a point of being very frustrating, to be honest, but it's the whole game.
+[28:04] It's the whole game is having a kick-ass engineering team.
+[28:08] What would we like to have this idea have people sort of poop who it didn't really get it,
+[28:12] and then suddenly, I mean, to have much more commercial validation that like, you know,
+[28:18] Google SpaceX, the stalwarts of the industry sort of embrace the idea and realize actually
+[28:24] like some crazy percentage of future data centers likely are going to be in space.
+[28:30] What was that like to sort of see the sea change and be early?
+[28:34] It was surreal.
+[28:36] So if you go back through my Twitter feed, I've been like shouting from the rooftops for the
+[28:40] last like three years about this.
+[28:42] Constrained, but right.
+[28:43] Every day I would post something about like why data centers in space are going to be going
+[28:48] to make sense.
+[28:49] And then slowly and slowly and slowly people would start to drop hints about things like
+[28:55] Elon at one point was like 99.999% of the energy in the solar system is from the sun.
+[29:04] So I'd repost that and I'd be like, we need to build data centers in space.
+[29:08] Like I would like everything I would find a hook for like.
+[29:12] I think this is one of the things we see with all the best heart tech founders.
+[29:17] You're essentially living in the future and are almost like a profit that brings the future
+[29:22] back to now us underlings and the earth that don't quite get it yet.
+[29:26] I'm going to tell my mum, who's very religious, that why she said I'm a prophet.
+[29:31] But it's cool.
+[29:32] And the only thing that's fascinating to me is that your background, if you go in your
+[29:37] LinkedIn, is not very legible that you would be in space, but you had a background
+[29:44] usually doing software and physics and then went to business, but nothing there that sets
+[29:51] space.
+[29:52] Yeah.
+[29:53] So for people who don't know my background, I spent the first five years of my career as
+[29:57] an engineer on the software side studying math and physics before that undergrad and masters.
+[30:03] And then I went to McKinsey, more on the commercial product side.
+[30:06] But I actually ended up doing a couple of projects with national space agencies on different
+[30:11] satellite missions.
+[30:12] And that's where I really started to notice the launch cost coming down very rapidly.
+[30:16] I actually had another startup before this.
+[30:19] And yeah, when I left that one decided, okay, if I'm going to do another startup, it has
+[30:23] to be something I'm like very passionate about.
+[30:27] And yeah, for my whole life, I've been very passionate about space.
+[30:31] Because I don't have a space engineering background realized, okay, I'm going to need the world's
+[30:34] most kick-ass space engineers.
+[30:35] And actually, this is where I give credit to YC.
+[30:37] I was kind of blindly following the YC advice.
+[30:39] I was like, okay, the first thing we need to do for coming up with an idea is get the most
+[30:44] incredible space engineers in the world on the team, essentially.
+[30:49] This is before you even knew what you wanted to do in space.
+[30:51] All you knew at that point was that launch costs were going to come down dramatically
+[30:54] and they were going to be cool stuff to do in space.
+[30:56] Yes.
+[30:57] And you wanted to find some space people to do it with.
+[30:59] Yes.
+[31:00] It's literally it.
+[31:01] Yeah.
+[31:02] But it wasn't a vibe of like, oh, can you please build this crazy idea that it's like
+[31:07] the reverse even, like I'm going to figure out the commercial part.
+[31:10] Yeah, exactly.
+[31:11] My pitch to Adi and Ezra was essentially, if you have any ideas that would make sense
+[31:16] if the launch cost was 10x less than it is today, I can figure out everything else around
+[31:22] that besides the building the satellite piece.
+[31:26] How did you find them?
+[31:27] How did you recruit them?
+[31:29] So Ezra and I had grown up in the same place in the UK, I didn't actually, to be frank,
+[31:32] I messaged like a lot of space engineers, maybe 10 of them took a call and two of them said,
+[31:38] yes.
+[31:39] You don't need like 100 people to do it, you only need one or two.
+[31:44] So Philip, during the batch, the way I thought about Star Cloud was that it could only work
+[31:50] if you were able to make it cheaper per unit of compute than like ground based compute.
+[31:54] And I think you will, but it's occurred to me since then that like it's not actually clear
+[31:58] to me anymore that that is necessary for Star Cloud to succeed.
+[32:01] I'm curious if you think about it the same way because since the batch, we've learned
+[32:05] that AI data centers are becoming politically incredibly unpopular and it seems not unlikely
+[32:10] to me that it will soon become like basically defacto impossible to build AI data centers
+[32:15] like anywhere, at least in like a democratically hikeded country, like I'm curious like how
+[32:20] you think about that, how it affects your plans for the company.
+[32:24] Yeah, 100% and this has moved faster than I was expecting as well, to be honest.
+[32:29] You know, we've just seen New York now blocking data centers construction, you know, for reasons
+[32:34] which are not grounded in science really, you know, it seems like more, more like vibes
+[32:39] than anything else.
+[32:41] Building these things in space will definitely be much easier from a regulatory perspective.
+[32:45] So let's do some myth busting.
+[32:49] There are a lot of misconceptions about certainly water and data centers, but also power, you
+[32:54] know, what are some of the things that come to your mind?
+[32:58] With water specifically, water is really actually just a function of power.
+[33:03] You know, you can call data centers with no daily, consumptive use of water if you're,
+[33:09] if you just throw more power at the problem essentially.
+[33:12] And that is what all of the data center companies are now proposing.
+[33:14] It's very unlikely that any data center company proposes any, any data center that is going
+[33:21] to be consuming daily amounts of water.
+[33:22] And there is actually evidence that you can have closed systems that consume very little
+[33:27] water.
+[33:28] And I think the analogy is like, if you ran a burger shop, like a fairly large data center
+[33:35] with like hundreds of megawatts would consume about the same amount of water as like a McDonald's.
+[33:41] Yeah.
+[33:42] It's like, it's really, you know, a non issue, but it's unbelievable that they're repeating
+[33:46] this so much.
+[33:47] Yeah.
+[33:48] Yeah.
+[33:49] They do use a lot of power though.
+[33:50] And so most new power projects for data centers right now are being built with natural gas
+[33:54] generators actually.
+[33:55] And so there's certainly some people that are pushing back on those.
+[33:58] I mean, you know, one of the arguments is that as data centers get built, they sort of compete
+[34:04] on the grid, which is kind of not true.
+[34:06] I mean, also not true if you build a new power project for it, which is generally what people
+[34:11] are doing.
+[34:12] You can't get enough power from the grid.
+[34:14] So yeah, there's also some evidence actually that adding data centers increases the capacity
+[34:21] of the grid and then prices actually come down over time.
+[34:24] That being said, you know, it's sort of a perfect storm.
+[34:27] Like we need intelligence.
+[34:28] We need data centers.
+[34:30] It's become basically a national security issue, you know, for America and for the West to have
+[34:37] access to intelligence is sort of the most important tech tree of the next hundred years.
+[34:43] And so for tech policy to sort of put us back into the Stone Age and possibly lose the war
+[34:47] for us, that puts Star Cloud in a different position in terms of bringing compute and AI
+[34:56] and power online.
+[34:57] Yeah.
+[34:58] For sure.
+[34:59] It definitely puts us squarely in the national security bucket at that point.
+[35:03] I mean, thank you so much for fighting for the West then.
+[35:07] We're doing our best.
+[35:09] So as one of the fastest growing unicorns in YC history and to do it as a hardware company,
+[35:15] do you have any closing thoughts for people who are, you know, looking at space, looking
+[35:19] at hard tech as a thing that they want to work on, like, you know, whatever you learned
+[35:23] and what would you tell the, you know, just starting out version of yourself based on where
+[35:27] you're at now?
+[35:28] Yeah.
+[35:29] I mean, I think there's just huge opportunities now coming with space.
+[35:32] We're really at the, like, very early innings with what's going to be this enormous industry
+[35:36] in space, you know, the amount of capacity and launch that's going to come online in the
+[35:41] next five years is really mind boggling.
+[35:43] So yeah, I would definitely encourage people to step into that in terms of advice, like the
+[35:50] YC advice stands true.
+[35:51] It's technical talent on the founding team is the thing you need to solve for first and then
+[35:55] everything else for us from there.
+[35:57] Philip, thanks so much for coming on the LiteCon.
+[35:59] Yeah.
+[36:00] Thanks so much for having me.
+[36:01] Thanks for being here.

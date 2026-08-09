@@ -1,9 +1,17 @@
 {
  "slug": "knowledge-project",
  "traites": [
-  "john-d-rockefeller-the-principles-behind-the-greatest-fortune-in-histo"
+  "john-d-rockefeller-the-principles-behind-the-greatest-fortune-in-histo",
+  "the-mindset-behind-building-billion-dollar-companies-brad-jacobs"
  ],
  "episodes": [
+  {
+   "fiche": "the-mindset-behind-building-billion-dollar-companies-brad-jacobs.json",
+   "titre": "The Mindset Behind Building Billion-Dollar Companies | Brad Jacobs",
+   "date": "Tue, 04 Aug 2026",
+   "date_iso": "2026-08-04",
+   "nb_outils": 1
+  },
   {
    "fiche": "john-d-rockefeller-the-principles-behind-the-greatest-fortune-in-histo.json",
    "titre": "John D. Rockefeller: The Principles Behind The Greatest Fortune in History",
@@ -12,5 +20,5 @@
    "nb_outils": 0
   }
  ],
- "maj": "2026-08-02T19:37:25Z"
+ "maj": "2026-08-09T17:46:12Z"
 }

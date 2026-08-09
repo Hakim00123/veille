@@ -1,0 +1,467 @@
+Y Combinator Startup Podcast
+Garry Tan: Own Your Intelligence
+Thu, 06 Aug 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/Garry-Tan-Own-Your-Intelligence-e3n2rc1
+
+[00:06] So, the internet calls me one of the most AI psychotic people online, so it's only right
+[00:17] that I start my talk with a story about one of the most canceled men in history.
+[00:26] His name was Baruch Spinoza, and in case the philosophy elective wasn't your thing, here
+[00:33] are the highlights you need to know.
+[00:37] In 1929, a New York Rabbi challenged Einstein by telegram.
+[00:42] Do you believe in God?
+[00:45] Answer in 50 words.
+[00:47] Einstein answered in 25.
+[00:51] I believe in Spinoza's God, who reveals himself in the lawful harmony of the world, not in a
+[00:57] God who concerns himself with the fate and doings of mankind.
+[01:03] The most famous scientist alive asked the biggest question there is, pointed at Spinoza.
+[01:10] But here's what Baruch Spinoza's own community did to him, Amsterdam, July 27, 1656.
+[01:20] Spinoza is 23 years old, a member of a tight-knit Sephardic Jewish community.
+[01:26] He stands in a synagogue while the elders excommunicate him with the most violent curse
+[01:33] the community ever produced.
+[01:37] Cursed be he by day, and cursed be he by night.
+[01:42] Cursed be he when he lies down, and cursed be he when he rises up.
+[01:50] Nobody may speak to him.
+[01:52] Nobody may trade with him.
+[01:54] Nobody may come within four qubits of him.
+[01:59] Nobody may read anything he writes.
+[02:02] And this ban, uniquely among the roughly 40 bands, Spinoza's community issued that century,
+[02:08] has no repentance clause.
+[02:11] It has never been lifted.
+[02:13] It technically is still in force today.
+[02:19] Spinoza was 23.
+[02:20] His crime was evil opinions, expressing forbidden thoughts.
+[02:24] His punishment was complete deletion from the community.
+[02:30] Before his community cursed him, they tried to buy him 1,000 guilders a year, serious money.
+[02:37] All he had to do was show up at synagogue once in a while and keep his mouth shut.
+[02:42] Hear that in founder terms, they've offered him a salary to stop building.
+[02:47] He said no, not for 10,000, he said.
+[02:50] He wanted truth, not comfort.
+[02:53] Shortly before his excommunication, a fanatic came at him with a knife.
+[02:58] The blade tore through his cloak and missed him.
+[03:01] He kept that cloak, scar un-mended, for the rest of his life.
+[03:06] He wanted to remember what ideas cost.
+[03:10] So what does the most canceled man of the 17th century do next?
+[03:15] He grinds lenses.
+[03:16] By day, he makes optical instruments, tools that let human beings see further than their
+[03:23] eyes allow.
+[03:25] He makes them so well that the best scientists in Europe seek them out.
+[03:30] And by night, he writes a book so dangerous, he cannot publish it while he is alive.
+[03:38] When he dies at 44, lungs full of glass dust from making other people's lenses, the manuscript
+[03:45] is locked in his writing desk.
+[03:47] His dying instruction, shipped the desk by Canal Barge to his publisher in Amsterdam.
+[03:54] That manuscript became his posthumous works, which attracted immediate attention across
+[03:59] Europe and inspired some of the most important philosophers of the enlightened.
+[04:05] What does Spinoza have to do with startups, you might ask?
+[04:08] Well, here is a man canceled by everyone he knew, offered a salary to stop, nearly killed
+[04:16] for shipping, and his response was to build precision tools by day and write the most dangerous
+[04:23] book in Europe by night alone, with no permission from anybody.
+[04:28] If you're going to start a startup, you could do well to learn from Spinoza.
+[04:33] He had a name for the engine that kept him going.
+[04:36] Canatus, it means you're striving, the drive in every living thing to keep going and to
+[04:43] increase its power to act, not your resume, not your title, not your job, the striving itself.
+[04:52] This talk is about the tools that amplify it.
+[04:55] So what did he actually say that was worth deleting a man over?
+[04:58] The gist of the heresy was that God is not a king on a throne.
+[05:01] God has spread through everything that exists.
+[05:04] God, or nature, he wrote, 400 years later, we are making a similar mistake about intelligence.
+[05:15] Everyone is waiting for AGI as a singular event, a God in a data center, some announcement,
+[05:23] some threshold, some day when the sky changes color.
+[05:29] So now I'll say a version of Spinoza's heresy updated 400 years later.
+[05:35] Everyone is watching the sky, and the thing they're watching for is already in the room.
+[05:41] It doesn't look like a God.
+[05:42] It looks like infrastructure, a terminal window, a folder of markdown files, a job that finishes
+[05:49] while you sleep, spread through everything, which is exactly where Spinoza told you to
+[05:56] look.
+[05:57] AGI isn't arriving as an event, it's arriving diffused as your agent, running on your context,
+[06:05] doing your work.
+[06:08] I call it personal AGI, not artificial general intelligence for everyone all at once, general
+[06:14] intelligence for one person, you.
+[06:18] This was a dream of a great many people, Vannevar Bush called it the Memax, a machine that
+[06:23] would be an extension of yourself and your brain.
+[06:26] And I want to be precise about what I mean, because the words personal AI has already been
+[06:32] captured by marketing departments.
+[06:34] I do not mean a chatbot you pay $20 a month to.
+[06:37] I do not mean a slightly better autocomplete.
+[06:40] I do not mean an assistant that knows your calendar and nothing else.
+[06:45] That's just a subscription you rent.
+[06:47] It's a corporate AGI you don't own.
+[06:49] It resets when you close the tab.
+[06:51] It knows what everyone else already knows.
+[06:54] And when the company behind it pivots, your so-called assistant gets a lobotomy on someone
+[06:59] else's schedule.
+[07:01] Personal AGI is a different animal.
+[07:04] An agent that runs on your infrastructure reads from a memory you own, executes procedures
+[07:10] you wrote and compounds.
+[07:13] The corporate AGI you don't own gets better only when the company ships something.
+[07:19] Your personal AGI gets better every single day you use it, because every day it knows
+[07:25] more of your life.
+[07:27] One of these is a product you consume.
+[07:29] The other is an asset you build.
+[07:32] Sometimes nobody in the world has this second thing yet, and everyone in this arena could
+[07:39] have it by Monday.
+[07:41] And I believe intelligence, intelligence of this kind should be owned, owned by you, not
+[07:47] rented.
+[07:49] If you go forth and build this for yourself, 2034 doesn't have to be like 1984.
+[07:57] You might ask why this personal AGI is happening only now.
+[08:01] Well, I think it's because of what agents can do, and nowhere is it more obvious than
+[08:06] encoding agents.
+[08:07] In 2013, I was a YC partner building Bookface, our internal social network at night.
+[08:12] I shipped maybe 14 useful lines of code a day, which if you know the literature on programmer
+[08:17] productivity is dead on median.
+[08:19] That was me at full effort.
+[08:21] This year I run YC full time, same brain, same hours, plus a five o'clock kid pickup.
+[08:27] I did the math on my output, and I met about 400x what I did in 2013.
+[08:34] Now before the skeptic in Row 3 deflates that number for me, let me deflate that for myself.
+[08:41] You don't trust the raw lines of code fine.
+[08:43] Apply the most pathological verbosity penalty you can stomach and assume the agent writes
+[08:48] bloated code.
+[08:49] Assume half of it is scaffolding.
+[08:52] Assume I'm flattering myself, which is always a lie of possibility.
+[08:56] It's still 8x at the absolute floor, and 10 times that in the middle of the range.
+[09:02] The number is large no matter how you torture it.
+[09:05] Now this is just code, and if you're at the beginning of your career, you're in luck.
+[09:09] This applies to design.
+[09:11] This applies to product management.
+[09:14] This applies to growth.
+[09:16] This applies to every part of what you might want to do.
+[09:20] The multiplier for coding is not just for coding, it's for every piece of knowledge work.
+[09:26] And it's not just me.
+[09:28] At YC we get to watch this at portfolio scale.
+[09:31] A year and a half ago in the winter 25 batch, a quarter of the companies had code bases that
+[09:35] were 95% AI generated.
+[09:38] Those companies use AI agents for everything now, not just code.
+[09:42] And that batch is on track to becoming one of the fastest growing most profitable batches
+[09:46] in the history of YC.
+[09:49] Now I know what a correlation is, so let me say it carefully.
+[09:51] I cannot prove that the AI generated code and everything else caused the growth, but what
+[09:56] I can tell you is that the fastest growing founders we fund are not treating AI as autocomplete.
+[10:02] They are treating it as a workforce.
+[10:06] There are 2x people and there are 100x people who are using the same cloud, same weights,
+[10:12] same context window size, same API, but the leverage is not in the weights.
+[10:17] It's in what context you give it, how relevant it is, and does it happen at the right step?
+[10:23] We'll come back to this.
+[10:25] Now Spinoza has a definition I think about every single week.
+[10:29] In ethics, he defines joy as the feeling of your power of acting increasing, which is why
+[10:35] the first time an agent does a week of your work in an afternoon, it doesn't feel like
+[10:41] a convenience, it feels like joy, and that's not me being poetic.
+[10:46] That's the technical term, your power of acting increased, your cannotus just got bigger.
+[10:53] You define the opposite to, by the way, sadness, the feeling of your power of acting decreasing.
+[10:59] If your Sunday nights have a specific heaviness, like your ability to influence the world is
+[11:03] receding, that you feel like you're quiet quitting, then this is what you feel, and hold that thought
+[11:10] because we're coming back to this in the second half of this talk, and it gets political.
+[11:16] So here's the equation for the next decade of your life, a frontier model which is rented
+[11:21] and a commodity, and getting cheaper by the quarter, plus your context, which is owned
+[11:28] by you and unique, and ideally nobody else on this earth has it, plus a harness that wires
+[11:35] them together, that harness might be open claw, Hermes agent, clawed coder, codex, add that
+[11:40] up and that gives you an agent that acts like a very fast version of you.
+[11:46] Your quality is rented, but your brain is owned, ideally, by you.
+[11:51] Marshall McLuhan said that technology is an extension of man, Steve Jobs called a computer
+[11:57] a bicycle for the mind, and if you have what I'm describing here, then you have a self-driving
+[12:03] rocket.
+[12:05] Paul Graham taught every founder in this building two things, make something people want and
+[12:09] do things that don't scale, both still govern everything.
+[12:14] What's new is the multiplier on the second one.
+[12:18] Agents are how one founder now does unscalable things at scale.
+[12:22] The advice didn't change, but the physics of all startups and of what you can do did.
+[12:29] Spinoza ground lenses instruments let people see past the limits of their eyes.
+[12:34] I want to spend the next 15 minutes showing you what grinding lenses for the mind looks
+[12:38] like.
+[12:39] This is the machinery I actually run my life on and every concept travels to whatever stack
+[12:44] you use.
+[12:46] Let's start with working memory because it explains everything.
+[12:50] You and I, as human beings, hold about seven things in our head at once, seven plus or minus
+[12:55] two.
+[12:56] It's the most famous paper in cognitive psychology.
+[13:00] It's why local phone numbers are seven digits and why you forget the eighth item on a grocery
+[13:06] list.
+[13:07] That is the entire working memory of a human being.
+[13:11] And every institution humanity has ever built, every checklist, every org chart, every filing
+[13:19] cabinet, every stand-up meeting is a prosthetic for that limit.
+[13:27] An AI agent, though, holds a million tokens.
+[13:30] That's about a thousand pages.
+[13:33] Three Harry Potter books sitting open on its head all at once and it can find a needle
+[13:39] in any of them and synthesize across all three in seconds.
+[13:44] Three Harry Potter books versus seven digits.
+[13:49] You could argue that's not quite AGI yet, but it is already a different operating regime.
+[13:55] And almost everyone on Earth is still running their life on an org chart and a way of doing
+[14:01] things designed for the seven-digit brain.
+[14:07] Open that number in the other direction.
+[14:08] A thousand pages is a lot, but it is also very little.
+[14:12] Your life is not three books.
+[14:14] Your life is a library.
+[14:16] Every email you ever sent, every meeting, every decision, and every reason behind it.
+[14:22] Every conversation with every person you know.
+[14:26] The question that determines whether your agent is a genius or a goldfish is this, who decides
+[14:34] or what decides which three books are open on the desk.
+[14:40] And that's what a brain is.
+[14:41] That's what G-Brain is meant to be, the library plus the librarian.
+[14:48] I've been building G-Brain in the open.
+[14:50] My personal open claw has a Carpathi-style knowledge wiki with about 220,000 markdown pages.
+[14:57] 25 years of my life, diarized.
+[15:00] Every email, every meeting, my notes, my photos, my drafts, the things I got wrong.
+[15:07] Compiled mostly by agents, curated by agents, searched for by agents, but I never re-ask a
+[15:13] question I already answered.
+[15:15] And the lived experience in the system is the point, a founder emails me about a crisis.
+[15:22] Before I finish reading the email, my agent has already pulled every prior conversation
+[15:27] I've had with that founder.
+[15:29] Three portfolio companies that hit the same wall, and what actually worked for them.
+[15:34] And my agent does anything, it does knowing everything I know.
+[15:38] And that's the difference between an assistant and a colleague.
+[15:41] Let me walk you through an actual day, because that matters more than an architecture diagram.
+[15:47] While I slept last night, my agent processed my inbox, not sorted it, processed it.
+[15:51] It knows which emails are from founders in trouble, which are from people trying to sell
+[15:56] me something, and which are from the 17 mailing lists I never quite unsubscribed from.
+[16:01] The ones that matter are triaged with context pulled from the library, who this person is,
+[16:06] my whole history with them, what they're really asking under what they wrote, and what that
+[16:11] might mean for me.
+[16:12] I wake up to a briefing, not a pile of emails.
+[16:16] Before every meeting, a prep doc, who I'm meeting, what we said last time, what changed
+[16:20] since, and what I should ask, research I was curious about at midnight is finished by morning.
+[16:25] When something interesting happens in the world, my agent has usually read it, cross-referenced
+[16:29] against what I care about and filed it before I've had coffee.
+[16:34] On top of this library, since my Agenta Coding Framework GStack, 123,000 stars now, which put
+[16:39] it in the top 100 open-source projects in the history of GitHub, and what's actually in
+[16:45] the punchline of this full architecture, it's mostly skill files, plus a browser that the
+[16:50] agents can drive, pages of English, and a way to act on the world, mark down not magic,
+[16:57] fat skills, thin harness.
+[17:00] Let me show you what a skill file is, because I keep saying this phrase, and I want you to
+[17:03] see how un-magical it is, here's a real one, lightly redacted, it says, when a meeting recording
+[17:10] lands from Circle Back, transcribe it with speaker labels, pull out the commitment made,
+[17:15] who made it, and the deadline, cross-check every person named against the library and link their
+[17:19] pages, file the summary here, full transcript there, if anything contradicts something we already
+[17:24] believe flag it, don't override it, that's it, that's a skill, it's a page of English,
+[17:29] a smart intern, anyone really who could read could follow it, and that's the test actually,
+[17:35] if a smart intern could follow it, an agent can run it.
+[17:38] Which means actually a kind of profound thing, I know I caught a lot of flack for talking
+[17:43] about this, but I think it's more true than ever, especially now, markdown is actually code,
+[17:49] if you can write clear instructions in English, you're a programmer, the compiler is a language
+[17:54] model, and that's why it's not just for engineers anymore.
+[17:57] At YC, our media people, events staff, finance team, people who never opened a terminal in
+[18:02] their lives are building skill files and scheduled jobs, one of our finance folks compiled about
+[18:09] a hundred Excel workbooks into a single app she built with an internal agent, she's not
+[18:14] a programmer, she's a manager of agents now, everyone is about to be.
+[18:20] The most important question to ask here is where is the computation happening, and there
+[18:25] are exactly two answers and confusing them causes every agent failure I've ever seen.
+[18:32] Some computation belongs in latent space, taste, judgment, reading what a human actually wants
+[18:38] from a vague request, that lives in the model and you steer it with a markdown file, and
+[18:45] then some computation belongs in deterministic space, the arithmetic, the SQL query, for instance,
+[18:53] the seating chart for what sessions you're going to go to today for your breakouts, all
+[18:59] of that needs to be stored in a SQL database used by the markdown files.
+[19:05] Being smart about this goes a long way, asking an agent or human to seat five people around
+[19:10] a table, that's easy, do it in latent space, ask it to make custom schedules for 6,000 people
+[19:15] in an arena like we just did for you and your latent space agent needs to write some code
+[19:21] to keep track of it, your experience at this conference had to be markdown files calling
+[19:27] code in exactly this way, and you couldn't do it without the code, the model fails where
+[19:32] we fail, the fix is having the model compute the way humans compute, the latent and the deterministic
+[19:39] markdown files calling databases and scripts, simple, but it's what everything is actually
+[19:45] built on, and I'll give you one more receipt, my favorite one because you're sitting inside
+[19:49] it right now, five days ago, I decided this talk needed Spinoza, one of my favorite philosophers,
+[19:56] especially because of how canceled he got, so my agent went and acquired three of the best
+[20:02] biographies about the man, books by Nadler Goldstein and Stewart, about 1,500 pages.
+[20:09] It read all three, it built me a synthesis, a dated chronology of his life, every place
+[20:14] the three biographers disagree with each other and the best verbatim quotes with chapter citations,
+[20:19] and because it knows what I need, the 10 most hellable moments of his life ranked with delivery
+[20:26] notes, the knife attack, the bribe, the desk, every beat of our opening that might have
+[20:33] given you some chills 20 minutes ago came out of that overnight run, 1500 pages became
+[20:38] a stage ready story that I could edit. I call it a compendium skill, and I use it daily,
+[20:43] it's a personal skill that is a mega mega version of deep research only deeper than anything
+[20:48] the corporate AI products will give you. The spine of this talk you're watching was inspired
+[20:54] by the machine we're describing now. And if you're wondering where my mind actually started,
+[21:00] it was not 220,000 pages, it was a folder, it was a few markdown files about the companies
+[21:07] I was working with, and the people I kept emailing. And the library got big the same way
+[21:12] anything gets big, a little every day compounding with agents doing the filing. Nobody builds
+[21:18] the warehouse first, first you build one shelf. When you sit down with an agent tonight, you're
+[21:25] not coding, you're managing a workforce made of markdown, a skill file as an employee
+[21:32] that has one capability, one job written down clearly enough that someone knew could execute
+[21:37] it. A resolver is an org chart, a task comes in, and it decides which markdown file or who
+[21:45] handles it, which means that before you ever incorporate anything, before you have a co-founder
+[21:51] or a logo or a deck, you can already be running an organization, an organization of one plus
+[21:57] your agents. You are the founder and the entire management layer of you incorporated and the
+[22:03] headcount under you is now whatever you decide it is. This already produces companies that break
+[22:10] the old math. Emergent out of our summer 24 batch went from public launch to nine figures
+[22:16] of revenue in eight months. When they crossed $15 million in annualized revenue, they were
+[22:21] 15 people. Retail, winter 24 hit 60 million annualized with about 40. That revenue per
+[22:28] person did not exist before, not in software, not in oil, not in real roads. And these aren't
+[22:34] freaks of nature. They're the first companies built natively on the new physics and every
+[22:39] one of them started as one or two people wired the way I just described.
+[22:45] Now picture our batch room in the dog patch, hundreds of founders. Every single day, each
+[22:50] one of them doing what used to be a person's entire year of work. That is not the future.
+[22:57] That is the bar right now with this batch. If you're not doing it, your competitor is
+[23:02] and they will eat your lunch politely and thank you for it. It also changes what software even
+[23:07] is. Software doesn't have to be precious anymore. You can build exactly the tool you
+[23:12] need for the audience of one in a weekend. The old advice was scratch your own itch and
+[23:17] hope it's the market. The new version is much better. Scratch your own itch because
+[23:21] scratching itches is nearly free and some of your tools for one will turn out to be entire
+[23:27] companies. You'll know because other people start begging for them. And one honest caveat
+[23:34] before the how to because you catch me out in any way. A brain nobody curates is a garbage
+[23:39] dump with great search. Retrieval will surface a stale fact with total confidence. A bad skill
+[23:45] file and codes a bad process forever. So the primitive is memory plus hygiene, provenance
+[23:52] on every fact, contradiction checks when new information collides with old and a librarian
+[23:59] whose actual job is pruning. Treat the brain like production infrastructure and it compounds.
+[24:07] Treat it like a dumping ground and you get a very confident agent that is wrong in ways
+[24:12] nobody can trace. Everything so far is philosophy and receipts. So let's get into some how to.
+[24:22] If you do what I describe in the next six minutes, you'll be ahead of 99% of people who watch
+[24:26] this talk and just nodded. Step one tonight, pick a harness and run an agent on your own
+[24:32] machine. I use Openclaw and Hermes agent with G brain, a hosted version of this is at gbrain.io.
+[24:40] It's free. G brain itself is free and open source. I always recommend the Ferrari. But
+[24:45] I'll be honest, the Honda is really good too. Codex, cloud code, whatever. Any of them will
+[24:51] do 99% of this and the upside of not Ferrari is that it will also get you to your destination
+[24:56] with a little less of less getting out to fix it on the side of the road. The concepts are
+[25:01] the point not any given repo or product. The intelligence is untapped and there are many
+[25:06] paths. Step two this weekend, start your library, not a grand archive. One folder of markdown
+[25:13] files, export your notes, export your email if you can. Write one page about each project
+[25:19] you're working on and each person you work with. And on those pages, write the things you
+[25:24] actually know, what you're building together, what they care about, what you owe them, what
+[25:29] they said last time. That stuff, no model on the earth, no model on earth has because it
+[25:34] only exists in your head. And your head, as we established, only holds seven things.
+[25:41] The first time an agent answers a question using your context, instead of the intranets, you'll
+[25:45] feel the click and you won't go back. You're all sitting on five, 10 years of your own history
+[25:52] in one inbox or another. That's your moat just lying there, unindexed doing nothing. The
+[25:58] only gate between you and this entire architecture is probably 24 hours. Step three, write your
+[26:06] first skill file. Picking it as easy, you know, what's the task you do every single week that
+[26:13] you hate the most? Might be expense reports, meeting notes, the weekly status update, competitor
+[26:19] research. Explain it to your agent. What do you want to do in plain English, the way you'd
+[26:24] explain to a smart friend on their first day of a job, and then let it get it wrong. If
+[26:30] it gets it wrong, correct it. Every rule, every exception, every oh, and also put it in there,
+[26:37] and it'll fix it. That page is now an employee, run it. Step four, wire it up to be a recurring
+[26:44] job. Maybe it's the job you just created in step three. Every morning at seven, do this
+[26:50] every Friday, summarize that. The first time you wake up to work that finished while you
+[26:55] slept, something shifts in your head permanently. That's the day the day stops being the unit
+[27:03] of work for you. It becomes what you can imagine, and it should be driven by what your goals are
+[27:10] and what you want to create in the world. Step five, this is the discipline that separates
+[27:15] the compounders from the dabblers. Never do one-off work. Most people run one operation
+[27:22] with one agent and then throw the context away. They close the window. That's it. Don't. At
+[27:28] the end of every task, ask the agent to skillify what it did. Skillify is a special skill you
+[27:36] can find in G-Brain. You can point it at that repo and say, extract, skillify, learn how
+[27:42] to do it. Turn it into a markdown file you can use and reuse forever. I'll say it the
+[27:50] way I say it at YC. If you have to ask for something twice, you failed. The person who captures
+[27:55] what they learn gets smarter every single day. The person who wakes up every morning with
+[28:00] amnesia. Well, that's a waste of your time. And it doesn't matter how good the model gets.
+[28:07] If you can't turn it into real memory. Do those five things and I can tell you what
+[28:13] your next 90 days look like. Week one, honestly, it's a toy. The library is thin. The skills
+[28:19] are clumsy. You're fixing more than you're saving. Week four, the flywheel catches. The agent starts
+[28:26] answering with your context. The morning job produces something you actually read and you
+[28:31] write your third and fourth skill because the first two worked. Week 12, you have a library
+[28:36] that answers before you finish asking. A dozen skill files running the parts of your week,
+[28:42] you used to dread and one or two tools that other people keep asking to borrow. Which in
+[28:48] this room is called a startup. The curve is the same curve as any compounding thing you've
+[28:54] ever seen. Flat, flat, flat, then not. Most people who try this will quit this in week two. Which
+[29:02] is precisely why the ones who don't feel like they're cheating by week 12. Now, I need
+[29:10] to tell you the part that isn't fun because everything I taught you just cuts both ways.
+[29:16] I told you Spinoza's definition of sadness earlier, the feeling of your power of acting decreasing.
+[29:25] And I said it gets political. This is where a skill file is not a document. It's a piece
+[29:30] of your cognition. How you do the thing. Extracted from your head, written down and executable.
+[29:38] Every skill you teach an agent is you externalized. And the exact same file is two opposite futures,
+[29:46] depending on one variable who controls it.
+[29:51] Take a fictional example of a support engineer. Let's call her Maya. Over two years Maya teachers
+[29:56] were agents, 40 skills. How to triage a P zero at two in the morning. How to deescalate
+[30:01] the customer who's about to churn. How to write a post-mortem that actually prevents
+[30:05] the next incident. 40 files. That's her judgment. The thing that took her two years to build sitting
+[30:11] on a disk. Version one, those files live in Maya's repo. She changes jobs. They go with
+[30:17] her. They wanted a new company. She's operating with years of compounded judgment on tap. Every
+[30:23] year she works. She compounds. That's ownership. And if she wanted to start a company that does
+[30:28] this, it's her expertise. And it turns out she can. Entire start-ups these days will be
+[30:34] markdown files. Version two, those files live in the company's repo, under the company's IT
+[30:40] policy. Maya leaves with nothing. The company keeps running her judgment without her. 40
+[30:45] files executing forever. And her name isn't even in the commit history. She didn't have
+[30:50] a career. She had an extraction. Same files. Same Maya. One variable. So this is the doctrine
+[30:56] and I want you to be able to repeat it tomorrow. I believe skill files are yours. Own your skills
+[31:03] because if you don't, your job becomes a skill file. And this happened before. Craftsmen
+[31:12] own their tools. That's what made them free. The factory broke that. The loom belonged to
+[31:16] the mill. The knowledge workers assumed we were safe because our tools lived in our heads
+[31:21] where nobody could confiscate them. Skill files and that, for the first time in history,
+[31:25] your cognition can be extracted, stored, versioned and owned. The only question is, by whom?
+[31:31] Remember, do you remember the thousand gilders? That offer never went away. It got rebranded.
+[31:37] Every comfortable arrangement where your judgment compounds in someone else's repo is a thousand
+[31:42] gilders a year to show up, keep quiet and stop building your own thing. And that's why
+[31:48] you should start a startup because this is how you can actually make those skill files
+[31:53] work for you. Spinoza faced the upgraded version two in 1673 Heidelberg offered the cursed
+[32:01] heretic a full professorship, salary, legitimacy, a chair, and quote freedom of philosophizing
+[32:10] provided he not disturb the established religion. His answer was, I do not know what the limits
+[32:17] of that freedom of philosophizing might have to be. He read the terms of service and he declined
+[32:23] the acquisition. He had a phrase for what he was protecting, under your own power, as opposed
+[32:29] to under someone else's. Your power of acting exists either way. The political question
+[32:36] in 1673 and in 2026 is who commands it? Personal AI is about controlling your own cognitive
+[32:44] abilities and protecting yourself. That's the whole thesis of this talk in one sentence.
+[32:50] Personal AGI is how you stay under your own power in the age of agents. So keep your brain
+[32:56] and your skills in a repo you control from day one before any platform or any acquirer
+[33:04] has an opinion about it. When Spinoza died, they inventoried the room. Two pairs of pants,
+[33:12] seven shirts, a lens lathe, 160 books, and the ethics locked in a desk. He owned almost
+[33:22] nothing and nobody ever controlled his skill files. The desk drawer was his repo. Own yours
+[33:32] like he owned his. Now, three objections and I can hear them from up here, so let's just
+[33:39] do them. Objection one, the models are improving so fast that all this harness stuff will be
+[33:43] obsolete. Just wait for the next release. This is the better, better lesson crowd and I love
+[33:47] them, but notice what actually happens in every model release. The better the models
+[33:52] get, the more the differentiator moves to context. When everyone's engine is a thousand horsepower,
+[33:58] the race is one on the driver and the map. The weights are everyone's. The library is
+[34:03] yours. At least I hope it is. A better model makes your library worth more because a smarter
+[34:10] reader extracts more from the same books. I'm rooting for the labs as hard as anyone in
+[34:16] this building, but every release they ship is a free upgrade to a workforce I already own
+[34:23] and a workforce I want you to own. Objection two, is this just rag, sure, and post grasses
+[34:29] just be trees. Retrieval is the primitive, not the product. The hard part is everything
+[34:34] around it. What gets written down in the first place, how it gets enriched and linked, what
+[34:38] gets promoted to hot memory versus filed as cold, cold reference, who arbitrates when two
+[34:43] facts disagree. Retrieval is easy. Being worth retrieving from is the product. Objection three
+[34:51] and it's the one that deserves the most respect. You put your entire life in one system, your
+[34:55] email, your meetings, your kid schedules, what happens when it leaks? My answer is the
+[34:59] same answer as the whole talk. That's exactly why it has to be yours. My brain runs on my
+[35:06] own infra in my own repo under my own keys. Compare that to the default, which is not privacy.
+[35:13] The default is your life is already scattered across ten clouds owned by companies whose incentives
+[35:18] are not yours, searchable by everyone except you. I didn't create the risk by consolidating
+[35:23] my contacts. I took custody of it. Custody is the security model and if you don't trust
+[35:27] yourself to hold the keys, I promise you the answer isn't trusting someone else's terms of service more.
+[35:34] So why did I open source all of it? The harness, the brain architecture, the skills, the whole
+[35:38] personal operating system. People ask me this because they seem like they think there must
+[35:43] be a catch. Well, the answer is because I can. Because being at YC for me means I don't have to
+[35:49] monetize my own infrastructure. But because I can is also the answer to the wrong question.
+[35:55] The real question is why anyone should. And the answer is that I believe tools of the powerful
+[36:01] should be given away. Every era has a private technology of leverage, a thing the powerful have
+[36:09] and everyone else doesn't. For a long time, it was literacy. Then it was capital. Right now,
+[36:17] today it's this, the harness, the library, the workforce made of markdown. The people who have it
+[36:23] are quietly operating at a different scale than the people who don't. And the gap is widening
+[36:29] every month. And that's what this whole conference is about. To give you the power to be able to do
+[36:36] it for yourself. When something like that, that powerful stays private, you get a priesthood.
+[36:44] When it gets given away, you get a renaissance. I know which one I want to live in. Which means I get
+[36:54] to do the thing that I actually believe in. And I'll give it to you as a creed. Because it's the closest
+[37:00] thing I have to one. Say the things other people won't. Fund the people other people won't. Build
+[37:08] the buildings other people won't. Write and give away the code that other people won't. Leave
+[37:15] behind the institutions that other people won't. And when you build in the open, you should know
+[37:22] what's coming because Pinoza's story has one more chapter. November 1676, Gottfried Leedness.
+[37:29] The most glittering genius in Europe. Silk stockings, a calculating machine in his luggage,
+[37:36] travels to the Hague to spend three days in an attic with the most hated man on the continent.
+[37:43] And then he spends the next 40 years lying about it. Publicly, the visit was a few hours in passing.
+[37:49] Privately, his notes are crammed with obsessive commentary on Pinoza.
+[37:55] I love a small version of this weekly. I say agents write most of my code now and the dunks
+[37:59] arrive by lunch. Then I look at what the loudest dunkers are actually shipping and it's agents
+[38:05] all the way down. So learn the pattern now because building in public guarantees you'll meet it.
+[38:10] First they quote tweet you, then they get clone you. The dunks are just the adoption curve announcing
+[38:17] itself. And I want to show you what this architecture looks like when it's pointed at the only thing
+[38:23] that really matters. I have a friend whose son has a rare form of epilepsy. No lab, no grant,
+[38:31] no permission. He just went and you can just do things. He built a repo of 80,000 markdown files.
+[38:38] A brain for one small boy and pushed himself to the absolute edge of what humanity knows
+[38:45] about his son's exact condition. Every specialist visit, every paper, every seizure log, every drug
+[38:53] interaction, indexed and cross linked and ready. So that when a new doctor has an idea, he knows
+[38:59] in minutes whether it's already been tried. A father, a laptop and a library. That is personal
+[39:07] AGI, not a benchmark, not a demo. The entire architecture I've described tonight, the library,
+[39:14] the librarian, the right three books open at the right moment aimed at the one thing one man loves
+[39:20] the most in the world. Nobody was coming to build that for him. So he built it. And nobody is coming
+[39:28] to build yours for you. That's the good news. Everything you were told you needed, the team,
+[39:36] the funding, the permission, the credential was a workaround for the fact that one person
+[39:42] could hold seven things in their head and work 16 hours a day. That fact just expired.
+[39:49] You can fly now, not metaphorically, mechanically. Every problem where you thought,
+[39:56] I wish I had this person, I wish I could hire this person, but I can't get them. You can.
+[40:05] Every archive too big to read, every data set too gnarly to clean, every ocean, you were told not
+[40:12] to boil. We can boil the ocean now. I have a sentence I live by and I want to leave it with you.
+[40:22] It's all made up, but you get to make it up. Every institution in the world, including the one
+[40:30] that read a curse over a 23 year old in 1656, was made up by people no smarter than you.
+[40:38] The difference between you and every generation of founders before you is that they had to recruit
+[40:43] dozens of believers before they could build anything at all. You need a laptop and a few years
+[40:50] of your own history you're already sitting on. There are about 7,000 people at this whole event,
+[40:59] 7,000 canotuses, 7,000 strivings. For most of history, almost all of that striving never got an audience.
+[41:09] It died waiting for funding, waiting for headcount, waiting for permission, waiting for someone else
+[41:16] to believe first. The machinery I showed you tonight is the first technology I've ever seen that lets
+[41:23] the striving go straight to work. One person, no intermediaries, no permission. I genuinely do
+[41:30] not think the world understands yet what 7,000 people with that kind of leverage walk out of a
+[41:37] building and do. Spinoza closed the ethics, the book that had to be smuggled out in a desk
+[41:46] with nine words. All things excellent are as difficult as they are rare. The difficulty
+[41:53] just collapsed. The rarity is now up to you. Go and build. Thank you.

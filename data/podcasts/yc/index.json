@@ -6,9 +6,33 @@
   "blake-scholl-breaking-the-supersonic-ban",
   "sam-altman-never-a-better-time-to-do-a-startup",
   "boris-cherny-building-claude-code",
-  "jensen-huang-the-mindset-that-built-nvidia"
+  "jensen-huang-the-mindset-that-built-nvidia",
+  "how-to-design-in-the-agent-era",
+  "garry-tan-own-your-intelligence",
+  "building-the-first-data-centers-in-space"
  ],
  "episodes": [
+  {
+   "fiche": "how-to-design-in-the-agent-era.json",
+   "titre": "How To Design In The Agent Era",
+   "date": "Fri, 07 Aug 2026",
+   "date_iso": "2026-08-07",
+   "nb_outils": 6
+  },
+  {
+   "fiche": "garry-tan-own-your-intelligence.json",
+   "titre": "Garry Tan: Own Your Intelligence",
+   "date": "Thu, 06 Aug 2026",
+   "date_iso": "2026-08-06",
+   "nb_outils": 3
+  },
+  {
+   "fiche": "building-the-first-data-centers-in-space.json",
+   "titre": "Building the First Data Centers in Space",
+   "date": "Wed, 05 Aug 2026",
+   "date_iso": "2026-08-05",
+   "nb_outils": 6
+  },
   {
    "fiche": "jeff-dean-the-1-rule-for-building-in-ai.json",
    "titre": "Jeff Dean: The 1% Rule for Building in AI",
@@ -52,5 +76,5 @@
    "nb_outils": 1
   }
  ],
- "maj": "2026-08-02T19:37:26Z"
+ "maj": "2026-08-09T17:46:13Z"
 }

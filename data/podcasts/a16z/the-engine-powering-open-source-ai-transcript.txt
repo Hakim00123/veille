@@ -1,0 +1,529 @@
+The a16z Show
+The Engine Powering Open-Source AI
+Thu, 06 Aug 2026
+https://a16z.simplecast.com/episodes/how-open-source-ai-became-critical-infrastructure-3yYJbsEz
+
+[00:00] The fun thought experiment is if GPUs dropped in price by 99%.
+[00:04] Then do we get back to a real open-source world?
+[00:07] If moderation is never solved,
+[00:09] in the future people will go to open-way by default.
+[00:12] Because that is where you know for sure
+[00:15] you can control your guardrail for trusted use cases.
+[00:18] And can you talk about where VLOM sits in that stack?
+[00:21] VOM is an inference engine.
+[00:23] It is kind of like databases and operating system,
+[00:27] and other critical software to power AGI.
+[00:30] NVIDIA in the Google.
+[00:31] Their newest ship will make sure VOM can run on them.
+[00:34] And in a lot of cases, they use VOM as a benchmark.
+[00:37] We're bridging almost a 10x gap.
+[00:40] For proprietary models, there is a regular mode and fast mode.
+[00:43] But for open-weight, every provider can offer
+[00:46] potentially even 10 different levels of speed.
+[00:49] Five years from now, open-source AI models,
+[00:52] have they closed the gap with frontier models?
+[00:55] Capability-wise, I don't really see a big gap.
+[00:59] Not even today.
+[01:00] Because...
+[01:01] Open-source AI has become one of the most important forces
+[01:04] shaping the industry.
+[01:06] But making frontier models available to the world
+[01:09] requires far more than releasing model weights.
+[01:11] It requires an entirely new infrastructure layer.
+[01:15] In this episode, Elena Berger and Matt Bornstein
+[01:18] are joined by Simon Mo, co-founder and CEO of Infraq,
+[01:22] to discuss how open-source inference
+[01:24] became critical infrastructure for AI,
+[01:26] why enterprises are increasingly turning to open-weight models,
+[01:29] and what the next generation of AI systems will require.
+[01:33] They also explore model licensing, inference economics,
+[01:36] and the future of OpenAI.
+[01:41] Today, we're here with Simon Mo, co-founder of Infraq,
+[01:44] and a lead maintainer of VLLM, the open-source inference engine,
+[01:48] now running on half a million GPUs at any moment.
+[01:52] We're also joined by Matt Bornstein,
+[01:54] and the A16Z general partner.
+[01:56] Simon, Matt, thank you so much for joining us.
+[01:59] I think first we should start with the open-source AI,
+[02:03] and kind of the more recent history of open-source AI.
+[02:07] So VLLM actually has its origins kind of back in 2022 pre-ChaGPT,
+[02:14] and your team set out to make a slow open-source demo faster,
+[02:18] and instead just found this pile of unsolved problems.
+[02:22] So can you talk about what needs serving an LLM
+[02:26] so fundamentally different from the ML workloads everyone already knew how to run?
+[02:31] Yep, good to be here.
+[02:33] So serving a large language model is a fundamentally different problem,
+[02:37] because serving it requires to run it on accelerators like GPUs or TPUs,
+[02:43] and it is a computationally intense process
+[02:48] that will require a lot of engineering and ensuring that for each request,
+[02:54] user can see the LLM's response quickly and efficiently.
+[02:58] So this typically means we need to handle differences in input distribution,
+[03:03] how long each request is, output distribution, which is non-deterministic,
+[03:07] and batching and scheduling a lot more in the core of the inference engine.
+[03:13] Yeah, and so the team, the project has been around for about four years now,
+[03:19] but the company is a little bit more recent.
+[03:21] So I want to throw this out to either of you, Matt.
+[03:25] I know you've known the team and observed the team for a very long time.
+[03:28] So at what point did you see this sort of transitioning from being
+[03:34] much beloved open-source project to critical infrastructure and then a company?
+[03:39] Yeah, I mean, I think you have to go back a little bit, right?
+[03:41] Open Source was the norm for AI models early on, right?
+[03:45] I mean, we literally had this company called OpenAI, which, you know,
+[03:48] it's become a little bit of a joke.
+[03:50] It's not as open as it once was or not nearly as open as it once was,
+[03:53] but early on, all the frontier AI work was being open-source,
+[03:56] or at least released into open weights, which is a little bit different than true open-source,
+[03:59] and people could mostly run these models sort of on hardware or computers that they already had.
+[04:04] I'm curious, I decided like, maybe you remember like,
+[04:06] what was like the first model that like you actually needed to go out and get special software and
+[04:11] like a special set of computers to be able to run?
+[04:14] Probably Bert. And before that, it was like ResNet for computation,
+[04:19] like images, computer vision, classification.
+[04:23] So ResNet already needs to run on NVIDIA K80, which is kind of one of the first SPU on AWS
+[04:30] and other places. But way over, but even at this point, ResNet,
+[04:34] you can still kind of run on a commodity, even CPU devices. It's just very slow.
+[04:40] But for Bert, where running out is like, wow, you have to run on GPU to make it
+[04:45] anything faster and efficient for anything translation or any task.
+[04:49] So that was like before 2020, even.
+[04:52] Yeah, it's so funny thinking about this. I'm like, all the memories are flooding.
+[04:56] Hugging face had a thousand Burke variants on it. You have to go find like the right Burke
+[05:01] variant for your particular task. And yeah, and you're right, you had to,
+[05:05] some people, I guess, had their own GPUs and could run it. But yeah, a lot of people had to go
+[05:08] provision cloud. Exactly. So it's like that. That's really funny.
+[05:11] And so yeah, so look, I mean, Burke was an early language model that newer models are much bigger,
+[05:17] much more sophisticated, take a lot more memory, a lot more compute. And so the LLM really from the
+[05:21] early days, right, was about running these more powerful models that you couldn't just sort of do
+[05:26] it figured out on your own. Yeah, yeah. And I think to get us to this present day,
+[05:32] I think it would be good to talk about kind of at what point it really became critical
+[05:37] infrastructure for these even larger open source models. And when did we even start to see these
+[05:43] larger open source models kind of come into the field? Well, we really see the critical
+[05:49] clarity of the software stack. It's always about bringing open frontier intelligence. This is open
+[05:57] frontier intelligence is a catchphrase for the K3 model release this time. And there's also about
+[06:03] VLM's mission about inferencing infrastructure. So if we look at it, when do they start being
+[06:09] critical is when people are relying on it for their application for their day to day productivity.
+[06:15] So maybe 2023, when GitHub co-pilot and chat GBT are something that people just cannot live out with
+[06:23] anymore. And that point open way model is already backing and become a cornerstone of how people
+[06:30] are living every day. And at that point, we will need the accelerator running open
+[06:36] weight model and open weight software to open source software to make sure it works well and have all
+[06:43] flexibility and control with it. Yeah, it's sort of interesting from a startup standpoint. Like
+[06:47] you mentioned sort of GPT three or like early chat GPT, those close source solutions were starting
+[06:53] to become critical to like a small group of people in that time. And open source existed,
+[06:57] but it was a little bit of a curiosity or sort of an enthusiast thing.
+[07:00] As the frontier has expanded as particularly with close source models, more and more open
+[07:06] source has been dragged in as kind of like critical behind it. Like if that makes sense,
+[07:09] like at any given point in time, including now, adding models from open AI and anthropic are kind
+[07:14] of more widely used and more critical kind of in general than open source models. But I do think
+[07:19] we passed a threshold. And I want to say about a year ago, where a bunch of smaller companies are
+[07:26] like new application companies, as they were trying to figure out, how do I really build an AI
+[07:30] without just being a rapper on top of open AI. The answer to that question turned out to be open
+[07:35] source. I mean, this is what cursor did. This is what sort of Decagon and Harvey are in the process
+[07:39] of doing now and a bunch of other like really, really strong application level startups sort of
+[07:44] made the determination we can't build just on close source. We need to do our own mid training,
+[07:49] our own post training, our own sort of inference and deployment tricks. And all of that means it must
+[07:53] be built on top of open source. The close source vendors won't give you the access to do this.
+[07:57] So my read is like kind of a year is should go. Open source became really central in a way that's
+[08:03] not always visible because it's deeply embedded in some of these products. But some of the most
+[08:07] innovative products and applications now really depend on this very deeply.
+[08:10] Yeah. And can you talk about where VLLM sits in that stack, where we do have these larger enterprise
+[08:16] companies that are choosing to use open source models? Like where does VLLM sit in the stack for
+[08:21] them? Yeah, I mean, you should like, just about everybody uses VLLM.
+[08:24] You should describe it. Just about everybody use VLLM is a inference engine. That means its job
+[08:30] is to turn available GPUs into a running endpoint for intelligence. So that means it is kind of like
+[08:38] databases and operating system and other critical software to power this economy or power the AGI
+[08:46] that everybody really uses today to ensure they can have cost effectiveness, efficiency,
+[08:52] reliability, and also always staying on the frontier. Because for VLLM, we support a more
+[08:59] than a thousand model architecture up to today. And a lot of those are proprietary, but also a
+[09:04] lot of those are open weight, right? And a lot of those model architecture, when they are becoming
+[09:09] transitioning from a research prototype to world accessible open weight model architecture,
+[09:16] they are live on VLLM immediately. So that's what a process would call day zero model release.
+[09:21] And additionally, VLLM also work closely with all the hardware vendors. So that means across like
+[09:27] NVIDIA, MD, Google, Amazon, Intel, and a lot more, their newest chip will make sure VLLM can run on
+[09:33] them. And in a lot of cases, they use VLLM as a benchmark to make sure it runs well on them.
+[09:38] So this kind of fusion of where models run and where it gets to meet the hardware is where the
+[09:44] magic happened. And this is where VLLM is. And you've told me some of the behind the scenes stories,
+[09:49] like it's actually not easy. These days are a model releases. It's like a lot of human drama,
+[09:53] in addition to like technical work. I guess, are there any stories there that you
+[09:57] could rotate a share? Oh, it's actually a very fun code design process, because from model
+[10:02] last point of view, right? These are brilliant researchers who have built this model. Now
+[10:07] their biggest question becomes, how do we get this out of the world and make sure everybody's
+[10:11] able to use it and running well? And we have worked with model labs that are very, just because
+[10:18] they just use VLLM already in production or in research process, they will just down everything
+[10:25] for you. Because this is a moment when we go to them, it's like, hi, where is the VLLM team? We
+[10:29] would like to support your open source model. We would like to offer it in a way that's kind of
+[10:33] open source, but why gloss service to get your model running well on architecture,
+[10:38] and then you return and we get the model labs, like, oh, we'll get it working already, because we're
+[10:42] running it for the RL process. Here you go, just review our code and merge our pull request.
+[10:46] And then on the other end, we really have model labs that just don't know how this can work.
+[10:51] Because systems is not like their core. Yeah, because systems is not their core,
+[10:55] and they have been training or maybe they have their internal inference engine that just don't
+[11:00] know how it will adapt to the open way ecosystem. And by the way, this is also a very much a multi-party
+[11:06] kind of involvement process. Every model typically involves the model lab, involves a primary or
+[11:13] secondary hardware vendors, involves us, involves hugging phase, who are the model format and
+[11:18] like model hub vendors. And then, depending on the appetite, the model lab involves 10 or 20
+[11:25] different kinds of release partners. These could be inference clouds, these could be public hyperscalers,
+[11:31] whoever is going to run this model, and you want them to ensure success, the model are running
+[11:36] successfully. So even up to today, if you look at the K3 model release, it's a whole partnership
+[11:43] and a drive to make sure that the model is, once the model is released, because it's just
+[11:49] a few terabytes of files sitting on the internet, that people are actually going to use it really,
+[11:53] really well. Even from the beginning of 2020 to 2094, if you remember when Mistral dropped
+[12:00] their first model, they just dropped a torrent, linked for PTP, and then everybody is struggling
+[12:06] and trying to get it up and running. And then we're working behind the same wisdom,
+[12:10] resulting in trying to get the inference engines before working in VR. And this one is the most
+[12:15] probably early on exciting weekend that we gave it to spend on this. And then, after the weekend,
+[12:22] when everybody is trying to really analyze what's going on, and Monday, Tuesday, well,
+[12:27] Mistral and us just announced, here, you can run it on VR. I'm successful here, and everybody will
+[12:33] be able to easily reuse a lot of the work and start building on top of it.
+[12:37] That was a fun time where enthusiasts like me could just scramble to download the model
+[12:42] and they're running somewhere. I'm glad the professionals didn't work, because it never
+[12:46] worked very well. But it was a fun moment in time.
+[12:50] So to bring things forward to the present, I think open source models and also distillation
+[13:00] have been the news recently. Infract, signed the NVIDIA Open Weights and American AI leadership
+[13:07] letter that was signed by also A16C, Meta, Amazon, dozens of other companies.
+[13:14] Can you just talk about your decision to sign that and sort of what you were really
+[13:22] kind of responding to in the market and kind of in the news?
+[13:26] Yeah, so for us, what I really want to stand behind is open way absolutely matter. I think
+[13:32] the ecosystem, the world cannot just be controlled by proprietary APIs, and where open way open development
+[13:40] and research of these models are blocked or banned. The pledge that Infract plays enough
+[13:46] for is we want to help and foster this ecosystem, where we are typically in a little bit downstream
+[13:54] of this ecosystem. Infants in general are not part of the pre-training process nor the RL process,
+[13:59] but where the model actually meets the world. From what we're seeing, people are just really
+[14:06] using their imagination and ability to materialize this imagination of open way model. They're able
+[14:12] to leverage this open way model so much effectively. There's almost two pieces to this, right? There's
+[14:18] like the cost thing where it's like the closed models are too expensive, and then there's sort
+[14:24] of the control thing where I want to sort of be in control of my infrastructure and control the
+[14:30] model, right, if I need to extend it or put on my own guardrails or anything. I'm just curious,
+[14:34] have you heard from customers? Are both of those things important to them or are they kind of
+[14:42] willing to pay as long as they have the control or maybe they're different use cases? It seems like
+[14:46] if luxury over time, so control matters a lot over the last few years and then costs just
+[14:52] start to matter over the last few months. So cost really matters starting from people trying to
+[14:57] migrate off their expensive coding plan and every sky rocketing token maxing spend.
+[15:04] But control has always been in the backbone of this is they want to even in a way to control
+[15:10] the cost, right? But also it's about controlling the system performance against what they're paying
+[15:14] for. So for example, for a voice agent company, they want to control their own model so that they
+[15:22] can make sure the model actually respond by their required time. So the customer when they're on the
+[15:27] phone, they can ensure the agent is responding according to a SLA. And this sometimes is only you
+[15:34] can do with your controlled intelligence, because you know the whole hardware you're running and
+[15:39] the whole system you're monitoring versus signing up for relying on your critical infrastructure
+[15:44] with a proprietary API where they might go down anytime or have violation of the contract anytime.
+[15:51] Simon, you also to go back to the cost point, you actually make the point in an essay recently
+[15:57] wrote about the release of Kimmy K3 that actually the economics is besides the point and it's actually
+[16:04] you know in the case of these, you know, just really, really great open weight models that are
+[16:13] on the frontier that were designed by really brilliant researchers like these models are in
+[16:19] some cases just as expensive as you know, the close source model. So in those cases, kind of what is
+[16:26] the point of running them and kind of what do we learn architecturally in the in the course of running
+[16:32] them? Yeah, so first on cost, it's not necessarily as expensive as a proprietary model, but rather
+[16:40] first the cost this course has been discussed over and over again with even geo and 5.2 a few
+[16:46] months back. So opening model are sometimes definitely a lot cheaper. And but for this model,
+[16:53] there's a big sort of step change where we're bridging almost a 10x gap but strikes somewhere in
+[17:00] the middle where a Kimmy K3 is not as expensive as Claude or GPD soul, but it is a lot more expensive
+[17:08] than geo and 5.2. Why is that? And I do believe this is the point of what pricing intelligence
+[17:14] with the market correctly and understanding where it is. And but then the majority part of the
+[17:21] discourse should be focusing on while this model is bringing a opus 4.8 level model to our own
+[17:27] infrastructure that I can use I can run I can fine tune I can be able to understand exactly how
+[17:34] many tokens do I need to understand the exact performance profile. The reason here, for example,
+[17:38] is for proprietary model, there is regular mode and fast mode. And that's only the two switch here.
+[17:45] But for open weight, when you're running it, every provider can offer potentially even 10 different
+[17:51] levels of speed going from like the slowest mode, which can be a lot cheaper to 400 tokens
+[17:58] per second, almost up to 500 in many cases that for some workloads. And this is typically two
+[18:05] x or three x faster than the fast mode out there today. So this kind of level control even in terms
+[18:12] of performance and then let alone control over how customer interacting with the model control
+[18:18] over data retention, keeping my stable doesn't have the zero data retention policy. And at least
+[18:24] a lot of the data need to be staying there and let it control security and compliance a lot more.
+[18:31] Yeah, this is why I'm particularly excited about K Street, not just from the cost perspective,
+[18:36] but a lot more on brains, this level of intelligence to something people can own.
+[18:41] In terms of, you know, calibrating things like speed, calibrating other things just sort of on
+[18:47] the back end, what needs to happen and kind of what are you seeing your users do and like,
+[18:52] like, who is being really clever about this? So we do see users are able to get the maximum
+[19:00] benefit out of this model when they're able fast mode. Like what I'm talking about here,
+[19:05] of course, is veons on fast mode, getting up to 400 and 500 tokens per second,
+[19:10] because it is really a big step change from like that, especially when developer interacting with
+[19:17] the model, they can see, oh, I can really just get my tasks down faster here. And the model are not
+[19:23] no longer stuck in thinking, rather it is just executing, executing, interacting with the environment.
+[19:28] So for premium developer blocking focus task, we're seeing is very benefiting, but also K Street
+[19:35] are just be able to have the ability for people to modify it and fine tune on top of it,
+[19:41] allows them to make it better for their own workload. And this is definitely happening today as
+[19:46] well. Can you just explain what the licensing term is for the most recent open source models
+[19:53] compared to the past and like, why you think they're doing that? Oh, yeah. So historically,
+[19:58] the open way model are just like a passion to like our software, which is like, take it,
+[20:03] modify it, do it, whatever you want with it. Here is a gift to the world. And then recently,
+[20:09] the model lab are trying to understand a way to economically fund their own model development
+[20:14] after all, what we're training and research are, and the data are very, very expensive.
+[20:19] So we have been starting to see terms, even to the llama days for when meta, it was reducing
+[20:26] llama, they do have a term of if your daily active user or like, annual recurring revenue,
+[20:31] we see some threshold, please enter into a commercial agreement with meta specifically, right?
+[20:35] Do you remember that the numbers were like specifically chosen at that time that you could
+[20:40] go find it was like two companies in the world that like fit the definition that they had
+[20:44] excluded from their life. Yeah, exactly. But like, people have taken a hint from that,
+[20:48] especially now the labs are trying to figure out a way to economically fund it, especially
+[20:53] when they're open source of model, everybody can just take it running themselves,
+[20:57] whereas nobody will use your API anymore, in many cases, while their API currently
+[21:01] still taking up shape, right? And now we're seeing a very healthy ecosystem development,
+[21:07] starting from even minimax recently, when they're releasing the M2.7 model, they have a term
+[21:14] specifically focusing on usage. And Kimi initially also has like, if you have derivative works,
+[21:20] like this is kind of big news back then was for our works and cursor about how they built on top
+[21:27] of Kimi model. If I just expand on that a little like, I don't think it's greed, at least what
+[21:35] I've seen from open source model labs, right? Open source models, really what we're talking
+[21:40] about are open weights, right? And it's just not software, right? Like an AI model is not software
+[21:46] at the end of the day. And so open source software used to be supported by people donating their time
+[21:55] or big companies kind of authorizing their employees to donate their time. So it's sort of like a bulk
+[22:00] in kind, you know, donation of people's time that really doesn't work in AI, right? Like, I can't
+[22:07] just like go home at night and like train a frontier open source model with friends for fun. Like we
+[22:12] need millions or billions of dollars of computing resources in order to do it. So I think it does
+[22:18] support your point that like obviously there needs to be economic incentives and there needs to
+[22:22] be funding mechanisms in place. Frankly, I think even more so with Chinese models than with
+[22:29] domestically produced models, right? If there's no source of economic, if there's no source of
+[22:34] funding for for moonshot to continue to train models, like we know where the funding will come from
+[22:40] instead. And it's not like something we write, you know, it's government and things that like are
+[22:44] actually worse for us, I think. So like, I think I think you raised sort of an interesting point
+[22:49] that this is an important economic structure. And like, I think this means we'll see more of this
+[22:54] in the future. Would you agree with that? Yeah, it's really about sustainability. And then it's
+[22:58] about how do you make sure that all this initial Catholics almost to train the model fail again
+[23:05] and again and train the model again? Like, how do you really pay it back? And how do you make
+[23:09] sure that there's enough confidence and funding from everybody involved to go to do the next one,
+[23:15] right? And I recently heard someone making a logic to this to the pharmaceutical industry.
+[23:23] It's almost like, how do you make sure that the R&D process of new drugs are property
+[23:27] funded and this proper sustainable message to making sure that people are willing to take big
+[23:33] risk, big bad to go to do research for new drugs. And then later, because they know there's a
+[23:39] economic incentive in the end, when the new drug leads to the market, a portion of those
+[23:45] of course, besides the just distribution channels, a portion of those revenue will flow back to
+[23:51] continue to fund the next R&D effort. And this is where we're kind of seeing similar to the model
+[23:56] development now. Yeah, that's a really interesting analogy, because it's like, once a drug, a molecule
+[24:03] is released, you have the strongest possible control, which is nobody else can manufacture
+[24:08] at all, right? It's like the most closed possible source, like it's like a secret.
+[24:15] But yeah, like in the case of models, especially open source models, you know, once it's out there,
+[24:19] anybody can take it, use it, extend it, et cetera. So having, yeah, so having some economics attached
+[24:24] sure probably does make sense. Yeah. Well, actually, that raises a question for me too,
+[24:29] which Matt, you were alluding to this earlier about how different open source models are from
+[24:36] the dynamics of open source software maintenance, when it comes to open source AI, what actually
+[24:42] needs to be maintained? Is it the infrastructure around it? Do the models themselves need maintenance
+[24:48] at all? Just kind of what are those dynamics? Because I think even the developer behavior around
+[24:54] it is pretty different. Yeah, I mean, Simon sort of said this already, but maybe I'll just expand a
+[25:00] bit, which is, you know, you see the results of a big training run, you know, we're training now,
+[25:07] I mean, it's pre-training and then, and then, you know, RL kind of, I know, mid-training or sort of
+[25:13] post-training on these things, or, you know, pre-training SFT, RL, right? Like it's sort of
+[25:17] complicated pipeline. We see only the results of this at the end, and the numbers are big, like,
+[25:22] oh, you know, this was a $100 million training run. But what you often forget is like, there may
+[25:27] have been five failed training run, you know, large-scale failed training runs before you even
+[25:31] get to know people. Yeah, there's a lot of slantiers. Yeah, exactly. One of my favorite artifacts,
+[25:37] maybe we could even track down the link, is one of the early llama models. They published the whole,
+[25:42] like, conversation log between, or between the people who are babysitting the training clusters,
+[25:47] like, while the models were training. And it's so funny, it's just like, oh no, everything's gone
+[25:52] wrong. Like, yeah, it's like panic. Then the next comment was like, okay, we solved it, everything's
+[25:56] okay. You know, clusters are up, losses are going down. So there's a lot, a lot, a lot that goes
+[26:01] in behind the scenes before these models get released. You know, once they're out there, I guess it's a
+[26:05] little bit more in your zone, you know, to kind of make sure it's like operationalized. Oh, yeah,
+[26:10] but this is also a very interesting point. Once it's out there, it's a whole community effort
+[26:15] trying to operate in this model, because the model is trained on a given type of hardware,
+[26:19] and given type of architecture. And but when it's out in the while, everybody has different
+[26:23] cluster topology and use cases. And it's about how to turn like a use case of one now to a use case
+[26:30] of almost infinity. Now you have people trying to adapt it to the edge devices and people trying to
+[26:35] run at larger scale ever. Adapted making sure it runs for voice agent, but also for coding agent,
+[26:41] which are entirely different kind of use cases. So this is a whole community effort trying to
+[26:46] further optimize, specialize, and making sure the running of it is reliable and continue to be able
+[26:51] to optimize against it. So that's a whole village later throughout the open storage deal to make
+[26:57] sure it's improved. And that's cool, because that really is like open source software. I mean,
+[27:01] this is what you do, but you know, like this is like anybody can contribute and like make these
+[27:06] better. My the fun thought experiment is if GPUs, you know, dropped in price by 99%, right? Like,
+[27:13] if if GPU based compute actually became kind of cheap and widely available, like then do we get
+[27:19] back to a kind of a real open source world where, you know, one person sitting in their basement or
+[27:25] 100 people working their free time can like come up with something new, try many of these sort of
+[27:30] model training paths that, you know, that like are in the queue somewhere, one of the big companies
+[27:34] and you know, kind of kind of see, you know, really expand in advance the field collectively.
+[27:39] Yeah. Well, I mean, this relates to what you were talking about at the beginning. It's like,
+[27:43] you know, at the beginning, the amount of compute you needed to be at the quote unquote frontier was
+[27:48] negligible. And now it's just like, it's it's enormous. And how do you how do you get that, you know,
+[27:54] back to consumer parity again? I've said this on the podcast before, but I'll keep saying it.
+[27:59] Alex net first, you know, kind of like neural network to run on on GPUs that we care about,
+[28:04] ran on two GPUs. And that's not that's not like there are no missing decimal points or comments in
+[28:09] there, literally to get you literally nowhere. Yeah. Yeah. So I guess this this relates to to
+[28:16] another question that we've had, which is, which is inference has gotten harder over the past 18
+[28:21] months, because of this combination of scale and diversity and the kinds of models that we have.
+[28:27] And of course, like agents that are doing increasingly long running tasks. So what makes
+[28:35] open source in this world and in this scenario, not just like nice and nice thing to have, but
+[28:40] absolutely necessary. Yeah. So scale comes from a few points. It comes from whether or not you
+[28:46] can run this gigantic model on a data center rack. And but also it comes from can you optimize it
+[28:52] to the extreme point to the speed of light so that you are getting the most value out of it.
+[28:57] But also you need a whole community and collaboration and partners of effort to validate it
+[29:03] and making sure that there is no that last remaining bugs up here, like 0.001% of the time.
+[29:10] So this is where scaling up the deployment and making sure more people are running it as
+[29:17] like largest footprint possible will ensure everybody's experience of running this model is
+[29:22] better. And this is where kind of this wide open source inference is the current leading way
+[29:29] right now instead of a closed source inference engine. And frankly, right, all the, a lot of the open,
+[29:37] a lot of the open, sorry, a lot of the influence cloud and API as a service today do use and leverage
+[29:44] open source inference engine under the hood. And the reason to do that is there's just so much
+[29:49] battle tested and earned the recipes and things that they can build on top of. And this is where
+[29:56] open source is the current beginning way to run models.
+[29:59] Something that I find kind of funny and like looking back at not just the history of
+[30:05] yellow lamb and interact, but also a company like open router or even O llama, all of these different
+[30:12] teams kind of got started around 2022 and 2023. Some of them even before chat GPT in your case
+[30:21] built around open models. And what kind of special thing do you think was happening at that time,
+[30:27] just like in the world of research and in the world of AI, where we see these companies now and we look
+[30:33] at them and you think of yellow lamb as mission critical or open router as mission critical.
+[30:40] And what do you think was going on at that time where even before we had, you know, a big consumer
+[30:47] use case, we had, you know, teams like yours that were, we're building out these things and kind of,
+[30:54] how did you guys know? I guess this is the question.
+[30:57] I think there's two parts to this. Our team always have an open source kind of angle where fun you
+[31:03] separately, a long tradition of open source software and our system research principles,
+[31:09] but also just curiosity overall. Everybody was so curious about how are these AI models
+[31:14] going to benefit the community and how can we use it better? And this is where open source is
+[31:19] where you meet the most mission aligned people together. Right? Open router, a llama, as you mentioned,
+[31:26] there are all great partners and friends in the ecosystem because we're there to understand how
+[31:31] everybody else can leverage AI model better and making sure they have a good use of it.
+[31:38] Speaking of, you know, leveraging open way open source models really well. So I think another thing
+[31:44] that was in the news really recently was hugging face using a Chinese open source model
+[31:50] to help contain a cyber attack carried out by a rogue on sandbox open AI model that was being tested.
+[31:59] So like, what can we take away from something like that? And can you just first, I mean,
+[32:04] walk us through your impressions and understanding of what happened and then kind of what you think
+[32:10] the takeaways there are. Yeah, like this kind of goes back to our previous point about control.
+[32:15] So for the huggy face incident, they break it down pretty well on their website and blogs,
+[32:21] so really thanks for their transparency there. In the end, it's about all the close proprietary
+[32:27] model API, their guard rails are a little bit arbitrary, but also very difficult to enforce.
+[32:33] That means they have so much false positive in the guard rails that will have legitimate use cases
+[32:40] is just being blocked. And this is like every green problem, even in the social media days,
+[32:45] like how do you design content filters correctly and like be able to do the moderation correctly.
+[32:51] So if moderation is never solved, which is going to be very, very hard, then there's always a place
+[32:58] where you have a model where you know and trust that you are publishing to and be able to use from.
+[33:05] So hugging face, they have to use open way model. But in the future, also see for the trusted use
+[33:10] case, people will go to open way by default, because that is where you know for sure that the guard
+[33:17] rail is a lesson or you can control your guard rail for trusted use cases. Even for us, like this
+[33:24] actually apply to us today, where a lot of the anthropic model do our banning frontier AI research.
+[33:32] And then when we're studying GPU kernels, even as a invalid memory access error, we are triggering
+[33:40] the red line. And so a lot of our developer within for example, if you are like retreating from using
+[33:47] fable five, because you have a two hour job and you trigger the red line, which is false positive.
+[33:54] And then you have to lose all of your work. And so a lot of our developer are using like
+[33:59] case three today, even just making sure because it's a similar quality. And it has a
+[34:07] guard rail that makes sense to us. There goes while using it.
+[34:11] I think your social media analogy is a really apt one. Yeah. Because like in both cases,
+[34:15] what's kind of happened is you've taken like distributed human activity and kind of centralized
+[34:20] in one place. Like before social media, people talked to each other and published articles,
+[34:26] like messaged each other with a message boards. But then you centralize it all under one kind
+[34:30] of like profit seeking enterprise. And all of a sudden the incentives will change like a lot, right?
+[34:36] And we have a specific carve out for social media, which is you're not responsible for what people
+[34:42] say on your platform. And that allowed the moderation problem to be tractable. Right? It's like, okay,
+[34:48] we're going to do our best to eliminate obviously illegal things, you know, like things that are
+[34:53] going to degrade experience on the site, you know, in really bad ways. But like, you know,
+[34:59] if it's on the edge, you know, it's something that's maybe out of fashion to say, but not illegal,
+[35:04] like we just can't police everything. We can't be the police of like all human
+[35:08] communications. I think something similar is sort of happening in AI, right? Where a lot of work,
+[35:13] not just talking about work is kind of being consolidated in one place. If I need to
+[35:18] write code or create a spreadsheet or get advice, you know, health advice or like anything,
+[35:23] it's all happening in like one or two sites. And they don't have that carve out, right? Like,
+[35:28] they don't have that exemption of like, hey, we're not responsible for what actually happens on the
+[35:32] site. And like some of them, especially, you know, anthropic, like is kind of going further than even
+[35:38] what would be sort of like legally required. And they're sort of taking ethical stances on these
+[35:43] things, which may be right or maybe right, that sort of their decisions. And how do you actually do
+[35:47] this, right? Like the problem is actually bigger than just communication because it's like actual
+[35:50] work and action. And you don't have this exemption. And you have this sort of layer of
+[35:54] ethical stuff on top side. Yeah, I'm just I'm just totally with you. It's like, and it seems like
+[36:01] some of these companies have gone like aired on the side of caution, which is probably a reasonable
+[36:06] thing to do, but very, very frustrating as a user, right? Like, I, you know, I saw in mine some
+[36:12] translation attempts are blocked because they think the particular combination of like language
+[36:17] and content is somehow like triggering, like, oh, yeah, exactly. Sensitive topics and, you know,
+[36:21] things like this. Yeah. Simon, we're nearing the close of the conversation. And I just
+[36:28] want to take a step back a bit and ask just about Infraact and, you know, running the company. And I
+[36:34] know that Ian Stoik of Databricks is an advisor and a co-founder of Infraact. And I'm just curious
+[36:40] what you've learned from him in terms of taking an open source project like VLLM and building a
+[36:48] company. Yeah, young as a co-founder, he has always been thinking about open source and where,
+[36:56] how do you support open source better? And then now was experienced from Databricks and
+[37:00] any scale at an even arena, which is a public platform. And now, Infraact, his focus really
+[37:09] stemmed from how do we build such a, you know, world where this software is being used by so,
+[37:17] so many people on such a critical project, how do you make sure they're getting the best quality
+[37:23] and where the value come from, right? If the open source movement and open source inference engine
+[37:29] is a starting point, then what are the gaps that we can feel as Infraact and then what are the gaps
+[37:36] that we should absolutely put in? Young has always been open source first. So for whatever
+[37:41] we need to build, we would like to build them in open source. And then for whatever value we can
+[37:46] deliver, we want to really close the last mile and making sure that customer and partners are
+[37:51] getting the best out of it. Just, I guess, to close this out five years from now,
+[37:57] do you think open way, open source AI models, have they closed the gap with frontier models
+[38:03] completely? Are frontier models always one step ahead? How do you see that shaking out?
+[38:09] Five years. All right, one year, one year. We've got five years wrong. Who knows?
+[38:17] We're all going to be, like, just floating around in our walley five.
+[38:22] Exactly. Progress, right? Yeah. For me, really, at this point, there's kind of a
+[38:30] point we haven't talked too much about is what really differentiates open way model from close
+[38:37] way model, right? In the end, there's not much differentiation. It's more about the distribution
+[38:42] strategy and go to market strategy. And the capability wise, I don't really see a big gap,
+[38:50] not even today, because for how these models are coming to being, they're really starting from the
+[38:57] first principle, right? You have a compute cluster, you have training data, and you have
+[39:01] brilliant researchers that group together and really to build this amazing artifact that is this
+[39:09] pre-trained model, and then later our old post-trained model, and that the world can use.
+[39:15] But if you look at the ingredients, right, one of the most important part is just the data.
+[39:20] It's about who gets what data, and then what are the environment you are building
+[39:25] to that the model improve on itself and make better, right? One of the very useful benchmark
+[39:32] that we have on arena for K3 has been front-end coding, right? That means for
+[39:40] moonshot, they have built some of the best environment for front-end coding, right? They have published
+[39:46] amazing demo on the ability for this model to code and then see what the rendered is, and then
+[39:53] continue looping and this iterative process. Now, this is about their environment to improve
+[39:59] the model. It's not about just source data, it's not about where they get the data from,
+[40:04] rather it's who can build the best environment and who can make the most sort of optimization and
+[40:12] algorithmic choices to leverage others learning from this environment. So the next year is all
+[40:17] going to be about that. It's about how open-way model labs are differentiating and really getting
+[40:24] the model to meet the real world and have this kind of what people are popular today, like recursive
+[40:29] self-improvement almost to really improve the model overall. And so really project down in
+[40:35] your year, there's not going to be any difference. Yeah, and you've used this term brilliant researchers
+[40:41] a few times. There are brilliant researchers everywhere in the world, clearly. What do you think
+[40:50] in the US, all the smart researchers are working on closed models and in China, all the smart
+[40:55] researchers are working on open models? I mean, from my point of view, they are attracted to
+[41:02] interesting problems, not necessarily on the open or closed stands, but rather, but however open-way
+[41:08] model does give people a really, really good boost on the impact of such models. So that is
+[41:14] like a plus. And I think all the brilliant researchers are attracted to
+[41:19] how to improve the model overall. Actually, one interesting point about this
+[41:25] maybe fairly technical for this Kimi-K3 model is they removed a rotary position embedding. So
+[41:33] rope has always been there for a lot of the transformers model. And guess who removed it?
+[41:39] It's the inventor of rope who are like, yeah, like Jenny, he wrote the first paper introducing
+[41:47] rope as a concept. And then he now also wrote the explanation of why you don't need it as part of
+[41:54] the technical report in this K3 model. So like when we read it, it's like really kind of full circle,
+[41:59] you have all these brilliant humble researchers that are able to really study how this work and
+[42:06] really study the secret of training and pre-training and share it across the whole world,
+[42:11] and recognizing it already on their past, right? So really a miracle, I would say, for this model
+[42:18] to come alive. It's so interesting, like, you know, AI is in this funny zone where empirically,
+[42:24] it works incredibly well. But then you go ask the theorists and have like no idea.
+[42:28] Right. And so like you have these kind of iterative things where when you go read, you know,
+[42:32] primer on transformers, you read about positional embeddings and why arrow
+[42:37] positional encodings and why it's so important because otherwise you can't sort of like understand
+[42:40] meaning. And then it turns out once you understand one level deeper, because we've been doing this
+[42:44] for a few years and you have all these smart people like, oh, actually you don't need it.
+[42:47] Exactly, exactly. You know, simpler actually is better. We didn't talk about distillation much
+[42:55] so far in the conversation. I think it's very relevant to this. Like, I have just one question,
+[43:00] which is like, I'm not going to ask like, is distillation happening? I think this is kind of
+[43:04] speculation on the part of everybody, you know, in the world. But like, you work a lot with these
+[43:08] Chinese labs. Do you think distillation like is a critical component of what they do or like,
+[43:17] are they kind of just doing good work and, you know, distillation if it's done is sort of an incidental
+[43:22] part of it. I would lean to the latter part specifically, as I mentioned previously,
+[43:28] environment matters so much today. So these are our environments, right? These cannot be distilled,
+[43:33] like you don't have other people's environment to really distill a copy from is about constructing it,
+[43:41] understanding also understanding the learning process. You cannot distill how the model
+[43:45] learns with environment. A lot of these are just not doable today. There are scenes potentially
+[43:51] you can do with rewriting the data sets, right? They can better pre-training data,
+[43:56] but again, you can do it with any models. Any models are going to follow instructions,
+[44:00] are going to be useful in terms of utility there. So I really don't think from currently what we're
+[44:06] seeing, this is a big cornerstone of what's powering the progress today. In the end,
+[44:13] what's powering the progress is still just really smart people with very interesting algorithms,
+[44:19] data, environment, and they will produce, of course, compute, they will produce the models.
+[44:24] I think it has really interesting policy implications. I tend to agree with you, by the way,
+[44:27] that we have smart people everywhere working on a bunch of smart things, and it's not about
+[44:32] you know, distilling data from any one place. It has really interesting policy implications,
+[44:37] right? Because it doesn't, you know, it's almost tempting if you're sort of in the White House
+[44:42] and say, oh sure, we'll just turn off distillation, all our problems will be solved. But like, you know,
+[44:46] I think it's more the case that they're just, you know, smart people doing interesting things.
+[44:50] And so it's like, how do we, how do we kind of like adapt adapt to that?
+[44:54] Yeah, and creative innovations, right? Like one part in my essay, we kind of mentioned that open
+[45:00] source and open way really helps innovation, because it's set out this racetrack where everybody can
+[45:05] learn from each other and see what each person, like every, each player is in this racetrack.
+[45:10] And then you are able to improve and stay on shoulder of each other, kind of to improve yourself.
+[45:15] So is that is where everybody can move forward faster?
+[45:20] Yeah. And one thing we're looking for a lot from an investment standpoint is, is people doing more
+[45:25] open source model training all over the world, not just in the United States, but all right,
+[45:30] because you know, you get that sort of magic of collaboration with everybody's doing it.
+[45:34] And achieve global harmony and all the whole thing.
+[45:36] Well, I think that's a good note to end on. Matt, Simon, thank you so much for joining us.
+[45:42] Thanks for tuning in. Thanks so much for calling. Thanks, champ.
+[45:48] Thanks for listening to this episode of the A16Z podcast. If you liked this episode,
+[45:52] be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends
+[45:57] and family. For more episodes, go to YouTube, Apple podcast and Spotify. Follow us on X,
+[46:03] A16Z, and subscribe to our sub stack at a16z.substack.com. Thanks again for listening,
+[46:10] and I'll see you in the next episode.
+[46:11] As a reminder, the content here is for informational purposes only. Should not be taken as legal business,
+[46:18] tax or investment advice, or be used to evaluate any investment or security, and is not directed
+[46:23] at any investors or potential investors in any A16Z fund. Please note that A16Z and its affiliates
+[46:29] may also maintain investments in the companies discussed in this podcast. For more details,
+[46:33] including a link to our investments, please see a16z.com forward slash disclosures.

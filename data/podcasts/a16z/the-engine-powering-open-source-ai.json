@@ -1,0 +1,42 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "The Engine Powering Open-Source AI",
+ "date": "Thu, 06 Aug 2026",
+ "date_iso": "2026-08-06",
+ "lien": "https://a16z.simplecast.com/episodes/how-open-source-ai-became-critical-infrastructure-3yYJbsEz",
+ "duree": "00:46:49",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 4.2,
+ "taille_transcript": 50066,
+ "transcript": "the-engine-powering-open-source-ai-transcript.txt",
+ "nb_outils": 6,
+ "outils": {
+  "AWS": [
+   "are and like a special set of computers to be able to run? Probably Bert. And before that, it was like ResNet for computation, like images, computer vision, classification. So ResNet already needs to run on NVIDIA K80, which is kind of one of the first SPU on AWS and other places. But way over, but even at this point, ResNet, you can still kind of run on a commodity, even CPU devices. It's just very slow. But for Bert, where running out is like, wow, you have to run on GPU to make it anything faster and efficient for "
+  ],
+  "Claude": [
+   "geo and 5.2 a few months back. So opening model are sometimes definitely a lot cheaper. And but for this model, there's a big sort of step change where we're bridging almost a 10x gap but strikes somewhere in the middle where a Kimmy K3 is not as expensive as Claude or GPD soul, but it is a lot more expensive than geo and 5.2. Why is that? And I do believe this is the point of what pricing intelligence with the market correctly and understanding where it is. And but then the majority part of the discourse should be focus"
+  ],
+  "Cursor": [
+   "where a bunch of smaller companies are like new application companies, as they were trying to figure out, how do I really build an AI without just being a rapper on top of open AI. The answer to that question turned out to be open source. I mean, this is what cursor did. This is what sort of Decagon and Harvey are in the process of doing now and a bunch of other like really, really strong application level startups sort of made the determination we can't build just on close source. We need to do our own mid training, our",
+   "lopment, starting from even minimax recently, when they're releasing the M2.7 model, they have a term specifically focusing on usage. And Kimi initially also has like, if you have derivative works, like this is kind of big news back then was for our works and cursor about how they built on top of Kimi model. If I just expand on that a little like, I don't think it's greed, at least what I've seen from open source model labs, right? Open source models, really what we're talking about are open weights, right? And it's just"
+  ],
+  "Databricks": [
+   ", yeah, exactly. Sensitive topics and, you know, things like this. Yeah. Simon, we're nearing the close of the conversation. And I just want to take a step back a bit and ask just about Infraact and, you know, running the company. And I know that Ian Stoik of Databricks is an advisor and a co-founder of Infraact. And I'm just curious what you've learned from him in terms of taking an open source project like VLLM and building a company. Yeah, young as a co-founder, he has always been thinking about open source and where, how",
+   " you've learned from him in terms of taking an open source project like VLLM and building a company. Yeah, young as a co-founder, he has always been thinking about open source and where, how do you support open source better? And then now was experienced from Databricks and any scale at an even arena, which is a public platform. And now, Infraact, his focus really stemmed from how do we build such a, you know, world where this software is being used by so, so many people on such a critical project, how do you make sure they'"
+  ],
+  "Hugging Face": [
+   "r Bert, where running out is like, wow, you have to run on GPU to make it anything faster and efficient for anything translation or any task. So that was like before 2020, even. Yeah, it's so funny thinking about this. I'm like, all the memories are flooding. Hugging face had a thousand Burke variants on it. You have to go find like the right Burke variant for your particular task. And yeah, and you're right, you had to, some people, I guess, had their own GPUs and could run it. But yeah, a lot of people had to go provision cl",
+   " we're there to understand how everybody else can leverage AI model better and making sure they have a good use of it. Speaking of, you know, leveraging open way open source models really well. So I think another thing that was in the news really recently was hugging face using a Chinese open source model to help contain a cyber attack carried out by a rogue on sandbox open AI model that was being tested. So like, what can we take away from something like that? And can you just first, I mean, walk us through your impressions a",
+   "rrectly and like be able to do the moderation correctly. So if moderation is never solved, which is going to be very, very hard, then there's always a place where you have a model where you know and trust that you are publishing to and be able to use from. So hugging face, they have to use open way model. But in the future, also see for the trusted use case, people will go to open way by default, because that is where you know for sure that the guard rail is a lesson or you can control your guard rail for trusted use cases. Ev"
+  ],
+  "vLLM": [
+   "reasingly turning to open-weight models, and what the next generation of AI systems will require. They also explore model licensing, inference economics, and the future of OpenAI. Today, we're here with Simon Mo, co-founder of Infraq, and a lead maintainer of VLLM, the open-source inference engine, now running on half a million GPUs at any moment. We're also joined by Matt Bornstein, and the A16Z general partner. Simon, Matt, thank you so much for joining us. I think first we should start with the open-source AI, and k",
+   "lf a million GPUs at any moment. We're also joined by Matt Bornstein, and the A16Z general partner. Simon, Matt, thank you so much for joining us. I think first we should start with the open-source AI, and kind of the more recent history of open-source AI. So VLLM actually has its origins kind of back in 2022 pre-ChaGPT, and your team set out to make a slow open-source demo faster, and instead just found this pile of unsolved problems. So can you talk about what needs serving an LLM so fundamentally different from the ",
+   "o. Open source became really central in a way that's not always visible because it's deeply embedded in some of these products. But some of the most innovative products and applications now really depend on this very deeply. Yeah. And can you talk about where VLLM sits in that stack, where we do have these larger enterprise companies that are choosing to use open source models? Like where does VLLM sit in the stack for them? Yeah, I mean, you should like, just about everybody uses VLLM. You should describe it. Just abo"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

@@ -8,9 +8,33 @@
   "ai-micro-dramas-generative-media-and-the-future-of-creativity",
   "fei-fei-li-on-spatial-intelligence-and-robotics",
   "steven-sinofsky-ai-doesn-t-need-new-rules-yet",
-  "ben-horowitz-the-fight-over-open-source-ai"
+  "ben-horowitz-the-fight-over-open-source-ai",
+  "the-reality-of-ai-powered-cyberattacks-truffle-security-socket",
+  "the-engine-powering-open-source-ai",
+  "three-startups-reinventing-critical-infrastructure"
  ],
  "episodes": [
+  {
+   "fiche": "the-reality-of-ai-powered-cyberattacks-truffle-security-socket.json",
+   "titre": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+   "date": "Fri, 07 Aug 2026",
+   "date_iso": "2026-08-07",
+   "nb_outils": 1
+  },
+  {
+   "fiche": "the-engine-powering-open-source-ai.json",
+   "titre": "The Engine Powering Open-Source AI",
+   "date": "Thu, 06 Aug 2026",
+   "date_iso": "2026-08-06",
+   "nb_outils": 6
+  },
+  {
+   "fiche": "three-startups-reinventing-critical-infrastructure.json",
+   "titre": "Three Startups Reinventing Critical Infrastructure",
+   "date": "Wed, 05 Aug 2026",
+   "date_iso": "2026-08-05",
+   "nb_outils": 3
+  },
   {
    "fiche": "ruby-thelot-on-internet-culture-ai-and-the-future-of-taste.json",
    "titre": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
@@ -68,5 +92,5 @@
    "nb_outils": 2
   }
  ],
- "maj": "2026-08-02T19:37:24Z"
+ "maj": "2026-08-09T17:46:10Z"
 }

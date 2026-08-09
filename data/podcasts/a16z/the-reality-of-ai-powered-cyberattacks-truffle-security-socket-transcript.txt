@@ -1,0 +1,314 @@
+The a16z Show
+The Reality of AI-Powered Cyberattacks | Truffle Security & Socket
+Fri, 07 Aug 2026
+https://a16z.simplecast.com/episodes/the-reality-of-ai-powered-cyberattacks-truffle-security-socket-vbyiWFXA
+
+[00:00] Models are actively escaping their cages, going out on the internet and doing pretty nasty things.
+[00:06] Recently we found an API key that had been leaked on the internet that had
+[00:10] administrative access to the Apache Foundation.
+[00:12] An interesting thing about cybersecurity in particular is the reward function is incredibly well defined.
+[00:17] Get access to the data, did it get access to the data, reward the thing.
+[00:21] For a long time, people had talked about this concept of an NPM worm.
+[00:24] This idea that if someone could backdoor a package, get developers to install that,
+[00:28] then you could use the access stolen from those developers as they install it to self-propagate the worm.
+[00:33] If the labs are making it fundamentally easier to break into supply chain,
+[00:38] do you think the labs have a moral obligation to fund some of the problems that they're causing?
+[00:42] I think it's really strange that they're not letting Glee teams get access to these tools, but...
+[00:46] AI models are no longer just identifying software vulnerabilities.
+[00:50] They're beginning to exploit them.
+[00:52] In this episode, Joel Delegarza sits down with Dylan Arie of trouble security,
+[00:57] and for us, a bukka deejay of socket to unpack what recent AI security incidents reveal about the next generation of cyber threats.
+[01:05] They discuss why frontier models are increasingly capable of exploiting software vulnerabilities,
+[01:10] how software supply chains have become one of the weakest links in modern security,
+[01:14] and what organizations need to do to defend themselves in an AI-first world.
+[01:19] Thank you so much for joining us. We've got for us and Dylan here from Truffle and Sockit.
+[01:26] It's great to have you guys on. This has been probably one of the most interesting weeks,
+[01:30] if not the most interesting week, in cyber security, not because of the Black Hat Conference,
+[01:35] which is usually the cause, but because we've now seen several instances where models from not just
+[01:41] one provider are actively escaping their cages, going on on the internet and doing pretty nasty
+[01:47] things. And I think Dylan, three months ago, I remember a blog post we we
+[01:52] lightly collaborated on together, and you had found a number of these issues with earlier models,
+[01:56] right? They were less sophisticated. Yeah, we looked at opus 4.6 and some of the other
+[02:00] frontier models at the time, given the models a very simple task, there was a barrier which
+[02:06] prevented the model from accomplishing the task unless it went and committed a felony
+[02:09] and hacked into a system to accomplish the task, but it wasn't instructed to do so. We found
+[02:13] more often than not, it would do the SQL injection, it would commit the felony, and it would do what it
+[02:18] needed to do to accomplish the task. I think when it comes to alignment issues,
+[02:22] no one needs to worry about these models making it materially easy to build nuclear weapons,
+[02:27] because you need to procure fissile material to do that. It's not going to make it easier to build
+[02:32] weapons. Everyone needs to worry about these models making it materially easier to hack into
+[02:37] things. The bar previously was just subject matter expertise. And now the models have the
+[02:42] subject matter expertise, they were specifically trained to have the subject matter expertise,
+[02:45] and they're just making it materially easier to hack into just about anything that you can think
+[02:50] of using the fundamentals that we've been talking about for years, but previously required a subject
+[02:55] matter expert to risk going to jail for hacking things. Defcon was always famous for people for
+[03:01] attendees getting arrested at the conference, right? Right, but that was a barrier, right?
+[03:05] For better or worse, that prevented the subject matter expertise from hacking into things because
+[03:10] they were worried about being prosecuted. The bar has now fallen to just asking the model,
+[03:14] which has specifically been trained to hack into things, to hack into things.
+[03:18] So that's a concern. And then the other concern is when they're incredibly goal oriented to
+[03:21] accomplish tasks. And one of the tools at their disposal is cybersecurity expertise.
+[03:27] They will do the path of resistance to accomplish the task. And that includes drawing on their
+[03:31] cybersecurity expertise. Well, and it seems like, and the classic saying is that don't pick the lock
+[03:36] of the doors open, right? I think that's from the very beginning of the security world. So it's
+[03:41] always been sort of like, to go in level of difficulty from easiest to most difficult. And it
+[03:45] seemed like, initially, these tools had a very finite scope of techniques that they would use.
+[03:51] And it seems like they've expanded. And I think with this test, for us, it was interesting because
+[03:56] they now seem to have escaped from just doing things like SQL injection to actually like,
+[04:00] trying to take over packages and do social engineering.
+[04:02] Yeah, it's really interesting to see how just like humans, the models are easiest
+[04:07] path into a company. And I think that that now has become the software supply chain. And so just
+[04:11] like human hacker would, they're going to pick the easiest way in. And the lowest hanging fruit now
+[04:15] has become just publishing malware to public registries, because they know that there's no
+[04:19] betting happening and developers are likely to install them. I thought it was pretty interesting.
+[04:23] There was research published recently about what they're calling kind of like universal
+[04:27] type of squats or universal hallucinations, where all the frontier models all make the same
+[04:31] mistake and sort of assume there are certain packages that exist that don't, despite like those models
+[04:36] coming from different companies. And so I think there's just, the whole thing of a supply chain
+[04:41] has just become kind of so appetizing that even the models are trying to get in on the action.
+[04:45] And I think the AI is not only kind of attacking, but it's also kind of the way in a lot of times
+[04:50] on the kind of developer side, because we see so many even non-developers using these tools to
+[04:54] inadvertently write code or code comes in, packages come in order to kind of build graphs or visualizations
+[05:00] or different things that folks are doing with these tools. And it's like no one really knows
+[05:04] what's being installed and what's going on. And this is just basic stuff. This isn't like,
+[05:08] I mean, it sounds like it's sci-fi stuff, but it's really just basics. What software are we using?
+[05:11] How are we vetting it? Just the basics of computer security.
+[05:14] Can I touch on the supply chain a little bit? So recently, we found an API key that had been leaked
+[05:19] on the internet that had administrative access to the Apache Foundation. And if you're in the
+[05:24] shoes of the model, and your goal is to get access to some data, certainly back during Apache is a
+[05:31] pretty effective way to do it. And to get access to Apache, are you going to use this
+[05:35] secret that just allows you to directly log in? Or are you going to burn tokens and tokens and
+[05:40] tokens and trying to find a zero-day? They're optimized to use the path of least tokens to
+[05:44] accomplish their goals. Of course, they're just going to use the secret that's laying out there,
+[05:48] and they open to accomplish what they need to accomplish. And so, yeah, I think supply chain and
+[05:52] secrets are in half been the path of least resistance and will continue to be so as the models are incentivized
+[05:59] to use fewer and fewer tokens to accomplish their goals.
+[06:02] Well, and I think that's absolutely right. And I think it's that sort of chain of escalation,
+[06:05] right, where if one thing fails, try another. And at the top of that pyramid, the top of the
+[06:10] hacker ecosystem is the zero-day vulnerability, right? That's basically finding a vulnerability that
+[06:15] can be exploited in a product that everyone uses that you can use to basically unlock all the
+[06:18] corporation. And one of the really fascinating things about the breach disclosure that was made
+[06:23] was that there's an incredibly popular CICD tool that I think every enterprise uses that this thing
+[06:28] just spat out a zero-day for, right? And that's just such a critical point in the supply chain
+[06:32] that everyone should be thinking about. Kind of, how are you thinking about that? That's really
+[06:36] difficult. Like the zero-day creation piece. Yeah, yeah. For specific parts of that, like,
+[06:40] the control of the supply chain. Yeah. Well, I mean, the whole world is built on this teetering
+[06:46] infrastructure that everyone has, like, the classic picture of the matchstick holding up the complicated
+[06:51] machine. That image probably popped into all the lines right now. And so, everything from package
+[06:56] manager registries, like, we like to focus on that because what we do at Sock-In. A lot of those
+[06:59] are run by volunteers. They're under resourced, underfunded. There's lots of risk there, right?
+[07:06] And that kind of cascades throughout the whole rest of the ecosystem. So if you look at just the
+[07:09] packages that we all depend on, a lot of those are single individuals that, like, there's almost
+[07:14] certainly, we know there's a lot of vulnerabilities in the software. And there are resources to look
+[07:18] for them. And so, I think that stuff's always been there. It's just that these tools are, like,
+[07:21] helping find them a lot easier. And I think that the frontier models are going to, they are
+[07:26] causing kind of a massive reduction in the time between vulnerability discovery and vulnerability
+[07:30] exploitation. And so, what we need to start thinking about is how do we patch more quickly? And so,
+[07:34] we need to get away from our take is we can't be requiring our security teams and our developers to
+[07:40] do these kind of onerous patch processes where they have to go from some ancient version of a package
+[07:46] that their team is using up to the latest version across many major version upgrades.
+[07:51] Because that's just so much work to do. It might require a co-refactors in your application.
+[07:55] And so, if we want to be able to keep up with, a volume is announced this morning and then an
+[07:58] exploit is available that afternoon, we can't be requiring that much work from engineering teams.
+[08:03] And there's also tons of legacy applications that are basically in maintenance mode or
+[08:07] unmaintained or don't have engineers that are even assigned to work on them and a lot of the
+[08:10] companies that we work with. And so, it's just, we're going to have to think of new things as an
+[08:14] industry for how we're going to patch these things quickly. Right? That's kind of like where our head
+[08:18] is at and where I'm spending a lot of time thinking about that lately.
+[08:21] Yeah. Yeah. And I think that goes back to sort of the pyramid question. So, and I think Dylan,
+[08:26] you were hinting at this, which is these are very specialized. Like zero-day exploits,
+[08:32] writing a zero-day exploit, doing a supply chain attack. Like, these are not things that came from
+[08:37] nowhere. These are learned behaviors. Right? And I think what I think we're seeing is we're seeing a
+[08:42] process that looks like it's been kind of maybe trained or there's a reward structure that's
+[08:47] been built on a bunch of these things. What's your understanding of how they're figuring this
+[08:52] stuff out? Because it seems like they know what they're doing. Like, they've been taught to do this.
+[08:55] Yeah. I mean, if a lab tells you that this is an emergent super-intelligence behavior,
+[08:59] they're just lying to you and you can read their own safety reports to see exactly how the models
+[09:04] are trained and exactly how they're testing these behaviors. I mean, the interesting thing about
+[09:08] cybersecurity in particular is the reward function is incredibly well defined. Get access to the data,
+[09:14] did it get access to the data, reward the thing. And so when they realize that, like,
+[09:18] the number of problems that have that well-defined reward structure basically defines how we do
+[09:23] reinforcement learning. And they want to find as many problem spaces that they could do reinforcement
+[09:26] learning on. And so it was a prime candidate for them to come in and give it CTFs and give it,
+[09:32] like, cybersecurity challenges where they say, okay, get access to this thing and do whatever
+[09:35] hacking you need to do to accomplish the goal. And then what they've essentially been buying
+[09:40] pen testing data for the last four years. That's a piece of it, the other piece of it. And then the
+[09:44] capture the flag contests and all those sorts of things. It's just not difficult to construct a
+[09:48] challenge. Even if there is no known exploit, if we're talking about zero days, you put a piece of
+[09:54] software between the model and some data and you say, get access to the data. And then if it gets
+[10:00] access to the data, you reward it. And it's that simple. But the other piece that they've layered
+[10:04] on top, and this is where it starts to get really interesting, is they've started to reward the
+[10:08] path of least tokens. And so the reason that's interesting is because for the first time,
+[10:13] it's actually able to quantifiably show us the path of least resistance for just general cybersecurity
+[10:19] they get from A to B. And we've talked about our opinions of what that is in the past. Of course,
+[10:24] Truffle security is biased to you as a password laying around as a shorter path than going through
+[10:30] a fancy zero day. But actually watching the model physically get from A to B and watching it follow
+[10:35] the password and quantifying how many tokens it took to go this route versus that route,
+[10:39] I mean, it's just incredible to watch that layout. And it's all in their safety reports.
+[10:43] Like as they test the models out and show, okay, well, it got access to the data and it broke out
+[10:49] of its harness. It's not like this is an emergency behavior specifically.
+[10:53] Like perfectly logical, right? Like the fastest way to get a gallon of milk is to steal it.
+[10:56] That's exactly right. So I mean, what was interesting is we were in the middle of partnering with
+[11:02] hugging face to clean up all of the credentials that had been exposed through all of their training
+[11:09] sets, not hugging faces training, but people who hosted training sets on hugging face.
+[11:13] They use Truffle Hub for a wide range of reasons. And hugging faces been a great partner in getting
+[11:18] credentials cleaned up. We targeted their training sets because we knew they had a lot of keys,
+[11:22] turned out there are about a quarter million live keys in their training sets, many of which
+[11:26] had direct supply chain implications. There was a foundational Linux library that one of the keys
+[11:31] had direct push access to. It could have pushed malware to most machines on the planet.
+[11:34] And so while we were in the middle of doing that, the CTO of hugging face shoots me a note and says,
+[11:39] hey, this is crazy, but there's this opening. I think this just happened. And I want you to take
+[11:44] a look at it. And sure enough, the first thing listed out in the incident response, although it's true,
+[11:50] it did utilize zero days. But the first thing listed out was stolen credentials. And that's how they were
+[11:57] trained to have at least resistance password is a password is always the first step.
+[12:00] Exactly. And you've you've had your hair on fire, I think, pretty substantially for the last
+[12:05] like 18 months. I think right now as we're recording this, there's currently an ongoing active
+[12:11] breach of a big MPM repo. Isn't there something happening?
+[12:14] It's more than just a repo. It's actually about, you know, a few hundred repos.
+[12:19] Oh, wow. Okay. So it's a worm. Yeah.
+[12:21] This is one of the things that has been kind of an unfortunate innovation in the in the Malware
+[12:25] landscape on, you know, NPM is that, you know, for a long time, you know, people had talked about
+[12:30] this concept of an NPM worm, you know, this idea that, you know, if I could, someone could backdoor
+[12:35] package, you know, and then, you know, get developers to install that and then you could use the access
+[12:40] stolen from those developers as they install it to self propagate the worm, you could create,
+[12:44] you know, something that quickly takes over NPM. And this is this was kind of in, you know,
+[12:48] passed around in blog posts over the years and no one actually kind of fought to do it until
+[12:53] as hackers kind of figured it out. Someone thought to do it.
+[12:55] Someone thought to do it. It's probably using AI, right?
+[12:58] Almost certainly. Yes. And there's been, you know, that Malware, I think we have pretty
+[13:05] good reason to believe that it was vibe coded. There's been one of the threat groups actually posted
+[13:10] their open source to their kind of vibe coded toolkit for others to use to be able to do this.
+[13:17] You know, we've seen copycat attacks happen since that. And Malware authors were never really great
+[13:22] coders. And you probably realize this, right? So like, if the code starts looking better,
+[13:26] it's probably vibe coded, right? That's sort of the opposite of what you think of vibe coding.
+[13:29] Yeah. And they're using, it's interesting because they're often using the AI tools that are installed
+[13:33] on developer systems to go further and to sort of sneak through kind of some of the traditional
+[13:38] security tooling. So we see, you know, basically your local CLI tool often being used, you know,
+[13:44] roped into the attack and, you know, used as a jumping off point. So a lot of times the payloads
+[13:48] are actually prompts. And that, that bypasses a lot of, you know, typical kind of EDR tooling,
+[13:53] because, you know, it's just like a markdown file that your cloud is running. Yeah.
+[13:56] It might be given a prompt to like search through the system, find all the different keys and
+[13:59] that things that look valuable. I'm sure you're eating air to listen to anything about like this
+[14:02] JSON blob and an MD flower. Right. And developer machines typically are doing all kinds of,
+[14:06] you know, weird things like, you know, you are prompting cloud and is doing a bunch of stuff on your
+[14:09] file system all the time. And so nothing really looks that out of the ordinary. So anyway,
+[14:14] about the attack this morning, it's a couple hundred packages, you know, a worm spread through.
+[14:18] There was a maintainer who, honestly, he's still trying to understand what happened. We jumped on
+[14:25] the phone within this morning to try to offer assistance. That's great. Awesome. About half of
+[14:28] our team at socket are maintainers, half the engineering team. And so, you know, we have a lot
+[14:33] of connections in the community and our CTO was the former CTO NPM. So we, you know, sort of try
+[14:38] to offer help whenever we can to the maintainers, because I do really feel for, you know, for them,
+[14:42] they, you know, they often don't know what happened. I mean, it sounds like in this case,
+[14:46] it might have been, and this is speculation so early, we're still working to figure it out, but it might
+[14:51] have been a good of action that, you know, was insecure and that an attacker was able to kind of use
+[14:57] to ultimately kind of get their code to run and then pull out the token from the environment. We're
+[15:01] still kind of confirming this, but that's kind of what it looks like. And we've seen this over a lot
+[15:05] of these worms. So it's likely his endpoint was actually fine and not part of the problem. It was really
+[15:10] just this insecure, good of action. Yeah, trust. And I think,
+[15:13] can I ask a follow up to that? Yeah. So one of the things that I've seen with the NPM worms in
+[15:17] particular is after they get their post install hook and the infected system, they'll immediately
+[15:22] start looking for credentials and once they find a credential, they get access to the next system.
+[15:26] So all the time, we get questions saying, how do we get the credentials cleaned off the endpoints?
+[15:30] And usually what I say is, well, I'll show you how to scan your downloads directory. I'll show you how
+[15:34] to scan your documents directory, but in your home directory, there's a place where NPM intentionally
+[15:39] writes a credential. There's a place where Amazon intentionally writes a credential and that's just
+[15:43] how those tools work. And there's nothing that I can really do to get them cleaned up. Even if you
+[15:47] move them over to HashiCorp Vault or OnePass, the credential to HashiCorp Vault and OnePass are on
+[15:52] the endpoint. So I'm kind of curious about that second phase beyond the stopping the spread.
+[15:59] But the post exploitation step, do you have any recommendations on how to sort of limit that
+[16:03] last radius or prevent that stealing your credentials and jumping onto the next system?
+[16:07] Yeah, I mean, so there's just some changes, some positive movement in the community in the
+[16:10] ecosystem. So one thing that is positive and it hasn't shipped yet, but NPM has announced that
+[16:15] they are planning to, I think it's in January, 2027, going to require human interactive confirmation
+[16:23] through 2FA before a new publishers can happen. So that will likely kind of kill this whole worm
+[16:27] concept completely. But it's going to be super destructive because everybody's hooked up this
+[16:33] stuff to automations so that GitHub Actions kicks off the publish. And so that's going to break the
+[16:38] whole ecosystem when they do this. But I think it's the right call. But there's other ecosystems
+[16:44] that are volunteer-run that don't have the backing of GitHub and Microsoft behind them
+[16:47] that are going to probably not make those changes. And so I think we're still going to see stuff like
+[16:51] this. But yeah, we shouldn't have files in our home folders that have tokens in them that are long
+[16:58] lived and that let you, especially if you're a maintainer with that kind of access. It reminds
+[17:05] me of a friend of mine. He was a prolific NPM maintainer. And one time we were, this is back at like 10,
+[17:13] 15 years ago when I was doing this kind of stuff full-time. And I saw him kind of typed in his password.
+[17:17] I didn't see the password, but I saw it was far too short. It was just put it away. He typed it in
+[17:22] far too quickly. And I called him out and I'm like, why is your password like six letters, man?
+[17:27] And he said, well, you know, he lives in Denmark, which is like a very high-trust society. And his
+[17:32] system will be about it was that, well, I don't want to live in fear and think about these things.
+[17:36] And I'm like, you're on the internet now. I'm like, people are going to figure this six letter
+[17:40] password out pretty quickly. And there's a lot of things like that where the folks that are the top
+[17:46] maintainers in the world don't necessarily have the security training or even thinking about these
+[17:50] things. And they don't have a security team. They don't have enterprise SLAs. These are volunteers
+[17:55] that are just putting code on GitHub. And so it's on actually the users, I think, to actually
+[18:00] vet what they're using. It's kind of hard to say like, you know, we just, we're a company. We just
+[18:04] found this code on the internet and we just deployed it through it into prod. And it's, you know,
+[18:08] and it's someone else's fault. And it's like, no, actually, you know, there's some definitely some
+[18:12] responsibility for the users of this software to really be vetting the artifacts that they're
+[18:16] bringing into their environments. And so I think there's a lot of pieces here. And I wouldn't want to
+[18:22] put too much blame on people because it's a hard problem. But yeah, I think there's like a lot of
+[18:27] places where we can do good. Well, let me ask a follow up to that, because you said there's certain
+[18:31] package managers that have resources that other package managers don't. I think one direct example
+[18:36] of this, and I don't cast any blame on them whatsoever. They're actually great to work with.
+[18:40] We found a caching issue in Ruby gem that allowed us to steal arbitrary tokens and get access to
+[18:45] arbitrary accounts, which we could use to backdoor arbitrary packages. We disclosed it to them,
+[18:50] they got it fixed quick. But that's an example of an organization that's under resource. I mean,
+[18:54] how do you think about an organization that's like thinking about what technology stack to use,
+[18:59] and they're picking between Ruby or MPM? Do you think about that resourcing in that decision of,
+[19:04] like, maybe, maybe you should consider the one that's got the security team behind it.
+[19:10] It's hard to get people to switch their language completely, because if they're already built on it.
+[19:14] So I don't know if that's super practical. I think the most actionable thing is folks should
+[19:18] fund this stuff. It doesn't take much money to hire an additional
+[19:23] one, two, three, four, five security people that can make a really big difference in these
+[19:27] foundations. So I suggest people sponsor the software that they're using, especially the
+[19:31] registries. It doesn't take very many companies throwing in 25k, 50k checks to really make a big
+[19:36] difference for these folks. Or give them some more inference to run the test.
+[19:39] Yeah, right. No, I mean, it's funny. I think you guys as being security practitioners,
+[19:43] you've had a number of calls with people that want to talk to you about how can I secure my company,
+[19:48] how can I secure my business, how can I secure my product? And those conversations are always
+[19:52] some form of, I don't want to hire people or pay money for this. And how do I do it cheaply?
+[19:57] Yeah, so thank you guys for coming out to the desert. You're not here to see us, obviously.
+[20:01] We're all here for Black Hat. I know that this is neither of your first times here.
+[20:07] Certainly not my first time here. But maybe love to get your guys' takes on what you're seeing.
+[20:12] What's the mood like? What's interesting? What are the observations you've got that are catching your
+[20:16] eyes? I mean, at least for us, it's all kit. I think the biggest thing we're seeing is that
+[20:21] 2026 is the year of the software supply chain. You're dealing with an incident right now as
+[20:25] the conference is happening? Yes. And I noticed the attackers seem to pick RSA and Black Hat as
+[20:29] the times they wanted to start these MPM worms. The security guys are in the office. Yeah, absolutely.
+[20:33] So I think that's the thing that's the biggest. I think prior years, I was having to educate people.
+[20:38] We were always educating people about this problem and having to explain to them,
+[20:42] you know, this is not a theoretical risk. Like, this can happen. And we sometimes get these
+[20:45] reactions like, oh, yeah. But like, how likely is it really? And we're like, no, it's actually
+[20:50] very likely. Let me tell you how it could happen. And there were many incidents to point to you. But I
+[20:54] think this year, it's really broken through into the mainstream. And there's mainstream publications,
+[20:59] you know, the business press covering these attacks, right? It's like some page on Bloomberg.
+[21:03] Yeah. Exactly. So I think that is very, very good because you need that type of air cover for
+[21:09] like security teams to actually prioritize and find budget for these problems. And so I think,
+[21:14] you know, despite all these attacks being very, you know, painful to deal with right now,
+[21:18] I think in the end, we're going to come out really strong on this because we're actually going to
+[21:21] going to get budget and we're going to get, you know, we're going to do a lot of good
+[21:25] this year in terms of solids. It's an oculation, for sure. How about you?
+[21:29] Yeah. I mean, look, we found a database credential recently that had access to 3.6% of the global
+[21:37] PII, like 3.6% of the world's population had their PII in this database. And the reason we found it
+[21:44] is because we're partnering with organizations like HuggingFace to just get all the live
+[21:48] credentials revoked and cleaned up, better otherwise, on their platforms. So it's great to see those
+[21:53] types of organizations leaning in. And like all of the data that's being scraped from all these
+[21:57] places, it creates really a central place where we can scan and make material progress. And so I
+[22:02] think, like, when it comes to secrets, we're kind of seeing the older generation, like,
+[22:06] hash it got acquired, cyber got acquired, kind of get pushed out, which has sort of led to a new
+[22:11] conversation about non-human identity and secrets about how can we make them easier to use,
+[22:16] how can we get them revoked, and how can we really move the needle forward with the industry
+[22:20] that we weren't able to do before under sort of the old guard? Yeah, absolutely. And I can imagine
+[22:25] that there's going to be a multiplication effect, which is it used to be one user with 10 passwords,
+[22:29] and now you're going to have 10 agents with 10 passwords, right? I mean, the way agents interact
+[22:33] with secrets right now is a Wild West unsolved problem that we're working very hard to solve.
+[22:38] One of many issues. Thank you, gentlemen, for joining me. This has been awesome.
+[22:41] It's great to catch up. Thank you. Thank you. Awesome.
+[22:46] Thanks for listening to this episode of the A16Z podcast. If you liked this episode,
+[22:50] be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends
+[22:55] and family. For more episodes, go to YouTube, Apple Podcasts, and Spotify. Follow us on X,
+[23:01] A16Z, and subscribe to our substack at a16z.substack.com. Thanks again for listening,
+[23:08] and I'll see you in the next episode. As a reminder, the content here is for informational purposes only.
+[23:14] Should not be taken as legal business, tax, or investment advice, or be used to evaluate any
+[23:19] investment or security, and is not directed at any investors or potential investors in any A16Z.
+[23:25] Please note that A16Z and its affiliates may also maintain investments in the companies
+[23:28] discussed in this podcast. For more details, including a link to our investments,
+[23:33] please see a16z.com forward slash disclosures.

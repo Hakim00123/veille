@@ -1,0 +1,23 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+ "date": "Fri, 07 Aug 2026",
+ "date_iso": "2026-08-07",
+ "lien": "https://a16z.simplecast.com/episodes/the-reality-of-ai-powered-cyberattacks-truffle-security-socket-vbyiWFXA",
+ "duree": "00:23:51",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 2.5,
+ "taille_transcript": 31238,
+ "transcript": "the-reality-of-ai-powered-cyberattacks-truffle-security-socket-transcript.txt",
+ "nb_outils": 1,
+ "outils": {
+  "Hugging Face": [
+   "ts harness. It's not like this is an emergency behavior specifically. Like perfectly logical, right? Like the fastest way to get a gallon of milk is to steal it. That's exactly right. So I mean, what was interesting is we were in the middle of partnering with hugging face to clean up all of the credentials that had been exposed through all of their training sets, not hugging faces training, but people who hosted training sets on hugging face. They use Truffle Hub for a wide range of reasons. And hugging faces been a great part",
+   "tly right. So I mean, what was interesting is we were in the middle of partnering with hugging face to clean up all of the credentials that had been exposed through all of their training sets, not hugging faces training, but people who hosted training sets on hugging face. They use Truffle Hub for a wide range of reasons. And hugging faces been a great partner in getting credentials cleaned up. We targeted their training sets because we knew they had a lot of keys, turned out there are about a quarter million live keys in thei",
+   "any of which had direct supply chain implications. There was a foundational Linux library that one of the keys had direct push access to. It could have pushed malware to most machines on the planet. And so while we were in the middle of doing that, the CTO of hugging face shoots me a note and says, hey, this is crazy, but there's this opening. I think this just happened. And I want you to take a look at it. And sure enough, the first thing listed out in the incident response, although it's true, it did utilize zero days. But t"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

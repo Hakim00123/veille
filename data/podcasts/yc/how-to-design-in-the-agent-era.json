@@ -1,0 +1,42 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "How To Design In The Agent Era",
+ "date": "Fri, 07 Aug 2026",
+ "date_iso": "2026-08-07",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/How-To-Design-In-The-Agent-Era-e3n42jd",
+ "duree": "00:56:01",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 6.6,
+ "taille_transcript": 78642,
+ "transcript": "how-to-design-in-the-agent-era-transcript.txt",
+ "nb_outils": 6,
+ "outils": {
+  "Cursor": [
+   "e got to get onto the desktop. That's where things are happening now. Local repos, designers have repos. They're going in GitHub. Let's be part of this explosion. The way we see it is kind of the new agent stack. And what I mean by that is, you'll see, I have cursor, I have cloud code, you have multiple agents. You have paper as a visual way to communicate with the agents. And then maybe you have a GitHub or the code review. That's why we see builders using now. I mean, is that what you see too, like the newest YC badges",
+   "s. What it does is it saves you tokens. It makes it run faster. And you just get less weird hallucinations. And this is really what the moment we took off, because people are doing design to code. They're doing code to design. I'll give you another example in cursor. This is our actual paper code base. And I'll just say, hey, can you put colors.css onto the paper canvas as a style guide? So this is our actual CSS file from paper, the code base paper, not the product. And cursor is going to take that and then render it on",
+   "to design. I'll give you another example in cursor. This is our actual paper code base. And I'll just say, hey, can you put colors.css onto the paper canvas as a style guide? So this is our actual CSS file from paper, the code base paper, not the product. And cursor is going to take that and then render it onto the canvas. And so we see a lot of people doing auditing of their code base. What exists, you can do component architectures, ask for diagrams. And it really just, it brings the design tool into the rest of the st"
+  ],
+  "Figma": [
+   "ng I'm gonna wake up every day and like, I'm not gonna have a bad day building creative tooling. So that came first, even before the market or competitors or any of that kind of thing. And then looking around it was like, well, gosh, I mean, we're big fans of Figma, you almost can't talk about design without saying, you know, Figma these days. They've done a lot for the design industry. They have a huge company now and they're doing very well with enterprise companies. And we were thinking, well, maybe there's time for ",
+   "y building creative tooling. So that came first, even before the market or competitors or any of that kind of thing. And then looking around it was like, well, gosh, I mean, we're big fans of Figma, you almost can't talk about design without saying, you know, Figma these days. They've done a lot for the design industry. They have a huge company now and they're doing very well with enterprise companies. And we were thinking, well, maybe there's time for a new tool to focus on the designer and just really spend a lot of t",
+   "design tool? It's really about the fundamental technology. So using HTML and CSS as the rendering engine, we actually did it to help with designer developer handoff. We were like, hey, if the designer can have this constraint-free system where it feels like a Figma or a sketch, but by the way, it's HTML, they don't have to know that. That's great. The handoff will be better. It turns out if you build a great handoff for humans, you've also built a great handoff for agents because agents understand HTML and CSS and it's "
+  ],
+  "HTML": [
+   "ing. Yeah, I'm honored to be here. I've watched the show a lot. And so it's really nice to be on. Thank you for having me. I'm gonna start, tell people what is Paper. Yeah, well, Paper is a design tool. It's an agent native design tool. And what that means is we use HTML and CSS as the actual rendering engine. And that makes it very easy for agents to use because they understand HTML and CSS really well. And historically, a lot of design tools have custom rendering engines. And those are a lot harder for agents to use. And so you'll see higher tok",
+   "they're doing very well with enterprise companies. And we were thinking, well, maybe there's time for a new tool to focus on the designer and just really spend a lot of time. There's so much change to the AI agents. Can we build something that's agent native, building on HTML and CSS and just build this, you know, next gen tool? And so that's kind of what we're going after and so far so good. Yeah. And what does that mean to be an AI native agent native design tool? It's really about the fundamental technology. So using HTML and CSS as the rendering en"
+  ],
+  "Paper": [
+   "nts to use because they understand HTML and CSS really well. And historically, a lot of design tools have custom rendering engines. And those are a lot harder for agents to use. And so you'll see higher token spend, slower times, lower accuracy. So what we're building with Paper is basically, it's a group of people, it's about 12 of us now. All designers and engineers, we basically started this out of love for design. And now we're just trying to build the best design tool possible for this next era. Yeah, it's crazy to think you're only 12 peopl"
+  ],
+  "Ramp": [
+   "ompany eventually goes up market, and you just stop being as cool when you do that. You're someone who enterprises. You're not underground at the cool events anymore. So I'm really honored that we are part of the community. And to your point, I think you saw, Ramp has been releasing the data of actual ramp subscriptions on their credit cards. And if they released an AI, you can chat with about the ramp data. And if you ask it about design tools, it's Figma, obviously. Sketch is there. And the paper is right there with "
+  ],
+  "Slack": [
+   "zzle. Yeah, we certainly hope so. Yeah, let's hope so. I'm curious, how are you guys using agents internally at paper? In some ways, we use them a lot. And then in other ways, we use them, we're kind of like dinosaurs in some ways. We don't have agents in our slack. And we don't have, we use agents for coding quite a bit, but we still read our code. We read all of our code, every single line. Every line. Usually multiple humans reads every single line. Why is that? Well, one is design tools are really hard to build. You",
+   "day. And I'm sure it is something that has been instilled culturally in your team now. Yeah. And that everybody is talking to users at this point. Oh, yeah. Yeah. When people on board, it's like, yeah, you have to be in the discord talking to people or in the slack. It's really, really important. And not everyone's comfortable. Maybe they've come from a bigger company where they were told they can't talk to users and yeah, it's like, no, get in there. You can't screw it up and you just learn so much. And I think it guid"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

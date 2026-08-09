@@ -1,0 +1,28 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Three Startups Reinventing Critical Infrastructure",
+ "date": "Wed, 05 Aug 2026",
+ "date_iso": "2026-08-05",
+ "lien": "https://a16z.simplecast.com/episodes/three-startups-reinventing-critical-infrastructure-FkRDwjit",
+ "duree": "01:15:22",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 7.3,
+ "taille_transcript": 88733,
+ "transcript": "three-startups-reinventing-critical-infrastructure-transcript.txt",
+ "nb_outils": 3,
+ "outils": {
+  "Airflow": [
+   " thermal systems. So air handler, chiller, cooling tower. And, you know, that's not a super complex system. You have weather, which is a factor. You have loads within the building, which is a factor. But you ultimately have like nine control variables between airflow, like airflow rate, supplier temperature, the cooling water temperatures and flow rates, both in the chillers system and the cooling tower system. And the that just in that relatively simple system, they were able to reduce energy consumption by 30% Yeah, lik",
+   "ms. So air handler, chiller, cooling tower. And, you know, that's not a super complex system. You have weather, which is a factor. You have loads within the building, which is a factor. But you ultimately have like nine control variables between airflow, like airflow rate, supplier temperature, the cooling water temperatures and flow rates, both in the chillers system and the cooling tower system. And the that just in that relatively simple system, they were able to reduce energy consumption by 30% Yeah, like 40%. Yeah. A"
+  ],
+  "Apollo": [
+   " on the ocean. And is it just because space and land robots are like sexier somehow? Yeah, I think part of it is kind of a narrative. There's like a different narrative for the ocean. You haven't got this kind of like inspirational framing of iconic images of Apollo and SpaceX, you know, rockets launching again and you haven't had a company doing the kind of SpaceX version of like, let's make this domain in sexy again for the ocean. But I think it's worth going back and looking at history to understand that this is an an"
+  ],
+  "Stripe": [
+   "rators there, each controlling swarms of vehicles to solve various problems. And, yeah, we have ocean, you know, sensors, vehicles, open down kind of Earth's oceans, every coastline. And it just becomes a part of the infrastructure in the same way that, like, Stripe just became a part of the Internet. You know, Ulysses just becomes a part of the ocean. And it's just there. They're just like these, like, your robot friends kind of fixing things and where you need, when they need to be fixed. Well, that's a beautiful visio"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

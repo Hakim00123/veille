@@ -1,0 +1,897 @@
+The a16z Show
+Three Startups Reinventing Critical Infrastructure
+Wed, 05 Aug 2026
+https://a16z.simplecast.com/episodes/three-startups-reinventing-critical-infrastructure-FkRDwjit
+
+[00:00] Last month, A16Z American Dynamism Films screened short films about three portfolio companies.
+[00:06] Ulysses builds mission-critical underwater robots,
+[00:09] Mariana Minerals applies modern technologies to the critical mineral sector,
+[00:14] and Raytheon seeks to mass-produce nuclear micro-reactors.
+[00:17] Now, all three films are available on A16Z's YouTube channel.
+[00:21] Before you check them out, today's episode highlights previous appearances by all three company founders.
+[00:26] First up, Ulysses Will O'Brien joined MTS last April after their latest fundraise.
+[00:32] Super exciting!
+[00:33] So, for the audience, what exactly is Ulysses?
+[00:36] And what do you do?
+[00:38] Yes, at Ulysses, we're building the ocean company.
+[00:41] Essentially, if you have a difficult or tough problem to solve in the surface or subcedent domain,
+[00:47] we build autonomous robots.
+[00:48] That solve that problem.
+[00:49] You know, the platform is basically autonomous surface vehicles
+[00:53] combined with autonomous underwater vehicles,
+[00:56] built to be kind of cheap enough that you can kind of deploy them at scale,
+[00:59] over large swathes of the ocean, that they can work together autonomously
+[01:03] to kind of solve some of the most critical tasks in our oceans.
+[01:06] Like, what kind of critical tasks?
+[01:08] Yeah, sure.
+[01:09] We have three main verticals that we operate in.
+[01:12] We actually began, you know, because we were very interested in problems in the world
+[01:17] of kind of conservation and nature, and that was kind of the first use case we built
+[01:21] autonomous and water vehicle may go for.
+[01:23] So, that is doing things like mapping, coral reefs, mapping under sea ecosystems,
+[01:27] using the vehicles to collect seeds and replant them in new locations.
+[01:32] That was kind of like a first and early use case.
+[01:34] Then, you know, after that, we got pulled into our second vertical,
+[01:38] which is what we call the commercial vertical.
+[01:40] The commercial vertical, you know, we're doing things like inspecting off-road wind platforms,
+[01:43] inspecting subsea cables, doing repairs on undersea infrastructure.
+[01:48] There's, you know, billions of dollars of kind of assets in their oceans owned by energy
+[01:53] and telecoms companies, so just basically, you know, protecting them and that sort of thing
+[01:58] and keeping them up to date.
+[02:00] And then, you know, now actually as well, you know, we got pulled into the world of defense
+[02:04] by the US Navy.
+[02:05] They came to us when they heard about our underwater vehicle.
+[02:07] They were extremely impressed with some of the specs and very dissatisfied with a lot of the existing options
+[02:12] given by the primes, you know, makeover underwater vehicles truly like best in class
+[02:17] where it's formed after the small, medium size.
+[02:19] So, for them, you know, they're interested in things like how can we find and remove mines?
+[02:26] How can we gather intelligence under waters?
+[02:29] And, yeah, how can we do, yeah, other relevant, important tasks like protecting ports,
+[02:35] harbors, critical infrastructure, that sort of thing.
+[02:38] So, yeah, well, all done off the kind of same core tech platform, but it's pretty
+[02:42] pretty valuable and can be used across each.
+[02:45] Like, you know, one of the kind of similarities maybe to think about is, like, people are building
+[02:49] general purpose, robotic form factors on land in the form of the humanoid.
+[02:52] You can't just take human robot and throw it into the ocean.
+[02:54] Like, it just doesn't work that way.
+[02:56] You know, do you have to have something that maybe looks a bit more like a fish or a shark?
+[03:00] And that's the kind of platform that we're hoping to build for the ocean.
+[03:04] Cool.
+[03:05] Have you ever played Subnautica?
+[03:07] I haven't, but I have heard of it.
+[03:09] That's incredible.
+[03:10] It seems like Subnautica is like Ulysses the game.
+[03:13] I also haven't played it.
+[03:15] I don't really play that many video games, but it's just like, it's a game where you,
+[03:19] I believe, are a guy controlling a submarine that's going around an alien ocean and exploring things
+[03:25] and solving technical problems and fighting sea monsters.
+[03:29] Yeah, pretty much average day in the life for a Ulysses forward deployed engineer.
+[03:35] What do you think about why there are so relatively few ocean companies?
+[03:40] You know, there's a billion space companies and a billion satellite companies.
+[03:43] There's a billion robot companies, but so few of them seem to be focused on the ocean.
+[03:48] And is it just because space and land robots are like sexier somehow?
+[03:54] Yeah, I think part of it is kind of a narrative.
+[03:59] There's like a different narrative for the ocean.
+[04:02] You haven't got this kind of like inspirational framing of iconic images of Apollo and SpaceX,
+[04:11] you know, rockets launching again and you haven't had a company doing the kind of SpaceX version
+[04:16] of like, let's make this domain in sexy again for the ocean.
+[04:19] But I think it's worth going back and looking at history to understand that this is an anomaly,
+[04:26] a historic anomaly that we haven't been as obsessed with exploring the oceans.
+[04:29] Since the dawn of time, mankind has like dreamed of, you know, sea creatures,
+[04:34] expeditions at sea.
+[04:37] Yeah, it was the pinnacle of like frontier spirit and exploration for most of humanity's history.
+[04:44] And then it seems around the kind of 60s and 70s, and we kind of forgot about it.
+[04:49] But like at that point in the 60s, when the U.S. was you really kind of, you know, just so optimistic and so ambitious,
+[04:55] what a lot of people feel to realize or actually, you know, forget is that the exploring of the Earth's oceans
+[05:01] was a co-equal ambition as going to the moon.
+[05:05] You know, at the 1964 World's Fair, the future GM had this right, Futurama II,
+[05:10] that, you know, 26 million people saw this.
+[05:12] It was like a lunar base, you know, on one side of it.
+[05:14] But then you also had, you had like a sub-sea hotel called Hotel Atlantis that had like ocean for oil rigs
+[05:20] and submarine trains bringing critical minerals to shore.
+[05:23] And you had a resort down there where people could, you know, look around JFK, you know, commission with this plan
+[05:30] that was effectively like the undersea equivalent for a sub-on-screen share.
+[05:34] That with the undersea equivalent of a, of a kind of like a space program.
+[05:41] And, you know, he like tripled funding like year over year to like explore the Earth's oceans.
+[05:48] And then we had like people living on the sea floor.
+[05:52] There was a, the Navy had this program called CLAP, right?
+[05:56] And they were like sending people down to live at the bottom, at the bottom of the ocean.
+[06:01] And then very unfortunately, we had the death of one of the members, Barry Cannon,
+[06:06] one of the exporters kind of down there.
+[06:08] And that combined with the redirecting of a lot of the Navy's kind of budget and towards things like focusing on Vietnam
+[06:16] and other kind of priorities led to neglecting funding and resources to go and look at the underwater domain.
+[06:23] Also, the underwater domain in the Cold War became very heavily classified.
+[06:27] There's been books released in the kind of last like decade or two, talking about the, you know, the hunt for Red October, right?
+[06:34] And these kind of like books that are kind of talking about like all these crazy things the US subs were doing in this era.
+[06:39] That was all very classified stuff. They couldn't talk about it publicly, right?
+[06:43] So you had this like insane engineering, the same, same expression going on under sea, but it was totally classified.
+[06:49] And we couldn't speak about it publicly.
+[06:51] And it's also like Jack Cousteau, the biggest cultural icon for it.
+[06:54] He was real about exploration and then he kind of pivots more to like conservation.
+[06:57] So there's a cultural shift. There's this like classification.
+[07:01] And as a result, 50 years later, we're still like working with the same tools in the ocean.
+[07:06] And it's exactly this kind of like exploration spirit, this like desire to kind of conquer this great blue frontier
+[07:12] that we're trying to reignite and be that like SpaceX from the ocean, like get like young kids dreaming about being in, you know, aquanauts as well as like astronauts
+[07:22] and you know, going to these frontiers because when you get into the engineering of it, it's gnarly stuff.
+[07:26] Like it's really gnarly stuff to get to kind of make vehicles that can work in the deeps, work in the depths.
+[07:32] It's like arguably more difficult than like a lot of the like making a vehicle that can survive in space.
+[07:38] And there's a lot more things trying to try to take you out down there.
+[07:41] I think, yeah, there's a cultural kind of and like, there's very reasons why we don't really have a generation of kids thinking they're building ocean companies.
+[07:50] So this makes me wonder like, what is China doing in oceans?
+[07:54] I mean, yeah, this is, you know, kind of along the part of it is that in the undersea domain, it still remains the domain in which like the US can create a decisive advantage, right?
+[08:05] It seems like on shipbuilding, like, you know, China is, you know, by far and away ahead, right?
+[08:11] Building hundreds of ships, brand them to the US, building kind of single digit ships, you know, in aerial drones.
+[08:16] It's like they're producing tens of millions, the US is maybe making, you know, single digit million if, you know, if even.
+[08:24] But in kind of the autonomous, like underwater vehicle, undersea drone space and, you know, we're looking at like single digit thousand autonomous underwater vehicles or water drones made every year.
+[08:34] And, you know, hundreds of them are made in China and hundreds of them are made in the US.
+[08:38] So it's not like a massive, like a total disparity here.
+[08:42] We're like on the same kind of order of magnitude.
+[08:44] So the undersea domain is definitely a domain in which, like, the US could create an advantage.
+[08:49] Now, that being said, China is moving forward itself on a lot of, like, undersea initiatives.
+[08:55] So they're building, like, they just released and this kind of sobering sized autonomous underwater vehicle that has a range that can extend age.
+[09:03] That can extend 18,000 kilometers.
+[09:05] So, you know, it could potentially reach the coastline of the United States.
+[09:09] And that's obviously a massive threat.
+[09:12] They also have cable cutting tools.
+[09:14] And they can operate at, like, a depth of, like, 4,000.
+[09:16] So this is a really serious, like, asymmetric threat that they have on the US now.
+[09:21] There's not many capabilities the US has in this kind of size variant.
+[09:25] And in addition to that, they're also building what they call, like, an underwater grey wall of sensors across the Indo-Pacific.
+[09:32] And these would be sensors that you put down, pre-low, power draw.
+[09:36] And they can send maybe submarines or other things moving and they're networked.
+[09:40] And it gives them this kind of undersea kind of GPS or, like, navigating capability, which would obviously be very useful to them in the context of war.
+[09:49] But it's, they're not, like, leaps and bounds ahead of where the US is.
+[09:53] At least, you know, we're looking at opening a facility next year or beginning to kind of, like, break ground on it next year.
+[10:01] That facility alone would, you know, 2 to 3X, like, international supply of autonomous underwater vehicles.
+[10:08] And, you know, obviously all of that will be built in the United States.
+[10:11] So, you know, undersea dominance is definitely within reach for the US versus China.
+[10:17] Interesting.
+[10:18] So, especially in the last decade or so, there's been this idea of sea studying, especially among libertarians.
+[10:26] You know, Peter Thiel was really into this.
+[10:27] I think Zuckerberg was into this.
+[10:29] The idea being, you know, if you can't create libertarian utopia in any existing country, and there's no frontier left because all the land is gone, you can build libertarian utopia in the middle of the ocean.
+[10:40] Or, you know, just forgetting about the libertarian valence, just like having human habitation in the middle of the ocean.
+[10:47] So, do you think this is a good idea? Is it tractable at all?
+[10:51] Yeah, I think it's definitely a good idea. I think the intellectual merit of the idea is great.
+[10:56] I think, like, yeah, like Thiel kind of speaks about this.
+[10:59] You know, the sovereign individual is probably one of the first books that really kind of coined.
+[11:02] I think a lot of these ideas back in the 1990s.
+[11:05] But, yeah, in a world that is, like, increasingly regulated and burdened and shackled, you know, man desires for the freedom.
+[11:13] And therefore, you can go to sea and build these, you know, kind of habitations out there and be, you know, doesn't have to worry about regulation or red tape.
+[11:21] It could be a great place to do some interesting things in biotech and longevity and other kind of forms of experimentation where people want to, they want to voluntarily, like, take maybe treatments or something at that, but the government here won't let them.
+[11:33] So, I think there's, like, a lot of merit and a lot of that. And also, like, just the sheer kind of mass.
+[11:38] If, you know, if we're to get the most out of the ocean and the resources that it provides to us and also to bring some kind of order to it being a very disordered place,
+[11:47] I think we do need to put habitations out there. Like, more important work is going to be done by robots in the future out there.
+[11:52] But I think we will want to have humans out there. And I think you could build some really nice settlements out there.
+[11:57] But I think, so I think the idea of sea setting has its merit, for sure.
+[12:02] But I think what was wrong, what they didn't have at the time were the tools and technology to build it.
+[12:09] It was like a good idea, but it was too early because the technological neighbours weren't doing it, right?
+[12:14] So, what do you need if you want to build it out at sea, right?
+[12:16] Okay, you definitely want to internet. You know, okay, Starlink changes the game, right?
+[12:20] Starlink, you know, for the first time ever, you can actually have a habitation out there that can be connected to the rest of the world through something like Starlink.
+[12:27] Okay, you want to have, like, logistics freshened up, you know, pretty frequently.
+[12:32] Again, trying to get a big container ship or someone like that to come out and stop off in your little location and drop something there.
+[12:39] You know, maybe not that realistic. But again, if you have episode and aerospace autonomous cargo plane that can come out and refuel you
+[12:45] every two weeks or week with new supplies, you know, that's great.
+[12:49] Okay, you'd want to do maintenance on your floating rig, right?
+[12:53] The floating rig right there, things are breaking. Divers are super expensive.
+[12:57] Okay, that could, like, pretty much bankrupt you if things are breaking and you can't fix them in time.
+[13:02] Okay, you have your policies, autonomous underwater robots that go in and, like, fix the cables underneath it and tie these things down or whatever.
+[13:09] So you're starting to see the proliferation of tools now that I think that can actually reduce the cost of cooperation down such that the benefits do its way to costs in something like sea static.
+[13:19] You also need energy generation at sea. Solar has come on, like, leaps and bounds in the last few decades.
+[13:24] So that's possible. We're also seeing interesting advances in ocean, ocean, geothermal, or, you know, basically just like taking advantage of natural heat in the ocean to generate energy.
+[13:35] With Pantalasa generating wave energy, we have car power ship who developed these modular kind of floating power stations that you can put on a ship so that it can be brought out to locations.
+[13:45] So, yeah, the power, the logistics, the data problem, the kind of, like, operators and maintenance, these are all problems that are now starting to be solved for the first time.
+[13:54] So, yeah, sea setting, I would love to see it come back.
+[13:58] Interesting. So we've had a lot of incidents in the last few years of oil pipelines and internet connectivity cables being cut, you know, often as an act of deliberate sabotage.
+[14:11] How do you defend against these? It seems like you just have a lot of potential attack surface and it's tough to defend.
+[14:19] Yeah, you need a combination of, you know, sensing sensor nodes like placed along all this infrastructure and you need to be really cheap.
+[14:29] And that gives you, like, your kind of your eyes and ears that you can tell, but you need to also be able to intervene and actually protect.
+[14:35] So that's where the robotics and, like, underwater drones, like the maker would come into it.
+[14:40] And so you need those two kind of combination of those two things.
+[14:44] And then you need the ability to kind of refuel them at sea as well.
+[14:47] So you need something, like, Levoy at the end of the autonomous surface vehicle, that can, like, recover them, recharge them, collect them to the internet so they can relay that data back.
+[14:56] So, yeah, and then you need all this stack to be made, like, super cheap such that you can deploy them over massive scale.
+[15:02] And, like, yeah, this is exactly the lens that we brought to building these things, right?
+[15:06] Like, if you want to buy an autonomous underwater vehicle from one of the primes or something like that to do these interventions,
+[15:12] or protect your cables today, you're paying, like, in the order of millions of dollars.
+[15:16] And they don't come with a long-term recovery system to recharge them, and they don't have native integration into seedbed sensors to protect the cables.
+[15:23] So, yeah, that's why we're kind of taking this full stack from sensors to surface to some sea approach.
+[15:29] And, yeah, these are all very much things that we're kind of thinking about.
+[15:33] Nice.
+[15:34] So, you are also, in addition to being the co-founder, CEO, Ulysses, the Secretary of the Hamilton Society, which is one of my favorite things in SF, actually.
+[15:44] I go to most or all of the Hamilton Society meetings.
+[15:47] For the audience, it's this debate society they meet in this church in the Richmond, like, once a month.
+[15:53] It's very formal. You are required to wear a suit and tie if you're a man and, you know, a black tie if you're a woman.
+[15:59] If you are not wearing a suit and tie, they will just not let you in.
+[16:02] And it's great. So, it has this, like, real atmosphere of kind of professionalism and dignity and sort of old academia aesthetics.
+[16:11] So, how did that whole thing come about?
+[16:13] Yeah, a part of it was, you know, I moved to San Francisco and I came from Ireland where, you know, we love you to drink pints again.
+[16:23] And, like, that's our social, you know, we go to the pub, you know, we hang out, you know, groups and none of my friends worked in tech.
+[16:30] And then, like, being, you know, dropped into San Francisco where nobody drank.
+[16:33] Everyone took off their shoes. You were in, like, someone's, like, extremely brightly lit, like, living room.
+[16:38] And, and then, like, everyone was talking about their stupid startup.
+[16:41] I was like, this is, like, hell, I don't want to talk about these things.
+[16:43] I don't want to be in this, like, environment. I want to have a drink. I want to have, like, you know, fun.
+[16:47] I want the room to be a bit darker, bored, dimly lit.
+[16:49] And then, like, Hamilton was, like, the opposite of all the things.
+[16:52] You don't talk about your startup. You keep your shoes on. You dress nicely.
+[16:55] And you talk about, like, an important problem of the day.
+[17:00] My own kind of personal motivation. And I was kind of, like, about the motivation community that co-founders that we started with.
+[17:06] But in addition to that, it was this kind of bigger, like, belief that, you know, San Francisco is, yeah, in my opinion, you know, the most important city in the world.
+[17:14] And, but it doesn't have social institutions that match its ambitions in the material world.
+[17:19] It doesn't have places where ideas are formed, where people can debate.
+[17:24] You know, it's just really people shouting at each other on Twitter.
+[17:27] And if you look at, like, any great moment of kind of immense, you know, wealth creation or otherwise.
+[17:32] We've had these social institutions where people could network and connect and, like, for conversion.
+[17:37] Like, what is truth of what this community should advance and seek to advance, you know, together.
+[17:42] You know, the UK kind of had, like, Oxford Union and the set of, like, members clubs in places like London.
+[17:47] The, you know, we had the Pacific Union Club. You have other kind of members clubs on the East Coast as well in places like New York, from the Industrial Revolution.
+[17:56] But, you know, today, like, you know, this is this physical place instantiation of it does not exist.
+[18:01] So, how much the study was going to conceive to not vain as well.
+[18:04] And, yeah, looking to draw on the kind of heritage of places like Oxford Union and how they run their debates.
+[18:08] So, yeah.
+[18:10] How much cultural impact do you think it has had so far?
+[18:13] I think it is in its early days of kind of cultural impact.
+[18:18] I think it has been good, like, you know, like, I think one of one example is, like, the billionaire attacks.
+[18:24] You know, somebody who's out that debate has come away with it with an actually way more high fidelity understanding of, like, why billionaire attacks is, like, very bad, right?
+[18:32] Beforehand, it was like the extent of which people really had seriously engaged in it was like, you know, maybe you were just like billionaires are good, you know, or something like that.
+[18:40] You didn't understand why the mechanics of it or the mechanics of what they were actually proposing and why specifically those were bad.
+[18:45] And what maybe an alternative might be if you still want to regenerate, like, tax revenue through, like, wealth.
+[18:50] All these points, these kind of on the ladder that I was talking about are points that were brought up that night.
+[18:55] And we literally had, you know, Trey Stevens or a real-life billionaire, founder of Andruil, debating the two guys who wrote the policy, right?
+[19:03] And I think everyone came away with it, like, oh, wow, okay, we now understand specifically why it's bad, such that the 600 people who attended and the 400 people who voted against the billionaire attacks at that night's debate can now bring that into their own relevant communities.
+[19:15] When they meet people who are like, hey, what is a billionaire, you know, we should do a billionaire tax, and they have, like, the talking points that they can go straight to right now.
+[19:21] So it's probably that ripple-down effect that when people go back to the communities that have that now as well.
+[19:26] Similarly, when we have debates on things like Christianity or religion or, you know, gender relations or other things, like, people can, like, bring the talking points into their own life.
+[19:34] So maybe it may be difficult when to measure, like, specifically, old will be led to this, but I think it's only a matter of time that you start to see kind of concrete impacts in the culture.
+[19:44] Yeah, I mean, I hope you're right. I think it's definitely a good cultural institution.
+[19:49] When did you schedule the next debate yet?
+[19:52] Not, yeah, we have some exciting potential speakers in the lineup.
+[19:57] We're always trying to, you know, go one level up and quality is better than quantity for us.
+[20:01] So we have some interesting ones in the work, and we'll be sharing more on kind of a Twitter in the coming weeks.
+[20:06] Well, so back to you, Lizzie's. What is sort of the ultimate vision for the company?
+[20:13] What do you hope to discover in the ocean?
+[20:16] Yeah, I think, you know, I mean, the mission of the company is to, you know, drive abundance through, through ocean stewardship, better stewarding our oceans, right?
+[20:26] We're not worried about the advanced kind of human flourishing by enabling humans to better interact and steward the high seas.
+[20:31] In actuality, that means, you know, healthy, safe and prosperous oceans, right?
+[20:36] Healthy oceans were like, we're not worried about the coral reefs dying off, right?
+[20:41] We're not worried about overfishing. We're not worried about, like, illegal Chinese fishermen anymore.
+[20:46] You know, there's like health and, like, vibrance in the ecology of the oceans.
+[20:49] The safe one is like, the oceans remain to be this place where most of human trafficking happens
+[20:54] where, you know, hundreds of people are subject to either, you know, violent abuse, sexual abuse, or in some cases, murder on the high seas today.
+[21:04] Again, because it's literally as the Wild West, nobody instruments it anymore.
+[21:07] That is just like over and then prosperous.
+[21:10] The ocean can be this, like, actual engine for, like, economic growth and driving human flourishing, right?
+[21:15] So we've got the ocean is like fully instrumented with subsea cables that we need to drive AI to the next level.
+[21:22] We are, you know, responsibly, you know, attracting things like critical minerals to support the advancement of robotics, AI, other things.
+[21:29] We're also, you know, capturing much more energy from the Earth's oceans.
+[21:33] It's the biggest source of energy on Earth and we're still capturing, like, a fraction of a fraction of a percentage of that energy every day.
+[21:40] And so we're, you know, we're driving more energy through that.
+[21:43] And, you know, it continues to be a place for logistics that we're not worried about the Strait of Hormuz closing down anymore, right?
+[21:49] And you can drive forward.
+[21:50] So that's, I think, the type of world we want to create.
+[21:52] What that looks like as a company itself, it means we would have a network of autonomous vehicles wrapped around the Earth's oceans.
+[22:00] Like, Starlink has satellites, you know, covering space and kind of rockets going out to kind of to kind of service it.
+[22:08] We have operation centers in North America, South America, Africa, EMEA, and another one over in Asia Pacific.
+[22:15] And you have operators there, each controlling swarms of vehicles to solve various problems.
+[22:20] And, yeah, we have ocean, you know, sensors, vehicles, open down kind of Earth's oceans, every coastline.
+[22:26] And it just becomes a part of the infrastructure in the same way that, like, Stripe just became a part of the Internet.
+[22:31] You know, Ulysses just becomes a part of the ocean.
+[22:33] And it's just there.
+[22:34] They're just like these, like, your robot friends kind of fixing things and where you need, when they need to be fixed.
+[22:41] Well, that's a beautiful vision.
+[22:43] Will O'Brien, congrats on the fundraise.
+[22:46] Thank you.
+[22:47] And thank you so much for coming on MTS.
+[22:49] No problem. Thank you very much for having me.
+[22:51] Next up, Marietta Minerals founder, Turner Caldwell joined me, American dynamism general partner Aaron Price Wright, and partner Ryan McIntosh on the podcast.
+[23:03] So, Turner, you're coming out of stealth with $85 million raised.
+[23:07] Why don't we get into what are critical minerals and why do they matter?
+[23:11] Critical minerals fundamentally underpin everything that we do every day.
+[23:15] And that's why we're personally really excited about it.
+[23:17] But it's not just aerospace, energy, renewable energy, battery, energy storage systems, the massive growth in AI that's happened in the last, you know, 12, 18, 24 months, and defense, obviously.
+[23:30] But it's also everything that we use every day, right?
+[23:32] Like, you have where it's in your phone, you have various in your AirPods, your screens, your laptops.
+[23:36] And so it really does, it like crosses everything that we use, but where they're produced and how they're refined and how their mind, that all happens in the background.
+[23:46] And so it's something that really does need to be brought to the foreground, something that we need to support more and more of.
+[23:51] You know, it's a long chain to go from digging something up to go all the way through to something that can actually be deployed in an end product.
+[23:58] And so excited to talk about that.
+[24:01] Well, I don't get into how do we turn rocks into batteries or magnets and why is that so important?
+[24:06] Yeah, so it starts with mining, obviously. Well, it actually starts with exploration.
+[24:10] But you got to find the rocks in the first place, which is hard to do.
+[24:14] And there's a lot of awesome companies that are working on trying to condense that timeline.
+[24:17] But once you do find them, you have to get that asset or that resource permitted to extract.
+[24:21] You develop a mining plan, you have to mine it.
+[24:24] And when that rock, those rocks come to the surface, you have to separate or from waste, which is something that is not as trivial as possible.
+[24:30] Not as trivial as people might expect.
+[24:32] And then you go through a concentration step.
+[24:34] So the ors will come to the surface, they'll be less than 1%, definitely less than 5% concentration unless you have this world-class deposit.
+[24:42] And you'll typically go through a concentrating step.
+[24:44] So that can be mechanical, it can be thermal, it can be chemical.
+[24:47] And that gives you an intermediate product.
+[24:49] And those intermediate products kind of move all over the world and typically go to refining assets.
+[24:55] The refining operation effectively goes from anything that is like a 10% concentrate to a 50% intermediate product and turns into a high purity metal.
+[25:06] And then you go into a specialty chemical.
+[25:09] And so that's this intermediate product where you go through another chemical process to either make a metal sulfate or a metal hydroxide salt.
+[25:16] And then you will convert that into an engineered material, which is the next step.
+[25:21] And that, you know, in electrochemical systems and batteries, you'll have cathode materials, you'll have anad materials.
+[25:26] And they're the morphology and electrochemical performance in the system is really important.
+[25:31] And then you're ready to deploy into a battery cell.
+[25:34] And then you'll go into a module and then you'll go into a pack and then you'll go into a car or go into a stationary storage product.
+[25:39] And on the magnet side of things, you know, similarly you'll get to a refined rare earth product.
+[25:46] And, you know, it's a long list of rare earths. They often get bundled into like one group, but it's important to kind of like break them out.
+[25:52] And then the common way of making magnets is a few flow sheets.
+[25:56] But you'll slurry it. You'll get the right blend of the different rare earths that you're trying to put in.
+[26:00] You'll cast that. You'll center it.
+[26:02] And then you'll go through a fairly intricate and like high precision machining process to get the geometry that you want with the tolerances that you need before you can deploy that into magnets and eventually into motors.
+[26:12] How specific is it for a given site, given like concentration and other sort of waste products?
+[26:19] Like how dynamic is it? Like is one rare earth line going to be similar process to another?
+[26:24] Or is there going to be various sort of bespoke setup?
+[26:27] Yeah, it's very bespoke.
+[26:29] And it's actually part of the problem and what makes kind of the mineral industry so complicated is that the flow sheet, which is ultimately how you go from the ore all the way through to the refined metal, is designed for that specific asset.
+[26:40] You will have concentrations of impurities that you have to manage.
+[26:44] The concentration obviously of the target metal is different.
+[26:47] And there's like a library of metallurgical unit operations that are kind of all stitched together to build a refining operation or a pressing operation.
+[26:57] But how those are stitched together, that's bespoke for the individual unit operation.
+[27:02] And tied to the kind of chemical metallurgist process engineer that designed the circuit in the first place.
+[27:07] So there's a lot of like human impact on what that flow sheet ultimately looks like.
+[27:11] But yes.
+[27:12] And I imagine very hard to change as the nature of the ore changes as you mine a site.
+[27:17] That's right.
+[27:18] And so, you know, part of what we're working on and what we'll talk about a little bit later, I'm sure, is how do you how do you define circuits or define design circuits that have a little bit more flexibility to be able to process.
+[27:30] Or as it changes over time as you mine through the ore body.
+[27:33] Because one mine does not actually have consistent ore coming out of it.
+[27:37] The earth is heterogeneous.
+[27:38] The ore grades are changing.
+[27:39] The impurity concentrations are changing.
+[27:40] There are different ore zones that have different properties and how they are floated or how they're concentrated, how they perform in a leaching circuit.
+[27:47] And all of those things are kind of custom built for a specific asset.
+[27:51] I mean, we've seen this from the investor side.
+[27:55] You know, there are a lot of really exciting new technologies being developed for mining.
+[28:00] And a lot of incredibly impressive startups that are building for various pieces of the mining lifecycle journey, whether it's autonomous vehicles or drilling or other various software and hardware tools for mining.
+[28:13] But the challenge seems to be like, how do you get these kind of calcified, large incumbents who operate in a very decentralized way have very low risk appetite.
+[28:23] And not a strong internal culture or affinity for tech.
+[28:27] How do you get them to adopt them quickly?
+[28:29] If you're a young startup, you're sort of at the beck and call of this behemoth and you have very little control over your own destiny, which I think has made it really hard for tech to penetrate this market up until now.
+[28:42] That's at least what we've observed on the PC side.
+[28:44] I mean, calcified is a good word.
+[28:47] I think the way that this is construction companies and mining companies and really a lot of big companies is that the way that they'll identify and evaluate risk is, you know, fixing the status quo or making like a step change improvement in the status quo kind of requires doing like a thousand things.
+[29:05] But you'll evaluate risk on each individual thing of that thousand things.
+[29:10] And the downside of each individual thousand things is that the plant goes down, which is a multi-million dollar event.
+[29:17] And so you're really not incentivized to change things, like even small changes could result in multi-million dollars at loss.
+[29:24] And you need to kind of like approach it of like, how do I do the thousand things all at once so that I'm not stacking incremental returns on innovation with the same risk every single time.
+[29:35] And that's where kind of like spot technical solutions are challenging to sell into the mining industry.
+[29:39] And they'll do pilots. They'll definitely do a pilot.
+[29:41] Like there's no skin off their back to do kind of like a pilot.
+[29:44] But you'll end up doing a lot of pilots.
+[29:47] And because they don't build enough plants kind of sequentially, like they'll build one big mine every five years if that.
+[29:56] And there aren't just, there just aren't a lot of opportunities to get into a commercial scale application.
+[30:02] And if you don't time it perfectly where like your pilot plant was five years before the commercial scale plant was planned for,
+[30:08] like you're not going to be in that one. So you'll be in the next one, which is five years later.
+[30:12] And so the just like the pace at which the industry moves in terms of like deploying commercial scale infrastructure means that there just isn't a lot of opportunity to get new tech into commercial scale applications.
+[30:22] And so there's a lot of folks that are doing like SaaS products, which is kind of the lowest cost way to get into,
+[30:30] to like generate uplift in a mining project or a minerals refinery.
+[30:36] And the like barrier there is ultimately how do you get the operators to trust the recommendations from the like this SaaS tool from this small company that is trying to kind of tell you how to run a plant.
+[30:51] And you know, the culture is typically like don't touch my things, don't touch my cash register.
+[30:56] And like what do you all know about running a mine?
+[30:59] And it does stack up and it makes, you know, I've been calling it a death spiral for a lot of the folks that are trying to sell into the mining industry because it's hard.
+[31:09] Just like step back a little bit on the geopolitical context, like, you know, the stuff you're describing, I think very obviously true with a lot of Western companies, but at the same time, a lot of Chinese companies that have sprouted over the last 20, 30 years have grown rapidly.
+[31:24] Curious, why do you think that is?
+[31:27] Yeah, I mean, I think that there's like a lot of top down and early recognition that critical minerals were going to be critical and needed to be supported.
+[31:37] And so like shouldn't kind of like the everything around policy and everything around kind of like supporting companies to go and deploy both infrastructure domestically and infrastructure internationally to kind of like secure critical minerals build infrastructure that secures a position.
+[31:51] Like that has definitely happened.
+[31:53] But I think that what people often don't talk about enough is that the town pool is insane.
+[31:59] Like it is not just a large town pool.
+[32:01] It is a large scale experienced town pool.
+[32:04] I was in Indonesia in February and was kind of visiting one of the recent Chinese nickel refining operations.
+[32:13] And so they buy or they also have some mining operations, but they had 13,000 people on site during construction and commissioning.
+[32:23] And, you know, if we were building a refinery in the US, which we did, it's hard to mobilize, you know, a tenth of that realist.
+[32:31] And when you have, it's not just about the number of people.
+[32:34] It's about being able to iterate on every individual work front as fast as humanly possible.
+[32:39] And we just don't have that label.
+[32:42] 15 years ago or 20 years ago, would the same companies that were big now have been big then?
+[32:47] Like what is kind of the evolution of the space of it?
+[32:50] Yeah, I think that there's been like a clear splintering on kind of who does the exploration and who does the development.
+[32:57] Like right now, the industry is set up where junior mining companies, which don't mine, they explore.
+[33:02] Go and they kind of, you know, they sometimes get, they'll get maybe a resource from a major mining company that's like helping in their portfolio for a long time.
+[33:11] But it's like a different risk-reward profile than what the mining industry is ultimately.
+[33:16] Like the mining majors are ultimately looking for.
+[33:18] And so you have this junior mining ecosystem that sometimes is well-funded and sometimes is competing for capital with like the cannabis industry in Canada.
+[33:26] And, you know, they're taking shots in the dark, basically trying to, and there's a lot of work that's going into trying to make that exploration activity more intelligent.
+[33:37] And streamline it, drill less exploration holes while still being able to like interpolate or extrapolate what is in between those drill holes.
+[33:45] But it's a, you know, you're going out in kind of the middle of nowhere, either it's really far north in like the Arctic Circle or the Yukon.
+[33:54] Or it is, or it's overseas in Africa and you're doing exploration or it's in Southeast Asia or in South America.
+[34:02] And those folks, like they have one job, which is to define a resource and pump up its values efficiently to flip it to a major.
+[34:09] And there's a lot of companies that aren't able to discover a resource that is either large enough because the big mining companies, like they want to deploy large amounts of capital.
+[34:19] We're talking about like multi-billion dollar investments.
+[34:22] And so they won't really look at projects that don't have the scale that kind of enable them to underwrite their own inefficiency.
+[34:29] Like they want to build what really large infrastructure that enables them to capture the economies of scale.
+[34:34] And so the, there's a whole bunch of, there's actually a really long tail of mining projects that don't have the scale that would justify getting acquired at a major premium.
+[34:43] And so they'll go into this kind of orphan period is what it's called in the industry.
+[34:48] And it's hard for them to break out of that orphan period.
+[34:51] And that's kind of where we see our ability to kind of step in as a more efficient building, like builder and operator,
+[34:57] is kind of take these, what, you know, the industry calls subscale assets, but we see metal there and come in and like bring those into production as we kind of are building the platform.
+[35:06] And then eventually scale into the same scale that the big mining companies are operating at.
+[35:10] Your thesis being that you can get the metal out and process it into a product that you can sell more efficiently than the majors such that it's economically viable.
+[35:21] To offset the scale advantage. Yeah. Yeah.
+[35:23] Well, maybe then I think this might be a good opportunity then to talk a little bit more about like what is Mariana's product?
+[35:30] Like you said a few minutes ago, you're not a, you're not a SaaS product.
+[35:35] You know, what does it mean to be a diversified metal and minerals company technology-enabled mining company?
+[35:42] Like give us a, take us a little in a little bit more detail.
+[35:45] Yeah. So we're a vertically integrated software first minerals project developer and operator.
+[35:51] And so we focus on the back end of the minerals value chain, which is actually doing the detailed engineering, getting through the permitting, building the asset, commissioning the asset, and then operating the asset.
+[36:03] And going back to some of what we were talking about around the labor pool, like those labor pool shortages exist in construction and they exist in mining.
+[36:11] Like they're, they're, they're felt very, very intensely.
+[36:14] And so our fundamental thesis is that the, with a contracting labor pool, you know, you have to start with an awesome team.
+[36:22] The table stakes is that you build an awesome team.
+[36:25] But how do you enable 200 people to do what 10,000 people are needed to do today?
+[36:30] At least on the, on the like parent, parent co-site of things.
+[36:35] And that comes from leveraging the recent advances, advances in LMs to automate workflows in the construction side of things and the engineering side of things and the procurement side of things, which take an insane amount of time.
+[36:47] Like it's a, you make a lot of lists and you fat finger a lot of data between databases.
+[36:52] And the, and that is all about reducing churn in construction.
+[36:57] I think that there's current churn and latency.
+[37:00] Latency is one thing that I think people sometimes don't appreciate from like status quo construction, like large scale mega projects is that what's happening in the field and what the, like the back office kind of sees or what the executive team sees
+[37:13] or what the project director sees.
+[37:15] There's like a three week lag generally for like really large construction projects where you are trying to aggregate data from all the different contractors, all the different, and all the different parts of the facility.
+[37:27] Into a consolidated integrated schedule, which you can then make decisions off of like, how do I prioritize what I'm doing today?
+[37:32] And the way you run from on those like in between those three weeks is people stand in circles every morning and they say, what are you doing today?
+[37:40] What are you doing today?
+[37:41] What are you doing today?
+[37:42] And they go off and they do the thing.
+[37:43] They'll send like a very brief kind of progress report back.
+[37:46] And it takes a long time to then take those progress reports and actually measure progress.
+[37:53] So that you can reevaluate priorities and understand kind of like how the project is trending.
+[37:58] And so we're really trying to accelerate and democratize access to data fundamentally and run construction projects like manufacturing facilities.
+[38:08] And it starts there and the reason construction and mining are so kind of integrated and some people might disagree with me, but like a mining project is a big civil construction project that just never ends.
+[38:19] And are you hoping never?
+[38:20] It's more like a deconstruction project.
+[38:21] Yeah, that's fair.
+[38:22] You are.
+[38:23] Well, you do when you're you have to make you have to construct piles and you're building piles and the, but there's actually a lot of similarities and kind of like just moving the dirt for like site prep.
+[38:35] And the same kind of like software stack that is enabling you to get feedback from the field live is the same thing that the mining industry struggles with.
+[38:46] You know, there are mining companies will lose equipment, like, especially in underground mines that are like these like deep mazes and, you know, the industry is getting better at having like actual location sensing on like where the equipment is.
+[38:58] But losing equipment in the mind is like, it used to be a super common thing.
+[39:01] You know, we start with construction and then, and then we start to get into the, you know, the second core software stack is what we're calling plant OS.
+[39:10] The construction stack is capital project to us.
+[39:12] And plant OS is really aimed at removing humans from the loop and deciding how the chemical processing operations and refining operations work.
+[39:19] And these are like big refineries are effectively big robots.
+[39:24] You have the sensing and telemetry.
+[39:26] You have the actuators to control how to plant operates and, you know, they're, you know, imagine like tele operating humanoid robots like forever.
+[39:36] Like that is what the refining industry and the pressing industry has been.
+[39:39] And there's obviously like PID control loops that kind of like maintain set points.
+[39:45] So you can maintain temperature automatically, maintain pH automatically.
+[39:49] But the thing that really matters is that the feed material to the pressing facilities is constantly changing because the mine like the ore body is changing over time.
+[39:57] And so the way that the industry manages that today is they will blend the feedstock to minimize variability that's going into the processing facilities.
+[40:05] And that enables them to minimize the amount of change that has to happen on the processing facility.
+[40:09] So we're trying to flip that and say, okay, if we build a hyper dynamic and highly flexible refining circuit, ideally without adding a whole bunch of costs.
+[40:19] What does that do to like optimizing the global operation from the mine to the refinery?
+[40:23] But it's first aimed at reducing region consumption, reducing energy consumption.
+[40:28] And you know, Google kind of proved this.
+[40:30] They, they bought DeepMind in 2016, 2017.
+[40:34] And one of the first things they did was, you know, throw the DeepMind team at automating and optimizing the data center thermal systems.
+[40:41] So air handler, chiller, cooling tower.
+[40:43] And, you know, that's not a super complex system.
+[40:46] You have weather, which is a factor.
+[40:48] You have loads within the building, which is a factor.
+[40:50] But you ultimately have like nine control variables between airflow, like airflow rate, supplier temperature, the cooling water temperatures and flow rates, both in the chillers system and the cooling tower system.
+[41:02] And the that just in that relatively simple system, they were able to reduce energy consumption by 30%
+[41:10] Yeah, like 40%.
+[41:11] Yeah.
+[41:12] And it happened relatively quickly.
+[41:15] And so that's the opportunity when you remove humans from making the decisions on how kind of like these these process systems operate.
+[41:20] Like that's the opportunity.
+[41:22] And then when we look at kind of refining and processing facilities, that's like a thousand control variables.
+[41:29] And it's no longer single pass, because what's really interesting about minerals refining is that you never want to lose the metal, right?
+[41:35] Every piece of metal that you, or every atom that you lose kind of in the processing facility is another atom that you have to mine.
+[41:42] So recovery in the in the refinery is actually like the biggest lever when it comes to cost.
+[41:47] And so what that means is that the upstream unit operations think of a refinery as like 20 unit operations kind of all in series in a relatively simple refinery.
+[41:56] The upstream operations.
+[41:59] Yeah, right.
+[42:00] The upstream operations obviously impact the downstream operations because if you're changing the process conditions in the upstream operation, that changes what the downstream operation is seeing.
+[42:10] But the downstream operations will recycle the like reject stream back into the upstream operations.
+[42:16] And so it's this big interconnected web where if you make a change in one part of the circuit and it's a high latency web also where if you make a change in one part of the circuit, you may not see that change cascade for another 24 or 48 hours.
+[42:31] When we're commissioning refineries like the world, that like latency ends up being a major driver of kind of the time it takes to bring a refining operation to spec and eventually ramp it to throughput.
+[42:44] So how long does it take to bring a refining to commission a refinery today?
+[42:48] I mean, there are some refineries that were built recently that are still not commissioned.
+[42:53] The like they were built in like the like four, three years ago.
+[42:57] But it's like the it's, you know, the Chinese companies are doing it like six months.
+[43:03] And a lot of Western companies are it takes two to four years.
+[43:08] And that stacks up where we need to build like an insane number of mines and refineries.
+[43:13] And if you are kind of four times longer or five times longer every time you build a refinery step of the process.
+[43:19] And so we're trying to bring down the cop the time that it takes to bring the refinery to spec basically through put in and hitting the kind of like output requirements of the product that you're making.
+[43:29] And then ultimately you start the this like historically very long haul of gradually bringing down the cost over time.
+[43:38] And that's something that we think that reinforcement learning is going to do quickly much, much faster kind of like in line with what in line with what Google demonstrated with that.
+[43:48] The thermal systems and data centers is, you know, achieve global optimal operating conditions, you know, on an order of magnitude faster timescale.
+[43:59] So how do you think about like you're building a company that mines and refines a product?
+[44:06] There's a lot of tech that you can interject at essentially every step of that process.
+[44:11] Like, how are you deciding what to build, where to partner, you know, what are you developing in house versus, you know, where are you going to market?
+[44:20] Yeah, I think we're we're at the beginning, we're focused on how do we take kind of commercially demonstrated unit operations and be a better integrator and a better like operator of that integrated circuit.
+[44:32] And so focus on the software systems that enable you to kind of control the plant more optimally.
+[44:38] And that's generally what project level financing parties want to see also, like it's hard to get project finance on a first of a kind facility where you're demonstrating a new unit operation for the first time.
+[44:49] And so we think that as we're kind of entering the market, the right place to start is take commercially demonstrated individual unit operations that operate globally and try to achieve, go after the uplift that's available just by being a better integrated operator.
+[45:04] There's a whole bunch of bottlenecks in building these facilities that we will need to solve them in the like industrial supply base just for like manufacturing tanks is broken, like the kind of there's a new one.
+[45:18] It's just like every like things that we kind of take for granted just take a really long time.
+[45:25] If you want to kind of not go to China for sourcing those that equipment.
+[45:29] And that has a big impact on the operating side of things to where the supply chain for like a new pump in Australia could take, you know, 30 weeks and getting that exact same pump.
+[45:42] But with a mine in China, it shows up in, you know, a week or three days.
+[45:46] And so like that entire industrial like equipment supply base, we're going to have to look at at some point.
+[45:51] That's obviously a much bigger, bigger bite to go after like commodity equipment manufacturing.
+[45:56] You're not going to vertically integrate to be a mining equipment manufacturing company.
+[46:01] I don't think so.
+[46:02] I hope not.
+[46:03] You'll let me know.
+[46:04] This is the, yeah, that's right.
+[46:05] Well, this is the kind of like, what is the incentive structure of the partners and the suppliers and like is it required or not.
+[46:11] I think that there's a whole bunch of companies that are working on awesome like novel process technologies that have not quite gotten over the hump.
+[46:19] Trying to sell to the big mining companies.
+[46:22] And we want to be the customer that helps accelerate commercial deployment and the partner that helps accelerate commercial deployment.
+[46:28] And one of the big issues that is that that comes up when you're kind of like deploying new processing technologies is that part of the reason why it takes a long time for it to get to the point where it's commercially viable other than all the headwinds from the industry being conservative and
+[46:42] process driven and all those things is that they like humans have actually never operated that process chemistry at scale before.
+[46:51] And so you have all the, you'll learn a bunch of things at pilot scale, but pilot doesn't really tell you what's happening.
+[46:56] And you train people.
+[46:57] You have to train the people to operate it.
+[46:59] You have to, it's like new environmental things that might come up depending on the chemical that you're using.
+[47:04] And that like scale jump is actually something that we think that are out and will enable with like a pretty meaningful like pace adjustment.
+[47:14] Where you don't need the humans to kind of like fine tune the process conditions around a new process chemistry because the, you know, plan to us is doing it.
+[47:25] Ryan and Aaron, how did we approach this, this industry is this is a space that we spend a lot of time thinking about or think about opportunities in the space or how did we, how did we approach it?
+[47:34] Yeah, we've, we've, we've wanted to do a mining investment for a long time.
+[47:38] You know, when you think about venture capital, you know, we care about massive markets and, you know, there's, there's not that many massive markets left that have been sort of like largely unpacked by technology.
+[47:53] And mining sort of screams one of the largest markets in the world.
+[47:57] Very little adoption of technology.
+[48:00] So, you know, over many cycles, we've gone out and spent a lot of time meeting companies.
+[48:07] And, you know, as I mentioned before, the challenges, how do you sell a point solution or a point piece of technology into this industry that is, has very little incentive to adopt it.
+[48:20] And is also like has a very complicated geopolitical dynamic where you have a very large global player with their hand on the scale.
+[48:27] We put out a piece a couple weeks ago around our thesis in mining and why we think a vertical mining company is the answer because you actually, we actually do believe you have to control every single piece of the entire journey, the entire life cycle of, you know, an, an atom of metal end to end to actually be able to build a tech company here.
+[48:47] This is not about, you know, a point solution for one particular part of the process in order to actually capture the gains in efficiency and build a feasible business.
+[48:55] You really have to own the entire process end to end.
+[48:58] The only thing I'd add there is that this is the intersection of geopolitical urgency in tech.
+[49:02] Like, to what Seth's turn has been talking about is like, now we have technology that can actually go and disrupt this.
+[49:07] But also as a talent base, people coming from companies like Tesla, SpaceX, Andrell, other sort of hard tech companies working in sort of dirty spaces, willing to go out in the field.
+[49:16] Yeah, roll up their sleeves, go out in the middle of the desert and work on this stuff.
+[49:20] So now's the time to build this company.
+[49:22] And the, and the political, and the political tail winds are there.
+[49:25] There is, you know, even my, you know, my, my conservationist mother, who I think if like we had had this conversation five years ago, she would have clutched her pearls.
+[49:36] She doesn't wear pearls, but she would have clutched her pearls at the idea of domestic U.S. onshore mining.
+[49:42] You know, I think broadly speaking, the American public and certainly the government has come around to the idea that metals are in every single thing we use as consumers, our supply chains are highly reliant on China.
+[49:55] It's a huge problem.
+[49:56] We have to figure out how to address it.
+[49:58] And that means investing in mining in the U.S. again.
+[50:01] We talked a little bit about, we mentioned like rare earths, you mentioned lithium and things like that, but like there are many different critical minerals.
+[50:08] I mean, you talked about a little bit in the very beginning, but specifically like what are the interesting ones for you?
+[50:13] How does that map to sort of the, what people see on the headlines and what are the business opportunities are?
+[50:20] Yeah, I mean, we, you know, when we look at what needs to happen in the next 10 years and, you know, forecasted demand will only materialize if the supply is there.
+[50:28] So we'll see if that forecasted demand materializes.
+[50:31] The metals that actually need to grow the most by mass flow rate are like the big metals.
+[50:37] We need a lot of aluminum.
+[50:38] We need an insane amount of copper.
+[50:40] We need more iron.
+[50:41] We need more zinc.
+[50:42] What are some of the things that these metals are?
+[50:45] Yeah, sure thing.
+[50:46] I mean, like iron goes and everything that is infrastructure.
+[50:48] We got iron.
+[50:49] We're good with iron.
+[50:50] Zinc is one that people sleep on because you actually have to galvanize a lot of that steel.
+[50:54] And so zinc oftentimes kind of pops up.
+[50:57] Everyone's in a while is being something that we really do need to continue to focus on.
+[51:02] Copper is the, is the workhorse of, you know, this push to electrify everything.
+[51:07] And, and to just, it grow the grid to be able to supply it.
+[51:12] AI to be able to, you know, enable accelerated renewable penetration for EV penetration to happen.
+[51:18] Like you're going to need a lot of copper.
+[51:20] Aluminum is one that I think is under estimated.
+[51:23] It's like people underestimate kind of its importance.
+[51:25] It's actually like the number one most consumed metal in defense applications.
+[51:30] Like the grid is, you know, people talk a lot about copper, but there's a lot of aluminum, like conductors in the transmission lines that are, that are critical to actually growing the grid, the grid capacity.
+[51:40] And, and in automotive, obviously aluminum is big.
+[51:44] Magnesium has a whole bunch of defense applications, potentially could get more into automotive applications and like for lightweight, lightweight metals.
+[51:53] Aluminum, you know, needs to 4X in the next, in terms of production capacity in the next 10 years, roughly, in order for the batteries that we want to build to be built.
+[52:01] Well, we're all, we're all about batteries.
+[52:03] Yeah.
+[52:04] Yeah.
+[52:05] Yeah.
+[52:06] Nicole is a, is a big one.
+[52:07] I think that what has happened in, in nickel in the last five years is Indonesian kind of like production capacity has scaled to the point where it's now something like 70% of global nickel comes out of Indonesia.
+[52:18] And a lot of that was on the back of like, meaningful investment from China to be able to kind of expand production capacity in Indonesia and then also do more of the downstream processing in Indonesia.
+[52:28] And nickel goes in everything that is special to alloys, anything that needs high temperature or corrosion resistance.
+[52:34] And also of it is like kind of the unsung hero of high energy batteries where these, these litiated transition metal oxides, which are high nickel.
+[52:44] Manganese is important.
+[52:46] Manganese goes into a lot of alloys and also goes into batteries.
+[52:50] The uranium is, if fission is going to continue to grow and we're going to continue to like deploy more nuclear capacity.
+[52:56] Definitely.
+[52:57] Then uranium is going to happen is going to be needed.
+[53:01] It's a, it's a long list.
+[53:02] And the, you know, the rare earths, you know, they, they're important.
+[53:06] Obviously they, they, they are omnipresent in like everything that we use.
+[53:10] But they show up as like a relatively small, kind of like in, on a volume basis when we look at kind of the stack of metals that we need to mine.
+[53:17] And where, you know, definitely we need a ton of like process innovation in how rare are refined solvent extraction circuits are kind of like the status quo.
+[53:30] They, you know, the chemical intensity is high and the recoveries are relatively low.
+[53:35] And the know how is kind of like highly penetrated in, or highly concentrated in, in China.
+[53:40] But we're, it's a, it is a, it is a little bit of a frothy market right now.
+[53:46] And so we're, you know, being diverse, being a diversified minerals company kind of enables us to pick our spots in areas where it makes sense.
+[53:52] Like these things still do move on commodity cycles and you actually want to be building infrastructure at the bottom of commodity cycles down at the top of commodity cycles.
+[54:00] You know, it's the Warren Buffett quote of, you know, invest when there's blood in the water.
+[54:04] Like you want to be coming into metals when they are at the, at like this trough really where no one is investing in them.
+[54:11] They still have like a macro long-term critical point.
+[54:14] Lithium is like exactly in this position right now.
+[54:16] And that's why we're focused on lithium.
+[54:18] Copper, Copper just has this like macro trend that is like pretty hard to ignore.
+[54:23] We're just going to need an insane amount of copper.
+[54:25] Copper grids are going down globally.
+[54:28] And, which means that our ability to extract copper from those ores is going to get, it's going to get harder and harder to extract copper from those ores.
+[54:36] And that's where, you know, the plant OS side of things, we have like a high degree of confidence.
+[54:41] So we'll be able to step in and kind of like optimize the refining circuits to still be able to extract copper from these lower graders without seeing meaningful kind of cost increases.
+[54:49] So everyone knows, you know, people here it takes forever to get a mine started.
+[54:54] I don't know how many new greenfield mines we've developed in the United States in the last decade.
+[54:57] Not many.
+[54:58] Yeah.
+[54:59] So like, you know, Australia and Canada have been able to do this faster, which is interesting.
+[55:05] You know, you don't know Canada for moving quickly.
+[55:07] What are some of like the bottlenecks there?
+[55:10] What does America need to do to accelerate this as one of these companies trying to not only mine, but also refine in the United States like what needs to be done?
+[55:19] Yeah, I think one thing that folks don't always see is actually the permitting requirements for exploration.
+[55:26] So there is like, if you are exploring over on federal land, if you're exploring over more than a five acre parcel, you have to submit like a plan of record or plan of operations that needs to be approved by the BLM before you can start to expand, like expand and explore over a larger piece of land.
+[55:43] And so the like bringing down the permitting thresholds and the permitting burden associated with exploring, like that is why we have such a small like relatively small rare earth resource.
+[55:53] It's like it's not because there isn't like the US has tons of natural resources and the like the kind of like USGS estimate for US like the US reserve on rare is just picking on that.
+[56:06] Like that is tied to lack of exploration activity, not necessarily fundamentally like a lack of kind of like geo geo geology presence.
+[56:13] Yeah, we haven't looked for it or it's yeah, well, it's hard to find in like high concentrations that are mindable, which we're trying to kind of like drop the percentage requirement that makes something economical.
+[56:24] But it's also there's just a lot of like kind of like permitting burden to be able to actually go and deploy drill rigs to go and actually explore.
+[56:32] And then there's definitely a week that the government currently is doing a good job of kind of highlighting the importance of the minerals industry and you're definitely seeing like a little bit of a tone shift over the last 20 years.
+[56:44] That is much more supportive. There's way more tailwinds when it comes to kind of like making mining.
+[56:51] Is you in a more positive light and a critical light and that that will help to solve some of the talent pool problem where people people that are, you know, awesome, they want to go build things.
+[57:03] They don't want to go and like work on a project that kind of sits around for five years and maybe gets permitted and maybe doesn't like they want to go work on hard problems that where they can see the like the impact of the work that they're doing.
+[57:15] And so if we're getting in the way of enabling projects to get built, like that is actually a major deterrent for talent because they won't actually see what they're like the output of their of their of their work.
+[57:28] And then I think the permitting requirements broadly for going from a discovery to to an operating asset.
+[57:38] There should be a big focus on kind of efficiency in reviewing environmental permits. There should be a big focus on kind of like streamlining those workflows in the back and forth between kind of like field offices and state offices from the BLM just focusing on the federal side of things.
+[57:52] Because the way that projects get permitted right now is you'll throw a you'll throw like your environmental assessment over the over the table and then they'll go and they'll deviate up between a whole bunch of experts that they are like kind of consultants that they bring in to review the permit.
+[58:07] And they'll get back to you eventually at some point, but there isn't a lot of visibility into like how they are progressing with reviewing the permit applications and discussions are getting more bilateral like the and again there's been a little definitely a change with the new administration
+[58:23] where there's a little more accountability on the like the permitting offices, but there's tons of room for making those reviews more efficient.
+[58:32] And again, LMS will make it more efficient. We just need to kind of like penetrate that side of the federal bureaucracy and like enable people to review things faster.
+[58:40] What else aside from kind of permitting efficiency? What are other things that if you know if you could send a list of recommendations to the government for what they should do to support the US mining industry? What would be your top three?
+[58:53] I think supporting the demand side is probably like the biggest lever. And if you want to mobilize kind of private capital into the sector, having some level of support on the demand side is major.
+[59:01] And so that's off take agreements with floor pricing. And you know, they did this just now with MP materials.
+[59:07] And that you know, ideally provide some stability on the revenue side of things so that investors like the there's trillions of dollars of capital kind of like dry powder just sitting around waiting to be deployed.
+[59:18] It is historically kind of avoided the mining industry because of the market price uncertainty. And so as soon as you provide it, it's a commodity cycle.
+[59:26] And like what if you're building at the wrong time and you know, the infrastructure funds are not the ones that are here to play like the intelligent about the commodity price cycle like they they're looking for annuity type returns.
+[59:35] And so the those folks would would mobilize if there were more demand side support from the government, either providing price floors or fixed pricing for critical minerals that, you know,
+[59:47] you're trying to incentivize more production of in the US.
+[59:51] You know, participating in the capital stack is is important. I think lowering the hooks or the, you know, the extra burden that comes in with receiving government funds is important.
+[60:04] And like some government agencies probably have more leeway to do that. Like the DoD obviously again just did this big deal with MP materials.
+[60:13] And actually like that went all the way to kind of participating in the cap table or as an equity holder.
+[60:20] But when you receive federal funds from the DOE or if you receive federal funds from like a, you know, the on the debt side of things from XM.
+[60:30] It comes with some like additional burden sometimes like if you are building on state land and you just need a state permit and then you bring in federal funds, you now bump your permitting requirement to a federal level permit.
+[60:42] And that's the MIPA process, which, you know, again, the process wouldn't be as burdensome if there was some more efficiency on the permitting side of things.
+[60:50] In order to pause it specifically like high grade or deposits don't obey borders, because they're a broader international strategy here.
+[60:56] I mean, I would love to think we can mine and refine everything in the United States, but obviously there's a lot, Australia, Canada, Latin America,
+[61:04] Africa, Africa, underwater sea floor. Like what is the overall strategy in your mind?
+[61:11] Yeah, we're starting in the U.S. because it's closer to home and we're focused on developing a platform that we can scale off of.
+[61:18] But at no point have we told ourselves that the U.S. is kind of like the only the sole focus.
+[61:26] Like you have to be able to like bolster the company to be able to operate internationally.
+[61:31] If you want to be able to scale beyond kind of like the resource base that the U.S. has like available today.
+[61:36] And so more exploration is going to happen in the U.S.
+[61:38] We'll probably discover more resources and like that pool will grow over time of projects that we can build in the U.S.
+[61:43] But yes, we are absolutely going to expand overseas and underwater, maybe.
+[61:48] When we look back a decade from now, what's the single clearest indicator that Mariana has achieved what it's set out to do?
+[61:53] We won't be as worried about our ability to secure the critical minerals that we want to secure.
+[61:59] Because we will have kind of rebuilt and established like an entity, ideally, that is able to go across borders to your point
+[62:10] and build these projects cost effectively, time effectively and responsibly, ultimately.
+[62:18] And the reason that we are so panicked about it right now is because we have fundamentally lost the ability to build large scale infrastructure
+[62:24] and we have lost the ability to like operate complex minerals plants.
+[62:29] Like that's where we have lost. And we need to build that back.
+[62:33] You know, we want to build 10 projects in 10 years.
+[62:35] Those projects will be an increasing scale over time.
+[62:38] But the work will not be done in 10 years.
+[62:41] What I think will have demonstrated that the 10-year mission will have been accomplished other than building those 10 plants
+[62:48] is that we will no longer be as worried about like our fundamental capability to go and build this complex infrastructure.
+[62:56] Like we will have unlocked it.
+[63:13] Talk about the moment, the insight, the why now, that led you to start your respective companies.
+[63:19] Let's start with you in the radio.
+[63:20] Oh man, it's a fun story. So I was at SpaceX for 12 years. I joined in 2007.
+[63:25] So I joined when they had two failed rockets, no successful rockets.
+[63:28] And so I got to work on the first ones that worked.
+[63:31] And you're like, this is the company to be at?
+[63:33] Yeah. I just wanted to work on an important mission.
+[63:37] And I really just cared, kind of like polished one stone of this like great big pyramid that is like some lifetime achievement
+[63:43] for someone else even, right? That's what I wanted.
+[63:46] So yeah, I joined. I did that. I did the first two Falcon 9s.
+[63:49] Did the ground system for it entirely, which involved all the permitting also.
+[63:53] So this is like launching a rocket from a military base.
+[63:56] There's a lot of like regulatory stuff there.
+[63:58] Your first foray into the orbit.
+[64:01] Totally.
+[64:02] And not to eat up all the time.
+[64:03] I worked on like the first rocket with legs called Grasshopper back in 2011.
+[64:07] It was a four person team really designing and building the whole thing.
+[64:10] The whole thing.
+[64:11] And we were reporting directly to Elon, like just Elon to us for and then building the whole thing.
+[64:16] And it was awesome because we did really well.
+[64:19] We got lucky a lot of times, but we made rocket that flew and landed on legs.
+[64:22] And then I did all the weird Elon side projects and ideas.
+[64:25] So Hyperloop, when he got really serious, I got tapped into that and into the boring company.
+[64:30] And then Mars Colony Design.
+[64:32] And in doing the Mars Colony Design, I was looking at how do you take Starship there, make fuel from what's on Mars, make fuel from the ice that's there.
+[64:39] And if you do that, you need megawatts of power.
+[64:41] And I was trying to do it with solar and getting totally stuck and showing Elon these plans that were like four miracles in we need on a single mission.
+[64:49] And it was just ridiculous.
+[64:50] And so Elon was like, you probably should look at nuclear.
+[64:53] And that's really the jumping off point, right?
+[64:55] I started to learn.
+[64:56] And then three years later, I left to go run.
+[64:59] I found a radiant and left to go run it.
+[65:01] And really trying to make mass-producible portable micro reactors.
+[65:06] Not for space, but currently we're focused on a trailer size thing.
+[65:11] But also needed in space.
+[65:13] Right.
+[65:14] Yeah.
+[65:15] So I do eventually want to do products for space, but we got to have customers.
+[65:18] We got to have funds that are actually there.
+[65:21] It seems like the tide turned on nuclear a few years ago and that one more people started to realize the, you know, the importance of criticality of it.
+[65:29] What is sort of the progress that we've made as an industry?
+[65:32] What have we achieved and what are the biggest bottlenecks remaining in terms of really making progress as a country?
+[65:38] Yeah.
+[65:39] It's a good question.
+[65:41] I think there's a bunch of fun ways to answer it.
+[65:43] I mean, the one thing I like to say, it sounds a little sensational is that there is no nuclear industry.
+[65:49] That's really true.
+[65:50] You know, we're kind of, it's almost like we're getting excited about flight before Kitty Hawk.
+[65:56] Right.
+[65:57] To a certain degree, there's a really coming very soon deadline.
+[66:02] A lot of companies, a lot of little nuclear startups have actually been given access to fuel and facilities.
+[66:08] And just expedited support from the subject matter experts required to regulate to make sure that these are going to be safe tests.
+[66:16] And so by July 4th, several companies will have reactors built like a critical that are fundamentally new designs, completely new and from scratch, but it hasn't happened yet.
+[66:26] So it just feels like a little bit of a cart before the horse.
+[66:29] Does that worry you at all?
+[66:31] Not too much.
+[66:32] You know, I've been doing nuclear.
+[66:34] Well, thinking about it since 2016, but I founded radiant in 2019 and then for a year just learned how to do reactor design and then raise money in 2020.
+[66:44] I never founded a company before, never intended to really do that.
+[66:47] And I kind of slow rolled into it.
+[66:49] I could have tried to go much faster, but I've stayed totally committed to just building.
+[66:54] And actually the funny thing is like in 2020, I said in 2026, I will put a full scale reactor and get it critical and get it up to full power.
+[67:03] And we're on schedule to do that, which is kind of wild.
+[67:06] It's not like that was really the actual plan, but it was just I was resilient to all the challenges that were put in the way.
+[67:12] We are now the only reactor permitted to of these new reactors to go to full power.
+[67:16] So a lot of others are getting to critical, which doesn't mean you get to high temperatures or high power.
+[67:21] And those things are very challenging on all the parts in the system, right?
+[67:25] And they require careful consideration of the thermal gradients and the alloys, right?
+[67:29] You need high strength materials to do that.
+[67:32] So that's really exciting, but we're like, not quite there yet.
+[67:35] And I think if we're doing the same discussion next year, it's going to be dramatically different because we're going to be able to point at all the parts of the system.
+[67:41] All the point at all these different designs, what you could do with them.
+[67:45] And I think the products like nuclear reactors as products has never been seen before, right?
+[67:50] They're always usually these giant mega projects.
+[67:53] You dig a huge hole in the ground and you take five to 10 years or up to 15 for the slower, the bad projects out there.
+[68:00] But reactors that can just come are, you know, we're targeting one per week coming off of a production line from our Tennessee facility,
+[68:08] which is an ADA cur site we just signed for in October, not even a year ago.
+[68:13] But I want to tie back into the grid because I was just, I had some interesting thoughts.
+[68:17] And we really, our product is for off the grid, right?
+[68:20] So megawatt reactor on a trailer and you can, we build in our factory, we drive it or fly it to where the customer wants it to go.
+[68:28] And then turn it on within like 48 hours.
+[68:30] We go, you know, we'll stop moving and then we go to power on your site in that amount of time.
+[68:35] And then the last five years, which is like a full oil tanker worth of diesel equivalent.
+[68:41] It's 2 million gallon diesel equivalent.
+[68:43] So it's sort of an unbelievable thing where you can grow the grid or put a micro grid anywhere.
+[68:50] But it's like a totally different problem, I think, from the grid itself is civilization, right?
+[68:55] Electric power is civilization.
+[68:57] If you go and those sockets and you pop something into them and you just get power, that's very well developed.
+[69:02] That's a civilization and that's using electricity to do what you could otherwise only do with human muscle or animal muscle.
+[69:09] How should we think about how micro reactors fit within the broader energy landscape?
+[69:13] Do they compete with large centralized plants?
+[69:15] Do they compliment them?
+[69:16] Are they serving in different categories of demand?
+[69:18] How should we do that?
+[69:19] Yeah, so they're definitely an off grid product.
+[69:22] So they don't all compete with larger reactors.
+[69:24] Really, if you can build, if you have time to dig a big hole in the ground and put a reactor in that way,
+[69:31] then you can do a larger reactor, maybe five or ten times as big as the one megawatt size that we're looking at.
+[69:36] And it's going to win on economics.
+[69:38] It definitely should.
+[69:39] We're already using one of the fanciest forms of fuel and that it's so that we can set it up anywhere
+[69:44] and have it not be a risk to people or facilities nearby.
+[69:49] And so we don't compete at all with those things.
+[69:51] One of the ways I like to talk about this is you can run a diesel generator or you can run a nuclear reactor
+[69:57] and you're really deciding between those two things.
+[70:00] We don't be super cheap diesel.
+[70:03] We'd be diesel at like $650 a gallon.
+[70:06] That kind of a number.
+[70:07] So that's where our initial customers need to be.
+[70:09] But if you go start looking at what people pay for diesel and what they pay on the edges,
+[70:13] not on the center of the bell curve, the average for a country or an area,
+[70:17] you look at the tough regions, they're paying a lot.
+[70:20] And so there's plenty of customers out there.
+[70:24] Some examples I think.
+[70:25] Oh, like $10 gallon is the average in Hong Kong.
+[70:28] I think like Iceland and Scandinavia, Northern Europe, those regions are like $7, $8, $9 per gallon
+[70:35] for a whole country actually.
+[70:36] So like it's very easy to see the market is massive.
+[70:39] In Ireland.
+[70:40] Yeah.
+[70:41] Yeah.
+[70:42] Islands.
+[70:43] Absolutely.
+[70:44] I mean, Hawaii is pretty high.
+[70:46] Electricity costs and it's I think 80% diesel powered actually.
+[70:51] It's got wind and solar that make up the remainder.
+[70:54] But yeah, you could have a cleaner form of power, right?
+[70:57] No emissions.
+[70:58] Nuclear reactor operates and then rain it takes it and we handle all the complexity.
+[71:02] But the amount of power people need, right?
+[71:04] Need in the gigawatts for the grid.
+[71:07] And so we don't really do that.
+[71:08] We have the niche customers on the edge and we don't want to make right thousands and thousands
+[71:14] of reactors at 50 a year will have something in the range of like a thousand or two at the most.
+[71:19] But we don't consider we don't look at it and go, hey, could we make it work for 10,000?
+[71:24] There's different products and we can do it at better economies.
+[71:27] And there's a couple of ways to do it.
+[71:29] But we're reading just want to dig a hole in the ground and solve that other miracle.
+[71:33] It's too many miracles.
+[71:35] I think it's important to be able to do it again, but it's not on us to fix it right away.
+[71:40] Yeah.
+[71:41] Series miracles.
+[71:42] You don't want to have too many and start up.
+[71:43] Yeah.
+[71:44] You need some.
+[71:45] Yeah.
+[71:46] You want a miracle that leads to then a product and revenue.
+[71:49] Right.
+[71:50] That's the way.
+[71:51] And then you can then you have time to think about another miracle.
+[71:53] Totally.
+[71:54] Yeah.
+[71:55] So you mentioned that we're very early in the nuclear industry.
+[71:58] You know, we're in pre the nuclear industry in some sense.
+[72:00] So what is the milestone or the KPI or what would need to be true for us to say we as a country,
+[72:06] you know, the nuclear industry is here in Florida.
+[72:09] Um, I think a couple of things.
+[72:13] We could have access to nuclear fuel and enrichment that are like in completely competitive free
+[72:22] markets where there are innovative startups fixing and solving those challenges.
+[72:26] Um, we should have a waste storage facility that's some centralized repository, which is way safer
+[72:32] for the existing nuclear fleet.
+[72:34] That's operated since the 60s.
+[72:36] That's an unsolved problem.
+[72:37] And that would those things alone would cause everything else to flourish because we already
+[72:41] have this like middle layer of me and a bunch of other startups trying to get fuel and operate
+[72:46] reactors.
+[72:47] And then if we're able to, as a country, really have a better system to deal with nuclear waste,
+[72:52] uh, which actually reading doesn't need like our uniquely at this really small size.
+[72:57] We can just put it in the dry cask on about 10 acres of our 80 acre site.
+[73:02] Uh, and that works for like 60 years worth of reactors and we can always expand and do more.
+[73:08] Uh, you know, the, the nuclear waste has got high reactivity elements that last like a hundred
+[73:12] years.
+[73:13] And after that, it's pretty benign.
+[73:15] But, um, we already have a waste isolation pilot plant in New Mexico, which is like this deep
+[73:21] bore hole down inside of a salt structure.
+[73:23] So it's like a salt dome.
+[73:24] Um, this is where defense waste already goes.
+[73:26] And they just said they're going to build it and they built it.
+[73:29] Um, and meanwhile, we struggle still on the DOE side to build a repository for, for being
+[73:36] able to build it.
+[73:37] And, um, you know, because of that, these gigawatt scale plants are operating generating nuclear
+[73:41] waste on, and they have to store it at the same site where they're making power.
+[73:45] And California, this is like coastal regions that like are risky that we're like, you can
+[73:50] have a tsunami or something instead of taking it and putting it in a salt dome structure in
+[73:54] the high desert where there's no water, no risk of like certain natural disasters.
+[73:58] So it's just a smarter, safer, better idea.
+[74:01] And we don't do it.
+[74:02] Yeah.
+[74:03] Uh, and actually it was a huge cost.
+[74:04] It's like a commitment.
+[74:05] That's right.
+[74:06] Like you got to demonstrate that commitment.
+[74:07] It's the, and it's also the, the, the newbie transition that not in my backyard to nuclear
+[74:12] in my backyard.
+[74:13] So you're in my backyard.
+[74:14] Thanks for listening to this episode of the A16Z Podcast.
+[74:20] If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review,
+[74:25] and share it with your friends and family.
+[74:27] For more episodes, go to YouTube, Apple Podcasts, and Spotify.
+[74:31] Follow us on X, the A16Z, and subscribe to our substack at A16Z.substack.com.
+[74:37] Thanks again for listening, and I'll see you in the next episode.
+[74:42] As a reminder, the content here is for informational purposes only.
+[74:45] Should not be taken as legal business, tax, or investment advice, or be used to evaluate any
+[74:50] investment or security, and is not directed at any investors or potential investors in
+[74:54] any A16Z.
+[74:55] Please note that A16Z and its affiliates may also maintain investments in the companies
+[74:59] discussed in this podcast.
+[75:00] For more details, including a link to our investments, please see A16Z.com forward slash
+[75:07] disclosures.

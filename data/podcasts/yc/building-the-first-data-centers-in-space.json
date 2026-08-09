@@ -1,0 +1,37 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "Building the First Data Centers in Space",
+ "date": "Wed, 05 Aug 2026",
+ "date_iso": "2026-08-05",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/Building-the-First-Data-Centers-in-Space-e3n13ek",
+ "duree": "00:36:13",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.7,
+ "taille_transcript": 43597,
+ "transcript": "building-the-first-data-centers-in-space-transcript.txt",
+ "nb_outils": 6,
+ "outils": {
+  "AWS": [
+   "ud meme coin, I think, out there. Yeah, don't buy it. It's not efficient. You're not buying the Star Cloud meme coin. Yeah, yeah. We'll be launching, we'll have one of those on there. We'll have a whole bunch more H100s, BlackWarch, we're also partnering with AWS on launching the Outpost hardware, that's their on-premises server blade that they give to customers to run a local instance of VC2, and that will be useful for particularly for our military customers. Something we were talking about earlier is, at YC we just"
+  ],
+  "Apollo": [
+   "How long was it from like when the rocket lifted off until the thing deployed, until you powered it up and were able to verify the thing actually worked? Yeah. So it lifted off. We were all on what they call the banana bleachers. It's like the famous from the Apollo era, but it was in the middle of the night. So it lifted off for around midnight and then at one AM, they closed the bleachers and everyone had to get on a bus and leave and we're like, oh, shut. I thought we were going to like be able to watch the deployment"
+  ],
+  "Claude": [
+   " a number of reasons for that one is people think that software doesn't have a moat anymore, which I think is probably accurate. That's sort of high, it's funny, the hive mind just switched, it seemed to me very quickly, it was just like the SaaS stocks, like Claude Code came out, SaaS stock, public company stocks all went down, and then suddenly it was, I think the fastest I've seen sort of things in the public markets directly affect demo day was suddenly everyone's like, we need to invest in the hard tech now. That's "
+  ],
+  "Claude Code": [
+   " a number of reasons for that one is people think that software doesn't have a moat anymore, which I think is probably accurate. That's sort of high, it's funny, the hive mind just switched, it seemed to me very quickly, it was just like the SaaS stocks, like Claude Code came out, SaaS stock, public company stocks all went down, and then suddenly it was, I think the fastest I've seen sort of things in the public markets directly affect demo day was suddenly everyone's like, we need to invest in the hard tech now. That's fasci"
+  ],
+  "Gemini": [
+   "ook like, you know, that took like three days just to figure out that software issue. And then yeah, two weeks after that, then we started commissioning and turning on all the different payloads. And then we trained the first model around the first version of Gemini. We did the first fine tuning of a model in orbit, do the first high pout inference on satellite imagery and all this kind of stuff. So star cloud one right now, as we speak, is just left Chinese airspace, I think. Yeah, it's heading to Japan. Yeah. It's goin"
+  ],
+  "Loom": [
+   "0s, even Azimov in the 40s was writing about it. The problem with space-based solar is you actually lose 95% of the energy in transmission from space to Earth. And so for the first two months of the company, that was literally what we're doing. We were called Loom and Orbit because of that reason, Loom and Oste in orbit. We were thinking, OK, once we get that power down, what are we going to be using it for? And even back in 23, most new energy projects were being built for data centers. So we were like, OK, well, eith",
+   "about it. The problem with space-based solar is you actually lose 95% of the energy in transmission from space to Earth. And so for the first two months of the company, that was literally what we're doing. We were called Loom and Orbit because of that reason, Loom and Oste in orbit. We were thinking, OK, once we get that power down, what are we going to be using it for? And even back in 23, most new energy projects were being built for data centers. So we were like, OK, well, either directly or indirectly, this power i"
+  ]
+ },
+ "mentions_publicitaires": {}
+}
