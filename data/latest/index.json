@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-08-08T18:32:47+00:00",
+ "genere_le": "2026-08-09T01:23:31+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
- "nb_articles": 358,
+ "nb_flux_en_erreur": 14,
+ "nb_articles": 337,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -39,11 +39,6 @@
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.personneltoday.com/feed/"
   },
   {
-   "source": "Indie Hackers",
-   "url": "https://www.indiehackers.com/feed.xml",
-   "erreur": "ReadTimeout: HTTPSConnectionPool(host='www.indiehackers.com', port=443): Read timed out. (read timeout=20)"
-  },
-  {
    "source": "Startup Unlocked",
    "url": "https://pierregaubil.substack.com/feed",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://pierregaubil.substack.com/feed"
@@ -74,9 +69,19 @@
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://danslatetedunvc.substack.com/feed"
   },
   {
+   "source": "Sifted",
+   "url": "https://sifted.eu/feed",
+   "erreur": "HTTPError: 500 Server Error: Internal Server Error for url: https://sifted.eu/feed"
+  },
+  {
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15"
   }
  ]
 }
