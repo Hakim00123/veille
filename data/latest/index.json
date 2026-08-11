@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-08-11T07:01:16+00:00",
+ "genere_le": "2026-08-11T12:56:16+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
  "nb_flux_en_erreur": 13,
- "nb_articles": 374,
+ "nb_articles": 387,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -14,11 +14,6 @@
   "chunk-07.json"
  ],
  "erreurs": [
-  {
-   "source": "Village de la Justice - Droit social",
-   "url": "https://www.village-justice.com/articles/spip.php?page=backend",
-   "erreur": "ReadTimeout: HTTPSConnectionPool(host='www.village-justice.com', port=443): Read timed out. (read timeout=20)"
-  },
   {
    "source": "Klement on Investing",
    "url": "https://klementoninvesting.substack.com/feed/",
@@ -78,6 +73,11 @@
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
   }
  ]
 }
