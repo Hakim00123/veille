@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-08-11T18:57:38+00:00",
+ "genere_le": "2026-08-12T01:40:18+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
- "nb_articles": 388,
+ "nb_flux_en_erreur": 15,
+ "nb_articles": 390,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -30,19 +30,24 @@
    "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
   },
   {
-   "source": "Early Retirement Now",
-   "url": "https://earlyretirementnow.com/feed/",
-   "erreur": "HTTPError: 429 Client Error: Too Many Requests for url: https://earlyretirementnow.com/feed/"
-  },
-  {
    "source": "Parlons RH",
    "url": "https://www.parlonsrh.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.parlonsrh.com/feed/"
   },
   {
+   "source": "CIO Online",
+   "url": "https://www.cio-online.com/rss.php",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='www.cio-online.com', port=443): Read timed out. (read timeout=20)"
+  },
+  {
    "source": "Personnel Today",
    "url": "https://www.personneltoday.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.personneltoday.com/feed/"
+  },
+  {
+   "source": "Indie Hackers",
+   "url": "https://www.indiehackers.com/feed.xml",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='www.indiehackers.com', port=443): Read timed out. (read timeout=20)"
   },
   {
    "source": "Startup Unlocked",
@@ -78,6 +83,11 @@
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
   }
  ]
 }
