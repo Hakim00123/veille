@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-08-13T07:22:02+00:00",
+ "genere_le": "2026-08-13T13:01:57+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
+ "nb_flux_en_erreur": 12,
  "nb_articles": 389,
  "chunks": [
   "chunk-01.json",
@@ -33,11 +33,6 @@
    "source": "Parlons RH",
    "url": "https://www.parlonsrh.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.parlonsrh.com/feed/"
-  },
-  {
-   "source": "CIO Online",
-   "url": "https://www.cio-online.com/rss.php",
-   "erreur": "ReadTimeout: HTTPSConnectionPool(host='www.cio-online.com', port=443): Read timed out. (read timeout=20)"
   },
   {
    "source": "Personnel Today",
