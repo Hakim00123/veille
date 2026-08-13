@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-08-12T18:58:09+00:00",
+ "genere_le": "2026-08-13T01:42:55+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
- "nb_articles": 390,
+ "nb_flux_en_erreur": 14,
+ "nb_articles": 388,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -78,6 +78,11 @@
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "HTTPError: 429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15"
   }
  ]
 }
