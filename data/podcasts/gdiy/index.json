@@ -3,9 +3,17 @@
  "traites": [
   "558-cyril-benzaquen-champion-de-kickboxing-reveiller-son-instinct-anim",
   "557-vf-robert-gentz-zalando-le-geant-qu-amazon-n-a-pas-mange-en-europe",
-  "559-yael-braun-pivet-presidente-de-l-assemblee-nationale-si-j-avais-de"
+  "559-yael-braun-pivet-presidente-de-l-assemblee-nationale-si-j-avais-de",
+  "560-rudy-gobert-4x-meilleur-defenseur-nba-le-druide-de-la-longevite"
  ],
  "episodes": [
+  {
+   "fiche": "560-rudy-gobert-4x-meilleur-defenseur-nba-le-druide-de-la-longevite.json",
+   "titre": "#560 - Rudy Gobert - 4x meilleur défenseur NBA - Le druide de la longévité",
+   "date": "Sun, 16 Aug 2026",
+   "date_iso": "2026-08-16",
+   "nb_outils": 1
+  },
   {
    "fiche": "559-yael-braun-pivet-presidente-de-l-assemblee-nationale-si-j-avais-de.json",
    "titre": "#559 - Yaël Braun-Pivet - Présidente de l'Assemblée nationale - \"Si j'avais demandé l'autorisation, il n'y aurait jamais eu de femme au perchoir\"",
@@ -28,5 +36,5 @@
    "nb_outils": 9
   }
  ],
- "maj": "2026-08-09T17:46:09Z"
+ "maj": "2026-08-16T17:38:53Z"
 }

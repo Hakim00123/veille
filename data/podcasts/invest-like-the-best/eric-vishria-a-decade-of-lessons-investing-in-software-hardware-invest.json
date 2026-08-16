@@ -1,0 +1,76 @@
+{
+ "podcast": "Invest Like the Best",
+ "slug": "invest-like-the-best",
+ "titre": "Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]",
+ "date": "Tue, 11 Aug 2026",
+ "date_iso": "2026-08-11",
+ "lien": "https://colossus.com/episode/sandcastles-and-silicon/",
+ "duree": "3954",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 6.3,
+ "taille_transcript": 78314,
+ "transcript": "eric-vishria-a-decade-of-lessons-investing-in-software-hardware-invest-transcript.txt",
+ "nb_outils": 10,
+ "outils": {
+  "AWS": [
+   "g is these models are big. These are 2 trillion, 3 trillion, 4 trillion per annular models. It turns out running those models is damn hard and running them efficiently is like super hard. The way to see this and everybody can see this, which is everybody from AWS to Azure to GCP to the Neo-Clouds to the fireworks based on togethers of the world, like all of them. They all run these stock open source models that are available in their developer pools and everything else, and that's what it is. The performance differenc",
+   "t's just really hard to run, and there's a lot of expertise involved in doing that, and it's this very specific expertise that exists, and it is the kind of thing that when you look at it as an investor from the outside, and we should talk about early days of AWS, but when you look at it from the outside, it's like, this is a commodity. This is just like pass-through resale, scale game, whatever, and you're like, wait a minute, no, it turns out it isn't, it isn't at all. Do you think that's just a moment in time thing",
+   "two businesses in comparison. It's tempting to say there will be one or two scale winners that typically have been in a commodity market. Totally, or cost to serve as everything and scale drives cost to serve down, and like that's the whole story. I think the AWS example is so good. Okay, so 2006, you have S3 and EC2 watch, right? Their compute platform and their storage platform is the first two AWS offerings in 2006. I can kind of start talking about it in late 2006 or whatever. 2006, 2007, I think the 2007 annual l"
+  ],
+  "Azure": [
+   "ese models are big. These are 2 trillion, 3 trillion, 4 trillion per annular models. It turns out running those models is damn hard and running them efficiently is like super hard. The way to see this and everybody can see this, which is everybody from AWS to Azure to GCP to the Neo-Clouds to the fireworks based on togethers of the world, like all of them. They all run these stock open source models that are available in their developer pools and everything else, and that's what it is. The performance difference for a f",
+   "oadkill. There was tons of roadkill. They did run over a bunch of stuff. But even then, in 2014, the thesis was the view that AWS was going to eat everything was massively wrong, not because of all the examples I just mentioned. It was massively wrong because Azure and GCP were irrelevant then, and fast forward to 2026 in their unbelievable businesses. Is AWS the biggest? I think it's like a 40, 30, 20 split. You ended up with an oligopoly of that. And even outside of those big three, you have CloudFlare, which is a clo"
+  ],
+  "Cloudflare": [
+   "sively wrong because Azure and GCP were irrelevant then, and fast forward to 2026 in their unbelievable businesses. Is AWS the biggest? I think it's like a 40, 30, 20 split. You ended up with an oligopoly of that. And even outside of those big three, you have CloudFlare, which is a cloud provider in a different sort, which is another $100 billion company. So you have these smaller players that emerged as $100 billion companies outside of it. So what's the takeaway? The takeaway to me is others, just a bunch of zerosome think"
+  ],
+  "Cursor": [
+   "ut here. You had new companies forming that were using the cloud. I think kind of famously Snapchat was built on GCP. And I think at one point in this era, maybe 2012, 2013, 2014, Snapchat was like 40% of GCP. Those kinds of things were happening. That's like cursor being 30% of a lot of things. 100% of the same exact thing happened. Same exact thing happened. Enterprises were very skeptical. I think of cloud until by 2014, 2015, 2016 is like, oh, yeah, yeah. Then I think the big banks and financial services and insuranc",
+   "wanted to work on the easiest platforms and all these kinds of things happened. So the difference now feels profound to me because while it is 100% the case that blue chip enterprise, AI is not well absorbed and well adopted and not the same thing as going to cursor and walking the halls of cursor versus walking the halls of a big New York financial services firm in terms of their AI use, they want it. They want to figure it out. They're running experiments. They are spending against it. They're trying to figure it out, ",
+   "atforms and all these kinds of things happened. So the difference now feels profound to me because while it is 100% the case that blue chip enterprise, AI is not well absorbed and well adopted and not the same thing as going to cursor and walking the halls of cursor versus walking the halls of a big New York financial services firm in terms of their AI use, they want it. They want to figure it out. They're running experiments. They are spending against it. They're trying to figure it out, talking about it. They're not be"
+  ],
+  "Databricks": [
+   "e narrative. And think about from like 2014 to now, in enterprise, of course, you have snowflake, direct competitor to Amazon Redshift, ran on Amazon. You're out Amazoning Amazon on Amazon, but it's not just snowflake. You had Confluent and Elastic and Mongo, Databricks, all of these companies. Amazing. That's the infrastructure layer. Then you have the whole app layer in the app layer. Think about offerings that they offered at the beginning, Datadoc, $100 billion company today. They had a competitive offer, and they did it"
+  ],
+  "Fireworks": [
+   "To learn more, visit psum.vc. I love asking you and all your partners this every time we hang out, which is, okay, you've got these singular investments, you don't do that many investments each per year, and then the ones that go on to work so far, Sierra and Fireworks certainly are. You get to learn so much about the world through the lens of the company, so I'd actually love to do both of those maybe starting with fireworks. What do you know or what have you learned about the world and how it's reordering itself based on "
+  ],
+  "GCP": [
+   "s are big. These are 2 trillion, 3 trillion, 4 trillion per annular models. It turns out running those models is damn hard and running them efficiently is like super hard. The way to see this and everybody can see this, which is everybody from AWS to Azure to GCP to the Neo-Clouds to the fireworks based on togethers of the world, like all of them. They all run these stock open source models that are available in their developer pools and everything else, and that's what it is. The performance difference for a firework",
+   "here was tons of roadkill. They did run over a bunch of stuff. But even then, in 2014, the thesis was the view that AWS was going to eat everything was massively wrong, not because of all the examples I just mentioned. It was massively wrong because Azure and GCP were irrelevant then, and fast forward to 2026 in their unbelievable businesses. Is AWS the biggest? I think it's like a 40, 30, 20 split. You ended up with an oligopoly of that. And even outside of those big three, you have CloudFlare, which is a cloud provi",
+   "hree, four years into AWS being offering, enterprises were super skeptical, traditional enterprise, blue chip enterprise. You had digital natives out here. You had new companies forming that were using the cloud. I think kind of famously Snapchat was built on GCP. And I think at one point in this era, maybe 2012, 2013, 2014, Snapchat was like 40% of GCP. Those kinds of things were happening. That's like cursor being 30% of a lot of things. 100% of the same exact thing happened. Same exact thing happened. Enterprises w"
+  ],
+  "Oracle": [
+   " you would have more and more data over time, migrating an app from one database to another database was a giant project that was very, very difficult to do. These were unbelievably sticky businesses that you could generate a ton of margin. Of course, you got Oracle and SQL Server and a whole slew of smaller players did really, really well in databases. Let's think about that in the context of AI. Now, you don't have a developer building against a database interface. You have cloud or codecs building against a database i"
+  ],
+  "Ramp": [
+   "f you are an engineer or a product manager or designer, but if you have taste and understanding of customer problems and understanding the jagged edge, you're going to do well. Vanta automated security and compliance for over 16,000 fast-moving companies like Ramp, Cursor, and Harvey, keeping them audit-ready around the clock. It's the number one agentic trust platform. And it now helps companies like yours watch for the risks that show up between audits, across your vendors, your AI tools, and your whole environment. "
+  ],
+  "Snowflake": [
+   " God, AWS, Amazon can offer things at 8% gross margin, and like they're just going to crush their marketing. Yeah, you're marketing my opportunity, like the whole thing whole narrative. And think about from like 2014 to now, in enterprise, of course, you have snowflake, direct competitor to Amazon Redshift, ran on Amazon. You're out Amazoning Amazon on Amazon, but it's not just snowflake. You had Confluent and Elastic and Mongo, Databricks, all of these companies. Amazing. That's the infrastructure layer. Then you have the ",
+   " marketing my opportunity, like the whole thing whole narrative. And think about from like 2014 to now, in enterprise, of course, you have snowflake, direct competitor to Amazon Redshift, ran on Amazon. You're out Amazoning Amazon on Amazon, but it's not just snowflake. You had Confluent and Elastic and Mongo, Databricks, all of these companies. Amazing. That's the infrastructure layer. Then you have the whole app layer in the app layer. Think about offerings that they offered at the beginning, Datadoc, $100 billion company"
+  ]
+ },
+ "mentions_publicitaires": {
+  "Cursor": [
+   " RAMP is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grew revenue 3.2 times faster than the average American business. Visa for sell, cursor, stripe, notion, 11-lap, Shopify, and 70,000 other businesses all run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. OpenAI, cursor, anthropic, perplexity, and Vercel all have something in common. They all use WorkOS. To achi",
+   "MP customers grew revenue 3.2 times faster than the average American business. Visa for sell, cursor, stripe, notion, 11-lap, Shopify, and 70,000 other businesses all run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. OpenAI, cursor, anthropic, perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSO, SKIM, RBAC, and audit logs. Instead of spending months building these mission-cri"
+  ],
+  "Excel": [
+   "t into finished client-ready work using your firm's own templates, context, and standards. Send Felix an email like, take these comments and turn them for me, or update my tracker with the context of these emails. And Felix sends back Finish PowerPoint decks, Excel models, and sourced research. Felix works the way your team already does, delivering work quickly and accurately around the clock. Learn more at Rogo.ai slash Felix. Hello and welcome, everyone. I'm Patrick O'Shaughnessy, and this is Invest Like The Best. Thi"
+  ],
+  "Perplexity": [
+   "evenue 3.2 times faster than the average American business. Visa for sell, cursor, stripe, notion, 11-lap, Shopify, and 70,000 other businesses all run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. OpenAI, cursor, anthropic, perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSO, SKIM, RBAC, and audit logs. Instead of spending months building these mission-critical capabilities your"
+  ],
+  "Shopify": [
+   "t to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grew revenue 3.2 times faster than the average American business. Visa for sell, cursor, stripe, notion, 11-lap, Shopify, and 70,000 other businesses all run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. OpenAI, cursor, anthropic, perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale,"
+  ],
+  "Stripe": [
+   "s the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grew revenue 3.2 times faster than the average American business. Visa for sell, cursor, stripe, notion, 11-lap, Shopify, and 70,000 other businesses all run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. OpenAI, cursor, anthropic, perplexity, and Vercel all have something in common. They all use WorkOS. To achieve ente"
+  ],
+  "Vercel": [
+   " faster than the average American business. Visa for sell, cursor, stripe, notion, 11-lap, Shopify, and 70,000 other businesses all run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. OpenAI, cursor, anthropic, perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSO, SKIM, RBAC, and audit logs. Instead of spending months building these mission-critical capabilities yourself, you ca"
+  ]
+ }
+}

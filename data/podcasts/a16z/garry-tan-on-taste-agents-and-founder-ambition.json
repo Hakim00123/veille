@@ -1,0 +1,22 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Garry Tan on Taste, Agents and Founder Ambition",
+ "date": "Wed, 12 Aug 2026",
+ "date_iso": "2026-08-12",
+ "lien": "https://a16z.simplecast.com/episodes/garry-tan-on-taste-agents-and-founder-ambition-5Wi5biPg",
+ "duree": "00:52:03",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 5.0,
+ "taille_transcript": 57692,
+ "transcript": "garry-tan-on-taste-agents-and-founder-ambition-transcript.txt",
+ "nb_outils": 1,
+ "outils": {
+  "Brex": [
+   "totally unbundle it from the human emotion. Yeah. And I think that's actually very important because this is why the sort of the decentralization in an organization or an economy works well because every idea gets tried, you know? Yeah. Do you know Pedro from Brex is like the most aggressive person I've met who does this with his exact team? No. So which is cool. Like he uses, like he actually was one of the people who like really got me into open clock because he just came in and you know, he had lunch with us at YC. ",
+   "ded up doing was like building an entire open source layer, which he actually has open source called Crap Trap. That is like an agent that watches all the network traffic and all the things that open clock does. And then that's how he squares the circle. Like Brex is one of the most regulated, you know, fintech, of course. And then the upshot of what he got is that he has his agent look at the meeting transcripts from like all of his direct reports and he like can see that like two levels down. And then the thing that "
+  ]
+ },
+ "mentions_publicitaires": {}
+}

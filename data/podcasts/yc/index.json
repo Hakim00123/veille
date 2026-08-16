@@ -9,9 +9,33 @@
   "jensen-huang-the-mindset-that-built-nvidia",
   "how-to-design-in-the-agent-era",
   "garry-tan-own-your-intelligence",
-  "building-the-first-data-centers-in-space"
+  "building-the-first-data-centers-in-space",
+  "chelsea-finn-this-is-the-state-of-the-art-in-robotics",
+  "peter-steinberger-fun-is-velocity",
+  "max-hodak-how-startups-build-speed"
  ],
  "episodes": [
+  {
+   "fiche": "chelsea-finn-this-is-the-state-of-the-art-in-robotics.json",
+   "titre": "Chelsea Finn: This is the State of the Art in Robotics",
+   "date": "Thu, 13 Aug 2026",
+   "date_iso": "2026-08-13",
+   "nb_outils": 0
+  },
+  {
+   "fiche": "peter-steinberger-fun-is-velocity.json",
+   "titre": "Peter Steinberger: \"Fun Is Velocity\"",
+   "date": "Tue, 11 Aug 2026",
+   "date_iso": "2026-08-11",
+   "nb_outils": 3
+  },
+  {
+   "fiche": "max-hodak-how-startups-build-speed.json",
+   "titre": "Max Hodak: How Startups Build Speed",
+   "date": "Mon, 10 Aug 2026",
+   "date_iso": "2026-08-10",
+   "nb_outils": 3
+  },
   {
    "fiche": "how-to-design-in-the-agent-era.json",
    "titre": "How To Design In The Agent Era",
@@ -76,5 +100,5 @@
    "nb_outils": 1
   }
  ],
- "maj": "2026-08-09T17:46:13Z"
+ "maj": "2026-08-16T17:38:59Z"
 }

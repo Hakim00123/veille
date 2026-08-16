@@ -5,9 +5,25 @@
   "this-guy-made-80m-in-profit-here-s-his-next-3-stock-picks",
   "killer-marketing-secrets-that-always-work-ft-ogilvy-adman-rory-sutherl",
   "9-drunk-ideas-that-sound-stupid-but-are-secretly-genius",
-  "we-found-the-internet-s-best-sales-advice"
+  "we-found-the-internet-s-best-sales-advice",
+  "39b-founder-says-his-company-could-100x-in-5-years",
+  "3-killer-businesses-hiding-in-plain-sight"
  ],
  "episodes": [
+  {
+   "fiche": "39b-founder-says-his-company-could-100x-in-5-years.json",
+   "titre": "$39B founder says his company could 100x in 5 years",
+   "date": "Fri, 14 Aug 2026",
+   "date_iso": "2026-08-14",
+   "nb_outils": 7
+  },
+  {
+   "fiche": "3-killer-businesses-hiding-in-plain-sight.json",
+   "titre": "3 killer businesses hiding in plain sight",
+   "date": "Wed, 12 Aug 2026",
+   "date_iso": "2026-08-12",
+   "nb_outils": 2
+  },
   {
    "fiche": "9-drunk-ideas-that-sound-stupid-but-are-secretly-genius.json",
    "titre": "9 drunk ideas that sound stupid (but are secretly genius)",
@@ -44,5 +60,5 @@
    "nb_outils": 3
   }
  ],
- "maj": "2026-08-09T17:46:11Z"
+ "maj": "2026-08-16T17:38:56Z"
 }

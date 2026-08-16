@@ -1,0 +1,875 @@
+Invest Like the Best
+Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]
+Tue, 11 Aug 2026
+https://colossus.com/episode/sandcastles-and-silicon/
+
+[00:00] RAMP is the only platform built to make your finance team leaner, faster, and better, saving
+[00:05] businesses 5% annually on average so you can stay focused on growth.
+[00:10] RAMP customers grew revenue 3.2 times faster than the average American business.
+[00:14] Visa for sell, cursor, stripe, notion, 11-lap, Shopify, and 70,000 other businesses all run
+[00:19] on RAMP.
+[00:20] Mind us, too, and so should yours.
+[00:22] Learn more at ramp.com slash invest.
+[00:26] OpenAI, cursor, anthropic, perplexity, and Vercel all have something in common.
+[00:30] They all use WorkOS.
+[00:32] To achieve enterprise adoption at scale, you have to deliver on core capabilities like
+[00:36] SSO, SKIM, RBAC, and audit logs.
+[00:39] Instead of spending months building these mission-critical capabilities yourself, you
+[00:43] can just use WorkOS APIs to gain all of them on day zero.
+[00:47] That's why so many of the top AI teams you hear about already run on WorkOS.
+[00:51] WorkOS is the fastest way to become enterprise-ready and stay focused on what matters most, your
+[00:55] product.
+[00:56] Visit WorkOS.com to get started.
+[01:00] Felix by Rogo is a personal finance agent that turns a single prompt into finished client-ready
+[01:04] work using your firm's own templates, context, and standards.
+[01:08] Send Felix an email like, take these comments and turn them for me, or update my tracker
+[01:12] with the context of these emails.
+[01:13] And Felix sends back Finish PowerPoint decks, Excel models, and sourced research.
+[01:18] Felix works the way your team already does, delivering work quickly and accurately around
+[01:22] the clock.
+[01:23] Learn more at Rogo.ai slash Felix.
+[01:29] Hello and welcome, everyone.
+[01:30] I'm Patrick O'Shaughnessy, and this is Invest Like The Best.
+[01:32] This show is an open-ended exploration of markets, ideas, stories, and strategies that
+[01:37] will help you better invest both your time and your money.
+[01:39] If you enjoy these conversations and want to go deeper, check out Colossus, our quarterly
+[01:43] publication with in-depth profiles of the people shaping business and investing.
+[01:47] You can find Colossus along with all of our podcasts at Colossus.com.
+[01:53] Patrick O'Shaughnessy is the CEO of Positive Sum.
+[01:56] All opinions expressed by Patrick and podcast guests are solely their own opinions and do
+[02:01] not reflect the opinion of Positive Sum.
+[02:03] This podcast is for informational purposes only and should not be relied upon as a basis
+[02:08] for investment decisions.
+[02:10] Clients of Positive Sum may maintain positions in the securities discussed in this podcast.
+[02:14] To learn more, visit psum.vc.
+[02:20] I love asking you and all your partners this every time we hang out, which is, okay, you've
+[02:25] got these singular investments, you don't do that many investments each per year, and
+[02:29] then the ones that go on to work so far, Sierra and Fireworks certainly are.
+[02:32] You get to learn so much about the world through the lens of the company, so I'd actually love
+[02:37] to do both of those maybe starting with fireworks.
+[02:40] What do you know or what have you learned about the world and how it's reordering itself based
+[02:44] on watching the world through the lens of fireworks that would maybe be surprising or interesting?
+[02:49] One really interesting thing is these models are big.
+[02:53] These are 2 trillion, 3 trillion, 4 trillion per annular models.
+[02:57] It turns out running those models is damn hard and running them efficiently is like super
+[03:05] hard.
+[03:06] The way to see this and everybody can see this, which is everybody from AWS to Azure to GCP
+[03:14] to the Neo-Clouds to the fireworks based on togethers of the world, like all of them.
+[03:19] They all run these stock open source models that are available in their developer pools
+[03:25] and everything else, and that's what it is.
+[03:27] The performance difference for a fireworks versus a cloud provider is like 5X, and that
+[03:36] is just the speed performance.
+[03:38] Then you add on top of that throughput, which is not visible externally, only visible
+[03:43] if you know the economics of these businesses, and you're like, wait a minute, this is the
+[03:47] same open source model with the same NVIDIA hardware, and there's a 5X performance difference
+[03:55] and a multiple X throughput difference.
+[03:57] The way to just simply understand that is these companies are paying the margins of
+[04:02] the cloud providers and running on top and making money.
+[04:05] How can that be?
+[04:06] My big takeaway on it was, wow, this stuff is actually really hard to run.
+[04:09] It's just really hard to run, and there's a lot of expertise involved in doing that,
+[04:13] and it's this very specific expertise that exists, and it is the kind of thing that when
+[04:19] you look at it as an investor from the outside, and we should talk about early days of AWS,
+[04:23] but when you look at it from the outside, it's like, this is a commodity.
+[04:26] This is just like pass-through resale, scale game, whatever, and you're like, wait a minute,
+[04:31] no, it turns out it isn't, it isn't at all.
+[04:34] Do you think that's just a moment in time thing, and I'd love to just hear you riff on like
+[04:37] cloud.
+[04:38] You watch cloud very carefully and endlessly, you know a lot about it, and the adoption
+[04:41] curve there versus how people use these things and the nature of those two businesses in comparison.
+[04:46] It's tempting to say there will be one or two scale winners that typically have been in a
+[04:50] commodity market.
+[04:51] Totally, or cost to serve as everything and scale drives cost to serve down, and like that's
+[04:55] the whole story.
+[04:56] I think the AWS example is so good.
+[04:59] Okay, so 2006, you have S3 and EC2 watch, right?
+[05:03] Their compute platform and their storage platform is the first two AWS offerings in 2006.
+[05:06] I can kind of start talking about it in late 2006 or whatever.
+[05:10] 2006, 2007, I think the 2007 annual letter Bezos talks a lot about AWS and why it's important,
+[05:16] why it's interesting and everything else, and the investor reaction is just not good.
+[05:21] I think if you put 30 of the smartest investors at that time in a room and ask them, what's
+[05:27] the probability that this AWS business is a good business with durable long-term margins
+[05:34] and like super interesting and everything not commodity, I think you would have gone zero
+[05:37] for 30 with really smart people that you and I know who around at that time have seven.
+[05:43] Fast forward from 2007 to 2014, I joined the venture business in 2014, and a really common
+[05:48] narrative in 2014 was, oh my God, AWS is going to eat everything.
+[05:53] There's no enterprise opportunity left.
+[05:55] It's going to eat databases and infrastructure, but it's going to eat the apps too, and they're
+[05:59] going to offer it the cheapest and best.
+[06:01] We all have these like amazing SaaS and software businesses that we were involved with their
+[06:05] investors and part of the reason people loved them was they were annuities and they ran at
+[06:09] 85% gross margins and everything else.
+[06:12] And so there's just like, oh my God, AWS, Amazon can offer things at 8% gross margin,
+[06:17] and like they're just going to crush their marketing.
+[06:19] Yeah, you're marketing my opportunity, like the whole thing whole narrative.
+[06:22] And think about from like 2014 to now, in enterprise, of course, you have snowflake,
+[06:29] direct competitor to Amazon Redshift, ran on Amazon.
+[06:35] You're out Amazoning Amazon on Amazon, but it's not just snowflake.
+[06:39] You had Confluent and Elastic and Mongo, Databricks, all of these companies.
+[06:44] Amazing.
+[06:45] That's the infrastructure layer.
+[06:46] Then you have the whole app layer in the app layer.
+[06:49] Think about offerings that they offered at the beginning, Datadoc, $100 billion company today.
+[06:54] They had a competitive offer, and they did it.
+[06:56] And of course, there was tons and tons of roadkill.
+[06:59] There was tons of roadkill.
+[07:01] They did run over a bunch of stuff.
+[07:03] But even then, in 2014, the thesis was the view that AWS was going to eat everything was
+[07:08] massively wrong, not because of all the examples I just mentioned.
+[07:12] It was massively wrong because Azure and GCP were irrelevant then, and fast forward to 2026
+[07:18] in their unbelievable businesses.
+[07:20] Is AWS the biggest?
+[07:21] I think it's like a 40, 30, 20 split.
+[07:23] You ended up with an oligopoly of that.
+[07:25] And even outside of those big three, you have CloudFlare, which is a cloud provider in
+[07:32] a different sort, which is another $100 billion company.
+[07:34] So you have these smaller players that emerged as $100 billion companies outside of it.
+[07:39] So what's the takeaway?
+[07:40] The takeaway to me is others, just a bunch of zerosome thinking and not realizing how big,
+[07:47] what if it all works, what if it all works?
+[07:49] It all works.
+[07:50] And of course, getting the relative winner right matters, and there was roadkill.
+[07:53] And so it's all of those things still matters.
+[07:55] I'm not saying spray and pray.
+[07:57] I'm not saying that at all.
+[07:58] But I'm just saying the market was so big that one vendor could not scale and consume it all.
+[08:06] And they just couldn't consume the whole industry.
+[08:08] It's different now and like all these things.
+[08:11] But just that whole notion right now with what you and I are seeing in AI,
+[08:15] sure feels like it rhymes.
+[08:17] Anthropic is going to do everything.
+[08:18] Right.
+[08:19] It really is that really right?
+[08:21] To me, that view that it's just like, oh, this one company is going to eat it all.
+[08:24] Doesn't hold.
+[08:25] And I would tell you that scaling while cloud scaled very quickly,
+[08:29] cloud did not scale anywhere close to as quick as what's happening right now
+[08:34] for that company to actually scale and deliver it.
+[08:37] Scaling in this case requires a ton of infrastructure buildup from energy,
+[08:43] power, shell, chips, memory, obviously the algorithms and everything else on top.
+[08:49] It feels to me like we're going to end up with an oligopoly of winners.
+[08:53] I really believe they will be these like $100 billion crazy, smaller winners.
+[08:59] Just feels like the same thing is kind of happening.
+[09:01] Can you talk about it also from the demand side and compare it to how you watched cloud
+[09:06] get adopted in enterprise versus how you're seeing AI get adopted now?
+[09:10] So if you go back to like 2010, 2011, now you're like three, four years into AWS being offering,
+[09:17] enterprises were super skeptical, traditional enterprise, blue chip enterprise.
+[09:22] You had digital natives out here.
+[09:23] You had new companies forming that were using the cloud.
+[09:27] I think kind of famously Snapchat was built on GCP.
+[09:31] And I think at one point in this era, maybe 2012, 2013, 2014,
+[09:36] Snapchat was like 40% of GCP.
+[09:38] Those kinds of things were happening.
+[09:40] That's like cursor being 30% of a lot of things.
+[09:42] 100% of the same exact thing happened.
+[09:44] Same exact thing happened.
+[09:46] Enterprises were very skeptical.
+[09:48] I think of cloud until by 2014, 2015, 2016 is like, oh, yeah, yeah.
+[09:53] Then I think the big banks and financial services and insurance companies and more conservative
+[09:57] blue chip enterprise were like, oh, wait a minute, this is actually different.
+[10:00] And we're going to have to pay attention and it became an issue and recruiting for them
+[10:04] because they can get the best developers because the best developers wanted to work
+[10:07] on the easiest platforms and all these kinds of things happened.
+[10:10] So the difference now feels profound to me because while it is 100%
+[10:16] the case that blue chip enterprise, AI is not well absorbed and well adopted and not the
+[10:22] same thing as going to cursor and walking the halls of cursor versus walking the halls of
+[10:28] a big New York financial services firm in terms of their AI use, they want it.
+[10:33] They want to figure it out.
+[10:34] They're running experiments.
+[10:36] They are spending against it.
+[10:37] They're trying to figure it out, talking about it.
+[10:39] They're not being dismissive about it.
+[10:41] And I think they view it probably as more of an opportunity than they did the cloud in
+[10:47] terms of the potential impact on their business.
+[10:49] I think they probably view it more as a threat than they did the cloud.
+[10:53] And maybe they just also learn less from the cloud in terms of what's possible here.
+[10:57] I feel that they will continue to try to figure out and absorb it.
+[11:03] Having said all that, I do think one of the more interesting things if you go from Silicon
+[11:10] Valley out into the world and talk to these companies, these enterprise companies,
+[11:15] and you realize what the pace of adoption is and what the barriers for adoption are and everything
+[11:19] else, there's a ton of opportunity to help the enterprises get there to be one of the things that
+[11:25] I tell the companies I work on is, hey, let's be their AI Sherpa.
+[11:29] If we're in that position to be their AI Sherpa where we're crossing both worlds,
+[11:34] that's very valuable.
+[11:35] And I think that will continue to work.
+[11:37] What is Sierra teaching you about the adoption of this stuff?
+[11:41] It's really interesting in contrast to fireworks, where fireworks is the sort of
+[11:44] infrastructure provider.
+[11:45] Sierra is feeling its way through what are really cool things that we can do.
+[11:49] Four-end consumers enable companies to do different consumers.
+[11:52] Starting with customer service, but I know with Horizon now going beyond that.
+[11:56] Again, same question as for fireworks.
+[11:58] What do you know that the world doesn't fully appreciate because of how you've seen that?
+[12:01] My partner Peter and Brett, I think this is their third company working together.
+[12:05] It's like a 20-year relationship, which is just like an amazing and great place to start.
+[12:10] And one of the things that I think makes Brett's special and the team is they're technologists,
+[12:16] but they actually have lived in enterprise world for a long time and really understand it and
+[12:21] everything else.
+[12:21] And I think actually he's personified this whole idea of, hey, let's be their AI Sherpa.
+[12:27] Let's start with customer service.
+[12:28] We're very unmittable and be their AI Sherpa.
+[12:30] And now we have these long-running agents with Horizon that can do more and more stuff.
+[12:34] And one of the things that I think is most interesting about this to me is,
+[12:38] yes, it's an application company on the surface, but they're doing real AI work.
+[12:43] And they're experimenting with the models and they're building agents.
+[12:45] And they're very close to the metal of the models and the capability and the harnesses.
+[12:50] And they're understanding the jagged edge of AI capabilities, which is very different than
+[12:58] the human smooth arc that we understand intuitively.
+[13:01] They understand that jagged edge of capability and they build around it.
+[13:06] You saw the evolution of cursor from the IDE to like tab auto complete to
+[13:10] agentic work over and over and over again.
+[13:13] They were obsoleteing their work from six months ago.
+[13:17] And that's what Brett Taylor calls like sand castles.
+[13:20] We used to be building castles.
+[13:21] Now we're building sand castles.
+[13:22] And that's if you don't think we're that way, yeah, you have to embrace it.
+[13:27] Because if you're an artisan and you're like, hey, I built these perfect foundation of castle
+[13:30] and there's this bricks and it was like perfect.
+[13:32] And I really care about this and it's going to be here for a hundred years.
+[13:35] You're just not going to make it.
+[13:36] So as you get a version of new properties in the models, which is,
+[13:40] you know, every four weeks, you get new capabilities.
+[13:43] They understand that jagged edge.
+[13:45] They understand that application of that jagged edge or that valley to their customer base.
+[13:52] They're filling in those gaps and translating it.
+[13:55] You can just be superficially applying things.
+[13:57] I think it's actually a complete inversion of how product development used to work,
+[14:01] to how product development happens now.
+[14:04] And product development, you'd also say like, hey, product managers, you trained up,
+[14:07] product managers should understand the technology, but like really shouldn't
+[14:10] be thinking about implementation and shouldn't be specifying implementation
+[14:13] and shouldn't be doing this and doing that.
+[14:15] And the product managers job is to really understand the customer
+[14:17] and translate that problem to the engineers.
+[14:20] So that the engineers build the solution.
+[14:21] Like that was traditional product management.
+[14:23] Good luck doing that now.
+[14:24] That's a horrible way to do it.
+[14:26] You can't do it that way.
+[14:27] You actually really need to understand the nuances of model capabilities,
+[14:31] what they're great at and where they fail.
+[14:33] And you need to understand the customer problem and put those together
+[14:37] and bridge those gaps to build valuable solutions.
+[14:39] I think that's one of the things that Michael and team at Cursor did so well
+[14:44] from the very beginning is they really understood the jagged capability
+[14:47] and built a product that allowed that translation from developer to that jagged capability
+[14:52] and kept on iterating on that as the edge changed.
+[14:56] It's kind of ironic that all that sounds like the returns to being technical are going up,
+[15:01] even as models supposedly are taking away technical edge.
+[15:05] I think there's two things to 100 percent.
+[15:07] And actually, I think there's this weird thing where there was this all discussion about the
+[15:11] traditional roles of product manager and designer and engineer, whatever it is.
+[15:15] I think what they really are are people who understand customer problems,
+[15:20] people who have taste, and people who understand the jagged edge of AI capabilities.
+[15:26] And are curious about it.
+[15:27] Those are the three things.
+[15:28] If you're going to be a few those three things, you're going to do quite.
+[15:32] And it doesn't really matter if you are an engineer or a product manager or designer,
+[15:37] but if you have taste and understanding of customer problems and understanding the jagged edge,
+[15:43] you're going to do well.
+[15:46] Vanta automated security and compliance for over 16,000 fast-moving companies like
+[15:51] Ramp, Cursor, and Harvey, keeping them audit-ready around the clock.
+[15:54] It's the number one agentic trust platform.
+[15:56] And it now helps companies like yours watch for the risks that show up between audits,
+[16:01] across your vendors, your AI tools, and your whole environment.
+[16:04] Every new tool your team signs up for, every vendor that turns on AI features,
+[16:08] is an opportunity for something to go wrong.
+[16:10] And most security programs weren't built for AI's pace of growth.
+[16:13] The Vanta agent works like a 24-7 GRC engineer in the background,
+[16:17] finding issues, drafting fixes for you, and cutting vendor assessment time by up to 50%.
+[16:23] Whether you're a fast-growing startup or a global enterprise,
+[16:26] Vanta helps you earn and prove trust.
+[16:28] Invest like the best listeners get a special offer for $1,000 off at vanta.com slash invest.
+[16:36] Ridgeline is the first end-to-end system of record with embedded AI for investment
+[16:40] management firms, running portfolio accounting, reconciliation, reporting,
+[16:44] trading, and compliance on one unified platform.
+[16:48] Firms are moving off legacy technology and onto Ridgeline because of how far ahead
+[16:52] Ridgeline's AI features are compared to anything else in investment management software,
+[16:56] which is why I believe that firms that come out ahead in the AI era will be the ones running
+[17:00] on Ridgeline's unified platform.
+[17:02] If you're serious about your firm's AI strategy, Ridgeline should be part of that conversation.
+[17:07] You can request a demo at Ridgeline.ai.
+[17:14] When we first did this so many years ago now, which is crazy, it'd be fun to revisit some
+[17:17] of the ideas that we talked about the first time with SAS.
+[17:20] But you use this term that I've used ever since, which you call it the competitive frontier,
+[17:24] meaning the things that will determine the winners and the losers.
+[17:27] My partner, Bree, has this great idea that stuck in my head, which is that everything is a jump ball
+[17:31] right now. I'm really curious, in addition to this idea of sand castles versus real castles,
+[17:36] what else you're seeing amongst the people that are becoming competitive winners?
+[17:40] Are the traits different for winners now, personality-wise or business strategy-wise or business model-wise,
+[17:46] versus what you learned in the SAS era?
+[17:48] I'm very dismissive of this idea that people are going to vibe code their own ship and whatever.
+[17:53] That isn't the issue at all, it's SAS companies.
+[17:55] The issue with SAS companies is the competitive frontier completely shifted,
+[17:59] and everything they thought they were building against and would make them win
+[18:03] are not what's going to make them win.
+[18:05] Let's take databases.
+[18:06] Databases have been a phenomenal area for software for a long, long time.
+[18:11] Great margins, why you had app developers that would build against these specific
+[18:16] database interfaces that existed for that database, you would have more and more data over time,
+[18:21] migrating an app from one database to another database was a giant project that was very,
+[18:27] very difficult to do. These were unbelievably sticky businesses that you could generate
+[18:33] a ton of margin. Of course, you got Oracle and SQL Server and a whole slew of smaller players
+[18:38] did really, really well in databases. Let's think about that in the context of AI.
+[18:42] Now, you don't have a developer building against a database interface.
+[18:46] You have cloud or codecs building against a database interface.
+[18:49] One, two, the beauty of database interfaces is they're very, very well specified.
+[18:55] Well, it turns out AI is very good, very good at things that are very, very well specified.
+[19:00] Three, agents don't get tired of monotonous work of translating one specification to another.
+[19:04] So it turns out that now all of a sudden database migration, which used to be the
+[19:11] number one thing you would not do in software, is like kind of critical.
+[19:16] Yeah, it's just like, yeah, it puts money against it, move it. So what changed?
+[19:21] Well, what changes is the criteria to be an amazing database company changed.
+[19:27] It isn't that we don't need databases or that everyone's going to build on database or whatever.
+[19:31] That isn't what's going to happen. What's going to happen is the criteria changed.
+[19:34] So now you're going to have a ton more applications that start, obviously, as we're seeing everywhere.
+[19:40] People are going to experiment a lot more because it's much cheaper to experiment.
+[19:43] It's much cheaper to start a new application. So now you need databases that scale from
+[19:48] basically zero usage to if it works all the way through, like that matters a lot more.
+[19:54] Your cost matters a lot more. You want to be able to spin these things up,
+[19:57] spin them down, tear them apart over and over again. So the iteration speed goes up and what you
+[20:02] need on database. And ultimately, I think the cost becomes the arbiter of this.
+[20:06] So the cost and then this zero to infinity scaling and transport ability and everything else around
+[20:13] that become like the arbiters of who wins and who doesn't. That's really different than,
+[20:17] hey, I specked this database for our user thing and I procured a license and I ran it on this
+[20:22] kind of hardware and everything else. There have been elements, of course, of these things over time,
+[20:27] but I think that just criteria changed. And I think one of the big messages to these SaaS companies
+[20:33] a few years ago was you have a choice, get to AI or be worth three times revenue.
+[20:39] It was a hard message to hear. You were just like, get to AI or three times revenue. Those
+[20:43] are your choices. We say three times revenue now because a lot of these public SaaS companies
+[20:48] are trading at six times or whatever. But keep in mind in 21, they were going for 30 times.
+[20:53] Like everybody, you're like three times, wow, I've grown down or X since then. This is a whole
+[20:58] multiple compression as a bitch. I've grown four X. The multiple has gone down by a factor of six.
+[21:04] So I'm more or less, even though I've grown four XF years and gotten to break even all these
+[21:08] things. So like that was the first message. But I think that even it became really visceral to me
+[21:12] where you were in these meetings and you were like, hey, every single day that you are hitting
+[21:18] your plan, you are destroying equity value. Think about that. Our whole careers we learned,
+[21:25] you lay out a plan, you execute against it relentlessly and violently. You hit your plan or
+[21:31] you see your plan and you keep on building that. And that's how you build equity value.
+[21:35] That's what the whole management teams learned. That's what the CEOs learned,
+[21:39] play pre-a-a. This is like everything learned. And now you're in here just every day you hit that
+[21:42] plan. You're fucking out. You're fucking out. You're destroying value. And the point of
+[21:48] saying that to them was to set them free. Another articulation of this from my friend Anne
+[21:53] Lee Skates was just the CEOs who were going through this transitory period and had a business
+[21:58] that was at hundreds of millions. And he thought, you know, they're already, they were working on
+[22:02] their business from 8 a.m. to 5 p.m. and then trying to do AI from 5 to 8 in the evenings.
+[22:09] And what they needed to be doing is the inverse. And it's so hard to do that because of all of
+[22:15] the training and all of the muscle memory and all the inertia and everything that we learned
+[22:19] about the hill that we were climbing. Like we're all still climbing in a way.
+[22:22] The success model was set the plan, execute the plan, build value, compound value. And it's like,
+[22:30] oh, no, no, no, stop that. You got to completely invert. This is a very, very long way to get back to
+[22:36] your question of what the profile or what the mentality of the winners are right now.
+[22:41] But if we look at Brendan from her core or Lynn from fireworks or Max or Brett, any of these people,
+[22:49] they're so nimble about what the eval is. What are they optimizing against? They're so nimble on
+[22:57] all of it. And if you look at every one of those companies, the evolution of the business, it's just
+[23:02] the business is constantly evolving. And they've done such an excellent job at that. I think that
+[23:08] is very, very different than the way I was taught. What's your sense of the disorienting nature of
+[23:16] model progress? You're one step removed from that as an investor versus as that technical founder
+[23:22] with your hands on the metal. Are we behaving differently than you would have three years
+[23:26] ago or something because of the pace? Any time that I'm talking to a founder about a problem in
+[23:33] their company or what they're doing or move they're making or anything else, which is
+[23:37] where I spend 80% of my day doing. This is how we used to do it. This is what we typically do.
+[23:44] This would be the typical readout on this old school readout of why this candidate is better
+[23:48] than this candidate. Let's reevaluate that in the context of today. Let's reevaluate that in the
+[23:54] context of an unstable technology substrate. Let's reevaluate that in the context of a business model
+[24:00] that's growing this way versus that way. I've really started to question every assumption
+[24:06] and every lesson that I learned before, which of it translates and which of it doesn't,
+[24:11] that's a huge difference. I'll give you a really concrete example,
+[24:14] which has been very disruptive inside of these scaling AI companies. The scaling AI companies,
+[24:21] we've had a lot of leaders come from the prior generation with great experience and everything
+[24:26] else come to these scaling AI companies and completely flam out. You see it across the industry.
+[24:31] The question is why? These are some of the best leaders from four or five years ago. They had
+[24:37] all the lessons. They learned it all. They're excellent, but somehow it's not translating.
+[24:42] There's some impedance mismatch between the AI founders, potentially, the needs of the business
+[24:48] and what these people are bringing. I saw it really abruptly with a particular sales leader who we
+[24:54] heard who's like, hey, we can't hit any of these things because the way that software sales has
+[25:00] been taught forever is a quota capacity model. You have a quota capacity model. Each rep does this.
+[25:05] In the early days of a company, the quotas are 1.2, 1.5 million, maybe the ISRs are at 750 or 850,
+[25:12] and then over time it scales up and enterprise gets 2.5 million. That's how all these financial
+[25:16] models are built. You start with a quota capacity model, you take a discount on entertainment.
+[25:20] This is what we can do, boom, boom, boom. Fundamentally, without realizing it, everybody was implementing
+[25:27] something that was based on pushing demand, not pulling demand. For so many of these companies,
+[25:35] they're operating here, these customers, and there's a new AI-enabled product that comes along,
+[25:40] and it's just fucking magic. These companies are selling magic. Well, it turns out if you're
+[25:46] selling magic and you're the first one there, you're going to sell a lot more than 2 million.
+[25:51] The whole notion of a quota capacity model and that being working, it's not that it doesn't
+[25:56] matter. It matters kind of, but it's definitely not the first-order thing or constraint.
+[26:01] So you have these execs come over with us. It's like, here's our math, and here's the
+[26:04] territory assignment, and here's what we would do. First you do West Coast, and then you do East
+[26:08] Coast, and then you do Central, like all of these things. Oh, wait, no, it doesn't work like that
+[26:11] at all. One of my big things that I started to realize is, as I'm interviewing these folks and
+[26:15] talking to them, it's just like, hey, you need to check everything at the door, check it all,
+[26:19] which is probably a good practice anyway, but check all the baggage,
+[26:23] check everything that you learned, and just learn this from first principles.
+[26:27] How is it working? What are really the bottlenecks on delivery? What are the bottlenecks on demand?
+[26:32] Because it turns out that in a lot of these companies, you have reps doing 10 or 20, 30 minutes.
+[26:38] That's not 50, right? It turns out that's different. What is the best sales person that
+[26:42] you've seen that's doing it in a de novo way doing? Honestly, the best sales person that any
+[26:47] of these companies is a founder, and what they're doing is bridging the jagged edge to what the
+[26:51] customer's capability is, and that's it. It sounds so simple, but it's not. But that's what they're
+[26:55] doing. The market is just so big. Just like we were talking about the cloud, I think the biggest
+[27:00] mistake everybody made was they just undersized the market, and it turns out the market's just
+[27:04] really, really big, and this market is bigger. It feels like right in this moment in time,
+[27:09] actually, just this morning, you and I are in this great group chat together where the discussion is,
+[27:14] the demand for intelligence seems kind of unlimited, and it seems like the smarter the thing gets,
+[27:18] the more demand there is. Maybe the bottleneck is just capital. The world just feels like it needs
+[27:22] to take a breath. The RSI concept, if you apply it across technology, doesn't need to breathe,
+[27:28] the agents don't get tired. But the world feels kind of like, man, it sure would be nice to have
+[27:32] three months just to digest this a little bit, and for capital to form and evaluate its prospects,
+[27:39] and the scale is getting so big, does it feel to you like this can just keep going,
+[27:44] or are we just going to get tapped out of money that can be invested in these things when it seems
+[27:49] like we could consume like any amount of money to build any amount of stuff and serve any amount of
+[27:53] inference? I'm not a macro economist. I am worried about energy. If you think about the models as
+[27:59] translating compute into intelligence, quite simply, what do models do they very effectively translate
+[28:05] compute into intelligence? What's the demand for intelligence? Well, it seems like a lot.
+[28:09] So then it follows that we will continue to have more and more demand on compute.
+[28:14] I'm saying compute, probably not chips, not storage, not whatever. But then like, what do we need for
+[28:18] compute? We need energy, a lot of energy. There's all this topic of distillation and Chinese open
+[28:26] source and all of these things. But the bigger thing to me is that I think China is bringing on
+[28:31] 10 times as much energy next year as we are in the US. If energy is what you need for compute
+[28:39] and is the bottleneck, and there's unlimited demand for intelligence, that it stands to reason that
+[28:44] if we have a lot less energy, then we will have a lot less intelligence or a lot less tokens,
+[28:51] or a lot more expensive tokens. If we have a lot more expensive tokens than supply demand,
+[28:56] you're going to end up with less. And that seems very bad.
+[29:00] To me, I think the energy bottleneck, however, that is, it'll manifest in 20 different ways.
+[29:07] Gas turbines go up and down, natural gas get up and down and solar, whatever, all these different
+[29:12] things, rare earths, that to me is probably more concerning. And if I'm thinking about it from a
+[29:18] regulatory perspective or government perspective, and I think the administration is doing some things
+[29:22] around this, fostering investment and development of all energy, solar, nuclear gas, like what up,
+[29:29] do it all, we should do it all, and it'll work itself out. This is one of these things where, yes,
+[29:34] one will be relatively better than the other, and I don't know, and I'm not smart enough to
+[29:37] predict which one's which, but it'll all work. Speaking of compute, I would love to hear this
+[29:41] through your story. I haven't heard you tell the full version of this. The reason I'm asking about
+[29:46] it is I'm deeply interested in compute. I have bigger investments in compute, and I'm fascinated
+[29:50] by it. It's just like the most magical thing to watch happen. It's mind boggling when you get close
+[29:55] to one of these things, what humans have been able to do on these chips and in these systems.
+[30:00] I think you invested in 2016 or thereabouts. I think it was your first foray into extremely
+[30:05] difficult hardware type investment. And now the world is full of opportunities like this,
+[30:11] whereas back then it was a one off. Teach me everything you've learned about
+[30:15] hardware investing in true story press. Mostly, it's really hard. It's an amazing example to me
+[30:21] about the naivete required. The company came in in 2016. It was five founders in a deck.
+[30:28] I did not want to go to the pitch, but it's my job. Because I'm like, why are we going to go
+[30:33] hardware investment like it's crazy than 10 years since we made a semi investment. I think
+[30:37] basically the team was excellent. And then the kind of first slide was just like,
+[30:41] GPUs actually suck for deep learning. They just happen to be a hundred times better than CPUs.
+[30:46] You have to remember, this is pre transformer. Open AI is this weird research lab at this time.
+[30:53] NVIDIA was worth like 40 billion, not 4 trillion. The TPU hadn't been announced. None of that.
+[30:58] So this is early, but the whole idea, as soon as you set it, I was like, oh, shit, of course,
+[31:04] of course, like why? I had spent the last 18 months trying to figure out applications of
+[31:08] deep learning and looking at the security thing and looking at this medical imaging thing and like
+[31:12] all this other stuff, thinking like, hey, there must be something here that's going to be really
+[31:16] transformed by this stuff. Anyways, we go through this whole journey. We end up investing, which was
+[31:21] amazing. We first met on Wednesday, part of meeting on Monday, had a bunch of meetings in between,
+[31:26] just built a lot of conviction that this was a great swing. And I'll tell you what I understood,
+[31:32] and I really just understood so little. But basically there are three things that we know how to do
+[31:37] to speed up deep learning and hardware. Still till this day, increase the number of course,
+[31:43] increase the communication between cores, bring the memory closer to the compute.
+[31:46] Those are the three things. That's it. Those are only three dimensions that we know in hardware.
+[31:50] My articulation of what they said to me, honestly, all I understood, was let's just take all three of
+[31:56] those things that are logical and maximum. You have a wafer scale chip. At that time,
+[32:00] you would have 450,000 cores on it. You'd have something like 20 gig of SRAM on the chip.
+[32:05] So you never have to go off chip to get to memory. And because they were all in the same wafer,
+[32:10] the communication between cores and maximum. So this is the best you could do on that process.
+[32:14] And I think the first chip was a seven anime or something. You're like, okay, that's it. That's
+[32:18] what we do. And it turns out that in software, if you have that logical block diagram of why it works
+[32:26] and everything else, you're kind of 80% of the way there. And it's a matter of go-to-market
+[32:30] execution in hardware. You're like 2% of the way there. There's things like physics,
+[32:35] entire supply chain of vendors. There's of course TSMC, which everyone knows, but it's not just
+[32:40] TSMC. There's 30 other vendors that matter and putting all this stuff together and everything else.
+[32:45] I didn't know any of that. Fast forward from 2016 to like 2019. I think they got their first parts
+[32:51] back. You go through this like, bring up and then it's like, bring up. Oh, yes, we got a part back.
+[32:56] And then it's like, yeah, then you got to go through like, we bring up and there's like 14 steps of
+[33:01] bring up and everything else. And then by like 2020, we had our like first thing that works.
+[33:07] Then it's just this march of actually getting it to work. One of the lessons that I've learned
+[33:13] on this stuff is basically, you go through all these sims and everything else in hardware and
+[33:19] semis in particular, that basically is your roof line. That's the time we're going to be is what
+[33:23] that is. And then every bit of software and reality and compilers and kernels takes away from
+[33:30] that roof line, you might start at 10% of the roof line. Once you bring it up, you guys are
+[33:35] grinding for months and years to like get closer and closer and closer to the roof line.
+[33:41] It's really different. It's really hard. I'm astonishingly bullish. If I kind of rewind
+[33:46] part of the reason we made the investment was if you looked at the four prior generations of compute
+[33:52] in my lifetime, so you had CPUs, you had graphics, then networking, the mobile.
+[33:57] There was a new workload each time. So you had multi-purpose compute and it led to the CPU.
+[34:03] You had massive parallelism led to the graphics processor,
+[34:07] graphics processor offered a massive parallelism which led to graphics.
+[34:10] Then with networking, you needed really low latency chips and so they had low latency chips.
+[34:13] And then with mobile, you needed really power efficient chips.
+[34:16] And in each case, we ended up with a new $100 billion company.
+[34:20] The first question going back to 2016 was, is AI that big a new workload?
+[34:25] Because there have been many, many other attempts for specialized chips for other things that really
+[34:30] just didn't end up mattering. There's some fine outcomes, but they just didn't really end up
+[34:33] mattering, etc. Exactly. And so it's just like, well, okay, well, you need something that's
+[34:38] a really, really big workload. Okay, so that's one. We had a lot of conviction on that.
+[34:41] And then two was the nature of the workload. Did it introduce a new
+[34:46] constraint or problem in it? What I learned was basically the AI workload benefited from
+[34:52] the parallelism of GPUs massively, but GPUs didn't solve the core-to-core communication,
+[34:58] basically the layers of the network problem. You're like, okay, wait a minute, there is a new
+[35:02] constraint, which is communication is communication bound problem. Then you're like, okay, is AI a
+[35:07] new giant workload that is going to have specialized chips? Everything that I just said was the entire
+[35:14] everything I knew at that time. That's obviously played out. And in each prior generation, we got
+[35:20] Intel, we got Nvidia, we got Broadcom, Avago, we got Qualcomm and ARM, and each of these generations.
+[35:26] And there will be these giant winners, standalone winners. Obviously, the TPU itself is the winner,
+[35:31] trainings of winner. You've had Grock and Sirevers etch. It'll keep getting fought out,
+[35:37] but I think that went up being big. And actually, I think there's a new sixth one that's coming
+[35:41] generation, which is, and I'm really excited, we've made an investment that's unannounced in this,
+[35:46] but I think that for the first time in a long time, there's actually room for a new CPU approach.
+[35:53] The thing that's happening right now, and you see this reflected in all the semi-stocks and
+[35:57] everything else, is the LLMs, which are running on accelerators and GPUs, generate code. The code
+[36:05] runs on CPUs. And right now, it's running on classic CPUs we've had around forever.
+[36:11] But there's a whole bunch of constraints on CPUs that have existed, and CPUs have dragged
+[36:17] all this baggage forward that you might not need to anymore. And so, I'm actually really excited
+[36:22] about that pause. The next category. The next category. Does the experience with Sirevers
+[36:26] make you want to do a lot more investing in companies? No, but why not? 2019, we're sitting
+[36:34] in a board meeting, and this thing is melty. It's like fucking melty, okay? And we've raised
+[36:40] $500 million or something. And it's like, wait, what? It's melty or burning or something, like we're
+[36:47] looking at it. And I'm like, holy shit, I realize like $500 million isn't that much in today's era,
+[36:53] but I was just like, we're going to lose all this money. This is not going to work. And what that
+[36:56] team did, insane. They're built differently. And I have so much respect and thanks to them for what
+[37:03] they've done. There are efforts that make you really proud to be a venture capitalist because
+[37:09] you're funding something that makes a difference and matters. I'm an investor because that's a means
+[37:14] to work with companies, not because I fundamentally love investing or something like that.
+[37:19] I like working with companies. That's my favorite part of it. Working with teams like that and
+[37:24] companies like that is so special on these giant ambitious efforts. And I said this well before
+[37:30] 2018 or whatever, is well, the service worked or didn't. I think it was an effort that was
+[37:34] worth venture capital. That was the kind of thing you should do. You should try to build
+[37:38] something that people have tried for 50 years and haven't been unable to. But now we think we
+[37:42] could do and there's a reason and application for it and everything else. I love that. I do like
+[37:46] those kinds of things joking aside. And we do have a robotics company and then this CPU
+[37:51] project that we're talking about. I think these kinds of things are actually really fun
+[37:55] and interesting and good use of venture capital, but they definitely aren't easy.
+[37:59] The productive naivete that you described rare. It's probably a virtue that you didn't know
+[38:04] more than you knew otherwise you wouldn't have done it. This is certainly my experience with
+[38:07] etchs. Like in any of these fields, you ask experts, they're going to tell you don't do it.
+[38:10] It's socks. It's too hard. Base rates too low. Young people can't do the 47 things.
+[38:16] Is there anywhere where that is just a bridge too far that could be like bio or something like this
+[38:20] where you just are unwilling to invest if you're naive? You know what's so funny is the hard
+[38:26] thing about investing is most of the time, all of these stereotypical statements are correct.
+[38:32] They're not correct. Three times out of four. They're correct. 19 times out of 20. Maybe 99
+[38:37] times out of 100. Like they are correct. The thing that Bruce, one of our founders says is
+[38:42] what could go right? We have to ask ourselves, what could go right? And do we see that path?
+[38:47] Yeah. Young people can't build chips or you shouldn't do another semi-company or you shouldn't
+[38:51] do this or whatever. All of that stuff is actually totally right, except when it isn't.
+[38:56] Apparently, there's a saying that someone said to one of my partners, which was,
+[39:00] if it doesn't work, it'll be for all of the reasons that your partner said.
+[39:05] If it does work, it will be because those reasons didn't matter. It's just such a good
+[39:11] example of this whole thing, which is, yeah, most of the time when we lay out the reasons
+[39:15] that a company won't work, it's right. But then sometimes they just don't matter.
+[39:20] You and I both interested in robotics. It's not controversial that if robotics works,
+[39:26] it might dwarf what we're currently living through. What do you think has to be true for it to work?
+[39:31] Obviously, it's exciting. I want a robot at my house following my laundry. It sounds great.
+[39:35] It's kind of one of these classics. It's always 10 years away, and it's been that way for a long time.
+[39:39] What do you see happening? What has to happen for this to actually be a thing in the
+[39:43] near to medium term? We've had classics, robotics forever, and they're all over the place in their
+[39:48] assembly lines and manufacturing lines and all these things, where you're doing repetitive tasks
+[39:53] in controlled environments. Repetitive task in controlled environments is more or less
+[39:57] solved than that will continue to happen. But having tweaked tasks in real world environments,
+[40:05] that's where you need the AI. That's where you need the AI plus the robots.
+[40:09] The trick with it all is you need a model that can do that. Of course, the first problem is,
+[40:17] there is no internet-scale data to bootstrap the whole thing. Eleons are all bootstrapped on
+[40:23] the internet, which is a ton of human knowledge. The equivalent for that for robots doesn't exist.
+[40:31] People are trying different things with videos and simulations and tele-operations. There's a lot
+[40:37] of different ways. But if you think about take tele-op as an example, how much you need to
+[40:43] tele-op robots to get to an internet-scale data. This first step is getting a good set of data
+[40:53] to bootstrap the model. One of the insights that you can have is with the internet,
+[40:58] there's a lot of slop data. Even before AI generated all the stuff, there was also a bunch of junk data,
+[41:04] and some data was more valuable than others. You may value certain things on Reddit, more valuable
+[41:09] than other things. You might value Wikipedia more than other forums. You might value GitHub
+[41:13] more than other things. All of the model companies did that. They prioritized data that was more
+[41:18] valuable and less valuable and ran through the model. I think one of the most interesting things
+[41:22] that these AI robotics companies are doing are saying, okay, well, let's just go after the high
+[41:26] value data to start. If we go after the high value data, then we can bootstrap this model.
+[41:31] Now, once you do that, then can you, through the pre-training process, get to a place
+[41:37] where you can have very small auxiliary examples of data that you add in post-training and all the
+[41:46] sudden it works for that. That's the magic we have with LMs is you have this giant pre-trained
+[41:51] base, and then you add a little magic on it in RL and post-training, and you teach it a new thing
+[41:57] that it wasn't in the pre-training set and you go from there. I think the exact same things
+[42:02] happen in robotics. We're investors in Sunday robotics, which is going after this exact
+[42:06] Python company. It's a cool company, and they're doing household robots, but the key part,
+[42:11] before you get to household and all that stuff matters much less, actually, then can you get this
+[42:17] training pipeline to work and how do you do that? One of the lessons I learned and I look back,
+[42:23] I try to learn from history because it doesn't repeat what it rhymes, and if I look at autonomous
+[42:28] vehicles as an example, which is their robots, basically, they're AI plus robots, you look at Waymo
+[42:35] and you look at Tesla. They were both designed vertically integrated in their own way.
+[42:40] You have a fleet of Teslas that everybody owned, it was collecting data on the Teslas,
+[42:46] and it was used to train the models to drive the Teslas. The same thing with Waymo.
+[42:51] I think part of the lessons is they gather very, very high quality data, they did their pre-training,
+[42:56] and then they worked off of that. That was a simplification to allow you to get to a complete
+[43:04] product or a complete solution, which of course is going to continue to improve and ultimately
+[43:08] will generalize, I'm sure, it'll generalize in some ways. You'll be able to strap it on any car
+[43:12] and everything else. I think the same thing is happening in robotics, where you have companies
+[43:18] like Sundae and others who are using techniques where they're vertically integrating the robot
+[43:25] and the model, the data collection around the robot. Sundae uses gloves that are designed
+[43:31] with the robot hands, so they're perfect. You get very good data transferability from one
+[43:36] to another. You do this pre-training and you have a great pre-training data set. You have a good model,
+[43:42] and then you start adding these examples in your RL and post-training on top, and you get
+[43:47] cool emergent behavior. Do you have a most necessary moment? When we invested in Sundae the
+[43:52] first time, we saw them. Partner Peter arranged a demo. We went down into the basement at Stanford
+[43:58] Lab, and they had this totally janky cardboard glove thing. You see a few evolutions of it.
+[44:05] The last time we saw a demo, we went down in the basement of their now office building,
+[44:10] and there was a dozen robots just folding arbitrary. It wasn't in the demo. It was just
+[44:17] trial and error, and then they have people taking the clothes and then measuring them to make sure
+[44:21] that they were folded properly and creating a rigorous baseline and evaluation criteria.
+[44:26] And I was like, oh my god, this is happening. Do you ever worry about how to pick the right
+[44:31] customer for these companies? Everyone of these things folds laundry, which I don't think anyone
+[44:36] likes folding laundry. So it seems like a good use case, but it feels like we don't actually
+[44:41] understand the demand for what these things will be used to do. You're worried about that. They were
+[44:46] sort of building solutions that will then be in searches of problems. I don't, and I'll explain
+[44:51] why. And it's certainly informed by watching the LOM evolution. Some of the people who were
+[44:57] involved in the early LOM at OpenAI really understood that code was going to be important.
+[45:03] And obviously, the top team had this perspective that you could get to RSI if you got code generation
+[45:09] going and automating AI research and whatnot. If you think about it, the first use cases were
+[45:14] very much language oriented. They were very much essay writing and editing and marketing.
+[45:20] I think the first application that really took off was Jasper, which was just writing marketing
+[45:24] copy. I think it's going to evolve a lot, basically. I think laundry is kind of a good task because
+[45:31] it's arbitrary, it's complex. It requires dexterous manipulations. It isn't time sensitive. If it
+[45:37] takes three times longer, so be it who theirs. It doesn't matter, just let it run all day.
+[45:41] So I think it has some of those properties. I don't think the task is actually that important.
+[45:45] What I think is much more important is, are you pre-training an amazing model than being able
+[45:51] to post train on top of it and get that flywheel going? If you get that flywheel going,
+[45:56] then the task capability will just keep multiplying. Maybe this question will be annoying or slightly
+[46:01] uncomfortable for you. But if you ask basically every founder and critically other investors of your
+[46:07] type, almost everyone, if I ask who's the best board partner, will say you. You come up way
+[46:14] more often than anyone else that I've come across. And I'm curious why you think that is.
+[46:19] What it is that you're doing that other people, the incentives are there to do a great job as a
+[46:24] board partner. What do you think you're doing on the boards of these companies, partner with
+[46:29] the founders, that's actually different from other really talented investors who are also
+[46:34] nominally doing the same job, but don't come up nearly as often when asked that question?
+[46:38] One of the things that I've realized is we each are attracted to different types of entrepreneurs
+[46:44] where we have chemistry. I'm an investor second and I try to be a partner first.
+[46:49] We'll see companies come in. We have one come in yesterday and it's what I would call an
+[46:53] investment grade opportunity. You can invest. It probably works. You make money. It's good.
+[46:58] An investor would do that. A partner wouldn't because that's not sufficient for a partner.
+[47:05] Unless you have real chemistry with that person where you feel like you're going to be able to
+[47:09] work together really effectively and I'm going to learn a ton from them and they're going to learn
+[47:14] something from me. Together, we're going to just feed each other's loops. Unless you feel that way,
+[47:19] you can't be a partner. And so you pass on that. That's a really important fit element to me.
+[47:25] It kind of starts with this mutual selection, actually, weirdly. They want to partner with us
+[47:31] and I want to partner with them. I'm really looking forward to working with them together.
+[47:35] And I'll give you a really good example of where this comes into play for me.
+[47:39] If I take Sajin and Benchling, Benchling is life science and SaaS. Company is absolutely
+[47:45] crushed, done really, really well. And then, of course, you have this biotech crash and everything
+[47:52] else. And the company became grindy. The company had never had any turn for the longest time,
+[47:58] such that even on their reports for every SaaS company, you have this like, okay, gross ARR
+[48:03] added, turn line, net ARR added, like everybody does the same thing. They never had a turn line,
+[48:08] never reported it for the first of like six years that I worked with the company.
+[48:13] So then they got seven years of churn in like 12 months.
+[48:16] Turns out life sucks when you get seven years of churn in 12 months. Through that grind and through
+[48:21] it all and related to the whole, wait a minute, the goal post moved. We have to do something
+[48:27] different, everything else. They kept thinking about how to apply AI for these biotech and pharma
+[48:33] customers, which they're very close to. How can we make it better for them? How can we apply these
+[48:37] models in their world in a way that they're excited about and continue to iterate and it was grindy?
+[48:43] And I was there for it. You're excited to work with that person. Because like one, of course,
+[48:48] you think it's a really special opportunity and there's a way out, there's a path and we can find it.
+[48:53] But two, because of the joy of the game, the relationship and like everything else,
+[48:57] like that's part of it. It's very different. I've seen different models and lots of different
+[49:01] models of venture capital work. Meritz was a writer. Door was a sales guy.
+[49:07] Garley was an engineer. Peter's a career venture capitalist. They're all different working with them.
+[49:11] It's like when I call these people, I learn something and they push back on me and then I ask
+[49:16] them questions. And what I've realized is like so much of my job is they know the answer. They
+[49:22] know what they want to do. They know the answer. And it's maybe asking questions of them to
+[49:29] maybe help solidify their conviction or solidify their articulation of what they want to do and why.
+[49:36] And you just keep doing that through that process. Hopefully we get 1% better. A few times a year,
+[49:42] we make a 1% better decision, 2% better decision, a few times a year. And if you do that over a
+[49:48] decade, that compounds to real results. One of the questions that I ask myself before making
+[49:54] an investment is there are all these people that I care about through my life, like you carry yours.
+[50:00] Could I talk one of them into going to this company and honestly, intellectually, honestly to myself,
+[50:09] explain to them why this could be their life's work. And if I can't do that, I should not invest.
+[50:14] It just means that the project doesn't line up in that way. And so as long as we have one of those
+[50:19] things, it doesn't matter that much what it is to me. It's important. It could make a big dent.
+[50:26] And if it can make a big dent, and it's a special person I'd love to work on.
+[50:30] Are there any other questions like that that you ask yourself before investing?
+[50:33] That's a particular good one. The other question, if this person calls me at 9 p.m.
+[50:37] on a Saturday night, will I pick up the phone? That was at the green button test.
+[50:41] It's a chemistry thing, and they have to feel the same way. Obviously, one of the other ones is,
+[50:47] if it's right, does it matter? Which is different than this first one, but there's so many things
+[50:52] that we could be right on as a business. I looked at one last week, and I told them to burn. I was
+[50:57] like, I really think that you can build an amazing company here and you just shouldn't race under
+[51:00] capital. But there's so many things that you can be right on, but they ultimately just don't
+[51:05] matter. Like nobody cares. That's a better way to say it. If we're right, well, I mean, we care.
+[51:09] If they won't care, then you're just not going to build enough equity value. That's another
+[51:14] useful one. One of the coolest things that's happening right now is all of that that you just
+[51:17] described has higher stakes and more leverage attached to it, which is manifested most simply in
+[51:23] more dollars and higher prices. You and I have talked about this notion of what high multiple
+[51:28] uninvested capital investing is like and what it has been like and what it's moving into.
+[51:32] You did something recently, which was you raised a growth fund for the first time in a long time.
+[51:36] I think that is related to this concept. These companies need more capital.
+[51:40] The prices are higher. The outcomes are bigger. Maybe we can earn the same multiple on a
+[51:45] billion-dollar entry price that we could on a $50 million entry price 10 years ago or whatever.
+[51:49] Can you talk through that evolution? Talk through the partnerships like way of thinking
+[51:53] about it and talking about it, what you believe to be true that results in this decision to do this?
+[51:58] Just go back to why did LPs starting with Swenson and everyone else? Why did they start investing
+[52:05] in venture capital? Fundamentally, it wasn't because they thought they could beat the NASDAQ
+[52:10] or the index by like 3% points a year or five or whatever. It's because their situations where
+[52:15] venture capital could drive these insane multiples on invested capital. From a financial perspective,
+[52:21] that's what they're seeking. For the longest time for most of the industry's history,
+[52:26] two things were synonymous. Early stage investing and high cash on cash multiples.
+[52:32] The way to get high cash on cash multiples was to do early stage. That's it.
+[52:36] Those two circles in the Venn diagram almost perfectly overlap.
+[52:39] The thing that's changed is recently, relatively recently, and last few years,
+[52:46] because outcomes have gotten so much bigger and these markets are bigger and everything else,
+[52:50] the circle of high cash on cash multiple opportunities is bigger than just early stage.
+[52:56] It's not so big that there's a gazillion new companies in there that you can generate 100x
+[53:02] is on. That's not true. But there are certainly many outside of early stage where you can generate
+[53:10] high returns. That's it. I think that's what we want to go after. You could argue we're a few
+[53:14] years late. I think I'd take that criticism, but I think that opportunity exists on a go-forward basis.
+[53:20] We should go do it. Everything else that we represent, which is the high conviction,
+[53:25] high commitment partnership that has to still be there. As part of that discussion,
+[53:30] what were like the other sides of the debate, such as maybe we would have said the same thing
+[53:34] in 99 and halfway through 2020, as markets get exciting, the possibilities, we all do this
+[53:41] extrapolation error. What were the counter arguments to like, let's, despite all that, still not?
+[53:46] I think the biggest counter argument that really made this time right versus two years ago,
+[53:51] was you need the team that can do it. It's just a different mentality. There are differences in
+[53:56] how you evaluate and think about things. All the other stuff, there's why not change and stay
+[54:01] within your circle of competency. All those things are true, but that was the biggest one.
+[54:05] We had several examples over the last couple of years where we had, I think, the right intuition
+[54:13] on a company or an opportunity. We didn't do it because it was outside the box. That's obviously
+[54:20] dumb. I think it is quite different than a lot of things she does. We are really chasing these
+[54:25] very rare special companies that have very high cash on cash opportunities,
+[54:30] where we think there just can be runaway successes and we can invest in them.
+[54:34] Is there any lesson to be pulled from the many, let's call it, 20 to 100 Xs that you personally
+[54:39] have observed? I mean, it's such a crazy amount of return. Obviously, it doesn't pencil in the
+[54:44] beginning. You can't make something pencil. If it was that clear, the price would be different.
+[54:48] What have the 20 to 100 Xs taught you an aggregate, if anything?
+[54:53] Work with really special people. You want to work really hard. You want to work smart and get lucky
+[54:59] and you need it all. It really all has to come together. There's a lot of things that are timing
+[55:06] dependent. You have no control over as a company and you're going to take the service examples
+[55:10] to get one, which is this is our second. We took it public this time in May, but we try to take it
+[55:14] public in 2024. It would have been taking public at a much, much lower valuation and it didn't work
+[55:20] out because of CFIUS and all this stuff. Timing matters. The advancement of that 18 months made
+[55:25] all the difference in the world. For a bunch of things that were honestly outside of our control,
+[55:29] there were some things that were in our control, getting inference running and everything else,
+[55:33] but there was a lot of stuff that was outside of our control. These are all the classic things
+[55:36] we just got to focus on what you can control. That's one of the things that's really different
+[55:39] than software companies. What software companies, aside from building on AWS or whatever,
+[55:44] you pretty much own your whole stack. You're really fully in control of your destiny in that way.
+[55:49] With hardware companies, you don't. There's an entire supply chain and all these other things.
+[55:55] Hbms, a thing, DRAMs, a thing, and TSMCs, a thing, and a lot of those cross geopolitical borders,
+[56:00] and so geopolitics gets involved and that makes that complicated. That's a really big difference,
+[56:05] and so you got to get lucky on the timing and macro and other stuff, but I think it really starts
+[56:10] with working with these crazy people with unbounded opportunities. If you work with these
+[56:14] crazy special people on unbounded opportunities, you get lucky from time to time. You're bound to.
+[56:20] When I was 20 years old, I was working at an investment bank. Ben Orwitz, Markman, had started
+[56:26] a lot of cloud. It was still in stealth, and Ben gave me an offer to be his assistant.
+[56:29] I was talking to this associate who seemed like this elder at times, probably 25. He said this
+[56:34] thing to me, which stuck with me. He was like, do you go off? Classic banking question, do you go off?
+[56:38] No, I don't fucking go off, but he's like, with golf, you keep on practicing,
+[56:43] keep getting the ball in a three-part like close to the pen, close to the pen, close to the pen,
+[56:46] close to the pen. You keep getting the ball close to the pen, and you keep practicing. That's hard
+[56:51] work. That's like working smart. That's what you want to keep telling. Getting the hole in one,
+[56:56] that's luck. I kind of love that framing I use with my kids, actually. What it says is like,
+[57:01] yeah, there's luck involved, and there really is luck involved, but there is actually a way to
+[57:05] increase your luck. The way they increase your luck is get a lot of balls close to the pen.
+[57:09] Eventually, one will drop. I like that. Each of us invests in one to two companies a year.
+[57:14] I think in my 12 years, I've invested in 18 companies total, which is a relatively small number,
+[57:20] so it's a very high conviction and a very high commitment. I have a lot of skin in the game.
+[57:24] I believe in these companies. If you keep on working with these very special people in these
+[57:30] opportunities, magic can happen. What have you learned about the best
+[57:34] reasons and conditions for drawing public?
+[57:38] Bedford does these Monday night dinners, and so we had a CEO last night, multi-hundred-billion-dollar
+[57:44] private company, and we had this whole conversation. It's kind of fresh.
+[57:49] I think that ultimately, when you go public, you have a range of new opportunities and what you
+[57:57] can do. Public trust, because there's some transparency that comes with being in public
+[58:02] company. You obviously have a currency that you can do things with that ends up being there.
+[58:06] You have an unbelievable ability to raise capital, which I think is why the labs will ultimately go.
+[58:11] Although, I think the trust thing is actually a really important element of why they should go,
+[58:15] and it's beneficial to the world and to America if they do go public. It's like, what's going on?
+[58:19] Yeah, see what's going on. Everyone can see it. I think that's a really beneficial setup.
+[58:24] There's another element of it, which is, what does a collegiate athlete want to do? Go Pro.
+[58:28] They want to play at a higher level. Is it harder? Yeah, it's harder.
+[58:32] Is the competition tougher? Yeah, the competition is tougher. They move faster.
+[58:36] They're tougher. They're bigger. They're stronger. The stakes are bigger.
+[58:39] The stage is bigger. The scrutiny is bigger. All of that's true.
+[58:43] It's kind of the same thing with companies. There are a handful, and it really is a handful
+[58:47] three, four or whatever that can get to this tremendous scale without going public, because
+[58:53] things have gone through their execution and excellence. That's free cash flow.
+[58:57] They have lots of free capital, and they've done really well over a really long time.
+[58:59] And I think that's fantastic, good for them. But in general, for everyone else, get out there.
+[59:06] The other thing that I would tell you is there are Windows for a particular type of company.
+[59:12] The SaaS companies that went public in 2021, a whole boat of them have struggled, and it's been
+[59:17] tough in the public markets, because their stocks ripped to this multiple compression issue.
+[59:21] They were trading at 30 times. They've 4xed in size, but now they're trading at six times.
+[59:26] It turns out you're under still. That's a tough place to be. I will also tell you that there's
+[59:32] 500 something, probably SaaS companies that are between 100 million and 500 million that are private.
+[59:39] What happens, those employees never got a chance to sell. Those employees don't have annual
+[59:43] tenders. Those employees don't have an opportunity to exit. Those investors don't have an opportunity
+[59:48] to exit. They're stuck. I don't think they're all going away. And as I said, I don't think
+[59:52] they're all getting vibe coded and everything else. But ultimately, the AI natives with their
+[59:58] growth rates have sucked all oxygen out of the room and all the interest, and the window was missed.
+[60:03] That's tough. What are the biggest debates right now inside of the partnership? I always love coming
+[60:09] here and talking to you guys when there's something interesting going on, because your debate,
+[60:13] it's healthy, can be really fun to watch, and I learn a lot from it. What are those debates today?
+[60:18] There's a ton of debate around, in this AI, Infra apps, full foundational models, Infra apps,
+[60:26] ecosystem, where does value accrue, and how does it accrue, where they vote, and how do we think about
+[60:31] that? But also the business model innovation. I think one of the things people don't understand
+[60:36] about why SAS did so well versus traditional software was it wasn't just that it was a better
+[60:42] delivery model and everything else. There was actual business model innovation on it.
+[60:45] You really did have this subscription element that ended up being fantastic for both the company
+[60:50] and the customers. It was a win-win situation. That same thing actually exists in AI and selling
+[60:56] by outcome and that piece of it. But then wrapped up into that debate, discussion is how much value
+[61:03] just accrues to the labs? Yes. How much of the value just accrues to the semis?
+[61:09] That's a real discussion. What do you think? I am of the view that it all works.
+[61:14] It's a very weird thing. Will the CSPs do well? Yes. Yes. Not all of them, but will some of these
+[61:20] neoclads do well? Yes. Will the fireworks of the world do well? Yes. Will NVIDIA do well? Yes.
+[61:27] Will these chip startups do well? Some side of them. Yes. Are we going to have edge
+[61:33] inference on our phones? Yes. Are we going to have near-edge inference on pops? Yes.
+[61:38] Are we going to have big models and data centers? Yes. There's so much zero on thinking,
+[61:43] which is just like, okay, how do we cut up this pie and they're going to eat this much and like,
+[61:47] oh no, no, no, no. Anthropic are whomever is going to eat 98% of the value and they're going
+[61:51] to do all the drug discovery. And I was like, come on. No. That's not what's going to happen.
+[61:55] When I say like, I think everything's going to work and I listen off all these
+[61:58] everything. It's really important to understand that doesn't mean that every company that's doing
+[62:02] every one of those things is going to work. It actually means quite the opposite of that.
+[62:06] Most companies in each of those areas are not going to work and it's actually more important
+[62:10] than ever to have real differentiation to like really take each of these thoughts to their logical
+[62:16] extreme and understand, wait a minute, you've got to go all the way on these things and really
+[62:21] be differentiated on it. Is there anything you have your eye on, whether it's in the
+[62:25] funding market, in the technology world, anything at all that you really are watching carefully?
+[62:30] It's actually funny to me, some of the people are so, so smart and yet they're in this tech world
+[62:38] where they're like reaching these deterministic, almost conclusions of like mass unemployment
+[62:44] and all of these different things. I'm going to give you a really concrete example,
+[62:48] which I think is just so good. Take Jeff Hinton in radiology. So I think it was 2016 where he was
+[62:53] like we should stop training radiologists, AI is going to do it all better.
+[62:57] Jeff Hinton's three orders of magnitude smarter than I am could not have been more wrong,
+[63:02] but the actual thing that led him to make that statement and that conclusion was 100% correct.
+[63:08] If you look at his radiology images, we should be able to train AI to do a better job reading
+[63:13] these things than humans. And that's probably true. And actually, I think the studies and areas
+[63:19] have shown that to be true. And we have an investment in a company called New Lantern
+[63:23] which is approaching this, but the big hurdle and the big thing that it articulated was like,
+[63:27] wait a minute, first off, all of the aggregated training data set doesn't exist anywhere.
+[63:32] What you see is companies going after like chest CTs or like very specific elements, but
+[63:37] your typical radiologist looks at a whole variety of things every single day from x-rays to CTs
+[63:42] to MRIs of all parts of the body and everything else. And so an AI climbing in specific areas
+[63:48] like chest CTs is very marginally helpful because it's only doing that one thing,
+[63:54] which could be one of 20 things or 40 scans that they read that day.
+[63:58] Problem number one, you don't have the data just like we talked about in robotics and everything else
+[64:01] to train the AI. Problem number two, the whole healthcare industry is oriented around
+[64:07] reimbursing doctors for making readouts. How is that going to work? And there's liability
+[64:11] associated with that. And there's repercussions of getting something wrong or missing something
+[64:16] and there's medical malpractice and everything else. How are we going to avoid that? And how
+[64:20] are we going to get around that? Problem number two, real world stickiness.
+[64:24] We're going to end up with this application where AI really does help radiologists. It helps
+[64:29] radiologists get more and more higher, higher throughput because they can do some parts and radiologists
+[64:34] just some parts and they're checking each other and everything else. And you do kind of weirdly end
+[64:38] up in this co-pilot situation for some time. And then you're going to slowly have the AI
+[64:44] read more and more of the scans and build up and build up and build up.
+[64:47] But the actual duration to get from here to there is going to take a long time.
+[64:51] In the ensuing time, we need more radiologists, not less because, oh, by the way, everyone's getting
+[64:57] more imaging than they used to get because the cost of energy is going down in a Jevons paradox
+[65:01] kind of way. My point on it is you have someone very, very smart who really understands the
+[65:06] capabilities, really understands what's happening, has the right data, but by not thinking of that
+[65:11] data in the real world application comes to the wrong conclusion.
+[65:15] And that's how I think of the unemployment thing.
+[65:17] I think it's just it's almost the exact same setup.
+[65:20] Eric, I love talking about markets in California with you.
+[65:23] An absolute blast. Thanks for the time.
+[65:25] Thank you.
+[65:41] That we admire most.
+[65:42] Learn more at colossus.com slash subscribe.
+[66:31] For more information, visit workos.com to skip the unglamorous infrastructure work and focus on your product.
+[66:42] Ridgeline is redefining asset management technology as a true partner, not just a software vendor.
+[66:47] They've helped firms 5x in scale, enabling faster growth, smarter operations, and a competitive edge.
+[66:52] Visit ridgelineapps.com to see what they can unlock for your firm.
+[66:56] Every investment firm is unique and generic AI doesn't understand your process.
+[67:00] Rogo does. It's an AI platform built specifically for Wall Street, connected to your data,
+[67:04] understanding your process, and producing real outputs.
+[67:07] Check them out at rogo.ai slash invest.

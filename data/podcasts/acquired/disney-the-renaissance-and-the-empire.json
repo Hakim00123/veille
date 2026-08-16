@@ -1,0 +1,67 @@
+{
+ "podcast": "Acquired",
+ "slug": "acquired",
+ "titre": "Disney: The Renaissance and the Empire",
+ "date": "Sun, 09 Aug 2026",
+ "date_iso": "2026-08-09",
+ "lien": "https://www.acquired.fm/episodes/disney-the-renaissance-and-the-empire",
+ "duree": "16376",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 24.9,
+ "taille_transcript": 289103,
+ "transcript": "disney-the-renaissance-and-the-empire-transcript.txt",
+ "nb_outils": 10,
+ "outils": {
+  "Alan": [
+   "rd, when he hears the word Disney, instantly says, I want to work in animation, I feel there is a connection between animation and musical theater. And I don't think this was obvious to anyone else. This is like a unique Howard insight. So Howard brings along Alan Menken, composer Alan Menken, the two of them had done Little Shop of Horrors together and they hit the ground running. They come into Disney animation and the first film that they work on together is The Little Mermaid. Yeah. These guys are geniuses. And we ",
+   "word Disney, instantly says, I want to work in animation, I feel there is a connection between animation and musical theater. And I don't think this was obvious to anyone else. This is like a unique Howard insight. So Howard brings along Alan Menken, composer Alan Menken, the two of them had done Little Shop of Horrors together and they hit the ground running. They come into Disney animation and the first film that they work on together is The Little Mermaid. Yeah. These guys are geniuses. And we really started to dig ",
+   "t something. I mean, he was the guy who when Michael said, I need to be number one. He said, okay, no problem. Let's all go make magic together. Yep. And that force is just not at the company anymore. So then three months later, while Michael is at the annual Alan and company conference in Sun Valley, Idaho, he starts experiencing chest pains and has to be rushed back to LA into emergency quadruple bypass open heart surgery. Yeah. And he's at a commission. I mean, he is recovering from open heart surgery in the hospita"
+  ],
+  "Bolt": [
+   "ll. Right. 2003 had Brother Bear 2004 had home on the range. 2005 was Chicken Little. You've never heard of any of these films, I'm sure. Maybe you've heard 2007, they had meet the Robinsons, which I guess would have been in development. Yeah. Yeah. Yeah. Uh, Bolt was the end of this misery in 2008. Yeah, I mean, if you are a little bit younger than David and I call it 25, maybe 30, you probably don't actually have any Disney movies from your childhood that you remember, the way that we remember Aladdin and the Lion Ki"
+  ],
+  "Bubble": [
+   "new Disney movie would get released on Netflix, it would be a top 10 movie for sure, both organically and if it's a good movie, then people are going to talk about it and they're going to tell their friends and it's going to get more popular and it's going to bubble up in the algorithms. I yes, but even a top 10, top five, top three movie on Netflix in a given month. What percentage of Netflix is subscriber base is watching it? I don't think it's a super high percentage. It's a supermarket driven by an algorithm. It's no"
+  ],
+  "Claude": [
+   "ey pull it off. So Century is already watching your app in production. So the second it breaks, it has the whole picture, aerologues, the trace, the release that it started in, it hands that context straight to the tools developers already use, whether that's Claude code or cursor or centuries, new agents sear. And it automatically finds the root cause and opens the PR for the human to review. That is what makes software self-healing and it's why 200,000 organizations run on Century. Yes, thanks to Century for making sur",
+   "is in line with Bob's point number one in his three-point strategy. Making the very best content. But before we talk about the other two of Bob's big three acquisitions, Marvel and Lucasfilm now is a great time to thank our friends at Anthropic, the makers of Claude. Yes. And today we are going to share how Claude saved us on recording day a couple of months ago on our Disney part one episode. So David, do you want to set the seat? Yes. So we were in the middle of recording part one. And recording days are always very ti",
+   "ee-point strategy. Making the very best content. But before we talk about the other two of Bob's big three acquisitions, Marvel and Lucasfilm now is a great time to thank our friends at Anthropic, the makers of Claude. Yes. And today we are going to share how Claude saved us on recording day a couple of months ago on our Disney part one episode. So David, do you want to set the seat? Yes. So we were in the middle of recording part one. And recording days are always very time crunched. The whole thing feels like a high wi"
+  ],
+  "Claude Code": [
+   "ey pull it off. So Century is already watching your app in production. So the second it breaks, it has the whole picture, aerologues, the trace, the release that it started in, it hands that context straight to the tools developers already use, whether that's Claude code or cursor or centuries, new agents sear. And it automatically finds the root cause and opens the PR for the human to review. That is what makes software self-healing and it's why 200,000 organizations run on Century. Yes, thanks to Century for making sure eve"
+  ],
+  "Clay": [
+   "hank our brand, spank, and new presenting partner. Sierra. Yes. Sierra is not only the very best partner for agents in the enterprise, but also home to the self-proclaimed co-presidents of the acquired fan club. Clay before and Brett Taylor. Yes. As Brett and Clay shared on stage with us a few weeks ago when we were in New York together. Yes, indeed. Thank you, Sierra. So with that listeners, this show is not investment advice. David and I may have investments in the companies we discuss. And this show is for informati",
+   "ut losing what makes us unique? And that's exactly where Sierra comes in. And part of why we're so excited to be partnering with them. Well, that and the fact that it's built by basically the super group of tech from the last two decades with Brett Taylor and Clay before previously, a CQ2 guess, yes, and the ridiculous group of talent that they have assembled there. Yes, Sierra has built customer facing AI agents that can do a huge range of things, not just basic support stuff, like answering questions, but the kind of"
+  ],
+  "Cursor": [
+   " So Century is already watching your app in production. So the second it breaks, it has the whole picture, aerologues, the trace, the release that it started in, it hands that context straight to the tools developers already use, whether that's Claude code or cursor or centuries, new agents sear. And it automatically finds the root cause and opens the PR for the human to review. That is what makes software self-healing and it's why 200,000 organizations run on Century. Yes, thanks to Century for making sure everyone's fa"
+  ],
+  "Hamilton Helmer": [
+   "ike one 50th, the size of Disney World with the bigger Disney canvas, Nintendo physical experiences could be so much more. Hmm. There you go. That's my pitch. I like it. Seven powers. Powers, yes. All right. So listeners, this is the part of the episode where we use Hamilton Helmer's framework to discuss why a company gets to be more profitable than its nearest competitor. And there are seven of them scale economies, network economies, counter positioning, switching costs, branding, cornered resource and process power. Man, how do we do"
+  ],
+  "Sentry": [
+   "he great companies of the world build better, more human customer experiences. Sierra.ai slash acquired to work OS, start selling to enterprise customers with just a few lines of code and build authentication in minutes instead of months. That's workOS.com to sentry application monitoring software considered not bad by millions of developers that sentry.io slash acquired and also sentry is our partner for the annual acquired meetup this year happening on September 17th. More info at acquired.fm slash meetup and to anthro",
+   "slash acquired to work OS, start selling to enterprise customers with just a few lines of code and build authentication in minutes instead of months. That's workOS.com to sentry application monitoring software considered not bad by millions of developers that sentry.io slash acquired and also sentry is our partner for the annual acquired meetup this year happening on September 17th. More info at acquired.fm slash meetup and to anthropic. Claude is a truly incredible AI product that thinks with you, just like it thought w",
+   "elling to enterprise customers with just a few lines of code and build authentication in minutes instead of months. That's workOS.com to sentry application monitoring software considered not bad by millions of developers that sentry.io slash acquired and also sentry is our partner for the annual acquired meetup this year happening on September 17th. More info at acquired.fm slash meetup and to anthropic. Claude is a truly incredible AI product that thinks with you, just like it thought with me in preparing for this episo"
+  ],
+  "Slack": [
+   "uals, charts, tables and key illustrations from this episode. You can join the email list at acquire.fm slash email to get access to all the photos that we talked about. And to learn a hint at what next episode will be, that's acquire.fm slash email. Join the slack at acquired.fm slash slack. And with that listeners, we'll see you next time. We'll see you next time.",
+   "y illustrations from this episode. You can join the email list at acquire.fm slash email to get access to all the photos that we talked about. And to learn a hint at what next episode will be, that's acquire.fm slash email. Join the slack at acquired.fm slash slack. And with that listeners, we'll see you next time. We'll see you next time."
+  ]
+ },
+ "mentions_publicitaires": {
+  "Cursor": [
+   " for making sure everyone's favorite stuff, including Disney plus, which let me tell you, is our favorite stuff in this household. Actually works. They've got an incredible customer list, including not only friends of the show anthropic and for sell, but also cursor, linear, GitHub, and many more. If you want to learn more, go check out sentry.io slash acquired. And one last thing, Century is the host this year of the official acquired community meetup with David and me in San Francisco, Thursday, September 17th at Fort ",
+   "he whole reason WorkOS exists. They turn those enterprise requirements into drop-in APIs, your team adds enterprise SSO in an afternoon instead of a couple months and gets back to the stuff that really differentiates your product. Yes. And that is why OpenAI, cursor, perplexity, friend of the show, anthropic and hundreds of other AI startups build on WorkOS instead of building the power plant of themselves. They just plug into the grid so the product that you build over a weekend can be ready for the enterprise on Monday"
+  ],
+  "Perplexity": [
+   " reason WorkOS exists. They turn those enterprise requirements into drop-in APIs, your team adds enterprise SSO in an afternoon instead of a couple months and gets back to the stuff that really differentiates your product. Yes. And that is why OpenAI, cursor, perplexity, friend of the show, anthropic and hundreds of other AI startups build on WorkOS instead of building the power plant of themselves. They just plug into the grid so the product that you build over a weekend can be ready for the enterprise on Monday. You can le"
+  ],
+  "Sentry": [
+   " tell you, is our favorite stuff in this household. Actually works. They've got an incredible customer list, including not only friends of the show anthropic and for sell, but also cursor, linear, GitHub, and many more. If you want to learn more, go check out sentry.io slash acquired. And one last thing, Century is the host this year of the official acquired community meetup with David and me in San Francisco, Thursday, September 17th at Fort Mason. David and I are going to have a live conversation going behind the scene"
+  ]
+ }
+}

@@ -1,0 +1,768 @@
+My First Million
+$39B founder says his company could 100x in 5 years
+Fri, 14 Aug 2026
+
+
+[00:00] I think if you Google Brett Adcock net worth, according to Fortune, you're worth $19 billion.
+[00:05] So that's like a pretty good swing. How's that make you feel?
+[00:07] I don't care about that. I'll give like zero shits about that.
+[00:21] Okay, so you Brett Adcock, the short of it is that you were raised in a rural area of Illinois.
+[00:27] You started a company called Veterinary, which we sold for over $100 million.
+[00:30] Then you took a company public called Archer, which is like unmanned flying planes, I guess,
+[00:36] helicopters. And then now you have a company called Figure, which is worth, I don't know how much
+[00:40] 40 something, 30 something, 50 something billion dollars. You have another thing called Cover,
+[00:44] which stops or aims to stop school shootings. And then now you have a new thing called Hark,
+[00:49] which you've raised money in the billions of dollars. And you seem worn out.
+[00:54] Great, it was like busy, man. So you've been on, this is your third time on, I think you've been
+[00:59] on one time each year the last three years. You said you're telling a story about how I think it
+[01:04] was right when Figure started. You basically said like I had, I was worth, I don't know how much,
+[01:09] tens of millions of dollars. I put almost all of it into Figure to get started. And at one point,
+[01:14] you're like, I have a mortgage on my house, and the rest of my money is in Figure. And some of the
+[01:19] money's in Archer, and that's not doing so great right now. And since then, I think if you Google
+[01:24] Brett Adcock net worth, according to Fortune, you're worth 19 billion dollars. So that's like a pretty
+[01:29] good swing. How does that make you feel? I don't care about that. I will give like zero sheds about that.
+[01:36] You're a super competitive guy. I think you said something like, I just want to, you said like
+[01:40] win a bunch of times last time we hung out. It was like, I want to win for these reasons. I'm very
+[01:46] competitive. I want to kick ass. I think that like, you definitely have to care about this a little
+[01:51] bit. And you actually have to, I think you, I care a lot about Figure being the biggest company in the
+[01:55] world. You talk about like, you definitely have this like, the pulling and energy of like, I want
+[02:00] to be the best. I want to conquer. I think the way I would characterize is like, we're just like,
+[02:05] we're just now like these companies of mine are just not hitting an inflection point. And they're
+[02:08] really early, like they can be like really big. So if it works, this will like a hundred x,
+[02:15] thousand x from here. So most of my energy is like, how do I make sure that works? There is no
+[02:20] flat line here. It's either like, it goes down or goes up, right? Either like it's binary. Either
+[02:23] the robots go out of scale or they don't go out of scale. So in like five years time,
+[02:27] it's either going to be a very, very big thing or very bad. And so all my energy is going into
+[02:33] making this like thousand or a million x from where we're at here. And so it's like, the pressure
+[02:38] is on to like really just deliver. Where are you now? What's the outlook now for the next five years
+[02:43] then? I think last time you were on three years ago, we said that, I think I said it. I was like,
+[02:49] you'll probably be in the $40 to $50 million valuation range, which I think you are now.
+[02:53] But in terms of like, you're still lacking output of robots, like you still need, we still need that
+[02:58] to come when we're going to be in five years. What's your prediction? I think at a high level,
+[03:04] I think the AI work that we're seeing here now is going to be so much, it's going to be like a
+[03:08] hundred times bigger than the internet. It's just like everything is just so, it's just working so well.
+[03:13] Like the system is working well, like deep learning works. And everything's happening faster than I
+[03:19] would think. Am I true? Like, you know, having done like 15 years of like software on the internet,
+[03:23] like it was just like, nothing was happening faster. I'm a trend line. Here is happening like that in AI.
+[03:29] Can you give an example of something that has happened that's blown you away?
+[03:32] We started at, so HARC, I have a new AI lab called HARC. About a year ago, I was like very
+[03:37] interested in this idea of like kind of building this AI to human semiosis digitally. It's like,
+[03:42] figure is going to be like, I think figure is going to be like the max ceiling of AGI of like,
+[03:46] be able to put that out. And then there's going to be a version of this in the digital world.
+[03:50] It's going to be like a human's going to have this like AI pairing. It's going to have like,
+[03:53] also maybe your own AI weights, your own memories, maybe your own hardware, it seems like really close.
+[03:58] And fundamental to that thesis was like, you got to figure out how to get AI to use computers,
+[04:02] general purpose. You would never hire an assistant that can use a computer.
+[04:06] So you got to be able to like, give things out to it that can like, do everything you can do.
+[04:09] Financial models, look flights, like order door dash, whatever you need to do,
+[04:13] you need to be able to do all autonomously. But only one in a thousand websites have APIs.
+[04:18] So in most, you know, like most computer use globally is on the internet and browser.
+[04:23] My main inclination within two or three years, you'd have a system that you'd be able to talk to
+[04:28] and say, go do this or do that. And to be able to like, go off, go online and like, maybe like,
+[04:32] use the internet really well, like almost like a robot would where you can like, move the mouse
+[04:36] and use the keyboard. That's what you have to do to solve like general purpose,
+[04:39] this for around a computer is you, you can't rely on API or MCP. You have to figure out how to like,
+[04:44] navigate like a human can. Now at HARC, we've like, we just released our first,
+[04:49] kind of model and research preview last week. It's really hard for us to find now,
+[04:55] something that we tell it to go do on the internet. It can't do.
+[04:57] What did you guys do differently than the other, because everyone's trying to do computer use,
+[05:02] right? So like, I think Elon's got macro hard and chat GPD had their computer use thing.
+[05:06] Everybody's doing it. You guys feel like you've cracked something. What'd you guys do differently?
+[05:10] Okay, there's a couple things we did a little differently. First is like, everybody's
+[05:13] tackling this from like using APIs and MCPs. Like, the reason we're open cloud got so great,
+[05:17] it was like, it could only, it couldn't use the browser. It couldn't like, go on and use door
+[05:20] dash end to end, because door dash has no consumer API. So we tried to figure out how to use like,
+[05:25] how to look at a screen. And one is we spin up a virtual computer for every agent. So they don't
+[05:31] need like a MacBook or anything. So you could just spin up as many of these environments as you want
+[05:34] in the same boxes. And then you need to give it ability, like look at a screen and use like,
+[05:38] move the cursor and use the keyboard. Yeah, but I use chat GPD's computer use,
+[05:43] and it was doing that. I was like, Hey, book a massage and it opened up a browser and I saw the mouse
+[05:47] going and it was trying to type the thing and they would scroll results. It was bad. It didn't
+[05:51] work well, but it was, it wasn't trying to use APIs or, or MCP. It was trying to use the internet.
+[05:57] Yeah, I don't know if it's got to work well. I mean, that's the whole, but like, if it goes
+[06:01] when it fumbles on the internet, it's like the whole point is like, so that's what I was saying.
+[06:03] What'd you guys do to make it work? Well, was it like an algorithmic breakthrough? Is it?
+[06:06] It was in our post training, right? It was in our, we have a reinforcement learning process that we
+[06:10] think is maybe nobody else in the world is done. Well, let's get, let's get some context behind
+[06:15] this. Okay, so figure that is shockingly easy to understand. Humanoid robots and that
+[06:22] business is going to be massive if it works. If you can crack the code, I think you said there's
+[06:26] unbounded demand. Hark. I don't entirely understand what that is. Can you kind of explain like a
+[06:32] mediate because Sean, you should see I got the deck and it was just you talking for like an hour
+[06:39] in front of a screen. And then there was a list, there was a list of a team and it was like a hundred
+[06:44] guys who just moved here from China who had like the greatest backgrounds ever. And it seemed like
+[06:51] you pretty much just raised money because the team was amazing. And that's all the deck was. It was
+[06:56] just you talking in a video. Well, I mean, that's kind of all we had of time was started. So, okay,
+[07:01] what is Hark? I think the best way to become successful is to see how other people did it,
+[07:06] whether you're going to copy them or just use it as inspiration because then now you know what's
+[07:09] possible. So starting at the age of 24, I did this relentlessly and I was very methodical about it.
+[07:14] And I created a spreadsheet where I tracked roughly 50 people who were uber successful. And I looked
+[07:20] at the year that they were born, the year that they started their apprenticeship. And then the
+[07:24] year that they started the first thing that made them successful finally the year that they broke
+[07:29] through. And I aggregated all this data along with the stories of what they did to be an apprentice
+[07:34] and what they did to finally break through. And I put it together in a database and HubSpot went
+[07:38] and found this thing that I frankly even forgot about. But it did change my life and they resurfaced
+[07:43] it. They made it even better. And they put it into a thing that you can download for free
+[07:47] right now. So if you click the link in the description or click the QR code right here,
+[07:51] you can see this database that I made when I was 24 and it changed my life. And so if you're looking
+[07:56] to become successful or you're already successful and just want some more inspiration, check it out.
+[08:00] I strongly believe like AI will head in two directions. Like, and then at some point maybe even like
+[08:04] maybe like head together. Like the first is love AI out in the physical world that will like do
+[08:09] everything in the environment for you. Like laundry dishes, cooking, like run the supply chain into
+[08:15] end and be in healthcare. The vessel for that is a humanoid robot. It's just a human form. And it
+[08:20] will just go out and do like you like want one piece of hardware that can like, you know,
+[08:24] the hardware capable of doing everything and you put like smart AI into it and go off and do everything
+[08:27] in the world. That's what figure is working on. Step away from that, there's going to be this like
+[08:32] really close like digital like AI to human symbiosis that forms. You're going to have like
+[08:37] a very special thing that you can like talk to that's with you everywhere you go that will know
+[08:41] all your stuff, effects to all your memories, effects to all your accounts and systems and be
+[08:46] able to actually go do things for like a superhuman assistant. It'll be like, maybe the closest thing
+[08:51] is like Jarvis from Iron Man. And it will be able to do like, it'll be like super human in almost
+[08:56] every way. It'll know everything about your life. You'll be able to access it at any moment whenever
+[09:00] you need it. It'll be in the background helping you out at all times. If you're on a like,
+[09:04] if you're on a flight with like a long layover or you're in flight with like me to say a short
+[09:07] layover and you miss it, it'll like already have backup plans already help you like figure that out.
+[09:11] Like it'll just be something with you everywhere you go. We don't have that. We have like really good
+[09:14] coding engines. We have really good chatbots. But we don't have like something that can go off and
+[09:18] like be my Jarvis. In order to get there, we need to work on the like model side. It's got to be just
+[09:24] better than text chat. It's got to be able to use computers, have like basically near perfect memory,
+[09:30] be able to talk to you like just like a human would back and forth. And we have to have vision
+[09:34] in the system. It's really like look at the world and understand what you're seeing with it.
+[09:38] I think secondly, you need to have, you need to fix the interface to AI. You have like AI over
+[09:44] here in a human and you have like an old hardware system in between. Like I call like a MacBook or
+[09:49] iPhone. They were designed 20 years ago. They're a complete rubbish for AI. They're not the right
+[09:54] interface. So we went out and we are out there designing what we think comes like after the iPhone
+[10:01] for AI. And it's like an upgrade cycle. We see this all time in startups. You guys see it, right?
+[10:07] Like we're going to upgrade cycle with the computers and phones. They're just going to go away. They're
+[10:10] going to be a new one. They're going to be all AI computers and phones and systems. And they're going
+[10:14] to be great. They're going to be all real time. You can always access them and you want to always be
+[10:18] like understanding what's happening. They always be able to reference things. What's going on?
+[10:21] You'll be able to abstract away most apps. You'll probably not have an app store. You'll probably
+[10:25] have an AI operating system. It'll be perfect for you. You'll ultimately have your own weights on
+[10:30] your own devices that you'll own and have with you everywhere you go. It'll be like a really great
+[10:34] pairing. And we hired a credible team. It seems like maybe like 80 or 90 now. The guy that leads
+[10:41] hardware design apps previously designed for last several generations of iPhone, MacBook,
+[10:47] Pro. He's just done. He's great. So we're designing what we think are the next generation of AI
+[10:53] devices that will kill the phone and computer. And then we're designing the next generation of AI
+[10:57] models. The models need to get a lot more multimodal. They need to get a lot more expressive. The text
+[11:01] and coding is just not enough for us to really have a real AGI feeling with AI. So we're working on that.
+[11:07] We did our first to research preview or computers in Adjurant that we came out last week. I think
+[11:14] we were like top on some of the leading browser computer use benchmarks in the world.
+[11:19] And it'll keep getting better. This will keep getting better and better. Every month,
+[11:22] it'll be better and smarter using a computer and faster. We're working on a couple of different
+[11:26] types of technologies internally on the AI side. And then we'll launch the ability to use HARC on
+[11:31] traditional browser and iPhone and Android in about a month. So you'll be able to start using it,
+[11:36] and then we'll have hardware coming. We're working on now. We actually have a hardware in the lab now.
+[11:40] We're using testiness. It's crazy shit. The stuff is like a sci-fi movie hardware.
+[11:44] What do you think those devices look like? People have been speculating because Johnny
+[11:48] I've got his shop got acquired by opening eye and seeing the videos of the puck and then
+[11:54] this little puck and then there's an earring. I don't know if that's real or if that's fake.
+[11:58] There was a leaked commercial for the Super Bowl. Again, is that real or is that fake? What's the
+[12:02] story of that? And then what do you think these devices end up looking like? Are these watches,
+[12:07] glasses, something else altogether? I think I've really changed my mood on
+[12:10] this a lot less a year or so, but we have a really strong opinion here internally.
+[12:14] Our opinion is that what sits in the middle is devices that could possibly reach a billion units
+[12:20] a year in the world. The only kind of things that we have down the world right now are computers and
+[12:25] phones. They kind of meet that. They call it mega devices. And then you have things on the ancillary
+[12:31] around it, like orbiting this big thing that are like airbods, airpods and a watch or things like
+[12:38] this that are like they don't sell a billion units a year. They're like 3% of Apple's revenue and they
+[12:43] help the ecosystem as a platform. What we care about at Hark is trying to solve what's in the big
+[12:48] middle piece. To solve that, you got to take down the computer and the phone. There's no way around
+[12:54] that. So you have to rebuild a new computer or new a phone that's better and replaces your existing
+[12:59] systems end to end. And then what's around there is things that like you will have, we will even
+[13:04] have at Hark that are like helps with the family of devices that are not a billion units a year,
+[13:10] but important for the ecosystem. My understanding, right? You're kind of saying the next device,
+[13:16] it might be like a phone is just going to be an AI native first phone, right? You're not going to
+[13:20] try to change the form factor. No, I'm not saying that at all. You're going to want to
+[13:24] radically rethink everything. The first version hardware we have now in our lab is like anything
+[13:30] I've ever seen my whole life. What lives outside of here on the edge are like glasses and pendants and
+[13:36] wearables and things. They're not the main show. In fact, the meta glasses are probably one of the
+[13:40] worst products I've ever bought. They're just horrible. They're horrible. I can't even figure
+[13:45] out how to use it. It doesn't have its own network. It piggybacks on the iPhone network. It means your
+[13:49] app needs to be open on your phone and the pairings long. It doesn't work well. I can't
+[13:54] think of any reason why I need this thing strapped to my head for 14 hours a day. It's just the wrong
+[13:58] device. It's not. The end state is BCI in the brain. We're going to have AI language devices
+[14:05] for the next 10 years before that. That's the path. It's not classes. I don't even know if
+[14:11] classes will make our top 10 list of devices. When you and your team are brainstorming,
+[14:17] do you have a framework on how you can think outside of preexisting norms? Because when you're
+[14:23] talking about, I literally can't imagine at all what you're talking about.
+[14:27] Let's get down to the substrate level here. First order, what has changed? What's changed
+[14:34] is we have a new type of computer. I think of AI as a new type of computer. New type of automation.
+[14:39] That's here. The automation can do a few things that are... When we're designing this, we want to
+[14:43] design around key principles that can be 10x better. If it's one or two times better than your
+[14:47] phone or computer, you're not going to use it. If you're literally 10x better, what are things now
+[14:52] that a deep learning brings that are 10x better? There's a few of them. AI can basically now think
+[14:58] and use computers and systems for you. Just like a human can. It can talk to you. It can see as
+[15:02] visual understanding. It has a real-time speech to speech. It can use computers and systems for you
+[15:08] as close to as fast around as fast as a human can. Over time, it'll be just as good as a human and
+[15:12] faster in terms of success rate. You have a system that's almost like human-like in capabilities.
+[15:18] It also can have memory, meaning you can put memory into it. It won't forget anything. I mean,
+[15:23] you're perfect over time. You have a system that's almost like a human in a box that has all the same
+[15:29] affordances a human has. It's almost like the ability of... You could bring out a little human
+[15:34] around with a computer on your shoulder everywhere you went. That'd be insane. It was only for Sam,
+[15:39] though. Only Sam could see it, only Sam could talk to you. It only was there to help with Sam.
+[15:44] That was your whole life. It was getting smarter and better along the way and had perfect memory and
+[15:47] could use computers and talk to you and see. You'd be like, damn, that thing would be like...
+[15:52] It would be like be able to do anything you do on a computer.
+[15:54] Okay, so your first step with your team is like, just like, let's just get rid of any constraint
+[15:59] ever. What would be the coolest magical thing if we had a little guy in our shoulder that was AI
+[16:03] all knowing and could see and hear everything we see and hear and then give advice to us?
+[16:09] What is the thing that's going to bring? That's going to fundamentally reshape all this.
+[16:13] Okay. And then from there, we got to design around that system.
+[16:16] The competitive advantages here are that it is human-like capabilities and it has almost
+[16:21] near-previc memory. You can go back and reference over time. My phone doesn't have that. I put a
+[16:26] contact on my phone last week and I was like, I was busy when I was putting the phone number in.
+[16:30] And a day later, somebody was like, hey, did you call that person? I don't even know the name.
+[16:34] I forgot. I came to ask my phone. It's just so stupid. The whole system is...
+[16:39] And then I go in there like, order a door dash like a monkey like every day. Now I'm pushing things.
+[16:43] Like, I don't do any of that now with Hark. It doesn't end to end for me. I'm like,
+[16:46] drive to work. I just like, say, order me coffee and it's just done. It does it all for me in the
+[16:49] background. I don't have to touch anything. It's all abstracted away. And it's like, if you had that
+[16:54] little human with you everywhere you go, you would just say like, dude, even predict probably
+[16:57] bright. You want coffee today? And I'm like, eh, yeah, I do. Like, let's get, let's order a bell.
+[17:01] You know what? Make it a double shot today. And, you know, like, route it to the Hark office instead of
+[17:05] figure. Like, I can like, I was just in done. I got it. Let me take care of it. I'll say like a monkey
+[17:09] on my phone for the next like three minutes, like trying to do check out door dash. It's almost like
+[17:13] the phone is like a tool in the, it's like a hammer, right? If you want the hammer to do anything
+[17:18] functional, you have to pick up the hammer and start swinging it. Whereas the next generation is
+[17:23] basically like having a handyman next to you at all times. And so you just tell them, hey,
+[17:26] can you fix that window? Let's go fix the window. You don't have to pick up the hammer and start figuring
+[17:31] out how to use it. Start, start there. And then from there, you got to rapidly prototype.
+[17:34] So when you come over, like we have like, we've, we've designed everything you could possibly
+[17:38] think of, we 3D printed it. What were the designs that didn't work? But we're kind of cool.
+[17:43] Well, we're designs that didn't work that were kind of cool. The thing is we're building like
+[17:47] many different devices now. They cover like a pretty wide area of this. We have some pretty
+[17:52] crazy stuff that we were designing. So like, it's not like you look at that, you're like,
+[17:56] that looks like that looks like this. And it will that does over well over here. So it's like,
+[17:59] it's not as easy as drawing those parallels. It's like pretty quite radical. But we rapidly
+[18:03] prototype all this. We have like a fabrication facility that does this stuff. We like, we have a
+[18:07] whole design studio where we work on this. I like, you like use this stuff, like over the coming
+[18:11] like weeks and months, all like, either carried around with me, wear it, whatever, we end up doing
+[18:15] it. And we're like kind of down selection. I mean, we had like one of the biggest telecom CEOs in the
+[18:20] world here that actually helped with the work with like Steve Jobs on iPhone one. And he was here
+[18:25] two weeks ago. And he just come from meeting Tim Cook, you know, Tim Cook's on his way out of his
+[18:29] Apple. But he's like, we just over there at Apple and came over here and we sell our stuff.
+[18:33] And he's just like, holy shit, man, this is the first time I've ever seen anybody that could possibly
+[18:38] take out like, take out the big guys. Well, is it true to say that with like, archer, figure, and
+[18:44] Hark, the hard problem seems like, can I just mass produce this? The Hark problem is not that.
+[18:50] We think we believe now the most important constraint to really solve is like building a
+[18:54] really intelligent robot system in the world. Like, there's a bunch of robots you can go by
+[18:59] now, you can buy some from China and you get them and they're complete crap. They can't do anything.
+[19:02] They're like, when you can joystick around, that's all you can do. And you like hit a button in the
+[19:06] waves, he's got no hands, he's got nubs. And you're like, what do I do with this thing? It's a toy.
+[19:11] It's like, it's like, when I bought a DJ, I bought a DJ I drew him like years ago, and I was like
+[19:15] playing around and then like a day later, I was like, what do I do with this thing? And it was like,
+[19:18] it was like hard to set up. It didn't really work well. Like, you know, whatever, just like,
+[19:21] I flew into a bunch of trees, like it just didn't work. I was like, this is what am I doing with this
+[19:24] thing? Robots are like that now, like where you can, we can go manufacture a ton of them, but like,
+[19:29] if they're not really smart, like, it's not really going to be that helpful. We're trying to crack
+[19:33] like the true human level intelligence figure. Like, we really want to tackle like, how do we
+[19:37] make it so I can put it into any home, I can do every every every job I'd wanted to do.
+[19:41] That's what we're working on. We think that's the largest, like, like, you know,
+[19:44] think about the largest, like gap in the schedule of what we need to go solve for like, it's that.
+[19:49] Then beyond that, like, you know, people generally sometimes confuse like,
+[19:53] consumer electronics, manufacturing with car manufacturing. There's no company,
+[19:58] the company in the world that would look like, say, like, I'm scared of manufacturing this
+[20:02] consumer electronics at high rate if there's so much demand. Like, this is just possible to go do.
+[20:07] I mean, you can make them, you make a billion phones almost like, you know, pseudo by hand in
+[20:10] the world and then with some automation. But cars is a different story. Cars, like, you will die
+[20:15] trying to manufacture cars. There's like, there's like, a lot of company. Like, you just like, it's
+[20:18] so, and having seen like, you know, BMW is a commercial customer of us. I haven't been to BMW
+[20:24] in a few other groups. Like, it's gnarly. The reason why cars are so hard is that you can't hold the
+[20:29] part in your hand. Phones, you can just like always hold in your hand and go change or whatever,
+[20:32] move and hold like cars you can't. You physically can't see any robots that like literally pass
+[20:36] it to other robots that put things on the chassis. And if any of those break across like thousands
+[20:41] or 800 robots, your debt is, your little hole lines down. And so it's just like, just like
+[20:46] huge, giant robot you're building that's building the car. And with figure, you can hold any partner
+[20:51] hand. So I think we're like, if we're like between cars and like customer electronics,
+[20:55] we're like over here, closer to like, you know, we're like, you know, the 40% level over here by
+[20:59] like cell phones. Like we, you know, we just made our 1000s EVT robot for figure three last week or
+[21:05] week before that. When you say you made a 1000, those are 1000 that go to customers like BMW or
+[21:10] you're making prototypes internally. What does that mean? We have like two bit like large customers.
+[21:16] We have us as like an engineering and like AI research org that needs like robots like here,
+[21:21] like every engineer needs a robot. We need like every lab needs robots like we need like to do tons
+[21:26] of testing. There's just a lot of work we need to go do internally. We call like maybe like
+[21:31] engineering fleet we need to go to and then second one is go to customers. So we have to go into
+[21:35] both right now. We've actually shipped out robots or a third customer this week.
+[21:41] When they go to customers, what do they do? What can the robot do? What maybe can't it do at this
+[21:46] time? We do a lot of like logistic stuff right now in packages. We have other stuff we've done in
+[21:50] manufacturing, mostly just manufacturing logistics as we've done in the past. But we're
+[21:55] also talking to folks about other industries. And at this point, when it goes to a customer and
+[21:59] it's doing, I don't know what you say, like packaging work or what is that like sorting or
+[22:04] what is it doing? They just did a live YouTube video and they had hundreds of thousands, maybe
+[22:07] millions of views of people watching this robot sort packages off of a conveyor belt.
+[22:12] Yeah, I saw that. So is that the type? Is that like, would that give me an example of one of
+[22:17] the jobs? It just, yeah, that's an example of like a very close like one of the works we do.
+[22:23] Is that customer like, oh, this is awesome because I can't find the labor to do this.
+[22:28] It's too expensive to humans. This is way cheaper. Or is it just like, hey, look, today it's not
+[22:33] faster, cheaper or better necessarily. But like it's an investment in the future where
+[22:37] two years from now, that cost curve is going to work and it will be faster, cheaper, you know,
+[22:41] whatever. No, no, no, it's like, it's the pitches like they come to us and they're saying like,
+[22:45] we're dying with labor. It's like we're like, we have like really high turnover. Some areas have
+[22:49] over 100% turnover per year. It's really expensive to find talent. We have like a just a large
+[22:54] talent shortfall. The talents who are really expensive, like wages are going up. And we like,
+[22:58] we don't have a solve for this. We can't figure out how to automate all this work.
+[23:02] And we need you to come in and help us. We have an ability to make a lot of good money
+[23:06] in our contracts. And the customers make like really good ROI on this. Like you got to think like
+[23:12] a robot can do like multiple shifts per day, work 70s a week. Like we can like have a lot of time.
+[23:17] The tasks you saw like on the, on the, on the like, well, just six line that we should live stream,
+[23:22] it's actually a really use case for one of our customers. That needs to be done at three seconds
+[23:25] a package. And it seems to be done five hours a day. Like I think it's like five days a week.
+[23:30] We did that 200 hours straight at 2.9 seconds a package.
+[23:35] So we're already at human speeds. We're already doing this here. Now they're already having ROI.
+[23:40] And we're now in the early stages of like getting these out to these customers and scanning it up.
+[23:45] Over time, it will just put billions out to these groups.
+[23:49] Hey, let's take a quick break. You know that feeling when strategy is done, the brief is
+[23:52] written, everyone's aligned and you realize someone still has to sit down and actually create
+[23:55] all the content that someone is usually you and it's due tomorrow. Well, the breeze
+[23:59] assistant from HubSpot can help. It works right inside HubSpot. You can draft campaign
+[24:03] copy, blog posts, emails, all in your brand voice, all using your actual customer data.
+[24:08] So you don't create just content. You create content that converts. Check out HubSpot.com,
+[24:12] the agentic customer platform for growing businesses.
+[24:16] Can you help me with like the kind of truth first fiction? Because one of the weird things is
+[24:21] as an enthusiast or a lay person who's who's excited about this future, you can't really,
+[24:26] it's like really expensive or hard to test this, right? So I'll see like a Chinese robot.
+[24:30] And it's 20 grand if I want to buy this robot. I have no idea really what it can do.
+[24:34] I see, you know, Elon will go out there and say, we're going to build a million of these
+[24:38] things in the next year. We're going to ship them. Then you get like one X and they're showing
+[24:42] their hand and they're like, look at our hand. Look at this is the best hand you've ever seen.
+[24:46] And then there's this service in San Francisco where they'll send a robot in to clean your apartment
+[24:50] and they're like, yeah, that works today. So can you help me separate fact from fiction? It seems
+[24:54] really hard compared to most categories where I can just try the products quickly,
+[24:57] online or buy them and test them out. Yeah, 100%. So I think a few things. One is
+[25:06] the amount of like noise in the market for a signal is just like you mentioned,
+[25:11] it's out of control. I think there's just so much bullshit out there in the market. It's like
+[25:16] really hard to tell what the hell's going on. So let me summarize what I think is like the most
+[25:20] important and work backwards. Where I think the most important thing to do is to be able to
+[25:26] ship robots autonomously at scale and useful work environments. They can cook you dinner,
+[25:33] clean your dishes, make your bed, run the supply chain end to end, work in health care,
+[25:39] build a building, do logistics, that sort of stuff. That stuff requires fundamentally
+[25:45] onboard AI. You can run. So you can do like autonomous work. You can't solve it with code.
+[25:50] You need to do it autonomously. You need to do it over a long period of time. And you probably
+[25:55] need to move around and use like something in your hands and move stuff through the world.
+[25:58] You know what I mean? It's like really you gotta like do stuff economically. You gotta move
+[26:02] like electrons around. So I think at a high level, like what we care about is not like
+[26:07] the best robot that's doing backflips and running the fastest mile or dancing or in a parade or
+[26:13] running outside in the woods. Like, you know, we don't care about that stuff.
+[26:17] Dude, I can't wait until I see a figure like on a smoke break at the BMW fact like,
+[26:22] I could have been a great back in high school. But now I'm working could have BMW factory.
+[26:27] I've made jokes with you before where I was like, you started with the
+[26:30] battery, which is just like a job recruitment thing. Now you're on these world changing things and
+[26:34] you're like, well, the veteran actually is world changing. And here's why. And you gave this pitch.
+[26:37] It was very good. You're very good at pitching. You're very good at raising money. You're very good at
+[26:41] being charismatic and convincing people of stuff. When you're crafting a pitch to recruit and convince
+[26:47] people to change their lives, to uproot their lives and to trust in you and to come and build a company,
+[26:53] how do you craft that pitch and what was that pitch for some of your companies?
+[26:57] I mean, most of all, these are online. I mean, the figure master plan is on the internet,
+[27:01] on the site. Arches was up for a long time. You posted about it. Like, I think like deep down,
+[27:06] I really want to find folks that really care and are obsessed. And I'm like, I think most of my
+[27:11] time is not, I know you want to know about the pitch. Most of my time is trying to find those folks.
+[27:16] I found that even in the Bay Area, where it was probably like the richest AI and engineering,
+[27:21] like folks in the world, 90% of everybody out here is not good for jobs.
+[27:26] How do you tell who's good and who's not? I technically assess them. All of them.
+[27:31] Yeah. To do that, does that mean you need to be as good or better than them, technically,
+[27:36] to be able to assess somebody? I need to know like a certain guiding principles,
+[27:39] like for instance, I need to know like if A, if you did the work or if you like watch somebody do
+[27:43] the work. If you've done the work, it's like, it's like a scar you're carrying with you. It's like,
+[27:49] it's like dug into you. Like, you know all the details. You can talk about it freely. You don't
+[27:53] even think you'll understand how to like reverse engineer everything you've done and discuss it.
+[27:58] The folks that haven't done it can't do that. They just like, they can't even go like, they get
+[28:02] one layer and they just like go instantly blow up. They can't talk about it. They don't know why.
+[28:06] Out of 100 candidates who sound good, how many like their resume looks good,
+[28:10] the recruiter who thinks they're good, out of 100 candidates, how many would you say actually hit that
+[28:15] bar? I'll give you an example. We have a really challenging process to go through to be a mechanical
+[28:20] engineer here at a figure. You have to be able to build like actuators from scratch. There's
+[28:25] bearings and motors and, you know, we have a, we have a gearbox. We have like other sensors
+[28:30] inside the system. It's a really, it's very compact. You know, it's just a very difficult thing to do
+[28:36] in like really hard requirements. We've been doing 10 case studies a week for six months and have not
+[28:43] hired anybody. That's insane. It's insane. But when you do get someone qualified and they're competing
+[28:50] offers are companies that are larger or more liquid than you. And the offers are, I think they're like
+[28:59] tens of millions of dollars a year, right? The AI side is certainly like that. But the AI side
+[29:04] just gotten, and it's mostly all driven from meta. Like a hark, like I've never seen, I thought maybe
+[29:11] like meta was like paying these people for like a year ago. And it was like, it would go away. They
+[29:15] have not stopped. So what are they like? What's a crazy story that you've heard? We gave an offer
+[29:19] to somebody that was really senior. That was like, they were coming from XSEI, like XSEI completely
+[29:25] blew up. Like everybody just laughed and about it six months ago, which is like, it was just like
+[29:29] macro hard, like fully disbanded. Like there was a basic bunch of stuff that happened.
+[29:32] We interviewed a pretty senior guy on the AI and facade. It was great. I think I gave him like
+[29:37] a really good package of Series A stock at Hark. And it was, I don't know, I don't know, 15,
+[29:42] $20 million of stock over four years over. We do five for my companies in the early days.
+[29:48] And we transition to four a little bit later. We're still at five. And you know, I was like,
+[29:52] I think we could like 10 X Hark here pretty quick. And so I was like, okay, you have like,
+[29:58] you know, 15, 20 million. I think 10 X you have a few hundred million dollars.
+[30:01] And he takes more time. You have a few billion dollars. And I think we can do it.
+[30:05] I think we like, we have to, like obviously it's going to be hard, but I think we can do it.
+[30:08] And he got an offer for, to go to meta for 36 million, a four years of our shoes. And he was like,
+[30:15] it's kind of guaranteed cash. You know, I go there and I have to like wait, it's like,
+[30:18] maybe like $200 million a Hark or $20 million, maybe like 36 for sure, meta. And he left
+[30:24] going to meta. And they've been doing that like every can that we spot speak to is like,
+[30:28] making some absurd absurd thing. It's not stopped. They've just been, they've been at it since like
+[30:32] for like a year or a year. And they've been buying talent. They've been buying their way into the
+[30:35] AI race. What do you think of that strategy? Like, you know, even if you kind of hate it,
+[30:39] do you respect it? Do you just think it's a fool's hair end? What do you think of that?
+[30:42] I really like it. I think like the AI space is what I found is the folks that really understand how
+[30:48] to do like language pre training and mid training and post training, especially pre training.
+[30:53] And the info around super computing and data and evals and all the right stuff you need to
+[30:58] get put in place to do that right. And the amount of folks that really understand the right kind of
+[31:02] like recipes that transformers do well in, and you know, around MOE or whatever you're going to look at,
+[31:07] I think it's really hard to find. It's actually really hard to find the actual folks in what
+[31:10] they're doing. I think there's probably my rough calculus now is probably like a rough back
+[31:14] down globe is probably like 20 to 30 people in California know how to build really good AI models.
+[31:21] But is that trickling down? So you said that there was a senior guy, but like are even some of the
+[31:26] less than senior, the 20 something's, the young 30 something's, are they still getting eight figures
+[31:30] a year? No, the like the junior guys, like the guys in like their 20s, you know, like the late
+[31:36] late 20s or something, they're getting like, they're making like a few million total. So they're making
+[31:39] like 200, 250 in base, they're making like another million or whatever, like in a year in like our
+[31:47] shoes every year. And so they're going to pay like a million to like, you know, we're like 750
+[31:52] to like 2 million or so range per year. And that's, that's been driven up by meta. And but then all
+[31:58] the other labs have, have like, I've called like, I've called comp. When I asked you, what do you think
+[32:02] of that? You said I like it? Were you being sarcastic or you're, you're saying no, actually that is smart,
+[32:06] given how hard it is to get this talent? I think it was really smart. And I would have done the same
+[32:11] thing if I was, I was, I was Mark, I would have bought my way into the race. And I think he's like,
+[32:16] he's doing that now. I don't think I would have done that. I want to understand it. And I want to
+[32:21] like first order like, find the right folks that really care deeply about this and not hire like,
+[32:26] mercenaries. And he's so he hired a bunch of mercenaries. They're just purely money driven.
+[32:31] He they came over there. Nobody wants to go to meta. They just they're going there because they're
+[32:34] getting paid a guaranteed RSU package by sitting around. And what's happening is like, you don't need
+[32:41] like 1000 people or 500 or 300 to design a models. You make a really good team of 20 or 30 or 40
+[32:46] people. And that you can get there without doing this. And those people probably would care more
+[32:52] deeply about the mission where you're at and be more committed than just to be purely throw money at
+[32:57] the problem. But I think if I was like, I think it was a really good strategy and it's working,
+[33:01] I think hats off, like really good execution, their recruiting efforts and how they're structuring
+[33:06] this stuff. And it's like, I think it's like paying off for them. Jury's still out if they can actually
+[33:12] ship real products. I think like the problem I have with those groups is they've just traditionally
+[33:17] have not been able to do things new well. I mean, I think Facebook is probably going to,
+[33:21] meta is going to go down to like one of the greatest acquirers in all time with like,
+[33:24] you know, Instagram and WhatsApp and different way. They've like bought their way into those bases.
+[33:29] But like, you know, if you look at like the Ray bands and everything I was doing, I was just like,
+[33:33] it's not great work. And so I think the question really is, how do you really do great work here?
+[33:37] I think like we're even talking like we're using like the Hark system right now, and it's so good.
+[33:42] It's so much better than anything I use today. You got to send it to us. Yeah, can we use it?
+[33:47] Well, yeah, we guess you guys are early on that. Yeah, for sure. It's like research preview.
+[33:50] There's like 500 PhDs and then man Sam. Yeah. No, we'll like, like every other platform Hark,
+[33:55] what's the weather outside? I can answer that. Yeah, no problem. Like, I think what I'm
+[34:00] trying to say is like every week it was like five or 10 like junk AI slop startups or like things
+[34:05] are coming out. They're just like not very good. Like this whole space has gotten to a point where
+[34:09] like there's just not great things coming out the door. I think this stuff in Coding is probably
+[34:13] really excellent right now, but everything beyond that is like just kind of like not great.
+[34:17] On January 1st of this year, you've made four predictions for the year. I want to check in and see
+[34:21] how you think they're going. First one, number one humanoid robots will perform unsupervised
+[34:27] multi-day tasks in homes they've never seen before. Driven entirely by neural networks,
+[34:32] longtime horizons going straight from pixels to torques. How are we doing on that one? On track,
+[34:36] off track or done? On track. On track? Yeah, four months. Yeah, I see every day like what we're doing.
+[34:44] Like we're on track. The hard part here is we already do pixels to torques.
+[34:49] It just means like we're taking camera feeds and we all put like where to put the motor,
+[34:54] we want to tell the motor what to do to get to the hand and the right spot or the joints.
+[35:00] So we already do that. Getting into a new house has never seen do work. That's the hard part of
+[35:04] this problem. I'm working on that every day. This is where I spend about three, four hours a day,
+[35:09] every single day, seven days a week on this problem. So if a figure robot showed up in my house,
+[35:14] what's the bottleneck right now? It wouldn't know what to do. It wouldn't know where to go.
+[35:19] It wouldn't be able to fine tune, handle by dishes. Where would it suck for me?
+[35:23] We can fold laundry like as an example, but then go into a new place where we're folded in
+[35:27] a different location with different lighting and maybe different like table height and different
+[35:31] types of laundry and different types of scenarios. It's never seen before. It's like the models
+[35:35] like out of distribution. It doesn't know what to do. It's like if you removed all the pyramid data
+[35:40] from the pre-training of LLMs, it wouldn't know how to talk about pyramids. And we just like we don't
+[35:45] have enough of that data out there. It's not on the internet. So you have to go out and collect it.
+[35:50] So what we need to know is like how much of that data we have to go sample in the world
+[35:54] to be able to train the model, to be able to go into your house and say fold close is a good example.
+[35:59] Hey, stupid question. Why do all the robot companies care about folding clothes and doing laundry?
+[36:05] Wouldn't it be cursed to better just to say, hey, we're going to build like the best warehouse worker
+[36:08] because there's already 20 million of those in the world and that represents this much
+[36:12] and of course that buys us the runway to like get the robot folding robot done.
+[36:18] But why do I care about that at all today? Why not just industrial work that people don't want to
+[36:23] do, companies need done, they're ready to pay and it's not like my home where there's all these
+[36:27] other sensitivities. What do you guys care about that right now? Oh, we didn't care about it in the past.
+[36:31] When we first launched, we're like, we're going to basically do the commercial side to pay for the
+[36:35] home long term. And that was the strategy. It made a lot of sense. We can charge a lot more in the
+[36:41] commercial market. It's like much easier to do. It's like lower veritability. We're in like a
+[36:45] little work. So I can just work 24 seven just so much simpler. What I've learned now is that
+[36:49] the home is super solvable today. So like, we can like not go work on that problem and just like
+[36:55] sit here and work in a warehouse. But me or none of my guys want to solve that problem.
+[36:59] We want to solve a robot that can go into any environment just through language and do work.
+[37:04] We want to be the first to do that. You can probably do that with 100 robots and a 50 person team.
+[37:09] So that company overnight would be a trillion armor cap. That sounds good. Do that.
+[37:15] Like we're going to solve that. I think we'll be the first we call it like solving general
+[37:17] robotics. And I robot don't they attack the humans? I don't remember this movie very well.
+[37:23] Yeah, don't worry about it. Not that part of my room. Who could win it? Who could win in a fight
+[37:28] right now? Can a human still win? Yeah, a human still win. Okay. One of the other predictions.
+[37:33] Other prediction. One you had on your daily AI usage will shift. People will move beyond
+[37:38] text to highly multimodal voice agents with persistent per persistent memory will become common,
+[37:44] which will push AI closer to the synthetic human intelligence we've imagined in sci-fi.
+[37:49] We're doing that a hark. We'll ship that in a month. And our first version of it will get better
+[37:53] and better. I think we're on track for that. Have the labs ever like has Chad GPT or Claude
+[37:57] have they ever released the data on this? Like I use a ton of the voice thing Sam. Do you use the
+[38:01] voice stuff a lot? Yeah, I don't type really at all. Yeah, I wonder it's probably already a huge
+[38:06] percentage. It's gotten to the point where like offices need to change like these open-air
+[38:11] offices that are like popular in startups. They're kind of whack right now because like I want to
+[38:15] talk in private. Yeah, yeah, a lot of engineers have microphones now where they're whispering and
+[38:21] they're just like in hushed tones whispering to their computers. Yeah, like I didn't I was like
+[38:25] talking last night. I was like Claude, why am I so indecisive? And then my wife was like,
+[38:30] yeah, like she's like, man, dude, chicken to hear everything. I'm talking to Claude about now. Yeah,
+[38:35] no, I talk all the time, but it's embarrassing. Yeah, like even speech still like sucks. It's still
+[38:42] not great. Like it's almost like you set up, you have to go there, you have to turn on like it
+[38:47] doesn't really remember what you just talked about. Like it can do tool calling and computer use
+[38:51] very well. Like it's just like limited and these like you have to use it for a certain session.
+[38:55] I don't know if we'll hit it this year, but certainly in 2027, you will hit like a full human
+[38:58] Turing test with speech. You'll be able to take a phone call from an AI system on your phone,
+[39:03] and I'll be able to fool you guys. I'll be able to have a human call you and a robot call you.
+[39:08] And I don't think you guys will tell a difference. That's a 2027 effect. I feel pretty strong.
+[39:14] Today's podcast is brought to you by my friends at Mercury. They make the world's best banking
+[39:18] product. I think you know this already. I use Mercury for all of my businesses. I think I have like
+[39:21] maybe seven or eight businesses we use Mercury as our business banking across all of them.
+[39:26] And now they actually just launched a personal banking account. So I have my personal account
+[39:29] there. I moved off of Wells Fargo and Chase. I'm just all in on Mercury. Why? I like products
+[39:34] that are easy to use. I like products that get me and the problems that I have. So like very easy
+[39:39] to make a joint account with my wife. Very easy to spin up virtual cards. One click and I get savings
+[39:44] yield. It just has all the stuff that I need in one place. So if you're looking for the best banking
+[39:49] product on the market, it's definitely Mercury. I will fist fight anybody who disagrees with me
+[39:52] on that. Go to mercury.com slash personal and learn more. Mercury is a FinTech, not an FDIC
+[39:58] insured bank. Banking services are provided through Choice Financial Group and column NA members FDIC.
+[40:04] All right. What's the third and fourth? You had over the past 10 years, school shootings
+[40:07] have increased by 10 X. In 2026, the first full scanning system capable of detecting weapons
+[40:13] from a 20 foot stand up will be built and beta tested in a K-12 school. Man, we're going to be
+[40:18] we'll have our first we're building our full-scale system starting in October.
+[40:23] And I think it'll well, I think we'll bring it up before in the year. I don't know if it
+[40:26] will be out of K-12 schools. We might miss this one by a quarter. Do you have separate CEO running
+[40:31] that one or you're the CEO also of that company? I have a chief engineer from JPL and NASA. That's
+[40:36] like really good. And it's mostly a pure engineering project. There's like really not much to do in the
+[40:41] business side. Like there's, you know, we have like some supply chain stuff and everything. But most
+[40:46] of it's just like purely, can you build a system that can detect weapons? Well, it's partly like a
+[40:50] hardware problem. It's probably an AI problem. It's like roughly like a large scale and it's like
+[40:54] an interesting deep deep tech deep engineering problem to solve. And my whole team is just all
+[40:59] of engineering. They're really good. We've actually made a pretty big change of cover. We would already
+[41:03] be in market by now and I like I pivoted the whole technology system about a year ago.
+[41:09] We were building this like we basically I found a way to do everything very cheaply in in silicon
+[41:16] in ships and reduce the price by like 90% make it much more scalable, make it work better and
+[41:22] we pivoted. The problem was that the fabrication times for designing our own ships and getting them
+[41:27] out took about a year. So we just got those chips in like a couple months ago and we're testing them
+[41:32] and they're awesome. Now we need to make more and there's another six monthly time to make
+[41:36] even more of them. So we're like dealing with like real silicon long fabrication of very difficult
+[41:40] ships lead times now. We'll be out of this at some point, but it's not like chips you can go off
+[41:46] and buy it off a shelf. These are like custom design cover chips that nobody's really ever
+[41:52] designed before that we had a special fabricator in Europe that had to go make up and it took about
+[41:57] a year. Hey, you are firing on all cylinders right now professionally it seems and I actually
+[42:04] would like to know like what's the trade off for the life that you're living right now because
+[42:08] you're very optimistic you seem excited, but what are all the trade offs? Yeah about five years ago
+[42:14] I had like a like you know like having kids and the companies I had an issue where like I think
+[42:20] of my life is like three pockets. I have like work to care deeply about my family. I'm like three
+[42:25] kids. They're pretty young right now. And then I have like the call like the other stuff was like
+[42:29] a friends in town or you need to go the angel golf trip or like it's a bachelor party or like
+[42:34] you know it's a wedding in like Europe or whatever it is like in this bucket over here.
+[42:39] And I felt like I needed to make a decision on like I didn't need to do like if I want to use any
+[42:44] of these well I kind of like I can't do all three. And what I wanted to do really well is like family
+[42:49] and I wanted to do like business stuff. I want to just like I want to be like A plus in those areas.
+[42:54] And so I basically stopped the third bucket. I don't like I don't like do anything anymore over here.
+[43:00] So like a friend I had a friend in town from a college. It was like my freshman roommate and he
+[43:04] was like I'm in town for 10 days in the Bay Area. I want to meet up. I haven't seen him like you
+[43:07] know for a long time. It would be great to get a coffee. I was like I mean I'm gonna be real I
+[43:11] don't have any time. I can't I can't meet you. He's like I'll make myself available coming to you.
+[43:15] I was like I literally have no time. Every minute I'm away from one of these two is a minute I'm
+[43:19] away with my family or work. And there's almost a limited amount of time I can put in both those
+[43:23] buckets. Can I ask you about your workflow? You made a joke you're like I don't use Slack. If you're
+[43:28] comfortable could you just like hold up your phone right now? What's on your what's on the home screen
+[43:32] of your phone? What's your app set up? What do you got? Oh well you got to open it up. Oh what's
+[43:39] my oh see my so you have just tons of texts. This is like my those are all I think slacks and texts.
+[43:45] I mean I use Slack. I just I can't get through it. They're in a day. I have heart going through it. And
+[43:48] then they heart text me. It gets important. I need to look at it with a link.
+[43:52] So what's your setup like? What's your like day when you use a laptop at all? Are you only on the phone?
+[43:57] Use a laptop. Yes. Laptop a lot. Laptop and phone. I would say I use Hark now for all my
+[44:04] AI stuff into end. I'm even like tracking like stuff I'm doing on engineering projects recruiting
+[44:09] all of it. I do a track. It's my email. It's my slide. What about your to-do list? That's all in Hark.
+[44:14] Hark made us all that. So what about before Hark? I would my to-do list was
+[44:21] done in the Google Doc. I had like a doc called replanting and it would constantly keep updating
+[44:25] every week. I would come in on Sundays usually and update my plans for the week and I updated
+[44:30] there. And what about health? Are you doing anything for health? Yeah I do like I've gotten like
+[44:36] access to some special doctors and things now or they basically send you through like the
+[44:40] quarterly blood tests and like the whole body scans and like the CT scans of the heart
+[44:46] everything and it's been honestly unbelievable. What was unbelievable about it? The amount of
+[44:51] data you get back and then at thoroughness of all this like like for instance like you know if you
+[44:56] get a CT scan of your heart for like 100 bucks I think you can basically prevent heart attacks.
+[45:01] You can get a full body MRI and I think you can like have early cancer detection. A lot of
+[45:06] blood work can find some anomalies that you can go fix and better for your health. So there's like
+[45:10] maybe like a dozen of those. Yeah but the solution to all those things are probably things you're
+[45:14] unwilling to do. It's like you're probably willing to eat whole foods but like it's like get up,
+[45:18] go for walks, exercise and that was outside of your buckets of focus. Yeah unfortunately I haven't
+[45:26] been able to have enough time to exercise enough but you know e-write like I've like I eat pretty
+[45:32] well now. Yeah I mean listen like something's got to give I can't say here all day you know what I
+[45:37] got to go work. I like you know I want to go crush these businesses.
+[45:42] When you you wrote an event like our prep doc you said I went all in on my first three startups
+[45:47] and I pretty much hit rock bottom every year. Can you describe what you mean by rock bottom and
+[45:53] what is your method of dealing with rock bottom? What's the conversation you have with yourself or
+[45:58] kind of the entrepreneurial strategy you have when you kind of hit those lows? Yeah I basically
+[46:06] almost for like 15 years was like always running out of money. You know a veteran we we had a couple
+[46:12] pivots early on we'd have raised like a $500,000 convertible note in 2015. I at that point I think I
+[46:20] took out like a 50 or $100,000 a hour loan. I was not paying myself a salary as a New York City.
+[46:26] I was like so broke I was in the negative. We raised the convertible note it did not look great
+[46:32] and I think it was like six months later we launched the marketplace a
+[46:38] veteran and it just like completely took off and then a year later we sold for 110 million.
+[46:42] And I think that period from 2012 to 2017 was just like I had like basically like debt
+[46:50] things weren't working and it's hard. What's the inner monologue? What do you tell yourself?
+[46:56] The inner monologue is like this really sucks super painful. I think at that point you just got
+[47:00] to go like day for day. You just got to make it like day. You got to make when things get really
+[47:03] bad like that you got to build a punch list and you just got to get through it. Like there's
+[47:06] only way out us through. So you need to build a punch list and you need to get to day to day.
+[47:10] You got to go day to day. You can't go week to week, two days can't look at Friday. You got to go
+[47:15] every day get to the next day pile through it. I was training for this ultra marathon and I hate
+[47:21] like really long distance running and I read this story about this guy who kind of helped me and
+[47:26] he was like just all you got to do is like pick something like it doesn't matter if it's 100 feet
+[47:30] or half a mile in the distance even though you have 49 miles left to go in the race. Just pick
+[47:34] something half a mile away and tell yourself once you get there then you'll consider quitting.
+[47:38] And then you get there and you're like okay maybe I have a little bit more and you pick
+[47:42] another thing just like only 200 yards away. You're like okay I'll consider quitting when I get to
+[47:46] that. Yeah it was great. I think it's exactly how I thought about it. But it was like it's like okay
+[47:49] so then I sold the battery and then I was doing archer. I was like oh man it's made 110 million
+[47:54] like 12 acts all the adventure guys. And then I was like we're going to raise money. I'll be
+[47:58] raised money to be fine. And like everybody's like what are you doing? For archer. Yeah everybody's
+[48:02] like what are you doing? We're not going to find this. What are you talking about? How do you fight
+[48:06] that inner monologue where everyone says you're stupid and wrong and this is silly. Just go do
+[48:11] software. It's coming from place conviction. Like I know I'm right because I've done the work.
+[48:16] I understand it. I'm on the floor. Yeah but the odds are still against you right?
+[48:20] But that's that's that's the game. That's when you play this game. It's like you like sign up and
+[48:25] like 95% of everybody around you will fail. Like I remember what veteran we like we we started at the
+[48:29] NYU incubator. I was like so excited. We got in like the one of the like the semesters and there was
+[48:34] like I think it was like 50 companies that were there. We started in Soho. It was great. We had a
+[48:38] great time. The I think if you look back like I think like five years later me and one other guy are
+[48:46] the only two people that made greater than zero dollars. When our team 48 companies went to zero.
+[48:52] And I was just like holy shit if you're around this game for long enough like everybody dies.
+[48:57] And that's everywhere. It's been like that since for 20 years now I've been watching around. You
+[49:01] like you see all the tech crunch stuff and things on X about people raising money and just like
+[49:06] overtime that all just kind of fades away. And it's just really brutal. So I had to like I had to like
+[49:12] you know I had to like I bought a house and like I had to put all the rest of money into archer.
+[49:18] And then I had like a stock lock up. So even while I was coming over to figure like the like the
+[49:23] stock was like unlocking. I was funding figure with stock from archers. I had no other cash.
+[49:28] Stock was coming down the stock was just like literally like a falling knife was at that point.
+[49:33] It was just like you know I think it went from like 10 bucks to like two and it's since like gone
+[49:39] up a lot. But like I had to take a second mortgage on my house to do even fun figure.
+[49:45] We asked you one of your philosophies and you said I believe that doing hard things is easier
+[49:50] in many ways than doing easier things. Can you explain like everybody's trying to do easy things.
+[49:56] When you work harder things you have like less generally like overall probably there's like
+[49:59] first order like less competition. You have probably like a hard thing probably means like it could
+[50:06] be a potentially like really big Tam. Really big exit if it works. You have like just like you know
+[50:10] risk reward trade. You have folks that probably want to work on hard things. Probably like the best
+[50:14] over achievers in the world that kind of want to once the work there. Generally like you know
+[50:18] hard things have this like binary payoff for investors. They were like really want to fund those
+[50:21] things because we could have like a hundred X return for the portfolio. And I think there's like a non-linear
+[50:27] curve to scaling like here. I mean the difficulty here. I mean like I think a lot of the hard things
+[50:32] are not like 10 or 100 times harder. I think the hard things sometimes are like two or three or
+[50:36] four times harder. A five times harder but they're not a hundred times harder. So you might have a
+[50:40] hundred times better payoff but it might be like three or four times harder. I'll give you an example
+[50:44] in robotics. I think like largely building like quadruped robots like four-legged dog robots versus
+[50:50] humanoids like probably humanoids are probably like three times harder than that. Maybe four.
+[50:55] That's it. But like there's really no I don't think it's like really a really
+[50:57] market for humanoids like those dogs. I think it's just like a niche thing. I don't think it's a real
+[51:02] business for it. And I don't know anybody really at this point like really wants to spend a lot of time
+[51:06] on that. So like you do humanoids like okay three times harder but it's probably like a million times
+[51:11] higher payoff. Probably like a million X or a billion X higher R for that. You know what I mean for
+[51:17] investors for humans that want to work there get stock and participate in upside and for
+[51:21] everything else. Like why would you ever like want to work on like four-legged dogs? Well what
+[51:26] economic value you can have like a robot dog bring that scale. Like if you really understand it
+[51:31] like I think there's everybody's trying to do the easy work and it just becomes really difficult.
+[51:36] You know like look at look at all the AI slop like open claw harnesses out there today.
+[51:41] It's all crap. It's all not good. They're all going to go. I don't think any of them will make it
+[51:45] long term. You might have some consolidation here and there for Aqua hires and stuff but like
+[51:49] that's going to go all the way. Dude you talking so many absolutes. Has that not gotten in you in
+[51:54] trouble ever? I don't know. I mean mark my words like like you think like have you guys even used
+[51:59] open claw since then? No I don't know how to. I never trusted open claw to set it up. I was not
+[52:08] using it. I don't use anymore. It's not very good. Like just the waves over. I don't know just I'm
+[52:13] just trying to say like I think it's like I think the most important thing you do as a founder
+[52:17] is a thing through what you're going to actually go do because you're going to spend the next 10-15
+[52:20] years doing it. It'll map the whole course, the probability course, the probability weighted
+[52:27] decision of our probability of potential outcomes. Well but you're talking about a very particular
+[52:34] game. Like for example as you've said you're like we're going to be a trillion dollar company or
+[52:39] we're going to go bankrupt. It's binary. Most business is not binary. You're playing the game
+[52:45] where binary is the outcome and that's what you like. But it's not like that for a lot of
+[52:50] people. Like for a lot of people if they can build a really cool 10 million dollar year business
+[52:55] that's a massive home run. Is it with like if like they can do that well and you look back when
+[53:00] you're 70 or 80 would they would you've asked the same person? Hey you go to a really cool
+[53:03] five or 10 million dollar business. You did it for 30 years. You didn't do anything else. You
+[53:07] didn't try anything else while you're doing it. You just work on that business. Would you have gone
+[53:10] back 30 years ago and try to take a bigger swing? Like would you have taken a different swing than
+[53:15] like that?
+[53:16] Veteran is my bridge. I stayed inside a veteran for like seven years. Like we literally built
+[53:21] like a marketing automation tool for us internally. And then like a year later I was like,
+[53:25] oh man, look at this. It's outreach.io. And it was like a billion dollar company. We built that
+[53:30] internally a year or two prior. And then like watching all this different stuff happen.
+[53:35] And I was like, man, we like we actually did some of this work internally. It's like value less
+[53:38] than some other groups out there. Like this whole decision of like what you spend time on is like super
+[53:42] critical for startups. Assuming like there's a, I do think startups are like, I think it is kind
+[53:48] of binary. Even guys that get the 10 million dollars, there's probably like another 90% of those
+[53:52] folks that just didn't make it when they're out there trying. So I think it's just, I think it's just
+[53:55] hard. And I think, dude, kudos to guys getting into like five or 10 million in business. That's
+[54:01] hard. Especially doing that if we maybe look a little bit of capital or no capital coming in.
+[54:06] Hey, we'll be asking you real quick about your other stuff you've seen. So I'm sure because
+[54:10] you're doing really interesting work, you meet other founders that are doing interesting things in
+[54:16] unrelated spaces and not humanoid robots, but equally cool, interesting peak at the future.
+[54:22] I think you've probably seen more of the future than us and definitely more than most of the listeners.
+[54:26] Can you give us anything that you've seen or heard or read about and found you've met that's
+[54:31] doing something that's like, oh, yeah, you guys realize, right, the future is actually going to look
+[54:35] like this. And we're just not, it's not evenly distributed for all the rest of us yet.
+[54:39] I like, I like looking at, I like trying to think through this problem of what was the
+[54:43] world going to look like in 30 years? Or is there where everything's headed? I think we
+[54:48] have an energy problem. Like not an energy consumption, like a generation problem.
+[54:54] So how we, well, maybe both, but like, ultimately, how do we like generate more energy as like a
+[55:00] species? I think there's like, there's like a, there's like a secular trend here that you want
+[55:04] to go ride and really help. And I think there's a lot of work done correlating this to like,
+[55:09] like standards of living for humans. So I think there's a lot of work here. Like,
+[55:13] what is that next generation? Is it solar? Is it wind? Is it nuclear? Like, and then there's a
+[55:17] bunch of different traits inside of here for fusion and fission and the rest. Like, I think it's a
+[55:21] really exciting area. I think it would take a long time, but you need like, you need like a really
+[55:24] great entrepreneur is like, they're stopping that stuff. I think AI is just going to dominate
+[55:29] a lot of stuff in the next 10 or 20 years for all of us here. I think it's going to be like a
+[55:33] hundred, we all live to the internet. Like, I think it's going to be a hundred times bigger than
+[55:36] internet. I think it's going to be so, so big. It's going to, AI is going to eat the whole internet.
+[55:42] It's going to get all up. And I think it's going to be extremely like large trend, both physically
+[55:46] and digitally. What are there any products that you're looking at or companies that you're looking
+[55:51] at now that are not already the mainstream that you think are good examples of what you're talking
+[55:55] about? I mean, we're working on this stuff at Heart Configure. It's unclear. We're still in the
+[56:00] spot where like, it's really not clear who's going to do well here and this stuff, but we're in this
+[56:05] like foggy area for a lot of these stuff of work. There's no been no breakout here.
+[56:10] There's been early wins and early breakouts, but there's like a next leg here that we're
+[56:14] going to go through. And we're like, we're in it now. I think we'll know more in the next year,
+[56:17] too, what that really looks like. But I mean, I've used like every AI device out there,
+[56:24] haven't been super thrilled. I don't know if you guys are seeing stuff in the market for these
+[56:30] type of things, but like I haven't like, you know, been like, man, this is like a crazy, great product.
+[56:34] I like the small stuff. Like I whisper, whisper flow has like pretty meaningfully changed
+[56:39] how I communicate. Yeah. That's been pretty cool. I think that's been my big stand out the last six
+[56:44] months. What about last question? What about people who inspire you? Because you're,
+[56:51] you have very high standards who or what type of entrepreneur or who are they
+[56:56] dead or alive that you lay in bed and you're like, how would this person react to this situation?
+[57:02] Or how do I have an attribute similar to the attribute this person has?
+[57:06] I think I really admire the folks that are like fully dedicated in their craft. You really watch
+[57:10] the micro Jordan documentary. He's just like, he's just like, I just want to be like the best in the
+[57:13] world at this. I think for like first, starters have the same thing too. And I think first and foremost,
+[57:19] like, you know, what I can read, I never met Steve Jobs, but like my Lord, like stories I've heard
+[57:24] and everything else, the guy was just like an unbelievable operator and product I'd found her.
+[57:28] I've also got the note. Jeff Bezos was pretty well. He invested in figure and he's been here
+[57:32] a lot of times. And I think I think Jeff's has been a really good soundboard for a lot of things
+[57:38] we've gone through. I had Jensen in here last week again, like we are fairly close. And I think
+[57:43] Jensen is just an unblended operator as well. He's very hands on as a very unique way of managing
+[57:49] Nvidia and its organization last 30 years. And it's I think he's like, he's had a lot of really good
+[57:54] things. What advice did Jeff give you that was meaningful?
+[57:58] Jeff said one last time he was here, he's like, listen, you're at a really interesting period
+[58:01] because like you figured out how to do this somehow. And the next year or two, you're
+[58:05] they're going to figure out how to break through and really get this like working in a bigger way
+[58:08] or you won't. And like, this is like your, it's game time for you now. And you got to just get wired
+[58:12] in and like figure out how to break it out and make a single work and scale it in your,
+[58:16] it's a really interesting point. I don't know how you got here and I don't know why you got here,
+[58:19] but you're here and you need to figure out how to like your next, you know, you're on the big field
+[58:23] now and your next big push is going to like make or break it. So I think he's largely right. Like,
+[58:28] I think we're like, we got robots not doing this stuff autonomously with AI models, which is crazy.
+[58:32] I think four years ago, you've been like, I've been like, no way, like no way.
+[58:36] Dude, four years ago, I came to your office and you just had a knee working. And I was like, oh,
+[58:40] that's a knee. That's cool. It all was a knee. You had like, there was five engineers. You're like,
+[58:46] this guy just got done building the Tesla X or cyber truck or something. This guy did this
+[58:50] amazing thing. This guy should cancer. Look how the knee moves and the ankle has door so flexion.
+[58:56] And we were just sitting around looking at this knee and that was like the coolest thing.
+[59:00] I know. I mean, it's like, and then now we have like AI that's working on a humanoid robot.
+[59:03] We're taking in cameras. It's doing inference on board. It's all pretty well, the joints go up,
+[59:07] you know, it's, it's unbelievable. And it's crazy. It works. And, and, you know,
+[59:15] the next leg up is just like making that work at higher scale. So I know these have been great.
+[59:19] I think is, um, I don't know. I think those are kind of some like, I think really good folks to
+[59:23] look up to that really like, like love their craft deeply and really care. Well, Brett,
+[59:28] I think it's time for you to get back to work, my friend. Great. Thanks guys. It was good to see you
+[59:31] again. Thank you so much, dude. All right. That's it. That's a pod.
+[59:45] All right. Let's take a quick break. I want to tell you about marketing school. It has a podcast
+[59:49] that is part of the HubSpot podcast network. And it is run by Neil Patel and Eric Sue. And these
+[59:54] guys are both marketers who are running businesses. And so if you want real world tactics from practitioners
+[59:59] who are actually out there in the field doing it, this is the podcast for you. Check it out
+[60:02] wherever you get your podcast.

@@ -1,0 +1,29 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "Peter Steinberger: \"Fun Is Velocity\"",
+ "date": "Tue, 11 Aug 2026",
+ "date_iso": "2026-08-11",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/Peter-Steinberger-Fun-Is-Velocity-e3n9eat",
+ "duree": "00:41:52",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.4,
+ "taille_transcript": 36110,
+ "transcript": "peter-steinberger-fun-is-velocity-transcript.txt",
+ "nb_outils": 3,
+ "outils": {
+  "Claude": [
+   "the Mac mini sold out. I think they still sold out. I got more invites to podcast in a month than I did in my 39 years before. And Tropic sent an email. Demanding the name change. And like, drop the lobster. And the project melted a few times. Claudist became Claude Bot. Then it was a very short time where we don't talk about the name. And then it started on OpenClaw. Jameson called it the most successful open source project in the history of humanity. Meanwhile, my inbox was flooded with reporters, security people, and "
+  ],
+  "Cursor": [
+   "really nice about it is because I do a lot of Mac software, agents love to take over my screen and click around, and if you put that in their own, if you give them their own machine, it will not bother you. Otherwise, you'll fight with the agent for the mouse cursor. Do you still read your code? I think I answered that a little bit with the term risk management, and also if I do open source by myself, it's a different risk management than if I do software at OpenAI, where we do still read all of the code. Peter, how woul"
+  ],
+  "Discord": [
+   "'s not an indicator to have product market fit, I don't know what it is. So I spent another month tweaking the details, thinking, what could I do to explain the world? You know? And then the audacity, someone sent me a pull request to my WhatsApp relay to add Discord support. You know? Like what part of the name are you not getting? I let the PR sit for a while. And I was thinking, and I was thinking. And eventually I was like, yeah, what the hell. And none of our relay became Claudius, as I'm good with names. And there's",
+   " hell. And none of our relay became Claudius, as I'm good with names. And there's no more than one message channel. And so you understand how early this was. I didn't even have compaction built in yet. So at some point it would just stop. And just in time for Discord, I added a very hacky version of compaction. So it was around New Year's Eve. And as you do, I went home early to hack on it some more. And then in the first week of January, just as the gig world collectively was learning about coding agents, I created a Dis",
+   "ord, I added a very hacky version of compaction. So it was around New Year's Eve. And as you do, I went home early to hack on it some more. And then in the first week of January, just as the gig world collectively was learning about coding agents, I created a Discord room, server, guild, however we call it. And I put my claw in it. And I remember the first night vividly. People would be joining Discord and they would like watch me build it in the open. They would try to hack it. They were like talking to it. They were get"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

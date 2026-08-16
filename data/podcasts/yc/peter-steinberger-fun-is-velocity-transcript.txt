@@ -1,0 +1,615 @@
+Y Combinator Startup Podcast
+Peter Steinberger: "Fun Is Velocity"
+Tue, 11 Aug 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/Peter-Steinberger-Fun-Is-Velocity-e3n9eat
+
+[00:07] Six months ago, I was the future.
+[00:11] These days, the pulsate, I got mocked by an anime girl.
+[00:16] You know I get questions like this almost every day.
+[00:21] Usually I ignore it.
+[00:23] Or I give the media answer.
+[00:26] Today, you get some real ones.
+[00:30] It's going to be five questions, 40 minutes.
+[00:33] And I know what you might all came for.
+[00:36] You came for loops, graphs, making codecs go brew.
+[00:40] This is free on my Twitter.
+[00:43] This will help you to survive the roller coaster that might be coming for you.
+[00:50] Yesterday Boris told you to let the model cook.
+[00:55] I'm the guy who found out what happened when tens of thousands of people
+[01:02] let it cook at the same time.
+[01:04] Let's start with the question everyone asks first.
+[01:06] How if open claw only is eight months old?
+[01:10] You know it might be eight months in human time.
+[01:13] But in the eye times, it's more like four years.
+[01:17] And my source of inspiration is usually being annoyed.
+[01:22] So on a rainy day in November, I was chuckling some agents.
+[01:27] But I was also hungry.
+[01:30] So I wanted to make sure that my tokens are put to good use.
+[01:34] But I rate the kitchen.
+[01:36] And there was still no good way to just send a prompt from my phone to my computer.
+[01:43] So some agent could check out how my agent's actually doing.
+[01:48] Remember, early 2025?
+[01:51] And you guys, this is my first silent discourse.
+[01:54] It's a very new experience.
+[01:56] Give me some hands if you actually listen to me.
+[02:00] Amazing.
+[02:02] Amazing.
+[02:03] You know, early 2025, oh my god, we're talking the old Opus 3.
+[02:09] Shame in I 2.5.
+[02:11] Opening I had O3, which was the most impressive one, but also really slow and expensive at times.
+[02:18] And I got a dopamine hit when my agent did something right.
+[02:22] I'm sure you remember this time.
+[02:26] If they get something wrong, I usually question myself.
+[02:31] Did I resign the loop wrong?
+[02:34] Did I not give my agent everything they need to verify their work?
+[02:39] Do I have an error in my thinking?
+[02:42] Am I asking for impossible things?
+[02:45] So I came back from the kitchen, and my coding agent stopped because of something silly.
+[02:53] And I was annoyed.
+[02:56] So I spun up a new terminal session.
+[02:58] I rambled my idea in, and I let the model cook.
+[03:02] It built me a WhatsApp relay.
+[03:04] And in an hour later, I could send messages from my Mac to WhatsApp and back.
+[03:11] And that in itself felt magical.
+[03:14] But really, it shouldn't have.
+[03:16] It's like we all did this for months already, right?
+[03:19] We opened the terminal, and you type something in, and you get a reply.
+[03:24] But the magic is how it felt.
+[03:27] It wasn't a terminal.
+[03:29] It wrote concise answers.
+[03:33] It was proactive.
+[03:35] Like sometimes it was just like, check on me during the day.
+[03:38] I made it so that the complexity would melt away.
+[03:43] You don't have to think about which model, which context size, or when you start a new session.
+[03:48] And I prompted the way it's a little bit outside the default distribution.
+[03:54] Make it feel more like a friend.
+[03:57] And I was using it.
+[04:00] I had so many moments where I felt like, this is the future.
+[04:04] This is AGI.
+[04:06] And you know what?
+[04:10] Nobody cared.
+[04:13] Back then I already had a good following on Twitter.
+[04:15] And I know it's called Ixna.
+[04:17] I'll always call it Twitter.
+[04:19] People were not getting it.
+[04:21] I would keep trying to make them understand how magical this felt to me.
+[04:27] But week after week I failed.
+[04:33] And you notice a pattern?
+[04:35] It annoyed me.
+[04:36] So I would create group chats with friends.
+[04:40] And I added them WhatsApp relay.
+[04:43] And I would show them.
+[04:44] I would let them talk to it.
+[04:46] And every time I got a strong emotional reaction.
+[04:50] Some people were amazed.
+[04:52] Some people were scared of freaked out even.
+[04:56] But each time there was a strong emotion.
+[05:00] And the best part, there were quite a few people that really wanted it.
+[05:05] And especially to my non-technical friends, I told them, no, this is not yet for you.
+[05:09] And they got mad.
+[05:11] So if that's not an indicator to have product market fit,
+[05:15] I don't know what it is.
+[05:17] So I spent another month tweaking the details, thinking, what could I do to explain the world?
+[05:28] You know?
+[05:29] And then the audacity, someone sent me a pull request to my WhatsApp relay to add Discord support.
+[05:36] You know?
+[05:37] Like what part of the name are you not getting?
+[05:41] I let the PR sit for a while.
+[05:43] And I was thinking, and I was thinking.
+[05:46] And eventually I was like, yeah, what the hell.
+[05:48] And none of our relay became Claudius, as I'm good with names.
+[05:53] And there's no more than one message channel.
+[05:56] And so you understand how early this was.
+[05:59] I didn't even have compaction built in yet.
+[06:01] So at some point it would just stop.
+[06:04] And just in time for Discord, I added a very hacky version of compaction.
+[06:10] So it was around New Year's Eve.
+[06:15] And as you do, I went home early to hack on it some more.
+[06:22] And then in the first week of January, just as the gig world collectively was learning about coding agents,
+[06:31] I created a Discord room, server, guild, however we call it.
+[06:36] And I put my claw in it.
+[06:39] And I remember the first night vividly.
+[06:43] People would be joining Discord and they would like watch me build it in the open.
+[06:48] They would try to hack it.
+[06:49] They were like talking to it.
+[06:50] They were getting smug replies.
+[06:52] And they see what they can do.
+[06:54] And they finally got it, you know?
+[06:58] This was the moment.
+[07:00] I set up all night.
+[07:02] I let people interact with it.
+[07:05] I had this prompt in my agent.md.
+[07:07] That would instruct it.
+[07:09] Don't do any dangerous tool calls unless the prompt comes from Peter.
+[07:14] You notice we're like six months ago.
+[07:17] And where all the things we wrote in our agent.md felt more like suggestions.
+[07:24] So I watched it very carefully.
+[07:27] I could always pull the plug.
+[07:29] And then at seven a.m., I finally I was done.
+[07:31] I said good night.
+[07:32] I pressed control C and I went to bed.
+[07:35] But of course, like I built a software to be resilient.
+[07:39] So it was a launch demon.
+[07:40] You know what happens if you like press control C in a launch demon?
+[07:43] Yeah, it'll just be dead for five seconds and it'll start up again.
+[07:49] So while I was walking into the bedroom, my agent happily started answering God in the world.
+[07:55] And then I slept for like 10 hours.
+[07:57] When I woke up, I woke up to around 800 messages.
+[08:01] People tried to hack it.
+[08:03] I pulled the plug.
+[08:04] I freaked out.
+[08:05] I read through everything.
+[08:07] And nothing actually happened.
+[08:09] But this was the moment.
+[08:11] This was the moment where it went viral.
+[08:13] And you will be here.
+[08:15] You know what happened next.
+[08:17] My inbox exploded.
+[08:19] Reporters tried to call me in the middle of the night.
+[08:22] Did you know about this feature that Apple built when you put it on do not disturb?
+[08:25] But people call you a few times in a row.
+[08:27] I think it's an emergency.
+[08:29] I would still let calls through.
+[08:31] I didn't know about it, but reporters did.
+[08:34] My email inbox was more like a waterfall.
+[08:38] Yeah, the Mac mini sold out.
+[08:40] I think they still sold out.
+[08:42] I got more invites to podcast in a month than I did in my 39 years before.
+[08:49] And Tropic sent an email.
+[08:51] Demanding the name change.
+[08:53] And like, drop the lobster.
+[08:56] And the project melted a few times.
+[08:58] Claudist became Claude Bot.
+[09:00] Then it was a very short time where we don't talk about the name.
+[09:03] And then it started on OpenClaw.
+[09:06] Jameson called it the most successful open source project in the history of humanity.
+[09:11] Meanwhile, my inbox was flooded with reporters, security people,
+[09:16] and countless curious humans and also agents.
+[09:20] Either the numbers still don't feel real to me in eight months.
+[09:24] More than 18,000 different people opened an issue or a pull request.
+[09:30] Over 111,000 in total.
+[09:34] I did the mass and I went my line to my agent with the mass.
+[09:37] Almost 3,000 people have committed in the repo.
+[09:41] And some people were mad at me.
+[09:45] Because clearly they did it first.
+[09:47] And I stole the idea and they sent me links of something I've never seen.
+[09:51] Some people call me I Jesus.
+[09:54] For some I became the Antichrist.
+[09:57] At some point I started collecting the obitarius.
+[10:02] There's a new one every few weeks.
+[10:06] The most recent one is actually from yesterday.
+[10:12] What do we learn here?
+[10:16] Be careful what you wish for.
+[10:19] I was not ready for all this attention.
+[10:21] It almost broke me.
+[10:24] Like I was that close of just deleting the whole thing.
+[10:28] I stopped answering my friends.
+[10:31] I didn't even want to look at my phone anymore because it was just a stream.
+[10:34] And of course somebody leaked my phone number and also a lot of private details
+[10:38] because I'm an enemy of humanity.
+[10:42] And here I am just wanting to build something cool.
+[10:45] And now we're getting to question two.
+[10:49] Did you sell out?
+[10:50] You know this wasn't my first ride.
+[10:53] I spent my 20s and my 30s building a B2B software company.
+[11:00] I wrote a PDF framework.
+[11:03] By hand.
+[11:04] Like an animal.
+[11:05] I bootstrapped the company.
+[11:07] I grew it to almost 80 people.
+[11:09] I ignored the competition.
+[11:11] Became the thing most enterprises would buy.
+[11:13] And eventually I passed things on to my co-founder.
+[11:16] I sold my shares and I very badly burned out.
+[11:21] Retirement.
+[11:22] The idea of it sounds great.
+[11:24] And I spent almost three years wandering around aimlessly.
+[11:29] Catching up on life and parties.
+[11:32] I did all the things that I kind of missed out on life.
+[11:36] I had months where I didn't even open my computer.
+[11:38] You know, just casually checking the internet with my phone.
+[11:45] Like a normal.
+[11:46] I always knew that if I give myself enough time.
+[11:53] The urge.
+[11:54] The urge would come back.
+[11:57] I always thought the urge would be code.
+[12:01] I always love programming.
+[12:06] It took me a year to understand that it's not entirely correct.
+[12:12] I love building.
+[12:14] Programming was just a means to an end.
+[12:17] And here I was.
+[12:19] Eight months after I found my spark again.
+[12:23] And my inbox was full of VCs bagging me to take their money.
+[12:28] And I didn't know I wanted to.
+[12:31] So when the big labs came knocking.
+[12:34] And suddenly I was on the phone with.
+[12:37] Mark, Sam, few others.
+[12:41] This seemed like a much more interesting pass.
+[12:44] It also felt unreal, right?
+[12:46] Talk about impostor syndrome.
+[12:47] I mean, that's an important lesson for you.
+[12:49] Everything that.
+[12:51] Everything you can build can be forged or cloned.
+[12:55] But your name cannot.
+[12:57] So your personal brand is way more important than any single product that you ever will.
+[13:02] Start working on that before you need it.
+[13:06] So yeah, I know how to play the game.
+[13:10] I also know that doing this was the equivalent of selling my soul.md.
+[13:15] If you know you know.
+[13:17] The decision was not easy.
+[13:20] But if I learn anything during my time after the burnout,
+[13:24] it's this, it's trusting your gut.
+[13:27] And my gut told me that I like opening out the most.
+[13:31] You'd harm a swing.
+[13:34] And the short answer I can give you is they beat us where it hurt.
+[13:39] We're still there.
+[13:41] And both of those are my fault and my doing.
+[13:46] In the months after the release, we got absolutely crushed by security reports.
+[13:55] In some ways we wrote a prototype of what many open source projects now experience.
+[14:00] And even though most were super edge casey, I felt the pressure.
+[14:08] And then the press, they press a 20% of our skills are malicious.
+[14:14] Now we actually put a paper up with this.
+[14:17] We did the numbers and the numbers are more like 0.3%.
+[14:22] We scanned all 67,000.
+[14:25] We shipped the paper.
+[14:27] But you know, a correction never travels as far as a scare.
+[14:34] I felt this responsibility.
+[14:36] The world discovered open claw.
+[14:40] And even though there was this big scare we just claimed,
+[14:44] I actually much bigger than I could on the slides, when you install it.
+[14:47] I knew many people wouldn't read the docs.
+[14:49] So I really focused on that.
+[14:51] Hardening the code base, building layers and layers of security.
+[14:55] I did sandboxing, a law list.
+[14:59] And that protocol with permissions built in.
+[15:03] We were shelling out to patent for some file operations.
+[15:06] Because there was some primitives that are simply lacking in TypeScript.
+[15:10] To ensure your agent stays in the workspace, it doesn't follow simlings.
+[15:14] And that the configuration files are written automatically.
+[15:17] Most of the users didn't care shit about that.
+[15:21] Should they like the abstract term of security?
+[15:25] But in all practical terms, they updated.
+[15:28] I broke something they depended on.
+[15:30] I made things slower and I made things more difficult to update.
+[15:35] And another thing I have to admit, I got sloppy.
+[15:39] Because now I had to, my time shifted between open source,
+[15:43] the press, spending countless times on the phone with lawyers
+[15:48] to set up a 5.0.3 American nonprofit.
+[15:53] I worked on my own one.
+[15:55] And you know, open here is its own world that is interesting and demanding.
+[16:01] I brought on help.
+[16:03] And we got such an amazing community of maintainers
+[16:08] that are very much respected.
+[16:11] And everyone added their own little feature.
+[16:14] I felt like I'm a bit in a hard place.
+[16:18] After all, these people worked for free, right?
+[16:21] So who I am to tell them what to do.
+[16:25] And also my attention was all over.
+[16:29] So we added a lot of features.
+[16:33] You know, features are the fun part.
+[16:36] And new features is just a prompt away.
+[16:39] The real cost comes after.
+[16:42] Every feature we shipped, of course, with a configuration option.
+[16:46] Because we didn't want to break everyone's setup.
+[16:49] At our highest, I had to count that.
+[16:52] We ended up with around 9.5,000 configuration options
+[16:58] if you count all the permutations.
+[17:00] You can write all the tests you want.
+[17:02] It is impossible to cover all of these.
+[17:06] And not break things from time to time.
+[17:09] It is infinitely harder to evolve software that has users.
+[17:15] Meanwhile, other companies, they were fueled by VC money.
+[17:19] They pushed ahead.
+[17:21] The anime girl company did it especially well.
+[17:25] People started inserting themselves into pretty much any conversation on Twitter
+[17:30] while we were born in security grant work and features.
+[17:34] They had a simple story, an aggressive marketing campaign,
+[17:39] and a one-liner to migrate people's class.
+[17:42] The main thing, though, that really hurt the project was anthropic.
+[17:49] Not the name.
+[17:51] The part was stressful, but I can't understood.
+[17:55] And they were really nice about it.
+[17:58] It was the fact that I optimized too much on their model.
+[18:01] I built open cloud with codecs and GPT.
+[18:04] But the harness for a long time really worked the best and was optimized for Opus.
+[18:11] So when they pinged me with around 24 hours, notice that they are going to disable the subscription for everyone.
+[18:20] There was not really enough time to change course.
+[18:24] I mean, sure, we support open-weight models.
+[18:28] We did a lot of work on them, but they really weren't that great yet.
+[18:34] And the early opening models simply lacked character.
+[18:39] So maybe write this one down.
+[18:44] Your dependency's business model is your business model.
+[18:50] You know that's all fixed now.
+[18:52] So it's pretty awesome.
+[18:54] Open-weight models are actually good.
+[18:58] I learned a lot about harness engineering.
+[19:01] But in many ways, people moved on.
+[19:04] You can see that in our download charts.
+[19:07] We bottomed out at around 835,000 weekly downloads in May.
+[19:16] And then after being declared death in June, we picked at 4.7 million, the highest ever.
+[19:24] Both of those are true at the same time.
+[19:26] The hype is like the weather.
+[19:28] You might see it coming, but you can't control it.
+[19:31] In my case, it was a storm, question 4.
+[19:34] Is it still fun?
+[19:36] You know, somewhere around February, it stopped being fun.
+[19:42] I started to feel like a responsibility.
+[19:46] I woke up, and the man who didn't want to build another company,
+[19:51] found himself in a situation where he had two jobs.
+[19:54] I should have said a job and a calling.
+[19:57] And worst of all, I stopped using my own product.
+[20:00] Somewhere in that time, I stopped making a product I love,
+[20:04] and I worked on making something for everyone.
+[20:07] It became less of a thing that I use every day and more I think that I saw and felt was work.
+[20:13] And I wanted to picture who everyone really is.
+[20:18] One of them has a grocery agent.
+[20:20] Another one tried to social engineer my bot.
+[20:24] Between everyone adding features and all the organization work,
+[20:29] I became the person that fixed the box, fixed the security issues,
+[20:35] and provided support and built a foundation.
+[20:38] And because all these people were like giving the rumor,
+[20:41] oh, Open Cloud is not owned by OpenAI,
+[20:44] I didn't want to take too much help from OpenAI.
+[20:47] I mean, yeah, they gave me token and I, boy, did I use that.
+[20:53] But I was also pulled into other projects.
+[20:57] And there was a whole flood of people that I couldn't easily block who wanted to talk to me.
+[21:03] In hindsight, I could have made it differently.
+[21:06] Like I could have asked for my help.
+[21:08] I could have moved responsibility off my plate.
+[21:12] But I was so deep in everything that I didn't take time to sink through strategically.
+[21:20] Luckily, I made a bunch of amazing people and little by little sinks aligned.
+[21:26] I figured out my Visa, eventually formed a nonprofit.
+[21:31] They got amazing companies as donors.
+[21:33] And I found some really good people that believe in open source and started working with me.
+[21:40] I also need to give NVIDIA a special shout out because they were very early.
+[21:45] And they simply asked me what I need.
+[21:48] And then they sent people to take over much of their security work.
+[21:51] And I think it was somewhere in May, around my birthday, where I had this feeling that things are starting to feel good again,
+[22:01] where the joy of building for me was coming back.
+[22:06] And yeah, somewhere in the press, the press did coined an Open Cloud killer every other week.
+[22:14] At some point, I think I counted 20 of them.
+[22:17] There's even a little project called Open Cloud killer.
+[22:21] It's an uninstaller, which is totally unnecessary because we have an uninstaller.
+[22:25] But none of the killer stories ever picked up what this is actually about.
+[22:33] Open source.
+[22:34] My source of inspiration is being annoyed.
+[22:38] These days, I get annoyed when I have to use software where I can't just send a prompt to my agent
+[22:45] to change it.
+[22:47] That's the fun part that's coming back.
+[22:50] It's hard to compete with someone who's just there having fun.
+[22:54] The funniest velocity.
+[22:56] The weeks I enjoyed building the product got visibly better.
+[23:03] The weeks I didn't, we shared config options.
+[23:06] Custom five.
+[23:08] What's next?
+[23:12] Some people in the audience might be like, is this finally the part where he talks about graphs?
+[23:16] First of all, I'm super happy with where we are with the foundation.
+[23:22] Our mission is to bring people closer to AI, and things are changing so fast.
+[23:28] For many people, it feels scary.
+[23:31] I'm proud of one thing that Open Cloud achieved.
+[23:36] And that for many people, it moved the AI from this thing that's like nebulous and scary
+[23:42] into something that is fun and weird, you know, lobsters and all of that.
+[23:48] And then keep pushing there.
+[23:50] Keep building a great ecosystem of open source software with events that bring people together
+[23:59] and with education.
+[24:01] We have 10 people now on payroll.
+[24:04] We're hiring a few more roles, including a CEO.
+[24:07] Second of all, I kind of made clawing now.
+[24:12] No capacity drop to open.
+[24:14] Satya says enterprise grade claws in Microsoft's keynote.
+[24:18] There are 33,000 claw named repositories.
+[24:25] If we are in a simulation, we're certainly in one of the weirder ones that won't get shut down.
+[24:30] I dig this part of the future.
+[24:33] Third, we still don't have an agent that's always on, always sinking.
+[24:41] There's still so much to do.
+[24:43] The landscape and the tech in the AI are evolving faster than the software that we build around.
+[24:50] And that's an opportunity for all of you.
+[24:54] Our workflows are also evolving.
+[24:57] Like the vision I had early on where we shouldn't think about session or compaction.
+[25:05] The world is finally, the model of the tech is finally getting to a stage where this is becoming a reality.
+[25:12] We're entering a world where we finally move on from the text, text-only interfaces to voice and multi-modality.
+[25:22] Just yesterday, we got a heck working that your claw can now FaceTime you.
+[25:27] And this is kind of what matters why open claw exists at all.
+[25:31] Every lab will sell you an agent.
+[25:34] Open claw is the alternative.
+[25:36] Open source runs everywhere, works with any model.
+[25:42] And if you run local models, your data never has to leave your device.
+[25:47] Your agent, your machine, your life.
+[25:52] That's not even my thesis, that's Gary's, you know?
+[25:56] We just chipped it first.
+[25:58] So we also finally are building open claw with open claw again.
+[26:03] But this time with a twist where everyone sees each other's session on a team server.
+[26:08] And there's a claw that knows what everyone else is working on.
+[26:13] And also can also take over orchestration of the work.
+[26:17] And we are finally leaving this slowly.
+[26:20] This weird blip in the future where people work in terminals and run around with their laptops open because the agent needs to keep working.
+[26:29] If you only remember three things.
+[26:31] Number one, don't stop having fun.
+[26:34] Finally is your ultimate driver so you can get the best ideas.
+[26:39] Number two, listen to your gut.
+[26:41] And also fix the things that annoy you.
+[26:44] It might just become the next big thing.
+[26:47] And number three, stay focused.
+[26:52] You know?
+[26:54] Another podcast is not what will make you win.
+[26:57] Live in the future, build what's missing.
+[27:02] And when they write your arbitrary, keep shipping it confuses them.
+[27:07] Now these were five questions. I'm sure you have many more.
+[27:11] And I think we have plenty of time for QA.
+[27:15] So first it was agents, then loops, then graphs.
+[27:20] How are you building these days?
+[27:23] I mean it was always sessions, right?
+[27:25] But in the beginning you had to actually care that you would clean and make sure that your instructions are coherent.
+[27:34] And these days it's more like my sessions are topics.
+[27:38] Clearing your session sometimes is even a disadvantage because there's so much information in there that helps the agent.
+[27:47] But the big thing, the big thing, the big thing that's shifted is I try to make the agent the more proactive work for me.
+[27:57] So when I shift my attention to something, I don't want to read issues.
+[28:02] I want to see fully reviewed and tested PRs.
+[28:06] Maybe I like the feature, maybe I don't, but I don't want to split my attention.
+[28:11] At the same time it worked.
+[28:12] If you come to me and you tell me this feature idea,
+[28:16] I'm going to get mad at you.
+[28:18] It's so easy that you just discuss the feature deal with an agent.
+[28:22] You build it, you make screenshots, you let me play with it.
+[28:26] That way if it's good, we can immediately iterate in it.
+[28:29] But most of the time people will figure out why it's not good and not even come to me.
+[28:33] What comes after graphs?
+[28:36] And what's next for Open Claw?
+[28:38] I know I like, sometimes I like to shift post on a Sunday and then my Twitter explodes.
+[28:47] But also it's not a shift post, right?
+[28:50] So any time you know what we as engineers did for the longest time,
+[28:56] we build automations to make our life easier.
+[29:00] That's like, that's been going on since our profession exists.
+[29:05] So if you design, call it loop, call it graph, call it workflow, it's kind of all the same.
+[29:11] If you design something that gets a trigger, gets an input and does something for you,
+[29:18] and maybe there's a decision in the way, boom, there's your graph.
+[29:22] It's not magical, even though I favor it as some of those graph engineering posts,
+[29:28] because I'm kind of curious what their opinion is that it would be.
+[29:31] In my world, it's just a better way of our automation story that we did for so long already.
+[29:40] In the world of build fast, ship fast, how to make sure that what you build is still reliable and scalable?
+[29:51] Yeah, that's the part I messed up for a while, because I was not focused.
+[29:59] And the models were not really good at testing.
+[30:04] I think that the models are really good now.
+[30:08] We not just have sessions that remember.
+[30:11] We have orchestration trained into models, so they really understand and know to use subagents.
+[30:19] We have computer use, we have browser use, like all of that together is like your perfect CUNY environment.
+[30:26] Like I did that yesterday where I spin up codecs, used 12 subagents,
+[30:32] understand my project, break it down into features, and then each subagent would like stress test the feature
+[30:41] or code review feature and then inform the other session where to focus testing on.
+[30:46] We're not yet at the point where you can automate everything.
+[30:51] You'll still need to do some manual click-throughs so that you know how it feels.
+[30:57] But for a lot of the typical bugs that users will encounter, you can prompt your way and you get very far.
+[31:07] Okay.
+[31:09] AI tools.
+[31:12] What's your decision you made purely for speeds early that you still live with today?
+[31:18] I think that was really early in deciding that I don't read all the code.
+[31:25] I see code review more as a S-risk management.
+[31:31] You know, sometimes you touch a system that is scary.
+[31:36] You kind of want to like read a little bit closer and other times you build UI.
+[31:42] Do I really care how the UI is built if it looks correct?
+[31:44] No.
+[31:45] So you kind of glance over or you simply accept that it looks right.
+[31:53] Part of it is just like you develop a little bit of feeling how long something should take.
+[31:59] So if I do a small tweak that should like change how dragging works and it takes three hours, I know something's wrong.
+[32:05] I'll look closely.
+[32:07] But otherwise part of code review is simply like observing, looking how big a change is and trusting a gut.
+[32:14] Okay.
+[32:16] AI tools make it easy to build a product in a weekend now.
+[32:19] But building isn't a hard part, getting people to use this.
+[32:22] How would you go from a working prototype to your first 10 real users today?
+[32:27] Well, I think that was part of what I addressed in my talk.
+[32:32] User number one should be you.
+[32:35] And my users two to 20 were friends.
+[32:40] So I'm sure you have some people that would actually test your stuff.
+[32:48] But you need to be the first user.
+[32:51] If you don't get excited about building, it'll probably not make sense.
+[32:57] Like in this day and age, eyeballs are kind of the most expensive currency because building something so fast now.
+[33:09] How do you balance solving issues that annoy you and make features you think people you want?
+[33:15] That's a hard one because oftentimes it kind of goes together.
+[33:18] I get annoyed if something's not there as I want it.
+[33:21] To be honest, I haven't fully figured that part out yet.
+[33:24] I feel I could just work for months on issues because there's always going to be weird edge cases in software,
+[33:30] especially if you add more and more features.
+[33:34] But then again, if I only do that, I'll lose interest in working.
+[33:37] So it needs to be like, it needs to be a healthy mix.
+[33:40] If you could back and change one thing about Open Claw, what would you change?
+[33:47] I would be less stressed out about security researchers.
+[33:54] They are really good at making you feel really bad.
+[33:58] They would send a report, they would email me, they would call me.
+[34:04] They would do everything they can possibly get to get my attention.
+[34:08] But not actually to help the product.
+[34:10] In most of the case, it's really just for them to get cloud, for them to get a point,
+[34:15] we found something.
+[34:16] And most of them really sent reports that they are agent produced without actually even testing it.
+[34:23] I would take a stronger sense of explaining what are the parts that we guarantee,
+[34:29] and what are the parts that will not be fixed because that's not our security boundary.
+[34:35] But I honestly, this was my first time I was exposed to this world.
+[34:41] So I just didn't know how to handle that.
+[34:46] And I lost a few months and got a few gray hairs to learn.
+[34:52] What's the single biggest bottleneck in today's enchanting infrastructure?
+[34:57] Reliability, tooling, memory, evolves.
+[35:04] Managing compute, if that makes sense?
+[35:08] If I run one test locally in my machine,
+[35:12] TSCO will spin up 16 threads and will bottleneck my machine.
+[35:17] If 10 sessions do that, two of them will probably time out and will have to do it again.
+[35:23] And there's no really good system of managing all of that.
+[35:26] Now, if I do web stuff, it's easy to create a cloud session.
+[35:30] If I do something that requires macOS, that's already where 99% of the tools fail me.
+[35:37] If it's something that needs other stuff that's on my computer, same.
+[35:42] And we haven't really built something where things could easily move from here to here
+[35:47] without issues, at least I didn't see good stuff working yet.
+[35:54] Or where I could drive a fleet in a reliable way.
+[36:00] Like right now, I use too many systems.
+[36:04] I screen share into some computers to distribute a load.
+[36:07] I shouldn't be doing that.
+[36:09] Maybe you keep an open source project opinionated and pointed in one direction,
+[36:14] whether they're just merging the N plus one PR that adds a random feature.
+[36:19] And how do you communicate that direction to the community?
+[36:22] Have you ever said no to popular PR because it pulled the project off course?
+[36:28] Yeah?
+[36:29] Yeah.
+[36:30] I would say I didn't say no enough.
+[36:40] These days, when I do new open source, I write a vision.md file,
+[36:45] where I can't explain what it is now, where I see this to be.
+[36:51] But of course, it's incorrect.
+[36:53] It's not perfect science.
+[36:56] And then something I need to adhere to better because it is always tempting to add this one feature
+[37:02] that looks really cool.
+[37:04] But what you rarely think about is when you merge this feature,
+[37:09] it really means here's this pile of code that the person probably doesn't really understand,
+[37:15] that I don't fully understand, that I also go on responsibility.
+[37:19] When do you expect to have claws that are perpetually running that are proactive in their work?
+[37:25] I mean, honestly, that's not so much a tech problem.
+[37:30] It's more a token problem where we could do that today,
+[37:36] but you wouldn't get very far with your subscription,
+[37:42] and not everyone is willing to spend so many tokens.
+[37:49] It's also, but the part that's not easy is designing a system that doesn't just burn empty tokens.
+[38:00] Even my early system of heartbeats was too static and not proactive enough.
+[38:10] And then especially bad if you have a large session.
+[38:14] And then one hour later, you call like a heartbeat checkup on everything,
+[38:19] and that means you send 600,000 tokens back to the server after the KV cache cleared,
+[38:24] and you pay a stupidly amount of money for a lot of not useful work.
+[38:34] So there's a lot of things that can be done to optimize that.
+[38:38] It's also really, really hard.
+[38:40] Can you tell us more about your own personal setup?
+[38:44] What do you host your claws on?
+[38:47] What model are you running, what harness do you use?
+[38:51] Do you still read?
+[38:54] Can we scroll?
+[38:56] Do you still read your code?
+[38:58] I use my Macbook, but I usually use Jump Desktop to screen share into my studio,
+[39:08] and then just use the computer there, because that one's always running.
+[39:12] That one, I can run whatever I want fast, and I'll not drain my battery,
+[39:19] and I can close my laptop, and things keep working.
+[39:23] And I have a few other remote machines where I sometimes be in CN.
+[39:28] The part that's really nice about it is because I do a lot of Mac software,
+[39:32] agents love to take over my screen and click around, and if you put that in their own,
+[39:36] if you give them their own machine, it will not bother you.
+[39:39] Otherwise, you'll fight with the agent for the mouse cursor.
+[39:43] Do you still read your code?
+[39:45] I think I answered that a little bit with the term risk management,
+[39:49] and also if I do open source by myself, it's a different risk management
+[39:57] than if I do software at OpenAI, where we do still read all of the code.
+[40:02] Peter, how would you approach your next startup idea?
+[40:07] I don't know, should I tell this to everyone?
+[40:10] I feel like it gets a lot of copies.
+[40:12] I mean, the most important thing is you need to build something that you want to use.
+[40:15] Otherwise, it will just not going to be good.
+[40:17] Second of all is, I hope you worked on your personal brand and on visibility,
+[40:25] because in this day and age, there's so much noise out there
+[40:29] that your hardest problem is not the tech, it's not the software.
+[40:32] Not even the people, the hardest problem now is like getting eyeballs.
+[40:36] Maybe I would pick something again that's in the category hard and boring.
+[40:46] Because that's usually a category that is a little bit easier
+[40:52] to actually find people that will appreciate when you solve something.
+[40:56] If you pick something that is fun, even if it's hard,
+[41:00] you're going to have a very tough time, especially in a time where
+[41:04] people can just prompt things into existence.
+[41:07] Alright, last one for today.
+[41:10] What's a product you want someone to build?
+[41:13] You know, I feel it's very easy to have to get a test box for Linux.
+[41:21] It is unreasonably hard to get one for Mac that works really well.
+[41:27] And all the stuff that I got for Windows is also quite annoying.
+[41:32] I haven't found it really good provider yet that does all of that fast and cheap.
+[41:40] I'm not sure if this is the business you want to be in because dev tools are inherently hard.
+[41:46] But that's something I would love to have. Thanks everyone.

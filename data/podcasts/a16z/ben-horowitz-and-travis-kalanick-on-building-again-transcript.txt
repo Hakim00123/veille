@@ -1,0 +1,436 @@
+The a16z Show
+Ben Horowitz and Travis Kalanick on Building Again
+Fri, 14 Aug 2026
+https://a16z.simplecast.com/episodes/ben-horowitz-and-travis-kalanick-on-building-again-o4RgblCd
+
+[00:00] Hey Travis is back, but
+[00:02] I've actually been working for eight years. I just haven't been talking about it
+[00:06] We're competing for the next industrial revolution. People said are you pissed off about uber?
+[00:11] Does that grind you when you fall in love again? You don't think about the X very much. We had a massive
+[00:19] High-fidelity playbook on how to not get attention for anything
+[00:24] We did a lot of the things that would have happened with uber over time are things we're doing now
+[00:29] It's basically multiple trillion-dollar industries that are gonna get automated
+[00:34] We talk about digital AI and what it does to the enterprise
+[00:37] But these industries on their own are big you think you were successful because of what you did versus in spite of what you did
+[00:44] You don't fight for the best idea than what idea are you fighting for you're fighting for the mediocre idea an idea
+[00:50] That's gonna make you less good than if you went for the best idea the real question is what are you guys gonna buy over?
+[00:56] After nearly eight years building largely out of public view Travis Kalanek is finally ready to talk about what comes next
+[01:03] In this fireside conversation from Adams launch event Ben Horwitz and I sit down with Travis to discuss why he's state quiet for so long
+[01:10] How was thinking has evolved since uber and why he believes industrial AI will defy the next era of technology?
+[01:17] Along the way we revisit the biggest decisions of uber founder culture and what it takes to build transformational companies twice
+[01:24] So the reason why people loved our podcast that we did the first one that we did together is because we just got
+[01:32] Right into it
+[01:34] Right into good stuff. So we're gonna do that here and we're gonna open it up for I'm scared of you and a
+[01:39] Sir it's good at this and it stresses me out. All right. What do you got there? So Travis
+[01:44] Why didn't you buy lift?
+[01:46] And
+[01:47] Do you regret it? What would you do if you can go back in time?
+[01:51] I
+[01:52] Think this will surprise a lot of people but lifts culture was very different than ours
+[01:59] Maybe it started with the pink mustache
+[02:01] But I think it's interesting right when it comes to
+[02:05] Entrepreneurs that are in that moment where you could acquire something by the way
+[02:09] I got a lot of shit for this for a long time
+[02:11] so yeah, the
+[02:13] Yeah, yeah, yeah, the culture didn't mix and
+[02:16] When you meet with somebody and you're gonna acquire them and there's so much goodness that could come from it
+[02:20] By the way, we're in some crazy war probably spending a billion dollars a year on it or some insane amount of money
+[02:26] You want it to work so you wouldn't do anything different?
+[02:28] I
+[02:29] Wouldn't do anything different and it's easy to say now
+[02:32] But I got a lot of shit for that for a long time
+[02:34] but it was basically I would sit across the table from the guys and I just didn't
+[02:40] It was just clear that we were very culturally different and you couldn't
+[02:44] It get harder and harder to make that happen. So nice. I by the way, I agree with that
+[02:49] Yeah, I think it I mean
+[02:52] You'd have to do the counterfactual if Travis was still running uber because
+[02:57] What would that look like Travis was still running uber today?
+[02:59] Well, I think it would have been the original culture and the culture they went to which was a reaction to the resistance
+[03:08] Just ended up being a much more milk toast culture than the original uber culture was a
+[03:15] Special
+[03:16] Very pronounced culture my favorite thing in that culture doc was
+[03:21] meritocracy slash toast epic
+[03:24] Or toast stomping. I can't remember. I was not a bit of stomping their hypocrisy and toast epic. Yeah
+[03:31] Which is kind of like fuck your feelings. We're here to build we're gonna do it
+[03:35] We're gonna push as hard as we can and yeah, you may get your toast stepped on but you gotta keep going
+[03:40] You gotta keep bringing it and to me that was the part that got diluted when Travis went out
+[03:46] and it was
+[03:47] in some ways it was the core part
+[03:50] it was a very essential element to
+[03:53] At least what I saw kind of from the side in it
+[03:57] Yeah, we've rebranded it the current company at Adams. We call it to the best idea wins
+[04:02] But the toast stepping is important because there's so many people that are not willing to fight for the best idea because they're gonna upset somebody else
+[04:09] And if you don't fight for the best idea then what idea are you fighting for you're fighting for the mediocre idea the politically expedient
+[04:16] Idea an idea that's gonna make you less good than if you went for the best idea
+[04:21] Yeah, and so having everybody oriented towards that is a cultural vibe that helps you win
+[04:29] Yeah, when Andy Grove was at Intel. He used to call that constructive confrontation
+[04:34] Yeah, which is the only way to get better. You have to get tested
+[04:38] There's a polymarket
+[04:40] On when Travis is gonna come back at uber or when they're gonna ask Travis to come back at uber
+[04:45] But the real question is what are you guys gonna buy uber? I think we saw the lot to earn it's a fun
+[04:53] It's fun
+[04:55] So much of what I'm doing and people go. What would you be doing if and I can't say all the things
+[05:03] That I would be doing at uber. I'm doing now. There's a lot of things. I'm not but it is a continuation of the things
+[05:09] And a lot of the things that would have happened with uber over time are things we're doing now and
+[05:18] If those things play out and you take over look I outlined what industrial AI is and where it's going over time
+[05:25] It's basically multiple like hundred billion or trillion dollar industries that are gonna get automated
+[05:31] We talk about digital AI and what it does to the enterprise
+[05:36] But these industries on their own are big and
+[05:39] So this is a new industrial age that basically is sort of coming
+[05:44] I compared to the second industrial revolution. So if we're correct and
+[05:50] We execute well, then it's a thing because you're like is food gonna be at automated?
+[05:55] Is it production of food gonna get automated and is the delivery of food gonna get automated?
+[06:00] I think we'd all say yes
+[06:01] And if that's the case then there will be a service that prepares and delivers that food at cheaper than going to the grocery store
+[06:08] And if that happens this occurs and food will be completely revolutionized
+[06:12] Will mining get automated if it does not just the movement of the materials, but every part of mining
+[06:19] Then what is a mining company? It just owns real estate
+[06:23] It will be completely revolutionized a multi-trillion dollar market and there's many of these and now we got to deliver
+[06:30] Talk about how you're different as a founder building atoms that you were building uber in terms of
+[06:37] Would have you changed? Would have you kept the same when you reflect back?
+[06:41] What do you think you were successful because of what you did versus in spite of what you did?
+[06:46] the
+[06:48] Look some of how I did uber is very related to
+[06:52] What I did before uber and what I did before uber was I failed I?
+[06:59] Mean I got my company barely got acquired. I did the first first four years without a salary
+[07:03] I had socks that said blood sweat and ramen
+[07:06] it was stuff like that and
+[07:09] When you're that on the line in your own welfare and you've got to make ends meet and then you go into something like uber
+[07:15] Which is like ultra product market fit?
+[07:18] times a thousand
+[07:21] But you still think you're pouring you can't go to the grocery store next week
+[07:25] You get too close to the line
+[07:29] Like I would go right up against the line that some people might have guessed that
+[07:34] But I'd go right up against the line and the only way you knew that I didn't
+[07:38] Get chalk on my shoe was you get a electromagnetic scanning microscope and you would zoom in reverse angle
+[07:46] You'd be like okay. He's fine
+[07:48] But if you get big and you roll that way you get to a place where people
+[07:53] You're bringing a lot of change really fast and you haven't brought trust along for the ride
+[07:58] So I would say today. I'm a few inches off that line
+[08:02] You don't need to do the slow-motion replay
+[08:04] To know that I did the right thing. I'd stand by every decision. I made it uber
+[08:11] But you don't need to guess anymore. It's like super clean. You don't have to be that close
+[08:16] the other thing is interesting and I think
+[08:19] sometimes
+[08:20] The young entrepreneurs that are just coming up right now. They don't totally get it is
+[08:25] that
+[08:32] Company you get frickin really good at doing stuff
+[08:36] and
+[08:37] So things that used to take me a day or three days
+[08:41] Lot of stress anxiety. I'm gonna do this take me at 45 minutes
+[08:47] And
+[08:48] That's a beautiful thing
+[08:50] There are things you don't get like I'm like so used to adversity at this point that it's kind of normal
+[08:57] So I don't get his pissed off
+[08:59] But being pissed off makes you good as an entrepreneur. So like I gotta make sure I'm still fired up
+[09:05] Come on. That's a pissed off energy fucked with me. I'm gonna kick your ass. It's easier when you're 25
+[09:10] I think I don't know. I'm just not I'm like I'll do whatever. It's fine
+[09:13] You be you dude. It's good. You get too used to adversity and that's kind of a problem
+[09:18] But yeah, so I'd say those are some of the fun changes. Yeah
+[09:22] What's an example of something that used to take a long time, but it's now just so much easier like a
+[09:27] Look, I wrote a vision note when we rolled out Adams's a few months ago. It was like
+[09:34] Look at look at bias. Obviously, but it was very I think very well written vision note
+[09:40] 10 years ago 15 years ago. That would have taken me. I don't know hundreds of hours. Yeah, and it just flowed
+[09:52] Yeah, like okay. I can't say I wasn't thinking about it a lot
+[09:55] But when I was doing the writing it actually just flowed and just happened
+[09:59] I'm like, holy shit. It just happened. Holy cow
+[10:02] Like the one I just did for the for for this funding like okay, I procrastinate it
+[10:07] But you know, that's a thing but like once I did the right. I'm like, oh dude. We got it
+[10:12] It took like 45 minutes. I'm like this is amazing and it that's related to presentation communication
+[10:19] Strategy this kind of thing
+[10:22] Unsaster at which is pretty awesome
+[10:25] Ben, how have you seen Travis evolve since you first got to know him and comment more broadly
+[10:30] We have a lot of repeat entrepreneurs in the room in terms of when like Travis you have a massive success that also has some mistakes along the way
+[10:37] You know what lessons you learn for the next time versus, you know
+[10:40] What do you make sure to keep and continue because that's what that's what got you there?
+[10:45] Well, I thought that was actually a really good way to characterize it which was
+[10:52] You know, he thought he was in survival mode when he had 20,000 people working for him and that
+[10:59] That idea is dangerous when you have such a big organization
+[11:07] It's dangerous on two levels one
+[11:09] It's dangerous because you're not as he said bringing enough people along with you
+[11:14] But it's also dangerous and that you've got all these people working for you
+[11:18] and
+[11:19] Their interpretation of that idea could
+[11:23] Be a lot, you know, you kind of have to
+[11:26] You have to say wayo on this side of the line so the guy, you know, eight levels down doesn't do something stupid and so that
+[11:34] You know, that's a big change. I would say but like he was always great
+[11:39] Always I mean that's why he was so tragic that we didn't invest in uber
+[11:46] but
+[11:47] Yeah, and then I think like when you do get I
+[11:52] Think everything comes easier. It was what's the Prince line?
+[11:57] People saying nothing comes too easy, but when you got it nothing comes too hard. That's like that's where he got to
+[12:04] The one thing I had to it though and again, I feel like I don't want to
+[12:10] Prescribe to some to folks like everybody's a lot of folks here already know this but it's like
+[12:15] When it gets easy, it's time to push hard
+[12:20] if it I always used to say like
+[12:23] If something if it's getting easy
+[12:26] It's about to get really fucking hard and you don't want it to be that way you want to make it hard versus hard make it
+[12:33] Hard on you if that makes sense
+[12:36] Yeah, yeah, and I talked a lot of entrepreneurs over the years where they're like, oh man
+[12:41] We're just cranking. We're on easy street right now
+[12:43] And I'm like dude you are about to get your ass whooped and you don't even know it
+[12:49] Now I know that too because of course I've experienced it myself. So yeah, that's a
+[12:55] That's very good. Yeah, so it's I know it's all the time I've talked out your bananas when they start going
+[13:00] Oh, yeah, I just yeah, it's easy. It's going so well when I have competition
+[13:05] You know, I just hired this guy
+[13:06] He had an offer from anthropic for five billion dollars, but he took my $400,000 a year job blah blah blah blah blah blah. I'm like
+[13:14] Bro, check yourself for wounds cuz I assure you you're bleeding, you know, like you're in trouble
+[13:21] For sure, but but there's times when it's actually easy. That's a guy pretending
+[13:25] So I call that the fake it so you make it which she's lying to himself plus others
+[13:29] But there's actual times when it's easy, but it's because you're not continuing to push
+[13:35] So it's one thing when you're just not winning, but you're pretending like you are and there's another thing when you're winning
+[13:40] But you're taking it easy and you're about to start losing. Yeah
+[13:46] Many such kisses. Yeah for sure last question. Then I'll open up to a couple Q&A
+[13:52] So Ben Travis when you your first external round at uber the venture round I believe was at
+[14:00] 4 million poster or something like that. It's 4 million per you come out a new first round
+[14:04] Yeah, our first round at uber was 4 million pre this one, you know, several orders of magnitude a bigger
+[14:10] No, Ben. I believe this is one of if not our biggest check they check you've ever written. Yeah
+[14:18] Certainly biggest check I ever
+[14:20] You know when did you get to conviction that we were a hundred percent do like what was your process like?
+[14:26] I was on a hundred and I when I first started talking to him well as soon as I knew what it was
+[14:32] the only question for me was
+[14:36] Was it gonna be one thing? Yeah, because
+[14:40] like I know and Travis for for many many many years and
+[14:44] He's always been the opposite of the like our conversations were always the real shit
+[14:51] Like when we I mean I was on the board a lift
+[14:55] And I was talking to him about uber and he would tell me like all the stuff that Chinese
+[14:59] Ride-sharing companies were doing to him breaking into his apps
+[15:03] Giving shit away for free this and that and the other and he was fired up about that like oh if I can deal with these guys
+[15:10] The rest of the world is gonna be no problem and they're just not that many
+[15:16] They're very few I'm telling you I've been in this a while very few entrepreneurs that come at it like that
+[15:22] So I knew if we could put money in Travis and he was still the other thing that I learned was he was still Travis
+[15:29] Like he hadn't like turned into he wasn't living his best life. He wasn't doing that
+[15:36] So yeah, it was a very I was that conviction very fast
+[15:39] I think a lot of people don't some people knows but not a lot is that
+[15:44] we actually had separate companies going and
+[15:47] So when I went to do the fundraise I kind of showed up at a 16
+[15:52] Kind of like the guy with a trench coat trench coat with a bunch of watches
+[15:56] Saying you want to watch which was she would you like I got lots of stuff? Did you want some food stuff?
+[16:01] Actually, I got different parts of the food thing. What do you like? I've got some mining stuff
+[16:05] That's pretty cool, and they're like we just want the stuff
+[16:10] And we heard that from the first few people that we talked to and so actually the
+[16:15] The tricky part about this you or the what added trickiness this deal
+[16:21] That made us sweat a little bit and just made it hard was like I had to merge
+[16:25] Separate entities with different investors and put it together
+[16:30] Which was pretty interesting because like how do you do a ratio when certain things are very early?
+[16:37] But
+[16:39] But it's super great cuz it was like you see some of the things with Elon and he's starting to put the pieces back together
+[16:48] He did he's not only phenomenal of course on all the five or six or eight things and of course eight
+[16:54] A16 is in most or all of them
+[17:00] But he was managing five or six or seven different companies and so I was really trying to put it together under a single roof
+[17:08] Which is amazing. He's doing it many you know a couple decades later, but I mean it's
+[17:14] It makes things better in some ways. Yeah
+[17:18] Before we get to q&a lastly Travis, why don't you say a couple words about what it's like to have a lot of the uber gang
+[17:26] Back together. It's where you know putting the pieces back together
+[17:30] You know Anthony this company you bought is a bunch of people in this room
+[17:33] Yeah, we're alongside with you for the first round right when I first got going look
+[17:37] I was on the board of uber when I first got going so I
+[17:41] Got thousands of inbound from actual uber employees that are like let's go
+[17:46] and I had to be careful because
+[17:49] If you're on the board of a company you can't hire thousands of their people
+[17:56] It's not just a bad look. It's actually illegal. So there's that too, and
+[18:02] And I'm very familiar with the law here. Okay
+[18:06] So you pick your guys you pick your spots the whole thing
+[18:10] But you know, there's a few there's a lot of really special people in this room
+[18:16] I mean
+[18:17] God I'm who was a CFO over at uber has joined Adams. That's a recent thing Ganesh who was a
+[18:25] VP or SVP of engineering over at uber has just joined Adams
+[18:30] And there's a lot of young guns at uber that joined that are now the big guns
+[18:35] Right is a guy Brian Atwell, who's one of our engineering leads on the food side and on infrastructure
+[18:41] Anthony Lewandowski, of course
+[18:44] Eric Myhofer who ran
+[18:46] Ubers a advanced technology group. She's running food robotics
+[18:51] Like I list goes on guys. Oh Jessica
+[18:55] Jessica Morton she was head of uber eats
+[19:00] Japan and
+[19:02] I went to Japan when we first got going and I met with Masa because like maybe Masa's gonna be in and like I
+[19:10] Could never get over him just stealing my stuff and then investing in like eight other companies that do what I do
+[19:16] And then I met with Jess because that was like my number one and like my number one thing to my number one number two thing to do there
+[19:23] But she's now doing a lot of really cool stuff. Now. We're not just a newber company. We have
+[19:28] more executives that are not uber than are but
+[19:31] There's a lot of heart from that time and people who were there
+[19:35] And
+[19:37] It's like what do they say run it back? Yeah, but there's also run it forward, which is do it new different. Don't be what you were before
+[19:46] So anyways we're having fun
+[19:49] Speaking of special people of this room. I want to open it up to to some Q&A
+[19:56] Gary
+[19:57] Travis congratulations
+[19:59] My favorite question to ask for especially room like this is what if you could like send a message in a bottle to the 18 to
+[20:06] Old version of yourself
+[20:08] What will say
+[20:15] Look the 18 year old version of me
+[20:19] Was a super geek
+[20:22] Pretending not to be
+[20:24] So I would just be like to just be a geek. It's gonna be fine
+[20:28] You know the pretending to not be a geek when you're a geek. It's just a lot of cognitive spay
+[20:34] You know load that's not necessary
+[20:37] Um, you know, I'm not sure that things would have gone better, but
+[20:43] That's certainly one of the things I probably would have told myself. Yeah. Yeah, what about you Ben?
+[20:48] That's a I
+[20:50] Just not to worry about
+[20:56] Not to worry about stuff, you know, like it is what it is and do what you got to do
+[21:02] You know, don't don't wait like consequences gonna be what the consequence is
+[21:06] You know, you got to find a way out
+[21:09] And you just got to keep looking until you find it and there's nothing else to do so worrying doesn't help at all
+[21:17] No stress. Yeah, don't worry. Be happy. Yeah. Yeah, don't worry. Well, but you need
+[21:22] Urgent. Don't be too happy. Yeah. Don't be too happy. Don't be happy Travis. Don't don't don't be too happy. Don't be fat and happy. Yeah
+[21:30] Okay, next question
+[21:33] Owen
+[21:35] Question for Travis. How are you gonna structure all this? Are you gonna have like shared resources across the divisions? Are you gonna have CEOs?
+[21:41] Are you gonna have many boards? Like how are you thinking of all of that? Yeah, that's super great
+[21:46] So one of the things I'm happy about is that I don't have multiple boards because that's a thing. I was just like, oh my god
+[21:51] I definitely don't want that
+[21:53] Um, but shared resources is just a it's sort of like this is the management architecture organizational architecture geek thing that we got to figure out
+[22:02] um
+[22:04] Okay, the moon normal GNA finance legal HR share
+[22:09] Then you're like, okay infrastructure on the technology side shared
+[22:14] Is manufacturing share?
+[22:17] Sometimes you want manufacturing to go deep. Okay, we're just gonna do this kind of manufacturing
+[22:21] But it just so happens that a lot of the manufacturing that we're doing on mining is similar to
+[22:26] Uh, the manufacturing that we're doing on transport, but it's very different than the manufacturer. We're doing on food. So
+[22:33] Do you have a guru of manufacturing? You probably do
+[22:38] Because it's a thing. It's a specialized thing
+[22:42] And when you do it at scale, you can get way better talent and just all the other things work better
+[22:47] So my guess is manufacturing is also one of those things and then you're like which parts of software
+[22:54] Get locked in mostly but not complete and I don't have all the answers on that one
+[22:59] But like these are business units that run as separate businesses like the guy who runs
+[23:04] You know mining is just like all in on that and has lots of control and empowerment to make mining successful
+[23:13] um
+[23:14] And same for the other for the other situations. Yeah, that's super interesting
+[23:20] Yeah, but I mean that's the thing right is like I had to make it
+[23:25] a bit painful
+[23:27] Otherwise, I'm just not
+[23:29] I'm just like I will make I just inevitable. I just do that. Yeah
+[23:33] Now next question
+[23:38] Brett
+[23:40] Hi Travis. Um one thing that you said earlier was uh being pissed off makes you a really good entrepreneur
+[23:46] Um
+[23:47] You know there's it's interesting sometimes people say that if you're successful and you're driven by a desire
+[23:52] For revenge. It's like a dirty fuel like it works
+[23:54] But it's not the best source of fuel that you can possibly have
+[23:57] I'm curious throughout your career and just like everything that you've built
+[24:00] Have you found a cleaner source of fuel or yeah, you just what, you know, what's your takeaway on that?
+[24:04] Well, most people don't know this but before this is a couple companies before uber. I did a uh
+[24:11] A peer-to-peer file sharing system
+[24:14] Got sued for a quarter of a trillion dollars by 33 of the largest media companies in the world and I was pissed
+[24:20] I did a revenge business, which was I'm going to do a
+[24:24] peer-to-peer CDN like Akamai bittorn meets Akamai before bittorn existed
+[24:28] And my whole thing was turn those guys who sued me and the customers
+[24:32] It was like a full spite business like full spite store. Like let's go. Okay. Um
+[24:42] But I think in many ways
+[24:45] There is a there is a dirty there is a dirty revenge or dirty
+[24:50] It's dirty it can be successful, but it ends up being less than what it should be
+[24:55] When it comes from the wrong place if that makes sense
+[24:58] Uh part of what drove me earlier was a little bit of like a fear of failure
+[25:04] A fear of failure
+[25:06] and that can mean long nights where you get little done
+[25:11] And it just means you have this edge this weird vibe that people like dude something's wrong with that guy
+[25:17] Right and it's just a thing you're just not going to go all the way
+[25:20] Right
+[25:21] When the uber thing happened and then moved on to new stuff, which was like eight months
+[25:29] After I left uber, I was doing the new thing
+[25:31] uh
+[25:33] Yeah, I I kind of fell in love again
+[25:36] You know and so people said are you pissed off about uber?
+[25:39] This thing like are you does that grind you or you know, is it on your mind?
+[25:43] And yeah, it's just like when you fall in love again, you don't think about the axe very much
+[25:50] And if you come from that place
+[25:53] You can create in a beautiful
+[25:56] underity way
+[25:57] It that makes sense. Yeah
+[25:59] It's important and it's not that doesn't you got to work on it to get to that place probably over time
+[26:05] But by the time I got there, I was there. Yeah, maybe one last question
+[26:12] Oh, and by the way, you can't be retard maxing to get to that place
+[26:16] Okay for our boy market for our boy mark. I gotta still have a debate on that one
+[26:22] All right. Yeah, question you mentioned I remember the slide. I'll remember forever killer boss
+[26:30] Um was the killer boss for adam's especially in this what is the killer boss? What does that mean final boss? Yeah, oh?
+[26:39] Final boss killer boss is my version for a fan look um
+[26:45] There's huge opportunities here
+[26:49] It's maybe the final bosses like I don't know what the final boss
+[26:52] but like I'll just I'll just riff a little bit on this concept which is
+[26:56] There are a lot of people in this room and not in this room
+[27:00] Who will gladly vanquish me
+[27:05] And I mean not in a bad way but we're competing for the next industrial revolution
+[27:14] um
+[27:16] You know magic john his old school magic johnson larry bird were like kind of guys but like they'll kick each other's butt, right?
+[27:22] So, uh, this is a wrong analogy for this crew, but but you get it's like patch are doing like you have some shit. Okay, but um
+[27:33] So I think there's there's that is actually pretty important
+[27:37] Is there like an ultra like you have to you always have to think when you go into a space like this you go
+[27:42] Who's the best of the best at industrial ai anybody want to guess?
+[27:46] It's really obvious
+[27:50] His his name rhymes with schmielon
+[27:53] Okay, he's the best of the best
+[27:57] And he'll just keep going and keep doing lots more even if what you do now is not what he does now
+[28:03] So make you want to go final boss mode. I mean he I don't even know who his final boss is like he'll like dude
+[28:09] He lawns the goat. I'm like dude. I'm a baby goat. It's great
+[28:13] Um
+[28:14] You know, but that maybe he's the final boss, you know
+[28:18] Uh, but mad respect of course, uh, he's he's obviously the best by a long shot
+[28:25] Uh, and so um anyways, yeah, I'm not sure exactly how to answer that was a little riff on it. Yeah
+[28:31] Maybe we'll we'll end on on this question, which is
+[28:34] You you've never left, but you were in a cave for a while. You know, you were
+[28:39] You were focusing. I had a I had a
+[28:43] presentation that I gave to my leadership team in like 2019
+[28:48] The title was be on iconic
+[28:52] Be on iconic. We did we had a fucking massive
+[28:57] High fidelity playbook on how to not get attention for anything. We did
+[29:02] We had thousands of employees who were not allowed to put our company on linked in
+[29:09] It was weird
+[29:11] This is your coming out party. So to speak. Yeah, you're back in the flow
+[29:16] Talk about how you've seen silicon valley or the tech industry at large
+[29:19] Change from when you were, you know, right in the in the center in it to be coming back eight years later
+[29:25] Would have what surprised you or what's what's most notable about
+[29:29] Where we are as I just look I think probably one of the coolest things and this is part of why I'm out
+[29:34] Versus not before uh, is that the media landscape has completely changed
+[29:40] The media landscape 10 years ago
+[29:43] 90 percent of what was said was very negative
+[29:47] Business had become politics
+[29:50] and we didn't know it
+[29:53] so
+[29:55] Think of your favorite politician if you have one. I mean many of you may not have one, but let's just pretend you did. Okay
+[30:02] That's fucking hilarious
+[30:05] But let's just say okay
+[30:08] Uh
+[30:10] Take your favorite politician
+[30:13] Are the go type his name in on google what do you think you're going to find anything good?
+[30:18] It's going to be just
+[30:19] Tsunami waves of negativity is what you're going to find
+[30:24] Of course, if it leads if it bleeds it leads right and that's human nature and there's negativity and that gets the clicks and the whole thing
+[30:32] um
+[30:33] but
+[30:35] We weren't used to it then and we thought everything that the New York Times said was real
+[30:40] And we know now that that's not even close to true and it's we we now understand
+[30:45] And so the media landscape is like yeah, you don't have to talk to those guys
+[30:50] and you can go and talk to a david senra you can go and talk to uh
+[30:55] Joe Rogan or name your guy and it's you can
+[30:59] Say what you need to say in a in an environment that's not
+[31:04] Like a struggle session in mao is china right
+[31:08] so
+[31:10] That's a big frickin change and and I think it's a you know
+[31:14] Elon buying twitter is like the beginning of us being able to speak our minds
+[31:21] And for disagreeing to not be illegal
+[31:25] That's a big deal. We should all thank elon for that
+[31:32] And it allows so you go okay
+[31:34] Somebody like myself who basically was just like
+[31:37] Okay, uh, I want to build I want to
+[31:41] Uh, I I want to not think about what the new york times is writing when I make decisions about what I build
+[31:48] Um, I had to emulate what it's like being a capitalist in russia
+[31:54] Which is their number one kpi is called shut the fuck up
+[31:58] And that's what I did for eight years
+[32:01] In a weird way. It was like that
+[32:04] For different reasons, but it was like that
+[32:06] And so we're now out of that mode or getting out of that mode and let's go
+[32:11] And I think that's the biggest change for all of us in the last eight years
+[32:15] and god bless and like hopefully that
+[32:19] continues
+[32:21] I think it's a great note to to wrap on traps is back travis never left give it up for travis
+[32:30] Thanks for listening to this episode of the a 16z podcast
+[32:34] If you like this episode be sure to like comment subscribe leave us a rating or review and share it with your friends and family
+[32:41] For more episodes go to youtube apple podcast and spotify
+[32:45] Follow us on x a 16z and subscribe to our sub stack at a 16z.substack.com
+[32:51] Thanks again for listening and i'll see you in the next episode
+[32:55] As a reminder the content here is for informational purposes
+[32:59] Should not be taken as legal business tax or investment advice or be used to evaluate any investment or security
+[33:04] And is not directed at any investors or potential investors in any a 16z fund
+[33:09] Please note that a 16z and its affiliates may also maintain investments in the companies discussed in this podcast
+[33:14] For more details including a link to our investments, please see a 16z.com forward slash disclosures

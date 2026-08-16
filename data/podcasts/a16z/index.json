@@ -11,9 +11,33 @@
   "ben-horowitz-the-fight-over-open-source-ai",
   "the-reality-of-ai-powered-cyberattacks-truffle-security-socket",
   "the-engine-powering-open-source-ai",
-  "three-startups-reinventing-critical-infrastructure"
+  "three-startups-reinventing-critical-infrastructure",
+  "ben-horowitz-and-travis-kalanick-on-building-again",
+  "the-two-ways-to-sell-ai-lighthouse-or-landgrab",
+  "garry-tan-on-taste-agents-and-founder-ambition"
  ],
  "episodes": [
+  {
+   "fiche": "ben-horowitz-and-travis-kalanick-on-building-again.json",
+   "titre": "Ben Horowitz and Travis Kalanick on Building Again",
+   "date": "Fri, 14 Aug 2026",
+   "date_iso": "2026-08-14",
+   "nb_outils": 0
+  },
+  {
+   "fiche": "the-two-ways-to-sell-ai-lighthouse-or-landgrab.json",
+   "titre": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+   "date": "Thu, 13 Aug 2026",
+   "date_iso": "2026-08-13",
+   "nb_outils": 1
+  },
+  {
+   "fiche": "garry-tan-on-taste-agents-and-founder-ambition.json",
+   "titre": "Garry Tan on Taste, Agents and Founder Ambition",
+   "date": "Wed, 12 Aug 2026",
+   "date_iso": "2026-08-12",
+   "nb_outils": 1
+  },
   {
    "fiche": "the-reality-of-ai-powered-cyberattacks-truffle-security-socket.json",
    "titre": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
@@ -92,5 +116,5 @@
    "nb_outils": 2
   }
  ],
- "maj": "2026-08-09T17:46:10Z"
+ "maj": "2026-08-16T17:38:55Z"
 }

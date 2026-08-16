@@ -1,0 +1,28 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "Max Hodak: How Startups Build Speed",
+ "date": "Mon, 10 Aug 2026",
+ "date_iso": "2026-08-10",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/Max-Hodak-How-Startups-Build-Speed-e3n8178",
+ "duree": "00:57:02",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 5.3,
+ "taille_transcript": 68918,
+ "transcript": "max-hodak-how-startups-build-speed-transcript.txt",
+ "nb_outils": 3,
+ "outils": {
+  "Cursor": [
+   "ciety for Neuroscience conference The experiment I was working on back then was if you put electrodes in the brain of a monkey and they give a monkey a joystick And you record the neural activity as it's playing a game If you make the joystick say go suck the cursor go sideways when them when they push forward on the joystick Which does the brain do does the brain represent the joystick or the screen or something else? There it turns out that they're neurons that you both at our company science our main product is a reti"
+  ],
+  "Greenhouse": [
+   "e has been so expensive you would have had to buy it And that's what everybody did for a long time. That was I think a worse world in that world has changed And so now there are better options available. But like I said, so like we previously had used We used greenhouse Greenhouse required us to have a small number of people as a bottleneck at that at that first funnel stage Um placing that with software we were able to explore voting mechanisms and fairly detailed voting mechanisms That can that can make smart inferences ab",
+   "so expensive you would have had to buy it And that's what everybody did for a long time. That was I think a worse world in that world has changed And so now there are better options available. But like I said, so like we previously had used We used greenhouse Greenhouse required us to have a small number of people as a bottleneck at that at that first funnel stage Um placing that with software we were able to explore voting mechanisms and fairly detailed voting mechanisms That can that can make smart inferences about who wou"
+  ],
+  "Make": [
+   "l have to take your shipping packaging Print a label on it and put it in a vibe box and show that the corners of the label Don't curl in a way that might cause it to attach and so we you hire regulatory experts to go find all of the standards that might apply Make a list of them and then have a spreadsheet which is like all of the evidence that you comply with all of the standards So you have this This thing can take many many months historically AI has totally transformed it I mean we can very quickly look at all the "
+  ]
+ },
+ "mentions_publicitaires": {}
+}

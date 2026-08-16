@@ -1,0 +1,848 @@
+The a16z Show
+The Two Ways to Sell AI: Lighthouse or Landgrab?
+Thu, 13 Aug 2026
+https://a16z.simplecast.com/episodes/the-two-ways-to-sell-ai-lighthouse-or-landgrab-9C2mrr4S
+
+[00:00] There's a moment right now to go sell big software again.
+[00:03] We're now looking at a different way of doing business entirely.
+[00:05] What are the lighthouse and land grab sales playbooks?
+[00:09] Here's the framework for evaluating which playbooks should you be following.
+[00:12] There's this very obvious one.
+[00:14] Go after the very obvious companies here in San Francisco
+[00:17] that probably have some sort of proof or social value associated with them.
+[00:20] Or like go out and sell in Ohio, find people who need your solution.
+[00:25] If you think about sort of the enterprise networking world
+[00:28] in 2009, people thought we were crazy.
+[00:31] They had no chance of getting into the largest corporations in the world,
+[00:34] the lighthouse, because Cisco and HP had them all tied up.
+[00:37] But what we could do is we could say,
+[00:39] listen, we can configure, we can deploy faster, we're simpler to use.
+[00:43] And that was very much a land grab strategy.
+[00:45] Too few people are willing to pick up the phone
+[00:47] and willing to go out on the plane
+[00:48] and willing to get in front of those customers right now,
+[00:50] because they feel like it sounds way more sexy to sell the JP Morgan Chase
+[00:55] than to make me more of it in case.
+[00:57] I think the biggest mistake that I see the founders making an early stage, honestly, is just...
+[01:03] Today, Elena Berger sits down with A16Z's Joe Schmidt and Andy McCall
+[01:08] to unpack two competing go-to-market strategies.
+[01:11] Lighthouse versus land grab.
+[01:13] Do you win a handful of high-profile customers
+[01:16] and use their credibility to unlock a market?
+[01:18] Or do you find customers with existing budgets,
+[01:21] prove the math, and capture as much of the market as quickly as possible?
+[01:25] Drawing on today's AI companies and lessons from building the sales organizations
+[01:29] at Samsara and Meraki,
+[01:31] they break down how to know which game you're playing,
+[01:33] when to switch strategies,
+[01:35] and why sometimes the best sales advice is simply to stop strategizing
+[01:39] and start selling.
+[01:41] You can read Joe's article in the show notes.
+[01:46] Welcome back to the A16Z podcast.
+[01:48] Today, we're getting into the single most expensive question
+[01:51] an AI founder makes, how you sell.
+[01:54] Joe Schmidt just wrote a piece called Lighthouse or Land Grab,
+[01:57] which gets into the two dominant playbooks he's observed among the enterprise AI startups.
+[02:02] Joe, tell us about the piece in your own words.
+[02:05] What are the Lighthouse and Land Grab sales playbooks?
+[02:08] Yeah, and this piece actually all stemmed back from an observation
+[02:11] that I had actually driving up the 101 freeway.
+[02:14] Maybe this is three, four, five months ago, I can't remember.
+[02:17] And you just realized that you have the same kind of two competing companies,
+[02:20] like one's on one side of the freeway and the other's on the other side of the freeway
+[02:23] and they're selling the exact same piece of software.
+[02:26] And for some reason, they all have decided that the only relevant companies
+[02:29] for this piece of software are in San Francisco and driving on the 101 freeway.
+[02:33] And then this has gotten even more ridiculous.
+[02:35] It's obviously every bus has been wrapped and every planes are flying up above
+[02:39] and they're now towing startups.
+[02:41] And so I think it's all very clever, but it's all targeting the same kind of sales motion.
+[02:44] The reality is you don't always have to do that.
+[02:47] You don't always have to sell the same companies in San Francisco.
+[02:49] And so what I wanted to try to do is tell founders like,
+[02:52] here's the framework for evaluating which playbooks should you be following.
+[02:55] There's this very obvious one, which is like go after the very obvious companies
+[02:59] here in San Francisco, in New York City, in a major metro,
+[03:02] that probably have some sort of proof or social value associated with them,
+[03:06] or go out and sell in Ohio, go out and sell in Chicago, go out and sell in St. Louis,
+[03:11] find people who need your solution.
+[03:13] And so that was the whole point of the piece is you don't always have to go sell these notable logos.
+[03:16] And we'll see how that plays out, but that's why.
+[03:19] Just to get a little bit deeper.
+[03:21] When does it make sense for a founder to go and buy a giant billboard
+[03:27] that you see when you're driving from SFO into the city?
+[03:30] When does it make sense for you to kind of do a more targeted sales activity or emotion elsewhere?
+[03:37] Yeah.
+[03:38] I think the way that we tried to make this make sense, of course,
+[03:40] we did very consulting style with a two by two matrix.
+[03:43] I did never work at a consulting firm, but I'll do my best.
+[03:46] And so we really were thinking about, okay, what are the axes
+[03:48] that we should be kind of mapping opportunities against?
+[03:50] And so we decided upon the Y axis is really what we called the buyer's exposure.
+[03:54] And it's intentionally called exposure because there's the exposure of making a mistake
+[03:59] with the solution that you buy.
+[04:00] There's also the exposure of the solution inside of your company.
+[04:03] Does this product that I'm selling to my customer end up being shown
+[04:06] at their end customers, right?
+[04:07] Which is actually an important distinction and really just kind of the overall risk associated
+[04:11] with buying this piece of software.
+[04:13] So that was kind of the Y axis and it goes from high to low.
+[04:16] And then the X axis is whether or not proof travels in any given market.
+[04:20] And so if you think about the top right would be proof travels in this market
+[04:24] and it's high buyer exposure and high buyer risk.
+[04:27] And the bottom left and that's a lighthouse market, right?
+[04:29] This to be clear.
+[04:30] And the bottom left would be low, low, low proof traveling, but also low buyer exposure.
+[04:35] And that would be a land grab market.
+[04:36] And so I think those are actually quite different.
+[04:38] And if you think about the standard markets that fit into the lighthouse model,
+[04:42] its regulated industries, oftentimes there's a more constricted number of logos.
+[04:48] If you're wrong in the industry, like if the buyer buys the wrong piece of software
+[04:51] and ends up doing the wrong thing, it can lead to very bad things happening for your firm,
+[04:55] including potentially getting in trouble with the regulator, even going and doing something illegal.
+[04:59] That's very bad, of course.
+[05:01] And then on the flip side, when you're looking at the moral land grab market,
+[05:03] there's an established budget.
+[05:05] People have been very used to and accustomed to paying for a type of service.
+[05:09] And you can kind of come in there and show like the empire, the math of,
+[05:13] hey, my solution is better than whatever solution you're using today,
+[05:16] whether that's a software driven solution or a human driven solution.
+[05:19] So the kind of distinction that we drew was between like proof on the top right of the quadrant
+[05:24] and math on the bottom left of the quadrant.
+[05:26] And that's how we kind of thought about the framework.
+[05:28] Yeah. And Andy, we'll get into your background in a little bit.
+[05:31] But I think first, maybe it's good to kind of categorize some of these modern day AI startups
+[05:37] in these two frameworks.
+[05:39] And I know you both work with a lot of these companies.
+[05:42] So Joe, I'm not sure if you want to call out specific examples.
+[05:45] Andy, if you want to call out specific examples and really just kind of like talk through the sales strategies
+[05:50] that you're seeing.
+[05:51] Yeah. I mean, well, you're like the land grab mastermind.
+[05:54] So maybe you want to talk about some of the stuff that you've seen?
+[05:56] Yeah. Well, I think you framed it up really well in your article.
+[05:59] But I think that concept of like the lighthouse being more in industries that require regulation,
+[06:05] a lot of social proof and so forth.
+[06:07] And those tend to be companies that are going after like a category creation, right?
+[06:11] It doesn't exist today.
+[06:12] So therefore you got to go out and you got to kind of prove yourself with the big names.
+[06:15] And obviously we have a bunch of portfolio companies out there.
+[06:17] There's a bunch of companies that you mentioned a couple of your article that are doing that.
+[06:20] And then on the other side of the sort of land grab, less social proof,
+[06:23] but those tend to be, especially in the AI world today,
+[06:26] those are companies that are maybe replacing or improving workflows that already exist.
+[06:31] And there's existing budget.
+[06:33] And again, we have a whole bunch of portfolio companies.
+[06:34] You named a couple in the article.
+[06:36] They're doing that today.
+[06:37] They're inserting themselves in saying, hey, we built a better way to go after this through AI.
+[06:41] And I think those are the great companies going after the land grab strategy.
+[06:44] Yeah. And it's interesting.
+[06:45] I mean, for those that aren't familiar with Andy's background,
+[06:47] he's built some of the best sales organizations that I've ever heard of at Samsara and Meraki.
+[06:53] And I've always found like these stories like really fascinating, illuminating.
+[06:57] Like the Samsara story around kind of the ELD mandate is the way I understand it.
+[07:02] Kind of basically forcing the category to happen everywhere all at one point.
+[07:06] And it's just who can go out there and do it fastest?
+[07:09] Maybe just if you could for the audience's edification,
+[07:12] share a little bit about what that big why now moment was.
+[07:14] Sure.
+[07:15] Because we're kind of having one right now.
+[07:16] And how you guys kind of went and captured it.
+[07:18] Yeah.
+[07:19] Yeah. I think if you're in the industry for long enough,
+[07:21] and I've got the gray hair to prove that I have been blonde.
+[07:24] Blonde.
+[07:25] Blonde.
+[07:26] Yeah, bordering on gray.
+[07:27] Sure.
+[07:28] You tend to see these big transitions.
+[07:29] And I'm old enough to have seen the internet come about and certainly mobile and cloud and obviously now AI.
+[07:34] And each of those causes this transition and it causes new ways to think about how you go to market.
+[07:39] Not wholesale changes, but always tools to help improve upon them.
+[07:44] And I think the other thing I would say, I can't name too many companies that have become hugely successful
+[07:50] without some element of timing and luck.
+[07:52] Right.
+[07:53] And so you talk about Samsara and the company was founded back in 2015.
+[07:56] I joined in 2017 and the idea back then was at the very beginning, it was like internet connected sensors,
+[08:02] like all the value chains are going to become censored up.
+[08:04] How do we get sensors out there and just this data, give it back to business owners in digestible and usable ways.
+[08:10] And one of the first products that started gaming traction were these telematics units and taking a step back.
+[08:17] If you think about the world of transportation, long haul trucking, right?
+[08:20] Prior to like 2016, they had these manual log books.
+[08:24] If you were driving a truck and you stopped to take a break, you would write down in your log book,
+[08:29] I had just drove for four hours, now I'm taking a 20 minute break and then you drove for two more hours
+[08:33] and you stopped for lunch.
+[08:34] And if you got pulled over by Highway Patrol, they would ask to see your log book and they bought it
+[08:39] and make sure you weren't driving too long.
+[08:41] It was a safety regulation.
+[08:42] And in the US, around about 2016, they implemented this ELD mandate, right?
+[08:48] So for electronic logging devices and the idea there was, hey, we can use technology to actually track when the vehicle is moving
+[08:54] and when it isn't and are they taking enough breaks and so forth, right?
+[08:57] Take the human data element out of it, the human element rather.
+[09:00] And so over a two year period, that was basically implemented between 2016 and 2019 with various phases of sort of compliance.
+[09:07] But what it did is it provided this huge tailwind for anybody making these electronic logging devices.
+[09:14] And we just happened to be one of the newer companies doing it.
+[09:17] And there were some very, very established players, right?
+[09:19] AT&T had a solution for Verizon had a solution.
+[09:21] There were a number of companies that were in sort of the hundreds of millions, half a billion in revenue already doing this.
+[09:27] And rising tide floats all boats, it helped everybody.
+[09:30] But if you were a new entrant into the market, like we were at Tensora, it really helped because basically the entire industry,
+[09:37] all of a sudden, had to find budget to go out and buy these things.
+[09:42] And a certain percentage of them clearly would say, hey, let's check out what's new out there and how many new entrants into the field.
+[09:47] And so it really helped kind of give us a boost.
+[09:51] How did you navigate the social proof side of that?
+[09:53] Because I think the casual observer might think about that and say, okay, wow, this is regulated.
+[09:57] We can't screw this up.
+[09:58] So you probably have to go in, I don't know what the largest long haul trapped company is.
+[10:02] I'm trying to think of the ones I see on the freeway.
+[10:04] But in any event, you probably have to go in that one, but it doesn't sound like that's what you did.
+[10:07] For what I understand, that's not what you had to do.
+[10:09] So how do you navigate that social proof element?
+[10:11] Yeah.
+[10:12] Well, I think, you know, I would, and maybe I'm doing a little bit of disservice to the amount of strategy that went into this.
+[10:19] But there wasn't a lot of strategy that went into like, do we chase lighthouse accounts or do we go after land ground?
+[10:24] Who's willing to pay us?
+[10:25] We kind of listen to our customers, right?
+[10:27] And it doesn't take too many cold calls into the largest trucking and transportation firms when you're, you know,
+[10:32] 18-month-old company that they've never heard of to hear, we're not buying you, click to figure out, hey, you know, who can we sell to?
+[10:40] Yeah.
+[10:41] And, you know, in 2017, 2018, you know, we had minimal features.
+[10:46] Yeah.
+[10:47] We were just looking for, do we have something that somebody wants to buy?
+[10:51] And so for us, at that point in time, the mid-market was the place to go.
+[10:55] For a couple reasons.
+[10:56] Number one, it didn't require as much social proof, right?
+[11:00] It was more about, hey, are you satisfying my need for telematics?
+[11:04] Do you fit the requirement?
+[11:06] And then, you know, the other reason was we could get really fast feedback in product, right?
+[11:11] Because the sales cycles are short, we could get it implemented quickly, they would deploy quickly, right?
+[11:16] The bigger the account, the longer these deployments, the longer the feedback loops.
+[11:19] And so it really helped us with the sort of product innovation side as well, just to get as many deals out there,
+[11:24] get as many wins as we could.
+[11:25] Yeah.
+[11:26] And I think this is actually really important, though, as early-stage founders evaluate this moment in time,
+[11:31] like, we don't exactly have the mandate from the U.S. government saying you have to adopt AI,
+[11:37] but CEOs everywhere are saying you do have to adopt AI company.
+[11:41] There are AI boards at every enterprise right now saying, like, here's what we need to buy,
+[11:46] and we need to do it by expiry at a time.
+[11:47] And that surely will go away, but there is this moment of crazy kinetic energy inside of the companies.
+[11:53] And so I think that, like, what he just said, actually, what Andy just said is actually a good bill,
+[11:59] whether or not you're in a land grab versus a lighthouse market, are people willing to actually buy from you?
+[12:04] It's part of the land grab, you know, math here is like, are they willing to get on the phone with you?
+[12:08] Are they willing to buy your product?
+[12:09] Are you going through POCs and are you figuring out, like, how to get someone to use it?
+[12:13] You know, and so if you can't get that done, then it's all about going and, like, doing, like, very deep,
+[12:18] you know, forward deployed, lighthouse, like, you know, arrangements and figuring out how to then get to your next customers.
+[12:24] But I just think, like, too few people are willing to pick up the phone and willing to go down the plane
+[12:29] and willing to get, you know, in front of those customers right now because they feel like, oh, this is like this new category moment.
+[12:34] I have to go, I have to go to JPMorgan Chase to this home ideal.
+[12:38] Yeah. And you said a really good thing there.
+[12:40] It's, you know, do they have existing budget?
+[12:43] Do they have, you know, is it a replacement product?
+[12:45] If it is, then you're probably going to lean more towards a land grab.
+[12:49] Yeah.
+[12:50] If this is a brand new product and there's so many of those today, right?
+[12:53] We talked to founders every day, companies are being born with brand new products and they're going to have some brand new markets.
+[12:58] If you have to do a lot of education to your market, if they don't have existing budget, if you're going to have to take them to this educational journey
+[13:04] before they can go out and justify the purchase internally, that's probably more of a lighthouse strategy.
+[13:09] Yeah.
+[13:10] And you're taking them on this educational journey and it's a lot more missionary work than it is,
+[13:14] hey, take that money that you're spending with vendor A and move it over to us.
+[13:17] Yeah.
+[13:18] Yeah.
+[13:19] So maybe it's worth getting specific about some of these companies.
+[13:21] I know in the piece you talk about Hebea and Harvey as classic lighthouse examples and then Stutt and Decagon as land grab.
+[13:30] So maybe, do you guys want to talk about some of those, those playbooks that you've seen or maybe give other examples?
+[13:35] Yeah.
+[13:36] Sure.
+[13:37] Yeah.
+[13:38] Sure.
+[13:39] I mean, I can go and you jump in.
+[13:40] For example, I highlight Stutt in the article as like the prototypical example of a land grab company that we're seeing in this new age.
+[13:47] And so Stutt, this amazing business founded by two incredible entrepreneurs, Tark and Ben.
+[13:53] And what they are going after is the accounts receivable market.
+[13:56] And for listeners who maybe have never thought about like AR accounts receivable, basically, this is when someone owes you money,
+[14:03] you know, in enterprise context and you have to go collect the money from them.
+[14:06] This is not glamorous.
+[14:08] But however, there has been, you know, a mechanism to do this historically, right?
+[14:11] There are collections teams and there's big pieces of software like, you know, I won't say their names because compliance will probably bleed them out anyway.
+[14:18] So there are big companies that do lots of AR that sell in this market, but it's been very manual, right?
+[14:23] These human teams have to interact with this piece of software and they have to go out there and they have to sell or they have to go collect.
+[14:29] And so what Stutt said was, hey, AI is actually quite good at, you know, basically having conversations with people.
+[14:34] It's very good at looking at information internally and basically doing this process end to end.
+[14:38] And so we could reimagine this historic, you know, way of doing collections and instead of having humans do it, we can have humans plus AI do this and do it even more effectively.
+[14:46] And that with that, they then saw that open up was like the rest of kind of like, you know, order to cash and basically entire kind of accounts receivable suite.
+[14:53] And so what they basically went out and showed all of their early stage buyers was in doing this, we have the math to prove it.
+[15:01] We will be more effective than your current solution and your current human teams at collecting.
+[15:05] And this will do XYZ for, you know, improving working capital by a tremendous amount.
+[15:10] It'll save you money. It'll actually make you more money.
+[15:12] So they were able to go out to the mid market and just basically show the math and be like, would you like to, you know, have this solution?
+[15:18] Yes or no?
+[15:19] So that's a really good example of a land grab market.
+[15:22] And those entrepreneurs are just like unbelievable sellers.
+[15:25] Like hit the pavement better than anyone, just as good as anyone, as anyone I've ever seen.
+[15:30] And they're doing a great job.
+[15:32] You know, another example on the lighthouse side would be, you know, we highlight Harvey in our article.
+[15:37] And they just did a fantastic job of winning the right law firms for this very new, very, you know, theoretically high risk initiative
+[15:44] where you're augmenting your human workforce with, you know, AI capabilities and really automating what, you know, junior lawyers would be doing on a day-to-day basis.
+[15:54] And so when they won the first kind of, you know, few critical lighthouse accounts inside of their market, like that proved traveled like big time.
+[16:04] And then, you know, the buyers that had like this tremendous amount of exposure realized, hey, it's actually safe for me to buy this solution.
+[16:10] So those are the two kind of counter examples in this market.
+[16:14] I don't know if there's anything you'd highlight from other companies you're working with or things you've seen.
+[16:18] Yeah, I mean, those are two great examples.
+[16:20] I'm doing a decent amount of work with a company we invested in called Pylon.
+[16:24] They're basically the AI native customer support.
+[16:28] And they're a great example of land grab.
+[16:31] They're doing a fantastic job right now just going out and saying, hey, we've got a better way of doing this.
+[16:36] And, you know, they have, you know, they've been climbing up the ACV ladder, but, you know, they started at pretty modest ACVs
+[16:43] and had been working their way up just by going out and replacing.
+[16:46] And they have a fantastic go-to-market team that's just out executing.
+[16:49] This ACV question is actually kind of an interesting one.
+[16:52] And I'd be curious how you thought about it at Meraki or Samsara.
+[16:55] You know, there's so much demand out there.
+[16:58] And there's so many different ways of like kind of building your go-to-market engine.
+[17:01] Like, how much did you actually even think about what you were landing at with these, like, you know,
+[17:06] it may be go back to when you were at like, I don't know, 10 or 50 of ARR at one of these businesses.
+[17:10] Were you optimizing for that? Or was it just like, let's basically figure out how to get enough reps in?
+[17:15] Yeah, it's a good question.
+[17:17] The answer is you think about it a lot and then you try and not think about it at all.
+[17:20] And what I mean by that is you want to make sure that the ACV that you're going after,
+[17:25] it has to top the hurdle, right?
+[17:29] In other words, you look at your unit economics and is it healthy or not?
+[17:32] You don't want to be taking deals that are, you know, negative to your unit economics.
+[17:36] But if it passes the threshold, then the answer is you don't think about it.
+[17:39] You just go and you get as many of those as you can.
+[17:41] So if you can build a go-to-market engine, just theoretically,
+[17:44] that could live off of 15k ACV deals, fantastic.
+[17:48] Don't take 8k ACV deals, but go get as many 15k AC deals as you can.
+[17:53] And you want to just build a repeatable engine and poor fuel on the fire and get as many of those as you can.
+[17:57] And then what happens over time is you start inching up, right?
+[18:00] And bigger and bigger companies like what you're doing and you start stacking up the winds
+[18:05] and going up the ACV ladder.
+[18:07] And can I one follow up on that because this is interesting.
+[18:11] So I'm just enjoying getting you talking about this stuff.
+[18:13] But like, Maraki, you guys had, and maybe tell the audience what Maraki does, but you know,
+[18:18] basically access points, right, for inactivity.
+[18:21] And you guys had this really clever program where you would kind of give an access point away.
+[18:25] Yeah.
+[18:26] Free is the way I understood it almost.
+[18:28] And then of course, like you do that, that impacts gross margin.
+[18:30] But also, you then have a hardware element as a part of your gross margin calculus.
+[18:34] Like, we don't have as many companies out there that are doing, you know,
+[18:37] maybe AI applications with a hardware element, but there is an inference element,
+[18:41] which impacts gross margins.
+[18:42] And so I don't know, how did you think about like these kind of trade-offs in the early days
+[18:45] in Maraki?
+[18:46] And of course, you had the same thing at Cintar with hardware too.
+[18:48] Yeah.
+[18:49] So just for the audience's education.
+[18:51] So Maraki was basically a cloud networking company at this point.
+[18:56] It is 20 years ago.
+[18:57] So part of it still is a very healthy business within Cisco.
+[19:00] It was acquired by Cisco back in 2012.
+[19:03] But the company is actually founded back in 2006.
+[19:06] The co-founders were working on a research project as PhD students at MIT
+[19:11] and started the business.
+[19:12] And what's interesting about that, the research project was called roof net.
+[19:16] The technology they built was basically large scale, like mesh Wi-Fi.
+[19:20] And they'd install it on the roofs in like Cambridge.
+[19:23] And the idea was you could, you know, outfit these municipalities and, you know,
+[19:27] parks and, you know, public areas with Wi-Fi.
+[19:30] It was fantastic technology.
+[19:31] Within the first couple of years, they figured out it wasn't a great business model.
+[19:34] There wasn't a lot of revenue in municipal Wi-Fi.
+[19:36] And so they made this pivot into enterprise.
+[19:39] And the reason I say that is, you know, if you think about sort of the enterprise
+[19:44] networking world in 2009, 2010, like people thought we were crazy.
+[19:49] Like, why would you be trying to build an enterprise networking company in 2009?
+[19:53] Don't you know that?
+[19:54] Mark, it was one 10 years ago by Cisco and HP.
+[19:57] But the reality was, and again, back to sort of the timing, that was right when cloud was coming
+[20:02] back.
+[20:03] And the big innovation around Maraki was the product and engineering folks fantastic team there figured
+[20:09] out how to configure and manage this networking equipment through the cloud,
+[20:13] which sounds like, yeah, total, of course.
+[20:15] Back then it was a little bit innovative.
+[20:18] Anyway, our problem, and that was very much a land grab strategy, right?
+[20:22] We had no chance of getting into the largest corporations in the world's
+[20:25] lighthouse because Cisco and HP had them all tied up.
+[20:29] But what we could do is we could say, listen, we can configure, we can deploy faster,
+[20:34] we're simpler to use.
+[20:35] Well, who cares about that?
+[20:36] The mid market, right?
+[20:37] Well, they don't have substantial IT teams that have been trained in command line code
+[20:42] and this kind of stuff.
+[20:44] And so, you know, our kind of firm belief at that point in time was, well, what's the best way
+[20:49] to get them to understand that our network equipment is simpler to use than their Cisco
+[20:54] that they're about to buy?
+[20:56] And the answer is get them to try it.
+[20:58] Yeah.
+[20:59] And so, what we do is we'd run these webinars and we'd say, hey, you attend the webinar,
+[21:02] we'll send you a free access point.
+[21:04] You plug it in, try it out.
+[21:06] And the idea was, if they try it, the light bulb goes off.
+[21:10] They say, wow, this is just so much easier than what I'm using.
+[21:13] Why don't I use that?
+[21:15] And it was very, very successful for a long period of time.
+[21:18] And even as the company matured, you know, we were very, very liberal in our trial and eval
+[21:22] because you just fundamentally want customers to experience the technology.
+[21:28] And realize that it's better than the alternative.
+[21:30] And do you think, like, there's an element of, like, people can kind of learn from that
+[21:35] right now.
+[21:36] It's hard, though, because there is an aspect of configurability with a lot of the new AI
+[21:41] stuff, right?
+[21:42] Like if you just give somebody this, like, you know, Ferrari, they might not exactly how
+[21:46] to even turn it on.
+[21:47] And so, I don't know how you even think about, like, the delivery mechanism for some of these,
+[21:52] like, trial periods, POCs with some of the companies you're working with right now.
+[21:56] Yeah, I think it's become more challenging, right, in the world of AI because, number one,
+[22:00] things are moving so fast, like things are changing daily.
+[22:03] And if you think about, like, a proof of concept or a trial, you know, the whole idea, if you're
+[22:08] on the sales side is, I want the customer to experience this.
+[22:10] I want to prove that it works for them.
+[22:13] But I want to do it in a period of time that doesn't go on forever, right?
+[22:17] And so what you have to stay away from, and I think one of the real dangers today is these
+[22:21] things turn into, like, science projects.
+[22:22] I'm going to employ this.
+[22:23] Well, can I do this?
+[22:24] Can I do this?
+[22:25] Can you show me this?
+[22:26] Can you show me this?
+[22:27] And of course, things are advancing every day.
+[22:28] So the answer is probably, yes, I could.
+[22:30] But then you run the risk of these trials and proof of concepts going on forever.
+[22:34] Yeah.
+[22:35] And so it just takes a lot of discipline, I think, in today's day and age to really box that in
+[22:40] and say, listen, here's what our solution does, and we're going to, you know, define it this
+[22:44] way, and we're both going to agree that if it, you know, has done this after 45 days, it's
+[22:48] success and you're going to move forward with the conscious.
+[22:50] And so there is a lot of that today.
+[22:52] And did you, like, I guess would you recommend having, like, kind of auto-converts on these
+[22:56] as much as you can, or, yeah, like, I don't know, like, other, like, kind of learnings
+[23:01] and lessons from this type of, like, 30, 45-day, and then we can talk about, like, the type,
+[23:07] you know, the right amount of time that you're giving people with a product.
+[23:09] I think the timing depends a little bit on the complexity of your product, right?
+[23:12] If it's going to take, you know, two weeks to set up, then you can't make it a two-week
+[23:15] trial-type thing.
+[23:16] But I think the two biggest things are make sure you have an end date, right?
+[23:21] It's a 30-day trial.
+[23:22] It's a 45-day trial.
+[23:23] It's a 60-day trial period, end of story.
+[23:24] And then the second one is you have to define the success criteria.
+[23:28] Here is what we are proving that we can do for you, right?
+[23:31] And in some of these companies, you know, you can't do a proof of concept because, you know,
+[23:36] maybe it is regulatory.
+[23:37] Maybe it was, you know, too much risk in there and you're not going to let you do it.
+[23:40] But where you can, I think you want to make sure you have both an end date and you have
+[23:44] the success criteria to clearly defined.
+[23:47] Yeah.
+[23:48] I think this is so tricky right now where, you know, somebody, you know, like you have
+[23:51] to basically define the scope that you're going after and the success criteria.
+[23:56] But oftentimes if you're like automating something that has never been automated before, there's
+[24:00] like significant amount of configuration and that like cost money.
+[24:04] And then your product could work, but it might be deployed improperly and or the results take
+[24:11] longer than 30 or 45 days.
+[24:13] Yeah.
+[24:14] And actually kind of, there's like a, there's like a difference of, hey, the product is
+[24:17] working and you just, and we, and basically you need to work with the customer and then
+[24:20] optimize whatever they're doing with the product.
+[24:22] Yeah.
+[24:23] Right.
+[24:24] Like imagine you're, I mean, I always go back to sales because it's easy to think about sales,
+[24:26] but like imagine you're a, you know, sales tool, like the product needs to work and then you
+[24:31] need to use it and target the right customers for whatever you're selling.
+[24:35] And they're kind of like two different parts of the equation.
+[24:38] And so if all of a sudden you're taking risk on for whether or not your product works and
+[24:40] whether or not it's being used correctly, right, very tricky.
+[24:43] So I think this is actually a really important topic for founders and for early stage revenue
+[24:48] leaders today to figure out how you're educating your customer on like, here is the thing we
+[24:52] are signing up for.
+[24:53] Yeah.
+[24:54] We are not signing up for, you know, you know, maybe you aren't, maybe you aren't, but you
+[24:57] know, whether or not your employees are using our tool the right way.
+[25:00] Who, who have you seen that does the best of evangelizing and kind of like taking people
+[25:04] through the onboarding process?
+[25:06] You know, I think, who would I put in that bucket?
+[25:12] I mean, I think like Decagon is done an amazing job at this.
+[25:16] Like, I think they go in, they basically evangelize that they're doing customer support better
+[25:20] than anyone else.
+[25:22] And then they're very good about saying here are the benchmarks that we are signing up to
+[25:26] hit and then they hit them, you know, in their time period, right?
+[25:29] And so I think this is, you know, I think some people might trivialize, you know, this, it's
+[25:33] very hard to do customer support effectively.
+[25:36] Like this is a high risk exposed market, you know, where like you don't want to screw this
+[25:41] up.
+[25:42] I think they've done a really good job of evangelizing.
+[25:44] I think the guys at Stute, but back to like the example I just, I just talked about.
+[25:49] And then another example would be, excuse me, a company that I'm on the board of cults
+[25:52] further, further AI and they were, they sell under the insurance space and they're kind
+[25:56] of either basically evangelizing the idea of bringing AI to insurance.
+[26:01] You know, you know, people have been using AI insurance, like this is not, you know, generally
+[26:04] a first adopter of technology, but a lot of their customers are some of the biggest insurance
+[26:09] companies in the world.
+[26:10] And it's because they're very comfortable with like, okay, here's like an AI solution
+[26:13] that's built in a government, you know, secure, you know, governance first, you know, form
+[26:20] and fashion.
+[26:21] And then they work with, with forward deployed teams, you know, their customers to get up
+[26:25] and running.
+[26:26] So those are a couple of examples.
+[26:27] I don't know if you have any.
+[26:28] And that's that last one's a good example of like a lighthouse strategy, right?
+[26:30] Very much.
+[26:31] They've gone after the bigger insurance companies and you then you get that social proof
+[26:34] and, you know, on down the long tail of insurance.
+[26:37] And I think like, sometimes people think that you have to be from a given market to do
+[26:42] a lighthouse strategy.
+[26:43] And maybe there's someone sitting at home and they're like, oh, like, if only like I worked
+[26:47] at this company, I could go do this.
+[26:49] And it's like, no, the reality is like, go build a relationship, you know, I see you laughing
+[26:53] because I know you're like, go build a relationship with your customer.
+[26:56] Go find someone and show them like, here's, you know, I haven't earned secret.
+[26:59] This earned secret is that AI can help your business or technology can help your business
+[27:03] in this way.
+[27:04] Yeah.
+[27:05] And you know, work with us on that.
+[27:06] I'll also say that, you know, every, every small company wants to become a big company.
+[27:09] I don't know too many very large successful companies that at some point in time haven't
+[27:14] deployed both strategies.
+[27:15] You might start off with land grab, but then you mature and you have a lighthouse strategy
+[27:20] or you start a lighthouse and then you get big enough that you can go broad, you know,
+[27:24] into land grabs.
+[27:25] So I think for founders, when I get this question early on, do what makes the most sense for your
+[27:30] business right now?
+[27:31] What does that mean?
+[27:32] Go out and talk to customers.
+[27:33] How are the earliest and easiest sales are and pursue that strategy?
+[27:38] It doesn't mean you're completely, you know, punting on the other one.
+[27:41] It just means come back to it.
+[27:42] And in both of the last companies that I work for, both Meraki and Samsara, we started with
+[27:48] land grab, but as soon as we matured and started getting up in enterprise, then what do you
+[27:52] do?
+[27:53] Well, you verticalize and all of a sudden like, great, who are the top five, you know, transportation
+[27:57] companies?
+[27:58] Who are the top five warehousing companies?
+[27:59] Who are the top five, you know, public sector?
+[28:02] And then you want to go take those down and so you can morph into a land grab strategy.
+[28:06] You just want to do what's most efficient and most effective for the stage of the company
+[28:10] you're at.
+[28:11] Talk, can you talk a little bit about like one of those like key markets that you unlocked
+[28:14] with like you went from land grab early to, you know, lighthouse in a market?
+[28:18] Like, what is you, how did you set up that team?
+[28:22] Or like, was it just you were the founders that was going into this new market?
+[28:26] And then like, you know, maybe a little bit about some of those deals that you close.
+[28:29] I'm just curious how this played out with the sequencing.
+[28:31] Well, I think, you know, both Meraki and Samsara, you know, the sort of earliest example
+[28:39] of, of lighthouse was when we verticalized.
+[28:44] And in both those instances, it was basically into like public sector and Meraki was going
+[28:47] after like school districts because that was sort of low hanging fruit.
+[28:51] And you know, if you're, if you're, if anybody, anybody's ever sold to school districts,
+[28:54] like they all talk to each other, they all know each other, you want to find the biggest
+[28:57] school districts in each state.
+[28:58] And if you can take that down, every school district underneath them.
+[29:01] So what did that one buy?
+[29:03] Great.
+[29:03] Yeah.
+[29:03] All of a sudden, the social proof is there.
+[29:05] Now, why, why use a lighthouse strategy in, say, school districts or in Samsara's case,
+[29:12] when we went into public sector, when you start selling to cities and counties and states,
+[29:16] you know, why shift?
+[29:18] Because the sales motion is fundamentally different.
+[29:20] Like the sales cycles are different.
+[29:22] The way you sell the decision makers are different.
+[29:25] The way they procure is different.
+[29:27] And so asking the same sales team to shift from, you know, selling to a mid-market customer
+[29:32] or enterprise customer over to selling to a city or a county or a school district, it's
+[29:36] just, it's just different.
+[29:38] And so, you know, that's a point where you might want to shift and say, okay, great.
+[29:41] You know, once we're verticalized, we want to shift to a lighthouse strategy.
+[29:46] What would you say there?
+[29:47] The differences are between great sellers in lighthouse models versus great sellers and
+[29:51] land grab models.
+[29:52] Are there any differences?
+[29:53] Like from what you saw, maybe when you're opening new markets, is there a profile?
+[29:58] That was most effective.
+[29:59] It's always difficult to generalize.
+[30:00] I think, you know, in a true lighthouse strategy, and when I envision Lighthouse, it's like, hey,
+[30:06] we're going to go after whatever, the financial sector, you know, here are the top 15 accounts
+[30:10] in France.
+[30:11] And you know, here are their logos, like how many can we get into this quarter, next quarter,
+[30:15] next quarter, right?
+[30:16] Like that's a lighthouse strategy.
+[30:17] You know, generally you want more seasoned, you know, enterprise sellers that, you know,
+[30:24] know how to work within those accounts, they understand the sales cycles, they understand
+[30:29] the sort of procurement cycles in more of a land grab strategy where you're just saying,
+[30:34] hey, we have the best technology where we're replacing this workflow or we're replacing
+[30:37] this product.
+[30:39] You just want, you know, very aggressive, like higher for attitude and aptitude, right?
+[30:43] You can go earlier in career, you know, you just want those people to get out there and hit
+[30:48] as many of those customers as you can, because, you know, at that point, it's like you're hitting
+[30:53] a big market and you just want to stack wins as fast as you can.
+[30:57] Yeah.
+[30:58] And I, you know, my unsolicited advice to any early in career seller or potential seller
+[31:03] right now is there's never been a better time to work at some of these companies in our portfolio.
+[31:07] That's absolutely true.
+[31:08] It's a super fun time to be in the market.
+[31:10] Yeah.
+[31:11] I wanted to ask about maybe a third kind of selling or product diffusion that we haven't talked
+[31:19] about, which is like the developer kind of bottoms up, like more grassroots adoption.
+[31:26] And is that, is that something that you guys are seeing?
+[31:30] Like, is the idea of the seller sort of becoming, I wouldn't say obsolete, but like for a particular
+[31:35] kind of product just less relevant now, like a developer saying to, you know, their CTO
+[31:42] or their, you know, CIO or whoever, like, hey, this is great, like, let's just get this
+[31:46] and like, there's less of a sales motion needed, you know, I guess definitely not.
+[31:53] Like there's a bunch of PLG that's still happening today.
+[31:55] I think people are buying things in a prosumer fashion all the time.
+[31:58] And I think that there's new buyer behaviors being, you know, kind of discovered.
+[32:01] And of course, like, you know, we were big investors and cursor and everyone saw that played
+[32:05] out.
+[32:06] And there's a bunch of other examples of this.
+[32:07] However, like, if I take a giant step back and talk about where we are in this, like current
+[32:12] cycle, like I wrote this long piece called trading margin for mode about a year, a year
+[32:16] and a half ago or whatever it was, talking about like the cycle.
+[32:19] And if you think about like, why, you know, basically the last 12 years before 2024 or
+[32:25] 10 or 15 years before 2024, you saw so much PLG is just kind of where we were in like
+[32:30] the software, you know, innovation cycle, you know, in a lot of the big cloud platform
+[32:34] businesses, if you think about like CRM, HR, ITSM, security, like a lot of those big platform
+[32:40] businesses were founded in the, you know, call it 2000 to 2008, 2010 period.
+[32:47] And those businesses went out and solved like the big platform opportunities.
+[32:51] And so then the only way to really break in at the enterprise, right, and we're talking
+[32:55] more about like enterprise, enterprise sales or market enterprise sales was to build like
+[32:58] some sort of wedge product, wedge in with this product and say, Hey, I'm going to solve this
+[33:02] part of your, of your, you know, suite for you and then try to expand over time.
+[33:06] So this like land next plan model became super, you know, obviously super invoke, but
+[33:10] it was really based on where we were in this like adoption cycle.
+[33:14] And there were other people, of course, that said, Hey, I want to go build a new CRM.
+[33:17] I want to go build a new HR, I want to go build an ITSM.
+[33:20] But like the reality, you know, was going from, you know, on-prem to cloud was a big
+[33:24] enough shift for people to like switch to something new.
+[33:27] But going from like cloud to cloud for CRM, like, I don't care if the button is green
+[33:32] or blue.
+[33:33] I don't care if there's like one little feature difference.
+[33:35] I'm not going to switch.
+[33:37] And so you can, you compare that cycle where we were looking at everything for the last 15
+[33:41] years, which is all PLG and all the time.
+[33:43] This is incredible to where we are now.
+[33:45] There's this crazy kinetic energy inside of companies where they're saying, Hey, it could
+[33:49] be even something as, you know, fundamental as CRM, right?
+[33:53] It could be as fundamental as HR, ITSM.
+[33:56] We're now looking at a different way of doing business entirely.
+[33:58] This is not a skeuomorphic one to one replacement green to blue.
+[34:01] We're not thinking about like humans are going to be doing something completely different,
+[34:04] way more high value.
+[34:05] We're going to be doing way less of the same kind of mundane work.
+[34:09] And instead, agents are going to be doing that.
+[34:12] And so that's, I think, the opportunity right now, and it's why instead of talking about
+[34:15] PLG and like all these other sales models, there's a moment right now to go sell big software
+[34:22] again, right?
+[34:23] And to go sell platforms, and it's because of this moment.
+[34:28] And so I think people need to be studying kind of the 15 years or go models of like how
+[34:32] people build this and the ecosystems around it to go and have success.
+[34:36] I think that's right.
+[34:37] I will say, I think the consistent trend, as long as I've been doing this, is that, you
+[34:41] know, every year and with every technology transition, buyers become more and more educated, right?
+[34:47] So the buyer today is just fundamentally has a better idea of what they want than they did
+[34:51] five years ago, 10 years ago, 15 years ago.
+[34:53] And so, you know, that does lend itself more towards, you know, if you can hit that buyer
+[34:59] when they're in their decision mode, you're going to have a better chance.
+[35:02] It doesn't have to necessarily be PLG, but it can be more self-serve.
+[35:06] It can be, it should be an easier sell than, you know, 10, 15, 20 years ago, where you had
+[35:10] to take them on this entire education journey, why you need this, how it works.
+[35:14] Here's how you're going to write, like, they're just so much more educated now on what they want
+[35:18] to buy that your job is just convincing that your company is the right solution for that.
+[35:22] Amen.
+[35:23] Yeah.
+[35:24] I guess the lighthouse kind of, like, definition just gets pushed at her hour, and so you kind
+[35:30] of like, yeah, just have to keep on conquering new territory.
+[35:34] I'm curious, I assume a company just can't stay a lighthouse forever, and you even alluded
+[35:39] to this, Andy, like, what is kind of the average amount of time that a company kind of can
+[35:46] just, you know, chew off those bigger logos, and then, you know, like, what is that transition
+[35:53] moment?
+[35:54] Like, I guess.
+[35:55] Yeah.
+[35:56] I mean, theoretically, you could, right?
+[35:57] If you were a company that was dedicated or committed to a, you know, multi-product strategy,
+[36:02] you could just keep coming out with new products and keep going after, you know, more verticals,
+[36:06] right?
+[36:07] Like, you could theoretically do that.
+[36:08] And I think there's probably some example we could come up with if companies did that.
+[36:11] But yeah, in general, you know, if you start with a lighthouse strategy, you've built a social
+[36:16] proof, you've gotten these big names, then what you want to do is you want to run the category
+[36:21] underneath it.
+[36:22] Yeah.
+[36:23] If I have financial companies in the world, I want to run down, you know, the list after
+[36:27] that.
+[36:28] And so that fundamentally becomes a little bit different of a sales motion, right?
+[36:32] Yeah.
+[36:33] You're spending less time with, you know, the huge organization, the big logo, you know,
+[36:37] selling and you're spending more time, you know, less time in the social proof and more
+[36:42] time on, hey, here's the reference, if you need it, otherwise is why my product's best
+[36:46] buy it.
+[36:47] Yeah.
+[36:48] And I mean, I think, to Andy's point, there are certain companies I think that actually do
+[36:50] just stay lighthouse the entire time.
+[36:52] And like, that would be like, I'm trying to think of the best example might be like applied
+[36:55] to tuition and our portfolio.
+[36:56] Like there's, there is a very, you know, set number of people who are, you know, buying
+[37:01] that kind of autonomous software and a certain number of, you know, car manufacturers and
+[37:06] so on and so forth in the world, not to say that that's the only tool they get sold to,
+[37:09] but like, of course, these are these are a straight markets.
+[37:11] And so you then have to treat every one of these with immense care because they are huge
+[37:14] ACP opportunities.
+[37:16] And they've obviously, I think they're arguably the best in the world at doing that.
+[37:20] So, yeah.
+[37:21] That's a good example of that.
+[37:22] Yeah.
+[37:23] Why, why would a founder sort of miss, miss judge what game they're playing or how, how
+[37:29] have you seen founders kind of misjudge whether they're doing lighthouse or landgrads?
+[37:33] I mean, it sounds way more sexy to sell the JP Morgan Chase than to, you know, smash me
+[37:38] more.
+[37:39] I think the biggest mistake that I see founders make in an early stage, honestly, is just spending
+[37:46] too much time trying to figure it out.
+[37:48] Yeah.
+[37:49] It's too much time on the strategy and strategy is important, but you should spend like 1% of
+[37:54] your time on the strategy, pick it and then spend 99% of your time trying to execute.
+[37:57] Yeah.
+[37:58] So, you know, rather than sit back and say, well, you know, should we do lighthouse or
+[38:01] should we land grab, get out, talk to your customers, figure out which ones, you know, are willing
+[38:07] to, you know, buy your product, the features and the services that it delivers today and
+[38:11] then chase that path, right?
+[38:14] There's no bonus points for hard earned revenue, you know, you don't get extra, you know, multipliers
+[38:18] on your revenue.
+[38:19] If you get the big logo or something, like go after the customers you can, you know, and
+[38:23] then, you know, constantly be improving your product and then, you know, you can always
+[38:26] reassess your strategy after the first year.
+[38:29] If you get all your revenue milestones, you can look at it and say, well, could we be more
+[38:33] effective doing this?
+[38:34] Maybe.
+[38:35] Yeah.
+[38:36] Just don't spend too much time in analysis paralysis mode.
+[38:38] Yeah.
+[38:39] Totally agree with that.
+[38:40] I totally agree with that.
+[38:41] Joe, Joe, you had some, you had some fun questions for Andy, what's the lighting round
+[38:44] class?
+[38:45] Yeah, I think round.
+[38:46] I'll see what other ones I can come up on the top of my head, but the first one is maybe
+[38:51] like your favorite place, you ever, weirdest place, you ever close the deal?
+[38:55] Yeah.
+[38:56] I mean, we've had some customers that, you know, have taken, taken us to some, some funny
+[39:01] places, right?
+[39:02] I mean, I've closed deals on fishing trips.
+[39:04] I've closed deals, you know, out at shooting ranges, I've closed deals at ballparks.
+[39:08] So yeah, I think those are all, you know, kind of unique, like anyone that wasn't a meeting
+[39:13] room.
+[39:14] Yeah.
+[39:16] Probably.
+[39:17] Probably over the years.
+[39:18] Over a couple of years.
+[39:19] Certainly.
+[39:20] We're selling to, you know, logistics and transportation companies, you know, a lot of truck yards and, and
+[39:26] that kind of stuff, you know, sanitation sites.
+[39:29] Yeah.
+[39:30] There's some, there's some.
+[39:31] When you're doing land grab motions, I think this is like the, the permeating theme is just
+[39:35] like be willing to go and, and sell wherever.
+[39:38] Maybe Andy, if you go back and tell yourself one thing when you're building out these, these
+[39:41] teams or like early in your career, what would you tell yourself?
+[39:44] Earlymaker.
+[39:45] Well, I mean, this is the advice I give a lot of early in career, folks.
+[39:50] And it was a mistake I made early on.
+[39:52] The only thing you should really be focused on when you're starting your sales career is
+[39:56] find the best company you can possibly find to work for.
+[40:00] I made this mistake early in my career.
+[40:02] I was chasing, you know, where can I make the most commission?
+[40:04] Where can I make the most money?
+[40:05] What's the hottest technology?
+[40:07] What, where can I go get the biggest title?
+[40:09] At the end of the day, none of that matters.
+[40:11] You want to find is you want to find the, the, the great company that's going to grow.
+[40:16] And if you do that, then it's like a career elevator, right?
+[40:18] Yeah.
+[40:19] Like you will grow with the company.
+[40:20] Yeah.
+[40:21] Totally.
+[40:22] But you can't, you can't let your ego get in the way.
+[40:23] And I want a director title or like this big of a base salary or I think I can get this
+[40:27] much of a commission rate.
+[40:28] Just go find the best company you can work for.
+[40:30] Yeah.
+[40:31] It's a totally agree.
+[40:32] What's one role you think companies should hire for earlier than they normally do in the sales
+[40:36] work?
+[40:37] I mean, it really depends on the company and how, you know, specifically like how comfortable
+[40:42] the founders are.
+[40:43] Like if you're a founder that's very comfortable with sales and, you know, you can wait longer
+[40:47] to hire a sales leader and that kind of stuff.
+[40:49] So it's a little bit of a generalized question, but I would say sales operations is probably
+[40:53] one that I see companies waiting a little too long on.
+[40:56] And I am not a proponent.
+[40:57] I don't think you need to, to, you know, stand up a gigantic revenue operations organization.
+[41:03] It can be literally like one person, but you need somebody that every day is thinking
+[41:07] through territory alignment, you know, name lists, doing, you know, commission skirmishes,
+[41:12] setting a sales constitution, like all that kind of stuff becomes really, really, really
+[41:15] important because when you get into like, you know, scale mode, you want all that stuff
+[41:20] like largely figured out.
+[41:21] You don't want to become speed bumps otherwise.
+[41:23] Yeah.
+[41:24] Totally.
+[41:25] So you want somebody thinking about that.
+[41:26] And it's, it's generally not going to be your sales leader.
+[41:27] Yeah.
+[41:28] Because they're thinking about how do I hire the next person?
+[41:30] How do I bring the next deal on?
+[41:32] So I'd say, yeah, maybe your sales operations, sales rev and operations.
+[41:35] Yeah.
+[41:36] And maybe, you know, one sentence or two sentences on, you know, how you think about how, what
+[41:41] percentage of sales teams at the early stage companies you're at should be hitting quota.
+[41:46] And like kind of like sales comp thinking 100% or yeah, 100% what I think there's, you have
+[41:52] some interesting comments on like, basically, you know, trying to keep them low, get everyone
+[41:55] kind of rabbit and, and I mean, listen, I think in the early days, like sales teams run
+[42:00] off a momentum, right?
+[42:02] You want to hire winners and give them a chance to win.
+[42:05] So yes, you want to, you know, be able to bring people in.
+[42:07] You want to set reasonable goals.
+[42:09] It's got to be profitable for the company, you're not going to have to work like you can't,
+[42:13] you know, you can't change the math.
+[42:15] But at the end of the day, like if you're an early stage company and you've got a great
+[42:18] product, you want to hire the best possible sales talent to get that product solution
+[42:23] out to market.
+[42:24] Yes.
+[42:25] And the way you do that, the way you attract those people is give them a chance to hit quota.
+[42:28] Totally.
+[42:29] So yeah, I think, you know, some of these companies today where, you know, 40, 50% of the teams hitting
+[42:32] quota, I think they're probably doing themselves a disservice.
+[42:35] Either their quotas are too high or, you know, they're hiring profiles off.
+[42:39] But yeah, I think, especially in the early stages, when, you know, cost of sales isn't
+[42:43] as important.
+[42:45] When you're a public company and, you know, you've, you've gone out and you've conquered
+[42:50] your market, nobody looks back and says, you know, gosh, you know, six years ago, your
+[42:53] cost of sales was really terrible.
+[42:54] Yeah.
+[42:55] Totally.
+[42:56] Nobody cares about that.
+[42:57] What they care about is, you know, did you get on a path where you could, you know,
+[43:00] be successful.
+[43:01] I think something that's cool about this conversation is just how, like, timeless a lot of the wisdom
+[43:06] is.
+[43:07] It just seems, it seems like, you know, these frameworks and ways of thinking about the industry
+[43:12] are pretty consistent just throughout the different software cycles and, you know, eras
+[43:18] of that we're, that we've seen.
+[43:20] So anyway, Joe, Andy, thank you so much for joining us.
+[43:24] This was great and excited to have you guys back on.
+[43:27] Yeah.
+[43:28] Got the goat.
+[43:29] Thanks for having us.
+[43:30] Thank you.
+[43:31] Fantastic.
+[43:34] Thanks for listening to this episode of the A16Z podcast.
+[43:38] If you like this episode, be sure to like, comment, subscribe, leave us a rating or review
+[43:42] and share it with your friends and family.
+[43:44] For more episodes, go to YouTube, Apple Podcasts and Spotify, follow us on X and A16Z and subscribe
+[43:51] to our substack at a16z.substack.com.
+[43:54] Thanks again for listening and I'll see you in the next episode.
+[43:59] As a reminder, the content here is for informational purposes only, should not be taken as legal
+[44:04] business, tax or investment advice or be used to evaluate any investment or security and is
+[44:08] not directed at any investors or potential investors in any A16Z fund.
+[44:13] Please note that A16Z and its affiliates may also maintain investments in the companies discussed
+[44:17] in this podcast.
+[44:18] For more details, including a link to our investments, please see a16z.com forward slash disclosures.
