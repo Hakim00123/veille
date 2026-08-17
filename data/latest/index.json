@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-08-16T18:23:06+00:00",
+ "genere_le": "2026-08-17T01:02:47+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 14,
+ "nb_flux_en_erreur": 15,
  "nb_articles": 379,
  "chunks": [
   "chunk-01.json",
@@ -83,6 +83,11 @@
    "source": "Sequoia Capital",
    "url": "https://www.sequoiacap.com/feed/",
    "erreur": "HTTPError: 404 Client Error: Not Found for url: https://sequoiacap.com/feed/"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15"
   }
  ]
 }
