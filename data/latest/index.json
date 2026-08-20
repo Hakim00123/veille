@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-08-19T18:29:58+00:00",
+ "genere_le": "2026-08-20T01:02:01+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 12,
- "nb_articles": 400,
+ "nb_flux_en_erreur": 14,
+ "nb_articles": 398,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -40,6 +40,11 @@
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.personneltoday.com/feed/"
   },
   {
+   "source": "Indie Hackers",
+   "url": "https://www.indiehackers.com/feed.xml",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='www.indiehackers.com', port=443): Read timed out. (read timeout=20)"
+  },
+  {
    "source": "Startup Unlocked",
    "url": "https://pierregaubil.substack.com/feed",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://pierregaubil.substack.com/feed"
@@ -73,6 +78,11 @@
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
   }
  ]
 }
