@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-08-20T18:33:49+00:00",
+ "genere_le": "2026-08-21T01:05:08+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 12,
- "nb_articles": 398,
+ "nb_flux_en_erreur": 14,
+ "nb_articles": 381,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -33,6 +33,11 @@
    "source": "Parlons RH",
    "url": "https://www.parlonsrh.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.parlonsrh.com/feed/"
+  },
+  {
+   "source": "Culture RH",
+   "url": "https://culture-rh.com/feed/",
+   "erreur": "HTTPError: 500 Server Error: Internal Server Error for url: https://culture-rh.com/feed/"
   },
   {
    "source": "Personnel Today",
@@ -73,6 +78,11 @@
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15"
   }
  ]
 }
