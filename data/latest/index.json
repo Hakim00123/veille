@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-08-22T06:33:44+00:00",
+ "genere_le": "2026-08-22T12:32:08+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
- "nb_articles": 389,
+ "nb_flux_en_erreur": 12,
+ "nb_articles": 393,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -14,11 +14,6 @@
   "chunk-07.json"
  ],
  "erreurs": [
-  {
-   "source": "Village de la Justice - Droit social",
-   "url": "https://www.village-justice.com/articles/spip.php?page=backend",
-   "erreur": "TooManyRedirects: Exceeded 30 redirects."
-  },
   {
    "source": "Klement on Investing",
    "url": "https://klementoninvesting.substack.com/feed/",
