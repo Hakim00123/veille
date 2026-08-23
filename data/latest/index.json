@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-08-22T18:24:19+00:00",
+ "genere_le": "2026-08-23T01:06:56+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 12,
- "nb_articles": 393,
+ "nb_flux_en_erreur": 14,
+ "nb_articles": 389,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -70,9 +70,19 @@
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://danslatetedunvc.substack.com/feed"
   },
   {
+   "source": "The Batch - DeepLearning.AI",
+   "url": "https://rsshub.bestblogs.dev/deeplearning/the-batch",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='rsshub.bestblogs.dev', port=443): Read timed out. (read timeout=20)"
+  },
+  {
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15"
   }
  ]
 }
