@@ -7,9 +7,33 @@
   "9-drunk-ideas-that-sound-stupid-but-are-secretly-genius",
   "we-found-the-internet-s-best-sales-advice",
   "39b-founder-says-his-company-could-100x-in-5-years",
-  "3-killer-businesses-hiding-in-plain-sight"
+  "3-killer-businesses-hiding-in-plain-sight",
+  "3-millionaires-reveal-their-super-niche-businesses",
+  "asking-3-young-millionaires-how-they-make-1-8m-5m-12m-year",
+  "3-strangers-showed-us-how-they-made-8m-10m-40m-year"
  ],
  "episodes": [
+  {
+   "fiche": "3-millionaires-reveal-their-super-niche-businesses.json",
+   "titre": "3 millionaires reveal their super niche businesses",
+   "date": "Fri, 21 Aug 2026",
+   "date_iso": "2026-08-21",
+   "nb_outils": 6
+  },
+  {
+   "fiche": "asking-3-young-millionaires-how-they-make-1-8m-5m-12m-year.json",
+   "titre": "Asking 3 young millionaires how they make $1.8M, $5M, & $12M/year",
+   "date": "Wed, 19 Aug 2026",
+   "date_iso": "2026-08-19",
+   "nb_outils": 3
+  },
+  {
+   "fiche": "3-strangers-showed-us-how-they-made-8m-10m-40m-year.json",
+   "titre": "3 strangers showed us how they made $8M, $10M, & $40M/year",
+   "date": "Mon, 17 Aug 2026",
+   "date_iso": "2026-08-17",
+   "nb_outils": 6
+  },
   {
    "fiche": "39b-founder-says-his-company-could-100x-in-5-years.json",
    "titre": "$39B founder says his company could 100x in 5 years",
@@ -60,5 +84,5 @@
    "nb_outils": 3
   }
  ],
- "maj": "2026-08-16T17:38:56Z"
+ "maj": "2026-08-23T17:32:43Z"
 }

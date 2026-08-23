@@ -2,9 +2,17 @@
  "slug": "knowledge-project",
  "traites": [
   "john-d-rockefeller-the-principles-behind-the-greatest-fortune-in-histo",
-  "the-mindset-behind-building-billion-dollar-companies-brad-jacobs"
+  "the-mindset-behind-building-billion-dollar-companies-brad-jacobs",
+  "roblox-ceo-how-to-make-better-decisions-by-fixing-yourself-first"
  ],
  "episodes": [
+  {
+   "fiche": "roblox-ceo-how-to-make-better-decisions-by-fixing-yourself-first.json",
+   "titre": "Roblox CEO: How to Make Better Decisions by Fixing Yourself First",
+   "date": "Tue, 18 Aug 2026",
+   "date_iso": "2026-08-18",
+   "nb_outils": 0
+  },
   {
    "fiche": "the-mindset-behind-building-billion-dollar-companies-brad-jacobs.json",
    "titre": "The Mindset Behind Building Billion-Dollar Companies | Brad Jacobs",
@@ -20,5 +28,5 @@
    "nb_outils": 0
   }
  ],
- "maj": "2026-08-16T17:38:57Z"
+ "maj": "2026-08-23T17:32:45Z"
 }

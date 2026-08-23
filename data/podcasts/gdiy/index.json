@@ -4,9 +4,17 @@
   "558-cyril-benzaquen-champion-de-kickboxing-reveiller-son-instinct-anim",
   "557-vf-robert-gentz-zalando-le-geant-qu-amazon-n-a-pas-mange-en-europe",
   "559-yael-braun-pivet-presidente-de-l-assemblee-nationale-si-j-avais-de",
-  "560-rudy-gobert-4x-meilleur-defenseur-nba-le-druide-de-la-longevite"
+  "560-rudy-gobert-4x-meilleur-defenseur-nba-le-druide-de-la-longevite",
+  "561-patrick-pruvot-passage-du-desir-en-france-on-sait-faire-un-airbus-"
  ],
  "episodes": [
+  {
+   "fiche": "561-patrick-pruvot-passage-du-desir-en-france-on-sait-faire-un-airbus-.json",
+   "titre": "#561 - Patrick Pruvot - Passage du désir - “En France on sait faire un Airbus mais pas un sextoy”",
+   "date": "Sun, 23 Aug 2026",
+   "date_iso": "2026-08-23",
+   "nb_outils": 1
+  },
   {
    "fiche": "560-rudy-gobert-4x-meilleur-defenseur-nba-le-druide-de-la-longevite.json",
    "titre": "#560 - Rudy Gobert - 4x meilleur défenseur NBA - Le druide de la longévité",
@@ -36,5 +44,5 @@
    "nb_outils": 9
   }
  ],
- "maj": "2026-08-16T17:38:53Z"
+ "maj": "2026-08-23T17:32:39Z"
 }

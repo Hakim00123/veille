@@ -1,0 +1,24 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Microsoft's Deputy CISO on Securing AI Agents",
+ "date": "Fri, 21 Aug 2026",
+ "date_iso": "2026-08-21",
+ "lien": "https://a16z.simplecast.com/episodes/how-microsoft-is-securing-the-agentic-enterprise-aaron-zollman-j7eOe8NH",
+ "duree": "00:25:15",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 2.8,
+ "taille_transcript": 31464,
+ "transcript": "microsoft-s-deputy-ciso-on-securing-ai-agents-transcript.txt",
+ "nb_outils": 2,
+ "outils": {
+  "AWS": [
+   "ere's the traditional CISO job of like figuring out the risks, prioritizing them, getting them burned down, still gotta do that, that's not done. Yeah. I haven't figured it out yet, but the part of the job that I think is is increasingly important, is that an AWS piece, how do we, you know, how do we make it possible for people to do the hard things? And sometimes those hard things are connect all of my email and my calendar and automatically write responses on my behalf. Then if that's what people want, we will find "
+  ],
+  "Cloudflare": [
+   "ith my operators at on, I think that it's a weird, just with our basic playing around with Opus 4.6, in an environment that we thought was, it was a cloud container, so it had a policy of no internet access, but it still figured out how to get a tunnel out to CloudFlare, how to get around our controls, and then it started tunneling stuff through DNS. It really reminds me of a long time ago when I was building more high-secure environments, you would always have to go through the list threat model, which was like, there's all"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

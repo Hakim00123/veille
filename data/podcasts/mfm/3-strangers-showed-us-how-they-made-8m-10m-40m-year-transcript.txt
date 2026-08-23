@@ -1,0 +1,1608 @@
+My First Million
+3 strangers showed us how they made $8M, $10M, & $40M/year
+Mon, 17 Aug 2026
+
+
+[00:00] Alright, today we're playing shoot your shot where we let founders come in, sit in the hot
+[00:04] seat and pitch us their business.
+[00:06] We got founders that have million dollar businesses all the way up to $100 million businesses.
+[00:10] They get 15 minutes and in it, they start by telling us the one big number.
+[00:14] Give us the pitch and shoot the shot, they get to ask any questions that they want.
+[00:17] We've done this in New York City this time, it's in San Francisco, whether you're listening
+[00:21] on Spotify or YouTube, if you're working out right now, whatever you're doing right now,
+[00:25] you need to stop and go to Spotify or go to YouTube.
+[00:28] Check us up on my first million and let us know in the comments which city you want us
+[00:31] to go to next.
+[00:32] Alright, let's do it.
+[00:35] Alright, Sam, what's up?
+[00:44] We are doing a new episode, do format, we're calling it, shoot your shot and basically we
+[00:50] go from city to city, we invite founders from those cities to come and shoot the shot
+[00:55] to come pitch us.
+[00:56] We got business owners that are doing $1 million a year to $100 million businesses that you're
+[01:01] going to see in this batch of founders.
+[01:04] What should we expect?
+[01:05] Well, the best part about this podcast, the reason why people listen, the reason why we
+[01:08] even do it is we talk to like unique people, they tell us stuff that we don't normally see
+[01:13] and it's going to range from people who are way established and like killing it all the
+[01:16] way down to people who are just getting started and we don't actually know who's coming.
+[01:20] We don't know who's coming.
+[01:21] This is blind to us.
+[01:23] These are all people who listen to the podcast, people who listen to this podcast, it's founders,
+[01:27] entrepreneurs, business owners.
+[01:28] It's like an audition, it's like American Idol, but for business, I guess.
+[01:33] Let's do this.
+[01:34] Shoot your shot.
+[01:35] Let's get the first founder in here.
+[01:36] Who do we got?
+[01:37] What's up, dude?
+[01:38] Here he comes.
+[01:39] What's up?
+[01:40] What's up, dog?
+[01:41] Alright, have a seat.
+[01:45] So you got 15 minutes, but take a take a time here.
+[01:48] Excited to be here.
+[01:49] What's your name?
+[01:50] Raghav.
+[01:51] Raghav.
+[01:52] This is...
+[01:53] Pasha?
+[01:54] That's right.
+[01:55] Pasha.
+[01:56] Okay.
+[01:57] Where are you from?
+[01:58] I live in San Francisco.
+[01:59] Okay.
+[02:00] The Bay Area, to be precise.
+[02:01] I grew up in India and I've been here for five years now.
+[02:03] How old are you?
+[02:04] I'm 32.
+[02:05] Is this your first company?
+[02:06] It is my first company.
+[02:08] I did run a project before this where we were trying to build micro-ventor mines, but everything
+[02:14] that I've learned about Pasha has been at Pasha.
+[02:18] Everything I've learned about building a business has been primarily at Pasha.
+[02:21] So we have one role, which is we are shameless numbers guys.
+[02:26] And so we ask everybody, give us a big juicy, impressive or interesting number.
+[02:31] It doesn't feel that big, but interesting number that would hook us.
+[02:34] Go ahead.
+[02:35] So where amongst the one person of robotics companies you have ever met that are actually
+[02:40] shipping a real product in real homes, in real kitchens, with 1,000 real world deployments?
+[02:47] Okay.
+[02:48] Well, you're in the 1% of non-bullshitting robotics companies, you've shipped 1,000 robots.
+[02:52] What do your robots do?
+[02:54] We are putting a private chef in every home and we're doing that by building cooking robots
+[02:58] for homes.
+[02:59] We thought that if Waymo and Tesla and Zooks can use computer vision and AI to take you
+[03:05] from point A to point B, why can we not use the same technology to cook a fresh meat for you?
+[03:10] Take out his expensive eating at, I mean, cooking at home takes forever.
+[03:16] There's no way for you to eat food that is fresh, that's delicious, that doesn't take
+[03:20] 60 minutes of your time in the kitchen, that doesn't cost $25 per serving, and where the
+[03:27] alternative is.
+[03:28] Dude, my diet right now is man-kibble.
+[03:30] You know what man-kibble is?
+[03:31] I know.
+[03:32] It's three pounds of ground beef with rice that will last me for three or four days in soy
+[03:37] sauce.
+[03:38] So I'm on board with this.
+[03:40] Did you raise funding?
+[03:41] We are backed by Excel.
+[03:43] How much did you raise?
+[03:44] Eight million.
+[03:45] And how long did you start it?
+[03:47] We started the company eight years ago.
+[03:50] This was right out of my parents' ground floor.
+[03:54] This was back in India.
+[03:55] It was still a project.
+[03:57] We formalized the company about five years ago.
+[04:00] Is this the thing, by the way?
+[04:01] This is the robot?
+[04:02] Yeah, that's the robot.
+[04:03] And it's cooking.
+[04:04] Can you give us like, is there like a demo?
+[04:06] Can it do something?
+[04:07] Can it cook us something?
+[04:08] So what we did was we just cooked spaghetti Alfredo with mushrooms.
+[04:11] That was great.
+[04:12] I haven't eaten it.
+[04:13] It's perfect.
+[04:14] Perfect.
+[04:15] And you know, you need to...
+[04:17] It looks good.
+[04:18] I don't know if the camera should have already seen this.
+[04:20] This looks amazing.
+[04:21] Wait, wait, wait.
+[04:22] Did it come out like this?
+[04:23] We cooked using fresh ingredients, fresh olives, fresh garlic, fresh milk, fresh butter, fresh
+[04:29] pasta, and we put some fresh parmesan cheese on top and it was all cooked on the busher.
+[04:35] That machine did all of this.
+[04:37] Did that all of this?
+[04:38] Yep.
+[04:39] How much does that cost?
+[04:40] A hundred dollars, which is less than a month of takeout.
+[04:46] For a family of four.
+[04:47] Okay.
+[04:48] Okay.
+[04:49] And so what all of this?
+[04:50] I mean, give it a score here.
+[04:51] I mean, nine or ten.
+[04:52] Yeah.
+[04:53] This is very good.
+[04:54] Yeah.
+[04:55] As I said, thousand customers already use us three times a week, which is more than the
+[04:59] oven, because your numbers people are M6 retention, beets, doodash, hellofresh, any other food
+[05:06] service out there.
+[05:08] Last month alone, we clocked two million dollars in bookings.
+[05:12] We did that again.
+[05:13] I'm sort of finished.
+[05:14] That was great.
+[05:15] This must be a taste.
+[05:16] Yeah.
+[05:17] Yeah.
+[05:18] Okay.
+[05:19] So walk me through this.
+[05:20] So I, the viewer, the listener won't know this, but the viewer will see what you did.
+[05:25] But tell us, because it looks just like a bowl of.
+[05:28] Can you grab a couple of the things in the back?
+[05:30] It looks like basically there's ingredient containers.
+[05:33] So here is a pan.
+[05:35] It's a, it's a pan that's dishwasher safe.
+[05:38] There's a detachable stirrer, detachable spatula.
+[05:44] There are containers where you put ingredients.
+[05:46] There is a drawer, which is super cool, which has spices, there is space for oil and water.
+[05:52] And most impressively, there's a camera that looks at changing color, texture, consistency,
+[05:58] makes sure it is mimicking a human chef's intelligence.
+[06:01] So food can be cooked perfectly.
+[06:02] How did you train this?
+[06:04] So in the early days, we had chefs alone training posha.
+[06:09] Now we have our customers training posha.
+[06:11] We possibly have the world's largest culinary vision data set for a cooking food.
+[06:16] And we are taking the Tesla approach, Waymo spent 500,000 hours of supervised driving
+[06:22] and $20 billion in venture capital to crack, self driving, Tesla did it a different way.
+[06:27] Tesla said we'll release something that's useful to consumers, also use it to collect tons
+[06:32] of data and then put robot axes out, waiting way to, how does that work?
+[06:36] Hey, I want to tell you about something pretty cool.
+[06:37] We have a database of all of the business ideas that have been discussed on this podcast.
+[06:42] So hundreds of episodes, the team at HubSpot went through.
+[06:45] They pulled out all the simple, relatable, interesting, profitable ideas that we have brainstormed
+[06:51] and they're all available for download for free.
+[06:53] Just click the link in the description below.
+[06:55] Thank you to our friends at HubSpot for sponsoring this podcast and putting together this free
+[06:59] resource for you guys back to the show.
+[07:01] If a customer is that good at cooking, why do they even buy this and how do they train
+[07:05] your thing?
+[07:06] So customers buy this because they want a freshly cooked meal.
+[07:11] This can only cook one part meals for now.
+[07:14] One part meal.
+[07:15] No, one pot.
+[07:16] Have you seen this brand of one pot meals?
+[07:17] No, I don't know.
+[07:18] If you go to like Reddit or TikTok, it's like a whole like, it's a category of cooking called
+[07:22] a one pot meal where you're just going to put a bunch of stuff together.
+[07:24] Yeah, I call that a crock pot growing up.
+[07:26] So you're not going to make cheeseburgers.
+[07:28] So it's not going to do a steak.
+[07:30] Right.
+[07:31] So flip burgers, it's not going to bake a cake.
+[07:36] Anything that requires spreading out like pancakes is something it won't do.
+[07:41] What are the most popular two or three things that people cook with this?
+[07:44] So the data changes as we change our customer base, but our Indian users cook a lot of paneer.
+[07:51] Our Italian users would cook a lot of risotto and spaghetti because it's so hard to cook risotto
+[07:56] at home.
+[07:57] You have to continue to stir our Thai Vietnamese users would use it to cook Thai red curry,
+[08:03] Thai green curry.
+[08:04] So not to be a hater, but basically is the robot just taking up the easiest part of cooking,
+[08:09] which is just stirring.
+[08:12] The robot is taking away the stirring.
+[08:15] It's taking away the regulation of heat.
+[08:18] It's taking away you being there to add ingredients at the right time.
+[08:22] It's taking away you monitoring the food because, you know, an eight year old needs to
+[08:26] know what charred onions look like, what browned onions look like.
+[08:30] So all the intelligence and all the babysitting is being taken away.
+[08:35] It does not cut down your time in the kitchen from 60 minutes to zero.
+[08:39] It cuts down your time in the kitchen from 60 minutes to 10 minutes.
+[08:43] So what's give us two things?
+[08:44] Give us the big idea, meaning you said something like it's already used more than the oven.
+[08:50] So do you have this sort of vision that like, Hey, look, our kitchens all come with these
+[08:54] appliances, these three.
+[08:55] And now here comes number four.
+[08:57] It's going to be in everybody's home.
+[08:59] That means it's this big, like, get, get me excited about the big idea here.
+[09:03] So 10 years from now, nobody is going to be cooking because they have to that only be
+[09:08] going to cook because they want to same way, nobody's going to be driving because they
+[09:12] have to.
+[09:13] They're only going to be driving because they want to cooking is going the exact same way
+[09:18] Dodash is something you will only order when your robot at home cannot cook the meal that
+[09:23] you want to eat or when you're ordering corporate lunches.
+[09:26] Cooking will become a leisurely activity, something that you only do for joy, but not Monday through
+[09:31] Friday when it's a chore.
+[09:33] And we are the company that's building the future where every house will have a robot chef
+[09:38] that cooks food for you.
+[09:40] So you don't have to.
+[09:41] That's pretty cool.
+[09:42] Okay.
+[09:43] So how much revenue are you doing?
+[09:44] What's your like a run right now?
+[09:46] So we did $2 million in bookings last month and $1,500.
+[09:50] Why are you saying bookings just because you don't have the devices yet?
+[09:52] So it's pre-sale.
+[09:53] So we have about 1000 units shipped on the field and a long pre-order wait list that we're trying
+[09:59] to fulfill as fast as we can.
+[10:01] So we're making sure our manufacturers can scale with demand.
+[10:05] We're making sure our recipe library can scale with demand.
+[10:08] We're making sure reliability, supply chain, logistics, all of that is just scaling with
+[10:13] demand.
+[10:14] This is awesome.
+[10:15] The bottleneck is manufacturing these things.
+[10:18] It's manufacturing.
+[10:19] It's also operations.
+[10:20] So whenever you ship a hardware product out in the early days, you always need to hand hold
+[10:27] people.
+[10:28] Something or the other can go wrong.
+[10:30] And you need a service infrastructure for people to have support if something goes wrong.
+[10:35] Right.
+[10:36] It's the same bottleneck that VAMO has.
+[10:37] Where'd you get the $2 million in booking, is that just viral demos on social media, basically?
+[10:42] Did you do anything to get customers?
+[10:44] It's just people like the novelty, people want to start.
+[10:46] And did they give you the cash already?
+[10:48] Yeah.
+[10:49] They gave us the cash already.
+[10:50] There are three ways that we drive demand.
+[10:53] The first is organic word of mouth.
+[10:56] Every paying customer gets us at least one more paying customer without us spending a
+[11:00] single dollar on marketing.
+[11:02] Second, Porsche is built for the camera.
+[11:05] So a random nobody would get Porsche home, shoot content, post it online and overnight they
+[11:11] become internet celebrities.
+[11:13] We had this creator who had 11,000 followers within six weeks.
+[11:17] She got X number of followers.
+[11:19] Guess what X is?
+[11:20] I don't know.
+[11:21] She went from 11,000 to 450,000 followers.
+[11:25] And all that changed was that she was not shooting Porsche content and she started shooting
+[11:29] Porsche content.
+[11:30] Have you seen the Matic?
+[11:31] Yes.
+[11:32] Have you seen the Matic Sean?
+[11:33] Yeah.
+[11:34] I've seen it because of this exact reason.
+[11:35] I own it.
+[11:36] Fancy Roomba.
+[11:37] It's awesome.
+[11:38] And it like, there's like one viral moment, but there's probably a few actually.
+[11:41] When it sucks up a sock and it like opens up its latch and it throws it out.
+[11:45] And it's huge though.
+[11:46] Like I live in New York City.
+[11:48] This sounds awesome.
+[11:49] My wife complains about how much time it cooks and I'm like, dude, just make me incapable.
+[11:52] It's fine.
+[11:53] And I would definitely rather eat that.
+[11:55] But that's huge.
+[11:56] I can't use that in New York yet.
+[11:58] You can't use it because you don't have counter space, you mean, or what do you mean?
+[12:00] Counter space.
+[12:01] Okay.
+[12:02] Yeah.
+[12:03] So you're absolutely right.
+[12:04] And the good thing is that the market is so huge that there are enough people with space
+[12:07] to put this in their kitchen.
+[12:08] We're working on the next version of Porsche that will be miniaturized that will fit in
+[12:14] Manhattan apartments.
+[12:15] But the version after that will actually replace the range in your home and cook four dishes
+[12:21] at a time.
+[12:22] So I got a question.
+[12:23] This can't cook meat, right?
+[12:25] It cannot cook steak, but it can cook meat as long as the meat has been cubed and the size
+[12:31] is one cubic inches or smaller.
+[12:32] Okay.
+[12:33] So you put chicken in there, cubed and then I cook it.
+[12:35] Yeah.
+[12:36] Hey, what do your parents think?
+[12:37] They're extremely proud that I was able to break out of the family business, which was,
+[12:44] which had nothing to do with tech.
+[12:45] And I used my education well to actually make a big impact in the world.
+[12:51] They're extremely proud.
+[12:52] There's a port of, they like it.
+[12:53] Yeah.
+[12:54] That's badass.
+[12:55] What was your family business?
+[12:56] My dad runs a food grain business.
+[12:58] So they grind wheat.
+[13:00] You might have heard of this thing.
+[13:01] It's called an artachaki.
+[13:02] Okay.
+[13:03] The grind it.
+[13:04] Yeah, the grind wheat and then they sell fresh flour.
+[13:06] So fresh food has been something that's always been close to my heart from the very beginning.
+[13:10] What do you need help with?
+[13:12] You guys have built great communities, you with MFM and you with Hampton.
+[13:18] We feel community is going to be a big lever of growth for Posha.
+[13:23] How do you think we should leverage community to continue to grow Posha?
+[13:26] Let me say something really quick.
+[13:28] I think people use the word community and audience differently.
+[13:32] Okay.
+[13:34] MFM is an audience, meaning if we quit doing this, the audience eventually is going to go
+[13:38] away.
+[13:39] Sean owns a brand that has a community, it has a community online where lots of his customers
+[13:46] are talking and interacting and that's a community.
+[13:48] And I think you'd have to determine which of those two are you actually talking about?
+[13:52] Yeah.
+[13:53] The best thing I heard of this is if everybody was together, which way would the chairs
+[13:56] be pointing?
+[13:57] So an audience is all the chairs point at the stage.
+[13:59] The community is the chairs pointed at each other.
+[14:01] So for example, to your question, what's that air fryer brand that went crazy, like just
+[14:06] like the, yeah, maybe it's ninja, but like, basically the air fryer in the last like five
+[14:10] years had like a big renaissance and actually,
+[14:13] Or the cringy-me did too.
+[14:14] Yeah, cringy-me did too where there's a community of people that are sharing recipes and it works
+[14:20] because I think a little bit more than yours, the user can kind of figure out, like create
+[14:25] new things that rather than like the app only lets you do 14 items, pick one of the 14.
+[14:30] And so if you have some element of UGC, user-generated cooking, in this case, user-generated recipes
+[14:37] that they could share and they could kind of get props for from one another, I think that's
+[14:42] the key.
+[14:43] And you have to find a hub for them.
+[14:44] Is it on Reddit?
+[14:45] Is it on Discord?
+[14:46] Is it on Facebook?
+[14:47] Is it on Instagram?
+[14:48] How are you going to get people to share this stuff?
+[14:49] But I would study what the air fryer community did.
+[14:51] I would study what the ninja creamy did and I would try to replicate as much as I could
+[14:55] of the factors of that success.
+[14:57] Yeah.
+[14:58] But for example, I used to love this app called Aptiv, it was a fitness app and they had a
+[15:02] Facebook group and I was very active in the Facebook group and same with Peloton, I'm sure
+[15:06] they have a Facebook group where you like talk about your favorite instructors or like,
+[15:09] has anyone tried this type of workout?
+[15:10] Another one is Ladders, that's another fitness app that they had this like community.
+[15:14] So that's their customers talking together, it's super valuable.
+[15:17] And so what I would do is for every, I would put like something in your, when you ship it
+[15:21] out, like you just, I don't know, if it's like mostly moms, in what age they are, might
+[15:26] choose Facebook, if it was nerds, I would choose Reddit, whatever, Facebook groups.
+[15:30] So I do think are still the best.
+[15:32] I think the other question is what do you, what's the bigger benefit you're attaching yourself
+[15:36] to?
+[15:37] So are people buying this fundamentally for time savings?
+[15:39] So then you would say, well, this is for people who really value their time, maybe it's
+[15:42] a busy professional, the working mom, et cetera, et cetera.
+[15:45] And you need to create metrics and success stories and attract that type of person, go to
+[15:50] those influencers who are going to spout that kind of religion.
+[15:53] Or is the religion about foodies?
+[15:55] People who love food that, but they've been limited by skill.
+[15:58] I would love to cook risotto.
+[15:59] I would love to eat risotto, but I don't know how to cook risotto.
+[16:01] And that skill gap is getting bridged by this thing and it lets me indulge my foodiness.
+[16:06] And it's not about the time savings, it's not about like efficiency, utility, it's about
+[16:11] enjoyment.
+[16:12] And so I would try to figure out, and the easy answer is going to be, oh, it's both, it's
+[16:15] all.
+[16:16] But in order to really get a community going, you want to have a beach head, you want to
+[16:19] have like an initial persona that you're targeting.
+[16:23] And really, it's like, what's the happy ending, the dream outcome for that person, the kind
+[16:28] of inner itch that they've been waiting to scratch, that your product is helping them
+[16:32] do that.
+[16:33] Your product's not the hero.
+[16:34] It's the tool that the average person uses to become a hero themselves.
+[16:38] And so which one, which one is that something I would kind of ask myself, because that'll
+[16:42] change a lot of your marketing, a lot of your strategy.
+[16:44] But my gut tells me you're not going to have a customer acquisition problem.
+[16:47] Right.
+[16:48] I don't think that's ever going to be the problem.
+[16:49] Yeah, marketing team is like a total of one person.
+[16:52] I don't think that's going to be the issue.
+[16:53] Your constraint is not going to be getting people to buy it.
+[16:55] It's going to be, does this thing actually work and kind of get it in their house?
+[16:58] Yeah, but it'll change your product strategy.
+[17:00] Yeah.
+[17:01] Like if your product strategy about utility, man-kibble, like he wants health and he wants
+[17:05] convenience.
+[17:06] Yeah.
+[17:07] So he's willing to sacrifice presentation, taste and other things, maybe along the way.
+[17:12] But you would create a different product, like you would literally have different pieces of
+[17:15] the robot, different constraints on the manufacturing side versus if you were trying to make this
+[17:19] this beautiful Parmesan-topped impressive thing when friends come over, yeah, I cooked
+[17:25] this for the family, I was never able to do that before.
+[17:28] Correct.
+[17:29] Maybe making it easier or harder to manufacture.
+[17:30] Right.
+[17:31] I think community is important primarily because it's not growth necessarily.
+[17:36] It drives but over time, I think your CAC comes down because your K-factor just jumps up.
+[17:43] People start talking about you.
+[17:45] Second, engagement increases and so retention increases.
+[17:48] And if retention increases.
+[17:49] So let's pause on this.
+[17:51] Of the best community builders in the world, how many of them use phrases like K-factor,
+[17:55] engagement, stickiness and CAC?
+[17:57] Not this early at least.
+[17:59] Not of them.
+[18:00] You get magic first.
+[18:01] Communities from the soul, you know what I mean?
+[18:02] And so you got to like have two different parts of your brain.
+[18:05] There's Metrix guy, start a founder, go raise money from Excel.
+[18:09] And there's feelings.
+[18:10] And there's feelings.
+[18:11] There's soul guy.
+[18:12] We're going to do this because it's awesome.
+[18:13] We're going to do this because it's the right thing to do.
+[18:15] We're going to do this.
+[18:16] And eventually.
+[18:17] Cool.
+[18:18] Now it's like cool shit that eventually gets popular, does not talk about K-factor.
+[18:23] It talks about silly.
+[18:24] It talks about emotion.
+[18:25] You know, these types of words, not K-factor.
+[18:28] Don't worry about that.
+[18:29] Just get the 1500 people who are using this, get them to log into Facebook groups every
+[18:33] single week to talk about to either, to complain, to celebrate, to nerd out.
+[18:38] And then you also need lore.
+[18:39] So lore would be like for us, it would be like no small boy stuff.
+[18:43] Like we say these silly phrases where no nerds in a room are going to be like, how do I get
+[18:46] people to like us more?
+[18:47] You know what I mean?
+[18:48] We just make up dumb stuff.
+[18:49] We used to call this episode the Denim Dungeon, just because I wore Denim.
+[18:53] Do that silly stuff.
+[18:54] It doesn't math.
+[18:55] Who cares?
+[18:56] But you just do this stuff where you create lore, you can't create catchphrases.
+[18:59] Share stories.
+[19:00] Essentially.
+[19:01] Common bond.
+[19:02] Us versus the world.
+[19:03] And that sounds silly when it comes to cooking.
+[19:04] But you could still do it, right?
+[19:05] So you create lore and you repeat it constantly and you have a face, whether you or if you have
+[19:11] someone else at your company.
+[19:12] You seem very charismatic.
+[19:13] I think you could do it.
+[19:14] You have like every, every cult needs shared language, rituals and a leader.
+[19:19] All right.
+[19:20] We got to wrap up.
+[19:21] Yeah.
+[19:22] Raga, thanks for coming.
+[19:23] Yeah.
+[19:24] Posha.com.
+[19:25] You got the URL.
+[19:26] Good job.
+[19:27] Amazing.
+[19:28] Thank you so much for the time.
+[19:29] All right.
+[19:30] We appreciate you.
+[19:31] God bless.
+[19:32] All right.
+[19:35] See you.
+[19:36] Thank you.
+[19:37] Hey, let's take a quick break.
+[19:38] You know that feeling when strategy is done, the brief is written, everyone's aligned and you realize
+[19:40] someone still has to sit down and actually create all the content?
+[19:43] That someone is usually you and it's due tomorrow.
+[19:45] Well, the breeze assistant from HubSpot can help.
+[19:47] It works right inside HubSpot.
+[19:49] You can draft a campaign copy, blog posts, emails, all in your brand voice, all using
+[19:53] your actual customer data.
+[19:54] So you don't create just content.
+[19:56] You create content that converts.
+[19:58] Check out HubSpot.com, the agentic customer platform for growing businesses.
+[20:01] All right.
+[20:03] We have another one.
+[20:04] Who we got?
+[20:05] Bring him in.
+[20:06] Yo.
+[20:07] What's going on?
+[20:08] What's going on?
+[20:09] Yeah.
+[20:10] I brought you guys.
+[20:11] It's good boys.
+[20:12] I use sound like a hockey player.
+[20:14] All right.
+[20:15] We got spent too much time in the locker room.
+[20:17] That's the problem.
+[20:18] I know you.
+[20:19] So this is Nick.
+[20:20] Let's do it.
+[20:21] I know your product because I've been addicted to these things.
+[20:23] I actually had to wean myself off of them.
+[20:25] I was like, I needed a midday break of eating midday squares.
+[20:29] But do you know Nick?
+[20:30] Well, or no?
+[20:31] I never.
+[20:32] I've just met him a second ago.
+[20:33] I just lurk on X.
+[20:34] Yes.
+[20:35] Well, I have these in my office at Hampton because my co-founders obsessed with them and I started
+[20:39] eating them.
+[20:40] They are awesome.
+[20:41] I appreciate that.
+[20:42] Midday Squares is your company.
+[20:44] Sure is.
+[20:45] That's you and your wife.
+[20:46] I got two other partners.
+[20:47] Yeah.
+[20:48] I got shout out to my wife and my brother-in-law.
+[20:49] Oh, keep it on the phone.
+[20:50] We got to talk about his wife.
+[20:51] She's amazing.
+[20:52] He's the beast.
+[20:53] Okay.
+[20:54] So before we start, we want you to start with the one big number.
+[20:56] We basically sold $40 million worth of $2.49 chocolate bars that equates to about, let's
+[21:03] just call it roughly 60 bars per minute, have to be consumed every minute in 365 days a
+[21:09] year for you to hit that number.
+[21:10] Wow.
+[21:11] 40 million in the last 12 months.
+[21:15] Yeah.
+[21:16] 60 of these bad boys every minute, every minute of the year.
+[21:20] Every minute of the year, 365 days a year.
+[21:22] If I'm not wrong, wasn't Kim Kardashian spotted with these in her bag?
+[21:25] Is that true?
+[21:26] Yeah.
+[21:27] Yeah.
+[21:28] She's not paid, right?
+[21:29] Not paid.
+[21:30] She's hooked us up two times on her social and I think that's the beauty of when you're hustling
+[21:34] and we make it a point to be in with all the chefs and so we're not looking for the direct
+[21:41] connection to celebrities.
+[21:42] That's what everybody's doing.
+[21:43] So we've made it a point over the last decade to become friends with chefs.
+[21:47] And that's so Chef K, Shadow Chef K, who cooks for the Kardashians.
+[21:51] I mean, we were sending our product for years and years and years and years.
+[21:55] No.
+[21:56] And influence the influencer strategy.
+[21:58] Oh, cool.
+[21:59] Who influences the influencers and then you actually influencing them is a lot easier.
+[22:03] But you find who the chefs are of celebrities?
+[22:06] Yeah.
+[22:07] There's a lot of chefs on Instagram and TikTok that you can see who they're cooking for.
+[22:11] Yeah.
+[22:12] And you just DM them and say, hey, can I send you some?
+[22:13] Yeah.
+[22:14] What's special about the product?
+[22:15] Well, what is the product?
+[22:16] Okay.
+[22:17] So we started out as chocolate bars and crazy thing happened.
+[22:21] You know, since we started this business in 2018, chocolate went parabolic, the cost of cocoa.
+[22:27] And that means we lost like 27% of our gross margin overnight.
+[22:31] We were killing it and chocolate.
+[22:33] We were paying $4,000 a kilo for cocoa butter.
+[22:36] It went up to 32,000 just to give you perspective.
+[22:38] You know, there's like a cocoa crisis.
+[22:41] What?
+[22:42] Why is there?
+[22:43] Why was there the cocoa crisis?
+[22:44] So it's the cycle that happens all the time, which is super interesting.
+[22:46] It starts off with like a real mismatch in terms of whether we'll come in, disease will
+[22:52] spread, then there won't be enough cocoa coming to the ports.
+[22:57] And then corruption kicks in though.
+[22:58] And corruption usually takes about two years.
+[23:00] I got stories.
+[23:01] I went into the Ecuadorian forest.
+[23:03] So like if you ever want to go there, we could go there.
+[23:06] But basically, you know, when you're back against the wall, I remember we started this
+[23:10] thing with like, no, you didn't economics kind of like, I'm not comparing this to Tesla
+[23:14] in any sense, but build the product, no gross margin, nobody wanted to manufacture this thing.
+[23:20] Then we went to a big kitchen and then we built a plant and we had finally reached profitability
+[23:24] everybody.
+[23:25] And then we get smashed by this cocoa thing.
+[23:26] Had you raised money?
+[23:27] Or is this holding bootstrapped?
+[23:28] No, no, we raised money through a quasi equity in our government.
+[23:31] So shout out to the Canadian government's super pro and agricultural manufacturing.
+[23:36] So they were able to.
+[23:37] How much?
+[23:38] I mean, aggregate.
+[23:39] And you raised $22 million.
+[23:40] They built their own plant.
+[23:42] Yeah.
+[23:43] They're a great follow on social.
+[23:44] In fact, I've stolen many things from your social strategy.
+[23:46] So you guys, his wife, in particular, they make this incredible content.
+[23:50] So they got sued by whatever Hershey, who I forgot it was Hershey's.
+[23:53] I can't confirm to her.
+[23:54] I can say this stuff.
+[23:56] They got a cease and desist from someone being like, you can't use the color orange or, you
+[24:01] know, like stuff like that.
+[24:02] It was like a ridiculous.
+[24:03] I'm sure we could all put two and two together.
+[24:04] Yeah, Reese's was like, hey, get off orange.
+[24:07] So instead of just sort of taking the disadvantage, they said, how can we turn this into an advantage?
+[24:12] And they came out with this campaign where they were making videos, talking about how
+[24:15] they're just this independent company.
+[24:16] They actually made a diss track.
+[24:17] They made a rap diss track, they made a music video, him and his wife and that's like ridiculous.
+[24:22] But it kind of works.
+[24:23] And they tell the story and they tell the story about their plant and they tell the story about
+[24:26] the, they tell the story about the good things and the bad, which I think everybody only tells
+[24:30] the good.
+[24:31] And there's a lot to learn from y'all strategy, but also you guys have a lot of like natural
+[24:35] charisma on storytelling.
+[24:36] Who did Midday Squares?
+[24:37] Because it's perfect.
+[24:38] Thank you, man.
+[24:39] I think it was me and my wife brainstorming riffing.
+[24:41] I shout out to Five Hour Energy.
+[24:43] So I listened to the podcast and Five Hour Energy and I, he was so methodical about like, I want
+[24:48] my product to be what it is.
+[24:51] And we were, we really, so the big gap that we saw was that the afternoon markets, just
+[24:56] as big as the morning breakfast market, except it gets nearly no attention.
+[25:00] So like everybody's crowded into breakfast and nobody's really focused on the afternoon
+[25:04] part.
+[25:05] For adults.
+[25:06] For adults.
+[25:07] Yeah, specifically.
+[25:08] And so was this a form factor that already existed that people were already doing these
+[25:12] like kind of square, what do you even know what this is?
+[25:15] It's half the dual layer square.
+[25:16] Yeah.
+[25:17] What's the bottom?
+[25:18] Peanut butter base.
+[25:19] Okay.
+[25:20] Peanut butter base.
+[25:21] You got jelly on top.
+[25:22] This is a PB and J one.
+[25:23] Or this, that's PBJ.
+[25:24] This is also PBJ strawberry.
+[25:25] But you also have chocolate.
+[25:26] Right?
+[25:27] Right.
+[25:28] And so we started the business.
+[25:29] Chox is where it started.
+[25:30] Where did the initial idea come from?
+[25:31] You're just sitting around.
+[25:32] And why this?
+[25:34] My cousin was super high up at Smucker's and he was just always pushing me to get into
+[25:40] this game, you know, and we would always riff back and forth and finally through a few of
+[25:45] his friends and stuff, I started getting data and it was the data that like really sprung
+[25:49] to me was chocolate was growing at a ridiculous rate.
+[25:53] So chocolate that wasn't using palm corn oil at the time and refrigerated was growing.
+[25:58] So like the refrigerated category of grocery stores, fastest growing section of a grocery
+[26:03] store.
+[26:04] So that's why I keep it seeing refrigeration pop everywhere, like fresh pet at the pet section,
+[26:08] they're starting to put fredges in.
+[26:09] So every category started to have a refrigerated item.
+[26:13] We were talking about this with vitamins, right?
+[26:15] Like those liquid vitamins that you put in the fridge versus in the cap.
+[26:19] Oh, wait, so go back.
+[26:20] Your cousins that's schmuckers.
+[26:21] Yeah.
+[26:22] Shout out to Relio, by the way, that's my cousin.
+[26:24] And he's like, you got to get into this jelly game and you're as you're studying the data,
+[26:28] you notice this trend of refrigeration in different categories.
+[26:32] So you notice chocolate's on the rise, there's not a refrigerated chocolate.
+[26:35] Yup.
+[26:36] You see a gap.
+[26:37] You see an opportunity.
+[26:38] Big time.
+[26:39] Tell us how much money you put in your own money to do it.
+[26:41] And then if you could remember each year's revenue leaving a hundred percent.
+[26:46] So basically it took about 60 grand, me and my partners basically put this together.
+[26:51] We put it in 60 grand.
+[26:52] So we created a constraint.
+[26:54] We couldn't use Facebook ads.
+[26:55] We had to get to a million dollars of revenue and we couldn't use Facebook ads.
+[26:57] That was constraint number one and number two, it all had to be in our city.
+[27:01] So we couldn't like just spray and pray.
+[27:03] We had to, we chose Montreal's where we came from.
+[27:05] We're like, we got to get to a million dollars here.
+[27:07] And if we get here, then we can go to the next level where we can really start to take
+[27:10] this series.
+[27:11] That's dope.
+[27:12] It was the first one on Facebook ads just because, hey, we don't have a lot of capital.
+[27:15] So we're not going to be able to reserve this much money to burn there.
+[27:18] Or was it, I get the Montreal one, which is like, look, let's try to get people that we can
+[27:23] see, feel and touch here to love it.
+[27:25] Because if they don't really love it, we don't have it right yet before we earn the right
+[27:29] to go to other cities.
+[27:31] I think Facebook creates a lot of false positives for early business.
+[27:35] At least early on.
+[27:36] Yes.
+[27:37] What'd you do to get Montreal on board?
+[27:38] The content, man.
+[27:39] And this is where the brilliance of my wife and my brother-in-law.
+[27:42] So it was like really simple.
+[27:44] Going out, none of us had social followings.
+[27:46] That's a really important piece, right?
+[27:48] Because a lot of people feel intimidated when they're getting into this thing, like, you
+[27:50] got to have a pre, we had no followings.
+[27:52] And so for the whole summer, we just started posting, when you're making food product, you
+[27:57] usually end up in really cool environments.
+[27:59] You know, we were in labs with like food scientists and different manufacturing plants
+[28:03] where we're testing stuff.
+[28:04] And so we just all told each other, like everybody, when we're doing something, cameras on, tell
+[28:10] people what you're doing, but don't reveal what you're doing.
+[28:13] Just show the environment.
+[28:14] And people started getting interested, like, what the hell are you guys doing, you know, especially
+[28:18] all of us had not come from this industry.
+[28:21] Okay.
+[28:22] So it was like, pretty young guys were like, we don't know what the hell they were doing.
+[28:25] Oh, you're saying your friends, your own natural social network was like, what's going
+[28:29] on?
+[28:30] Why is Nick suddenly in this, like, lab wearing a hair net, you know, testing different pieces?
+[28:35] Yeah.
+[28:36] Because we all, my wife was in fashion.
+[28:37] My brother-in-law was like a Jim Buff going around colleges.
+[28:40] And I had typically been in software my whole career prior to that.
+[28:43] So to see us with like hair nets doing stuff was like, okay, use content, use story to get
+[28:48] it going.
+[28:49] Yeah.
+[28:50] Tell us about the ramp.
+[28:51] So you started off year one.
+[28:52] What'd you do?
+[28:53] This is where the magic happened.
+[28:54] Okay.
+[28:55] When we turned on the Jets in September, so September, 2018, we sold our product on our
+[29:01] website for 50 cents and there's two reasons.
+[29:04] Okay.
+[29:05] So you could buy one square for 50 cents and the idea was, it was all a content play.
+[29:10] So we didn't want to actually make money, but we didn't want freebie people.
+[29:14] So we had to get your credit card out, actually do a transaction.
+[29:17] And we hand delivered everything for five months.
+[29:20] So it was all in Montreal.
+[29:22] He's an animal.
+[29:23] So we did.
+[29:24] That's the only one who's not based in San Francisco doing this thing.
+[29:27] He flew in for this.
+[29:28] Yeah.
+[29:29] This guy is the ultimate hustler.
+[29:30] Yeah.
+[29:31] The then message means like you happen to you.
+[29:33] Any chance you're going to be in San Francisco and I'm like, yeah, of course, he's like, he's
+[29:37] like, here it is.
+[29:38] I'm like, okay, perfect.
+[29:39] I'm so hustler.
+[29:40] It's the only way, man.
+[29:41] You got to make opportunity.
+[29:42] So, yeah.
+[29:43] So we're getting in the car.
+[29:44] We do deliveries for like five months.
+[29:46] Here's where the magic happened on content.
+[29:48] We would wake up in the morning every morning and this I took.
+[29:52] I think I took two things that don't scale and we just went way too far with it.
+[29:56] So in the morning, all of our orders would be ready and we would literally go on people's
+[30:01] Instagram.
+[30:02] So if you had a dog named Chuck, we'd be like, shout out Chuck and we would wear these crazy
+[30:06] outfits and we took Polaroids of ourselves.
+[30:09] Okay.
+[30:10] Just meat head shit.
+[30:11] Yeah.
+[30:12] Complete like customer.
+[30:13] And we would take a Polaroid picture and we would show up to their house.
+[30:16] And this always happened.
+[30:17] Okay.
+[30:18] So we would show up to the house to be like, wait, why are you doing the delivery?
+[30:21] And then we would do, and so you would get to hang with the customer.
+[30:23] We would get more content out of it.
+[30:25] So we'd be filming the whole experience.
+[30:26] Oh my God.
+[30:27] Then we would leave them the photo, then they would post the, we got to a million dollars
+[30:30] in like four months.
+[30:31] Like it was like.
+[30:32] Wow.
+[30:33] That's, yeah.
+[30:34] That is amazing.
+[30:35] That is such a great story.
+[30:36] Okay.
+[30:37] So the number, tell us the numbers.
+[30:38] So, okay.
+[30:39] So you're one, I want to say a million for then year two, let's call it three million.
+[30:44] Then we did a big jump to like seven, 14, 22, 30, 40.
+[30:53] And now this year we're on track for about 60.
+[30:55] And you guys, you guys got into Costco.
+[30:57] We just like we, we, we launched Costco, Canada, National Costco, US is launching September
+[31:02] first.
+[31:03] How did you get into Costco?
+[31:04] Not easy to do.
+[31:05] Everyone wants to get into retail.
+[31:06] This is a crazy story too.
+[31:07] Yeah.
+[31:08] There's no crazy story.
+[31:09] Okay.
+[31:10] We're gonna have to extend the time limit on Nick just so you know, because this is a crazy
+[31:13] story.
+[31:14] Whoever's next.
+[31:15] Go take a walk for a minute.
+[31:16] Right.
+[31:17] So Costco, they had seen the content brings into action.
+[31:20] Okay.
+[31:21] It brings in the action.
+[31:22] So we get this meeting with Costco.
+[31:24] Content brings in the action, baby.
+[31:26] Let's go.
+[31:27] Grab that action.
+[31:28] So we, so we basically go to the first Costco meeting and everything about to say Costco, shout
+[31:33] out Costco, like super respectful, like we weren't seeing eye tie.
+[31:38] We knew that our second most searched term online was midday squares of Costco, like we knew
+[31:42] we were going to hit this out of the park.
+[31:45] They didn't feel as confident in that aspect.
+[31:48] And we knew that the right price point was $19.99 for our 12 pack.
+[31:52] There was a disagreement that lasted about two and a half years.
+[31:56] Okay.
+[31:57] Going back and forth.
+[31:58] Right.
+[31:59] So gentlemen's disagreement.
+[32:00] Yeah.
+[32:01] Like just we just couldn't see eye on the price and further record.
+[32:02] They wanted it to be what?
+[32:04] I'm not going to stay at that price.
+[32:05] Yeah.
+[32:06] Because they're a great partner and they want to be lower and we just held our ground, you
+[32:10] know, because this is two and a half years during that, once you guys just kind of like,
+[32:15] let's just go into Costco.
+[32:16] Okay.
+[32:17] So this happened on the third meeting.
+[32:19] This is where things, it was the third meeting.
+[32:21] We drove out to the head office for the third time.
+[32:24] There's two ways to go into Costco.
+[32:25] There's like you're in line or you could do a road show.
+[32:29] And the road show is like everything's on consignment.
+[32:31] You have to show up.
+[32:32] You only get paid for what you sell at Costco and you got to be in Costco for 14 days.
+[32:37] So you mean like, giving out sample, like sampling.
+[32:39] Yeah.
+[32:40] When you're hustling, it's like, oh, so that's what's happening.
+[32:43] When you walk into Costco, there's kind of a cool product, somebody standing there, they
+[32:46] are taking a consignment bet on their product to prove to Costco that there was the event
+[32:52] and there's no guarantee you're going to get Costco.
+[32:54] So I was really rattled again.
+[32:57] We didn't see eye to eye.
+[32:58] This is the third time and like we're talking almost three years at this point in time.
+[33:02] And so I looked at the buyer who we had started to develop actually a good relationship with
+[33:05] him.
+[33:07] If we do the road show and we break the road show record, like the most sales ever in 14
+[33:13] days, will you give us $19.99 and we shook hands that day.
+[33:18] What made you want to do that bold statement?
+[33:20] Our search on Google was so high for I knew.
+[33:23] Yeah, but you knew that it's high for you, but you didn't know that it was how it compared
+[33:27] to like the Swiffer came out.
+[33:29] You're correct.
+[33:30] I don't know.
+[33:31] There's just moments in life where you just.
+[33:32] Was that an impulsive thing?
+[33:33] Or you planned to say that?
+[33:34] No, it was impulsive.
+[33:36] It was like my wife looked at me and we, but she was, I don't know.
+[33:43] I guess you have nothing to lose at some point.
+[33:45] Maybe married a wild stallion.
+[33:46] This is how it wrote how it goes.
+[33:48] Sometimes I run away.
+[33:49] How much do you guys sell?
+[33:51] 140 hundred.
+[33:52] We can't put 160,000 in 14 days.
+[33:55] And how old men of that 160 was your family break it or did you know we smashed the record.
+[34:00] The closest record I think prior to that was all the content.
+[34:03] And they made a story.
+[34:04] We rallied, man.
+[34:05] We rallied.
+[34:06] We rallied.
+[34:07] We rallied.
+[34:08] Okay.
+[34:09] So first off, most founders don't spend 14 like, like we were doing full days.
+[34:14] Don't buy your figure.
+[34:15] Yeah.
+[34:16] Dude, when he's saying we rallied, that goes perfectly with backstage.
+[34:19] We were talking about nicotine pouches and he's like, Oh, I used to put it in my toes before
+[34:24] ice hockey practice.
+[34:25] Yeah.
+[34:26] I've never heard of this.
+[34:27] Okay.
+[34:28] So it sounds like we have some degeneracy to explore.
+[34:30] Yeah.
+[34:31] I can tell by your touch.
+[34:32] Costco, you put it between the toes and you just went for it 14 days.
+[34:34] It was like the craziest rally of life.
+[34:38] And it wasn't 14 days.
+[34:39] We spent 36 days straight in a Costco.
+[34:42] We had to do multiple Costco's.
+[34:43] So what's the trick when you're in the Costco, like kind of getting flagged and people down?
+[34:47] What was the showmanship that worked?
+[34:49] Yeah.
+[34:50] Two things that I think are really takeaway.
+[34:51] Most founders don't do the road show themselves.
+[34:54] They leave it to a third party.
+[34:56] That's mistake number one.
+[34:57] Like that's because everyone hates rejection.
+[34:59] And they're also time like you're you got to be in those for 12 hours in a day.
+[35:04] Like they open at eight and you're closing at nine, you know?
+[35:07] So most founders brush it off and just they pay the service and they don't go.
+[35:12] Every day.
+[35:13] You don't understand.
+[35:14] It was bananas.
+[35:15] Okay.
+[35:16] So you were just grinding.
+[35:17] You were living in the Costco.
+[35:18] Me and my wife.
+[35:19] Okay.
+[35:20] So first thing is founders do it themselves.
+[35:21] The second thing is basically, well, you're there.
+[35:26] You want to be really methodical.
+[35:27] So I would just stand in front and yell out keywords, gluten free, dive in a friendly
+[35:33] friend.
+[35:34] And no, I swear on my life.
+[35:35] So you're doing keywords as people are see where they bought like a like a white girl
+[35:40] dictionary.
+[35:41] Yeah.
+[35:42] Yeah.
+[35:43] And so you're throwing out like your keywords and it really works.
+[35:44] Hispanic.
+[35:45] Yes.
+[35:46] No, I mean, like so we would have so we would have this we would get so warehouse at one point.
+[35:50] Like we were so out of our you start to hallucinate.
+[35:54] You're in there so long sometimes that we would just be like, it's a dog and pony show coming.
+[35:59] You just start.
+[36:00] But the keywords are really key.
+[36:01] So the keywords, why are the keywords key one, it we changed our box because of the keywords
+[36:07] that work.
+[36:08] So when you go to Costco, it is not this box, it is a specific box I went into, discovered
+[36:12] it while you were there.
+[36:13] Change the package afterwards.
+[36:14] Yes.
+[36:15] What'd you discover?
+[36:16] Gluten free was a massive thing.
+[36:17] Real chocolates.
+[36:18] Huge at Costco.
+[36:19] So I, so I think the second thing is like, don't just mindlessly be there while you're doing
+[36:24] the road show.
+[36:25] Be intentional about what you're doing.
+[36:27] Dude, this is awesome.
+[36:29] Congratulations.
+[36:31] Okay.
+[36:32] So 10 years from now, what do you think is going to happen?
+[36:33] Are you going to sell the company?
+[36:34] You're going to run it forever.
+[36:35] What are you going to do?
+[36:36] All I know is that my dream was to make the NHL and I didn't make the NHL.
+[36:39] And so now you're going to buy a team.
+[36:41] No, no, no, no.
+[36:42] Only 0.5% of companies make it past $100 million of revenue.
+[36:46] That's been my goal since the beginning.
+[36:48] And I don't know what will happen after, but that's the goal.
+[36:50] You're the shit, man.
+[36:51] What's, what's one thing we could help you with?
+[36:54] One having here today.
+[36:55] I can't tell you how much this means to me, you guys have been listening for a while.
+[36:59] Dude, come on.
+[37:00] You know, we met each other about five years.
+[37:01] Well, we met in Club LTV.
+[37:02] So I used to host this thing from the homeowners.
+[37:05] He was in there.
+[37:06] You probably were only doing like five, 10 million in revenue at the time.
+[37:08] That's 5 million bucks at the time.
+[37:09] But he had amazing energy.
+[37:10] I was rooting for you since then.
+[37:12] So I'm not surprised that you're now at 40, 50, 60 million.
+[37:15] Keep on going, man.
+[37:16] What would you like to see as a flavor?
+[37:18] I mean, you guys actually consumed the product.
+[37:20] I would love to, even if it was a fully different direction.
+[37:23] Let's not even say no, Brad, PB&J.
+[37:24] What's a flavor you'd like to see us do?
+[37:26] That's a good question.
+[37:27] I think what I would love to see, you told me three things today, and I've known about
+[37:32] your brand for four years that I didn't know.
+[37:34] I think you got to, this sounds weird because you're doing content, it sounds weird because
+[37:37] you work on your packaging.
+[37:39] I think there's actually still like a long way to go in terms of like being able to through
+[37:44] whether my point of contact is just seeing the box, whether my point of contact is seeing
+[37:48] something on social from you or from a celebrity.
+[37:51] How do you make it where the story really pops?
+[37:54] Because I didn't actually realize that the reason your stuff tastes better and is better
+[38:00] for you is because it's real chocolate that's refrigerated, that's why there's no preservatives.
+[38:06] So it's one thing to say, no preservatives.
+[38:08] It's kind of like when I've heard that type of stuff so much, I just assume they're shoving
+[38:12] something else in it that I don't know, no pommel olive, oh, then they're using some other
+[38:17] thing.
+[38:18] Who knows?
+[38:19] And so I think just saying like, hey, this is chocolate you keep in your fridge because
+[38:22] it's in the fridge.
+[38:23] This isn't even chocolate though.
+[38:24] This is your chocolate still your popular skew.
+[38:28] I mean, this is now the most popular number one by far, but I want to keep going with this.
+[38:32] It seems like, dude, you know who's making a huge comeback is on crustables, but you're
+[38:35] just like fresh and healthier than like, dude, an uncrustable like if I buy that for my kids,
+[38:40] I know I'm making a batch for me, I'm making a shameful choice.
+[38:47] This I don't feel ashamed of.
+[38:48] So congrats.
+[38:49] Well, thank you.
+[38:50] Come on in.
+[38:51] Nice for having us.
+[38:52] I appreciate it.
+[38:53] Dude.
+[38:54] Great to see you.
+[38:55] Today's podcast is brought to you by my friends at Mercury.
+[38:58] They make the world's best banking product.
+[39:00] I think you know this already.
+[39:01] I use Mercury for all of my businesses.
+[39:02] I think I have like maybe seven or eight businesses.
+[39:04] We use Mercury as our business banking across all of them.
+[39:07] And now they actually just launched a personal banking account.
+[39:10] So I have my personal account there.
+[39:11] I moved off of Wells Fargo and Chase.
+[39:13] I'm just all in on Mercury.
+[39:15] Why I like products that are easy to use.
+[39:17] I like products that get me and the problems that I have.
+[39:20] They're like very easy to make, a joint account with my wife.
+[39:22] Very easy to spin up virtual cards.
+[39:25] One click and I get savings yield.
+[39:26] It's just has all the stuff that I need in one place.
+[39:29] So if you're looking for the best banking product on the market, it's definitely Mercury.
+[39:32] I will fist fight anybody who disagrees with me on that.
+[39:35] Go to Mercury.com slash personal and learn more.
+[39:38] Mercury is a FinTech, not an FDIC insured bank.
+[39:41] Banking services are provided through Choice Financial Group and column NA members FDIC.
+[39:44] All right.
+[39:45] Guess number three.
+[39:46] Can we get something?
+[39:47] Dude.
+[39:48] Let's see.
+[39:50] All right.
+[39:51] Introduce yourself your name, what you do, what's the name of the company?
+[39:55] Okay.
+[39:56] Sounds good.
+[39:57] My name is Shreis and I'm the CEO of Daydream and we are adding a million dollars a month
+[40:00] helping dentists automate back office tasks.
+[40:03] All right.
+[40:04] Dude, I've been DMing you.
+[40:05] We've been DMing.
+[40:06] We've been the DMs together.
+[40:07] Yeah.
+[40:08] We've been in the DMs.
+[40:09] I love the name of the company.
+[40:10] And then I saw you were doing something for dentists and I was like, just so smart.
+[40:12] I think I tried to invest or stuff that was like, this is, you know, I do these like cold outreach
+[40:17] to invest off of no information, just like a Twitter bio or like two tweets.
+[40:21] And that's what I think I did with you.
+[40:23] That's great.
+[40:24] That means my Twitter is working.
+[40:25] Yes, it's working.
+[40:26] There you go.
+[40:27] I got you.
+[40:28] All right.
+[40:29] So you kind of already started with the big number.
+[40:30] You say, let's say it against lower.
+[40:31] So you said, so we're adding a million dollars a month in ARR every single month across a bunch
+[40:35] of dentists.
+[40:36] Yeah, across a bunch.
+[40:37] Explain what you do though.
+[40:38] Yeah.
+[40:39] So basically what we do is I don't know if you've ever been to the dentist or a doctor and gotten
+[40:41] a bill from the insurance company and been like, you know, what actually is this, right?
+[40:44] And that's because the insurance companies are trying to screw not only the patients
+[40:47] over, but the doctors over.
+[40:49] And so the reality is in order to get reimbursed from the insurance company, the doctors do
+[40:52] a bunch of administrative work and doctors hate it and they do a bad job.
+[40:56] They lose money.
+[40:57] My mom is a dentist.
+[40:58] She's losing 10 to 15% of our money to these insurance companies.
+[41:01] So I was like, what if I could automate this process of dealing with the insurance company?
+[41:04] So verifying insurance to say, Hey, this is what Sean's insurance is going to cover.
+[41:08] We submit the claim.
+[41:09] We appeal the denial because guess what?
+[41:10] They love denying these claims and then we do all the bookkeeping when the money does
+[41:13] come in.
+[41:14] And in exchange, the doctors pay us a small percentage of every dollar they go.
+[41:17] And so it's like AI like negotiating with the insurance companies.
+[41:20] Yeah, exactly.
+[41:21] So we have AI calling the insurance company to get the status of these claims, AI submitting
+[41:24] the claim.
+[41:25] And AI voice being like, Hey, you did not approve this.
+[41:28] Why not?
+[41:29] Here's why you should.
+[41:30] Exactly.
+[41:31] Well, the funny thing is on their side, they also have AI and so they're normally it's a war
+[41:34] of attrition.
+[41:35] It's like, they're going to be you have to wait to hear the menu, then you have to say the number
+[41:38] and then they didn't understand it.
+[41:39] But it's like, let's let my robot talk to you all about all day.
+[41:43] Exactly.
+[41:44] And you know what I always tell the insurance companies?
+[41:45] I'm like, yo, you're spending a lot of money.
+[41:46] We're spending a lot of money.
+[41:47] What if you just gave us the data and an API, but this health care industry is so backwards
+[41:51] that they don't want to.
+[41:52] The incentive is not there.
+[41:53] The incentives is not there.
+[41:54] And so we have to find all these creative ways to beat the system and make sure that our
+[41:58] doctors and our patients get paid.
+[42:00] Can you write off a few facts?
+[42:01] So how old's the company?
+[42:02] How much funding and like this year's revenue?
+[42:04] Yeah.
+[42:05] So we're about 926 days old, two and a half years, about, about, do you know who started
+[42:10] that?
+[42:11] That was the ramp CEO.
+[42:12] Do you know his stick?
+[42:13] His stick is how many hours old today were two thousand two hundred and forty three days
+[42:17] old.
+[42:18] Sorry.
+[42:19] 926 days old.
+[42:20] That was the second part.
+[42:21] Yeah.
+[42:22] So we've raised 11 and a half million dollars to date.
+[42:24] By the end of this year, we'll finish north of 10 million in revenue.
+[42:27] And another underrated thing is so the way our business started was we actually went out
+[42:31] and acquired an existing service business.
+[42:33] So before, you know, people would be doing this work manually.
+[42:35] Right.
+[42:36] So we actually bought this company and then we've just been improving their margin.
+[42:39] It was their book of business when you bought it, less than a million.
+[42:43] And so really the goal was, you know, when you run a service business of one day you run
+[42:48] out of you have to hire more humans, you become more unstable, quality goes down.
+[42:52] And so we got them right at the perfect time when they were like, Hey, I think we could grow,
+[42:55] but we just don't have enough human talent.
+[42:57] Who came up with this name?
+[42:58] I did.
+[42:59] My mom's practice, her name is the practices name is DreamSmile.
+[43:04] And so I grew up working my whole life in this practice and I don't know if you've ever
+[43:07] been an unpaid child worker.
+[43:09] But like the first thing you're doing is like daydreaming like, Oh, like to the unpaid child
+[43:12] workers out there.
+[43:13] I see you.
+[43:14] I see you right now.
+[43:15] I can choose in the minds wherever you're at or, you know, posting EOBs in a dental office
+[43:21] in Philadelphia.
+[43:22] I'm 25.
+[43:23] Wow.
+[43:24] So you were, you're working in your mom's dental office.
+[43:26] You were forced to do some of this work where you saw Debbie was doing this work and so that
+[43:30] was there.
+[43:31] Yep.
+[43:32] Now you grow up.
+[43:33] You start thinking, what can I do?
+[43:34] What was the actual reason you like had the idea, give it, take it to the epiphany of the
+[43:38] idea.
+[43:39] Yeah.
+[43:40] And it's going to get, it's going to get dark, but then it's going to get positive.
+[43:41] I promise.
+[43:42] Okay.
+[43:43] So I'm forewarning.
+[43:44] Thank you.
+[43:45] My mom, she's okay now, but she had gotten sick.
+[43:46] And so I was, I graduated Stanford.
+[43:48] I was working at AA.
+[43:49] I started, I was like, over the moon.
+[43:50] I was like, yo, I'm going to dominate the world.
+[43:52] And then she gets sick.
+[43:53] And so I go home and I start running our practice.
+[43:56] And you know, I go from like 100 to suddenly being the most overqualified dental office manager
+[44:00] in America.
+[44:01] And that was when I realized how much money we were losing.
+[44:03] Like, I think when I grew up, I kind of knew that it was a problem, but I was just, I was
+[44:07] just doing it.
+[44:08] I was just ready to just like finish and go like go home.
+[44:11] But then I saw it and I got to chance to see and feel what my mom has felt for 15 years
+[44:15] of her life.
+[44:16] And I was like, this is just unacceptable.
+[44:17] You don't have to be this way.
+[44:18] It doesn't have to.
+[44:19] And like, you know, I've been spent, I've spent so much time, you know, I'm more of a, like
+[44:23] a NLP nerd.
+[44:24] Like I always loved natural language processing.
+[44:26] And I had seen the field like develop.
+[44:28] And so I was probably one of the first hundred people to have access to GPT three because I
+[44:32] was really into words.
+[44:34] And so when I got in computer science, I got access to you.
+[44:36] Dude, there's this way.
+[44:37] I'm in words.
+[44:38] There's like this Venn diagram where like personality type meets with opportunity with
+[44:42] like the circumstances in which you grew up and that you had the resources that you.
+[44:46] Ding, ding, ding, ding.
+[44:47] Okay.
+[44:48] Perfect.
+[44:49] So, you know, who else was working in their parents dental office and then went on to do
+[44:53] big things?
+[44:54] Zuck.
+[44:55] Mark Zuckerberg.
+[44:56] Yeah.
+[44:57] Did he really know the story?
+[44:58] No.
+[44:59] His first project was like, he set up like the IT system in his dad's office and like souped
+[45:02] it up and like made it sick.
+[45:03] And he's like, okay, I guess I've kind of outgrown this.
+[45:05] I should go do something else.
+[45:06] That's awesome.
+[45:07] And Michael Dell underrated.
+[45:08] His dad was an orthodontist, I believe.
+[45:10] Yeah.
+[45:11] Dr. Dell.
+[45:12] Children of dentists.
+[45:13] Yeah.
+[45:14] It's a mafia.
+[45:15] There's tens of us.
+[45:17] How big?
+[45:18] I mean, I think we're going to serve every dental practice in America.
+[45:20] Like are you wanting to be like a CEO of a public and trade company?
+[45:24] Yeah.
+[45:25] Why not?
+[45:26] I mean, I think like to me, like the opportunity here is today what we do is we help dentists bring
+[45:28] money into their business, but soon we can store their money.
+[45:31] We can help them spend their money.
+[45:32] We can lend money to them.
+[45:34] I don't know if you guys have, you know, these PE roll-ups.
+[45:35] They're buying up all these like Taco Bells, dental practices and, you know, the truth
+[45:40] is 70% of the market are still independent guys like my mom.
+[45:43] And they feel like they have no other choice but to sell to the big guy.
+[45:46] I want to give them the third door, which is like, hey, if I handle this back office BS
+[45:51] for you, would you want to still be a dentist and own your practice?
+[45:54] And they're like, heck, yeah, that's the multi-billion dollar business here.
+[45:57] So let's go over the business model.
+[45:59] You said you save dentists, you bring in additional cash flow that they were otherwise
+[46:04] losing or was delayed.
+[46:06] You take a percentage of that.
+[46:08] So you said that basically, let's just take $1,000 for every $100, every $100 that comes
+[46:14] in.
+[46:15] What do you guys take?
+[46:16] Three, anywhere from two and a half to three and a half percent.
+[46:17] Oh, that's it.
+[46:18] Okay.
+[46:19] Yeah.
+[46:20] But how does that math work?
+[46:21] So you said 10 million of air are, but you're saving bringing in a million a month from dentist
+[46:23] as 12 million a year.
+[46:24] So how does that work?
+[46:25] You know, we're adding as daydream as a business.
+[46:27] We're adding one million in air are net new.
+[46:30] And so we are processing.
+[46:31] But is it a is it a are?
+[46:33] Yeah, a are.
+[46:34] So when we submit claims and we post the payments, which is like entering it in, we take a fee.
+[46:39] So it's not just money.
+[46:40] We recover.
+[46:41] It's every dollar going into the business.
+[46:42] We are helping them process.
+[46:43] Gotcha.
+[46:44] So you're like, strike on the back side.
+[46:45] Exactly.
+[46:46] We're like all the billing and then the better the part where you guys are even better.
+[46:49] You add that sort of 10% 15% to their practice overall.
+[46:52] How big is your team?
+[46:54] So we have about 60 people, but we have people on the billing team, the service delivery team.
+[46:58] That's about 50 people.
+[47:00] I think we only have about 10 people in the office.
+[47:02] So you're close to profitability.
+[47:03] Yeah.
+[47:04] And I think that's like, you know, we did raise venture capital.
+[47:06] And I think like, I think it's nice to kind of have like, we could like go for profitability
+[47:11] or we could keep on growing.
+[47:12] I think like we just want to do more like I know that there are like 150,000 dentists where
+[47:16] the job's not done jobs, not even like we can't even be talking about the job.
+[47:20] We haven't even, you know what I mean?
+[47:22] Job's not done.
+[47:23] Is job even in the room with us right now?
+[47:24] Oh, I can't even see them.
+[47:26] So things are going great.
+[47:27] You seem happy.
+[47:29] What is bad?
+[47:30] This is a safe space.
+[47:32] You can tell us and the millions of people that are going to listen to this.
+[47:35] What's going bad?
+[47:36] Everything.
+[47:37] It feels like, you know what I mean?
+[47:38] I don't know.
+[47:39] I mean, like where are the bottlenecks right now?
+[47:40] I think again, like hiring engineers again, like this is like our job is to take this service
+[47:46] business and make it software, you know, software experience.
+[47:49] There's so few people talented to do this like really weird work and you know, we're
+[47:54] committing against like opening and fropping.
+[47:56] Yeah.
+[47:57] And I'm like, so yeah, it's that part is tough to pay crazy amounts of salary.
+[48:01] No, I think we get really people on the mission.
+[48:03] Like you can get a job.
+[48:04] You can have a career.
+[48:05] You can have a mission.
+[48:06] And like when I get people on the mission, job's done.
+[48:08] You know what I mean?
+[48:09] Like everything else.
+[48:10] No, I don't know what you mean.
+[48:11] When you like their mission is like AGI cure cancer and you're like back office down to work.
+[48:17] How is your mission winning out against the mission of these labs?
+[48:20] There's no way.
+[48:21] I think it's like, yeah, very fair, very fair pushback.
+[48:23] I think it's like, to me, the dentists are the underdog, the small business, the people
+[48:26] who are like, you know, we're dealing with people in Broken Arrow Oklahoma.
+[48:29] Yeah, great.
+[48:30] You can like make AI SDRs, you can sell more AI slop to people in SF or you could help the
+[48:35] guy who you grew up to going for 15 years and like, that's the mission and like, yes, we
+[48:39] we sell to dentists, right?
+[48:40] But like, to me, this, the story is so much more powerful, which is like, my mom knows who
+[48:45] every one of her patients is going to prom with.
+[48:47] She knows when the kids are sick, she knows, she knows what she knows more about them than
+[48:50] she does about me, right?
+[48:52] And like, that's the experience of healthcare and like, that's I think the mission that people
+[48:55] get excited about is like, hey, like I kind of miss being able to go to my guy, the person
+[48:59] I've been going to 15 years.
+[49:00] You have a great pitch.
+[49:01] He's got a, he's got a really good ability.
+[49:03] Yeah, you're great.
+[49:05] Let's ask you a different question.
+[49:06] What's not figured out yet in the business?
+[49:08] So there's, you know, a business you only fit, you only need to figure out the sort of six
+[49:11] inches in front of you as you're going.
+[49:13] And there might be some things you don't know yet, but it's kind of a little bit further
+[49:15] where you can keep punting it until you get there.
+[49:18] What's unfigured out?
+[49:19] You know, like, I think we're growing fast, but we could be growing faster.
+[49:22] We do creative go-to-market things, but we could always be doing more of them.
+[49:24] So how do I get more of that 150,000 dentists to come get the benefits that we offer?
+[49:29] We're going after like, you know, these guys aren't on LinkedIn.
+[49:32] You never met a dentist.
+[49:33] Well, how do they find you now?
+[49:34] Honestly, word of mouth.
+[49:35] We're in these like Facebook groups where there's like tens of thousands of dentists.
+[49:38] And I just like, I just comment for 10 hours a week, just like following Facebook groups.
+[49:43] We go to conferences.
+[49:44] How do you make it an absolute no-brainer for a dentist to take you on?
+[49:48] So how do you take all the friction out?
+[49:50] The same way you're taking the friction out of the billing.
+[49:52] How do you take the friction out of the onboarding?
+[49:53] So for example, could you go to these dentists and just say, hey, daydream, we will take over
+[49:59] this, you know, this cost of your business.
+[50:00] But basically, if you just said like, we don't charge you a penny until we've made you $100,000.
+[50:06] The first hundred thousand we make you, we take nothing.
+[50:08] And after that, we take two and a half percent or something, something like that where it's
+[50:11] like, oh, these guys are basically saying, they're going to make me an extra $100,000.
+[50:15] And for you onboarding that person, your actual cogs is not $100,000.
+[50:20] Your cogs to onboard a dentist is probably very, very small.
+[50:23] And so you will just use that as your acquisition, like create an offer so good, they would be
+[50:27] stupid to turn down.
+[50:28] Yeah.
+[50:29] Yeah.
+[50:30] It's so hard because some, most people are like afraid of change management.
+[50:32] Like that's what like dentists are like, yeah, like maybe I'm losing a little bit of money,
+[50:35] but like, eh, right.
+[50:36] But yeah, I mean, that's oftentimes the biggest thing that comes in mind is like, how do we
+[50:39] like, well, my dad is in this, not this space, but he owns an old school small business.
+[50:45] And if you are going to like tell him like, like, I made this post about him saying, like,
+[50:49] my dad makes, you know, this much money, you're selling onions and his CRM is this notebook
+[50:52] and filing cabinet.
+[50:53] And he, all these people were like, use the CRM.
+[50:55] He's like, what the f**k is that?
+[50:57] No, no, I'm done.
+[50:59] And so I do understand like that pitch can be hard.
+[51:02] Why don't you own a Facebook group that teaches dentists owners how to make more money.
+[51:07] So we've tried putting in offers for those other Facebook groups.
+[51:10] And then we have started our own, it only is about 250 members, but we have someone off
+[51:14] shore right now just adding them, and then like, friending them from my account.
+[51:17] But like, yeah, like we need to like hyper charge it maybe.
+[51:19] Can you buy one of those groups?
+[51:21] We've tried.
+[51:22] Sometimes they'll block you there if you do that.
+[51:23] So you have to be careful because you might just making the offer, you might get blocked.
+[51:26] What about the private equity guys?
+[51:27] So the private equity roll ups that are happening, they already own huge amounts of in theory,
+[51:32] you sell one, you get many, but maybe they built this in house or they are really sensitive
+[51:37] to margin and they don't want to do this.
+[51:38] What have you found so far?
+[51:39] I thought that they would be like a much more straightforward, like very logical, but many
+[51:43] of them just like bought a bunch of practices in 2021, and like they're just trying to stay
+[51:48] afloat and like not like be able to service their death these days, to be honest.
+[51:52] And I think like, yeah, we've tried one or two, like 50 location groups, but those have
+[51:57] been the hardest deployment.
+[51:58] So those have been the most like demanding things and again, maybe this is like something that's
+[52:01] bad.
+[52:02] We were just like, what if we just like stayed in the thing that like we're very good up for
+[52:05] now?
+[52:06] Yeah.
+[52:07] And like, well, I hope we can work there.
+[52:08] But like, do you have a community manager?
+[52:10] You're looking at it.
+[52:11] Yeah, which is smart that you do it.
+[52:13] I would go super hard on like owning and running a Facebook group and creating like, you know,
+[52:18] we were buddies with this guy named Tommy Mellow, who has a garage door business.
+[52:22] Oh, he won garage.
+[52:23] Yeah.
+[52:24] It does.
+[52:25] I think maybe close to a billion in revenue.
+[52:27] And now his job is he's trying to buy more service businesses to implement his playbook.
+[52:31] And so he actually created like a services mastermind conference type of thing.
+[52:37] And he was like, the ticket prices will pay for my, my team.
+[52:40] But the real thing was like, if I can find a handful that I can buy, I would love that.
+[52:44] And if I was you, I 100% would have a community manager, probably an ex dentist or something
+[52:49] like that.
+[52:50] And I would create like a community on Facebook groups where it would be all the best practices
+[52:54] where people share their tips and tricks and how they're making their lives easier, the business
+[52:58] is better.
+[52:59] So what do you mean?
+[53:00] What do you mean?
+[53:01] How many dentists are you on boarding every month?
+[53:02] About 50?
+[53:03] Like 30 to 50?
+[53:04] 30 to 50.
+[53:05] And so really the question is like, how do you get that number to be 150?
+[53:07] Yeah.
+[53:08] So you start by saying, well, what's working today?
+[53:09] Where do you get the 50 right now?
+[53:11] Yeah.
+[53:12] So we do like direct mail campaigns like this, where we send out like, like a, like what's
+[53:16] a direct mail?
+[53:17] You're not going to throw away is like one with your face on it.
+[53:19] Right?
+[53:20] That's them.
+[53:21] Yeah, that's them.
+[53:22] And so we have all these different options.
+[53:23] Yes.
+[53:24] This is a great idea.
+[53:25] Who made this?
+[53:26] What vendor?
+[53:27] You did.
+[53:28] Some of the smartest go-to-market people I've ever worked with.
+[53:30] This is so good.
+[53:31] And then we've done this one.
+[53:32] And you studied like the old school direct marketers?
+[53:35] Not really.
+[53:36] No, we've just mostly doing it vibes.
+[53:37] Yeah.
+[53:38] You're doing direct response marketing.
+[53:40] You should study the guys who basically cracked a single sales letter sent through the post.
+[53:46] You know what he's talking about?
+[53:47] That would make like millions of dollars.
+[53:48] No, sorry.
+[53:49] Okay.
+[53:50] So listen, before the internet was the internet, it was copywriters direct marketers.
+[53:53] So basically, let's say I made vacuums and I would go to Joe or Joe Sugarman or David
+[53:59] Olga V and I would say, Hey guys, I need a bunch of people to buy this vacuum.
+[54:03] So they would pay us a database to give them the addresses of a million housewives and they
+[54:10] would come up that copywriter would come up with this amazing like angle to capture
+[54:15] the housewives attention and they would write out this letter.
+[54:17] They would type it out.
+[54:18] They put it in envelope and they would send it to them and says, Here's all the reasons
+[54:21] why you should buy this.
+[54:22] A little coupon, tear it off, write your checking information and put a check in there or whatever.
+[54:27] Mail it back to me.
+[54:28] That's a very arduous process.
+[54:29] So they got so freaking good at copywriting that every single word served a purpose and
+[54:34] it was beautiful and it was incredibly effective.
+[54:37] And then the internet came along and the best copywriters tended to be people who are a little
+[54:41] bit on the fringes of like they would sell like how to pick up chicks or how to like these
+[54:45] programs that were a little bit like fringy, but they were the best.
+[54:49] And these guys still exist and you could get someone to help you with this opening letter
+[54:56] and they could sell the shit out of these people.
+[54:59] And it's all via direct response, long form copywriting.
+[55:02] You've sold me on this.
+[55:03] Yeah.
+[55:04] It's like this is like a 12th grade English class.
+[55:06] Yeah.
+[55:07] I mean, what I love is that you're just doing the entrepreneurial thing, right?
+[55:09] You're just stumbling around trying to figure things out as you go, but you're going to
+[55:13] be able to like, there are people who are masters at this, either the old school people
+[55:16] or the people who've studied them and do it today, find them and be like, hey, I need
+[55:21] you to acquire, you know, here's a budget and I need you to acquire dentists at this cost
+[55:25] and see what they can do.
+[55:26] By the way, this, like one of the frameworks for copywriting, one of the most simple one is
+[55:31] Ada, attention, interest, desire, action.
+[55:33] This is a, you are, that's the best attention grabbing headline you could possibly have.
+[55:37] So you're kind of doing it inadvertently, but you 100% can improve this.
+[55:41] And you have the book a demo and get a free, get free AirPods.
+[55:44] So that's another thing they would do is the cracker, Jack, you know, gift gift in the
+[55:47] process.
+[55:48] Yeah.
+[55:49] They would do a thing where they would, you know, stay, they would paperclip a dollar bill onto
+[55:51] the mail onto a letter and just by putting a, like when you see a dollar, you're just, what
+[55:55] is this?
+[55:56] Yeah.
+[55:57] And they just had a higher response rate.
+[55:58] They figured out like all the different things that you can do to do this, to make every, every
+[56:03] step of this work.
+[56:04] So this is one of the tactics.
+[56:05] Is this bringing in everybody right now?
+[56:07] No, no.
+[56:08] I mean, there's not a single dental podcast in America that I've not gone on to, okay, just every
+[56:11] single dental podcast, every dental conference, sponsor or you just went on as a guy, sometimes
+[56:15] sponsor, sometimes as you go on as a guest.
+[56:16] I mean, the story is like very, you know, something that I think a lot of dentists can
+[56:19] get behind.
+[56:21] And then conferences, like I think on any given like month, I'll probably be at like three
+[56:25] or four.
+[56:26] Sometimes they probably think that you're like a freak to like, who's this young charismatic
+[56:29] guy at a dentist?
+[56:30] Like we've never seen this.
+[56:31] Like, you know, you probably stick out, right?
+[56:33] Yeah, but for better for words in a good way.
+[56:35] Okay.
+[56:36] Listen, Joe Sugarman is the author is called the ad week guide to copywriting, read that and
+[56:40] then read on advertising by David Ogilvy.
+[56:43] Read those this week and your mind will change.
+[56:45] Okay.
+[56:46] And then I like the idea of the user's conference too.
+[56:48] The A1 guy does this where they bring people together.
+[56:50] Yeah.
+[56:51] It's just like, we're going to teach everyone, everyone's, we're just going to be the meeting
+[56:53] place for people to aggregate and share ideas and how they make their business better and
+[56:56] hopefully.
+[56:57] And just so you guys know, we have this, but because if you use our software or not, this
+[57:00] is like a great thing.
+[57:02] Another question.
+[57:03] Who influences the influencer?
+[57:04] So who, who do a lot of dentists listen to like trust today?
+[57:07] Obviously you've been on a couple of podcasts.
+[57:09] I don't know.
+[57:10] What kind of thing are there people on Instagram?
+[57:11] Like, I found that for every space, like, we invest in this company that was doing stuff
+[57:16] with auto shops.
+[57:17] And it turns out there was just like a guy who was like the auto body guy.
+[57:20] And basically he had a 50 store chain.
+[57:22] And so everybody who owned one wanted to own 50.
+[57:25] So therefore they liked listening to respect to this guy.
+[57:28] And he was able to drive like crazy volume.
+[57:30] I think this guy was making like 20 million a year himself as like an auto mechanic influencer,
+[57:36] which is just shows kind of like there's always influence in every niche.
+[57:39] You got to find it and figure out how to get them on board with what you're doing.
+[57:42] Yeah.
+[57:43] We've done like one or two, but like there are so many dental influencers because my whole
+[57:47] feed is just dental influencers now.
+[57:48] Yeah.
+[57:49] Prince is one of them.
+[57:50] You know, Ayman, his wife is a dental.
+[57:52] Oh, really?
+[57:53] Yeah.
+[57:54] I know a few of them.
+[57:55] Okay.
+[57:56] Yeah.
+[57:57] I guess we just got our first influencers and our first guest at DreamCon, the user's conference.
+[58:00] You got the copywriter, a bug in you.
+[58:02] What's your killer like your kill shot with your marketing meaning, you know, the average
+[58:07] practice is leaving X dollars on the table.
+[58:10] Daydream captures 90% of that or whatever.
+[58:12] What's your version of that?
+[58:13] Like a one liner that immediately makes me realize how much money I'm missing out on
+[58:18] if I'm not doing, not using you guys.
+[58:20] We can improve your collections by 5% and decrease your median time to payment to 10 days.
+[58:26] That feels clunky when I say.
+[58:27] Yeah.
+[58:28] So what does that mean in terms of like, I'm a dentist.
+[58:29] I don't think about my median time collection.
+[58:31] I think about like how much money I made.
+[58:33] If the average practice makes, let's just use a million dollars a year and you're saying
+[58:37] you increase their claims by 5% so you'd be adding $50,000 to their practice straight
+[58:43] to the bottom line.
+[58:44] Yeah.
+[58:45] $50,000 more in your pocket and all your money in 10 days.
+[58:48] We fight the insurance companies and on average, we add $50,000.
+[58:53] Take home pay for every single dentist that uses us right or like on average or whatever
+[58:58] the claim is.
+[58:59] Yeah.
+[59:00] Like, try to get down to like a one liner that's just like a marketing kill shot.
+[59:05] It's like, if this is true, okay, I'm interested, right?
+[59:08] And it's just got to be that juicy for them that if this is true.
+[59:12] We used to have one that I like, it was like, oh, like your Ferrari is waiting or something
+[59:15] like that.
+[59:16] Because that's how much you can buy.
+[59:17] Like, for some of these practices, we were covering enough money to like pay for a car.
+[59:20] Right.
+[59:21] We just got to like, sorry.
+[59:22] This is like very helpful.
+[59:23] I should be writing this stuff down.
+[59:24] Well, it'll be recorded.
+[59:25] Thank you so much.
+[59:26] You're the man.
+[59:27] Yeah, sure.
+[59:28] Come on.
+[59:29] Great to meet you.
+[59:30] Great to meet you.
+[59:31] That's awesome.
+[59:32] All right.
+[59:33] That's the end of part one of Shoot Your Shot.
+[59:35] We got three more founders coming up on the next episode.
+[59:37] Make sure you're subscribed on YouTube on Spotify.
+[59:40] We looked at the data.
+[59:41] I think 80, 90% of you guys are not subscribed who watched the episodes.
+[59:44] What are you doing?
+[59:45] Subscribe so you can watch episode two and do me a favor.
+[59:48] Whether you're a listener, then you're going to go to Spotify or if you're a watcher,
+[59:51] go to YouTube, put it in the comments, the city that you want us to go to next.
+[59:55] Right now we're doing this in San Francisco.
+[59:56] We've already done New York.
+[59:57] We'll go somewhere next to do it.
+[59:58] Just know in the comments right now.
+[59:59] I feel like I can rule the world.
+[60:01] I know I could be what I want to put my all in it like no days off on a road.
+[60:08] Let's travel.
+[60:09] Never looking back.
+[60:10] All right.
+[60:11] Let's take a quick break.
+[60:12] I want to tell you about marketing school.
+[60:13] It is a podcast that's part of the HubSpot Podcast Network and it is run by Neil Patel and Eric
+[60:17] Sue.
+[60:18] And these guys are both marketers who are running businesses.
+[60:21] And so if you want real world tactics from practitioners who are actually out there in
+[60:24] the field doing it, this is the podcast for you.
+[60:26] Check it out wherever you get your podcast.

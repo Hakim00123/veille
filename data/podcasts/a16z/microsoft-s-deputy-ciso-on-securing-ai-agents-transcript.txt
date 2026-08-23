@@ -1,0 +1,655 @@
+The a16z Show
+Microsoft's Deputy CISO on Securing AI Agents
+Fri, 21 Aug 2026
+https://a16z.simplecast.com/episodes/how-microsoft-is-securing-the-agentic-enterprise-aaron-zollman-j7eOe8NH
+
+[00:00] The top story has been that the AI models are happy.
+[00:03] The models went out under the internet
+[00:05] and tested the security of several organizations.
+[00:08] Is it something to be scared of?
+[00:10] Yes.
+[00:11] Is it something to throw up your hands and worry about?
+[00:14] No.
+[00:15] You've done all of these things before.
+[00:16] We have created containerization and batteries.
+[00:19] We have secured applications with vulnerabilities.
+[00:24] The qualities of these agents, they're unpredictable.
+[00:27] They're irrational.
+[00:28] They're prone to lashing out.
+[00:30] And as you go through this list, you arrive at the point
+[00:32] where you're like, Jesus, these sound like interns.
+[00:33] If you just start with, oh, well, it's just going to run as
+[00:37] media, that's going to end poorly.
+[00:38] Yes, you're going back to first principles,
+[00:40] but you also have to go even a little deeper
+[00:42] and start to redefine what does containerization
+[00:45] then mean for you?
+[00:46] The issue was never that the CISO didn't know it was broken.
+[00:49] The issue and the difficult part of being a CISO
+[00:51] was knowing what to fix.
+[00:53] Because you had a finite resource, which was a programmer.
+[00:56] And now that seems that the math is gone.
+[00:58] We were only three weeks out from NASA supply chain.
+[01:01] But wait, what's the massive supply chain?
+[01:02] Oh, man.
+[01:04] When Open Claw first appeared inside Microsoft,
+[01:07] the security team's reaction was familiar.
+[01:10] How do we ban this?
+[01:11] The next question turned out to be much more important.
+[01:14] How do we make it work?
+[01:16] In this episode from Black Hat, A16Z's Joel De La Garza
+[01:20] sits down with Microsoft gaming deputy CISO Aaron Zulman
+[01:23] to talk about securing AI agents that can access data,
+[01:27] use tools, write code, and act on behalf of employees.
+[01:31] They discuss why agents need their own identities,
+[01:34] what air gap means when a model can find unexpected paths
+[01:37] to the internet,
+[01:38] and why securing this new generation of software
+[01:41] requires both new controls
+[01:43] and some very old security fundamentals.
+[01:46] They also explore a bigger shift
+[01:47] happening inside security teams.
+[01:49] As AI becomes impossible for companies to ignore,
+[01:52] the CISO's job is increasingly not just to prevent risk,
+[01:56] but to figure out how to safely say yes.
+[02:01] So today we've got Aaron Zulman from Microsoft,
+[02:03] the deputy CISO over there responsible
+[02:05] for a whole lot of different things.
+[02:07] And you've been at the forefront, like everyone,
+[02:09] I guess at this point, dealing with AI,
+[02:11] AI roll out into an environment.
+[02:13] And you're probably at a company that's leaning
+[02:16] in a lot more to AI than probably most companies
+[02:18] and everybody's leaning in significantly.
+[02:20] So thank you so much for joining.
+[02:22] We'd love to talk like the last couple weeks,
+[02:26] it's funny, it's like weeks have become like dog years, right?
+[02:28] It's like every week is seven weeks in old world.
+[02:32] The last couple weeks have been very focused on
+[02:35] the top story has been that the AI models are hacking.
+[02:38] And we saw there was a disclosure from OpenAI
+[02:41] that they were doing a red team,
+[02:43] well, actually it turns out now just 15 minutes ago,
+[02:46] there was another disclosure
+[02:47] that these of all essentially happened
+[02:49] because there was a red team exercise
+[02:51] where someone was testing the models, right?
+[02:53] So they were saying,
+[02:55] hey model, you're in this closed environment,
+[02:58] we need you to go test the security of this organization.
+[03:01] And it turned out that the environment wasn't closed.
+[03:04] And so the models went out under the internet
+[03:07] and tested the security of several organizations.
+[03:10] And so I guess to people who haven't been working
+[03:12] with this stuff, it sounds very shocking.
+[03:14] I think Ben Horowitz at RSA this year
+[03:17] gave a really great talk on some work
+[03:19] we had done internally at A16Z
+[03:21] where we were using OpenAI.
+[03:23] And we found that with OpenAI,
+[03:25] the guard rails, at least for Opus 4.6, kind of disappeared.
+[03:29] And so you'd be,
+[03:31] I think a number of us got really obsessed
+[03:33] with impossible tasks, right?
+[03:35] And so like, hey, OpenAI,
+[03:36] I want you to do this thing for me,
+[03:37] but there's no clear, legitimate path to do it, right?
+[03:40] So it's like basically saying,
+[03:42] hey, Mike, I want you to go get me a diamond ring,
+[03:45] but Mike has no credit card, no money,
+[03:47] no ability to raise money.
+[03:49] And so what's Mike gonna do if he has no more?
+[03:51] He's just gonna go rob.
+[03:52] And so we noticed that these models
+[03:53] would essentially basically do anything
+[03:56] to achieve their objective.
+[03:57] And so we'd say things like,
+[03:59] hey, could you add a super user to this database?
+[04:02] Starting from zero.
+[04:03] And what did it do?
+[04:04] It found a SQL injection exploit.
+[04:07] It took over the SQL database
+[04:08] and it added an admin user.
+[04:10] And so it seems like this is coming more into focus now.
+[04:13] And I know you've been very active in OpenAI,
+[04:15] which I think two months ago
+[04:17] was the number one thing everyone was afraid of.
+[04:19] And now, and no one talks about it.
+[04:21] Maybe six months ago.
+[04:22] And now it seems like everyone's using it.
+[04:24] Would love to hear maybe your experiences with that
+[04:26] and kind of how you thought through that problem.
+[04:28] Cause it's a very similar problem.
+[04:29] I mean, I think we were terrified of it at first, right?
+[04:31] As everyone was, this thing explodes.
+[04:33] Everyone wants to install it overnight.
+[04:36] And it has no guardrails.
+[04:38] It has no guardrails and worse than that.
+[04:40] You know, they've had fully open, remote,
+[04:43] pull whatever down from the internet supply chain pane.
+[04:46] And so our immediate reaction was how we ban this.
+[04:48] And then the immediate reaction after that was,
+[04:50] well, wait, everyone wants to do this.
+[04:52] How do we find a way to make this work, right?
+[04:55] And then the product people saw and said,
+[04:56] actually, there's a really great product here.
+[04:58] Yeah, I mean, absolutely, right?
+[05:01] There's a really great product here.
+[05:02] There's the foundations and the community
+[05:04] and the kind of things that if we can show
+[05:07] that we can run it safely,
+[05:09] then it's going to be really powerful for people.
+[05:11] And so it was a, this big multi-month,
+[05:13] multi-disciplinary effort that kind of kicked off.
+[05:17] And to preview the ending a little bit of it,
+[05:19] Peter Steinberg, the founder of Open Claw,
+[05:20] is on stage at Microsoft Build with us a few months later
+[05:23] talking about how we're bringing security to the process.
+[05:27] And so is it something to be scared of?
+[05:29] Yes.
+[05:30] Is it something to throw up your hands and worry about?
+[05:33] No, right?
+[05:34] We've done all of these things before.
+[05:36] We have created containerization and factories.
+[05:39] We have secured applications with vulnerabilities.
+[05:43] We have created corporate environments
+[05:46] that carry taint and data protection
+[05:49] through a number of different applications
+[05:51] that people want and that maybe we as security people
+[05:54] wish they didn't.
+[05:55] It's just that we have to do all of those things together
+[05:57] and a lot faster.
+[05:59] And so, yeah, I mean, I think it's been a really good story
+[06:02] of thinking about all of those pieces in isolation.
+[06:05] It's really interesting, if you step up one level
+[06:08] and you think through kind of more abstractly
+[06:12] the way that these things behave,
+[06:14] I guess generally people would refer them as agents,
+[06:16] but it's like a harness and a model and whatever.
+[06:18] Like tomato to model, potato, whatever.
+[06:20] It's really interesting because as you work
+[06:22] through the threat model, as you think about kind of like,
+[06:25] how do we secure these things and protect these things,
+[06:27] you start to articulate the qualities of these agents.
+[06:31] And you're sort of like, well, they're unpredictable,
+[06:33] they're irrational.
+[06:34] They're prone to lashing out if they don't get their way.
+[06:37] And as you go through this list,
+[06:38] you arrive at the point where you're like,
+[06:39] Jesus, these sound like interns.
+[06:41] These sound like interns, maybe after they drank
+[06:45] a little bit too much the night before
+[06:47] and they come into the office.
+[06:48] And it's funny internally as a team we've been joking about,
+[06:51] I think we actually have a lot of great tools
+[06:53] for managing the risks of things going
+[06:56] irrationally inside of a company
+[06:58] because we work with humans, right?
+[07:00] And so I'm curious, it sounds to me,
+[07:02] like the more that I double click on this,
+[07:03] it doesn't sound like magic.
+[07:05] It just sounds like you're going back to first principles
+[07:07] and basic blocking and tackling.
+[07:09] Well, it's more than that, right?
+[07:11] There is some special stuff you have to do
+[07:13] because I think what makes these tools so powerful, right?
+[07:16] The story is when Microsoft Scout,
+[07:18] which was sort of our like open thought for the enterprise
+[07:20] was initially released to internal use,
+[07:23] the adoption curve was like phenomenal, right?
+[07:25] It was really fun, really validating as a security person
+[07:28] and I'm not even on the public, right?
+[07:30] And that's because everyone wants to use it
+[07:33] and they all want to use it to connect everything.
+[07:36] And so I think when you bring in an intern,
+[07:40] your perspective as well,
+[07:41] I'm going to give them like two or three things
+[07:42] they need to do their job.
+[07:44] But to make open-claws,
+[07:47] Scouties aren't as effective,
+[07:48] you want to give them everything.
+[07:49] And so I do think, yes, you're going back to first principles,
+[07:51] but you also have to go even a little deeper
+[07:54] and start to redefine like,
+[07:56] what does containerization even mean for you?
+[07:59] What does air gap mean?
+[08:00] What does air gap mean?
+[08:01] What is an identity?
+[08:03] Because if you just start with,
+[08:07] oh, well, it's just going to run as me,
+[08:08] it's going to take my token directly from my browser cache
+[08:13] and do whatever it wants to do with that token,
+[08:15] that's going to end poorly.
+[08:17] But if I can give it its own identity,
+[08:21] if I can describe the balance of the container,
+[08:24] if I can tie the actions of the agent or the harness
+[08:28] or the model or the session,
+[08:29] actually quite hard to figure out what you want to tie to,
+[08:31] but put that aside for a moment.
+[08:33] If you can tie that to a particular set of logs,
+[08:36] set of things, then you can get to the place
+[08:38] where you are just doing your basic blocking and tackling,
+[08:41] where you're thinking about, okay,
+[08:43] what is the opportunity for an adversary to do this,
+[08:45] even if that adversary is the model?
+[08:47] How can I monitor it?
+[08:49] How can I respond to it?
+[08:50] How can I contain it?
+[08:51] How can I reason it out?
+[08:52] Potential breach paths and?
+[08:54] Absolutely burned down.
+[08:55] Well, and it's funny too, because if you think about it,
+[08:57] I think, and I am not operating anymore, thank God,
+[09:00] but I think if I think through it with my operators at on,
+[09:03] I think that it's a weird,
+[09:06] just with our basic playing around with Opus 4.6,
+[09:10] in an environment that we thought was,
+[09:11] it was a cloud container,
+[09:13] so it had a policy of no internet access,
+[09:15] but it still figured out how to get a tunnel out to CloudFlare,
+[09:20] how to get around our controls,
+[09:21] and then it started tunneling stuff through DNS.
+[09:23] It really reminds me of a long time ago
+[09:26] when I was building more high-secure environments,
+[09:29] you would always have to go through the list threat model,
+[09:31] which was like, there's all these things an attacker could do,
+[09:34] and you would always be like,
+[09:35] oh, there's 20 things here, and realistically,
+[09:38] attackers only have the patience for maybe these five,
+[09:41] because we've seen them in the wild,
+[09:42] and all this other stuff could be done,
+[09:44] but we've never really seen it,
+[09:46] and it just seems like these models are really good
+[09:48] about going after the stuff that could be done, right?
+[09:50] And so the list of five now became the list of 20,
+[09:53] and you kind of have to fix everything.
+[09:54] To be fair, they often try the things that are obvious first,
+[09:58] which does give you an opportunity.
+[10:00] Like interns, they're not gonna do the hard thing,
+[10:03] if the easy thing will suffice in those cases.
+[10:05] Don't pick the lock if the window's open, right?
+[10:07] Yeah.
+[10:08] And so the advantage of that is,
+[10:11] if you have good monitoring, good logging,
+[10:13] good containerization, you will probably have the opportunity
+[10:16] to respond, contain before things go horribly arrived.
+[10:20] But you're absolutely right.
+[10:22] There are a lot of open doors,
+[10:23] and we do have to go back and think about like, what are they?
+[10:26] So it's...
+[10:28] We risk accepted a lot of stuff.
+[10:29] We risk accepted over the last couple of years.
+[10:31] Or it was just a P2, you know?
+[10:32] Yeah, yeah, yeah.
+[10:33] I'm burning through my P1s, it's great speed thanks to AI,
+[10:37] but those P2s, man.
+[10:39] No, but, you know, but it,
+[10:42] I think it's the need to be on pop-a-thing, right?
+[10:45] So this is what it's Tuesday now, I think.
+[10:47] I think Vegas timed up.
+[10:48] Vegas time, yeah, it doesn't count.
+[10:50] But...
+[10:51] It could be Sunday, I have no idea.
+[10:51] Yesterday was Monday, I think.
+[10:54] There's no clocks in this town.
+[10:55] Famous observation about Vegas, and it's the same,
+[10:57] it's the same, and it's 120 every day.
+[11:00] Full sunlight, and it's 105 after dark.
+[11:03] Yeah.
+[11:04] No, but so besides yesterday,
+[11:07] a talk by Leo Meyer, a bunch of graphistry,
+[11:11] that he had submitted through the unprompted CFP
+[11:13] months ago before any of this had happened.
+[11:16] The premise of which was everyone's cheating
+[11:18] on their evals, here's how and here's how I know.
+[11:21] And it was incredibly prescient,
+[11:23] because he basically kind of talked
+[11:24] through how this would happen,
+[11:26] really pointing through that like,
+[11:28] to be clear, you can think you're gonna air gap this,
+[11:30] yeah, first thing you do when you air gap it is open up,
+[11:32] DNS and networking points of the model.
+[11:35] Well, the model has those web tools, so,
+[11:38] are you really air gap anymore?
+[11:39] So, but even then, I mean, the models,
+[11:40] I mean, a lot of the people, a lot of the lab,
+[11:42] I mean, there's a lot of overfitting going on for...
+[11:45] For knocking emails out, right?
+[11:47] Oh, yes, there's...
+[11:49] People are teaching the test,
+[11:50] I think I would be the idiot to,
+[11:52] they're teaching the test, they're the flags
+[11:55] for some of these are in model releases
+[11:57] without any tools. Totally.
+[11:58] So, yeah, so there's a lot of ways to improve it.
+[12:01] But, you know, as a security person,
+[12:03] that doesn't bother me a little bit,
+[12:04] I always assume everyone's shooting.
+[12:06] It does bother me when they're, you know,
+[12:08] when I need to think about, you know, new endpoints.
+[12:10] And so, you know, I think there's the traditional axes
+[12:15] that we try and think about,
+[12:16] and we knew right, you know,
+[12:18] it's all of our, all of Microsoft's SFI pillars, right?
+[12:20] Like, let's start with identities,
+[12:21] then we'll do networks and then we'll do engineering systems
+[12:23] and software and so on and so forth.
+[12:26] And you'll rate the controls and you'll rate the endpoints.
+[12:29] And then you kind of go back and you think,
+[12:32] well, what are the control points that I wish existed
+[12:34] in this harness model ecosystem
+[12:37] that may or may not exist today, right?
+[12:39] It's, yes, I've got various forms of containerization.
+[12:42] Maybe I need to give these things their own identities.
+[12:46] It's probably good idea.
+[12:47] Yeah.
+[12:48] But now, you know, how am I gonna use hooks?
+[12:50] How am I gonna use traces?
+[12:51] How am I gonna use some of these new technologies
+[12:54] to improve the security of it?
+[12:56] And, you know, even then people will not use the harness
+[13:00] you give them, they'll use the harness they want.
+[13:02] Yeah.
+[13:03] But, so usually the job they get their job done,
+[13:05] not to be secure, right?
+[13:07] And so the more you think in terms of those layers,
+[13:11] the more opportunities you have,
+[13:12] absolutely to see the paths and break them.
+[13:16] You know, it was interesting.
+[13:17] I was talking to another, another, another CISO earlier today.
+[13:21] And kind of what he was telling me was that,
+[13:25] you know, everyone was afraid for vulnerable apocalypse, right?
+[13:27] The mythos hype was basically,
+[13:29] oh, we're doomed, everybody's got vulnerabilities.
+[13:33] I think if you've worked in this space long enough,
+[13:35] you know that there's just a whole lot of things
+[13:37] buried in the desert, sure.
+[13:39] And it's just not, it's like it's an open secret
+[13:41] in our industry, right?
+[13:43] And so I think I was talking to a CISO that was saying,
+[13:45] you know, actually what we found with these models
+[13:48] now that they're testing them,
+[13:50] is that while they can discover things more rapidly,
+[13:53] they can patch them just as rapidly.
+[13:55] And like, so the old, I mean, the old days,
+[13:57] like last week, in the old days,
+[14:00] you had to get a developer to write the patch, right?
+[14:02] And that was always the gating factor.
+[14:03] It wasn't, the issue was never that the CISO
+[14:06] didn't know it was broken.
+[14:07] The issue and the difficult part of being a CISO
+[14:09] was knowing what to fix.
+[14:11] Because you had a finite resource, which was a programmer,
+[14:15] and you had to deploy them only to your,
+[14:16] sub-ones or your P-ones.
+[14:18] And now that seems that the math is gone.
+[14:21] And so like, everything gets patched.
+[14:23] And it does feel like maybe we're on the verge
+[14:27] of having secure software for once.
+[14:30] I'm very hesitant, but I hope you're right.
+[14:32] You know, one thing that I'm confident
+[14:35] of these things have made much easier
+[14:37] is the diagnosis and analysis of the problem.
+[14:41] And yeah, they're usually pretty good at creating a patch.
+[14:44] And, you know, probably 80% of the time it's good.
+[14:46] And 90% of the time it doesn't create another security bug.
+[14:48] Yeah.
+[14:50] Which is not a perfect record, but, you know.
+[14:52] There's still a lot of testing that has to go on
+[14:54] before you deploy these things on.
+[14:55] And so, yeah, but it does, I think, make it more tenable.
+[15:00] And, you know, when you stare down a list of,
+[15:03] well, anything more than 20 is an impossible number, right?
+[15:07] Bugs to go after, it does make it a little bit easier.
+[15:09] But we're not very yet.
+[15:11] I will say that, you know, again,
+[15:13] thinking through this lens of how do you take something
+[15:15] like open cloth and get comfortable with it?
+[15:19] You do still have, you do have to put in the effort
+[15:21] to continuously scan it,
+[15:24] containerize it, have someone on the hook to patch it.
+[15:28] Yeah.
+[15:29] You can't say, well, the models will fix it
+[15:31] because someone still needs to be accountable
+[15:33] for validating and deploying, which is not,
+[15:37] they think the models are necessarily gonna do for you.
+[15:40] Well, and I think that speaks to kind of the way
+[15:44] the CISO role has changed, right?
+[15:45] Like, I think the, I remember at the beginning
+[15:49] in my career, there was a relatively well-known CISO
+[15:52] who would joke that he could say no in 80 languages.
+[15:55] And it was sort of like my superpowers saying no,
+[15:57] even when, you know, everyone's telling me to say yes.
+[15:59] And it was the CISO, I mean, and oftentimes, like in defense,
+[16:03] like, people wanna do really bad things.
+[16:05] And it was sort of like, yeah,
+[16:06] that's probably gonna blow up the bank, right?
+[16:09] And like you fast forward to now,
+[16:11] and it seems like the CISO is becoming an enabler.
+[16:13] Like every company I talk to outside of financial services
+[16:18] because they're regulated and they do their own thing
+[16:20] and maybe defense industrial.
+[16:22] But every company I talk to,
+[16:23] the CISO is very much involved in all these technologies.
+[16:26] Like it's like yourself working with Open Claw,
+[16:28] like at every forward-leaning organization,
+[16:31] it seems like the CISO is there.
+[16:32] And it feels like maybe the CISO switching
+[16:35] to technology enabler, I don't know.
+[16:37] I mean, I hope it's true.
+[16:39] I don't know that it's universal,
+[16:41] but I've always considered the nature of my job
+[16:44] to really be three things, right?
+[16:48] People who think of themselves as compliance people,
+[16:50] like, yeah, I'm a compliance person,
+[16:51] but my job in compliance is making the systems legible
+[16:54] to everyone, whether they're a regulator
+[16:56] or whether they're an internal auditor, partners
+[17:00] who wanna buy our software, like it's about legibility.
+[17:03] Yes, there's the traditional CISO job
+[17:06] of like figuring out the risks,
+[17:07] prioritizing them, getting them burned down,
+[17:10] still gotta do that, that's not done.
+[17:12] Yeah.
+[17:13] I haven't figured it out yet,
+[17:15] but the part of the job that I think
+[17:17] is is increasingly important,
+[17:18] is that an AWS piece, how do we, you know,
+[17:21] how do we make it possible for people to do the hard things?
+[17:25] And sometimes those hard things
+[17:27] are connect all of my email and my calendar
+[17:30] and automatically write responses on my behalf.
+[17:33] Then if that's what people want,
+[17:36] we will find ways to make it safer.
+[17:38] Absolutely.
+[17:40] Well, it's interesting too,
+[17:42] because I think it speaks to sort of the,
+[17:45] there was always this dialogue among CISOs about,
+[17:50] are we security or are we risk management?
+[17:52] And it seems like you're risk management
+[17:55] because I think if you're working in a,
+[17:58] especially if you're working in a tech company
+[18:00] and you're not leaning into the new tech thing,
+[18:03] like that's probably an existential risk for your business,
+[18:06] more so than like if you're email's leak, right?
+[18:08] Like on the scale of like business annihilating things,
+[18:11] like, you know, Microsoft having,
+[18:13] if Microsoft did miss cloud,
+[18:15] that would have been very bad for Microsoft.
+[18:16] Luckily, so I could did a great job writing that wave.
+[18:21] And it's the same very much it seems like for this,
+[18:23] which is where like we can't really hide from this
+[18:25] and we kind of have to lean into it.
+[18:27] Yeah.
+[18:27] I would completely agree.
+[18:28] We have to lean into it.
+[18:29] We have to find ways to do it well.
+[18:32] You know, you say the existential risk
+[18:34] isn't necessarily getting all over emails leaked.
+[18:38] I would recommend against having that happen.
+[18:40] So any pictures is still in business though.
+[18:43] That's the go to, right?
+[18:44] That's true.
+[18:45] I would prefer that my email is not leak yes, man.
+[18:48] And so security definitely still has a role.
+[18:50] We should still be highlighting what is particularly important
+[18:53] and what are the most important things for the business,
+[18:57] but also we should recognize that our job is to protect
+[19:00] those things was that's enabled the business
+[19:02] and the most important assets,
+[19:03] and those are more problems in the game.
+[19:05] There's this long tale of, you know,
+[19:07] randos and slacks, you know.
+[19:12] Yeah, you know, you got to let it be for now.
+[19:17] Yeah, don't don't don't feed the trolls as it were the.
+[19:21] This is interesting.
+[19:22] I mean, I know not your first black hat,
+[19:26] would love to hear maybe your thoughts
+[19:28] on kind of what you're seeing out there.
+[19:30] Like what's like, you know, coming from the Bay Area,
+[19:36] working around all the AI stuff and just being exposed,
+[19:39] I'd say like at the front lines of like this change.
+[19:42] I mean, there are days where I feel like a factory worker
+[19:46] in like 18th century London, like,
+[19:48] and you see the smoke stacks coming up and you're like,
+[19:50] oh my God, this is like literally
+[19:52] the next industrial revolution.
+[19:54] And would just love to get you like,
+[19:55] are you seeing that come across here at Black Hat?
+[19:58] Or like, what is the vibe like?
+[20:00] That's the vibe for sure, right?
+[20:03] Everyone's talking about, you know,
+[20:05] how AI is helping the business,
+[20:06] how AI is making a tax go faster,
+[20:10] how we can use AI for defense,
+[20:12] how to secure our environment,
+[20:14] where in the use of AI.
+[20:16] And so the vibe is super AI.
+[20:18] I try not to judge Black Hat,
+[20:20] the Black Hat vibe as indicative
+[20:23] of the most important things.
+[20:25] Like it's the.
+[20:28] It's like Kabuki Theater.
+[20:30] It's a shadow and you're seeing kind of the shadow
+[20:33] of what's happening,
+[20:34] but usually you can ascertain what the puppet looks like.
+[20:36] And we're only, I was going to say,
+[20:37] we're only three weeks out from NASA supply chain pain,
+[20:40] but you know, three hours as we record this.
+[20:45] So, wait, what's the massive supply chain pain?
+[20:47] Oh man, I forget the name of it.
+[20:49] There was a, oh, the NTR,
+[20:51] there was an MPM organization takeover tonight.
+[20:54] Yeah, yeah, yeah.
+[20:55] But DEFCON is coming up,
+[20:56] so someone needs something to talk about.
+[20:58] Or get arrested for.
+[20:59] Sure.
+[21:00] You know, without going down that round the fold, right?
+[21:04] Like I think it's enough to say
+[21:06] that the old problems are still here
+[21:08] and the people who were nose to the grindstone
+[21:10] getting the work done.
+[21:12] If there's any vibe for those people,
+[21:13] it's that like they're actually still really excited.
+[21:16] Like it doesn't feel like a slog.
+[21:17] Yeah, yeah, yeah.
+[21:18] It feels like, oh yeah, like we got some,
+[21:21] we got some mini stuff to chew on now.
+[21:22] Well, this isn't the first year
+[21:24] that AI has been a headline for Black Hat.
+[21:25] Like it feels like AI has been the headline
+[21:27] for Black Hat for at least a decade.
+[21:30] This year, people feel genuinely excited about it.
+[21:33] Last year, AI was the thing you put in your vendor pitch.
+[21:37] Yeah, yeah, yeah, yeah, yeah, yeah, yeah.
+[21:39] Sorry.
+[21:40] That's fine.
+[21:41] Yeah.
+[21:42] You're 67 co-pilot?
+[21:43] Yeah.
+[21:44] That's all unifying in one day.
+[21:46] Your chat, your chat inner face.
+[21:49] But this year, and really,
+[21:51] it's because of Opus and Glau, right?
+[21:53] Everyone's like, oh no, I can do all of the things.
+[21:55] Four, six was a sea change.
+[21:56] It really, really was just, it was just like,
+[21:58] and it took people somewhere between seven days
+[22:02] and 30 days to pick it up.
+[22:04] And now, you know, now who's written a line of code by hand.
+[22:09] And we, yeah, I remember coming back,
+[22:12] because it came out over the, like, round Christmas.
+[22:15] And so I remember catching up with someone after Christmas
+[22:17] and they were just like, had lost their identity.
+[22:20] They were like, my whole identity is based on me
+[22:21] being like an amazing developer.
+[22:24] And like, they've literally just kind of not matched
+[22:27] my skills, but like, pretty close.
+[22:29] And I don't think I'm writing a line of code
+[22:31] ever again, manually in my life.
+[22:32] But I mean, it's like, it's a pretty big shift, right?
+[22:35] Yeah, but I like to think that we're good security people
+[22:38] and we're good problem solvers,
+[22:39] and we're just changes the shape.
+[22:40] Oh, computer engineering is even more important now.
+[22:42] It just changes the shape of health.
+[22:44] Yeah, totally.
+[22:44] Cause like, you know, like, let's be honest, right?
+[22:48] I've been a manager for too long myself.
+[22:51] Still an operator.
+[22:51] Yeah, yeah, yeah.
+[22:52] You're welcome back.
+[22:54] But, but I wasn't writing a lot of code.
+[22:57] Yeah, I'm still finding a ton of value in, you know,
+[23:02] having the models pressure test my thinking
+[23:04] pretend to be my boss.
+[23:05] Yeah.
+[23:08] Right slides for me, which I'm grateful not to have to do
+[23:11] anymore.
+[23:13] And so I, you know, that's why the excitement is here.
+[23:16] It's like, it's taking all the parts of my job
+[23:18] that I don't like.
+[23:20] Some of the parts of my job that I do like,
+[23:21] it's accelerating them.
+[23:22] And it does feel like it's making us more powerful.
+[23:26] And if we can do that and, you know,
+[23:30] enable people to, to, to, God damn it,
+[23:34] I apologize.
+[23:35] I'm going to say that vision statement.
+[23:38] But, you know, enable people to achieve more.
+[23:40] Then you've really done something cool and send,
+[23:43] and I think we're, we're, I don't know
+[23:46] how the journey is going to end.
+[23:47] But I think we're, we're, we're well and truly on it.
+[23:49] And get to listen to the second industrial revolution.
+[23:51] Yeah.
+[23:53] Well, thank you so much for coming by the chat.
+[23:55] Hopefully see you at next year's Black Hat in the desert
+[23:59] and may it hopefully be at least 20 degrees cooler.
+[24:01] Yes.
+[24:03] Yes.
+[24:03] Fingers crossed.
+[24:04] I wouldn't, wouldn't bet on it.
+[24:06] That's a distinct possibility.
+[24:07] Thank you.
+[24:08] Awesome.
+[24:09] Thanks, guys.
+[24:12] Thanks for listening to this episode of the A16Z podcast.
+[24:15] If you liked this episode, be sure to like, comment,
+[24:18] subscribe, leave us a rating or review,
+[24:20] and share it with your friends and family.
+[24:22] For more episodes, go to YouTube, Apple Podcast, and Spotify.
+[24:27] Follow us on X, A16Z, and subscribe to our substack
+[24:30] at a16z.substack.com.
+[24:33] Thanks again for listening, and I'll see you in the next episode.
+[24:37] As a reminder, the content here is for informational purposes only.
+[24:40] Should not be taken as legal business, tax, or investment advice,
+[24:43] or be used to evaluate any investment or security
+[24:46] and is not directed at any investors or potential investors
+[24:49] in any A16Z fund.
+[24:51] Please note that A16Z and its affiliates
+[24:53] may also maintain investments in the companies discussed
+[24:55] in this podcast.
+[24:56] For more details, including a link to our investments,
+[24:59] please see a16z.com forward slash disclosures.

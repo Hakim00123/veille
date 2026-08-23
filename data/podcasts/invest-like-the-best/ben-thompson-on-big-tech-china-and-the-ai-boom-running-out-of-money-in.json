@@ -1,0 +1,68 @@
+{
+ "podcast": "Invest Like the Best",
+ "slug": "invest-like-the-best",
+ "titre": "Ben Thompson on Big Tech, China, and the AI Boom Running Out of Money - [Invest Like the Best, EP.487]",
+ "date": "Tue, 18 Aug 2026",
+ "date_iso": "2026-08-18",
+ "lien": "https://colossus.com/episode/winners-losers-ai-era/",
+ "duree": "4576",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 7.6,
+ "taille_transcript": 91364,
+ "transcript": "ben-thompson-on-big-tech-china-and-the-ai-boom-running-out-of-money-in-transcript.txt",
+ "nb_outils": 7,
+ "outils": {
+  "AWS": [
+   "ir business? The answer is always Amazon. The reason Amazon is so compelling is the extent to which they build for them. They are their first best customer. They provide the scale to get basically anything off the ground, which they then sell to other people. AWS is the most obvious example. AWS contrary to sort of popular thought was not spare Amazon capacity. Actually, it took a long time to get Amazon.com onto AWS. What it drove was the understanding that we can't be having so many meetings. Like we need to have ju",
+   " Amazon. The reason Amazon is so compelling is the extent to which they build for them. They are their first best customer. They provide the scale to get basically anything off the ground, which they then sell to other people. AWS is the most obvious example. AWS contrary to sort of popular thought was not spare Amazon capacity. Actually, it took a long time to get Amazon.com onto AWS. What it drove was the understanding that we can't be having so many meetings. Like we need to have just compute that you can plug in p",
+   "They provide the scale to get basically anything off the ground, which they then sell to other people. AWS is the most obvious example. AWS contrary to sort of popular thought was not spare Amazon capacity. Actually, it took a long time to get Amazon.com onto AWS. What it drove was the understanding that we can't be having so many meetings. Like we need to have just compute that you can plug in purely API surface. You don't need to talk to anyone. It's just there. And oh, by the way, if we do that for our internal ret"
+  ],
+  "Bubble": [
+   "s been replicated or West Texas and natural gas, but even like restarting nuclear plants. You have other US response to these things. That's awesome. It's actually one of the biggest encouraging signals about the US is I was writing early on. Assume this is a bubble. You want there to be a long-term payout. The .com we got fiber in the ground. And by the way, Google has played this game before. Google built its business by buying up dark fiber. They have the killer search engine, but so much of the power what they do is ",
+   "t was basically free after the .com era. Our core internet still runs on Worldcom fiber. That was a lasting benefit. The railroads BNSF is throwing off money that's going to Google from Northern Pacific and J Cook selling bonds to retail investors. You want a bubble that produces something that lasts. And very well, I was like, what's going to last from AI? The GPUs don't last that long data centers. Okay, fine. But what is it going to be power? It has to be power. If we're in a world where this all blows up and we have "
+  ],
+  "Cursor": [
+   "e play is so highly differentiated. If that plays out, I'm not sure to what extent they need to even have their own model. So why are you wasting billions and billions of dollars in the meantime? That's a fair question. From a tactical perspective, I love the cursor acquisition. That makes so much sense for both companies. And so I've been intrigued to see what they do. Meta is probably the most interesting. You've written a lot about this recently. I think there's a very good case to make that it is more reckless to not"
+  ],
+  "Gemini": [
+   "verything goes into making great AI. I generally prefer companies to do with their good app. So from my perspective, I'm fine with Apple not doing AI. I want them to keep making great devices. Of the five potential frontier AI winners, so OpenAI and Thoropik, Gemini, SpaceX, AI, Grok, and Meta, which of those firms do you think has the most interesting setup? OpenAI and Thoropik obviously are the riskiest, but also the biggest upside. Never discount number one, the power belief. They think they're creating God. The most "
+  ],
+  "Hugging Face": [
+   "ome point, these things presumably will level out, maybe not. What would be the thing you'd want to know that would give you a better sense of what the future might look like? I am concerned that with the scare around people freaking out about mythos and this hugging face incident, that the actual implication of that is not that we reduce these dangers, but we just stop releasing stuff. We on the outside start to lose any sense of like where it's actually the frontier and where it is. There becomes sort of a false sense of sec"
+  ],
+  "Oracle": [
+   " and do all those sorts of things. And does that mean you'll get the absolute best experience? No, middleware saws off the sharp edges. You sort of get a lowest common denominator capacity. But if you value in this, the oldest enterprise sales motion, how did Oracle go to market? Oracle went to market in the 1980s, Larry Allison, with another technology taken from IBM, or just IBM didn't want at relational databases. And they're like, you don't want to be locked into IBM. Relational database, you could run anywhere. Come",
+   "0s, Larry Allison, with another technology taken from IBM, or just IBM didn't want at relational databases. And they're like, you don't want to be locked into IBM. Relational database, you could run anywhere. Come with us. The reason this is a joke is because Oracle locks you in more than anyone, right? But all of enterprise sales is companies whose long term goal is to lock you in, giving you on board by trying to make you scared of being locked into somebody else. All the cloud companies are like, oh, portability, what"
+  ],
+  "Ramp": [
+   "tape and muck is also fairly unlimited. How much of our economy is actually we've managed to create more and more jobs that is just make busy and make slow to a certain extent. Vanta automates security and compliance for over 16,000 fast-moving companies like Ramp, Kersher and Harvey, keeping them audit-ready around the clock. It's the number one agentic trust platform and it now helps companies like yours watch for the risks that show up between audits across your vendors, your AI tools and your whole environment. Eve"
+  ]
+ },
+ "mentions_publicitaires": {
+  "Cursor": [
+   " RAMP is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us too, and so should yours. Learn more at ramp.com slash invest. OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To a",
+   " customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us too, and so should yours. Learn more at ramp.com slash invest. OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSL, SCIM, RBAC, and audit logs. Instead of spending months building these mission cri"
+  ],
+  "Excel": [
+   "t into finished, client ready work using your firm's own templates, context, and standards. Send Felix an email like, take these comments and turn them for me, or update my tracker with the context of these emails and Felix sends back Finish PowerPoint decks, Excel models, and sourced research. Felix works the way your team already does delivering work quickly and accurately around the clock. Learn more at rogo.ai slash Felix. Hello and welcome everyone. I'm Patrick O'Shaughnessy and this is Invest Like The Best. This s"
+  ],
+  "Notion": [
+   "nly platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us too, and so should yours. Learn more at ramp.com slash invest. OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterpris"
+  ],
+  "Perplexity": [
+   "enue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us too, and so should yours. Learn more at ramp.com slash invest. OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSL, SCIM, RBAC, and audit logs. Instead of spending months building these mission critical capabilities your",
+   "how at ramp.com slash invest. As your business grows, Vanta scales with you, automating compliance and giving you a single source of truth for security and risk. Learn more at Vanta.com slash invest. The best AI and software companies from OpenAI to cursor to perplexity. Use WorkOS to become enterprise ready overnight, not in months. Visit WorkOS.com to skip the unglamorous infrastructure work and focus on your product. Ridgeline is redefining asset management technology as a true partner, not just a software vendor. They've"
+  ],
+  "Shopify": [
+   "lt to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us too, and so should yours. Learn more at ramp.com slash invest. OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at sca"
+  ],
+  "Stripe": [
+   "is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us too, and so should yours. Learn more at ramp.com slash invest. OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve e"
+  ],
+  "Vercel": [
+   " RAMP is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us too, and so should yours. Learn more at ramp.com slash invest. OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use Work",
+   "aster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us too, and so should yours. Learn more at ramp.com slash invest. OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSL, SCIM, RBAC, and audit logs. Instead of spending months building these mission critical capabilities yourself, you ca"
+  ]
+ }
+}

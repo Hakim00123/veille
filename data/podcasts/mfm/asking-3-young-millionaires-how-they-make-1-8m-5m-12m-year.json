@@ -1,0 +1,35 @@
+{
+ "podcast": "My First Million",
+ "slug": "mfm",
+ "titre": "Asking 3 young millionaires how they make $1.8M, $5M, & $12M/year",
+ "date": "Wed, 19 Aug 2026",
+ "date_iso": "2026-08-19",
+ "lien": "",
+ "duree": "3481",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 6.4,
+ "taille_transcript": 77914,
+ "transcript": "asking-3-young-millionaires-how-they-make-1-8m-5m-12m-year-transcript.txt",
+ "nb_outils": 3,
+ "outils": {
+  "AWS": [
+   " our friends at HubSpot for sponsoring this podcast and putting together this free resource for you guys. Back to the show. How big is the average contract? It varies tremendously depending on whether you're dealing with, you know, a three megawatt unit at an AWS data center or a Frank and Shirley's generator in their backyard. For the, you know, data center units, you're probably talking 25,000 a year in service revenue. And is there ever churn? There is, but generally they kind of want accountability on the vendor. "
+  ],
+  "HubSpot": [
+   "ces are massive. The consequences are massive. How big is the average contract? Hey, I want to tell you about something pretty cool. We have a database of all of the business ideas that have been discussed on this podcast. So hundreds of episodes, the team at HubSpot went through. They pulled out all the simple, relatable, interesting, profitable ideas that we have brainstormed, and they're all available for download for free. Just click the link in the description below. Thank you to our friends at HubSpot for sponsoring",
+   "s, the team at HubSpot went through. They pulled out all the simple, relatable, interesting, profitable ideas that we have brainstormed, and they're all available for download for free. Just click the link in the description below. Thank you to our friends at HubSpot for sponsoring this podcast and putting together this free resource for you guys. Back to the show. How big is the average contract? It varies tremendously depending on whether you're dealing with, you know, a three megawatt unit at an AWS data center or a Fr",
+   " now we're doing this in San Francisco. We've already done New York. We'll go somewhere next to do it. So let us know in the comments right now. All right. Let's take a quick break. I want to tell you about marketing school. It is a podcast that's part of the HubSpot Podcast Network. And it is run by Neil Patel and Eric Su. And these guys are both marketers who are running businesses. And so if you want real world tactics from practitioners who are actually out there in the field doing it, this is the podcast for you. Che"
+  ],
+  "Mercury": [
+   " like very easy to make a joint account with my wife. Very easy to spin up virtual cards. One click and I get savings yield. It's just has all the stuff that I need in one place. So if you're looking for the best banking product on the market, it's definitely Mercury. I will fist fight anybody who disagrees with me on that. Go to Mercury.com slash personal and learn more. Mercury is a FinTech, not an FDIC insured bank. Banking services are provided through Choice Financial Group and column NA members FDIC. Bring them in. ",
+   "up virtual cards. One click and I get savings yield. It's just has all the stuff that I need in one place. So if you're looking for the best banking product on the market, it's definitely Mercury. I will fist fight anybody who disagrees with me on that. Go to Mercury.com slash personal and learn more. Mercury is a FinTech, not an FDIC insured bank. Banking services are provided through Choice Financial Group and column NA members FDIC. Bring them in. What's up? What's going on? Oh, good to meet you. Great meeting you. Wha"
+  ]
+ },
+ "mentions_publicitaires": {
+  "HubSpot": [
+   "k break. You know that feeling when strategy is done, the brief is written. Everyone's aligned and you realize someone still has to sit down and actually create all the content that someone is usually you and it's due tomorrow. Well, the breeze assistant from HubSpot can help. It works right inside HubSpot. You can draft a campaign copy, blog posts, emails, all in your brand voice, all using your actual customer data. So you don't create just content. You create content that converts. Check out HubSpot.com, the agent cust",
+   "tegy is done, the brief is written. Everyone's aligned and you realize someone still has to sit down and actually create all the content that someone is usually you and it's due tomorrow. Well, the breeze assistant from HubSpot can help. It works right inside HubSpot. You can draft a campaign copy, blog posts, emails, all in your brand voice, all using your actual customer data. So you don't create just content. You create content that converts. Check out HubSpot.com, the agent customer platform for growing businesses. We"
+  ]
+ }
+}

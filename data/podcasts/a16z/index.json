@@ -14,9 +14,33 @@
   "three-startups-reinventing-critical-infrastructure",
   "ben-horowitz-and-travis-kalanick-on-building-again",
   "the-two-ways-to-sell-ai-lighthouse-or-landgrab",
-  "garry-tan-on-taste-agents-and-founder-ambition"
+  "garry-tan-on-taste-agents-and-founder-ambition",
+  "martin-casado-on-where-the-value-is-going-in-ai",
+  "microsoft-s-deputy-ciso-on-securing-ai-agents",
+  "how-global-networks-are-reshaping-startup-success"
  ],
  "episodes": [
+  {
+   "fiche": "martin-casado-on-where-the-value-is-going-in-ai.json",
+   "titre": "Martin Casado on Where the Value Is Going in AI",
+   "date": "Sat, 22 Aug 2026",
+   "date_iso": "2026-08-22",
+   "nb_outils": 2
+  },
+  {
+   "fiche": "microsoft-s-deputy-ciso-on-securing-ai-agents.json",
+   "titre": "Microsoft's Deputy CISO on Securing AI Agents",
+   "date": "Fri, 21 Aug 2026",
+   "date_iso": "2026-08-21",
+   "nb_outils": 2
+  },
+  {
+   "fiche": "how-global-networks-are-reshaping-startup-success.json",
+   "titre": "How Global Networks Are Reshaping Startup Success",
+   "date": "Thu, 20 Aug 2026",
+   "date_iso": "2026-08-20",
+   "nb_outils": 4
+  },
   {
    "fiche": "ben-horowitz-and-travis-kalanick-on-building-again.json",
    "titre": "Ben Horowitz and Travis Kalanick on Building Again",
@@ -116,5 +140,5 @@
    "nb_outils": 2
   }
  ],
- "maj": "2026-08-16T17:38:55Z"
+ "maj": "2026-08-23T17:32:41Z"
 }

@@ -1,0 +1,27 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Martin Casado on Where the Value Is Going in AI",
+ "date": "Sat, 22 Aug 2026",
+ "date_iso": "2026-08-22",
+ "lien": "https://a16z.simplecast.com/episodes/martin-casado-on-where-the-value-is-going-in-ai-750ULKGM",
+ "duree": "00:42:01",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 4.1,
+ "taille_transcript": 51802,
+ "transcript": "martin-casado-on-where-the-value-is-going-in-ai-transcript.txt",
+ "nb_outils": 2,
+ "outils": {
+  "Cursor": [
+   "nlock he's seen in his career. Hello everyone and welcome to MTS. Today we are joined by Martine Casado, who's a general partner at Andreessen Horowitz and leads the firm's infrastructure practice. In the last week, SpaceX closed its 60 billion acquisition of cursor and Stripe agreed to acquire Open Router, two major A16Z backed companies. So today we'll talk about what those deals tell us about where value is actually accruing in the age of AI. Martine, welcome to MTS. Super happy to be here, thanks for having me. We're",
+   "d start with a little backstory. You got a master's in PhD in computer science and founded Nissira when you were 30-ish? 30-ish, yeah. 30-ish, yeah. Yeah, who's counting? Yeah, Mr. Hishia, yeah. But these days, a lot of top founders, including the founders of cursor, will drop out of college at like 20 in order to start companies. Yeah. Which path do you think is better? You know, listen, I actually took time off between undergrad and grad school and I worked for a national lab. I actually think it's probably a good idea",
+   ", that was kind of like the drone AV wave of AI. For this generative wave, I think we're one of the earliest that were very active in it. Like we did a lot of the early foundation model companies, right? We're in 11 labs, we're in open AI, of course, we're in cursor, we're in ideogram, we're in BFL, we're in Mistral. So we did a lot of very, very active deployment. But I will say like, like the intent to deploy was even before that. Now again, I would say that like our conviction on technology waves tends to actually pro"
+  ],
+  "Stripe": [
+   "seen in his career. Hello everyone and welcome to MTS. Today we are joined by Martine Casado, who's a general partner at Andreessen Horowitz and leads the firm's infrastructure practice. In the last week, SpaceX closed its 60 billion acquisition of cursor and Stripe agreed to acquire Open Router, two major A16Z backed companies. So today we'll talk about what those deals tell us about where value is actually accruing in the age of AI. Martine, welcome to MTS. Super happy to be here, thanks for having me. We're super exci",
+   "ing force of SpaceX behind them? It seems like that would make cursor more valuable now. Of course. Yeah, I agree. Yeah, yeah. Where are you suggesting that cursor by SpaceX? That might have happened in a couple of years. Yeah. Listen, I think Open Router and Stripe make a lot of sense. Both companies kind of do things as markets. But you know, one views like, you know, tokens value, the other payments is value. There's a lot of alignment at the founder level for these types of businesses. Very, very similar thing for cu"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

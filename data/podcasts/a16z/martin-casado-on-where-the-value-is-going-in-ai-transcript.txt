@@ -1,0 +1,563 @@
+The a16z Show
+Martin Casado on Where the Value Is Going in AI
+Sat, 22 Aug 2026
+https://a16z.simplecast.com/episodes/martin-casado-on-where-the-value-is-going-in-ai-750ULKGM
+
+[00:00] I think there's basically two paths that are meaningful to talk about.
+[00:03] One of them is like the labs win everything and then the other one is the labs don't win everything.
+[00:06] And you can make very strong arguments on either side of that.
+[00:09] What would happen 10 years ago if I gave you a billion dollars? What would you do?
+[00:12] I hired a ton of people. I knew it would blow up.
+[00:16] It would be like a total mess, right?
+[00:18] And so now we actually know what to do with that money.
+[00:20] In the history of humanity, in the history of engineering efforts,
+[00:23] we've never been able to have 20 people, I don't think,
+[00:26] being able to productively use two billion dollars.
+[00:28] Like, what does that even mean?
+[00:30] With that much money to work with that small team and that small of a timeline,
+[00:33] you can put capital into these things and tends to turn into usage.
+[00:37] Let's say you put in $10 to do this. I don't know if you get $9 back on the other side of that.
+[00:42] But what we've never been able to do in the history of this industry
+[00:45] is put in $10 and get anything back.
+[00:47] But now it really is $10 in and then some amount out pretty directly.
+[00:51] AI isn't just changing what companies can build.
+[00:54] It's changing the economics of building companies in the first place.
+[00:58] Martine Casado joins Theo Jaffe and Sofia Du on MTS
+[01:02] to explain why AI has created something unusual,
+[01:05] small teams that can productively put enormous amounts of capital to work
+[01:09] and turn that capital into capability, usage and growth
+[01:13] faster than we've seen in previous technology cycles.
+[01:16] They debate weather frontier labs ultimately eat the rest of the AI stack,
+[01:20] where open source and applications fit in
+[01:22] and what model routing tells us about how the market could evolve.
+[01:26] Martine also explains why he's less interested in today's margins and votes
+[01:30] than identifying the strategic control points of a new technology stack
+[01:34] and what he calls the biggest wealth unlock he's seen in his career.
+[01:40] Hello everyone and welcome to MTS.
+[01:43] Today we are joined by Martine Casado,
+[01:45] who's a general partner at Andreessen Horowitz
+[01:47] and leads the firm's infrastructure practice.
+[01:50] In the last week, SpaceX closed its 60 billion acquisition of cursor
+[01:54] and Stripe agreed to acquire Open Router, two major A16Z backed companies.
+[01:59] So today we'll talk about what those deals tell us about where value is actually accruing in the age of AI.
+[02:04] Martine, welcome to MTS.
+[02:06] Super happy to be here, thanks for having me.
+[02:08] We're super excited to have you.
+[02:09] Yeah, it's been what an incredible week.
+[02:12] One of the weeks of all time.
+[02:14] It's been pretty well, well, yeah.
+[02:16] Ten years in the making, but it all happened in a couple of days, yeah.
+[02:19] Yeah, so I guess we could start with a little backstory.
+[02:23] You got a master's in PhD in computer science and founded Nissira when you were 30-ish?
+[02:29] 30-ish, yeah.
+[02:30] 30-ish, yeah.
+[02:30] Yeah, who's counting?
+[02:31] Yeah, Mr. Hishia, yeah.
+[02:33] But these days, a lot of top founders, including the founders of cursor,
+[02:36] will drop out of college at like 20 in order to start companies.
+[02:38] Yeah.
+[02:39] Which path do you think is better?
+[02:43] You know, listen, I actually took time off between undergrad and grad school
+[02:47] and I worked for a national lab.
+[02:50] I actually think it's probably a good idea to get on the ground experience
+[02:54] so that it's not entirely academic.
+[02:56] I mean, the one caveat I will say is a lot of the AI stuff is pretty deep research.
+[03:01] I do think like, you know, in one hand you have this whole kind of outcry
+[03:05] against higher education and it's kind of very invoked not to do it.
+[03:08] On the other hand, it's kind of never been more relevant too.
+[03:11] And so I think we're in a bit of a schizophrenic period,
+[03:13] which suggests to me you should do exactly what you're feeling is right for you.
+[03:17] I think both paths are totally legitimate.
+[03:20] Yeah, I mean, there's a there's like a spectrum of neolabs where on the one hand,
+[03:23] you have like flapping airplanes where the co-founders are like 22 years old.
+[03:27] Yeah.
+[03:27] And then on the other hand, you have Jeff Dean in oil,
+[03:30] vignoles is new lab, which I'm forgetting the name that's slipping my mind.
+[03:33] But obviously these are like incredibly senior people with like decades of experience.
+[03:37] So like how much does decades of experience matter in AI?
+[03:41] So one thing that we forget is like the PhD used to be the rarity for founders, right?
+[03:46] Like it used to be like you would start a company if you dropped out of PhD
+[03:49] or you dropped out of grad school, like very famously Sergey and Larry.
+[03:53] This is the case for and we always say like you're kind of failing
+[03:57] if you got the PhD because clearly you didn't have a good enough idea to do it.
+[04:01] We're actually seeing a lot of really good PhD founders now, right?
+[04:03] Like Ollie Godsey has a PhD.
+[04:05] We did research when I was, you know, when I was in, when I was in grad school,
+[04:08] George Frazier, CO5 Tran also has a PhD.
+[04:11] So obviously we're going to see more PhD founders now than ever before in the history of the industry.
+[04:16] We've always had the young tech founder, right, Mark Zuckerberg.
+[04:19] And so I would actually think that even the optics on X feels like it's going towards
+[04:24] like the younger, less experienced founder.
+[04:26] I would say wait it.
+[04:28] It's actually probably the trend is more in that direction.
+[04:30] It seems like the main thing right now that matters is how much you can raise
+[04:34] because you're not bottlenecked anymore on who could build the best software right now.
+[04:38] The big competition is who can raise the most money are typically the types of companies
+[04:42] who can compete the most.
+[04:43] So are you seeing that for the companies who are able to raise the most, they are the most competitive?
+[04:50] I mean, I think that when it's all said and done and we look back on this,
+[04:57] you know, this wave, I think the biggest change is the fact that you can actually put
+[05:01] a lot of money to get used.
+[05:02] Like you'd never be able to do it.
+[05:03] Like, so what would happen 10 years ago if I gave you a billion dollars?
+[05:05] What would you do?
+[05:07] Hire a ton of people.
+[05:08] Hire a ton of engineers.
+[05:09] And they would blow up.
+[05:11] The whole thing would be like a total mess, right?
+[05:13] And so now we actually know what to do with that money.
+[05:15] And so I do think that now it's become a scale of capital.
+[05:18] I think the companies that do raise a lot of money, they don't necessarily blow up.
+[05:21] They know how to use it.
+[05:22] And I think that that actually is changing a lot of what's happening on the ground for us.
+[05:26] So the typical path before is if you get too much money too early, it could be an issue,
+[05:31] but you're not seeing that anymore being the case.
+[05:33] Well, yeah.
+[05:33] So there's kind of a law of like engineering physics, right?
+[05:37] Where you raise a bunch of money and then you try and hire a bunch of people to build a product.
+[05:42] And this is where the mythical math came from.
+[05:46] And you just can't really speed up timelines that way.
+[05:49] But then you end up like increasing burn and adding a lot of complexity.
+[05:52] And like the roadmap gets very diluted.
+[05:53] And then you have all like the organizational complexity that happens as a result.
+[05:58] And so I mean, listen, some of these major model efforts were done with very, very small teams.
+[06:02] Like, I'm not going to say the exact model, but one of the very famous models,
+[06:07] you know, multi model model that many people use is probably one of the most popular models
+[06:11] was built with a team of about 20 people.
+[06:13] And I would say the cost of that was probably $2 billion plus, right?
+[06:17] And so this is unheard in the history of humanity in the history of engineering efforts.
+[06:21] We've never been able to have 20 people.
+[06:23] I don't think being able to predict productively use $2 billion.
+[06:27] Like, what does that even mean with that much money to work with that small
+[06:30] team and that small of a timeline?
+[06:31] And so I know we like to look at this wave in the context of like
+[06:35] technical sophistication, you know, new capabilities.
+[06:40] But I actually think like one of the major stories is the fact that we're able to apply
+[06:44] large amounts of money productively in short amount of times to whatever problem that we're
+[06:49] trying to solve.
+[06:51] Would you say that this age and venture is just completely different from any age before it?
+[06:55] Totally, totally. I mean, it's just, you know, again, there's always been this weird meme
+[07:01] in venture, which is it's kind of not much of an asset class.
+[07:05] There's only a few companies you can't deploy a lot of money in it, which has all been very
+[07:09] weird to me to have like this zero-sum thinking from people whose entire job shouldn't be zero-sum
+[07:14] thinking, right? And one thing that we're learning is you actually can take large amounts of capital
+[07:19] in private markets and deploy it and get the returns.
+[07:21] And you know, you can just give two examples.
+[07:23] One of them is like companies are staying private longer and accruing a lot of value that way.
+[07:27] So that's one.
+[07:28] And then the second one is like, you know, these models consume a lot of money and they turn
+[07:31] that money into growth. And so this kind of almost archaic view that like, you know,
+[07:36] venture has to be limited in capital. You know, we're over-funding it. You know,
+[07:41] absolutely is not the case now. And listen, there's two, there's two, I think there's two conclusions
+[07:47] you can kind of draw from that. One of that is, well, there's a new technology wave that can
+[07:52] consume more capital, like AI can consume more capital. And so it's a result of technology.
+[07:57] If I happen to think causality goes the other way, which is if you put more money privately
+[08:03] into the private markets, it actually grows the TAM. And companies don't need to go public
+[08:08] as quickly. And companies can do more privately. So I actually think that the causality is the more
+[08:13] money goes to private markets, the larger the markets are going to grow, and then the more returns go
+[08:19] in the private markets. But just interestingly, we're seeing both things happen at once.
+[08:24] So when did A16Z realize for the first time, like, wow, this AI thing is going to be a really
+[08:29] big deal. We're going to need to spend like enormous amounts of money investing in infrastructure
+[08:34] and in other things.
+[08:35] Well, when did we first, I mean, listen, I think that we're the most kind of one of the most tech
+[08:40] for venture funds. And we just kind of assume everything is going to work in the long run.
+[08:44] And so I remember when, you know, when opening I was still an experiment and we had very legitimate
+[08:50] conversations about should we be going all in on AI then? And this was like seven years before,
+[08:54] like say, GPT, like actually was pretty significant. And so, you know, we've always been investing in
+[08:59] AI. We've invested in multiple waves of AI. Like when I joined the firm in, you know, say 2016,
+[09:03] that was kind of like the drone AV wave of AI. For this generative wave, I think we're one of the
+[09:11] earliest that were very active in it. Like we did a lot of the early foundation model companies,
+[09:14] right? We're in 11 labs, we're in open AI, of course, we're in cursor, we're in ideogram,
+[09:18] we're in BFL, we're in Mistral. So we did a lot of very, very active deployment. But I will say like,
+[09:23] like the intent to deploy was even before that. Now again, I would say that like our conviction
+[09:30] on technology waves tends to actually proceed quite a bit the like on the ground gains,
+[09:36] which can like it sometimes work and sometimes not work. But in this, in this case, it was actually
+[09:40] quite prescient. Yeah, it's interesting because the old view was very zero sum. It's what's the point
+[09:46] of investing in another model when open AI is pretty good.
+[09:50] So it's defensible. The quality of revenue is by the way, every single way. So this is why I know
+[09:56] the difference between like, like a finance kind of, you know, based investor that should be in a
+[10:03] growth market and an early stage investor. So like if you if you if you think primarily in the
+[10:09] balance sheet in a finance, you worry about things like margins, churn, you know, revenue quality,
+[10:16] which are all very legitimate things to worry about if you see no strategic value in the business,
+[10:22] right? So if you think like the entire business, forget the tech, forget the strategic value,
+[10:27] forget the ability for somebody else to monetize it. I'm just only going to look at the balance sheet,
+[10:31] which many, many people do make that mistake. Then sure, look at, you know, if you look at that,
+[10:35] it's going to, you know, you'll have like difference of opinions. But that's entirely
+[10:38] divorced to the strategic value of a company. Like some value, some companies may lose money,
+[10:44] but they'll get to a position where they can command a tremendous transfer of value.
+[10:49] And if you don't look at it that way, I just don't think you can be an early stage investor.
+[10:53] You have to look under the lens of this is a very important part of the new stack. It's an
+[10:58] very important control point. And either somebody will want to own that because of crew value or it
+[11:03] itself will be able to attract a crew value. Even if right now when you look at it, the financials
+[11:09] don't look like whatever, something that would trade highly on a public market.
+[11:12] Yeah. So relatedly, there is an argument that some people make where it's like,
+[11:15] the labs are just going to eat everything. They're going to have the smartest models.
+[11:19] They're going to take over every vertical opening in anthropic or doing biotech now. They're going
+[11:23] to eat Eli Lilly. They're going to eat all the pharma companies. Obviously, A16Z doesn't believe
+[11:26] in this. Well, I don't know if we don't believe in that. I mean, I don't listen, we actually had an
+[11:31] offsite recently. And one of the big discussions points in like, what is the future of models?
+[11:38] And I think there's basically two paths that are meaningful to talk about.
+[11:41] One of them is that the labs want everything. And then the other one is the labs don't
+[11:44] win everything. And you can make very strong arguments on either side of that.
+[11:48] So if you want to very happy to detail the arguments on either side, let me give you the argument for.
+[11:51] So why will the models win everything? Well, the first one is, we've got three years of data
+[11:59] and they own 95% of the market. So you just look at the data, you're like, well, okay,
+[12:03] so they're doing tremendously well. They have the majority is certainly dollar weighted of revenue.
+[12:09] The second one is that their ability to raise capital is just unbelievable.
+[12:12] And then they can turn that capital pretty directly into growth, which we've very rarely seen.
+[12:15] So let's say opening and frat book have raised 240 billion, 220 billion dollars.
+[12:22] That's more than the entire downstream ecosystem combined, which is really unbelievable.
+[12:26] There's another argument in that argument is like, listen, they've been able to maintain pricing
+[12:30] power just by being an epsilon higher. So like being on the frontier is expensive,
+[12:35] but also being on the frontier can command a tremendous amount of pricing power.
+[12:40] And so it's not like it's not like you have to be like way better. You can just be a little bit better
+[12:44] because these get used in competitive equilibria. We're starting to see auto catalytic effects.
+[12:50] What do I mean by auto catalytic effects? Like if you have sophisticated enough AI,
+[12:54] you can use that AI to create more AI and that improves your unit economics.
+[12:58] I also think if you talk to a lot of the people deep in these labs that are working on these,
+[13:02] they think they're actually getting further away from open source than not.
+[13:06] And the benchmarks don't reflect that because benchmarking in AI is kind of an
+[13:10] AI complete problem. You just kind of have to use it to do the thing to know how good it is.
+[13:15] So there's a lot of data that would suggest us and they have the capital.
+[13:19] They have the teams and the talent. They have the best models. They're going to run away with it.
+[13:26] Yeah. Like so catalytic effects, do you mean like recursive self improvement?
+[13:29] Well, so yeah, this is where I'm just like an annoying pedant.
+[13:33] So to me, recursive means something. Like I'm a, you know, this is my PhDs in computer science.
+[13:37] I've done programming language. Recursive is when you take something and you make another
+[13:40] copy of that thing wholesale. Like if I have a compiler kind of compiler, that would be recursive.
+[13:45] Where auto catalytic is is use the thing to like, you know, help you make that thing faster as a tool.
+[13:52] Like if I use a computer to design a chip, because I'm using like whatever,
+[13:57] like some chip design software, would you call that recursive self improvement?
+[14:00] I would say no. I mean, nobody's used that word before and we've gone in the literal sense.
+[14:04] No, I mean, well, not in any sense. We've never used that word. Like let's say we all use software
+[14:08] to build software and we never, we don't call it RSI and we never have. And so I feel like
+[14:14] what we're seeing today is much more auto catalytic effects, which we've had forever.
+[14:18] But for whatever reason, I think this is a legacy of Bostrom, we call it RSI recursive self
+[14:23] improvement. That said, there's definitely focus on recursive self improvement.
+[14:27] And that's great. But it's a subset of the broader phenomenon, which is very important for all of
+[14:33] us to understand, which is auto catalytic effects. So just give me an example. If I use AI to create
+[14:40] a really good GPU kernel that's faster than a human being can do, and that improves my ability
+[14:45] to like run or build AI, I would say that's auto catalytic. I would think that's very important for
+[14:51] us on the economics, the convergence properties of the industry, but it's not RSI.
+[14:56] So what about the arguments against then that the labs will not own everything?
+[15:00] Oh, another one for it, by the way, is they own all the supply in the supply limit.
+[15:05] Okay, so the arguments against the arguments against is the surface area is really expanding.
+[15:11] And I mean, really what's working are primarily code and language reasoning. And so there's a
+[15:19] bunch more domains where actually probably you need a services arm, probably you need
+[15:24] kind of more connection with the customers. And this would be very hard for a single
+[15:28] organization to do. Second one is, you know, like there is a wealth of open source models
+[15:33] that are doing very well. And we've seen some recent examples of that. And there's a maturing
+[15:37] ecosystem around them to serve those. I think a lot of the reason the labs are so far ahead is they
+[15:44] have very cheap access to capital, which will almost certainly rationalize. Like, listen, if I give
+[15:48] you free money and I say you're worth like whatever trillions of dollars, like, of course,
+[15:52] you can use that to grow. But at some point in time, I may be like, you know, like, you're probably
+[15:57] worth, you know, something different because we've rationalized like the company and then it'll be
+[16:01] harder for you to grow. I think that right now they're taking advantage of the supply constraints
+[16:06] because they can actually buy, you know, GPUs in bulk. When you have more supply, they won't be
+[16:10] able to do that. So I think actually the landscape right now is very much in favor of the large
+[16:17] labs primarily from funding and supply. And once those rationalize, you know, the growing surface
+[16:24] area is likely to fragment, which almost always happens in the history of this industry for sure.
+[16:30] Then I think that will play in favor of everybody else. If I were to guess, this is Martin totally
+[16:35] guessing no idea. If I were to guess, I'd say supply constraints will ease in 2028ish. I think
+[16:44] that the big labs will probably dollar weighted, get 80% of the market going forward because that's
+[16:50] historically what we've seen for large incumbents. But I think token weighted 60% will be long tail
+[16:55] and open source. And one more thing about all of this, I'm sorry to kind of rant on it. I just
+[16:59] think it's such an important point. We're seeing increasing value go to the actual apps. The apps
+[17:03] are doing incredibly well. And so I think they will start to actually erode on some of that margin
+[17:08] and you don't view them as like necessarily competitive with the labs. But I do think that
+[17:14] we're going to capture more and more of the value going forward. But it'll be a couple years.
+[17:18] I mean, open router is a good example of what the future might actually predict on how we'll be
+[17:23] using these models long term. Yeah. So listen, so open router is many things. I mean, it's an API
+[17:30] router. But one thing you can think of it as is is, you know, maybe you have your anthropic key,
+[17:37] maybe you have your open AI key, maybe you have your grok key. But for all the other models,
+[17:42] you use open router. And it's like, it's basically a two sided marketplace to give you access to a
+[17:46] bunch of models. It's a single place for visibility. It's a single place for analytics. It's a single
+[17:51] place for access to these models. It's on the token path. It is the leader and kind of a brand
+[17:56] monopoly in the space from a brand standpoint. It's a very well known brand in the space.
+[18:02] And you know, I think with all of these phenomenons where you have a couple of income and somebody
+[18:07] has to aggregate kind of the longer tail marketplace, which I think will impact the dynamics of the
+[18:12] model market going forward for sure. But are you seeing smart routing just growing in popularity?
+[18:17] And so maybe the future of applications is you don't even know what model is actually being used.
+[18:23] You know, it's a good question. I go back and forth on this. So we've actually learned that
+[18:27] these models are a lot stickier than people assumed. Like everybody talks about just swapping them
+[18:31] out, but it actually doesn't happen very often. And I think a lot of this could be actually like
+[18:34] procurement dynamics. Like I bought a bunch of credits from opening and I like, why would I swap them
+[18:38] out? So you can think about like smart routing in one of two contexts. One of them, you can be like,
+[18:44] you know, like almost from like a quality standpoint, like you'll answer the question
+[18:48] better on the right router. I think it's a very, very hard problem and maybe an
+[18:51] AI complete problem. And right now, I think, you know, that doesn't happen very often.
+[18:57] You can think about it in a second way, which is basically cost performance, which is like,
+[19:01] I will minimize the cost. And because tokens are so expensive, that's actually kind of a
+[19:07] high priority for many. And that we're seeing great results, right? If you seem like, for example,
+[19:10] cursor router and cursor router does a great job, open router does a great job. And so I would
+[19:15] encourage, you know, if you think about smart routing, I think it in the context of,
+[19:19] you know, how do I, for the given task, choose the right model on the Pareto frontier relative
+[19:26] to cost as opposed to like, I'm somehow going to choose the right model that's going to answer
+[19:30] the question in the right way. Yeah, it does seem like model routing is like a very difficult
+[19:35] technical problem. I think it's an AI complete. Yeah, by by a complete. Okay, so let's imagine
+[19:39] you're answering the trying to answer the question, what question does the smartest thing in the
+[19:44] universe need to answer? Like, I think you need the smartest thing in the universe to answer
+[19:48] that question. You see, I was like, yeah, the only thing that can answer that question is actually
+[19:53] like the smallest, you know, sorry, the smartest model, and then in which case you just give it to
+[19:59] the smart. So it just becomes a cost optimization type of question? Well, this is okay. So there's
+[20:04] many opinions. I don't think we know the answer to this like clearly, and you hear this often,
+[20:07] clearly the frontier models are getting very jagged, meaning, and this isn't this isn't like a core
+[20:13] technical capability. It's like the decisions of the people that that created it decided to
+[20:18] make it very good and say front end or very good in 3D or very good in language. And so what
+[20:22] of it? It's not like this one's smarter than this one. It's like this one's very good at this type
+[20:27] of thing versus, you know, very good at this type of thing, that for sure. I think we have a lot of
+[20:31] specialist models, a lot of fun, you know, and then a model router will just decide,
+[20:36] this is better in code, this better language, this is better in front end, this is, you know,
+[20:39] whatever. So like that will happen. But I think today, if you look at like model routing and the gains,
+[20:44] you know, as deployed by the application companies, you know, I mentioned cursor, but you know, we've
+[20:51] got a huge portfolio application companies, I think the primary gains are actually tend to be
+[20:55] keeping the quality bar high while decreasing the cost. So what like, to what extent is like the
+[21:04] value of open router that it will eventually be able to do this kind of like a complete model
+[21:08] routing? I listen, I think that you need a two sided marketplace. And in many ways, you can view
+[21:16] one of the products of open routers, the demand, right? So I can go to the next model provider and
+[21:21] say, Hey, listen, we've got, you know, you know, millions of users all the time and we can bring
+[21:25] that to you. And this is a very common thing. And then you can go to all the developers and say,
+[21:29] Hey, listen, you know, the next time a model comes out, you know, it'll be on here and you'll have access
+[21:34] to it in your existing system and so forth. And so I think there's a tremendous amount of value in
+[21:39] the two sided marketplace, independent of all of that, that said, clearly, over time, there's
+[21:46] going to be more and more ability to do this sort of arbitrage. I think for whatever reason, we tend to
+[21:51] kind of over rotate on that now. And it's a hard question to answer just because as we don't even
+[21:56] know how to benchmark these models to begin with, the pricing is dynamic, it's often subsidized, you
+[22:02] know, and then, and then honestly, like the next big model comes out and it tends to be
+[22:06] parado efficient, everything anyways. And so like then you only would route to like one model,
+[22:10] like Opus four five anyway. So I think right now that like the actual routing piece is,
+[22:16] you know, the gains are uncertain. And yet this is a very, very popular, very successful,
+[22:22] you know, internet property and brand. And I think it's more the two sided marketplace.
+[22:27] Yeah, the costs are subsidized. When will that stop?
+[22:30] I mean, right now these guys get free money, I would use it too, right? Like, you know, if I could
+[22:34] raise, you know, three times more money than the entire downstream ecosystem combined, I mean,
+[22:38] you know, like, this is a very classic thing. Of course, you'd subsidize in order to get kind
+[22:41] of single users. And by the way, all the margin tends to be made in the enterprise anyways,
+[22:46] for this business. And so why wouldn't you do that? By the way, this is, but having run businesses,
+[22:52] marketing is hard, man, like, you know, like, it's really hard, field marketing,
+[22:56] content marketing. You never know if I put a dollar in what it's going to get me, like,
+[23:01] events, like, maybe get leads with those things qualified. I have no idea. I'm going to do this
+[23:05] content. Like, it's got this atmospheric value, but like, it's very, it's always been hard to
+[23:11] like spend a marketing dollar and be like, this is going to be this many sales qualified leads,
+[23:15] except for very mature organizations. A remarkable thing about AI is you can spend a dollar and get
+[23:22] users because like, there's unlimited demands for tokens. And so in many ways, it's kind of
+[23:26] disrupting the entire marketing. And so this is what we're seeing. We're seeing like, if I'm a
+[23:30] company and I want to attract users for the top of funnel, why wouldn't I subsidize?
+[23:34] Yeah. I mean, like, if you use a decent amount of tokens on your $200 a month opening iron
+[23:38] anthropic plan, like they're losing a decent amount of money off of that.
+[23:42] Ah, well, okay. So again, these things are, these things are a little complicated. I mean,
+[23:49] only if they want to, because this is a knob, right? And so and it tends to be you only lose
+[23:54] money on like the top 5% users. And there's always this whackable with this type of top 5%
+[23:58] users, right? Like that's why you see things like you can't have multiple, you know, like a single
+[24:02] person can't have multiple accounts. You know, so they keep changing those terms to like keep
+[24:07] the 5% under control. Those are the loudest ones. But the rest of them, you know, like it tends to be,
+[24:11] you're not losing that much money. But in aggregate, these drop and board level discussions, and I'm
+[24:15] involved in, you're like, okay, listen, we've got this free tier. There's a knob. Do we want to
+[24:21] use the knob to grow top of funnel and to grow use? And that way, we'll go to negative margins.
+[24:25] Are we doing to use the knob to like kind of go more towards margin gain? And it's actually,
+[24:30] like this stuff is, the demand is so strong that, you know, it's kind of a very simple business
+[24:37] decision. We're in the past, you literally don't know how to like apply money to marketing. You
+[24:41] just haven't. By the way, I have seen some very interesting things. So for example,
+[24:47] there are these very sophisticated
+[24:52] operations out of China that will use the single service tiers and arbitrage them. The way they
+[24:58] do it is like, so they will sign up to like a $200 plan. They will use all the tokens in like
+[25:05] three days and then they'll cancel and they'll get prorated for the the 27 days, even though they
+[25:09] used all the tokens. And then they'll use that to basically provide people with like a service
+[25:15] where they're arbitrushing these. And so like the market around like laundering these plans is
+[25:20] actually very, very sophisticated. And so we're seeing like a lot of cat mouse between the big
+[25:23] left. It's like the new router is just arbitrage between these description. No, I'm serious.
+[25:28] And that's what they do. They'll sign up, they'll drain it all, then they'll cancel it, they'll recoup
+[25:32] the cost. And then they kind of use that to offer like a $20 service, right? To somebody for basically
+[25:39] kind of full, you know, opus tokens or whatever. So one of the things you're arguing is that
+[25:44] more capital is almost directly correlated to more capability. Capability, again, I don't mean
+[25:52] to pedantic, more capital, because the demand is so high, you can put capital into these things and
+[25:58] you can that that tends to turn into usage. It also seems to tend to turn into capability
+[26:05] in some direction. Like if I'm training a model and I want it to be good at X, I can create an
+[26:10] RL environment of X, or I can go pay someone to like answer questions for X, and I can turn
+[26:16] capital into being good at that X. The problem is, is you don't know what gets worse. So like,
+[26:22] I think we're kind of at this point where you are starting to see like more jaggedness,
+[26:26] and you are starting to see more trade offs. And what I don't know is like, let's say you put a
+[26:29] dollar and you get like, let's say you put in $10 to do this. I don't know if you get $9 back
+[26:35] on the other side of that. But what we've never been able to do in the history of this industry
+[26:39] is put in $10 and get anything back. It was literally put in $10, engineer, engineer, engineer,
+[26:45] wait two years, probably gross stuff up. It'll probably fail. But maybe, maybe on the other side,
+[26:50] you'll have a product that you can monetize. But now it really is $10 in and then some amount out
+[26:55] pretty directly. Yeah, incredible. It's like the new CMO is turning into a CFO now.
+[27:02] There he is. I mean, really, like many of the things that required a lot more art,
+[27:07] like engineering and marketing. I worked so close to these companies that it used to be,
+[27:13] there are these long discussions about the art of marketing and what do you do paid? Do you do
+[27:17] content? Do you do events? Do you do social? How do you do this? And now it's literally like,
+[27:22] should we subsidize more or less? So you're right, it's becoming finance. Engineering is the same
+[27:25] type of way. It used to be like, okay, I mean, it's such a complex thing and we spend so much time
+[27:30] in the engineering. Now a lot of it reduces down to like, can we raise the capital for the GPUs
+[27:35] to do it one? Yes or no? So every new role just to be the role of a CFO and a trench coat.
+[27:45] The relationship between money and innovation and growth and demand has never been closer.
+[27:52] And by the way, I really think that is like the big thing that's going on here in the industry.
+[27:56] Yeah. So we talked about open router. The other big acquisition of the week was cursor,
+[28:01] which was, I believe I'm getting this right, the biggest acquisition of a venture back startup ever.
+[28:08] I think so outside of Elon's kind of self dealing with X. But yeah, so for like an independent
+[28:15] thing, I think it's the largest private M&A ever. So where does the bulk of the value of cursor
+[28:20] to SpaceX come from? Is it the team? Oh, no, the curse was a phenomenal business. They have all the data.
+[28:26] Elon has all of the compute. They've released phenomenal models in the past.
+[28:34] Many people realize that coding is kind of the path to,
+[28:41] some will say AGI, but like say,
+[28:42] bought our computer user intelligence more broadly. And so I actually think both companies bring a ton
+[28:47] to the table. And if you're going to reduce it, something very simple is like, one has the data,
+[28:52] one has the compute, one has the distribution, you know, and the other has like enough resources
+[28:58] that you would need to be on the frontier. Because remember, the frontier is a capital game. And of
+[29:02] course, this is something Elon is phenomenal at scaring up. Do you think their 60 billion value
+[29:08] would have been their value independently? Or was that mainly because of SpaceX?
+[29:12] Well, to who? To just like its value. Yeah, to SpaceX for sure. But would that have been its value
+[29:20] independently outside of SpaceX today? To like an investor? Yeah, for sure. I know for sure,
+[29:25] because we could easily have raised it at that value. Now that said, private investors are crazy,
+[29:31] and they kind of see the future and everything else like that. How would it have done the public
+[29:35] market? I don't know. I can't even speculate about those types of things. But for sure,
+[29:38] the private independent value was of that order. And there's a lot of kind of like,
+[29:43] you know, non-public proof points to that, which I can't talk about. But yes, I do think so.
+[29:48] And again, the business was doing phenomenally. Like if you saw the numbers that they talked about,
+[29:53] I mean, this is the fastest growth, certainly I've ever seen in 10 years of investing in 20 years
+[29:57] in the Valley. Yeah, but would it not be even better to be like part of SpaceX with all of their compute
+[30:01] and all of their infrastructure? And you know, the entire engineering force of SpaceX behind them?
+[30:08] It seems like that would make cursor more valuable now. Of course. Yeah, I agree. Yeah, yeah.
+[30:13] Where are you suggesting that cursor by SpaceX? That might have happened in a couple of years.
+[30:18] Yeah. Listen, I think Open Router and Stripe make a lot of sense.
+[30:27] Both companies kind of do things as markets. But you know, one views like, you know, tokens value,
+[30:33] the other payments is value. There's a lot of alignment at the founder level for these types
+[30:37] of businesses. Very, very similar thing for cursor and SpaceX, right? Very engineering focused
+[30:42] cultures. You know, both believe that code is the path and general computers is the path that AGI.
+[30:48] And you know, you know, I actually think Elon likes these types of teams that are kind of like,
+[30:54] you know, very, very scrappy, move very, very fast. I mean, we even wrote a post web. This is the
+[31:00] fastest generating team ever seen outside of an Elon company. And so obviously, there's a lot of
+[31:04] alignment. There's a lot of synergy. I think the combined entities are greater on both sides
+[31:09] for these acquisitions. But I still think it was worth $60 million.
+[31:12] How did they do it? Like, what are the aspects of cursor's culture that make them capable of
+[31:16] varying so quickly? You know, that's a good question. I know they, in many ways, a lot of these AI
+[31:29] companies that I work with are so research heavy. If you're not working on a new model architecture,
+[31:35] like it's kind of hard to actually interest the core teams. And they always kept the main thing,
+[31:39] the main thing, cursor, which is like changing how you write software engineering making. And
+[31:44] they believed fundamentally it was a product problem, not like necessarily like a model architecture
+[31:49] problem. The model is very, very important, but it was a product problem. And so, you know,
+[31:53] they hired incredibly well. They set culture incredibly well. I'd say the founders probably
+[31:57] spend 30, 40% of their time hiring and setting culture. They were very focused on engineering and
+[32:02] not like research or model architecture. I think like research and model architecture is
+[32:05] incredibly important, but it's got a different lifecycle and it requires a different type of
+[32:08] environment. And that's not what they were focused on at the time. They are more so now, of course,
+[32:11] now that they've got the resources. And then listen, I mean, like, this is wild in this space. There's
+[32:18] actually not a lot of companies that are actually focused on product, right? They'll focus on services,
+[32:21] like there'd be like, we are the Palantir of X, which is great. There's a lot of value there,
+[32:25] like a lot of like the fine-tuning, post-training companies are kind of more service oriented
+[32:29] companies. And there's a lot of research companies, every Neo Labs or research company,
+[32:34] but they were like, we are a product company. And I think that's actually a key differentiator
+[32:37] in this, in this era. Yeah, it's pretty cool. We had people from the cursor team actually here
+[32:42] on MTS and they're sharing a little bit about their internal culture and they're constantly building
+[32:46] products internally for themselves and then testing it on their own. Yeah, they're on their own years.
+[32:51] I know. So I loved that. I loved that. Like, they're all like, well, we're all developers
+[32:54] who want to build a product that we will use and they really, really took that one to heart.
+[32:58] Yeah, I think my absolute favorite example of this was Ryo Lu, who was the head of design.
+[33:03] Right, yeah. Yeah, he was amazing. He did this project called Ryo OS, which is like-
+[33:07] Yeah, yeah. I loved it like that. I know. He was like, like,
+[33:10] retromack-looking. Yes. So like a retromack OS emulator of sorts.
+[33:14] I do think it's funny. So I, you know, I do vibe coding in silly VC way and I build retro video
+[33:20] games and I feel like the kind of like, you know, older person in the garage doing a hobby,
+[33:27] it used to be like train sets or whatever. And now it's like building retro video games or
+[33:30] retro lessons or whatever. You see an awful lot of that coming out. Yeah.
+[33:34] What did both the cursor and open router deals tell you about where value is occurring in general?
+[33:40] So I, you know, I'm going to go back to what I said before, which is so much of the general
+[33:45] shot and fraud and criticism on X and the socials are around business quality metrics. And often
+[33:53] they're wrong, by the way, like curse was a great business and it was doing great.
+[33:58] But it misses the point of like, we're in a transformative wave where new pieces of the stack
+[34:05] are being developed and they have strategic independent value that will have a tremendous
+[34:10] amount of optionality going forward, right? I mean, open routers on the token path that is the
+[34:16] leader in, you know, the long tail of models and new models that has a two-sided marketplace of those,
+[34:22] you know, cursor was by far the leading software dev tool. And so like, to me, it's obvious that
+[34:30] you're going to have these properties that are strategic value strategic control points. I don't
+[34:35] think it says something more deeply about like where in the stack value is going to occur. As far as
+[34:39] I can tell, by the way, values are queen and all errors in the stack. I mean, in videos doing great,
+[34:44] the model companies are doing great, the app companies are doing great, the inference companies
+[34:46] are doing great, the services companies. The media companies are doing great, like right now,
+[34:52] listen, I think this is the biggest unlock of wealth I've seen in my entire career. I never thought
+[34:56] I'd see another one after the 90s. And, you know, I think anybody that wants to do a company or
+[35:02] invest in a company, I would strongly recommend that you have zero-sum thinking or worrying about
+[35:06] modes or defensibility too much in the near term and really think about like, what is strategically
+[35:10] important in this new world that's being created? What are, do you think are the top
+[35:15] opportunities right now in this new world that's being created? If someone were to come to you
+[35:19] asking for advice, like, where do I start? Where do I build? What would you urge them to do?
+[35:23] You know, one thing I love about being a venture capitalist, I don't have to answer that. Like,
+[35:26] I don't have to know the answer. No, seriously, no. No, no. It's such a great question. People
+[35:30] assume as a venture capitalist, like, I see the future. I've got thesis on it and I just don't.
+[35:35] I mean, like having been a founder doing two startups, one startup was like, you know, it was the whole
+[35:39] thing. It was like, you know, build a global business. And there you have to predict the future. And
+[35:44] there you have to like, you have to be piped in the nervous system of the techno strategic
+[35:48] chess game being played. And what does the future look like? What are the incumbents going to do?
+[35:51] How's the technology going to shift? Is it going to make me irrelevant? And you,
+[35:54] it's like a walking ulcer all the time is like trying to figure out what's hot. And as a venture
+[35:59] capitalist, you're like, you know what, there's a whole ecosystem of founders that are bearing that
+[36:04] ulcer. And then that's what they think about. And I'm very happy to borrow along their dreams and
+[36:08] support them. And so I am generally very bullish and optimistic about AI. I think this is a
+[36:14] massive unlock. If there are three or four strong founders in the space that I understand,
+[36:19] as we space, I understand, I won't second guess it. I mean, you know, they're going to be
+[36:24] taking the opportunity costs and risking their time and their families time on this. I just
+[36:29] assume it's a good space and all and best. Yeah. So how are you thinking about hiring at A16Z
+[36:35] Infra? Like what kind of people are you looking for? Are you looking for? So we found what works
+[36:40] best for us or people that actually have product background of some sort. I just think it's the
+[36:45] nature of the conversations we have. Like, I mean, I think there's a reason why we have probably the
+[36:49] most kind of strategic acquisition exits. Like, you know, we've had a lot of those because I think
+[36:55] we view a lot of these things as strategic assets. And that means you have to understand product
+[37:01] market fit. So you have to understand the market, the evolution of the market, you have to understand
+[37:06] the product, how the technology maps to the product and that interface. And that's a very
+[37:10] product based discussion. And you tend to do this before you have enough financials to really read
+[37:17] kind of the outcome of the business and value it that way. And I will say, having worked with many
+[37:21] great people. I actually mean, I love working with my team. But we have in the past hired people
+[37:26] that don't have that background, like listening to come strictly from finance. And even though they
+[37:30] can do the work, like they can call into the customers, they just don't have the sensitivity to come up
+[37:34] back with the right answers. Because it's like the taste. It's almost like you have to know what
+[37:40] to ask and what to look for to know if like there's going to be, you know, if they're going to buy,
+[37:48] if there's going to be value of this to be long term value. I mean, like, this is what a product
+[37:52] managers job is. So not everybody worked as a product manager, but like, most people have been
+[37:57] involved in product in some sort or another. And so that they understand how important that
+[38:01] interface is. And by the way, I mean, I would say even when it comes to like the types of
+[38:05] founders we work with, I mean, you know, some, it's so funny. I feel like there's two
+[38:09] views from investors, some are like very product focused, like I was talking to Ben
+[38:13] Torro yesterday is like, back the strongest founders, the founders, everything, which is true.
+[38:17] And then other people are very market focused, like Andy Radcliffe, who was on my board, he's like,
+[38:21] the market is everything, like you need a good founder and a good market, you know, whatever.
+[38:25] And I think for infrastructure, for the stage, we invest in our primary form of inquiries
+[38:30] around founder market fit, right? There's just certain founders that will be good for certain
+[38:35] markets. And there's great founders would not be good. And you know, we spend a lot of time trying
+[38:41] to understand that interface. And I think that that is why we build the type of team that we
+[38:45] did. Sorry. What's your perspective there? Where do you lay? My perspective on the founder market fit
+[38:50] or just are you more pro just as a founder matter? No, I'm like literally the intersection of the
+[38:56] founder of the market. Like I don't think unless, you know, unless it's very, very rare,
+[39:03] like Travis Kalanek, you know, like those, you know, these guys are so amazing and they're so rare.
+[39:10] You know, I think that, you know, the path that someone took to getting to a startup kind of carves
+[39:15] them in a certain way, they'll have certain sensitivities, they'll have certain earned knowledge that other
+[39:19] people don't have. And I think you want to take that and their kind of inherent skills and map it to
+[39:24] like what the actual market needs, which means you have to do a lot of market work. I would say the
+[39:28] majority of the work that we do is not like analyzing a given deal at any point in time. The
+[39:32] majority of the work we're doing is analyzing the market, you know, in the absence of any given
+[39:37] company to understand it. So we can actually make these decisions once we meet the company.
+[39:41] Definitely. Well, Martin, personal question for you. What motivates you? What's the world you're
+[39:46] trying to build towards? What motivates me in general? Honestly, I'm just a hill climber.
+[39:51] Just so funny, when I was selling my company, you know, I went to, this is to VMware. I'm a
+[39:58] Pat Gelsinger. You know, he was like, you know, kind of interviewing us. He was a CEO of VMware.
+[40:03] And he was kind of interviewing us. And I had this one on one with him. And he's like, Martin,
+[40:06] kind of what would get you up in the morning? I'm like, you know, this is a really deep philosophical
+[40:10] question. I'm going to have to think about that. I'll tell you tomorrow. So I went home, you know,
+[40:14] and I thought about it and I came back in. And I told him, I'm like, listen, listen, I am a hill
+[40:20] climber. My first love, my absolute first love is technology and startups and and creative
+[40:27] destruction and innovation. I am very, very long Silicon Valley. I think we've got the most unique
+[40:32] culture in history. And I love to be part of that. So as long as there's a hill for me to climb,
+[40:36] that I can do it in this place that I love, I'll be incredibly happy. Yeah. Well, Martin,
+[40:40] it's been amazing having you on. I love it. So good. Congratulations on Open Router. Congratulations
+[40:46] to you. Incredible, incredible week. Thank you so much. Yeah, it was a pleasure getting to have
+[40:50] you on MTS. Super fun. Thank you. Thanks for listening to this episode of the A16Z podcast.
+[40:58] If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review,
+[41:03] and share it with your friends and family. For more episodes, go to YouTube, Apple podcast,
+[41:08] and Spotify. Follow us on X and A16Z and subscribe to our substack at a16z.substack.com. Thanks again
+[41:16] for listening, and I'll see you in the next episode. This information is for educational
+[41:21] purposes only and is not a recommendation to buy, hold, or sell any investment or financial product.
+[41:26] This podcast has been produced by a third party. It may include pay promotional advertisements,
+[41:31] other company references and individuals unaffiliated with A16Z.
+[41:34] Such advertisements, companies, and individuals are not endorsed by AH Capital Management LLC,
+[41:39] A16Z, or any of its affiliates. Information is from sources deep reliable on the data publication,
+[41:45] but A16Z does not guarantee its accuracy.

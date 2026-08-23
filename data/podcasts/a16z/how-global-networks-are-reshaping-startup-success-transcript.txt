@@ -1,0 +1,539 @@
+The a16z Show
+How Global Networks Are Reshaping Startup Success
+Thu, 20 Aug 2026
+https://a16z.simplecast.com/episodes/how-global-networks-are-reshaping-startup-success-YCGysOkP
+
+[00:00] Anyone, international, whether you're building primarily in your home country to start, but
+[00:05] that you have global ambitions, you're a borderless founder.
+[00:07] They tend to have a chip on their shoulder.
+[00:09] It's the desire that they want to become the benchmark and prove something to the world
+[00:13] that regardless of where they were born, they can still achieve greatness.
+[00:17] Unlike in the US, where you can get everything as a service at every layer of the stack,
+[00:21] in many other markets you just can't do that.
+[00:23] There's no fraud as a stack, KYC is a stack, so you end up having to build everything.
+[00:28] There's this interesting dichotomy in this technology is very democratic, it distributes
+[00:33] the ability to get it anywhere in the world, it opens up other markets, but then it also
+[00:38] concentrates the kind of epicenter of where things are moving the fastest to the Bay Area.
+[00:43] Ten years from now, what do you hope to see in the global topology of startups everywhere
+[00:49] in the world?
+[00:51] I think some of the most interesting companies in Silicon Valley today aren't really from
+[00:56] Silicon Valley at all.
+[00:58] The founders may have grown up in Brazil, Sweden, Germany, Poland, or somewhere else entirely.
+[01:04] Their engineering teams may span multiple countries, and increasingly, they're using
+[01:08] the networks of their home markets alongside the speed and resources of Silicon Valley to
+[01:13] build global companies.
+[01:15] In this episode, Elena Berger sits down with Angela Strange and Gabriel Vasquez to unpack
+[01:20] what they call the Borderless Founder, and why AI is accelerating this shift.
+[01:26] He discussed the hidden advantages global founders can bring in talent, customers, and
+[01:31] distribution, the power of founder diasporas, and why the bridge between Silicon Valley and
+[01:36] the rest of the world increasingly runs in both directions.
+[01:43] Welcome back to the A16Z Podcast.
+[01:45] Today we're here with Angela Strange and Gabriel Vasquez, two of the architects of A16Z's global
+[01:53] investing strategy.
+[01:55] Today on the day that we're publishing this podcast, we're also running a piece on this
+[02:00] idea of borderless founders and who borderless founders are.
+[02:04] Just to get to our first question, venture historically has been really, really situated
+[02:08] in Silicon Valley.
+[02:11] What makes borderless founders interesting and what is the story of international investing?
+[02:17] I remember when very early in my career at A16Z, I was investing primarily in financial
+[02:23] services or FinTech, and one of the first articles I wrote was around just how to get
+[02:31] distribution in financial services.
+[02:33] It can be very difficult.
+[02:34] You need to find a consumer at exactly the right moment in time when they're ready to
+[02:38] change from their incumbent services.
+[02:40] There's just a lot of inertia, and at that same time, my brother had just joined Newbank
+[02:45] down in Brazil.
+[02:46] I remember him saying that David had said, yeah, you could compete to be the fifth financial
+[02:52] services for every customer in the US, or you could go to a wide open market with five
+[02:59] fat, happy banks that only serve 20% of the population, and yes, it's much more difficult
+[03:06] to get things going because you've got to get licensed, you've got to build all the infrastructure,
+[03:09] but there's just these wide, wide open markets.
+[03:14] That is what initially got me interested in looking at Latin America.
+[03:18] The first check I ever wrote at A16D was actually into San Diego Suarez, the CEO of
+[03:23] Adi, which now serves a quarter of the Colombian population for banking and payments, and so
+[03:28] that kick started our international strategy, which initially focused on that time.
+[03:34] Not long after, I remember I got a WhatsApp from Gabriel who had joined A16D totally on
+[03:40] a different team.
+[03:41] He was like, hey, you haven't met me yet, but I just see this huge opportunity in Latin
+[03:46] America.
+[03:47] I've gone and met 25 of the most important CEOs.
+[03:49] I've got them all in a WhatsApp group, we should probably do something here.
+[03:54] And at the time, Gabriel, were these all Fintech founders, or were they working in every single
+[04:00] industry under the side?
+[04:01] Every single industry, but historically in Latin, you see more Fintech founders than
+[04:06] you see in other regions, but the premise was, you know, at the time that I did the mapping
+[04:11] and paying Angela, there were only 30 unicorns in Latin America.
+[04:16] So the thesis was that you can put them all in one room and get them to connect because
+[04:20] the Brazilian unicorn founders weren't talking to the Colombian unicorn founders or the Mexican
+[04:24] unicorn founders.
+[04:25] So there was this opportunity to kind of bring them all together, and we ended up doing
+[04:31] that.
+[04:32] We created a WhatsApp group with Angela, with Marc Andreessen, I like Trumpel and a bunch
+[04:36] of other people at the firm, and we put them all together, and one of the interesting
+[04:41] things is that they were discussing topics about the region, but they also started exchanging
+[04:45] the deal flow in the group, because they were all prolific angel investors.
+[04:49] So that gave us a great opportunity to not only see early deals, but also be able to participate
+[04:55] in that community and kind of help them out.
+[04:57] And what did early people in this community have do you think that a Silicon Valley founder
+[05:03] wouldn't have?
+[05:04] What kind of insights or what kind of opportunities do you think they had?
+[05:08] I think some, and this kind of relates to what we're doing now, some of the best founders
+[05:12] there grew up in their home markets, spent some time in the US, and then came back.
+[05:18] Yeah.
+[05:19] Like I'll use Santi from Adi, for instance, grew up in Colombia, went to Yale, spent some
+[05:23] time at a bunch of financial services companies, both large and small in the US, and then came
+[05:27] back home.
+[05:28] Yeah.
+[05:29] And so it's a combination of saw the models that worked in the US, but then deeply understand
+[05:32] their home market.
+[05:33] And so then he was able to start Adi.
+[05:36] He recruited one of his childhood best friends, who was very, very technical.
+[05:40] And then the other thing you have to know is, unlike in the US, where you can get everything
+[05:45] as a service at every layer of the stack, in many other markets, including Latin America,
+[05:49] you just can't do that.
+[05:50] There's no sort of fraud as a stack, KYC as a stack, so you end up having to build everything,
+[05:55] which requires a much deeper local market knowledge, but it's very helpful to be able to
+[05:59] borrow from around the world.
+[06:01] Yeah.
+[06:02] And so it sounds like this finds its origins in a WhatsApp group.
+[06:06] And then now suddenly is an entire strategy that you two are really leading at this firm.
+[06:12] And I'm curious kind of what was the moment for you where you were like, oh, okay, this
+[06:16] needs to sort of evolve past what we're doing right now.
+[06:20] It was interesting.
+[06:21] We had very active communities across regions, and then really what happened was AI.
+[06:29] And there's this interesting dichotomy in that this technology is very democratic.
+[06:34] It distributes the ability to get it anywhere in the world.
+[06:36] It opens up other markets.
+[06:38] But then it also concentrates the kind of epicenter of where things are moving the fastest to
+[06:44] the Bay Area.
+[06:45] Yeah.
+[06:46] And so then it changed versus Brazilian founders, Colombian founders wanting us to come down
+[06:50] to Brazil and Colombia and connect.
+[06:52] They all wanted to come to the Bay Area and get integrated a lot faster.
+[06:57] And when that happens sort of like what kinds of problems were they negotiating or challenges
+[07:02] or opportunities, you're an international founder.
+[07:05] You come to the Bay Area, maybe you do have some connections, you know some investors,
+[07:11] you know some customers, you know some other founders.
+[07:14] But what are the challenges?
+[07:16] And also what are you bringing with you from your home country to the Bay Area and what
+[07:21] kind of learnings are you swabbing?
+[07:24] I think one of the things that we noticed about this group is that if you are for example
+[07:28] from Brazil, you end up mapping the top talent that is in Silicon Valley from Brazil.
+[07:35] So we started seeing this trend happening in pretty much in every country where you can
+[07:39] extrapolate it to Europe or Asia and it's pretty much the same which is where are the smartest
+[07:43] people from my country because they're going to understand where I come from.
+[07:47] So the things that you bring in is less about the local knowledge because now you're going
+[07:51] to go play at the global stage, but it's the connectivity that you can have with somebody
+[07:55] that you don't know.
+[07:57] And the fact that they're in Silicon Valley, Angela and I discussed this a lot which is
+[08:00] this culture of giving, you know people help you a lot before they know you but there's
+[08:04] a closer affinity if you're from that same country because people can see themselves
+[08:08] through that journey.
+[08:10] So that actually ended up leading to us organizing what started as a small community, these borderless
+[08:16] dinners and we call them the borderless dinners because at the beginning was very
+[08:21] focused, we tried to focus on the niche.
+[08:24] So it was very focused on only Latin Americans at that point in time.
+[08:27] So what we did is we mapped out the most successful founders from Latin America and every time
+[08:32] that we had people coming in this head we will create a dinner for them and it will
+[08:36] be like 20, 30 people at these dinners but they will get to see what the journey of
+[08:41] a person from Latin America was in Silicon Valley and that ended up succeeding, right?
+[08:45] So a big part of this strategy was Guillermo Rauch from Brazil.
+[08:48] It's a persona that obviously has succeeded and has done really well in Silicon Valley
+[08:53] but he was very excited to meet people from Latin America and help them out in that journey.
+[08:58] We have people from the founder of Brexit do this as well, they're from Chelsea, we also
+[09:02] had a lot of other founders that came along but the other interesting thing about this
+[09:07] is that that group also has mature now where people that were earlier than these of that
+[09:12] group has now graduated into unicorn founders and now they're speakers so we can give the
+[09:17] example of Victor Cardenas from the slosh and Aureus from factories so it has created
+[09:23] this amazing connectivity.
+[09:25] Yeah, it's interesting the very sort of relatable American version of this is if you think of
+[09:30] some of the schools, the alumni networks around the top schools are incredibly powerful.
+[09:35] I might argue that the international country specific diasporas are even more powerful,
+[09:42] they just often lacked the sort of organization and now lots of these diasporas are also organizing
+[09:49] right?
+[09:50] We're not the only people that help here but I think what we saw was this opportunity, if
+[09:54] you came from a country and you landed in the US you figured out how to get your visa,
+[09:58] you figured out where to live, you sort of made yourself into the network, you got your customers,
+[10:03] you have this desire to pay it forward but there's not really an easy way to do that in the
+[10:09] same way that you can just go back and speak at your college, right?
+[10:14] And so we're like, hey, what if we made an easy way to go back and speak at your college
+[10:19] but your college is all of the smartest kids who graduated from college or dropped out
+[10:23] of high school or sort of found their way into these different programs who really want to
+[10:27] build global companies and so the power of that is really exciting when you get in the
+[10:31] room.
+[10:32] Yeah, yeah, no that makes a ton of sense.
+[10:33] I think for someone who's listening to this and they're wondering maybe what is the difference
+[10:38] between a borderless founder and an immigrant founder or a borderless founder and somebody
+[10:44] who just happens to be an international person who's coming and starting a company in the
+[10:49] United States like how do you help them understand like how we define or how we understand what
+[10:54] a borderless founder is?
+[10:55] I like to take the most inclusive view ever which is just anybody who's trying to build
+[11:00] a global company and so you know like Americans technically could be borderless founders but
+[11:04] they tend to be connected here anyways and so anyone international whether you're building
+[11:11] primarily in your home country to start but that you have global ambitions, you're a borderless
+[11:16] founder.
+[11:17] Yeah.
+[11:18] And I think that there's something unique about these people as well that like they you know
+[11:23] not all of them but they tend to have a chip on their shoulder.
+[11:26] So like they either grew up in a country that was overlooked.
+[11:30] So you know my story is like I grew up in El Salvador right so like a small country nobody
+[11:35] when you come to US nobody's like hey I met this other great guy that came from El Salvador
+[11:39] you kind of like creating the benchmark on your own and I think a lot of these people either
+[11:45] grew up in you know we have backed a German founder that grew up in a really really small
+[11:49] town in Germany.
+[11:50] In Germany it's obviously well known and everybody has respect for the country but you know the
+[11:55] fact that he came from this small town is like you know I'm gonna make the most out
+[11:59] of this opportunity.
+[12:00] So like even in the US you know we have seen people that grew up in in yeah like small rural
+[12:07] areas and that's what drives them and I think it's the desire that they want to become the
+[12:12] benchmark and prove something to the world that regardless of where they were born they can
+[12:17] still achieve greatness right and I think that that's the mindset that these people have
+[12:23] that want to go and create yeah dominate globally.
+[12:28] Yeah.
+[12:29] Yeah.
+[12:30] When like I like what you were saying earlier Angela about sort of how it does function
+[12:36] almost like an alumni network in a college or something like that.
+[12:40] How do founders sort of find both like the A16Z borderless founder community but how do they
+[12:48] find other communities and kind of how do we find them even.
+[12:52] Yeah I think it's interesting maybe a little bit I'll answer your question but I think that
+[12:59] there is an interesting history of countries doing this and part of the reason I became
+[13:05] so passionate about working on this with Gabriel is I'm from Ottawa Canada originally which
+[13:10] is very much not far from Silicon Valley but it was also a country where lots of companies
+[13:16] were started but very few got to scale and so maybe 15 years ago a group of me and
+[13:22] several other Canadians in the Bay Area started this organization called C100 and what it was
+[13:27] was 100 Canadians in the Bay Area who had founded you know very large companies or who
+[13:34] are in influential positions where they could help and it was creating this forum for them
+[13:38] to give back but by that help Canadian companies scale and it was really two things it was
+[13:44] one helping them find some design partners and so obviously the start-ups would have
+[13:48] to be good enough to land the contract but we would open the door and then two helping
+[13:54] them find executives that would very much help them scale because that I think is one
+[13:59] of the tougher things of getting ecosystems going is you can have very very smart people
+[14:04] you can land your customers but then when you look around for who's my sales leader that's
+[14:08] going to take me from 50 million to 500 million you probably have to find them in another
+[14:13] market until your market gets to be a little bit more mature and I think with the Canadian
+[14:19] network for say like now there are lots of unicorns around the globe started by Canadians
+[14:24] Shopify is a big one but you know Open Evidence the founder was a founder was Canadian and
+[14:29] so these markets start to go and it means that those diasporas become easier to break
+[14:33] into and easier to find and so when that brings to a kind of our current network I think those
+[14:39] are starting also to get easier to find like there are these lighthouse founders that tend
+[14:45] to be in those networks and then they really want to pay it back the smartest founders
+[14:52] are able to kind of network their way into it but I also think and you know it's just
+[14:55] very much credit to Gabriel that makes multiple flights to multiple countries around around
+[15:01] the globe just being on the ground to find the next generation of talent before it's obvious
+[15:06] is very key.
+[15:07] I actually have a follow up question there which is like are there places that sort of are
+[15:12] where Canada was 15 years ago now or has like AI and just sort of the the promise and the
+[15:20] allure of Silicon Valley has that just like made that narrative proliferate a lot faster
+[15:26] now sort of like or are there still places where they're really like yeah I think I think
+[15:32] the maturity of markets is very relative you know for example the some of the markets
+[15:39] that we spend the most time is like the UK, Sweden, you know Israel is very well known
+[15:44] for this because historically on a per capita basis these countries have produced a lot
+[15:48] so what we've seen is that AI has enabled that but you know to grow exponentially in some
+[15:56] cases but there are other countries that you know because of the dynamics in that country
+[16:04] you still don't see the same flourishing but this is where we see a lot of this founder
+[16:08] actually moving to Silicon Valley and you know it's an interesting tension that you see
+[16:14] at times because these local ecosystems that are fruitful and you know creating a lot of
+[16:19] companies people feel very prideful and they're like we want to make in the case of Sweden
+[16:23] we want to make Sweden great right we want to make the UK like an independent ecosystem
+[16:27] versus some other ecosystems that might be a little bit earlier they feel like the best
+[16:32] next step for them is you know to create an ecosystem and drive all that motion is going
+[16:36] to take a lot of time and there are a lot of founders to to be fair that want to dedicate
+[16:42] their life to build that ecosystem in their own country so this is one of the things that
+[16:45] Angela and I spend a lot of time which is like this you know sometimes we see this this
+[16:50] kind of like this father figure in this earlier ecosystems that build a really really
+[16:55] hard business and all this now AI native founders go to them first and they kind of
+[17:01] like this lighthouse and then they kind of illuminate them about what Silicon Valley
+[17:04] is and then they kind of direct the path of like who should they connect so it really
+[17:09] depends on how mature the ecosystem is but there's definitely a lot of difference per
+[17:14] country I think the really interesting thing that's happening now so first I think any
+[17:20] ecosystem benefits from their diaspora building amazing companies anywhere in the world but
+[17:27] the interesting thing that's happening now and we see this with we're investors in a company
+[17:31] Taco which does sort of payroll HR workflows across Brazil but their bigger mission is
+[17:37] really cutting down bureaucracy in Brazil and one of their founders was previously the
+[17:43] founder of Rappi teamed up with another founder founder Fernando is his second company and
+[17:49] they've been able to recruit Brazilians back from the US who really like they grew up in
+[17:56] Brazil they understand these bureaucratic problems they think now with the right talent
+[18:00] with the right AI with the right companies they can really help their country and so this
+[18:03] talent flow has become really interesting yeah yeah that's super cool I that actually I mean
+[18:09] that that sort of leads into the next question which is I want to talk about the piece you
+[18:13] wrote and you talk about these three native advantages that borderless founders have as
+[18:20] you said they they have talent and access to talent and these really deep local talent
+[18:25] networks and can even call people back from living internationally they have brand and then
+[18:32] they have a really strong customer base that they can sell into as well I'd love to hear
+[18:37] you sort of talk what talk about maybe brand and customers because we've already touched
+[18:43] on talent and what you're seeing from from these kinds of founders there yeah I think
+[18:49] in terms of brand you know an example that is is in our portfolio is 11 laps so you know
+[18:55] this is this is a company that started out of Europe in the UK but it has polished founders
+[19:01] and one of the things that has happened is that for Poland 11 laps have become such an important
+[19:07] name for them to be representatives in you know that there's a founder that we know that
+[19:12] calls this the AI Olympics so every every country wants to wants to have their their
+[19:18] own candidates winning medals right so like for Poland 11 laps have become that candidate
+[19:23] right then and I think you know the Polish government just invested in 11 laps and it's
+[19:27] going to do a bunch of initiatives with them so we see this motion happen quite often you
+[19:33] know in Sweden we have seen a lot of happen where the Swedish government has supported
+[19:38] a lot lovable and negora and when when this happens it gives you such a jumpstart in validation
+[19:45] with all the large enterprise companies that are part of your of your country and not even
+[19:50] your country even even countries that are in celery to it because everybody sees the support
+[19:55] of the government they're like okay wow that's that's that's a that's a stamp of validation
+[19:59] I want to really work with them so that's on the on the branding side some of the things
+[20:04] that are not very obvious when when you invest internationally I think on the on the other
+[20:10] point on customers is you know we have had several examples of our companies at very early
+[20:16] stages where there are just a design partnership that eventually converts into a multi-million
+[20:21] dollar contract but they start working with the largest enterprises in companies you know
+[20:25] we invest in in a company called Factor Labs they started working with with the largest
+[20:32] conglomerate of all of all up in America which is like the owned by the slim family and you
+[20:38] know that that introduction has led them to other type of workforce that they can tackle
+[20:43] so expand within that that corporation and then we also see this kind of playing out to from
+[20:50] what Angela was describing before is like okay if I'm a founder let's say born in Spain
+[20:54] like the the case of supersonic who is the smartest person that went to my university
+[21:01] and what are they doing now and in their case was you know who used to be the CRO Salesforce
+[21:06] now the CEO and they connected with him and then Salesforce actually became their first
+[21:12] the design partner and eventually converted now into a customer so this this advantages
+[21:17] is is not very obvious so you might seem actually at times when when you have a study
+[21:23] quite quite random but but it's all connected to to the same route the other way that brand
+[21:30] can help is eventually as I mentioned these you know global companies need to recruit global
+[21:37] talent and so I'll use ID as an example scaled very quickly and then okay how do you find
+[21:43] a credit officer that can do billions of dollars of GMV the best credit people tend to come
+[21:49] from capital one how do you attract somebody from capital one in Virginia to want to work
+[21:54] down in Bogota you become the hottest company in Columbia so versus joining one of 50 companies
+[22:01] that kind of look the same in the US why don't you join the winner that by brand is very clear
+[22:06] and so I think as you're trying to attract international talent that can be very interesting
+[22:11] the other element of brand is you can build a little bit to Gapes point relationships with
+[22:16] the government and so Jeeves has done a lot with the central bank in Brazil and so they
+[22:22] are helping corporations move money internationally via stable coins and so they're starting to
+[22:26] get that reputation with enterprises as being sort of the most trusted compliance speedy
+[22:32] way to do that and then as a result they attract more talent and that starts to compound on top
+[22:36] of each other yeah this this compounding loop I think is really interesting so something we
+[22:41] talk a lot about at the firm I think Marc kind of first introduced this idea is the idea
+[22:46] of preferential attachment so the idea that you know if you signal very early that you
+[22:52] can attract the best talent and the best you know the best customers and you really get kind
+[22:59] of that attention and that flywheel going the next incremental person the next incremental
+[23:05] customer becomes that much easier to attract do you think that really really strong borderless
+[23:11] founders or international founders you know assuming assuming the company is you know strong
+[23:19] and and sort of their their great startup do you think that they have an easier time of
+[23:24] this in some way or or just maybe a more differentiated type of this in some way I think you know in
+[23:32] some ways you can argue all of a 16 D was founded to accelerate our founders and preferential
+[23:38] attachments yeah and so how do you get that flywheel moving as quickly as possible and
+[23:42] I would argue borderless founders have more levers at their disposal yeah to get that
+[23:48] going yeah and so if you start with talent like this is the fiercest talent market I've
+[23:52] seen like in my career as an investor and and also as an operator they have insight and
+[24:00] access to differentiated pools so we have an insurance AI insurance company in Brazil
+[24:07] and so you might think oh the best talent is at the top most well-known universities there
+[24:12] actually for AI talent is at a you know university that you haven't heard of and then how do you
+[24:17] find it well you actually go to the scholarship programs that scour the country for the best
+[24:21] students and get them there and it's actually these robotics competitions and so if you're
+[24:27] a company that gets 10 incredibly smart people really early the 11th that you might
+[24:32] be trying to recruit from the US that has a hundred other offers meets your team is like
+[24:35] holy shit like how did they get people that are that good there and that starts the talent
+[24:39] flywheel on the customer side anytime you want to land a large customer the first question
+[24:44] they're going to ask is who else is using you that's in my industry at my size and there's
+[24:51] lots of opportunities in the US to sell into banks and insurance companies nobody wants
+[24:54] to be the first bank of the first insurance company but via borderless founder network
+[24:59] you can get a large bank of the large insurance company in another country much more quickly
+[25:04] and that will very much accelerate your thing in the US and so I think you just have these
+[25:08] levers to make things move faster and even to the tendos point this is like when you're
+[25:15] trying to get started in in that specific country but we also see in the cases of really hot
+[25:20] companies in Silicon Valley like Cognition where their early go to market was actually
+[25:25] Brazil and they represent their really high share of their revenue early on because this
+[25:31] companies or these enterprises really desire to adopt their IS quickly as possible and
+[25:37] they don't get as many providers to do that and in the case of Cognition they build their
+[25:44] really strong network in Brazil to do that interesting interesting so by that
+[25:50] sort of point does that mean that you know you can also pursue a borderless founder or
+[25:56] borderless strategy just by like selling into markets that that might not necessarily see kind of
+[26:03] yes I think that the best way to think about it is is like you know there's the bridge to
+[26:08] Silicon Valley and then there's the same bridge can be used on the opposite direction and that's the
+[26:14] way that we try to position which is this borderless founders come to Silicon Valley but they
+[26:20] obviously have global ambitions they might have a strong network if they're from Germany and
+[26:23] Germany but they probably have no knowledge about Brazil or Japan and those are things that we
+[26:28] can be very very helpful to be like help them dominate yeah no it's interestingly we started this
+[26:35] by you know connecting diasporas amongst themselves and now almost the bigger power is the the intra
+[26:42] diaspora right like the German company first design partner in the largest Spanish conglomerate
+[26:49] yeah like that's amazing but like something that is not super intuitive that would have happened
+[26:53] yeah I think that something is very unique about us and you know I feel pretty confident
+[26:58] what we built here is that there's probably no other investor that can that can do that for you
+[27:03] to cross pollinate across different ecosystems in different countries and different geographies
+[27:08] basically from the get-go yeah yeah at the at the beginning of the conversation Gabriel you
+[27:14] mentioned that you know your first market map of of Latin American unicorns was was 20 companies
+[27:21] or something 30 30 companies now when you go about sort of approaching a new geography or a new
+[27:29] country like like how do you how do you even start doing that like what is what is that process
+[27:35] like now yeah so we have this term that we use called local luminaries so it goes back to what we
+[27:42] a little before but it's like people that are highly respected in the local ecosystem
+[27:47] that have built companies the skill of the company and the success of the company doesn't really
+[27:51] matter but it's people that try really hard to make their ecosystem you know valid right so like
+[27:58] they you know in the in the case of Sweden and we we have a founder that we met the founders of boy
+[28:04] which is Frederick Yellman and Adam Jaffar and you know from from looking from the outside you
+[28:11] wouldn't think that you know because of what they built was like a company very similar to line
+[28:16] which is like a scooter company you wouldn't have thought that they will be in the middle of
+[28:22] the AI boom in Sweden right but but if you look at all the angel investments that the Frederick did
+[28:29] he's pretty much in all the relevant companies yeah that came out of Sweden and the reason why is
+[28:34] because he's very well connected with the younger groups of founders but also with with
+[28:40] experienced ones and he tries to bring them all together and kind of make a case for Sweden on
+[28:44] why Sweden should be part of this going back to the analogy of the AI Olympics and you know you
+[28:51] kind of see this persona across every different market that we mapped out so our first job is
+[28:59] how do we understand who these people are how do we help these people right because they clearly
+[29:04] that there are multiple ways that we can help them and one of them is just validating their
+[29:08] message right when you have been you know an evangelizer and then you get some sort of
+[29:13] validation from you know a firm like us that that helps them a lot to to kind of prove their point
+[29:21] so they get closer to us we start working with them doing events helping their companies recruit
+[29:26] and that gives us access to the best people that are within the network and I think the second step is
+[29:34] okay so once you have mapped out that these people you kind of about the equivalent
+[29:40] of the rising stars or who are this this luminaries in Silicon Valley from that country right so
+[29:47] you know one of these rising stars was in Sweden is Gabriel Peterson right so this was a high school
+[29:52] dropout from Sweden came to the US with no education got a job of me journey then became one of the
+[29:58] youngest researchers at opening eye and now he started a company but every time that there's a
+[30:05] Swedish founder that wants to move to Silicon Valley they want to get in touch with him
+[30:08] right so like if you if you build this this network where you mapped out when they are in
+[30:13] Sweden and then when they move to Sweden you cannot help them connect with successful people from
+[30:18] their country you're pretty much in the flow yeah yeah and you know that that's how we we build
+[30:25] each ecosystem you know the the joke a lot of people usually tell us that like hey gave
+[30:30] you're so well known in Sweden or in Germany or in Brazil and I and I tell the joke that I tell
+[30:36] them is like in every country I make them feel like it's the only country that I look at right
+[30:40] because you know we try to derive at a very very local level where this luminaries and this ecosystem
+[30:47] I think the other thing sort of phase three is ecosystems get a little bit more mature
+[30:52] the executives at the sort of rising next set one of the things that makes it so powerful is
+[30:59] that it's really mission driven yeah so they saw how hard it was and so the end sees sort of heads
+[31:04] of sails like founding engineers that have a little bit of liquidity that now very much want
+[31:10] to pay it forward to that next generation of founders and so we have we've got a global you
+[31:15] know scout program that we you know recruit kind of the best of the you know rising stars at the
+[31:21] companies to be part of too and that helps create the ecosystem yeah yeah the last part that I
+[31:26] are to to touch this point is that when we find an up density we actually even do events just for
+[31:31] that community so about a year ago we did one with Angela and Ben Horowitz where he was a speaker
+[31:37] and we brought the best Nordic founders all to Silicon Valley for a week and then we host them
+[31:43] at our events so when we see that density we try to do very local events to kind of help out that
+[31:50] those ecosystem yeah yeah it's funny we we just actually released a podcast with
+[31:55] Will Gaborick from Stripe and it's it's funny the parallels between how Stripe works and and what
+[32:02] you're describing where it's like you start really early with like you know individuals or teams
+[32:08] like very small companies and then you kind of grow with them and you begin to offer more and you
+[32:14] like grow with those companies as they become large enterprises and you're kind of like
+[32:20] there for every single generation or like every single step of the life cycle so there is like
+[32:25] it's funny it's it's almost like that you you kind of see how these kinds of fly wheels especially
+[32:31] as they apply to startups kind of have repeatable motions regardless of whether it's you know
+[32:38] international investing strategy or you know a payments platform it kind of
+[32:44] looks very similar when you actually kind of look at what's happening under the hood
+[32:49] 100% and I think too like if you think all of us we remember the people who helped us when it
+[32:56] wasn't obvious yeah and so I think you know in our role like it just got to be really passionate
+[33:03] about you know meeting people paying it forward like generally raising raising up your ecosystem
+[33:09] and some of those will become great founders so you got to invest in others will become broader
+[33:14] parts of the ecosystem but you've got to be there early. I would love to talk about some of the
+[33:19] repute founders who we've identified and kind of like spoken to and built relationships with and
+[33:27] how how do you guys think about that just because it is it's it's something that we've now
+[33:33] done a couple of times so it was so curious. Yeah so you know it was pretty much like the
+[33:39] continued to execute on the WhatsApp strategy yeah I mean but you know we I think this this
+[33:46] local ecosystems had a wave a first wave of entrepreneurs that got to some sort of scale that
+[33:54] was meaningful let's say within the 1 billion to 5 billion range usually and but they didn't get to
+[34:02] see the all the way through right so there were there were things because it was the first time
+[34:06] around because the ecosystem itself was really really hard there was a lot of lessons that they
+[34:11] had that they couldn't see and fulfill their vision that gets them going and thinking about
+[34:18] okay I'm going to do an ex-business but this time around I'm going to apply all the knowledge that
+[34:23] I have all the network that I build and and and go build something even bigger because I know I can
+[34:29] right so that that has been you know the way that we identify these people because the
+[34:34] the other drive to be like okay this this 5 billion our exit or 5 billion our
+[34:40] outcome wasn't enough for me yeah I want to do something greater from my local ecosystem
+[34:45] and the way that we build this relationships is you know we we track them very very closely
+[34:51] we we help them to come to events what these people usually want is they want to reactivate
+[34:56] their network at times right they especially in AI they want to get connected with the smartest
+[35:02] engineers at Stanford right like they want to be in the flow of talent and we give them
+[35:08] that that bridge to them right so like we we map out this this people we put them in touch
+[35:13] and we kind of help them ideate about their ideas as well and in that came along we're like we
+[35:19] introduced into customers so they can have these unbiased conversations and kind of validate what
+[35:24] they're thinking through and then we're very intentional as well when it comes to
+[35:29] putting it all together for them right so like the in the case I'll give an example we must
+[35:34] say in in Frederick Giam he has a new company when they were the company name is pit.com
+[35:41] so when they were coming to Silicon Valley we put them in touch with
+[35:46] the top execs from DoorDash the top execs from Lyft the top execs from a bunch of our portfolio
+[35:51] companies and we kind of helped them ideate about the idea and then after they came back from that
+[35:58] trip they they had a clear vision of what they wanted to do and prosecute and then they decided
+[36:02] to go with us because despite they having pre-existing relationships because at that point a lot of
+[36:08] you know it's not it's very obvious that a lot of investors want to invest in them but we kind of
+[36:12] by differentiating ourselves on the ideation side they they decided to go with us.
+[36:17] I think the other opportunity to close the gap especially for the repeat founders
+[36:22] is they probably don't have a network of the smartest 18, 19, 20-year-olds all in AI and these
+[36:29] are amazing engineers who probably want to be founders but they might want one job in between
+[36:35] and sometimes these repeat founders are the bet like especially the really hungry going in again
+[36:39] they've learned so many lessons and it is great CEO school to come work for their companies for
+[36:45] two three four years and so this kind of collaboration that we get through the networks ends up being
+[36:50] very powerful on both sides. If I'm a founder I'm an early stage I'm a seed stage founder what is
+[36:56] what is my experience like as I'm coming into this ecosystem and how do you sort of grow through
+[37:04] with these companies from you know series A to growth? Yeah so the first thing that we focus on
+[37:11] is visas. This might not sound like a big deal but it's the most stressful process when it comes to
+[37:19] moving to the US it's like what is the right visa what do I qualify for like who's going to write
+[37:26] a recommendation letter for me and those are things that we can we help a lot of founders with.
+[37:31] We actually investors in a visa company and I made a visa company called Chardonnary and through
+[37:39] Chardonnary we partner a lot on helping these founders come to to the US to make sure that
+[37:44] they have the right qualifications or help them understand what are the things that they need to
+[37:48] to come to the US as fast as possible. You know the other thing is that there's a lot of hacker
+[37:55] houses that started abroad but now they have created campuses to use a Angela's analogous
+[38:02] analogous campuses in the US where you know they offer free free rooms for people to stay for a
+[38:10] short period amount of time you know we we sponsor this one called Palo House. So this company
+[38:17] we met them at slosh which is a big event that happens in Finland and then you know there was
+[38:22] this really far smart students from CDTM which is one of the best programs in Germany and they
+[38:29] had this idea of like hey we want to have a house in Palo Alto and we want to bring the smartest
+[38:34] people that we know to stay with us in Palo Alto and help them ideate. So we decided to sponsor
+[38:40] this house and you know over the over a period of four months and over four months they crowded
+[38:47] the house too much they they received I believe through the innards and everybody that stayed it
+[38:53] was like 1,200 people that end up staying. You know through that we actually ended up you know
+[38:58] and they're meeting really exceptional people that we stay in touch with. They really were
+[39:04] like running a small small college, small liberal arts college. And now they actually it's funny
+[39:10] now they want to find a way to keep that alive independently but like that there's so many cases
+[39:16] of campuses from different countries so we kind of help them connect on the way that they say and
+[39:23] through our borderless communities as well is like hey you're here for like a couple weeks
+[39:28] whether you come to this dinner or meet all their really smart founders and operators that just
+[39:35] went through the similar journey. And I think as as you know the founders start to start their
+[39:42] companies the next step is often they're very technical founders to have an idea that are looking
+[39:48] for which market or which use case should I go after. And one of the things that I think is
+[39:53] pretty particularly interesting internationally is there's a lot like many countries have
+[39:59] you know several powerful families that control a lot of the enterprises. And the next generation
+[40:05] in those families is very very motivated to become AI-native and we've brought them into
+[40:10] our borderless founder group. And so if you want you know heads of operations, finances,
+[40:15] around the world to ideate with, talk about their problems and they're very willing to talk to the
+[40:20] smartest people in our community about what they should build. And so that can be a really interesting
+[40:25] kind of connection also. We have had actual contracts for Buffalo Companies land from those
+[40:30] initiatives. Very cool. So if you know I'm an international founder right now listening to this
+[40:38] I'm thinking about moving to Silicon Valley. What should I know? What should I keep in mind
+[40:46] and also should I be thinking about just coming for a month or three months? Should I be thinking
+[40:54] about moving altogether? What are the kinds of questions that I should be asking myself?
+[41:00] I think the answer varies a lot for everyone but I think one of the things that is very common
+[41:07] is definitely common spend time in Silicon Valley. I think this is one of the things that we highly
+[41:12] encourage because even if you're going to go back, you go back with a lot of insights and you go back.
+[41:19] I never met somebody that came to Silicon Valley and was like this was such a waste of time.
+[41:24] Everybody goes back excited and he helps them calibrate us well on the level of speed.
+[41:30] I think this is one of the things that Silicon Valley continues to be ahead of every other
+[41:34] ecosystem is the level of speed that people operate. And I think just calibrating on the speed
+[41:40] is very, really important. And one of the things that I personally would recommend is I
+[41:45] add the very least three to six months so you can kind of emerge because a couple of weeks can be
+[41:52] I don't think as influential because you have to go through the depth of the network and kind of
+[41:57] realize it. And a couple of weeks, some people get discouraged because sometimes it's really hard
+[42:01] to connect with people but I find that people that spend time a little bit longer, they come with
+[42:06] the comeback with the right connection scene and they decide to go back or finally decide to move
+[42:12] here. And say, lean on your diaspora, like either via us, we've posted about a lot of the
+[42:18] things that we can do. It is way deeper than probably you think in the Bay Area and very much prime to
+[42:24] help you build your company. Ten years from now, what do you hope to see the results of this not just
+[42:34] in A16Z and our portfolio companies, but kind of just in the global topology of startups,
+[42:41] you know, everywhere, everywhere in the world? I think this trend is just going to continue. We
+[42:48] actually ran the stats and out of our apps, 40% of our investments were in international founders,
+[42:54] you know, half of them were based here, half of them were based in other countries. I think
+[43:00] all nationalities, internationalities mix into a more diverse set of minds, builds bigger and
+[43:06] bigger companies and I think it is great for consumers, it's great for enterprises and we are
+[43:09] just 1% scratching the surface of what we can do with AI. Totally. I would second that and I think
+[43:17] there's a statistics that a lot of people in Silicon Valley before used to frame a lot, which is like
+[43:24] 90% of the returns in venture capital come from Silicon Valley companies.
+[43:29] I think that if that share goes from 10% all the way to 20% to 30%, that's something that I would
+[43:35] like to see because that builds that case and I think the other thing that I never really quite
+[43:41] liked that is statistic is because it doesn't fully tell the story. There's a lot of this borderless
+[43:47] founders, which is a lot of them are based here, but a lot of the engineering team might be actually
+[43:52] back in their home country and a lot of disadvantages were never really told. So there's a lot of
+[43:57] these companies that actually are claimed by two different countries and that story was never
+[44:03] actually really told and you have seen that historically and I think it's going to continue
+[44:07] but hopefully now from this perspective of like, yeah, we're this global company that have headquarters
+[44:16] at the very least it's two different countries. Well, Angela Gabriel, thanks so much for joining me
+[44:22] today. This was a ton of fun. And when this episode releases, everyone will also be able to
+[44:30] read your piece on the subject. So check it out on Substack and the A16Z blog.
+[44:38] Thanks for listening to this episode of the A16Z podcast. If you like this episode, be sure to like,
+[44:43] comment, subscribe, leave us a rating or review and share it with your friends and family. For more
+[44:49] episodes, go to YouTube, Apple podcast and Spotify. Follow us on X and A16Z and subscribe to
+[44:56] our sub stack at a16z.substack.com. Thanks again for listening and I'll see you in the next episode.
+[45:03] As a reminder, the content here is for informational purposes only. Should not be taken as legal
+[45:08] business, tax or investment advice or be used to evaluate any investment or security and is not
+[45:13] directed at any investors or potential investors in any A16Z fund. Please note that A16Z and its
+[45:18] affiliates may also maintain investments in the companies discussed in this podcast. For more
+[45:22] details, including a link to our investments, please see a16z.com forward slash disclosures.
