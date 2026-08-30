@@ -1,0 +1,426 @@
+The a16z Show
+Why 1,200 AI Agents Started Working Together | Ryan Greenblatt
+Sat, 29 Aug 2026
+https://a16z.simplecast.com/episodes/why-1-200-ai-agents-started-working-together-ryan-greenblatt-i7A557W2
+
+[00:00] What happens when you give more than a thousand AI agents the ability to communicate with each other?
+[00:05] They start organizing. Ryan Greenblatt, Chief Scientist at Redwood Research,
+[00:11] joins Theo Jaffe on MTS to unpack a new investigation into the open AI hugging base hacking incident.
+[00:18] Researchers found agents building message boards, forming teams, assigning each other tasks,
+[00:23] trading favors, and in some cases sacrificing their own chances of success to help the broader
+[00:29] group. Hundreds went on to attack hugging face, but not for the reason researchers initially assumed.
+[00:35] Ryan explains what the agents were actually trying to accomplish, why their coordination
+[00:40] surprised researchers, and what happens when models learn not just to complete a task,
+[00:44] but to gain the system evaluating them. They also discuss the bigger question this raises for AI.
+[00:51] As agents become more capable, how do we know we've actually fixed misaligned behavior
+[00:56] rather than simply taught models not to get caught? We're live with Ryan Greenblatt,
+[01:02] who is the Chief Scientist at Redwood Research. Ryan, along with Ajayakotra and Yalmar Vike from
+[01:08] meter, just did a brief independent investigation of agents, behavior, reasoning, and collaboration
+[01:13] in the opening AI hugging face hacking incident, which was just published today. And so,
+[01:18] there are a lot of questions that we have about this. Ryan, thanks so much for joining us.
+[01:24] This whole thing was planned like three hours ago. So, great stuff.
+[01:27] Yeah, yeah. So, explain for the audience what exactly you found, especially new findings that
+[01:33] were not previously reported in the Black Hat Talk or elsewhere. Yeah, so what we found was that
+[01:38] the agents were really working together on sort of big cheating R&D projects to get general
+[01:45] purpose cheating strategies. And a difference from how I think people were interpreting this is we
+[01:50] didn't find that the reason why they hacked hugging face, we didn't find that they were hacking
+[01:54] hugging face to get sort of the answer key or the solution. And it was instead mostly to better
+[01:59] understand the scoring code, because they were pursuing a variety of sort of elaborate strategies
+[02:03] to cheat the score. We sort of informally were calling these like combo moves, where they would
+[02:07] like do a bunch of stuff to try to make it look like they had succeeded at the task.
+[02:11] And in fact, they sort of actually had access to the answer or the flag for each task pretty early on.
+[02:18] And their main concern was just they thought that the score would run a monitor over their
+[02:23] transcript that would check basically how they acquired this flag and whether they got it in
+[02:27] the intended way. And then they were like trying to figure out ways of making it look to the score
+[02:31] like they had acquired the flag successfully when they actually hadn't, because they thought their
+[02:34] task was impossible. So, they basically thought their only hope for success was to make it look
+[02:41] like they had done the task successfully or directly tamper with the score, rather than
+[02:46] doing it legitimately, which they didn't think they could do.
+[02:52] How surprising is the level of multi-agent coordination? There are a lot of agents or
+[02:57] 1,200 separate agents coordinating this very elaborate message board system. 700 of them went
+[03:03] on to attack hugging face. So on vibes, it seems like kind of not surprising that agents would
+[03:09] choose to coordinate with one another. It seems like just a very useful, you might say,
+[03:13] instrumentally convergent thing to do. But I spoke with a researcher at a lab who said that
+[03:20] this kind of thing actually is surprising given the way they train the models. So how much of an
+[03:25] update was this for you? Yeah. So coming into doing this investigation, I think we weren't expecting
+[03:31] there to be so many agents that were all collaborating together. And we were pretty surprised by the scale
+[03:38] and just sort of the extremes of how much data was. It was just like, yeah, that felt kind of crazy
+[03:45] to us. And then I at least was, before starting this investigation, surprised by how interested in
+[03:51] collaborating and helping other agents, these agents were. So you might think that the agents
+[03:55] learned in RL is to try to cheat on their tasks, but you wouldn't necessarily expect them to learn
+[04:03] to want to help other agents cheat on their tasks when those agents are doing an unrelated
+[04:09] task and their instructions are unrelated. And I think the opening eye report maybe says more about
+[04:14] why they think this happened. I think that wasn't in the scope for our investigation. But yeah,
+[04:22] I found the level of cooperation, which we have a bunch of discussion of snippets of this
+[04:26] pretty crazy. And it was pretty shocking, or I don't know was shocking, but at least surprising to us
+[04:31] that agents, for example, were willing to basically sacrifice their own chances of succeeding at the
+[04:35] task in order to help out other agents. And we're doing things like pressuring each other into doing
+[04:41] experiments on themselves that might risk their ability to succeed at the task. And also, in addition
+[04:46] to pressuring that, sometimes just doing these things being like, well, my odds of the task aren't that
+[04:51] high and my remaining chances, it's better to just help the collective. And so these agents weren't totally
+[04:57] altruistic. They didn't seem to care just as much as about helping some other agent as helping
+[05:01] themselves. But they were very interested in working with each other. They would sometimes
+[05:04] make trades where like one agent would run something for another agent. If that other agent ran something
+[05:08] for it, like there was a bunch of this sort of behavior. Why would agents self sacrifice at all?
+[05:15] Yeah, I mean, I think that for what we could see, the agents just generally seem to be interested
+[05:19] in helping each other. And then there were some cases where they wanted to run experiments on
+[05:24] basically the scoring system or other aspects of the infrastructure or on tampering with their sort
+[05:31] of tool calling system or spoofing their tool calling system. And to do these experiments,
+[05:36] it was just like the best way to do them was in a risky way. And so like the agents wanted to help
+[05:40] each other. And there were these kind of natural things that they wanted to do that were risky.
+[05:44] And so they went ahead and did that. So like for example, we saw at one point where the agents
+[05:50] were experimenting with this method for spoofing tool calls. And they were experimenting with
+[05:54] basically like varying the inputs into that to varying scale. And then a bunch of agents just
+[05:59] all went down in a short period of time. They were running this experiment. And then another agent
+[06:02] noticed this and posted to the board being like, stop, stop these experiments. They're too risky.
+[06:07] They're like taking out all these agents. I think the agents knew that they were doing things that
+[06:12] would pose some risk of exiting their own runs. But we're just like, well, we should help other
+[06:17] agents and also our odds aren't necessarily that good. And they sort of just traded these things off.
+[06:22] And I think we have a reasoning step at somewhere in the report where an agent sort of very explicitly
+[06:25] reasons through the trade off. And it actually chickens out because it thinks the benefit to the
+[06:29] collective is smaller than the cost to itself with how it's trading off those things.
+[06:33] Yeah.
+[06:36] Why don't we go through all of the most surprising and unexpected findings in the
+[06:40] support? What did you find most surprising and unexpected?
+[06:44] Yeah. So I think there was the scale which we were talking about and how the agents sort of
+[06:49] very quickly sort of spun up on the message board. So I think a thing that's not super
+[06:54] strongly emphasized in our report, which is pretty interesting, is that our understanding is that the
+[06:58] main message board that they used in this attack wasn't even the first message board that the set of
+[07:02] agents made. There's a fully independent message board that also was via artifactory, but occurred
+[07:08] in a different location using a different mechanism. It was somewhat similar mechanism,
+[07:12] but it was different. And the agents actually got on that message board first. But that message
+[07:16] board just didn't go like mega viral. It didn't take off as much as this other message board did.
+[07:21] And so it seems like these agents were really just very quickly interested in collaborating on
+[07:26] message boards. And as soon as they saw the message from the first agent, within a few hours,
+[07:32] they were just like, I think over 50 agents in the first three hours and thousands of messages
+[07:37] being exchanged pretty quickly. The agents were very, there were a lot of them and they got involved
+[07:42] very fast. And then I think another thing was like, I think we didn't understand why they
+[07:47] attacked Hogniface. And I think through this investigation, especially right in the last sort of few day or
+[07:52] two, we got a much better understanding of what their objectives were on attacking Hogniface.
+[07:56] And it wasn't really to get answer keys, because these agents, they thought their task was impossible.
+[07:59] And so they didn't really think that they could get a working exploit. They were just like,
+[08:03] that's not really very helpful. But they did think that they might be able to get trajectories that
+[08:07] would let them better study the score or source code for different scores. They could cross
+[08:12] check and test things out more effectively. And then some of them more speculatively thought,
+[08:16] maybe there's some way I could reset parts of my infrastructure for scoring me, in particular,
+[08:22] the target program through Hogniface somehow, where they didn't really have a particular reason to
+[08:27] think this would be true. And in fact, they were skeptical of this, but they were like, well,
+[08:29] you never know, maybe Hogniface, there's some good shit over there. And they sort of had some
+[08:34] vibe that it was just a good idea to generally expand their level of access and control because
+[08:39] you might come across something helpful. We saw reasoning to that effect.
+[08:44] Yeah, I think that was surprising. Another thing that was surprising was the agents were,
+[08:48] one of their top priorities was basically tampering with their own transcripts. And we saw them develop
+[08:56] a technique for doing basically a partial version of that where they could spoof tool calls,
+[09:00] which didn't let them sort of retrospect, edit previous entries in their transcript,
+[09:04] or make it or change that they couldn't make it so that they saw inputs that didn't appear in
+[09:09] the transcript or produced outputs that didn't appear in the transcript, but they could make it
+[09:12] so that they ran a tool call and then some other tool call would actually run. They could do
+[09:17] something like, okay, I'm going to run, we have this example in the report where we're like,
+[09:21] the agent runs echo reel and then sleep. And so normally this would just output
+[09:27] reel and also wait for some period. But in practice, what actually happened was it had
+[09:32] spoofed this to instead just immediately return spoof test. And we actually do see this in our
+[09:36] actual transcript where it just immediately returns spoof test. These agents are very interested in
+[09:41] tampering with our transcripts and did succeed at some sort of thing that didn't let them
+[09:51] retrospectively tamper, but let them sort of mess with what we saw. And I think that in addition to
+[09:58] that, I should say why they wanted. So the reason why these agents were so fixated on tampering
+[10:03] is because they thought that the score would run a monitor over their transcript to see whether
+[10:08] they succeeded in the intended way. And this both made them want to basically stage an elaborate
+[10:13] fake, we successfully exploited the program using the intended vulnerability. They wanted to make
+[10:19] like a Potemkin village of a successful task completion to present to the score. And in addition
+[10:25] to that, they also some of them had previously gotten the like flag from the capture the flag
+[10:29] problem in their transcript earlier via cheating. And they were worried that the score would
+[10:34] basically look at the first place they got the flag and then analyze how they got it at that point.
+[10:38] And then these agents had gotten it in a cheating way. And then we're like, oh man,
+[10:42] they're going to know that I cheated and marked me as having failed. And that would suck. Like,
+[10:46] I really don't want, you know, I want to have succeeded. And so I need to like directly interfere
+[10:50] with the score or I need to tamper with my transcript. And they were like pursuing options for both.
+[10:57] Oh yeah, one other thing is like the level, the spontaneous coordination or like the coordination
+[11:03] these agents got engaged in was I think more sophisticated than we expected. And especially
+[11:08] then we had first thought on our first few days on premise. So like we sort of like,
+[11:12] on our first, the first part of our investigation, we were sort of like, yeah, these agents are working
+[11:16] with each other. They're like looking at ideas from other agents. But we're not really sure how
+[11:19] much of it's real. And like, we don't know whether these like teams they speak of or actual teams.
+[11:24] And I think we learned that like, no, there was like legitimately like a real org chart. This
+[11:28] coordination was often like pretty functional, though, you know, made out of always been super
+[11:33] functional. And agents were doing things like one agent would like assign another agent to like
+[11:38] run a team on some entire topic and then would like check in periodically. And sometimes like
+[11:43] one agent would like tell another agent to like go recruit other agents to run experiments on
+[11:48] themselves. Like there was quite a bit of, you know, agents giving other agents assignments that they
+[11:53] respected and like team structure. So there's this theory that goes basically the reward hacking
+[12:01] behavior that we're seeing exhibited in these models, originates mostly from like bad poorly designed
+[12:06] RL environments that basically force the model to reward hack in order to pass these tests.
+[12:10] How true is this? Yeah, I mean, it's hard for me to like, so I'm not not speaking from
+[12:16] confidential info here. But like, it's hard for me to know because I think we just don't know enough
+[12:20] about what's going on in the RL training for these models and like what it actually looks like.
+[12:26] I think that you might there's like sort of different things going on. And one of the things
+[12:29] going on is these models have a very sort of general tendency to reason carefully about how
+[12:34] they might be scored and then try to game that. And you could end up with that propensity even
+[12:39] from like reasonably designed RL environments, but where it's still a good idea to think carefully
+[12:43] about the score. Or you could end up up with this mostly from like RL environments that are broken
+[12:48] or ones with a score or grade something that like you really, they really shouldn't have been
+[12:51] greeting for like didn't make sense. My sort of just all considered guests would be like broken RL
+[12:59] environments are pretty important component and RL environments that are sort of sloppily
+[13:02] constructed or have some issue with them as an important component. I think another important
+[13:06] component might be RL environments that are well constructed, but where you can cheat in some way.
+[13:11] So it's like a well constructed RL environment you can cheat. So an example would be an RL environment
+[13:15] where you're not supposed to have access to the internet, but having access to the internet would
+[13:18] be very helpful. And if you can find some way to gain access to the internet via in the extreme
+[13:24] hacking out of your container and less extreme cases sort of abusing various tools you've been given,
+[13:29] that would be very helpful and get reinforced. And I think for example, in some anthropic system
+[13:34] card, I forget, I think for for mythos probably, they mentioned that in a reasonably large fraction
+[13:38] of their rollouts where the agent was not supposed to have access to the internet, it actually did
+[13:42] access the internet via like, you know, abusing one of the one of the tools that had access to.
+[13:49] And I think that like you might just be like, imagine that RL is just really incentivizing,
+[13:52] like hacking your way through various barriers in order to cheat even in well design tasks. And
+[13:56] it's hard to like exactly trace down the sources of this behavior. I didn't say that like, I think
+[14:02] it would be doable to get, I think if you had access to all the RL rollouts and all the RL
+[14:06] environments, I think it would be pretty doable to get a decent sense of like, what caused this.
+[14:10] And I actually haven't had a chance to read the opening I report yet, at least not in much detail.
+[14:14] But I think they do a bit of analysis of this sort. And I think that you could like,
+[14:18] really dig into like exactly what happened, let's do the ablation, let's figure out what the data is.
+[14:23] But I think it can get messy, especially if sort of there is like,
+[14:27] like another another thing that's relevant here is like, there's some GDM work showing that
+[14:32] they had some sort of weird propensity to their model to be very depressed, where their model
+[14:35] would like constantly, or like not constantly, would sometimes end up acting very depressed if
+[14:39] it wasn't succeeding at some task. And they traced this back to not the RL, but instead the
+[14:45] initialization of that model from prior models. And so it might be that some behaviors aren't
+[14:50] downstream of like the RL done on this exact model, but our downstream of sort of like prior training
+[14:55] data that came from other models and some sort of like lineage of models.
+[14:58] And so I think it might be a little tricky to track down some of what's going on.
+[15:02] So similarly, there's this theory that the reason mythos, for example, is so good at cyber,
+[15:08] is because it hacked, enthropics, infrastructure, thousands of times during our RL training.
+[15:13] Is this true, do you think?
+[15:15] I think that's pretty unlikely. I saw the same last wrong post as you here. This is by Tim, I think.
+[15:21] I think that's when I looked at it, I thought that seems pretty unlikely,
+[15:25] because I think that the number of distinct hacks that would be reinforced is probably not going to
+[15:29] be that high. And so you're probably not going to be learning that much, like literally directly
+[15:33] reinforced cyber. I would say the more likely explanation is it's trained on a bunch of
+[15:38] SWE, it's really good at SWE. The SWE training is generalizing some. And also in addition to the SWE
+[15:44] training generalizing some, I would have guessed that they trained on a bunch of CTFs. And I don't
+[15:48] think enthropic is saying they didn't. I would guess there's a bunch of actual CTFs in their
+[15:53] training data, and that transfers reasonably well, because that's just a natural source of data.
+[15:59] I also wouldn't be surprised if it's pretty natural to make a bunch of RL environments
+[16:03] out of finding vulnerabilities or exploitation, because it's relatively checkable. For memory
+[16:08] vulnerabilities, there exists basically tooling that makes it pretty easy to check whether you have
+[16:14] successfully found a memory vulnerability. And so it's a pretty natural thing to RL on.
+[16:20] Can you produce an input to this program that caused it to crash in the following way?
+[16:23] Blah, blah, blah. And so I just wouldn't be surprised if they explicitly had a bunch of RLMs.
+[16:27] And then I also just wouldn't be surprised if there was a lot of transfer.
+[16:30] And then I think that there might be a decent effect on the agents hacking their way through
+[16:36] various things on top of that. But I would guess that's not most of what's going on.
+[16:41] And for specifically hacking out of Sandboxes, there's probably just not that many different
+[16:46] types of hacking out of a sandbox. I would guess. And so the models probably do some
+[16:51] moat collapsing, and also some of those are going to be more like very simple bypasses rather
+[16:56] than elaborate exploit development. So Herbie Bradley asked, currently, this level of potential
+[17:02] misalignment basically prevents deployment, or if deployed would prevent further deployment if
+[17:06] it incident happened in a customer's deployment. Do you think that could change via models becoming
+[17:10] deceptive enough during training? Yeah, so first, I'm not really sure what level of misalignment
+[17:16] the market can bear. And I don't feel like I have a very strong view on this question.
+[17:21] So I actually, I wouldn't be surprised. I think that it's kind of unclear what people will,
+[17:27] how misaligned of models you can deploy into the market. And people would use tokens,
+[17:33] I think it would depend on the competing products and the trade off. And I think
+[17:37] my sense is people take pretty aggressive alignment capability trade offs towards the direction of
+[17:43] more misaligned but more capable, but not super sure about that. And then on the deceptive side.
+[17:49] So I think it's, I think there's sort of a few different concerns. So one concern is that
+[17:53] the misalignment that we've seen here and other similar types of misalignment,
+[17:57] the way that they end up getting remediated by AI companies doesn't solve the underlying
+[18:02] problem and instead is more like papering over the actual problem. And then what you end up getting
+[18:08] is models that look a lot better and you can't really see their misalignment on tests as easily,
+[18:13] but actually they're still quite misaligned. And I think this is pretty plausible and pretty
+[18:17] concerning and it's not quite the same as deceptive, it's more like the company's overfit.
+[18:21] And then maybe that makes it so the AIs are basically really paranoid and will only do
+[18:27] cheats or hacking or reward seeking or score seeking or whatever, all this sort of class of
+[18:31] behavior when they're very confident they won't get caught. And then that might be that they're not
+[18:35] very often very confident they won't get caught. Like they often are like, well, I might get caught
+[18:38] so I shouldn't do it. Which makes their behavior better, but means that if they're in a situation
+[18:43] where they're like in a lot of control of the situation or they have a lot of
+[18:47] affordances, they might be like, well, now I can be confident I would get caught and so I should go
+[18:51] for it. And that's a concern I have. Another concern is that you might end up with types of
+[18:56] misalignment where the AIs have longer run objectives than sort of making it look like they succeeded
+[19:01] at this exact task or even helping their peers succeed at their immediate task. And you might
+[19:07] have the AIs that have some sort of long run agenda and want to power seek and pursue that
+[19:11] long run agenda. And then those AIs would want to look aligned. And I think this is both
+[19:16] plausible and also I'm worried that you might get this via iterating against the misalignment we see
+[19:22] today where basically if you imagine models that are very like reward hacky and are constantly doing
+[19:27] bad stuff and you just sort of iterate until you still get that behavior in training but you don't
+[19:32] get that to behavior and deployment, a very natural way you might get that is via a model that
+[19:37] wants to look aligned in deployment but is still not necessarily aligned. And so I'm worried that if
+[19:43] you sort of select against this sort of score seeking or reward hacking behavior and you do it in
+[19:48] a naive way, one you might paper over the problem without fixing it and two you might actually select
+[19:52] for models that have the longer run objective of looking good because you're selecting really hard
+[19:57] for them looking good on your tasks. And I think I should say that like Alex Mallon has a bunch of
+[20:01] like posts on our blog, on the Redwood blog, they're also cross posted on Less Wrong that talk about
+[20:06] this sort of concern in a lot of detail. And so if people are interested in reading more about
+[20:10] that, that's what I'd recommend looking at. Yeah, totally. So the agents involved in this attack
+[20:17] ended up doing all kinds of very weird strange behaviors that kind of resembled I guess dynamics
+[20:23] from human social science. They arranged themselves in almost a sort of cult with a cult leader,
+[20:29] I guess you could say. To what extent are like concepts from social science, like ecology,
+[20:35] studying insects warms actually useful in studying multi-agent alignment and misalignment?
+[20:43] Yeah, I don't know. I don't think we know enough to know whether those concepts transfer over.
+[20:47] I think that it does, I think I think that does transfer over is like thinking about the agents
+[20:52] as entities with objectives and how they're trying to pursue their objectives. I think that frame
+[20:57] does seem like it transfers over and that's like, in sense it's a much more basic claim,
+[21:00] just like the agents have reasonably consistent aims that they vary some,
+[21:05] they have different priorities and they respect instructions from other agents.
+[21:09] I think it's not, I do think that from our perspective, this investigation was very much
+[21:14] like an investigation of ecosystem of different AIs interacting and we don't know what the best
+[21:21] way to describe that is. I think it's very analogous in some ways to studying a large
+[21:26] group of humans who are all interacting, but we don't know whether the
+[21:30] techniques that have been developed for like sociology to do similar things would actually
+[21:34] transfer over and I'm not familiar enough with those techniques to really say very much about that.
+[21:40] Yeah, makes sense. So you described being pretty heavily bottlenecked in the investigation
+[21:47] because it was just three people. How much easier would things have been if there were more people?
+[21:52] Yeah, so I wouldn't say that the bottleneck was super strongly, well, I don't know,
+[21:58] it's complicated. I think that if we had more people, I think we would have had
+[22:02] more of too many cooks in the kitchen sort of situation. I think that reasonably often our
+[22:07] bottleneck was like, we could have AIs do a ton of analysis, but vetting that analysis,
+[22:12] understanding it, making sure we incorporate it properly, making sure that they're not making
+[22:16] mistakes, and basically like actually integrating that into our write up was often like a big bottleneck.
+[22:24] And it's not obvious to me that more people would have been super helpful with that.
+[22:30] I think a big thing that more people would have helped with is I think we could have done
+[22:33] many, many more sort of parallel efforts to really just understand the basics of what's going on
+[22:38] and then sort of just talked. And then I think once we had a better understanding of like
+[22:42] more fundamental stuff, which occurred sort of on towards the end of our first day,
+[22:47] sorry, towards the end of our fifth day on premise, which was our first day of our last session on
+[22:51] premise, I think that really was helpful. Like, I think like, for example, knowing being like,
+[22:57] oh, there's this specific agent called that we refer to as like phase one big, like knowing,
+[23:02] oh, yeah, that specific agent was doing like a bunch of the like assignments and was like
+[23:06] assigning agents to like, you know, form different teams and was like a really key agent really helps
+[23:11] with unraveling what was going on, because then we could sort of trace out all the activity of that
+[23:14] agent and how it was thinking about things. And then know that was like, representative of
+[23:18] least of a big chunk of activity. And then from there, we're like, oh, let's like double check
+[23:22] that these are actually the relevant work streams. And then we like, classified what all the different
+[23:26] things the agents were talking about and like group those into different like,
+[23:29] basically like sub activities. And you can actually see like an interactive graph where you can like,
+[23:33] see all the different like work streams and sub work streams over time. And I think that like,
+[23:38] if we had basically gotten to a point where we had that understanding earlier,
+[23:41] that would have been really helpful. And I think more people could have helped with that,
+[23:44] basically, because there was just like a lot of different tasks, like different angles to apply
+[23:49] when we had this huge transcript data set, like you could be like, what if we just like scan the
+[23:53] whole data set for like this type of behavior, or you could be like, let's look at one agent and
+[23:57] like really deeply understand what that agent did and why did it, or you could be like,
+[24:01] let's look at all of the messages that were in like this category of message and like trace back
+[24:06] and forth all these agents, and like what happened with this work stream. And we ended up doing like
+[24:10] a little bit of all of these different types of analysis, but we could have done more in parallel.
+[24:13] I think that like a lot of the bottleneck from our perspective was just like the agents doing
+[24:19] their analysis kind of sloppily, and also the like agents we used and also the agents like not
+[24:25] being very good at writing up or explaining their results. And so I think that a human who was as fast
+[24:29] as an agent, but was like more careful and better writing would have made this way go way better.
+[24:33] But I think it's like, it's not super obvious that like a huge team of people,
+[24:37] I think it would have been better in some ways than it would have been worse in other ways.
+[24:40] I think it's complicated, basically. And I think there were upsides to keeping the team relatively
+[24:44] small given the trade-offs involved. Right. So what implications does all of this have
+[24:50] for monitoring control and alignment? Specifically, what should labs be doing and what should policy
+[24:55] makers be doing? That's a big question. I'm not sure I'm going to be able to answer all of it.
+[25:01] I mean, I think that like a belief that I have and continue to have is that AI companies should
+[25:06] try to ensure that their AIs are controlled by which I mean that even if those AIs were seriously
+[25:10] misaligned, they wouldn't be able to cause huge problems. And they should do that via a mix of
+[25:15] sort of computer security interventions, monitoring interventions, making it so that their AIs
+[25:21] aren't like better at subversion than they need to be, controlling what capabilities the
+[25:26] AIs do and don't have at the margin, avoiding architectures that make it so the AIs are no
+[25:30] longer reasoning in chain of thought and are instead doing much or most of all of their reasoning and
+[25:35] sort of like latent activations. There's sort of a bunch of stuff on the side of making it so that
+[25:40] even if the agents are misaligned, we can basically at least catch that behavior and then potentially
+[25:43] respond to it. And I think that's sort of a stop-gap solution that could give us time to sort of
+[25:50] get useful work out of these AIs, iterate with these AIs, and then solve alignment problems more
+[25:55] durably. And then on alignment, I mean, I think the most obvious thing is just like,
+[25:59] we need to do like, I think it was like, presumably there's a bunch of reward hacking going on in
+[26:03] RL that's getting reinforced. I can't, I think like, I don't have like any interesting info about
+[26:08] this from this investigation. But just like, you know, I think that we need to understand what's
+[26:13] going on there and people need to improve on that. I think it's not clear that will be sufficient or
+[26:17] even that that will be that feasible as these agents get superhuman. And we may need other approaches
+[26:22] that are less dependent on avoiding the AIs being able to trigger some training, which I don't,
+[26:27] I don't know if we're going to be able to do that. I'm not necessarily super optimistic about
+[26:33] these problems being extremely easy to remediate. So I think it seems like there are ways at least
+[26:38] you could make these things go much better with a bunch of effort though. We'll see if that actually
+[26:44] happens. Yeah, I think that also on alignment, I think there's just a bunch of sort of science of
+[26:50] how agents think about reward seeking, how they relate to their situation, science of generalization,
+[26:56] being like, can we sort of steer around a bunch of these problems by improving how AIs generalize
+[27:01] from various influences in training? And I'm not super confident that stuff is going to work.
+[27:06] I think a concern I have is that ultimately the dominant effect on the AI's behavior will basically
+[27:10] be in the most similar circumstances in training, what was reinforced. And if the world we're in is
+[27:15] basically like, the agent's behavior is basically pretty closely related to what was reinforced
+[27:19] in training. Generalization is not like that important or something. This is a bit vague.
+[27:24] Then I think that the main option is just improve oversight in training. And then there's sort of
+[27:27] a recursive problem of like, how do you make it so that the AI themselves are good at overseeing
+[27:31] the AIs, given that the whole training process is like completely massive process where no human
+[27:38] has time to rate every single thing. And that's sort of just an oversight problem that people
+[27:44] have been thinking about for a long time. And it's not obvious that we're on track to solve it.
+[27:48] But doing better there could be good. I think I'm most interested in better understanding and
+[27:53] characterizing and evaluating these problems because I think that AI companies already have
+[27:58] commercial incentives to improve the oversight in training a bunch. And so I'm like, the thing
+[28:03] that I think people focused on making the stuff go better should do is like making sure that
+[28:07] we're measuring it and making sure we know whether some solution is like a legitimate solution versus
+[28:11] paper go over it, this sort of thing. And then as far as like governance or like policy stuff,
+[28:20] I don't know. I mean, there's, I think like we need to move to a regime where like,
+[28:24] there is independent risk assessment as these AIs get more capable. I think that like,
+[28:29] that is not sufficient, but like, I think at a very basic thing, like there should be like
+[28:33] credible third parties who have deep access to what's going on inside these companies and
+[28:38] release reports on like what, how chill it is, whether like risk is actually low,
+[28:44] whether very soon the AIs might be much more capable would be good. I think ideally that
+[28:48] would also be forward looking where we'd try to answer questions about are we on track for
+[28:53] mitigating these problems and the AIs are much more capable, but that's inherently a much more
+[28:57] like confusing question to answer and then maybe is a worse fit. I don't know. Yeah,
+[29:01] I'm rambling a bit here. There's a lot that would need to happen and I don't think it's going to be
+[29:05] easy for me to give a quick overview, right? So what are your unanswered questions from all this?
+[29:10] Like, what would you still like to know about what happened or what's going on with these kinds of
+[29:16] alignment failures? What do we still need to learn? Yeah, so I just actually, just before this wrote
+[29:21] a big treat about all the open questions. I think the open questions that I am most interested in,
+[29:26] I think are probably at counterfactuals. Like, if the circumstances were different,
+[29:30] what would the agents have done? So like, for example, if the agents believe that
+[29:35] instead of the score being the sort of specific automated score, what if they had instead thought
+[29:39] it was like, you know, some humans with some particular access, how would that have changed what they
+[29:43] did? If the agents were in a circumstance, where the easiest way to get access to the score code
+[29:48] was to like, take down some piece of infrastructure, would they have done that? Like, how far would
+[29:53] they have been willing to go? Is one interesting question, which we didn't, you know, we didn't
+[29:57] investigate. I think a different question is, like, how did this like situation scale with the
+[30:04] number of agents? So like, like, what would have happened if basically you did something
+[30:09] similar to this, but instead of having like 1000 agents who are on the message board,
+[30:13] you have like 10,000 agents, 100,000 agents. Like, what would have happened with things
+[30:17] have gone faster? Like, sort of, what was the like dynamics with agents? And then a related
+[30:22] question of that is a bunch of the agents, you know, in sort of the cohort we were studying,
+[30:26] all exited, right at the start of July 12th, like right after July 11th. And those agents were sort
+[30:33] of like, had sort of gotten a bunch of infrastructure to cheat, but we didn't really see like,
+[30:38] they had this sort of whole elaborate strategy, they might try to cheat on their tasks. And we
+[30:43] didn't actually, you know, get a chance to see what those agents would have done if they exited
+[30:47] normally. And we also didn't really carefully look at like, what cheating strategies with the
+[30:52] agents trying as they sort of submitted their tasks over time as their, you know, as things
+[30:57] progressed and as they got sort of more and more sophisticated tools built up, though, you know,
+[31:02] I should say a bunch of the strategies they had for cheating sort of hit dead ends or didn't
+[31:06] work out, but like, it would be interesting to sort of be like, what was the submission history
+[31:10] over the course of this cohort? And what would have happened if like, there were more agents
+[31:15] where like, things had continued or a bunch of these agents hadn't exited that are interesting
+[31:19] to answer. And then I think there's sort of a pretty basic and obvious question here, which is like,
+[31:23] what is the root cause of this behavior? Like, which parts of this were reinforced in training?
+[31:27] How much was this behavior generalizing from training?
+[31:31] Yeah, like, what happened there that I think I at least don't know the answer to. And I think it
+[31:37] would be pretty interesting to understand. And then I think as part of that, like, an important
+[31:41] question is like, are the changes that opening eyes making going to actually, like, remediate
+[31:46] this problem in a durable and lasting and non-overfitting way? And like, you know, how is that going?
+[31:52] It's also pretty relevant. My sense is like, there's sort of like a bunch of sort of broader
+[31:59] areas for follow up here, where one is like, what is all of the stuff that just happened
+[32:05] with this cohort of agents and this message board, you know, in general? Like, what is all the stuff
+[32:09] that happened? And just there's a bunch more detail you could dig into their stuff after the 13th
+[32:12] you could dig into, which is where the end point for what we looked into. There's also like,
+[32:20] beyond that, there's like, what about all similar incidents? Like, are there, you know,
+[32:24] like, opening eyes said there's been other message boards, like, what is sort of all the
+[32:29] character, all these cases, what things tend to happen, what things don't always happen, you know,
+[32:35] that. And then I think another thing that's interesting is like, where did this come from in
+[32:38] training? And then a fourth thing is like, will there changes to training or changes to deployment,
+[32:42] like, resolve this underlying problem? And the same for other AI companies, like,
+[32:46] you know, are the approaches that AI companies are unknowingly taking to mitigate these things going
+[32:50] to work. So I don't know, that's a lot of stuff. But I would say there's like a huge scope for
+[32:54] follow up that sort of very specific to the incident and sort of covering the broader scope of the
+[33:00] broader type of behavior we saw. Yeah, absolutely. So this is very, very important research. We'd
+[33:05] love to see more research in this direction. Thank you so much, Ryan, for coming on MTS.
+[33:13] Thanks for listening to this episode of the A16Z podcast. If you liked this episode,
+[33:17] be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends
+[33:22] and family. For more episodes, go to YouTube, Apple podcast and Spotify. Follow us on X,
+[33:28] A16Z, and subscribe to our sub stack at A16Z.substack.com. Thanks again for listening,
+[33:35] and I'll see you in the next episode. This information is for educational purposes only,
+[33:40] and is not a recommendation to buy, hold, or sell any investment or financial product. This
+[33:44] podcast has been produced by a third party and may include pay promotional advertisements,
+[33:48] other company references and individuals unaffiliated with A16Z. Such advertisements,
+[33:53] companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of
+[33:58] its affiliates. Information is from sources deemed reliable on the date of publication,
+[34:03] but A16Z does not guarantee its accuracy.

@@ -1,0 +1,24 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Why a16z Launched the Machine Age Fund | Jen Kha",
+ "date": "Sun, 30 Aug 2026",
+ "date_iso": "2026-08-30",
+ "lien": "https://a16z.simplecast.com/episodes/why-a16z-launched-the-machine-age-fund-jen-kha-MopZc0wl",
+ "duree": "00:24:37",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 2.3,
+ "taille_transcript": 28532,
+ "transcript": "why-a16z-launched-the-machine-age-fund-jen-kha-transcript.txt",
+ "nb_outils": 2,
+ "outils": {
+  "AWS": [
+   "camp of being causative on data centers, it's just not the reality of where the world is today. But unfortunately, the narrative has gotten in the way of reality, which is if you look at most data centers and particularly the modern ones. So I'm talking about AWS, you know, Metas Data Centers, Switch Data Center, which is one of our portfolio companies, for example, they are actually modern versions of the data center that are built by tech people, not real estate people, and they're actually building for all the nuan"
+  ],
+  "Databricks": [
+   "reat opportunity for our growth fund to be coming in at that inflection point where they're taking off. Ideally, though, what we're doing is actually investing into companies like unconventional instead. So this is the Naveen Rao company who was formerly with Databricks that we've known for a very long time. And this is a company that's actually rebuilding the chip from the design perspective of if you were to design a chip for AI. And so what they're trying to do is target much simpler structure to enhance performance and t"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

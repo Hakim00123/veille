@@ -17,9 +17,33 @@
   "garry-tan-on-taste-agents-and-founder-ambition",
   "martin-casado-on-where-the-value-is-going-in-ai",
   "microsoft-s-deputy-ciso-on-securing-ai-agents",
-  "how-global-networks-are-reshaping-startup-success"
+  "how-global-networks-are-reshaping-startup-success",
+  "why-a16z-launched-the-machine-age-fund-jen-kha",
+  "why-1-200-ai-agents-started-working-together-ryan-greenblatt",
+  "the-infrastructure-behind-the-machine-age"
  ],
  "episodes": [
+  {
+   "fiche": "why-a16z-launched-the-machine-age-fund-jen-kha.json",
+   "titre": "Why a16z Launched the Machine Age Fund | Jen Kha",
+   "date": "Sun, 30 Aug 2026",
+   "date_iso": "2026-08-30",
+   "nb_outils": 2
+  },
+  {
+   "fiche": "why-1-200-ai-agents-started-working-together-ryan-greenblatt.json",
+   "titre": "Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
+   "date": "Sat, 29 Aug 2026",
+   "date_iso": "2026-08-29",
+   "nb_outils": 2
+  },
+  {
+   "fiche": "the-infrastructure-behind-the-machine-age.json",
+   "titre": "The Infrastructure Behind the Machine Age",
+   "date": "Fri, 28 Aug 2026",
+   "date_iso": "2026-08-28",
+   "nb_outils": 1
+  },
   {
    "fiche": "martin-casado-on-where-the-value-is-going-in-ai.json",
    "titre": "Martin Casado on Where the Value Is Going in AI",
@@ -140,5 +164,5 @@
    "nb_outils": 2
   }
  ],
- "maj": "2026-08-23T17:32:41Z"
+ "maj": "2026-08-30T19:52:49Z"
 }

@@ -1,0 +1,21 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "The Infrastructure Behind the Machine Age",
+ "date": "Fri, 28 Aug 2026",
+ "date_iso": "2026-08-28",
+ "lien": "https://a16z.simplecast.com/episodes/the-infrastructure-behind-the-machine-age-M3g5NamY",
+ "duree": "00:55:02",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 5.2,
+ "taille_transcript": 61215,
+ "transcript": "the-infrastructure-behind-the-machine-age-transcript.txt",
+ "nb_outils": 1,
+ "outils": {
+  "Superhuman": [
+   " the code. We've got this marvelous loop and the whole firm is just completely automated now. And I'm going to slowly get rid of all the humans because I can. Like that's not at all where we are. We're much more going like, okay, how do we make all our humans superhuman without like wrecking the place because the bots get out of control? Yeah. And it's trashing because we've done, we've tried a couple of different ways. It's how best to get agents into the system, if you will. And eventually it was more teams inside of just "
+  ]
+ },
+ "mentions_publicitaires": {}
+}

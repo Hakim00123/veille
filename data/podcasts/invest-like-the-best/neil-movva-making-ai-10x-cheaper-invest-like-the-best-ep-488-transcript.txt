@@ -1,0 +1,1018 @@
+Invest Like the Best
+Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]
+Tue, 25 Aug 2026
+https://colossus.com/episode/from-transistor-to-token/
+
+[00:00] RAMP is the only platform built to make your finance team leaner, faster, and better,
+[00:04] saving businesses 5% annually on average so you can stay focused on growth.
+[00:08] RAMP customers grow revenue 3.2 times faster than the average American business.
+[00:13] Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP.
+[00:20] Mind us, too, and so should yours. Learn more at ramp.com slash invest.
+[00:25] Open AI, Cursor, Anthropic, Perplexity, and Vercel all have something in common.
+[00:29] They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities
+[00:35] like SSL, SCIM, RBAC, and audit logs. Instead of spending months building these mission critical
+[00:40] capabilities yourself, you can just use WorkOS APIs to gain all of them on day zero. That's why so
+[00:45] many of the top AI teams you hear about already run on WorkOS. WorkOS is the fastest way to
+[00:51] become enterprise ready and stay focused on what matters most your product. Visit WorkOS.com
+[00:56] to get started. Felix by Rogo is a personal finance agent that turns a single prompt into
+[01:01] finished, client-ready work using your firm's own templates, context, and standards. Send Felix
+[01:06] an email like, take these comments and turn them for me, or update my tracker with the context of
+[01:10] these emails, and Felix sends back Finnish PowerPoint decks, Excel models, and sourced research.
+[01:16] Felix works the way your team already does, delivering work quickly and accurately around the clock.
+[01:21] Learn more at rogo.ai slash Felix. Hello and welcome, everyone. I'm Patrick O'Shaughnessy,
+[01:29] and this is Invest Like The Best. This show is an open-ended exploration of markets, ideas, stories,
+[01:34] and strategies that will help you better invest both your time and your money. If you enjoy these
+[01:39] conversations and want to go deeper, check out Colossus, our quarterly publication with in-depth
+[01:43] profiles of the people shaping business and investing. You can find Colossus along with all of our podcasts
+[01:49] at colossus.com. Patrick O'Shaughnessy is the CEO of Positive Sum. All opinions expressed by
+[01:56] Patrick and podcast guests are solely their own opinions and do not reflect the opinion of positive
+[02:01] sum. This podcast is for informational purposes only and should not be relied upon as a basis for
+[02:07] investment decisions. Clients of Positive Sum may maintain positions in the securities discussed
+[02:12] in this podcast. To learn more, visit PSUM.VC. My guest today is Neil Mova, the founder of
+[02:21] Sail Research. Sail is building what Neil calls a token factory, an inference company designed
+[02:25] for a specific kind of future. One where AI agents run in the background for hours or days at a time
+[02:30] rather than answering a human in real time. In that world, latency matters last and cost matters
+[02:35] much more. And Neil has built the entire company around driving the cost of a token as low as it can
+[02:40] possibly go. What makes this conversation special is one of the most detailed tours I've ever done
+[02:45] through the full stack of intelligence, the software, the chips, the power, and how the three connect.
+[02:50] Along the way, we cover the trade-off between speed and cost that lives inside of every GPU,
+[02:54] his scavenger strategy for buying the chips and power known else wants, his contrarian view on
+[02:59] Nvidia, and why the premium the Frontier Labs charge for being three to six months ahead may not last.
+[03:04] Please enjoy my conversation with Neil Mova. I think it's important early in these conversations
+[03:10] to just say the thing, literally what you're building and what it does today. So maybe just
+[03:15] orient us there with a brief description, like literally what the system is that you're building
+[03:20] and why it should exist. Sail Research is a token factory. We have an API where anyone can send us
+[03:24] requests where they can use large language models, open source language models for any task they want.
+[03:30] We will serve those tokens to them at a price that is unbeatable in the market.
+[03:33] We also support their ability to build agents on top of this. We host what we call
+[03:38] sailboxes, which are long-running agent virtual machines hosted in the cloud that are designed for
+[03:43] agents that run for hours, days, or weeks. So I should think about you as a peer company to others
+[03:49] that serve different kinds of inference. You're serving one specific kind of inference,
+[03:53] and your goal is to be the absolute cheapest provider and enabler of a certain kind of use of
+[03:57] intelligence. Exactly. The theme of our company is abundance. We want to deliver this new commodity
+[04:03] of intelligence to as many people as possible, at a cost that is sustainable for almost every
+[04:07] industry. We think that whenever you make something that has cheaper, it's a new product category.
+[04:11] We aspire to do that for tokens. We think it's so profound that the machine can think,
+[04:15] and now our job is to make as many machines as possible in the world work towards thinking.
+[04:20] So if you think about the theme of the day being token costs, is token cost the right way to think
+[04:25] about this? Is there some other way you'd put it? To start with, absolutely, token costs.
+[04:29] Today my north stars, I want to have the lowest cost per token in the industry and do that by a mile.
+[04:34] I don't think tokens are the final unit of work or intelligence, but they are what we use today.
+[04:38] After tokens, you start to move more towards more outcomes, which is like a vague direction.
+[04:43] You can imagine, for example, today when you can zoom tokens through an agent, you don't actually
+[04:47] control how many tokens the agent reasons for. It can reason for a certain amount of time or
+[04:52] can cause a number of tools. And increasingly, I think we will have agents do some unit of work.
+[04:57] Take as many shots on goal as they can. And however many tokens they used to get there is going
+[05:02] to be a dependent variable depending on the task. So you think about like agents that
+[05:06] self administer a token budget as opposed to a company sending a budget for how many tokens
+[05:11] engineers can spend per month. Why is there an opportunity that you can tackle? It seems like
+[05:16] the entire world is oriented around more better, faster, cheaper tokens right now. It seems like
+[05:22] the world is trying to solve this problem very aggressively. What was the unique opening that you
+[05:27] saw that maybe the market's not being efficient in its attempt to tackle this?
+[05:31] So I think there's two things that are tailwinds for our company. One is got to be the rise of open
+[05:36] source. I had to talk with that first. I think we were starting to see an increasing number of our
+[05:40] customers and the broader market care about owning intelligence. They want to have control
+[05:45] sovereignty over the thing that they depend on. That created a much more robust market for a
+[05:49] customized models. Or even just like these vanilla open source models that no one can ever take away
+[05:53] from you. You always have the weights, you always have the right to deploy them however you like.
+[05:57] In that world, there's been a reasonably robust market for the past couple of years,
+[06:01] serving these models at large scale. The challenge is, all those companies,
+[06:05] you could take your pick base 10 fireworks together. They all focus on low latency inference.
+[06:10] And they were pulled in that direction by one very important customer, Cursor. I think that
+[06:14] that was the right choice about a year ago. And as a six months ago, it started to look like
+[06:19] maybe low latency wasn't the only thing you wanted from an agent. You wanted more persistence,
+[06:23] more long horizon tasks. And now it's to me very obvious that the future of agent take inference
+[06:28] is long horizon tasks. You're going to run the machine for hours or days at a time. It doesn't
+[06:34] matter if it's been set tokens at 100 tokens per second. Maybe 10 is just fine if that comes with
+[06:39] corresponding advantages and efficiency. Why are you so confident in that? To me, it seems like I
+[06:44] want everything as fast as possible. When you're waiting on it, you absolutely deserve the fastest
+[06:48] sensor possible. Yeah. My trick is I don't want you to be waiting on it. I want it to be proactive. I
+[06:52] want it to be in the background. One way to say it is like the best latency is no latency at all.
+[06:56] When you wake up in the morning, the work's already been done overnight. You didn't even have to ask
+[06:59] for it. That's the dream. We're not quite there yet. More importantly, I think the more you're in the
+[07:04] loop as you prompt agents and wait for a response, in fact, you're the bottleneck in having the agent
+[07:09] do more or less work. What we'd like is the agent to operate on more human time skills. You don't manage
+[07:14] your colleagues every five minutes. You ask them to do a high level task and you come back and check
+[07:18] maybe every day, but more likely once a week. That, to me, is the future of human agent collaboration,
+[07:23] more like human time skills. Say more about the early indications that this is happening and
+[07:28] therefore you should be building this company. The first and most important thing is the idea of
+[07:32] test time compute scaling, the idea that you can give an agent more time and it will give you a
+[07:36] better answer. That was theorized about two years ago now. It wasn't really something that we could
+[07:42] actually bet on until, I would say, late last year with the Opus 4.5. Opus 4.5 was the first agent
+[07:47] that was at all suitable for longer horizon tasks. It was pretty mediocre and when it first
+[07:51] came out, but you look at the more recent models and what we've done on open source as well and
+[07:55] you see that agents are capable of running for an hour at a time. I wouldn't say it's days,
+[08:00] but definitely an hour is quite suitable today. Seeing that average task length get longer and
+[08:05] longer doesn't take many points to have you draw out the exponential and see that agents are worth
+[08:11] running for a longer period. What do you think will be the market share of long-running agents in
+[08:15] three years or something like this? I love this market because it's unbounded. There's no human
+[08:19] in the loop, so you can consume as many tokens as you like in the background versus human attention
+[08:23] span. If you tell me to consume 10x as many tokens at codex or at cloud code, I'm actually not sure
+[08:28] if I can anymore. I'm already in the loop and locked in coding for most of the day that I'm at the
+[08:32] laptop. What is unbounded is how many tokens can be consumed in the background or proactively.
+[08:38] Long-term, I think we're going to end this year at maybe 5050 background and real-time workloads,
+[08:43] but I see this going to 90-10 in favor of background. What are your favorite examples of
+[08:47] something that gets accomplished much better as a background task than as a human in the loop task?
+[08:52] Most deep research. Most questions where you want to have a definitive answer over
+[08:58] not 100 sources, not 1,000 sources, but 10,000 sources or more. If you want to build an authoritative
+[09:03] index of information, like for example, one of our customers parallel web systems seeks to do,
+[09:07] they want to build an index over the whole internet and they want to monitor the internet
+[09:10] in real time for changes. That is the kind of crazy x-a-byte scale task that you need a very
+[09:16] different kind of intelligence or scale of intelligence to achieve. Deep research is a top
+[09:20] category for us and then increasingly we see cybersecurity following in this direction.
+[09:24] If you think about, yes, there's so much code you can generate, but there's exponentially more
+[09:29] ways to break that same code than is to generate that code. There are some great customers out there
+[09:33] who are working very hard to find agents that can break any pieces of software and
+[09:37] proactively patch them. When Fable first came out, for example, or Mythos first came out,
+[09:42] basically there was this push in the cybersecurity community to run Fable against every line of
+[09:46] code we've ever written and look for bugs in 20 different ways, meaning you're looking for both
+[09:51] memory errors, you're looking for business logic errors, and looking for network vulnerabilities,
+[09:56] all these things. And these are all actually things that you would write specialized agents for.
+[10:00] You wouldn't just have Fable look at the source code once, you'd have it actually set up environments
+[10:03] where you can pen test these applications. At some point, people started to make this joke that
+[10:08] security has become proof of work. When you want secure software, it's really a question of how many
+[10:12] dollars did you spend on anthropics APIs trying to break into your software. That is the best
+[10:18] indication for how secure it is, because that's the best tool in the world. And increasingly,
+[10:21] we found that open source models, well, the frontier of intelligence here is quite jagged.
+[10:25] It's not the case that Fable finds a superset of all bugs in software. You would find some bugs
+[10:30] with a very small model that you don't find with a large model. You'd find some bugs with
+[10:33] haiku that you would find with Hable and vice versa. So it encouraged this very diverse
+[10:38] approach to sampling and trying to build cybersecurity agents that break software autonomously such
+[10:43] that you can patch them. If you were to get speculative and imaginative about the sorts of
+[10:48] things that very cheap, very long running agents can enable, we talked about some very practical
+[10:53] examples, deep research, cybersecurity, et cetera, if you get a little bit dreamier about the use
+[11:00] cases, new product category that this sort of inference will unlock. I guess the question is just
+[11:05] like, so what? If you're maximally successful, dream a little bit about what that might enable.
+[11:10] I think for individual users, what I'm excited about most is this idea of proactive, intelligent
+[11:16] agents. You can imagine a series that is running in the background all the time to understand
+[11:20] all the emails you received in a day, all the text messages you received in a day, and
+[11:23] has a much more encyclopedic view of your life and how to be helpful in that life. Right now,
+[11:27] there's still point solutions. You're going to be doing a lot of prompting.
+[11:30] Series not very proactive. Something that we can fix with an inference. If you trust the machine
+[11:35] enough that it's reliable and also trustworthy as in private, you might even imagine the machine
+[11:40] can understand how you interact with it and proactively surface your next action. Whenever you open your
+[11:44] phone, can we build a good model of what you're going to do next? My estimation is yes, we totally
+[11:49] can't. And the key to that is incredibly cheap intelligence. You have to be willing to spend tokens
+[11:53] without any promise of return. That is the unlock. The long lens view to take on this is that
+[12:00] we have a form of intelligence that can tackle any verifiable problem. Any verifiable problem
+[12:05] means most software. It means a lot of formal math proofs and similar. And it could also mean
+[12:11] scientific discovery. These are all relatively verifiable problems. And all those things currently
+[12:17] have a dollar cost attached to them, essentially, that's a hidden one. It's like how many tokens
+[12:21] could you possibly harness to make this work? We have started to bring it within view, a dollar
+[12:27] cost for these long horizon tasks that is reasonable. It's not millions, it's thousands, and maybe it
+[12:32] could be hundreds or even tens of dollars in the near future to have a definitive answer to any
+[12:37] scientific question to any research problem. So if we dream about that future, we then become limited
+[12:43] just by the questions that people can ask basically. Pretty much the questions we can ask.
+[12:48] The models are on the cusp of basically taking even a high level question and chasing it down.
+[12:52] Every possible follow up, you can have the model essentially take that on its own. And the question
+[12:57] is, what is your token budget? And we will solve the token budget problem. We've got non verifiable
+[13:01] tasks. Those are basically the entire category of human taste into that category. We have not
+[13:07] solved human taste yet. And I don't know that it fundamentally can be. I'm excited to be surprised
+[13:11] here, but we are focused on very quantitative problems. We leave the quality of writing, we leave the
+[13:16] beauty of art to people. Vanta automates security and compliance for over 16,000 fast-moving
+[13:24] companies like Ramp, Kersher, and Harvey, keeping them audit-ready around the clock. It's the number
+[13:29] one agentic trust platform, and it now helps companies like yours watch for the risks that
+[13:33] show up between audits across your vendors, your AI tools, and your whole environment.
+[13:38] Every new tool your team signs up for, every vendor that turns on AI features is an opportunity
+[13:43] for something to go wrong, and most security programs weren't built for AI's pace of growth.
+[13:47] The Vanta agent works like a 24-7 GRC engineer in the background finding issues,
+[13:52] drafting fixes for you, and cutting vendor assessment time by up to 50%.
+[13:57] Whether you're a fast-growing startup or a global enterprise, Vanta helps you earn and prove trust.
+[14:02] Invest like the best listeners get a special offer for $1,000 off at vanta.com slash invest.
+[14:10] Ridgeline is the first end-to-end system of record with embedded AI for investment management firms,
+[14:15] running portfolio accounting, reconciliation, reporting, trading, and compliance on one unified
+[14:21] platform. Firms are moving off legacy technology and onto Ridgeline because of how far ahead
+[14:25] Ridgeline's AI features are compared to anything else in investment management software, which is
+[14:30] why I believe that firms that come out ahead in the AI era will be the ones running on Ridgeline's
+[14:35] unified platform. If you're serious about your firm's AI strategy, Ridgeline should be part of that
+[14:40] conversation. You can request a demo at ridgeline.ai.
+[14:48] All right. Now let's talk about the very clever stack of solutions that you hope to build.
+[14:52] Ultimately, to have this giant token factory supplier of extremely low-cost intelligence.
+[14:57] I think you think about this in terms of software, hardware, and power. Talk through what your master
+[15:02] plan is to approach this challenge that's so different from what others are thinking about doing.
+[15:07] We always have to start with software. Where is the opportunity on today's data centers
+[15:11] to improve efficiency? The first thing we did was we tried to build the entire LLM software stack
+[15:16] around peak GPU efficiency, meaning we're using NVIDIA GPUs. We wanted to squeeze out
+[15:20] more tokens from the same chip than anyone else in the world. That starts with the lowest level
+[15:25] of programming, kernels. It's actually my background. I spent my whole professional life working on
+[15:29] GPUs and kernels in videos my first job while I was in college. I got to see how the TensorCores
+[15:34] got to earn their right to be on the chip. What does that mean? What is the TensorCores?
+[15:38] TensorCores is a specialized unit on the GPU that accelerates matrix multiplication.
+[15:42] Simple as that. There's been a long history of how we evolve that TensorCores over time
+[15:46] that we'll get into. And why is matrix multiplication so important?
+[15:49] I cannot say that there is a divine truth at the inverse that explains why matrix multiplies
+[15:53] seem to be the atomic unit of computation. But one way for it to describe to me is,
+[15:57] well, it's a really succinct way to mix two blocks of numbers together and have them interact in
+[16:02] some interesting way. That's as much as I can say about it is really convenient that linear algebra
+[16:06] turns out to be a very compact representation of arbitrary relationships and data.
+[16:10] So NVIDIA, great graphics company, had market share dominance in GPUs and gaming graphics for
+[16:16] quite some time. And then starting in like the mid 2010s, they started to actually start these
+[16:21] like skunkworks projects to make the graphics processor more suitable for machine learning tasks
+[16:25] that they were tracking. I remember actually reading some of the lab notebooks of some of my
+[16:29] managers when I was in NVIDIA, they would visit these small ML conferences like ICML or NURips at the
+[16:34] time. They would just take note of these papers like, oh, this deep learning thing seems to be
+[16:38] catching on. And what's really interesting is that these grad students are using gaming and
+[16:42] NVIDIA GPUs in order to train their large models. We should double look on this and figure out what's
+[16:47] going on here. By 2015, 2016, at least Jensen had the conviction to kind of double down on,
+[16:53] hey, this usage of our chips is only going to grow. Let's start allocating more and more
+[16:57] precious silicon die area to this capability that seems to be emerging. Let's put the first version
+[17:03] of tensor cores on the chip. So we're talking about taking this gaming chip, which is designed
+[17:08] for painting pixels on the screen and adapting it to do magical supplies. It was early, you would
+[17:14] be competing against the graphics teams. Essentially, when you ask for more silicon area on any chip
+[17:18] company, there's always competition for that. It is something that the designers guard so carefully,
+[17:23] you don't ever want to invest in the wrong technology, because that's opportunity cost that you could
+[17:28] have allocated to some other functionality. We fought tooth and nail and got just a tiny bit of
+[17:32] diarrhea, maybe like 5%, something like that for the first generation of these chips to get
+[17:37] some amount of acceleration for basic convolutions, which were the fundamental operation for computer
+[17:43] vision models of the day. And then we had a software team that was trying to squeeze all the
+[17:47] performance we could out of the chip. And I think on that software team, which is where I work,
+[17:51] that's what actually taught me the most about the ethos that NVIDIA has around this term called
+[17:55] speed of light. They always chase the speed of light for any piece of hardware that they make.
+[17:59] It is so ingrained in every engineer's mind that if the machine can do it, we're going to push the
+[18:04] machine to the frontier until it does what we think is the speed of light is the edge of what's
+[18:07] possible. The speed of light is the edge of what's possible, exactly. If we think the chip can run at
+[18:11] this frequency and produce this many multiplies per cycle, we're going to get there. We're going to
+[18:14] break every bottleneck and get to that peak level of performance. To this day, I tell all my engineers
+[18:19] we're chasing 100% speed of light. I don't care about relative numbers versus the competition.
+[18:23] I only care about absolute numbers. What are we able to do on the chip? How do we achieve that?
+[18:27] Before we leave that chapter of your time in NVIDIA, anything else beyond that cultural touchpoint
+[18:32] that changed the way you think about things or that stood out the most about how the business
+[18:36] ran back then or its culture? I have a ton of stories about NVIDIA. I could tell you a few of
+[18:39] them. One of my favorites is that on the 10-year side, a lot of people I worked with NVIDIA in 2015,
+[18:45] 2016 are still there today. That company has incredible retention and these are the best
+[18:48] engineers. On the Silicon side, at least I've worked with in my whole career. They're extremely,
+[18:52] extremely motivated and passionate. They believed in parallel computing as a concept
+[18:56] through its various incarnations and have loved seeing the chip evolve. This is their
+[19:01] life's work and they're extremely competent in that direction. They're also a very frugal company.
+[19:05] NVIDIA and all of Silicon Valley companies, after 2008, they had some cutbacks and perks,
+[19:10] so no free lunch, for example. NVIDIA took it one step further. There was no free milk
+[19:14] in the fridge. If you wanted to drink coffee in NVIDIA and you wanted some milk, you'd actually
+[19:18] have to chip in a dollar every month to the milk club and the milk club would stock
+[19:22] Costco milk in the fridge. I remember that distinctly. We don't do that at sale. It's a
+[19:27] frugality that permeates the company. Coming out of this time there,
+[19:30] you get this experience of what it's like to develop more efficient usage of the underlying
+[19:35] hardware through software. Link that to today's environment. The GPU is fundamentally a
+[19:40] throughput machine. The GPU is happiest when you give it a lot of work to do and let it chew
+[19:44] through that work at peak utilization of its compute units. That's actually not the way that we've
+[19:49] taken AI in the last couple of years. We've pushed AI to be an interactive chatbot.
+[19:53] Tool is the most common form of AI usage today. In that world,
+[19:57] you care a lot about actually spitting answers out to the person at the keyboard as quickly as
+[20:00] possible. To your point about, don't make the user wait. I want things as fast as possible.
+[20:04] That's actually quite interesting for the GPU. It's very difficult to put the GPU in its happy path
+[20:08] of being fully compute utilized when you're trying to spit out tokens quickly.
+[20:12] There's a fundamental trade-off on the GPU between being throughput oriented or latency
+[20:17] optimized. Everyone has chosen latency optimization because the shape of usage was chatbot oriented.
+[20:23] I believe that's the most profound change we're going to see in the next year. We're going to move
+[20:26] away from chatbots to more proactive or background agents. In that world, it makes a lot more sense
+[20:31] to build a stack around throughput. Can you explain technically why the trade-off between throughput
+[20:36] and latency is unbreakable? Why can't we have both from the same hardware? It's quite foundational
+[20:41] in almost every system that you could ever possibly look at. There's always a trade-off between getting
+[20:46] a small amount of data through the system as quickly as possible and leaving a lot of buffer
+[20:50] room for that or trying to run wide and slow. Narrow and fast or wide and slow is like a classic
+[20:56] trade-off in all computer science. But for a GPU specifically, I think there's one thing to focus
+[20:59] on, which is there's this concept of like batching on the GPU. We want to group many users work
+[21:04] together into a batch that we can run all at once on the GPU. That's the parallel processing of the
+[21:10] GPU we'd like to have a lot of parallel work to do. The thing is though, you're doing net more work
+[21:15] when you run a large batch of compute together. So you might be filling all the units, but every step
+[21:20] along the way as you carry a batch of work through the GPU, there's more work to be done. Any individual
+[21:27] token or any individual user's request in that batch, it's going to spend a longer time on the GPU
+[21:32] being carried with other people's traffic. Maybe the way to say it is if you want to get downtown
+[21:35] in SF, you can take the bus or you can take a private transit. And the private transit is going to have
+[21:41] its own direct path. It has the crow flies or using exactly the roads that you want from point
+[21:44] into point B. A bus, it's going to have to serve many more people and it has to fundamentally do
+[21:50] something that works for everyone. So it takes a slower path and it stops and waits for other
+[21:53] people to get on and off. I think the bus versus car analogy is pretty accurate. It's a great analogy
+[21:58] and step one for what you're trying to do is create the best possible bus on top of NVIDIA GPUs,
+[22:04] like step one of your optimization. That's exactly right. It means we explore things like
+[22:08] different parallelism schemes. And maybe that's another example I can give you is with NVIDIA GPUs,
+[22:13] one of the things that they've really innovated on and done a great job with is the envy link
+[22:16] interconnected between GPUs. And in fact, that envy link system is so good that if you have a large
+[22:22] matrix-world apply that you want to perform faster, you can actually cut that matrix-world
+[22:26] apply in half and shard it across two or more up to eight, let's say, NVIDIA GPUs, and have them
+[22:32] all work on pieces of that larger magical deploy and have them connect to the results together at
+[22:37] the end, reduce the results back together at the end. This is a great, great way to cut the
+[22:42] minimum latency of an operation. Each GPU is now doing one-eighth as much work, let's say,
+[22:46] and therefore can finish faster but not eight times faster. It's sublinear scaling. You'll use
+[22:51] eight times more hardware, but you won't get eight times the speed. You might get like four to five
+[22:55] backs the speed. You're not going to get strong scaling. This is because of communication overhead
+[22:59] because every GPU is going to be a little less efficient working on a smaller tile of work,
+[23:03] than a larger tile of work. It's the only way to speed up if you want the minimum latency possible.
+[23:08] You can do that, but it is not the choice I would make. For example, I would prefer to use a
+[23:12] different parallelism scheme, like expert parallelism or pipeline parallelism. We may do interesting
+[23:17] things to overlap and hide the communication latency in a way that you would have less ability
+[23:22] to do that for a low latency server. So she's the right way to think about envy link as a technology
+[23:26] which improves latency performance and only latency performance? Which will segue into the
+[23:31] next segment of what we do differently as a company? But yes, envy link is mandatory for low
+[23:36] latency inference. So in bitty is excellent at low latency inference and I'm telling you that we
+[23:41] don't really care that much about low latency inference. So where does that leave us? I'm not holding
+[23:44] my breath for other companies broadly to figure out envy link quickly. It's challenging technology
+[23:50] to figure out. It's hard to scale. It's hard to productionize. If I do have some other vendors chip
+[23:55] and it is good at the foundational compute components, it can still be mentioned multiplies really well.
+[23:59] You just can't communicate those results across its peers quickly. Well, maybe there's room for
+[24:04] that other chip in my stack as a really, really good compute per dollar option. That's what I
+[24:10] actually optimized for in most cases is how many flops does this chip have and how much is it going
+[24:14] to cost me per hour to own and operate? There are other ships that definitely rank higher than
+[24:18] Nvidia on flops per dollar, but they may not have as much interconnect. So it's my job to figure out
+[24:23] what parallelism scheme am I going to use that's going to make this chip suitable for inference.
+[24:28] It's not going to be tensor parallelism. Nvidia is basically mandatory for that, but other techniques
+[24:33] may work well for me. So before we leave the latency part of the story, can you comment on
+[24:38] companies like cerebrus or others that can perform incredibly fast operations? I'm curious like what
+[24:44] you think about those approach to those companies? What might happen in the future? What is your
+[24:48] prediction for the future of very low latency focused hardware? Cerebrus, Grock, and a couple others
+[24:54] that are coming out of stealth now, I think have made a very interesting bet on not just building
+[24:59] another GPU, but actually building a different kind of accelerator that focuses on a different
+[25:03] memory hierarchy. They want to maximize the amount of SRAM on the chip and use that as very, very fast
+[25:10] memory for weights and KV cache. So SRAM versus DRAM, there's two ways to make memory for a chip.
+[25:15] One is to integrate the memory on the logic die itself, meaning you tell TSMC I want this many
+[25:20] megabytes of storage on my chip. And there's a way to build that. TSMC has a standard cell library
+[25:25] you can use, and you can just print out a bunch of cells of SRAM. The problem with SRAM is it
+[25:30] takes a lot of area on the silicon die. So if you want to build a large die, like let's say the
+[25:36] Nvidia block wall at 800 millimeter square, if you made that whole die SRAM, it would be in the
+[25:41] maybe like single digit gigabytes. It feels like it's not a crazy amount of data storage.
+[25:46] Compare that to if you're willing to take a different process technology entirely,
+[25:50] so not TSMC anymore, but now Micron, SK High-Nix Samsung. They build DRAM, which is a whole
+[25:55] different way to build memory that's more focused on capacitors than transistor cells.
+[26:00] The standard way to build SRAM is what's called the 6T transistor cell. It's a stable transistor
+[26:04] arrangement that allows you to write a bit to it, and then it holds that state in that bit,
+[26:10] regardless of whether you keep applying. Well, you had to apply some power, but it's holding
+[26:13] that bit without any sort of like active management. It's static. Now dynamic RAM DRAM,
+[26:19] it's dynamic because what you do to write some data is you write a charge onto a capacitor,
+[26:24] and as soon as you write that charge with a capacitor, the charge is dissipating. The dynamic
+[26:28] part of DRAM is that you must every 50 milliseconds or so refresh every bit to you've written.
+[26:33] So you're constantly juggling billions of balls in the air, essentially billions of bits
+[26:37] have to be managed by memory controller, which is reading and refreshing every bit on the DRAM.
+[26:41] Now, the benefit of that is you can get much, much higher density. And it's a whole different
+[26:44] process technology. There's a ton of different tradeoffs. Hence, where we split the DRAM manufacturing
+[26:49] into an entirely different company, like Micron, SKHynix, and Samsung. These are the best companies
+[26:53] in the world to do this. They build DRAM. And if you take DRAM from those companies and you stack
+[26:58] it into many layers, and you kind of print them or solder them around the main logic die
+[27:03] that you get from Nvidia, you can now get hundreds of gigabytes, like Blackwell has 298 gigabytes of
+[27:09] HBM capacity around the logic die. And the logic die itself maybe only has like 500 megabytes
+[27:15] of S-RAM. So it's possibly multiple orders of magnitude, three orders of magnitude difference in
+[27:20] density for DRAM versus S-RAM. So let's go back to S-RAM. What are they doing? They see this problem.
+[27:25] There's not really an obvious way to increase S-RAM density on the chip. But the thing with S-RAM is
+[27:30] because it's so physically close to the logic gates that actually do the computation. The arithmetic
+[27:36] logic units are right next to the S-RAM that they're going to pull from. The compute units
+[27:42] that are doing the major flow of the plies can pull data from S-RAM at mind-boggling speeds.
+[27:46] Srivis quits petabytes per second, 21 petabytes per second for their waver scale engine three.
+[27:50] Compare that to HBM on an embedded Blackwell is 10 terabytes per second or so in that range. So
+[27:56] once again, many orders of magnitude difference, more capacity, but proportionally less bandwidth
+[28:01] essentially. What Srivis does is they say that we're going to take as many of these dies as we can
+[28:06] we're not going to limit ourselves to the 800 millimeter reticle limit, the TSMC,
+[28:09] the 800 square millimeter limit that TSMC imposes on us. We're going to take the entire wafer and
+[28:14] have every die connect to every other die over scribe lines. And we're just going to try to get as
+[28:20] much S-RAM as we can on the whole wafer. And we can get to like, let's say 50 gigabytes of S-RAM per
+[28:25] wafer. And then we're going to stack many wafers together in a pipeline or similar. And now we can have
+[28:30] up to a terabyte of memory, very, very fast memory. You do all that work just to get to the
+[28:36] ability to read data from S-RAM at 21 petabytes per second per wafer. Therefore, you can now
+[28:42] serve these language models at extremely high tickets per second, because you can move the entire
+[28:46] parameter count of a large model like Kimmy. You can move all that data in and off the logic
+[28:51] cores in about a millisecond or something like that. So there you go. You have a path to 1000
+[28:56] tickets per second. So what is your prediction for like that segment of the market?
+[29:00] What happens to them is some hybrid, we had to pair this rubris chip where it's very strong,
+[29:06] it's very, very good at fast access to memory with something that has more capacity for memory.
+[29:12] It's true that you can take a one trillion parameter model like Kimmy and fit it on a large
+[29:16] number of rubris die wafers. But you can't do something about the KB cache very easily.
+[29:22] The KB cache is something that grows as people use the model more.
+[29:25] And that is always dynamic. You don't even know how much KB cache you're going to need.
+[29:28] It depends on how many users you have and how many users you want to serve.
+[29:31] Can you explain KB cache? KB cache, when you ever use a language model, every token you send
+[29:37] through the language model stays in the context window of the language model for as long as you're
+[29:42] having a conversation. We talked for 100,000 tokens. The 100,000th and 1th token is still in the
+[29:48] conversation behind us. And the model is referencing all the past conversation history in order to
+[29:53] make better predictions about what the next thing we're going to say is that KB cache,
+[29:57] it's a bunch of memory. You have to store a representation for every token that we send
+[30:01] through the language model, and it frequently gets to be larger than the weights of the model
+[30:06] themselves. You have this crystallized knowledge in the model weights, and you have the dynamic
+[30:10] knowledge of the exact conversation we're having in the KB cache is the way I like to think about.
+[30:14] And this is why sometimes people would observe deep in a conversation things start to degrade
+[30:18] because there's some sort of technical problem. So the KB cache is quite interesting in that regard.
+[30:22] The KB cache is an exact representation of everything that came before. We store all the
+[30:26] information that we've seen in the conversation. However, during training, the model did not
+[30:33] get trained primarily on very long context conversations. It got trained primarily on,
+[30:38] let's say, 8,000 token conversations or 16,000 token conversations. So if you take the model to
+[30:43] 200,000 tokens, there was some training that happened at that context length, but it's not the
+[30:47] models like core strength. And so there's always been a challenge for the frontier labs to figure
+[30:51] out how do we make the model exactly as intelligent at 10,000 tokens as we expected to be at 200,000
+[30:55] tokens. And it's going to be perennial battle for us. We've had 1 million context windows as a concept
+[30:59] for years now. And for up it goes, I think the first to hit that 1 million context window lint.
+[31:03] When I still, you know, use slash compact in my cloud code well before 1 million context length.
+[31:08] I don't think it's actually great to hit the full length.
+[31:10] These extremely fast, extremely low latency approaches ultimately are limited by this factor.
+[31:16] Yes, you can do whatever you want for the weights. It's very possible to have
+[31:19] much unbeatable performance on weight storage. However, the KB cache is going to be a big
+[31:24] thorn in your side. So three years from now, five years from now, what role do you think these
+[31:28] kinds of chips play? Like what sort of market share do they have in the heterogeneous chip market,
+[31:32] like three bricks and grok. And maybe a couple others, you should think of them as accelerators.
+[31:36] What they are really good at is being used in conjunction with a more traditional GPU like
+[31:42] device that critically has this off chip memory built in. You want off chip memory for capacity
+[31:48] and on chip memory for speed. We want to hybridize these two things.
+[31:51] So if you take transformers in the limit, you take a transformer to a million context length.
+[31:55] What ends up happening is you have this compute bound stage, which is the actual
+[31:59] matrix will apply is for the what we call the MLP, which is where most of the models knowledge,
+[32:04] world knowledge is encoded. And then you have the attention layer, which is where we're
+[32:07] dynamically adapting to the current conversation. Attention in the limit is usually memory bound.
+[32:12] The MLP in the limit is compute bound at large enough size. I would say the original sin
+[32:17] of transformers is that you've taken this extremely fundamentally memory bound layer
+[32:22] and juxtaposed it right next to a compute bound layer. It is very difficult to have
+[32:26] a single chip that is good at both compute operations and memory operations. The GPU is quite balanced
+[32:31] in this regard, but you had to choose one or the other. Sribris has a very fast memory access for
+[32:37] something like a matrix will apply. And it's really good to host the MLP, the weights essentially
+[32:44] on this rubris chip. But the GPU has the capacity to scale to really long context lengths.
+[32:48] You would like to put the attention possibly on the GPU and the MLP on this rubris chip.
+[32:53] And I believe this is what's happening with NVIDIA and GROC.
+[32:55] Can you riff from it just on transformers for people that again aren't deeply familiar with what
+[33:00] this innovation was in 2017, what its strengths and weaknesses are, and whether or not you think
+[33:05] it will remain the dominant architecture or a dominant architecture for the future of AI?
+[33:10] What it did, it allowed us to learn unsupervised data really effectively.
+[33:14] Because transformers, what they're all about at the end of the day is taking any
+[33:18] sequence, any arbitrary sequence of data and trying to find patterns in that data. And they
+[33:23] critically, the attention operation, which is the headline component of transformers,
+[33:28] it allows the model to dynamically adapt to what it thinks is the most relevant
+[33:33] component of the sequence. Every step you take through a transformer, you are essentially like
+[33:39] re-weighting the input that you looked at before and figuring out which is most relevant
+[33:43] for your next prediction. It's extremely amenable to learning arbitrary sequence data.
+[33:49] And the most interesting sequences of data that we produce on a regular basis is language.
+[33:54] And that's how we got to dominance in the language regime. To zoom out even further,
+[33:58] I think what transformers really did well is that they scaled.
+[34:01] Transformers make no such human prior. Transformers just say, well,
+[34:04] there's going to be a pattern in the sequence of data, and if there is a pattern, I'm going to find
+[34:07] it. I'm going to throw more and more parameters at this problem until it works.
+[34:11] Transformers benefit from a lot of the computer vision work, too. For example, one of the challenges
+[34:15] in computer vision was we had a hard time going from hundreds of thousands of parameters,
+[34:19] which you get for linear models, like support vector machines or other legacy machine learning
+[34:24] models. Those had thousands of parameters. Then we got to deep learning and got to tens of
+[34:28] millions of parameters with computer vision. The biggest models were 150 million parameters,
+[34:32] was a huge model for computer vision. And now we routinely talk about trillions of parameters.
+[34:36] And transformers are the link to go from millions to trillions of parameters.
+[34:40] So if I think about the important units of scaling being data and compute,
+[34:44] does it stand a reason that you think transformers will just stick around? Because that's the thing
+[34:47] that we're good at getting more of those two things? Transforms are such great sponges.
+[34:52] You increase the compute available to a transformer by 10x, and you'll get some log improvement somewhere.
+[34:57] And so far, the scaling laws really work. They're really quite beautiful. And to the point about
+[35:01] what do transformers do really well, they extend to almost any data set you can throw at them.
+[35:05] They're extremely powerful general learners. And I think what's especially useful about
+[35:09] transformers over other techniques that we've tried to replace attention is transformers represent
+[35:16] any pairwise relationship that you want. Any token in the sequence can attend any other token
+[35:21] in the sequence. So if there's any relationship that's in the sequence at all, you're going to find
+[35:24] it with a transformer. Now, maybe the case that you don't need all to all modeling, you don't need
+[35:29] every token to look at every other token. But if you need to transformers give you that option,
+[35:35] and until we know a better way to prune that space down, a better way to kind of have information
+[35:41] modeling be more selective. Attention is a very, very good operation. This is another
+[35:47] trick that we learned in the computer vision days. One of the old Carpothi sayings is that if you have
+[35:51] a new data set that you want to train a model for, your first goal should be to over-parameterize
+[35:55] the model and try to overfit the data that you have, to prove that there is a relationship that you
+[36:00] can model or memorize, that you're learning algorithm works, that you can instill knowledge
+[36:04] into the model. Once you can overfit, then you can compress and the compression is how you get
+[36:07] generalization. You don't want to actually memorize the data that you have in front of you. You want
+[36:11] to generalize and therefore, once you overfit the data set, then you can kind of work backwards and
+[36:16] try to find the general patterns that fit into the smallest parameter count possible. What's your
+[36:20] prediction for the future of data and riff on the importance of data in this whole story?
+[36:24] I like the phrase that internet was a one-time subsidy on data. We got it for free. It's extremely
+[36:29] high quality. There are about 30 trillion tokens of high quality text, 300 trillion tokens if you
+[36:34] take a wider view on what qualifies as a good text. We've basically looked at it all already.
+[36:39] Models have seen the entire internet many times over at this point, and there is not a whole lot
+[36:43] more to be done on human data from the internet. The next phase of data in my mind is model self
+[36:49] improvement through RL environment, gyms, basically. Now, in fact, we don't even benefit from getting
+[36:55] more random user interactions with AI. It used to be that the new type of data that we cared about a
+[37:00] lot was the interaction data from people using chat GPT and giving chat GPT signals on what they
+[37:05] liked and didn't like. I like the argument now that the median model that we serve is so much more
+[37:10] advanced than a random human giving feedback that the signal you get from random human preference,
+[37:15] unconditioned human preference, is not actually worth anything anymore. You want expert human
+[37:20] preference at this point. The model has outgrown every day to generic. Yeah, every day to show
+[37:24] exactly. So the future of data to me is giving the model a hard verifiable task and letting it
+[37:30] run in this gym where it's kind of isolated and it just has a problem and it can make progress on
+[37:34] it, get measurement of whether it made progress on that problem or not. You can imagine coding problems
+[37:38] are in this category, math problems are also in this category. More and more, we can just give
+[37:43] the agent a computer essentially and have it act like it's a human worker and give it feedback on
+[37:48] whether it's making progress towards the target outcome. That environment becomes the data. I
+[37:53] think this is not a super different way to take, but it's been really, really productive for what
+[37:56] I've seen so far. And you think that just goes on for a really long period of time or is that
+[38:01] another like, if I think about the internet as this one big block, like this is another big block
+[38:05] that will have its day in the sun and will kind of get it all and then we'll have to move on to
+[38:09] something else? I think it's actually more profound than that. Basically, the idea is that if you want
+[38:14] artificial general intelligence, the best way to get there is to just keep stacking specialized
+[38:18] intelligences until you have no more gaps to fill. The only thing you need to make sure you do to
+[38:24] make this work is you must make sure that your task is verifiable. You need to give the model a
+[38:28] self-grating system. If you have that, you have the recipe for self-improvement on any task you like.
+[38:34] I think you've seen this held up by the way Frontier Labs spend that much on data,
+[38:38] and now they spend a lot more on our environments. These environments absolutely capture that relationship
+[38:43] of recursive self-improvement on a verifiable task. Coming back to your initial task of making
+[38:50] existing hardware more efficient by being more in control of what's going on at the hardware level
+[38:56] through software, keep going on what you've done so far and what you want to do, and then we're
+[39:01] going to jump to hardware and then jump to energy finally. I mentioned kernels. It's surprising.
+[39:06] People think kernels are done. They're great people, like, treat out. You're right, excellent kernels,
+[39:10] and before the bedrock of all of our modern deep learning is built-on flash tension. Modern
+[39:15] transformers are built-on flash tension, but if you deviate from the happy path at all, if there's
+[39:19] a new model that comes out that has a slightly different way to embed positional information,
+[39:23] let me change the rope system. Suddenly, the kernel that we had is not suitable for this new model,
+[39:29] and we may have to make a patch to this kernel. I wouldn't say we're in the phase where we had
+[39:32] to invent new kernels from scratch, but having the ability to quickly modify existing GPU kernel,
+[39:38] sorry, a kernel, and by the way, is a general term for any program we run on the GPU.
+[39:42] Historically, kernels tend to be put into a library where every kernel has a very, very
+[39:47] scoped purpose. You typically have a kernel for a matrixless apply. You have another kernel for
+[39:52] even something as simple as addition. You want to add two tensors together. That's another kernel.
+[39:56] And then, increasingly, we've started to fuse those kernels together. So if I do a
+[40:00] matrixless apply, and then I want to add it to another matrix that I've also multiplied,
+[40:04] maybe those two become one kernel, and I just fuse the operations where sort of writing the data out
+[40:09] to DRAM, and then reading it back in just to do the addition, maybe I can just do this easily.
+[40:13] Why are humans still doing this? Like, it seems like the sort of thing that AI's would be
+[40:17] exceptionally good engineering, more efficient kernels. Maybe that's where we're going, and we're just
+[40:22] not quite there yet. But if we aren't there yet, is that where we're going? If we're not there yet,
+[40:26] why humans still doing this? Why is Treetow so well-known? You know, it's a name I know.
+[40:30] I don't want to speak for Treet, but what he taught me was you shouldn't write kernels
+[40:34] by hand anymore, necessarily. I like to say we write kernels on the whiteboard. We go to the
+[40:38] whiteboard, we describe what we think the machine should be doing, then we succinctly describe that
+[40:42] in the natural language to a model, and then the model is able to do the execution of here is
+[40:48] my input and output. Here is the strategy of how we want to dispatch this work onto the GPU.
+[40:53] I'm going to go implement it. So we're doing the conceptual design.
+[40:55] Exactly. I'm not sure exactly why models are not superb at doing this. I don't think this
+[40:59] is like our moat or anything like that. I'm sure in six months time, we'll have much better models
+[41:03] on kernel engineering. And I'm sure the labs would tell you that they already do a lot of their
+[41:07] kernel engineering in a fully automated way. So software as an edge, but I think about software as
+[41:12] maximally near speed of light, efficient usage of an underlying piece of hardware,
+[41:16] is going to trend towards not being an advantage for a company like yours over time.
+[41:20] Yeah, that's right. The rising tide of something like Mythos or GBT 5.6 sole,
+[41:25] that lives all boats. It really does. I actually don't think there's a point in specializing
+[41:29] to say we work on making the model better for just kernel engineering. I think that's actually not
+[41:34] the most meaningful subset of coding in general, kernel engineering in particular. Maybe there's
+[41:40] some privilege information you inject into the prompt. That's like a useful way to steer the model
+[41:43] to be better at writing kernels. But probably speaking, yes, we're all downstream of the frontier
+[41:48] in terms of this capability. I always love this from the history of energy. There's always this
+[41:53] pendulum between the raw source, let's say coal. And then if there's a certain amount of energy
+[41:58] available inside of a hunk of coal, what percent of it we can harness and use? A big part of the
+[42:03] history of energy was getting that number from 10% to 95% or whatever. If I just think about a
+[42:09] Blackwell or something and Blackwell is the piece of coal, what percent do you think we're at?
+[42:14] How efficiently can we use an existing piece today? There's a lot of ways to analyze that.
+[42:19] In some level, we're really efficient at optimizing the performance when the GPU is doing the thing
+[42:25] that it's most happy doing, which is a large dimension matrix will apply. That operation runs at
+[42:31] 70%, 80% of peak utilization, and it's limited not by software, but by power. The way NVIDIA quotes
+[42:36] peak flops is optimistic. You never hit that because of power throttling. Because of heat.
+[42:41] Exactly thermals. In practice, you don't spend the majority of your time in a transformer. In that
+[42:46] happy path where you're doing a large batch matrix will apply. Our job is to basically
+[42:50] build the engine around the chip such that we are feeding the GPU these large batches of work
+[42:54] at all times. One of the most profound transitions we've had in the GPU world in the last year has been
+[42:59] this moving of you don't program one GPU at a time anymore. You should think about the whole rack,
+[43:04] and maybe you should think about the whole cluster the entire data center at a time. With NVIDIA,
+[43:08] they've started shipping not just a single GPU or a single motherboard, but actually the whole
+[43:12] rack system is something that they've prescribed. They call it NBL 72. Their latest chip, the Grace
+[43:16] Blackwell 300, that ships as a rack of 72 units, and it's an open race to figure out who can program
+[43:22] the whole rack scale computer as efficiently as possible. My belief is that that shape of
+[43:27] compute is the future of efficiency and speed. In fact, NVIDIA is a great job of if you want the
+[43:32] lowest possible latency, you should be using that chip. If you want the highest possible throughput,
+[43:36] you should probably also be using that chip as of right now. It all comes down to this is a very
+[43:40] new paradigm of programming. One of the things you hear is that the market for the best chips,
+[43:45] Blackwell's let's say, is a drug market or something right now. There's all sorts of
+[43:49] fascinating things happening to get as many of them as possible because everyone's so short.
+[43:54] It'll be to react to that analogy, is that what it feels like? Then also to talk about what the
+[43:57] market is like for not the bleeding edge chips. If I am willing to accept a slightly or moderately
+[44:03] inferior chip, what's that market like? Let us into that world.
+[44:08] NVIDIA has a long-term view on all their chips. They see this immense demand for the Blackwell chips.
+[44:13] They can do what other suppliers have done in the past, which is crank prices,
+[44:16] made the market, supply and demand curves well correct. They'll intersect at some point,
+[44:20] and everyone will be technically happier. NVIDIA sees if they just let the most deep pockets buy
+[44:25] all the chips that maybe hurts them in the long term, if that customer ends up accruing a lot of
+[44:30] more power. They understand the compute is power today. They're quite strategic about how they allocate
+[44:35] compute. That's the first thought. The second thought is that relationships matter a lot.
+[44:39] Nobody wants to have a huge order of a chip rental come in from this new startup that says,
+[44:45] oh, yeah, I'm going to rent 10,000 Blackwells for three years or five years.
+[44:48] This startup has only been operating for a month, typically. Who knows that they're good for the
+[44:52] money? The way you convince someone to give you access to compute is quite challenging these days
+[44:57] and requires some pretty great relationships or just incredible financial backing to make this happen.
+[45:03] On the NVIDIA side, and it's all because this scarcity is so high and demand is just off the charts.
+[45:09] Now, for other chips, I wouldn't even call them inferior. I like to say there's no bad chips.
+[45:13] There's only bad pricing. I will make any chip work at the right price.
+[45:16] That's one of the ethos of the company. Let's talk about AMD.
+[45:19] AMD, I think, great chips overall. The challenges that people don't understand how to program them
+[45:25] very well. I've been talking to you about how we have such a great kernel team. We're so serious
+[45:28] about squeezing the performance out of the hardware. NVIDIA is pretty good at doing that for
+[45:32] their own chips, frankly. There's some alpha that we can squeeze out, but there's a lot more to be done
+[45:36] on other chips because the vendor does a little bit less work than NVIDIA does to make the best
+[45:40] kernels out of the box or even better. There is alpha and just other people have this perception
+[45:45] that AMD is not as good as NVIDIA. That's music to my ears. I'm very happy for them to sleep on this chip
+[45:50] and for me to buy as much as I can. Now, I think that that's not actually super true anymore.
+[45:54] I think AMD is actually somewhat popular amongst some large buyers. I think publicly
+[45:59] meta and opening, I have bought a ton of AMD chips. We're increasingly seeing that all the AMD
+[46:03] supplies also being allocated, but there's a long tail of other companies that are popping up.
+[46:07] Net new companies are great, such as Etched or Sambanova or a D matrix. All these companies are
+[46:13] popping up. I think the main challenge for them is scale. Can they actually get enough way for allocation
+[46:18] for TSMC to pump out chips to make it into the market? If there's a new chip on the market,
+[46:23] I'd like to know about it as quickly as possible and evaluate whether we can buy a good fraction of
+[46:27] supply. It's fundamentally an arbitrage for you. If you can be much better at eking out performance
+[46:33] from chips that have received less attention, you can then resell that at a margin and it could
+[46:38] be a great business. Exactly. I think that it's not the case that everyone else has a skill issue
+[46:42] that they can't make these chips work as well. I think we're quite confident in this. I think
+[46:46] we're probably one of the best teams in the world to use multiple silicon architectures and be quite
+[46:50] aggressive in chasing down performance in unlikely places. But yeah, I think it's the speed at which
+[46:55] we're willing to build our stack around a new chip. We don't have a huge amount of incumbency
+[47:00] around, well, our data center providers are only stuck with this class of chip and it's going to
+[47:04] be a huge pain for us to deploy these net new chips. We have some very creative data center partners
+[47:09] who are willing to move very quickly. And there's a new class of this that we can talk about.
+[47:13] Most importantly, we don't try away from the challenge. That's frankly, a big part of this
+[47:17] is just saying, yes, we love TPUs. We're going to make TPUs work. Yes, we love tranium. We're going to
+[47:21] make tranium work. And if it doesn't work easily, we're going to find a way to fit it in with the
+[47:26] hydrogen to serving system, it will have a place. Every chip has a comparative advantage.
+[47:30] We had to find that advantage and then squeeze it in that direction.
+[47:33] Just as an interlude before we get to hardware, data centers, energy, et cetera,
+[47:38] which would be a really fun part of the conversation. I'd love you to talk about your
+[47:41] perception of the investor classes worry. If you look at memory stocks or my current favorite is,
+[47:48] you look at the chart that plots the percent of the S&P 500 that's semiconductors.
+[47:52] Historically, it was like two, three, four percent. Now it's 19, 20, 21 percent.
+[47:57] And it just sort of looks like if you're a student of market history, you get all these
+[48:00] things through time that have sort of reached some crazy near-term peak and then collapsed back
+[48:05] to long-term norms. That has all investors worry. A lot of people made a lot of money in
+[48:09] Micron and SKHynix and companies like this. But everyone feels like long-term computes a commodity.
+[48:15] They will not represent a quarter or fifth of the entire market capitalization of the world.
+[48:20] They're scared and that's the setup. Everyone acknowledges that there's a huge shortage.
+[48:24] Everyone sort of feels like we'll figure it out and these things will revert back down to their
+[48:28] normal place in capital markets. I'm curious what you think about that narrative.
+[48:33] I'm less of a student of history as more of a member of history. I was born in 1987 and my mom
+[48:38] worked at Intel. They run up to the year 2000 and the dot com boom and crash. I remember the time
+[48:43] where Cisco was the most valuable company in the world. And Intel was close behind and mostly
+[48:47] draw parallels to that period of history from 25 years ago to today. And I think the main
+[48:52] difference is that a lot of the investment in networking equipment historically was speculative.
+[48:58] We anticipated this future demand for users that never came. And I think what's interesting about
+[49:03] token consumption or AI consumption broadly is that it's no longer speculative. People buy
+[49:08] tokens because they're immediately valuable to them. You don't hoard tokens. You use them
+[49:12] immediately. This is also even different from what we had two years ago where there was a
+[49:16] supply crunch for Hopper generation chips in 2023, 2024. In that period, it was all training
+[49:22] oriented spend and training is inherently speculative. Now it's everyone instituting caps on how much
+[49:27] you can spend on a cloud code. It's a very, very different world to be talking about inference spend
+[49:32] and predicting inference spend to go up. I do think inference spent monotonically increases.
+[49:36] There's no speculation on inference. Coming back now to your take on hardware,
+[49:42] the unit level is interesting to me. Talk about chips, talk about racks, talk about clusters.
+[49:47] I'd love to talk about data centers. You said you've had some interesting partners doing some cool
+[49:51] things. Talk is about the present and future of data centers as you see it because this seems like
+[49:57] obviously a critical thing for being able to serve all this inference as lots of innovation
+[50:01] in this part of the world. And obviously you're focused on it. I think one of the themes in our
+[50:05] conversation has come back to what is training versus inference. What is the difference between
+[50:08] these two categories and what was different about two years ago being training oriented and
+[50:11] today being inference oriented. And I think the most conservative players in the entire
+[50:15] ASDAQ have got to be the infra players, whether the data centers or even more conservative TSMC,
+[50:20] the chip infra people. Data centers they were built for training. Training is a super set workload
+[50:26] over inference. You can make any training cluster work for inference, but maybe not vice versa.
+[50:31] The difference there is networking. How much do you invest in bandwidth between chips
+[50:35] and how large of a cluster do you need? There's actually a diseconomy of scale to data centers
+[50:40] in some way. It's way more expensive and difficult to build a 100,000 GPUs in one data center than it
+[50:44] is to build 10,000 than it is to build 1,000. Now we just talk about how many megawatts or gigawatts
+[50:49] do you have? And basically there's no way to build a gigawatt data center in the United States
+[50:54] easily anymore. Even 100 megawatts is increasingly hard. It's basically impossible in a very special
+[51:00] set of customers. 10 megawatts is probably on the edge of what's possible today. And one megawatt,
+[51:05] I would argue, is plentiful. So there's this incredible floor on the market where you can
+[51:10] find lots of aggregate power, but it will not be concentrated. And that was not interesting to
+[51:15] anyone who's building training data centers because you just assume, based on one spot,
+[51:20] for no one wants to deal with cross data center training, the market has some lag in it. I think
+[51:24] that the market still assumes that we have to go shake down those 100 megawatt and 10 megawatt
+[51:29] data centers wherever we can find them. It's still the attitude I hear from a lot of data center
+[51:32] developers, but increasingly we're seeing a few new thinkers realize that inference is going to be
+[51:38] suitable for these distributed 1 megawatt data centers. We're quite in agreement with that.
+[51:43] And we're very happy to buy small pools of compute across the United States and use that as our
+[51:48] inference fleet. Give us a sense of literal physical size of 1 megawatt versus 10.
+[51:53] Yeah. Well, so this got really wonky with the advent of liquid cooling. Now you can pack insane
+[51:58] levels of power density into a single physical rack. A megawatt of compute, you'd imagine this
+[52:03] massive data hall, a huge warehouse, basically. And now you can actually pack that into
+[52:08] around eight racks for the compute. Each rack is about the size of a refrigerator.
+[52:13] You can just imagine eight of them lined up. That's a megawatt.
+[52:15] Your view would be that the future that you want to help build is a whole bunch of different
+[52:20] chips that can be used together, that you can buy your buyer to eke out the most per chip.
+[52:27] And that those chips can then be coupled in very small data centers to just do inference.
+[52:33] Those two steps of a whole bunch of random compute, some of which is cheaper than it should be,
+[52:38] your ability to eke more out of it. And then small units of expression in the data center
+[52:43] equals way cheaper intelligence. I certainly think so. Yes, there's a lot of ways to access
+[52:48] cheaper flops if you're able to be creative with what you take. And so one of the ways that I describe
+[52:52] what we do is we will buy any chip anywhere in the world for any duration of time.
+[52:58] That is a level of flexibility and liquidity that no one else has right now. We're very aggressive
+[53:02] about putting our money where our mouth is, and we will take any capacity and find a way to make
+[53:07] it work in our fleet. And that is a big part of our advantage today. Long term, we have to create
+[53:11] more of that advantage by investing in these data centers that other people are going to be skeptical
+[53:16] of, because what's going to happen when you set this army of a thousand small data centers versus
+[53:21] the one big gigabyte data center, a few things. You're not going to have power redundancy.
+[53:24] Quite often, you're not going to have backup diesel generators on site. Those are all very
+[53:27] expensive. We cut all that overhead. We're not going to have done networking a lot of cases.
+[53:31] We're going to put these in facilities where we have good access to power, a single source of power,
+[53:35] and we're going to trench one line of fiber to these data centers. But we're not going to have
+[53:39] three lines of fiber with redundancy and failover in SLAs. We're just going to go down sometimes.
+[53:44] I won't be surprised if some of them get down to like 95% uptime, which is bad, very bad.
+[53:48] That's fail atrocious for anyone else.
+[53:50] Couldn't survive in a big gig.
+[53:52] You'd have basically zero buyers for a data center that is 95% uptime.
+[53:56] I'm that first buyer. I will buy 95% uptime.
+[53:59] And the reason for that is because of this background engine thing.
+[54:01] There's things running in the background. You don't care.
+[54:04] Partially, it's actually two things. One is that we have a really robust control plane that is going
+[54:09] to be fine handling any single failure in any single data center as long as it's not correlated
+[54:13] with other data centers. And I can just move the workload somewhere else. I'm cool with that.
+[54:16] The failures happen at some rate. And I am basically linearly happy with a data center
+[54:21] that's 95% uptime versus 98% versus 99%. It's just linearly good or bad for me.
+[54:27] You do need that async piece that I mentioned. We serve these long horizon agents because what
+[54:32] happens when a request fails is that I'm going to have to go find a new GPU to put that request
+[54:36] on. And that means that for that single turn of the agent's work, it's working for an hour,
+[54:41] but then hits a roadblock because it's GPU got pulled away. In that moment in time,
+[54:45] that agent is going to experience maybe like an extra minute or two or three, maybe even 10
+[54:50] of latency. My argument is that my customers don't care because their agent was running for hours.
+[54:55] They're sleeping. It doesn't matter if a single turn occasionally becomes a little bit longer.
+[55:00] We tell our customers, look, our average throughput is going to be very competitive,
+[55:04] but our P99, our 99% towel latency is not going to be controlled. It cannot be. And in return,
+[55:10] I'll give you unbeatable economics. And I think that's the right fit for background agents.
+[55:13] Talk about power as the category. What the innovation that you're seeing is where you think
+[55:17] it goes from here. What are you seeing that's interesting, innovative? Where do you think this goes?
+[55:21] Okay. So I said I want 95% uptime on my data centers. Could I even take 80% uptime at the right price?
+[55:27] Probably. And what does that mean? Well, I'm a son of California. I love solar and wind.
+[55:32] I think solar and wind power is way under tapped in the United States. And the challenge has always
+[55:35] been this intermittency. You would even consider solar and wind unsuitable for data centers because
+[55:40] you have a persistent base load and the intermittent power source. What are you going to do?
+[55:44] Well, I think we're actually not that far from solving that problem. I am totally capable of
+[55:49] tolerating a outage from a data center that's measured in even days or weeks, which is like the
+[55:54] worst case nightmare scenario for a data center is that we're going to have a long-term outage
+[55:58] because the wind isn't below and the clouds are in the sky. Fog is hanging over the valley for some time.
+[56:02] That's worst case scenario. It's in fact, highly predictable. And I can just call in
+[56:06] capacity in some other place in the world whenever that happens. I'll just model the weather
+[56:10] and figure out when my data centers are going to be offline, move my work with somewhere else.
+[56:14] And it's fine. The trick is that it's going to give me better access to power that no one
+[56:18] else is going to touch because it is so annoying to deal with that kind of outage. And if my chips
+[56:22] are cheap enough, they're probably not going to be Nvidia racks. If my chips are cheap enough,
+[56:26] I don't mind the capital cost of having vital chips. I've heard you describe this entire system as
+[56:31] like a scavenger strategy. Yeah, that's right. Unpack that analogy a little bit. Well,
+[56:35] first we scavenge chips and then we scavenge power for those chips. The idea is in both cases,
+[56:41] I do not want to be bidding against anthropic or of an AI for a complete capacity. I'm not going to
+[56:45] win against them and I don't want to. I want to be more creative and use the supply that they don't
+[56:48] find legible today. And over time, I am asked enough aggregate supply. I'm never going to get
+[56:54] concentrated supply. I will always get aggregate supply. And over time, I build my aggregate factory
+[56:59] that is unbeatable in economics. We are building a factory. We're trying to build the best steel
+[57:03] factory in the world, but it will come through mini mills, not through large monolithic steel plants.
+[57:09] And if I imagine the different versions of this, how vertically integrated you can be,
+[57:13] the extreme would be you own everything so that it's a very capital intensive business.
+[57:18] You own the power source, you build the data centers, you design your own chips, you control
+[57:24] the software that eats the most out of those chips, and you sell the end finish token to your user.
+[57:30] Your user is me, and you just own the whole stack. But you can imagine many other permutations
+[57:35] of the business where draw the line anywhere. You could be incredibly capital light, own nothing,
+[57:41] and just be like the coordination plane across all this stuff, the virtual scavenger.
+[57:45] How do you think about that question of which type of these businesses to be?
+[57:49] You know, there's actually two parts of me to receive that question. One is the CEO of a company
+[57:53] that needs to work every day and grow sustainable and as quickly as it possibly can.
+[57:58] Yeah, there's a founder, and the founder is much more imaginative and loves this stuff.
+[58:02] The founder in me wants to do everything. This is my entire life. So my entire life,
+[58:06] thinking about chips, power, energy, all I care about is this stuff. So, of course,
+[58:09] I want to be maximally ambitious. I don't want to stop ever. I will never stop until I have
+[58:13] built the most efficient system from soup to nuts.
+[58:15] You didn't really factor it, basically.
+[58:17] Very much so. So that's like the emotional from the hard answer.
+[58:21] On the CEO side, I think we had to be more pragmatic. The capital we're looking at for
+[58:26] owning everything is insane. Software has high leverage, so we have to start with software.
+[58:30] But ultimately, do we own power generation or can we get great power purchase agreements with
+[58:35] utilities? I'm more inclined to pursue letting other people specialize in the things that they're
+[58:40] historically good at and then see if we can get to this scale. I think of it as like,
+[58:44] I want to get to this scale where I earn the right to take this under our wing.
+[58:47] I absolutely think that there's efficiencies to be gained everywhere in the stack. If you can
+[58:51] break the assumption that people I would be buying from, they made assumptions about who their customers
+[58:55] would be. I maybe break those assumptions. It's a pretty optimistic view.
+[59:00] I think it's only possible because we're actually trying to underwrite the largest market for compute
+[59:05] in the history of computing. We're actually going to build so many millions, trillions of dollars of
+[59:11] investment into inference. Because of that focus, it makes sense to build a lot of things that are
+[59:16] custom for inference. It's my job to seek all the places where that's possible.
+[59:20] And then as it become obvious to me and my partners, I look at my partners to build custom
+[59:26] things for me. And if they can't do it for me, I will do it myself.
+[59:29] If you had to just zoom out on this entire system, software, hardware, energy, et cetera,
+[59:33] and stack rank the places that you think that we are the most inefficient today at producing
+[59:39] useful intelligent tokens. What does that list look like?
+[59:43] I think compute scaling is actually very efficient. You give me more flops and I will use more flops.
+[59:48] I would say we're actually fairly judicious already with our use of flops.
+[59:51] If you look at a modern MOE model, there are very few models that are more than 10% dense,
+[59:56] meaning 10% of the possible number of experts you can activate are activated.
+[60:00] And I think the frontier models are closer to like 1%. Fairly sparse already.
+[60:04] I don't think that we're wasting too much on the MOE side. People have been working with MOE for
+[60:08] quite some time. They're pretty good at squeezing MOEs. Where we are not good is attention. And it's
+[60:13] use of memory specifically. The KV cache is quite uncompressed right now.
+[60:19] I think if you look at the entropy in a KV cache, it's not earning its keep like we're storing
+[60:23] many kilobytes of data in the KV cache per token. And that's probably off by an order of magnitude or
+[60:29] two. I don't know what the frontier labs do, but DeepSeek certainly publishes really interesting
+[60:33] work to compress that further and further. And they're making good progress. And I think the
+[60:37] fact that they're able to make an order of magnitude and progress here every year or so signals that
+[60:41] there's a lot more room to go. If you zoom out further, I think that we actually don't marshal
+[60:46] our compute effectively at all. We have all this compute in the world. NVIDIA is pumping out 5
+[60:50] million black wall chips this year. Where are they all going? Are they all being used at all
+[60:53] all the time? I certainly doubt it. I think that at some level, we just need better orchestration of
+[60:57] compute across the world. This is very difficult to do because a lot of compute disappears into
+[61:01] private pools of compute that will never see the light of day. And those GPUs sit very sadly idle.
+[61:06] It pains me physically to see that those GPUs are just silicon and power went into that. And it's
+[61:10] just sitting idle. And I want to fix that. How we organize and orchestrate the world's compute
+[61:15] as a shared resource and pack it more efficiently. I would estimate that we all make fun of XAI for
+[61:21] having some challenges with total flop utilization on its clusters. The reality for the rest of the
+[61:26] world is it's far worse. A ton of GPUs just sit in warehouses or sit in private pools allocated
+[61:31] to a specific customer. Just don't get utilized. You're attacking the efficiency of that very
+[61:35] directly. That's way more effective. Yeah. What about Fabs? What do you think is the future of
+[61:41] Fabs themselves? I think everyone is wondering, will the memory companies, will TSMC, will Intel,
+[61:48] and others, how will they expand capacity, basically? Will we do it here in the US? Riffon
+[61:54] fabrication of chips themselves. If we could just snap our fingers and have 100 times the chips
+[61:59] in the stock today, we'd probably have way cheaper tokens. That seems like an important
+[62:04] part of the universe to hear your view on. Everything grows in balance with each other.
+[62:08] If we snap our fingers and double all those things, you might fix a TSMC bottleneck,
+[62:12] you're just going to run into another bottleneck. You make 20% more chips than you have another
+[62:15] bottleneck immediately. I will say, though, it is interesting what they consider to be a must
+[62:22] deliver, like an invariant that their customers, me, are always going to want versus what I think
+[62:27] as a more fluid relationship. I think that if the FAB exposes more of their trade-offs,
+[62:32] to me, I'm able to make more intelligent decisions about what I can do.
+[62:37] One of the most interesting examples here is that any FAB has a lot of spread in their worst chip
+[62:43] that comes out of the production line and the best chip that comes out of the production line.
+[62:45] There's a lot of variance in how chips are made. The question is, if you have a company like TSMC,
+[62:49] they work very, very hard to tighten what we call these process corners. We want to keep
+[62:54] the worst chip as close in characterization to the best chip, and they've got a great lens
+[62:58] to make that possible. That means that they are adding a lot of controls in the process that
+[63:02] maybe I don't need. Maybe I'm actually willing to find a place for that worst chip. You don't need
+[63:07] to tighten the process control as much, which takes more time and cost. Maybe I'm willing to
+[63:12] take a lot more rejects. I think for us, it's a more holistic optimization around
+[63:17] cost of the dies, supply of the dies, and then the cost of power and places we can put them.
+[63:22] My whole goal is to so dramatically expand the supply of power across the United States that I
+[63:27] have a home for a lot of chips that otherwise would not have earned their place in a data center.
+[63:32] Can we talk about how you design the system of your own business? What lessons have you learned?
+[63:36] You talked about some interesting and video lessons. Bring me into the culture and how
+[63:40] you structure a team in a business where this is the North Star.
+[63:44] There's a lot of in-the-limit thinking. We don't worry about the immediate nature of when we start
+[63:50] working on a model. The efficiency is not going to be very good. We think about where we could end up
+[63:55] in like a month, six months, or a year's time. We don't accept the state of the machines we work
+[63:59] on is fixed. Even something like the Blackwell chip, if we think that there's some bottleneck that is
+[64:05] holding us back from achieving this performance, it's very important to me that we understand and
+[64:10] characterize that very well and write it down so we can both tell NVIDIA about it or friends,
+[64:14] and also to basically keep this in mind for future chips that we buy. We want to learn things that are
+[64:20] invariant for us or the company long term and kind of fold that into future decisions that we make.
+[64:26] We're very collaborative. I think one of the most important traits that we look for are people who
+[64:30] either who are both good students and great teachers. A lot of our people on the team were TAs in college
+[64:35] and loved the experience of sharing knowledge in this way. We do whiteboard sessions all the time.
+[64:40] The collegial environment where everyone has something to teach and something to learn
+[64:43] is extremely important for us. What are the attributes of people that you would want to hire
+[64:47] that you think will be resilient to the work environment three years from now when more stuff
+[64:52] is handled by machines? Curiosity. A hundred percent curiosity. The one thing I cannot teach
+[64:58] is love for performance. Love for digging into every microsecond. The machine is working and
+[65:04] understanding what's happening on the machine at that time. That to me is the most important trait
+[65:08] for a performance engineer is what I look for. I don't look for lots of experience. I don't look
+[65:13] for CUDA experience at all. That's actually a huge red herring. I mean, CUDA as a concept or
+[65:17] GP as a concept of evolved so much in the last five years, it's no point asking for 10 years of
+[65:21] experience. I want to teach that, but I cannot teach the love for performance engineering. That is
+[65:26] what I seek. Can you give your assessment of the major labs one by one, but also then the relationship
+[65:33] of closed source as a category to open source? What you think is happening and will happen?
+[65:37] In a line, I would say the labs pay an immense premium to be three to six months ahead
+[65:42] of everything else. I think that's probably still worth it. I think it makes perfect sense for
+[65:46] an anthropic to do what they do. There's a sensitive topic around distillation, which I think is a
+[65:50] very core piece of the relationship between closed and open frontier. I'd like to offer an alternative
+[65:55] view on that, which is there is the sense that distillation is theft, that you are taking something
+[66:00] from the frontier models when you distill on their outputs. In fact, even if that's not your intent,
+[66:05] even if you don't ever try to scrape data from anthropic, one thing I'll offer is that an
+[66:10] increasingly large percentage of the artifacts we put out on the internet are AI-generated.
+[66:15] You just look at GitHub alone. What percentage of repos created in the last year
+[66:18] do we think were created by Cloud Code? Do we consider that to be distillation? Because it's
+[66:22] probably all we need. I would not be surprised if you could train a fable class model only on the
+[66:26] outputs of code you consider good on GitHub that's open source. And certainly if we take the position
+[66:31] that users own the outputs of their interaction with AI and they choose to put that up on GitHub,
+[66:36] which a lot of them do, we're going to have latent distillation for a long time.
+[66:40] It seems fundamentally possible for me. I don't think it's fundamentally possible to prevent
+[66:44] the diffusion of information or model capabilities. It will happen. The question is just how fast.
+[66:49] And so then the question becomes, do scaling and improvement laws hold forever or for a really
+[66:55] long period of time? And if they do, then there's value to being three or six months ahead and that
+[67:00] was just last as long as it lasts and they can charge a huge premium for those tokens relative
+[67:03] to a very cheap open source token. Is that the right way to think about it?
+[67:06] I think it's possible. I don't know the premium for being three or six months ahead is going to
+[67:11] last that long. I mean, if you look at enterprise deployments, they don't move at three to six months
+[67:16] speed. A lot of enterprises are probably still handling four or six, Opus four six or Opus four
+[67:20] seven, they don't adopt the bleeding edge rapidly. There's a lot of questions that people have
+[67:25] around rolling out any change at all. We're just so early in scratching the surface that
+[67:29] I don't think there's any way to call a winner in this race.
+[67:32] Certainly, I don't even think this is a race that can be decided ever. It's a continual process.
+[67:37] Fundamentally, I don't think open source ever goes away. If there's a vacuum, because one
+[67:40] leader steps out, a new leader will step in. There's too much incentive and too much tailwinds too.
+[67:45] It gets easier every day to train a frontier class model.
+[67:48] So your hope of what the future looks like is what balance between closed and open?
+[67:53] What balance between model companies doing everything because they have the advantage of owning
+[67:57] the stack or whatever. And Tropic can do that. It's like the new Google will just do that or
+[68:01] something. What do you hope the future looks like?
+[68:04] I want abundant tokens and diverse harnesses. I want everyone to build their own harness.
+[68:08] Every company, every user, even make the engineers your own. We're not that far away from that level
+[68:14] of customization and capability. I want people to own their intelligence and I want that intelligence
+[68:18] to be customized. Probably not through weight fine tuning, but probably they're more in context
+[68:23] learning. That's a more technical detail, but the underlying input to this abundance future
+[68:28] is about cheap tokens. My job is to make the tokens as cheap as humanly possible. I will achieve that
+[68:33] and I will do it through every layer in the stack available to me. I love the supply side levers.
+[68:37] I will use every chip. I use every source of power and I will use every piece of land in the
+[68:41] United States that's suitable for this. In return, people will have the incentive to explore what it's
+[68:47] like to have abundant intelligence. We still treat the agent as a person that is expensive to consult
+[68:52] and you should ask them when you have a hard question. That's not the way to think about
+[68:55] intelligence. It's incredible that the machine can think and we should try to get that into as
+[68:59] many hands as many people as possible. You sit in such a unique seat and you have such a unique
+[69:03] perspective on what you're trying to do to make this feature a reality. What do you think are your
+[69:08] most divergent views of the world versus your friends who are really well-informed and interested in
+[69:13] this stuff? What ideas of yours make your friends look at you like you have three heads?
+[69:17] Most of the ideas are chips, I would say. When I talk about building custom chips and
+[69:22] what's different, it's about sidestepping the HBM shortage and focusing on more extreme offload
+[69:28] to other forms of memory such as flash. I'm quite passionate about that idea.
+[69:32] Everyone on my team knows I keep making the drama around what we have to change about the model
+[69:36] architecture to make offload and KV cache to flash work at a much greater level. That's in the
+[69:41] community of inference people. We have some divergent views on what you can do if you design a system
+[69:47] around serving at one to 10 tokens per second, which is our whole north star. More broadly,
+[69:52] I think there is this larger sense around how do people consume a trillion tokens per day? That's
+[69:57] the world we want to create, the capability for them to do that. What's a trillion tokens like
+[70:01] ground us and how much that is? A trillion tokens, well, okay, an opening eye pricing,
+[70:05] that's at least $5 million at the very last for $5.5 or $5.6. Yeah, I think the dollars
+[70:10] was probably the most. Yeah, it's a really good metric. Yeah, it's millions of dollars.
+[70:13] Yeah, so what's the world in which we consume what currently costs $5 million per
+[70:16] person per day? We were asking for at least three to six orders of magnitude improvement
+[70:22] in cost per token. We get that into $5,000. You probably have some customers. And in fact,
+[70:26] I would argue that for some size of model, we are approaching a trillion tokens being measured
+[70:33] in tens of thousands of dollars. And that's something that you could imagine running for a single job.
+[70:37] Are you at all worried that just like the average person just can't and won't do that?
+[70:40] Doesn't do that now with their own brain. There actually isn't that much demand for intelligence
+[70:45] in the world. I never will believe in that. There's always demand for intelligence in the world.
+[70:50] The on-ramps to that intelligence are our challenge as a product community. I'm not a product person,
+[70:54] so I cannot say I had the best vision. You want to enable those people. I want to enable
+[70:58] those people. I want them to never be held back by the sense that my free tier users,
+[71:02] I can't afford to give them as many tokens. And I hear that from my customers all the time.
+[71:06] We want to fix that. What about the inverse question, not what you think is craziest,
+[71:09] but like what consensus thing you think is wrong? One of the things that he
+[71:13] coming back to is this question of NVIDIA. I am bullish on NVIDIA in the short term.
+[71:18] And NVIDIA, you should never bet against them. They're always going to reinvent themselves
+[71:21] fundamentally. I think one thing that surprises people is when I tell them that,
+[71:25] hey, if you look at Hopper in a Blackwell to Ruben and you compare like for like,
+[71:30] what is the performance per watt of B-float 16 multiply? It hasn't improved all that much.
+[71:35] Or you take that one step further and go to TSMC. If you look at TSMC five nanometer versus four,
+[71:39] which is three versus two, the performance per watt on these chips doesn't change like a
+[71:43] dramatic amount. The consequence of this is people lose their minds over geopolitics.
+[71:48] Like what would happen if we lost access to TSMC for any reason? My contrarian take is that it
+[71:52] wouldn't be that bad. Supply would take a shock for sure, but the best processes that we have in
+[71:57] the West, like Intel, not that far behind at worst, like maybe 2x worst performance per watt.
+[72:03] The gap is just far smaller than you would make it out to be if you follow like the chipboard
+[72:08] dialogue. What else is happening in the AI world that is not in your path, meaning it's not like
+[72:12] a component of this whole system that you would end up doing something in that interests you most?
+[72:17] Well, we're fully downstream of models. So the model people get to decide how to design their
+[72:23] architectures. I don't have any input to open AI or anthropic, but I can only pray that they
+[72:27] go in the direction that is amenable to me. Or I have to like do my best to predict where I
+[72:31] think they're going to go and build my serving architecture accordingly, both software and
+[72:34] hardware choices. They have, I think, the most interesting game in some ways to play.
+[72:38] Once again, this will be a match like the profundity of the machine thinking and how
+[72:42] consequential it is to decide to use something like sparse attention versus dense attention,
+[72:46] or how consequential it is to like use a different data type. We were training in Biffle at 16,
+[72:51] but now we can train an FP8 or FP4 or lower precision data types. That is just an arbitrary choice it
+[72:56] feels like, but it has profound implications for what chips I can use and how I should build my
+[73:00] hardware thinking about the future of compute. If you had a hundred entrepreneurs in a room,
+[73:05] all of whom wanted to create some new compute startup, and let's say they were specifically
+[73:09] wanted to make hardware chips or systems or racks or whatever, what advice would you give them on how
+[73:14] to orient their companies or like the type of company, not the specific choice they're making
+[73:18] on a tech bed or something like this, because it seems like we're going to try everything and
+[73:21] that would be great for the world. Some stuff will work. But if you had to give them advice on how
+[73:25] to orient their business to be successful in this coming world, what advice would you give them?
+[73:30] It's all about the bottlenecks on supply chain. So you need to first convince me or convince an
+[73:35] investor that you understand the like three to five bottlenecks that dictate modern chip supply.
+[73:40] There's TSMC way for capacity, there's HBM capacity, and there's advanced packaging,
+[73:44] maybe a fourth one would be power. Where will you get the power? How will you build these racks?
+[73:48] You should have a great answer to each of those four bottlenecks and how you're going to work
+[73:52] around them because it's all arbitrage at the end of the day. You're building a chip because you
+[73:55] think that NVIDIA has made some choices that are difficult for them to change, which is true.
+[74:00] NVIDIA makes a lot of choices that are difficult for them to change. They're not perfect. They're
+[74:03] just really well balanced. You want to be spiky. You want to pick something and say,
+[74:08] I think they've underpriced the impact of how short we're going to be on HBM. We're going to push
+[74:12] really hard in this other direction instead, which I do think is probably the thing to attack most.
+[74:16] Why? There's no easy way to bring on a lot more fabs of memory. So it's just going to be a while.
+[74:22] Until we have. Then the boys and boysy don't love huge capex for cyclical. They've been burned on
+[74:28] that many times. Conceivably, because of that shortage, the world is just going to route around it by
+[74:32] making everything else in the system more efficient. They're going to make everything else more expensive.
+[74:37] I think that iPhones will cut their memory. iPhones are going to go up in price. We're just going to
+[74:40] deal with it. Why doesn't NVIDIA go all the way to the end and sell tokens, do you think?
+[74:45] NVIDIA is really smart about this. They don't compete with their customers.
+[74:49] NVIDIA takes the long view on everything. Why don't they even start with the neo-cloud? Why don't
+[74:53] they just sell computer at the back door? Well, NVIDIA is really good. Jensen is really good at
+[74:56] making his friends billionaires. He's made CoreWeave, a billion-dollar company, many billion-dollar
+[75:00] company. There's no need for him to destroy that goodwill. He wants to create a diverse community of
+[75:06] neo-clouds and inference providers who are all jockeying to create demand for NVIDIA, such that if any one
+[75:11] of them decides to, I don't know, vertical integrate or go with AMD or any other option,
+[75:16] he's got three more people hungry to fill that position. It's great to have competition amongst
+[75:21] his buyers. My favorite closing question for everyone is, what is the kindest thing that
+[75:25] anyone's ever done for you? My immediate first thought is like all the mentors that I've had over
+[75:29] the years. It's a rare person who takes a lot of time out of their schedule and makes it like their
+[75:34] personal interest, essentially, to make sure that you understand something or teach you something or
+[75:39] ingrain some value in you that they think that you're on the cusp of understanding but just push you
+[75:43] over the line for understanding. A lot of the people in NVIDIA that I mentioned earlier,
+[75:46] it was still that love of performance engineering in me, but also my professors in college who,
+[75:51] I remember my advisor in sophomore year. I was a very impatient student as I show up at his office
+[75:57] hours and say, I want to build AI trips. I know what I want to do. Why am I wasting time taking all
+[76:01] these other basic classes and networking and operating systems? He just laid out basically the
+[76:05] whole stack and showed me the beauty of understanding every piece in the puzzle. He took my entire path
+[76:11] of trying to focus on one piece of the system and said that it's so rare that someone can actually
+[76:16] understand the entire stack from the gate level silicon all the way to building a great internet
+[76:21] skill service. You should aspire to be someone who, over the course of your lifetime, achieves
+[76:26] that level of understanding. It is such a rare trait that level expertise is so noble to chase,
+[76:31] and that stays with me quite a bit. Amazing conversation. Thanks so much for your time.
+[76:35] Thank you so much for having me. If you enjoyed this episode,
+[76:39] visit colossus.com. You'll find every episode of this podcast complete with hand
+[76:43] edited transcripts. You can also subscribe to Colossus, our quarterly print, digital, and private
+[76:48] audio publication featuring in-depth profiles of the founders, investors, and companies that we
+[76:52] admire most. Learn more at colossus.com slash subscribe. You know how small advantages compound
+[77:20] over time that's true in investing and just as true in how you run your company. Your spending
+[77:24] system is your capital allocation strategy. Ramp makes it smarter by default. Better data,
+[77:28] better decisions, better economics over time. See how at ramp.com slash invest. As your business
+[77:34] grows, Vanta scales with you automating compliance and giving you a single source of truth for security
+[77:39] and risk. Learn more at vanta.com slash invest. The best AI and software companies from OpenAI
+[77:44] to cursor to perplexity use workOS to become enterprise ready overnight, not in months.
+[77:49] Visit workOS.com to skip the unglamorous infrastructure work and focus on your product.
+[77:54] Ridgeline is redefining asset management technology as a true partner, not just a software vendor.
+[77:59] They've helped firms five X and scale enabling faster growth, smarter operations, and a competitive
+[78:04] edge. Visit ridgelineapps.com to see what they can unlock for your firm. Every investment firm is
+[78:09] unique and generic AI doesn't understand your process. Rogo does. It's an AI platform built
+[78:14] specifically for Wall Street connected to your data, understanding your process, and producing
+[78:18] real outputs. Check them out at rogo.ai slash invest.

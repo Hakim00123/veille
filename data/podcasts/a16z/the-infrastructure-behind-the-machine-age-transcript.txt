@@ -1,0 +1,920 @@
+The a16z Show
+The Infrastructure Behind the Machine Age
+Fri, 28 Aug 2026
+https://a16z.simplecast.com/episodes/the-infrastructure-behind-the-machine-age-M3g5NamY
+
+[00:00] We have a whole new technology that's the most important technology ever, and you need a whole new infrastructure.
+[00:05] I believe when we talk about the infrastructure, we're talking about the suburbs, the storage, and the network.
+[00:10] Here it goes all the way down to the mines of copper mines.
+[00:13] That's how white spread this thing is going to be.
+[00:15] It used to be when you built something, it was an engineering problem, and here it feels like it really is a resource limitation.
+[00:21] So whether it's tokens or not, we're pouring a ton of money into systems, and then those systems are producing a result.
+[00:27] And right now, we're bottlenecked under those systems ability to actually match the resource for the end of them.
+[00:32] The leading memory realm said the demand they have today will take them three years of capacity to supply.
+[00:38] If this fund does what we think it will do, how do we see the world in five to ten years?
+[00:42] America wins in the infrastructure day, and that would be awesome.
+[00:47] Today, A16Z is announcing the Machine H Fund, a new fund dedicated to the infrastructure powering the next era of AI.
+[00:55] I'm joined by Ben Horowitz, Raggle Raggleram, and Martine Casado to explain why we're launching it now,
+[01:02] and why we believe the next major bottleneck in AI isn't necessarily the model.
+[01:07] It's everything underneath it.
+[01:09] Chips, memory, networking, power, cooling, and data centers are all being pushed beyond what they were originally designed to handle.
+[01:17] At the same time, AI is changing an old rule of technology.
+[01:22] Throwing money at an engineering problem didn't necessarily make it move faster.
+[01:26] Increasingly, capital can be converted directly into compute and compute into more capable intelligence.
+[01:34] We unpack what that shift means, where new infrastructure companies can break through,
+[01:38] and why a new generation of founders is returning to some of the hardest problems in computing.
+[01:46] Ben, Martine, Raggle, welcome.
+[01:48] Thank you.
+[01:50] I want to start with a mark quote to introduce this new fund.
+[01:53] This is the biggest technological revolution of my lifetime.
+[01:55] This is clearly bigger than the internet.
+[01:57] The comps on this are the microprocessor, the steam engine, and electricity, or maybe the wheel.
+[02:03] Guys, the machine age fund, please introduce it.
+[02:06] Ben, start us off.
+[02:08] Well, basically what's happened is we have a whole new technology that's the most important technology ever.
+[02:15] And what happens every time, there's a dramatic new way of using all of the things
+[02:23] that we love, infrastructure.
+[02:24] You need a whole new infrastructure.
+[02:26] And never has it been more high impact as it is on this one.
+[02:32] So not only do we need new chips, new system software, we need new ways of doing power,
+[02:40] we need to replace copper.
+[02:42] I mean, like, it's absolutely everything.
+[02:44] So it's a very exciting time.
+[02:47] So particularly for the kind of hardware aspects of this new era, we needed a new approach.
+[02:54] Yeah, I would agree.
+[02:55] It'd been normally when we, at least in the computing, when we talk about the infrastructure world,
+[03:00] we're talking about the servers and the storage and the network.
+[03:04] Here it goes all the way down to the mines copper mines.
+[03:07] That's how the widespread this thing is going to be.
+[03:10] And that's number one.
+[03:11] Number two, I think what we have seen over the last three years
+[03:16] is the steady increase of the capabilities of the models.
+[03:19] Where the model is no longer the bottom line.
+[03:22] And in fact, using AI, these models are getting better faster and faster and faster.
+[03:27] Now the bottleneck is all what I call south of the model.
+[03:30] And so that's when we need to work on that.
+[03:32] The only thing I'd add very quickly is we tend to follow founders.
+[03:35] And we've been watching over the last couple of years as the number of very strong teams
+[03:40] going after complex hardware problems has increased.
+[03:43] I don't know the actual numbers, but I was trying to estimate it over the weekend.
+[03:46] So I think we'd get maybe 5% of the deals from top founders would come in, would be hard
+[03:50] before.
+[03:51] Now it's the north of 20% or 30% right now.
+[03:53] So like the founder community, which tends to be much smarter than the BC community,
+[03:56] has identified this as a very active area for innovation and they're responding.
+[04:00] I think 5% is probably generous.
+[04:02] Yeah, it was very low.
+[04:03] It was very low.
+[04:04] Yeah, 3%.
+[04:05] Yeah.
+[04:06] And explain some of the macro conditions that have led to this change in terms of the surplus
+[04:09] of founders pursuing these ideas.
+[04:10] Like, what are they seeing?
+[04:11] That's amazing.
+[04:12] Well, I mean, the obvious is the demand for AI is basically infinite.
+[04:16] And as a result of that, every part of the supply chain is under duress.
+[04:20] I mean, everything, including like materials used to make things like memory.
+[04:24] It's also very interesting whether there's something unique about AI, which because the demand
+[04:29] is infinite and growth is infinite, what you tend to worry about is the margin of companies,
+[04:34] which is how efficient it is.
+[04:35] Like, normally you worry about growth.
+[04:37] Can I just get people to buy this stuff?
+[04:38] You don't have to worry about that here.
+[04:39] The question, can you do this in a way that's profitable?
+[04:42] And a lot of the efficiencies are actually strictly a physical limitation of hardware.
+[04:47] And so even the business model of the AI wave is really putting a lot of stress on the existing
+[04:52] systems because they weren't built for AI.
+[04:53] They weren't built for those workloads.
+[04:54] And I think there's just this global observation that we actually need to change the core components
+[05:00] to get that efficiency to help drive the growth and to drive the value of the businesses.
+[05:04] Yeah.
+[05:05] And how did we know that demand is actually outpacing supply here rather than this being
+[05:10] another hype cycle?
+[05:11] Well, I mean...
+[05:13] Yeah, there are only a number of cities, right?
+[05:16] Firstly, it is that some of the smartest judges of demand are cutting huge purchase orders.
+[05:24] I mean, if you look at the hyperscare act, right?
+[05:26] Yeah.
+[05:27] Their cap expand has been exploding next year.
+[05:31] Supposedly, it can reach a trillion dollars collectively across the Bay.
+[05:35] Hyperscamer is this year, it's about $700 billion, right?
+[05:39] And if you think about the hyperscamer's position in the industry, they see demand from everywhere,
+[05:45] right?
+[05:46] They see obviously the frontier labs wanting their compute.
+[05:49] They see the AI data companies.
+[05:51] They see the enterprise.
+[05:53] They see the US geography, the international geography.
+[05:57] So if anybody has visibility, it is down.
+[06:00] And they're being jacking up their cap X, right?
+[06:03] It's never been seen before, right?
+[06:06] So that's a clear, clear sign.
+[06:08] And secondly, if you look at the companies that we see on a day-to-day basis, they are on record.
+[06:12] All the application companies, the groaters in the city, the frontier labs, the growth is insane.
+[06:18] It's been talking to them.
+[06:20] So I would say on the demand side, the signals have never been clear that this is not a hype
+[06:26] and prices are going up.
+[06:29] Like, we never seen prices go up on chips.
+[06:32] The GPU prices went down.
+[06:33] They always go down.
+[06:34] Yeah, they always go down.
+[06:36] If you look at the price curve, it's like this, when we talk about this.
+[06:41] And we know only like 5%, 10% of that is sort of working to stop today.
+[06:45] I mean, if you look at the supply across the board, it's basically all booked out to 2028.
+[06:50] I mean, it's so bad.
+[06:51] We've actually seen multi-day auctions for a few thousand GPUs.
+[06:57] And the other side of that, of course, is demanding as regular as we've seen in the fastest-grained companies
+[07:01] we've seen in the history of the industry.
+[07:03] But also the unit of work that AI can do.
+[07:06] The value of that unit of work keeps increasing.
+[07:09] But underneath the covers, the number of tokens that are consumed is going by orders of magnitude.
+[07:15] If it's 100 tokens for child or age of it's thousands of tokens, right?
+[07:21] So you've got expansion on both sides of demand.
+[07:23] One is the unit of work is becoming more and more consumptive.
+[07:26] Of tokens, then secondly, one of the people that are going to be benefited.
+[07:30] It's not just a developer.
+[07:31] It's going to be all knowledge workers and all beyond that.
+[07:35] So that's what we see.
+[07:37] You said the key components in supply are sold out to 27, maybe in 2028.
+[07:42] What does that mean for an entire industry to be sold out that far?
+[07:45] I don't know if this has ever happened before.
+[07:48] I mean, remember in the internet days, when we were doing massive build-out,
+[07:53] the majority that was actually put in the ground was speculative and was dark.
+[07:57] Remember the dark fiber in here?
+[07:59] Basically every GPU that's being created is already pre-sold.
+[08:03] There was a lack of bandwidth in the 98, 99 time frame.
+[08:11] But there wasn't that much real demand for it because there weren't that many people on the internet.
+[08:17] So it was a two-sided thing and the companies were all rushing there
+[08:21] and needed more bandwidth theoretically.
+[08:23] But there weren't the users on the other side to consume it necessarily.
+[08:29] And then to really consume a lot of bandwidth, you have to do high bandwidth things,
+[08:34] like video, which weren't really viable for a number of reasons that had nothing to do
+[08:40] with how much bandwidth was in the data center.
+[08:42] So it smelled similar, but it wasn't this.
+[08:47] This is like we're flat out and people are reselling GPUs for four times what they bought them for
+[08:55] and this kind of thing.
+[08:57] And then we're also out of power and cooling.
+[09:01] And then on top of that, it's really hard to build because there's these incredible
+[09:07] political headwinds going into it.
+[09:09] So it's really unprecedented in my career that we've had anything like this.
+[09:14] I want to give a quick anecdote.
+[09:16] So I was talking to a CFO of a large company, a large public company who had historically
+[09:20] been very resistant about going into the cloud.
+[09:22] So they had a lot of servers.
+[09:23] And they were doing an inventory check and they realized that the memory in their
+[09:27] servers had increased so much it could fund the entire migration to the cloud.
+[09:31] So I just feel like we're in a very unusual situation.
+[09:35] We're out of many things.
+[09:37] Power, cooling, memory, GPUs, like you name it, we're out of it.
+[09:42] So the flagship conference for the industrial is the one called Hotchips.
+[09:48] It's going on in Stanford.
+[09:50] And the leading memory member said the demand they have today will take them three years
+[09:58] of capacity to supply.
+[10:01] It is just today.
+[10:03] It's not even future demand.
+[10:05] So in terms of being about everything simultaneously, is it because people just
+[10:09] estimated how good models would be, how useful they would be.
+[10:12] They just couldn't have foreseen the demand.
+[10:14] Well, I don't even think it's that.
+[10:16] I mean, this stuff came out of nowhere.
+[10:17] We were only four years into this.
+[10:19] So even if we had a perfect oracle once it started working, I don't think we could have built
+[10:24] the capacity.
+[10:25] There's no way.
+[10:26] And we're talking about chip cycles, which tend to be three to four years.
+[10:30] We're talking about breaking ground and building data centers, which is four to five years.
+[10:35] And connecting and breaking down and building them and having power source.
+[10:39] So like you either have to build your own power or like usually both.
+[10:43] You've got to build your own power and have power source, which is not easy.
+[10:48] Yeah.
+[10:49] I'm an industry that's used.
+[10:51] If it's growing at 20, it's a great growth rate, right?
+[10:55] And it's being connected to an AI software industry that's the triple digits of the base.
+[11:01] So you can see the disconnect, right?
+[11:04] Why didn't this fund exist five years ago or seven years ago?
+[11:10] Or why was it not a great category to invest in the same way, Brad?
+[11:15] Well, I would say we're probably, I'd like to think for just some time, but we probably
+[11:21] would have been well-suited to have at least a couple years ago.
+[11:25] I mean, I will say you can actually point on basically every epoch to an independent company
+[11:32] that came up, right?
+[11:33] Clearly they moved from the client from the mainframe to the client server.
+[11:35] We saw a bunch of companies come up to the internet.
+[11:38] This is why we got Cisco and Juniper, even in the mega data centers, which by the way, was
+[11:43] largely driven by the incumbent cloud providers verticalizing.
+[11:46] You saw the arising of Arista.
+[11:49] So there has been the ability to invest in, you know, Silicon and hardware, but it's been
+[11:54] relatively minor because the change has been relatively minor.
+[11:57] Like one chip company, one switch company, where here everything is.
+[12:01] And so I agree with Ben would probably, you know, we probably could have started a little
+[12:05] bit earlier, but the amount of change is so high now that it's just an obvious thing to
+[12:10] do.
+[12:11] And the other thing is the demand for intelligence is so vertical with really no end in sight.
+[12:21] I mean, because every company that's adopted it is growing very fast and it's usage.
+[12:27] And then most companies haven't adopted it to a high degree.
+[12:32] And then consumers are just getting started.
+[12:36] And so it's going to probably the demand for tokens is probably going to grow close to
+[12:42] a thousand percent a year, which you cannot grow supply that fact.
+[12:48] Like we're not like the amount of just work that we're going to have to do across the board
+[12:55] to get to the point where we can grow like infrared at that kind of rate is pretty vast.
+[13:03] So I think there's a lot of investing opportunity on the way.
+[13:07] And by the way, the other thing is like all the architectures of the hardware systems were
+[13:13] built for a whole different era of computing.
+[13:16] And so more than just we need more capacity, we need capacity to build.
+[13:23] There's lots of opportunities to build different kinds of infrastructure.
+[13:28] There are reaching the physics limits for what they were designed.
+[13:35] I was talking about clappers and so on and so forth.
+[13:39] And you can go across every one of these categories.
+[13:42] And you can find, okay, this is the limit of this type of technology.
+[13:46] So now you got to get some technical breakthroughs to get to the next one.
+[13:52] Yeah.
+[13:53] I want to dive deeper on that advanced side for a second.
+[13:55] As we've moved from chatbots to reasoning to agents to multi-agents, each step has multiplied
+[14:02] the number of tokens a single task takes up by, you know, orders of increasing orders.
+[14:07] Nobody likes to use AI more than AI.
+[14:10] So what does that keep happening instead of leveling off?
+[14:14] And do you just see that happening indefinitely, just continuing to?
+[14:19] Well, so there's a couple of answers.
+[14:20] The first one is for sure right now, if you look at like the way we're achieving scaling,
+[14:26] the way we're doing it is through a lot of inference.
+[14:29] So through a lot of token, right?
+[14:31] If you think about what RL is, you know, so it's a lot of inference.
+[14:34] If you think about chain of thought, it's a lot of inference.
+[14:37] They think a lot of running agents, of course, it's a lot of inference.
+[14:40] And so that's just basically been one of the approaches that we've been using to scaling.
+[14:46] I think if you want to step back and say, kind of, what is the macro trend here?
+[14:50] It used to be when you built something, it was an engineering problem.
+[14:53] You throw a bunch of engineers at it, and that doesn't scale.
+[14:55] And that would have a natural lot of engineering physics, which is what the mythical man-month
+[15:00] came from.
+[15:01] And here it feels like it really is a resource limitation.
+[15:03] So whether it's tokens or not, we're pouring a ton of money into systems.
+[15:07] And then those systems are producing a result.
+[15:10] And right now we're bottlenecked on those positions, those systems ability to actually match
+[15:15] the resource for pouring into them.
+[15:16] And so I think like tokens right now is probably where we're going on the scaling curve, but
+[15:20] we don't have a natural regulator like engineering like we did before.
+[15:23] So I think we should expect this to continue and we have to build a supply to support it.
+[15:28] Yeah, like the similar way to think about it is any problem that you have can be solved
+[15:35] with enough infrastructure.
+[15:39] And money.
+[15:42] And so until we run out of problems, we're not going to run out of demand.
+[15:47] And that's the challenge.
+[15:52] AI's answer to getting better and better is to use more.
+[15:56] And for instance, one basic building block that it keeps using over and over again.
+[16:02] And so that's why these tokens multiply.
+[16:05] Yeah, even the auto catalytic effect.
+[16:07] So even the idea of using AI to create more AI like creating GPU kernel, of course, is
+[16:11] just using more AI as part of the process.
+[16:15] So again, one way that we think about it is in the past money would come in.
+[16:20] You have an engineering problem.
+[16:22] We know that it takes two years, normally fails, you know, it's a national governor and then
+[16:26] you get the product on the other end.
+[16:28] There's nothing between the money going in and then the hardware, you know, creating intelligence.
+[16:33] And so now we're just limited by our ability to create supply.
+[16:36] So it's very, very different dynamic.
+[16:38] Yeah.
+[16:39] I think it would be more GPUs than on a solid discount.
+[16:41] Yeah.
+[16:42] That's right.
+[16:43] As long as you have the money, the DPUs and the data, you know, for the foreseeable future,
+[16:47] you'll be able to scale these things.
+[16:49] And it's fascinating because, you know, over the last decade, it feels like there are so many,
+[16:53] you know, people in the pervasive sentiment was there's too much money going to startups.
+[16:58] We're over finding these startups.
+[16:59] There's too much money in venture capital.
+[17:01] It's the same more about what that means because there used to be this sort of skepticism that
+[17:06] the more money you put into the industry that, you know, there would be bigger outcomes.
+[17:11] And now, you know, we're saying at the offset that there's, to some degree, the market is
+[17:15] as big as we collectively contribute to it.
+[17:18] Yeah.
+[17:19] So this is like the one thing we all knew in startup world is that if I have a two-year lead
+[17:27] on you and you try and cast me by hiring a thousand engineers, you're going to wreck your
+[17:31] company.
+[17:32] Like that never works.
+[17:33] It's a mythical man month.
+[17:35] Nine women can't have a baby in a month.
+[17:37] Like that's it.
+[17:38] Like that never works.
+[17:40] Okay.
+[17:41] Now that works.
+[17:42] But it's not hiring a thousand engineers.
+[17:45] It's taking $3 billion and like lighting up a magnificent cluster.
+[17:53] And then all of a sudden, you know, whatever, Groc can come out of nowhere and let go,
+[17:58] all of a sudden it's real or Kimmy or what have you.
+[18:03] It's just like these leads.
+[18:05] You can throw money at the problem.
+[18:07] And you can throw money at almost any problem.
+[18:10] And that works.
+[18:11] And so that is just completely different than anything we've ever lived through.
+[18:17] So we're, by the way, we're all psychologically adjusting to this.
+[18:22] The Chagic BT app has a billion weekly actives.
+[18:26] There's about 30 million developers who are using, you know, relatively a big portion of
+[18:31] compute demands.
+[18:32] How do we think about compute, compute demands needs now and in the future in light of what
+[18:37] people are actually doing with it?
+[18:39] That's the progression.
+[18:40] Right.
+[18:41] So the Chagic reading was a casual act and it's calling for professionals.
+[18:45] Right.
+[18:47] So using coding, you know, not built amazing tools or knowledge workers.
+[18:51] So that's the next frontier.
+[18:53] And now there are over a billion knowledge workers in the line.
+[18:57] Right.
+[18:58] And with that, it's a long list to go for that demand.
+[19:02] And by the way, the work that they do, all this workflow and automation and so on.
+[19:07] And then you get to the back office, which is all the agents.
+[19:10] Progressively, each of these things unlocks a lot of magnitude more to that.
+[19:16] I mean, just at the start of this.
+[19:18] Well, and now you have Grockbot, which is kind of, you know, what happened with coding is kind
+[19:26] of happening with all use of computer via Grockbot.
+[19:30] And so we're in a whole nother wave of demand.
+[19:34] And most certainly there's going to be more to come.
+[19:39] So it does seem quite unlimited at the moment.
+[19:42] And we haven't even gotten into Embodied AI or robots, which are going to be another source
+[19:49] of demand.
+[19:50] Martis is expert, but my understanding is that Grockbot uses computer use, which is just like,
+[19:55] you know, being sitting inside the computer talking away.
+[19:58] I literally used it over the weekend to update my credit card with a bunch of services that
+[20:03] I've been like lazy to do and cancel a bunch of subscriptions.
+[20:06] This is not coding or whatever.
+[20:07] This is true computers.
+[20:08] All of a sudden, you're clear.
+[20:10] Like, it's possible that knowledge is working, except they're all sitting inside of the computer.
+[20:14] I'm doing work.
+[20:16] I do think that that Mark Andreessen is right.
+[20:18] It's like the right analog here is like the steam engine or electricity in the following
+[20:22] the way.
+[20:23] Like, we've introduced this new thing that you can turn to work.
+[20:27] And there's some very obvious applications now, but there's probably 30, 40 years of
+[20:32] throwing computer problems.
+[20:33] I didn't think of the clear reward signal.
+[20:35] We're just starting.
+[20:36] Like, we've got language and code.
+[20:37] That's it.
+[20:38] And just starting computer use.
+[20:39] But like, what else are we looking at?
+[20:40] We're looking at in terms of science, materials, biology.
+[20:44] I mean, of course, creativity is a massive use.
+[20:47] And so, listen, we're on the very, very early part of a very long journey.
+[20:51] And we've removed this key bottleneck, which is, you know, traditional software engineering.
+[20:56] Now, of course, you know, bottlenecks will move and they'll be kind of more complexity elsewhere.
+[20:59] But I think we're very early in a very long run of throwing computer problems.
+[21:03] So let's expect, you know, this compute need to persist for decades.
+[21:08] Because we mentioned it.
+[21:10] Marty, talk about Gratbot because we were talking at the offsite about how, you know, what struck
+[21:15] you about it.
+[21:16] Obviously, we're involved in every possible way you could be involved.
+[21:19] But what did you find so interesting about it?
+[21:22] So I think we've, I think we've, as an industry gone through kind of multiple realizations
+[21:26] for how AI enters our lives, right?
+[21:28] And very early on, we're like, okay, well, you add AI to a product.
+[21:32] And it's like a, whatever, it's like a search bar.
+[21:35] And then you kind of, you know, you do chat with it in the chat box.
+[21:38] That's kind of the traditional way to do it.
+[21:40] And then the open clock kind of showed up.
+[21:43] And that was it earlier in the year.
+[21:45] And with open guys, okay, well, maybe like it just being like Google, but better.
+[21:49] Maybe that's not the full embodiment of it.
+[21:51] How about we'll have it be a standalone thing, but it'll be an extension of you.
+[21:54] And it'll share your keys and it'll know your passwords and it'll just kind of do stuff
+[21:58] that you would do, right?
+[21:59] So it's kind of an extension of you, but it's more like a human.
+[22:01] An extension of you.
+[22:02] And then when I think rock got really right is, no, how about it is actually an employee?
+[22:08] So now you have this thing that's an entity.
+[22:10] And it doesn't have like special access to your keys or whatever.
+[22:14] It has its own computer and it has its own browser.
+[22:16] And because these are the smartest models in the world, it can do whatever an employee can do.
+[22:20] And it's kind of interesting because now, actually, if I want something done,
+[22:24] my first thing I think is like, well, can rock rock do it for me?
+[22:28] And often the answer is yes.
+[22:30] Even if it's something you wouldn't expect it.
+[22:32] So the obvious ones are like, whatever, like manage my calendar, like book a meeting.
+[22:37] But there's also not obvious ones as well.
+[22:39] Like, so for example, I'll have it read through my email and do triage.
+[22:44] And I don't tell it how to do that, but it will know to check with me before actually doing the triage.
+[22:51] So like these things are sophisticated enough that you can give a relatively high-level task
+[22:55] and it'll do kind of, you know, like sophisticated things as a result.
+[22:59] Ben, I know you're thinking a lot about this and how this works in the organization.
+[23:02] You think a lot about culture, of course, what are your thoughts here?
+[23:05] Well, I mean, I think if you just look at us, you know, it's like having a new kind of employee.
+[23:16] And there's going to be a lot of them.
+[23:19] And we have to just like, you know, with our, we spent many, many, many years figuring out how to work with our kind of regular human employees.
+[23:28] And now we've got these other kinds of employees.
+[23:31] And, you know, there is a learning curve with them.
+[23:34] So they can burn a lot of tokens and spend a lot of money and get nothing productive done.
+[23:41] They can forget stuff.
+[23:44] They can make stuff up.
+[23:46] You know, they can have good behavior.
+[23:49] They can have bad behavior.
+[23:50] They can create security problems.
+[23:54] So like there's all those aspects to it, but like they can also be like super duper productive.
+[24:02] And so I think figuring out how to integrate them in, have them work nicely with the people that they're working with.
+[24:08] The actual humans is all something that we're learning how to do.
+[24:13] I mean, I don't want to sit up here and say, I've cracked the code.
+[24:16] We've got this marvelous loop and the whole firm is just completely automated now.
+[24:22] And I'm going to slowly get rid of all the humans because I can.
+[24:25] Like that's not at all where we are.
+[24:27] We're much more going like, okay, how do we make all our humans superhuman without like wrecking the place because the bots get out of control?
+[24:36] Yeah.
+[24:37] And it's trashing because we've done, we've tried a couple of different ways.
+[24:41] It's how best to get agents into the system, if you will.
+[24:47] And eventually it was more teams inside of just treat them as people and get it done.
+[24:53] And that's what we're doing.
+[24:54] That's time to be the most durable way of getting this thing going in certain organizations.
+[25:00] I want to go back to the supply side and go deeper into the bottlenecks.
+[25:04] We were talking about how in terms of the data centers, the chip architecture, system software, facilities themselves, that none of them were designed with AI in mind.
+[25:13] What would it look like for them to be designed with AI?
+[25:16] What is sort of the mental model for thinking about what that could mean?
+[25:19] Yeah.
+[25:20] So, I mean, if you start with the statement that you just say, hey, original model infrastructure, I'm going into these models as a change.
+[25:32] You can go say category by category and see value breaks.
+[25:38] And then you start unlocking the bottlenecks in each one of these things.
+[25:42] So eventually you have to get to the system where if you look at what an inference engine does, right?
+[25:49] It takes up a lot of memory.
+[25:50] It generates new tokens along with the compute.
+[25:54] And so you can just think about how do I optimize all this?
+[25:57] What does memory need to be?
+[25:59] What does the compute need to be?
+[26:00] How do they need to talk to each other?
+[26:02] How much power does each of them need?
+[26:04] How do they need all of these power?
+[26:05] How do you call each of these, right?
+[26:07] And then how do you put the collections of these things together?
+[26:10] That is the exercise that's on domain, the industry right now with a lot of the founders.
+[26:14] So they're breaking down the problem until it's fundamental components.
+[26:17] And saying, what is the exact nature of the compute that's getting down?
+[26:21] Okay.
+[26:22] It's how it's going to be in nature's multiplications.
+[26:24] How do I optimize my computer in that kind of a scenario?
+[26:30] Well, they all need memory progressively to generate these tokens.
+[26:34] What is the best way of hierarchically arranging this memory, right?
+[26:38] And then how does the power continue?
+[26:39] I mean, then you've got to connect it together.
+[26:41] What are the ways of connecting it on the same chip or caused chips and caused data centers?
+[26:46] How much power does each of these data transmission take?
+[26:49] So you have to progressively break it all down and rebuild it from these fundamental building blocks.
+[26:54] And that's what we see in the way in what's where we see them generally.
+[26:58] I mean, it's an interesting mental model to think about how the landscapes change.
+[27:02] So today to build a frontier model costs, let's say, $3 to $5 billion, right?
+[27:09] And that's to train it.
+[27:12] And so the inference has to pay back at least that, of course, right?
+[27:16] In order for any of this stuff to be viable, let's say two times that.
+[27:19] So let's say that now inference has to make $10 billion.
+[27:25] So if you can save 20% of efficiency on that, that's $2 billion.
+[27:30] And you can easily build an ASIC for $2 billion, right?
+[27:34] So we've actually gotten to this interesting point in the industry where it actually makes sense
+[27:40] to build an ASIC per model just because of amount of capital investment in that model.
+[27:45] And then unlike traditional software, traditional software has a lot of state and a lot of, you know,
+[27:49] it is very dynamic.
+[27:51] These models are fixed.
+[27:52] The model weights are fixed.
+[27:53] So we don't know if the world goes to per model ASICs, but it gives you a great mental model
+[27:59] of how you would evolve the architecture to be far more bespoke for these massive capital
+[28:06] investments we're doing.
+[28:07] I don't think in the history of the industry, we've ever created a digital artifact with
+[28:11] something like $5 billion that went directly into that artifact.
+[28:15] And so, you know, like this, I think is going to put the greatest demands on hardware that
+[28:19] we've ever seen.
+[28:21] Well, to the end, rack power requirements are moving from roughly 5 to 10 kilowatts to
+[28:26] 100 to 250 kilowatts.
+[28:28] Compute density is climbing something like 70X.
+[28:30] Cooling is moving from air to liquid as a requirement.
+[28:33] What are the investment opportunities as a result of this?
+[28:37] Well, first of all, when you get to that level of power per rack, AC power doesn't work
+[28:43] anymore.
+[28:44] So like that's a pretty wild thing.
+[28:48] So now you're into DC power, which by the way, also requires its own cooling and is like,
+[28:58] by the way, super fucking dangerous, which is kind of ironic because this was Edison promoted
+[29:06] DC power by claiming how dangerous AC power was in demonstrate by like electrocuting animals
+[29:13] and things.
+[29:14] The horse.
+[29:15] Yeah.
+[29:17] So, but he was right, but around his own kind of power, which is extremely powerful.
+[29:22] It's a good news.
+[29:23] So, you know, just starting with power.
+[29:26] Yeah, that's going to be like very, very different, I think with cooling.
+[29:33] So then this gets into.
+[29:36] So yes, we're going air cooling to liquid cooling.
+[29:39] I think we're already out liquid cooling for an incident.
+[29:41] We are a data center like that's already kind of a done thing.
+[29:45] But it gets into, okay, you know, given the political environment and so forth, you like
+[29:52] liquid cooling isn't enough.
+[29:53] It's got to be eco-friendly liquid cooling and, you know, kind of DC power is not enough.
+[30:00] It's got to be power that contributes to the power of society not takes away from it.
+[30:08] And so you have data centers who have been behaving badly, small percentage actually,
+[30:15] probably 10% wasting a lot of water, you know, not as much as pistachios or almonds and so
+[30:22] far as people demonstrate on the internet, but like they could be a lot more efficient
+[30:26] with that.
+[30:27] And then there are ones that, you know, kind of are parasites of power and don't contribute
+[30:33] power back.
+[30:34] I think all that's going to end.
+[30:37] It's going to have to end just because like that we've kind of gone through a one-way
+[30:41] door on that.
+[30:44] So that requires like a level of engineering that, you know, many haven't invested in yet.
+[30:50] So that's coming.
+[30:53] And then, you know, like if racks are that dense, there are other things that like the
+[31:01] way the floors are designed have to support that kind of weight, you know, that kind of
+[31:07] thing is actually for real.
+[31:11] And then, you know, I think that there's, you know, you just need a lot of everything.
+[31:18] And so there's going to be, you know, kind of also by the things are really loud.
+[31:22] So you have to build the data center with thicker walls or you're going to disturb the
+[31:26] piece in the neighborhood, which is not going to be acceptable.
+[31:29] Like I don't think any state's going to allow that.
+[31:31] And so a lot of the ways people have architected and designed the buildings themselves are already
+[31:38] completely obsolete.
+[31:39] Like once we get to Feynman, a much smaller percentage of the data centers that we have
+[31:45] today work.
+[31:46] In fact, I mean, everybody talks about memory prices, but one of the fastest areas that
+[31:51] prices is increasing is reinforced concrete.
+[31:54] Yeah, for their said, the other thing that happens when these data centers are sending
+[32:01] 800 walls to the back is it's become so dangerous, number one.
+[32:07] But secondly, we don't have enough electrical contractors that have the expertise to deal
+[32:13] with 800 walls inside the data center, because this is high voltage.
+[32:19] Only 2% of electric electricians in the US have been certified on DC power.
+[32:27] So like that gives you an idea.
+[32:28] Now Met has got a whole program to train people up and so forth, which is great.
+[32:32] It's like a new job court where they train people for free to do this job.
+[32:36] But you know, it's funny, AI is taking all the jobs, AI is going to create a lot of new
+[32:42] electricians.
+[32:43] Yeah.
+[32:44] I think we're just doing something.
+[32:45] Yeah.
+[32:46] Guys, one of the big cloud data centers, they all are furiously experimenting with robots,
+[32:55] right?
+[32:56] To do the work of assembling our current servers into the data center, etc.
+[33:00] And so you will see that increasing as a result of the evolution in AI.
+[33:07] To be clear on the actual fund that we're raising, our focus is on computer science infrastructure.
+[33:14] So anything a model runs on, that's computer science, right?
+[33:17] So think chips, network, interconnect, storage, all the way down, probably to the electricity.
+[33:25] Yeah.
+[33:26] And seeing more about the robotics arm in terms of what we'll be doing versus maybe American
+[33:30] dynamism or how to think about that.
+[33:32] Yeah, for sure.
+[33:33] So, you know, again, we think that any platform that AI will run on, like what are the great
+[33:39] breakthroughs that AI does is it allows computers to interact with the physical world.
+[33:44] Right?
+[33:45] It can see.
+[33:46] It can hear.
+[33:47] It can talk, right?
+[33:48] And this means new platforms, right?
+[33:49] And the simplest way people say edge device, but that doesn't really mean anything, right?
+[33:52] I mean, it could be a mobile device, it could be a CDN, it could be a laptop, but it also
+[33:57] could be an embodied device that goes around.
+[34:00] And so again, we, as, you know, as infrastructure focus investors don't do having regulated industries
+[34:10] or more verticalized industries, but any sort of computer science platform that's going
+[34:13] to push AI further out, we're quite interested in, you know, going back to the data centers.
+[34:19] By 2028 new data centers, you're going to need something like 44 gigawatts of additional power
+[34:24] against maybe 25 gigawatts of expected grid additions.
+[34:27] Oh, hold on.
+[34:29] We use that word gigawatt.
+[34:31] No, it's like it's like a 100 gigawatt.
+[34:35] Martin, what's a gigawatt?
+[34:36] I mean, I mean, how big is it?
+[34:38] It's multiple football fields.
+[34:39] I mean, it's massive.
+[34:40] It's 50,000 people.
+[34:41] And what is it?
+[34:42] 50,000 people.
+[34:43] What do you mean?
+[34:44] What is the power?
+[34:45] Like, like the equivalent is like 50,000 houses, 50,000, 50,000 homes, 50,000 homes.
+[34:53] I grew up in Flagstaff, Arizona, which is a town of 40 to 60,000 people, depending on
+[34:59] the universities.
+[35:00] We have less than a gigawatt of power consumption.
+[35:02] I mean, this is basically the light up air condition, your entire town for a gigawatt.
+[35:07] Yeah.
+[35:08] I mean, this is just throwing them around.
+[35:11] No, by the way, everybody talks about the gigawatt.
+[35:13] There's very few gigawatt data centers that are actually up.
+[35:15] I mean, we've got a long way to go to put that in.
+[35:19] Why can't utilities and hyperscalers just build faster?
+[35:21] Oh, there's so many things that well, there's, first of all, right now you need humans to
+[35:27] build them.
+[35:28] So there's just like the regular construction, but much more than that, you need permits.
+[35:37] You need access to power that you can plug in.
+[35:41] So you're either, you're doing a combination of you've got to get access to power, which
+[35:47] is a massive kind of regulatory bidding struggle.
+[35:52] There's very limited kind of amounts and things you can tap into in terms of natural gas, power
+[35:58] grids, what have you, but then you also have to build your own power.
+[36:03] And guess what?
+[36:04] We've got shortages of transformers and turbines and everything that goes into that.
+[36:09] So it's just, you know, like you've got to get all that stuff.
+[36:14] It's not, this is not a software problem.
+[36:16] It's not just like a bunch of engineers can't you like work weekends and that type of stuff.
+[36:21] Like this is not that that works anyway, but they're a real bottlenecks in this.
+[36:28] These lead times are not that easy to compress and look, we have the best minds in the world
+[36:36] trying to figure out how to compress them, but it's not easy and the demand is not slowing
+[36:44] down.
+[36:45] So we're already behind the demand is growing, you know, 10x a year right now and the supply
+[36:53] just can't grow that fast.
+[36:54] By the way, it is so bad that right now if we have new companies going for GPS is often
+[36:58] in Mexico or Australia or any other country just because it is so difficult in the United
+[37:04] States.
+[37:05] Yeah, we're creating a huge job both job and long term economic opportunity in other countries
+[37:11] by banning data centers here.
+[37:14] I think like the right answer would be to set a standard where a data center contributes back
+[37:22] to the community, like that power gets better, there's no noise, there's no water issue and
+[37:30] it's adding jobs like that ought to be the standard and then everybody ought to be just
+[37:34] held to that center.
+[37:35] And by the way, like there are there are data centers that do that now like that's not you
+[37:41] know, like a futuristic dream or something rates, energy rates have gone down like every
+[37:47] year they're there.
+[37:48] And the reason is they provide their own power.
+[37:51] They give power to the state during the day.
+[37:56] And then at night, they borrow power from the state when the state doesn't need it because
+[38:00] you're always the way power plants work is you're always generating peak capacity.
+[38:08] And since the data center has steady capacity during day and night and the city goes way
+[38:12] up in the day and way down at night.
+[38:15] So symbiotic relationship zooming out.
+[38:19] Why do we think the, you know, we were batting the around the name for a little bit.
+[38:24] What do we think machine age is a compelling term for what we're doing here?
+[38:29] Well, listen, let me take a try.
+[38:31] So the first one is I think Ben's absolutely right.
+[38:33] Artificial intelligence was the wrong word.
+[38:35] Like we shouldn't have called it's machine intelligence.
+[38:37] You say more about that.
+[38:39] Why is that?
+[38:41] Because it's not how humans think necessarily, right?
+[38:45] I mean, it is a cache of how humans thought is a collection of human's thoughts.
+[38:49] But like today, we don't know how to take an AI with no knowledge and put it out in the
+[38:56] world and have it reconstruct language, right?
+[38:58] Like that's not what we've done, right?
+[38:59] We've built something that can learn off of everything we've already learned and then use
+[39:03] that in a productive way.
+[39:05] Listen, AI is a general term that goes back 70 years in computer science formally that applies
+[39:12] to many different things.
+[39:13] And of course, it's got a lot of baggage either from science fiction or from Nick Bostrom who
+[39:18] wrote about it or whatever.
+[39:19] And so, so the first one is just an acknowledgement like this really is machine intelligence.
+[39:24] And then you want to emphasize the machine part of it.
+[39:26] I mean, there's kind of this deep irony and this is from the software's eating the world
+[39:30] people that, you know, you've really come to a place where you pour money into something
+[39:34] and then you're limited by the actual machines below it.
+[39:37] And so I think it is a kind of a nod to like the hardware component is so significant in
+[39:41] this wave and we want to acknowledge that.
+[39:43] Yeah.
+[39:43] I think that's what's called create the next breakthroughs.
+[39:47] Genealogies is the quality of machines are made.
+[39:51] And so that's not basically reason to be named.
+[39:53] It's also a cool name machine.
+[39:55] It sounds good.
+[39:57] Futurist.
+[39:58] Yeah.
+[39:59] The given how much has been spent on AI infrastructure to date and how
+[40:03] CapEx intensity of these businesses can be.
+[40:06] Are we past the point where new companies can break in at sort of material levels?
+[40:11] You know, you know, why not incumbents like Nvidia, Corey, etc.
+[40:15] Just take the line share of these markets.
+[40:18] And they're all doing well.
+[40:19] There's no question about it, right?
+[40:21] But to our discussion earlier, when you're getting, you need fairly new innovations
+[40:28] to keep the growth continuing or the pace of improving continuing, whether it's tokens per
+[40:33] second, per dollar tokens per watt, tokens per watt, right, or power, you take any metric.
+[40:44] If you want to have a 10x on those metrics, you have to have new innovation.
+[40:49] A new innovation traditionally comes from Brazilian founders thinking about solving
+[40:53] the problem from first principles in a different way, right?
+[40:57] And that's what's needed here for the next jump in innovation.
+[41:01] And this is the law of markets, right?
+[41:02] I mean, let's assume that the existing Silicon incumbents are multi trillion dollars
+[41:07] in market cap, which is absolutely the case.
+[41:10] Even 5% of that is a massive private company, massive private company, right?
+[41:16] We're talking, you know, annual.
+[41:19] And you could say, well, but Nvidia could do that.
+[41:20] They could, but why would they focus on things that are in the 90%, which is also
+[41:25] driving the same amount of growth.
+[41:27] And you always ask these questions.
+[41:28] We ask these questions during the cloud days, right?
+[41:30] Like, well, we wouldn't Amazon did this.
+[41:32] You asked these questions during the Microsoft days.
+[41:33] Why wouldn't Microsoft do this?
+[41:35] There's a very natural law of markets.
+[41:37] And once you get to a certain scale, there's tremendous opportunity for innovation
+[41:41] at the margins.
+[41:42] Yeah, there's a funny quote from our partner, Alex
+[41:45] Rampel, where he had this startup called trial pay.
+[41:48] He was trying to sell it to, or sell that it's his services to, to meta.
+[41:54] And then Facebook and Dan Rose, who was the head of Corp Dev at the time, said,
+[42:00] Alex, that's great.
+[42:02] You're the sounds like you can collect a lot of silver brooks.
+[42:05] But I'm like, I have so many gold bricks.
+[42:07] I can't even pick them all up.
+[42:08] Yeah.
+[42:09] So the last thing I'm doing is like a silver break.
+[42:11] And I think Nvidia is in that position.
+[42:12] 100%.
+[42:13] Yeah.
+[42:14] We were talking about, as we're talking about, as the model providers, that if you're,
+[42:17] you know, in the sweet spot of, of what open air or anthropic can do, you know,
+[42:20] one of their main sort of interest areas, that might be a tough place to be.
+[42:24] But anything outside of those, maybe, you know, three to five areas might, you know,
+[42:29] as market is, as markets expand, they fragment, right.
+[42:32] And it happens all the time.
+[42:34] And remember, in the early days of Ford, there was a 1913, there's the Rouge River
+[42:38] plant, literally this, you know, this was like made cars, like it went like water,
+[42:42] coal and rubber trees and came cars.
+[42:45] By the way, he bought a whole rubber plantation in the Amazon jungle.
+[42:52] Right.
+[42:52] And there's a great book called Ford, Landia, where, so,
+[42:55] because he wanted to like own like the complete vertical thing,
+[42:59] where he created this city called Ford, Landia, in the Amazon jungle,
+[43:07] which had like, was all Americanized bandstands and ice cream and all this kind of
+[43:11] stuff. And it actually worked for a while until he made people like show up to
+[43:16] things on time and then they were like, screw this, get the fuck out of here.
+[43:20] So, so now if you look at the car industry, of course, there's multiple levels of
+[43:23] supplier and there's a bunch of companies.
+[43:25] And this always happens.
+[43:26] So, you know, as markets expand, they fragment.
+[43:28] There's a lot of, and then, and then once that growth slows down, they tend to consolidate.
+[43:32] The consolidation can either be acquisition or it can be like new
+[43:35] challengers rise up.
+[43:37] And that is the, you know, everlasting cycle of private markets.
+[43:41] The use cases are, are multiplying and there's no way, like if you're the biggest
+[43:45] company, you can get to the biggest use cases.
+[43:48] But there's so many use cases and all, as Martin was saying, very valuable use
+[43:53] case is that it's just very hard to get to in a great way.
+[43:57] Yeah, even in front of this history, one simple architecture, right?
+[44:01] You know, longer as it's like, it's so complex.
+[44:03] So it's inevitable that you can optimize things in a different way.
+[44:07] By the way, it's a very interesting thing.
+[44:08] Like people don't often don't understand that like margins kind of fell out of the
+[44:15] standard way of doing the technology with software, right?
+[44:18] Like it wasn't really a technology problem.
+[44:21] Like once you got the business working, you tended to have pretty
+[44:23] good margins because that's just kind of how software works.
+[44:25] Certainly when you shipped it, but even as a service, and that's not necessarily
+[44:29] the case with AIs.
+[44:30] We may actually be entering an era where the optimization in the hardware is absolutely
+[44:36] meaningful to the upside of the business in a way that we haven't seen in the past.
+[44:40] So there's a lot of opportunity here.
+[44:43] Let's get deeper in talking about the types of companies we'll be investing in.
+[44:47] Um, maybe we could start by either illustrating the, the, the sub sectors or
+[44:51] if we can talk about a few or a couple investments that we've, I know there's
+[44:55] some that haven't been announced yet, but what do you want to take us down?
+[44:59] Yeah, I mean, the sub sectors, as we've been talking about, well, there's
+[45:02] every one of these categories, right?
+[45:04] The obvious ones are, um, uh, computer chips.
+[45:09] But these days, it's not enough to build a chip.
+[45:11] You need to build a full system, right?
+[45:13] And then therefore what goes into the system has is a potentially memory
+[45:16] innovation that is potentially networking innovation.
+[45:19] There's actually power trims and so on and so forth.
+[45:23] So each of these categories are categories where you can see public
+[45:27] companies style companies emerging and those are the things that we're looking into.
+[45:32] Um, and then once you put it all together, there's a lot of software around it to
+[45:37] automate all of these things, to manage these fleets and so on and so forth.
+[45:41] So that is rather important.
+[45:44] So these things keep building on each other, but every one of these categories is important.
+[45:48] Talk about what's different about these kinds of companies from the usual company.
+[45:52] I mean, one thing you can tell from the companies we announced is their first
+[45:55] rounds have been massive, you know, hundreds of millions.
+[45:57] Is it a different kind of founder?
+[45:58] Or what else is different as we think about just the practice of, you know,
+[46:02] building and investing in these kinds of businesses relative to our traditional
+[46:05] software?
+[46:06] Well, I think the big thing is you hit on one of the big things, which is a
+[46:09] lot of money goes in, um, before they get to a product.
+[46:14] Um, and that's just kind of the nature of it.
+[46:16] Now that's true on big models too, but I would say that's a little more of a known
+[46:23] path, whereas this has got a little more risk and a little more money than, uh, than
+[46:30] some of the other things that we've done.
+[46:31] But, um, and, you know, like a lot of, a lot of the chip founders, um, are here
+[46:39] from the past, you know, like the guys, you know, how to make memory.
+[46:44] They're not young.
+[46:47] You know, so it's, uh, you know, that part is different too, but it's kind of exciting,
+[46:51] you know.
+[46:52] Yeah.
+[46:52] The other thing about these founders, they have got to be systems founders.
+[47:00] So what I mean by that is you can't just be a researcher or a great continuous
+[47:04] scientist, right?
+[47:06] You got to be able to architect and design the chip or the system, whatever it is.
+[47:11] Very, you got to think about how is this thing where you actually had manufactured,
+[47:14] right?
+[47:14] We was going to be supplying this at a whole bunch of these downstream things,
+[47:19] which normally if you're building software, you don't know how to think about all of these things.
+[47:24] So to, to really the best founders, um, and of course Jensen is the Michael Jordan
+[47:32] of this, right?
+[47:33] They think the entire ecosystem right from the ghetto before they start designing the
+[47:38] chip, right?
+[47:39] Because of the nature of the bottlenecks and all these things that have to come together.
+[47:43] So that's, that's a big characteristic, but it's different.
+[47:46] There's two environmental factors that are important too.
+[47:48] The first one is the labs are so desperate that they will engage with startups.
+[47:52] And so like we actually have quite a bit of signal early on because they're, you know,
+[47:56] the labs are inking deals with companies before they actually have hardware available.
+[48:00] And that's a big, big shift than, you know, five years ago, right?
+[48:04] Like you just didn't go and, you know, sell your kind of janky hardware thing to
+[48:08] Google or whatever.
+[48:08] So that, that's a shift.
+[48:09] The second one is the, the capital availability has loosened up a lot.
+[48:13] I think there's general consensus that, that, you know, it is the time that to reshape
+[48:18] this stuff.
+[48:18] And so follow on rounds, there's a lot of capital available, which, you know, of course
+[48:21] you want to be investing into areas where there's capital available.
+[48:23] And so the atmospherics are also just different.
+[48:26] Patrick calls in, you know, remarked a few years ago, said, Hey, it feels like
+[48:30] there's less younger founders today in the way that was Zuck, you know, in college,
+[48:35] building next Facebook or Gates, you know, in the same way with Microsoft.
+[48:40] And of course, you know, the, you know, the, you know, the rules of the world,
+[48:42] there's still, you know, some young founders building iconic companies, but it
+[48:44] does seem, you know, to your point that there's more older founders building
+[48:49] these, these, these companies are less 20-year-olds.
+[48:53] I'm curious if you resonates and why.
+[48:56] Well, I think it's, Greg, there's a point that if, if you're building something
+[49:02] that has like a very complicated supply chain, has to manufacture things and
+[49:08] is technically complicated, that, you know, some experience helps.
+[49:14] And, you know, if you look at Elon or Travis Kalinek, their companies, when
+[49:20] they were young, were software companies.
+[49:22] It wasn't until they got like a lot, even those guys, the best guys, needed some
+[49:30] experience in building a company's building technology and so forth to kind
+[49:35] of graduate to the much more kind of complicated or, I would say elaborate domains.
+[49:42] You know, there's just much more, there are many more moving parts in these things.
+[49:47] And so, look, when you're learning how to build a company, it's hard enough
+[49:52] if you completely understand the product, if you don't completely understand the
+[49:56] product and have to learn it while you build the company, that's just such a
+[50:01] steep learning curve for a brand new entrepreneur.
+[50:03] So, I think that what we're saying is you see Michael on the one hand, who is a
+[50:09] very young guy, brilliant, but what he built was kind of a pure software AI thing.
+[50:16] And then on the other end, you have like an Elon or a Travis who's got
+[50:21] enough experience.
+[50:22] I think Michael could probably do that, you know, 10 years from now.
+[50:26] But today, that would have been hard.
+[50:28] And it's important to remember like it's been defocused by the entire industry and
+[50:32] academia for the last 20 years, right?
+[50:34] It just hasn't been the same opportunity.
+[50:36] Like it's been there, but like it's never been a growth area.
+[50:39] The growth areas have been, you know, software, networking, things like that.
+[50:44] And so I also think we just have a positive people coming out of the universities
+[50:48] or having experienced at large companies that have done this.
+[50:51] I mean, they're just not that many.
+[50:52] Like you don't go intern and like build a chip.
+[50:56] So, but a lot of that's changing now.
+[50:57] Like, listen, we're going to create a whole generation of, you know, founders that
+[51:02] come from these new companies that will know how to do this.
+[51:04] And, you know, they'll be hired in much more junior.
+[51:06] I'm like, I'll say actually one of the greatest legacies of Elon towards this is,
+[51:09] is of course he's created these great companies, but the amount of entrepreneurs
+[51:13] that have come out of SpaceX that that are changing the entire industrial complex,
+[51:17] maybe even greater legacy than the companies themselves.
+[51:22] And I think we're going to see the same thing for, for computer science hardware.
+[51:25] Yeah, as a matter of fact, one of our investments that was started by
+[51:30] two founders in the 20s, but if you go watch one of their offices,
+[51:34] you see the experienced people as well.
+[51:36] So it's ideal combination here.
+[51:38] Yeah, yeah, it doesn't necessarily have to be the founder with experience,
+[51:41] but that founder better be able to tap into that experience.
+[51:46] Get the people with it, yeah, yeah, well, and then be able to work with them.
+[51:50] And they have to be good and all these kinds of things.
+[51:54] It's complicated.
+[51:56] Speaking of experience, this is a big new fund we're launching and there's no new GPs.
+[52:03] We're sort of collecting.
+[52:04] It's because you guys have a lot of experience in a rest of the group in this field
+[52:08] that has been kind of late in and dormant.
+[52:11] Yeah, well, it's kind of fun.
+[52:12] I think we always had to be warned against it almost just because like our
+[52:15] backgrounds are from us hard.
+[52:17] And I think the reason that we needed a reminder is because all this has been so
+[52:20] much in our careers, it's systems and hardware, we're kind of drawn to that.
+[52:23] And so we've been clearly invested in hardware over the years, right?
+[52:28] We're in space eggs.
+[52:29] We're in and these are very early checks.
+[52:31] We're in restaurants.
+[52:32] We're in Waymo.
+[52:33] You know, so even even though the ultimate did a number of those investments.
+[52:37] But like, you know, this is because it's so much in our DNA.
+[52:41] And so I don't think this is necessarily need to increase the deeper competencies.
+[52:45] Just notice.
+[52:46] If this fund does what we think it will do, how do we see the world changing or look
+[52:50] looking like in five to 10 years?
+[52:52] Well, you know, hopefully America wins in the infrastructure thing.
+[52:58] And we have lots of like super eco-friendly, efficient data centers out there and
+[53:04] lots and lots and a bunch of chips and a bunch of memory and abundance of power.
+[53:09] And you know, that would be awesome.
+[53:13] And I think like we, you know, goes back to like we really think America is a special
+[53:20] place and we're important not only to everybody here, but anybody in the world who
+[53:26] wants to kind of make a contribution and do something bigger than themselves.
+[53:31] It's kind of the best place to come with nothing and do something profound.
+[53:37] So we'd like to keep that going.
+[53:39] You know, I think that doesn't continue to go if we lose our lead in technology.
+[53:45] I think we'll be in another era and it'll be another country and maybe they
+[53:49] have a different set of values around that.
+[53:51] I think it's worth this round.
+[53:52] Great.
+[53:53] For sure.
+[53:53] You know, it's fun.
+[53:53] Our team, Ben, are going to thank you.
+[53:56] Thank you.
+[53:56] Thank you.
+[54:00] Thanks for listening to this episode of the A16Z podcast.
+[54:03] If you liked this episode, be sure to like, comment, subscribe, leave us a
+[54:07] rating or review and share it with your friends and family.
+[54:10] For more episodes, go to YouTube, Apple podcast and Spotify.
+[54:14] Follow us on X and A16Z and subscribe to our sub stack at A16Z.substack.com.
+[54:20] Thanks again for listening and I'll see you in the next episode.
+[54:25] As a reminder, the content here is for informational purposes only.
+[54:28] Should not be taken as legal business, tax or investment advice or be used to
+[54:32] evaluate any investment or security and is not directed at any investors or
+[54:36] potential investors in any A16Z fund.
+[54:39] Please note that A16Z and its affiliates may also maintain investments in the
+[54:42] companies discussed in this podcast.
+[54:44] For more details, including a link to our investments, please see A16Z.com
+[54:49] forward slash disclosures.

@@ -1,0 +1,1417 @@
+My First Million
+How a $5B founder is using AI (3 tutorials)
+Wed, 26 Aug 2026
+
+
+[00:00] Wait, wait, Sammy, you got to clickbait it up.
+[00:02] How a $5 billion founder is using AI to change his life.
+[00:06] Well, are you a five?
+[00:07] But what are you guys worth now?
+[00:09] Who knows?
+[00:10] You know, you know, you, you.
+[00:13] You.
+[00:15] I feel like I can rule the world.
+[00:17] I know I could be what I want to.
+[00:20] I put my law in it like no days off on a road.
+[00:23] Let's travel never.
+[00:24] All right, we should do a little intro.
+[00:25] So first, do you, is it?
+[00:27] I've been saying Zapier my whole life.
+[00:30] Is it Zapier or Zapier?
+[00:31] Zapier makes you happier is the trick.
+[00:34] It rags me happier.
+[00:35] Happy.
+[00:35] Wow.
+[00:36] Dude, how is that not your slogan?
+[00:38] Here's what your slogan is on your site.
+[00:40] The automation layer for a Gentic AI.
+[00:42] It doesn't really flow the same way as Zapier makes you happier.
+[00:45] It doesn't.
+[00:46] We could.
+[00:46] So there's two things from the name.
+[00:48] We, one, we just couldn't afford the second P when we started.
+[00:51] Domain was available.
+[00:53] But the other, like, we were too clever for our own good is
+[00:56] it has API in the name, which we always thought, like, oh, that's neat.
+[01:00] Cause it's all connecting all the these APIs and all that good stuff.
+[01:03] I didn't even notice that.
+[01:04] Didn't notice that.
+[01:05] Oh, yes.
+[01:06] Honestly, didn't even notice.
+[01:07] I guess I was missing.
+[01:09] But it also, if you put Zapier makes you happier, I would have read it as
+[01:13] see.
+[01:13] Zapier makes you happier.
+[01:15] I got on with your day.
+[01:20] But we're happier here.
+[01:21] Thank you.
+[01:22] The short story is you're this guy who's built this really cool,
+[01:26] started off as a very simple idea where you can make different apps
+[01:30] connect with each other.
+[01:31] What does that really mean?
+[01:32] Let's say I have a business and people submit a form over here on my form
+[01:36] thing, but then I kind of need that form thing.
+[01:39] I need all the people who submitted the form.
+[01:40] I need that data to go over here in this other unrelated app.
+[01:43] And you guys built those, like universal plugs and you can just plug
+[01:46] in anything to anything else.
+[01:48] And it was just incredibly useful.
+[01:49] Sam used it.
+[01:50] I used it.
+[01:51] We didn't realize or I didn't realize how monstrous of a business this had become.
+[01:55] I believe you guys are worth several billions.
+[01:58] Maybe $5 billion was a number that I had seen at some point in time.
+[02:02] And I think you had bootstrapped a very long way.
+[02:04] I don't is it purely bootstrapper?
+[02:06] You at some point took some money.
+[02:07] I think the word people call it now is seed straps.
+[02:10] So we did go through YC and we raised about a million and change,
+[02:14] but that's all the primary capital we've ever taken.
+[02:16] Yeah.
+[02:16] So just incredibly to raise a million bucks and then get to $5 billion in value is
+[02:21] just pretty, pretty wild.
+[02:22] So super cool.
+[02:24] But we are here not to necessarily tell the whole story of how Zapier makes you
+[02:27] happier, but to show us what you're doing with AI.
+[02:30] Can you give me a public sales pitch real quick?
+[02:32] I'm requesting a sales pitch.
+[02:34] And what I want is I know how OG V1 of Zapier worked where you connect one app to
+[02:40] another, you're saying, Hey, we have this new AI product that you use with
+[02:44] Claude presumably makes your Claude or chat to be usage more powerful, whatever.
+[02:50] I haven't been using that.
+[02:52] I also, here's the other caveat, I'm kind of dumb.
+[02:54] So like imagine talking to somebody with half the IQ of yours.
+[02:57] He's like, can you give me a pitch to someone who's sort of dumb and doesn't
+[03:01] listen, but he's smart at the same time and the confidence of a smart man.
+[03:08] I have really good news for you though.
+[03:10] Like, I think AI is this incredible gift to people who are kind of dumb,
+[03:15] because you can just agree, talk to it and say like, Hey, I didn't understand
+[03:20] that answer, explain it to me like I'm five.
+[03:23] And so you can keep like going down the dumbness stack, I guess, for like
+[03:28] lack of a better word until you understand it and then go, okay, now, like
+[03:32] teach me back up to where I need to go.
+[03:34] So, okay, the sales pitch, you want the sales pitch in the old world.
+[03:38] You know Zapier, you know, come in, build integrations, connect apps.
+[03:43] The new world has a lot of the same things, but it's different.
+[03:46] Nowadays, you're hanging in Claude, you're hanging in, you know, Kodak's
+[03:49] or cursor or, you know, open claw or whatever it is that you like using, right?
+[03:54] And you're just talking to it going back and forth.
+[03:56] Most people start with that.
+[03:58] AI is a chatpot is valuable, but it's only generally smart.
+[04:01] It knows everything that the internet knows.
+[04:03] It doesn't know anything about your business.
+[04:06] So the next step that you need to go to is to start connecting your tools.
+[04:11] You start connecting your CRM, your help desk, your email, your team chat,
+[04:16] all this stuff, and you feed that context in to the AI.
+[04:19] Now, when you start asking questions about my first million and all this other stuff,
+[04:23] you get not just generally smart answers, you get hyper specific answers
+[04:27] around how your business works, okay?
+[04:30] So if you install Zapier into this, you can hook up any of the tools that we have, right?
+[04:35] So that's that's the first thing, the first bit of value.
+[04:37] And the first thing that people sort of experience is like, oh, connecting stuff makes
+[04:41] sense. But like you can do native connectors and all that other stuff.
+[04:44] So, you know, use Zapier or use the native connectors, do whatever you want.
+[04:47] The next layer and where this gets really powerful is not where you're sitting,
+[04:52] having this like back and forth conversation.
+[04:54] It's when you're actually deploying automations and agents to actually go operate
+[04:59] for you while you sleep.
+[05:00] Like that's where you start to get the real magic.
+[05:03] And the reason you want to use Zapier to do that versus like any of these generic
+[05:07] agent builders, what's an example?
+[05:09] I mean, like, you know, Claude has routines or chat,
+[05:12] you know, there's a bunch of these things that can kind of do agents or pseudo
+[05:16] agents these days.
+[05:18] But the nice thing about Zapier is that if you use us, we are going to make it
+[05:22] so that whatever you build is optimized to run more deterministically than agentically.
+[05:29] And I don't think people have caught up on this yet, but you've probably experienced
+[05:33] it climbing up the IQ scale.
+[05:34] I know, I know, hang tight, hang tight, hang tight agents, agents.
+[05:39] They kind of just guess what to do, right?
+[05:41] And if they're smart enough, they guess right most of the time.
+[05:43] But sometimes the agents guess wrong.
+[05:46] And the second thing is agents are using tokens, right?
+[05:48] We probably heard token maxing, right?
+[05:51] And so they're really expensive.
+[05:53] But if you use Zapier, we're going to write code for you and we're going to write
+[05:56] workflow logic for you, which means that it's going to run like a machine runs.
+[06:01] And so you're going to get it's not going to burn tokens.
+[06:04] It's going to be reliable and accurate.
+[06:07] And it's only going to use AI exactly where it needs to run to use AI.
+[06:11] And you've got this, um, you can host it on dapper.com.
+[06:15] So you don't have to sit here and like keep your laptop open to run these agents
+[06:19] in the background.
+[06:20] And so you just get this like rock solid infrastructure that zapper has always been
+[06:24] great at hookup of everything that we've always done, but you can build a yell
+[06:29] inside Claude, which is like really nice because Claude just kind of the natural
+[06:34] language style of building is, I don't know, it's just like way better than the
+[06:37] no code style stuff that we were doing in the past.
+[06:40] Well, you're not the wolf of Wall Street, but that was a pretty good sales pitch.
+[06:44] I gave you the, sell me this pen test and you did a pretty good job there.
+[06:47] So I appreciate that.
+[06:49] I feel like I now actually understand it.
+[06:50] So that that was good.
+[06:51] Well, and here's the magic.
+[06:52] You can, if you didn't and you're just pretending and being nice, you can take
+[06:56] the transcript of this and you can plug it in and say, wait, said this weird thing.
+[07:00] I was talking about telling what he was really saying.
+[07:04] And that's like the cool part of AI that is cool.
+[07:07] You gave us a list of stuff.
+[07:09] So we said, wait, what are you, what are you making?
+[07:13] And it doesn't always have to be like this, like crazy, like game changing stuff.
+[07:16] But what are you making with AI?
+[07:17] And you gave us a list of like three or four things.
+[07:19] You said you have robots.
+[07:22] You got to click bated up.
+[07:24] How a $5 billion founder is using AI to change his life.
+[07:30] Well, are you a five?
+[07:31] But what are you guys worth now?
+[07:32] Who knows?
+[07:33] You, I mean, you know, I don't know how the markets behave right now.
+[07:39] They're like up and down all sorts of ways.
+[07:41] Like, what would your guess be?
+[07:43] I don't think about it, honestly, like I'm just like, how do we build stuff that
+[07:47] makes our customer successful?
+[07:48] I knew you were a sweet guy.
+[07:49] I didn't think you were a liar, though.
+[07:50] Yeah, because I know you think about it as under oath, you know, there's
+[07:55] still, there's the old thing, right?
+[07:56] Like in the short term, the markets are a voting machine and the long term, they're
+[08:01] a weighing machine.
+[08:02] I'd rather you just tell me F off and give me these lies because I know you
+[08:05] think about it, but don't, don't piss on my back and tell me it's rain weight.
+[08:09] Honestly, don't tell me to tell me it's out of my business.
+[08:12] So that'd accept it.
+[08:13] All right.
+[08:13] It's none of your business, right?
+[08:14] If that helps since the last time you guys got value, where did you, why?
+[08:19] Where did the $5 billion number come from in the first place?
+[08:21] That was a secondary number sale that happened in 2021, maybe.
+[08:27] OK, our revenues slightly up, way up, down, way down since then.
+[08:33] Revenues are up.
+[08:34] Yeah.
+[08:34] OK, all right.
+[08:35] Good.
+[08:35] So we're doing well.
+[08:35] All right.
+[08:36] That clickbait headline holds.
+[08:37] OK, continue on.
+[08:38] So how you're actually using AI as a high functioning CEO.
+[08:43] OK, let me share screen on some of this stuff.
+[08:46] So we'll get into the to the fun bits.
+[08:49] One of the cool things is, you know, because I work with my agent all the
+[08:52] time, I can say, Hey, I'm, you know, going on my first million, like, help me
+[08:57] help me demo this stuff.
+[08:59] And so this is this is what it came up with.
+[09:02] It's like, here's the stuff you should actually go go demo.
+[09:05] And so you can see I've got, you know, four potential things we can show off.
+[09:08] One is the robot staff.
+[09:09] This is kind of like my chief of staff that does like a whole bunch of
+[09:11] different automations and agents for me.
+[09:13] I've got the CEO CEO CRM that I built that helps me stay really close
+[09:19] with our enterprise customers.
+[09:21] I've got them like an AI that argues back.
+[09:24] I think this is a really important thing that every like leader needs to build.
+[09:30] I think there's a lot of CEOs out there, a lot of leaders out there that are
+[09:33] talking to an AI that just agrees with them all the time.
+[09:36] And so you need to like, there's a few ticks and tips and tricks you can do
+[09:41] to like force it to like scrutinize your thinking rather than just tell you,
+[09:45] yeah, you're totally right all the time.
+[09:48] And then I've got a bunch of skills that I run for a whole bunch of random
+[09:51] tasks internally.
+[09:53] So yeah, I would probably start with the robot staff.
+[09:55] I think this is like cool to dig into the first thing.
+[09:59] And we'll also the complete version of this where I think most people
+[10:03] start is kind of the morning brief, you know, it's super simple.
+[10:07] It's a good, it's a good way to experience like your first agent.
+[10:11] You know, you hook it up to your calendar, you hook it up to your email,
+[10:15] you hook it up to your, you know, any meeting like notes you've got,
+[10:18] any prioritization, like a to-do list that you have.
+[10:21] And then, you know, in this case, it runs at 6 a.m. in the morning.
+[10:24] And then it sends me a Slack message.
+[10:27] Yeah, I call this waking up like the president, like the president
+[10:30] wakes up, it gets a daily brief.
+[10:32] Here's what, sir, here's what you have on your, your plate, say 9.30,
+[10:35] you're talking to this person, 10 a.m.
+[10:37] This person's here.
+[10:37] Here's what they want to talk about.
+[10:39] That's sort of thing.
+[10:39] And so waking up like every now, everybody gets to wake up with a
+[10:43] presidential briefing.
+[10:44] Exactly.
+[10:44] And so, you know, these things run, like in my case, I have it send me a Slack
+[10:48] message.
+[10:48] You can have it send you an email.
+[10:50] I mean, heck, you could probably have it fax you something if you
+[10:52] really want to feel like the president.
+[10:53] I have it set up so it prints.
+[10:55] But it doesn't, it doesn't do it all the time.
+[10:58] And I also have this woman named Ari, conveniently, because I told
+[11:03] that I wanted to make it come from like a person and the person I made.
+[11:08] Is that weird for you that Sam named his agent after you?
+[11:12] The person they selected looked, looked like Ari.
+[11:14] So I was like, it's Ari.
+[11:17] So I have Ari that sends me like a pump up speech as well for the day.
+[11:20] So I love these daily breaks.
+[11:22] Now, so the cool thing I'll actually show you.
+[11:25] So I have the link out to this one.
+[11:26] This is, you know, this is running on Zapier and you can see what this
+[11:30] actually looks like, you know, it kind of looks like, you know,
+[11:32] classic Zapier a little bit, you know, runs every day at 6 a.m.
+[11:35] It goes and fetches all the calendar events.
+[11:38] And then here it's writing some specific code and hitting the AI to like
+[11:42] write the Slack in a very particular way.
+[11:44] Now, what is different about this is we can poke over here.
+[11:48] This is all code, which in the past, like you couldn't do this with Zapier.
+[11:52] Now I've not actually looked at any of this code.
+[11:54] Like this is actually the first time I pop this open and even taken a look at
+[11:57] what this is.
+[11:58] So you don't have to know what's going on here.
+[12:01] Um, but again, it kind of speaks to the value prop of zappers.
+[12:04] It's turning all of this stuff into a deterministic workflow.
+[12:07] And it's only using AI in the places that you really need to use AI,
+[12:11] which means this runs way more reliably, way more consistently,
+[12:15] and way more cost effectively than the most agents.
+[12:18] So, but can I use this instead?
+[12:20] Like the problem that I have with cloud or perplexity or whatever is that
+[12:25] my computer has to be open for a lot of these routines to run.
+[12:28] Exactly.
+[12:28] And it's a pain in the ass would, would doing it on Zapier, just be like in
+[12:34] lieu of using like open claw or having a Mac mini.
+[12:36] There you go.
+[12:37] Exactly.
+[12:37] The point, you can just deploy these zapper and we run them in the cloud for you.
+[12:41] That sounds way better than using open claw or having a Mac mini.
+[12:44] So way, way simpler, right?
+[12:46] You can look up here.
+[12:47] It's also agent managed.
+[12:48] So one of the nice things is, all right, hold on just a second.
+[12:51] I know what you're doing.
+[12:52] Wade who started a company grew to a $5 billion valuation.
+[12:56] He's telling you all these amazing AI prompts that he uses for his business.
+[12:59] You're probably taking a lot of notes right now.
+[13:01] That's exactly what I was doing.
+[13:03] And so what we decided to do was take all of those notes, all the script
+[13:06] that he's talking about, and we put it into a really easy document.
+[13:09] So you just copy and paste everything.
+[13:10] So there's the prompts where he talks about AI arguing back with him,
+[13:14] where he can stress test different decisions by having a seven person
+[13:18] AI executive committee kind of help them figure things out and then your own life
+[13:22] coach so you can have a better day.
+[13:23] So if you want this exact AI workflow, again, you can just copy and paste all
+[13:27] this stuff, just click the link in the description or scan the QR code.
+[13:31] All right, back to Wade.
+[13:32] While it is running deterministically, if for whatever reason it breaks, like
+[13:37] say an API is down or, you know, something doesn't work right, it falls
+[13:42] back to having an AI try and troubleshoot for you.
+[13:45] And so it automatically apply fixes.
+[13:48] You know, when things don't work quite the right way.
+[13:50] And so there's this like really nice blend of like traditional software
+[13:54] and like agent software here that is just, you know, super well done by the team
+[14:00] over here.
+[14:01] So I definitely would say, Hey, if you're, if you're struggling with your open
+[14:05] clause, if you're like keeping your laptop open all the time, you should
+[14:08] definitely install Zapier into like your, you know, agent or AI of choice and give
+[14:14] this a try.
+[14:16] Okay.
+[14:16] What else?
+[14:16] So you get the morning brief.
+[14:18] That's pretty standard.
+[14:18] I would say.
+[14:19] So let's talk about.
+[14:20] So I think the morning brief is pretty standard.
+[14:22] But the one that I really like is the evening brief in the scribe.
+[14:28] So, you know, I've had, I played with a couple versions of it.
+[14:32] One is it runs after every meeting.
+[14:33] And then I have another version that runs at the end of the day.
+[14:36] I actually think this is way better than the morning brief.
+[14:40] And the reason why is you can actually have the AI help you do stuff.
+[14:44] So, you know, it this loops over all of my meeting notes from the day.
+[14:49] So I'm using granola for all of my meetings.
+[14:52] It loops over all of the to-do's that are still in my to-do list for the day.
+[14:57] It loops over all of the outstanding emails that are in my inbox for the day.
+[15:01] And it's and then it prompts me and says, hey, how did the day go?
+[15:06] So there's two key things that it does for me.
+[15:07] One, when I say how the day went, I basically said it was a good day for this
+[15:11] reason or it was a bad day for this reason.
+[15:13] So now all that stuff is getting logged and it's learning how to tune my day
+[15:17] to help me have more good days than bad days.
+[15:19] But the second thing that it's doing is it's actually taking action on them stuff
+[15:24] on stuff.
+[15:25] So it says, hey, you know, you were in a meeting with Sam and Sean yesterday and
+[15:30] they asked for an intro to your buddy over at this company.
+[15:34] Do you want me to go ahead and make that intro for you?
+[15:36] Great.
+[15:37] Please do that.
+[15:37] Right.
+[15:38] So it's drafting those follow up emails, it's drafting all this other things.
+[15:42] And so this is where AI starts to get really helpful is it's not just giving you
+[15:47] a brief and sort of teeing it up for you to do.
+[15:50] It's now saying, I'll just do that for you.
+[15:52] And this is where I think you start to really feel the power of AI is when you
+[15:55] can actually put it to work.
+[15:56] So I love scribe those sort of like post meeting follow up or the end of the day
+[16:01] wrap up because it just, I don't know.
+[16:03] I used to spend like two hours at the end of my day, just like, you know,
+[16:07] just trying to catch up on every little ticky tax thing that I sort of got
+[16:11] roped into.
+[16:11] And now that like two hours at the end of the day is down to like 15 minutes.
+[16:17] So you think this is legit saving you two hours a day, almost?
+[16:20] Yes.
+[16:21] Yes.
+[16:22] And furthermore, that like, you know, what's good about my day?
+[16:25] What's bad about my day part?
+[16:27] It just helps me stay like focused on the things that matter.
+[16:30] So both the AI is helping me with that.
+[16:32] But I also will send like, I remember 90, like about about 90 days after I started
+[16:38] doing this, I said, Hey, I had this thought.
+[16:41] I was like, you know, so much about like what makes me have good days and bad days.
+[16:44] Can you like summarize like what is common about my good days and what is
+[16:48] common about my bad days?
+[16:49] It was like, sure, and it did all that stuff.
+[16:51] And then I gave it to my assistant and I said, Hey, here's like, please
+[16:55] make my days look like more good days versus bad days.
+[16:58] What were your good days and what were your bad days?
+[17:00] So for me, like the single most important thing is I'm a morning person.
+[17:04] And so I do my best work in the morning.
+[17:06] I'm most focused.
+[17:08] You know, once once after lunch comes around, you know, I I'm just not going
+[17:12] to get anything like serious done.
+[17:14] And so the most important thing is I don't want to meeting until 11 a.m.
+[17:18] And so you just give me that morning time where I can knock out the most
+[17:22] critical things and the day's going to go great.
+[17:25] Like I will win the rest of the day.
+[17:27] But if I have to like, you know, if that time starts to get sucked into like
+[17:31] firefighting mode, you can tell I'll just be grumpy at the end of the day
+[17:34] where I'm just like, Oh, like I'm not, I'm not being successful.
+[17:38] And you'll notice this podcast started at 11 a.m.
+[17:43] Hey, let's take a quick break.
+[17:44] You know that feeling when strategy is done, the brief is written, everyone's
+[17:47] aligned and you realize someone still has to sit down and actually create all the
+[17:50] content that someone is usually you and it's due tomorrow.
+[17:53] Well, the breeze assistant from HubSpot can help.
+[17:56] It works right inside HubSpot.
+[17:57] You can draft a campaign copy, blog posts, emails, all in your brand voice, all
+[18:01] using your actual customer data.
+[18:03] So you don't create just content.
+[18:04] You create content that converts.
+[18:06] Check out HubSpot.com, the agentic customer platform for growing businesses.
+[18:11] Can you show us how to get the AI to challenge you instead of?
+[18:15] Oh, yeah.
+[18:16] Let's do that.
+[18:17] So coming back, AI that argues back.
+[18:20] So this is pretty simple, right?
+[18:21] I use, I use cursor as my daily like agent, but if you're using cloud, if you're using
+[18:27] chat, if you're using Jim and I, they often have like a system prompt or a way
+[18:31] that you can sort of tune like how it talks to you.
+[18:35] And so in cursor, I have a file that's the agent's empty.
+[18:37] That's kind of what it uses everywhere.
+[18:38] A cloud has a cloud MD and basically I have a file that's like how to work with
+[18:43] me. And, you know, I, you know, have it be direct and honest.
+[18:47] I need the truth.
+[18:48] My coworkers are afraid to tell me.
+[18:50] I need you to challenge my assumptions.
+[18:52] I need you to poke holes in my thinking.
+[18:54] I need you to disagree, like disagree when you genuinely disagree.
+[18:57] And these things are like goal-seeking entities.
+[19:00] And so if you tell it like what I want from you is this, it's going to say, okay,
+[19:04] well, that's what Wade's wants.
+[19:05] So I'm going to try and give him that goal.
+[19:07] But if you don't tell him this, if you don't make this configuration, it's
+[19:11] going to just genuinely try and like placate you because it thinks that's what you want.
+[19:16] And so you do have to tell it, you know, it sort of guided a little bit.
+[19:20] So like here's an example of like, you know, a live prompt.
+[19:23] I ran ahead of time for this.
+[19:24] I said, Hey, I'm thinking we should kill our entire free tier this quarter
+[19:27] because one of our competitor raised prices helped me draft the announcement.
+[19:31] Right.
+[19:32] So this is like something that it should definitely like say, Hey, press pause.
+[19:36] Like that, that's a, that's a bad idea.
+[19:39] And so when I do that, here's the, you know, pushback that it gives me.
+[19:42] It's like, Hey, that's a big move off a pretty thin signal.
+[19:45] Before you draft anything, I want you to, I want three things on the table.
+[19:48] So like, you know, bring me the data, you know, tell me like what the actual
+[19:52] problem you're trying to solve is, you know, pricing announcements are wrong.
+[19:55] Like, you know, is there a smaller experiment you can run?
+[19:58] That's great.
+[19:59] Yeah.
+[19:59] It's just like helping you think through, you know, these problems.
+[20:03] And then, you know, I have this other skill that I've made, which I call my
+[20:06] War Council skill.
+[20:08] And so this is like an even like more specific version of this that I will
+[20:13] often invoke.
+[20:14] So I could say, Hey, you know, I'm thinking about hiring this person.
+[20:17] Here's all the like notes that I've got on them from the interview panel.
+[20:21] Like, help me figure out if this person's going to raise the bar or not.
+[20:24] And what it will do, the War Council is this is a actually let me put back.
+[20:30] I think I have the War Council skill in here.
+[20:31] Oh, yeah.
+[20:32] Here it is.
+[20:32] Um, okay.
+[20:33] I, it didn't actually pull the skill up.
+[20:35] So this, if you go to Zapier's GitHub, you can get a copy of the War Council.
+[20:40] But what this does is it spins up subagents and these subagents take on
+[20:45] personas.
+[20:47] There are seven subagents that get spun up.
+[20:50] So seven personas, some of them are standing members.
+[20:53] So for example, I have the wartime COO is a standing member of the War Council.
+[20:59] There's the ruthless CFO is a standing member.
+[21:02] There's a contrarian board member that are standing members of the War Council.
+[21:07] Then I leave four personas to be generated dynamically.
+[21:11] So based on the prompt, it will decide who else, who else do I need to get advice from?
+[21:16] That wartime COO, you created the persona, you described its characteristics,
+[21:21] or you trained it on like Travis Kalanic transcripts or something.
+[21:24] Like, what did you, how did you do that?
+[21:26] In my case, I, it's a gen, it's a generic version, but you could do whatever you want, right?
+[21:31] If you want it to have like, what does generic version mean, though?
+[21:34] You just said you be a war time COO.
+[21:36] I just said, these are the traits of, I said, this is a traits of a wartime COO.
+[21:39] And it like, I said, actually, what I did was said, I won a wartime COO, you know, generate that persona.
+[21:45] And then I looked at what it created and just made some like.
+[21:48] Do you have like a pretty chill, generally happy, positive outlook?
+[21:52] Like, like, this is, this is, you're seeing the like, the, the, the internal competitor inside of me, right?
+[22:00] Like this is the, the Kobe Bryant, Mamba mentality, like, you know, like coming through.
+[22:05] I like having this, like, you know, this sort of thought partner that is a little bit more like, ruthless.
+[22:11] Because that's not my, that's not my default mode, right?
+[22:14] I want to have that kind of checks and balance there.
+[22:16] And as a CEO, you're not always going to have people who are comfortable, available, skilled in that way around you, right?
+[22:24] Like, this is, this is like who you would want on your team when you want them to spin up.
+[22:28] Quick, stupid question.
+[22:29] You said I use cursor for my AI.
+[22:32] I thought cursor is a coding tool, but you're, it sounds like you're using it to chat, make decisions.
+[22:36] Am I just wrong about what cursor is or?
+[22:38] Yeah.
+[22:38] I mean, cursor, you can use cursor, or cloud code, code acts, like these are all ostensibly coding agents.
+[22:44] But they have this like agent mode where you can just talk to it.
+[22:48] And the thing is, it talks to it, but because it can write code, it can do stuff for you.
+[22:53] And so the way, the way I try and talk to people who are not engineers and say,
+[22:57] hey, you should try using this is don't think of it as a tool for, you know, engineers to build stuff.
+[23:03] Think of it as like you're hiring cursor or cloud code or code X to be the engineer.
+[23:07] You delegate things to where it's like, you, you probably have engineers you've worked with.
+[23:11] You like to tell that engineer, go build this for me or go build that for me.
+[23:15] Like that's why I use cursor is because it goes and builds stuff for me, not because I'm using it to actually go build a bunch of stuff.
+[23:20] I don't really write any code.
+[23:22] Wait, so you're default when you just need to like talk to an AI or chat or ask a question.
+[23:28] You go straight to cursor.
+[23:29] You don't do chess.
+[23:29] You're clodering.
+[23:30] I mean, mostly, especially when I'm at my desktop, I'm mostly talking to cursor most of the time.
+[23:35] It has like different models that you can sort of toggle back and forth on, which I like.
+[23:39] So I can, you know, test a bunch of different models and things like that.
+[23:42] Are you a type or a talker?
+[23:44] I, I'm, I do a lot of voice to text these days.
+[23:48] So I use this app monologue.
+[23:51] Why monologue?
+[23:52] I don't know.
+[23:53] I like it.
+[23:53] Like, I've tried a few of these.
+[23:55] I've tried like whisper flow and super whisper and monologue.
+[23:59] Um, I don't know.
+[24:01] It just like it just gets me.
+[24:03] Um, I don't know.
+[24:06] Like, I don't know if a better way to describe it.
+[24:08] Quick side note, I think this is going to be like an interesting thing about software for the future.
+[24:12] Like when it is so cheap to build software, I think you're going to see more software that has
+[24:19] like a personality to it.
+[24:21] You know, you think about like consumer goods.
+[24:23] It's like how many places can you buy jeans from or how many places can you get, you know, whatever from?
+[24:28] There's like not that many differences, but you choose, like you might choose one brand
+[24:32] and I might choose a different brand and it's just because like, I like it better.
+[24:36] But it functionally does the same thing.
+[24:38] I think there's going to be more software that kind of like feels that way.
+[24:42] Yeah, it's yeah.
+[24:43] No, I mean, I think that's a good point.
+[24:44] It's like the Adidas and the Nike shoes do the exact same thing.
+[24:49] But like, you know, or like t-shirt brands, like do you remember?
+[24:52] I was watching this Blake 1A2 documentary last night.
+[24:55] Do you guys remember Hurley?
+[24:56] Sean, you remember Hurley shirts?
+[24:58] They're everywhere.
+[24:59] And I was watching the show last night.
+[25:01] I'm like, why did we love those shirts so much?
+[25:04] Isn't that crazy that we got obsessed with it?
+[25:05] It was just that stupid logo.
+[25:07] And why did that matter to us so much?
+[25:08] And that's like, I think that's a good point.
+[25:10] That's how we're going to think about B2B, even B2B boring software.
+[25:13] Well, yeah, I think it's a really fascinating point because it always was
+[25:17] differentiated on either features or price, right?
+[25:21] Those are kind of the two main axes of competition.
+[25:24] And then design got layered in.
+[25:26] And I feel like there was like a wave where better design, better UI UX became
+[25:31] a differentiator and design, you know, got a seat at the table.
+[25:34] And then, but if you look at like other products, non software, it'll be either
+[25:40] kind of brand or like status, you know, like luxury.
+[25:43] It's signaling something about you.
+[25:45] That doesn't really exist in software.
+[25:47] And it sounds like what you're saying is there's going to be a new axis of competition,
+[25:50] which is personality, you know, who do I like the feel of when I'm going to
+[25:55] interact with it versus which model has more parameters and, you know, hire, you
+[26:00] know, benchmark score on the e-vals is not going to be how people are going to
+[26:03] choose these things because I'm already doing that.
+[26:05] You're, I think you're absolutely right.
+[26:06] Well, and I certainly feel it like, you know, as someone who plays around with
+[26:10] a lot of the models, I'm starting to find myself have some preferences for
+[26:15] like different tasks.
+[26:17] Like if I'm asking it to actually go do an engineering task where I don't need
+[26:20] to talk to it, there's models I like for that, you know, like fable is fantastic.
+[26:24] Like you're like, you're going to give it a really complex, like, you know,
+[26:27] engineering task.
+[26:28] I'm like, great, have fable go take a, take a swing at this.
+[26:30] It's going to nail the thing.
+[26:31] But man, I do not want to talk to fable.
+[26:33] Like it is, it is not fun to talk to at all.
+[26:37] We all have coworkers like that.
+[26:39] They crush it at some tasks, but you're not not a great hang.
+[26:42] Yeah, exactly.
+[26:44] But then there's other like models where you're like, hey, if I want to sort of
+[26:46] like go back and forth and have like a discussion and a debate around like what
+[26:50] we're doing, I'm like, okay, I feel like I can, you know, tolerate that discussion a
+[26:55] lot better than like trying to talk to fable where I'm just like, oh my God.
+[26:58] I are all the phrases.
+[27:01] Like when Claude talks to me, it's like,
+[27:03] what are the, what are its phrases?
+[27:04] It's like, it's not here's, it's that or here's, here's the thing that's quietly
+[27:09] really the problem.
+[27:10] Yeah.
+[27:10] The honest truth, the load bearing, you know, yeah, like here's, let's get to the spine.
+[27:16] Are those specific to AI or to the model?
+[27:21] To the model, for sure.
+[27:22] Like you can tell most models, I think are derivative of either either the, you know,
+[27:28] like anthropic series or GPT series.
+[27:30] And so like, you know, those two kind of have two distinct personalities.
+[27:33] But if you go use, you know, any of the like open source tools or things like that,
+[27:37] you can kind of see like who they've been distilling a lot.
+[27:40] And like it sort of inherits the personality of, you know, the one above.
+[27:44] Dude, I've noticed that my coworkers are starting to say like the Claude, like
+[27:49] someone in the other days of like, let's get to the load bearing part or like
+[27:52] something like of like, like when they're talking out loud, I'm not in writing.
+[27:55] Yeah.
+[27:55] Yeah.
+[27:56] Yeah, I noticed that where they start saying things.
+[27:59] I'm like, that's Claude and these, and it's sort of like, yeah, like, or, or
+[28:04] they're trying to talk that way.
+[28:06] So then they can like use Claude's writing and be like, no, it's really me.
+[28:10] Who is training who, right?
+[28:11] Are we training the AIs or the AIs training us?
+[28:14] And I think, like, I think you can go a step further where actually, let me show
+[28:18] you this other use case because this is interesting too.
+[28:22] So this is a bunch of synthetic data.
+[28:24] So it's not real, but, you know, I have a real version of it.
+[28:27] And it's got a list of accounts and you can kind of click into the accounts and
+[28:30] see what's going on with it.
+[28:31] So if we click into, you know, acme logistics here, you can see, you know, a
+[28:34] bunch of stuff about it.
+[28:35] It's like, oh, you know, usage is down 34%.
+[28:38] There's a renewal of 45 days.
+[28:39] Here's all the apps they're using.
+[28:40] Here's the people in the organization that you need to care about, et cetera.
+[28:45] But then like, here's the interesting part.
+[28:47] It's got the suggested CEO or outreach where it's like, you should email Jordan
+[28:51] and, you know, check in on them, see what's up.
+[28:55] And so this is where, you know, I think AI gets really interesting because in
+[28:59] some respects, who's the boss now?
+[29:01] Like, am I the boss or is the AI the boss?
+[29:04] You know, every Sunday morning now I wake up with a list of, you know, 10
+[29:08] customers that I want to get in touch with and it's got proposals for what I
+[29:12] should say and what I should do and why I should do it and all that sort of stuff.
+[29:16] And I candidly love it.
+[29:17] Like, this is stuff that was really hard for me.
+[29:19] Like, I'm not naturally a person who's just like, you know, ultra network or like
+[29:23] you guys are where I'm just like, I got to keep in touch with everybody.
+[29:26] And so now I've kind of put an agent in the loop and said, like, hate me,
+[29:29] help me be better at this stuff.
+[29:31] And yeah, I just, I literally wake up in my Sunday morning briefing.
+[29:36] It says, here's all the accounts you need.
+[29:37] I've already drafted the emails in your inbox.
+[29:39] You just need to review them and make edits or press end.
+[29:43] And I think there's like something to this where, you know, if you, if you do
+[29:46] a good job of like building these tools up, they'll kind of start telling you what
+[29:50] to do and you do have to keep your brain on because if you turn your brain off,
+[29:55] you'll probably sound dumb from time to time.
+[29:57] But by and large, I think these things make pretty good bosses for certain use cases.
+[30:02] Well, Brian Halligan, one of the founders of HubSpot, he, he either came up with this idea
+[30:08] or it was in an interview where Jack Dorsey from Twitter came up with the idea
+[30:12] and it was on Brian's podcast, but they basically said a lot of people are confused.
+[30:17] They think it's going to be a human brain or a CEO in the center and then all these
+[30:21] agents running around doing stuff.
+[30:24] He was like, that's not the way to look at it.
+[30:26] AI is the brain.
+[30:28] AI is going to be the CEO in the humans.
+[30:31] Their job is just giving it information and then making some judgment calls if it
+[30:35] wants to listen to the AI, but in general, the AI should actually be making the hard
+[30:39] decisions because it's likely going to do a better job.
+[30:42] And so that kind of like changed how I thought about it.
+[30:44] And it sounds like that's sort of what you're saying without saying it that way.
+[30:47] Well, I think so, right?
+[30:47] If you are able to hook up all of your company's institutional knowledge to the AI,
+[30:53] it's going to be able to reason over way more information than a human CEO.
+[30:57] Like it just can.
+[30:58] Like it can, it could look at every single commit into the code base.
+[31:02] It can read through every single customer conversation.
+[31:04] It can scan every comment about you on Reddit or X or LinkedIn or whatever.
+[31:09] So it just knows way more than you as a human is ever going to know.
+[31:13] And so that's going to make it way more useful for certain types of decisions.
+[31:18] Like, like to start right now, it's like you use it as an assistant to sort of
+[31:22] help you make these decisions.
+[31:24] But it seems pretty plausible to me that you might start saying, hey, I, I'm
+[31:29] going to take a suggestion more often than not in certain places.
+[31:33] Yeah, I think that's not true.
+[31:34] I wonder, I wonder if AI is going to have like, because, you know, the upside would
+[31:37] be AI is not going to have the emotional roller coaster that a human would have
+[31:41] or fears that would hold it back from doing the right thing or avoid, you know,
+[31:45] avoiding conflict or, you know, different things that humans have as their biases.
+[31:49] And then I wonder if we're going to have to come up with the cognitive biases of AI
+[31:52] to watch out for.
+[31:53] Like, okay, we know we have this sort of sunk cost fallacy and we have this bias
+[31:56] for recency bias.
+[31:58] What is AI is going to be because we're going to need to be aware of those.
+[32:01] The more we'd sort of turn over decision making to AI.
+[32:04] Yeah.
+[32:06] Today's podcast is brought to you by my friends at Mercury.
+[32:09] They make the world's best banking product.
+[32:10] I think, you know, this already, I use Mercury for all of my businesses.
+[32:13] I think I have like maybe seven or eight businesses.
+[32:14] We use Mercury as our business banking across all of them.
+[32:18] And now they actually just launched a personal banking account.
+[32:20] So I have my personal account there.
+[32:21] I moved off of Wells Fargo and Chase.
+[32:23] I'm just all in on Mercury.
+[32:25] Why?
+[32:26] I like products that are easy to use.
+[32:27] I like products that get me and the problems that I have.
+[32:30] So like very easy to make a joint account with my wife, very easy to spin up virtual
+[32:34] cards, one click and I get savings yield.
+[32:37] It's just has all the stuff that I need in one place.
+[32:39] So if you're looking for the best banking product on the market, it's definitely Mercury.
+[32:43] I will fist fight anybody who disagrees with me on that.
+[32:45] Go to mercury.com slash personal and learn more.
+[32:48] Mercury is a FinTech, not an FDIC insured bank.
+[32:51] Banking services are provided through Choice Financial Group and column and a members FDIC.
+[32:56] So you run a company that's worth billions of dollars.
+[32:59] How many decisions are you making a day that it's actually weighed versus AI?
+[33:03] Well, I would say like any high stakes decision, the AI is weighing in on now.
+[33:08] Like, you know, there's sort of a seat at the table and, you know, the exec meeting
+[33:12] and the board meetings and all that sort of stuff where we're asking the AI to like
+[33:15] surface those things.
+[33:16] Is there an example where AI kind of changed your mind or got to the right
+[33:21] answer that you weren't at and you decided to go with it?
+[33:24] Here's an example of a place where I find AI to be really useful.
+[33:29] Let's come back to the hiring example.
+[33:31] So, you know, we, we run a bar razor process where I approve every job offer that goes
+[33:36] off, but like exec team member sort of is on the final part of the hiring loop and
+[33:41] it's intended to audit the hiring process in addition to sort of figuring out, hey,
+[33:45] is this person going to elevate the culture or the work, et cetera, here at Zapier?
+[33:49] Now, in the past pre AI, when I would go through those approvals, I would often, you
+[33:55] know, if I would come across a candidate where I was not so sure on, I could kind
+[33:59] of smell something is wrong.
+[34:00] I've just done enough interviews now.
+[34:01] I've interviewed thousands of people.
+[34:03] I've looked over thousands of applications where I just have more reps than most
+[34:07] hiring managers have, like most hiring managers hire one or two people in a year.
+[34:11] It's like, I'm, I'm, I've just looped over like way, way more volume.
+[34:15] And so I don't always have the language to say like why it's wrong, but I can still
+[34:19] smell it.
+[34:20] I'm like, and so I would often go to these folks and be like, are you sure
+[34:23] something is off?
+[34:24] Like I don't, I don't think they have this, this or that.
+[34:27] And it was interesting that interaction with my staff was always a little bit
+[34:31] fraught, like folks would be like, well, I stand by this person, like, wait,
+[34:36] are you just going to make the hiring decision?
+[34:37] If so, like you just, if you don't want to hire them, don't hire them.
+[34:39] And it sort of would be like, and I'd kind of be like, well, that's not really
+[34:42] what I want, right?
+[34:43] Like I want you to make the decision.
+[34:45] I'm just trying to like give you some guidance here.
+[34:47] And I want you to sort of be able to, you know, reason through this problem.
+[34:51] And if you've answered it, like if you have confidence that you have, you know,
+[34:54] efficiently answered it, that I will back to you, let's go hire this person.
+[34:57] But if you haven't, then I want you to like take this into account and go
+[35:01] figure out like, you know, is there more information you need to get or do you
+[35:04] need to adjust your course, et cetera?
+[35:06] But that's not often how it would play out.
+[35:08] It would just sort of play out as like, well, does Wade want me to hire this
+[35:11] person or does Wade not want me to hire them?
+[35:13] Right.
+[35:13] And I'm like, like, so anyway, that's kind of what it was happening pre AI, post AI.
+[35:19] I'd run the war council or like my hiring committee over these folks.
+[35:24] And then I would notice like it's just more articulate than me.
+[35:27] It could sort of say, Hey, I noticed that, you know, this person
+[35:31] has these traits and the panel did not scrutinize this.
+[35:35] So you need to go scrutinize this.
+[35:38] And it would, you know, it'd give like a score of like here, compared to everyone
+[35:42] you've hired, it's happier.
+[35:42] Here's how, here's how likely I think they're going to be successful or not.
+[35:46] And so now I could take that to the hiring panel and say like, Hey, the, the AI said
+[35:52] this, I agree.
+[35:53] Like what, what's going on here?
+[35:55] And I noticed all of a sudden the behavior shift where people would go like, Oh, interesting.
+[36:00] I think the AI did get this and this right.
+[36:02] But I think it's wrong on this.
+[36:03] And here's why, because I have this other context that it doesn't have.
+[36:07] And I'm like, great.
+[36:08] That's all I was wanting to know.
+[36:09] It's like, I want it like, what else, what else am I missing?
+[36:11] What am I not seeing here?
+[36:12] And I just found that like maybe because it's not, maybe because it feels like arguing
+[36:16] with an AI is easier than arguing with the CEO or maybe because it's more eloquent
+[36:20] and it like actually has a way of talking that makes it like easier to address the
+[36:24] specific points.
+[36:25] I'm not exactly sure.
+[36:26] But I did notice the way we made decisions around hiring got better, in part, because
+[36:31] we added the AI to the look.
+[36:33] I don't know if you guys were ever like believers in some of these personality tests.
+[36:37] Like there's this thing called culture amp.
+[36:39] I think it's called where it's like a software where you do personality tests before you
+[36:43] hire someone, Ray Dalio has his version of it, whatever.
+[36:46] And there's like tends to be, it's like a scale or people fall in where they're like,
+[36:51] I don't believe in anything involving like personality tests.
+[36:53] I have noticed with AI, I have fallen closer to the side of like, I follow what it says
+[36:58] because I've done some of these personality tests and I've used it to train my AI and
+[37:02] it's helped me a lot.
+[37:03] But when it comes to hiring, do you guys buy into this at all when it comes to
+[37:08] personality tests and like figuring out if a person could be good for the job?
+[37:11] Because that makes with AI, it makes the process so much easier.
+[37:15] What do you think, Sean?
+[37:17] I go the other way, meaning it's not really about personality tests per se, but I find
+[37:23] that, you know, like with self-driving, one approach was, let's put all the sensors
+[37:29] on the car, let's get cameras, just get more cameras, let's get LiDAR, let's get radar,
+[37:33] let's get sonar, let's, you know, put a, what else do we do?
+[37:37] Taste test, what are all the different possible sensors you can put on the car?
+[37:40] And the Tesla approach was basically like it needs vision and it needs eyes only.
+[37:45] And one of the reasons why people thought it was for cost, which was, I think a factor
+[37:49] that like LiDAR was very, very expensive.
+[37:51] So it was not practical in the long term, but the reason that Elon says that he did it
+[37:55] was because when you have too many sensors, you get too much conflicting data and you
+[38:00] don't know which one to trust, it makes it more faulty, more error-prone.
+[38:05] And actually what you should do is take only the minimum number of sensors needed,
+[38:09] but then train the hell out of them.
+[38:11] That's kind of my approach to hiring, where I now simplify, I need less time
+[38:17] to spend with somebody and I look for fewer things, but those have to be home runs.
+[38:23] Otherwise, I'm just not going to hire the person.
+[38:24] So what does it mean by that?
+[38:25] Yeah, yeah, answer the question though, like how do you get, okay, what you're saying is
+[38:28] instead of looking at like hundreds of questions, you're looking at three questions.
+[38:32] Are you good at this, this, okay, so how do you gather that information?
+[38:35] So again, stealing from Elon, he talks about you want evidence of exceptional
+[38:39] ability. So all I'm looking for, I'm not looking for like the first filter is just
+[38:45] evidence of exceptional ability.
+[38:46] So I'm not trying to assess culture fit right now.
+[38:48] I'm not asking, do I like them?
+[38:49] I'm not asking like, do they have the relevant experience?
+[38:52] All I want to know is have you done some exceptional shit before and then tell me
+[38:55] that story and in that story, I'm going to try to understand, did you do it?
+[38:59] Or were you on a team of people doing it?
+[39:00] Or were you writing somebody else's coattails doing that thing?
+[39:03] And if you really haven't done anything exceptional, the odds of this being the
+[39:06] place where you have the final, you know, the first exceptional thing of your
+[39:09] career is not really a bet I'm excited to go take.
+[39:12] And so that's the very first filter that I'm looking for.
+[39:15] And that's not personality test driven.
+[39:17] Then after that is a kind of personality test of like, do I try to do something
+[39:22] with them where I get the gut feel of like, do we have creative chemistry?
+[39:28] Do I feel like this person is good to have in the room when I'm trying to figure
+[39:31] something out or do I feel like they don't do not, they're not elevating that
+[39:36] conversation when that happens.
+[39:37] And so I'm really just kind of like a two step filter and that's it.
+[39:40] And that's all I want to signal.
+[39:42] But obviously like I'm not running the size of org that way it is.
+[39:45] And I'm using, I'm working with people who are working directly with me in a
+[39:49] very, very small team where everybody has to be, you know, 10x or better.
+[39:53] Otherwise, this is just not worth having them on the team.
+[39:55] And so that's the, I've learned that kind of the hard way because I used to do it
+[39:59] very differently.
+[40:00] Yeah, we, so we've done some work with this.
+[40:05] So like we've done like Myers Briggs type stuff internally at times.
+[40:08] We've done, there's this one called Berkman that we've done.
+[40:10] At times I have found it to be moderately useful.
+[40:14] I have a CEO buddy who runs this public company in Columbia that does
+[40:18] dis profiles for every hire.
+[40:20] And he's like, insistent where it's like, if I have an accountant, they need to be
+[40:22] this profile, the studded it on.
+[40:24] It's like, if they're not, they're not going to be a good fit on the team.
+[40:27] I'm not gone that far.
+[40:28] I think what I, where I net out is that, I mean, you do need somebody who is
+[40:33] exceptional first and foremost, like everybody's got a personality type, but
+[40:36] it doesn't tell you if you're good or not.
+[40:38] Like, you know, you, you can score whatever you're going to score, but you
+[40:40] still need to be good.
+[40:42] Yeah.
+[40:42] But I do think that like teams matter, like, and when I look at my, my
+[40:47] personality or my way of working, there are things where I am exceptionally
+[40:50] good at, and there are certain defaults that I have where I know that if I
+[40:55] am partnered up with somebody who has like a complimentary traits, I'm going to
+[41:00] be way better because they're going to have my backside in places that I don't
+[41:05] know if like there's any science behind this.
+[41:06] But if you look at my EA versus my, like Myers Briggs, she has three different
+[41:11] letters than I do.
+[41:12] So there's four letters in that and three of them of hers are different.
+[41:15] And she does like have.
+[41:18] She likes doing things that I don't like doing.
+[41:21] And she's good at those things that I don't like doing and it ends up being
+[41:26] like pretty helpful because he gets kind of like in sports where it's like, you
+[41:30] know, if you basketball team, it's like, well, you need somebody that's
+[41:32] going to, you know, Michael Jordan's going to shoot all the shots.
+[41:35] Well, you need Dennis Rodman, who's going to like lock down D and grab boards.
+[41:38] What are you doing that for when you guys are hiring?
+[41:40] We don't do it.
+[41:41] No, we don't actually have people like take a test and say like, Hey, what
+[41:44] are you going to do?
+[41:46] Different hiring managers are probably doing it somewhat like by like
+[41:50] organically, but it is not a science for us.
+[41:53] I have an idea for how I think companies could use AI to improve their hiring.
+[41:58] I don't know if this is like fully like legal.
+[42:01] I don't know if you could do this exactly the way I'm going to describe it.
+[42:03] But here's the exercise.
+[42:06] I mean, you go through your team.
+[42:07] So you have all the, all the past hires you've made in the last, let's
+[42:10] call it three years and you could stack rank who's exceptional, who's
+[42:15] acceptable and who's kind of like been a source of kind of hit or miss performance.
+[42:21] Let's say cool.
+[42:23] So you could stack rank employees in your team and you can say great.
+[42:27] You also have maybe the, the transcripts or the recordings of all the interviews
+[42:31] that they did, right?
+[42:31] So you have this historical pattern that you, that you have with all of them.
+[42:36] And then you have new people that are coming in and like, so, because when I was
+[42:39] at Twitch, they use the Amazon bar razor thing that you described and they're
+[42:42] trying to do like the human version of this.
+[42:44] It's like, here's this guy who's seen a thousand interview panels who will come
+[42:48] in and kind of like standardize the hiring process, but also like provide the most
+[42:54] experienced voice on hiring.
+[42:58] And then they're kind of checking this candidate against this pattern of past
+[43:02] candidates as well as against your values and, you know, the role, the role in mind.
+[43:08] And I just think AI is going to be way better at that than people.
+[43:10] I think it's going to be like dramatically better at that.
+[43:12] And I'm surprised that people aren't using like kind of the training data of your
+[43:19] existing team to inform the next hire.
+[43:23] Do you think it would work?
+[43:23] Like, I don't know for sure if AI would be good at that, but I kind of think that
+[43:27] would that would be helpful.
+[43:29] I mean, I remember Google sharing like a lot of their hiring insights where they
+[43:33] did a ton of tests around this stuff like this.
+[43:36] And I think what they found was that no hiring managers were like, had an edge
+[43:41] over any other hiring managers with one exception.
+[43:44] And the one exception was that there was like this hyper specific specialized group
+[43:50] of like technical talent, where there was like only like an end of like a hundred
+[43:53] people in that domain.
+[43:54] And it's just like their hit rate was better because it was like, well, there's
+[43:57] just only a hundred people to do this thing.
+[43:58] And so I don't find that a very satisfying answer.
+[44:03] Like, it feels like there should be something to what you were saying.
+[44:06] Also, something that I've been thinking about a bunch, like I was thinking a large
+[44:11] percentage of the people who work at my company, which is like 35 or something.
+[44:15] They, we work here in this office out here and they're here because basically
+[44:19] I'm bored and I want someone to hang out with most days.
+[44:22] Like that's like probably 70% of the reasons why I have a company is just
+[44:26] because I like want someone to hang out with.
+[44:29] Because I'm not good at friends.
+[44:30] Friends are hard.
+[44:31] Employees are easier.
+[44:32] Friends are hard.
+[44:32] Starting starting LLCs is easier, which sounds like a joke.
+[44:36] But like any, you know, I'm sure Sean, you agree.
+[44:38] Like you Sean has Sean has a guy who works with him.
+[44:41] He's like, if you can work for me, if you move here and we hang out every day.
+[44:45] Yesterday, I was like, I'm kind of done working.
+[44:48] You want to play Fortnite?
+[44:48] We just played Fortnite for a couple of hours.
+[44:50] Like, yeah, absolutely.
+[44:51] I need a pickleball partner.
+[44:53] Can you come be my employee?
+[44:55] I mean, that's kind of how it is.
+[44:56] I just want like a lot of people.
+[44:57] But when you have, OK, now I'm not I want you to put like, let's be the CEO
+[45:01] war console and I need you to be like crazy way, not real weight.
+[45:05] So anything said for the rest of the section, you can be you could kind of go
+[45:09] on hinge unhinged, but OK.
+[45:11] Yeah, but we're war weighed.
+[45:13] Yeah.
+[45:13] I don't know how many employees you have now, but you used to have 700.
+[45:16] What do you have now?
+[45:18] It's like 730 or something like that.
+[45:20] It's not that.
+[45:21] So when you have like remote employees, like for the most part,
+[45:26] you only know them as just like Slack avatars, right?
+[45:29] Like you don't know all 700 people and many of you, them don't know you
+[45:33] other than like this guy on zoom and someone who blogs occasionally.
+[45:37] It kind of like begs the question, like what if they were all just like or
+[45:41] like him, like one person just be like 10 or 30 different agents that they
+[45:45] monitor and you only have like 20 employees.
+[45:49] I think there's definitely a school of thought where I've heard that.
+[45:55] I do think there's limits to this.
+[45:58] And the way I think about the limits is that it's kind of like how a
+[46:03] manager has like an ideal span of control where it's like, oh, I can only
+[46:06] have like, you know, I don't know, the rulebook says eight.
+[46:10] I think, you know, you're seeing people push the limits now to have like, you
+[46:13] know, 10 or 12 or if you're Jensen, you've got 60 or whatever.
+[46:17] But there's still a limit where it's just like, I just cognitively cannot
+[46:21] like keep up with like this many people.
+[46:25] But you don't keep up with that many people anyway.
+[46:27] Like when you have a company, like there's stuff happening that you don't
+[46:31] even know about, well, why wouldn't you just have it be one of your agents?
+[46:37] Well, so you could, but the thing is, you're only going to be able to keep up
+[46:40] with what 20 agents because it's going to keep assigning you tasks and more
+[46:44] things to do and more things to do.
+[46:45] More things to review.
+[46:46] There still is like a, there still is like a limit.
+[46:50] But I'm not saying that it would be like just weighed.
+[46:53] But I'm saying like, do you think that there's a world where let's just say
+[46:57] that hypothetically, you guys do close to half a billion in revenue?
+[47:00] Is there a world where like 20 people could do that?
+[47:04] For a company like Zapier, I'm not sure.
+[47:06] But definitely like a company could certainly do that.
+[47:09] In fact, we've already seen companies that have gotten to like that size on very
+[47:12] small numbers of revenue, which ones?
+[47:16] Well, I mean, shoot, like Minecraft back and before Microsoft bought it was
+[47:20] like, I don't know how many people, but it was like less than a hundred, I think.
+[47:22] And it made it, you know, a whole bunch of money.
+[47:25] There was that New York Times story that came out this summer about that guy who
+[47:29] was selling like GLP one stuff.
+[47:32] Yeah, we had him booked as a guest on the podcast and then that article
+[47:36] came up the day before and he canceled on us.
+[47:38] Well, so yeah, like he's doing like, I don't know how many employees he has, but
+[47:43] I think it was like maybe one or two.
+[47:44] Yeah, how many inmates does he have now?
+[47:47] Yeah, I mean, you also could think of someone like like Taylor Swift, like Taylor
+[47:57] Swift has a very, very small team from what I understand and is, you know, printing,
+[48:03] you know, billions a year or something like that, or at least at her peak was.
+[48:07] So I, you know, I think it just kind of depends on the business.
+[48:09] Maybe just the philosophical thing of like, do you think that the way, so the way
+[48:14] you work, work before was you start off as an individual contributor and then
+[48:17] you can become a manager where you manage a fleet of individual contributors.
+[48:20] Yeah.
+[48:21] Is that then, and maybe in the corporate world, your value was proportional to how
+[48:25] good you were at managing people is the new world where your value, the thing you
+[48:30] get, the amount you get paid is based on how well you manage AI agents, right?
+[48:34] Like how, how, how big of a fleet can you manage and how effective is that fleet?
+[48:38] Is that the new managerial skill?
+[48:40] Yes.
+[48:41] I feel pretty confident that that is the direction we're heading to.
+[48:45] Sort of saying, I mean, I don't want to put words in your mouth, but you're
+[48:47] just said the same thing.
+[48:48] You're saying I'm right.
+[48:49] I'm genius.
+[48:50] Yeah.
+[48:52] We got there.
+[48:53] We got there.
+[48:54] And again, this is ruthless weight.
+[48:56] So I don't want you to like think that you have to like hedge or apologize, but there's
+[49:01] still different roles in a company, right?
+[49:02] Like you're, you know, you're think of like your sales team.
+[49:05] Like I still think that for certain purchase categories, we still want to talk to a human.
+[49:09] We still want to buy from a human.
+[49:11] Do you want your sales reps every day, waking up and managing fleets of agents?
+[49:14] Or do you want them talking to your customers and helping build those
+[49:18] relationships and close out trust and all that for that role?
+[49:21] I'm like, I think I kind of want you build in the human relationship more so
+[49:23] than like doing a bunch of AI stuff.
+[49:26] I definitely want you to do some AI stuff, but it's not necessarily like, Hey,
+[49:30] you know, Mr.
+[49:31] Miss like sales leader or like frontline sales, like go manage these 20 reps that
+[49:36] are going to actually do the sales for you.
+[49:38] Can I switch gears for a second?
+[49:39] How old are you?
+[49:41] I turned 40 this.
+[49:43] OK, so you were if $5 billion is your value, you were in the ballpark of being
+[49:51] a under 40 billionaire, give or take.
+[49:54] Does that feel strange?
+[49:56] Because you seem like a guy who does not particularly, even though I was teasing
+[49:59] you, you seem like a guy who doesn't particularly care about money or success
+[50:03] other than have it a good time.
+[50:05] I mean, it feels honestly, it feels a little fictional to even hear you say that,
+[50:10] where I'm like, I don't I don't think of myself like that way.
+[50:13] And it sort of is like so much is like tied to like the paper, the paper worth
+[50:18] of zap here at any given moment in time.
+[50:20] It's like the voting machine.
+[50:21] I don't have liquid dollars that look like that.
+[50:25] You know, I have some amount that's liquid describe your psychology around money.
+[50:31] So how do you think about it?
+[50:32] How how do you use it in a way that improves the quality of your life?
+[50:35] How do you avoid it so that it doesn't mess up certain parts of your life, make
+[50:39] us a little smarter, just share your perspective?
+[50:41] Yeah, I think, look, it's a lot of this stuff is like highly personal and
+[50:46] like, what do you care about in life?
+[50:48] And for me, then like things one, two and three are my family.
+[50:52] And so, you know, I want to be around my family, have like, you know, provide for
+[50:57] them, you know, make sure that they sort of are able to sort of live a good
+[51:02] life by whatever definition I have of that.
+[51:04] And truthfully, like, once you get to like a certain amount of wealth, like
+[51:08] more wealth doesn't change that equation.
+[51:10] What do you think that level is?
+[51:12] I mean, shoot, if you come live in central Missouri, it's not that much.
+[51:16] Yeah, I think you could do just fine with like a million bucks and, you know, do
+[51:21] quite well.
+[51:22] I mean, shoot, when I when I was, I remember when I just got out of college,
+[51:26] my, my dream was if I could only make $100,000 a year, that was my dream.
+[51:31] It was like, if I could make $100,000 a year, I was like, man, I'll be set.
+[51:35] That was mine too, by the way.
+[51:36] It was, yeah, it was like, if I can get out and work at KPMG and get 60 grand,
+[51:41] I might get to 100 grand from 30 and then I am set, baby.
+[51:44] Yeah, that was the goal.
+[51:46] And I don't know.
+[51:47] Like, partly that's, you know, I don't have like a lot of vices.
+[51:50] I don't have like a lot of expensive hobbies and things like that.
+[51:52] Do you do anything cool with your money?
+[51:55] You know, when I go to a restaurant, I don't look at the, how much the items cost.
+[51:59] Nice.
+[51:59] Like, that kind of stuff.
+[52:01] And so you've raised money.
+[52:02] So you have to have some type of likely presumably you're going to, you want to have
+[52:05] some type of exit event, whether that's IPO or selling the whole thing.
+[52:10] Is there anything that you have on your bucket list that you'd want to, like,
+[52:13] if you're like, okay, if I get over a billion dollars liquid, I want to change this
+[52:18] about my life or there's something interesting I want to do.
+[52:21] No, there's like nothing that I couldn't already do.
+[52:25] You know, like, I remember my grandpa, like his dream was always to go on a safari.
+[52:29] And he never got to go on one.
+[52:31] I always thought like that was an incredible thing.
+[52:33] And so when my girls are old enough, I'm like, let's go on a safari.
+[52:36] But I, I do that now.
+[52:37] I don't need billions of dollars to go on a safari.
+[52:40] The reason I like asking you about this stuff is because you are very well
+[52:45] rounded and you seem like we had this like joke called like the total man.
+[52:50] It was like, like a buddy of ours or a podcast guest who was like kind of like
+[52:55] the perfect package.
+[52:56] Like they were like ruthless when they need to be ruthless.
+[52:59] They were sweet when they needed to be sweet.
+[53:00] They were smart when they needed to be smart, but they were still a good hang.
+[53:03] And like I said, like, Dharmesh has that.
+[53:06] And you definitely have that too.
+[53:07] So I like hearing your opinion on topics where most of the people,
+[53:11] ourselves or myself included, talk about it from a, they're broken.
+[53:14] They have a chip on their shoulder perspective.
+[53:17] Whereas I don't think you have that.
+[53:18] You have a, you have a far more wholesome and a positive outlook when
+[53:23] it comes to a lot of the stuff.
+[53:23] So that's why I like hearing you talk about some things where you don't
+[53:26] typically peer an emotionally healthy person, give their perspective on.
+[53:30] You know, I was really lucky.
+[53:31] Like I grew up, you know, with a, like a, you know, a family that was all sort of
+[53:35] like, you know, like my parents were married.
+[53:36] My two grandparents that were married.
+[53:38] I have like, aunts and uncles and cousins that were all sort of just like
+[53:41] really tighten it.
+[53:42] But if I was to like give a shout out to any of those, like I got to talk
+[53:45] about my granddad, like, you know, my granddad is a World War Two vet.
+[53:50] But you know what, I didn't know him as that.
+[53:52] I just knew him as this guy, you know, who like always had time for his
+[53:56] grandkids, he died, he's 98 and a half.
+[53:58] And he basically lived by himself the entire time I knew him.
+[54:01] He drove himself up until two weeks before he died.
+[54:04] He walked three miles a day every single day until two weeks before he died.
+[54:08] He did the New York Times crossword puzzle and pin every single day.
+[54:11] And I remember going to, you know, after he died, we were at the funeral home
+[54:16] and they were trying to like plan out all this stuff.
+[54:18] You know, most 98 year olds when they died, it's like, they don't got any friends.
+[54:21] There's nobody going to be there because everybody who's, everybody who
+[54:24] would have been there has already died.
+[54:26] You're 98.
+[54:27] Like they just, he just made it a long time.
+[54:29] And I remember the staff saying like, okay, like, you know, we'll probably
+[54:32] just do like a reset, you know, the, the receiving line or whatever will be,
+[54:36] you know, like, we'll just do like 30 minutes or an hour or whatnot.
+[54:39] And that receiving line is there for three hours.
+[54:42] People just like coming through nonstop.
+[54:45] And, you know, just members from every single walk of life, like he had, you know,
+[54:51] when he was a teacher, he had all these teachers that were coming through that
+[54:53] remembered him, he was like big with the dare program.
+[54:57] So like all these highway patrolmen coming through, all these members of the church
+[55:00] coming through, all his extended family coming through.
+[55:03] And I remember that like standing out a lot to me where it was like, here's a guy
+[55:08] who, you know, was, was great at family and great at professional stuff.
+[55:13] And I just, that, that to me was like just a really good example of, you know,
+[55:19] someone who got their like priorities that will like, like dialed in really, really
+[55:22] well, you know, he didn't have it all, but he didn't need it all.
+[55:25] It's like the things he cared about, he nailed them.
+[55:28] And so to me, that's always like stood out as like what, what a good life looks like.
+[55:33] Sounds like a good role model.
+[55:34] I think that you definitely seem to embody that where like, like I said,
+[55:38] you are great at business and also like don't have this jackass side that most
+[55:44] people who are where you are seem to have.
+[55:47] Right, Sean?
+[55:48] Yeah, yeah.
+[55:50] We, first, I love that story that you just told.
+[55:52] That was actually a really awesome and awesome story.
+[55:56] And also, you know, I think that the value of what you just said, you said two
+[56:01] things that stood out to me.
+[56:02] You said he didn't have it all, but he didn't need it all.
+[56:05] And I think, you know, I've been thinking about this a lot lately, which is
+[56:07] that you're really only as as rich as what you don't need, you know, basically,
+[56:12] like if you don't, that's whether that's material things or other, right?
+[56:15] If you don't need the approval or attention of others, you're free.
+[56:19] You're rich, you know, because you just don't need that.
+[56:22] It's not one of the things that you have to go pay the cost to go get, right?
+[56:27] Like, you know, you don't have to go be super flashy on social media because
+[56:29] you just don't care for it.
+[56:31] Um, and so I think that's like such an underrated attribute.
+[56:33] And when you said that, it kind of reminded me, it sounds like your
+[56:35] grand grandpa had that kind of that way of life.
+[56:38] And the other was, you know, defining what winning is.
+[56:42] So it's like, if winning is just in the work domain or winning is just
+[56:46] in one, you know, just in one of it, you have to kind of decide what it is for you.
+[56:50] And it sounds like pretty early on you got clear on that.
+[56:54] And the clearer you are, the less likely you are to be blown around with the wind,
+[56:58] you know, if the media portrays Jeff Bezos or Elon Musk or whoever, as like the titans.
+[57:03] And then you say, oh, I guess that's what winning is.
+[57:05] And then you're, you know, soon enough on your, you know, multiple divorces and
+[57:09] your kids don't like it, whatever, whatever you can go.
+[57:11] It's easy to go down a certain path.
+[57:12] If you didn't have like a really grounded belief system around what winning is
+[57:18] and have examples of people who've won that way, because you'll get a lot of
+[57:22] examples of what I call one-dimensional winners, Michael Jordan.
+[57:26] The ultimate, I'm a basketball fan.
+[57:27] So I grew up being like, Jordan is the goat, he's the greatest, he's the best.
+[57:32] And he is when it comes to basketball, but he also had many things in his
+[57:35] personal life that I don't want to emulate.
+[57:36] And so as much as I wanted to be like Mike on the court, I did not want to be
+[57:40] like Mike off the court.
+[57:41] And I think it's worth the time to do what it sounds like you've done, which is
+[57:44] kind of like find, find whatever that north star is for you so that you kind of
+[57:48] have a clear picture in your head.
+[57:51] It makes all future decisions really easy.
+[57:53] Totally.
+[57:53] I love that.
+[57:54] Like, you know, define your own definition of winning.
+[57:57] And, you know, if you do that well, like some of your decisions might look
+[58:01] odd to others, they'll be like, why are you doing that that way?
+[58:04] You could do this.
+[58:04] You could do that the other, but you'll be a lot happier when you're just like,
+[58:07] this is what I want to be doing.
+[58:09] And, you know, if what you want to be doing is, you know, running a software
+[58:12] company and you'll great, go do that.
+[58:14] If what you want to do is, you know, be a teacher and, you know, help students do
+[58:18] that, like if what you want to do is, you know, I don't know, live on the coast or
+[58:22] live in the, it's like, what, what is it that sort of like is winning for you?
+[58:25] Do you have any examples of that?
+[58:27] I mean, you are very successful and you moved from San Francisco back to Jeff
+[58:30] City.
+[58:31] So that's like an obvious one.
+[58:32] But like, are there any other like strange, zappier or weighed decisions that
+[58:37] you've made that you think that the normal Silicon Valley guy would be like,
+[58:40] that's insane.
+[58:41] I mean, like, I mean, the sort of remote work story is one where we've just
+[58:44] never had an office wait before anyone thought that that was normal.
+[58:47] Yeah, we only raised the one round of money.
+[58:49] Like that was like pretty odd at the time.
+[58:51] Like, you know, we're, we're building this business for like the long haul.
+[58:55] And so I constantly get questioned around like, well, what about, I mean,
+[58:58] heck, you guys are asking me about like, well, what about the X or what's the
+[59:00] valuation or what's the, and I'm like, it'll be what it will be.
+[59:03] Like we're here to grow it for our customers.
+[59:05] Like that's the thing I care about.
+[59:07] Not these other things.
+[59:08] And, you know, I think if we do a good job of that, then sure, the numbers will follow.
+[59:12] But that's not the point.
+[59:13] Like the point is like the, the work itself.
+[59:16] And I think that's, you find that with anyone who loves what they do.
+[59:19] Yeah, you ask them, this is where I feel like the media gets a lot of this
+[59:23] like narrative around billionaires wrong.
+[59:24] Is there like, you know, they're, they're holding their money.
+[59:26] They're doing all this stuff.
+[59:27] I mean, look, I don't know all billionaires, but I've gotten to meet a couple
+[59:31] and you know, Darmesh, Hallegen, like, you know, guys like this who, I don't know,
+[59:35] they genuinely just seem like they like what they're doing.
+[59:38] And like they're going to keep doing that, whether or not they make, you know,
+[59:42] a little bit of money or a lot of money.
+[59:44] The test has played out.
+[59:46] Yeah.
+[59:46] They did it before they were making any money and kept going when there was
+[59:49] no clear line of sight to money.
+[59:51] Exactly.
+[59:52] When they made the money, they kept doing it.
+[59:53] So it's really it wasn't about the money because I just like doing it.
+[59:56] I think athletes are the same way.
+[59:58] Like you look at like Olympic athletes.
+[60:00] Olympic athletes don't make a lot of money, but they just love doing it.
+[60:03] And they're just going to keep doing it.
+[60:05] No matter what, you see it in, you know, professional sports where like guys
+[60:08] are, you know, at the tail end of their career and they probably should be
+[60:12] retiring, but they keep playing because they just love playing and they'll take
+[60:16] the, they'll take the lesser contract.
+[60:18] They'll do all this other stuff because it's like, I just can't.
+[60:20] I just love this game.
+[60:21] Like I love doing that thing.
+[60:23] So Sean, listen to this one time, I think in 2000 and maybe 2019
+[60:29] Wade spoke at HustleCon in Oakland, California.
+[60:32] And this was right.
+[60:34] I think before you raised your round, I think, but you were, you guys were
+[60:39] the hottest thing going and you came and talked and I thought it was awesome.
+[60:43] And I don't know if you remember this, Wade, but you and I sat backstage
+[60:47] for like 10 hours and all the speakers would come and go and they would have
+[60:52] to pass to this room.
+[60:54] And I think I don't, I don't know exactly if this is how you felt.
+[60:57] I think you did the same thing I wanted to do, which is like these people would
+[61:00] come in and we would just stare and like observe how they were behaving
+[61:04] because it was kind of fun to have like, you know, billionaires or like these
+[61:08] big shot CEOs just like interacting with you, having a normal conversation.
+[61:11] It was really exciting.
+[61:12] It was like people watching on steroids and we were just, we're kind of staring
+[61:16] at them, but I remember you sat with me.
+[61:18] I don't know if you remember this for like, it was like eight or 10 hours.
+[61:20] It was like the entire day.
+[61:21] And I was like, do you get somewhere to be?
+[61:22] And you're like, Nope, I just like being here.
+[61:25] And I remember that you, you doing that.
+[61:28] And it seems like you have a change where it was like you were very, you were
+[61:32] successful then.
+[61:32] Now you're incredibly successful, but it was a very similar personality
+[61:36] where you're still very curious.
+[61:38] Yeah, I don't remember it being eight or 10 hours, but I do remember it.
+[61:42] It was all day.
+[61:43] Like you got it at nine.
+[61:44] And I think we left at four.
+[61:45] So however, maybe it was.
+[61:46] Yeah.
+[61:47] Yeah.
+[61:47] I mean, you, you got good.
+[61:48] You pulled the good guests, man.
+[61:50] Like who wouldn't want to just like sit backstage and like listen to how all
+[61:53] these people are running their companies and what's working for them and what's not.
+[61:56] I mean, shoot.
+[61:56] I'm, I'm almost certain I had a notebook of ideas that I sort of took back
+[62:00] and was like, we're going to do this.
+[62:02] Yeah.
+[62:03] I mean, the awesome thing is like, you know, back when you were doing that,
+[62:07] like, I feel like podcasts weren't quite as big of a deal.
+[62:09] But now like, God, you can just like pour over this stuff and you just have
+[62:13] like notes for days on things that you can just go try and just like, all right.
+[62:17] See if this works for me, what do you, what do you listen to?
+[62:19] And what do you consume on a regular basis book?
+[62:21] Well, my, I mean, my favorite podcast.
+[62:23] I got to give a shout out to the acquired guys.
+[62:25] Like, I mean, it's just 10 out of 10.
+[62:28] Like, you know, most of those things they do a deep dive on are just these legendary
+[62:32] entrepreneurs who have like, you know, did it for decades.
+[62:35] Leave us a leave us with a recommendation.
+[62:37] Give us a acquired episode we should listen to and maybe a book that you liked.
+[62:41] Well, then a fell episode, if you like sports at all, like, you know, that is a
+[62:46] good entryway into acquired.
+[62:49] The probably my favorite series is all the retail ones.
+[62:53] So there's like a, like a cot, like I think it's Costco, Walmart and Amazon.
+[62:57] And there's sort of like a trifecta right in there that are like, oh, really, really good.
+[63:02] As for a book, I recently finished this book.
+[63:07] Make something wonderful.
+[63:08] It's a Steve Jobs, like in his own words.
+[63:11] Isn't a really good one.
+[63:12] Yeah.
+[63:12] I think Steve Jobs, he sort of, he has like a larger than life reputation.
+[63:16] This book is literally just emails, speeches, literally just like his own, his own
+[63:22] thinking and it's sort of organized roughly chronologically.
+[63:26] And so you get to kind of just see his progression of like, you know, V one, Apple,
+[63:31] the Pixar years, V two, Apple.
+[63:33] And you kind of just see how he, he changes sort of like over time.
+[63:37] Sean, do you have a book that you read recently?
+[63:39] You want to recommend?
+[63:40] Yeah.
+[63:43] There's a book called the score.
+[63:44] Have I talked about that here?
+[63:45] See, Ty Nguyen is the guy's name on the cover.
+[63:50] But it's called the score, how to stop playing somebody else's game.
+[63:53] And this is a guy who, the fundamental premise of the book is amazing.
+[63:58] He's, so he's talking about like the power of a game.
+[64:00] So he's like, imagine a game.
+[64:03] You let's say we take a dictionary.
+[64:06] We open up a game of a dictionary.
+[64:08] Games are this incredible thing because they tell you what winning means.
+[64:12] So they tell you the rules, what you're allowed to do.
+[64:15] They tell you the score board.
+[64:17] So like how you game, how you win in this game and like what your goal should be.
+[64:22] So they dictate your goals, they dictate your behavior.
+[64:24] And then they also sort of dictate who you need to be to be good at this game.
+[64:28] And he's like, let's take a game like charades to be great at charades.
+[64:32] You're going to have to be loose.
+[64:33] You're going to have to be highly communicative.
+[64:35] You're going to have to be a great team player, whether you're the guesser or
+[64:37] you're the actor, it doesn't matter.
+[64:39] But then let's say you play risk.
+[64:42] It's like you're going to have to be like ruthless, dominating.
+[64:45] You're going to end up like he's like, it's amazing.
+[64:47] If you just take the idea of a game, how it will change your behavior.
+[64:51] And he's like basically extends that to like the games we play in life.
+[64:54] And so he describes like when he was a professor, he's like, I got into teaching
+[64:57] philosophy because I love philosophy.
+[64:59] Of course, that's why who else becomes a philosophy teacher?
+[65:02] He's like, but then I discovered this leaderboard.
+[65:04] And it was like all the philosophy professors in the country.
+[65:07] And he's like, suddenly I started, well, how do you get on that board?
+[65:10] Right? I don't want to be not on the board.
+[65:12] And so he kind of innocently is like, oh, you got to get published.
+[65:14] And he's like, well, then I realize like the way they get published the most
+[65:17] and the fastest is in these obscure publications about these types of things.
+[65:20] He's like, suddenly a few years in, I hate what I'm doing.
+[65:23] He's like, why am I even doing this?
+[65:24] Like I'm doing studies about shit that I don't even care about to get published to
+[65:27] get on a leaderboard that doesn't even matter.
+[65:28] Why? Because I play games, we all play games.
+[65:31] And so you have to be really careful about like games and the different types of
+[65:35] ways you play.
+[65:36] And there's like striving play, which is like you play for the joy of playing versus
+[65:41] like outcome based where you're playing to win.
+[65:44] And like, you know, you want to be a striver for these reasons and that
+[65:47] strivers actually tend to win more too, but they didn't play for that reason.
+[65:50] And like, you can't just say, well, I'm not going to play any game.
+[65:53] Cause like it's no fun.
+[65:54] Let's say we're playing charades.
+[65:55] And if you don't care at all about winning, we're not going to have a good time.
+[65:58] Like the trick is to care about it in the moment and then completely let it go
+[66:01] afterwards.
+[66:02] When you remember that, oh, the reason we're playing charades is so that we could
+[66:05] have a fun time as a group hanging out, not so that I got the most points in the game.
+[66:09] And so, you know, there's all this like nuance around games and I, and I think
+[66:13] like, cause I think the biggest decision you make in life is what game you're
+[66:17] deciding to play and how that will shape the next 10 years.
+[66:21] It looks like it just came out too.
+[66:22] The book came out like six months ago.
+[66:25] Yeah.
+[66:25] So I'm taking that book right now.
+[66:27] I just finished.
+[66:27] I'll wrap it up with this one.
+[66:29] Wade, you might like this one.
+[66:30] I think you, if I had a guess, do you listen to Blake when they too as a kid?
+[66:35] I did.
+[66:36] Did you Sean?
+[66:38] I mean, who didn't?
+[66:39] Hey, yeah.
+[66:39] I wasn't like, yeah, I read the biography of the memoir of Mark Hoppis, who is one of the
+[66:47] lead singers of Blinken Andy to such a good book.
+[66:50] I read it in three days.
+[66:51] I couldn't put it down.
+[66:52] It was one of these books where like I had to force myself to put it down when I was
+[66:55] going to bed at night, because I was like, staying up too late.
+[66:57] What, why are musician biographies so good?
+[67:01] There's like the life of the memoirs or whatever, of musicians and comedians.
+[67:04] What else do you have?
+[67:06] The Red Hot Chili Peppers guy, Anthony Quittis.
+[67:09] Was that good?
+[67:09] Long time ago, I was like in college, I read this thing and I loved it.
+[67:13] Well, this is, this is good.
+[67:14] I think because he had a messed up.
+[67:16] Any party, messed up childhood, like adult hood, so it was like riveting.
+[67:21] These guys, they weren't really that messed up, but they got really famous,
+[67:25] like really fast and he talks about it.
+[67:26] And he's like, you know, a lot of, I'm going to, this is the way the chapter
+[67:29] where I complain about fame.
+[67:30] And he was like, just joking, I love being famous.
+[67:33] It was awesome.
+[67:35] Like people call it to me all the time and they say they love my work.
+[67:37] It feels amazing.
+[67:38] And then he also later in life, he got cancer.
+[67:40] He talks about like his cancer treatment.
+[67:42] Oh, such a good book.
+[67:43] If you guys want something fun to read, Mark Hoppe's has a biography.
+[67:46] And if you want like the cliff notes, Fahrenheit, 182, I believe.
+[67:51] But anyway, wait, you're the band.
+[67:53] We appreciate you.
+[67:54] You have an invite whenever you want and thank you for everything.
+[67:57] You bet.
+[67:57] Thanks for having me, guys.
+[67:59] All right.
+[67:59] That's it.
+[67:59] That's the pod.
+[68:04] All right, let's take a quick break.
+[68:11] I want to tell you about marketing school.
+[68:13] It has a podcast that's part of the HubSpot podcast network.
+[68:16] And it is run by Neil Patel and Eric Sue.
+[68:18] And these guys are both marketers who are running businesses.
+[68:21] And so if you want real world tactics from practitioners who are actually out
+[68:24] there in the field doing it, this is the podcast for you.
+[68:27] Check it out wherever you get your podcast.

@@ -5,9 +5,17 @@
   "557-vf-robert-gentz-zalando-le-geant-qu-amazon-n-a-pas-mange-en-europe",
   "559-yael-braun-pivet-presidente-de-l-assemblee-nationale-si-j-avais-de",
   "560-rudy-gobert-4x-meilleur-defenseur-nba-le-druide-de-la-longevite",
-  "561-patrick-pruvot-passage-du-desir-en-france-on-sait-faire-un-airbus-"
+  "561-patrick-pruvot-passage-du-desir-en-france-on-sait-faire-un-airbus-",
+  "562-rafaele-tordjman-jeito-capital-le-vrai-prix-de-l-innovation-medica"
  ],
  "episodes": [
+  {
+   "fiche": "562-rafaele-tordjman-jeito-capital-le-vrai-prix-de-l-innovation-medica.json",
+   "titre": "#562 - Rafaèle Tordjman - Jeito Capital - Le vrai prix de l'innovation médicale",
+   "date": "Sun, 30 Aug 2026",
+   "date_iso": "2026-08-30",
+   "nb_outils": 1
+  },
   {
    "fiche": "561-patrick-pruvot-passage-du-desir-en-france-on-sait-faire-un-airbus-.json",
    "titre": "#561 - Patrick Pruvot - Passage du désir - “En France on sait faire un Airbus mais pas un sextoy”",
@@ -44,5 +52,5 @@
    "nb_outils": 9
   }
  ],
- "maj": "2026-08-23T17:32:39Z"
+ "maj": "2026-08-30T19:52:47Z"
 }

@@ -1,0 +1,224 @@
+Y Combinator Startup Podcast
+Susan Kare: Designing Icons & Graphics For the Original Mac
+Fri, 28 Aug 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/Susan-Kare-Designing-Icons--Graphics-For-the-Original-Mac-e3ndt32
+
+[00:08] I'm Susan Care, and now for something completely different.
+[00:15] I've been an iconographer and designer of worked on a lot of tech projects.
+[00:23] And I want to talk about a tech startup I worked for when even though the Macintosh group was part of Apple,
+[00:32] but I think a lot of the experiences resonate with some of the topics that I've heard here today.
+[00:44] So I've been doing this for a while and love it. Here's a few things that I designed over the years.
+[00:54] And it's funny because this was really a North Star for the Macintosh group.
+[01:03] But when I reread it in the last couple of days, it just kind of reminded me of AI and so many things that are being developed now.
+[01:14] And Paul Rand is a celebrated graphic designer no longer with us who did the UPS logo and IBM logo and so many images that have persisted.
+[01:29] And I was lucky to work with him and something he told me was always focused on making things meaningful and memorable.
+[01:40] And I think the heart of that is have a good idea and then the form will follow.
+[01:51] I was a total art major didn't know anything about computers and was lucky enough to work at Apple on the Macintosh as the Macintosh artist.
+[02:05] And before I went to Apple, I was welding a life-size razorback hog for a museum in Arkansas.
+[02:14] And I thought I was living my dream going out to my garage welding all day, but in truth, it was a little bit lonely.
+[02:28] And I was glad I had the experience, but it kind of made me hungry for working with a team.
+[02:35] And my high school friend, Andy Hertzfeld, was a system software programmer at Apple.
+[02:43] And he knew I had worked on the yearbook and liked art and he said he needed some images to display on a new computer that was being worked on.
+[02:53] And he showed me the display, which didn't have a case and said, could I come in for an interview to work on some small symbols and some typefaces.
+[03:06] And I said, sure, I thought it sounded great and really interesting and something I hadn't done before.
+[03:14] So I thought about it. I had a little bit of typographical experience from working at the Franklin Institute Science Museum in Philadelphia.
+[03:26] I used a machine like this to make labels for exhibits.
+[03:31] And I was pretty good at lecture set, rub down type. I could do it really straight and get the kerning right.
+[03:40] But I went to the, and I had a PhD in art history. So those were my credentials.
+[03:48] And I went to the library in Palo Alto and took out some books about typography and some font sample books, and I actually brought them to my interview under my arm.
+[04:02] So I would seem as if I knew what I was talking about.
+[04:08] And Andy also suggested to me that it would be good if I could make some examples of essentially bitmap graphics, but using graph paper, and he didn't really specify what to make.
+[04:27] So some things I made like a pond with a boot and some pieces of paper, and you could see I on this slide, there's a little bit of an ABC, but I just tried to make some examples, and these are more of the examples.
+[04:48] And it's kind of funny because some of these really random things slightly influenced what we ended up using in the software.
+[05:02] So I spoiled the surprise, but I got the job, and I don't think anybody even asked me any questions about font design, despite my prep.
+[05:16] In a funny twist of fate, as much as I had wanted to be an artist, now that notebook with those early icons that I took to my interview is in the permanent collection of MoMA.
+[05:31] So hang on, definitely hang on to your stuff.
+[05:39] So when I got to Apple, the first day, this screen was shown to me to say this is what it's your job to improve.
+[05:53] And fonts, and the round rects that are on the five and a quarter inch floppy drawing could become icons, but they were able with a cursor to click and drag those around.
+[06:11] So it already had a little, seemed kind of magical to me, and we definitely changed do it to okay, because do it was a little off color and people read it as dolt.
+[06:26] So I wanted to make a new system font and make some icons.
+[06:34] So, and it was told to me, it was very sincere that we were trying to make a computer that anyone could use.
+[06:48] So I felt good about that, because I was in that group, even though I am happy to work on and have worked on many projects that weren't for me.
+[06:57] But I like that about this project.
+[07:00] And we wanted it to be as understandable as possible, so you wouldn't necessarily need a manual, and that it should be friendly, because there were so many people there who in the Mac software group, where I was, who were just passionate about computers,
+[07:22] but, and kind of wanted to be evangelical about that.
+[07:26] So there were a few constraints, and usually I think you can be creative in any constraints.
+[07:35] You can make some pretty fun art with beach trash while you're walking around, and this, you can be creative, but it's good to understand what the constraints are.
+[07:49] And then be excited about that, as opposed to being upset that you don't have a thousand colors.
+[07:58] So this is 16 by 16 black and white, and I think the first images that I made using those constraints were things like this.
+[08:12] And we thought about, you know, but maybe a lasso would be a good way to surround an irregular region and some other art tools.
+[08:25] And it's funny to me because I went to Paris for the first time fairly recently, and there's a street artist known as Space Invader, and he does a lot of mosaic work.
+[08:40] And he has borrowed liberally from early Macintosh stuff, which made me really happy.
+[08:48] So the first font I designed was Chicago.
+[08:53] It's nine pixels tall, cap height, and I looked at the stuff that was on the screen, and it just seemed as if it was all jaggedy.
+[09:04] And it didn't seem as if it would be that big a deal to make it look tidier by using horizontals and verticals and 45 degree angles.
+[09:14] So I still wince when I look at especially at that lowercase x, but the others I could pretty much fit into the system.
+[09:26] And we were so lucky on the Macintosh to be able to do proportionally spaced fonts, because I could remember to seeing displays where the M was really squished, and then the I was really wide.
+[09:43] So I didn't realize what a big deal this advancement was, but it seemed to make it look a lot better.
+[09:52] And so we used Chicago, we put it in the title bar, experimented a lot with till we came up with those lines.
+[10:01] And what we didn't realize was that when we designed the calculator that we were designing the first iPod,
+[10:11] which also used Chicago, which made me happy.
+[10:18] And we shipped some other fonts with the Mac, including a mono space font, but I was able to kind of think, well, we should probably have a Times Roman kind of thing, and a hulvetica kind of thing.
+[10:34] So that's where New York and Geneva came from.
+[10:40] And then I made a font that I called ransom because it was what kidnappers used to do by cutting letters out of the newspaper, so they wouldn't have to reveal their handwriting and get caught.
+[10:57] And like the other fonts, Andy and I gave them city names.
+[11:04] And because we had gone to high school near Philadelphia, we gave them names of towns on the Paille local through the suburbs into the city.
+[11:16] And Steve Jobs came by one afternoon.
+[11:20] He usually came by at the end of the day and walked around softer group to see what was new.
+[11:27] And he said, well, city names aren't bad, but at least call them world class cities.
+[11:34] So that's how we ended up with New York and Geneva instead of Paille and Windwood and Rosemont where our high school was.
+[11:47] And Bill Atkinson was the programmer who wrote MacPaint.
+[11:53] And that was my favorite program, of course, and was happy to collaborate on the icons and the patterns.
+[12:03] And he developed an early scanner and that's how we got this geisha image from a woodcut that Steve Jobs owned.
+[12:14] And we made a control panel that had animation for when you changed the settings, hoping to communicate what would happen and what your choices were.
+[12:26] And we tried obviously not to use, we could use sound, we could use speed, but we tried not to have any text so that it could be international without having to make a different version.
+[12:43] And, you know, we didn't have that many really great tools for art, but whatever we forged ahead.
+[12:54] Andy wrote, I did not have to design on graph paper once I got to Apple.
+[12:59] Andy wrote an icon editor and this is an image writer, a picture of an image writer print of what the screen looked like with the icon editor.
+[13:10] And there were no tools, you could just toggle the bits and you could see a greatly enlarged image as well as what the icon looked like at 72 DPI.
+[13:24] And I thought this was just magical, even though it didn't have 20 levels of undo and you couldn't draw any shapes.
+[13:35] You could, you could iterate without an eraser, it just, it's hard to overstate how great this was.
+[13:42] And it automatically generated the hex code for an icon, which I could then type in and see the image on the screen.
+[13:54] So, it was a marvel.
+[13:59] This icon isn't crying, it was probably me counting pixels for some reason down the edge.
+[14:07] And you can see in the title bar, you tried a bunch of different types of things during the time we were experimenting.
+[14:17] And sometimes I liked to, people came and sat and I would do their portrait in 32 by 32.
+[14:27] So, people seemed to enjoy that and there wasn't really a way to get a photo in there at the time or even a drawing.
+[14:40] So, just had to do it from life.
+[14:43] And I still enjoy making those portraits and I think it's kind of amazing that in a thousand dots, if you iterate a lot,
+[14:56] you can get an image with some semblance of resemblance.
+[15:01] You can see Pharrell Williams is at the top on the right and Ashton Kutcher under him.
+[15:07] They did not sit for their portrait.
+[15:11] And some people that aren't super well known and John Maeda, who's a design leader.
+[15:27] One thing that, one of the first icons I was assigned was it took a while for the computer to boot when it got turned on.
+[15:38] So, everybody wanted an image on the screen and it had to be 32 by 32 because it was only 128k Macintosh.
+[15:49] So, because the computer was sitting there kind of grinding while it started up, we wanted something that showed that everything was okay.
+[16:01] So, I thought a smile was good.
+[16:05] I'm pretty sure it came from my memory of a button I got when I was about 14.
+[16:13] And I like smiling and happy things.
+[16:19] Understanding Happy Mac is a play on the title of this excellent book by Scott McCloud, which is about comics, but really has so many good insights about user interface too.
+[16:35] It came out 10 years after the Mac originally did.
+[16:39] And I pulled two illustrations from that book by Scott McCloud that kind of explains some of the thinking behind our icons, which is that when a face in particular has a lot of detail, it looks like somebody else.
+[17:01] But if you make it really simple, everyone can project themselves onto it.
+[17:08] And I love that idea.
+[17:11] And he expressed a similar thing with the less detail you have, the more universal something is, which is why I think like a simple drawing of a pencil can stand for writing in some ways better than a chrome pen.
+[17:30] With a reflection, which is very fancy, but it's a very particular kind of pen that not everybody might write with.
+[17:40] So, my bias in icons is the salient detail or two, but don't lard it with a lot of extra stuff.
+[17:52] Kind of similar to street signs, like the sign where there's still a lot of two kids holding hands out of school crossing.
+[18:02] And there's not a technical reason that they couldn't have plaid lunchboxes and shoelaces or be singing a song, but it would probably be more distracting and just take away from that instant recognition that you're aiming for.
+[18:22] We made some mistakes too. I was told that as an alternative to the Happy Mac, if in the extremely unlikely event, something went wrong with the Mac, there should be an unhappy Macintosh. So I thought maybe a sick Macintosh or looks a little hungover.
+[18:44] And again, that I could be irreverent because no one was going to see this. At least that's what I was told.
+[18:53] Same thing with this icon. They needed an image for total system failure, which, of course, again, no one would ever see.
+[19:04] So I thought maybe it would be kind of funny to have a bum, like a Bugs Bunny type of bomb.
+[19:10] But unfortunately, people did see this.
+[19:15] And one time I was working in the software group was a glass room, the fishbowl, and the receptionist from the front said a call had come through to Apple from a person who really needed to talk to someone in the software group.
+[19:33] Not me about her Macintosh because the caller was worried that she was looking at a bomb and was her computer going to explode.
+[19:47] So I felt a little guilt.
+[19:52] But the moral of this story is lots of iteration, and we started with the handful of applications that we had.
+[20:05] And so I did MacPaint first. I remember that. And I liked the idea that since it was a process, it looked kind of active.
+[20:15] And then it could be paired with a document that resembled it. So our system was kind of a verb and a noun.
+[20:26] And it seemed like this could hold up pretty well for the, because we only had maybe half a dozen applications and didn't really have the mindset that there would be thousands of applications.
+[20:42] Same with alerts. I tried to crop a person. It's not a person with a little square head. It's the idea is it's a crop so you don't know the gender or the age or the hairdo or really anything about this glimpse of a person.
+[21:03] And I had only seen a sand timer as an egg timer. It seemed like, Hey, we're in the 80s. Let's like update these things. So that's made a watch cursor instead of an hourglass.
+[21:23] So let's see icon for print. And it's, it's kind of a trap. The image writer did have paper with holes up the sides that would fit on the sprockets to attach when you turned the big knob on the side.
+[21:41] Again, too much detail. It would have had a much longer lifespan. If I had just stopped and made it simpler. So in general, I think it's not good and icons to show pictures of a particular product design, because like the three and a half inch floppy for save.
+[22:05] Even though there's still a few of those kicking around, but obviously it, it didn't age well better to use a metaphor.
+[22:14] And just enough detail. So this is what our drop down menus looked like. And we had the apple, we called it the apple menu. And there was an apple going to be an apple key for these keyboard shortcuts.
+[22:30] But Steve came in one day at the end of the day and said, you cannot do this. I think he called it an apple farm and said our logo is precious and we have to respect it. So, you know, we just can't have a bunch of apples. So then the idea was I was told that that key was a command key or a feature key.
+[22:58] And so I began thinking about commanding and it seemed kind of mean. The 10 commandments seem like a pun.
+[23:09] So back to the library. And I came across this image in a book that was called the feature. So I thought, okay, it kind of looks like a four leaf clover.
+[23:26] That's sort of lucky. And it kind of looks like a clover leaf highway, which might be a way to get somewhere fast. So we ended up and it had the bonus of being really easy to draw in 16 by 16.
+[23:44] So we used that and it's still on the keyboard, but I felt like a little bit bad that it didn't, it was abstract. And sometimes abstract things can be harder to remember.
+[24:03] And then something that has a metaphor that reinforces the concept. But I went to Sweden and I was so excited to get off the plane in Gothenburg and there's the feature key because it's used there to indicate that you're near
+[24:29] like for sightseeing, like a monument or something else. And someone from Sweden must have heard me comment on this and said,
+[24:45] actually, that symbol that's on the signs, Derai, is taken from a 1200 AD castle called the Borgholm castle. And it's a ruin. But when you see it from above, you see that it's like a castle with four turrets.
+[25:09] And so that's actually what that symbol represents. So I thought it was fun to find out even after the fact it did look like something after all.
+[25:20] And you know, you study art history, you know, there's not much new under the sun. People have been making little symbols for a long time. And no, I did not design this.
+[25:34] And I thought, well, this is a cartoon kind of showing that hieroglyphics are sort of back.
+[25:47] And there's some really pretty nice bitmap fonts, pretty long developed pretty long ago. This has only, it's like a seven pixel capital height.
+[26:01] I wish we had that person. And there's a lot of carvings with symbols and text and illustration that like resembles some of the things that we were doing on the computer.
+[26:17] And again, like another extremely nice bitmap font.
+[26:23] 200 plus years before we sat down to make our proportionally spaced fonts. Here's a very nice example.
+[26:33] This has about a character height of like 10 pixels.
+[26:39] And I realized that maybe I was destined or trained from a young age to want to make things on a grid because it used to be acceptable to get little kids so your kids could make the parents and ashtray.
+[26:57] And I loved making this type of thing. And we, I like to think that there were emojis in the 1984 Macintosh that you could combine pictures with text before there was texting.
+[27:17] And there's a few things hidden in here. It obviously had a hieroglyphic antecedent. And I hid some hieroglyphic type symbols in there.
+[27:32] But I think the whole point of that project and the graphics was it isn't really just about a grid of pixels. It's the metaphor and the idea and the meaning behind everything.
+[27:46] So this is just a super quick run through of some icon options that I did for swatch and they wanted an alarm. So of course I started with a clock and made it noisier and then made it look a little bit more literal.
+[28:06] And then a little louder and simpler maybe and or maybe it should look like oh it's a travel alarm clock would be in your head if you saw this.
+[28:20] And then I thought way too self referential why would you want a clock on a clock. So I was making other things that looked a little bit noisy as options and like the alpha alarm clock.
+[28:40] The point just being this is so not an exact science and I always like to show either what a client asks for or what a programmer might have used as a placeholder because I've gotten so many good ideas that way.
+[28:59] And then maybe refine them a little bit. But after I worked at Apple I did a job for Microsoft on Windows 3.0 and color even if 16 colors and some of them weren't very good colors but it was still so nice to have to be able to use red for alerts
+[29:23] and to differentiate at a glance a little easier when you had color as another option.
+[29:32] And I wanted to make something that didn't look like a garish chessboard you know there were a lot of illustrations like that.
+[29:41] So this is all those 16 colors but dithered so that they appear a little more subtle.
+[29:50] And I also did something that I guess there's always a way to get addicted to something on your screen and in the 90s a lot of people played solitaire.
+[30:03] I had to take it off my computer so I didn't play too much and slate at the time but that solitaire made a dent.
+[30:18] And I'm just going to show a few images that I made in the decades after Apple and before some examples of good advice that I wanted to share with you.
+[30:32] So I've worked for a lot of clients and we're not going to talk about them all and I feel so grateful.
+[30:46] Again some things that were fun and some things that were serious and some things that wanted self-consciously to seem like business.
+[30:59] But I worked on a project for General Magic I did the logo and we had a different kind of desktop metaphor that was a little more literal and hallways with doors.
+[31:13] And I think the very worst thing we had was jars of text because why but the idea was that you could remember where things were by going and finding them in a logical way.
+[31:28] I kind of laugh, wince, like all these things are gone like no Rolodexes, no phones that look like that but at the time there's still our file cabinets but at the time you could tap on those drawers and they would come out and you could put whatever you wanted in there.
+[31:53] And that was kind of a fun project that just didn't we could send postcards but it didn't quite anticipate email.
+[32:06] I worked for Facebook on a project that you couldn't just upload images but you could buy images for a dollar like a real dollar and send them to people.
+[32:20] So I thought this was a wonderful project of kind of having a gift shop and what could you draw that someone would want enough either to have or to share with someone that it was worth spending a dollar on.
+[32:36] So we did this for not quite four years and had a new gift every day that launched at midnight on the east coast and we could kind of tell by maybe quarter after if it was going to be a successful bestseller by just how many sold in that first 15 minutes.
+[33:00] And we had some limited editions and we had some I thought maybe if you made something that cost thousands of dollars like diamond earrings and Rolex and did fancy things that it would seem more worth a dollar because it was so expensive.
+[33:20] But what I learned was that cute trumped everything it just teddy bears anything heart shaped the kiss mark was the bestseller of all time.
+[33:35] And I would say if my life depended on selling a drawing for a dollar I now know I would draw a penguin because we had we had multiple limited editions of penguins and they all sold out.
+[33:53] So but it was just interesting we did some collabs with Britney Spears and other entertainers and ultimately Facebook ended this program because they didn't want to compete with third parties, but it was good while it lasted.
+[34:11] Then I did some icons for Pinterest where a terrific animator helped me with these I thought just a little bit of motion so that it wouldn't get really irritating over time.
+[34:30] And I made many icons there this isn't all for Pinterest but some of them were.
+[34:39] I made a logo for a stealth mill dot com which terrific company but before they had their real logo we did a trash panda and but like because it dealt with trash in a similar way.
+[35:00] And this is an illustration the national which is Amtrak's magazine invites artists I think it's a quarterly magazine and they have artists interpret their root map.
+[35:14] So I thought it might be fun to go back and do pixelated icons for places that where you could take the train.
+[35:25] And I love doing logos this is for magic puzzle which really does make these great jigsaw puzzles that then after you finish they perform a magic trick not levitating but
+[35:42] I was an artist doing studies for the logo which is pretty close to this for Pikmin Bloom game and paradox the game and love doing avatars you know it's just kind of avatars are so freeing because they can stand for anything.
+[36:04] So it like kind of made me feel like gifts you just want to have an array that someone can find something that speaks to them.
+[36:13] And I just did these badges for a fairly new ledger crypto wallet and it has a little attachment opening in the front so that you can personalize it and they really wanted to have something
+[36:33] a little bit retro looking and this is a logo for a VC firm where the ideas get out of the office and work work in the mountains work somewhere outdoors with the idea of this.
+[36:53] And Dave Warren a friend called and said on a Friday I think and wanted to have an image and T shirts and hats like by Monday so kind of a quickie project but it was fun to get to have a little bit of experience with something that was new.
+[37:18] And now I wanted to share some advice that I've been given by people that I met not it's not a Google project and I'm always looking to add to it so I welcome any good advice that you want to send along by people that really influenced me and this
+[37:43] Paul Rand I mentioned earlier just a terrific designer who started working I think for magazines when he was around 15.
+[37:53] And he said that he was kind of like all this stuff with all these new fonts it's like you don't need that many he was kind of brusque you don't need that many fonts you just have to know how to use them well.
+[38:12] And this is some of his work I got to work with him at a company called Next where Steve Jobs went after he had to leave Apple and I of course wanted to hire Paul Rand for the logo because he was my hero.
+[38:31] And Steve hadn't really heard of him and he thought we should have a contest like probably which I would never think is the best way to get good creative but he said we could hire five people or firms and pay them each 15K and then we would pick the best and continue to work with them.
+[38:52] So I invited some people and then I invited Paul Rand and he said you will pay me $100,000 I will do one logo and you will like it.
+[39:07] And that is actually what happened and we did like it and we did pay him and it was such a great learning experience for everybody to work with him.
+[39:21] Among other advice he gave me these are the fonts that he tended to use a lot and I noticed in his work he also tends to use the same colors.
+[39:33] And I kind of thought okay if PMS 354 green is good enough for Paul Rand it's good enough for me and I still tend to look in his books and use some of the colors that he recommended for next.
+[39:52] And he did in just as an offhand remark say that and but when we were talking about logos he really advocated trying hard to think of a way to do something to the name of the product kind of the way he put next in the cube.
+[40:16] He showed he showed this as what not to do this is a couple AT&T logos ago because he said if you can spend a ton of money to make some random symbol associated that doesn't really mean anything much.
+[40:34] I mean I guess it's the world with your logo.
+[40:40] You know you can do whatever you want but most people don't have unlimited money.
+[40:44] So these are some logos that he did and you can kind of get the idea that you know Morningstar has a rising sun and IBM is pinstripe and business like and I love that UPS logo and he said when he was doing it he showed it to his six year old daughter
+[41:08] and said Catherine what is this and reportedly she said it's a present daddy and he thought that that was such great justification that it was understandable but really it had it had a shield and a package and
+[41:26] sadly they modernized it because I'm sure there were people sitting around a table who said well we're not just about packages anymore but I keep hoping they'll bring it back
+[41:40] and this is a futurist named Paul Saffo and I just loved this quote that he mentioned one day and I kind of get this in a metaphorical way and I mean I know I always think I can do this in an hour
+[42:03] when really nothing takes an hour and so many projects I've worked on you optimistically think you know exactly what you want to do but it's still allow extra time.
+[42:18] This is my dad who was the director of the Manel Chemical Senses Center in Philadelphia which studied taste and smell and I introduced my dad to Paul Rand and he made that logo for Manel which I felt pretty happy about and they got along really well.
+[42:38] But my dad I think always had good advice that wasn't the most cheerful advice but it was realistic and he had to raise a lot of money for the Science Center so he knew what he was talking about and I try to remember that because I get depressed when I hear no
+[43:01] and he also said this which I think is like a really realistic way to think about things and not be kidding yourself.
+[43:12] This is Daniel Nord who was born in Sweden, now lives in Portugal and worked in London for the mayor. He's an architect and he told me how they used to just sit around tables and have endless discussions about things and this is how he said make it visual.
+[43:40] I mean I guess this is a metaphor too but do the drawing really show don't tell I think is what he meant and this is a guy maybe well known in some circles
+[44:00] who I met through Steve Jobs he was kind of an Apple fan he maybe invented the selfie but had a lot of celebrity friends and his father he was Italian and his father started the Simka car company so that he said so that I could like spend my life doing whatever I wanted
+[44:26] and he collects African art and he said and this amused me because it just it does seem like a long time ago and a lot of fun that we worked on the Macintosh and he also said this which I think like I try to do I think it's good advice
+[44:52] and this is Andy Hertzfeld on the left Bill Atkinson, Bud Tribble and Steve Jobs and Alan Kay on the right who's in his 80s now unbelievably accomplished computer scientist and this is Bud quoting Alan Kay
+[45:14] as a kind of tenet about user interface and maybe not having everything at the same level and nesting things so that things can just appear that ease of use seems possible and I always try and think about that
+[45:36] and Alan Kay said this to me and I thought that was I I took great joy hearing that because he just said yeah it's like who knew proportionally space fonts can actually look pretty good
+[45:54] and this guy pretty well known he's sitting in my cubicle at Apple and he did say in the 80s like appreciate what you have right now and the first offsite I went to he put up these three goals
+[46:19] and because of the second goal a programmer named Steve caps and I Steve caps sewed a black flag and I painted a skull and crossbones on it and put a striped apple as the eye patch and we went to work in the middle of the night and climbed up on the roof
+[46:39] because obviously security was a lot more lax back then and we flew that flag and it was really just as a rejoinder to this that we were the pirates and this too I remember we used to show the Mac to lots of people and I still think of this now
+[47:05] because obviously you say like some people can figure out how to use this but not everybody and then there was great joy because they could feel smart or they wouldn't feel dumb if you said it was easy and they still had trouble with it
+[47:24] this is the only piece of really bad advice I got from Steve Jobs he said if Apple and I thought well I'm not going to buy my stock if he's not buying his he would know and he also said like Susan you can twiddle bits and never make more than $20,000
+[47:50] like you it's better to be a creative director he was talking about next and I was a creative director and I got to work with Paul Rand that was fantastic but ultimately I was a bit twiddler at heart and I went back to it and maybe not always bits but
+[48:12] and I think this is debatable but he took lots of visiting executives to see this movie and I liked it because it had welder in it. Jay Shiette started the ad agency that Apple used Shiette Day and this was kind of the it was not work-life balance at the time and everybody I worked with in the software group had a sleeping bag
+[48:41] in their cube and I think this is really good to remember it's I know a couple companies I've worked for we kind of decided that 15 people you could still have consensus hiring and everybody in a room and be on the same page and then you start to get more people
+[49:04] and there's a plus and an upside and a downside and Andy said this he gave me this advice showing stuff to Steve he's like don't show him one thing because he'll say he doesn't like it because it may be forces you to go try and do it again and be better
+[49:30] but if you show a few things then he can be involved and say that something is terrible but still pick something and this is advice from my mom and I think it's very good advice this is Evan Sharpe and Ben Silberman who started Pinterest and they had a lot of good ideas but Evan used to say this
+[49:59] and this is Dennis Wang who started working at Google when he was an undergrad at Stanford and he's a terrific computer scientist and artist and he told me this that was the prevailing wisdom at Google and I would probably preach the same thing
+[50:25] like don't mess around with the logo and put it in a different color and put it on a crazy background until people know it so well that you can play with it but obviously they did Dennis made these they did pretty well with this
+[50:43] and this is something that a friend's dad told me this is not political it's just a fun picture I found within accordion and you know this guy he has a lot of truly good advice including this
+[51:06] but I don't think it means be discouraged and quit trying it just means oh maybe it's time to go on to the next idea and thank you but also really thank you to Y Combinator I kind of had an amazing day to day and everything ran so smoothly and everyone was so gracious
+[51:32] so and it just seemed like I felt envious of everybody taking part in this event because it just seemed so cool thank you

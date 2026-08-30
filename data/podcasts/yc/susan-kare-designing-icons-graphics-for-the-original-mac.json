@@ -1,0 +1,30 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "Susan Kare: Designing Icons & Graphics For the Original Mac",
+ "date": "Fri, 28 Aug 2026",
+ "date_iso": "2026-08-28",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/Susan-Kare-Designing-Icons--Graphics-For-the-Original-Mac-e3ndt32",
+ "duree": "00:51:44",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.6,
+ "taille_transcript": 33944,
+ "transcript": "susan-kare-designing-icons-graphics-for-the-original-mac-transcript.txt",
+ "nb_outils": 3,
+ "outils": {
+  "Alan": [
+   "cause it just it does seem like a long time ago and a lot of fun that we worked on the Macintosh and he also said this which I think like I try to do I think it's good advice and this is Andy Hertzfeld on the left Bill Atkinson, Bud Tribble and Steve Jobs and Alan Kay on the right who's in his 80s now unbelievably accomplished computer scientist and this is Bud quoting Alan Kay as a kind of tenet about user interface and maybe not having everything at the same level and nesting things so that things can just appear tha",
+   "d this which I think like I try to do I think it's good advice and this is Andy Hertzfeld on the left Bill Atkinson, Bud Tribble and Steve Jobs and Alan Kay on the right who's in his 80s now unbelievably accomplished computer scientist and this is Bud quoting Alan Kay as a kind of tenet about user interface and maybe not having everything at the same level and nesting things so that things can just appear that ease of use seems possible and I always try and think about that and Alan Kay said this to me and I thought th",
+   "er scientist and this is Bud quoting Alan Kay as a kind of tenet about user interface and maybe not having everything at the same level and nesting things so that things can just appear that ease of use seems possible and I always try and think about that and Alan Kay said this to me and I thought that was I I took great joy hearing that because he just said yeah it's like who knew proportionally space fonts can actually look pretty good and this guy pretty well known he's sitting in my cubicle at Apple and he did say "
+  ],
+  "Chicago": [
+   "e able to do proportionally spaced fonts, because I could remember to seeing displays where the M was really squished, and then the I was really wide. So I didn't realize what a big deal this advancement was, but it seemed to make it look a lot better. And so we used Chicago, we put it in the title bar, experimented a lot with till we came up with those lines. And what we didn't realize was that when we designed the calculator that we were designing the first iPod, which also used Chicago, which made me happy. And we shipped some"
+  ],
+  "Cursor": [
+   "to your stuff. So when I got to Apple, the first day, this screen was shown to me to say this is what it's your job to improve. And fonts, and the round rects that are on the five and a quarter inch floppy drawing could become icons, but they were able with a cursor to click and drag those around. So it already had a little, seemed kind of magical to me, and we definitely changed do it to okay, because do it was a little off color and people read it as dolt. So I wanted to make a new system font and make some icons. So, ",
+   "t's a crop so you don't know the gender or the age or the hairdo or really anything about this glimpse of a person. And I had only seen a sand timer as an egg timer. It seemed like, Hey, we're in the 80s. Let's like update these things. So that's made a watch cursor instead of an hourglass. So let's see icon for print. And it's, it's kind of a trap. The image writer did have paper with holes up the sides that would fit on the sprockets to attach when you turned the big knob on the side. Again, too much detail. It would h"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

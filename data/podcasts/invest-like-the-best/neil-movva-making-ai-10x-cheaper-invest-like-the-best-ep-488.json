@@ -1,0 +1,52 @@
+{
+ "podcast": "Invest Like the Best",
+ "slug": "invest-like-the-best",
+ "titre": "Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]",
+ "date": "Tue, 25 Aug 2026",
+ "date_iso": "2026-08-25",
+ "lien": "https://colossus.com/episode/from-transistor-to-token/",
+ "duree": "4687",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 8.0,
+ "taille_transcript": 102803,
+ "transcript": "neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488-transcript.txt",
+ "nb_outils": 3,
+ "outils": {
+  "Codex": [
+   "agents in three years or something like this? I love this market because it's unbounded. There's no human in the loop, so you can consume as many tokens as you like in the background versus human attention span. If you tell me to consume 10x as many tokens at codex or at cloud code, I'm actually not sure if I can anymore. I'm already in the loop and locked in coding for most of the day that I'm at the laptop. What is unbounded is how many tokens can be consumed in the background or proactively. Long-term, I think we're "
+  ],
+  "Cursor": [
+   "t couple of years, serving these models at large scale. The challenge is, all those companies, you could take your pick base 10 fireworks together. They all focus on low latency inference. And they were pulled in that direction by one very important customer, Cursor. I think that that was the right choice about a year ago. And as a six months ago, it started to look like maybe low latency wasn't the only thing you wanted from an agent. You wanted more persistence, more long horizon tasks. And now it's to me very obvious "
+  ],
+  "Ramp": [
+   "fundamentally can be. I'm excited to be surprised here, but we are focused on very quantitative problems. We leave the quality of writing, we leave the beauty of art to people. Vanta automates security and compliance for over 16,000 fast-moving companies like Ramp, Kersher, and Harvey, keeping them audit-ready around the clock. It's the number one agentic trust platform, and it now helps companies like yours watch for the risks that show up between audits across your vendors, your AI tools, and your whole environment. "
+  ]
+ },
+ "mentions_publicitaires": {
+  "Cursor": [
+   " RAMP is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. Open AI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To",
+   "ustomers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. Open AI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSL, SCIM, RBAC, and audit logs. Instead of spending months building these mission cri"
+  ],
+  "Excel": [
+   "into finished, client-ready work using your firm's own templates, context, and standards. Send Felix an email like, take these comments and turn them for me, or update my tracker with the context of these emails, and Felix sends back Finnish PowerPoint decks, Excel models, and sourced research. Felix works the way your team already does, delivering work quickly and accurately around the clock. Learn more at rogo.ai slash Felix. Hello and welcome, everyone. I'm Patrick O'Shaughnessy, and this is Invest Like The Best. Thi"
+  ],
+  "Notion": [
+   "nly platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. Open AI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterpr"
+  ],
+  "Perplexity": [
+   "ue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. Open AI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSL, SCIM, RBAC, and audit logs. Instead of spending months building these mission critical capabilities your",
+   " how at ramp.com slash invest. As your business grows, Vanta scales with you automating compliance and giving you a single source of truth for security and risk. Learn more at vanta.com slash invest. The best AI and software companies from OpenAI to cursor to perplexity use workOS to become enterprise ready overnight, not in months. Visit workOS.com to skip the unglamorous infrastructure work and focus on your product. Ridgeline is redefining asset management technology as a true partner, not just a software vendor. They've "
+  ],
+  "Shopify": [
+   "lt to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. Open AI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at s"
+  ],
+  "Stripe": [
+   "is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. Open AI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve"
+  ],
+  "Vercel": [
+   " RAMP is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. Open AI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use Wo",
+   "ter than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mind us, too, and so should yours. Learn more at ramp.com slash invest. Open AI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSL, SCIM, RBAC, and audit logs. Instead of spending months building these mission critical capabilities yourself, you ca"
+  ]
+ }
+}

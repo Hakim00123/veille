@@ -1,0 +1,26 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
+ "date": "Sat, 29 Aug 2026",
+ "date_iso": "2026-08-29",
+ "lien": "https://a16z.simplecast.com/episodes/why-1-200-ai-agents-started-working-together-ryan-greenblatt-i7A557W2",
+ "duree": "00:34:15",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.3,
+ "taille_transcript": 42738,
+ "transcript": "why-1-200-ai-agents-started-working-together-ryan-greenblatt-transcript.txt",
+ "nb_outils": 2,
+ "outils": {
+  "Hugging Face": [
+   "pen AI hugging base hacking incident. Researchers found agents building message boards, forming teams, assigning each other tasks, trading favors, and in some cases sacrificing their own chances of success to help the broader group. Hundreds went on to attack hugging face, but not for the reason researchers initially assumed. Ryan explains what the agents were actually trying to accomplish, why their coordination surprised researchers, and what happens when models learn not just to complete a task, but to gain the system evalu",
+   "get caught? We're live with Ryan Greenblatt, who is the Chief Scientist at Redwood Research. Ryan, along with Ajayakotra and Yalmar Vike from meter, just did a brief independent investigation of agents, behavior, reasoning, and collaboration in the opening AI hugging face hacking incident, which was just published today. And so, there are a lot of questions that we have about this. Ryan, thanks so much for joining us. This whole thing was planned like three hours ago. So, great stuff. Yeah, yeah. So, explain for the audience w",
+   "o what we found was that the agents were really working together on sort of big cheating R&D projects to get general purpose cheating strategies. And a difference from how I think people were interpreting this is we didn't find that the reason why they hacked hugging face, we didn't find that they were hacking hugging face to get sort of the answer key or the solution. And it was instead mostly to better understand the scoring code, because they were pursuing a variety of sort of elaborate strategies to cheat the score. We sor"
+  ],
+  "Superhuman": [
+   "bout this from this investigation. But just like, you know, I think that we need to understand what's going on there and people need to improve on that. I think it's not clear that will be sufficient or even that that will be that feasible as these agents get superhuman. And we may need other approaches that are less dependent on avoiding the AIs being able to trigger some training, which I don't, I don't know if we're going to be able to do that. I'm not necessarily super optimistic about these problems being extremely easy"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

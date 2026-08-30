@@ -1,0 +1,506 @@
+Y Combinator Startup Podcast
+Max Junestrand: You Need The Willingness To Learn Faster Than Anyone Else
+Sat, 29 Aug 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/Max-Junestrand-You-Need-The-Willingness-To-Learn-Faster-Than-Anyone-Else-e3o19d4
+
+[00:07] This is a much warmer welcome than what we had coming into Y Combinator the first time.
+[00:15] Lagura's YC journey started with a rejection but more on that story later. In YC they teach you
+[00:27] something and it's called the two sentence description. It is describe your company in two sentences.
+[00:35] Lagura is the agent operating system for lawyers and it handles complex legal work from start to
+[00:42] finish so lawyers can achieve more than ever before and over 3% of all the world's lawyers
+[00:50] are now active users of Lagura. You will learn more about this when you get accepted into YC.
+[00:58] When we started looking at the legal industry it felt like one of the biggest opportunities to
+[01:05] apply large language models to solve real problems and the software that we were up against
+[01:12] looked like it had built in the 90s. As software engineers we have been incredibly spoiled with
+[01:20] great software because we love to build for each other and for ourselves but in the legal industry
+[01:27] this is what the software used to look like and what we were up against when we started out.
+[01:33] Now Lagura has grown into a global brand putting celebrities like Jude Law at the New York Wall
+[01:41] Street and still I feel like we are only getting started. My most favorite Slack channel in Lagura
+[01:50] is customer love. It is where our customers post things that they sort of truly feel like they
+[01:57] couldn't have achieved without our system and we mine many of our sales calls for quotes like this
+[02:03] and I wanted to share just a couple with you because I think at the end of the day this is what it's
+[02:08] all about. A parent asked me at one of the tournaments how I juggled work and all of the golf travel
+[02:15] one word, Lagura. Never has the path between an idea and execute and been so short, never man.
+[02:24] If Lagura went away tomorrow I just go back to coaching high school basketball.
+[02:31] When Lagura went into YC we were questioned about the idea of even selling and working in the legal
+[02:39] industry. It is such a conservative business that had never been sort of lenient to software
+[02:47] before but from the time that we went into GA of October 2024 until the last end of quarter
+[02:55] we've grown from one to a hundred million in ARR and starting from just three engineers in Sweden
+[03:01] to a company of over 750 people all over the world this is awesome and the fact that we've
+[03:08] gotten to do this starting from Europe I think just adds another flair in that hat but the Lagura
+[03:18] story almost didn't happen and it actually didn't start with me. In fact it started almost like
+[03:28] the great beginning of a joke and so a lawyer, a physicist, an engineer and a psychologist back in
+[03:37] 2020 before GPT, before AI was cool started a company called Judilica and what they observed was
+[03:48] that law school students were going into their internships basically to summarize court cases
+[03:55] and with the early models from Google called BERT they started to explore what this base could be
+[04:02] and what was possible to build. My story started in the Swedish archipelago at an island which looks
+[04:11] something like this and I met my two co-founders at a volleyball game. I think startup
+[04:20] founder stories can come from many different places and this definitely wasn't one high odds
+[04:27] of a place to start but when I met August and Siga they showed me a demo of the product they
+[04:35] had built and our group chat actually looked exactly like this. They gave me a demo of the project
+[04:43] and with GPT 3.5 they had built a very simple product that could explain what a stock option
+[04:52] agreement really meant and so we started with that and I said this is a super cool demo,
+[04:58] a super cool project and my co-founder Siga said I'm glad you want to help out and I ended up helping
+[05:04] out a little bit more than just that. When GPT 3.5 came that was the
+[05:12] internet moment of our generation. I dropped out of college, I never finished my master thesis
+[05:20] because the opportunity cost of not building had become too large but when we started out
+[05:27] it wasn't obvious that we were going to be a success and so to learn about what the legal industry
+[05:35] was, what it meant, how lawyers actually worked. We came up with the ingenious plan of
+[05:43] cold emailing lawyers on their emails that we could find on their websites and writing to them
+[05:48] on LinkedIn, asking for a lunch where we could learn more about their different practice areas
+[05:55] and we offered to pay their hourly fee to have lunch with us and many of them took us up on that
+[06:02] offer but fortunately for us many of them didn't make us pay for the hour and many of them even paid
+[06:07] for the lunch and once we had gotten you know our feet under ourselves we approached one of the
+[06:15] largest law firms in the Nordics named Mannhamer Swartling but just two years before that their
+[06:22] managing partner had gone on TV and said that AI back when they were starting to use it was really
+[06:30] more artificial than intelligent and so we had to work really hard to change the perception of
+[06:41] what both technology and what AI could be in the area of law. In law you are not paid when
+[06:50] things go right, you are punished when things go wrong and many of the initial AI solutions in
+[06:56] the space had required immense amount of training, you had to sort of bring a lot of
+[07:03] use cases and examples just to get very very little results and when GPT 3.5 came that really
+[07:10] changed the story and so with Mannhamer Swartling we ended up moving into their offices and working
+[07:19] really close with them and as I said in the beginning the warm welcome here was quite different
+[07:27] from the first time we interacted with YC. We applied in May of 2023 with a promise of being
+[07:37] able to query all legal documents using large language models and when we came to our interview
+[07:45] one of the first questions that we got asked was what type of lawyers are you serving and
+[07:54] you know not very knowledgeable about the legal space yet our response was what do you mean
+[08:01] are there different type of lawyers and that did not land very well with the YC partners at the time
+[08:07] and so I actually remember very painfully that Tom Blomfield started laughing in the interview
+[08:15] when we gave that response and we knew that we were cooked but that also gave us the perseverance
+[08:24] and the drive to continue and so with a lot of let down the day after we did not work but the day
+[08:34] after that we got back to building and two months later we got accepted under a new name and with a
+[08:42] different platform we had done our homework we had done the work and from Sweden the idea of
+[08:53] getting accepted into Y Combinator felt like we were going to Mount Olympus we were going to
+[09:01] dine with the gods and we were going to you know get to work with other startup founders who came
+[09:07] from all of the great tech companies that we knew of and once we got to Y Combinator we realized that
+[09:15] we actually knew a lot more than we thought we did and this is one of my favorite pictures
+[09:21] and it is the screenshot I took after we did the video call after our second YC interview
+[09:29] when we knew the things had gone a lot better than the first time so after we got accepted
+[09:38] into Y Combinator we moved into this law firm I mentioned earlier Monhamer Swartling
+[09:45] was the biggest law firm in the Nordics but they had very sort of no real clue about how to work
+[09:52] with software and how to work with technology and we ended up getting a conference room with no real
+[10:00] windows where the AC would turn off at about 5 p.m. but it was really close to the Koch fridge
+[10:09] and so at about 6 p.m. every day one of the engineers would go up grab the door and start
+[10:15] waving it back and forth to get more oxygen into the room and those conference chairs still
+[10:23] made an imprint on all of our backs I think three years later and me in the car there with two
+[10:30] more screens is when we make the move from the conference from the conference room of a law firm
+[10:36] to our first real office and I think one of the key takeaways from this entire experience is that
+[10:43] first off we quickly learned not to take no for an answer but also the power of simply reaching out
+[10:52] and asking for help I think one big lesson from these first three years of building legora has
+[10:59] been that it is very powerful to be a person and to be a company that others want to succeed and
+[11:07] that others want to help and so we came to San Francisco we got a room at an Airbnb up in Bernal
+[11:18] Heights and we started building and during YC we grew from zero to a million dollars in ARR
+[11:30] and we also learned the hard way that working across San Francisco and Europe took a big toll
+[11:38] on the team I couldn't find a picture of this but I bought an influencer ring light that I put on my
+[11:46] laptop and the reason I had that ring light was because I was doing sales calls between 1 a.m. in
+[11:52] the morning to 10 a.m. in the morning every single day in San Francisco to Europe because that was
+[12:00] where our initial customer base was and after a rocket trajectory during YC which now two years
+[12:09] later is slow compared to what some of the companies are doing we set off to fundraise and this was my
+[12:17] first time fundraising I had no idea what to expect but we had lined up 80 investor meetings
+[12:25] in a week and a half and we had European investors American investors and the main takeaway from that
+[12:35] experience for me was that you need to become a really good storyteller in order to drive interest
+[12:44] and to get people on your team it was also a very different experience talking to some of the
+[12:50] European investors versus some of the American investors I feel like in the US we think more about
+[12:57] what can go right rather than what could possibly go wrong and we ended up working with a venture
+[13:05] firm called Benchmark this is a picture of Chathan our partner when we had signed the term sheet
+[13:12] and I remember negotiating that term sheet on that on his desk with a computer opened going on decimals
+[13:22] in the excel to determine the exact number of shares and they ended up investing 9.51 million
+[13:31] dollars now following that investment red point preled our series age just three weeks later and
+[13:42] we started to run into a challenge we had about 35 million dollars on the bank we were 10 people
+[13:51] in the team and there was actually a month following that that we made more money from interest rates
+[14:00] on those 35 million then we did from customers and that is not a very good sign when you have
+[14:06] become a bank and going into our first board meeting we had Chathan and we had red point and it was me
+[14:15] and my co-founders and we made a very hard decision which was to freeze our sales motion because when
+[14:24] you work with lawyers you only really get one chance to get it right if you show up and the product
+[14:33] doesn't work or if the you know sort of lag in the system is too high or if the system goes down
+[14:42] when there's too much traffic on your assure instance you are toast and after that six month
+[14:51] sales freeze was when we really started ripping and that's where you see that curve from 1 million
+[14:56] to 100 million really starting and what happened at the start of that was turning from a small
+[15:07] startup looking for PMF to really establishing what our business and what our product was going to be
+[15:16] in the very very early days at Leah so even pre-legora the way that we would decide what to build was
+[15:26] by voting we would make democratic votes in the entire team and for anyone who has built software
+[15:35] before you know that if you have too many chefs in the kitchen that typically does not make one very
+[15:41] good dish and that was exactly what was going on we were working on too many features we had to
+[15:49] rebuild everything for the product launch that we were going to have after the summer after the sales
+[15:54] freeze and we had to build a platform where it was adaptable to foundations that were constantly
+[16:02] changing both with the underlying models but also with the frameworks that we were using to build
+[16:08] agentic workflows like Langchain etc and so in October of 2024 we wrote down what we would call
+[16:16] the Leah product manifesto this was basically gathering everything we had learned putting it
+[16:22] into one very simple document that we shared with the entire 25 strong person team back then
+[16:30] and that we would rally the troops around at the time we were doing about 1.3 million dollars in
+[16:37] annual reoccurring revenue and many of our competitors were doing 10 times that with products
+[16:45] that only had one of these features and I also think that's a function of having started in
+[16:52] Sweden the market is not big enough to house a real unicorn or a deca horn or something even
+[17:00] bigger than that and so one of the earliest questions we got from YC was when will you move to the
+[17:05] United States when will you make the jump and it was of the back of this product refocus that we
+[17:15] were able to not only compete out the competition on product but build enough momentum to make the
+[17:21] jump over to the US and start to compete for the biggest logos in our markets and I think as
+[17:28] engineers and as tech people we often overemphasize the reliance on product and on the tech
+[17:35] but if there's anything I've learned in these past three years it's that it's all about the people
+[17:44] and building product is one thing but building a company is a very different thing and we made
+[17:51] many early mistakes around this one of the hiring patterns that we had to unlearn was looking for
+[18:01] fancy logos on resumes or what we like to call why inter like why intercept if you think about
+[18:09] somebody's scale curve it might start out really high but if they don't have a good trajectory
+[18:15] upwards they are going to have a really hard time working in a company that is scaling exponentially
+[18:23] and so instead we started to look for people like us who wanted to work insanely hard
+[18:29] with a very high growth potential and we doubled down on that talent over and over again
+[18:37] our top seller today is 23 years old and he sold over more than 10 million dollars worth of legora
+[18:47] and he had no sales background he jumped out of university and by continuously doubling down on
+[18:54] that type of talent I think we have built a very unique culture at legora and one of those
+[19:01] things has been about bringing and building cultural fit up until the point where we were around 500
+[19:09] people I interviewed every single candidate outside of engineering now I interview every
+[19:16] director and upwards but what we have done is we have set the cultural foundation in the business
+[19:24] where itself selects for itself we have three values at legora
+[19:32] lean in fight for excellence and grow together and together they make LFG let's fucking go
+[19:41] that also sends a signal to leaders and others who joined the company who are coming from more
+[19:48] perhaps established backgrounds where joining a company where the values includes profanity
+[19:57] quickly sort of tells them what this is about another very complex cultural thing starting a
+[20:07] company in Scandinavia is something called young the logan or the law of young this is very foreign
+[20:19] to our american friends but in swedish culture this basically means that
+[20:26] you should not think that you are somebody or you are not more important than anybody else
+[20:34] and your ideas are not better than anybody else's and I think a part of this humility is good
+[20:46] and it supports a culture where the best ideas win and where people earlier in their careers
+[20:56] feel empowered to speak up but it's very hard to build one of the fastest growing enterprise
+[21:05] companies in the world if you think that you aren't somebody or if you don't think that you
+[21:10] are better than anybody else and so we have had to really create a a nice cocktail of
+[21:18] us european and asian culture all in one to create a global company that is legora today
+[21:27] and so I really think that building a strong company culture is the best guarantee to attract
+[21:35] and keep the best people another way that company culture gets expressed at legora
+[21:45] is through articles like this one that ended up in siftad for us there is only winning
+[21:55] everything else is losing in a winner takes all market or winner takes most market and
+[22:03] the company has to run like there is no place for number two I think it actually would be
+[22:12] fair to say that when legora was founded it really had no reason to exist we were one of many legal
+[22:20] AI companies but because of this mentality and because of not feeling like we're safe even though
+[22:30] we have achieved extraordinary numbers by any normal measures we continue acting like
+[22:36] professional swimmers who are looking down in our lane while the competition is looking sideways
+[22:43] at what we're doing and at legora we have had to build a culture to really support that ambition
+[22:51] so starting you know years behind some of our biggest competition and
+[22:57] having to build this intensity in a country where most people want to go for fika at 3 p.m.
+[23:06] which means having a cinnamon bun and a coffee or you know go home at five
+[23:12] one of the ways that that has been done is to
+[23:17] create cultural values and cultural moments that really distinguish us from many others and so in
+[23:27] swedish there is a saying you can wake up with a taste of blood because you're so excited about
+[23:33] something and I was doing an article in swedish and I used that saying and I didn't know that the
+[23:40] interviewer was going to release that article in english and so when this came out it got lots
+[23:45] of fun reactions and one of them was is legora made up of vampires the second one was you guys
+[23:53] need to floss better many good ideas but this has now turned into the word blue smoke internally
+[24:01] which means that and we just keep going at it and I think part of having our HQ in Stockholm
+[24:09] has worked to help us keep this everybody globally from the company makes their onboarding
+[24:17] in Stockholm which is a lot nicer in summer than in the winter but that has created the same vibe
+[24:26] in any legora office regardless of where you walk in all over the world and I think one great
+[24:32] example of this was we had a a very big law firm in the US that our competition was working with
+[24:42] but that law firm had a specific problem around being able to draft certain types of documents
+[24:49] based on incoming term sheets and our competition had promised that they were going to solve that
+[24:57] and they hadn't and so one of our us based engineers legal engineers lawyers
+[25:04] learned about this use case got on a flight to Stockholm spent a week with our engineers
+[25:09] solved the problem in Sweden and then went back to the us and delivered it to the customer
+[25:14] and I think that Swedish base has become one of legoras real superpowers
+[25:26] and so to round things off before we jump into the Q&A I'm sharing this stage this weekend
+[25:33] with people who have built things at a scale that I haven't yet gotten close to and so I will leave
+[25:42] many of the big lessons for them but what I can tell you is that three years in is a little bit
+[25:50] smaller than that most of what actually mattered in the company and in legora so far
+[25:56] did not revolve around signing a big client or closing a new round of financing or open a new big
+[26:05] office in Manhattan it happened in you know a windowless room without much oxygen or on a call
+[26:14] on our way to the airport a slack channel at 2 a.m. trying to fix a bug before a big presentation on
+[26:21] Monday and nobody puts that in a pitch deck but that is what makes the company and you shouldn't
+[26:29] wait around for those big moments you have to love the hustle and I think if I can leave you with anything
+[26:38] is that even though we started in a small law firm in Sweden I was born in the Swedish archipelago
+[26:46] with a class of 10 other people I had I thought I had a big plan for my life and I was going to
+[26:54] go to McKinsey after school but when GPT 3.5 dropped in our knees we truly made that into
+[27:02] our thing and we captured what I believe to be our generation's internet moment and so
+[27:07] you can just do things legora and myself is living proof of that
+[27:13] so with that we're going to jump to Q&A and I want to invite a very good friend our partner from
+[27:20] Y Combinator Gustav Omsdormer. Gustav we're really becoming professionals of this town.
+[27:36] Is this not the first time we're doing this? No it's great it's good to see you.
+[27:41] Good to see you. Thanks for the talk that was awesome really good thank you and always thank you
+[27:48] for coming back and speaking to YC and to two founders here at startup school of course.
+[27:55] I want to ask the first question which is one that I've gotten from a lot of founders who ask
+[27:59] about you which is you guys are three founders who were three founders who were not lawyers
+[28:06] and you started the best legal AI company in the world. Does domain expertise not matter that
+[28:11] much anymore? So there's actually a story of a Swedish VC who was very bullish on doing the
+[28:18] pre-seed of Leia but they ended up not doing it because we did not have any lawyers in the team
+[28:25] and I met them at the airport I met one of the partners from there at the airport quite recently
+[28:30] and they were very very bitter and Leia or legora turned out to be the lesson for them that perhaps
+[28:37] domain expertise is not what you need to succeed. I think that you need a willingness to learn about
+[28:44] the market which we did very very early by you know exposing ourselves and spending
+[28:51] lots of time with lawyers like as much as we possibly could but I don't think you need domain
+[28:57] expertise. Probably you know dependent on the market that you're going after like maybe if you're
+[29:01] building in quantum computing or in fusion that's a good idea but legal was easy enough for us to pick
+[29:09] up as we went along. I spoke to some founders yesterday and we spoke about sort of like the
+[29:17] next categories where the LMs are not sufficiently good yet but there will be and it made me think
+[29:23] of what you just said when you were going around with Bard in the early days. What would you give
+[29:30] you the confidence to build a legal AI product on a model that wasn't good enough? It was like
+[29:36] good but not good enough and there's many other founders probably in this audience who were
+[29:39] thinking about the same problem but in a different domain maybe like I don't know mechanical design
+[29:44] or some other part of somewhere with the models are just not good enough. So I think the sort of
+[29:52] tribal knowledge when we got started was that you have to fine tune a model right in 2023 2022
+[29:59] that was really like the name of the game and I even remember I think it was Bloomberg who spent
+[30:05] you know millions and millions and millions of dollars building like a Bloomberg law model.
+[30:10] Our view was partly because we didn't have enough money and partly because we truly believed that
+[30:15] to be right and you know the models will keep improving right like I'm sure Sam is going to come
+[30:22] up on stage and say that later today yes and so by just betting that the models will keep improving
+[30:29] and what you should be focused on is how can you deliver that the value that the models generate
+[30:35] to your market that was the crux for us and even with the first generation of chat GPT
+[30:42] that was unusable in law partly because the model wasn't good enough but partly because it actually
+[30:49] didn't support you know private conversations, European data hosting. I remember the first sales I
+[30:57] ever did we basically said we are like chat GPT but we are compliant in Europe like that was the pitch
+[31:06] that was not a very strong pitch and you know clearly chat GPT would figure out how to do that
+[31:11] later on but at the time it was good enough and so I think we recognize that you don't have to build
+[31:17] for the world over here like you need to build for the world today and maybe like one step ahead and
+[31:23] it's kind of like this ladder where you should maximize the opportunity now make sure that you
+[31:30] get really good relationships with your customers and so that you can also have that conversation with
+[31:35] them because if everybody's betting on this you know exponential uplift in model capability
+[31:42] the legora platform will continue delivering more and more value I think that we have built
+[31:48] one percent of all the software that we will build over the company's history and
+[31:53] probably the the product will look very different from what it what it does today a few years down
+[31:59] the line yeah a lot of news on models this week or last two weeks it's going to be like a great
+[32:06] episode for whoever makes the documentary. I'm hoping that someone is making a documentary
+[32:11] right now about everything that's going on I'm not sure if someone is but I hope they are
+[32:15] open way small is very much the topic right now and when we spoke on stage a couple months ago
+[32:25] you talked about that you're not attached to one specific model you can work with many different
+[32:31] models have have you updated you based on this week like how do you think about sort of like I'm
+[32:38] sure there was a moment like a year and a half ago when they seemed like it was just one or two
+[32:42] models that were really sufficient to do to power legora and now they seem like a lot more.
+[32:46] Yes which I think will be great yeah and I mean you know clearly there will be
+[32:52] applications of different models in different use cases and so if you take customer support
+[32:59] you're optimizing for you know speed of turnaround latency to the customer and cost on you know
+[33:07] solving a particular ticket and I think Finn used to charge like one dollar per you know
+[33:13] solved customer ticket in law you actually want the you know most amount of intelligence quite
+[33:21] often because the fraction of a token spend or software spend compared to like you know human
+[33:29] expertise applied to the problem is really tiny if you're solving you know complex litigation
+[33:36] you're gonna want to throw the most brain that you can on that problem and so we have really sort
+[33:42] of two different camps like one group of our users are asking for the ability to loop really
+[33:51] complex models just to work on problems for a long period of time like racking up big LLM
+[33:56] costs and another group of our users are saying you know can we get access to open source you know
+[34:01] that is going to be cheaper on our consumption and I think the answer is like somewhere in between
+[34:08] I think ultimately one of the core IPs and muscles that I encourage as many of you as possible to build
+[34:17] is the ability to eval new models and to eval new use cases because that is the super power that
+[34:23] then allows you to route things effectively we did a lot of that early on because we hired a lot
+[34:31] of lawyers into legora and we made part of their job customer facing but part of their
+[34:37] job was also to build out use cases that we would throw our evals on and the the frontier of like
+[34:44] you know cost intelligence and where that sort of frontier lies you know yet to be seen I think
+[34:52] there's also a compute problem where when we lock in big contracts with the with the labs and
+[34:59] with our compute providers that is actually a huge thing we cannot have our system go down
+[35:05] when you know a number of percentage points of all the lawyers in the world are working with it
+[35:12] and their clients rely on it and and are there specific benchmarks you look at for how
+[35:17] I'm sure you are bad well we we look at the legora bench so we actually announced and released that
+[35:23] on Friday last week and it has been that has been worked for for the past three years and we've kept
+[35:30] that internal up until Friday and the reason for that was it was basically opening eye or
+[35:36] or the anthropic models and so it wasn't like that interesting to publish benchmarks on
+[35:42] and we would only make those two models available in our system and the user could pick now the
+[35:48] smorgasbord of available options is a lot larger and actually we found to our surprise that SpaceX
+[35:55] and Grok was one of the best performance models especially given the cost on our benchmarks and
+[36:02] we don't even have a have them on our data processing agreement and so we actually can't
+[36:08] yet offer them to our customers but now we will start to and do you see your customers having
+[36:14] strong opinions about which models they want to use or is it sort of like they just want to
+[36:17] best whatever some of them having they have a strong especially like banks you know big law firms
+[36:24] have a they don't want Chinese models yeah makes sense yeah so I want to go back to just a little
+[36:33] bit earlier like when you decided you want to build a startup a lot of people in the audience
+[36:36] here I would I've had two dinners in the last two days with with attendees at startup school when we
+[36:41] talked about when should you start up people are working at deep mind people working at internships
+[36:46] or jobs right now often you're one or two years into it what would you say was the trigger for
+[36:53] you to say I'm just gonna do this and not do McKinsey or the other options that you had so my dad had
+[37:00] two companies during the dot com boom both of which went to zero after raising too much venture capital
+[37:09] so maybe as he's been a good mentor for you yes yeah absolutely and how often do you speak about
+[37:18] always be probably every day or every other day about the gore about lots of stuff I used to now
+[37:25] I'm like too tired to walk home often so I would like take the train or like pick a cab but I used
+[37:31] to walk home and I would call him and that would be a lot of fun and as sometimes we call him senior
+[37:37] advisor we have actually one of our biggest customer pitches we we were stretched for resources
+[37:45] so he came in and did the powerpoint for that client he knew everything at this point yeah you
+[37:51] know most of it so he had two companies in the dot com both went to zero and then he had a
+[37:58] boat business in the archipelago when I grew up and so I've always been surrounded by entrepreneurship
+[38:05] and I always felt like I wanted to prove myself in that arena I'm very competitive I used to play
+[38:14] video games I used to play Dota 2 like more than I went to school and then I think building a company
+[38:21] is like the optimal like it's the biggest arena that you can enter and you'll either leave victorious
+[38:27] or you'll leave defeated or you'll be okay and I was very decided in that I should probably learn
+[38:40] more about the world which I thought McKinsey was gonna be a great place to start which I still
+[38:45] think it is yeah I think it really teaches you like how to work you learn work ethic there but
+[38:52] I did an internship and so I think I got a bit of that even during my studies and then
+[38:57] we had this like pivotal moment with GPT and so we were talking about this like you weren't
+[39:04] as excited about investing a few years back like pre LLMs because there wasn't a lot of
+[39:09] there wasn't a lot of going on like like I think that the last year or two before COVID it was
+[39:14] not a lot of new ideas right and I remember sitting down pre GPT like here all the startup
+[39:19] ideas I can think of most of them were pretty boring I don't think most of them would have worked
+[39:24] out and then like small companies got a really big advantage versus big companies
+[39:31] and I mean I think you saw this in just like the way that Microsoft would build co-pilots
+[39:36] like it didn't work for a really long time and I remember when I came out and we were like oh my
+[39:42] god like we're so screwed you know every lawyer already works in the word and outlook and now
+[39:47] they're just gonna use co-pilot but turns out like it didn't work and the you know ability for us
+[39:53] than to still build a lot of value was huge I think now reflecting back on that you learn
+[40:01] so much by having to figure it out and I really think that the amount of things you learn is a
+[40:10] function of the amount of discomfort that you're willing to endure yeah when we started legora
+[40:16] I was like super introverted I you know really didn't feel comfortable talking to customers
+[40:23] I wanted to code as much as possible you know when you have to go separate ways with an employee
+[40:30] for the first time like all of this is just so hard but you realize that startups is one of the
+[40:35] places where you can learn the most in a short amount of time I think you know if I were to
+[40:44] build a company again or join a company I still feel like I learned a lot working at
+[40:53] and other startups I actually worked with the devices startups before starting my own and
+[41:01] then I would say you should think really deeply about who you started with and the problem space
+[41:09] and I think we picked a space more than we picked a problem which I think is like two
+[41:15] different ways of going about it it was completely obvious that legal and AI was going to be a thing
+[41:22] yeah how it was going to be a thing was like very uncertain and so we just said let's march
+[41:28] in this general direction and then we'll figure it out that's one way of doing it I guess the
+[41:32] other way of doing it is like you find a specific problem you solve that very clearly you generate
+[41:38] ROI and then you expand from that yeah you mentioned earlier well I know that you are extremely
+[41:45] competitive how is that expressed inside legora like how does the legora employee know that max is
+[41:51] a very competitive CEO I think everybody everybody's legora is like how how's express is like a
+[41:58] Friday meeting here's our goals and like well yes so we do everybody knows every every month we go
+[42:05] I think setting quarterly goals is like a little bit tricky is that how it was from the very
+[42:09] beginning which is really good no then it was no goals then it was just like every day you like
+[42:15] try to maximize the outcome okay and then we got you know when you're 750 people you need to
+[42:22] plan a little bit better yeah and I have some better internal communication actually communication
+[42:27] is like the thing that really breaks when you scale yes and I think a lot of people I've talked
+[42:33] about that already and but no we you really feel this like drive from engineering that they want to
+[42:43] be the best product and the best feature and if you compare you know our tabular review versus
+[42:51] you know the other alternatives in the market like it's really sort of you stack rank it and
+[42:57] we have lots of people on vacation now in Stockholm because it's July and most of them have have
+[43:04] most of the engineers who are on vacation are like more productive than they have ever been
+[43:09] because they're like taking a bit of time off but then they also get to code now on problems
+[43:14] that they like want to beat and they want to win and it's it's a team sport and I think you can be
+[43:21] competitive but be in a team way and so you really need to solidify this like winning or
+[43:28] losing together strategy I think and when we get a big win like that is really celebrated and when
+[43:35] we have a loss we really like mourn it together and then we immediately make a plan of like how
+[43:42] can we flip it or like how can we make a land and like turn it around and I feel like people are in
+[43:48] solution mode rather than like blame mode and I think that has been a big you know momentum
+[43:58] drive first but also we've been in like chasing but like they were other legal AI companies
+[44:04] that were bigger than us when we started and so we always felt at least in the beginning like we
+[44:11] were chasing now we are much bigger and let's say you're the biggest one at some point very soon
+[44:19] yes is that going to impact your motivation or your so I think if that's how I'm it so that's
+[44:24] interesting I thought a lot about like what happens at that moment yeah I think we need to
+[44:30] either pick out another enemy and go like okay we have to be bigger than them now
+[44:36] or we have to like really find this way of being better than ourselves yesterday and
+[44:43] I think that having competitors is a good thing you should not be overly focused on what they're
+[44:50] doing but it's definitely like a carrot I think and it's an easy thing to like rally around
+[44:57] because what you don't want is you don't want a lot of side questing yeah you want everybody
+[45:01] focused on the same thing so one question I got from the audience is how do you become
+[45:08] more ambitious and when I asked the question I'm thinking of a company I'm working with right now
+[45:12] who's like oh we want to do this country in Europe and then we're gonna do this other country
+[45:16] Europe and then maybe next year will the US you guys did a lot of countries in Europe just
+[45:20] during the batch and then like and now we're like 50 countries and now you're everywhere and
+[45:23] you scale up really quickly yeah and is that ambition or is that the product was working or is
+[45:28] no it's definitely ambition yeah and I think it's like how does someone learn that or how
+[45:33] does someone become more ambitious is that possible yeah I think it's possible I actually think the
+[45:38] best way to become more ambitious is to have a peer group of other very ambitious people so
+[45:46] in in like my final years of of like high school I was pretty lazy
+[45:56] I was playing a lot of video games I was you know I had a pretty easy time in school and
+[46:05] I didn't work that hard and I I didn't know how big the world was like outside of my sphere
+[46:14] and the first two years in college was the same yeah and then I made like a new friend group
+[46:21] of very ambitious people and that made it click for me I went from doing like zero internships
+[46:33] to doing eight jobs in one year and I actually think that's like one of the best parts about YC
+[46:42] and you think PG talked about that in one of their essays which is like you come here
+[46:47] and then you just realize that like wow every peer like everybody's really ambitious and so
+[46:52] you become more ambitious together yeah and I think now we are like that inside of legora yeah because
+[46:59] I don't feel like I'm the like most I feel like I'm a peer in the team that is running the company and
+[47:07] you know our CFO sometimes you know challenges are marketing team to be more ambitious and
+[47:15] you know like a CFO maybe typically wouldn't care about that yeah but we're all just like so
+[47:20] forward leaning and it's just so fun and then you really get to assemble this like guru across
+[47:26] the entire company it's not just at the top right it's like everywhere yeah and then you get to watch
+[47:32] your creation like spiral and become more and more and more and more ambitious and that is really
+[47:38] fun I also think you need to have like big idols and big companies ahead of you I mean in the beginning
+[47:45] who is your idol also we would look at Spotify and Klarna yeah as these are the biggest success
+[47:50] tech stories from Stockholm that have you know ever happened and then we realized wow we have a
+[47:55] bigger market capital in Karna and that was like kind of a weird moment yeah yeah because
+[48:06] we feel like we have done zero to one yeah and one to 10 and then 10 to 100 still remains
+[48:14] yeah it's in front of us and so yeah would you say so so people in the audience here are wondering
+[48:22] what skills are either more valuable to have now as you're in school or you're graduating from school
+[48:30] versus not not more valuable like basically is is the skills that you need to start a company
+[48:36] or skills that you need to get into like like your career are they changing in a very short
+[48:40] amount of time now I I think storytelling is at least for the CEO yeah I had completely
+[48:52] underappreciated how important and how good of a skill that would be because what ends up happening
+[48:57] is you need to sell the company to yourself yeah like working this hard if you don't believe in your
+[49:07] story is really hard you need to sell employees like now we are hiring people you know we're
+[49:16] competing with the labs for talent and you know we need to sell the story of how working legora
+[49:23] at legora is going to be better than working out on traffic you need to sell the story to investors
+[49:29] you need to sell the story to customers and I think that in college or in high school or wherever that
+[49:38] is like spending time to learn that is useful I don't know how to learn it I actually don't know
+[49:45] how I learned it unless I just had a lot of exposure yeah I always like like stories I like video games
+[49:52] I like I enjoy a good story but I think that is like the most important and then maybe the other
+[49:58] really technical skills okay I'll say one more before we go to technical skills yeah I used to
+[50:04] be a really bad teammates and a really bad collaborator so I played the volleyball for a long
+[50:11] time growing up and I would be the type of person on the team who when my teammate missed the serve
+[50:19] I would yell at them and go you fucking suck like how could you miss that serve and
+[50:25] that was very that doesn't get you invited to play the next game yeah and make sense you know it
+[50:33] it doesn't it doesn't invite a followership and it doesn't invite like a good vibe so in high
+[50:43] school I like really understood that and had to pivot that way of working I think technical skills
+[50:50] I think that the sort of the velocity and your ability to iterate on customer feedback still is
+[51:02] probably the most important skill to get started yeah even now when we're bigger very often we will
+[51:08] hear about a particular type of problem a customer is having in a customer call I will dump that
+[51:16] in the product channel and I'll go how quickly can we turn this around and delight the customer yeah
+[51:22] and that's like a bit strange to do at a you know thousand person company scale yeah but still how
+[51:27] we do it and you need to make sure that you don't overly like zigzag and that you continue building
+[51:33] towards like the right vision but I still think that the your ability as a smaller company to be fast
+[51:41] versus your incumbent competition is the superpower and when you have a superpower you need to lean
+[51:47] into that and that's still true for for me like I should be doing the things that I'm uniquely
+[51:52] good at yes and other people in the company do the things that they're uniquely good at yeah I
+[51:57] think also technical uh scales maybe they're different these days taking because means something else
+[52:06] yes well but it still means you know being able to build systems at scale right like just because
+[52:12] you can produce a lot of code with AI yeah it's not a excuse for not being a very good software
+[52:21] engineer right right and I still think we need many good software engineers we are hiring a hundred
+[52:27] of them at the GORA what's the most interesting problem is that people get to work on when they
+[52:33] join a GORA oh um one of the most interesting problems right now is this transition from
+[52:43] reactive agents to proactive agents so what's an example so for the last three years of working
+[52:50] with the product you know you will give legora a prompt or a set of instructions and it's going
+[52:54] to go off and do that thing now we are basically connecting legora to different pieces of context
+[53:00] and when it gets a trigger it will start to do something that means that if the sales team
+[53:06] gets a contract it will get routed to a legora agent the legora agent will start working on it in
+[53:11] parallel you know if it needs to escalate to a lawyer it will otherwise it might just execute
+[53:16] the contract or you connect the entire data room to a legora agent and the agent automatically starts
+[53:23] organizing that data room and produce the due diligence report or like it's it's um
+[53:28] having the agent do things without you telling it what it should do yeah and that for us is the
+[53:35] unlock of you know how does one lawyer produce the outcomes of a team of 10 lawyers with the help
+[53:42] of legora yeah I think that's very interesting it also has some very interesting problems just
+[53:46] from like a scale perspective right like we're spending millions and millions and millions of
+[53:51] dollars on ocr and like you know document parsing and these are like real engineering problems
+[53:58] to go solve at a bigger scale right um and you grew from 0 to 100 million an hour in 18 months in
+[54:06] April keep growing at a crazy rate yes your job has changed quite a lot in 18 months yes um
+[54:14] we talked earlier about you now interviewing like executive teams like sort of like we had
+[54:20] this talk from the founder of Dropbox I see it like a couple years ago we talked about the mini
+[54:24] games that you played you've done a lot of mini games in 18 months and now you're at the mini
+[54:27] game I'm like building out or hiring people to run your team huh what's yeah that sounds hard
+[54:32] and it's not this is not something you've done before like how well it's uh definitely not something
+[54:38] I've done before but how do you learn something like that that it seems extremely important to
+[54:42] hire the right executive in a way I think most of the work up until that point makes you qualified
+[54:53] for that thing right if you get the next mini game by basically to see in the last one yes but
+[54:58] you need to make sure that you learn because part of every mini game and I think you really need to
+[55:05] um put the company first um way ahead of your own ego in a way and you know I tell this to the
+[55:14] executive team I need to re-qualify for the job as CEO of legora every quarter right it's a new
+[55:22] company new challenges as do they like running a sales team when you are one million ARR is very
+[55:29] different from 150 million ARR and I think for myself if you like if you are um if you enjoy that
+[55:40] if you enjoy learning new things if you enjoy being challenged if you accept the fact that now
+[55:47] my most important job is building out the executive team and I'm going to go do that you will succeed
+[55:53] at it and then I think as always you try to build a good network of people who have done it before
+[56:00] um the tough thing is there's very few people who have done uh the company this quickly yes we are
+[56:06] and you know even a lot of the executives that we are now bringing on they come from uh sauce
+[56:12] and they come from this you know world of triple triple double double if you grow 40 percent year
+[56:18] and year you are doing fantastic you're you know you're sort of on track and that's not enough
+[56:25] anymore it's not enough like we you know David our CFO joined from Banta another YC company
+[56:31] very they've been very successful yeah but they've grown from you know 30 million to 300 million
+[56:36] in something like four years and now we're doing it like one year and so from 200 people to 1300
+[56:43] people and we're doing over four years and we're doing it in one year and so you need to just compress
+[56:47] timelines I think you need to be a brutal at saying no to things and you need to understand
+[56:53] yourself where you have the most competitive edge or you can do the most when I landed in Stockholm
+[56:59] uh in end of April all of the ads were basically legora ads with jude law um and
+[57:10] I'm curious how you get jude law to be the face of the company and here's like if you haven't
+[57:16] watched seen the ads I recommend you go into youtube and watching the legora jude law ads
+[57:20] did you did you fall in love with law again yeah i did good um what happened how did how did
+[57:26] you know okay so the the inside baseball is we had a meeting with one of our marketing agencies
+[57:35] and one of their pictures was why don't we redo like very famous um legal scenes like
+[57:44] um you can't handle the truth yeah like like why don't we redo like famous legal scenes with
+[57:49] lawyers but like with legora yeah and or you know the pictures this it was actually pretty funny and
+[57:55] all of these movies about lawyers like what if they just had legora and you know the movie would
+[58:00] be over in like a minute and so we got to this idea of like working with actors and then somebody went
+[58:05] well legora is like a i powered law what if we got dude law to be like a i powered
+[58:12] and that got us down the track of like huh maybe we could get dude law and and what's
+[58:18] funny in hollywood right now is it's like pretty anti-ai with you know writing scripts you know
+[58:25] using ai in movies etc and he thought we were completely unserious when we reached out the first
+[58:31] time like some swedish ai company wants to work with dude law to make billboards and a campaign
+[58:37] but then we were so persistent and i think um one under appreciated form of negotiation
+[58:44] is nagging it's one of the things my dad taught me and we nagged and nagged and nagged and he said
+[58:52] yes on one condition he got to pick his own script writer and cinematographer and who would
+[58:59] have known he brings an s&l script director and the cinematographer from openheimer
+[59:06] to uh to like light the the scene and like do the whole cinematography and they basically go into
+[59:13] the the set and nobody from legora is allowed in and you know a few hours later like these magical
+[59:19] productions come out it's really good it's so funny and what i think it did for us was it put us in
+[59:25] another light where like even people outside of law now know about legora yeah and that has been
+[59:32] really exciting awesome thank you so much for coming to swab school this is awesome thank you
+[59:36] yourself thank you for having me thanks everyone

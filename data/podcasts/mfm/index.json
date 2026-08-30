@@ -10,9 +10,25 @@
   "3-killer-businesses-hiding-in-plain-sight",
   "3-millionaires-reveal-their-super-niche-businesses",
   "asking-3-young-millionaires-how-they-make-1-8m-5m-12m-year",
-  "3-strangers-showed-us-how-they-made-8m-10m-40m-year"
+  "3-strangers-showed-us-how-they-made-8m-10m-40m-year",
+  "how-a-5b-founder-is-using-ai-3-tutorials",
+  "i-built-a-2-000-000-000-business-on-vibes"
  ],
  "episodes": [
+  {
+   "fiche": "how-a-5b-founder-is-using-ai-3-tutorials.json",
+   "titre": "How a $5B founder is using AI (3 tutorials)",
+   "date": "Wed, 26 Aug 2026",
+   "date_iso": "2026-08-26",
+   "nb_outils": 7
+  },
+  {
+   "fiche": "i-built-a-2-000-000-000-business-on-vibes.json",
+   "titre": "I built a $2,000,000,000 business on vibes",
+   "date": "Mon, 24 Aug 2026",
+   "date_iso": "2026-08-24",
+   "nb_outils": 2
+  },
   {
    "fiche": "3-millionaires-reveal-their-super-niche-businesses.json",
    "titre": "3 millionaires reveal their super niche businesses",
@@ -84,5 +100,5 @@
    "nb_outils": 3
   }
  ],
- "maj": "2026-08-23T17:32:43Z"
+ "maj": "2026-08-30T19:52:52Z"
 }

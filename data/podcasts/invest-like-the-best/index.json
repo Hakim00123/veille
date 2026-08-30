@@ -4,9 +4,17 @@
   "sam-altman-how-to-make-an-abundant-future-invest-like-the-best-ep-484",
   "gavin-baker-ai-market-jitters-invest-like-the-best-ep-485",
   "eric-vishria-a-decade-of-lessons-investing-in-software-hardware-invest",
-  "ben-thompson-on-big-tech-china-and-the-ai-boom-running-out-of-money-in"
+  "ben-thompson-on-big-tech-china-and-the-ai-boom-running-out-of-money-in",
+  "neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488"
  ],
  "episodes": [
+  {
+   "fiche": "neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488.json",
+   "titre": "Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]",
+   "date": "Tue, 25 Aug 2026",
+   "date_iso": "2026-08-25",
+   "nb_outils": 3
+  },
   {
    "fiche": "ben-thompson-on-big-tech-china-and-the-ai-boom-running-out-of-money-in.json",
    "titre": "Ben Thompson on Big Tech, China, and the AI Boom Running Out of Money - [Invest Like the Best, EP.487]",
@@ -36,5 +44,5 @@
    "nb_outils": 4
   }
  ],
- "maj": "2026-08-23T17:32:46Z"
+ "maj": "2026-08-30T19:52:54Z"
 }

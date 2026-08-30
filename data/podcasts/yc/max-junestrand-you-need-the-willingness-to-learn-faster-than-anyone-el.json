@@ -1,0 +1,25 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "Max Junestrand: You Need The Willingness To Learn Faster Than Anyone Else",
+ "date": "Sat, 29 Aug 2026",
+ "date_iso": "2026-08-29",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/Max-Junestrand-You-Need-The-Willingness-To-Learn-Faster-Than-Anyone-Else-e3o19d4",
+ "duree": "00:59:39",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 4.5,
+ "taille_transcript": 51406,
+ "transcript": "max-junestrand-you-need-the-willingness-to-learn-faster-than-anyone-el-transcript.txt",
+ "nb_outils": 2,
+ "outils": {
+  "LangChain": [
+   " to have after the summer after the sales freeze and we had to build a platform where it was adaptable to foundations that were constantly changing both with the underlying models but also with the frameworks that we were using to build agentic workflows like Langchain etc and so in October of 2024 we wrote down what we would call the Leah product manifesto this was basically gathering everything we had learned putting it into one very simple document that we shared with the entire 25 strong person team back then and that w"
+  ],
+  "Slack": [
+   " is what the software used to look like and what we were up against when we started out. Now Lagura has grown into a global brand putting celebrities like Jude Law at the New York Wall Street and still I feel like we are only getting started. My most favorite Slack channel in Lagura is customer love. It is where our customers post things that they sort of truly feel like they couldn't have achieved without our system and we mine many of our sales calls for quotes like this and I wanted to share just a couple with you be",
+   "ed in the company and in legora so far did not revolve around signing a big client or closing a new round of financing or open a new big office in Manhattan it happened in you know a windowless room without much oxygen or on a call on our way to the airport a slack channel at 2 a.m. trying to fix a bug before a big presentation on Monday and nobody puts that in a pitch deck but that is what makes the company and you shouldn't wait around for those big moments you have to love the hustle and I think if I can leave you wi"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

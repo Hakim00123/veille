@@ -12,9 +12,25 @@
   "building-the-first-data-centers-in-space",
   "chelsea-finn-this-is-the-state-of-the-art-in-robotics",
   "peter-steinberger-fun-is-velocity",
-  "max-hodak-how-startups-build-speed"
+  "max-hodak-how-startups-build-speed",
+  "max-junestrand-you-need-the-willingness-to-learn-faster-than-anyone-el",
+  "susan-kare-designing-icons-graphics-for-the-original-mac"
  ],
  "episodes": [
+  {
+   "fiche": "max-junestrand-you-need-the-willingness-to-learn-faster-than-anyone-el.json",
+   "titre": "Max Junestrand: You Need The Willingness To Learn Faster Than Anyone Else",
+   "date": "Sat, 29 Aug 2026",
+   "date_iso": "2026-08-29",
+   "nb_outils": 2
+  },
+  {
+   "fiche": "susan-kare-designing-icons-graphics-for-the-original-mac.json",
+   "titre": "Susan Kare: Designing Icons & Graphics For the Original Mac",
+   "date": "Fri, 28 Aug 2026",
+   "date_iso": "2026-08-28",
+   "nb_outils": 3
+  },
   {
    "fiche": "chelsea-finn-this-is-the-state-of-the-art-in-robotics.json",
    "titre": "Chelsea Finn: This is the State of the Art in Robotics",
@@ -100,5 +116,5 @@
    "nb_outils": 1
   }
  ],
- "maj": "2026-08-23T17:32:47Z"
+ "maj": "2026-08-30T19:52:56Z"
 }
