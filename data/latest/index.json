@@ -1,17 +1,16 @@
 {
- "genere_le": "2026-09-01T16:01:14+00:00",
+ "genere_le": "2026-09-01T20:30:02+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
  "nb_flux_en_erreur": 13,
- "nb_articles": 388,
+ "nb_articles": 346,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
   "chunk-03.json",
   "chunk-04.json",
   "chunk-05.json",
-  "chunk-06.json",
-  "chunk-07.json"
+  "chunk-06.json"
  ],
  "erreurs": [
   {
@@ -30,11 +29,6 @@
    "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
   },
   {
-   "source": "Early Retirement Now",
-   "url": "https://earlyretirementnow.com/feed/",
-   "erreur": "HTTPError: 429 Client Error: Too Many Requests for url: https://earlyretirementnow.com/feed/"
-  },
-  {
    "source": "Parlons RH",
    "url": "https://www.parlonsrh.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.parlonsrh.com/feed/"
@@ -43,6 +37,11 @@
    "source": "Personnel Today",
    "url": "https://www.personneltoday.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.personneltoday.com/feed/"
+  },
+  {
+   "source": "Deel - Paie internationale",
+   "url": "https://www.deel.com/blog/rss.xml",
+   "erreur": "HTTPError: 404 Client Error: Not Found for url: https://www.deel.com/blog/rss.xml"
   },
   {
    "source": "Startup Unlocked",
