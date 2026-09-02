@@ -1,16 +1,17 @@
 {
- "genere_le": "2026-09-01T20:30:02+00:00",
+ "genere_le": "2026-09-02T02:43:37+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
  "nb_flux_en_erreur": 13,
- "nb_articles": 346,
+ "nb_articles": 391,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
   "chunk-03.json",
   "chunk-04.json",
   "chunk-05.json",
-  "chunk-06.json"
+  "chunk-06.json",
+  "chunk-07.json"
  ],
  "erreurs": [
   {
@@ -37,11 +38,6 @@
    "source": "Personnel Today",
    "url": "https://www.personneltoday.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.personneltoday.com/feed/"
-  },
-  {
-   "source": "Deel - Paie internationale",
-   "url": "https://www.deel.com/blog/rss.xml",
-   "erreur": "HTTPError: 404 Client Error: Not Found for url: https://www.deel.com/blog/rss.xml"
   },
   {
    "source": "Startup Unlocked",
@@ -77,6 +73,11 @@
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15"
   }
  ]
 }
