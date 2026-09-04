@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-09-04T10:31:37+00:00",
+ "genere_le": "2026-09-04T15:42:50+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
+ "nb_flux_en_erreur": 12,
  "nb_articles": 395,
  "chunks": [
   "chunk-01.json",
@@ -28,11 +28,6 @@
    "source": "The Evidence-Based Investor",
    "url": "http://www.evidenceinvestor.co.uk/feed/",
    "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
-  },
-  {
-   "source": "Early Retirement Now",
-   "url": "https://earlyretirementnow.com/feed/",
-   "erreur": "HTTPError: 429 Client Error: Too Many Requests for url: https://earlyretirementnow.com/feed/"
   },
   {
    "source": "Parlons RH",
