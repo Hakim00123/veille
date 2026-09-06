@@ -1,0 +1,947 @@
+Invest Like the Best
+Sarah Guo - Funding the Frontier - [Invest Like the Best, EP.489]
+Tue, 01 Sep 2026
+https://colossus.com/episode/no-priors-just-conviction/
+
+[00:00] RAMP is the only platform built to make your finance team leaner, faster, and better,
+[00:05] saving businesses 5% annually on average so you can stay focused on growth.
+[00:09] RAMP customers grow revenue 3.2 times faster than the average American business.
+[00:13] Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all
+[00:19] now run on RAMP.
+[00:20] Mine does too and so should yours.
+[00:22] Learn more at ramp.com slash invest.
+[00:25] Felix by Rogo is a personal finance agent that turns a single prompt into finished client-ready
+[00:30] work using your firm's own templates, context, and standards.
+[00:34] Send Felix an email like, take these comments and turn them for me.
+[00:37] Or update my tracker with the context of these emails.
+[00:40] And Felix sends back Finish PowerPoint decks, Excel models, and sourced research.
+[00:44] Felix works the way your team already does, delivering work quickly and accurately around
+[00:48] the clock.
+[00:49] Learn more at rogo.ai slash Felix.
+[00:53] OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common.
+[00:57] They all use WorkOS.
+[00:58] To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSL,
+[01:03] SCIM, RBAC, and audit logs.
+[01:06] Instead of spending months building these mission-critical capabilities yourself, you can just
+[01:10] use WorkOS APIs to gain all of them on day zero.
+[01:13] That's why so many of the top AI teams you hear about already run on WorkOS.
+[01:17] WorkOS is the fastest way to become enterprise-ready and stay focused on what matters most your product.
+[01:22] Use at WorkOS.com to get started.
+[01:27] Hello and welcome everyone.
+[01:28] I'm Patrick O'Shaughnessy and this is Invest Like The Best.
+[01:31] This show is an open-ended exploration of markets, ideas, stories, and strategies that
+[01:35] will help you better invest both your time and your money.
+[01:38] If you enjoy these conversations and want to go deeper, check out Colossus, our quarterly
+[01:41] publication with in-depth profiles of the people shaping business and investing.
+[01:45] You can find Colossus along with all of our podcasts at Colossus.com.
+[01:51] Patrick O'Shaughnessy is the CEO of Positive Sum.
+[01:54] All opinions expressed by Patrick and podcast guests are solely their own opinions and do
+[01:59] not reflect the opinion of Positive Sum.
+[02:01] This podcast is for informational purposes only and should not be relied upon as a basis
+[02:06] for investment decisions.
+[02:08] Clients of Positive Sum may maintain positions in the securities discussed in this podcast.
+[02:12] To learn more, visit psum.vc.
+[02:16] Sorry, we're to begin what will hopefully be a really fun conversation.
+[02:23] I guess because you and I are interested in so many of the same things, I'm just curious
+[02:27] what's on your mind today.
+[02:29] I think we're both feeling a little frenzied and it's been going for a while and it kind
+[02:33] of feels like if anything it might get more frenzied and more chaotic both for what you
+[02:39] do but also the world around what you do.
+[02:42] So just in this moment, what does it feel like?
+[02:45] What's on your mind?
+[02:46] An obvious thing for anyone thinking about how to navigate this period as an investor is
+[02:51] just how does it unfurl and how is it different from the past?
+[02:55] What do I do if I can't back test?
+[02:57] I was talking to a investor friend last night and the analogy he gave me was, I keep saying
+[03:07] I want to press the brakes as hard as I can but I'm not doing it, go 90 miles an hour and
+[03:11] I do think the question is, do you miss the opportunity on one side or do you make the
+[03:18] mistake of every boom, bust cycle in technology history?
+[03:22] Especially if you combine that with what does it mean when you're also four years into building
+[03:26] a firm for the durability of the firm and the careers of the people?
+[03:32] I think it's a complex question.
+[03:33] Do you think that we got it right in the profile that we wrote that you're sort of making
+[03:38] a specific, I think we called it a wager, a bad, a positioning, whatever you want to
+[03:43] call it, that there is a really important fundamental thing happening between a couple
+[03:48] of labs in AI and everybody else and that we need to sort of like take up arms to make
+[03:55] sure we don't end up in like a very monolithic outcome.
+[03:58] Do you think about it that way?
+[03:59] I would answer in a maybe different way which is I believe in like the great man and great
+[04:06] woman theories of history.
+[04:08] If you have very high agency people in all of these places and they have the correct risk
+[04:13] capital or support in the network or environment, yeah, you change outcomes.
+[04:18] You look at very important questions of what happens to open source models and like US industrial
+[04:25] policy.
+[04:26] If you think about the opportunity for the ecosystem in the future, is there going to be
+[04:32] a competitive Western open source model, like it actually leads to like, did anybody
+[04:36] make one?
+[04:37] Could they like raise the money or were they willing to commit the capital and gather the
+[04:41] talent base, build all the infrastructure and fight for the frontier or not?
+[04:46] I definitely think that individual people and entrepreneurs can affect the outcome.
+[04:50] I don't necessarily think of it as a war.
+[04:53] I am working closely with and convest with and have many friends at the labs.
+[04:59] I think it's fair to say the extreme point of view that some folks may had in and outside
+[05:04] of those big labs of the owner of one, two, three frontier models consumes the economy.
+[05:12] I do not want that future very clearly and I don't think we are going to end up there.
+[05:17] Do you actively want to be a great woman in this sense of the theory?
+[05:22] No, I don't mean that from like a personal humility perspective.
+[05:25] It's just like, it's not my sort of goals.
+[05:27] I want to be the best investor in the things that I try to do.
+[05:31] So it's not out of a lack of ambition or even confidence.
+[05:36] It's, I think some people are driven by like, I want to be the person that like made this happen.
+[05:42] I thought it was going to be like a software entrepreneur for the longest time.
+[05:46] My decision that from an identity perspective, I was going to be an investor.
+[05:51] I actually have a lot to do with the idea of I'm deeply curious.
+[05:54] I like to understand things.
+[05:55] I like to be right.
+[05:56] I'm very motivated by working with extraordinary people.
+[05:59] If I have a set of skills using those to make them more successful, it's a pretty good fit
+[06:05] for early stage and rest.
+[06:07] If I want to work with the very best people and I want the companies to have impact,
+[06:11] the firm can support a movement and support change we want to see.
+[06:16] But I don't think it has to be me.
+[06:18] If that's the goal, what does it take?
+[06:20] Do you think right now to be the best in a very competitive environment?
+[06:27] Undeniably, you've done really well so far.
+[06:28] I'm curious what it has taken to be that good and what you think it's going to take in the
+[06:33] next year plus within Horizon to be that good.
+[06:37] I think it's been pretty simple so far.
+[06:38] My read of the environment was the growth of firms and generational transitions that were
+[06:45] happening meant that it wasn't the most competitive landscape in early, that it has
+[06:50] been.
+[06:51] You have this massive technology transition happening and if you took the bet on understanding
+[06:57] the technology and the community and approach it from first principles, you might have better
+[07:01] access and make better decisions than others who are less focused.
+[07:04] All you have to do is take the risk and be focused and then it's an execution play.
+[07:09] That's one of those things that I think is pretty simple and is just hard, this effort.
+[07:13] I think today it's actually been not that complicated and it's more about what your bar
+[07:17] is for the people you work with and my partner Mike and I started with a set of pre-existing
+[07:23] relationships and understanding and so I think that it's been useful.
+[07:27] Surely there must be more than just outworking everyone.
+[07:31] Mike said something interesting to me a couple weeks ago which was there's sort of 250-ish
+[07:37] people that he thinks about or you guys think about that are with some combination of entrepreneurs
+[07:43] and researchers and doing the most interesting things on the frontier.
+[07:47] Yes, the people that are actually showing up in the morning and pushing this whole thing
+[07:51] forward and that one of your goals as a firm is to be as close to those people.
+[07:56] Know them all and be as close to them and support them in as many ways as possible.
+[07:59] I really like that idea, it's a cool idea and that's more than just doing a bunch of meetings
+[08:03] with people that are starting companies from the outside looking in from the cheap seats.
+[08:06] It looks like there's more unique stuff going on than just the competitions that was low and
+[08:11] we focused more and we're executing better.
+[08:13] I'm interested in the ingredients that have been so far a part of success.
+[08:18] I won't name them but there's one well-known LP that does the survey every year of what
+[08:23] all the other fancy LP's who they most want to invest with, you're either number one or
+[08:27] two.
+[08:28] There's something going on both with the companies you've invested in with the performance so far
+[08:32] with the market perception.
+[08:33] There's something more than just okay it was a moment in time we worked really hard.
+[08:37] I'm trying to get at those ingredients that's why I'm pushing on it.
+[08:40] The point of perhaps making a bet that others wouldn't we thought very carefully about what
+[08:48] markets are going to matter and what might be different about the founders that we look
+[08:55] at in this era if we are right about capability growth and the breadth of impact that would
+[09:00] just be none obvious to other people.
+[09:02] Where's the biggest difference from the status quo?
+[09:05] How does the framework change?
+[09:06] I'll give you two examples.
+[09:08] One of the things that we were really looking for in the first year was application areas,
+[09:15] workflows and professions, tasks that we thought were a good fit for purpose for the models which
+[09:21] is a very technology forward approach.
+[09:23] Lots of people would be like this is nonsense.
+[09:25] You got to think about the customer problem and working from the customer back is the
+[09:27] only way.
+[09:28] We want to do both and if you look at Harvey and the function of the law rationally if
+[09:35] you think that we can do next token prediction with language and you knew that in late 2022
+[09:42] then law is structured language.
+[09:45] I'm not a lawyer but from the outside I'm like you need to read a lot of documents and
+[09:50] we had retrieval and you need to generate text and there's a lot of precedent text both
+[09:55] inside firms and in common law and history that feels like a really good match.
+[10:00] We also took a very specific view of what is now possible and then what is valuable within
+[10:06] what is possible and then who's aligned with us.
+[10:09] Winston and Gabe they believed that AI would transform the practice of the law in a very
+[10:16] AI-pilled way.
+[10:18] We will do enormously complex work with lawyers.
+[10:24] I don't know when it could be next year or five years from now but from the kernel of
+[10:29] I can look at a landlord-tenant agreement in California and answer a question somewhat
+[10:35] trivial to I can project to doing a Activision Blizzard M&A and doing 85% of the work.
+[10:44] That's a leap.
+[10:45] The thing that appealed to me in that moment was the ambition of what was possible then
+[10:53] and the technical logic of why it would work.
+[10:57] I think that's probably a different decision-making framework from how other people are approaching
+[11:02] in that moment.
+[11:03] What is that group talking about today, the 250 researcher frontiers group?
+[11:07] What's the most interesting thing and the most notable difference between today and six months
+[11:11] ago or 12 months ago or something?
+[11:12] It is a violently competitive landscape.
+[11:15] I think that was true 12 months ago but even more true than it was 24 and 36.
+[11:20] I think people are very concerned that it is a globally competitive landscape and there's
+[11:25] insecurity in that because I think it's a bit narrative-breaking as well.
+[11:29] I'm going to describe a belief and then question the belief.
+[11:33] The belief is with recursive self-improvement of AI research models that can improve the
+[11:41] models themselves, we are a year or two years away from some sort of exponential intelligence.
+[11:49] I think that belief is new within the last 12 months for a lot of researchers.
+[11:55] I'm the new driver of it that we're two years away.
+[11:57] Andrei Kropathy will actually in a very self-aware way say I thought it was two years away for
+[12:03] about 10 years.
+[12:04] Anything said again, to be fair, who can say?
+[12:07] I do think that there is some sense of the major labs are so compute-intensive and so
+[12:14] large from a headcount perspective now that the sense of contribution of I can move the needle
+[12:22] of opening as 200 people.
+[12:24] There's not that many researchers.
+[12:26] The question of how do we get there is really up to every single person.
+[12:31] Now the question is, well, I need $750 billion of compute spent and we have many thousands
+[12:37] of people working on this problem.
+[12:38] I think people feel less ownership of the outcome.
+[12:43] That's interesting.
+[12:44] It's just like a function of getting compute.
+[12:46] That's the thing that's going to push this thing over the line, not our own percumin
+[12:49] efforts.
+[12:50] Definitely, I think there's a large contingent of researchers who would feel that one of
+[12:54] two things is now true.
+[12:56] What I do doesn't matter anyway because the model is going to do it.
+[12:59] Or two, the only thing that matters is compute scale and both of those are somewhat disempowerant.
+[13:04] So then what are they doing?
+[13:05] If I believe both of those and I'm a top five researcher or something.
+[13:09] That says something about your psychology because you want to do something that matters.
+[13:14] I think there's also a set of scientists who want to work on the thing whether or not
+[13:18] it matters that they're working on it.
+[13:20] An entrepreneur asked me yesterday, I would not work on the companies if I felt like we
+[13:24] couldn't change the outcomes a little bit for them.
+[13:27] He asked me yesterday, would any of the companies that you back not been backed without you at
+[13:31] that round?
+[13:32] Would people have just said no?
+[13:33] 5%, 10% max?
+[13:35] They were resourceful, really talented people.
+[13:38] They would find other investors, there are lots of smart investors in the world who want
+[13:41] to take that risk.
+[13:42] Maybe they wouldn't have gone the next hundred million dollars of compute.
+[13:45] I don't think every researcher doing frontier work at these top couple labs right now feels
+[13:51] like they're essential to the machine.
+[13:53] What do you think is unhealthiest part of everything going on right now?
+[13:58] What worries you about what people are trying to accomplish and what are the things that
+[14:02] you're most worried will inhibit the future that you want to see?
+[14:06] I think compute is one.
+[14:08] People understand that very well.
+[14:11] The version of us having enough compute over the next five to ten years, and people
+[14:16] are like very much thinking about like 2032 at this point at scale.
+[14:20] I was talking to the leader for infrastructure at one of the hyperscalers earlier in the week,
+[14:26] and he's like, there was nothing that is going to move the needle for us at sufficient scale
+[14:29] before 2030.
+[14:31] That's depressing.
+[14:32] Where can we get sufficient natural gas?
+[14:35] Americans and entrepreneurs have been able to build new technologies and new capabilities
+[14:40] very, very quickly in the past.
+[14:43] I don't think it is a technology or capability or capitalism problem.
+[14:48] I think it is a regulatory problem and an alignment problem, and I don't mean like AI
+[14:54] alignment.
+[14:55] If you want to build data centers in New York, you need to convince the people of New York
+[14:59] they should want data centers there, or Americans should want data centers there.
+[15:03] If you want to make the price of nuclear competitive as base load power, then you need
+[15:11] to convince people it's safe, and you need to allow enough construction of SMR.
+[15:18] If you want thousands, yeah.
+[15:19] Yeah.
+[15:20] Yeah.
+[15:21] In order for the price to come down, because we understand how that cost curve will change
+[15:26] in theory.
+[15:27] I don't think we lack the technical and entrepreneurial capability to build abundant cheap energy
+[15:32] for the data centers.
+[15:34] That's one.
+[15:35] The physical supply chain is just a tough reality.
+[15:39] That makes me worried that the learning to build things and having the tacit knowledge
+[15:45] and the labor and the raw materials that can't go as fast as software or even decision making.
+[15:53] The only way through that is through.
+[15:55] We just have to invest in it.
+[15:56] On the investing side of what worries me, I was talking to one of our founders, several
+[16:00] of our founders who are researchers, and explaining that the quality of their storytelling
+[16:07] and their ability to make the companies that's legible to investors is obviously very important
+[16:13] to their success.
+[16:14] That's going to be a capex-intensive play up front.
+[16:19] The reality of the financial landscape for all of these people is I'm not a research scientist,
+[16:25] you're not a research scientist, and all of the capital is not a research scientist.
+[16:30] I saw entrepreneurs who go explain their story, but one of the challenges is there are
+[16:35] a lot of people attempting to invest as they should in technology bets.
+[16:42] It varies how much fundamental understanding there is.
+[16:45] There's a lot of proxying of judgment to pedigree or to other legible signals whose invested
+[16:54] references are always good, who are the referral sources.
+[16:58] The decision-making is less fundamental.
+[17:01] I asked an extraordinarily good investor friend, we had a debate like you do, and I was like,
+[17:06] I don't understand.
+[17:07] What is this company going to be?
+[17:08] That would be big.
+[17:09] Explain it to me.
+[17:11] His explanation was essentially, do you know the quality of this person?
+[17:16] Yes, I've known the quality of the person for the years.
+[17:20] The technical theory in the business don't make sense to me.
+[17:24] People are making large-scale research bets without any intuition for them or without
+[17:29] any opinion on them, and I'm like, it's not all going to work.
+[17:33] And I may not be any better at deciding, but we want to get to that intuition, and I think
+[17:38] not having a point of view on the business besides the pedigree of the person is dangerous.
+[17:44] Vanta automated security and compliance for over 16,000 fast-moving companies like Ramp,
+[17:50] Percher, and Harvey, keeping them audit-ready around the clock.
+[17:54] It's the number one agentic trust platform, and it now helps companies like yours watch
+[17:58] for the risks that show up between audits, across your vendors, your AI tools, and your
+[18:02] whole environment.
+[18:04] Every new tool your team signs up for, every vendor that turns on AI features is an opportunity
+[18:08] for something to go wrong, and most security programs weren't built for AI's pace of growth.
+[18:13] The Vanta agent works like a 24-7 GRC engineer in the background finding issues, drafting fixes
+[18:18] for you, and cutting vendor assessment time by up to 50%.
+[18:23] Whether you're a fast-growing startup or a global enterprise, Vanta helps you earn and
+[18:26] prove trust.
+[18:28] Invest like the best listeners get a special offer for $1,000 off at vanta.com slash invest.
+[18:36] Ridgeline is the first end-to-end system of record with embedded AI for investment management
+[18:40] firms, running portfolio accounting, reconciliation, reporting, trading, and compliance on one unified
+[18:46] platform.
+[18:47] Ridgeline's are moving off legacy technology and onto Ridgeline because of how far ahead
+[18:51] Ridgeline's AI features are compared to anything else in investment management software, which
+[18:56] is why I believe that firms that come out ahead in the AI era will be the ones running
+[19:00] on Ridgeline's unified platform.
+[19:02] If you're serious about your firm's AI strategy, Ridgeline should be part of that conversation.
+[19:06] You can request a demo at Ridgeline.ai.
+[19:14] Who is a researcher that has most blown you away, and how did they do so?
+[19:18] It's something that they did that to you felt extraordinary.
+[19:23] Back to the great person theory.
+[19:25] There are a number of these people who I think the history books will write about the
+[19:28] contribution of theirs as a truly extraordinary thing that created this kink.
+[19:33] What's an example of a person like that and something that you've seen them do?
+[19:36] My partner, Pronov, and I were introduced to Tony Zhao and Cheng Chi at Sunday Robotics
+[19:42] when they were PhD students at Stanford.
+[19:46] They worked at Toyota Research and DeepMind and Tesla, and so they weren't just academics
+[19:51] by any means.
+[19:53] They're young PhD students who are thinking they're like 25.
+[19:56] I think one of them didn't finish.
+[19:57] They just started the company.
+[19:59] What I thought was impressive about them then and then now I remember looking at their body
+[20:02] of work took me a while to get oriented.
+[20:05] But I think that they have contributed, do all handedly, most of the interesting ideas and
+[20:11] robotics AI over the last four years.
+[20:14] It's a pretty weird thing for two very young people to do.
+[20:18] If I try to characterize the type of ideas, it is how can I use modern AI to solve the
+[20:27] robotics generalization and robustness problem in a very practical way?
+[20:31] It is believed in robotics that if we just had the internet of robotics data, yeah, we'd
+[20:36] have fully general robots everywhere.
+[20:37] This is clearly going to work.
+[20:39] One of the big research and practical problems is like where do you get that data?
+[20:43] Some of the ideas that Tony and Chang have worked on is how can you be clever about collecting
+[20:49] the data in the cheapest way possible in a way that supports the distribution of real
+[20:54] world environments and tasks?
+[20:55] I think the creativity of thinking about the actual constraints, we don't have the data.
+[21:02] We don't have the incident dollars you spend on the data.
+[21:05] We're going to treat as a technical problem to solve of the shape of the data and the collection
+[21:10] and how to interact with the model and how much of the cheap data collection can we transfer
+[21:15] to model learning?
+[21:16] That's super interesting.
+[21:17] That's very outcomes driven.
+[21:19] I was blown away in the first meeting and we said yes immediately there, thankfully.
+[21:23] It's just under two years that the company has been around.
+[21:27] Nothing is true until it has shipped.
+[21:29] This entire team believes that we are going to have general semi-humanoid robots doing
+[21:35] things in people's homes.
+[21:37] First and beta end of this year.
+[21:38] It is not something that any of us believed.
+[21:42] It blows me away that you can move that quickly from a bunch of cardboard and a Stanford basement
+[21:48] to the full stack thing that is manufactured here.
+[21:52] We have done hundreds of iterations of hardware on model data collection and translated it
+[21:58] into tasks and tested in all these real world environments.
+[22:01] It's going to work.
+[22:02] The committee is very cool.
+[22:04] I think the speed of that is mind-boggling.
+[22:07] I still think the broad view, not everyone, but lots of people in robots are like, now
+[22:11] it's a question of when, not if.
+[22:14] It surprised me that the team was like, if not this year, next year.
+[22:19] I'm very curious about the moments of your investment decisions.
+[22:21] Like you just said in the first meeting you were sort of like, we're in.
+[22:25] Is it always like that?
+[22:26] Or are there examples of things where you like hem and haw?
+[22:29] You end up doing it and it works.
+[22:30] I would love to hear more about how you and your team make investment decisions.
+[22:34] The actual in the room process for, okay, this thing is interesting.
+[22:38] We're going to do it or we're not, we're debating it.
+[22:40] What is that process?
+[22:41] What is it like?
+[22:42] It varies based on company.
+[22:44] I'm very instinctive on people.
+[22:46] I often know I want to do something immediately.
+[22:49] If I know what somebody has worked on and then I interact with them and I share the idea and
+[22:54] I have some basis, some background in the idea, we have a rating scale, a one to 10 scale.
+[23:01] I'm like immediately an eight or a nine.
+[23:04] What I'm then doing between that and a real decision is often figuring out where the holes
+[23:10] in my understanding, where my judgment of their premise or them is incomplete or wrong.
+[23:16] What do I not know?
+[23:17] If you're an investor looking for the most ambitious, impactful companies, you can't know every domain.
+[23:25] We have biology and defense and robotics and law.
+[23:29] I'm like spending the next day to a few weeks desperately trying to ground myself and being
+[23:35] like, okay, what does everybody else believe about this space?
+[23:38] Are they the people I think they are?
+[23:40] That's what my process looks like and then I want to get feedback, I want to get like
+[23:42] second reads on people.
+[23:44] I want to understand what the core questions are.
+[23:47] I'm a memo person, even at the very beginning of the firm when it was just me, I would like
+[23:53] write the full memo, perhaps gray lock style, ship it off to a friend that was an investor
+[23:59] who I trusted for their perspective outside of the funds.
+[24:02] You and I have talked about what do you value about a partnership?
+[24:04] I'm like, I'm comfortable making investment decisions, but I think other people can make
+[24:07] me better.
+[24:08] I want people to push at the logic and have me reflect.
+[24:11] So I used to take the memo and send it to John Lilly or Dylan Field or something.
+[24:15] When we're in a memo, I go to see what Bella or Prana or Mike wants to know about the person,
+[24:22] try to complete the picture.
+[24:24] Other people I think are more even in their decision making.
+[24:27] They're like thinking about it and thinking about it and they climb to conviction versus
+[24:32] I start there and then I like work backwards, but I think the similarity between both Mike
+[24:37] and I is we'll start at a point and explain what will move us.
+[24:43] I met a really interesting company earlier this week with my partner Bella and I'm like,
+[24:47] okay, instinctively, I like am positive on it, but I don't know enough about the science
+[24:53] here and I have to like go make sure this makes sense.
+[24:57] Can you really be an eight or a nine if you don't get it?
+[24:59] No, I could get there.
+[25:01] Now, as we were talking about, it is one of my concerns for this period of time or like
+[25:05] if you don't feel like you have any grounded intuition on the bet itself, what are we doing
+[25:10] here?
+[25:11] I'm trying to think about if that's fair.
+[25:13] If Brett Taylor wanted to like dig in volcanoes or do dog streaming or something and be like,
+[25:18] yeah, of course, man, but he wouldn't do that.
+[25:22] There's some version of I don't even care if it doesn't compile in my brain.
+[25:25] The person is so undeniably good that I would just back them.
+[25:29] Brett, that was an example.
+[25:30] Yes.
+[25:31] I feel like these things are so inextricably intertwined in my mind because part of what
+[25:37] makes people great, like I was trying to help one of my companies, the candidate, yesterday,
+[25:43] and they're like, oh, what'd you see in these people?
+[25:44] And I'm like, they're just so right.
+[25:46] He's right all the time.
+[25:48] Their industrial logic is impeccable and I love these great character traits too.
+[25:52] They're amazing at recruiting, but they have a point of view that I think is going to
+[25:56] be right in the world.
+[25:57] I've seen them just make repeatedly correct decisions, including when I am wrong.
+[26:02] I don't like I have a lot of respect for that.
+[26:04] When you say like these people are amazing and part of what I think makes them amazing
+[26:08] is I believe in their judgment.
+[26:10] If I don't understand what they're doing, I can't have an opinion on their judgment.
+[26:14] Brett's doing enterprise AI.
+[26:15] I understand what he's doing.
+[26:17] If I were to build a pie chart of your time now, not when you started the firm, but today,
+[26:22] there's meeting new companies, there's helping existing companies, there's talking to researchers,
+[26:26] there's time with other people, there's talking to candidates, I have no sense of what it would
+[26:31] be.
+[26:32] If you had to sum it up, what are the things that you spend your time on and what's the
+[26:36] percentage allocation?
+[26:37] I think I spend two thirds through fifths of my time working on portfolio company stuff
+[26:45] and that is recruiting, helping people think through things, trying to influence the outside
+[26:49] ecosystem in some way.
+[26:51] Then raising money, the next largest piece is looking at companies.
+[26:57] I don't know if this is right or wrong, get paranoid about it and move the number, but
+[27:02] I'd probably see four to six new companies a week, it's not a very high volume.
+[27:06] My first couple months, my old firm, I saw 500 companies and so I'm like, wow.
+[27:12] Now I feel more calibration where I just have much more confidence I can tell.
+[27:16] The balance of my time, I am doing a combination of help one of my partners look at something,
+[27:25] meet people that might teach me something about the world and that could be a researcher.
+[27:29] If you were a purely early stage and a larger firm, you can be very myopic because your ecosystem
+[27:34] is big enough and we are very small firm or ecosystem oriented.
+[27:37] I've learned so much from just getting to know investors who think differently than I do,
+[27:42] including different asset classes.
+[27:44] I never spent that much time with public markets people before and it was very educational
+[27:48] how they think about the world.
+[27:49] I spend time with other investors of all skills and asset classes.
+[27:54] I spend time with companies.
+[27:56] Right now, we're a pharma company who is thinking about how AI is going to transform their business.
+[28:04] This is very interesting to me because I've learned a lot about what they believe about the future.
+[28:09] I did a lot but I'm leaving room my calendar for learning, feeding curiosity and then there
+[28:14] are pieces that are other parts of bridges to DC, external communication.
+[28:19] We're going by raising money.
+[28:20] I stand with the belief that I advise entrepreneurs with, which is to understand people's objections
+[28:27] to what you are doing and their questions, but you should not tell them what they want
+[28:31] to hear.
+[28:32] When I started the fundraise for Fund One, I knew a lot of LPs over a long period of time
+[28:38] already, so it was not very complicated, but I had one of my friends who is a private
+[28:44] equity investor who stated, you have to have a very differentiated story for LPs.
+[28:51] Every part of the funnel should be the specific thing I'm going to do and I'm like, let's
+[28:55] be honest, I don't know yet, but I need to raise the money so I can go experiment and figure
+[29:00] it out.
+[29:01] I never made slides and told a specific story about all the things that we attempt to do
+[29:06] now.
+[29:07] I think you don't know until you make contact with reality and think about it and you're
+[29:11] in the market.
+[29:12] There were definitely LPs who did not like that.
+[29:15] I gave people a two-pager on my background and investing history and claimed that I was
+[29:22] good at identifying extraordinary people, being useful to that set of people and being genuine
+[29:28] supporters.
+[29:29] If you combine that with investment judgment and ability to recruit, you got a starting point.
+[29:35] Something I imagine about firm culture and then we'll go execute like hell and figure
+[29:40] it out.
+[29:41] I can see how this is tough from an LP perspective and I deeply value the people who bet on us early
+[29:46] because they go right on memo for their investment committee and they're like, she's going to
+[29:50] execute like hell, we'll find out.
+[29:54] Sometimes the cleanliness of the story is what people are looking for.
+[29:58] I can't advise other managers on this because people have different outcomes.
+[30:02] If you tell people what you are going to do, life is much simpler and what you actually
+[30:06] believe, life is much simpler.
+[30:08] For me as a master, when somebody can convince me that the world works differently than I
+[30:12] thought, I'm like immediately incredibly excited.
+[30:16] Maybe I can convince people that this is just how it actually works.
+[30:19] I've met a lot more investment managers for the last four years, I knew a lot of VCs, but
+[30:24] people who are doing creative things, I really like entrepreneurial investment managers
+[30:28] as you I think do and as you might imagine, we're like, I don't want to build the firms
+[30:33] that they've built, but the creativity with which Philippe and Thomas go to or that Josh
+[30:39] at Thrive approach their business and the encouragement they have for others to approach
+[30:44] their business.
+[30:45] Well, you can do new things and you should go express your opinions in the form of your
+[30:50] investment management firm.
+[30:51] I think it's amazing.
+[30:52] What was imprinted on you watching your parents who are both entrepreneurs?
+[30:56] I think this is very helpful to me because there was no moment of my childhood or being
+[31:03] a teenager where I felt like they were not there for me, even though they worked all
+[31:08] time, both of them.
+[31:09] Can you try to resolve these things as a pretty independent kid?
+[31:14] That helps me.
+[31:15] I don't know where I was in the distribution, but I feel like I was pretty independent.
+[31:18] It helps me to think your family can make you feel like you are the center of their world,
+[31:23] but they're whole people with other interests and they want to spend time doing other things
+[31:27] too, even just recognize my own importance from the perspective of remembering what it's
+[31:33] like to be 10 years old.
+[31:35] I like my mom.
+[31:36] I love my mom and dad, and it was so cool.
+[31:40] Our family values are very similar to theirs.
+[31:42] Integrity, thinking for yourself, independence of thought, and then there's focus on family,
+[31:47] team spirit and family.
+[31:49] The independence of thought is probably the least generic one of those.
+[31:53] I think a lot of people want to be good and kind to work hard and whatever else.
+[31:57] For both my parents, it was a moral issue.
+[32:00] You cannot ever worry about what other people think.
+[32:03] I'm like far to that side of the spectrum, but I do think about it sometimes.
+[32:07] You do sometimes worry what other people think.
+[32:10] Yeah.
+[32:11] What do you want them to think that you worry that they don't?
+[32:13] I worry about raising people's competitive hackles in the ecosystem.
+[32:19] Why?
+[32:20] Because I'm a friendly person.
+[32:21] I want to be friends with everybody.
+[32:23] I don't mind competition, but the sometimes pure zero-sum competition stance of traditional
+[32:31] series A firms, series A series B firms that says, I'm going to own 18 to 25% of this company
+[32:38] and take the board and you're going to own none of it.
+[32:41] It's not conducive to a lot of collaboration.
+[32:44] There are issues with that from an incentive perspective, but the public markets orientation,
+[32:49] people are loved to tell you about their best ideas, pile in after them.
+[32:53] This is an extraordinary situation.
+[32:55] I would love to talk about why gaming and entertainment is going to be totally different
+[32:59] and people are super under-indexed on it.
+[33:02] There's part of that orientation that just appeals to me as a very positive person.
+[33:06] I'm always interested in sources of inspiration.
+[33:08] I'm curious in two ways.
+[33:10] Overall in your life, who has inspired you the most and also right now in this very moment,
+[33:15] who is inspiring you the most and why?
+[33:17] I saw my parents build a company.
+[33:18] I was like, this is so cool.
+[33:20] It's us against the man.
+[33:22] The man is very big company.
+[33:23] He's a man that's trying to kill us.
+[33:24] We can still do it just because the technology is better.
+[33:28] The product is better and the customer will want it.
+[33:31] My love and ethos goes to entrepreneurs.
+[33:34] You can make something out of nothing because you see a better future and you can do it really fast.
+[33:39] These things appeal to me in terms of what I want to try.
+[33:43] There's so much courage in that and optimism.
+[33:47] There is something poisonous that bothers me today where I think especially the post-gen-Z
+[33:53] entrepreneurial crowd think it's all marketing and brand is real.
+[33:57] Building a network is totally real.
+[33:59] No one denies that but when folks are very cynical about how the world works, how entrepreneurship
+[34:06] works, that it's just nepotism and Twitter is useful, I think that's nonsense.
+[34:13] If you focus on value and treating people well and you work with extraordinary people
+[34:18] and the vision is worthwhile, that works more times than you think.
+[34:22] There's so much cynicism about playing the game, beat marketing or fundraising and I hate that.
+[34:28] It's like this.
+[34:29] I find him very inspiring and two who knows like this, I find him very inspiring where
+[34:32] he's just like, if we just do the right thing by the customer, we will win.
+[34:37] It feels a lot more complicated than that.
+[34:39] I think he's right.
+[34:40] That seems to be working.
+[34:41] One of the huge debates right now is what to do about the fact that there are open source
+[34:46] models not American made which are competitive at the frontier of performance of AI models
+[34:55] and seem to clearly have been at least some degree based on the work of American models.
+[35:02] What to do about this?
+[35:03] What it means for the future of AI?
+[35:06] Companies love open source because they can build their own thing and base 10 and others
+[35:10] that serve a lot of inference work with a lot of these models.
+[35:13] How are you thinking about what's right?
+[35:15] What should happen?
+[35:16] What will happen?
+[35:17] The implications for business is a big, hard, important, interesting question.
+[35:22] It's a big question.
+[35:23] My point of view on what is healthy for businesses, America, the ecosystem, individuals, and then
+[35:29] there's what's already actually happened.
+[35:31] The reality is we have over the last three years increasingly competitive open source models
+[35:37] from all fronts, largely China, but definitely also the US and Europe.
+[35:42] Most recently, thinking poolside, people waiting for reflection, NVIDIA models, we will
+[35:47] have very powerful and already do have very powerful open source models from Western countries.
+[35:54] The cat is out of the bag and these are in use everywhere.
+[36:00] Even if you have no economic point of view on the labs and you just say, how is the diffusion
+[36:07] of capability going to happen in the economy?
+[36:12] There are a huge number of instances where it is too expensive, too sensitive, or too
+[36:18] slow to use the model from the frontier providers today.
+[36:23] I think that's going to increase as we learn how to do more things with AI because it's
+[36:27] actually quite expensive.
+[36:29] It's objectively true that if the capabilities are more democratized, you will see them used
+[36:34] in more ways.
+[36:35] I want to see that happen.
+[36:37] I do think that it would be irresponsible not to understand the safety profile of models
+[36:45] as they progress because you just draw the line.
+[36:48] We have companies that use frontier model capability for defensive cybersecurity and for biology
+[36:57] work.
+[36:58] If it works for those use cases, it obviously also should work in similar ways for the off
+[37:05] sets of use cases or the bioweapons, biosecurity use cases.
+[37:10] We just need to look at that reality and think about what are the other ways in which
+[37:14] you control this, but attempting to stop technological progress and openness around it.
+[37:22] If you did restrict use of open source models in the United States, you'd basically just restrict
+[37:28] law abiding American businesses and slow them down or move profits to different pockets,
+[37:36] prevent certain uses of them because the actual attackers or people who have adversarial
+[37:44] uses of these things are not affected by your restrictions.
+[37:48] You're restricting your own people.
+[37:49] My view would be there should be testing and understanding of these models at the frontier.
+[37:55] People are very worried about backdoor-like behaviors in Chinese models.
+[38:00] The thing to do would actually be have a very rigorous set of safety testing on that.
+[38:06] Let's go find out as much as we can instead of talking about how there might be this issue
+[38:10] in a speculative way where there's not been nearly enough actual research on it.
+[38:15] The future where there is broad access to intelligence too cheap to meter as Sam put it,
+[38:23] that is coming.
+[38:24] It will be supported by open source.
+[38:27] Businesses wanted to control their own destiny for economics, for capacity.
+[38:33] If given those models and the increasing democratization of the skills to post train these models,
+[38:38] build harnesses, use tasks, the economy is so big, every individual has these use cases
+[38:43] that are not going to be imagined by a researcher in a frontier lab.
+[38:49] You can't imagine the diversity of reality.
+[38:52] Even if you trusted the models to go figure out what to do, they have to get there.
+[38:58] The best way for that to happen is a ecosystem of businesses as we've always had in the economy.
+[39:04] Cheap infrastructure.
+[39:05] Do you ever worry that an alternate version of US history is that there was energy too
+[39:08] cheap to meter because we built 1,000 AP-1,000s or something?
+[39:12] Much like China is doing now in nuclear.
+[39:15] Just a set of circumstances happen such as we just didn't get that.
+[39:18] Do you ever worry about that as it relates to intelligence?
+[39:21] It does seem inevitable that we're going to have abundant, accessible, low-cost, valuable
+[39:26] intelligence.
+[39:27] Can you imagine a world where we don't?
+[39:29] Yes, absolutely.
+[39:31] I also think I can imagine very easily a world where we don't have that in a competitive way
+[39:36] because it is essential to economic competitiveness and national security.
+[39:41] There is not a version of the world where we rebuild our industrial base without automation
+[39:47] in the United States.
+[39:48] If we don't import people and our people are expensive and we lack some of the skills but
+[39:53] want to produce a lot more goods and have a more resilient supply chain, who's gonna produce
+[39:58] this stuff, people in the United States do not want to work and should not want to work
+[40:03] for $13 an hour doing a very inhuman job.
+[40:05] I don't think it is inevitable that we are competitive and I think we need to make that
+[40:10] decision actively.
+[40:12] The version of it that I think is very possible is that people are rationally afraid of the
+[40:20] impact of AI on jobs or dislike the capture of rent by a small number of technology firms,
+[40:30] rejecting the idea of being in the permanent underclass and then connecting that to a anti-capitalist
+[40:36] orientation, that contingent of thought can slow down build of energy and infrastructure
+[40:45] and industrial capacity.
+[40:47] One of the most important inputs is compute.
+[40:49] If we don't have it, we're naturally not competitive or we're at least not independent.
+[40:53] I think we're going to start talking much more about compute independence.
+[40:57] That's a big problem.
+[40:58] So on this point of compute independence, what does that mean?
+[41:01] One of the missing pieces of compute independence, the most obvious one, might be more fab capacity,
+[41:07] leading edge fab capacity here in the US or something like this, there's all sorts of
+[41:11] stuff upstream.
+[41:12] There's particular kinds of glass, very important that's controlled by basically one company
+[41:15] that TSMC has a monopoly on the supply of.
+[41:18] There's all these component parts, but if you think about compute independence, if so much
+[41:21] boils down to compute, what's to be done about it?
+[41:24] Are you trying to invest in companies that are solving that problem?
+[41:28] What is the problem?
+[41:29] Let's say a bit more about what it'll take.
+[41:31] Well, if you just work backwards from a data center full of GPUs, cooling, powering, training
+[41:37] and inference so we can support the use cases, all of those inputs, it actually looks a great
+[41:44] deal like energy independence or something like that.
+[41:47] All those inputs, there is a global supply chain.
+[41:49] I've got my TSMC mug with me.
+[41:51] There are parts of that supply chain that are like a very thin sieve in the place that
+[41:56] is not necessarily stable or accessible to the US allies.
+[42:01] A different version of the world that will take a bunch of investment and national security
+[42:06] and energy policy is, for example, Jacob Halberg is working on something called Pac-Silica.
+[42:10] It's like, okay, for every part of the supply chain, can we invest in more capacity and
+[42:18] figure out what the independent paths are?
+[42:20] I don't think that means it's all got to be created in the United States compared to
+[42:26] advantages real, but having more than one source is a position that everybody wants to be in.
+[42:32] When we think about the components that we've invested in, we've invested in the labor gap
+[42:40] for data centers and the robotics, we've invested in nuclear energy, we've invested in alternative
+[42:45] chip architectures.
+[42:47] We keep looking at people who are essentially data center builders, solar and battery installers
+[42:52] of some kind.
+[42:53] Part of this is the actual capacity build-up.
+[42:56] That's a very operational business, somewhere between operations, some technology and real
+[43:00] estate.
+[43:01] Financing.
+[43:02] Financing.
+[43:03] Absolutely.
+[43:04] That's probably the dominant thing.
+[43:05] We have not invested in it yet, despite looking very closely.
+[43:10] I'm not opposed to it, but fundamentally, I'm a technology investor.
+[43:12] I want to understand what it is that is the durable product asset before a building.
+[43:18] What are the base debates inside of conviction?
+[43:20] You've got such an interesting team, like your partner is a very technical person, amazing
+[43:25] engineer.
+[43:26] The young talent in your firm brings really interesting perspectives, so I'm imagining great
+[43:30] lively debates about things that matter, et cetera.
+[43:34] What are the big debates today?
+[43:36] A lot and I have a podcast called No Priers.
+[43:38] This premise of some of the things you believed, especially about markets as a pastor, like no
+[43:43] longer true, is an interesting one.
+[43:46] Regularly, we look at companies in domains that are not traditional software domains.
+[43:55] Not even traditional software domains, but can you make money in this market at all?
+[43:59] Venture investing in semis companies lip-boo-tan aside was like a god-awful business for the
+[44:05] longest time.
+[44:06] The returns.
+[44:07] I'm told in this.
+[44:08] Yes.
+[44:09] It is really bad.
+[44:11] That's like an example of Bella, a partner on our team, started looking at a bunch of
+[44:17] these companies, and it's obvious that the demand is there.
+[44:21] Now I think we have arrived at the conclusion that others are as well, which is, well, the
+[44:26] market is different today.
+[44:28] We are seeing consolidated at-scale demand for accelerators or even supply chain independence,
+[44:37] the big buyers of it wanted to.
+[44:39] We can't all be stuck on one line.
+[44:42] Yeah.
+[44:43] GSMC.
+[44:44] All of that is very, very valuable, and that changes the risk equation for these companies.
+[44:49] We start with pretty aligned beliefs about the direction of travel or the problems that
+[44:55] are worth working on.
+[44:56] Then a lot of the debates are like, is the market friendly to a venture-backed company
+[45:00] or not?
+[45:01] Space is not a friendly market to a venture-backed company, but is it possible?
+[45:05] Is the distribution of outcomes worth betting on?
+[45:08] That could be true in solar and batteries and nuclear in turbine manufacturing, in robotics
+[45:15] and biology.
+[45:17] These are not your favorite software markets from 10 years ago.
+[45:21] Each of them is a new debate.
+[45:22] Biology is an interesting one where by virtue of seeing the data empirically, I have now
+[45:27] strongly moved to one side of the debate.
+[45:29] What side is that?
+[45:30] People can create and capture enormous value with models in biology, and there could be
+[45:37] different AI software in biology, where the first check in a company called CHI Discovery,
+[45:43] and CHI is working with a number of top 10 pharma companies in really significant ways
+[45:49] to accelerate some part of the R&D process.
+[45:53] The conventional wisdom when we invest in this company, and I've been looking at computational
+[45:57] biology companies of different sorts for five plus years at that point, the conventional
+[46:02] wisdom was the only way you make money in biotech, or serving pharma, is by make a drug
+[46:10] and then get bio-box deals and then decide how far along that risk path you want to take.
+[46:14] What that means for the capital structure of the company is, okay, the great traditional
+[46:18] biotech firms find these principal investigators, and they own 40% of the company, and they're
+[46:22] kind of assembling these things, turning them into candidates, but most of it doesn't work.
+[46:26] It's just like a very different distribution of outcomes and structure and way to invest
+[46:31] in businesses.
+[46:32] Dumb software investors, you can't make money selling software to pharma or build platform
+[46:38] businesses in pharma.
+[46:39] The debate is, does it change with models?
+[46:43] I may strong yes now.
+[46:45] We still have a question to solve on regulatory.
+[46:48] There's the speed of the physical world, and safety is not something you can overcome easily,
+[46:54] but I think we should see a massive acceleration in cures.
+[46:58] What flipped that for you?
+[46:59] What evidence did you see from, we don't know yet?
+[47:01] We invested when we didn't know yet.
+[47:03] As part of the fun adventure, we were like, it is possible that it was worth trying.
+[47:06] It happened, yeah.
+[47:07] There's no genius here.
+[47:08] That's a $10 million contract.
+[47:10] The other piece is actually you just talk to the scientist at the customer or somebody who
+[47:16] means a user of the tool, or you see there are also end user adopted tools, product-led
+[47:25] gross tools that are working in the space.
+[47:27] Well, the customer knows if it's valuable or not.
+[47:31] The light bulb moment for the industry is when we will have a new indication or a new drug
+[47:38] that clearly the trajectory of the thing was changed, created by AI.
+[47:42] We should see a huge wave of investment and rightfully so, but it's going to happen.
+[47:46] I'm like very impressed by the speed with which pharma and healthcare overall has said,
+[47:52] yes, this is going to make a difference and we actually think it's going to change the
+[47:55] business.
+[47:56] Why do you call it conviction?
+[47:57] It's aspirational.
+[47:59] The most traditional form of early-station investing is you start early with a company,
+[48:03] you have a significant position, you never sell the position, and you work on the company
+[48:07] until it works or a soldier dies.
+[48:10] There's wonderful alignment and simplicity to that.
+[48:14] Mike and I have both had the benefit of being part of the journey for some companies
+[48:18] where it took a minute to begin to work, or it's not obvious at the beginning, the Sigma
+[48:24] notion rippling.
+[48:25] You wouldn't bet on a company hoping that it's going to take four or five years to find
+[48:30] the thing.
+[48:31] I think everybody is a product of their own experiences, including investing experiences.
+[48:36] The first couple years at base 10 were very non-obvious as well.
+[48:41] The ability to take a point of view that is not obvious in the market because the market
+[48:48] or because the people's backgrounds, whatever reason, and then just suspend doubt and act
+[48:55] with full belief until it's true or not.
+[48:57] That's a great way to be a partner to somebody building a business.
+[49:01] I am trying to build a partnership and I deeply believe this is a team sport.
+[49:06] I was talking to a friend who runs another investing firm where he is like, we don't
+[49:10] have individual ownership of our investments and I'm like, that is nonsense to me.
+[49:14] How could you run a business that way because somebody has to own the decision?
+[49:18] I don't know if this is right or wrong, but I don't know any other way to invest by saying,
+[49:23] Patrick, you must make the decision.
+[49:25] Do you believe convince us, how can we help you make that decision?
+[49:29] What have you learned about risk-taking?
+[49:31] Behind conviction, it sounds like there is often a leap of faith of some sort.
+[49:35] Obviously, if you knew everything and it was obvious, that would be priced in and there
+[49:38] would be no return opportunity.
+[49:39] Is there always a leap of faith?
+[49:41] Is that risk-taking by another name?
+[49:43] Unlike my good friends at Founder's Fund, I don't have an instinct to be contrarian, but
+[49:50] I do think it is so fundamental to decide what you think and not worry too much about
+[49:56] what other people think.
+[49:58] Other people is the dominant narratives of the period or even what different players
+[50:04] in the ecosystem that are really important, declare one way or another.
+[50:07] I think you just need to find the truth.
+[50:10] The way I would relate that to risk-taking is if you find the truth and it is wrongly priced
+[50:16] and you hold on to that, you're in good position.
+[50:18] You want asymmetric information and then the confidence to hold the opinion when other people
+[50:22] haven't come around to it yet.
+[50:24] I think a lot about how to make sure we have the information that is better than other
+[50:27] people's and then protect ourselves from noise.
+[50:30] Describe that in one more level of detail.
+[50:32] That's a great way of asking what conviction looks like today.
+[50:35] You're building that shell.
+[50:37] What are the keys to doing those two things well, both having the truth and protecting yourself
+[50:40] from the noise?
+[50:41] I want to spend my time when I'm learning about the world from somebody who is making it happen
+[50:49] are portfolio founders or the many founders who are doing amazing things outside of portfolio
+[50:54] who are doing something that surprises me or advances the frontier or really smart believe
+[50:58] something I don't.
+[50:59] These are like three different categories and I'll give you an example.
+[51:02] Mikey Schulman at SUNO is building an amazing business doing music generation.
+[51:08] Shame on me.
+[51:09] I knew Mikey, a mutual friend of ours who was an investor, asked me to invest and I stupidly
+[51:13] said no.
+[51:14] But I was just like, I don't think that many people want to make music.
+[51:18] I make music.
+[51:19] But can you turn into a social network, how much consumption is there going to be a lot
+[51:23] of questions?
+[51:24] My intuition is just wrong.
+[51:25] It's been actually somewhat wrong because I have underestimated the amount of expression
+[51:31] or entertainment and creation for a lot of AI tools.
+[51:34] I've learned something here by talking to Mikey about his business and what people are
+[51:39] trying to do.
+[51:40] So if it is founders who have companies that are creating a behavior, you don't understand
+[51:46] somebody working on the research in an interesting direction, businesses that are like here is
+[51:51] my plan for AI, all that is super educational.
+[51:55] I think the circular logic sometimes of what do people believe about the big lab strategy
+[52:02] today?
+[52:03] How can any of the applications live?
+[52:05] It's actually not that instructive for your decision making.
+[52:09] The way I think of it is any organization has a couple of key priorities.
+[52:15] Let's assume the priority for opening an anthropic team mind is AGI or ASI in a safe way where
+[52:23] they capture a lot of profit.
+[52:25] The priorities that ladder into that probably look like chat GPT adds coding.
+[52:33] Maybe there's an expansion after that, co-work, the ability to get different types of users
+[52:38] to do richer tasks and more interfaces.
+[52:41] I think you have to judge the actual competitiveness of any of those efforts, the reasonable scope
+[52:47] of them and then look at them relative to each of our companies or opportunities that we're
+[52:52] looking at, coming up with some grand strategic framework for what layer is going to win here.
+[52:58] I think it's not useful to me.
+[52:59] I feel like people spend so much of their investing energy thinking about versus I want
+[53:04] to spend my energy figuring out, if we're 1% of the way in, what is the next 99% of diffusion?
+[53:11] That's where we try to direct our energy.
+[53:14] For fun, as we wind down here, understanding this is a purely speculative question and
+[53:18] it's meant more fun than raw prediction.
+[53:20] What are some things you think are true a year from now?
+[53:22] Based on all these incredible people that you're close with, the research community, the entrepreneurs,
+[53:28] like the Sunday founders, you add it all up.
+[53:31] Things are moving fast a year is a long time and it's like reverse dog years now.
+[53:35] What do you think is notably different about the world of technology a year from now?
+[53:40] I'm hopeful that a year from now, we see Jimin's paradox in practice as we have agents and products
+[53:47] that do more of the mundane more effectively in all the domains of our lives.
+[53:54] It should look like the transformation that has happened in software engineering.
+[53:58] You have companies, I have companies where they're like, we're just going way faster.
+[54:03] I expect that some analogy like that will happen everywhere else.
+[54:10] Everywhere else.
+[54:11] When we see it in our companies, we're thinking about in one of our portfolio companies, the
+[54:19] marketing department, it's like a person in the house.
+[54:23] This is a company that serves lots of customers.
+[54:26] They need to do very traditional things, sales, enabling content.
+[54:30] What happened was the guy in charge of marketing is interested in creating leverage for himself
+[54:36] and he's like, I made an autonomous marketing department for us, the company.
+[54:41] In every function, as you learn faster, do less of the mundane, you will repurpose that
+[54:49] time somehow.
+[54:50] Do you work less now that you are more productive or they are?
+[54:56] Yeah, I work more.
+[54:57] I think this is like a core wisdom of Jensen's which is we're all going to be more employed
+[55:02] and we need to make sure that people are given access and education to the tooling that will
+[55:07] allow that to happen.
+[55:09] What you've built is incredible.
+[55:11] We've loved through the colostia side getting to know your whole world.
+[55:15] It's so distinctive.
+[55:16] You are a great example that there's always room for great, meaning there's plenty of early
+[55:21] stage investment firms when you started conviction and yet here we are four years later or whatever.
+[55:27] If you ask the people you've worked with, you made a real huge difference in their lives.
+[55:30] There's just always room for great.
+[55:31] I think that's like a great awesome lesson, especially because I love how you described
+[55:35] the early pitch was not like here's how we're differentiated at every level of the funnel.
+[55:38] We're just going to run at this thing.
+[55:40] By the end, I got so frustrated that I was just like, it's an execution game.
+[55:43] Totally.
+[55:44] I ask everyone the same traditional closing question.
+[55:46] What is the kindest thing that anyone's ever done for you?
+[55:49] I love this question.
+[55:50] I'm going to give like a collective answer.
+[55:52] I think there are so many people who are extraordinarily accomplished in Silicon Valley who care very
+[56:01] little for pedigree as soon as they have a conversation with you and they're like, maybe
+[56:05] you can help me or you have an interesting idea or maybe I just think you're promising.
+[56:11] The dominant factor in their own willingness to invest in a relationship or a person is
+[56:17] just their assessment of the idea and the person.
+[56:19] I think that's amazing.
+[56:20] That is not how most ecosystems work.
+[56:24] Ashim Chana and Anil Bussery and Joseph Van Sennelling read Hoffman who hired me at Graylock.
+[56:29] I started when I was 23.
+[56:31] People love to make fun of young VCs where they're like, ah, what a barnacle on the ecosystem
+[56:36] is a terrible experience for entrepreneurs.
+[56:37] I don't know anything.
+[56:38] They're trying to advise people who gave this kid money and I'm like, well, one, my job
+[56:42] is just to make other people successful at the time.
+[56:46] You can take any task in any job and just try to be great at the task with mimicry and
+[56:51] first principles thinking.
+[56:53] We hire earlier career people at my firm, but I do think, oh my goodness, thank you for
+[56:58] taking a shot on some random person and then investing the time to teach me how to
+[57:04] be an investor.
+[57:05] I think there were a few people who gave me advice starting the firm who I think they
+[57:13] would think of this as entirely trivial.
+[57:15] I'm just giving you my opinion, but Ravi Gupta who's now co-CEO of a new thing called
+[57:19] Ithaca, Dylan Field, Denilina Natalinsky, John Lilly who's been a long-time partner
+[57:24] and friend.
+[57:26] There are a few folks who were just like, you can definitely do it.
+[57:29] I was going to do it either way, but having the encouragement of people who believed that
+[57:34] there was room to be great and including some of our first LPs, I will be forever grateful
+[57:41] to, I guess the people who took risk with me.
+[57:43] It's beautiful.
+[57:44] The world runs on faith belief without evidence yet and still conviction and someone's ability
+[57:50] to do something.
+[57:51] Pretty cool.
+[57:52] People, we talked a lot about how people's ideas and our opinions of them are intertwined,
+[57:59] but I think that's a beautiful thing because you don't need any particular advantage to
+[58:03] have an idea.
+[58:04] The fact that folks will evaluate that and put faith in us, I could not be more grateful.
+[58:10] I've learned a lot watching you operate and talking to you.
+[58:13] This has been really fun.
+[58:15] Thanks for having me.
+[58:16] Thanks.
+[58:18] If you enjoyed this episode, visit colossus.com.
+[58:20] You'll find every episode of this podcast complete with hand out of the transcripts.
+[58:24] You can also subscribe to Colossus, our quarterly print, digital and private audio publication,
+[58:29] featuring in-depth profiles of the founders, investors and companies that we admire most.
+[58:33] Learn more at colossus.com slash subscribe.
+[58:57] You know how small advantages compound over time?
+[58:59] That's true in investing and just as true in how you run your company.
+[59:02] Your spending system is your capital allocation strategy.
+[59:05] That makes it smarter by default, better data, better decisions, better economics over time.
+[59:09] See how at ramp.com slash invest.
+[59:12] As your business grows, Vanta scales with you, automating compliance and giving you a single
+[59:16] source of truth for security and risk.
+[59:18] Learn more at vanta.com slash invest.
+[59:21] The best AI and software companies from OpenAI to cursor to perplexity use WorkOS to become
+[59:26] enterprise ready overnight, not in months.
+[59:28] Visit WorkOS.com to skip the unglamorous infrastructure work and focus on your product.
+[59:33] Rigline is redefining asset management technology as a true partner, not just a software vendor.
+[59:38] They've helped firms 5x in scale, enabling faster growth, smarter operations and a competitive
+[59:42] edge.
+[59:43] Visit ridgelineapps.com to see what they can unlock for your firm.
+[59:47] Every investment firm is unique and generic AI doesn't understand your process.
+[59:51] Rogo does.
+[59:52] It's an AI platform built specifically for Wall Street, connected to your data, understanding
+[59:56] your process and producing real outputs.
+[59:58] Check them out at rogo.ai slash invest.

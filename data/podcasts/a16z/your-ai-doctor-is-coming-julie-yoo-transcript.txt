@@ -1,0 +1,413 @@
+The a16z Show
+Your AI Doctor Is Coming | Julie Yoo
+Sun, 06 Sep 2026
+https://a16z.simplecast.com/episodes/your-ai-doctor-is-coming-julie-yoo-YEmlPria
+
+[00:00] Healthcare is one of the most expensive industries in the world,
+[00:03] yet time and medical expertise remain scarce.
+[00:06] Julie Yu thinks AI could change that.
+[00:09] The A16Z General Partner joins Sofia Du on MTS
+[00:12] to explain why healthcare may benefit more from AI than almost any other industry,
+[00:17] and why its slow adoption of technology could now be an advantage,
+[00:20] allowing it to leapfrog legacy software and move directly to AI-native workflows.
+[00:26] Julie also shares where she sees the biggest opportunities for founders,
+[00:30] from consumer healthcare and AI-native care delivery,
+[00:33] to robotics and new payment models,
+[00:35] and why the future could include an AI doctor in your pocket for life.
+[00:42] Julie, welcome to MTS.
+[00:43] Thanks so much for having me.
+[00:44] I'm so excited to chat with you,
+[00:46] and I'm so excited to get into this conversation,
+[00:48] because often in some of the conversations around AI,
+[00:52] people don't totally understand how it affects them,
+[00:55] and I think healthcare is one of the most obvious places
+[00:58] where you actually get to see that possible.
+[01:00] But before we jump into all of the details there,
+[01:03] I would love to just start a little bit with your personal story.
+[01:06] Why is healthcare one of the big problems you wanted to solve?
+[01:08] Yeah, absolutely.
+[01:09] I've been in the healthcare industry now for probably, gosh, 18 years at this point,
+[01:14] and I was too early, you know, like back then.
+[01:15] You're too early, wow.
+[01:16] I was actually a technologist by training,
+[01:17] so out of school was a software engineer in the broader tech ecosystem,
+[01:21] road code for the first seven years of my career,
+[01:23] did a lot in the early era of e-commerce and fintech and manufacturing, etc.
+[01:27] And then made a career change into healthcare,
+[01:29] right when the federal government was starting to talk about
+[01:32] how do we digitize healthcare,
+[01:34] because I'm sure I've talked to anyone about their experience in healthcare.
+[01:36] One of the first things I'll say is I'm being paper to death,
+[01:39] I'm being faxed machine to death.
+[01:40] We still have a long way to go,
+[01:42] but imagine 20 years ago when the majority of the industry
+[01:45] was actually still working on paper,
+[01:46] like doctors offices still had those paper folders in their cabinets,
+[01:50] and nothing was digitized.
+[01:51] And so the federal government decided to implement this massive program,
+[01:55] which is kind of a miraculous program when you think about it.
+[01:56] Basically what they said was,
+[01:58] we will pay doctors tens of thousands of dollars
+[02:01] to implement electronic health records.
+[02:03] And that was the way by which our industry sort of came into the modern era,
+[02:07] was for over the course of about five to seven years,
+[02:09] I would say literally 100% of doctors in the US were heads down,
+[02:13] implementing these kind of system of record electronic health record platforms.
+[02:17] And that's how we kind of came into digitization.
+[02:20] So right around then was when I made a career change thinking,
+[02:22] okay, I've now seen what great looks like with respect to enterprise technology
+[02:26] being applied to all these other industries, e-commerce, retail,
+[02:29] manufacturing, et cetera.
+[02:30] Now it's time for healthcare to have its shot in the light.
+[02:33] And of course, again, I was like 15, 20 years too early,
+[02:36] but obviously so much of the evolution that's occurred in the last 10 years
+[02:39] is really what I get excited about.
+[02:41] And I initially started out in kind of the genomics era,
+[02:44] which was one of the first areas where you saw just an explosion of data.
+[02:47] We had the human genome project,
+[02:48] we now understood the fundamental code of humanity.
+[02:51] And there was a whole industry that exploded around kind of computational biology,
+[02:55] how does genomics tie to ultimate disease and things of that sort.
+[02:59] So did a couple of really cool companies in that area.
+[03:01] And then ultimately around 2010 was when I started Chyrus,
+[03:04] which was my company, really with the thesis of some of what you described.
+[03:07] So we as consumers experience extreme access issues when we try to
+[03:11] get in touch with the healthcare system.
+[03:13] The average wait time for a primary care doctor's appointment is weeks,
+[03:17] if not months in most major cities across the US still today.
+[03:20] And when me and my co-founder started to talk to executives who were running
+[03:24] these large hospitals and physician groups in the industry,
+[03:27] what we didn't realize was they were telling us,
+[03:30] yes, people are waiting at the door.
+[03:31] But if you actually look at the way that our physicians are being utilized,
+[03:35] we're still way under 100%, which was shocking, right?
+[03:37] We had this paradox of demand at the door.
+[03:40] And yet when you looked at utilization rates of physicians time,
+[03:43] it was way under 100%.
+[03:45] And so that was the thesis behind our company, Chyrus,
+[03:48] was how do you sort of solve this patient access paradox by creating
+[03:52] a single system of appointment inventory across the healthcare system
+[03:57] and the ability to route patients to the right doctor and the right appointment
+[04:00] in such a way that you could actually effectively utilize that capacity
+[04:03] much more efficiently.
+[04:04] And so did that for an amazing nine years as co-founder and CPO.
+[04:09] But it was again in sort of like the Stone Age of health tech.
+[04:12] Yeah, more.
+[04:13] This gets to sort of my current job today.
+[04:15] Back then was imagine tech sort of like pre-stripe,
+[04:19] pre all the sort of like API layer of how you build companies and stand up companies.
+[04:23] That was effectively the situation in health tech back then.
+[04:27] Very little venture capital also going into our space back then.
+[04:30] And a lot of the conventional wisdom at the time was,
+[04:33] healthcare is just so hard, right?
+[04:34] It's a highly regulated industry.
+[04:36] Things are super slow.
+[04:37] People are understandably conservative because the stakes are very high to,
+[04:41] you know, get something wrong.
+[04:42] Yeah, if you get something wrong, the stakes are very high.
+[04:45] And so there was a reticence to believe that the kind of speed of growth
+[04:49] and scale of technology application that you would see in other industries
+[04:53] could even happen in healthcare.
+[04:55] And so it was not as popular of an industry for VCs to really kind of put their
+[04:58] half behind.
+[04:59] So back then I joke that there was like five guys who like invested in our space
+[05:03] and I raised from like all five of them.
+[05:05] But you know, it was pre-APIs.
+[05:06] I liken the work that I did literally with my own two hands as taking a chisel
+[05:10] and a nail against this concrete wall of integrating into the infrastructure of
+[05:16] healthcare.
+[05:16] And so it took a lot of time, a lot of capital.
+[05:18] It was really hard to recruit talent back then because it just was an
+[05:22] unsexy industry, right?
+[05:22] If you had a choice of going to Google versus trying to build these 1970s
+[05:27] systems, like why would you choose to come into our space?
+[05:29] So we did it the hard way.
+[05:31] But great outcome.
+[05:32] We actually just sold the company last year.
+[05:33] Congratulations.
+[05:34] Thank you.
+[05:34] Yeah, and decade paid off.
+[05:37] It was like a 15 year overnight success.
+[05:39] But in that time, so many things occurred to really mature the industry in so many ways
+[05:44] that now I would argue this is our moment in health tech.
+[05:47] And I've now been an investor.
+[05:49] After I stepped down from my company, I came to the dark side and I now run the
+[05:53] healthcare investing team at Andreessen.
+[05:55] And what's occurred over the last seven years, like literally since I've joined the firm,
+[05:58] is really remarkable.
+[05:59] So one, obviously we had COVID, which I think was a huge reason why people were forced to
+[06:04] recognize the need to create a digital modality for engaging with the healthcare system.
+[06:10] And it really tore apart a lot of the previously held assumptions about how healthcare needs
+[06:15] to work in terms of everything from how are physicians credentialed to practice medicine.
+[06:20] Historically, it's been a very sort of local system where we sort of deliberately constrained
+[06:25] supply in healthcare in weird ways.
+[06:27] So you have to get licensed at the state level.
+[06:29] And it was not the case that doctors typically would have a license to practice medicine outside
+[06:33] of their state.
+[06:34] But with telehealth, all of a sudden you had this national scale demand for clinical services.
+[06:38] And so lots of states and federal agencies had to kind of rethink from first principles.
+[06:43] How do we relax some of these constraints to enable people to get access to care when you can no
+[06:48] longer go in person?
+[06:49] That was one, another was kind of the way that we pay for healthcare.
+[06:52] Telehealth previously was in many cases was not paid for unless you had previously had an in-person
+[06:57] visit with a doctor.
+[06:59] So we had to relax a lot of those roles.
+[07:00] So there was a lot of tailwinds in the industry during that period that sort of led to acceleration
+[07:05] of the ability to build tech companies in this space.
+[07:07] And then obviously AI.
+[07:08] I mean, I think I've declared loudly that I believe healthcare is the industry that will benefit
+[07:13] the most from AI for many reasons that I'm sure we'll talk about.
+[07:16] But the level of accelerated growth and scale and adoption that we've now seen in the last,
+[07:22] let's call it three to five years post AI, I think is proving that point and demonstrating
+[07:26] that the moment is here for digital health to be a thing.
+[07:30] Definitely.
+[07:30] But it's so fascinating getting to hear your story because you understand how technology has
+[07:34] affected the healthcare industry for over multiple decades.
+[07:38] And you've got to see when you're way too early, as you say, I like how you mentioned your 15
+[07:43] year overnight success, that is- Which most startups are.
+[07:47] Exactly, most startups are.
+[07:48] I'm going to quote that for my parents.
+[07:49] I'm like, no, no, I'll be a 15 year overnight.
+[07:51] Just you wait, just you wait.
+[07:53] But as you alluded to, healthcare, it's been a long time coming.
+[07:57] This was maybe prior when you were starting your startup.
+[07:59] It wasn't as sexy of an industry.
+[08:01] It was harder to get talent.
+[08:02] It was harder to get capital.
+[08:04] But it seems to me that that's no longer the case, even if what you're seeing with Dario,
+[08:08] where he's saying, okay, we're doubling down in health.
+[08:11] We're going to cure cancer.
+[08:13] I talk to startups all of the time, especially in AI.
+[08:16] And one of the common themes that we're seeing is that they're going towards the hard problems.
+[08:21] The ones that are really bureaucratic.
+[08:23] The ones that are legacy that, if you solve it correctly, literally saves hundreds of thousands,
+[08:29] millions, billions of lives.
+[08:32] And so I'm so excited to see that.
+[08:35] And I would love to just get your opinion.
+[08:37] What shifted?
+[08:38] What was the big change over the past few years that gave us this renaissance,
+[08:42] this healthcare industry renaissance that we're in?
+[08:44] I think it was a confluence of factors.
+[08:45] So I mean, exactly to your point, it's always been the one industry that literally impacts everyone.
+[08:50] Every single life has some interaction with the healthcare system at some point.
+[08:53] And typically, it's a very negative experience, unfortunately.
+[08:55] And so I think one thing is that just consumers have gotten to a certain breaking point where,
+[09:00] especially as all of the experiences and the rest of our life, right?
+[09:04] If you think about how Uber has changed transportation, how Airbnb has changed travel,
+[09:08] how Instacart has changed the way we think about food, et cetera, et cetera.
+[09:12] Our standard and our bar for what we expect from any service industry has gone way up
+[09:17] while healthcare is kind of state stagnant.
+[09:18] So I think that gap has really gotten to a breaking point where consumers are saying,
+[09:22] I want to vote with my feet and my dollars to get better services wherever I can get them.
+[09:26] So that's been one big change.
+[09:28] I think at the same time, the incumbent industry is under extreme siege, right?
+[09:33] So if you think about large hospital systems, large insurance companies, employers,
+[09:38] but the majority of the bill for most insurance fees and premium dollars for a vast majority of
+[09:43] Americans.
+[09:43] And so all of these organizations are sort of experiencing increased cost structure, right?
+[09:48] So labor has gotten much more expensive, labor has gotten much more constrained.
+[09:52] We did unfortunately have a big sort of out flux of talent from the healthcare industry
+[09:57] because of COVID because it was such a stressful and arduous time that a lot of people said,
+[10:01] I'm throwing the towel in and I'm going to go do something else with my medical training.
+[10:05] So at the same time, the government has also really come down on cost, right?
+[10:10] And said, we have just unsustainable amounts of bloat right now.
+[10:14] And this is a little bit of a rattle, but one of the reasons that healthcare appears to be so esoteric
+[10:20] is that we have this weird third party payer system, right?
+[10:22] Like the vast majority of your healthcare is not paid for by you.
+[10:25] And so you don't necessarily feel the pain with every dollar that you're spending in the healthcare
+[10:29] system. And therefore, there tends to be a lot more bloat than if you would have with a free market
+[10:35] dynamic. And so the government's coming down on that, payers in general are coming down on that.
+[10:40] So you have all this cost pressure on the incumbent system that has driven traditional
+[10:46] providers and payers to say, our business model no longer works. The math doesn't math anymore,
+[10:52] and we can't continue to sustain this kind of payment modality. And AI, like I would say,
+[10:57] certainly AI in some ways was the straw that broke the back where historically,
+[11:02] because healthcare is such an esoteric, scarce training-oriented industry where you literally
+[11:09] have to go to school for at least seven years and train and to even become a specialist service
+[11:15] provider in our industry. So the bar to being able to create technology that could replicate
+[11:22] anything that's close to that level of expertise has been really difficult,
+[11:25] until we now have this abundant intelligence capability that we have with LLMs.
+[11:30] And so I think that those, I would say, are the major complaints of factors that have now
+[11:36] resulted in a recognition by both the supplied side and the demand side that things need to change.
+[11:41] And I mean, the last thing I'll say is that one of the ways by which the system had reacted to this
+[11:46] kind of cost-bloat in the past was to say, okay, if you have, let's say, insurance covered by your
+[11:52] employer, you know, historically the employer covered the majority of the costs and you didn't
+[11:56] really feel any of the financial pain. Now, what they started to say like a few years ago was,
+[12:00] okay, let's actually do some cost shifting. Let's actually give consumers a little bit of skin in the game
+[12:05] and say, okay, we're going to have deductibles. And so up to $1,000, your insurance is not going to
+[12:11] kick in. So anything under that, you're going to have to pay for. And then that actually is what
+[12:15] caused consumers to realize, okay, gosh, I have to pay how much for what kind of crappy services and,
+[12:21] you know, people really start to feel it directly. And now you have this proliferation of
+[12:26] services to kind of fill that void, right? We have amazing companies that you can pay literally
+[12:30] $10 per month out of pocket to get incredible, incredible services that when compared to what you
+[12:36] could get for that same amount of dollars with the traditional healthcare system is just 1,000 times
+[12:41] better. And so that's what really, I think, has caused the adoption wave that we've seen by just
+[12:46] individuals. Interesting. So what I'm hearing is there's some systemic shifts around how
+[12:50] healthcare is just paid for. And that's really been changing over the last two years.
+[12:55] And then of course, what exists now with technology and AI. And one of the things that you argued
+[13:00] is that healthcare may benefit more from AI than arguably any other industry.
+[13:06] And so I want to just unpack a little bit more about where exactly you can see AI's benefits
+[13:12] when it comes to healthcare. One of the areas that we were just talking about yesterday
+[13:16] is in discovery of diseases and drug discovery. But there's still a whole development pipeline
+[13:23] that doesn't totally benefit the consumer until maybe it goes through a bunch of clinical trials.
+[13:29] I know there's a lot of different angles. If we could just briefly touch upon the whole staff,
+[13:34] where is AI actually playing? How will I as a person, as a consumer, as a customer, how will I
+[13:40] feel this benefit? Yeah, absolutely. I'll talk about it in a couple of different ways. One is the
+[13:45] industry itself has been almost like antithetical to technology adoption historically. We literally
+[13:50] have been the lowest in terms of dollars spent on tech relative to revenue, like the lowest of
+[13:58] the lowest in terms of industries. And so one thing that's changed now is kind of this leapfrog
+[14:05] dynamic, where when you think about every other industry, they spent the last couple of decades
+[14:09] laying down workflow sass rails, like software service companies. And they had this whole middleware
+[14:14] layer on top of infrastructure that they spent tens of billions of dollars on, trained a whole
+[14:18] generation of workers on. And then when AI came along, they said, oh, my God, we have to rip and
+[14:22] replace this whole previous paradigm of technology and replace it with agentic AI and retrain our
+[14:28] whole generation of workers on that modality. Health care for better for worse did not spend
+[14:33] that amount of money, right? So we only had really like the ERP layer with EHRs and then labor.
+[14:38] Like we were just throwing bodies at every problem. And so in some ways, we have less of a
+[14:41] sunk cost bias as an industry to say, okay, this new technology paradigm has come along,
+[14:45] and we can just leap right to it. We don't have to worry about ripping out 20 years and
+[14:50] tens of billions of dollars worth of middleware software. We can actually just go directly to
+[14:54] this agentic form of technology. And that's actually been a huge boon to many of the companies
+[14:59] that sell into the space. So the other, I wrote a blog post about a year ago that talked about the
+[15:04] fact that historical eras of technology adoption and healthcare were always very unnatural. Like
+[15:09] what I talked about earlier, you had to pay doctors to adopt technology, you had to have a pandemic to
+[15:14] force people to use telehealth. This is currently is the only like the first real organic adoption
+[15:20] wave that we've seen in health tech where doctors are just using AI scribes because they freaking
+[15:25] work and they're so good and they really change the nature of their job for the positive. And you're
+[15:31] seeing a lot more of this almost like PLG lead motion where individual physicians and frontline
+[15:36] workers actually have agency and being able to use these tools in a much different way. So that's
+[15:40] one part that's happening more on kind of the enterprise side. On the consumer side, you know,
+[15:44] thank you, Chechi, BT and Claude. Like everybody is going to LLMs for health related questions,
+[15:50] right? And they're pretty damn good, right? And they've gotten a lot better since the early days
+[15:55] when they first came out, less hallucination, much more, you know, sort of actionable advice
+[16:00] and recommendations. And they're starting to like forward integrate into actual marketplaces
+[16:04] where you can get advice from Chechi BT and then go book an appointment with the real doctor.
+[16:09] And so I think that's just taught a whole generation of humans. There's number one,
+[16:13] just a much more low friction way to get medical advice, even if the medical advice might not be
+[16:19] regulated and licensed and fully validated in the way that you would get from doctors.
+[16:24] The trade off is I either have to wait four months to get a real doctor's appointment
+[16:30] or go to an emergency room and pay $2,000 or I can just open up my phone. And so I think that
+[16:36] trade off again, that Delta makes it incredibly easy for people to just go to the lowest friction
+[16:40] place. And so I think people, the consumers are now educated that there's a better way.
+[16:45] And now we have a whole wave of new companies, many of which we've invested in that are taking
+[16:51] a specialized approach to how we leverage AI to create consumer experience, consumer grade experiences
+[16:56] where you're now seeing like a company, we have a company called Council Health in our portfolio,
+[17:01] which is literally an AI native doctor practice that is a 24 by 7 asynchronous chat modality
+[17:08] with real doctors. Imagine chatting with your chatbot, but having an actual licensed MD in the chat
+[17:15] who can fully prescribe, who can fully refer, who can fully diagnose. And so you kind of get
+[17:19] the best of both worlds of AI native care with real doctors who can actually provide clinical
+[17:25] utility. And so you're seeing the advent of these new capabilities that literally were not possible,
+[17:30] even just a few years ago.
+[17:31] One of the things that just wasn't possible a few years ago that I wanted to bring up,
+[17:34] there was this hackathon by Enthropic AI and AWS cloud. And it was called the rare disease real
+[17:42] kid hackathon and they had $50,000 in prizes. And the way that they did it is they actually
+[17:48] had a child, they uploaded the kids genome is and the clinical data, and they shared it with
+[17:54] the community, of course, with parental consent. And people were able to actually
+[18:00] understand, yeah, and generate insights. And I saw this and I was amazed. This is so cool.
+[18:08] You can actually, for specialists, it's really hard to find specialists, especially for rare
+[18:14] diseases. Those are children with rare diseases. There's so little resources actually going into
+[18:21] this, the money doesn't actually make sense. And so seeing this, I was like, wow, this is amazing.
+[18:25] This is one really clear example of how AI can actually play out, can actually save human lives.
+[18:33] Curious to hear what your opinion was of this whole hackathon, if you saw it.
+[18:36] Yeah, no, absolutely. I mean, I think every day, I mean, one of the most exciting things is that
+[18:40] like literally every day on my ex-feed, I will see 100 examples of something like that. And
+[18:44] I think to me, there's sort of three parts. One is how do you lower the barrier to access
+[18:50] intelligence, which again, that barrier used to be a real kind of impediment to people getting
+[18:56] access to healthcare. Now that thing, that's really got gone away. And then I think now the question
+[19:01] moves towards what do you do about it? Once you actually understand a bit more about what your
+[19:05] issue might be or what diagnosis you might have, you still need to, number one, get that verified.
+[19:09] You might need actual testing or kind of clinical grade testing to get it fully diagnosed.
+[19:15] You might need to be either prescribed a therapeutic or a procedure or get some sort of in-person care.
+[19:22] And then there's the longitudinal aspect of it as well. A lot of the way that people are using,
+[19:25] which is great. I mean, medical AI today is highly transactional. Imagine if you can have a doctor
+[19:30] for life that's powered by that kind of modality, what that could mean for life. So I think the first
+[19:37] bucket is being solved by a lot of these generalist tools. I think it's really the second and third bucket
+[19:42] that therein is the opportunity for help tech builders to really take a crack at that last mile
+[19:47] of what we do about it and how do we stay with you for life until it's resolved until the next
+[19:53] issue comes up, et cetera. That's so cool. One thing I wanted to get your opinion on since now
+[19:57] you're on the investor side coming from the builder side to now the investor side, you
+[20:02] one, have to make a bit of predictions about where things are going to go. And two, you get to see
+[20:09] the opportunity landscape almost at a macro level. And so someone is coming to you for maybe advice
+[20:16] or there's a founder who is asking, okay, Julie, where do I go? What are the big opportunities here?
+[20:23] What are the big problems that still need solving? What advice would you share?
+[20:27] Yeah. How much time do we have? I mean, there's the opportunity. It's like the best time to be
+[20:31] building in this space. I'm so jealous about my founders who get to be building right now.
+[20:35] I think probably a couple that I would highlight that we've written about recently.
+[20:38] So folks can check out our theses on this. One is definitely the consumer angle. I joked a
+[20:45] few months ago that if you had come to any investor, let's call it seven years ago and pitched a
+[20:51] consumer health business, you would have been kicked out of the room because there was no
+[20:54] viable business model. It was not clear that consumers understood and had agency to really take
+[21:01] control of their health, et cetera. And the payment models were not there. So now that all
+[21:07] that's changed and some of the fastest growing companies that we see in health tech are cash pay,
+[21:12] you just pay out of pocket for a service at a disruptively low price. I think that's actually the
+[21:17] biggest lever that's changed is even if you could pay for things out of pocket historically,
+[21:22] the price was prohibitive. And now because of the magic of AI, the cost structure to deliver an
+[21:28] actual medically credible service is 100 times lower than it used to be. And so you're seeing a whole
+[21:34] proliferation of an entirely new marketplace of products that were designed for the consumer,
+[21:40] not like historically where you had to design for the insurance company and the doctor.
+[21:44] And then consumers almost as an afterthought, consumers are now at the top of that pile in a
+[21:49] really exciting way. So we wrote a piece called consumers are the new payer basically to sort of
+[21:54] recognize that trend. So that's one big area. Another post that I had just last week actually was
+[22:01] one where we made the argument that the best companies right now are those that are AI native
+[22:06] and AI proof. And it kind of gets to what I was saying earlier, where yes, you can have an amazing,
+[22:11] you know, medical sort of general medical intelligence LLM that answers a bunch of questions that,
+[22:17] you know, historically you had to go wait for six months to see a specialist to get.
+[22:22] But what about the rest of it, right? So how do you actually deliver in person services to
+[22:25] people who can't travel to the hospital? How do you actually do how do you take a blood draw and
+[22:30] actually diagnose like what you actually have? How do you, you know, do all the things that today,
+[22:35] at least in our country, are not like legal to do, you know, lest you have some sort of
+[22:41] regulated entity. So we have a lot of companies that on the outside, and this kind of mirrors a
+[22:47] lot of what we saw in the first era of tech, you know, more broadly where you had kind of these
+[22:50] challenger businesses that were full stack in nature. So like from the outside, they might just
+[22:55] look like a retailer or just look like some kind of service provider. But on the inside,
+[23:00] they were obviously highly I native and therefore had a surface area that was not achievable,
+[23:05] you know, through historical means and a cost structure that was disruptive such that they
+[23:09] they can continue to invest in innovation because they had high margins. We're seeing a ton of companies
+[23:14] that are embracing kind of the best of both worlds in that way. So I think AI native airproof
+[23:19] combination is a lot of where the excitement is. Hardware companies, you know, are included in that.
+[23:24] So I think, you know, robots are like, I think there's product market fit between, you know,
+[23:30] what robotics companies can do and what is necessary in really like high acuity healthcare
+[23:35] settings. And then the final thing I'll say is like insurance, like the payment rails are
+[23:42] one of the reasons that like, you know, people look at healthcare and they say, oh, it's so
+[23:45] screwed up like it's so like, why it's so screwed up? I'm like, it's actually designing exactly as
+[23:49] planned. Like if you actually study the innards of how incentives are aligned based on the payment
+[23:55] system that exists in healthcare, it results in exactly what we experienced today. And so there's
+[24:00] a lot of really ambitious companies that are saying, what if we blew up that current healthcare
+[24:04] payment modality and built a new one from scratch? And, you know, that is amongst probably the
+[24:10] most ambitious things that you could do is kind of build almost like a mini healthcare system
+[24:14] in one company, but there's companies like devoted health and others who are doing this.
+[24:17] And I think now it's possible because again, the cost to entering into building a company in our
+[24:24] space has gone down because all this infrastructure now exists. You can do so much more with AI and
+[24:29] the appetite from the system, both in terms of consumer customers, as well as the traditional
+[24:36] ecosystem is there in a way that's never been before.
+[24:38] Oh, that is so exciting and exciting to hear. My last question for you,
+[24:44] what predictions do you have that will be true in a decade from now?
+[24:48] I would love to one day tell my kids around the future because yeah, back in my day,
+[24:53] healthcare was X and now. Yeah, yeah. What do you think?
+[24:57] I mean, I think so getting to your example about the sort of role your own genome analysis,
+[25:02] I do think there will be a lot of role your own healthcare where you will have N of one solutions
+[25:07] that are only like super personalized to you, but still get the benefit of the broader
+[25:14] set of intelligence that everybody's contributing back to. I mean, one of the interesting things about
+[25:18] healthcare is that in order to train a model in healthcare, I would argue that we actually
+[25:22] don't even have the data sets necessary to truly train a medical grade AI because we rely heavily
+[25:29] today on electronic health record data, which is really sporadic, right? Like how many times
+[25:33] you actually go to see a traditional doctor in your life. It's like maybe at best once a year.
+[25:38] So there's a whole narrative arc of your experience as a patient that is absent from pretty much every
+[25:45] data set that exists today. So I think a lot of companies will start doing these kind of N of one
+[25:49] experiments that generate the new data rails that then drive the next generation of models that are
+[25:54] built in our space. So I think N of one health is a big idea. And I think all of us will genuinely
+[26:01] have an AI doctor in our pocket for life. So cool. Yeah, we'll all have a personalized specialist
+[26:06] that knows us better than anything in the world. That is so exciting to see. And this is one of the
+[26:11] reasons I am such a big tech optimist and so excited for the future and how technology is impacting the
+[26:16] future. And you touched upon directly some very concrete reasons. But Julie, really wanting to thank
+[26:21] you for joining us today on MTS. Absolutely. It's such a great conversation. Thanks for having me.
+[26:25] Thank you so much for joining. Thanks for listening to this episode of the A16Z podcast.
+[26:33] If you like this episode, be sure to like, comment, subscribe, leave us a rating or review,
+[26:38] and share it with your friends and family. For more episodes, go to YouTube, Apple podcast,
+[26:43] and Spotify. Follow us on X and A16Z and subscribe to our sub stack at a16z.substack.com. Thanks
+[26:50] again for listening and I'll see you in the next episode. This information is for educational
+[26:56] purposes only and is not a recommendation to buy, hold, or sell any investment or financial product.
+[27:01] This podcast has been produced by a third party and may include pay promotional advertisements,
+[27:05] other company references and individuals unaffiliated with A16Z. Such advertisements,
+[27:10] companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of
+[27:15] its affiliates. Information is from sources deemed reliable on the date of publication,
+[27:19] but A16Z does not guarantee its accuracy.

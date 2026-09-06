@@ -1,0 +1,3229 @@
+Generation Do It Yourself
+#564 - VF - Mati Staniszewski - ElevenLabs - « L’humain a été fait pour parler, pas pour écrire »
+Sun, 06 Sep 2026
+
+
+[00:02] Moi, c'est Mathie, je suis l'un des co-fondateurs d'Ilevenlade.
+[00:09] On est 600 personnes, on est à 600 millions d'aerreurs.
+[00:11] Bien sûr, on veut bâtir une entreprise mondiale,
+[00:13] mais aussi construire un écosystème européen solide.
+[00:16] En tant qu'entreprises, on poursuit deux objectifs.
+[00:18] Le premier, c'est la recherche et le second,
+[00:20] c'est de transformer cette recherche en produire réellement utilisable.
+[00:22] Tout a commencé en 2022 avec notre premier modèle
+[00:24] qui était un système de synthèse vocal, un texte to speech.
+[00:27] Donc je t'envoie un texte et toi, tu me fabriques une voix, c'est ça ?
+[00:30] Exactement, du coup, on travaille régulièrement avec des associations
+[00:32] qui accompagnent des personnes qui ont perdu leur voix
+[00:34] que ce soit cause d'un cancer de la gorge, de la maladie de charco
+[00:36] pour recréer leur voix pour qu'elle parle à nouveau.
+[00:39] On était convaincus que c'était le principal obstacle
+[00:41] dans la communication entre les humains et l'IA.
+[00:43] C'est là que se trouve la plus grande opportunité.
+[00:45] Si on veut profiter pleinement de l'IA,
+[00:46] il faut pouvoir communiquer avec elle naturellement
+[00:48] et c'est précisément le problème qu'on veut résoudre.
+[00:50] Un futur qui serait vraiment super intéressant,
+[00:51] c'est quelque chose qui ressemblerait à Jarvis dans Ironman.
+[00:54] Tu pourrais poser des questions ou demander de l'aide.
+[00:57] C'est franchement triste de voir tout le temps en compasses
+[00:59] devant nos écranes, tu marges dans la rue,
+[01:00] et tout ce que tu vois, c'est déjà arrivé sur leurs téléphones.
+[01:02] Moi ce que j'espère c'est que dans le futur,
+[01:03] la technologie nous permettra de revenir à des échanges plus humains.
+[01:06] J'espère que les appareils vont passer à l'arrière-plan.
+[01:08] On doit faire en sorte que les écranes ne soient plus
+[01:10] notre principale moyen d'interagir avec la technologie.
+[01:12] Si à la fin de ma vie on pourra écrire sur ma tombe,
+[01:14] il a contribué à réduire considérablement
+[01:17] le temps que nous passions devant les écranes.
+[01:18] Alors je serai vraiment très fiert.
+[01:20] On a tout de même intégré un ingénieur
+[01:22] au sein de chaque équipe non-technique.
+[01:23] Vous vous entendez ça ?
+[01:24] Un ingénieur dans chaque équipe.
+[01:25] Même dans l'équipe des ressources humaines.
+[01:27] La finance, le juridie,
+[01:28] le financeur-ci.
+[01:29] Une de mes frais préférés qui dit
+[01:31] tu peux déléguer la réflexion par la compréhension.
+[01:33] Avec lia, c'est encore très juste.
+[01:35] Tu peux déléguer la réflexion et obtenir des réponses.
+[01:37] Mais tu ne peux pas déléguer le fait de vraiment comprendre.
+[01:40] Nous sommes la moyenne des personnes que l'offrait quand on.
+[01:48] Je suis Mathieu Stéphanie, partenaire devenue capitaine
+[01:51] et je vous propose de rencontrer des entrepreneurs sportifs ou artistes
+[01:54] qui vont faire exploser notre moyen.
+[01:56] Et on se rend donc là, il faut vraiment qu'on commence tout de suite.
+[01:59] Allez, tant pis si je n'ai pas eu le temps de tout expliquer.
+[02:02] Donc déjà on peut commencer par mettre les casques.
+[02:04] Voilà, ce sera plus simple.
+[02:05] Parfait.
+[02:06] Donc Mathieu, bienvenue à toi dans le podcast Génération de Witcher Self.
+[02:10] Pour commencer, je voulais juste vérifier quelque chose.
+[02:12] C'est le vrai Mathieu que j'ai devant moi.
+[02:13] Je veux dire, tu parles anglais.
+[02:14] Je parles anglais, oui.
+[02:16] Ok, tu parles polonais.
+[02:17] Tak, ma gamme, oui, je ne peux pas rassurer.
+[02:19] Ok, bon, je n'ai pas compris grand chose,
+[02:20] mais tu ne couilles d'une d'oblée.
+[02:22] Châche, châche, châche, châche, châche.
+[02:24] Ok, c'est quoi de l'allemand ?
+[02:25] Non, c'est pas de l'allemand.
+[02:26] C'est du Nord-Végien.
+[02:28] Nord-Végien ?
+[02:28] Oui.
+[02:29] Coréan, peut-être.
+[02:30] Non, pas coréan.
+[02:31] Ok, alors peut-être que tu es bel et bien vraiment tient au final,
+[02:33] parce que si en vérité, t'étais illévent de l'abs,
+[02:35] tu pourrais répondre dans toutes ces langues.
+[02:37] Oui, c'est vrai, c'est vrai.
+[02:38] Mais ne t'en fais pas.
+[02:39] On sait aussi traduire dans toutes ces langues.
+[02:41] D'accord.
+[02:42] Et en ce qui concerne le français,
+[02:43] je parle pas encore très bien.
+[02:44] Mais j'essaie d'apprendre.
+[02:46] Progressive.
+[02:47] C'est vrai, c'est cool.
+[02:48] D'ailleurs, d'après ce que j'ai compris,
+[02:49] tu n'as pas vraiment de maison,
+[02:51] c'est ça.
+[02:52] Je veux dire, aujourd'hui,
+[02:53] tu vis juste un peu partout dans le monde.
+[02:54] Effectivement, c'est pas totalement faux de présenter les choses comme ça.
+[02:59] En fait, si tu veux,
+[03:00] on est en train de construire
+[03:01] une entreprise de taille mondiale,
+[03:02] mais on est convaincus
+[03:03] que ça passe par une présence très locale.
+[03:04] Et donc, ça veut dire qu'il faut être
+[03:06] sur le terrain,
+[03:07] au plus près des gens,
+[03:08] dans toutes les villes
+[03:09] et dans tous les pays où on s'implante.
+[03:11] Et c'est aussi pour ça que je suis ravie d'être à Paris.
+[03:13] On vient tout juste d'ouvrir
+[03:14] nos bureaux,
+[03:15] rues de bachomon,
+[03:16] rues de bachomon.
+[03:17] Mais non, wow, j'adore la rues de bachomon,
+[03:18] j'adore ce quartier.
+[03:19] Et l'hôtel bachomon est vraiment sympa.
+[03:21] Je suis pas encore allé,
+[03:22] mais la rue a l'air magnifique.
+[03:23] Il y a l'air d'avoir une très bonne énergie.
+[03:25] Mais après, effectivement,
+[03:26] j'essaie d'être un citoyen du monde
+[03:27] et de voyager là où sont les équipes sur le terrain.
+[03:29] Donc voilà.
+[03:30] Notre plus gros bureau, c'est celui de Londres.
+[03:32] Mais ma ville de cœur,
+[03:33] l'endroit d'où je viens, c'est Varsovie.
+[03:34] Parce que je suis polonnée.
+[03:35] Et aujourd'hui, une grande partie de nos équipes sont réparties
+[03:38] entre les Etats-Unis et l'Europe.
+[03:40] L'Europe, c'est notre point de départ.
+[03:41] Et on continue d'investir énormément.
+[03:42] Et actuellement, on se développe aussi en Asie.
+[03:44] Donc, on est vraiment présent
+[03:46] à tous les grands marchés stratégiques.
+[03:47] Et depuis peu, on sent aussi une vraie dynamique
+[03:49] en Amérique latine,
+[03:50] du coup, on est aussi en train de monter des équipes là-bas.
+[03:52] Voilà.
+[03:53] Donc, tu vois, on est vraiment une entreprise mondiale.
+[03:54] Mais tu me diras, ça s'appliquerait à ton travail aussi
+[03:56] parce que tu vas dans le monde.
+[03:57] Oui, oui.
+[03:58] D'ailleurs, je me souviens que c'était il y a quoi ?
+[04:00] Il y a quelques semaines.
+[04:01] J'étais dans un taxi.
+[04:02] Et je me suis endormi.
+[04:03] Et quand je me suis réveillé,
+[04:04] j'ai regardé par la fenêtre et je me suis dit tiens.
+[04:05] Je me souviens de cette ville.
+[04:07] Et donc, j'ai dit au chauffeur,
+[04:08] franchement, c'est super joli avec son provence.
+[04:10] Il m'a dit,
+[04:11] on n'est pas du tout avec son provence, monsieur.
+[04:12] On est à Lyon.
+[04:13] Et là, je me suis retrouvé comme un con
+[04:15] parce qu'on vérité,
+[04:16] j'avais complètement oublié où j'étais.
+[04:18] Et juste pour dire,
+[04:20] mais normalement, on enregistre toujours tout le matin
+[04:22] au regeur du ordinateur du commencère 11h11.
+[04:24] Et il se trouve que tu es le PDG de Il Evan Labs
+[04:28] et que t'es venu avec ton t-shirt Il Evan.
+[04:30] Donc, le 11 est vraiment partout.
+[04:31] C'est vrai.
+[04:32] Et donc,
+[04:33] dans le monde de la tech,
+[04:34] si on prononce le nom Il Evan Labs,
+[04:36] tout le monde, ou presque connaît,
+[04:37] mais pour nos auditeurs,
+[04:38] je ne suis pas certain qu'il soit vraiment au courant de ce que vous faites.
+[04:40] Je pense que la plupart des gens ne voient que la partie émergée de l'iceberg,
+[04:43] c'est-à-dire,
+[04:44] les traductions que vous faites pour les vidéos YouTube,
+[04:46] les réseaux sociaux,
+[04:47] ou encore le cinéma.
+[04:48] Mais en réalité, c'est une infime partie
+[04:50] de ce que fait Il Evan Labs.
+[04:52] Et donc, aujourd'hui,
+[04:53] tu vas nous expliquer tout le reste.
+[04:55] Et pour commencer,
+[04:56] tu m'as dit que l'entreprise n'avait que 4 ans.
+[04:58] Oui, effectivement.
+[04:59] C'est fou.
+[05:00] D'ailleurs,
+[05:01] j'ai déjà reçu des fondateurs de des cacornes
+[05:03] dans ce podcast
+[05:04] et le premier qui me vient en tête,
+[05:06] c'est Alex Boises.
+[05:07] Je sais pas si tu connais Alex,
+[05:08] t'as déjà entendu parler d'île.
+[05:09] Oui, bien sûr que je connais,
+[05:10] on utilise énormément d'îles.
+[05:11] C'est un de nos principaux partenaires.
+[05:13] D'accord.
+[05:14] Donc, j'imagine que c'est plutôt l'inverse.
+[05:15] En fait, c'est d'île,
+[05:16] qui est un gros client
+[05:17] et partenaires de Il Evan Labs.
+[05:18] Oui.
+[05:19] On grandit très vite,
+[05:20] et pour ça, ils sont top.
+[05:21] Donc, c'est probablement
+[05:22] l'autre boîte
+[05:23] qui en a peine de 3 ou 4 ans d'existence
+[05:25] était déjà valorisée autour de 11 milliards de dollars.
+[05:27] Non.
+[05:28] Ce qui nous fait encore un 11,
+[05:29] parce que vous aussi,
+[05:30] vous approchez des 11 milliards de valorisation.
+[05:32] Oui, c'est assez dingue,
+[05:33] mais toutes nos évaluations
+[05:34] sont des multiples de 11.
+[05:35] Le chiffre magique.
+[05:36] J'espère juste que vous allez pas
+[05:38] vous arrêter à 11
+[05:39] et que ça ira bien plus loin pour vous.
+[05:41] Oui, oui, j'espère aussi.
+[05:42] J'espère aussi.
+[05:43] En tout cas, notre prochaine étape
+[05:44] c'est 121.
+[05:45] C'est-à-dire 11 au carré.
+[05:46] Ok, pas mal.
+[05:47] Mais avant que tu nous expliques tout,
+[05:49] c'est-à-dire comment vous avez réussi
+[05:50] à grandir aussi vite,
+[05:51] comment tout ça fonctionne, etc.
+[05:53] Je voulais te dire que ici,
+[05:54] dans le podcast,
+[05:55] on utilise énormément
+[05:56] Il Evan Labs.
+[05:57] On l'utilise probablement
+[05:58] depuis la moitié de l'existence
+[06:00] qui est l'Even Labs.
+[06:01] Et en fait, c'est grâce à Stan.
+[06:02] Ok.
+[06:03] Oui, je l'ai connu dans nos locaux
+[06:04] et qui nous l'a fait découvrir.
+[06:05] Donc oui, Stan, M. Rass,
+[06:07] qui d'ailleurs était là,
+[06:08] il y a à peine 100 minutes
+[06:09] et qui a un mec absolument génial.
+[06:11] Oui, il est top.
+[06:12] Donc c'est lui qui nous a embarqué
+[06:13] dans l'aventure et je me souviens qu'à l'époque,
+[06:15] il nous a fait tester
+[06:16] il est l'Even Labs
+[06:17] alors que vous n'en étiez qu'à vous
+[06:18] tout début.
+[06:19] Et si je dis pas de bêtises,
+[06:20] et si je dis pas de bêtises,
+[06:21] c'était pour notre premier épisode
+[06:23] dans le podcast
+[06:24] avec Sean Rad,
+[06:27] le fondateur de Tina,
+[06:28] je crois aux États-Unis,
+[06:29] il avait un accent canadien
+[06:30] assez marqué dans le doble.
+[06:31] Moi, ma voix était un peu bizarre,
+[06:33] mais ça allait.
+[06:34] Et ensuite, on a vu les améliorations
+[06:35] au fil des mois et des années
+[06:36] qui ont suivi,
+[06:37] et c'est vrai que c'était assez impressionnant.
+[06:38] Mais en réalité,
+[06:39] je sais pas vraiment
+[06:40] ce qu'il y a derrière
+[06:41] sur le plan technologique,
+[06:42] si vous utilisez votre propre élème, etc.
+[06:44] Donc, il va nous expliquer un peu.
+[06:45] Oui, avec plaisir.
+[06:46] Super.
+[06:47] Mais avant ça, si je comprends bien,
+[06:48] tu viens de Pologne
+[06:49] et en fait, au départ,
+[06:50] t'as monté la boîte
+[06:51] avec un été très vieux ami
+[06:53] que tu connaissais depuis quoi le lycée.
+[06:55] Oui, effectivement.
+[06:58] Donc, ça va faire ce que 15 ans,
+[07:00] c'est mon meilleur ami depuis cette époque.
+[07:01] Et c'est vrai qu'on a eu une chanson incroyable
+[07:03] parce que dès qu'on s'est rencontré,
+[07:05] on sait tout de suite
+[07:06] super bien entendu.
+[07:07] Et au fil du temps,
+[07:08] on a tout fait ensemble,
+[07:09] on a étudié ensemble,
+[07:10] vécu ensemble,
+[07:11] travaillé ensemble,
+[07:12] et aujourd'hui, 15 ans plus tard,
+[07:13] on a la chance
+[07:14] de travailler de nouveau ensemble
+[07:15] chez Eleven Labs,
+[07:16] et on est toujours
+[07:17] les meilleurs amis du monde.
+[07:19] Et très honnêtement,
+[07:20] pour moi,
+[07:21] Piotre a un esprit exceptionnel.
+[07:22] C'est un chercheur orpère.
+[07:24] Son parcours,
+[07:25] il était d'abord
+[07:26] dans l'informatique
+[07:27] et ensuite,
+[07:28] il s'est spécialisé
+[07:29] dans la recherche
+[07:30] sur les modèles d'IA pour l'image,
+[07:31] et il a publié plusieurs articles
+[07:33] super intéressants
+[07:34] sur comment l'IA analyse une image,
+[07:36] c'est-à-dire comment elle comprend son contenu
+[07:38] et comment elle détermine ce qui est représentée.
+[07:40] Ensuite, il a rejoint Google
+[07:42] pour travailler sur les large language models,
+[07:44] les LLM,
+[07:45] et aujourd'hui chez Eleven Labs,
+[07:46] il est à la tête d'une équipe de chercheurs
+[07:48] qui travaille sur tout ce qui concerne
+[07:50] les modèles d'interaction entre l'humain et l'IA.
+[07:52] Donc en fait, c'est ton CTO, c'est ça.
+[07:54] Oui, c'est à la fois
+[07:55] le cofondateur et le CTO,
+[07:57] mais son rôle va bien au-delà de ça.
+[07:59] Il passe la plupart de son temps à faire de la recherche,
+[08:01] mais il a aussi un vrai sens du business
+[08:03] et une intuition très juste de la direction que prend le monde.
+[08:05] Parce qu'aujourd'hui,
+[08:06] il y a plus vraiment de frontières entre la recherche,
+[08:08] les modèles,
+[08:09] la plateforme, les applications,
+[08:10] tout est en train de se mélanger.
+[08:11] Du coup,
+[08:12] il faut constamment essayer d'anticiper
+[08:13] ce qui sera possible dans six mois ou dans un an,
+[08:15] même si personne peut le dire avec certitude.
+[08:17] On ne sait pas à quelle vitesse l'IA va progresser
+[08:20] ni ce que demain,
+[08:21] elle sera capable de faire.
+[08:22] Et ça, c'est un souci majeur avec LIA,
+[08:24] parce que ces anticipations-là change plein de choses.
+[08:26] Elle change la manière dont tu construit ton entreprise,
+[08:28] les produits sur lesquels tu décides de bosser,
+[08:30] les investissements que tu fais, etc.
+[08:31] Et puis, autre, lui, il est vraiment très fort
+[08:33] pour sentir où il faut mettre son énergie
+[08:35] et où il vaut mieux ne pas la mettre.
+[08:36] Ok, oui, oui, je vois.
+[08:37] Donc, et puis, il y a un autre point
+[08:39] qui est essentiel surtout pour une boîte comme il est même l'abs,
+[08:41] c'est qu'il faut réussir à attirer les meilleurs talents.
+[08:43] Si tu veux faire avancer la recherche,
+[08:45] il faut les meilleurs chercheurs.
+[08:46] Et le problème, c'est que ces profils sont super rares
+[08:48] et donc les trouver, les convaincre de te rejoindre
+[08:50] et les faire rester,
+[08:51] crois-moi, c'est pas facile.
+[08:53] Toutes la partie recrutement, oui.
+[08:54] Et ça, c'est un autre point sur lequel Piotre est vraiment très fort.
+[08:57] Il est incroyable pour repérer les gens, incroyable.
+[09:00] Et je pense qu'aujourd'hui, on a les meilleurs chercheurs
+[09:03] au monde dans le domaine de l'audio.
+[09:04] Et au-delà d'être un bon manager,
+[09:06] Piotre est lui-même un chercheur de très haut niveau.
+[09:08] Donc, les gens veulent travailler avec lui
+[09:10] parce qu'ils veulent apprendre au côté de quelqu'un
+[09:12] qui est un expert dans ce domaine.
+[09:13] Donc, réussir à réunir toutes ces qualités
+[09:15] chez une seule personne, etc.
+[09:17] Ok, donc, elle a parti recrutement
+[09:19] et un peu plus tard, dans le podcast,
+[09:21] on parlera aussi de toute la partie recherche.
+[09:22] D'accord.
+[09:23] J'aimerais que nous explique les différences
+[09:24] entre les modèles d'images, les modèles de textes,
+[09:25] les modèles d'audio,
+[09:26] j'ai plein de questions là-dessus.
+[09:27] Et avant ça,
+[09:28] est-ce que je peux te demander de te présenter à nos auditeurs ?
+[09:31] Oui, bien sûr.
+[09:32] Bonjour à toutes et à tous.
+[09:34] Moi, c'est Mathie.
+[09:35] Je suis l'un des co-fondateurs d'Hélève Enlades
+[09:37] avec mon ami et associé à Piotre,
+[09:39] comme je l'ai déjà mentionné.
+[09:41] Mon travail se situe principalement à l'interface
+[09:44] entre le produit,
+[09:46] c'est-à-dire ce qu'on construit et comment le construit
+[09:49] et un autre aspect clé qui est le déploiement,
+[09:52] c'est-à-dire sa stratégie de mise sur le marché,
+[09:54] et bien sûr, si il correspond bien aux besoins de nos clients.
+[09:57] Donc voilà.
+[09:58] Concernant mon parcours,
+[10:00] j'ai d'abord commencé par les mathématiques pur,
+[10:02] puis je me suis orienté vers les maths appliquées.
+[10:04] Ensuite, j'ai travaillé chez Black Rock
+[10:05] où je développais des modèles de gestion des risques
+[10:07] et je les mettais à disposition des clients.
+[10:09] Ensuite, j'ai rejoint une autre boîte palentière,
+[10:11] où là, mon travail,
+[10:12] c'était de concevoir des modèles d'optimisation
+[10:13] et d'accompagner les clients dans leurs déploiements.
+[10:15] Au cours de ma carrière,
+[10:16] j'ai eu la chance de travailler sur des sujets très variés
+[10:18] que ce soit de l'optimisation des ressources du système de santé britannique
+[10:21] pendant le Covid,
+[10:22] jusqu'à des projets dans le pétrole, le gaz,
+[10:24] ou les énergies renouvelables.
+[10:26] Donc voilà.
+[10:27] Et aujourd'hui, j'ai la chance de faire la même chose
+[10:29] chez Eléven Labs et de travailler avec la meilleure équipe au monde.
+[10:33] Ça crée par cours.
+[10:34] Et est-ce que tu as déjà eu des réussites spectaculaires
+[10:38] durant tes périodes chez Black Rock
+[10:40] et chez Palentire ?
+[10:41] Je veux dire des moments où tu t'es dit,
+[10:42] wow, là, on est vraiment en train de faire quelque chose d'exceptionnel.
+[10:45] Oui, j'en ai eu...
+[10:47] Je pense que le moment qui, disons,
+[10:49] qui m'a le plus marqué,
+[10:50] c'est-à-dire où j'ai vraiment eu le sentiment
+[10:52] que notre travail avait un impact déterminant
+[10:54] sur la tournure des événements,
+[10:55] c'était pendant la crise du Covid,
+[10:56] surtout au tout début.
+[10:57] Parce qu'à ce moment-là,
+[10:58] tout s'est arrêté,
+[10:59] personne ne savait vraiment comment réagir ni quoi faire,
+[11:01] et Palentire était sollicité pour venir aider.
+[11:04] Et dans un premier temps de notre mission,
+[11:06] c'était d'organiser la distribution des e-pays,
+[11:08] les équipements de protection individuelle.
+[11:10] Donc en gros, il fallait achminer les masques, les blousses
+[11:13] et tout le matériel de protection destiné aux médecins et aux infirmiers.
+[11:16] Et le défi, c'était que tous matériels arrivent à temps,
+[11:19] partout dans le pays,
+[11:20] et surtout là où les besoins étaient les plus urgents.
+[11:22] Mais ça, c'était juste un aspect de la mission.
+[11:24] Parce qu'en parallèle, il fallait aussi qu'on comprenne
+[11:26] comment le virus se propagait,
+[11:27] ou était les principaux foyers d'infection,
+[11:29] ou le virus circulait moins, etc.
+[11:31] Et c'est en croisant ces informations
+[11:33] qu'on pouvait décider où et à quelle vitesse
+[11:35] envoyait les équipements.
+[11:36] Donc, on nous a demandé de construire des modèles
+[11:38] capable de suivre la propagation du Covid
+[11:40] et d'optimiser la distribution.
+[11:41] Et il y a un moment qui m'a particulièrement marqué,
+[11:44] c'est le jour où on est entré au ministère de la Santé.
+[11:46] Dès qu'on a franchi les portes,
+[11:48] on a tout de suite senti que tout le monde avait pleinement pris conscience
+[11:51] de la gravité de la situation.
+[11:52] J'avais jamais vécu un truc pareil.
+[11:54] Tout le monde travaillait encore d'ination,
+[11:56] que ce soit les gens de pas l'entir, le ministère de la Santé,
+[11:59] les médecins, les infirmiers, l'armée,
+[12:01] les cabinets de conseils, des entreprises de la tech, etc.
+[12:04] C'était incroyable.
+[12:06] Plus personne par les de politiques, de contrats ou de chiffres d'affaires.
+[12:09] La seule question, c'était comment est-ce qu'on peut aider,
+[12:12] comment on peut être le plus utile possible dans cette crise.
+[12:15] Et je pense que ça a été une des rare périodes chez pas l'entir
+[12:18] où tout le monde a travaillé sans compter,
+[12:20] tous les soirs, tous les week-end.
+[12:22] Et le fait de pouvoir apporter une aide aussi vital pour les gens
+[12:25] c'était incroyablement motivant.
+[12:27] Il y avait quelque chose de très sincère,
+[12:29] de très pure dans la motivation de tout le monde.
+[12:31] Et est-ce que c'était concret, je veux dire,
+[12:33] est-ce que vous pouviez vraiment mesurer
+[12:35] l'impact de ce que vous faisiez ?
+[12:36] Oui, et on pouvait clairement le mesurer.
+[12:38] On pouvait mesurer très concrètement si les équipements arrivés au bon endroit
+[12:41] et au bon moment.
+[12:42] Et on arrivait aussi à avoir une vision de plus en plus clair
+[12:45] de la manière dont le virus se propageait dans le pays.
+[12:47] Et ça, ça nous a énormément aidé.
+[12:49] Parce que si tu veux, une fois qu'on avait cette base,
+[12:51] on a pu aller beaucoup plus loin avec toute la logistique autour
+[12:54] de la distribution des vaccins.
+[12:55] Donc, on avait réussi à passer un cap,
+[12:57] dans le sens où on était plus seulement en train de réagir à la crise,
+[13:00] on essayait de l'anticiper pour limiter sa propagation.
+[13:03] Et d'ailleurs, plus tard, on s'est servi de ces outils
+[13:05] pour résoudre d'autres problèmes,
+[13:06] comme par exemple, pour optimiser les listes d'attentes.
+[13:09] Donc, oui, on pouvait vraiment mesurer notre impact.
+[13:11] Et un autre facteur, c'était la vitesse à laquelle l'aide
+[13:14] arrivait aux personnes qui en avaient besoin.
+[13:16] Mais bon, à ce moment-là, on était vraiment en pleine crise.
+[13:18] Et il y avait beaucoup moins d'équipements disponibles
+[13:20] que de personnes qui en avaient besoin.
+[13:21] Il y avait un écart énorme entre l'offre et la demande.
+[13:24] Donc, il n'y avait pas de solution parfaite
+[13:26] et nous, tout ce qu'on a essayé de faire,
+[13:28] c'était de s'en rapprocher le plus possible.
+[13:29] Oui, bien sûr, oui, c'est sûr qu'on peut toujours faire mieux.
+[13:32] Mais ce que j'essaie de comprendre, c'est qu'avant de créer
+[13:35] il est venu l'abs, dépassé par BlackRock,
+[13:37] puis par Palantir, qui sont quand même des boîtes plutôt incroyables.
+[13:40] Bon, je sais qu'elles sont aussi beaucoup critiquées
+[13:42] sur tout Palantir en ce moment, notamment en Europe.
+[13:44] Mais ce que j'essaie de savoir, c'est si quelque part
+[13:47] vous aviez déjà vu arriver l'IA avant tout le monde.
+[13:50] Parce que nous, le grand public,
+[13:52] j'ai l'impression que la vraie prise de conscience,
+[13:53] elle s'est faite avec l'arrivée de chat de GPT,
+[13:55] fin novembre 2022.
+[13:57] Mais toi, à ce moment-là, tu travailles déjà sur l'IA depuis 18 mois.
+[14:00] Quelque chose comme ça.
+[14:02] Et donc, ma question, c'est, est-ce que déjà en 2019,
+[14:05] t'avais compris que ça allait devenir quelque chose d'énorme
+[14:08] que ça allait vraiment transformer le monde à ce point-là?
+[14:10] Où est-ce qu'à ce moment-là, l'IA pour toi, c'était juste
+[14:12] un outil limité qu'on allait surtout utiliser
+[14:14] pour essayer d'exploiter des données et résoudre des problèmes spécifiques?
+[14:18] Non, remettement...
+[14:20] Non, que ce soit chez Palantir ou chez BlackRock,
+[14:22] on n'avait pas vu arriver l'IA telle qu'on la connaît aujourd'hui.
+[14:25] En tout cas, moi, perso, je n'avais pas vu venir.
+[14:27] Mais après, il y avait une chose qui était déjà vraie à l'époque
+[14:30] et qui est, je pense, encore plus importante aujourd'hui,
+[14:32] c'est cette façon de travailler au plus près des clients,
+[14:34] de vraiment plonger dans leurs problématiques,
+[14:36] de travailler avec leurs équipaux quotidien, d'être sur le terrain,
+[14:39] et ça, Palantir l'avait compris très tôt.
+[14:41] C'est d'ailleurs eux qui ont popularisé les ingénieurs déployés sur le terrain.
+[14:44] Et aujourd'hui, je pense qu'on retrouve cette même philosophie
+[14:48] dans de plus en plus d'entreprises.
+[14:50] C'est aussi l'approche qu'on a adopté dès le départ chez Eleven Labs,
+[14:52] c'est-à-dire de dire, bien sûr, il faut faire de la recherche,
+[14:55] il faut construire dès que c'est l'enproduit, mais ça ne suffit pas.
+[14:58] Il faut aussi des gens capables d'aller chez le client,
+[15:00] de comprendre ses contraintes et sa façon de travailler,
+[15:02] puis de déployer concrètement le produit dans son environnement.
+[15:05] Parce qu'au final, avoir un modèle d'y à performant,
+[15:07] c'est qu'une partie de l'équation.
+[15:09] Il faut aussi réussir à intégrer la solution
+[15:11] dans le work of the client pour que ça répond à ses besoins.
+[15:13] Donc, ça, je pense que Palantir l'avait compris très tôt
+[15:16] et c'est cette manière de travailler et de voir les choses
+[15:19] qu'on a reprise chez Eleven Labs.
+[15:21] Oui, d'ailleurs, une chose que beaucoup d'un géniaire
+[15:23] est personne avec un profil très scientifique,
+[15:25] on s'ouvre en tendance à sous-estimer.
+[15:27] C'est le déploiement, tu peux avoir le meilleur produit du monde,
+[15:29] mais si tu sais pas écouter les gens,
+[15:31] comprendre leurs besoins et faire en sorte qu'on produit
+[15:33] cintègre dans leur workflow, ça ne marchera pas.
+[15:36] J'ai entendu, je ne sais pas combien de tech dire les commerciaux,
+[15:40] les customers success manager, etc.
+[15:42] Ils ne servent pas à grand-chose.
+[15:43] Oui, sauf qu'au final, tu te rends compte que sans eux,
+[15:45] ça ne marchera pas.
+[15:46] Mais l'inverse est vrai aussi, si tu as produit émové,
+[15:48] ça ne marchera pas non plus.
+[15:49] Donc, au final, c'est une question d'équilibre.
+[15:50] Petite parenthèse, mais ton accent,
+[15:52] j'ai l'impression qu'il est plus nordique que polonais,
+[15:54] c'est vraiment le cas.
+[15:55] Oui, je pense que c'est un mélange de plus à accent.
+[15:57] Tu sais, ça fait maintenant plus de 10 ans que je vis au Royaume-Uni,
+[16:00] donc il y a probablement, même sûrement d'ailleurs,
+[16:02] un peu d'accent britannique qui est venu se mélanger à mon accent polonais.
+[16:05] Et comme on le disait tout à l'heure,
+[16:07] je passe aussi mon temps à voyager pour voir nos équipes sur le terrain.
+[16:09] Donc, donc, il s'adonne à mélange assez particulièrement.
+[16:12] Mais je ne suis pas le seul à me dire ça.
+[16:14] Beaucoup de gens m'ont dit que j'ai un petit accent scandinaire
+[16:16] quand je parle anglais.
+[16:17] Oui.
+[16:18] Mais je pense qu'on entend quand même mes origines polonaises.
+[16:20] Donc, oui, je trouve que c'est plutôt un bon mélange.
+[16:22] Et toi, ton accent y vient d'où ?
+[16:24] D'ici, je suppose.
+[16:26] Où ça en France ?
+[16:27] Ben écoute, moi, je suis originère d'une région entre la Normandie et la Corse.
+[16:31] Ça ne veut pas dire grand chose, dit comme ça.
+[16:33] Mais ça fait plus de 20 ans que je vis à Paris.
+[16:36] Donc, aujourd'hui, je dirais que je suis devenu un vrai parisien.
+[16:39] Mais oui, du coup, j'avais une question.
+[16:41] Toi, tu n'as pas grandi dans une grande ville,
+[16:43] comme Varsoville ou Cracovie.
+[16:45] Tu viens d'une toute petite ville en polone, c'est ça ?
+[16:47] Oui, je viens d'une petite ville, mais je ne suis pas vraiment un citadin.
+[16:50] Wow, qu'est-ce qui s'est passé ?
+[16:52] Oui, c'est vrai qu'on peut se demander comment j'ai fait prendre arriver là.
+[16:55] Tu comprends.
+[16:56] En fait, pour reprendre du début, j'ai grandi en banlieue de Varsoville
+[17:01] à environ 1h30 du sangre.
+[17:03] Donc, tu vois, c'était pas en ville, mais c'était pas non plus très loin.
+[17:06] Et j'ai fait toute ma scolarité là-bas en banlieue jusqu'à mes 15 ans.
+[17:10] Et ensuite, je suis rentré au lycée à Varsoville.
+[17:12] Et là, ça a été un tournant.
+[17:14] Parce que c'était un très bon lycée, je suppose.
+[17:16] Ok, et comment il s'appelait ce qu'on peut avoir un nom ?
+[17:19] Oui, c'était le lycée copernique.
+[17:20] J'y suis resté de mes 15 ans à mes 18 ans.
+[17:22] Et pour moi, ça a été une période incroyable et un moment décisif dans mon évolution.
+[17:27] Mais tout ça, ça aurait pas pu arriver sans ma famille.
+[17:30] J'ai une famille vraiment incroyable.
+[17:32] Et sans eux, je sais pas si j'aurais réussi à franchir cet étape.
+[17:35] Mon grand frère m'avait déjà ouvert la voix parce qu'il était parti à Varsoville.
+[17:38] Donc, évidemment, ma mère me poussait moi aussi dans cette direction.
+[17:41] Mais oui, on peut dire que j'ai eu quand même pas mal de chance.
+[17:44] Oui, mais quand même, c'est pas rien de quitter sa famille à cet âge-là.
+[17:48] Oui, 15 ans, c'est vrai que c'est quand même pas mal tôt.
+[17:50] Mais ce lycée a été une expérience incroyable.
+[17:53] Parce que avant ça, j'avais juste aucune idée de ce qui était possible de faire dans la vie.
+[17:57] Je pense qu'à chaque étape de la vie, notre horizon et notre compréhension du monde s'élargit un peu plus.
+[18:01] Je veux dire, jusqu'à mes 15 ans, j'avais aucune idée d'à quel point le monde était vaste
+[18:05] ni de toutes les opportunités qui existaient.
+[18:07] Et c'est en allant dans ce lycée que j'ai rencontré mon cofondateur.
+[18:10] J'ai rencontré des personnes incroyables avec qui j'ai eu la chance de travailler plus.
+[18:13] Comme par exemple, mes meilleurs potes, mi-how et piottes,
+[18:16] on était tous ultra motivés, ultra ambitieux et on voulait aller étudier à l'étranger.
+[18:21] Nos familles nous poussaient aussi dans cette direction.
+[18:23] Je veux dire, tout le monde nous encourageait.
+[18:25] Et nous, on était une bande de potes, on avait faim, on voulait découvrir plus de choses.
+[18:28] Et donc, une fois le lycée terminée, on est tous parti faire nos études supérieures à l'étranger.
+[18:32] C'est génial, ça me fait penser à ces jeux drôles, comme World of Warcraft,
+[18:35] tout quant à rire dans un nouvel endroit.
+[18:37] La map, et tu découvres tout ce qui est autour, les yeux, les ressources.
+[18:40] C'est du punesse, mais c'est hyper grand, en fait, exactement.
+[18:43] C'est exactement ça.
+[18:44] Ouais, je vois très bien parce que j'ai ressenti exactement la même chose quand je suis arrivé à Londres
+[18:47] et à New York aussi.
+[18:48] C'est l'excitation à 200%.
+[18:51] Oui, oui, c'était vraiment ça, le feeling.
+[18:53] Il faut savoir qu'à l'époque, il n'y avait pas toute cette traîne autour de l'entrepreneuriat.
+[18:57] Le parcours idéal, c'était d'aller étudier à l'étranger et ensuite de réussir à décrocher un poste
+[19:01] dans une grande entreprise.
+[19:02] Moi, je suis arrivé chez pas l'entir et un jour, je me suis dit attend.
+[19:05] Mais peut-être que je pourrais créer ma propre boîte.
+[19:08] Donc tu vois, comme je disais, à chaque étape, ton horizon s'élargit un peu plus.
+[19:12] Et t'as quitté quand la Pologne en quelle année ?
+[19:14] Je suis parti quand j'avais 18 ans pour l'université.
+[19:17] Oui, mais c'était en quelle année ?
+[19:18] C'était en 2014.
+[19:20] En 2014, ok.
+[19:21] Donc en 2014, si je ne me trompe pas la Pologne, il était déjà en plein bout, ma ce moment-là non ?
+[19:25] Ouais, ouais, tout à fait.
+[19:26] Ok, t'as des souvenirs un peu de cette période parce que moi, je suis allé en Pologne
+[19:30] alors que tu venais tout juste de naître, peut-être même un peu avant.
+[19:33] Et j'y suis retourné le mois dernier.
+[19:35] Franchement, j'ai pris une claque quand on pense à l'Europe de l'Est des années 80 à 90.
+[19:41] Aujourd'hui, ça a absolument plus rien d'avoir.
+[19:43] Je veux dire, voir sauvie aujourd'hui, c'est devenu une métropole incroyable.
+[19:47] J'exagère à peine, mais on se croirait presque à New York.
+[19:50] Et est-ce que tu te souviens un peu de la Pologne d'avant ?
+[19:53] Oui, je m'en souviens très bien.
+[19:54] En 2014, il n'y avait pas tout ça.
+[19:56] Aujourd'hui, et d'ailleurs, tu l'as vu partout à même, le centre-ville de Varsovie
+[19:59] est rempli de grattiel et de bâtiment ultromodernes.
+[20:01] Oui.
+[20:02] Mais à l'époque, la plupart n'existait pas ou alors, ils étaient en construction.
+[20:04] Donc la transformation, c'est surtout faite au cours de la dernière décennie.
+[20:07] Donc depuis ton départ, plus ou moins ?
+[20:09] Oui, exactement.
+[20:10] Mais tu sais, j'ai un peu la même expérience que toi, dans le sens où je voyage tout le temps.
+[20:13] Je viens à Londres, mais je passe beaucoup de temps à New York et à Varsovie
+[20:16] j'ai retourne au moins une fois tous les trois mois.
+[20:18] Et à chaque visite, tu vois la ville changer un peu plus.
+[20:22] Il y a de nouveaux bâtiments, de nouveaux quartiers.
+[20:25] Tu sens qu'il se passe quelque chose.
+[20:26] Il y a une vraie énergie, un enthousiasme collectif.
+[20:28] Et parce que aujourd'hui, la Pologne y est devenu une économie de plus de 1000 milliards de dollars de PIB.
+[20:33] Je veux dire, elle a changé de dimension.
+[20:35] Elle fait désormais partie du G20.
+[20:37] Et tout ça, ça se voit dans les chiffres, mais surtout sur le terrain.
+[20:40] C'est clair.
+[20:41] Et je dirais même que la mentalité des gens a changé.
+[20:44] Peut-être que certains diront que j'exagère, mais moi je pense pas.
+[20:46] La mentalité n'est plus la même qu'avant.
+[20:47] Et d'ailleurs, j'ai un peu le même ressenti ici à Paris.
+[20:49] Ça faisait déjà quelques temps qu'il y avait cette dynamique,
+[20:51] mais depuis que j'y reste plus longtemps, j'ai l'impression que les gens savent
+[20:54] que c'est possible de bâtir une entreprise mondiale.
+[20:56] C'est possible de le faire à partir d'ici et en partant de zéro.
+[21:01] Oui, c'est un point de vue intéressant.
+[21:03] Je pense que c'est particulièrement vrai dans la tech,
+[21:05] mais dans les autres secteurs, c'est probablement un peu moins le cas.
+[21:07] Oui, évidemment.
+[21:08] En dehors de la tech, c'est beaucoup plus difficile de percer à un tel niveau.
+[21:11] Mais tu sais, en polone il y a 10 ans, on ne pensait pas du tout comme ça.
+[21:14] Personne ne se disait qu'on pouvait créer une entreprise tech
+[21:16] d'envergure mondiale.
+[21:18] C'est vraiment nouveau.
+[21:19] Et je pense qu'il y a aussi notre chose qui a changé.
+[21:21] C'est qu'à l'époque, la plupart des jobs dans la tech étaient des postes de back office.
+[21:24] Alors qu'aujourd'hui, c'est très différent.
+[21:26] On vit beaucoup de front office.
+[21:27] On développe nos propres produits.
+[21:28] On est directement au contact des clients.
+[21:30] On est en première ligne.
+[21:31] Donc, tout un véritable écosystème s'est créé.
+[21:33] Et il est en plein d'effervescence.
+[21:34] Et d'ailleurs, on a récemment organisé un sommet
+[21:37] et il est venu là-bas à Varsovie.
+[21:38] Et on était environ 2500 personnes.
+[21:40] Il y avait des startups, des grandes entreprises, des grands groupes, etc.
+[21:43] Attends, 2500 personnes.
+[21:45] Et vous êtes combien chez il est venu là-bas ?
+[21:47] 450.
+[21:48] On est 600.
+[21:49] 600.
+[21:50] Donc il n'y avait pas seulement vos employés.
+[21:51] Non, non. On avait un vit-à-corpo-système.
+[21:53] Nous, à il est venu là-bas, je dirais qu'on devait être moins d'une centaine.
+[21:56] Parce que oui, effectivement, on approche les 100 collaborateurs en Pologne.
+[22:00] Et surtout, il y avait une énergie absolument incroyable.
+[22:02] Tout le monde avait envie d'aller vite de construire, de faire avancer les choses.
+[22:06] C'était génial.
+[22:07] D'ailleurs, franchement, à tout ce qui nous écoutent ou qui nous regardent,
+[22:10] je vous conseille vivement d'aller faire un tour à Varsovie.
+[22:13] Impreniez-vous de l'ambiance et travaillez avec des pollonées.
+[22:16] Je vous jure que c'est vraiment impressionnant.
+[22:17] J'ai un pression qui est un mélange entre l'énergie américaine
+[22:20] et d'une certaine façon, le rythme qu'on est associé à la Chine.
+[22:24] La vitesse d'exécution est assez bleufante.
+[22:27] On en parlait déjà avec Raphaille, le fondateur d'Inpost,
+[22:30] et on l'avait été frappé par l'autonomie, l'ambition et la rapidité
+[22:33] avec laquelle travaille les pollonées.
+[22:35] Oui, d'ailleurs, Raphaille et toute l'équipe d'Inpostes sont un excellent exemple.
+[22:38] Parce qu'ils ont réussi à innover dans un secteur
+[22:40] où on s'y attendait pas forcément.
+[22:42] La livraison de Collie avec leurs consignes automatiques
+[22:44] c'est un modèle qui n'existait pas avant,
+[22:47] ou du moins pas sous cette forme, et ce sont eux qui l'ont popularisé.
+[22:50] D'ailleurs, je tiens juste à préciser pour tous ceux qui nous écoutent en France
+[22:53] et qui ne le savent peut-être pas que Raphaille, le fondateur,
+[22:56] est le PDG d'Inpostes, et une poste ce sont eux qui ont racheté mon dial relais
+[22:59] si je me trompe pas.
+[23:00] Oui, exactement.
+[23:01] Oui, voilà, ils ont racheté mon dial relais.
+[23:03] Et donc aujourd'hui, ce sont eux qui exploitent ces grandes consignes
+[23:05] où on peut récupérer ces commandes en ligne.
+[23:07] Oui, exactement.
+[23:08] Et d'ailleurs, c'est formidable de voir à quel vitesse il se développe,
+[23:10] que ce soit à Paris, bien sûr,
+[23:12] mais aussi partout en France et même à Londres.
+[23:14] Inpostes, aujourd'hui, ce sont nos partenaires,
+[23:16] et c'est un partenariat qui me fait extrêmement plaisir
+[23:18] parce que j'étais moi-même client de leur service
+[23:20] bien avant qu'ils deviennent ce qu'ils sont aujourd'hui.
+[23:22] Donc bientôt, vous pourrez appeler un agent vocal avec Iléven Labs
+[23:25] pour savoir où se trouve votre colis
+[23:27] et vous receverez aussi des notifications proactives sur WhatsApp ou par message
+[23:30] pour vous prévenir de son arrivée
+[23:32] ou si la livraison prend un peu plus de temps que prévu.
+[23:34] Au final, avec Raphaille et les équipes d'Inpostes,
+[23:36] on participe à réinventer toute l'expérience client,
+[23:39] et ça, c'est vraiment passionnant.
+[23:41] Quand tu parles du fait d'implémenter des voix dans l'expérience client,
+[23:44] j'en veux dire, ça représente quand même un énorme défi
+[23:47] parce que pendant 20 ans, les gens ont été habitués
+[23:50] à ces robots téléphoniques qui étaient complètement inutiles,
+[23:52] mais aujourd'hui, c'est même plus les robots le problème.
+[23:54] Ce sont les humains qui sont dans les call centers
+[23:56] et qui sont tout aussi bloqués.
+[23:58] Ce qui, bien sûr, n'est pas leur faute.
+[23:59] C'est juin qu'ils n'ont simplement pas les informations
+[24:01] dont ils ont besoin.
+[24:02] Oui, oui, je suis tout à fait d'accord avec toi.
+[24:04] Ces pauvres agents dans les call centers
+[24:06] ils sont obligés de suivre un script et tapent par étape
+[24:08] et dès qu'une demande sort un peu du cadre prévu,
+[24:10] ils savent plus quoi faire ou alors, ils doivent te faire patienter.
+[24:13] Mais bon, heureusement, je pense que cette expérience va complètement changer.
+[24:16] Franchement, oui, j'espère que ça va changer
+[24:18] et le plus vite possible s'il te plaît
+[24:20] parce que justement, j'ai encore vécu ça récemment.
+[24:22] C'était avec une assurance liée à ma banque,
+[24:25] enfin une très grande banque française,
+[24:27] celle au logo vert.
+[24:28] Tu sais ces assurances que tu prends au cas où ils t'arrivent un pépin.
+[24:31] Moi, c'était Whiskey.
+[24:32] Je me suis explosé le jeu et nous, je me suis fait opérer,
+[24:34] j'ai eu tout un tas de frais
+[24:35] et normalement, comme t'as pris, leur assurance
+[24:37] ils sont censés te rembourser.
+[24:38] Sauf que visiblement, ils en avaient pas très envie.
+[24:41] Du coup, je les ai appelés.
+[24:42] C'était un lundi matin et justement, d'ailleurs, en composant le numéro,
+[24:44] je pensais à cet épisode du podcast avec toi.
+[24:46] Et donc, je les appelle et là, quelqu'un me répond.
+[24:48] Ah non, monsieur, vous êtes au service médical.
+[24:50] Il faut appeler le service des remboursements.
+[24:52] Je dis, ok, pas de soucis.
+[24:53] J'appelle le service des remboursements et eux me répondent.
+[24:55] Ah non, c'est pas chez nous.
+[24:56] Il faut retourner au service médical.
+[24:58] Et là, tu te dis, attendez.
+[25:00] Ils sont sérieux.
+[25:01] Ça m'est arrivé 4 fois de suite.
+[25:02] À la fin, j'en étais à leur dire.
+[25:03] Ecoutez, débrouillez-vous entre vous.
+[25:04] Je m'en fiche de savoir
+[25:06] c'est lequel le bon service trouve une solution.
+[25:07] Ça fait quatre mois que ça dure
+[25:09] et vous me devrez environ 1500 euros.
+[25:11] Et honnêtement, j'étais à deux doigts de laisser tomber,
+[25:13] juste parce que pour s'y retrouver dans tout ça,
+[25:15] c'était un vrai cauchemar.
+[25:16] Donc, tu vois,
+[25:17] quand je t'écoute parler aujourd'hui
+[25:19] de changer toute cette expérience,
+[25:21] une partie de moi se dit oui, d'accord.
+[25:23] On verra bien si ça marche.
+[25:24] Je t'avoue que j'ai encore un peu de mal à y croire.
+[25:26] Oui, je comprends tout à fait.
+[25:28] Mais je suis convaincu que ça va changer, à 100%.
+[25:31] Parce que pour commencer,
+[25:33] l'expérience des services clients par téléphone sera enfin agréable.
+[25:35] Et surtout, elle sera disponible 24 heures sur 24,
+[25:38] 7 jours sur 7.
+[25:39] Ensuite, tout sera connecté à ton historique
+[25:41] et à ton contexte personnel.
+[25:43] Donc, dans ton cas,
+[25:44] t'as probablement dû relancer la conversation depuis le début
+[25:46] à chaque fois que tu changais de service
+[25:48] et leur rappeler ce qui s'était passé.
+[25:50] Sauf que noël.
+[25:51] Tu devrais jamais avoir à faire ça.
+[25:52] Exactement.
+[25:53] Et à chaque fois, c'était, vous pouvez vous renvoyer les documents.
+[25:55] Alors que j'ai déjà envoyé quatre fois.
+[25:57] Oui, c'est pas normal.
+[25:58] Normalement, le système devrait savoir comment tu interagis
+[26:01] avec l'entreprise depuis le début
+[26:02] et garder en mémoire toutes les informations.
+[26:04] Dans la version idéale,
+[26:05] c'est même lui qui te contacterait de façon proactive
+[26:07] en te disant,
+[26:08] on a vu ce qui vous est arrivé.
+[26:09] Vous avez droit à tel et tel prise en charge.
+[26:12] Est-ce qu'on peut vous aider ?
+[26:13] C'est exactement ce que je leur ai dit.
+[26:14] Et là, on a peut-être une bonne transition
+[26:16] pour expliquer ce qu'on fait chez Eleven Labs.
+[26:17] Parce que, en tant qu'entreprise, on poursuit deux objectifs.
+[26:20] Le premier, c'est la recherche.
+[26:21] Et le second, c'est de transformer cette recherche
+[26:23] en produire réellement utilisable.
+[26:24] Côté recherche, tout a commencé en 2022,
+[26:26] avec notre premier modèle
+[26:27] qui était un système de synthèse vocale,
+[26:29] un texte ou speech.
+[26:30] Et à l'époque, c'était le tout premier modèle
+[26:32] capable de générer une voie naturelle
+[26:34] avec un rendu qui ressemblait enfin à une voie humaine.
+[26:36] Donc, je t'envoie un texte et toi, tu me fabriques une voie.
+[26:39] C'est ça ?
+[26:40] Exactement, mais ce qui fait la différence,
+[26:41] c'est qu'on comprend aussi le contexte du texte.
+[26:44] Et grâce à cette pression, on peut choisir
+[26:46] la bonne intonation, les bonnes émotions,
+[26:48] la bonne façon de dire chaque phrase.
+[26:49] C'est exactement comme un comédien de doublage.
+[26:51] Dans le sens où quand il lit son script,
+[26:53] il ne regarde pas une phrase isolée.
+[26:55] Il lit ce qui précède, ce qui suit,
+[26:57] il comprend la scène dans son ensemble.
+[26:59] Et ensuite, il adapte naturellement son interprétation.
+[27:01] Donc, nous ce qu'on a voulu faire
+[27:03] avec notre technologie de synthèse vocale,
+[27:05] c'est reproduire ce fonctionnement.
+[27:07] Et donc, c'était une vraie rupture parce qu'avant ça,
+[27:09] les voies étaient encore très robotiques,
+[27:11] et ensuite au fil des ans, on a développé toute une gamme de modèles audio.
+[27:14] Notre point de départ, c'était les voies,
+[27:16] parce qu'on était convaincus que c'était le principal obstacle
+[27:18] dans la communication entre les humains et l'IA.
+[27:20] Mais on pense aussi que c'est là que ce trouve la plus grande opportunité.
+[27:23] Si on veut profiter pleinement de l'IA,
+[27:25] il faut pouvoir communiquer avec elle naturellement
+[27:27] et c'est précisément le problème qu'on veut résoudre.
+[27:29] Donc aujourd'hui, on passe encore par du texte,
+[27:31] puisque vous avez commencé avec le texte tout speech,
+[27:33] un modèle conversationnel doit forcément faire le chemin voire
+[27:36] vers texte avant de répondre.
+[27:37] C'est une excellente question.
+[27:39] La réponse courte, c'est non, même si aujourd'hui,
+[27:42] dans la plupart des cas, on le fait encore,
+[27:44] parce que ça permet de mieux contrôler ce qui se passe entre chaque étape.
+[27:46] Par exemple, tu peux remplacer facilement le LLM, le moteur de traduction
+[27:49] ou le système de génération de texte,
+[27:51] tu peux changer un composant sans avoir à reconstruire toute la chaîne.
+[27:54] Et surtout, tu peux suivre ce qui se passe à chaque étape,
+[27:56] ce qui rend l'ensemble plus fiable, du moins aujourd'hui.
+[27:59] C'est le fait de garder le texte au milieu ?
+[28:01] Oui, c'est ça, de conserver des étapes séparées.
+[28:03] Mais on voit déjà que, dans certains cas,
+[28:06] c'est préférable de rapprocher ces étapes voire de les fusionner.
+[28:09] Du côté de la recherche, on a commencé avec le texte tout speech,
+[28:12] puis on a progressivement développé tous les autres modèles audio,
+[28:15] on a créé un modèle de reconnaissance vocale de speech to texte,
+[28:19] donc il est capable de transcrire instantanément ce qui est dit,
+[28:22] et on a aussi développé un modèle de localisation
+[28:25] qui permet de passer d'une langue à une autre,
+[28:27] tout en conservant la même voix.
+[28:29] Ah oui, et on a aussi développé un modèle d'orchestration pour les agents vocaux.
+[28:32] Donc là, concrètement, il cordonne la reconnaissance vocale,
+[28:35] le LLM et la synthèse vocale.
+[28:37] Et le but ultime, c'est de permettre une conversation fluide avec un agent.
+[28:42] Donc savoir quand répondre, quand faire une pause, comment gérer les interruptions, etc.
+[28:47] C'est assez complexe.
+[28:49] Donc voilà, c'est un peu le parcours de recherche qu'on a suivi ces dernières années.
+[28:52] Et jusqu'à présent, on a réussi à rester devant les plus grands laboratoires
+[28:56] et les grands hiperskéleurs aussi bien qualités,
+[28:59] conniveaux, des différents benchmarks.
+[29:01] Et ça, vu les monstres qu'on a en face, c'était pas du tout gagné d'arence.
+[29:05] Oui, parce que ça fait plus de 10 ans qu'on est série.
+[29:07] Derrière, il y a Apple qui vaut des milliers de milliards de dollars.
+[29:09] Bon, c'est vrai que Apple n'a jamais vraiment été la référence absolue en logiciel.
+[29:12] Donc c'est peut-être pas le meilleur exemple.
+[29:14] Mais si tu prends Google ou même chat GPD ou Claude,
+[29:17] j'imagine que la voix fait forcément partie de leur grande priorité.
+[29:20] Et vous, il y a Von Labs qui a tu une entreprise valorisée autour de 11 milliards d'euros,
+[29:23] vous arrivez à rivaliser avec eux.
+[29:25] Exactement, et il ne faut pas oublier qu'on était encore beaucoup plus petits au départ.
+[29:29] Quand on a commencé, il a Von Labs valait à peine 9 millions de dollars.
+[29:32] Et avant ça, on valait tout simplement rien.
+[29:35] Mais je pense que ça montre surtout que notre équipe de recherche était juste exceptionnelle.
+[29:39] Parce qu'on avait ni leur budget, ni leurs infrastructures, ni leur milieu d'ingénieurs.
+[29:43] Et on a montré que c'était pas une question de moyen, de puissance de calcul ou de volume de donne.
+[29:47] Au final, le vrai défi, c'était l'architecture des modèles.
+[29:50] La vraie question, c'était, est-ce qu'on peut inventer une nouvelle façon de transformer un texte en voix ?
+[29:54] Comment encoder et décoder l'audio ? Et faire en sorte que le modèle comprenne réellement le contexte.
+[29:58] Comment lui apprendre à encoder, puis recréer une voix naturelle ? C'était surtout ça.
+[30:01] Et c'est là dessus que Piotre a réussi quelque chose d'assez exceptionnel,
+[30:04] parce qu'il a réussi à réunir certains des meilleurs chercheurs au monde pour résoudre ces problèmes.
+[30:08] Et donc aujourd'hui, on a à peu près une cinquantaine de personnes qui travaillent sur la recherche et l'ingénier de recherche.
+[30:14] Et honnêtement, je pense qu'on a réuni les meilleurs équipes au monde pour tout ce qui touche aux interactions vocales
+[30:18] et plus largement aux interactions entre lumiens et liens.
+[30:20] Et autre chose aussi, c'est qu'un truc intéressant que j'ai pu remarquer au niveau des gens,
+[30:23] c'est que les meilleurs chercheurs, ils ont envie de travailler avec les meilleurs chercheurs,
+[30:26] du qu'on a des gens de Google, de meta, d'openia et d'autres grandes boîtes,
+[30:29] qui sont venus nous rejoindre à Il aveun Labs pour travailler sur ces sujets avec nous.
+[30:33] Oui, parce qu'ils veulent travailler sur les voix, ils veulent travailler sur...
+[30:35] Oui, c'est ça, effectivement, ils veulent bosser sur les voix,
+[30:37] sur la façon dont on est interagée avec Ilia, et surtout sur comment rendre tout ça le plus naturel et le plus fluide possible.
+[30:42] Mais après, il y a toute une deuxième partie, ce que t'as bien sur le côté recherche,
+[30:45] mais t'as aussi tout ce dont on parlait avec ton histoire d'assurance,
+[30:48] parce qu'imaginaux qu'on arrive à créer une interaction vocale parfaite,
+[30:51] ok, très bien, mais derrière, ça ne suffit pas, il faut que Ilia sache ce qui se passe,
+[30:55] qu'elle est axée aux bonnes infos, et il faut surtout qu'elle soit connectée aux outils de l'entreprise,
+[30:59] le téléphone, WhatsApp, les messages, les mails, et il faut aussi pouvoir la tester et voir si elle fonctionne bien,
+[31:04] puis il a déployé concrètement dans l'entreprise.
+[31:06] Et très souvent, c'est là qu'il a plus grosse partie du boulot,
+[31:08] c'est pas forcément la partie la plus sexy,
+[31:10] mais il faut connecter tous les systèmes entre eux, comprendre comment l'entreprise fonctionne,
+[31:14] comment ses outils communiques, comment les données circulent, etc.
+[31:17] Bref, faire en sorte que tout fonctionne vraiment une fois que tu le mets en production,
+[31:20] et ça représente une grosse partie de ce surquand en boss aujourd'hui,
+[31:23] parce que l'idée c'est de tout regrouper sur une seule plateforme,
+[31:26] de tout regrouper pour gérer à la fois le support client, l'évente,
+[31:30] la protection, les opérations, le marketing, la création de contenu,
+[31:34] la traduction et localisation, etc.
+[31:36] Plus les RH, les équipes juridiques, quasiment tout, quoi.
+[31:39] Exactement, et au fond ce qu'on veut, c'est une seule plateforme pour gérer toute la relation cliente,
+[31:43] comme ça, tu gardes l'histoire des échanges, tu connais le contexte,
+[31:46] et le client n'a pas besoin de tout réexpliquer à chaque fois qu'il a une nouvelle personne au bout du fil,
+[31:49] donc tu lui fais gagner du temps et tu lui offres une bien meilleure expérience.
+[31:53] Et je dirais que c'est là où on est assez différent,
+[31:55] parce que beaucoup de boîtes se concentrent surtout sur les modèles,
+[31:57] alors que nous, dès qu'on développe quelque chose côté recherche,
+[31:59] on veut tout de suite l'intégrer au produit et l'utiliser concrètement.
+[32:02] Comme ça, la recherche et le produit avance ensemble et se nourrissent mutuellement.
+[32:05] J'ai peut-être un esprit un peu tordue,
+[32:07] mais je me dis que si demain t'as eu ni à avec laquelle tu peux discuter,
+[32:11] qui connaît énormément de choses et à qui tu peux quasiment tout demander,
+[32:14] j'aurais tout de suite envie de lui causer des questions du genre.
+[32:17] Tu peux me donner les revenus de cette entreprise s'il te plaît
+[32:19] et le salaire de son PDG, enfin, je veux dire des informations auxquelles je ne suis pas censée avoir accès.
+[32:24] Donc j'imagine que derrière, ça soulait énormément de questions de sécurité et de confidentialité, non ?
+[32:28] Oui, oui, il faut poser des gardes fou.
+[32:30] T'as totalement raison et d'ailleurs une grosse partie de notre travail, c'est justement ça.
+[32:33] Comment s'assurer qu'il y a à les bonnes protections, les bons gardes fou,
+[32:36] parce qu'on travaille dans des secteurs très réglementés,
+[32:38] notamment par exemple, avec des entreprises de santé,
+[32:40] et là, il faut par exemple s'assurer que les données restent hébergées dans l'Union européenne,
+[32:44] ou même parfois directement dans le pays concerné.
+[32:46] Donc, effectivement, la confidentialité est un sujet majeur
+[32:49] et évidemment, il faut s'assurer que les données des patients soient traitées correctement et restent protégées.
+[32:52] D'ailleurs cette semaine, on a annoncé publiquement notre collaboration
+[32:55] avec la startup française Alain dans la santé,
+[32:57] qu'aujourd'hui, tu peux appeler un agent vocal pour prendre un rendez-vous directement avec la bonne personne.
+[33:03] Et si vous allez encore plus loin avec une boîte comme ça, désolé Mathie,
+[33:07] mais vous pourriez même commencer à gérer les premiers appels avec des patients.
+[33:10] Je veux dire, vous pourriez même commencer à faire une sorte de triage,
+[33:14] je sais pas si c'est comme ça qu'on dit.
+[33:16] Oui, oui, tout à fait.
+[33:17] C'est pour tout à fait évoluer dans cette direction.
+[33:19] Voilà, du triage, par exemple, il y a pour dire bon,
+[33:21] à priori, ça a pas l'air très grave,
+[33:23] il faut vous orienter vers tel personne.
+[33:25] Ou peut-être même détecter certains problèmes directement
+[33:28] dans la voie du patient au téléphone.
+[33:29] Oui, ça pourrait être le cas avec certains symptômes,
+[33:31] parce que avec le temps, on se rend compte que la voie quand il y a énormément d'informations.
+[33:34] Comme tu dis, il y a pour épotentiellement détecter des choses directement lors de l'appel.
+[33:37] Pas forcément poser un diagnostic, mais dire quelque chose du genre.
+[33:40] Là, ça semble sérieux, il faut consulter rapidement.
+[33:42] Ou alors, là, on est pas sûr, il faut vérifier.
+[33:45] Et bien sûr, tu peux aussi détecter certaines émotions dans la voie
+[33:48] et adapter l'aide que tu proposes en fonction de ça.
+[33:50] Est-ce que le nom Laurent Alexandre te dit quelque chose ?
+[33:53] Je sais qu'il sert oui, mais je ne le connais pas personnellement.
+[33:56] D'accord, je peux te mettre en contact avec lui si tu veux.
+[33:59] Je déjeune justement avec lui après.
+[34:02] Et je te parle de lui parce que si tu veux, il est à fond dans tout ce qui concerne l'IA lui aussi.
+[34:06] Et il m'avait raconté dans un précédent podcast
+[34:09] que si on utilisait des échantillons de voie d'une même personne enregistrée année après année,
+[34:13] on pourrait potentiellement détecter la maladie de Parkinsonne
+[34:16] plusieurs années avant qu'on soit capable de la diagnostiquer autrement.
+[34:19] Et je trouve ça fou.
+[34:21] Oui, c'est fou.
+[34:22] Mais oui, je serai vraiment ravi que tu ne mettes en contact
+[34:24] parce que nous aussi, on fait pas mal de choses autour de l'impact social.
+[34:26] On met par exemple notre technologie à disposition de certains projets gratuitement.
+[34:29] Parce qu'aujourd'hui, une grosse partie de ce qu'on fait,
+[34:31] désolé, je sais que je pars un peu dans tous les sens,
+[34:33] mais c'est exactement ce que je fais mauvaise.
+[34:36] Oui, oui.
+[34:37] On reviendra sur tout ça après.
+[34:39] Mais justement, il y a une chose qu'on a vraiment réalisé,
+[34:41] c'est qu'au fond, ta voix fait partie de ton identité.
+[34:43] C'est une énorme partie de qui tu as.
+[34:45] Et du coup, on travaille régulièrement avec des associations
+[34:47] qui accompagnent des personnes qui ont perdu leur voix,
+[34:49] que ce soit à cause d'un cancer de la gorge, de la maladie de charco ou autre.
+[34:53] Et nous, on intervient auprès de ces personnes pour recrer leur voix
+[34:56] pour qu'elles parlent à nouveau.
+[34:58] Oui, d'ailleurs, c'est ce que vous avez fait pour mon ami Olivier Goin.
+[35:00] Oui, tu connais Olivier ?
+[35:01] Oui, oui, je vais connaître.
+[35:02] Ok.
+[35:03] Et d'ailleurs, c'est un fait conseil que la voix que vous avez utilisé,
+[35:05] elle venait des enregistrements de ne pas de cas.
+[35:07] Parce que, forcément, avec le podcast, on a deux très bons échantillons de voix
+[35:09] de nos invités qui viennent ici.
+[35:11] Ce qui, d'ailleurs, était essentiel.
+[35:12] Parce que pour recrer une voix,
+[35:14] il faut avoir un échantillon avant que la personne la perdent.
+[35:16] Et honnêtement, ces projets qui tournent autour de l'impact social
+[35:20] se sont probablement les projets les plus importants qu'on en train de mener.
+[35:23] Parce que quand tu vois quelqu'un retrouver sa voix
+[35:25] et pouvoir, à nouveau, communiquer avec les gens qu'il aime,
+[35:27] avec sa famille et ses proches, c'est extrêmement fort.
+[35:30] D'ailleurs, on a une histoire récemment.
+[35:32] Il y est même avec des proches qui sont décédées.
+[35:34] C'est un peu étrange, mais ça commence aussi à arriver.
+[35:36] Désolée, je t'ai coupé.
+[35:37] Ouais, non, pas de ceci.
+[35:38] Mais oui, d'ailleurs, justement, on a récemment accompagné une femme
+[35:41] qui avait perdu sa voix.
+[35:43] Elle devait se marier, mais malheureusement, elle avait eu un accident
+[35:45] et elle avait perdu sa voix avant le mariage.
+[35:47] Donc, on a travaillé avec elle pour recréer sa voix
+[35:50] à partir d'anciens enregistrements.
+[35:52] Et ensuite, avec son mari, ils ont décidé de refaire la cérémonie
+[35:54] pour qu'elle puisse, pour la première fois, renoncer elle-même
+[35:57] ses veux de mariage.
+[35:59] Elle a pu lui dire ses mots sur leur histoire,
+[36:00] sur son engagement, devant son mari, sa famille et tous ses proches.
+[36:03] Et là, tu imagines forcément les motions pour tout le monde.
+[36:05] C'était incroyable.
+[36:07] Oui, franchement, c'est génium.
+[36:09] Du coup, tu dirais qu'on en est où aujourd'hui ?
+[36:11] Parce que tu nous as beaucoup parlé de ce qui existe déjà
+[36:13] et aussi de ce qui va arriver.
+[36:15] Mais là, concrètement, est-ce que tu pourrais nous dire
+[36:18] ce qui te frustre encore ou du moins ce qui te manque ?
+[36:21] Oui, parce que je vois beaucoup les progrès que vous faites
+[36:24] mais je bosse surtout sur toute la partie production.
+[36:26] D'accord.
+[36:27] Résente probablement même pas un pourcent de votre activité.
+[36:29] Donc, aujourd'hui, on en est où et surtout où est-ce qu'on va
+[36:32] dans les prochains mois ?
+[36:33] Vous êtes répondu autour de trois grands sujets.
+[36:35] Parce que tout ce qui touche à la communication
+[36:37] y a énormément de cas d'usage,
+[36:38] il y a encore beaucoup de problèmes à résoudre.
+[36:40] Le premier, c'est faire tomber la barrière de la langue.
+[36:43] Le deuxième, c'est la façon dont on va communiquer
+[36:45] avec le monde numérique.
+[36:46] Et le troisième, c'est la manière dont les histoires et les contenus
+[36:49] vont devenir accessibles partout.
+[36:50] Sur le premier, donc, la barrière de la langue,
+[36:52] c'est une des raisons pour lesquelles on a créé l'évent-là.
+[36:54] Mais je pense que dans les 6 à 12 prochains mois,
+[36:57] on va arriver à un niveau où tu pourras vraiment prendre un contenu
+[36:59] passer d'une langue à une autre et dès la première génération
+[37:02] avoir quelque chose d'incroyablement naturel,
+[37:03] quasiment sans correction.
+[37:04] Et avec quelques ajustements derrière,
+[37:06] tu pourras arriver à un niveau d'in, d'une production léoudienne.
+[37:08] On vient justement de sortir notre modèle Dobbing V2
+[37:10] qui nous fait franchir une grosse étape dans cette direction
+[37:12] et ça rejoint directement la question que tu posais tout à l'heure.
+[37:15] C'est que c'est notre premier modèle qui commence vraiment
+[37:17] à fusionner les différentes étapes.
+[37:19] Au lieu de tout faire séparément en passant systématiquement
+[37:22] par le texte, puis par la traduction, puis par la génération
+[37:24] de la nouvelle voix, le modèle combine beaucoup plus ces différentes étapes.
+[37:27] Il utilise encore du texte sur certaines parties bien sûr,
+[37:29] mais comme tout est beaucoup plus intégré,
+[37:32] il comprend mieux ce qui se passe dans l'audio-original,
+[37:34] c'est qu'il arrive beaucoup mieux à récupérer les émotions,
+[37:37] le rythme, les intentions et l'intonation de l'avoir original,
+[37:40] pour ensuite retranscrire tout ça de manière beaucoup plus fidèle et naturelle
+[37:44] dans la nouvelle langue.
+[37:45] Et ça, on appelle toujours ça lLM,
+[37:47] ça reste un modèle de langage ?
+[37:49] Oui, ça reste un modèle de langage,
+[37:51] sauf qu'il intègre aussi directement l'audio.
+[37:53] D'ailleurs, il faudra peut-être inventer un nouveau terme à un moment donné
+[37:55] parce qu'en réalité,
+[37:57] il travaille à la fois avec du texte et de l'audio,
+[37:59] donc il traite des tokens audio et des tokens textes en même temps.
+[38:01] Et ensuite, le modèle lui-même évidemment
+[38:03] met à aussi notre équipe il y avait une production,
+[38:05] tous nos professionnels qui interviennent derrière
+[38:07] pour faire les corrections, le contrôle qualité,
+[38:09] et tout le travail nécessaire pour vraiment arriver à un résultat final impeccable.
+[38:15] Donc voilà, mais ce qu'on pense voir arriver dans les 6 à 12 prochains mois,
+[38:19] ce sont les premiers contenus au niveau des films.
+[38:21] Ils pourront être adaptés dans plusieurs langues,
+[38:23] tout en gardant la créativité, l'émotion et la qualité
+[38:26] de la production originale.
+[38:27] Un podcast, comme le Tien,
+[38:28] par exemple, pourrait être adapté dans plein de langues
+[38:30] et toucher des gens qui aujourd'hui n'y ont tout simplement pas accès à cause de la langue.
+[38:34] Donc la barrière de la langue va devenir de moins en moins important
+[38:36] jusqu'à quasiment disparaître.
+[38:38] Et justement, avant qu'on passe au deuxième sujet,
+[38:41] ce que tu peux me dire, aujourd'hui,
+[38:42] qu'est-ce qui bloque encore?
+[38:43] Est-ce que le problème,
+[38:45] surtout de la compréhension du contenu originale,
+[38:47] ou plutôt de la langue vers laquelle tu veux le traduire?
+[38:49] Par exemple, imaginons que je veuille traduire ce podcast.
+[38:52] Il est déjà en anglais, donc disons,
+[38:54] en espagnol ou voire même dans une langue asiatique.
+[38:57] Disons que, une fois que j'ai réussi à le traduire parfaitement en espagnol,
+[39:00] est-ce qu'en suite,
+[39:01] je peux le traduire en mandat 1 en indie
+[39:03] et dans toutes les autres langues facilement
+[39:04] ou est-ce qu'il faut refaire tout le travail pour chaque langue?
+[39:06] Oui, c'est une bonne question.
+[39:07] Le problème est plutôt du côté de la langue cible.
+[39:09] Pour passer de l'anglais à l'espagnol, par exemple,
+[39:11] le modèle doit déjà avoir appris à quoi ressembler un bon doublage
+[39:13] ou une bonne traduction de l'anglais à l'espagnol.
+[39:15] Donc il faut de très bons exemples sur lesquels à prendre.
+[39:17] Et ensuite, si tu veux passer de l'anglais au mandat 1 ou à l'indie,
+[39:20] c'est pareil, il faut de bons exemples pour chacune de ses langues.
+[39:23] Mais le problème, c'est que, pour certaines combinaisons de langues,
+[39:25] il n'existe pas encore énormément de données
+[39:27] qui sont de qualité sur lesquels entraînés les modèles.
+[39:29] Donc c'est pour ça qu'on interne en travail
+[39:31] avec environ un millier de prestataires,
+[39:33] et leur boulot s'est d'annoté, de corriger et créer des données pour nous.
+[39:36] C'est un boulot minutieux, et peut-être un peu fastidieux,
+[39:38] mais ça nous permet justement d'avoir des données
+[39:40] beaucoup plus propres et plus fiables sur lesquels entraînés nos modèles.
+[39:43] Donc tu vois, on parlait tout à l'heure de tes premières expériences
+[39:45] avec il y avait Nubs, que la voix avait un accent canadien,
+[39:47] la traduction était pas parfaite, etc.
+[39:49] Et bien, c'est justement ce genre de résultat sur lesquels on travaille.
+[39:52] On regarde ce qui va pas, on corrige,
+[39:54] puis on utilise tout ça pour entraîner les modèles
+[39:56] et les rendre de plus en plus performants.
+[39:58] Mais pour y arriver, il nous faut des données.
+[40:01] Parce que si les exemples sont mauvais, le modèle va forcément apprendre de mauvaise chose.
+[40:05] Donc la qualité de la source est juste fondamental.
+[40:08] Si ton contenu de départ est mauvais,
+[40:10] peu importe la qualité de ton modèle derrière.
+[40:12] Tu vas pas pouvoir obtenir quelque chose d'excellent à l'arrivée.
+[40:14] Donc tout part du fait d'avoir une bonne base.
+[40:16] On équipe de production d'avoir une sacré pression
+[40:18] sur la traduction de cet épisode.
+[40:20] Le résultat intérêt est bon dans la version française
+[40:22] si non elle va se faire souffler dans les branches.
+[40:24] J'ai confiance, j'ai confiance.
+[40:25] On va voir si tu te retrouves avec un accent canadien, c'est que faut-ci.
+[40:28] On va voir, on va voir,
+[40:29] mais justement, c'est là qu'intervient cette deuxième couche.
+[40:31] Parce que pour les contenus ou la qualité est essentielle,
+[40:33] où il faut vraiment faire attention aux petites nuances,
+[40:35] il y a encore besoin d'un humain dans la boucle.
+[40:37] Quelqu'un qui s'assure que la traduction est fidèle
+[40:39] et qui corrige les petites imperfections à droite à gauche.
+[40:41] Mais ça, c'est toujours du machine learning.
+[40:43] Parce que l'humain dans la boucle, au fond,
+[40:45] il l'apprend à la machine et lui montre ce qu'elle doit améliorer.
+[40:47] Mais ensuite, la machine elle finit par apprendre tout seul.
+[40:51] Oui, le humain est encore très présent dans le processus.
+[40:53] Mais avec le temps, sa contribution va progressivement se réduire
+[40:56] parce que le rôle de l'humain aujourd'hui
+[40:58] est de vérifier ce qu'il y a à produit,
+[41:00] d'apporter les corrections nécessaires,
+[41:02] et de s'assurer que le résultat est vraiment bon avant d'être mis en production.
+[41:04] On a des équipes en interne qui font précisément ce travail-là.
+[41:06] D'accord.
+[41:07] Mais évidemment, au fil du temps, le modèle va apprendre
+[41:09] de tout ce qu'on aura fait et de tout ce qu'on aura corrigé
+[41:11] et ce qui va se passer à mon avis.
+[41:13] Alors là, je me projette peut-être un peu loin
+[41:15] parce que je sais pas si ça arrivera dans les 6 prochains mois,
+[41:17] mais très probablement, d'ici 12 à 10-8 mois,
+[41:19] c'est que beaucoup de ceux qui travaillent aujourd'hui
+[41:22] dans le contrôle qualité vont peu à peu devenir une sorte d'artiste
+[41:25] parce qu'il s'agira plus simplement d'adapter les contenus au niveau des mots,
+[41:28] faudra aussi les adapter à l'époque et au public.
+[41:30] Donc si par exemple quelqu'un emploie à une expression particulière,
+[41:32] faudra la traduire de la meilleure manière possible
+[41:34] dans la langue cible pour exprimer la même émotion.
+[41:36] Donc oui, la qualité de la traduction est déjà
+[41:38] et restera fondamental à l'avenir,
+[41:40] et même chose au niveau des dialectes et des façons de parler
+[41:43] qui peuvent sembler plus naturel pour certains.
+[41:45] Et d'ailleurs, parfois, ça va même plus loin que ça
+[41:47] parce que ça touche aux histoires, aux références.
+[41:50] Je veux dire plus seulement à la forme,
+[41:51] mais vraiment au fond de la conversation.
+[41:53] Par exemple, quand j'écoute certains podcasts américains que j'adore,
+[41:56] parfois je comprends pas du tout de quoi ils parlent
+[41:58] parce qu'ils font référence à des émissions qu'on n'a jamais eu en France.
+[42:01] Donc peut-être qu'un jour on pourra même adapter ce genre de référence
+[42:03] aussi dans les contenus qui seront traduits.
+[42:05] Mais je dois dire aussi quelque part,
+[42:07] c'est aussi plutôt rassurant pour moi.
+[42:10] Oui, parce que ça veut dire que les Français continueront
+[42:12] probablement à écouter des podcasts français
+[42:14] parce que nous, on parle de sujets français,
+[42:16] on fait référence à des émissions françaises
+[42:18] que les gens à l'étranger ne connaissent pas forcément non plus.
+[42:21] Tu vois ce que je veux dire ?
+[42:22] Oui, c'est très clair.
+[42:23] Et à tout à fait raison, toutes ces références locales
+[42:25] vont devenir très importantes.
+[42:26] Mais je pense aussi aux marques et aux partenariats
+[42:29] parce que si ton contenu est diffusé dans différents pays,
+[42:31] tu travairas probablement avec des entreprises différentes
+[42:33] en fonction des marchés.
+[42:34] Donc tu voudras aussi adapter ce qui apparaît à l'écran
+[42:37] pour intégrer les marques locales, les bons produits,
+[42:39] les bonnes références, etc.
+[42:41] Et évidemment, pour la publicité, les possibilités
+[42:43] sont juste absolument énormes à terme tout pour être localisé,
+[42:46] ce qu'on entend, ce qu'on voit à l'écran,
+[42:48] les marques, les références, absolument tout.
+[42:51] C'est dingue, ça va tellement vite.
+[42:53] Et tu regardes le foot un peu ou pas ?
+[42:55] Un petit peu, oui.
+[42:56] Ok, parce que là pour le contexte,
+[42:58] on enregistre ce podcast en pleine coupe du monde.
+[43:00] Donc je sais pas si t'as remarqué les panneaux publicitaires
+[43:03] sur les côtés des terrains, mais en fait,
+[43:05] tu peux être diffusé quatre publicités différentes en même temps.
+[43:08] Et en fait, je ne sais pas si tu sais,
+[43:10] mais il réussit à faire ça grâce à la fréquence
+[43:13] avec une fréquence de 60 images par seconde.
+[43:15] Du coup, au fonction de si tu regardes le match aux États-Unis
+[43:18] ou en Europe, tu vois pas les mêmes publicités sur les panneaux.
+[43:20] C'est dingue.
+[43:21] Oui, oui, je vois exactement.
+[43:22] Et c'est vrai que c'est assez fou,
+[43:23] mais c'est parfois ils utilisent juste une simple surface noire
+[43:26] puis ils ajoutent la publicité directement sur l'image
+[43:28] en fonction de la chaîne ou de la plateforme qui diffuse le match.
+[43:30] Oui.
+[43:31] Mais tout ça va devenir de plus en plus intelligents avec le temps.
+[43:33] Et d'ailleurs, récemment, on a lancé un produit
+[43:35] dédié au campagne publicitaire payante.
+[43:37] En fait, on voulait avoir un modèle capable de créer des pubs
+[43:39] et de les adapter facilement à différents marchés partout dans le monde.
+[43:42] Mais il n'existait pas vraiment de bon système pour le faire.
+[43:45] Et aujourd'hui, on peut localiser le duo et la vidéo,
+[43:47] analyser ce qui fonctionne et récupérer ces données
+[43:49] puis s'en servir pour optimiser à nouveau les campagnes
+[43:51] et à notre moteur publicitaire fait ça en permanence
+[43:54] pour venir de meilleures résultats au fil du temps.
+[43:56] Oui, oui, voilà.
+[43:57] Et avant que tu nous présents que les deux autres grands thèmes
+[44:00] sur lesquels vous travaillez,
+[44:01] y a quelque chose de quelque chose de que je pensais en tes coutons,
+[44:03] c'est qu'aujourd'hui, toute notre interaction avec Internet
+[44:05] et les machines reposent encore essentiellement sur le texte.
+[44:07] Je veux dire c'est ce que Google fait depuis 25 ou 30 ans.
+[44:10] Le texte est devenu une sorte de couche zéro
+[44:12] ou de couche de base d'internet alors qu'au fond,
+[44:14] c'est pas vraiment naturel pour nous.
+[44:16] On parle avant même de savoir lire ou écrire
+[44:18] et la voix s'est transmettée aussi beaucoup plus de choses
+[44:20] comme l'intention, l'émotion, le contexte, etc.
+[44:24] Et écrire c'est quelque chose qu'on apprend alors que parler
+[44:26] c'est beaucoup plus instinctif.
+[44:28] Et si on appliquait la même logique à l'audio,
+[44:30] on pourrait imaginer une sorte de Google ads,
+[44:32] mais entièrement baser sur la voix.
+[44:33] Il y est venu Labs ads par exemple,
+[44:35] qui serait diffusé un peu partout sur Internet,
+[44:37] notamment dans les podcasts,
+[44:38] et qui permettrait de tester automatiquement des centaines de messages
+[44:40] et de voix différentes pour voir ce qui fonctionne le mieux.
+[44:43] Et ça aujourd'hui, ça n'existe pas encore si ?
+[44:45] Non, ça n'existe pas encore.
+[44:47] Mais oui, il y a clairement un potentiel énorme
+[44:50] dans la manière dont on peut raconter des histoires
+[44:52] à travers l'audio.
+[44:54] Et d'ailleurs,
+[44:55] ça m'amène justement au deuxième grand thème
+[44:58] dont je voulais parler l'audio.
+[44:59] C'est pas directement lié à ce que tu viens de décrire,
+[45:01] mais ça rejoint ce que tu disais au départ.
+[45:03] En fait, si tu veux,
+[45:04] nous on pense que tout ce qui concerne l'audio et les voix,
+[45:06] ça va devenir l'interface
+[45:08] qui nous permettra d'interagir avec le monde numérique,
+[45:10] mais aussi de plus en plus avec les technologies qui nous entourent.
+[45:12] Donc là, on parle des appareils, des robots, des humanoïdes, etc.
+[45:16] Nous, plus besoin de textes, on passe directement de la voix à la machine, on vaut.
+[45:19] C'est ce l'idée.
+[45:20] Exactement, de la voix à la machine.
+[45:22] Alors bien sûr, il y aura toujours des situations
+[45:24] où le texte ou l'image seront plus adaptés.
+[45:26] Mais oui, on pense que la voix va devenir
+[45:28] un des principaux moyens d'interagir avec la technologie.
+[45:30] Et finalement, c'est assez naturel quand on y pense
+[45:33] parce que dès notre naissance,
+[45:34] et je veux dire même depuis les débuts de l'humanité,
+[45:36] la voix est notre premier moyen de communication.
+[45:38] Et on pense que dans le monde numérique,
+[45:40] c'est justement une des premières choses
+[45:41] qui va profondément changer.
+[45:43] On parlait tout à l'heure de l'expérience client.
+[45:45] Et bien, la façon dont les gens vont interagir
+[45:47] avec ton service client et avec tes autres services,
+[45:49] ça va devenir une partie intégrante de ta marque.
+[45:52] Ça va être comme une extension de ton produit si tu veux.
+[45:55] Les gens vont pouvoir interagir beaucoup plus facilement
+[45:57] et naturellement avec les entreprises.
+[45:59] Aujourd'hui, ça concerne surtout le support client,
+[46:01] mais de plus en plus, ça concernera aussi la vente
+[46:03] et les échanges proactifs avec les clients.
+[46:05] Et le grand changement qu'on s'attend à voir
+[46:07] dans les 6 à 12 prochains mois,
+[46:08] c'est que l'IA conversationnelle va enfin passer le test de Turing.
+[46:11] Donc autrement dit,
+[46:12] t'auras vraiment l'impression de parler à une autre personne.
+[46:14] Et ce sera une expérience agréable et naturelle
+[46:16] comme la conversation qu'on a en ce moment.
+[46:18] Ce sera rapide et fluide et tu pourras interrompre l'IA
+[46:20] et passer d'un sujet à l'autre sans problème.
+[46:22] Le fait de pouvoir d'interrompre, c'est intéressant.
+[46:24] Oui, oui, et il faudra aussi réussir à combiner
+[46:26] plusieurs formes d'intelligence,
+[46:28] parce que d'un côté,
+[46:29] il y a toutes les informations dont on dispose de système,
+[46:31] donc c'est-à-dire ce qui s'est de la personne,
+[46:32] ce qui s'est de l'entreprise,
+[46:33] le contexte qui l'a accumulé,
+[46:35] et de l'autre, il y a toute la dimension émotionnelle.
+[46:37] Ça veut dire comprendre ce qui se passe à cet instant précis
+[46:39] qu'elles émotions la personne ressent, etc.
+[46:41] Et surtout, est-ce que c'est à l'IA de parler
+[46:43] ou est-ce qu'il vaut mieux laisser un humain prendre le relais?
+[46:45] Le but c'est vraiment de créer une symbioze entre les deux.
+[46:47] Donc voilà, dans les six prochains mois,
+[46:49] ce qu'on aimerait vraiment réussir à faire,
+[46:51] c'est passer ce fameux test de Turing pour l'IA conversationnelle.
+[46:53] Et pour y arriver, on pense qu'il faudra combiner
+[46:55] l'intelligence pure et l'intelligence émotionnelle.
+[46:57] Et si on arrive à réunir les deux,
+[46:59] alors là, Bingo.
+[47:00] L'expérience client va passer dans une autre dimension.
+[47:02] Oui, c'est vrai que c'est assez dingue
+[47:04] et qu'on tournait réfléchit bien,
+[47:05] parce que rien que cette histoire d'interruption,
+[47:07] j'avais jamais vraiment réalisé que c'était un vrai sujet
+[47:09] quand on parle à une machine.
+[47:10] Les détails lait, je me suis dit,
+[47:12] oui, bien sûr.
+[47:13] Quand tu parles à ChatGPT, par exemple,
+[47:15] si il est en train de te répondre et que tu commence à parler,
+[47:17] il va quand même continuer.
+[47:18] Mais si on pousse le raisonnement plus loin
+[47:21] et que demain, ces systèmes deviennent extrêmement doués
+[47:24] pour communiquer,
+[47:25] ça soulève énormément de questions quand même.
+[47:28] Je veux dire, unIA pourrait se montrer très autoritaire,
+[47:30] par exemple, au contraire,
+[47:32] je ne sais pas devenir extrêmement persuasive.
+[47:34] Oui, c'est assez dingue.
+[47:36] Oui, ça soulève une autre question intéressante,
+[47:38] parce que savoir si moi, je peux interrompre la machine,
+[47:40] c'est une chose.
+[47:41] Mais est-ce que la machine, elle,
+[47:43] devrait parfois pouvoir m'interrompre ?
+[47:44] Oui, tout à fait.
+[47:45] Et pour moi, un futur qui serait vraiment super intéressant,
+[47:47] c'est quelque chose qui ressemblerait à Jarvis,
+[47:49] dans Iron Man,
+[47:50] genre, t'aurais une sorte d'assistant, toujours disponible,
+[47:52] à qui tu pourrais poser des questions ou demander de l'aide.
+[47:55] Si par exemple t'es en train de bricoler quelque chose,
+[47:57] avec ta les mains prise,
+[47:58] il pourrait être guidé pendant que tu le fais.
+[47:59] Donc l'exemple classique, c'est le service client,
+[48:01] mais en réalité, les applications sont juste
+[48:03] infinies.
+[48:04] Genre, on parlait de la santé tout à l'heure,
+[48:06] imagine que tu sois infirmié ou médecin
+[48:08] dans une salle d'opérations.
+[48:09] Et t'as un appareil auxquels tu peux simplement parler
+[48:11] pour avoir des infos et mieux comprendre la situation.
+[48:13] Ou un cas plus simple,
+[48:15] t'es médecin.
+[48:16] Tu veux assurer le suivi d'un patient,
+[48:18] mais t'as pas le temps de l'appeler régulièrement
+[48:20] parce que tu dois déjà t'occuper d'autres patients.
+[48:21] Pourquoi pas utiliser une machine pour prendre en charge
+[48:23] une partie du suivi ?
+[48:24] Elle pourrait, par exemple, appeler le patient,
+[48:26] lui demander comment il va,
+[48:27] prendre des infos importants et les transmettre au médecin,
+[48:30] par des choses comme ça.
+[48:32] D'ailleurs, on fait déjà quelque chose
+[48:34] dans cet esprit avec le ministère de la santé polonnaie,
+[48:36] avec la technologie,
+[48:37] il planifie des rendez-vous,
+[48:38] il reconnaît que les patients,
+[48:39] il leur envoie des rappels,
+[48:40] et il s'assure qu'ils viennent bien au rendez-vous.
+[48:42] Mais évidemment,
+[48:43] l'arrivée des humanoïdes et de la robotique
+[48:45] va encore complètement transformer tout ça.
+[48:47] Donc, il y a énormément d'applications possibles
+[48:49] dans le monde numérique.
+[48:50] Ici, en France,
+[48:51] on travaille aussi beaucoup avec à des causes
+[48:52] sur le recrutement et le placement des candidats.
+[48:54] Tu peux parler directement à un agent vocal
+[48:55] qui va identifier tes compétences,
+[48:57] comprendre ce qui t'intéresse
+[48:58] et déterminer les postes pour lesquels t'es qualifiées.
+[49:00] Et ensuite,
+[49:01] il pourra te mettre beaucoup plus rapidement
+[49:02] en relation avec la bonne personne
+[49:03] pour accélérer tout le processus.
+[49:05] Oui, oui, oui.
+[49:06] Je vois, wow,
+[49:07] j'avoue que
+[49:08] ça peut aussi faire un peu peur,
+[49:10] parce que ça veut dire que,
+[49:11] d'une certaine manière,
+[49:12] une machine va pouvoir te juger
+[49:13] et décider si ton profil correspond que nous,
+[49:15] c'était apte ou non.
+[49:16] Mais en même temps,
+[49:17] ça peut être extrêmement efficace
+[49:19] et éviter de perdre pas mal de temps.
+[49:21] Et d'ailleurs, moi,
+[49:22] personnellement,
+[49:23] j'en fais déjà un peu l'expérience
+[49:24] dans mon quotidien,
+[49:25] mon téléphone est là
+[49:26] et j'utilise de plus en plus
+[49:27] où il se perfelot.
+[49:28] Je m'en sers depuis plusieurs mois maintenant,
+[49:30] et franchement,
+[49:31] ça m'aide énormément.
+[49:32] Ça a complètement changé
+[49:33] ma manière d'utiliser mon téléphone
+[49:35] et même de travailler dessus.
+[49:36] Il y a un an,
+[49:37] je devais faire 30 ou 40 % de mon travail
+[49:39] sur mon téléphone
+[49:40] et tout le reste sur mon ordinateur.
+[49:42] Aujourd'hui, c'est probablement l'inverse.
+[49:44] Ça a complètement changé
+[49:45] ma façon d'écrire mes mails
+[49:46] de travailler,
+[49:47] de faire plein de choses, en fait.
+[49:48] Mais malgré tout,
+[49:49] c'était un tap intermédiaire du texte
+[49:51] restat-cez frustrante.
+[49:52] Tu parles à Claude, par exemple.
+[49:54] Tu lui demandes
+[49:55] de coder un logiciel
+[49:56] ou un outil pour ta boîte,
+[49:57] mais derrière,
+[49:58] tu dois encore vérifier
+[49:59] ce qu'il a fait,
+[50:00] relire, modifier quelques mots.
+[50:01] Tu peux pas complètement
+[50:02] déléguer ta confiance à la machine.
+[50:04] Mais oui, c'est vraiment très intéressant.
+[50:06] Et si vous arrivez vraiment là
+[50:08] où vous voulez aller,
+[50:09] ça va être énorme,
+[50:10] vraiment énorme.
+[50:11] Oui, énorme.
+[50:12] Ça me fait plaisir.
+[50:13] Parce que, je veux dire,
+[50:14] imagine un futur
+[50:16] où t'aurais besoin de regarder un écran
+[50:17] que 10 % du temps, voire moins.
+[50:18] Tu l'utiliserais seulement
+[50:20] dans des cas précis,
+[50:21] comme par exemple pour t'authentifier,
+[50:22] ou juste quand l'écran
+[50:24] apporte vraiment quelque chose
+[50:25] à ton expérience réel,
+[50:26] ce serait magnifique.
+[50:27] Oui, c'est clair.
+[50:28] Parce que c'est franchement triste
+[50:29] de voir tout le temps
+[50:30] qu'on passe devant nos écran,
+[50:31] tu marges dans la rue,
+[50:32] tu prends le métro,
+[50:33] et tout ce que tu vois,
+[50:34] c'est déjà arrivé sur leurs téléphones.
+[50:35] Moi, ce que j'espère,
+[50:36] c'est que dans le futur,
+[50:37] la technologie nous permettra
+[50:38] de revenir à des échanges plus humains,
+[50:39] où on sera vraiment présent
+[50:40] les uns avec les autres.
+[50:41] J'espère que les appareils
+[50:42] vont progressivement disparaître.
+[50:44] Ou peut-être pas disparaître
+[50:45] mais passer à l'arrière-plan.
+[50:46] Ton téléphone restera dans ta poche,
+[50:47] ton assistance sera dans tes écouteurs.
+[50:49] Mais toi, tu pourras regarder
+[50:50] la personne en face de toi,
+[50:51] tu t'es avec elle,
+[50:52] et à pleinement présents,
+[50:53] c'est vraiment fondamental.
+[50:54] Aujourd'hui, on doit faire en sorte
+[50:56] que les écran ne soient plus
+[50:57] notre principale moyen
+[50:58] d'interagir avec la technologie.
+[50:59] Si à la fin de ma vie,
+[51:00] on pourra écrire sur ma tombe,
+[51:02] il a contribué à réduire
+[51:03] considérablement le temps
+[51:04] que nous passions devant les écran.
+[51:05] Alors, je serai vraiment très fier
+[51:07] de ce qu'on aura accompli
+[51:08] en tant qu'entreprise.
+[51:09] Oui, et puis, il y a une autre dimension,
+[51:10] faire en sorte que la machine
+[51:11] te comprenne vraiment tout de suite,
+[51:13] presque sans aucun effort de tapas.
+[51:14] Et forcément, ça ouvrait
+[51:16] énormément de possibilités.
+[51:17] Si tu te projettes,
+[51:18] ne serait-ce que 8 mois dans le futur,
+[51:20] tu peux déjà imaginer
+[51:21] plein de nouveaux usages,
+[51:22] plein de nouvelles idées de business,
+[51:24] parce que, si la voix
+[51:26] change complètement
+[51:27] notre manière d'interagir
+[51:29] avec nos téléphones, les machines
+[51:31] et la technologie en général,
+[51:32] il va forcément y avoir
+[51:34] énormément de choses
+[51:35] à inventer derrière.
+[51:36] Je sais pas si t'as déjà des idées
+[51:37] ou des exemples en tête,
+[51:38] mais j'imagine qu'il y en a beaucoup.
+[51:39] Oui, on a énormément.
+[51:40] Et il y a peut-être aussi un autre point
+[51:42] à ajouter, c'est que
+[51:43] on parlait des écran tout à l'heure.
+[51:44] Mais si tu regardes
+[51:45] l'histoire de la technologie,
+[51:46] pendant très longtemps,
+[51:47] c'est nous qui avons dû
+[51:48] apprendre le langage des machines
+[51:49] pour pouvoir les utiliser.
+[51:50] On a inventé le clavier
+[51:51] pour écrire plus vite
+[51:52] avec une disposition
+[51:53] des touches pensées
+[51:54] pour nous faciliter la tâche,
+[51:55] et on s'est habitué à cette façon
+[51:56] spécifique d'interagir
+[51:57] avec les ordinateurs.
+[51:58] Et après, on a créé
+[51:59] les langages de programmation.
+[52:00] Et ces langages-là,
+[52:01] c'était pour pouvoir
+[52:02] communiquer avec les ordinateurs
+[52:03] et leur dire quoi faire.
+[52:04] Donc là, encore une fois,
+[52:05] c'était à nous
+[52:06] nous adapter à la machine.
+[52:07] Et ce que je trouve fascinant aujourd'hui
+[52:08] avec l'IA, la voix,
+[52:09] et ce qu'on développe nous-même,
+[52:10] c'est qu'on en train d'inverser
+[52:11] complètement cette logique.
+[52:12] Ça va plus être à l'humain
+[52:13] d'apprendre le langage de la machine,
+[52:14] mais à la machine d'apprendre
+[52:15] et de comprendre le langage humain,
+[52:16] pour qu'on puisse lui donner nos instructions.
+[52:18] Et ça, c'est une révolution.
+[52:19] Mais pour revenir à ta question,
+[52:21] sur ce qui va vraiment changer
+[52:22] dans les 12 à 18 prochains mois,
+[52:23] notre grande priorité,
+[52:24] c'est le parcours numérique du client.
+[52:25] Il va devenir beaucoup plus fluide
+[52:27] avec un système qui connaît le client
+[52:28] et qui regroupe
+[52:29] tous ces échanges avec la marque.
+[52:30] Du moment où il découvre le produit,
+[52:32] jusqu'au moment où il a besoin d'aide,
+[52:34] ou même lorsque l'entreprise
+[52:35] doit prendre les devant
+[52:36] et venir vers lui,
+[52:37] tout fera partie d'une seule
+[52:38] et même expérience
+[52:41] et ensuite, une fois que ce fonctionnement
+[52:43] se sera généralisé
+[52:44] dans le monde numérique
+[52:45] et que toutes les marques
+[52:46] auront ce genre de capacité,
+[52:47] je pense que le prochain grand sujet
+[52:48] ce sera d'arrobotique.
+[52:50] Dingo.
+[52:51] Tous les appareils qui nous entourent
+[52:52] pourront commencer
+[52:53] à intégrer ces technologies
+[52:54] d'écoute et d'interaction.
+[52:55] Par exemple,
+[52:56] on a récemment participé
+[52:57] à un salon à Paris
+[52:58] et dans ce genre d'événement,
+[52:59] tu passes énormément de temps
+[53:00] à discuter avec des gens.
+[53:02] Et tu vois,
+[53:04] imagine qu'avec l'accord
+[53:05] de ton interlocuteur,
+[53:06] la conversation puisse être angistrée
+[53:07] et transcrite automatiquement
+[53:08] que le système prenne des notes,
+[53:10] se charge des relances
+[53:11] et conserve toutes les informations importantes
+[53:13] sans que t'es besoin
+[53:14] de t'occuper de quoi que ce soit.
+[53:15] Ce serait absolument génial.
+[53:17] Oui, et justement,
+[53:18] en prenant l'exemple des événements,
+[53:19] la semaine dernière on était
+[53:20] avec son province
+[53:21] pour les rencontres économie DEX.
+[53:22] En gros, c'est une sorte de mini
+[53:23] d'avos français avec des responsables politiques,
+[53:24] des chefs d'entreprise,
+[53:25] plein de gens différents.
+[53:26] Il y a des débats toutes la journée,
+[53:27] des rencontres un peu partout.
+[53:28] Et tu passes ton temps à discuter avec des gens
+[53:30] que tu aurais jamais croisé autrement.
+[53:31] Et quand tu rendes de ce genre d'événement,
+[53:33] forcément,
+[53:34] t'as rencontré beaucoup de monde.
+[53:35] Un exemple tout simple.
+[53:36] Dans le train du retour,
+[53:37] je me suis retrouvé avec plusieurs cartes de visite,
+[53:39] bon, aujourd'hui on en utilise moins qu'avant,
+[53:40] mais ça existe encore.
+[53:41] Et j'avais rencontré pas mal de gens intéressants.
+[53:43] Alors, j'ai posé toutes les cartes côtes à côtes,
+[53:45] je les ai pris en photo,
+[53:46] puis j'ai envoyé l'image à Claude
+[53:47] en lui disant,
+[53:48] tiens, crée moi tous ces contacts
+[53:49] et ajouté à mon répertoire.
+[53:50] Et là, il m'a répondu,
+[53:51] je ne peux pas,
+[53:52] parce que pour une raison ou une autre,
+[53:53] il n'avait pas accès à mon répertoire.
+[53:55] Mais spontanément,
+[53:57] il m'a proposé une autre solution,
+[53:59] il m'a créé une dizaine de fichiers VCF
+[54:01] un pour chaque personne
+[54:02] que j'avais plus qu'à importer en appuyant sur un bouton.
+[54:05] Il avait récupéré les noms, les numéros,
+[54:07] les adresse-y-mails, les entreprises,
+[54:08] tout ce qui était écrit sur les cartes.
+[54:10] Et franchement, là, j'étais bluffé.
+[54:12] Pardon, excuse-moi, tu veux un peu d'autre ?
+[54:14] Toi bien ?
+[54:15] Oui, merci.
+[54:16] Je vais prendre de l'eau gazeuse.
+[54:18] Mais justement, ce qui m'intéresse
+[54:22] et ça rejoint ma question de tout à l'heure,
+[54:24] c'est cette idée de passer directement de l'eau d'eau
+[54:26] sans passer par le texte.
+[54:28] Parce que c'est là,
+[54:29] j'ai l'impression qu'on commence vraiment à changer de paradigme
+[54:31] si ça repose toujours sur un LLM.
+[54:33] Ça me fait penser à une discussion
+[54:34] que j'ai eu avec Ian Lecunc,
+[54:35] que tu connais sûrement.
+[54:36] C'est quand même l'un des grands pionniers de l'IA.
+[54:38] On parlait notamment des world models,
+[54:40] les modèles du monde.
+[54:41] Et j'ai l'impression qu'on commence à se rapprocher de cette idée,
+[54:44] parce que si on passe plus systématiquement par le texte,
+[54:46] ça change complètement la logique.
+[54:48] Aujourd'hui, si j'ai bien compris,
+[54:49] une grande partie d'IA fonctionne encore comme ça.
+[54:51] Tu prends l'eau d'eau, une image ou une vidéo,
+[54:54] puis tu transformes son contenu en une description textuelle.
+[54:56] Ton associé travaillait probablement déjà sur ce genre de choses.
+[54:59] D'ailleurs, par exemple, le système regarde cette tasse
+[55:02] et la décrit, la tasse est noire avec du blanc,
+[55:05] et il est écrit génération d'où il tire celles dessus.
+[55:07] Tout ce qu'il voit et donc d'abord transformé en texte,
+[55:09] puis le système repart de ce texte
+[55:11] pour générer de l'eau d'eau ou autre chose.
+[55:13] Mais au fond, c'est pas très efficace comme fonctionnement, si.
+[55:15] J'imagine qu'à chaque étape,
+[55:16] tu paies aussi un peu d'informations.
+[55:18] Oui. En fait, c'est surtout une question de compromis.
+[55:21] D'un côté, tu peux fusionner toutes les étapes dans un seul modèle
+[55:23] et là, tu peux gagner en rapidité,
+[55:25] réduire la latence et obtenir une réponse beaucoup plus vite.
+[55:27] Mais en contrepartie, aujourd'hui, en tout cas,
+[55:30] tu perds généralement un peu en fiabilité,
+[55:32] parce que tu ne peux plus contrôler chaque étape aussi précisément
+[55:34] qu'avec plusieurs modèles séparés.
+[55:36] Et surtout, tu perds une partie de la liberté que tu as aujourd'hui
+[55:38] pour choisir les différents composants de ton système.
+[55:40] Si on prend un âge en vocale, par exemple,
+[55:42] tu peux avoir trois grandes briques,
+[55:44] la reconnaissance vocale, le modèle de langage et la génération de voix.
+[55:47] Si tu fusionnes tout dans un seul modèle,
+[55:49] quelqu'un a déjà fait ses choix pour toi.
+[55:51] Et ce qu'on voit chez beaucoup d'entreprises avec lesquels on travaille,
+[55:54] c'est qu'elles veulent justement garder cette liberté.
+[55:56] Elles peuvent nous dire, pour la voix,
+[55:58] je veux utiliser Eleven Labs,
+[55:59] mais pour le modèle de langage,
+[56:01] dans certains cas, je veux Claude,
+[56:02] dans d'autres, les modèles d'open AI.
+[56:03] Et parfois, je préfère un modèle open source
+[56:05] parce que je veux garder davantage de contrôle sur la logique ou sur mes coups.
+[56:08] Et donc, là, ce qu'elles attendent de nous,
+[56:09] c'est aussi qu'on puisse les aider à déterminer
+[56:11] quel modèle utilisé, à quel moment et pour qu'elles usagent.
+[56:14] Donc, tu peux très bien avoir certaines parties du système
+[56:16] qui sont fusionnés et d'autres qui restent séparés.
+[56:18] L'important, c'est de conserver suffisamment de contrôle
+[56:20] pour pouvoir faire le bon choix selon la situation.
+[56:22] Et je pense qu'avec le temps,
+[56:24] les modèles fusionnés vont devenir de plus en plus fiables,
+[56:26] mais dans certains domaines très spécifiques,
+[56:28] soit ça prendra beaucoup plus de temps,
+[56:30] soit le gain de vitesse ne justifiera tout simplement pas le risque.
+[56:33] Si on prend la santé, par exemple,
+[56:35] tu veux surtout pas qu'un système comprenne mal le nom d'un médicament
+[56:38] et donne ensuite le mauvais nom aux patients.
+[56:40] Dans ce cas-là, tu préfères avoir une transcription claire,
+[56:42] pouvoir la vérifier et garder le contrôle sur les différentes étapes.
+[56:45] Gagner quelques millisecondes ou quelques secondes
+[56:47] ne voient absolument pas le risque.
+[56:48] Et puis reste un dernier élément, la qualité.
+[56:51] Et ça, c'est un peu plus difficile à mesurer.
+[56:53] Parce qu'aujourd'hui, beaucoup de modèles fusionnés
+[56:55] ne donnent pas forcément de meilleures résultats
+[56:57] qu'une approche en cascade ou chaque étape est gérée séparément.
+[57:00] On pense que ça va évoluer avec le temps.
+[57:02] Et chez Eleven Labs, on investit justement dans les deux approches.
+[57:05] Parce que à terme, on veut laisser le choix aux clients.
+[57:07] Donc quand tu parles un modèle fusionné,
+[57:09] c'est un modèle qui ne passe plus par le texte.
+[57:11] C'est ça ?
+[57:12] Oui, exactement.
+[57:13] Ok.
+[57:14] Je vois.
+[57:15] Et je pense qu'en pratique,
+[57:16] on va utiliser les deux approches en fonction des besoins.
+[57:18] Donc pour les entreprises ou la fiabilité est critique
+[57:21] et où il faut garder un contrôle précis,
+[57:23] on utilisera probablement une architecture en cascade.
+[57:25] Mais certaines parties pourront très bien fonctionner avec un modèle fusionné.
+[57:28] Par exemple, si tu appelles un service client simplement
+[57:30] pour avoir des infos sur un produit,
+[57:32] un modèle fusionné peut largement suffire.
+[57:34] Il peut faire une petite erreur de temps en temps,
+[57:36] mais l'enjeu reste limité.
+[57:37] Mais dans les services financiers,
+[57:39] là, c'est une autre histoire.
+[57:40] On travaille par exemple avec des banques,
+[57:42] comme par exemple, révolute.
+[57:43] Et si tu appelles pour connaître tes dernières transactions,
+[57:45] le système doit d'abord vérifier ton identité
+[57:47] avant d'aller chercher les informations sensibles sur ton compte.
+[57:50] Et je veux dire là,
+[57:52] tu peux pas te permettre que le modèle hallucine
+[57:54] ou face une erreur.
+[57:55] Tu dois pouvoir contrôler chaque étape
+[57:57] et savoir exactement ce qui s'est passé.
+[57:59] Donc les deux approches vont coexister.
+[58:01] Et en fait, selon le niveau de risque,
+[58:03] la vitesse, la fiabilité ou le contrôle dont on aura besoin,
+[58:05] tu choisiras l'une ou l'autre.
+[58:06] Notre objectif c'est d'accompagner les entreprises dans les deux cas.
+[58:09] Ok, laisse-moi te poser une question.
+[58:11] Tu parles de révolutes par exemple.
+[58:12] Donc c'est un de vos clients.
+[58:14] Ce que je vois, c'est qu'ils sont la plupart du temps connectés,
+[58:17] c'est ce qu'on appelle des MCP ou qu'on peut s'y connecter.
+[58:20] Avant pour ceux qui ne connaissent pas, on parlait d'appels.
+[58:23] C'est un peu différent.
+[58:24] Mais l'idée, c'est de connecter des irres entre elles, d'accord ?
+[58:27] La plupart des choses que je fais avec mes banques,
+[58:30] je l'ai fait par exemple en France avec une banque qui s'appelle Sumeria,
+[58:33] ou avec Kanto qui est un de mes sponsors chez eux,
+[58:36] tu peux déjà discuter avec une irre.
+[58:38] Mais au final, la plupart du temps,
+[58:40] ça passe encore par du texte et pas encore par la voix.
+[58:43] J'imagine que c'est pareil chez révolutes.
+[58:45] Mais tu ne peux pas encore vraiment lancer des actions.
+[58:48] Ou alors, à un moment, tu dois quand même passer par une interface
+[58:51] pour valider l'action, c'est ça.
+[58:53] Je m'explique.
+[58:54] En gros, j'imagine que tu vois où je veux en venir,
+[58:57] tu lui demandes.
+[58:58] Donne-moi mes dépenses du mois dernier en loisir, en hôtel,
+[59:01] ou en taxis ou en vélo, en libre-service par exemple.
+[59:04] Et elle te répond, tu as dépensé 12 euros chez Lime ou ailleurs.
+[59:08] Mais si je lui demande de faire un virement, par exemple,
+[59:12] je veux que tu mettes en place environ maintenant de 450 euros par mois vers ma mère.
+[59:17] Je ne sais même pas si c'est déjà possible.
+[59:19] La plupart du temps, elle va me dire d'aller dans l'interface révolute
+[59:22] pour confirmer ce qui est très bien.
+[59:24] Ça marche, mais le moment vraiment intéressant,
+[59:26] c'est quand elle répondra juste, oui, c'est fait.
+[59:29] Est-ce qu'on va y arriver?
+[59:31] Tu penses qu'on peut arriver jusque-là?
+[59:33] Ok, pour des actions comme ça, comme dans ton exemple,
+[59:35] avec la mise en place d'environnement bancaire récurrent,
+[59:39] alors là, ça va être compliqué quand même.
+[59:43] La mauvaise nouvelle, c'est que je pense que tu as quand même besoin d'un appareil pour t'authentifier.
+[59:47] Cette étape d'authentification, je vois pas comment l'éviter.
+[59:49] Mais elle ne sera pas forcément réalisée avec un téléphone.
+[59:51] Ça peut être une montre, un stilo, une empreinte digitale ou autre chose.
+[59:55] On est peut-être une empreinte ou un scan de l'œil quelque chose comme ça.
+[60:00] Ok.
+[60:01] Exactement. Et je pense qu'il faudra toujours cet étape-là
+[60:03] pour que le système sache que c'est bien toi.
+[60:06] Donc la voie ne suffit pas.
+[60:08] Non, la voie ne suffit pas.
+[60:09] Et d'ailleurs, ça m'amène au troisième sujet dont je voulais parler.
+[60:11] La voie seule ne suffira pas,
+[60:13] sauf si elle est associée à un autre dispositif.
+[60:15] Dans ce monde-là, il faudra une authentification très solide.
+[60:19] Et la voie, elle seule, ce n'est pas une bonne méthode.
+[60:21] Et c'est notamment parce que l'IA peut la reproduire beaucoup trop bien.
+[60:25] Elle peut la copier.
+[60:26] Ouais, elle peut la copier.
+[60:27] Faire ce qu'on appelle un clone vocal.
+[60:29] Ok.
+[60:30] Avec le temps, on pourra y ajouter des watermarks,
+[60:31] mais elle pourra quand même être copier.
+[60:33] Et c'est justement le troisième sujet dont je voulais parler.
+[60:35] On a parlé des barrières de la langue, de la voie comme interface.
+[60:39] Mais le troisième point, c'est que beaucoup d'histoire liée à la propriété intellectuelle,
+[60:43] à la créativité et aux talents,
+[60:44] auront désormais la voie comme mode par défaut.
+[60:47] Ainsi, une grande partie du travail déjà réalisée,
+[60:49] c'est en ramenant au domaine de l'audio et de la voie.
+[60:52] Ce que je veux dire par là, c'est qu'il y a deux aspects.
+[60:54] Déjà, si on prend les livres, toi qui a créé plusieurs entreprises en numérique,
+[60:58] tout ce contenu écrit pourrait aussi exister en version audio,
+[61:01] offrant un deuxième canal de diffusion.
+[61:03] Oui.
+[61:04] Aujourd'hui, moins de 1% des livres deviennent des livres audio.
+[61:07] Quand tu regardes toutes les façons dans ton communique,
+[61:09] il pourrait tout savoir aussi une version audio.
+[61:11] En tout cas, c'est pas choquant d'imaginer que demain,
+[61:13] un livre sortiraient en même temps en version écrite et audio
+[61:16] dans la grande majorité des cas.
+[61:17] Et je pense qu'à terme, tout sera disponible en audio,
+[61:20] sur tous les canaux et dans n'importe quel voie automatiquement.
+[61:22] Pour que cela se produise, il faudra énormément de voies exceptionnelles.
+[61:26] Il faudra donc créer un véritable écosystème de voie.
+[61:28] Mais ça ne pourra fonctionner que si on parvient à définir
+[61:31] comment lia et la propriété intellectuelle peuvent coexister.
+[61:33] En tant qu'entreprise, nous voulons résoudre cette question,
+[61:36] comment pas mettre aux personnes qui possèdent des voies remarquables
+[61:39] d'être justement rémunérés et récompensés en fonction de l'utilisation de leur voie.
+[61:43] Et si cela m'est revenu en t'écoutant,
+[61:45] c'est parce que la voie fait tellement partie de notre identité,
+[61:47] qu'elle comporte aussi des risques.
+[61:49] On peut la falsifier et à partir du moment où elle est falsifiée,
+[61:51] tu crois parler à quelqu'un d'autre.
+[61:53] Donc il faut mettre en place des gardes fou, la détectée, la modérée
+[61:56] et offrir un moyen public de vérifier son authenticité.
+[61:59] Donc tu fais un vieirement à ma mère, ça va.
+[62:01] Si c'est à quelqu'un d'autre, là, ça m'embête un peu.
+[62:04] Oui, voilà, ça peut devenir vraiment inquiétant.
+[62:06] Si quelqu'un peut imiter ta voie et appeler ta mère,
+[62:08] t'as pas envie que ça arrive.
+[62:09] Oui.
+[62:10] Donc il faut contrôler, vérifier et signaler les abus.
+[62:12] C'est exactement ce qu'on fait.
+[62:13] Il existe de plus en plus de modèle open source,
+[62:15] qu'à pas d'immiter ta voie et de faire exactement la même chose,
+[62:17] sans aucun garde fou.
+[62:18] Donc il faut un très bon système d'authentification.
+[62:20] Mais le côté positif, c'est que pour reprendre ce que tu fais avec ton podcast,
+[62:23] tu pourras créer des conversations incroyables
+[62:25] et les proposer dans n'importe quel langue,
+[62:27] avec ta voie et celle de ton invité,
+[62:29] tout en conservant exactement leur identité vocale.
+[62:31] On a récemment eu la chance de travailler avec Matthew McConaughey,
+[62:34] qui a enregistré des publicités pour la coupe du monde.
+[62:36] Il a aussi lancé une newsletter.
+[62:38] Et pour la première fois, on pouvait l'entendre en portugais et en espagnol,
+[62:42] avec cette voie si reconnaissable de Matthew.
+[62:44] C'était bluffant.
+[62:45] Je pense qu'on va voir de plus en plus de choses comme ça.
+[62:47] On verra des histoires extraordinaires à compter dans d'autres langues,
+[62:50] avec d'autres voix, grâce à un nouveau modèle
+[62:52] qui sera fait fonctionner tout ça ensemble.
+[62:53] C'est la pièce qui manque encore aujourd'hui
+[62:55] et qu'aucune entreprise d'Ian a vraiment résolu.
+[62:57] Enfin, j'espère que ce sera nous.
+[62:58] C'est tellement profond.
+[62:59] Plus tu ouvres, c'est comment on appelle ça un tiroir ?
+[63:02] Oui.
+[63:03] Comment tu dirais toi ?
+[63:04] Pas les étagères, mais les...
+[63:06] Les tiroirs, il n'y a pas plus d'images, je pense.
+[63:08] Peut-être que clémence, tu ne sais pas comment dire.
+[63:10] Enfin, ce que je voulais dire, c'est vas-y, dis-moi.
+[63:13] Les tiroirs, oui.
+[63:14] Oui, on trouvera pas mieux.
+[63:16] Donc plus tu ouvres de tiroir, plus je me dis, c'est complètement dingue.
+[63:20] Hier, justement, bon, ça, c'est très français,
+[63:23] mais j'étais à un déjeuner et j'adore ça d'ailleurs.
+[63:26] C'était avec un type que tu connais peut-être aussi
+[63:29] Jonathan Cherquy.
+[63:31] Oui, Content Square.
+[63:33] Je ne le connais pas personnellement, mais je vois très bien qui c'est.
+[63:35] Franchement, j'adore ce mec.
+[63:37] Il est juste, tu le rencontres.
+[63:39] Il est tellement sympa, toujours prêt à aider.
+[63:41] Tu te dis, le gars dirige une boîte énorme.
+[63:44] Et pourtant, quand il passe une heure avec toi, il te demande comment je peux t'aider.
+[63:48] Qu'est-ce que tu pourrais faire pour améliorer ça ?
+[63:50] C'est incroyable.
+[63:51] Et il m'expliquait qu'il enregistrait la plupart des réunions de ces équipes
+[63:54] avec l'accord de tout le monde, évidemment.
+[63:56] Oui.
+[63:57] L'idée, c'est que tu fais une réunion produit, une réunion client,
+[64:00] ou n'importe quelle réunion, tout le monde donne son accord
+[64:03] et pour faire progresser l'entreprise, ils enregistrent tout.
+[64:06] Et imaginons que nous soyons en réunion en train de discuter du produit
+[64:10] et que nous disons, ce serait formidable.
+[64:13] Si ce produit pouvait faire ceci, cela et encore cela.
+[64:16] Puis Jonathan ou une autre personne, par exemple le directeur des produits, répond.
+[64:20] Oui, en fait, c'est une excellente idée.
+[64:22] À partir de ce moment, la l'idée est validée.
+[64:25] Et je repense aussi à l'épisode qu'on a publié hier avec Paul Frambeau de Morfaud.
+[64:29] Il disait que chez eux, il ne cote plus du tout.
+[64:31] Pourtant, ce sont de brillants ingénieurs.
+[64:33] Mais il me disait que depuis décembre 2025, donc ça fait déjà 7 mois,
+[64:37] ils n'ont pas écrit une seule ligne de code.
+[64:39] Si tu mets tout ça, bout à bout, ça veut dire que demain,
+[64:43] rien qu'à partir des réunions de tes équipes,
+[64:45] tu en produis pourrais peut-être se mettre à jour tout seul.
+[64:48] C'est une réflexion fascinante à la client.
+[64:51] Une des choses qui change très clairement, c'est la façon de construire une entreprise,
+[64:54] de l'organiser et de créer les fondations
+[64:57] qui permettent ensuite à liat de faire son travail.
+[65:00] Ce qui est intéressant, comme dans cet exemple,
+[65:02] c'est que si vous disposez des transcriptions de différentes idées provenant de plusieurs départements
+[65:06] et que vous les regroupez,
+[65:07] vous pouvez alors fournir ces données et ses contributions aux modèles afin qu'ils les exploitent.
+[65:11] Dans notre cas, une chose qu'on a constaté,
+[65:13] c'est que même si on n'est pas encore au stade d'une intégration véritablement transversale
+[65:17] entre les différentes fonctions,
+[65:18] on a tout de même intégré un ingénieur au sein de chaque équipe non-technique.
+[65:21] Par exemple, notre équipe juridique, notre équipe érache
+[65:24] et notre équipe en charge du recrutement des talents.
+[65:27] Tous ces équipes ont un ingénieur et son rôle, c'est d'aider à automatiser.
+[65:31] Comment est-ce qu'on peut automatiser intelligemment une partie du travail ?
+[65:34] Vous vous entendez ça ?
+[65:35] Un ingénieur dans chaque équipe, même dans l'équipe des ressources humaines.
+[65:38] La finance, le juridique.
+[65:40] La finance aussi.
+[65:41] La finance, oui, partout en fait.
+[65:43] Côté GoToMarket, on a même plusieurs GoToMarket ingénieurs
+[65:45] à automatiser énormément de choses.
+[65:47] Mais surtout, ils aient tout le monde à monter en compétences et à adopter les outils d'IA.
+[65:52] Et ensuite, comme tout le monde développe énormément de choses,
+[65:54] il faut quelqu'un pour vérifier la sécurité et s'assurer que tout est correct.
+[65:57] Donc c'est comme ça qu'on prépare les fondations de ce dont tu parlais.
+[66:00] Est-ce que, à l'étape suivante, tout ça pourra fonctionner ensemble ?
+[66:04] Le problème, c'est que tu as l'auto-regression et puis il y a l'autre approche pour s'améliorer tout seul.
+[66:11] La diffusion ?
+[66:12] L'auto-amélioration ou...
+[66:14] Tu veux dire le reinforcement learning ?
+[66:16] Oui, exactement.
+[66:17] Et plus, je passe du temps avec Mésia, plus j'ai l'impression, je le disais déjà dans un autre podcast,
+[66:21] d'être humain inutile dans la pièce, celui qui fait juste l'intermédiaire.
+[66:26] L'IA me dit, oui, bonne idée.
+[66:29] Tu devrais envoyer ça à Claude Code.
+[66:31] Alors comme un gentil humain, je fais un copier collé dans Claude Code.
+[66:34] Claude répond, oui, mais il faudrait peut-être auditer ça.
+[66:38] Ensuite, j'utilise mon agent OpenClaw.
+[66:41] Il fait l'audite, puis il me dit, il faudrait modifier ça.
+[66:44] Et je refais un copier collé.
+[66:46] Et je me dis, mais vous ne pouvez pas le faire sans moi.
+[66:48] Vous ne pouvez pas vous améliorer tout seul.
+[66:50] Un moment, la vraie question, c'est, à quoi je serre ?
+[66:52] Bon, dans le fond, j'espère qu'il nous reste encore un peu de temps avant d'être totalement inutile.
+[66:56] Tu dois quand même l'épiloté, non ?
+[66:58] Oui.
+[66:59] Tu dois leur poser les bonnes questions, leur donner les bonnes tâches.
+[67:01] Et surtout, la partie la plus difficile, relire et valider leur travail.
+[67:05] Le problème commence quand ce qui produce sort de ton domaine d'expertise.
+[67:08] Souvent, t'es plus capable de vraiment le relire,
+[67:11] tu peux juste vérifier si globalement ça tient la route.
+[67:14] C'est aussi pour ça que les ingénieurs sont présents dans ces équipes.
+[67:17] Imaginons que quelqu'un du go-to-market développe une nouvelle application.
+[67:21] Prenons un exemple assez simple.
+[67:23] Une application qui permet de récupérer la base de données clients
+[67:26] et construire différents cadusages qui peuvent être utilisés publiquement.
+[67:29] C'est génial.
+[67:30] C'est très bien d'avoir un site web qui présente tous les cadusages
+[67:32] pouvant être rendu public.
+[67:34] En revanche, si les aspects de sécurité n'ont pas encore été validés,
+[67:36] par exemple, pour cette application, est-ce qu'une personne extérieure
+[67:39] pourrait accéder à des informations sensibles
+[67:41] qui peuvent voir les requêtes envoyées au système ?
+[67:43] Donc il faut vérifier la manière dont l'application fonctionne.
+[67:46] Est-ce qu'elle ne récupère que les personnes qu'on a le droit de mentionner publiquement ?
+[67:50] Ou tout le monde ?
+[67:51] Parce que si nous, quelqu'un de l'extérieur,
+[67:53] pourrait potentiellement récupérer des infos sur d'autres clients.
+[67:56] Ou plus simplement, est-ce qu'elle vérifie bien les bons champs
+[67:59] pour savoir qui peut être cité selon une clause de communication,
+[68:02] une autorisation d'utiliser un logo ou autre ?
+[68:04] Donc il faut quelqu'un qui soit capable de vérifier ce que fait réellement le code.
+[68:06] Oui.
+[68:07] L'équipe Gautomarket peut faire une partie de ce travail.
+[68:09] On a une équipe Gautomarket très technique,
+[68:10] mais elle va pas gérer toutes les connexions base de données ni tous les contrôles.
+[68:13] Il faut quelqu'un qui s'assure que tout ça est bien fait quoi.
+[68:17] C'est super intéressant.
+[68:18] Et quand je me rappelle que votre boîte n'a que quatre ans, c'est complètement fou.
+[68:22] Du coup, ma question c'est,
+[68:24] quels sont les meilleurs choses que tu as appris chez BlackRock ou chez Palentir
+[68:29] et qui te serve énormément aujourd'hui ?
+[68:32] Et à l'inverse, qu'est-ce qui est différent quand tu fais grandir une boîte en 2026 ?
+[68:36] Qu'est-ce qu'on ne pouvait pas faire, même en 2025 où il y a juste quelques années ?
+[68:41] Mettre un ingénieur dans chaque équipe, c'est incroyable.
+[68:45] Mais est-ce que tu peux nous en dire plus ?
+[68:47] Hmm, bien sûr.
+[68:49] Oui.
+[68:50] J'ai pas l'entir, l'obsession c'était d'être au plus près du client,
+[68:53] de travailler avec lui au quotidien, d'être sur le terrain,
+[68:55] et de partir de son problème pour remonter jusqu'à une solution qu'on peut réellement déployer.
+[69:00] Et tu sais, je pense que c'est une approche et un état d'esprit différent de ceux du monde du SAS.
+[69:05] Il ne s'agit pas simplement de conserver un produit puis de le distribuer,
+[69:08] il s'agit avant tout de comprendre profondeur les besoins du client
+[69:11] et de concevoir avec lui la meilleure solution possible.
+[69:15] Évidemment, cette approche ne marche que si les four words deployed engineers
+[69:19] font partie intégrante de l'équipe produit
+[69:21] pour qu'il puisse intervenir au bon endroit, au bon moment,
+[69:23] et comprendre les besoins de l'équipe.
+[69:25] Four words deployed engineers, FDE, c'est le nouveau besoin du moment, non ?
+[69:30] Oui, exactement.
+[69:31] Tu as dû voir le nombre d'offres explosés, multiplié par 10.
+[69:35] Ce qui est intéressant, c'est que je ne l'avais pas compris comme tu viens de l'expliquer
+[69:39] et avec l'IA tout change avant côté SAS,
+[69:42] tu avais un seul produit et tu essayais de faire rentrer toutes les clients dedans.
+[69:46] Là ce que tu dis, c'est que avec l'IA,
+[69:49] il devient beaucoup plus facile d'adapter ton produit aux besoins très spécifiques
+[69:52] de chaque client.
+[69:54] Exactement, intéressant.
+[69:56] Après, trouver le bon équilibre c'est difficile.
+[69:58] Tu veux pas développer une solution sur mesure différentes pour chaque client,
+[70:01] parce que ce n'est pas scalable.
+[70:03] Mais l'objectif est de rendre la solution suffisamment personnalisable.
+[70:06] La façon dont on a conçu notre plateforme de communication
+[70:08] repose sur des modules que l'on peut combiner selon les besoins.
+[70:11] Vous disposez de modules pour l'orchestration, les intégrations,
+[70:14] l'évaluation ou encore le monitoring.
+[70:16] Ensuite, chacun peut assembler les modules dont il a besoin,
+[70:19] car au fond, personne n'utilisera simplement la plateforme telle qu'elle,
+[70:22] sans l'adapter à son propre contexte.
+[70:24] Les intégrations dont l'on a besoin dans les services financiers
+[70:27] sont très différentes de celles du secteur de la santé.
+[70:30] Donc tu optimises le parcours client dès le départ en comprenant ces systèmes.
+[70:34] C'est là qu'il faut vraiment se concentrer et l'IA rend tout ça beaucoup plus flexible
+[70:38] et facile à adapter.
+[70:39] C'est très intéressant.
+[70:40] Donc, je n'ai pas l'entir cette façon de travailler main dans la main
+[70:43] avec le client a été une énorme leçon et chez BlackRock.
+[70:46] Ce que Giae a appris, ça peut paraître tout simple,
+[70:48] mais j'ai encore abordé ce sujet lors d'une discussion avec un de nos clients hier.
+[70:51] Une conversation toute simple, sur la façon dont les gens écrivent leurs emails.
+[70:55] Il me disait que ça fit taper encore tous ces emails et on se demandait
+[70:58] pourquoi ne pas ceder de l'IA pour écrire ces emails.
+[71:00] Il m'a dit, parce que si tu fais avec l'IA dès le départ,
+[71:03] alors tu n'apprendras jamais à écrire un mail.
+[71:05] Et si tu ne sais pas faire toi-même, tu ne peux pas juger si l'IA fait du bon travail.
+[71:09] Et puis de manière très concrète, BlackRock m'a énormément appris.
+[71:12] D'abord, à écrire des emails, mais plus largement interagir avec les clients.
+[71:16] Giae a appris l'importance d'être bien préparée
+[71:18] de faire le travail en amont avant une réunion,
+[71:20] puis d'assurer un suivi rigoureux par la suite.
+[71:23] Toutes ces choses simples qui, au fond, sont attendues dans la vie professionnelle
+[71:26] et que chacun finit par apprendre un jour,
+[71:28] mais je pense que BlackRock me les a transmises une manière vraiment exceptionnelle.
+[71:31] Le maître mot chez BlackRock, c'est le devoir fiducière,
+[71:34] fai du charity duty.
+[71:36] Vous travaillez au service de vos clients.
+[71:38] Cela signifie que vous devez respecter leur temps,
+[71:40] arriver parfaitement préparé, faire votre travail en amont,
+[71:42] rédiger des emails de qualité, être professionnels
+[71:45] et être présents quand on compte sur vous.
+[71:47] Ce sont des principes très simples, mais il m'ont énormément appris.
+[71:50] Oui, et c'est vrai que moi mes clients, ce sont surtout nos auditeurs,
+[71:54] mais je suis tellement dans l'action que je fais souvent le travail
+[71:57] pendant la réunion plutôt qu'avant.
+[71:59] Mes journées sont pleines, comme celle de tout le monde j'imagine.
+[72:03] Oui, mais ce que tu dis est vraiment intéressant.
+[72:05] Et puis, c'était aussi amusant pour moi,
+[72:08] parce que c'est la seule période de ma vie où j'ai vraiment pu utiliser
+[72:11] des connaissances mathématiques assez poussées,
+[72:13] en construisant des modèles de risques.
+[72:15] Là, je pouvais faire de la modélisation et construire de vrais modèles statistiques.
+[72:18] J'ai pas l'entir, j'avais déjà fait un taux de modèle d'optimisation,
+[72:21] mais là, c'était beaucoup plus orientée statistique, c'était vraiment passionnant.
+[72:24] Et pour revenir à ta question sur 2026,
+[72:27] c'est sur la façon dont on construit une entreprise aujourd'hui,
+[72:30] on a déjà parlé des ingénieurs,
+[72:32] 2e point, on garde des équipes extrêmement petites.
+[72:35] Entre 5 et 10 personnes.
+[72:36] C'est vrai pour les équipes produits,
+[72:37] mais aussi pour certaines équipes bottumerquettes, juridiques ou finance.
+[72:41] On essaie vraiment de fonctionner avec ces petites unités.
+[72:44] Ces équipes ont...
+[72:46] Donc au final, vous avez une centaine d'équipes ?
+[72:49] Oui, en pratique, on a énormément d'équipes.
+[72:51] Les équipes bottumerquettes sont un peu plus structurées.
+[72:53] D'accord.
+[72:54] Mais, mes côtés produits, oui, on a maintenant plus de 40 équipes,
+[72:58] 43 exactement, qui fonctionnent de manière autonome.
+[73:01] Et quand on lance un nouveau domain go to market,
+[73:03] on commence toujours avec une toute petite équipe.
+[73:05] Si ça devient une activité bien établie, alors l'équipe grandit,
+[73:09] évidemment, il y a quand même une couche de collaboration entre toutes ces équipes
+[73:13] pour éviter de refaire le même travail plusieurs fois.
+[73:16] En contrepartie, nous acceptons le risque de duplication
+[73:19] de refaire parfois un travail qui existe déjà
+[73:21] ou de prendre une direction qui sera pas forcément la meilleure.
+[73:23] Mais l'avantage, c'est la rapidité.
+[73:24] Les équipes peuvent avancer très vite.
+[73:26] Deuxièmement, cela renforce le sens des responsabilités.
+[73:29] Chaque équipe, c'est qu'elle est et qu'elle seule
+[73:32] est responsable des décisions qu'elle prend.
+[73:34] Et dans un monde avec l'IA, cela aide énormément.
+[73:36] Dès qu'une nouvelle capacité a apparaît,
+[73:38] chaque équipe peut décider de l'adopter.
+[73:40] Et même au-delà de cela, l'équipe peut choisir la manière dont elle l'adopte
+[73:43] voir ce qu'elle peut construire avec et décide de comment elle le construit.
+[73:46] Et ça, c'est vraiment génial.
+[73:47] Ça ne marche qu'avec de petite équipe autonome.
+[73:49] À quel point l'IA vous aide à développer l'IA justement ?
+[73:53] Énormément.
+[73:54] Ah oui ?
+[73:55] Oui.
+[73:56] Côté Engineering, sur certains cas dont on parlait environ 80% du code,
+[74:00] est écrit par l'IA.
+[74:01] Donc c'est énorme.
+[74:02] Mais je pense que l'effet le plus marquant, on le voit sur les métiers
+[74:05] non-techniques.
+[74:06] Chez les gens qui ont une réexpertise dans un domaine,
+[74:08] avec quelques connaissances dans d'autres.
+[74:10] Et là, avec l'IA dans ces autres domaines,
+[74:13] il passe d'un niveau débutant à un niveau avancé.
+[74:15] Ça permet de se défer des contraintes de ces domaines moins maîtrisées,
+[74:17] qui sont alors gérées par l'IA et de se consacrer
+[74:20] pleinement à son domaine de prédirection.
+[74:22] Et du coup, ils sont plus bloqués par les autres équipes.
+[74:24] Ils peuvent faire beaucoup plus eux-mêmes.
+[74:26] En growth, par exemple, tu peux imaginer une campagne marketing,
+[74:28] la concevoir, la produire, réaliser un premier prototype.
+[74:31] Ensuite, d'autres personnes vont le relire,
+[74:33] mais tu peux vraiment faire tout le processus de bout en bout.
+[74:36] En revanche, pour que ça fonctionne et pour bien construire
+[74:38] une entreprise, il faut évidemment des templates
+[74:40] et des bonnes pratiques réutilisables.
+[74:42] Il ne prend pas repartir de zéro à chaque fois.
+[74:45] Pour le Engineering, il faut aussi s'assurer
+[74:47] que tout ce qui touche à la sécurité est bien vérifié.
+[74:49] Mais une fois que tu as ces bricks de base,
+[74:51] tout le reste devient un beaucoup plus flexible.
+[74:54] C'est un peu comme ce qu'on disait entre le SA et l'IA.
+[74:56] Il faut préparer les bons composants
+[74:58] pour les déployer sur un cas d'usage précis.
+[75:00] En interne, c'est pareil.
+[75:01] Et tu prépare les bons composants,
+[75:02] tu gardes les mêmes fondamentaux,
+[75:03] mais tu laisses les équipes expérimentés
+[75:05] et construire chacune à leur manière.
+[75:08] Vous travaillez avec quel IA ?
+[75:10] On aime beaucoup anthropiques et on s'en sert pour beaucoup de choses.
+[75:13] Mais pour certains cas, OpenAI est excellent aussi.
+[75:15] Et chez Google, notamment les modèles Gbini Flash
+[75:17] sont vraiment très, très bons pour tout ce qui est interaction
+[75:20] en temps réel.
+[75:22] On déploie beaucoup d'agents chez nos clients,
+[75:23] mais on en utilise aussi énormément en interne.
+[75:26] Un bon exemple, c'est la qualification des lits d'entrant.
+[75:28] Quand tu remplis notre formulaire,
+[75:30] tu peux laisser tes informations,
+[75:31] mais tu peux aussi appeler un agent
+[75:33] et lui expliquer directement ton besoin.
+[75:35] Là, par exemple, on utilise des modèles Open Source
+[75:38] pour construire tout ça.
+[75:40] Et je me demandais justement
+[75:42] qu'elle serait le meilleur moyen de tester 11 Labs
+[75:45] pour les gens qui nous écoutent
+[75:46] et de voir comment ça fonctionne.
+[75:48] Est-ce qu'on peut appeler votre agent en ligne ?
+[75:50] Oui, bien sûr.
+[75:52] Tu peux aller sur notre documentation
+[75:54] et demander comment créer une application avec 11 Labs.
+[75:56] Tu seras aidé par un assistant 11
+[75:58] qui te guidera vers la bonne documentation,
+[76:00] la configuration des API, tout ça.
+[76:02] Si tu veux devenir client,
+[76:03] tu peux aussi aller sur notre site,
+[76:05] discuter de ton cas d'usage et laisser tes coordonnées.
+[76:07] Ou si tu veux rejoindre l'équipe,
+[76:09] tu peux parler avec notre agent,
+[76:11] découvrir notre culture,
+[76:12] notre façon de travailler,
+[76:13] et voir comment se déroule le processus de recrutement.
+[76:16] Très bien.
+[76:17] Je précise quand même pour être clair,
+[76:18] je suis client chez vous
+[76:19] et vous avez déjà été sponsor de l'émission.
+[76:21] Donc pour éviter toute confusion,
+[76:23] je rappelle à tout le monde,
+[76:24] ce n'est pas un épisode sponsorisé.
+[76:26] On ne fait jamais d'épisode sponsorisé.
+[76:28] C'est nous qui t'avons invité comme toujours.
+[76:30] C'est important que tout le monde le sache.
+[76:32] Oui, et de toute façon,
+[76:33] tu étais largement légitime pour venir.
+[76:35] Mais je préfère être transparent.
+[76:37] L'empêtement.
+[76:39] Et si je veux brancher,
+[76:41] tu parlais de révolutes
+[76:43] qui a des volumes de données énormes.
+[76:45] Imaginons que je sois BNP.
+[76:48] Et ceci était général
+[76:49] ou un très gros acteur comme orange,
+[76:51] et que je veux utiliser,
+[76:52] enfin il y a tellement de choses de faisables,
+[76:54] mais je me demande,
+[76:55] est-ce que tu as besoin d'accéder
+[76:57] à la base de données de ton client?
+[76:59] Comme si on prend l'exemple de orange,
+[77:01] les données de l'usage et ses dépenses,
+[77:03] sa consommation 4G, 5G,
+[77:05] ses données financières,
+[77:07] peu importe.
+[77:08] C'est à quel point compliqué les FDE,
+[77:10] c'est bien ça?
+[77:11] Oui.
+[77:12] Les forwares de diplôme et d'ingenieuse,
+[77:13] combien de temps ça prend?
+[77:14] En général, la façon dont on travaille
+[77:16] et qu'on recommande,
+[77:17] c'est de prévoir un sprint de 8 à 12 semaines,
+[77:19] on alligne les équipes des deux côtés,
+[77:21] notamment les forwares de diplôme et d'ingenieuse,
+[77:23] et à la fin de cette période,
+[77:24] tu dois avoir une preuve de valeur.
+[77:26] Pas seulement une preuve de concept,
+[77:27] c'est mon train que ça pourrait fonctionner,
+[77:28] mais une vraie preuve de valeur,
+[77:29] avec quelque chose qui tourne et qui est réellement déprayé.
+[77:32] En revanche,
+[77:33] il ne faut pas essayer de tout déployer d'un coup.
+[77:35] C'est généralement une erreur.
+[77:37] Il est vraiment préférable de choisir
+[77:39] un ou deux cas d'usage très précis.
+[77:41] On se concentre là-dessus
+[77:42] et on voit pour élargir plus tard.
+[77:43] Mais au début, on reste sur un ou deux cas pratiques.
+[77:46] Par exemple, en général, on commence par le cas le plus fréquent
+[77:49] dans les entreprises que tu citées par exemple,
+[77:51] énormément de gens appellent avec la même demande.
+[77:53] Ils veulent tout simplement connaître l'état de leur compte.
+[77:56] Ça fait souvent partie du top 5 des appels.
+[77:59] Si c'est de la livraison,
+[78:00] ce sera le suivi de livraison ou de commande.
+[78:02] Chez un distributeur, ce sera une demande de remboursement.
+[78:05] Et dans les services financiers,
+[78:07] c'est généralement tout ce qui concerne les problèmes liés au compte
+[78:10] qui arrivent à tête.
+[78:12] Oui, logique.
+[78:13] Donc, suivant notre raisonnement,
+[78:14] tu prends un de ces cas d'usage,
+[78:15] tu dois pouvoir le construire en 4 à 8 semaines
+[78:17] puis commencer le déploiement pendant les 4 semaines suivantes.
+[78:19] Là, tu commences à voir les KPIs.
+[78:21] Le taux de déflexion, c'est-à-dire,
+[78:22] à quelle fréquence liée à transfert vers un humain,
+[78:24] ça doit baisser.
+[78:25] Tu dois aussi voir le CSAT,
+[78:27] le score de satisfaction client ou le NPS,
+[78:29] la probabilité que les clients te recommandent augmenter.
+[78:32] En général, les équipes suivent l'un de ces 3 indicateurs.
+[78:36] Mais une chose qui est importante,
+[78:38] c'est que ça ne fonctionne que si l'entreprise en face
+[78:41] est elle aussi alignée,
+[78:43] voilà ce qu'on veut faire,
+[78:44] voilà l'objectif,
+[78:45] voilà l'étape qu'on vise.
+[78:46] Les choses les plus simples finalement.
+[78:48] Mais il faut que tout le monde s'implique
+[78:50] parce qu'il faut construire les bonnes intégrations
+[78:52] et connecter toute la stack.
+[78:54] Si tu ne veux pas aller jusque-là,
+[78:55] tu peux commencer plus simplement avec des appels purement informatifs
+[78:58] où les gens appellent juste
+[79:00] pour se renseigner sur un produit.
+[79:02] La qualification des lits d'entrant est souvent un très bon exemple
+[79:05] ou simplement une FAQ.
+[79:07] C'est une autre approche
+[79:08] qui demande beaucoup moins de connexions avec les systèmes.
+[79:10] Juste une base de connaissance.
+[79:12] Exactement, juste une base.
+[79:13] Donc pas de problème de sécurité.
+[79:15] C'est intéressant.
+[79:16] Et la qualification des lits d'entrant peut être vraiment utile
+[79:19] et elle est souvent très malfaite
+[79:20] dans un certain nombre d'entreprises.
+[79:22] Et ça fait progresser le chiffre d'affaires.
+[79:23] Donc oui, je vois...
+[79:24] Exactement.
+[79:25] Tout ça est déjà possible aujourd'hui.
+[79:27] Le problème,
+[79:29] c'est qu'un moment,
+[79:30] certaines très grosses entreprises peuvent devenir très dépendantes.
+[79:33] C'est quoi votre modèle économique?
+[79:36] On paye au token.
+[79:38] Est-ce que je peux utiliser mes propres GPUs si j'en ai?
+[79:41] Est-ce que je paye juste la technologie?
+[79:44] Tu peux m'expliquer?
+[79:46] En général, c'est un modèle basé sur l'accès à la plateforme plus l'usage.
+[79:49] C'est celui qu'on utilise le plus avec les grandes entreprises.
+[79:52] Tu peux aussi utiliser tes propres GPUs.
+[79:54] On peut fonctionner en On-Prem,
+[79:55] j'aurais la résidence des données ou des proies dans différentes régions.
+[79:59] Pour ceux qui nous écoutent le On-Prem,
+[80:01] pendant 20 ans, enfin plutôt 10 ans,
+[80:03] tout le monde ne parlait que du cloud.
+[80:05] Et depuis un ou deux ans, avec toutes les questions de souveraineté,
+[80:08] ce terme revient énormément.
+[80:10] Ça faisait longtemps que je ne l'avais pas autant entendu.
+[80:13] Le On-Premis, ça veut dire que tout tourne sur tes propres serveurs
+[80:17] dans ton entreprise ou dans des data centers qui t'appartiennent éventuellement.
+[80:21] Donc tu n'es pas hébergé chez Amazon, Google, Microsoft, Azure ou un autre
+[80:26] que ce sont vraiment tes propres serveurs.
+[80:28] Tu peux déployer tout ça sur ton infrastructure On-Prem.
+[80:31] Exactement, oui, c'est ça.
+[80:33] Et on prend en charge tous ces scénarios.
+[80:35] Que ce soit sur ta propre infrastructure ou dans le cloud en Virtual Private Cloud.
+[80:39] Et tu soulèves un très bon point la dépendance.
+[80:42] Une partie de ce que nous constatons,
+[80:44] c'est que beaucoup de clients ne veulent pas être dépendants
+[80:46] de certaines entreprises de modèle de langage.
+[80:48] Ils veulent avoir la possibilité de changer facilement de fournisseurs,
+[80:51] d'entrer et de sortir de ces solutions selon leur besoin.
+[80:54] La manière dont nous avons construit la plateforme,
+[80:56] avec ces avantages et ses inconvénients,
+[80:58] repose sur une architecture très modulaire et configurable.
+[81:01] Tu peux utiliser autant ou aussi peu de la plateforme que tu veux.
+[81:05] Ça fait partie de ce que tu as appris.
+[81:07] J'ai pas l'entir finalement.
+[81:08] Tu t'adaptes aux clients.
+[81:10] Exactement, tu t'adaptes aux clients.
+[81:12] Et ce qu'on voit sur le terrain, c'est que, dans certains cas,
+[81:14] t'as pas envie de tout construire toi-même.
+[81:16] Par exemple, pour le support client, c'est généralement pas là
+[81:18] que se trouve ton expertise métier.
+[81:20] Tu préfères te concentrer sur la construction d'une meilleure équipe commerciale.
+[81:24] Dans ce cas-là, laisse-nous gérer le reste.
+[81:28] Mais dans d'autres domaines, on veut, au contraire, les combinés.
+[81:30] Et tu sais, peut-être que, encore une fois,
+[81:33] je parle ici de la surface produit,
+[81:35] le plus grand impact que cela peut avoir aujourd'hui,
+[81:37] concerne toujours ces éléments interactifs.
+[81:40] Mais je pense aussi, et c'est probablement ce que nous verrons encore
+[81:43] davantage à l'avenir, que le marketing va continuer à évoluer
+[81:45] pour devenir encore plus performant,
+[81:47] notamment dans la manière de créer de nouveaux contenus
+[81:49] et de nouveaux supports.
+[81:50] Nous avons le plaisir de travailler ici en France avec des cas-clons.
+[81:53] C'est une marque innovante et ils nous font confiance.
+[81:56] C'est génial.
+[81:57] Ils créent des voix pour leur support dans différentes langues,
+[82:00] ajoutent de la musique et des pistes d'effets sonores,
+[82:03] le tout avec notre platform.
+[82:05] Mais ce qui est fascinant, c'est que, tout d'abord,
+[82:08] je dois mentionner à quel point c'est incroyable,
+[82:10] hier, ils ont remporté une étape du tour de France.
+[82:13] Ils ont gagné, oui.
+[82:14] Ils ont créé leur propre équipe, développé leur propre vélo,
+[82:17] tout leur équipement, c'est une histoire magnifique.
+[82:19] Il partage toute cette aventure et utilise même un peu
+[82:21] et l'avenelapse pour ça,
+[82:22] que ce soit pour le support client,
+[82:23] en produire du contenu de communication ou autre création.
+[82:25] On a plein d'outils.
+[82:26] Et puis nous, ça nous fait évidemment très plaisir
+[82:28] de voir notre technologie contribué à sa manière à cette belle aventure.
+[82:32] En tout cas, un grand bravo à eux.
+[82:35] Bravo, oui.
+[82:36] C'était incroyable.
+[82:37] Et pour nous, ceci, à un moment important,
+[82:39] on vient d'ouvrir notre bureau, il l'avenelapse à Paris.
+[82:41] On est une vingtaine de personnes ici entre le design,
+[82:44] engineering, le produit et le go-to-market.
+[82:46] Donc maintenant, on se sent aussi un peu français.
+[82:49] Tu sais parler au français, je vois.
+[82:50] Parce que des cas-clons, c'est très apprécié.
+[82:52] Tout le monde adore des cas-clons.
+[82:55] C'est incroyable.
+[82:56] Tout le monde ne sait pas,
+[82:57] mais ils développent leurs propres produits
+[82:59] et ils font ça en France.
+[83:01] C'est une marque formidable, non?
+[83:03] Accessible à tout le monde.
+[83:05] Oui, complètement.
+[83:06] Et leur vélo, tout leur matériel.
+[83:08] C'est très bon ma vie.
+[83:09] Oui, c'est dingue.
+[83:10] On a rencontré une bonne partie de lui la semaine dernière.
+[83:12] Génial.
+[83:13] En fait, je pense que la vraie inquiétude de beaucoup de gens,
+[83:17] surtout dans l'attaque.
+[83:18] Même si les grandes entreprises classiques vont aussi venir,
+[83:21] c'est qu'au final,
+[83:22] on remplace des salariés,
+[83:23] ce qui pourrait être parfaitement honnête,
+[83:25] arrive déjà.
+[83:26] Soit on licence-ci,
+[83:27] soit on arrête de recruter en pensant faire des économies
+[83:30] ou plutôt gagner en efficacité,
+[83:32] ce qui est un peu différent.
+[83:33] De plus en plus de chef d'entreprise le pense,
+[83:35] il ne le dise pas au micro, malheureusement,
+[83:37] mais c'est une réalité.
+[83:38] Mais on comprend aussi assez vite
+[83:40] que le coup des tokens de lia va probablement
+[83:43] très fortement augmenter.
+[83:44] Donc au final, tu ne fais pas forcément des économies.
+[83:47] Tu as m'éliore les choses, oui,
+[83:49] mais le volet économie n'est peut-être pas si vrai que ça.
+[83:52] C'est aussi ton avis.
+[83:54] Oui, tu vois.
+[83:55] Et ce qu'on observe souvent chez nos partenaires,
+[83:58] c'est que l'objectif à minima aujourd'hui,
+[84:00] c'est surtout, est-ce que je peux améliorer l'expérience ?
+[84:02] Cette question est centrale.
+[84:03] Et ça peut ouvrir la porte à d'autres choses,
+[84:05] mais la réduction des coups,
+[84:06] c'est pas encore vraiment le cas dans beaucoup de situation.
+[84:08] Mais donc, t'as des agents qui répondent au téléphone.
+[84:10] Avant, t'étais ouvert de 9 heures à 17 heures.
+[84:14] Et maintenant, tu l'es 24 heures sur 24,
+[84:16] cette jour sur 7.
+[84:18] Ce que nous constatons encore,
+[84:19] c'est qu'un certain nombre de postes vont disparaître,
+[84:21] notamment beaucoup de postes administratifs.
+[84:23] Mais simplement, les appeler et leur réciter le script ne fonctionnera pas.
+[84:27] Mais il y a d'autres moments dans la conversation
+[84:29] où tu as encore plus besoin d'un humain.
+[84:31] Oui, tout simplement pour gérer un dossier complexe
+[84:33] ou répondre à une situation émotionnelle
+[84:35] ou encore faire face à des demandes hors normes.
+[84:37] Donc je pense qu'il est essentiel de faire travailler l'IA
+[84:39] et l'humain ensemble.
+[84:40] Et le coup des tokens est clairement en haut
+[84:42] parce que tout à coup, on peut faire fonctionner
+[84:44] l'entreprise autrement,
+[84:45] que ce soit en interne ou en externe,
+[84:47] dans la façon de communiquer, de développer des produits
+[84:49] et de construire de nouvelles solutions.
+[84:51] Tout le monde peut en profiter,
+[84:52] mais je pense que les contributeurs individuels,
+[84:54] les ICs, vont devenir des managers d'agents-y-as,
+[84:57] il leur faudra superviser des systèmes capables
+[84:59] d'exécuter une grande partie d'étages
+[85:01] et pour ceux qui ne prendront pas ce rôle,
+[85:04] leur métier va probablement évoluer de plus en plus vers
+[85:07] ce qui crée réellement de la valeur entre humains.
+[85:09] Je pense que cette dimension-là ne disparaîtra pas.
+[85:12] En vente, c'est déjà ce qu'on voit.
+[85:14] En fait, c'est de construire des briques d'IASDR,
+[85:16] le but, c'est pas de remplacer,
+[85:18] c'est de faire monter en puissance.
+[85:20] En fait, ce sera intégré directement dans l'équipe
+[85:22] des SDR humains, du moins plus.
+[85:24] Oui, des IASDR.
+[85:26] Comment ça ?
+[85:27] En gros, les gens qui qualifient les lides,
+[85:29] ce qui échange avec les prospects pour comprendre leur activité.
+[85:31] On peut faire ça de de façon.
+[85:32] La première, c'est une équipe centrale,
+[85:34] complètement séparée.
+[85:35] La deuxième, c'est de garder ça directement dans l'équipe.
+[85:38] Nous, on va le faire dans l'équipe,
+[85:40] comme ça, le SDR humain garde le contrôle sur les IASDR
+[85:43] et son nouveau rôle,
+[85:44] en tant que charger des développements commerciales,
+[85:46] c'est d'ajuster un peu le domaine, la façon dont l'agent doit se comporter
+[85:49] avant d'échanger avec le client.
+[85:51] En service financier, par exemple,
+[85:52] c'est pas tout à fait pareil que dans la santé.
+[85:54] Et si le lit des qualifiés, c'est lui qui en bénéficie.
+[85:58] En quelque sorte, il gère plus de lides,
+[86:01] en tant que manager humain.
+[86:03] Et à côté de ça, ce qu'on voit,
+[86:05] c'est que pour les humains, disons côté go-to-market,
+[86:07] développer la relation avec l'autre personne
+[86:09] va devenir de plus en plus important dans un monde de DIA
+[86:12] et certainement pas moins,
+[86:13] tu as encore plus besoin de ce contact humain.
+[86:17] Je pense que c'est pareil dans le support.
+[86:19] Dans le support, il y a plein de taches administratives
+[86:21] qui peuvent très bien automatiser,
+[86:23] mais imaginant qu'on parle d'un sinistre,
+[86:25] et qu'à un moment, l'agent n'arrive plus à le traiter
+[86:27] parce que le système, la signaler comme un cas
+[86:29] par là, t'auras probablement envie de parler à un humain
+[86:32] pour expliquer, voilà, c'est arrivé à cause de telle ou telle problème
+[86:35] et le système n'a pas pris en compte telle ou telle chose, quoi.
+[86:38] Je trouverai un moyen de régler ça, enfin.
+[86:40] Exactement, c'est toute la dimension émotionnelle de l'aide qu'on apporte, quoi.
+[86:44] Oui, parce que, comme tu le disais tout à l'heure,
+[86:47] la Pologne a été autrefois essentiellement un pays de back office.
+[86:50] Aujourd'hui, elle est devenu un pays de front office
+[86:52] avec des équipes qui sont beaucoup plus proches des clients,
+[86:54] qui prennent en charge des missions à plus fortes valeurs ajoutées
+[86:58] et qui jouent un rôle bien plus stratégique.
+[87:00] Ce qui est une excellente chose
+[87:02] et sans vouloir offence et qui que ce soit,
+[87:04] c'est simplement la façon dont les choses se sont organisées au fil du temps.
+[87:07] Pour les pays anglophones, par exemple,
+[87:09] c'est l'un qui assurait une grande partie des activités de back office.
+[87:12] Et je comprends que ce n'est pas, enfin, pour les call centers,
+[87:16] en France, on en avait beaucoup au Maroc, en Tunisie, à Lille-Morisse
+[87:21] ou dans d'autres régions francophones.
+[87:23] Et ils étaient, enfin, ou même en France,
+[87:25] certains voient la plupart,
+[87:27] étaient assez peu efficaces.
+[87:29] Je parle du passé.
+[87:30] Mais quelle est la situation aujourd'hui et vers quoi est ce qu'on va aller ?
+[87:34] Au final, je ne suis pas sûr que c'était vraiment les meilleurs boulots.
+[87:37] Je pense même que c'était parmi les plus difficiles.
+[87:40] On n'est pas forcément parlé avec des agents au téléphone.
+[87:42] Et pour eux, c'était probablement encore plus difficile que pour nous.
+[87:46] Mais est-ce que leur métier va disparaître ?
+[87:48] Quelle est ton analyse ? Tu sais probablement mieux que nous ce qui est en train de se passer aujourd'hui ?
+[87:52] Oui. Mais comme tu le dis, souvent ces métiers ont été externalisés
+[87:55] et ces taches-là ne sont pas parmi les plus marrantes.
+[87:57] Oui.
+[87:58] Donc ils ont été externalisés
+[88:00] et ils se sont finalement retrouvés assez déconnectés des clients qu'ils servaient.
+[88:03] Souvent ils parlaient une langue légèrement différente
+[88:06] ou bien ils devaient simplement suivre un script sans vraiment avoir accès aux bonnes informations.
+[88:10] Donc au final, l'expérience proposée était loin d'être optimal.
+[88:13] Cette expérience va changer à 100%
+[88:16] et si les gens continuent à faire exactement le même travail,
+[88:19] oui, ça disparaîtra.
+[88:20] Mais je suis optimiste, je pense que ça va évoluer.
+[88:23] Si tu fais uniquement de l'administratif et que tu ne veux pas évoluer,
+[88:27] oui, ce sera plus possible.
+[88:28] Mais en revanche, toute cette partie répétitive sera automatisée par l'IA
+[88:32] et ton rôle sera d'intervenir sur des conversations précises pour aider.
+[88:35] Pour y apporter ton œil humain.
+[88:37] Ton travail ce sera de développer une vraie expertise métier
+[88:40] et de devenir la référence sur les cas les plus complexes.
+[88:43] Donc une chose assure la forme actuelle de ce métier
+[88:45] dans laquelle il faut juste appeler ou répondre puis suivre un script,
+[88:48] cette forme-là va en grande partie disparaître.
+[88:50] Et bien sûr, toute cette dimension d'expertise qu'est soit humaine ou métier
+[88:54] va continuer à évoluer.
+[88:56] C'est ça le grand changement.
+[88:57] Ce n'est pas juste un secteur, c'est tout l'univers de l'IA
+[89:00] qui est en train de transformer ça.
+[89:02] Aujourd'hui, être juste moyen, ça ne suffit plus.
+[89:05] Si tu es un designer Powerpoint moyen ou un développeur moyen,
+[89:08] il faut que tu montes en niveau.
+[89:10] Oui, mais ça tombe bien car tu peux aussi t'améliorer grâce à l'IPA.
+[89:14] En fait, je pensais à ça et Lavin Labs, un moment donné
+[89:18] pour l'enseignement et l'apprentissage, ça pourrait le faire.
+[89:21] Et quand on arrivera à ce niveau-là, ça va être assez incroyable.
+[89:24] L'autre jour, lors de notre discussion avec Paul Frambeau de Morfaud,
+[89:28] tu connais Morfaud ?
+[89:29] J'en ai entendu parler, oui.
+[89:30] Ok, il me disait qu'il parle tout le temps avec Claude
+[89:33] pour échanger avec lui, il m'a dit qu'il ne lit presque plus.
+[89:36] Pour tout apprendre.
+[89:37] Et en fait, j'ai essayé, moi aussi, de beaucoup parler avec Claude
+[89:41] dans la rue et un peu partout, mais avec tout le bruit autour,
+[89:44] l'expérience était franchement mauvaise, ce n'était vraiment pas terrible.
+[89:47] Et je repensais justement à ce moment, avec toutes les interruptions
+[89:50] qu'il y a quand on parle, à ton avis, à partir de quand ça
+[89:53] deviendra vraiment possible de parler avec mon IA,
+[89:55] comme si c'était un humain, avec le même rythme
+[89:58] et le même naturel qu'une vraie discussion.
+[90:00] C'est, parmi tous les cas d'usages que l'IA va rendre possible,
+[90:02] c'est probablement l'un de mes préférés.
+[90:04] L'éducation va complètement changer.
+[90:05] Aujourd'hui, on sait que plus la taille de la classe est réduite,
+[90:07] meilleur est la qualité de l'enseignement.
+[90:09] À l'avenir, chacun aura probablement son propre professeur.
+[90:12] Un professeur qui apprend à te connaître, qui s'adapte à ton rythme
+[90:15] et qui sait exactement comment tu fonctionnes
+[90:17] et qui t'accompagne de manière personnalisée.
+[90:19] Aujourd'hui, on a la chance de travailler avec duo-lingo
+[90:21] et masterclass, duo-lingo pour apprendre les langues,
+[90:23] masterclass où tu peux apprendre de façon interactive,
+[90:26] par exemple en négociant avec le meilleur négociateur du FBI
+[90:29] où tu peux cuisiner avec Gordon Ramsay.
+[90:31] Donc, c'est déjà possible aujourd'hui.
+[90:33] Donc, en fait, pour apprendre avec l'IA, c'est déjà possible.
+[90:36] Le vrai problème, c'est le déploiement.
+[90:38] Comment tu l'intègres correctement dans les salles de classe ?
+[90:40] Là, je digresse un peu trop, mais...
+[90:42] Pas de soucis.
+[90:43] Il va falloir amener l'IA à l'école pour que chaque élève
+[90:45] en profite vraiment, sauf qu'avant ça,
+[90:47] il faut former les enseignants à l'IA
+[90:49] et à la façon de l'utiliser pour enseigner.
+[90:52] Et ensuite, il faut aussi dégager du temps
+[90:54] pour apprendre tout ce qui est compétence sociale.
+[90:57] Comment tu interagis avec les autres dans une société ?
+[90:59] En fait, il faut les deux.
+[91:00] Une éducation enrichie par l'IA
+[91:02] et une éducation sans technologie pour développer tout ça.
+[91:05] Mais oui, je pense que c'est déjà possible.
+[91:08] En soi, le problème, c'est vraiment le déploiement.
+[91:10] Comment tu fais ça correctement ?
+[91:12] Comment tu l'encadres ?
+[91:13] Pas seulement pour les élèves,
+[91:14] qui sont souvent les plus rapides à adopter ses outils,
+[91:16] mais aussi pour les enseignants.
+[91:17] Parce que le plus important,
+[91:18] ce n'est pas tant d'obtenir une réponse
+[91:19] que de savoir poser la bonne question.
+[91:21] Il faut savoir creuser,
+[91:22] ne pas toujours faire confiance à l'IA quand elle a lucine
+[91:25] et vérifier ses sources.
+[91:27] D'ailleurs, ça me fait penser à une de mes phrases préférées
+[91:29] qui dit, tu peux déléguer la réflexion
+[91:31] par la compréhension.
+[91:32] Avec l'IA, c'est encore très, très juste.
+[91:34] Tu peux déléguer la réflexion,
+[91:35] poser toutes les questions que tu veux
+[91:37] et obtenir des réponses.
+[91:38] Mais tu ne peux pas déléguer le fait de vraiment comprendre.
+[91:41] Et la façon dont on apprendra
+[91:42] dans ce monde enrichi par l'IA sera fondamental.
+[91:45] Je pense que l'IA peut énormément nous aider dans l'éducation,
+[91:47] mais il faut que les enseignants et nous tous
+[91:49] trouvions comment s'y prendre
+[91:51] et ce n'est pas simple.
+[91:52] Il faut certainement du temps
+[91:53] pour que les enseignants s'adaptenent
+[91:55] à cet outil et l'utilisent.
+[91:56] C'est ça.
+[91:57] Elle ne peut pas comprendre à ma place à 100%,
+[91:59] mais elle peut énormément m'aider à comprendre.
+[92:01] Il y a plein de sujets que je n'aurais jamais exploré autrement,
+[92:04] car je lui disais, explique-moi,
+[92:06] tu me connais, explique le mois d'une façon que je peux comprendre.
+[92:08] Et elle l'a fait, c'était incroyable.
+[92:10] L'IA a su adapter sa manière d'expliquer
+[92:13] et à réussir à se baser sur mes connaissances actuelles
+[92:15] pour m'en apporter de nouvelles.
+[92:16] Oui, totalement.
+[92:17] Tu peux poser des questions pour apprendre,
+[92:19] mais prenons les devoirs.
+[92:21] Très souvent, les élèves envoient simplement
+[92:23] leurs exercices en disant,
+[92:24] donne-moi les réponses.
+[92:25] Là, tu n'as rien appris.
+[92:26] Non, exact.
+[92:27] Alors que si tu demandes,
+[92:29] j'essaye de résoudre cet exercice,
+[92:31] tu peux m'aider à comprendre
+[92:32] quelle méthode utilisée
+[92:33] et qu'on t'explique la méthode.
+[92:34] Alors là, tu apprends.
+[92:35] C'est parfait.
+[92:36] C'est toute la différence entre
+[92:38] apprendre à quelqu'un à pécher
+[92:40] et lui donner un poisson.
+[92:41] Oui.
+[92:42] J'ai essayé avec ma fille Louise, justement.
+[92:44] Elle passait ses premiers examens en France.
+[92:46] Le brevet des collèges,
+[92:47] c'était il y a quelques semaines
+[92:49] et elle avait un très mauvais professeur de physique,
+[92:52] une catastrophe.
+[92:53] Maintenant que j'ai dit ça,
+[92:54] j'espère que le professeur de physique
+[92:56] n'écoute pas ce podcast.
+[92:57] Mais je veux dire,
+[92:58] elle était vraiment, vraiment mauvaise.
+[93:00] Et pourtant, ma fille est plutôt bonne en maths.
+[93:02] Donc, il n'y avait aucune raison pour qu'elle soit mauvaise en physique.
+[93:05] Donc, j'ai commencé avec ChatGPT,
+[93:07] en essayant vraiment de l'aider à progresser
+[93:09] parce que mon ChatGPT l'a connaît,
+[93:11] contrairement à mon Claude.
+[93:12] J'ai essayé de l'entraîner avec ça,
+[93:15] mais elle était plutôt réticente.
+[93:17] Elle voulait apprendre à l'ancienne d'une certaine manière.
+[93:19] Ce qui m'a surpris,
+[93:20] mais je trouve ça aussi très intéressant
+[93:22] parce que ça montre la façon dont on évolue,
+[93:25] je veux dire, tout est en train de changer.
+[93:28] Ces dernières années,
+[93:29] on voyait les ados taper à toute vitesse sur leur clavier.
+[93:32] Et ça, ça va probablement disparaître dans les prochaines années.
+[93:35] Le clavier, enfin, je ne sais pas.
+[93:37] Oui, c'est intéressant parce que les jeunes
+[93:39] aiment vraiment écrire quand ils demandent de l'aide.
+[93:41] En revanche, pour découvrir ou apprendre des choses,
+[93:44] ils préfèrent les formats audio et vidéos
+[93:46] façon TikTok.
+[93:47] Aujourd'hui, tout tourne presque autour de ces deux formats.
+[93:50] Donc, je ne sais pas encore comment tout cela va évoluer,
+[93:52] mais j'espère qu'on le sera bientôt.
+[93:54] Ce sera aussi extrêmement utile pour réussir à bien
+[93:57] mettre en place cet approche et trouver la bonne façon de faire.
+[94:00] Mais l'éducation va clairement changer.
+[94:02] J'ai l'impression que chacun aura son propre professeur
+[94:05] qui pourra bénéficier d'une aide incroyable
+[94:08] et te suffira d'apprendre comment t'en servir.
+[94:10] C'est presque comme si apprendre à interagir avec cette technologie
+[94:13] c'est ça qui deviendra la nouvelle compétence essentielle.
+[94:16] Bien sûr et pour les professeurs comme pour les élèves.
+[94:18] Et j'espère que ça se fera toujours dans une salle de classe
+[94:21] que tu garderas cette interaction humaine
+[94:23] mais avec une façon d'apprendre beaucoup plus adaptative.
+[94:26] Oui, il faut que ce soit un apprentissage au cas par cas.
+[94:29] Exactement, mais il faut aussi apprendre à vivre avec les autres.
+[94:31] Les échanges entre pairs, la collaboration,
+[94:33] tout l'aspect social, tout cela apporte énormément.
+[94:36] Les coins ne fait pas seulement d'enseignement,
+[94:38] elle fait aussi de l'éducation.
+[94:39] Je suis très optimiste là dessus aussi
+[94:41] parce que ça va tout à coup donner à tout le monde
+[94:43] accès aux meilleurs profs du monde.
+[94:45] Aujourd'hui c'est tout simplement pas le cas.
+[94:46] Mais j'imagine que toute la partie audio et la vidéo aussi
+[94:49] va énormément évoluer parce que chacun apprend différemment.
+[94:52] Moi par exemple, j'écoute des podcasts depuis 12 ou 13 ans
+[94:57] et je vois bien que ça reste en mémoire.
+[94:59] Moi, j'écoute, j'apprend, je retiens,
+[95:01] certaines personnes, elles ont simplement besoin de lire.
+[95:04] Mais malgré tout, au final je dirais,
+[95:06] je dois reconnaître que la lecture est importante aussi.
+[95:10] Et tu le vois sur WhatsApp avec les messages vocaux.
+[95:12] Parfois tu te dis, fréro, arrête.
+[95:15] Fais-moi la transcription.
+[95:16] Oui.
+[95:17] Oui.
+[95:18] Écrise juste trois lignes.
+[95:19] Arrête de m'envoyer un vocal de 4 minutes.
+[95:22] Donc voilà.
+[95:23] Oui, en fait l'idéal c'est d'avoir le choix.
+[95:25] Et dans l'éducation c'est aussi vrai,
+[95:27] que parfois tu as envie d'avoir quelque chose dans les écouteurs
+[95:29] que l'explication soit en format audio.
+[95:31] Mais si par exemple tu fais un exercice de maths,
+[95:33] tu veux pouvoir poser des questions tout en continuant à le résoudre toi-même.
+[95:36] J'espère qu'on trouvera la bonne manière de faire interagir les humains
+[95:38] avec les humains, avec la technologie
+[95:40] et nous on peut jouer un rôle majeur là dedans.
+[95:43] Donc vous avez commencé par faire de la speech,
+[95:46] non du texte to speech, c'est ça, enfin.
+[95:48] Oui, on a commencé par le texte speech,
+[95:50] puis le speech de texte, ensuite la localisation,
+[95:52] l'interaction et maintenant on fusionne tout ça dans une seule plateforme.
+[95:55] Et vous vendez tous ces produits séparément,
+[95:57] je peux acheter juste de la transcription ou de la transcription.
+[96:00] Parce qu'on a déjà utilisé les outils,
+[96:02] mais je ne sais plus exactement ce à quoi ça nous avait servi.
+[96:04] Oui, tu peux utiliser chacun des composants séparément
+[96:07] ou utiliser notre plateforme pour créer des voice agents
+[96:09] ou des applications créatives.
+[96:11] Donc je peux prendre tous mes podcasts,
+[96:13] récupérer les transcriptions de tout ça, ce n'est pas trop cher.
+[96:15] Si tu utilises simplement le produit tel qu'elle n'en sait pas cher,
+[96:18] si tu veux qu'un humain vérifie le résultat pour qu'il soit parfait,
+[96:20] c'est un peu plus cher, mais ça reste tout à fait abordable.
+[96:23] C'est ça le compromis, on investit beaucoup dans le développement du système DIA
+[96:26] avec l'aide de nombreuses experts,
+[96:28] des spécialistes de la langue et de la voix.
+[96:30] Entre une solution entièrement automatisée et une solution
+[96:32] ou des experts humains interviennent, il y a un écart
+[96:34] mais il va continuer à se réduire avec le temps.
+[96:36] Après, je suis forcément biaisé,
+[96:38] mais il y a de très bonnes choses, des deux côtés.
+[96:40] J'ai probablement quelque chose comme 1000 podcasts à traiter,
+[96:44] avec les différentes émissions qui font en moyenne 2 heures,
+[96:47] ça doit représenter quelque chose comme 2000 heures de podcasts.
+[96:50] Dans ce cas, fait tout automatiquement pour commencer.
+[96:53] Et pour les plus récents, on peut faire une validation humaine.
+[96:56] Interessant.
+[96:57] Vous avez quand même traversé quelques bad buzz, non,
+[96:59] avec les... tu parlais de l'IP,
+[97:01] je me souviens si c'était avec Darkvador ou avec des acteurs américains,
+[97:05] enfin, je ne sais plus.
+[97:07] Et aujourd'hui, si j'ai bien compris,
+[97:09] vous essayez de réconcilier tout ça,
+[97:11] quand tu diriges une web-tech,
+[97:13] t'es obligé de passer par là.
+[97:14] Il faut aller vite.
+[97:15] J'imagine que Youtube est passée par les mêmes étapes.
+[97:17] Toi, en tant que 6 Iho, comment tu gères ça ?
+[97:20] Tu peux te nous raconter ce qui s'est passé ?
+[97:22] Oui, alors.
+[97:23] Et peut-être de d'autres bad buzz aussi, je ne sais pas.
+[97:25] Vu la vitesse à laquelle vous grandissez,
+[97:27] j'imagine qu'il y en a eu quelques uns.
+[97:29] Oui, on a eu quelques situations où...
+[97:31] Des moments de bad buzz.
+[97:32] Disons qu'il y a eu plusieurs moments où les choses
+[97:34] n'étaient plus vite que prévues,
+[97:35] et où on a dû à posteriori corriger le tir.
+[97:38] Mais depuis le début, on essaie de comprendre
+[97:40] comment faire fonctionner ensemble,
+[97:42] l'IA, l'IP, les voix et les talents.
+[97:45] Pour être plus concret,
+[97:46] quand on a lancé notre premier produit,
+[97:48] donc on a créé la société en 2022 et lancé le produit en 2023,
+[97:51] quelques semaines après seulement,
+[97:52] on a lancé une marketplace
+[97:54] où les gens pouvaient enregistrer leur voix.
+[97:57] On a tantificé le voix.
+[97:58] Ensuite, tu peux partager ta voix à IA
+[98:01] et tu touches des revenus passifs grâce à ta voix.
+[98:03] Ok.
+[98:04] Depuis le tout début.
+[98:05] C'est toujours disponible.
+[98:06] Oui, toujours.
+[98:07] Aujourd'hui, on a 20 000 voix.
+[98:08] Enfin, non, 30 000 voix.
+[98:09] Et on a déjà reversé 22 millions de dollars à cette communauté.
+[98:12] C'est sérieux ?
+[98:13] Oui, et c'était notre vision dès le départ.
+[98:15] Évidemment, à l'époque, on était une équipe de 5 personnes,
+[98:18] donc à mesure que les enjeux de sécurité apparaissaient,
+[98:20] on a ajouté rapidement de nouvelles protections.
+[98:22] Mais pour parler du cas auquel tu fais référence,
+[98:25] on a travaillé avec Epic Games,
+[98:27] qui déployait leur expérience dans Fortnite avec Disney,
+[98:29] et dans ce cadre, on a créé avec les aéendroits de James Orl Jones,
+[98:32] l'expérience de Dark Vador dans le jeu.
+[98:36] Nous étions responsables de la partie voie.
+[98:39] Et bien, sur tous les joueurs, on a immédiatement essayé de faire dire
+[98:42] à Dark Vador des choses qui n'aurait jamais dû dire.
+[98:44] Oui.
+[98:45] Et c'est justement là qu'il faut mettre des garde-fous
+[98:47] pour que le personnage reste dans son rôle et ne sorte pas du script.
+[98:50] C'est ce qui s'est passé.
+[98:51] C'est ce qui s'est passé, et puis c'était un déploiement à une échelle énorme.
+[98:54] Pour nous, dans le jeu vidéo, c'était de très loin le plus gros projet.
+[98:57] C'était où on changeait complètement de dimensions.
+[99:01] Nous avons lancé notre marketplace de voie en 2023,
+[99:04] mais ce qui est nouveau pour nous depuis l'année dernière,
+[99:06] c'est que nous essayons aussi d'intégrer des voies iconiques au sein de la plateforme.
+[99:11] Comme Mathieu Macron m'a créé.
+[99:12] Oui, alors Macconnay, Sir Michael Cain,
+[99:15] des voies que tout le monde connaît, reconnaît et apprécie
+[99:18] pour pouvoir travailler avec elle sur certains projets.
+[99:20] On a aussi lancé récemment notre partenariat avec Hasbro,
+[99:23] avec des voies issues de propriété intellectuelle emblématique,
+[99:26] d'optimus Prime, jusqu'à un personnage de la reine d'énage.
+[99:30] Petite ?
+[99:31] Non pas un personnage de la reine d'énage, oublier le nom.
+[99:33] Mais oui, c'est l'un de leurs personnages pour enfants aussi.
+[99:35] C'est un exemple intéressant,
+[99:36] parce qu'on parle pas seulement de grandes voies iconiques
+[99:38] ou de personnages très connus,
+[99:39] mais aussi de voies qui font partie de l'univers des enfants
+[99:41] et qui peuvent créer une expérience plus immersive.
+[99:44] C'est très drôle et très intéressant, je trouve.
+[99:47] Mais je me mets à la place de Mathieu Macconnay,
+[99:49] et je me dis, je vends ma voix,
+[99:51] et les gens peuvent utiliser ma voix.
+[99:53] Sauf que c'est toujours lui qui garde le contrôle.
+[99:56] C'est toujours lui qui va aller des projets.
+[99:59] Mais malgré tout,
+[100:00] à un moment, je ferai forcément des blagues
+[100:02] ou des conneries avec,
+[100:03] j'ai sans doute un esprit un peu tardu.
+[100:05] Donc oui, tu gardes le contrôle, mais...
+[100:07] Non, c'est exactement ça.
+[100:08] En fait, Mathieu Macconnay choisit les projets qui lui plaisent.
+[100:11] Une entreprise peut faire une demande,
+[100:13] puis lui et son équipe décide, ça j'aime bien, ça non.
+[100:16] D'ailleurs, selon toi,
+[100:17] quels seraient la grande voix française avec qui on devrait essayer de travailler ?
+[100:21] Je pensais justement,
+[100:22] je pensais à des célébrités,
+[100:24] mais celles qui sont aussi connues pour leur voix,
+[100:27] une voix française que tu reconnais entre un million,
+[100:29] ce serait qui ?
+[100:30] Qu'est-ce que ce serait ?
+[100:32] J'ai envie de dire Jean-Dujardin ?
+[100:34] Oui, probablement.
+[100:35] C'est l'acteur célèbre qui a eu un Oscar.
+[100:37] Il a une voix assez emblématique et reconnaissable
+[100:40] avec des expressions célèbres aussi.
+[100:42] Oui. Ou alors, Gadel Malais.
+[100:44] Probablement, parce que c'est surtout une question de d'intonation
+[100:46] et de... Tu vois, il a une voix.
+[100:47] Mais là, je suis biaisée.
+[100:48] Je ne cite que des hommes.
+[100:49] Alors, si je dois choisir une femme,
+[100:51] je dirais Adèle.
+[100:53] Oui ?
+[100:55] Oui.
+[100:56] Oui, j'ai pensé à Virginie et Fira aussi,
+[100:58] mais je... Ou alors, une voix vraiment typique,
+[101:00] une voix où tu fais... Ah !
+[101:02] Qui parle comme ça ?
+[101:03] Tu reconnais tout de suite ?
+[101:04] Ah oui, excellent exemple.
+[101:06] Là, avec la coupe du monde qui approche,
+[101:07] ça me fait penser à autre chose.
+[101:08] On travaille avec la Fox et ils ont un présentateur très connu
+[101:11] qui s'appelle Colin Cowherd.
+[101:13] Tu peux lui demander
+[101:14] est-ce qu'il se passe pendant les matchs de la coupe du monde
+[101:16] et avoir son analyse ?
+[101:18] Thierry Henri, il est très connu ?
+[101:20] Oui, Thierry Henri est très connu après.
+[101:22] Est-ce que je reconnaitrai sa voix tout de suite ?
+[101:25] Oui, peut-être.
+[101:26] Je ne suis pas sur...
+[101:28] Je vais y réfléchir.
+[101:29] Ça me reviendra sûrement en d'ici la fin de l'épisode.
+[101:31] D'accord.
+[101:33] Au fait, niveau timing, on en est où ?
+[101:35] Tu dois partir à 13 heures ?
+[101:37] Oui, il faut que je surveille l'heure.
+[101:39] Oui.
+[101:40] Je pense que ça va.
+[101:41] J'aurais besoin de 5 minutes de plus si tu es pressée.
+[101:43] Ça te va ?
+[101:44] Ok, faisons encore 5 minutes.
+[101:45] Et après, je devrais vraiment y aller.
+[101:47] Ok, parfait.
+[101:48] Si j'ai encore 5 minutes,
+[101:50] quels sont tes rêves les plus fou ?
+[101:52] Parce que rien qu'en passant deux heures avec toi,
+[101:54] j'ai déjà plein de visions complètement dingues
+[101:56] de là où tout ça nous emmène.
+[101:58] Alors, d'y nous, quand tu te couches, quand tu te réveilles,
+[102:01] quand tu penses à ce que vous faites,
+[102:03] ou quand tes 40 équipes produis viennent te voir,
+[102:05] quels sont les idées les plus folles que vous imaginez
+[102:07] et les expériences incroyables que vous menez ?
+[102:09] Et les mystères qui vous restent à percer
+[102:11] autour de la voix et de tout ça ?
+[102:13] En fait, ça rejoint un peu ce dont on parlait.
+[102:15] Je pense toujours que personne a encore réussi cette vraie rupture
+[102:18] ou interagée avec la technologie par la voix,
+[102:20] devient totalement fluide,
+[102:22] aussi naturelle que deux humains qui discutent
+[102:24] avec un contrôle total et une expérience vraiment agréable.
+[102:27] Et moi, je veux qu'on régle ça.
+[102:30] Je veux qu'on passe le tais de Turing et qu'on soit les premiers à y arriver.
+[102:32] Que les gens se disent, wow, je ne pensais pas
+[102:34] qu'une interaction comme ça était possible.
+[102:36] Je pense qu'on a résolu le speech to texte,
+[102:38] je pense qu'on a résolu le text to speech,
+[102:40] je pense qu'on a résolu les intégrations,
+[102:42] je pense qu'on a trouvé la bonne tate forme pour des projets.
+[102:44] Tout ça, mais je pense aussi que personne
+[102:46] a encore trouvé comment assemblé intelligemment
+[102:48] toutes ces briques dans une seule boucle.
+[102:50] Nous, je pense qu'on va y arriver.
+[102:51] Et une fois que tu fais ça,
+[102:52] une fois que tu fais tomber la barrière de la langue,
+[102:54] imagine un monde où tu peux parler n'importe quelle langue.
+[102:56] Tu peux voyager dans un autre pays
+[102:58] et comprendre les gens, leurs cultures.
+[103:00] Tu peux échanger avec les autres
+[103:02] et entendre des histoires auquel tu n'aurais jamais eu accès autrement.
+[103:06] Je pense que ce sera un monde incroyable
+[103:08] où tu oras à la fois cette technologie interactive
+[103:10] que tu maîtrises vraiment
+[103:12] et où la barrière de la langue aura disparu.
+[103:14] C'est là dessus que nos équipes...
+[103:16] Oui.
+[103:17] C'est ce qui les passionne.
+[103:18] Et quand ils vont se coucher,
+[103:20] ce à quoi ils pensent surtout,
+[103:22] c'est comment continuer à attirer une équipe exceptionnelle
+[103:24] pour poursuivre cette mission,
+[103:25] pour grandir et s'améliorer.
+[103:27] Au final, tout repose sur les gens.
+[103:29] La vraie question, c'est,
+[103:30] est-ce que tu arrives à aligner la culture
+[103:32] et la passion de toute l'équipe autour de cet objectif ?
+[103:35] Et quels sont les obstacles ?
+[103:36] Au fait, t'as essayé les nouveaux,
+[103:38] comment ça s'appelle les écouteurs d'Apple ?
+[103:40] Ils disent qu'ils traduisent direct ?
+[103:43] C'est moyen.
+[103:45] C'est moyen, moyen voir mauvais.
+[103:47] Du coup, quels sont les obstacles ?
+[103:48] Et puis, qui va acheter ça ?
+[103:49] Ou qu'est-ce que vous allez faire ?
+[103:51] Vous finirez peut-être racheter
+[103:52] par une grosse boîte de tech américaine ?
+[103:54] C'est ça, l'enjeu ?
+[103:55] Qu'est-ce que tu empenses ?
+[103:56] Non.
+[103:57] Nous on suit notre propre chemin.
+[103:58] On veut rester indépendant.
+[103:59] On veut introduire l'entreprise en bourse.
+[104:01] Bien sûr, on veut bâtir une entreprise mondiale
+[104:03] mais aussi construire un écosystème européen solide.
+[104:06] Et cette introduction en bourse, ce serait en Europe.
+[104:08] Vous feriez votre IPO en Europe ?
+[104:10] Ce sera pas seulement en Europe.
+[104:12] On essaiera d'être côté à plusieurs endroits.
+[104:14] Ok.
+[104:15] Donc, les États-Unis et...
+[104:17] Mon idée, ce serait que l'Europe sera sans vraiment une sorte d'Europe inc.
+[104:20] Avec le Royaume-Enie et l'Europe réunie, et qu'on est...
+[104:22] Il faut qu'on se bête pour ça.
+[104:23] Vraiment oui.
+[104:24] 100% oui.
+[104:25] Si on n'y arrive pas, ça va être très dur pour le continent.
+[104:28] Aujourd'hui, le système n'est pas encore prêt.
+[104:30] Donc, on y consacre beaucoup de temps.
+[104:31] Mais nous, on veut construire une entreprise qui dure,
+[104:35] qui traverse les générations.
+[104:37] Tu as une formation, on peut dire, scientifique et d'ingénieurs.
+[104:40] Ou...
+[104:41] Oui, en mathématiques et puis...
+[104:43] Oui, je faisais beaucoup d'ingénieurs et à l'époque.
+[104:45] Cet manque, parfois, c'est de face d'expérimentation.
+[104:48] Parce que de mon côté, je passe déjà beaucoup de temps à coder
+[104:51] et à tester des choses.
+[104:52] Mais j'aimerais avoir 3, 4, 5 heures de plus par jour
+[104:55] juste pour pouvoir expérimenter davantage et continuer à progresser.
+[104:59] Oui.
+[105:00] J'aimerais aussi avoir plus de temps pour jouer avec la technologie.
+[105:03] Aujourd'hui, j'y consacre un peu de temps
+[105:06] quasiment quotidiennement, pas forcément tous les jours, mais presque.
+[105:09] Au final, ça aide aussi à mieux comprendre la vision du produit
+[105:12] et à voir dans quelle direction le monde est volu.
+[105:15] Mais oui, oui, ça me manque un peu.
+[105:17] Bien sûr, il y a d'autres moments de satisfaction,
+[105:19] voir l'équipe grandia, accomplir des choses incroyables
+[105:21] et aller toujours plus loin, me procure énormément de plaisir,
+[105:24] sur une autre forme de gratification.
+[105:25] Mais malgré tout, il y a toujours une petite part de moi
+[105:27] qui regrette ces moments où je pouvais passer plus de temps à expérimenter.
+[105:30] Donc oui, ça me manque un peu.
+[105:32] Quel est le plus gros défi que tu as fronte aujourd'hui ?
+[105:35] Je pense que le plus difficile et aussi le plus simple à expliquer.
+[105:38] On est 600 personnes, on est à 600 millions d'aerreurs,
+[105:41] donc on continue.
+[105:42] 600 millions ?
+[105:43] Ah oui, quand même.
+[105:44] Ça grandit très, très vite.
+[105:45] Oui, parce que les chiffres que j'avais,
+[105:47] c'était plutôt autour de 350.
+[105:49] Donc, ok.
+[105:50] Oui, ça va très vite.
+[105:51] Et évidemment, il faut continuer à recruter.
+[105:53] On est obsédé par la culture d'entreprise.
+[105:55] Si tu n'as pas la bonne culture, tu cesses d'être une vraie entreprise.
+[105:59] Ici, en France, par exemple,
+[106:01] Julian nous a rejoint comme GM France.
+[106:04] C'est lui qui construit cette culture en France et c'est quelqu'un d'exceptionnel.
+[106:07] Aujourd'hui, mon obsession, c'est de savoir comment continuent à grandir jusqu'à 1000 personnes
+[106:11] et au-delà tout en gardant les valeurs qui comptent pour nous.
+[106:13] Visez l'excellence, restez humble.
+[106:15] Et il y a aussi la manière dont tu prends les choses en main.
+[106:17] On tu assure pleinement les responsabilités.
+[106:19] Tout en conservant cette même passion,
+[106:21] tu donnes aussi aux autres l'autonomie, la confiance et les moyens d'agir par eux-mêmes.
+[106:25] Réussir à combiner un leadership fort avec cette capacité à responsabiliser les équipes,
+[106:30] c'est un équilibre particulièrement difficile à trouver.
+[106:33] Je pense que ce qui est difficile aussi, c'est de comprendre la profondeur de ce que vous faites.
+[106:37] Parce que parfois, on se dit, oui, 11 laps, une boîte de traduction en gros.
+[106:42] Oui ou une boîte de voix ou de traduction ?
+[106:44] Oui, et là aujourd'hui.
+[106:46] Au fil de la discussion, on a vraiment pu se rendre compte de la folie que c'est, en fait.
+[106:51] Oui, je pense que le principal cas d'usage que nous observons aujourd'hui
+[106:54] et qui va continuer à prendre de l'ampleur,
+[106:56] c'est l'interaction vocale avec les agents de IA.
+[106:59] La manière dont cette couche évolue est vraiment fascinante, elle change à une vitesse incroyable
+[107:03] et on voit énormément d'élan et de dynamique autour de ça.
+[107:06] C'était vraiment passionnant à observer.
+[107:08] C'est un peu effrayant par moment, mais j'ai hâte.
+[107:10] Deux dernières questions.
+[107:12] Est-ce que tu aurais un livre à recommander, le livre que tu offrirais au monde entier
+[107:15] si tu en avais la possibilité ?
+[107:17] Alors, il faudrait que je réfléchisse un peu plus précisément à la question,
+[107:20] mais j'adore la fiction, j'adore d'une, par exemple.
+[107:23] C'est peut-être un peu au-delà des livres eux-mêmes que je trouve déjà très bon,
+[107:27] mais c'est surtout l'univers que tu imagines et que tu crèques incroyable.
+[107:31] Mais il y a un livre dont le nom m'échappe écrit par un mathématicien.
+[107:35] Il était étudiant puis professeur à Cambridge et il raconte l'histoire du développement humain
+[107:39] à travers les grandes inventions et les découvertes qui ont marqué notre évolution.
+[107:43] Il essaie de montrer comment ces avancés technologiques et scientifiques
+[107:46] ont façonné notre manière de vivre, de penser et d'organiser nos sociétés au fil du temps.
+[107:52] D'accord.
+[107:53] Je réfléchisse un peu plus pour trouver un titre précis, mais d'instinct je dis du ne.
+[107:56] Je trouve cet univers incroyable.
+[107:59] Ok.
+[108:00] Je t'en verrai le titre.
+[108:01] Carpé, on le mettra sur le site avec les notes de l'épisode.
+[108:04] Si tu pouvais revoir le mathique qui a quitté la pologne pour Londres et lui dire une seule chose,
+[108:10] qu'est-ce que tu lui dirais ?
+[108:11] Quand j'ai quitté la pologne pour m'installer à Londres, ce qui m'a vraiment marqué,
+[108:15] tu sais, il faudrait que je trouve la bonne manière de le formuler,
+[108:18] mais je pense que c'est cette idée de ne pas se limiter aux opportunités
+[108:21] que tu vois immédiatement autour de toi.
+[108:23] Parfois, ton environnement peut donner l'impression de définir ce qui est possible pour toi,
+[108:27] alors qu'il existe en réalité beaucoup plus de possibilités que tu n'imagine.
+[108:30] Il faut savoir sortir de sa zone de confort et ne pas se mettre soi-même des limites.
+[108:34] Oui.
+[108:35] Les opportunités sont bien plus grandes que tu l'imagine.
+[108:38] Pas du temps à comprendre à quel point elle peut être immense et prendre des risques.
+[108:42] On ne vit qu'une fois.
+[108:43] Le plus grand risque, c'est de ne jamais en prendre.
+[108:45] Hose, sauter dans l'inconnu et essayer de comprendre ce monde.
+[108:48] Parce qu'il m'a fallu longtemps pour réaliser l'emploi des opportunités qui existent
+[108:51] et tu sais pour ceux qui démarrent leur carrière ou l'entreprise,
+[108:54] c'est jamais trop tard, tout est possible.
+[108:57] Tu as quel âge du coup ?
+[108:58] Moi, j'ai 31 ans.
+[109:00] 31 ans ?
+[109:01] Franchement, ce n'est pas si tard, mais je dirais exactement la même chose
+[109:04] au mois d'il y a quelques années.
+[109:06] Et si vous avez l'occasion de traduire en anglais avec Eleven Labs,
+[109:09] l'épisode qu'on a publié hier, celui avec Paul Frambeau,
+[109:13] il faut le faire.
+[109:14] Avec tesir, tu verras.
+[109:15] Il a 25 ans.
+[109:16] Et il a fait exactement ça depuis ces 15 ans, vraiment à fond,
+[109:19] incroyable.
+[109:20] Je vais te laisser partir.
+[109:22] Mais avant, j'ai deux petites choses pour toi.
+[109:24] D'abord, un super cadeau de nos amis de HK.
+[109:27] Merci beaucoup.
+[109:28] Ce sont donc les produits qu'on adore, native union.
+[109:31] Et tu vas les aimer parce que tu as passé tellement de temps à voyager.
+[109:34] D'ailleurs, on les vend sur le site, donc c'est un petit moment promo
+[109:36] parce qu'on est vraiment très heureux de pouvoir les proposer.
+[109:39] Tu as maintenant la possibilité d'aller partout avec ça.
+[109:41] Tu peux le brancher n'importe où.
+[109:43] Et tu as aussi cette batterie que tu peux utiliser avec ton téléphone.
+[109:46] C'est vraiment tout ce dont tu as besoin à mettre dans ton sac quand tu voyages.
+[109:49] Et ça, c'est un air tag, tu vois.
+[109:51] Ah oui, tu vas adorer.
+[109:52] Merci beaucoup.
+[109:53] Tout le monde adore.
+[109:54] Tous les invités repartent avec.
+[109:55] J'en l'utilise quand il voyage.
+[109:57] Allez voir sur le site si ça vous intéresse.
+[109:59] Mais surtout, je voudrais dédier cet épisode à mon ami Edouard Melon,
+[110:02] qui est déjà venu dans l'émission,
+[110:04] dire ici pour lui quelques mots.
+[110:06] J'ai appris récemment qu'il avait des soucis de santé.
+[110:08] Edouard, je t'aime.
+[110:09] Je sais que tu écoutes cet épisode.
+[110:11] Tu es une de mes sources d'inspiration, un de mes modèles.
+[110:14] Alors, batois contre cette putain de maladie,
+[110:16] je suis sûr que tu vas t'en sortir.
+[110:18] Ne nous abandonne pas.
+[110:19] Je t'embrasse.
+[110:20] Et merci beaucoup Mathie.
+[110:21] Merci beaucoup.
+[110:22] Oui, c'était génial.
+[110:23] Merci.
+[110:24] Bravo.
+[110:29] Vous avez écouté cet épisode de génération d'Oui sur Self jusqu'au bout.
+[110:33] Je tiens vous remercier votre fidélité, vos messages.
+[110:36] Et si vous voulez m'aider, vous pouvez partager cet épisode.
+[110:39] À 2, 3, 5, 10 amis, c'est peut-être parce que vous l'avez aimé
+[110:42] qu'il leur plera aussi.
+[110:44] Vous êtes, j'espère abonner,
+[110:46] si c'est pas le cas, abonnez-vous sur Spotify, sur Apple Podcasts,
+[110:49] sur YouTube, un peu partout.
+[110:50] Et puis, sur nos réseaux sociaux, on est ravis de vous retrouver toutes les semaines.
+[110:53] Vous pouvez aussi me laisser votre email sur gdigrèc.fr slash mail
+[110:57] et je vous en verrai l'épisode de la semaine, ainsi que 2, 3 bons plans.
+[111:00] Je suis Mathie Stéphanie et je vous embrasse.

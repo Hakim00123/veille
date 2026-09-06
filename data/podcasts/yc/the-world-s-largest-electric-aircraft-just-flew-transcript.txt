@@ -1,0 +1,268 @@
+Y Combinator Startup Podcast
+The World’s Largest Electric Aircraft Just Flew
+Fri, 04 Sep 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/The-Worlds-Largest-Electric-Aircraft-Just-Flew-e3obnda
+
+[00:00] This is the largest electric airplane ever to fly. It's got a hundred foot wingspan to take off weight of
+[00:06] 25,000 pounds and the electricity to get it off the ground cost just five dollars. It's successor
+[00:11] The ES-30 will fly up to 125 miles on battery alone up to 500 miles as a hybrid and recharge in about 30 minutes
+[00:20] It's the world's largest electric aircraft by about a factor two. It's just the first
+[00:25] Clean sheet airliner to be flown in any category electric or not in the US in the last 18 years
+[00:33] This is Anders Forstland. He's the CEO of Heart Airspace seven years ago Anders showed me this plane
+[00:41] It was a 3d-printed model. You can hold in your hand
+[00:45] It's surreal. Yeah, I came to YC with that 3d printed plane
+[00:49] That was like this this size and now it's you know a hundred foot wingspan
+[00:54] Hurling down the runway doing taxi testing. So how do you go from basically a toy model to this?
+[01:00] I visited Heart Airspace's headquarters in LA to find out. I've worked with Anders since he came to YC seven years ago
+[01:17] Back then it was Anders and his co-founder Clara and that 3d printed model. Today. It's a 40-person team in LA building a real airliner
+[01:26] How would you describe Heart Airspace in two sentences?
+[01:29] We build hybrid electric aircraft, but our mission is to reduce the cost of air travel
+[01:33] And we're building the technology to support that. With a relatively small team that going after something that Boeing and Airbus have not been able to pull off
+[01:40] Hearts plane swapped the jet engine for electric motors
+[01:45] You'd be holding a motor that weighed a few grams that you put on a drone and it has one moving part
+[01:50] And then you look at the 400 kilowatt ones. It's just like scaled up
+[01:53] So it's this really really simple thing that has very few moving parts
+[01:58] So it means that you can produce them a lot cheaper. They don't break because they don't really have combustion or
+[02:04] Fluids so you get basically zero wear. Let's break that down
+[02:08] A jet engine has thousands of parts and birds fuel hot enough to melt metal an electric motor essentially only one moving part
+[02:16] No combustion and doesn't really wear out when you're taxing with a jet engine the rest of it is
+[02:22] By definition, it's noise in this but you have a constant torque profile
+[02:25] So you could spin it at like, you know one tenth of the speed is virtually silent
+[02:29] If you stand like a hundred feet away from it and the power source is eight battery packs laid across the floor of the plane
+[02:36] It's eight facts that are like across the floor of the fuselage
+[02:40] It's actually only about four Tesla's for this one carrying you that for $40 worth of fuel
+[02:45] To understand why this is such a big deal
+[02:48] Let's look at what's broken about the jet engine, especially when it comes to short flights
+[02:52] It's as complex to build a jet engine for a 30-seater as it is for a 70-seater. So it costs the same
+[02:57] it
+[02:58] Where's the same whether you fly a hundred miles or a thousand miles
+[03:03] So it's pushing the industry into this direction of going larger and larger planes and longer and longer routes
+[03:09] They're extremely inefficient at
+[03:12] Taxi
+[03:12] You can spend you know for a short flight you can spend 10 percent of your fuels just taxing up to the runway
+[03:17] Take-off is inefficient landing is inefficient
+[03:20] So
+[03:21] That sort of segment
+[03:23] Of a flying regionally is really
+[03:26] Badly served by the technology they'll have today and there's already an existing market
+[03:31] Half of all flights in the world under two hours. There's a replacement market here
+[03:35] That's not even driven by cost the aircraft that we're competing with our 40-year-old designs
+[03:39] Regional connectivity is not about how far you fly. It's about how cheap you fly
+[03:43] This aircraft would be absolutely best if it was flying the shortest possible route
+[03:48] Think island hopping in Hawaii or a Norwegian fjord town that goes from being six-hour drive to 20-minute flight
+[03:55] In the last year gone from like being 33 percent better operating of economics overall to 48 percent
+[04:00] Just because of this increase price in oil. So why hasn't anyone built this before?
+[04:05] It started in Sweden
+[04:06] And I grew up right next to an air force base in Sweden
+[04:09] You saw like the Vigam fighter just going over the soccer field now
+[04:12] I was always I'm super excited about that really into paper airplanes
+[04:16] Just been fascinated with planes, you know rockets and all these things
+[04:22] He did a PhD on jet engines and ended up at MIT
+[04:25] That's where the idea found him 12 years ago. He comes to MIT. This is 12 years ago
+[04:30] Elon shows up and he's talking about
+[04:34] electric planes. He says
+[04:36] at one point
+[04:38] that, you know, eventually
+[04:40] Almost the transportation will go electric besides rockets
+[04:43] He's talking about like 400 watt earth per kilogram and it kind of felt like a cold arm. Yes
+[04:50] This time I was like working on jet engines during the day
+[04:53] I was like tinkering with drones at the kitchen table at night
+[04:57] Becoming kind of obsessed with this
+[05:01] I was actually doing research on this being paid by the Swedish government to go around speak to all the airlines before I even had a company
+[05:07] It's established the relationships
+[05:09] With the airlines in the Nordics before I even like try to build something
+[05:14] When and it's got to yc there was no playbook for this
+[05:17] Yc we were all focused on getting some like early interest from airlines
+[05:21] We got some LOIs from sas and bra and nidra and instead the three
+[05:25] Nordic airlines
+[05:26] We really had no technology like I came to yc demo day with a little 3d printed model
+[05:31] So we went from having the LOIs to them building
+[05:34] Like the 400 kilowatt motor, which was like the size of a small jet engine that in turn attracted
+[05:39] factual
+[05:40] You know pre-orders and then they came from united
+[05:44] And then that attracted more capital and then we started building and now we're building towards the plane
+[05:50] If you're a founder listening to this the learning that you should have is every time
+[05:54] You need more capital. It needs to be something material
+[05:57] Yeah, ideally something physical you can touch. Yeah that you can show that you've made
+[06:02] Their first big airline customer actually came out of the spam folder
+[06:05] United airlines came through an imbound email through our info email
+[06:10] Clara was looking at it and she was like, I think this might be a thing
+[06:13] Like he was like cleaning out the spam
+[06:15] And that led us like through the front door
+[06:18] We just brought them over and showed show them the electric motor
+[06:21] We built that was the size of the jet engine as we tried to replace and they kind of immediately got it
+[06:26] And the design itself
+[06:27] Most electric aircraft startups try to look futuristic hard did the opposite on purpose
+[06:33] It looks very much like the turbo props we're trying to replace
+[06:36] We're not trying to build a sports car
+[06:37] I'd rather build something that looks very conventional but it's kind of hiding its superman cape under the hood
+[06:43] This is the first one
+[06:45] We never even tested this one because we just realized that it wouldn't hold
+[06:48] And the new one just goes all the way through to the bottom here and like it's big thing
+[06:52] So it's like really
+[06:54] Sturdy
+[06:55] This is the pilot plant
+[06:57] Most of this plane is designed and built right here
+[07:00] This is a cylinder
+[07:02] Body for the actuator
+[07:04] 6061 aerospace aluminum
+[07:07] There's about 15 machine components in the actuator
+[07:10] Now we're working on developing in-house processes for
+[07:13] Intritionally aerospace, this would be a supplier
+[07:16] And you'd source it and you'd get them a year to get one
+[07:19] And now you could just play around with it and test it
+[07:23] This is the same basic architecture for aileron, rudder, landing gear extension
+[07:29] Braking, even in the pitch of the propellers
+[07:33] If you want to build something in-house you should start with the things that you
+[07:37] don't have to go to one supplier but you go to like eight different
+[07:40] Like so then it just scales with a number of technologies rather than the number of suppliers
+[07:44] The whole plant is wired like one giant test bench
+[07:48] You can deconstruct it like a Picasso painting and here's the cockpit
+[07:51] Here's the cabin, here's the tail
+[07:54] And all of this is being fed
+[07:57] You know 1.6 megawatts of power, you could keep the aircraft in the air
+[08:01] From just everything that's happening here
+[08:03] We're going to be testing fault injection
+[08:08] So everything from like putting in programming error to cutting a wire
+[08:12] Everything's got to work even if everything goes wrong
+[08:16] It looks like the first time you get into Model 3 and you're like
+[08:19] It's just one screen
+[08:20] Yeah, I think that's a lot of the idea here
+[08:22] As the guy designing this, he worked on the Dragon Space capsule
+[08:26] You can fit up to 36 passengers
+[08:28] But most common probably going to be 30 passengers
+[08:31] Which means everybody's going to get like six inches of extra leg room
+[08:35] And the heart of the operation is the battery lab
+[08:38] Where the team is choosing to sell for the next aircraft
+[08:41] Since the battery cell lab where we are trying to determine what our cell is going to be
+[08:46] We have lots of different cells which are on display here
+[08:49] From Chinese, American and Korean manufacturers
+[08:52] We can determine which one's going to have, you know, the most flight cycles
+[08:56] Best safety, cost, and energy deaths
+[09:01] We talked about Elon coming to MIT 12 years ago and talking about like
+[09:05] 400 watt-hour per kilogram of batteries
+[09:07] Do we have any cells that are like 400 watt-hour per kilogram?
+[09:10] The highest thing that we have on this table right now is about 370
+[09:14] One of the manufacturers on is producing something at that 400 level
+[09:18] That we're expecting to have within the next couple months
+[09:20] Easily meets our targets for the first generation of the aircraft
+[09:24] So you've got the countdown timer there
+[09:26] 23 days inspired by YC demo day
+[09:30] Chrome extension
+[09:31] The hardest problem had nothing to do with the motor or the battery
+[09:35] It's probably the biggest challenge we've had in the company
+[09:39] One in every thousand flights in the U.S. gets diverted to another airport
+[09:44] You kind of need 45 minutes of loiter
+[09:46] And then you need to go to something that could be like 100 miles away
+[09:49] Yeah
+[09:50] So if you build a battery electric aircraft
+[09:52] You kind of have to carry two-thirds of your battery needs to be for reserves
+[09:56] Where are you?
+[09:56] Unlike Jeff Hules, batteries don't get lighter
+[09:58] Their answer is a hybrid engine
+[10:01] We're basing it on a very simple turboprop engine
+[10:05] One of the most inexpensive ones
+[10:07] We don't have to use it for most flights
+[10:09] But it's still adding about I guess 20% of the upfront cost of the aircraft
+[10:14] And I think it's worth it
+[10:15] You can fly up to 125 miles all electrically
+[10:19] And then you fly up to 500 miles with a hybrid system operational range
+[10:23] That call comes out of the philosophy, the energy bar from SpaceX
+[10:27] About how you should treat risk
+[10:28] Traditional aerospace is like
+[10:30] Well the impact is always catastrophic
+[10:33] So let's minimize the probability
+[10:34] We don't know anything until we know everything
+[10:37] Whereas if you look at how do we minimize impact
+[10:41] To getting it wrong
+[10:42] Then you can select a process that's a lot cheaper
+[10:45] That's a lot easier to iterate on
+[10:47] Planes don't crash these days because of a broken wing
+[10:49] They crash because of broken logic
+[10:51] We want to build a software to find vehicles
+[10:53] The computer owns wings
+[10:54] Anders has heard all the doubts
+[10:56] For example, why not just build flying taxis first?
+[10:59] It's super cool
+[11:00] Like they're really trying to build a flying car
+[11:03] We're attacking not the helicopter market
+[11:05] But the main line, you know, like a airplane market
+[11:09] While these companies have like three or four passengers
+[11:12] We have, you know, 36
+[11:14] We're also operating from an infrastructure
+[11:16] That is already there
+[11:18] You know, there's 5,000 airports in the U.S
+[11:20] Another common question he gets is why not use hydrogen?
+[11:23] And the same with hydrogen
+[11:25] The great thing about using hybrid electric
+[11:27] Is that it's already now at a significant negative green premium
+[11:33] So you're surfing on a much bigger wave
+[11:35] The planes we're trying to replace, they're 40 years old
+[11:37] It becomes an appreciating asset
+[11:39] The plane will actually be better in 10 years than when you buy it
+[11:41] It becomes like buying a house
+[11:43] 36 seats is only the beginning
+[11:45] We love to build bigger planes
+[11:47] The large market is the narrow bodies
+[11:49] The 737 is the A320
+[11:52] There's ridiculous backlogs
+[11:54] Somebody doing what SpaceX did with rockets on airplanes
+[11:58] Just makes sense
+[11:59] Longer term, the plane's built for a world
+[12:02] With fewer pilots in the cockpit
+[12:04] Or a remote pilot that is supporting many aircraft
+[12:07] Kind of like there's remote operators of the way modes
+[12:10] Then we're going to see autonomy happening in cargo
+[12:13] Where there's, you know, lower stakes
+[12:15] And then, you know, eventually making its way into aircraft
+[12:23] Obviously, a lot less noise
+[12:25] There's a lot less vibration as well
+[12:28] There's going to be more flights
+[12:29] They're going to be cheaper ticket
+[12:30] So you're going to be able to go to your neighborhood airport
+[12:32] And take a plane
+[12:33] And the way you actually could in the past
+[12:35] It's also why heart is building it here in LA
+[12:38] The new center of gravity for this kind of company
+[12:41] This is the ground zero
+[12:42] The most historic place when it comes to aviation
+[12:45] You have the new space ecosystem
+[12:46] That's kind of coming from SpaceX
+[12:49] You know, companies don't build planes
+[12:50] People do
+[12:52] Just a moment of seeing it literally take off
+[12:54] This is obviously a moment I've imagined
+[12:57] I've imagined for the last seven years
+[12:59] And even seeing it go down the runway
+[13:00] It kind of gives me the goosebumps
+[13:02] So it's hopefully I'll get a moment
+[13:04] Where I kind of start seeing the forest
+[13:07] For all the trees, kind of thing
+[13:11] But when this airs, you will have flown the largest electric airplane in the world
+[13:14] Come a long way from demo day seven years ago
+[13:17] Oh man, it's so grateful that
+[13:19] You got that opportunity and now the day's here
+[13:22] It's going to be amazing
+[13:24] Seven years of hard work finally led to this
+[13:26] The first flight on Wednesday August 12th
+[13:29] In Plasberg, New York
+[13:58] If you start a new hardware startup today
+[14:01] Yeah
+[14:01] Everything that you know about building heart
+[14:03] And you try career
+[14:05] How would you get started?
+[14:06] I'm a pretty good duck, right?
+[14:08] Like I know a little bit how to swim
+[14:09] I know a little bit how to fly
+[14:11] And I know a little bit how to walk
+[14:13] And that's enough for me to know
+[14:15] When I find somebody that's great
+[14:17] I would never start a company
+[14:19] Based on the fact that I wanted to have a company or be a founder
+[14:21] I would start because I really
+[14:23] Enjoy, you know, a problem
+[14:26] If we can get stuff that is lower emission
+[14:27] Lower cost
+[14:29] Lower pollution
+[14:30] Just better quality of life
+[14:32] We should be doing it

@@ -5,9 +5,17 @@
   "gavin-baker-ai-market-jitters-invest-like-the-best-ep-485",
   "eric-vishria-a-decade-of-lessons-investing-in-software-hardware-invest",
   "ben-thompson-on-big-tech-china-and-the-ai-boom-running-out-of-money-in",
-  "neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488"
+  "neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488",
+  "sarah-guo-funding-the-frontier-invest-like-the-best-ep-489"
  ],
  "episodes": [
+  {
+   "fiche": "sarah-guo-funding-the-frontier-invest-like-the-best-ep-489.json",
+   "titre": "Sarah Guo - Funding the Frontier - [Invest Like the Best, EP.489]",
+   "date": "Tue, 01 Sep 2026",
+   "date_iso": "2026-09-01",
+   "nb_outils": 2
+  },
   {
    "fiche": "neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488.json",
    "titre": "Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]",
@@ -44,5 +52,5 @@
    "nb_outils": 4
   }
  ],
- "maj": "2026-08-30T19:52:54Z"
+ "maj": "2026-09-06T19:18:54Z"
 }

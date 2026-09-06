@@ -12,9 +12,25 @@
   "asking-3-young-millionaires-how-they-make-1-8m-5m-12m-year",
   "3-strangers-showed-us-how-they-made-8m-10m-40m-year",
   "how-a-5b-founder-is-using-ai-3-tutorials",
-  "i-built-a-2-000-000-000-business-on-vibes"
+  "i-built-a-2-000-000-000-business-on-vibes",
+  "how-to-naturally-monetize-what-you-love",
+  "7-things-mrbeast-bezos-thiel-do-that-you-don-t"
  ],
  "episodes": [
+  {
+   "fiche": "how-to-naturally-monetize-what-you-love.json",
+   "titre": "How to naturally monetize what you love",
+   "date": "Fri, 04 Sep 2026",
+   "date_iso": "2026-09-04",
+   "nb_outils": 2
+  },
+  {
+   "fiche": "7-things-mrbeast-bezos-thiel-do-that-you-don-t.json",
+   "titre": "7 things MrBeast, Bezos & Thiel do that you don’t",
+   "date": "Wed, 02 Sep 2026",
+   "date_iso": "2026-09-02",
+   "nb_outils": 3
+  },
   {
    "fiche": "how-a-5b-founder-is-using-ai-3-tutorials.json",
    "titre": "How a $5B founder is using AI (3 tutorials)",
@@ -100,5 +116,5 @@
    "nb_outils": 3
   }
  ],
- "maj": "2026-08-30T19:52:52Z"
+ "maj": "2026-09-06T19:18:52Z"
 }

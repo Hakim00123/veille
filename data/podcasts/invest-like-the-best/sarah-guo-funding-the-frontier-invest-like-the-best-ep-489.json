@@ -1,0 +1,49 @@
+{
+ "podcast": "Invest Like the Best",
+ "slug": "invest-like-the-best",
+ "titre": "Sarah Guo - Funding the Frontier - [Invest Like the Best, EP.489]",
+ "date": "Tue, 01 Sep 2026",
+ "date_iso": "2026-09-01",
+ "lien": "https://colossus.com/episode/no-priors-just-conviction/",
+ "duree": "3586",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.0,
+ "taille_transcript": 66762,
+ "transcript": "sarah-guo-funding-the-frontier-invest-like-the-best-ep-489-transcript.txt",
+ "nb_outils": 2,
+ "outils": {
+  "Ramp": [
+   "may not be any better at deciding, but we want to get to that intuition, and I think not having a point of view on the business besides the pedigree of the person is dangerous. Vanta automated security and compliance for over 16,000 fast-moving companies like Ramp, Percher, and Harvey, keeping them audit-ready around the clock. It's the number one agentic trust platform, and it now helps companies like yours watch for the risks that show up between audits, across your vendors, your AI tools, and your whole environment."
+  ],
+  "Rippling": [
+   "t works or a soldier dies. There's wonderful alignment and simplicity to that. Mike and I have both had the benefit of being part of the journey for some companies where it took a minute to begin to work, or it's not obvious at the beginning, the Sigma notion rippling. You wouldn't bet on a company hoping that it's going to take four or five years to find the thing. I think everybody is a product of their own experiences, including investing experiences. The first couple years at base 10 were very non-obvious as well. The "
+  ]
+ },
+ "mentions_publicitaires": {
+  "Cursor": [
+   " RAMP is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mine does too and so should yours. Learn more at ramp.com slash invest. Felix by Rogo is a personal finance agent that turns a single prompt into finished client-ready work usi",
+   "with the context of these emails. And Felix sends back Finish PowerPoint decks, Excel models, and sourced research. Felix works the way your team already does, delivering work quickly and accurately around the clock. Learn more at rogo.ai slash Felix. OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSL, SCIM, RBAC, and audit logs. Instead of spending months building these mission-cri"
+  ],
+  "Excel": [
+   "t into finished client-ready work using your firm's own templates, context, and standards. Send Felix an email like, take these comments and turn them for me. Or update my tracker with the context of these emails. And Felix sends back Finish PowerPoint decks, Excel models, and sourced research. Felix works the way your team already does, delivering work quickly and accurately around the clock. Learn more at rogo.ai slash Felix. OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use "
+  ],
+  "Notion": [
+   "nly platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mine does too and so should yours. Learn more at ramp.com slash invest. Felix by Rogo is a personal finance agent that turns a single prompt into finished client-ready work using your firm's o"
+  ],
+  "Perplexity": [
+   " these emails. And Felix sends back Finish PowerPoint decks, Excel models, and sourced research. Felix works the way your team already does, delivering work quickly and accurately around the clock. Learn more at rogo.ai slash Felix. OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSL, SCIM, RBAC, and audit logs. Instead of spending months building these mission-critical capabilities your",
+   "how at ramp.com slash invest. As your business grows, Vanta scales with you, automating compliance and giving you a single source of truth for security and risk. Learn more at vanta.com slash invest. The best AI and software companies from OpenAI to cursor to perplexity use WorkOS to become enterprise ready overnight, not in months. Visit WorkOS.com to skip the unglamorous infrastructure work and focus on your product. Rigline is redefining asset management technology as a true partner, not just a software vendor. They've he"
+  ],
+  "Shopify": [
+   "lt to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mine does too and so should yours. Learn more at ramp.com slash invest. Felix by Rogo is a personal finance agent that turns a single prompt into finished client-ready work using your firm's own templates, con"
+  ],
+  "Stripe": [
+   "is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mine does too and so should yours. Learn more at ramp.com slash invest. Felix by Rogo is a personal finance agent that turns a single prompt into finished client-ready work using your "
+  ],
+  "Vercel": [
+   " RAMP is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. RAMP customers grow revenue 3.2 times faster than the average American business. Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP. Mine does too and so should yours. Learn more at ramp.com slash invest. Felix by Rogo is a personal finance agent that turns a single prompt into finished client-ready ",
+   "nd Felix sends back Finish PowerPoint decks, Excel models, and sourced research. Felix works the way your team already does, delivering work quickly and accurately around the clock. Learn more at rogo.ai slash Felix. OpenAI, Cursor, Anthropic, Perplexity, and Vercel all have something in common. They all use WorkOS. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSL, SCIM, RBAC, and audit logs. Instead of spending months building these mission-critical capabilities yourself, you ca"
+  ]
+ }
+}

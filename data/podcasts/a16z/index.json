@@ -20,9 +20,33 @@
   "how-global-networks-are-reshaping-startup-success",
   "why-a16z-launched-the-machine-age-fund-jen-kha",
   "why-1-200-ai-agents-started-working-together-ryan-greenblatt",
-  "the-infrastructure-behind-the-machine-age"
+  "the-infrastructure-behind-the-machine-age",
+  "your-ai-doctor-is-coming-julie-yoo",
+  "aaron-levie-on-why-open-ai-wins",
+  "fei-fei-li-the-race-to-build-world-models-for-ai"
  ],
  "episodes": [
+  {
+   "fiche": "your-ai-doctor-is-coming-julie-yoo.json",
+   "titre": "Your AI Doctor Is Coming | Julie Yoo",
+   "date": "Sun, 06 Sep 2026",
+   "date_iso": "2026-09-06",
+   "nb_outils": 3
+  },
+  {
+   "fiche": "aaron-levie-on-why-open-ai-wins.json",
+   "titre": "Aaron Levie on Why Open AI Wins",
+   "date": "Sat, 05 Sep 2026",
+   "date_iso": "2026-09-05",
+   "nb_outils": 5
+  },
+  {
+   "fiche": "fei-fei-li-the-race-to-build-world-models-for-ai.json",
+   "titre": "Fei Fei Li: The Race to Build World Models For AI",
+   "date": "Fri, 04 Sep 2026",
+   "date_iso": "2026-09-04",
+   "nb_outils": 1
+  },
   {
    "fiche": "why-a16z-launched-the-machine-age-fund-jen-kha.json",
    "titre": "Why a16z Launched the Machine Age Fund | Jen Kha",
@@ -164,5 +188,5 @@
    "nb_outils": 2
   }
  ],
- "maj": "2026-08-30T19:52:49Z"
+ "maj": "2026-09-06T19:18:49Z"
 }

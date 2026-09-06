@@ -6,9 +6,25 @@
   "559-yael-braun-pivet-presidente-de-l-assemblee-nationale-si-j-avais-de",
   "560-rudy-gobert-4x-meilleur-defenseur-nba-le-druide-de-la-longevite",
   "561-patrick-pruvot-passage-du-desir-en-france-on-sait-faire-un-airbus-",
-  "562-rafaele-tordjman-jeito-capital-le-vrai-prix-de-l-innovation-medica"
+  "562-rafaele-tordjman-jeito-capital-le-vrai-prix-de-l-innovation-medica",
+  "564-vf-mati-staniszewski-elevenlabs-l-humain-a-ete-fait-pour-parler-pa",
+  "563-benoit-bazin-saint-gobain-tripler-la-valorisation-de-la-plus-vieil"
  ],
  "episodes": [
+  {
+   "fiche": "564-vf-mati-staniszewski-elevenlabs-l-humain-a-ete-fait-pour-parler-pa.json",
+   "titre": "#564 - VF - Mati Staniszewski - ElevenLabs - « L’humain a été fait pour parler, pas pour écrire »",
+   "date": "Sun, 06 Sep 2026",
+   "date_iso": "2026-09-06",
+   "nb_outils": 4
+  },
+  {
+   "fiche": "563-benoit-bazin-saint-gobain-tripler-la-valorisation-de-la-plus-vieil.json",
+   "titre": "#563 - Benoit Bazin - Saint-Gobain - Tripler la valorisation de la plus vieille entreprise du CAC 40",
+   "date": "Wed, 02 Sep 2026",
+   "date_iso": "2026-09-02",
+   "nb_outils": 3
+  },
   {
    "fiche": "562-rafaele-tordjman-jeito-capital-le-vrai-prix-de-l-innovation-medica.json",
    "titre": "#562 - Rafaèle Tordjman - Jeito Capital - Le vrai prix de l'innovation médicale",
@@ -52,5 +68,5 @@
    "nb_outils": 9
   }
  ],
- "maj": "2026-08-30T19:52:47Z"
+ "maj": "2026-09-06T19:18:46Z"
 }

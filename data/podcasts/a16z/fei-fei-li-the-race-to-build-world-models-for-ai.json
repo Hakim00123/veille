@@ -1,0 +1,22 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Fei Fei Li: The Race to Build World Models For AI",
+ "date": "Fri, 04 Sep 2026",
+ "date_iso": "2026-09-04",
+ "lien": "https://a16z.simplecast.com/episodes/fei-fei-li-the-race-to-build-world-models-for-ai-tvIN7XfT",
+ "duree": "00:44:36",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 4.5,
+ "taille_transcript": 56190,
+ "transcript": "fei-fei-li-the-race-to-build-world-models-for-ai-transcript.txt",
+ "nb_outils": 1,
+ "outils": {
+  "Slack": [
+   "ummer, that it's not even the current atlas model size. It's a smaller model. And then Ben, Justin, Ben, feed it into, you know, the viewpoint generation. And remember that famous table, the garden table, for Nerf paper and many papers, that overnight I got a slack. I mean, we also, the slack from Ben, that hammer flew through under the table. With the soccer ball? Yes. With the soccer ball? Is it emergent or is that in the original? It was real, right? Okay. That morning, the three of us looked at each other in the eye",
+   "e current atlas model size. It's a smaller model. And then Ben, Justin, Ben, feed it into, you know, the viewpoint generation. And remember that famous table, the garden table, for Nerf paper and many papers, that overnight I got a slack. I mean, we also, the slack from Ben, that hammer flew through under the table. With the soccer ball? Yes. With the soccer ball? Is it emergent or is that in the original? It was real, right? Okay. That morning, the three of us looked at each other in the eyes and say, that's it. This i"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

@@ -1,0 +1,923 @@
+My First Million
+7 things MrBeast, Bezos & Thiel do that you don’t
+Wed, 02 Sep 2026
+
+
+[00:00] If this was a VHS tape, it would be label Sean Horkour part two.
+[00:05] People would not be getting what they thought they were getting.
+[00:07] You're just an Indian guy, it's just screaming about management hacks.
+[00:13] C-O.
+[00:25] What I want to talk about is basically, if you're a CEO of a company,
+[00:28] if you're running a company right now, which I think a lot of people listening to this are,
+[00:32] there's a good chance you're not being hardcore enough.
+[00:34] And what I want to talk about is like six or seven real anecdote stories of what CEOs do.
+[00:40] Moves that CEOs do that sound wrong, sound almost illegal, but they actually work.
+[00:47] The idea being when you're a CEO, there's no CEO school, there's no CEO training.
+[00:53] There's nobody there to manage you.
+[00:55] You're the one managing everybody else.
+[00:56] And most people don't even give you real feedback because they're boss, you're in charge.
+[01:01] Is this like famous examples or your friends?
+[01:05] I have a mix of examples you'll know.
+[01:08] Examples I think you won't know, but they're of famous companies.
+[01:12] And then one or two for my friends.
+[01:15] OK, so I have one, two, three, four friends.
+[01:18] I have like seven.
+[01:19] And whenever you come up with ideas like this, which you do all the time, they interest me.
+[01:23] But what also interests me is why you care.
+[01:26] Why do you care right now?
+[01:28] Well, two things.
+[01:29] One is in general, like I want to be better at what I do.
+[01:32] And so if I ever hear of somebody else doing something that I think could be either,
+[01:37] I have a tried or I think like, wow, that sounds kind of crazy.
+[01:39] But I guess I see how that might work.
+[01:41] It's like I kind of found a new move in a video game and I like to know that.
+[01:45] But the other is we talk a lot about almost to the point of it being obnoxious.
+[01:50] This phrase, frame breaking, which is you see the world a certain way and it seems like
+[01:55] there's a there's a border.
+[01:56] Everything about the world fits inside that frame.
+[01:59] And then you'll hear this story that will just be outside of the frame.
+[02:02] It breaks the frame.
+[02:03] The frame has to expand now, incorporate this new information.
+[02:06] And I don't know why I love it.
+[02:08] I love it like dudes, low Pokemon cards.
+[02:10] I just want to collect as many of those frame breaking ideas and stories.
+[02:14] And the reason why is if you've ever heard that story of like the elephant who has
+[02:19] a young age, like the tetherum to the stake in the ground and then he grows.
+[02:24] And now he's so powerful he could easily rip out the stake, but he doesn't.
+[02:27] There's many examples in my life where it feels like there's the illusion of control
+[02:32] that like I'm limited by something that in actuality I'm not limited by at all.
+[02:36] The stories I'm going to tell you are sort of like elephant in the stake things where you're
+[02:39] like, oh, I couldn't possibly do that.
+[02:41] Why not?
+[02:42] Why can't you do that?
+[02:43] Before I go into like kind of the famous stories of people you know doing this, I'll tell
+[02:46] you the guy who I was having breakfast with that told me a story like this.
+[02:49] It got me thinking, got me paying attention to these.
+[02:52] So I was getting breakfast recently with this guy, Martin, who will come on the podcast, Martin
+[02:56] Bessiri.
+[02:57] Now Martin was, he was like the one that got away from me.
+[03:02] The very first angel investment I ever wanted to do 10 plus years ago, I started making like
+[03:07] a little bit of money.
+[03:08] I think I was making like, I don't know, a hundred and sixty grand a year, not even that
+[03:12] much money.
+[03:13] Not enough money to be, I would say an angel investor, but I wanted to be, I was sitting
+[03:15] in San Francisco and I thought that would be the thing to do.
+[03:17] I should start angel investing and I had this kid who was like this 13 year old kid
+[03:22] who was using one of our products and he always used to hang out in the tech rooms and hang
+[03:26] out on tech things.
+[03:27] He emailed me, he said, Hey, I'll be your scout.
+[03:29] So here I was, this guy who had never made it an angel investment and now I got a scout.
+[03:33] And he said, I'm going to send you three companies a week and you know, you don't have to invest
+[03:37] in any of them, but it'll just be great practice for me.
+[03:39] If you just give me feedback on those, I'd love to learn.
+[03:42] What age are you at this time?
+[03:44] I'm probably 24, 25.
+[03:46] Okay.
+[03:47] All right.
+[03:48] He sends me this email with the first, first company and he goes, this guy Martin was here.
+[03:52] He's in Canada where I live and already I'm like, I'm not trying to invest in a Canadian
+[03:55] company.
+[03:56] I want to invest in Silicon Valley companies.
+[03:57] He's like, what he's doing is really cool.
+[03:59] He's got this company called a plyboard and what a plyboard was doing is very simple.
+[04:03] They were letting international students who, you know, if you've ever lived internationally,
+[04:07] the dream of most international students is to come to school in the United States to go
+[04:11] to university here, but imagine just being like a kid in Malaysia with Malaysian parents
+[04:16] and it's like, great, why don't you apply to, whatever, UC Davis?
+[04:21] And they're like, what is UC Davis?
+[04:22] Where is that school?
+[04:23] How do I apply?
+[04:24] How do I fill out this form?
+[04:25] Like is it very like there's a huge gap between where you are and where you're trying
+[04:29] to go and you need a bridge and a plyboard became that bridge.
+[04:32] They basically made it very easy for foreign students to apply to US universities.
+[04:37] And what they did, they realized it was very smart was that US universities absolutely
+[04:42] rip off foreign international students.
+[04:44] There's a reason they love international students is because they charge them three
+[04:47] times the price to go to school and this to the same school get the same education.
+[04:51] So if you're a state school, you'll obviously charge less for in-state tuition, out-of-state
+[04:56] tuition.
+[04:57] And then there's a third tier called international tuition, which is three times higher.
+[05:00] And so he went to the schools and he got the schools to say, yeah, I'll pay you five grand
+[05:05] or 10 grand per student that we admit, like as an affiliate fee, as a bounty.
+[05:10] So this is like incredible.
+[05:11] And the international student is dying to go there.
+[05:13] So it's not the hardest sell in the world.
+[05:15] They just needed a bridge.
+[05:16] So I hear this, I'm like, dude, this 13 year old might have actually sent me a good company.
+[05:21] And I'm like, okay, I was 13.
+[05:23] The scout was a team.
+[05:25] Why?
+[05:26] Okay.
+[05:27] And so he, I'm like, dude, I think I'm going to do this deal.
+[05:30] And so he comes out, I meet him in San Francisco, and I agree on the spot.
+[05:34] I'm going to invest 25 grand into this company.
+[05:36] And I said it very confidently to him, which is a huge amount of money, by the way, you're
+[05:40] like, you're annual savings.
+[05:42] And say, if it says, go on $170,000, it was $20,000.
+[05:45] Yeah, exactly.
+[05:46] I was basically putting all of my like post tax disposal coming to this one random Canadian
+[05:52] startup.
+[05:53] Well, guess what?
+[05:54] It's a day later.
+[05:55] Your boys got cold feet.
+[05:56] I'm like, Oh, man, that was a lot.
+[05:57] I should have said that.
+[05:58] I felt stupid coming down.
+[06:00] I was like, do I go back to him and say five grand time and that felt stupid.
+[06:04] And you know what I did?
+[06:05] I didn't back out, but I just didn't say anything.
+[06:08] And like, I didn't follow up and he didn't really follow up.
+[06:11] And some time went by and then I got unavailable.
+[06:13] And anyways, I missed out on the deal.
+[06:16] Apply board today.
+[06:17] I think it does over like a billion dollars a year in revenue or something crazy.
+[06:19] It's like a multi-billion dollar company.
+[06:21] It's insane.
+[06:22] I don't know the exact numbers, but I know it's multi-billion dollar company.
+[06:24] So huge miss for me on that.
+[06:26] That's for the very first possible angel investment.
+[06:28] What was his valuation back then?
+[06:30] Oh, dude, it must have been like, I don't know, $10 million or something.
+[06:34] Yeah, five, six.
+[06:35] I would have been the first investor in it.
+[06:37] Oh, yeah.
+[06:38] The first looking Valley investor in it.
+[06:40] Yeah, it would have been amazing.
+[06:42] So last week, I'm having breakfast with him and I've now invested in his new company passage
+[06:47] which is doing some amazing things.
+[06:49] But I'm saying like, dude, I was like, how is it, like, how do you operate?
+[06:53] I was like, tell me like, we're having breakfast right now.
+[06:55] You're going to go to the office.
+[06:56] What do you do?
+[06:57] And he was like, I work pretty hard and he's like, I was like, okay, what does that mean?
+[07:01] And so he's telling me his work schedule.
+[07:03] The guy basically is like, I dropped off my kids, you know, eight a.m.
+[07:06] I'm in the office at eight 30 and I'm there from eight 30 to, you know, midnight, every
+[07:11] night.
+[07:12] And I'm like midnight.
+[07:13] Jesus Christ.
+[07:14] I was like, are you the only one there?
+[07:16] He goes, I used to be, but not anymore.
+[07:18] I was like, well, what do you, what do you mean?
+[07:20] Like, how'd you get people to start staying so late to work like extra like that?
+[07:23] Like, what'd you do to inspire them, motivate them?
+[07:25] He goes, option drop.
+[07:27] So what?
+[07:28] And he's like, option drop.
+[07:31] I said, what's an option drop?
+[07:32] He goes, at any time in my company.
+[07:36] If anybody does something awesome, I just say, option drop, 50,000 options.
+[07:41] I just give them share options of the company on the spot.
+[07:44] Like if somebody has a great idea, they go above and beyond for a customer, they solve
+[07:48] a problem in the meeting right there.
+[07:50] Option drop.
+[07:51] It's like Dana White giving out a bonus.
+[07:53] What I'll do is it's a bonus, but stock in the company on the fly and he goes, and then at
+[07:57] night he goes, if I'm there 10 p.m.
+[08:00] And if there's like, let's say 12 people there, I'll just say, everybody here, option
+[08:04] drop, 20,000 options.
+[08:06] All of you.
+[08:07] He's like, I don't do it every night, but he'll do it once every, you know, 50 days.
+[08:10] And guess what?
+[08:11] He got people to start doing the things that I cared about.
+[08:13] They'd know if I solve a big problem, if I unlock some new growth, if I solve a customer's
+[08:17] problem, if I'm working really hard, that's how I get more options, option drop.
+[08:21] And I was, and so I'm sitting there and I'm like, laughing.
+[08:25] So I'm laughing at him first, because I'm like, that's just hilarious.
+[08:28] Just the phrase and the way he said it, I just was cracking me up.
+[08:30] And I was like, well, of course, of course that wouldn't work.
+[08:33] Of course, that would reinforce behaviors rather than saying, well, I put our company
+[08:38] values on the wall once six years ago, I sure hope they're doing it.
+[08:43] You know what I mean?
+[08:44] Like obviously a in the moment incentive, positive reinforcement for a behavior, the more specific,
+[08:50] the more concrete and the more immediate a reward, the more of that behavior you're
+[08:55] going to get.
+[08:56] That's kind of basic behavioral science.
+[08:57] I was like, okay, I guess that does work.
+[08:59] And I was like, is that legal?
+[09:00] Can you?
+[09:01] I was like, I don't know.
+[09:02] I can just throw around options like that.
+[09:04] He's like, why not?
+[09:05] Yeah, you could.
+[09:06] He's like, I just sent a message to my assistant.
+[09:08] Option drop, these people, this amount, and then it gets papered.
+[09:10] That's it.
+[09:11] Well, and it's an option, meaning they still have to buy it, right?
+[09:13] So it's not like it's free money.
+[09:15] Yeah, I'd like to say it has a strike price.
+[09:17] Yeah.
+[09:18] So you can exercise the option if you so choose.
+[09:21] But there's that exercise window.
+[09:22] You don't have to buy it right away.
+[09:23] You can, you know, you can wait if you want.
+[09:25] So okay.
+[09:26] Option drop was the first one of I was like, oh, obviously a way to incentivize the types of
+[09:31] the behaviors that you want right there on the spot using your company's share
+[09:35] options.
+[09:36] Can I give you the next one?
+[09:37] Keep going.
+[09:38] This is exciting.
+[09:39] I mean, we're going to rate these.
+[09:40] Maybe give me a, you know, give me a very simple, let's do gladiator thumbs down, lukewarm thumbs
+[09:46] up or double thumbs up.
+[09:47] That's your options.
+[09:49] Not a double thumbs up.
+[09:50] So just one, one thumb up.
+[09:53] Okay.
+[09:54] Yeah, that's, that's very effective, good, not that like extreme.
+[10:00] Do you do it?
+[10:01] Well, I don't do options, but because yeah, like I just give money.
+[10:04] Okay.
+[10:05] Do you do that on the spot?
+[10:06] No, but I'm also not the CEO and I'm also not extreme.
+[10:10] Like, you know what I mean?
+[10:11] Like I'm not playing that game.
+[10:13] Well, the game of trying to win.
+[10:14] What do you mean?
+[10:15] Of course you are.
+[10:16] Not, not at the price of being there at midnight.
+[10:18] No, I'm more of a like, it doesn't have to be midnight, right?
+[10:20] Like that's one, you just decide of the things I care about.
+[10:24] Do I on the fly reward the behaviors I want?
+[10:28] We do it via having a gong in the office.
+[10:30] And when someone does something awesome, we smack a gong.
+[10:33] So.
+[10:34] Auditable.
+[10:35] No.
+[10:36] Well, well, it's just like, because everyone stares at it and you're like, we're going to
+[10:38] like celebrate what is happening right now, but no, I don't give up money.
+[10:42] Okay.
+[10:43] Here's the next one.
+[10:44] Hey, everyone.
+[10:45] Really quick.
+[10:46] If you're enjoying this episode on CEO stuff, so delegating, having hard conversations with
+[10:49] your team, hiring, then I've got something for you.
+[10:52] So the team at HubSpot, they actually went and put together a bunch of best practices
+[10:56] that Sean and I use in our own companies.
+[10:58] And they put it together and something that's really easy to read and understand.
+[11:01] And so if you want to just save yourself 10 years of headache and heartache, then you
+[11:05] should check it out.
+[11:06] I wish we had this long time ago, it would help me a lot, but there should be a QR code
+[11:10] on your screen that you can scan or a link in the description.
+[11:13] So check it out.
+[11:14] It's totally free and totally awesome.
+[11:18] Open AI to makers of chat GPT.
+[11:21] They are trying to fight friction.
+[11:23] So in every company, there's just a whole bunch of bullshit, especially as you grow and
+[11:27] when you're like them, you grow very fast, there's always just things that are just drag
+[11:32] in bureaucratic drag in the company, policies, procedures, potholes, things that just start
+[11:39] to trip you up as you're working in the company, just trying to do good work.
+[11:42] So they created what they call the friction removal service and sort of like a doge idea
+[11:46] inside the company.
+[11:47] But it's actually very simple, which is there's an email inbox called friction at OpenAI.com.
+[11:52] And you could just email friction with anything that's causing you to not get your
+[11:56] job done.
+[11:58] So like, is there something slowing you down?
+[12:00] Is there something that's missing?
+[12:01] Is there something that's a problem?
+[12:02] So anything that's there and there's a person assigned to the company whose job is to triage
+[12:07] everything that comes in there.
+[12:08] And if there's something that seems like, oh, that's actually a pretty legitimate source
+[12:11] of friction.
+[12:12] We should get, we should eliminate that.
+[12:13] It's going to help our people move faster and then they go and they move, they remove that
+[12:17] friction and it creates a culture of saying like, look, we are going to actively fight
+[12:23] the bloat that comes in companies that grow really big and grow really fast by having
+[12:27] a janitorial crew for a bureaucracy.
+[12:30] I was like, oh, I kind of love that idea.
+[12:32] So for sure.
+[12:33] Yeah, that's brilliant.
+[12:34] Give me a score.
+[12:36] Just two.
+[12:37] Am I allowed to do two?
+[12:38] Yeah.
+[12:39] Double thumbs up.
+[12:40] Cesar would never do that, but that's okay.
+[12:42] Yeah.
+[12:43] It's sort of, it's sort of giving like, check your cheese.
+[12:47] Yeah.
+[12:49] No, two, because that is like less heroic and more systematic.
+[12:55] Yeah.
+[12:56] I'm going to talk to them more with that.
+[12:58] All right.
+[12:59] Next one is one bit communication.
+[13:00] So do you remember this app Yo from back in the day?
+[13:03] Yeah.
+[13:04] Hilarious.
+[13:05] All the rage when you and I were 26 years old, people, you'll only know if you know, which
+[13:10] is back in the day in San Francisco, this app became the rage for like, I want to say 30
+[13:15] days.
+[13:16] And if there was like a one hit wonder like song list for Silicon Valley, that would be
+[13:21] Chumba Wamba.
+[13:23] I get knocked down by Chumba Wamba and then Yo are both on that list.
+[13:27] Describe what Yo did.
+[13:28] I think it was just an app where your friends downloaded and you clicked one button and it
+[13:32] said Yo to the other person.
+[13:33] I think that's it.
+[13:34] And then if they clicked the button, it would say, Yo, yeah, we're right back.
+[13:38] All you could say is Yo to each other.
+[13:40] And so it seems like the stupidest thing in the world was going viral for being almost
+[13:45] so silly.
+[13:46] And then Andreessen Horowitz wrote a big check into them and we were like, what?
+[13:52] What are the smartest investors invested in Yo?
+[13:54] Are you kidding me?
+[13:55] It was like straight out of the TV show Silicon Valley.
+[13:57] In fact, I think they mocked this by with the bro app in the show, whereas you said bro
+[14:03] to each other.
+[14:04] But I was like, why?
+[14:05] And Mark Andreessen wrote this blog post called One Bit Communication.
+[14:09] And he talked about how like there are many forms of communication, right?
+[14:13] You can write letters.
+[14:14] You can write text messages, which have a hundred, whatever 40 or 160 character limit.
+[14:18] We had beepers back in the day and a beeper was just a way to get your attention and you
+[14:21] kind of had to know if I'm beeping you with this code, that what that code means.
+[14:25] And he goes, the smallest form of communication would be a one bit communication, just a single
+[14:30] bit back and forth.
+[14:31] Yo, but Yo can mean a lot.
+[14:33] And he wrote this like very like, this like thesis on Yo.
+[14:36] And I just remember reading it and being like, honestly, kind of have convinced about this.
+[14:41] You know, like a smart guy could really sell you anything.
+[14:43] And he did.
+[14:44] He sold you that.
+[14:45] Well, I've learned that there's a couple of CEOs who use one bit communication.
+[14:49] So here's the first one.
+[14:50] Siemens.
+[14:51] The Siemens CEO came out and he said, yeah, I have a very specific management system.
+[14:56] My management system is this.
+[14:57] You email me anything you want to talk to me about and I will respond with okay or no.
+[15:02] That's it.
+[15:03] I'm just going to say okay or no to your email.
+[15:06] And if it requires more than that, then you're going to come talk to me.
+[15:10] And when do you come talk to me?
+[15:11] We don't have weekly recurring like calendar meetings.
+[15:13] We don't have like scheduling.
+[15:15] If you need me, you'd come talk to me right now.
+[15:17] And that's it.
+[15:18] That's how I unblock everybody in the company.
+[15:20] And I will not be the bottleneck.
+[15:21] I'm simply going to give you permission, rejection, or if there needs to be more detail, you'll
+[15:26] find out that you need to come talk to me right now and we'll discuss more.
+[15:28] And then you'll get the okay or no after more details been revealed.
+[15:31] Yeah.
+[15:32] This guy's having like a moment right now.
+[15:33] I think I saw a few articles about him.
+[15:35] What happened with him?
+[15:36] Well, he's like a theoretical physics background.
+[15:40] But he's a CEO.
+[15:41] And so they always kind of, if you come from a non-traditional background.
+[15:44] Yeah, they're quite cool.
+[15:45] And he goes, I love this quote, he goes, they go, so you don't have any recurring meetings
+[15:49] with your direct reports like to sit and just catch up and discuss and he goes, I don't entertain
+[15:54] people and they don't need to entertain me.
+[15:58] Which is, if you think about, like if you ever been to the company, a lot of like the meetings
+[16:01] you have are really theater, right?
+[16:04] It's, it's progress theater.
+[16:05] Like I would like to put on a little play for you, but how good I'm doing and then you, you
+[16:09] sit in the back and you, you give me a little, you know, theater clap back to me and I feel
+[16:13] good and then I go on my way.
+[16:14] And we both just kind of wasted an hour of each other's time.
+[16:16] It's not, the work isn't getting done there.
+[16:19] That's just basically like, you don't trust me enough to just do the thing and I don't trust
+[16:22] you enough to know that I can just show you the work and that's enough for you to understand
+[16:27] my value.
+[16:28] So we'll tap dance for each other.
+[16:30] Is he German?
+[16:31] It's a very German behavior.
+[16:33] Yeah.
+[16:34] He's German.
+[16:35] I had to like him up because I think Siemens is a German company.
+[16:38] This guy's great.
+[16:39] Is this going to be like the new snowflake CEO?
+[16:43] Maybe, maybe early signs.
+[16:46] My scouts are paying attention to this.
+[16:49] We have to get on this train early too.
+[16:52] All right.
+[16:53] Related, the Jeff B. Escalation.
+[16:56] So this is Bezos.
+[16:57] So Bezos famously would read any customer email, you know, his, his email was out there so customers
+[17:03] could email him and he would just be like a router, he would route the email to the team
+[17:07] if there was a problem and it would only have one bit in it, one bit communication, just
+[17:10] a question mark, which has got to be like the most annoying thing that any CEO could do.
+[17:15] But he trained the team that the question mark has a very specific meaning and the, if
+[17:19] you send you the question mark, it means, is this true?
+[17:22] Why is this happening?
+[17:23] And what are we going to do about it?
+[17:25] All encoded into a one question mark thing, allowing him to actually like triage his email
+[17:30] way faster than having to like take each thing, find a good time to bring it up.
+[17:36] And can I bring this up with you, you know, then I delay and then I bring it up and then
+[17:40] we're going to have to have this long conversation, just one question mark and that's what he would
+[17:43] do.
+[17:44] And his take was this, he would say at the beginning, a lot of the teams would say, no,
+[17:48] no, that's just, you know, that's just one loud angry customer or something like that.
+[17:52] Look, the data shows that were 98%, you know, success rate and his take was, look, we're
+[17:57] a very data driven company, but these customer anecdotes matter and they matter a lot.
+[18:03] And I want you to investigate these because I'm not saying when I send you this customer
+[18:07] email, I'm not saying drop what you're doing and go satisfy Joanne and Wichita, this prime
+[18:12] customer, you know, you don't need to solve her problem.
+[18:15] What I'm saying is Amazon is a machine.
+[18:18] The machine might be broken.
+[18:20] And this anecdote is a little bit of a signal, it's a squeak in the machine that I'd like you
+[18:24] to investigate to see why this would happen because that's not how the machine is designed
+[18:27] to work.
+[18:28] Yeah, I tend to think those stories are more important than traditional data.
+[18:33] And then what he said was he goes, look, you're not wrong that maybe 98% is happening the
+[18:37] way you want.
+[18:38] What I'm telling you is that the anecdotes typically show you that your metric is incomplete,
+[18:43] that it's not capturing some part of the customer's experience that actually matters.
+[18:47] And both the metric is right and the customer is right.
+[18:49] The metric is just incomplete because it's not capturing this part of the customer's experience.
+[18:53] I was like, oh, I kind of like that.
+[18:55] That's a very, that would have been a very satisfying explanation for what would have otherwise
+[18:59] been an absolutely infuriating thing of just getting this one question mark from your CEO
+[19:03] forwarding a random customer complaint to you as the head of whatever some part of the business.
+[19:08] And I think a question mark from you or I would come off incredibly douchey.
+[19:12] There's something about Jeff that seems a little bit more polite and respectful.
+[19:16] And so I don't take it as a douchey thing.
+[19:18] Originally what I heard question mark, I was like, that's, that's pretty disrespectful.
+[19:23] But I don't view him as a disrespectful guy.
+[19:25] When I, if you see me send a question mark, assume it's disrespect.
+[19:28] It is disrespect.
+[19:29] Yeah.
+[19:30] It's because they don't have a backhand slap emoji.
+[19:33] Yeah.
+[19:34] Yeah.
+[19:35] Jeff punch you through his screen.
+[19:37] Hey, let's take a quick break.
+[19:39] You know that feeling when strategy is done, the brief is written, everyone's aligned and
+[19:42] you realize someone still has to sit down and actually create all the content that someone
+[19:46] is usually you and it's due tomorrow.
+[19:47] Well, the breeze assistant from HubSpot can help.
+[19:50] It works right inside HubSpot.
+[19:51] You can draft a campaign copy, blog posts, emails, all in your brand voice, all using your
+[19:56] actual customer data, so you don't create just content.
+[19:59] You create content that converts.
+[20:00] Check out HubSpot.com, the agentic customer platform for growing businesses.
+[20:04] All right.
+[20:05] What's the next one?
+[20:06] All right.
+[20:07] Next one comes from Peter Teal.
+[20:09] Okay.
+[20:10] So Peter Teal famously at when he was the CEO of PayPal, he had this thing that I really loved,
+[20:14] which he goes, we are going to be a single tasking company.
+[20:18] You are not going to be a multitasker, which is great because PayPal was full of some of
+[20:21] the biggest brains in the world, right?
+[20:22] Max Levchin, Elon Musk, Reed Hoffman, the creators of YouTube, the creators of Yelp, obviously
+[20:28] like a bunch of big brains in that room.
+[20:30] You would think if anybody could multitask and be those people, well, no, Peter's take
+[20:33] was this.
+[20:35] Everybody has one big problem that you're trying to solve at any given time.
+[20:39] You might be fighting fraud from the Ukraine right now, and you might be trying to optimize
+[20:44] virality of the PayPal button on eBay, and this other guy might be trying to lower our processing
+[20:51] fees with the banks, right?
+[20:53] So everybody's assigned one problem, and his thing was this, they go, well, you know, how
+[20:57] do you get people to actually do that, right?
+[20:59] Because sounds good in theory, right?
+[21:00] Focus is always a word everybody nods and agrees on, but we're all pretty bad at focus.
+[21:04] So how did you get your teams to actually do it?
+[21:07] And Peter Teal's answer was, oh, if they tried to talk to me about anything besides their problem,
+[21:13] I would just simply walk out of the room.
+[21:16] And the nonverbal communication was pretty clear how I felt, and people were like, did
+[21:23] he really do that?
+[21:24] And Keith, you know, Keith, your boy was like, yeah, he would literally do that.
+[21:26] He would, if you tried to bring up anything else beside your problem, he would just turn
+[21:30] around and he would just walk away.
+[21:32] And then you got a signal of how important that was.
+[21:35] And if you wanted to be valued by the CEO, you would stay on task of your problem.
+[21:40] He would just do like the autistic clomp, just your feet just clomping away at the door.
+[21:46] Did you think he was wearing shoes?
+[21:49] No chance that he was wearing shoes in that office.
+[21:52] So dude, he's a loafer guy, because he's the type of guy where you just hear clomping around,
+[21:56] I can tell.
+[21:57] He said, he said, he said to me, he was focused as convex.
+[22:00] Unfortunately, I'm too stupid to do that.
+[22:03] I didn't know what that means.
+[22:04] Exactly what that means.
+[22:05] But it sounds very provocative and I've used it three times since.
+[22:08] The good news is nobody else I work with knows what it means either.
+[22:12] I don't know what this has to do with focus.
+[22:14] That's what convex looks like.
+[22:15] More than this.
+[22:16] He goes, if you are 80% focused on a task, that will only be half as good as if you were
+[22:23] 90%, meaning the jump from 80% focus to 90% focus will double your impact.
+[22:29] And so you really want this, the last mile of focus, the last level of ruthlessness about
+[22:34] your focus will double, you'll get one or two more doubles in the output, which kind
+[22:40] of makes sense.
+[22:41] If you look at any field, if you're the 80th percentile swimmer, nobody knows your name
+[22:46] and you work at a tire company.
+[22:48] If you're the 90th percentile swimmer, people in your county might know your name, but you
+[22:52] still manage the tire company.
+[22:54] If you're the 99th percentile swimmer, you might be able to swim professionally.
+[22:59] But if you're the 99.9909, the final is that last leg, your Michael Phelps, and you get
+[23:05] all the gold medals and the millions of dollars and so on.
+[23:07] And it's basically like your use of focus, that the last mile of it, the last level of
+[23:12] obsession is what gets you a disproportionate amount of the rewards.
+[23:16] So what's point number three, or are we on four on Sean's hardcore?
+[23:24] If this was a VHS tape, it would be labeled Sean hardcore part two.
+[23:30] People would not be getting what they thought they were getting.
+[23:33] You're just an Indian guy, it's just screaming about management hacks, C O. But the O and
+[23:44] CEO.
+[23:45] All right.
+[23:46] Here's where we go.
+[23:47] What's left?
+[23:48] I did one, two, three, four, five.
+[23:49] I got five.
+[23:50] I got three left.
+[23:51] Jack Welch, CEO of GE, when you run a big company, it's very easy for, you know, all your children
+[23:59] are sort of not equal.
+[24:00] They're not loved equally.
+[24:01] All the different business divisions and GE was a bunch of different business divisions.
+[24:05] And he had two simple rules when he was running GE.
+[24:08] One was every division, you need to be number one or number two in your market.
+[24:12] Otherwise you have one year to fix it, sell it, or close it.
+[24:16] That's it.
+[24:17] You'll trim the business divisions unless you can be number one or number two, which is an
+[24:21] incredible forcing function because it's sort of Darwinian pressure to survive.
+[24:25] And the other Darwinian pressure he applied was every year, Jack Welch would fire the bottom
+[24:31] 10% performers in the company every year.
+[24:34] And so a continuous culling of the herd, which sounds, I mean, I'm sure people interpret that
+[24:40] different ways.
+[24:41] Some people will think he's an asshole for that.
+[24:43] When I first heard it, I was like, oh, that doesn't sound that hardcore, but then you go try
+[24:46] to do it.
+[24:47] Go try to do that every year.
+[24:48] It is incredibly difficult or go look at your own track record, how much low performance
+[24:53] have you tolerated because you don't fire people until push really comes to shove.
+[24:59] I think Jack Welch is I think he's controversial.
+[25:01] We actually should do a deep dive one day on him because people say that he was a horrible
+[25:04] CEO because if you look at like GE, it was kind of became this amalgamation of like a bunch
+[25:09] of like nonsense and it like owned a bunch of stuff that ended up not working out.
+[25:12] And I don't know enough about Jack Walsh to know if that was his doing or what happened.
+[25:18] But I know that he was well loved as a leader, but at the same time, I hear smart people say
+[25:21] the exact opposite about firing, like Jensen from Nvidia, he was like, he's like, I'm
+[25:26] going to smother you in greatness.
+[25:28] I'm not going to fire you.
+[25:30] Like it's so funny how great people, assuming they both are great, have different opinions
+[25:34] on firing as I mean, as well as everything else, like the total opposite, right?
+[25:40] Yeah.
+[25:41] I find that for every single one of these you'll find people who are very successful doing
+[25:45] the polar opposite, which is not meant to say that this is the way to be great.
+[25:49] It's just meant to say, damn, I thought these stories were pretty hardcore, huh?
+[25:53] That's really kind of all we're saying and that there are, it kind of pushes the boundaries
+[25:57] of your thinking of what is acceptable, tolerable and potentially effective.
+[26:03] Well, I think firing your low performers is a pretty, I would say, logical thing to do,
+[26:12] meaning I could see why that works, I could definitely see why that works and I'm in support
+[26:19] of that one.
+[26:20] But yeah, I think Jen said when he made that point, he was like, yeah, I don't fire him,
+[26:24] but I turn up the intensity so much that you either become great or quit, right?
+[26:28] Which is more of a sinker swim version of like, yeah, they quit instead of getting fired.
+[26:33] But either way, you weed out the low performers one way or another.
+[26:37] So last two, all right, let's give this last one, I'll tell you, I don't even really like
+[26:43] it.
+[26:44] The Ford CEO, this guy comes in, this guy, Allen becomes the Ford CEO, they had just lost
+[26:49] $17 billion the last year and he came in and they did like the business review where they
+[26:53] go through all the different business like projects and how they're on track or off track
+[26:57] and there was like color code like green is on track, yellow is at risk and red is off track
+[27:01] and everything was green.
+[27:02] And he's like, guys, we lost $17 billion in the last year.
+[27:04] How's everything green?
+[27:06] And he realized they had like a culture of where, you know, people were sort of afraid
+[27:09] to admit failure.
+[27:10] And so he's like, can't be afraid, you have to be honest.
+[27:13] And so the next week they're all green again, except for one was red and he stood up and
+[27:17] started clapping and changed the culture around failure.
+[27:22] And I was like, it sounds a little bit like a Disney movie to me.
+[27:26] Yeah, but it's a cool running shit.
+[27:28] Yeah.
+[27:29] So I think we're going to do, we're going to thumbs down Allen to gather here.
+[27:34] Nice try, Allen.
+[27:35] Consider me uninspired.
+[27:39] This podcast is brought to you by my friends at Mercury.
+[27:42] They make the world's best banking product.
+[27:43] I think you know this already.
+[27:44] I use Mercury for all of my businesses.
+[27:46] I think I have like maybe seven or eight businesses.
+[27:48] We use Mercury as our business banking across all of them.
+[27:51] And now they actually just launched a personal banking account.
+[27:53] So I have my personal account there.
+[27:54] I moved off of Wells Fargo and Chase.
+[27:57] I'm just all in on Mercury.
+[27:58] Why I like products that are easy to use.
+[28:01] I like products that get me and the problems that I have.
+[28:03] So like very easy to make a joint account with my wife, very easy to spin up virtual
+[28:07] cards, one click and I get savings yield.
+[28:10] It's just has all the stuff that I need in one place.
+[28:12] So if you're looking for the best banking product on the market, it's definitely Mercury.
+[28:16] I will fist fight anybody who disagrees with me on that.
+[28:18] Go to Mercury.com slash personal and learn more.
+[28:21] Mercury is a FinTech, not an FDIC insured bank.
+[28:24] Banking services are provided through Choice Financial Group and a members FDIC.
+[28:29] All right.
+[28:29] The last one comes from Jimmy, a.k.a. Mr.
+[28:31] Beast, which was, I think you were there when he described his cloning strategy, which we were
+[28:36] like, so dude, how do you train your employees?
+[28:38] They're all really young.
+[28:39] Seems like they're all new.
+[28:40] You're growing so fast.
+[28:41] Like, do you have like, I'm curious, like, you don't, you know, you never went to
+[28:44] business college or business school or anything like that.
+[28:46] Like, what do you do for your, like, kind of management?
+[28:49] And he's like, oh, I just do cloning and we're like, that sounds illegal.
+[28:52] What does that mean?
+[28:53] And he's like, well, if I hire you in one of, like, kind of the key roles.
+[28:58] You just follow me everywhere.
+[29:01] Like you literally shadow me every single place I go.
+[29:04] And I think the guy who initially was doing it was like sleeping at the same house
+[29:07] that he was in, like it was like that, that hardcore, like from morning to night.
+[29:11] Like the guy, I remember one guy he hired, he was also Jimmy's alarm clock.
+[29:14] Like he would go wake him up and from the moment Jimmy woke up, they were together
+[29:17] till the moment Jimmy signed off to go to sleep.
+[29:19] And he would do that for six months.
+[29:21] And he's like, by the end of the six months, you know exactly how I think because
+[29:23] you've been with me everywhere, everywhere.
+[29:25] You know, so every decision I made.
+[29:27] So essentially you're like a proxy for me.
+[29:28] Like I can now be in two places at once because you know exactly what would Jimmy
+[29:32] do in this situation.
+[29:34] And yeah, cloning works great.
+[29:36] And I remember there was like a room full of CEOs, like multi-billion-dollar CEOs
+[29:40] as he was telling us this, who were like, I think that's awesome and illegal.
+[29:45] Like, what?
+[29:48] People don't like get weekends.
+[29:49] He's like, no, you come here, you come here to win.
+[29:51] I don't know if he still does it.
+[29:52] But in the early days of his thing, I thought that was pretty, pretty awesome.
+[29:56] How is that going?
+[29:57] Like, it's interesting to hear about extreme people and how it ends up.
+[30:03] Like if they, if they soften it when they have kids and stuff, it appears as though
+[30:06] Elon is not a guy who has softened at all as the company has gotten bigger.
+[30:10] And has, he has had more kids.
+[30:12] I wonder if that's happened with Jimmy and what's it called?
+[30:14] Beast Enterprise or I don't know what it's going to be.
+[30:17] Industries.
+[30:18] Yeah, I think both, right.
+[30:19] I think he matured, right?
+[30:22] When we met him, he's probably only like 25 or 24 years old or something like that, right?
+[30:26] So like, you know, he matured like 30 usually from year over year.
+[30:29] Yeah, you're going to mature and his rate of learning, like he's, you know, pretty
+[30:33] obsessive about learning from smart people.
+[30:35] And so he is the slope of his line is pretty crazy, right?
+[30:38] So I'm sure a lot has changed.
+[30:41] At the same time, if something's working and that's your age, you've got to be pretty
+[30:46] careful.
+[30:46] You don't just dull out all your edges.
+[30:48] And so, yeah, he does have a CEO now, Beast Industries.
+[30:50] I'm sure they have more people and they're less like kind of business malpractice is, you know,
+[30:55] you do in the early days when you're kind of rough and tumble and figure things out.
+[30:59] But yeah, dude, I think they still go pretty hard and try to win.
+[31:02] And I think I, you know, I think a lot of the fundamentals are probably still there
+[31:06] of the stuff that works, right?
+[31:07] Like, like anything, the stuff that's working tends to survive and the stuff
+[31:12] that's ineffective tends to get pruned out over time.
+[31:14] I am not compared to these guys.
+[31:17] I've, we're not even the same ballpark in terms of being like hardcore.
+[31:21] I don't know where you are, but I know that when I hear this, I'm like,
+[31:24] it sounds like a lot of work.
+[31:26] I'm not into that.
+[31:27] I don't, I don't want the same outcomes.
+[31:29] And I had a story for you today that is the exact opposite of hardcore.
+[31:34] I didn't mean for this story to be a matter of hardcore or not.
+[31:38] More so a matter of there's money everywhere.
+[31:41] Can I give you an anecdote that like supports what you're saying about the other
+[31:44] side of the coin here?
+[31:46] David Porel, a friend of the pod, had Kevin Kelly on the podcast.
+[31:50] And Kevin Kelly is this guy who I really like and admire.
+[31:52] He had a really eclectic career.
+[31:55] He like started Wired magazine and he wrote a thousand true fans, which really
+[31:59] is shaped kind of my thinking.
+[32:01] Is he like a, was he, I know he's like a thinker and a writer, but was he
+[32:05] a successful business person too?
+[32:07] Yeah, I think he's done well.
+[32:08] Like he's, I think he's done, done very well, compared to normal standards, but like,
+[32:11] you know, not like some crazy, whatever billionaire type, but I don't think
+[32:14] that was ever his goal, but he's just done a bunch of really interesting
+[32:17] projects and his projects were successful.
+[32:20] He asked him a great question about this.
+[32:21] He asked him something like, like what's been the cost of being Kevin Kelly?
+[32:27] Like what have you given up to be Kevin Kelly the way you, the way you have?
+[32:31] And Kevin's like, you know, that's a great question.
+[32:33] To have this life I have I had to give up on greatness.
+[32:38] And he goes, what do you mean?
+[32:39] And he goes, well, I think the cost of greatness is some level of being
+[32:44] extreme and I just never wanted to be extreme.
+[32:47] I didn't want the cost of extreme.
+[32:50] And so he's like, I surrendered to the path of I'm not going to be as great
+[32:55] as I possibly could be.
+[32:57] Had I been obsessively focused on one thing?
+[32:59] Had I been more extreme?
+[33:00] Had I given up certain parts of my personal life?
+[33:04] And he goes, I give you, I'll give you a very specific definition of greatness.
+[33:07] And he goes, let's just for lack of better word, because I could say greatness.
+[33:10] And it means two different things in our heads.
+[33:12] He goes, let's say greatness is being remembered by people other than your family,
+[33:17] more than one generation from now.
+[33:20] And he goes, I don't think I will be remembered for anything more than one or two
+[33:23] generations from now from anyone outside of my own family.
+[33:27] And he goes to be to be able to be, he goes like a gadfly, where I just kind
+[33:32] of float from thing to thing.
+[33:33] And I get to dabble and explore and like kind of see different projects
+[33:39] and bring them to life in little ways.
+[33:40] But I don't own any of them, not any of them became the biggest thing in the world.
+[33:44] To be the gadfly, I just surrender and give up on the path of greatness.
+[33:48] And I'm, I'm perfectly happy with that.
+[33:50] And I thought it was just a very, I never really heard anyone say it that way.
+[33:55] Like I kind of respected his thinking on two levels.
+[33:57] One, I don't think people ever define the words, what they mean.
+[34:01] I was like that he started by being like, I can't give you this answer.
+[34:04] If I don't define what this word means to me.
+[34:07] Was it grandchildren or great grandchildren?
+[34:10] So let's just say grandchildren, yeah.
+[34:12] OK, that's actually interesting.
+[34:14] I've always, I've had a similar definition of greatness, but it's always been way
+[34:19] longer where it's been like 120 or 150 years, which I guess would be a couple more
+[34:25] at a few more generations to that.
+[34:27] But that's actually an interesting way to define it.
+[34:29] Yeah, like you could, I mean, I don't know who you would consider to be great, but
+[34:32] like whether it's, you know, Steve Jobs on the business side, right?
+[34:36] Like you could go into like, you know, Gandhi and Nelson Mandela, like people
+[34:40] who did great in terms of their civic actions or people like Houdini, people
+[34:44] who were great artists and great creators that way, right?
+[34:46] Like there's all these kind of people who are great.
+[34:49] If you look at them, very few of them live very chill, balanced lifestyles, right?
+[34:55] Like there ain't normal people on the top of Mount Everest.
+[34:59] Like you're not going to find a well balanced people.
+[35:01] I actually think about that all the time because I love history and I'll see street
+[35:05] names and it's clearly named after someone and I'll go and research who that
+[35:10] person is.
+[35:10] Like, for example, Fort Green is named after Nathaniel Green, Fort Green's a
+[35:14] neighborhood in Brooklyn and it's a park.
+[35:16] And it's named after Nathaniel Green, who was a general in the American Revolution.
+[35:21] And he was a big shot in the American Revolution, one of the key generals.
+[35:25] And it's like just remembered, mean, his name is named after a park in which no
+[35:32] one even knows that Fort Green was Nathaniel Green.
+[35:35] And I'm like, this guy was one of the key top 20 people in the American Revolution,
+[35:39] which is one of the most consequential, consequential revolutions of all time.
+[35:43] And I don't even know him.
+[35:45] And when you think about it, over the last 500 to 1000 years, there of the
+[35:49] billions of billions of billions of people who have ever existed, the ones who do
+[35:54] who we remember more often than not, it has nothing to do with money.
+[35:59] For example, if you and I do the best that we will ever do when it comes to
+[36:04] business, the likelihood that we will be within like, maybe there's a world
+[36:08] where we'll crack the top 5,000 or top 10,000 living Americans in terms of wealth.
+[36:12] Maybe that would be obviously 0.00001 percent of like that, right?
+[36:18] And yet even that is not going to get you remembered for 500 years.
+[36:21] You can't name who the 80th richest person was in the 1930s.
+[36:26] 50 years.
+[36:27] Yeah. Yeah, you can't.
+[36:28] So that's like current.
+[36:29] So therefore, who's that person today?
+[36:31] You don't know now.
+[36:32] Yeah, you don't know.
+[36:33] And so, and then you're like, OK, so I won't know that.
+[36:36] OK, so money can't really be it.
+[36:39] And then it's like, OK, what about business?
+[36:40] It's like, well, there's some companies that have lasted that long, but like,
+[36:45] it's basically when you really think about it.
+[36:47] It's like humanitarians, a handful of amazing like leaders or politicians,
+[36:52] which would also include like the mother traces of the world, like someone who did
+[36:55] something really special, and then it's like inventors.
+[36:58] Like it's like, it's like, or an artist.
+[37:03] Like occasionally an artist.
+[37:05] And I'm like, so when I think about that, I'm like, well, the odds,
+[37:08] if I defined greatness as me being remembered, like, let's say, 150 or 200 years,
+[37:11] I'm like, hey, I'm doing it wrong and be the odds are so low.
+[37:15] And then I was like, therefore, maybe I just shouldn't care.
+[37:19] Like, I like, I felt like years working through this.
+[37:21] And I tell you where I landed with that same idea.
+[37:24] Being remembered or legacy types, I've never really appealed.
+[37:27] I think I was pretty quick to shed that one.
+[37:29] In fact, there's a great hormones he once said to that.
+[37:32] I really loved, he was like, you know, the queen died six months ago.
+[37:35] And guess what?
+[37:36] She was the queen.
+[37:37] I bet you haven't thought about her since she died.
+[37:40] I was like, oh, it's so true.
+[37:42] That's the queen, you know, there's the queen of England after 100 years, you know, dying.
+[37:47] And so I never really cared about the legacy stuff so much.
+[37:50] But I wanted to achieve greatness.
+[37:52] And when I thought about achieving greatness, it was some version of success
+[37:56] or, you know, building something that mattered in the world or, you know, like
+[38:00] the number one of something, being the number one of something.
+[38:04] And what I've realized is that achieving greatness was sort of like not, not for me.
+[38:09] It would be a fool's errand for me.
+[38:10] It's not what I'm wired to do.
+[38:11] It's not what I would enjoy to do.
+[38:13] It's it comes at a cost that I would not be willing to pay once I knew the cost.
+[38:18] But there's a big difference between achieving something great and being great.
+[38:21] I know a lot of people who are great, our buddy Ramon is great.
+[38:25] He's a great friend.
+[38:27] He's a great dad.
+[38:28] He's a great guy, and he's a great hank.
+[38:30] And you know what I mean?
+[38:31] He he he he is good at being great.
+[38:34] You mentioned Ben Wilson.
+[38:35] Ben Wilson right now is being great in handling such a difficult circumstance
+[38:39] with absolute, you know, class and courage.
+[38:42] And there's just being great at my trainer.
+[38:43] He's a guy.
+[38:44] He's just great.
+[38:44] He's he's a great guy.
+[38:46] He's a great uncle to my kids.
+[38:48] He's a great, you know, great trainer.
+[38:50] He cares about people.
+[38:51] You know, he's so fun to be around.
+[38:53] He's always in a great mood.
+[38:55] He's that's called being great.
+[38:56] And so I realized I being great, the active tents, the day to day thing,
+[39:01] that's the thing to chase because you could do it right now.
+[39:03] And in the moment, how you're showing up, you could be great right now.
+[39:08] And you could also fall out of being great if you lose track of that.
+[39:11] And you should get right back on the horse, try to be great again.
+[39:13] And I think that was the where I landed.
+[39:15] I was like, OK, I think that resonates for me.
+[39:18] I feel comfortable with that.
+[39:19] And it's a it's a far more holistic sense.
+[39:22] It's you could be great when you're exercising and you're in the last three
+[39:26] reps at the set and you have to decide if you're going to put the reps,
+[39:29] put the weight down or if you're going to push yourself and try to really
+[39:31] like see what you're made of, that's a moment of being great.
+[39:34] You know, you could just be courteous and kind to something.
+[39:36] That's a moment of being great.
+[39:37] You know, like sometimes I'm with, I'm at the park and there's other kids.
+[39:40] And they're kind of like, you know, talking to me and I'm kind of just like,
+[39:43] I don't know why this four year old is talking to me.
+[39:45] And sometimes I brush them off and I just want to be on my phone.
+[39:47] I don't really want to talk to the stranger kid about like, you know,
+[39:49] this caterpillar that he found.
+[39:52] And sometimes I indulge them and I'm like, no, I mean, I'll say something
+[39:56] that plays back into them because that's how I would want someone to treat my kid.
+[39:59] It's a moment where I get to choose if I'm going to be great or if I'm not going to be
+[40:02] great and I'm not always good and not always the best of that.
+[40:04] But increasing that hit rate is the goal and that's one I can kind of get behind.
+[40:09] What's the phrase again?
+[40:10] Say this again.
+[40:11] I think this is good.
+[40:12] Instead of building something great, be great.
+[40:14] Yeah, don't try to achieve greatness.
+[40:16] Like just be great right now, like just being great.
+[40:19] Did you see the guy who went viral this week on Twitter where he was like saying,
+[40:23] like someone was talking about like hard work and he was like, I think you should work hard,
+[40:27] but there's a age between like three years old and 13 year old where your kids don't
+[40:34] dislike you yet and they're willing to spend time with you, you know, past 13,
+[40:38] that doesn't happen and they're out of diapers.
+[40:40] So they're a little bit easier and they start having opinions and that they can think.
+[40:43] And for a lot of men who are ambitious people, what they notice is that their
+[40:48] ambition goes away or dials down during this period because they love being around their kids.
+[40:53] And it doesn't happen to everyone, but a lot of men do.
+[40:55] And what I've noticed is that the people who are fearful of this,
+[40:59] I just want to let you know that it tends to come back.
+[41:01] Ambition does come back.
+[41:03] And the reason why this went viral is because I'm experiencing this.
+[41:06] And I think maybe you are and a lot of our folks listening are, but like,
+[41:10] there is this moment where you start like experiencing these things with your
+[41:13] kids when they start having opinions and they still like hanging out with you.
+[41:16] And you're like, I don't know if I care about the same things like ambition or
+[41:20] these other things where I dedicate my life to them.
+[41:23] I guess I'm not willing to pay that price.
+[41:25] And frankly, I find it to be kind of a pain in the ass because you're like,
+[41:29] life was so much simpler.
+[41:30] Just climb the ladder, make money.
+[41:33] You know, it's like F checks to get money.
+[41:35] Like it's so much simpler that way.
+[41:38] And then you have kids and you're like, shit, everything I thought to be true.
+[41:42] It's not true right now.
+[41:43] And the poster was like, but it becomes true again later on.
+[41:47] Like it does come back, but I remember reading that last weekend.
+[41:51] And it really hit hit with me because when you're talking about these
+[41:54] like guys who are hardcore, I'm like, I don't want I'm not staying
+[41:58] till midnight right now.
+[41:59] Yeah.
+[41:59] No.
+[42:03] My chair has lumbar support.
+[42:05] I'm going to be here tonight.
+[42:08] That ain't happening.
+[42:10] No option drops for us.
+[42:14] Dude, I gave him a great idea at the breakfast and he option dropped me.
+[42:17] I was like, yes, immediately, like hook, plan and sinker.
+[42:21] I was like, wow, how do I get that again?
+[42:23] That was a really, I like that reward.
+[42:28] I was going to bring up another story, but I'm not going to anymore.
+[42:30] I think that was perfect.
+[42:32] Yeah, that'd be a little too hardcore for us to.
+[42:35] I'm going to go out of 55 minutes and not go to the 60s.
+[42:40] No, I think this has a good bow tie to it or bow tie a good, you know,
+[42:44] whatever that phrase is about going to a guy.
+[42:47] It's a rapid shit.
+[42:51] It's all done.
+[42:51] I don't know.
+[42:52] All right.
+[42:53] That's it.
+[42:53] That's a pod.
+[42:54] I feel like I can rule the world.
+[42:56] I know I could be what I want to put my own in it like no days off on a road.
+[43:02] Let's travel never looking back.
+[43:04] All right.
+[43:04] Let's take a quick break.
+[43:05] I want to tell you about marketing school.
+[43:06] It is a podcast that's part of the HubSpot podcast network and it is run by
+[43:11] Neil Patel and Eric Sue and these guys are both marketers who are
+[43:14] running businesses.
+[43:15] And so if you want real world tactics from practitioners who are actually out
+[43:18] there in the field doing it, this is the podcast for you.
+[43:20] Check it out wherever you get your podcast.

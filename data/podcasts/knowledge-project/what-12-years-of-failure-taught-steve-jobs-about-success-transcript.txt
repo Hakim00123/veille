@@ -1,0 +1,626 @@
+The Knowledge Project
+What 12 Years of Failure Taught Steve Jobs About Success
+Tue, 01 Sep 2026
+https://fs.blog/knowledge-project-podcast/geoffrey-cain/
+
+[00:00] That is Steve Jobs at rock bottom, and that is a Steve Jobs that we've almost never seen before.
+[00:05] And he was very close to being completely forgotten and written out of history.
+[00:16] Everybody knows about Steve Jobs' legend, the myth, the man who shows us the future,
+[00:22] but very few people see this period where he walks through the wilderness and fails over
+[00:27] and over again. And I want to talk about that with you today.
+[00:31] Looking forward to it, Shane.
+[00:32] I think the right place to start is leading up to the original, I wouldn't say firing,
+[00:38] but the original leaving from Apple and the coup attempt to a scully. And can you walk me through
+[00:45] sort of what happened in the year to leading up to that that led to that?
+[00:51] Steve Jobs was a brilliant young man. He was a visionary. He co-founded Apple
+[00:56] with Steve Wozniak in his garage. And in 1984, he released the Macintosh computer.
+[01:02] This was game-changing because you have to remember, in the 1980s, using a computer was really difficult.
+[01:08] A lot of them were the size of a room, and the whole idea of a personal computer that sits
+[01:12] on your desk was entirely new. Steve took the technology of the past and made it available
+[01:18] to everybody. He called it the bicycle for the mind. The Macintosh, it was a cultural success.
+[01:24] It was out there. People were talking about it. But the reality is that it was not a commercial
+[01:28] success. It just wasn't selling. And so because sales were weak, Apple entered a crisis in 1985,
+[01:36] a year after the Macintosh was released. And meanwhile, Steve had brought on John Scully,
+[01:43] the CEO of Apple, he was going to provide adult supervision. And so he would be the guy
+[01:48] who would turn Apple from a scrappy little startup into an actual corporation.
+[01:54] But this did not go as planned for Steve. So because of all these failures with the Macintosh,
+[01:59] the inventories were piling up. Apple was just not really doing that well anymore. They were
+[02:03] that's piling up. They had to lay off workers for the first time in 1985. When all of this reached
+[02:10] ahead, Steve just found himself being pushed out of the company. He was impossible to manage.
+[02:17] He was extremely difficult. He was so convinced of his own brilliance, and he was brilliant,
+[02:22] but so convinced of his brilliance that he would storm into meetings. He would yell at people.
+[02:27] He would tell them, you're not doing your job right. And they would say, Steve,
+[02:31] you're not even my boss. One of the things that we often forget about Steve Jobs is that he was
+[02:35] not the CEO of Apple. He ran the Macintosh division. So his job was simply to build the Macintosh.
+[02:43] But he would go to every other office and say, hey, you guys are idiots. What are you doing?
+[02:47] And they would say, Steve, we don't report to you. Apple got a lot of complaints. They went
+[02:52] up to John Scully, the CEO. John was getting tired of him because he could not manage Steve.
+[02:57] And so in the end, they made the decision that Steve has to do something else for a while.
+[03:04] Steve actually tried to launch a coup d'etat against the CEO, John Scully. It was early 1985,
+[03:11] and he said, here's what I'm going to do. It's a plot. I'm going to get a speaking gig in China.
+[03:18] And then John Scully, once I tell him, he's going to want to join me too.
+[03:23] So what happened? Steve invited him out, and then Steve bailed, said I have other plans.
+[03:28] And then the plan was that Steve was going to walk into the boardroom when John Scully was gone
+[03:33] and tell them that John had to be ousted. And he wanted the board to make him the CEO. So Steve Jobs
+[03:41] tried to become the CEO of Apple, but he failed. He wasn't ready.
+[03:46] He led Scully to believe that he was on the flight. Somebody told Scully that he wasn't going,
+[03:51] and then he showed up at the meeting the next day, and Scully was there, and that forced the
+[03:56] decision. Yeah, so Steve Jobs had a rival named Jean-Louis Gaset. And Gaset was the head of Apple
+[04:03] France, very successful in the company, and was sort of being groomed to be the next Steve Jobs.
+[04:10] And so Steve decided to tell John-Louis Gaset about his plot. He met him in the parking lot.
+[04:16] He said, here's what I'm going to do. I'm going to overthrow the CEO of Apple.
+[04:20] And so John-Louis Gaset, that night, is at the CEO's house and pulls him aside and says,
+[04:28] I got to tell you about what Steve Jobs is going to do to you. If you go to China,
+[04:31] you might not have a job anymore. One of the bottles going on at the time,
+[04:35] if my memory source may correct is the open Macintosh computer, or Mac, what was it called,
+[04:41] the Mac 2? Yeah, so the Macintosh 2? Yeah, so the open one that Wozniak had created where people
+[04:46] could put their own components in, take it apart, that was keeping them afloat. And Steve's version
+[04:52] of the computer, which was closed, and sort of more controlled, which is a theme I think we're
+[04:58] going to talk about a lot today, was the reason that Apple was facing financial struggles because
+[05:03] it wasn't selling. Right, Steve, he did have a brilliant vision. He wanted a computer to be an
+[05:10] end-to-end product. The same company, he thought, should control everything from the hardware
+[05:15] to the components to the software, the mouse, the keyboard, everything, which is kind of like
+[05:20] what the iPhone is today. The problem, though, is that in the 1980s, this was not a practical way
+[05:25] of doing business. A lot of consumers were business consumers. They would have a nice big
+[05:31] PC in their office, and they could take out cards and take out slots. They could customize it however
+[05:36] they needed. That's what the world wanted, but Steve failed to see that at the time. He thought
+[05:41] that his vision was so smart that people would beked down a door to buy his computers, even if
+[05:45] they were closed. But he quickly realized that that's not what the world actually wanted.
+[05:50] This will come back again in this story. So he gets ousted. He leaves Apple. He's still
+[05:58] very well off. He's got over 100 million, I think. Then what happens next?
+[06:04] It's September 1985. He has spent the summer in Europe. This is the summer where he's really
+[06:11] getting a taste, his first taste of what it's like to be without Apple. You have to remember,
+[06:16] Steve's an intense guy. He was spending long days. His whole life was Apple. People around him
+[06:23] remarked that he didn't have any real friends. He probably had no identity either, right? Because
+[06:28] all of his identity was tied to being the co-founder of Apple. Absolutely. His entire identity,
+[06:35] his being, was Apple. Having that torn away from him, being pushed out and told you're not needed
+[06:41] here anymore, what they did is they gave him a new made-up unit. They said,
+[06:47] you leave, so you're not going to work on the Macintosh anymore, which is your baby. That was
+[06:51] his creation. They say, you're going to get a lonely office across the street. He nicknamed it
+[06:56] Siberia. Then everybody just ignored him. It was the fall of Steve Jobs that entire summer.
+[07:03] Then finally, he said, I'm headed off to Europe. I can't take this anymore. He spent that whole
+[07:08] summer, this winding summer of just exploration of looking at paintings and museums and going to
+[07:15] coffee shops. This was a rare moment when he had to stop and he had to reflect and look inward
+[07:21] and figure out what he was doing wrong. In the end, Steve decided that he could not stay at Apple.
+[07:29] Okay. What happens next? He comes back from Europe.
+[07:33] He decides that he's going to leave Apple and he wants to go into the next phase of his career.
+[07:40] He's 30 years old. He says, I am going to make the most cutting-edge computer for the leading
+[07:46] science laboratories, the university departments. I'm going to make the best computer that can be
+[07:52] possibly available on the market. It's going to be a computer that's going to allow
+[07:57] students in dorm rooms to cure cancer. There's a problem. To make that, he's going to have to
+[08:04] five Apple employees. These ones are especially talented. He goes in, he tells John Scolie,
+[08:12] the CEO, I'm taking these five with me. John Scolie freaks out. What Apple does next is
+[08:21] one of the most dramatic things I've seen a company do to one of its co-founders,
+[08:26] they decide to sue him. In an effort to prevent him from starting or to control what he does
+[08:31] when he starts. It's both. They don't want him to start the new company. The way that Apple looked
+[08:37] at Steve was a bit schizophrenic in a way. He was the spiritual heart of the company and it was,
+[08:44] in many ways, his company. But then the other worry, they accused him of stealing intellectual
+[08:50] property. Of course. Steve was working on a new computer at Apple. It's called the 3M machine.
+[08:57] The 3M machine, it's this idea of a supercomputer, essentially. More powerful than a Macintosh.
+[09:05] More powerful than the typical PC of the day. That would be the kind of computer that could be
+[09:11] used for scientists and researchers and also intelligence agencies. Steve decides that this
+[09:16] is the computer he's going to make at his new company, which he calls Next Computer.
+[09:22] He takes these five co-founders with him. He starts Next and then he's spending money like
+[09:28] crazy at this point. I think there's a logo story. Tell me the logo story.
+[09:34] Steve is such a perfectionist. He's a man of high taste. Especially from the fortune he had built
+[09:43] at Apple, he had really gotten that champagne taste and he only wanted the best. This is the
+[09:49] opposite of the younger Steve, the guy in the garage with the holes in his jeans.
+[09:55] Who had been showered for days. Yeah, who washes his feet in the toilet. That's Steve.
+[10:01] But this is Steve at 30 and now he's elevating his surroundings. Since he's no longer building a
+[10:08] startup, that's not how he sees it. He wants to start at the top shelf. And so one of the first
+[10:14] things that Steve does is he sets out to craft a logo. So he only wants the best logo
+[10:21] from the best graphic designer in the country, a man named Paul Rand. And so Steve approaches
+[10:26] Paul Rand and says, I want you to give me the best logo you can. And Paul Rand's response is,
+[10:33] you'll pay me $100,000 for the logo. You only get one shot and you can't change your mind.
+[10:39] That's that. Whether you use the logo or not. And $100,000 at the time. I mean,
+[10:44] it's a lot of money now, but at the time that it's like an insane amount of money.
+[10:48] I mean, even today, that's an insane amount of money for a startup. And in 1985 and 86,
+[10:54] the number is astronomical. And so people are looking at scratching their heads and saying,
+[11:00] so what exactly is Steve Jobs doing? And this logo, it's a classic. People still study it.
+[11:05] Design schools still study it. But at the time, people were wondering, well,
+[11:09] what does this mean for the company expenses? And so as a result of spending $100,000 on a logo,
+[11:17] company expenses suddenly become pegged to $100,000. That's become the normal unit of
+[11:23] spending at this little startup. And meanwhile, Steve has invested $7 million of his own money
+[11:29] in next computer. So when every expenditure is $100,000 and you're only running on $7 million
+[11:36] without a product, you're already in trouble. So Steve started off on the wrong foot. He did get
+[11:42] a beautiful logo, but he was too far ahead of the market and what the market wanted from him.
+[11:49] And you wanted the computer to be beautiful in and of itself. There's a whole story around the cube.
+[11:54] The cube was a perfect object that Steve wanted to create. And so he wanted his
+[12:01] computer to be literally a perfect cube, 90 degree angles. So it's a beautiful item. I mean,
+[12:07] absolutely gorgeous, but manufacturing it is just a pain in the neck. It's almost impossible.
+[12:14] And so they had to go to a specialist mold shop and they had to use like a special
+[12:18] system, you know, for for lining it up. It was a $500,000 standing line in 1986 that would
+[12:24] sand every computer. Steve in deciding that he wanted to build a perfect cube for a computer,
+[12:32] he's automatically added millions of dollars and expenses that are going to accrue over time
+[12:38] just by choosing a perfect cube. So in the end, Steve had created this masterpiece of
+[12:46] art, this masterpiece of technology, but it was so impractical that I mean, the cost was just going
+[12:54] to get out of control. It was so expensive. He priced himself out of the market right at the start.
+[12:59] He priced himself out of the market because he predicted that everybody's going to want to buy
+[13:03] this. They're going to see how smart Steve Jobs is. And then Steve is going to be proven right in the
+[13:09] end. He's going to get back at Apple and have an even cooler computer than Apple does.
+[13:13] This reminds me of something John Mackie told me when I was interviewing him, the founder of Whole Foods,
+[13:18] and he said, you have to meet the market where it is. Right. The market for a $10,000 computer
+[13:25] in 1986, a perfect cube that looks gorgeous, is extremely, extremely niche. And even today,
+[13:33] no person in their right mind would actually buy this thing. There are people giving him feedback
+[13:38] that like, no, you shouldn't be doing this or this is too expensive or nobody will buy this or
+[13:43] or is it sort of like the classic story of nobody wanted to give Steve bad news.
+[13:48] This is one of the surprising things I found. I always assumed that people were scared of Steve Jobs
+[13:53] and he would yell at them and curse and they would just go quiet and run away. That's something that
+[13:58] we see in movies, but that's actually not how things played out in real life. Steve hired people
+[14:04] because he wanted them to talk back. He wanted people with edge. He would go out there. He would
+[14:09] pose these really hard interview questions. He would say, are you the best person in your field?
+[14:15] And if you hesitated or said, I don't know, he would say, well, the interview is over. I only
+[14:20] want to talk to the number one person. So go find them for me. And then we'll talk.
+[14:25] It just shows like that's what Steve wanted. He wanted people who would defend themselves,
+[14:30] defend their ideas. They weren't afraid to stand up to him and say, hey, Steve, let's do it this way.
+[14:35] One of the reasons Steve would be so difficult with people is because he was trying to get them
+[14:40] to push back. He was saying, I have this force of personality and I want you to show me why your
+[14:46] idea is not totally stupid, please. That was the idea. I love that. In terms of challenging people,
+[14:52] even if he believed them, he just wanted to see that they believed in their own ideas that they
+[14:58] had thought things through. Right, right. You're going to stand up to yourself. Also,
+[15:01] you're going to engage in intellectual combat. That's what he wanted, not just combat with Steve,
+[15:06] but intellectual combat with the whole team. They would all get together in a room with Steve.
+[15:11] Steve liked to hold these retreats. They would go stay at a nice hotel and gather in the conference
+[15:16] room. And Steve would come out and say, okay, so give me your best ideas. And then everybody,
+[15:23] the software team, the hardware team, the marketing team, the sales team, they would all have to
+[15:28] stand up one by one and fight for what they believed in. And if Steve thought they weren't
+[15:32] fighting enough, he would push them harder. He would say, no, this is not good enough. It's really
+[15:37] not good enough. They were not scared of Steve. They were not cowering in front of him. They were
+[15:43] telling Steve exactly what was going to happen. And they would tell him, Steve, you hired me
+[15:48] because I'm the best software developer. I'm the best in my field. And I'm telling you that this
+[15:53] is not going to work. And Steve ignored them. Anyway, why was he ignoring them?
+[15:58] I think that he was trying to build a monument to his own genius.
+[16:03] Steve was really immature at this stage in his life. I saw emails where his executives would
+[16:11] give him the numbers and say, look, literally, if you don't raise this much money by this
+[16:16] date and sell this many cube computers, the company is going to fail. And Steve would say,
+[16:21] well, we don't have to worry about that because we're going to sell 25,000 computers this year.
+[16:26] And they would say, Steve, we're not going to sell that because we don't even have a distribution
+[16:29] network set up. There's literally no one selling the computer out there for us. So how are we going
+[16:34] to sell it? And he would say, I know it's going to work because I tried it today and it's a great
+[16:38] computer and it's a great product. So of course, it's going to work.
+[16:40] Is this the reality distortion field where he's not allowing anything into his perception and
+[16:46] then trying to create a picture of something that's completely untrue? Like, did he know he was lying
+[16:52] or did he actually believe it? I think he actually believed it. I think that he did say things that he
+[16:57] did not know for sure to be true. But I don't think he ever saw himself as outright lying.
+[17:02] Here's what I learned about his reality distortion field. And this is what made it so dangerous.
+[17:09] It wasn't just about convincing other people that his ideas were infallible. It was also
+[17:15] about convincing himself. And he would listen to people sometimes, but other times, if it clashed
+[17:21] too much with his vision, he would dismiss them. His biggest fault was building a monument to his
+[17:31] own genius, his own vision, and thinking that that would be enough for the market and enough to
+[17:37] beat Apple and get revenge on Apple. And so he's not learning, but he's getting a lot of feedback
+[17:42] and he hasn't quite the moment of learning, I think, is the hardware division failure.
+[17:47] Is that like when that's his lowest point? Walk me through this.
+[17:51] That is Steve Jobs at rock bottom. And that is a Steve Jobs that we've almost never seen before.
+[17:57] So what happened? Steve was piling up debts. He was refusing to kill the hardware division.
+[18:03] So the next cube was not succeeding. The sales were just a few dozen a month. I mean,
+[18:08] it was ridiculous. I even looked at the numbers and I thought, how could any business survive with
+[18:12] this? And so instead of killing the hardware, Steve kept going around to different investors
+[18:17] and saying, we have something great coming, invest a bunch of money. He went to Canon.
+[18:22] Canon gave him $100 million and got a board seat. It took very little convincing. So Ross Perot,
+[18:28] his other investor, Ross Perot got a board seat and invested $20 million at the start.
+[18:34] These investors were surrounding him and the effect was interesting. The effect was
+[18:42] magical thinking. It was Steve putting on a magic show and as a result of Canon investing
+[18:49] and Ross Perot investing and IBM set up a deal that automatically raised the valuation of next
+[18:55] and gave it credibility. So even though the whole company was smoke and mirrors,
+[19:00] they were still raising more and more money. So they were creating a bubble.
+[19:04] The next hardware was not selling. Steve would not give it up. And then finally,
+[19:09] in 1993, the company was on the verge of bankruptcy literally one weekend away from just closing the
+[19:18] doors completely. And so Steve Jobs and his hardware chief, John Rubenstein, who was also one of the
+[19:24] creators of the iPhone later, called up Canon, their investor, and said, it's a cram down,
+[19:30] give us $20 million now or else we're closing. And so the Canon investors said,
+[19:36] well, I guess we have no choice here because we're going to lose all of our investments if this company
+[19:41] goes up and smoke. Every few years, a new platform earns its place at the top of every smart advertiser's
+[19:49] media plant. The people who find it early build advantages that are very hard to close.
+[19:54] Apple Oven just had the most remarkable run in ad tech history and now they've opened that engine
+[19:59] to businesses like yours. Over a billion people play mobile games every day, focused not scrolling
+[20:06] with no feed competing for their attention. Apple Oven puts your brand in from the right customers
+[20:11] and optimizes purely for your growth. Brands like Wayfair, Kitch, Ridge, and Nectar are already
+[20:18] scaling on it. Well, most of their competitors don't even know what exists. Ready to find your next
+[20:23] million customers? Go to appleoven.com slash Shane and launch your first campaign today.
+[20:31] I built an AI version of myself with Hey, Jen. Today, I'll have a dig up an old prediction I made
+[20:37] and we'll each grade it. Let's give it a shot. Hey, Shane. You once predicted that long form
+[20:43] would beat short form for anything that actually mattered. Create that prediction today. Hey,
+[20:47] I was directionally right, but I underestimated just how much short form would become the front door
+[20:53] to long form content. I agree you were right, but for the wrong reason. You thought attention's
+[20:58] bands would recover. They didn't. People just got better at choosing when to go deep. Right call?
+[21:05] Lucky logic. Well, I got the right answer with the wrong math, but I'll take it. That's Hey, Jen.
+[21:10] Record yourself for 15 seconds and get an AI avatar that delivers professional video on demand.
+[21:16] Your first three videos are free at Hey, Jen.com slash TKP. That's H-E-Y G-E-N dot com slash TKP.
+[21:25] So leading up to this sort of like the 1990 to 1993, the software was getting really good. Like
+[21:32] when it first came out, it was pretty buggy, but everybody loved their software. The hardware
+[21:36] division is what's sort of like killing it, but IBM wanted to license just their software, didn't they?
+[21:42] Right. Next computer was revolutionary in its software. The hardware was the failure,
+[21:48] and we look at the hardware and think, oh, this company failed, but the software is where the future
+[21:55] actually lived. And this is where the vision and the future for looking of Steve Jobs comes in.
+[22:02] He was working on software in 1986 that by the year 2007 would be the foundation of the iPhone.
+[22:11] That's how far ahead of his time he was. He had come upon a relatively novel technology called
+[22:17] Object Oriented Programming. For anybody who wasn't an adult in the 1980s, who doesn't remember
+[22:23] what it was like using a computer, if you wanted to develop an app or basically do anything significant,
+[22:30] it took a ton of code. You had to go through line by line of code, and it was inefficient.
+[22:36] There would be one mistake in there, and then that one mistake would just crash the whole system,
+[22:42] and then you had to go back through the whole thing. Programming a computer was miserable.
+[22:46] Steve, from his visits to Xerox Park, saw what was called Object Oriented Programming,
+[22:54] which is the foundation for Apple products now. This is the drag and drop. Everything is an
+[23:01] object, so you might have the button object, the click here object. You might have the image object.
+[23:07] Object Oriented Programming was automation for software.
+[23:11] He was building software at the time, he's in drag and drop, and all of Next was, but the
+[23:16] problem is they had no install base, and nobody else is building software for Next. So there's no
+[23:21] reason to purchase Next because it's very niche market. Steve made that mistake early on,
+[23:28] because he wanted to once again control the hardware and the software together. Next step
+[23:35] was the name of his operating system. This is the operating system that tapped into the power
+[23:40] of objects, but the problem was that it was confined to his next hardware, which no one wanted to buy,
+[23:47] because it was too expensive. Over time, a lot of customers, clients, came into the office and said,
+[23:53] look, Steve, the reason we're buying your beautiful cube computers is not because it's a beautiful
+[23:59] cube. Nobody cares about that. We're buying it because we want to use your powerful software for
+[24:04] financial trades. At it's time, like speedy financial trades back when this is a new thing,
+[24:10] we want to buy it for healthcare, you know, satellite imagery, satellite imagery, intelligence work,
+[24:16] the CIA loved it, the NSA loved it. It had a removable optical disc, a new thing at the time,
+[24:22] that the CIA agents could destroy and toss out so nobody could find it.
+[24:27] It really was a machine that was ahead of its time. The hardware was just so unworkable,
+[24:31] because it was so far into the future. But the software was where the real power was here.
+[24:36] But he was playing on hard mode, right? Like he had opportunities in front of IBM came to him,
+[24:41] wanting to give him money and license software. The government was trying to buy a whole bunch of
+[24:46] computers, walking me through those two stories where he sort of self-sabotages.
+[24:51] He totally self-sabotaged, and the whole world would look different today if this had gone
+[24:56] in a different route. This is one of the stories that blows my mind about Steve Jobs. So Ross Perot
+[25:03] is his investor, Ross Perot, for people who don't remember. He was a technology magnet from Texas,
+[25:09] a billionaire. One of the greatest investors of his era also ran for president twice on an
+[25:15] independent ticket. So, you know, this is who Steve Jobs brings on board, and everybody who
+[25:21] worked with the two said it was a really funny pairing, because Steve is Mr. Birkenstocks,
+[25:27] California mystic. And then Ross Perot, the straight-laced Texas, the military veteran,
+[25:33] who's going to run for president, these two guys were so far apart that it should have been obvious
+[25:39] that it wasn't going to work out in the end. One of the handshake deals of this partnership
+[25:45] is that Ross Perot promises to mobilize his sales force to sell next computers to the federal
+[25:53] government, the military, and intelligence agencies. And so there are intelligence contractors and
+[25:58] spies coming around during these years to the next headquarters. These guys would show up. I
+[26:04] heard really funny stories. They would never carry a business card, and they would say,
+[26:08] hey, my name is Sally. My name is Bob. They wouldn't ever say their real name. And Steve
+[26:16] decided in the end that he doesn't want to sell to the federal government, because that's not who
+[26:20] Steve is. He's all about democratizing computers. He wanted to sell to schools, to dorm room students.
+[26:28] That's the sort of audience that he goes after. But Steve blew this up, and it was a disaster,
+[26:35] because he had millions, hundreds of millions potentially in government contracts being lined up
+[26:41] for him. And then he said, I don't want to do this. I changed my mind. I don't want to sell to the Feds.
+[26:46] So Ross, I'm not doing this. And this blew up their relationship. Ross quit. He was so frustrated,
+[26:53] so angry with Steve. They were literally at the boardroom table with the contracts.
+[26:57] They were literally at the table ready to sign the contract. And Steve said, I'm not doing this.
+[27:03] So I just want to give people context here. So we're in 1993 at this point. The hardware division
+[27:09] has just been bankrupt. He goes to Canon. It's like, I need $20 million by Monday, or else we're
+[27:15] shutting the doors to the whole company. He's refused to sell the government despite them trying
+[27:20] to give him money, literally lining up to give him enough money to more than stay afloat.
+[27:25] And his partnership with IBM had blown up. So Steve was alone. He was completely alone.
+[27:33] He had driven out his co-founders. All five of them had left because they were so tired of
+[27:38] working with Steve. He had alienated all of his investors. Canon, his only remaining investor,
+[27:45] was no longer responding to his emails. His developers were all out. They said, I'm tired of this.
+[27:52] I'm not going to develop software for a machine that no one's using, a machine that is now closed
+[27:58] and failing. So this was Steve at Rock Bottom, an even Fortune magazine published this article
+[28:04] and said Steve Jobs might be a snake oil salesman. They used that exact phrase,
+[28:10] snake oil salesman for Steve Jobs. When I was looking at Steve Jobs at Rock Bottom,
+[28:14] I thought, Oh my God, this is the Steve Jobs we never see. You never see Steve being accused
+[28:21] of being a scammer. You never see Steve almost bankrupt. He was almost personally out of money.
+[28:28] He was burning through about $50 million a year, according to the people who knew him.
+[28:34] And he was investing his own money into these businesses because he didn't want to take them
+[28:38] public. And so if the businesses went under, then Steve Jobs will go under. And he was very close
+[28:45] to being completely forgotten and written out of history.
+[28:48] Was he funding Pixar at the same time? When did Pixar come into the picture?
+[28:52] Steve Jobs was personally funding two companies, next computer and Pixar from 1985 to 1995.
+[29:03] In late 1995, Pixar had its IPO because of Toy Story, which was a major success.
+[29:08] And that's actually what saved Steve and the Unfinancely. He became a billionaire
+[29:13] as a result of that IPO that might have never happened.
+[29:17] That's crazy. So he's funding both of these companies. He's running out of cash.
+[29:24] Cannon comes in and funds him. What changes in that moment?
+[29:28] Because that's the lowest point. That's where everything turns around in this whole story.
+[29:33] And he starts to become the legend of Steve Jobs that we know and love.
+[29:40] It's the realization that he's alone and almost a complete failure in business.
+[29:47] It's also his marriage to Lorraine and having children with her that started to rehabilitate him.
+[29:55] He started to realize that there are bigger and greater things out there when it comes to
+[30:01] starting a family and having kids. These moments, it was these years, 1993 to 95, that were
+[30:09] enormously transformative for him, both professionally and personally.
+[30:13] And having Lorraine around really started to tame him, make him mature. Also realizing
+[30:19] that he had to back off. One of the reasons Pixar was successful was because Steve was not
+[30:26] involved day to day. The deal that they had, Steve bought Pixar from George Lucas.
+[30:31] And the deal, the agreement was Steve stays out of creative decisions. That's going to make things
+[30:36] easier for us. So Ed Catmull, John Lasseter, two luminaries at Pixar, they were the ones who
+[30:43] actually made the creative stuff happen. Most people don't realize that Steve Jobs was credited
+[30:48] as a producer of Toy Story. But the reason you don't realize that is because he wasn't really
+[30:53] the face of the project anymore. It wasn't like the Apple where you saw Steve and Apple together.
+[31:00] You can't separate the two. But with Pixar, once he backed off, things worked great.
+[31:07] Steve did what he did best. He would give the presentations, convince people to invest.
+[31:12] He would eventually sell Pixar to Disney, a brilliant master stroke of business.
+[31:18] But the creative hands were left to do what they did best. And so Steve learned to finally
+[31:24] trust people. He steps back a little bit from next is that he stepped back, not just a little
+[31:30] bit. He stepped back by a wide gaping margin. He realized just how damaging his actions had been,
+[31:40] just how damaging his need for total control was. And so he allowed his executives at Next
+[31:48] to take over. One of the things that Next executives quickly realized is that the only way to save
+[31:53] the company, which was $400 million in debt. Remember, this is a small startup that hasn't even
+[32:00] produced a successful product in nine years. It's literally been making a loss for nine years.
+[32:06] The moment he hires some real financial professionals, there was a new CFO named Dominic
+[32:13] Trempot, who is from Belgium and came in and looked at the situation and said,
+[32:19] this is pretty bad. I don't know if we can save this place, but we'll do what we can.
+[32:23] The moment that that team came in and looked at the books and told Steve what they need to do,
+[32:29] that's when things change. And now, next, for the first time ever in the year 1994,
+[32:35] posted a very small profit and finally came out of that nine years of endless
+[32:41] unprofitability and finally was starting to look like a real business. Once, ironically, Steve Jobs
+[32:48] was gone. Was he gone or was he just more hands off? He was gone in the sense that he went to
+[32:53] Pixar more. Pixar became his baby. He loved Toy Story, which they were creating at the time.
+[32:59] He really loved this idea of technology being used to create beautiful cultural items.
+[33:07] So what next computer was doing, the only way that they could survive was by creating enterprise
+[33:13] software. And he had no interest in that. He was like, I'm not doing that. Why would I do that?
+[33:18] I'm going to sell the next great computer to the next know about winning scientists. That's what
+[33:22] the company is. But once his financial advisor said, look, I mean, if you don't change this,
+[33:29] it's going to go under your $400 million in debt. You have no choice. Steve backed up backed off.
+[33:35] He was not interested in enterprise computing. I mean, come on, Steve Jobs, he watched the
+[33:41] events that he gave the product launches during this time. And he does not look like Steve Jobs
+[33:47] at all. He's not wearing that black turtleneck. He doesn't have the scruffy beard. He doesn't
+[33:52] have the glasses. He's wearing an Armani suit with a white button down shirt and a red tie.
+[34:01] And at one point, he even gave an interview and he said, the future of our company is going to be
+[34:07] like IBM. This is like 93 to 95. This is 93 to 95. He's Steve Jobs, the corporate salesman,
+[34:15] walking around the conference room floor with his conservative dapper suit and shaking hands
+[34:22] and saying, hello, would you like to buy my enterprise software? Are you a financial firm
+[34:26] on Wall Street? We can sell to you. Oh, my God. That's amazing. And so Pixar IPOs,
+[34:33] and that gives Steve a lot of financial freedom really gives him leverage over the Apple transaction,
+[34:39] which is coming. But at the time, Apple was struggling. So it's important to contextualize
+[34:46] this, I think. Why are they struggling? What's going on at Apple? Apple grew into a big corporation
+[34:53] and like many successful startups that grow. It got feature writers, as they call it,
+[35:00] it got the syndrome of bureaucracy, the syndromes of making too many products, of having too many
+[35:05] people. By the time John Scully, the Apple CEO of the time, by the time he was pushed out of the company,
+[35:14] the company had something like 70 product lines. No company can survive by making so many products,
+[35:19] especially if they're not selling. So they couldn't say no to anything. Steve's not checked out,
+[35:26] but not as involved at Next as he was. Apple's thinking of buying BOS as a means of saving
+[35:34] themselves, I think is my recollection of this. But then a voicemail changes everything.
+[35:40] This is one of the luckier stories in Silicon Valley history. If this story had gone any differently,
+[35:48] the story of Apple would have not happened. Apple might have literally gone out of business.
+[35:53] There would be no iPhone, no iPod. None of this would have happened. Apple was entering a crisis,
+[35:59] and the crisis was on many fronts. They had released a laptop that was exploding.
+[36:06] The batteries would ignite on fire. They had to recall it. Apple was having failure after
+[36:11] failure across the board. One of the things that they had to upgrade was their operating system.
+[36:18] I don't know if Shane Yu used Apple computers back in the 90s. If you remember what it was like,
+[36:25] there would be crashes and freezes. They had this thing called the spinning beach ball of death,
+[36:31] a little beach ball thing that shows up and it just spins around and around and around. It means
+[36:38] that the computer was trying to load something, but it just can't load it, so it sits there for an hour.
+[36:44] It really was a miserable experience trying to use an Apple computer in the year 1996.
+[36:50] Gil Emilio was the CEO appointed to come in and turn around the company. He also brought in
+[36:58] another executive named Ellen Hancock, who was the CTO. They were both looking together at a new
+[37:05] operating system. How can we stop this silly, crashing operating system, this beach ball of death,
+[37:12] nothing works? How can we upgrade this? The only way that we can do it is by acquiring another
+[37:17] company. They only had a number of months until bankruptcy. Apple was going to go bankrupt eventually.
+[37:25] It was hemorrhaging cash, and so they had to do something quickly and they had to acquire an
+[37:31] operating system. Let me tell you about the best new product that I've used in the past five years.
+[37:37] It's the MATIC vacuum. This thing vacuums, it mops. MATIC does everything. Other robots bump into things,
+[37:44] but the MATIC sees things. It actually avoids the problems and the MATIC automatically adjusts
+[37:50] between my carpeted surfaces and my hardwood floors. It's also super easy to schedule. I have it run
+[37:57] every night while I'm in bed and every morning I wake up to clean floors. Messes happen and when
+[38:02] they do, MATIC rolls into action. Go to MATICRobots.com today and put MATIC to work for you.
+[38:12] Ever hit 3PM and feel like your brain just quit? For a lot of people, that's not caffeine or sleep.
+[38:19] It's electrolytes and water alone won't fix it. That's why I drink element every day after lunch.
+[38:26] Zero sugar, no dodging ingredients, just a real dose of sodium, potassium, and magnesium.
+[38:33] I know you're all thinking electrolytes are for athletes, but you don't have to be an athlete
+[38:37] to benefit from it. It tastes great. Stay sharp in the afternoon and grab a free
+[38:43] eight-count sample pack with any purchase at drinkelement.com slash tkp. That's drink l-m-n-t dot
+[38:51] com slash tkp. So Apple looks to buy the competitor, basically the next step, which is
+[39:01] B-O-S. And that is run by none other than the greatest rival to Steve Jobs, Jean-Louis Gasset,
+[39:11] the same man who taddled on him about trying to oust the CEO and got him pushed out of Apple in the
+[39:19] end. This is a moment of revenge for Steve if he can find a way to get his OS back into Apple.
+[39:27] Apple wasn't really looking at at next computer. Nobody was really taking it that seriously.
+[39:32] There was an employee, a manager named Garrett Rice, who was a middle of the line manager at
+[39:39] next. He and his friends were watching all of this happen, and they knew that their technology
+[39:43] was superior. And they were just so annoyed because they had spent years and years and years,
+[39:49] all those long nights creating this beautiful operating system. And meanwhile,
+[39:54] Apple goes over to Gasset's company, B-O-S, and they say, hey, we want to acquire you guys,
+[40:00] but they knew that next technology was so much better. So Garrett picks up the phone just randomly
+[40:07] and says, okay, I'm going to call Apple and just see what happens. He calls an executive,
+[40:12] and remember this is a middle manager. He gives him a pitch. He says, you've got to look at this
+[40:19] because this is cutting edge. The executive calls back and says, I'm leaving Apple, but you should
+[40:23] talk to our chief technology officer, Ellen Hancock. Here's her number. He calls her, leaves
+[40:29] the voicemail, and to his surprise, she calls back and she says, okay, we want to take a look at this,
+[40:36] this next step, O-S. And from there, that's where the story just turns around.
+[40:42] And so Apple ends up buying next step. Does he go back and become CEO? What happens?
+[40:50] It's not that simple. It's a winding road back. Steve actually did not want to return to Apple.
+[40:54] Apple came to him. They said, we want your operating system. We think that this is going to be
+[40:59] a major acquisition. And Steve was thinking, well, I just want to stick with Pixar because I really
+[41:05] loved Toy Story. The IPO was great. Steve agreed, finally, I will return to Apple, but only as a part
+[41:13] time advisor. And he said, I don't want a fancy title. I don't want a fancy office. I'm just going
+[41:21] to be an advisor. I'll go around Apple. I'll meet with engineers. I'll give them feedback. But I'm
+[41:25] not going to lead the company. If I decide I don't like this, I'm going to ditch Apple. I'm just
+[41:30] going to go back to Pixar. When Steve returned, they wanted to set up a ceremony for him. He would
+[41:39] arrive in a helicopter. And the Apple employees would all hold up little digital candles to recognize
+[41:47] the return of their great St. Steve Jobs to this college. The Apple employees, from their perspective,
+[41:53] it's like our hero is coming back to save us. Yes. They didn't know at the time that he was
+[41:58] reluctant and unsure. So Steve comes back and he just sees disaster. It's a disaster zone. He
+[42:06] talked about this. Just nothing worked at Apple. I mean, literally you would try to get anything
+[42:10] done and it would just get killed by bureaucracy, infighting, competition. Steve quickly realized
+[42:16] that he had to put his people in Apple. Even if Steve was not the CEO, he wanted his hardware
+[42:22] and his software chief at next computer to run hardware and software at Apple. Because those
+[42:28] are the only two people who could turn around the company. And so his people, John Rubenstein,
+[42:34] Avi Tavanean, two legends in the story of Apple. Steve put them in power and finally,
+[42:40] they were able to make good decisions. So how does he get sucked in to running it?
+[42:45] He was so reluctant. At one point, he sold almost all of his Apple shares out of frustration with
+[42:51] leadership there. And a guy who wants to return and take over the company doesn't sell all of his
+[42:56] shares. And he even said later, he said, the reason I did it is because I was just, I was in a fit of
+[43:01] depression. I didn't like Apple, what was happening here. So he cashed out. He said, goodbye. And
+[43:07] he was thinking of going back to Pixar. Interestingly, the one person who tried to pull him back in
+[43:14] was Larry Ellison, a guy in the news a lot now. Larry Ellison was Steve's best friend in the sense
+[43:22] that Steve, Steve didn't have a lot of friends, but this was one of the few people that you could call
+[43:27] a friend of Steve's. The pair were kind of similar in a lot of ways, strong personalities,
+[43:33] force of will. And Larry wanted to set up a hostile takeover of Apple. He thought it would be such a
+[43:40] thrilling experience, just a thrill to be able to go into Apple and force a board vote and get the
+[43:48] shareholders behind you and just take over Apple from the current CEO and save it. That was his
+[43:53] vision. But Steve differed from that because Steve, when he was younger, would have gone along with
+[44:00] that, would have said, yeah, of course, Apple's mind, I'm going to go back and fire the CEO and
+[44:04] put myself in a CEO. But the older Steve realized that the hostile strategy was not going to work
+[44:14] because he was entering unfriendly ground. He was no longer going to be the Saints of Apple.
+[44:21] The angelic halo was going to disappear. And people were going to question him and say,
+[44:26] well, why is Steve Jobs partaking in a hostile takeover of a company he co-founded? Steve decided
+[44:32] that he wanted to be welcomed back if he was going to return. And he did. He wanted to be wanted.
+[44:38] He wanted to be wanted. He wanted to be seen. He wanted people to see his vision and his products.
+[44:45] He did not want to go in there anymore and pointlessly yell at people. And don't get me wrong,
+[44:50] he was still difficult. But having been through this crucible of next computer,
+[44:56] he realized that you do have to step back and you have to let events unfold as they need to,
+[45:02] rather than you trying to seize control at every moment. He's still difficult to work with,
+[45:07] but why do so many talented people stay with him? He brought the best out of them. And they
+[45:13] all said that they said working for him was the hardest experience of my life.
+[45:20] But it was also the most beautiful. They said, yeah, I had hard nights. I cried. I suffered.
+[45:28] I didn't see my family for days. Sometimes I was at the office sleeping on the sofa,
+[45:33] but they said, yeah, it was the hardest time of my life. But Steve was special because he could
+[45:40] reach into my soul and he could bring the best out of me. He looked at me. He looked through me,
+[45:47] they would say, and he would reach right in and give me the level of creativity that I wanted that
+[45:54] I didn't realize I had inside me. I think that's fascinating because I just think about this, right?
+[46:00] It's like a lot. He is a reputation externally for being really tough on people.
+[46:06] And then internally, he was really tough on people, but they stayed. I've been trying to think
+[46:13] about this in my head. And one of the ways that I've framed this is that he had standards for himself
+[46:21] and other people that they couldn't see. And because they couldn't see these standards,
+[46:27] they were higher than they knew they were capable of. But by pushing people towards higher standards,
+[46:33] he got the best out of them. Right. Steve had high standards for himself
+[46:40] in the sense that he saw himself as somebody who was going to shape the future of the world.
+[46:47] He was going to shape the arc of history. He always had these grandiose expectations.
+[46:53] But at next, what he learned was how to bring good expectations to the people around him,
+[46:59] to lift them up rather than tear them down. Once he transitioned to that stage and realized
+[47:04] that lifting others up, people who do great work, once you bring them into that pressure cooker of
+[47:09] talent, you bring them in, you put them in a room together, you force them to defend their ideas,
+[47:15] and you acknowledge them when they do great work. There's a famous interview that just resurfaced
+[47:23] recently. And it shows Steve reflecting, it's the year 1996, after all this drama at Next in Pixar,
+[47:29] he's finally coming out of the wilderness. And he's reflecting and he's saying,
+[47:35] you know, something interesting happens when you're the CEO leading great people, when you have talent
+[47:42] around. The pyramid gets inverted. You're no longer the boss up top telling people what to do.
+[47:51] You're the CEO at the bottom, and your job is to allow your talent to do their best and to keep them
+[47:59] around because your talent, they can get another job in a minute. So you better do what you can to
+[48:05] keep them around or else you're going to fail. So if you had to summarize the lessons he learned,
+[48:11] what are the key lessons that he learned through this period at Next? The first is trusting your people.
+[48:20] The second is the importance of bending your vision, knowing when to stick to your guns,
+[48:29] and knowing when you need to back off, and you need to work with the world around you. Steve
+[48:36] originally thought that a great idea was what mattered. If you build the great computer, the world will
+[48:43] find it and they will buy it and you will be a success. But that's not how the world works.
+[48:49] He realized that you need to work with your rivals sometimes. He called Microsoft, Bill Gates,
+[48:55] the arch enemy. This is like the first thing he did when he returned to Apple as CEO,
+[49:00] signed a deal with them. They were going to produce Word for Apple and they were going to invest
+[49:05] $150 million to save Apple. The younger Steve would have never done that because that would have
+[49:10] been a cardinal sin against the holy church of Apple. I mean, the Apple fans already saw it as
+[49:16] controversial. That saved Apple. That $150 million. It was the injection that kept them afloat and
+[49:22] it saved them. If that had not happened, they would have run out of money. This is Steve,
+[49:26] the pragmatist. This is Steve who's learned through repeat failures that you have to work with people.
+[49:33] Even if you disagree with them, even if you think their taste sucks and you think that their products
+[49:40] are terrible, if they have a pot of money and they can help you, you have to do the handshake.
+[49:46] You have to find a way out because he learned that to achieve his hardware software unity,
+[49:53] to achieve that total control, you have to build scale first. How do you build scale?
+[50:00] You make deals with people. You get investors. You get distributors. But you have to make concessions.
+[50:05] You can't do everything exactly as you start out planning to.
+[50:08] Talk to me about the Gates jobs rivalry and what you learned about that and any cool stories you heard.
+[50:14] That was a lot of fun covering the Bill Gates, Steve Jobs,
+[50:19] frenemy relationship. These two guys, they would take a crap on each other at any chance they could.
+[50:24] They would get out in public and they would insult each other's ideas and say,
+[50:29] this is stupid. What was the disagreement that they were having? One of them, Bill Gates
+[50:35] believed that software should fundamentally be flexible and available to everybody. It should
+[50:42] be on every computer regardless of the hardware. That's what Windows was. Windows was the operating
+[50:48] system that loaded on almost every PC in the world. That's why Bill Gates was so successful.
+[50:52] But Steve Jobs was the polar opposite in almost every way. He believed that beautiful technology
+[51:01] has to be within the world garden. You can make beautiful software, but it has to be on your
+[51:05] beautiful hardware too. This was a theme in this entire period. Steve and Bill sparring back and
+[51:14] forth over whose idea was better and who's going to win in the end. Interestingly, if you were sitting
+[51:20] around in 1995, this is the year that Windows 95 came out, major business success, you would have
+[51:28] thought that the open system makes more sense. Bill Gates and Microsoft are the future. But if
+[51:34] you're sitting around in 2026 and looking at all this, it looks more like the closed ecosystem,
+[51:41] the Apple ecosystem, is actually the success. Are there any fun moments in the Steve Jobs,
+[51:48] Bill Gates rivalry where they prank each other or poke each other intentionally that come to mind?
+[51:55] In 1988, Steve released the cube computer and this is Steve's big return. It's going to be his
+[52:02] moment where he's returning to that stage. It's been a few years since he was ousted from Apple.
+[52:08] And now finally, we get to see Steve Jobs, the Prince of Tech in the flesh again,
+[52:13] releasing this beautiful cube computer. What's the first thing that Bill Gates does? He goes
+[52:18] up in front of the press and he literally says, I'm not developing software for this. I'm going to
+[52:25] piss on it. And Bill Gates just goes on this tirade in public and says, Steve Jobs doesn't know
+[52:33] what he's doing. It's just a cube. It's painted black. He says, I could do that too. I could paint
+[52:38] my cubes black. Why is that a special thing? One of the things I found in my research,
+[52:44] it turns out this has never been published, but Bill Gates actually wrote an apology to Steve.
+[52:50] But it was sort of like a non-apology apology. I read the letter and it was really hilarious
+[52:55] because he's like, dear Steve, you saw the comments that I made in the media in which I called your
+[53:01] product stupid and silly. I just want to apologize for that, but I also want to let you know that
+[53:06] everything you've done is wrong here and all this tech is not going to work. And I think your
+[53:10] idea is stupid, but I'm sorry anyway. It must have taken a lot for Jobs to go to get
+[53:16] when he was turning around, when he was saving Apple. It took a lot and it was extremely
+[53:22] controversial even within Apple because for the Apple faithful to turn to their greatest villain,
+[53:30] Bill Gates, the man who is like the 1984 big brother to them. That's how they see him. It shows
+[53:38] you how far he'd grown. It shows you the new Steve. How do we go from the transition
+[53:45] between Steve's back? He's part-time. He's trying to stay out of things or not be involved. He's
+[53:50] selling his Apple stock to Steve running as interim CEO, which he never really quished until.
+[53:57] So the summer of 97 is a time of deep reflection for Steve because he doesn't want to be the CEO
+[54:04] yet. He still loves Pixar. His wife Lorraine has been opposed to him returning to Apple in the first
+[54:11] place. One of the things that executives told me at Apple this time is that one of them actually
+[54:17] said this phrase, Apple kills you. Apple, it's such a stressful place that you're going to grow old,
+[54:22] you're going to get sick, and you're going to die young. And an executive told me that's how
+[54:26] bad Apple was in 1997. Everybody around Steve doesn't think that he's going to become the CEO.
+[54:33] And finally, it was a phone call to Andy Grove, one of his very earliest mentors,
+[54:39] CEO of Intel, he calls him at an odd hour and just says, Andy, I want to talk. So we've been
+[54:47] interviewing these candidates, CEO of Apple. We don't really like any of them. And Andy Grove
+[54:53] has a reputation for being a straight shooter. And he literally told Steve, Steve, I don't give
+[55:00] a shit about Apple. And that was that. It hit Steve really hard. And Steve told this story later.
+[55:06] He said, that's what I realized that I do give a shit about Apple. He realized the contrast couldn't
+[55:13] be starker. He was jolted and he thought, well, wait, I do care. This is my love. This is my company.
+[55:19] And so he said, I will become the interim CEO. And that's what happens.
+[55:25] October 1997, Steve Jobs is appointed the interim CEO of Apple and returns to enormous fanfare.
+[55:34] And we all know how the story ends. And the rest is history. The rest is history.
+[56:04] The team that will do whatever it takes on game day, it matters where you stay Hilton for the same.
+[56:10] One of the first things he does when he takes over a CEO is kill
+[56:16] 70 of these 80 projects. Right. He killed 70% of Apple projects upon taking over as the interim CEO.
+[56:25] He wasn't even the full CEO yet. And Steve decided he wanted to be called the I CEO. This is the first
+[56:31] ever I mentioned in Apple, the predecessor to the iPod and the iPhone. And so Steve as the I CEO
+[56:40] decides we're killing 70% of projects that are just not working. He brings in his operating system from
+[56:47] next with its beautiful programming, the objects, the new technology, and he turns it into the
+[56:54] foundation for everything that comes after it becomes the software that's going to power Apple's
+[56:59] renaissance. It goes on to lead to the building of the iPhone, the iPad. It percolates throughout
+[57:07] Apple and it becomes the basis for anything that's made at Apple. You have to look at the next step
+[57:12] software to understand where Apple is today. Just recently, I asked one of the very senior Apple
+[57:18] software designers from the time who knew Steve, I asked him how many products today at Apple
+[57:27] really come from next. And he looked at me and looked like he thought it was a funny question.
+[57:34] And he said, all of them. That's crazy. One of the things that I don't think gets enough attention
+[57:41] with Steve is the role that Lorraine played in his life. Talk to me about that. Lorraine was the
+[57:48] woman who softened him. Steve, as a younger man, was always a bit aimless in his personal life.
+[57:56] He knew that he wanted a family that he wanted to settle down, but there was a hole in his soul
+[58:02] and he just couldn't find that. But Lorraine had a way with him. And everybody who was around
+[58:09] the couple during these years recounted that just how Steve, by giving birth to their son
+[58:16] together, read, by raising a family together and having that presence of Lorraine in his day-to-day
+[58:23] life, he became less of a professional robot, somebody who goes to work every day and somebody
+[58:29] who started to treasure simple family moments. He had a child before Lorraine. And treated her
+[58:37] horribly. When did that change? How did that change? Lisa was his first daughter and born with a
+[58:43] different woman, but Steve denied paternity and refused to help her take care of her,
+[58:49] even said at one point that she would be disinherited. But after they met Lorraine,
+[58:54] it was in the 1990s that she was brought back into the fold and they started to repair their
+[58:59] relationship. Lorraine clearly played an influence in that or was it the birth of read? It was both.
+[59:07] Lorraine created structure in his life, a structure outside of Apple. And I think that Steve,
+[59:14] as he got older, was able to not just be an Apple guy anymore, but was able to
+[59:20] descend through his life among family, among next, among Pixar. He had different parts of his
+[59:27] identity, so he wasn't going to suddenly crash if one part went wrong.
+[59:31] Let's switch gears a little bit and do more like rapid fire answers. Talk to me about the
+[59:37] shithead hero roller coaster. You were either a hero one day or a shithead
+[59:42] on another. Steve would walk into a room if he liked your idea. You were a hero, but the next day
+[59:47] he would change his mind and say you're a shithead because suddenly he doesn't like it.
+[59:51] How did he keep so many talented people working for him? He brought the best out of them. He
+[59:55] inspired them and he pushed them to their very limit. How did he make decisions? He told people
+[60:01] to talk back to him. Talk back and disagree with me and we'll find the answer through disagreement.
+[60:08] Did he ever apologize to people? Yes, interestingly. He would throw them on the
+[60:13] hero shithead roller coaster and then he would occasionally apologize a few days later for being
+[60:18] so nasty to them. Would he do it in public or would he do it in private? He would write them a letter.
+[60:23] Was he clear with apologies or did you see any of these letters or did they look like?
+[60:28] So those specific letters, I didn't see those, but people recounted them to me. Steve apologized
+[60:34] in writing and he would be specific about the apology, but he also expected the conversation
+[60:39] to be over. That was it. That was it. We're done. Did he have empathy for other people? Yes.
+[60:45] That surprises me. He learned empathy. He lined up top flight medical care for employees who were
+[60:54] suffering, but not himself, but not himself. He learned empathy for others, but he wouldn't
+[61:00] give empathy to himself. One thing that doesn't make sense to me there is it sounds like Steve
+[61:05] learned to learn from feedback and people around him during these time at next,
+[61:11] and yet when it came to his own medical treatment, he insisted on doing things his way, despite the
+[61:17] advice of doctors, friends, loved ones, family. How do you reconcile that? Steve didn't change
+[61:23] completely. He was still the same person at his core and he still had the reality distortion field,
+[61:28] but that's the mindset that goes behind his decision not to get treatment. He consulted a psychic
+[61:35] about his medical condition. He relied on holistic vegan foods to try to cure his cancer,
+[61:42] but that's not how it works, but that is classic Steve. Steve learned the power of inspiring the
+[61:47] people around him, but he never completely learned to be 100% honest with himself.
+[61:54] Reading your book, it struck me that he was naturally resilient, but he had to learn discipline.
+[61:59] That's exactly right. He was resilient in the face of failure after failure. Once he learned
+[62:07] discipline, his resilience became the foundation for his success. What can we learn from his resilience?
+[62:14] Like how do you teach people to be that resilient? Like he persisted, he was so determined.
+[62:20] If you're in hard times, you treat it as the foundation for what might come after. That's where
+[62:28] the resilience comes from. If you're only focused in the current moment, then it's easy to give up,
+[62:34] but failure could be the foundation for success later. What is success for you?
+[62:40] Success is waking up in the morning and having the family and the friends around you who
+[62:49] really make life great. It's walking into a coffee shop and being able to sit down and enjoy
+[62:58] yourself and enjoy the moment. Enjoy whatever it is that you're doing. Whether you're
+[63:03] writing a book or building a company or making a movie, it's being able to just sit down and
+[63:09] do that and to enjoy these moments as they come.

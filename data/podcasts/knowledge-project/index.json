@@ -3,9 +3,17 @@
  "traites": [
   "john-d-rockefeller-the-principles-behind-the-greatest-fortune-in-histo",
   "the-mindset-behind-building-billion-dollar-companies-brad-jacobs",
-  "roblox-ceo-how-to-make-better-decisions-by-fixing-yourself-first"
+  "roblox-ceo-how-to-make-better-decisions-by-fixing-yourself-first",
+  "what-12-years-of-failure-taught-steve-jobs-about-success"
  ],
  "episodes": [
+  {
+   "fiche": "what-12-years-of-failure-taught-steve-jobs-about-success.json",
+   "titre": "What 12 Years of Failure Taught Steve Jobs About Success",
+   "date": "Tue, 01 Sep 2026",
+   "date_iso": "2026-09-01",
+   "nb_outils": 1
+  },
   {
    "fiche": "roblox-ceo-how-to-make-better-decisions-by-fixing-yourself-first.json",
    "titre": "Roblox CEO: How to Make Better Decisions by Fixing Yourself First",
@@ -28,5 +36,5 @@
    "nb_outils": 0
   }
  ],
- "maj": "2026-08-30T19:52:53Z"
+ "maj": "2026-09-06T19:18:53Z"
 }

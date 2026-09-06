@@ -1,0 +1,548 @@
+Y Combinator Startup Podcast
+Paul Graham On Startups, Ambition, and Great Founders
+Sat, 05 Sep 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/Paul-Graham-On-Startups--Ambition--and-Great-Founders-e3obvrh
+
+[00:00] So we're here in Mountain View today with PG himself
+[00:03] at the original offices doing your talk
+[00:06] that you do for the YC Batch.
+[00:07] I looked it up.
+[00:08] This is actually the 47th YC Batch.
+[00:10] You know, I've been trying to calculate that number
+[00:12] and I wasn't sure exactly what it was.
+[00:14] No wonder I'm not too worried about this talk.
+[00:16] You know, I've done it that many times.
+[00:20] It changes a little bit.
+[00:21] Yes, it's the 21st year also of YC.
+[00:24] You know, the weird thing is I make the talk
+[00:26] from scratch every time.
+[00:27] Really?
+[00:28] I say the same things over and over,
+[00:30] but I always feel like I should like,
+[00:33] I think, oh my God, you know,
+[00:34] you'd think a couple hours beforehand.
+[00:36] Oops, I better, I'm just talking to YC.
+[00:37] I better think in advance a little bit about what to say.
+[00:40] And so I open up a text file and start typing things.
+[00:42] And that's how it always is.
+[00:43] Any tidbits from today that are new from winter?
+[00:47] No, most of the things.
+[00:48] Most of starting a startup here,
+[00:49] this is an actually interesting point.
+[00:51] Most of starting a startup is the same.
+[00:53] And most of starting a startup is always the same, right?
+[00:56] In, you know, microprocessors or AI
+[00:58] or like in the internal combustion engine,
+[01:01] it's always the same stuff.
+[01:03] Good, well, in that case, let's run through some questions.
+[01:06] Okay.
+[01:07] So you recently posted that the startups YC funds now
+[01:10] are much more serious than they were
+[01:12] in the supposedly good old days.
+[01:13] Yeah.
+[01:14] What did you mean by that?
+[01:15] Well, what I meant by supposedly good old days,
+[01:17] people are always saying that YC has jumped the shark,
+[01:20] you know?
+[01:21] And like, I remember when people started saying this,
+[01:23] which is in about like 2008, right?
+[01:26] YC is always this thing that was great,
+[01:28] but now it's not what it was, right?
+[01:30] Cause they can't say it was always terrible.
+[01:32] They have to admit it was once great.
+[01:33] So if they want to attack it, they have to say,
+[01:35] it's fallen, right?
+[01:36] It was good, but now it's not.
+[01:38] It's always been, it's always not good anymore.
+[01:43] And so that's what I meant by the supposedly good old days
+[01:45] because the old days are what people claim used to be good.
+[01:48] But like in the old days,
+[01:50] there was a lot of things like Reddit, right?
+[01:53] Which valuable as it is,
+[01:55] is not exactly intercontinental ballistic cargo, right?
+[02:00] Which I did office hours with recently.
+[02:02] How about that for an idea?
+[02:04] Like it's like an ICBM,
+[02:05] except instead of exploding, it lands.
+[02:08] Same vision.
+[02:09] And drop stuff off.
+[02:09] Yeah, that's serious, right?
+[02:12] You don't get much more serious
+[02:13] than an intercontinental ballistic cargo.
+[02:16] Yeah.
+[02:16] What were some of the other serious ones?
+[02:19] Well, curing cancer.
+[02:21] There's a startup in this batch.
+[02:22] I mean, and there's all sorts of different approaches
+[02:24] to curing cancer.
+[02:25] And I say, fund many of them
+[02:27] because like anyone working would be good.
+[02:30] So like one way to approach curing cancer is vaccines.
+[02:34] That's one end, right?
+[02:36] The opposite end is therapies, right?
+[02:38] And so there's a startup in this batch
+[02:40] that is basically doing on demand research
+[02:47] for people with cancer, you know?
+[02:51] And what I like about it is
+[02:53] they're sort of inflicting on cancer
+[02:55] the death of 1,000 cuts,
+[02:56] which may be the way to defeat it.
+[02:59] Because you know, it's notoriously,
+[03:01] it's notoriously not the sort of thing
+[03:03] where you just like come up with a cure for cancer.
+[03:05] I mean, maybe you do if these vaccines work.
+[03:07] Maybe you do, right?
+[03:09] But maybe or maybe the way you fight it
+[03:11] is the death of 1,000 cuts.
+[03:12] And they're actually really interesting
+[03:14] because they helped another YC.
+[03:15] Yeah, right.
+[03:17] It's part of the whole YC community.
+[03:20] They helped Sid from GitLab deal with his cancer,
+[03:23] which he has done very successfully.
+[03:25] I mean, he approached it like a startup, right?
+[03:28] And these were essentially his co-founders
+[03:30] in that de facto startup.
+[03:31] And it's funny because I remember thinking after that,
+[03:34] you know, I'm all, I always have this process going
+[03:37] of what would be a good startup idea, right?
+[03:39] And I remember after that saying,
+[03:40] you know, somebody should start a startup
+[03:41] to do for everyone what Sid did for himself.
+[03:44] And now, not only is this startup happening,
+[03:47] it's the people who actually did it for Sid.
+[03:49] So it couldn't be better.
+[03:49] I was so delighted when I realized that one was happening.
+[03:52] Yeah, and I think his essay that I went
+[03:53] found her mode on my cancer.
+[03:55] Yeah, that's a very good way of describing what he did.
+[03:58] Yeah, using another YC term to attack his cancer.
+[04:03] So along that vein, I was rereading the essay you wrote
+[04:05] in 2012 where you coined the term frighteningly ambitious.
+[04:09] Frighteningly ambitious ideas.
+[04:11] A lot of those ideas have actually gotten done since then.
+[04:14] Well, like which ones?
+[04:15] Well, a new Google, that was one of them, right?
+[04:18] And it turns out, look, I sort of predicted this, right,
+[04:23] that the way you make a new Google is not
+[04:26] by attacking them head on.
+[04:28] You have to wait for things to change so much
+[04:31] that their model is obsolete, and that's when you can do it.
+[04:35] And that's what OpenAI is, right?
+[04:37] Like I realized very early on, like after using OpenAI,
+[04:40] like, whoa, I don't use Google anymore.
+[04:42] I don't use searches.
+[04:43] What I really wanted from searches was not web pages.
+[04:46] I wanted information.
+[04:47] Why not just ask the AI for the information, right?
+[04:49] And I'm sure everyone's now had this experience.
+[04:52] And it was incubated at YC.
+[04:54] Yeah, yeah, yeah, yeah.
+[04:56] One of Sam's many side projects.
+[04:59] Yes.
+[05:00] And so along the same vein, around ambitious as a term.
+[05:03] I am curious when you figure it out
+[05:05] why a founder needs to be not just unusually talented
+[05:09] and technical ability or something else,
+[05:11] but they actually have to be really ambitious as well.
+[05:13] When did I figure out that founders
+[05:15] have to be really ambitious?
+[05:17] I think I already knew that before we started YC,
+[05:20] because when we started YC, we already
+[05:22] had all this experience of doing a startup ourselves, right?
+[05:25] And so we knew that it was grueling.
+[05:30] And you need something to drive you
+[05:33] through all those obstacles.
+[05:34] And honestly, being dutiful is not enough.
+[05:38] The obstacles are too fearsome for mere dutifulness to do it.
+[05:43] So there's got to be something driving you,
+[05:45] and you call it ambition.
+[05:47] And part of ambition, I assume, is wanting
+[05:50] to be a billionaire someday.
+[05:51] You'd be surprised, actually.
+[05:53] Tell me more.
+[05:54] You know what actually motivates founders day to day?
+[05:57] The fear of failure.
+[05:58] Even though they're doing this thing that if they succeed,
+[06:01] they'll be super rich.
+[06:03] That does motivate them, but the thing that motivates them
+[06:08] at any given moment is the fear of disaster
+[06:13] looking like a fool, the server crashing, right?
+[06:15] Like if you're running some online service
+[06:18] and your server's crashing, you're not thinking,
+[06:20] I got to deal with this because if I deal with it
+[06:23] I'll become a billionaire.
+[06:24] You're thinking, oh no, the server's crashing.
+[06:27] It will be a disaster.
+[06:28] You know, the engine of my model train set
+[06:31] is falling off the edge of the table.
+[06:33] I need to go and save it, right?
+[06:35] That's what you're thinking at any given time.
+[06:37] You just don't want your model train set to break.
+[06:40] You put your head down and work on the model train set
+[06:43] for 10 years and then you lift your head up and like,
+[06:45] holy shit, like if I add up the value of all my shares
+[06:49] at the current, the last round valuation,
+[06:50] I'm a billionaire.
+[06:52] But it takes people by surprise when it happens.
+[06:54] Yeah, that's great.
+[06:55] Sometimes I'm the first to tell them.
+[06:57] Like I do the math, I'm like, wait,
+[06:58] according to your last round, you're in a billionaire
+[07:00] and like, oh yeah, I am.
+[07:02] That's the way we want it.
+[07:04] And I'm curious, can you tell me a story about a founder
+[07:06] where when they started by C, they were maybe not ambitious
+[07:08] enough, and then they became very ambitious
+[07:11] during the batch.
+[07:12] Those stories are rare because most of this quality
+[07:17] is inboard.
+[07:18] And so like, Sam Altman famously was extremely formidable,
+[07:24] the first time I met him before we even accepted him.
+[07:27] And that's more the rule than the exception.
+[07:30] So the one case where you see founders,
+[07:33] it's not that they lack ambition.
+[07:35] It's more like they've been trained not to show it.
+[07:38] Because when you're young, you're often in situations
+[07:40] where you're supposed to be obedient.
+[07:42] You're not supposed to like go off and do what you want.
+[07:45] You're supposed to do what people tell you.
+[07:46] Maybe you have pushy parents who tell you
+[07:50] to do what they want, right?
+[07:52] And so you've never let yourself go.
+[07:55] That's the one case.
+[07:56] But even then I would argue that the person was ambitious.
+[07:59] They'd just been trained not to show it.
+[08:01] Yeah, actually that's a good point
+[08:03] because I think nowadays a lot of people
+[08:04] think about startups like another badge
+[08:06] that they should collect along the resume.
+[08:11] And only if it fails, if it works,
+[08:13] it's like your life's work.
+[08:15] You don't have any more badges, right?
+[08:17] And so what kind of badge is a failed startup?
+[08:20] Not much of a badge.
+[08:21] I think if people think that, they're not thinking it through.
+[08:24] Like honestly, we would get, it was quite early on in YC's history
+[08:28] when people started applying to YC for the prestige, right?
+[08:34] Like they would apply to Harvard, hoping they would get in.
+[08:36] But the thing is, if you apply to Harvard and get in,
+[08:39] you should do it because no matter how stupid you are,
+[08:42] there's easy majors you can choose and sort of slide through.
+[08:44] You'll get a Harvard degree and everybody
+[08:46] will be impressed with you.
+[08:47] With startups, there's no easy majors, right?
+[08:50] It's like applying to Harvard and being
+[08:52] forced to study theoretical physics.
+[08:55] It's really rough if you're not very hard working
+[08:59] and clever and determined.
+[09:01] And so these people trying to do YC is a credential,
+[09:06] they had no idea what they were asking for.
+[09:08] They didn't realize, like, this is not, this
+[09:11] is a really, really unsuitable credential.
+[09:13] There are many easier ways to get credentials.
+[09:15] Yeah, if you want to seem cool, like starting a startup
+[09:19] is just about the least efficient way to do it.
+[09:22] It's brutally hard.
+[09:24] And you won't seem cool for years of years of brutal hardness
+[09:27] before anyone will think you're cool.
+[09:29] 100%.
+[09:29] When you were describing some of the founders
+[09:31] before you used the word formidable,
+[09:33] can you tell us a little bit more about how that word came
+[09:36] to be, what it means to you as well?
+[09:38] Well, a lot of the language of Y Combinator
+[09:42] is my and Jessica's private language, right?
+[09:45] And so we already had this word before we started YC,
+[09:49] like for a certain kind of person.
+[09:51] And I described it in an essay.
+[09:53] I said, I think that it's someone who gets what they want.
+[09:57] So that's the test, right?
+[09:59] Do you get what you want?
+[10:00] Because how formidable are you if you don't get what you want?
+[10:04] So it's someone who gets what they want in any situation.
+[10:08] And so if you invest in them and you have stock in their company
+[10:12] and they have stock in this company, your interests are aligned,
+[10:14] if they get what they want, you get what you want.
+[10:16] So that's why investors want people who are formidable.
+[10:19] Pretty good.
+[10:20] Yeah, because they get a part of what the founder gets.
+[10:23] So changing tracks a little bit.
+[10:25] At startup school, Patrick Collison
+[10:27] recently said that lean startups may be dead.
+[10:31] Did he?
+[10:31] And part of that is because he says,
+[10:34] it's really easy to raise money these days.
+[10:36] AI lets you work on many things in parallel.
+[10:39] You could spin out a bunch of agents
+[10:41] and work on a bunch of things.
+[10:43] Do you agree with him or would you have a rebuttal?
+[10:46] I've never really been clear what a lean startup is.
+[10:50] I mean, we already had a kind of startup
+[10:52] that we funded in YC.
+[10:53] And maybe it has a lot of overlap
+[10:55] with what was described in this book, The Lean Startup.
+[10:57] But I haven't actually read it.
+[10:59] And so I mean, why would I, right?
+[11:02] Tolkien didn't read all those other fantasy books people wrote.
+[11:06] And so I don't exactly know what a lean startup is.
+[11:09] But if you tell me what qualities you might think
+[11:11] might be obsolete, maybe I could answer that.
+[11:13] Let's say starting with just a little bit of money
+[11:16] on a very focused area.
+[11:18] You mean it might be dead starting
+[11:19] with a little bit of money?
+[11:22] I don't think so.
+[11:22] I think there's a lot of things.
+[11:23] You can do for cheap.
+[11:24] I mean, tokens are very expensive at the moment.
+[11:27] But that's just because there's a shortage of GPUs.
+[11:30] Token prices will certainly inference prices
+[11:34] at any given level of inference go down dramatically,
+[11:38] like 30X a year or something like that.
+[11:40] So even token prices are somewhat misleading
+[11:42] because they're getting higher quality tokens over time.
+[11:45] So I think no, everything technology always gets cheaper.
+[11:50] I don't think, I think you can still start up
+[11:52] on not much money.
+[11:53] Even if it's a rocket startup or any of these.
+[11:56] It's harder to start a rocket startup on no money.
+[11:59] But even a rocket startup, you can start on not much money
+[12:02] because what you do is you adjust for how much money you've got.
+[12:06] Like you can't build an actual rocket.
+[12:07] What you can build is you can build a design for a rocket
+[12:10] and show that to, and you can simulate it, right?
+[12:13] Or show it to experts.
+[12:15] If it's convincing enough, you can go to investors
+[12:17] and get a bit of money to do the next stage.
+[12:20] You're always able to raise another round, right?
+[12:24] So you just do what you can on the money you've got.
+[12:26] As long as you can get to some kind of milestone,
+[12:29] then you can convince investors to give you more.
+[12:31] Yeah, I think Philip from Star Cloud
+[12:33] was saying that they basically just wrote a white paper
+[12:36] and booked a launch and they raised the money for Star Cloud.
+[12:39] Yeah, nothing is convincing is booking a launch, right?
+[12:41] It's gotta happen if you booked a launch.
+[12:43] But he's a huge famous expert in the stuff he works on, right?
+[12:47] So he comes with automatic cred.
+[12:50] It's easier for him to do that
+[12:51] than some kid who just graduated from college.
+[12:54] So let's transition to talk a little bit about AI more broadly.
+[12:58] I'm curious what surprised you about AI.
+[13:01] Well, I was studying AI back in the 1980s,
+[13:06] a very different kind of AI that would never have worked.
+[13:09] I mean, it was a joke.
+[13:11] So I've been thinking about this a lot and I had a lot.
+[13:13] I spent a lot of time thinking about
+[13:15] what AI would eventually be like.
+[13:16] And the way we thought it was all gonna play out was,
+[13:19] you start out with like a perfect fly, right?
+[13:25] You know what?
+[13:25] It doesn't do much.
+[13:26] It's like a fly, like a fly's brain, right?
+[13:29] It can only do what a fly does,
+[13:30] but it does it as well as a fly, right?
+[13:32] And then you work your way up from flies to mice,
+[13:36] you know, to cats.
+[13:37] And eventually you get monkeys and humans, right?
+[13:40] But at every point, you're perfect.
+[13:43] You're doing what they do well.
+[13:44] And instead what we got was basically a full-on human,
+[13:49] but full of shit, right?
+[13:50] Like the first, the first AI's,
+[13:52] the first versions of chat GPT were like an undergrad
+[13:56] trying to bullshit his way through a paper.
+[13:58] Something plausible sounding, full human stuff.
+[14:01] Like not even this flies to a full human,
+[14:03] but like terrible, right?
+[14:05] And so instead of starting with perfect
+[14:08] and then working your way up to human,
+[14:09] you start with human and then work your way towards perfect.
+[14:12] So it's sort of the opposite quality ended up,
+[14:16] ended up being the one that got optimized.
+[14:18] That, nobody expected that.
+[14:20] Nobody expected when the first egg plausible AI turned out,
+[14:24] turned up, it would be like a bullshitting undergraduate, right?
+[14:27] Just a slot machine.
+[14:28] Yeah, and it's still, you can still,
+[14:30] has a lot of that flavor, doesn't it?
+[14:31] Yes.
+[14:32] I hear all these stories about how AI's solving
+[14:34] famous open problems in math,
+[14:36] and I can't even get it to answer questions
+[14:38] about when restaurants are open.
+[14:40] That's what's called the jagged frontier, yes.
+[14:43] Yeah, they must know things I don't know
+[14:45] or they have research versions.
+[14:47] Maybe they can find out when restaurants are open.
+[14:49] The other thing, you are famously very good
+[14:52] at taking complex topics and making them sound very simple.
+[14:56] So what is the official PG definition of AGI?
+[15:01] Oh, well, honestly, I mean,
+[15:04] could you do better than the Turing test?
+[15:05] The Turing, I think Turing was pretty good, right?
+[15:08] One of the reasons, one of the ways I knew
+[15:11] we were getting close to AGI was I actually had to go
+[15:14] and look up the definition of the Turing test.
+[15:17] That in itself is a piece of evidence.
+[15:18] Like what was the Turing test again?
+[15:20] Are we there already?
+[15:21] I think what's happened now is we thought back in the day
+[15:26] that AI would be sort of like this finish line
+[15:28] and AGI would be this finish line, we'd cross it,
+[15:30] it would be very clear.
+[15:32] But when you're standing on the finish line,
+[15:34] you realize it has width from back in the 1980s,
+[15:37] it looks like it's just a line going across the horizon.
+[15:40] But here you realize, okay, some bits of AI
+[15:42] are way across the finish line,
+[15:44] some bits are like maybe in the middle of it,
+[15:46] who knew the line had dimension?
+[15:48] The finish line is actually the sort of smear
+[15:50] and I think the best answer you can give
+[15:52] is like we're on the smear,
+[15:54] it turns out to be a smear and we're on it.
+[15:57] And that's why you can't get your restaurant times.
+[15:59] Yeah, cause they're in a bad part of the smear.
+[16:01] Whereas the rhyming hypothesis,
+[16:03] maybe we're already there.
+[16:04] Okay, changing back to talk about startups.
+[16:07] So the other thing you've said
+[16:09] is that the best predictor of success for a startup
+[16:12] is the pace that they ship new stuff.
+[16:14] Yeah.
+[16:15] AI, does that change?
+[16:16] Do you think there's a new metric?
+[16:18] No, no, there's, I mean, we have all this powerful AI tools
+[16:22] and there's still a lot of startups in this batch
+[16:24] that are not shipping fast enough.
+[16:26] And so obviously there's variation in shipping speed.
+[16:30] It's not just the rate at which you can breeze things,
+[16:32] you have to think of these ideas first, right?
+[16:34] Everyone always asks me like,
+[16:36] with all this AI is anything still the same.
+[16:39] And the answer is so far,
+[16:40] almost everything is exactly the same.
+[16:42] The only weird, the only weird new thing
+[16:44] is that companies have these giant AI bills.
+[16:47] It used to be startups big built, big cost with salaries.
+[16:52] That was all that mattered, salaries, right?
+[16:53] Everything else was cheap guy by comparison
+[16:55] because it was just laptops and people.
+[16:58] And now suddenly you got to pay for GPUs, you know?
+[17:01] Giant, giant.
+[17:03] I mean, tens of thousands of dollars a day in tokens.
+[17:05] I'm also curious, how does being in a batch
+[17:08] like YC give founders an advantage?
+[17:11] There's a bunch of reasons.
+[17:12] One is starting a startup is normally a very lonely business.
+[17:15] What, you know, you have all this upside,
+[17:18] you have complete control over what you're doing.
+[17:19] The downside is you don't have any colleagues.
+[17:22] And so this is like working in an office
+[17:25] with all these colleagues,
+[17:26] except you're all working on your own startups.
+[17:27] And there's that, you have colleagues.
+[17:29] You can also learn from what the other startups are doing
+[17:32] at the same time you are.
+[17:33] So you have some technical problem,
+[17:35] probably somebody in the batch had that problem.
+[17:36] You can just ask them how they solved it, right?
+[17:39] And another advantage is what we call the YC GDP,
+[17:43] which is you have some sort of product,
+[17:45] you can sell it to the startups in your batch,
+[17:48] almost no matter what it is, you can find some.
+[17:50] And they're the exact kind of users you want.
+[17:54] Early adopters, you decide quickly, right?
+[17:56] And they sort of have to at least listen to your pitch.
+[17:58] How did you come up with the idea for YC?
+[18:02] Gradually.
+[18:04] Initially the idea was just gonna be,
+[18:06] we didn't have the batch idea at first.
+[18:09] The part we had at first was to be an angel firm,
+[18:14] because at that point there were VC firms
+[18:16] who would do these giant late stage round.
+[18:18] And there were angel investors who were individual people
+[18:22] investing their own money, but there were no angel firms.
+[18:25] That was the original idea to be an angel firm,
+[18:28] like a VC firm, but invest small amounts of money earlier
+[18:31] and use standardized paperwork.
+[18:34] And then having decided that, we thought,
+[18:36] all right, we need to learn how to be investors
+[18:38] since we don't know how to be investors.
+[18:40] We'll just fund a whole bunch of startups all at once.
+[18:42] And so we thought to ourselves,
+[18:45] well, all these college students get summer jobs
+[18:48] working at Microsoft,
+[18:50] wouldn't they like to start startups instead?
+[18:51] We'll create this alternative to getting a summer job.
+[18:54] That's why the batch takes place during the summer.
+[18:57] It turns out to be the perfect length,
+[18:58] but that was just an accident.
+[19:00] And so we thought, well, fund a whole bunch of startups,
+[19:02] we'll replace summer jobs.
+[19:03] It'll be for current undergrads.
+[19:05] They won't mind if we're not real investors
+[19:08] because they're not real founders, right?
+[19:10] Just a bunch of college students.
+[19:12] And it turned out in the course of that,
+[19:13] we became real investors and they became real founders
+[19:16] very quickly.
+[19:17] And this batch thing was so great.
+[19:20] This thing that we just discovered by accident,
+[19:22] we thought, all right, we're gonna always do
+[19:24] investing that way.
+[19:25] How has YC changed or not changed since it's grown?
+[19:29] It's changed very little.
+[19:31] It's basically like the same thing, but more of it, you know?
+[19:36] Like the problems the startups have
+[19:38] are pretty much the same.
+[19:39] There's a lot more of them,
+[19:41] but they live in small groups
+[19:45] that are just like individual bits of YC.
+[19:48] So one of the things people saying,
+[19:50] when people say YC has jumped the shark,
+[19:52] one of the things they always say is,
+[19:53] oh, it's so big now.
+[19:55] Well, people used to say that back when we had 40 startups
+[19:58] in the batch, right?
+[19:59] They would say, oh, come on.
+[20:00] The old days are gone.
+[20:01] There's 40 startups in the batch, right?
+[20:03] People are always saying that.
+[20:04] And if you divide YC up into little bits
+[20:07] where each startup is part of a pot of 70 startups,
+[20:11] then it's just like they were back in 2012
+[20:14] when there were 70 startups.
+[20:15] Where do you think the next trillion dollar company
+[20:17] comes from?
+[20:18] What are the founders of it like?
+[20:20] The founders of it are formidable.
+[20:22] In fact, that is the answer to your question.
+[20:25] The answer to your question,
+[20:26] where the next giant company comes from,
+[20:29] is it comes from the right founders, right?
+[20:32] It's not some particular idea.
+[20:33] I mean, it probably is some idea rather than others.
+[20:36] It's probably not dog walking, right?
+[20:38] Maybe.
+[20:39] Who knows?
+[20:40] Maybe.
+[20:41] Maybe.
+[20:42] I mean, startup's ideas are very immutable,
+[20:42] but it comes from the next trillion dollar founders
+[20:46] is where it comes from.
+[20:47] And they probably have good ideas, right?
+[20:50] Whatever they're working on is probably promising.
+[20:52] Do you think the founders in the future
+[20:55] are gonna look very different from the ones in the past?
+[20:58] They're gonna be robots.
+[20:59] I hope not.
+[21:00] No, no, no, founders, they still,
+[21:03] I mean, we now have 20 years of data.
+[21:06] They still look exactly like they used to 20 years ago.
+[21:09] Why should they change 20 years from now?
+[21:11] Great.
+[21:12] Thank you so much.
+[21:13] Thank you.

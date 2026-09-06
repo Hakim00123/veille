@@ -1,0 +1,27 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Your AI Doctor Is Coming | Julie Yoo",
+ "date": "Sun, 06 Sep 2026",
+ "date_iso": "2026-09-06",
+ "lien": "https://a16z.simplecast.com/episodes/your-ai-doctor-is-coming-julie-yoo-YEmlPria",
+ "duree": "00:27:30",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 2.7,
+ "taille_transcript": 33937,
+ "transcript": "your-ai-doctor-is-coming-julie-yoo-transcript.txt",
+ "nb_outils": 3,
+ "outils": {
+  "AWS": [
+   "utility. And so you're seeing the advent of these new capabilities that literally were not possible, even just a few years ago. One of the things that just wasn't possible a few years ago that I wanted to bring up, there was this hackathon by Enthropic AI and AWS cloud. And it was called the rare disease real kid hackathon and they had $50,000 in prizes. And the way that they did it is they actually had a child, they uploaded the kids genome is and the clinical data, and they shared it with the community, of course, w"
+  ],
+  "Claude": [
+   "here individual physicians and frontline workers actually have agency and being able to use these tools in a much different way. So that's one part that's happening more on kind of the enterprise side. On the consumer side, you know, thank you, Chechi, BT and Claude. Like everybody is going to LLMs for health related questions, right? And they're pretty damn good, right? And they've gotten a lot better since the early days when they first came out, less hallucination, much more, you know, sort of actionable advice and re"
+  ],
+  "Stripe": [
+   " capacity much more efficiently. And so did that for an amazing nine years as co-founder and CPO. But it was again in sort of like the Stone Age of health tech. Yeah, more. This gets to sort of my current job today. Back then was imagine tech sort of like pre-stripe, pre all the sort of like API layer of how you build companies and stand up companies. That was effectively the situation in health tech back then. Very little venture capital also going into our space back then. And a lot of the conventional wisdom at the ti"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

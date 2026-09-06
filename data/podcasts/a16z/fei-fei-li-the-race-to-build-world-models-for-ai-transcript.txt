@@ -1,0 +1,753 @@
+The a16z Show
+Fei Fei Li: The Race to Build World Models For AI
+Fri, 04 Sep 2026
+https://a16z.simplecast.com/episodes/fei-fei-li-the-race-to-build-world-models-for-ai-tvIN7XfT
+
+[00:00] On the path to spatial intelligence, generating pixels that are truly spatially contextualized and grounded.
+[00:07] That is the very hard step that Atlas has taken.
+[00:10] You know LLM's are built on next token prediction.
+[00:12] We've seen video models as being built on next frame prediction. Atlas has really new view prediction.
+[00:16] This is the real place where AI can actually unlock a ton of value for people in their process.
+[00:21] We're saying like 50-100x reduction.
+[00:23] There's a famous shot in the first Matrix movie where Neo is falling down.
+[00:27] Exactly, they had hundreds of cameras viewing that angle on a green screen.
+[00:31] On Atlas we can do this with just three cameras.
+[00:33] No studio capture, no green screen, no expensive calibration.
+[00:36] No one has ever seen this result.
+[00:38] When you set out to do this, did you know it was going to work?
+[00:40] It was pretty sure.
+[00:41] Each time we made the model bigger, and each time we trained it for longer, it got significantly better.
+[00:45] Does that mean we're going to get 40 video?
+[00:47] Do I go walk around?
+[00:49] Language models are built around predicting the next token.
+[00:52] What happens when a model instead learns to predict the next view of the world?
+[00:56] In this episode, our team Casado sits down with world labs co-founders Feifei Li, Justin Johnson, and Ben Mildenhall
+[01:03] to discuss Atlas and the broader challenge of building AI that can reason about physical space.
+[01:10] They explain how Atlas combines generation and 3D reconstruction,
+[01:14] why the team chose new view prediction as it's underlying primitive,
+[01:18] and what they learned trying to scale an approach that hadn't been tested before.
+[01:22] They also get into what's still missing, including richer dynamics
+[01:25] and interaction, and how world models could eventually connect simulation with robotics and planning.
+[01:32] Underlying it all is a bigger hypothesis.
+[01:35] Could new view prediction play a similar role for spatial intelligence,
+[01:39] that next token prediction has played for language?
+[01:42] It's a big day yesterday, you launched a new frontier model, which has an amazing reception which is still coming in.
+[01:49] I think maybe a good way to structure this conversation, let's just talk about exactly what that was
+[01:53] and then we'll go back to history and work our way back up.
+[01:55] Maybe Justin, you want to talk about what was launched yesterday, why it's significant.
+[01:58] Yeah, so Atlas is our new next generation world model, but has three basic things that can generate,
+[02:02] reconstruct, and simulate the world.
+[02:04] So within that, there's a couple different major capabilities.
+[02:06] It has really good camera condition generation, so you can input an image
+[02:09] together with a camera trajectory and steer the model and have it generate video frames,
+[02:13] more than any perspective you want.
+[02:15] It's really good at sparse 3D reconstruction.
+[02:17] You can input one or multiple up to 100 frames that are views of the real world
+[02:21] and use those to reconstruct the real world, and that reconstruction
+[02:24] can take the case either of novel a video flying through the space
+[02:27] or an explicit 3D reconstruction of the space.
+[02:30] Then finally, it can be used for simulation.
+[02:32] And for this, we show off these awesome bullet time videos, which got a lot of attention online,
+[02:36] and then also robotic simulation.
+[02:37] What's up?
+[02:38] We've been bullet time video.
+[02:39] A bullet time video.
+[02:40] This comes from the Matrix.
+[02:41] There was a famous shot in the first Matrix movie where Neo was like, oh, I like that.
+[02:45] Oh, yeah, it's seen, yeah.
+[02:46] So and then remember in that famous shot, he's falling down, it's in slow motion
+[02:49] and the camera flies all the way around.
+[02:51] The way that they did that shot is they had a ring of hundreds of cameras.
+[02:54] So then he fell over in the studio.
+[02:56] They had hundreds of cameras viewing that angle on a green screen,
+[02:59] and then they used those hundreds and hundreds of cameras to make that famous shot in Matrix.
+[03:03] But now with Atlas, we can do this with as few as three cameras.
+[03:06] So no studio capture, no green screen, no expensive calibration.
+[03:09] We can literally stick three iPhones onto iPods, use these to take sort of a video of something happening,
+[03:14] like someone shooting a basket, someone dropping a strawberry into a bowl of milk.
+[03:18] And then from those three iPhone videos, we can then reframe the shot
+[03:21] and imagine like freeze time, have the camera fly in as the milk is splashing up
+[03:25] and get these amazing frozen time views.
+[03:27] And we can do this with just a couple cameras.
+[03:29] What is the simplest description of what Atlas does?
+[03:32] What goes in and what comes out?
+[03:34] Yeah.
+[03:35] So one of the really core principles of Atlas, the most fundamental thing is it does new view prediction.
+[03:39] And this is really fundamental primitive that we think is super exciting,
+[03:42] a super new primitive for base models that no one's ever done before.
+[03:46] Right?
+[03:47] So we know LLMs are built on next token prediction.
+[03:49] We've seen video models as being built on next frame prediction.
+[03:52] Atlas has really new view prediction, right?
+[03:54] That given some number of views at a scene or a description of a scene,
+[03:58] those go into what we call a spatial context that describes implicitly what is the world that we want to talk about.
+[04:03] Then you can point a virtual camera at an arbitrary point in space and time,
+[04:07] and Atlas will understand what that world is supposed to look like from that position in space and time.
+[04:12] Then the video models out there all claiming to be world models and all claiming to have novel views.
+[04:18] And can you maybe tease apart kind of more concretely how this is different from the myriad models that have come before?
+[04:25] Mm-hmm.
+[04:26] Yeah.
+[04:27] I think what Justin was saying about the spatial context aspect is super important here.
+[04:29] So there's many video models.
+[04:31] A lot of video models actually got their claim to fame from their single image input or their start to last frame interpolation.
+[04:36] Now we're starting to see models that can do this kind of omni-recognizing with 20, 30, 50 images.
+[04:41] But what's key with Atlas is that it actually has a kind of like spatially grounded meaning to every frame you put into it.
+[04:47] So it's not just an image that the model is going to interpret whatever way it wants,
+[04:51] or you can kind of try to argue with it in the text prompting and get it to do something specific.
+[04:55] With Atlas, every image actually has an associated three-dimensional camera pose,
+[04:59] and that means that you can perform this task of reconstruction with an extremely high degree of precision, right?
+[05:04] So if we had four views of this room, one at each corner, you can put those into the model
+[05:08] and then get an exact replication of everything you see in this room.
+[05:11] And it's not going to guess what's in the other corner, like the relationship between things.
+[05:15] It's just going to reproduce exactly what you give it.
+[05:18] And you can also do that in a kind of creative or imaginative sense too.
+[05:21] If you take two photos from different AI generations or real-world locations,
+[05:25] you can actually position and stage those to build these kind of intentionally directed fly-throughs
+[05:31] that are really governed by exactly the precise place that you put the content you want
+[05:35] and where the camera is going to look and travel, which is very different, I think,
+[05:39] than the kind of more slot machine effect you get of having to retry generations over and over
+[05:43] with just that kind of higher level of text control you get with video models.
+[05:47] Is this just kind of an obvious scaled-up version of a traditional video model,
+[05:53] or is it a new architecture?
+[05:55] I think it's a pretty new thing for a couple of different reasons.
+[05:58] One that we talk about is it does both generation and reconstruction jointly in the same model.
+[06:02] Like Ben was saying, this thing can take a couple of views of this room
+[06:05] and then reconstruct everything in this room exactly as you see it.
+[06:08] And historically, reconstruction has been its own field and computer vision
+[06:11] with its own specialized task, its own specialized models.
+[06:14] And generation is what all the text-to-video models are really good at,
+[06:17] like with all the big diffusion models we've seen in the last couple of years.
+[06:20] And those are great for creative applications.
+[06:22] I want to imagine something that's never been there before.
+[06:24] But now with Atlas for the first time,
+[06:26] we're putting these two different parts of visual intelligence together in one model.
+[06:30] So we can do both 3D reconstruction and generation together in one architecture.
+[06:35] So to do that, we had to make a couple changes.
+[06:37] One is we had to make it multi-modal from the start.
+[06:40] So this thing natively works on text, it works on images, it works on videos.
+[06:44] It also works on camera poses as a native input to the model,
+[06:47] which I don't think anyone's ever done it to pre-training phase before.
+[06:50] And it uses 3D as a native modality that it works on.
+[06:53] So this thing from the beginning was designed to be natively multi-modal
+[06:56] in a way that no one else I think.
+[06:57] Sorry, I don't know the space super well.
+[06:59] By 3D, is this like depth or models or like what does that mean?
+[07:04] Yeah, so the formulation we used so far is depth maps, right?
+[07:07] So right now when you have a frame that has a virtual camera
+[07:10] telling its position in 3D space, that camera position and camera parameters
+[07:14] are a native input to the model.
+[07:15] And then what attached to that camera position,
+[07:17] you can have both like RGB telling you what does that position and space look like
+[07:21] and you can have a depth map that tells you what is the spatial structure of that position in 3D space.
+[07:25] So then text, image, video, 3D cameras are these modalities
+[07:29] that this thing all does jointly in a multi-modal way.
+[07:32] I want to add something because I think what Justin just said is actually so important
+[07:38] and also what Ben said that it's underappreciated.
+[07:41] It's the first time we have a unification of pixel generation and pixel reconstruction.
+[07:48] In the world of computer vision, this field has been around for more than half a century.
+[07:53] City here, having been in this field for decades, I cannot tell you how many PhD thesis
+[07:59] have been written on the problem of reconstruction or novel view synthesis.
+[08:04] And also our field traditionally have multiple tracks.
+[08:10] You go to a computer vision conference, you have the pixel generation track,
+[08:14] you have some recognition track and you have 3D reconstruction track.
+[08:18] This is an elegant model that combines or unifies the problem of reconstruction and generation
+[08:25] by anchoring on viewpoints and the viewpoint estimation.
+[08:30] And that's just incredibly powerful.
+[08:33] Can we take a step back and then maybe you just fill something out?
+[08:35] So when you started the company, I remember you saying you want to tackle spatial intelligence.
+[08:41] And now we have this new model.
+[08:43] And so as a lay person, it feels very general to me.
+[08:46] You've got expert Turk prediction and this is next new view prediction.
+[08:49] New view prediction, right?
+[08:50] So you can get one viewer set of views and you get a new view.
+[08:53] Maybe you pencil out how this is a significant step to this general problem of spatial intelligence.
+[08:58] Maybe by starting to describe what spatial intelligence is.
+[09:02] Well, spatial intelligence eventually must enable us to both generate what the space is.
+[09:09] The reason within it and being able to edit and interact within it.
+[09:14] Now, we can argue is it 3D or 4D?
+[09:17] Ultimately, it's 4D with the time dimension.
+[09:19] But even just 3D, these are the fundamental tasks that one has to do or spatial intelligence has to enable.
+[09:26] And then we talk about with that, you can render, you can simulate and you can plan actions.
+[09:33] But to do that, a fundamental problem to solve is to understand the geometry and structure and the physics of the space.
+[09:41] And I do believe atlas is a significant step forward because now with every single frame,
+[09:49] you can generate an estimated important piece of information, which is the viewpoint, the camera pose.
+[09:55] And that is the most critical information one needs about the geometry of the space.
+[10:00] And that can lead to all the emergent behaviors we see in the downstream of the model, which we showed in the blog.
+[10:07] So, on the path to spatial intelligence, generating pixels is definitely an early step, which we have seen with what you call it, gazillions of models.
+[10:18] But generating pixels that are truly spatially contextualized and grounded is absolutely another major step.
+[10:26] And that is the very hard step that atlas has taken.
+[10:30] We definitely have, you know, we can just keep going here, right?
+[10:35] Like there is the fourth dimension of time, which will bring in dynamics and there is more higher fidelity, simulation and delineation of the space.
+[10:45] So, this is part of the roadmap of spatial intelligence.
+[10:50] Great, yeah. I mean, I definitely want to dig into like where this is going.
+[10:54] But first, maybe let's talk about getting here. How long has the world have been in existence?
+[11:01] Two and a half.
+[11:03] And so, you've actually released models before. So, why don't you just jump right to atlas?
+[11:08] It's so magic, right?
+[11:12] Just as team needs a lot of chips.
+[11:14] Yeah, I need a lot of GPUs to actually steal things.
+[11:18] So, last year, we released our marble world model.
+[11:21] And that was the first kind of big major world model that we put out.
+[11:24] That powers our current marble product. And marble is really cool.
+[11:27] Marble can take images, it can take videos, it can take text problems and use these to generate 3D worlds.
+[11:32] But one of the biggest differences between marble and atlas is exactly what is that output modality.
+[11:36] So, marble was really focused on Gaussian splats as an output representation.
+[11:40] So, whatever you're inputting, it's going to output a 3D world represented as a Gaussian splat.
+[11:44] And Gaussian splats are really useful, right? They're really nice. They're easy to render.
+[11:47] They can render efficiently on mobile devices, on VR devices.
+[11:51] They can interoperate with other, with game engines, with simulation engines.
+[11:55] There's a lot of nice things about Gaussian splats.
+[11:57] But, you know, I think that was kind of a bottleneck in the previous marble model.
+[12:01] So, what we did with atlas is redesign the thing a little bit.
+[12:04] And we realized that we need to bifurcate these modalities earlier
+[12:07] and actually have all these modalities working in a more unified way in the model.
+[12:12] So, now with atlas, the fundamental primitive is not like a good generate a Gaussian splat world.
+[12:17] The fundamental primitive is, as we said, new view prediction.
+[12:20] And that can generate RGB frames, that can generate 3D.
+[12:23] And we can use those to generate beautiful Gaussian splat worlds when you need them.
+[12:27] But we don't need to bottleneck our outputs through the Gaussian splats when we don't need to.
+[12:31] And that actually took a lot of blood, sweat, and tears to understand what are all the pros and cons of these different representations.
+[12:39] That's one part of it.
+[12:41] The other part is you've got to like climb the scaling ladder, right?
+[12:44] You've got to like work your way up and like do smaller experiments,
+[12:47] do smaller models, like to build your conviction on what's going to work and what's going to scale.
+[12:51] And there's, you know, if you could instantly know the right thing that's going to scale, you know, you should just do that.
+[12:56] But when we started the company left, the world was a very different place.
+[13:00] There was no scaling law of spatial intelligence.
+[13:03] Right.
+[13:04] So, like, when we started the company, like the world was in a very different place.
+[13:07] The tech was in a very different place.
+[13:08] We had a lot of ambitions about where we wanted it to go.
+[13:10] But it took a couple, it took a couple iterations for us to hit upon this formulation that we thought is actually like,
+[13:16] this is the one, this is the one that can scale up.
+[13:19] You know, Ben, you know, being the creator of NERF and doing a lot of 3D and reconstruction.
+[13:24] So, it's not so obvious to me that like if you have multiple views that you actually end up with a 3D thing,
+[13:29] but like you've kind of like made a career of ending up with a 3D thing.
+[13:32] So maybe talked a little bit about like kind of that step.
+[13:35] Yeah.
+[13:36] Yeah.
+[13:37] I mean, as you said, I've spent many, many years of my career as a vast majority of my career,
+[13:41] actually working on producing 3D things from images.
+[13:44] And this is actually something we talked a lot early on in the company, even if like,
+[13:48] is this going to be the approach that produces 3D, right?
+[13:50] Are we going to synthesize multiple views and then build 3 out of that?
+[13:53] Or are we going to try to go direct to 3D?
+[13:55] Like, there's been a lot of uncertainty in the field around like,
+[13:58] which of those approaches kind of will now or will kind of like reap the best advantages earlier on.
+[14:04] But I did have a lot of conviction just from seeing the kind of power of what I would almost
+[14:09] call the brute force scaling.
+[14:11] Scaling in a very, very, very small baby scale, not like real model scaling,
+[14:15] but the scaling of dense reconstruction that we had seen happening over the past 3 years before.
+[14:20] So basically, why is dense reconstruction?
+[14:23] Yeah.
+[14:24] Dense.
+[14:25] Yeah.
+[14:26] Dense.
+[14:27] Because I know we're going to talk about sparse and I want to make sure that people understand what is dense
+[14:30] and what is sparse.
+[14:31] This is actually, even on the kind of like,
+[14:33] distance and commercial side, I think been one of the challenges of productizing 3D reconstruction
+[14:39] technology, like at a fundamental level, right?
+[14:41] People kind of don't, in a casual sense, like you think I took three photos of this object,
+[14:48] or I took six photos of this room, like, I look at the photos, I can understand in my mind,
+[14:53] like how those pieces together, I can kind of fill in the gaps and get it.
+[14:56] But there's just never been really any kind of reconciliation between those like really data-driven
+[15:02] priors and then the kind of brute force dense reconstruction, which it actually is much more akin
+[15:07] to almost like scientific or medical imaging, what we did in dense reconstruction, right?
+[15:11] You basically have to say, every single thing I want to appear in this reconstruction,
+[15:14] I need at least three or four views of it.
+[15:17] And if you think about that, like, even just in this room, right?
+[15:19] There's like under the microphone, under the table, between every different crack and crevice
+[15:24] and the plant leaves, right, to actually truly get a picture that covers every one of those spots.
+[15:30] It's just like very tedious and exhaustive effort to walk around the room.
+[15:33] I think you've all seen me running around various places, like capturing them.
+[15:36] It takes, you know, for someone who's well-trained per se, like, it can take minutes,
+[15:41] but if you hand a casual consumer or even some kind of professional trying to do this for the first time,
+[15:47] an average cell phone camera or capture device, like, it's going to take them probably an hour.
+[15:52] I've seen someone for their first time trying to scan a multi-room environment,
+[15:55] spend, like, two hours walking through it and get enough coverage.
+[15:58] And that's just this, like, very, very exhaustive and tedious loop.
+[16:02] And so, yeah, when we say dense, we really mean dense.
+[16:04] It's like this room.
+[16:05] I mean, you've just been like, lots of this.
+[16:06] So many photos, right?
+[16:07] I want, like, hundred, two hundred, three hundred photos of this room to capture it.
+[16:10] And what we're trying to do is bring that down to, like, three, right?
+[16:13] Wow.
+[16:14] We're saying, like, 50, 100 extra reduction.
+[16:16] And then that's at that scale where it just completely, like, flips that calculus on its head
+[16:21] what type of captures you reconstruct.
+[16:23] You can go back to existing imagery you have.
+[16:25] You can go to stuff you find on the internet and even build scenes out of that.
+[16:28] You can go to casual videos and, like, kind of unnerse a lot of footage in the past.
+[16:32] We would never have treated as reconstructable and go back and, like, bring it to, like, this city, potentially.
+[16:37] This is something we've been playing around with a lot with Atlas, right?
+[16:40] Like, taking old clips, like, I've taken a bunch of my own old captures that never worked before
+[16:45] and then put them through the system and then kind of seen a reconstruction of the first time
+[16:49] taking my old captures and thrown away 95% of the photos I took.
+[16:53] And, you know, imagine angles that I never would have gotten from a traditional kind of, like,
+[16:57] nerf or splat type reconstruction.
+[16:59] One thing that's underappreciated on the website of the demos is the Stanford demo where Ben
+[17:06] showed anywhere between three to 25 images.
+[17:11] You can reconstruct that entire Stanford quad.
+[17:15] But the thing is, we had to show it from an aerial view.
+[17:19] But every single input image is been standing on the ground, taking a picture from the ground.
+[17:25] So everything you see are generated, but according to the laws of reconstruction.
+[17:31] And this is really magical.
+[17:33] And this is where, like, generation and reconstruction need to interplay in a really fundamental way
+[17:37] to solve this problem.
+[17:38] Because under the classic kind of reconstruction stuff that Ben was talking about,
+[17:42] like, the reason you need so many views is because I need, like, multiple images and I
+[17:46] need to triangulate this point in 3D space and see it from multiple viewpoints.
+[17:50] So that means, like, that's required in the traditional version.
+[17:54] And on the flip side, anything that wasn't captured in these views, like any pixel that was not
+[17:59] visible in one of the input views will be a whole in a 3D reconstruction.
+[18:02] Because fundamentally, like, if a thing wasn't visible in the input views, you know,
+[18:06] you need to imagine it to fill in the gaps.
+[18:08] And that's fundamentally a generative process.
+[18:10] So even in this room, even if we set Ben loose with a DSLR and, like, let him, like, capture,
+[18:14] like, hundreds of views of this room, even the world expert on doing these dense captures
+[18:18] is still gonna miss some spots.
+[18:20] Like, he's not gonna get, like, underneath all of the microphones or underneath all the tables
+[18:24] or, like, in between all the chair lights, you're always gonna miss something, no matter how many
+[18:27] views you get.
+[18:28] So that's where you need generation as another mechanism in the model.
+[18:32] Because you're never gonna get everything, so you need to have some generative capacity
+[18:36] for the model to imagine, oh, based on what I'm seeing, then, like, first triangulate what
+[18:42] I can see, but then fill in the gaps of the stuff that inevitably was not captured.
+[18:46] Yeah.
+[18:47] And there's something, like, super cool about this, that LLM's have really understood this
+[18:51] for a long time, right?
+[18:52] There was kind of almost these, like, context wars.
+[18:54] Like, the first couple of years, I was like, oh, we got to 128 to 256 to, like, five to, like,
+[18:57] we got a million, right?
+[18:58] And everyone kind of understands now at a pretty tangible level of value.
+[19:02] If, you know, you crank your context like the high when you're using your coding model.
+[19:05] It's a hard problem.
+[19:06] Like, everyone has a feel for that, but, like, no one has pushed that at all on the image and
+[19:10] video model side in the same kind of, like, principled way.
+[19:12] Like, no one's out there trying to, like, put a, like, an hour-long video through and do a needle
+[19:16] in the haystack retrieval of, like, a frame at the 37-minute mark.
+[19:20] Whereas with reconstruction and generation, you actually have the same exact thing.
+[19:23] Like, reconstruction is just, like, generation with a really long context and you put a lot
+[19:27] of stuff in it, right?
+[19:28] Like, that's the way to actually build this continuum where you kind of bridge between those two things.
+[19:32] And, like, Atlas, like, being able to, like, this is something we can never do with marble.
+[19:36] Marble had this kind of fundamental blocker of, like, you couldn't really jam more than, honestly,
+[19:40] like, a couple images in, but Atlas, I can go in, I can actually take, like, a 64-image capture
+[19:45] and do, like, a fly server of an entire house, and everything is grounded by being, you know,
+[19:50] seen or, like, almost seen or, like, slightly extrapolated from what's not there.
+[19:53] But you're just getting these, you know, I'm taking capture, as I did with 2,000 images
+[19:57] of a multi-room house and taking it down to, like, 30, 40 inputs.
+[20:00] And the fly's here, it looks, like, basically the same.
+[20:02] And this is just, like, totally inconceivable before.
+[20:04] And it's all enabled by building this gracefully scaling kind of context window
+[20:08] that you can dump stuff into.
+[20:09] And so the way to think about it is, like, the, the sparseness, or the pictures that you physically took,
+[20:16] and then Atlas as a model creates the rest of the views.
+[20:20] And then you use classic reconstruction techniques.
+[20:22] Is that roughly the way to think about it or?
+[20:24] In some sense, yeah, yeah.
+[20:25] I mean, that's the video of Atlas.
+[20:26] It's like, you can take however many inputs you have down to, like, a single view.
+[20:30] And then you can always use Atlas as this rendering engine to produce anything else you're wrong, right?
+[20:34] You can, you can navigate it in virtual camp.
+[20:36] Yeah, exactly.
+[20:37] You can just, you can say, like, okay, I have a picture here.
+[20:39] I want the picture there, there, there.
+[20:40] You can make a couple of those.
+[20:42] Then you can stage a dense fly through.
+[20:43] You can do this in sequence because it's an autoregressive model.
+[20:46] It's up to you, right, to kind of pick and choose what you add interactively into the context as you generate.
+[20:52] I mean, the thing that I just blows my mind is...
+[20:55] Listen, I just have a very simple mental model.
+[20:57] I have four pictures and then I've got to, like, have the model extrapolate between them.
+[21:03] And then it has to fit when you're in control.
+[21:05] Like, it's got to be 3D.
+[21:07] And I always think of these diffusion models as, like, being visually great, but not accurate.
+[21:13] And so, like...
+[21:15] And I don't even know if there's a question here, but, like, how is the room fit?
+[21:20] Like, how is it that it's 3D-consistent?
+[21:23] Is it just lots of data or...?
+[21:25] Yeah, I mean, partially it's a belief in the scaling hypothesis, right?
+[21:29] Like, you know...
+[21:30] It's fake.
+[21:31] By the way, but I have to ask, when you set out to do this, did you know how it was going to work?
+[21:35] I was pretty sure.
+[21:36] That's so...
+[21:37] I'm so sorry.
+[21:38] I'm so sorry.
+[21:39] What?
+[21:40] Were you sure?
+[21:41] I think three of us have total conviction about the skin in law.
+[21:46] That I think we do.
+[21:48] I do think the exact architecture choices and data mixtures is where the devils are in the details.
+[21:56] I, you know, have watched Justin and his team going from, we really don't know how long this is going to take,
+[22:04] to, oh, maybe sign of life to, wow, this is going to work.
+[22:10] So, no one has done it.
+[22:13] But I think the hypothesis, two hypothesis.
+[22:15] One is gaining law hypothesis.
+[22:17] The other one is next viewpoint prediction.
+[22:20] We had conviction of these two things.
+[22:23] So I think I was very convicted that it was going to work.
+[22:26] I was not sure it was going to work this well at this past, right?
+[22:29] Like, I thought there's a chance that we do this.
+[22:31] Maybe it's not clear that, like, the first cycle of pre-training, a new model with a new architecture and a new paradigm.
+[22:37] Like, the first cycle of that working is insane.
+[22:39] So I thought there was a chance in which we had to...
+[22:41] We might have had to do a couple more turns of that pre-training cycle
+[22:44] before we got to the level of quality we were.
+[22:46] So we wanted...
+[22:47] Are we kind of, like, at the end of, like, the scaling for this architectural approach we need another breakthrough?
+[22:53] Or is there...?
+[22:54] No, no. We're at the beginning.
+[22:55] Really? Yeah.
+[22:56] We're not changing the architecture.
+[22:57] We're basically at the beginning.
+[22:58] Yeah.
+[22:59] I think we're basically at the beginning and we're basically limited by compute at this point, right?
+[23:02] Like, data is very important as faith.
+[23:04] They like to point out, but, like, everything has a bottleneck,
+[23:06] and I think the main bottleneck on continuing to scale.
+[23:08] This thing is actually training compute, right?
+[23:10] Like, during development, we trained a sequence of models.
+[23:13] We read about this in the blog post a little bit, but we trained a couple of models,
+[23:16] like the first couple of rungs of the scaling ladder.
+[23:19] And each time we made the model bigger, and each time we trained it for longer,
+[23:23] each time we put it on more chips, like, it got significantly better.
+[23:26] And the model size that we...
+[23:28] Like, the model that we showed in the blog post is obviously the biggest and best one that we trained,
+[23:31] but the thing that was limiting it was not the scale or the data or anything like that.
+[23:35] It was literally, like, we had a deadline of when we wanted to release this thing,
+[23:38] and therefore we backed up what we could afford to train in our deadline.
+[23:41] But here's a little bit of an insider story, right?
+[23:44] Like Justin and Tim are training from the smaller, slightly bigger,
+[23:49] you know, having these roadmaps.
+[23:52] And then there was one day in summer, early summer,
+[23:56] that it's not even the current atlas model size.
+[24:00] It's a smaller model.
+[24:02] And then Ben, Justin, Ben, feed it into, you know, the viewpoint generation.
+[24:07] And remember that famous table, the garden table, for Nerf paper and many papers,
+[24:13] that overnight I got a slack.
+[24:16] I mean, we also, the slack from Ben, that hammer flew through under the table.
+[24:22] With the soccer ball?
+[24:23] Yes.
+[24:24] With the soccer ball?
+[24:25] Is it emergent or is that in the original?
+[24:27] It was real, right?
+[24:29] Okay.
+[24:30] That morning, the three of us looked at each other in the eyes and say,
+[24:34] that's it.
+[24:35] This is, we're going to build this.
+[24:37] Like we made a decision within five seconds.
+[24:40] This is just a, no one has ever seen this result.
+[24:44] Ben, can you talk through maybe more specifically the use cases?
+[24:49] So, so World Labs has historically had a lot of users that were creatives
+[24:54] and they use it for like consistency in, you know, like, whatever 2D images
+[24:58] and for movies and for 3D and for games, et cetera.
+[25:02] And so maybe can you talk about how this extensive use cases are located
+[25:05] in the existing ones and then we'll talk about robotics actually.
+[25:08] Yeah, sure.
+[25:09] Yeah.
+[25:10] I mean, it's kind of funny, actually one of the kind of main ways
+[25:13] we even saw people using Marvel plays exactly into this new view prediction case.
+[25:17] Like a lot of our Marvel being the previous product.
+[25:20] Like people would take that product, put an image in, get a full 3D scene as the Gaussian
+[25:25] spot, take a couple screenshots of it from different points of view and leave.
+[25:30] And we're like, we can just make this image that's definitely in general, right?
+[25:34] So I think like, you know, there's a lot of degradation there.
+[25:37] They're like, oh, this class could look better and it's like, okay,
+[25:39] what if we just generatively model those viewpoints with that exact mentality of control?
+[25:42] So I think like even that core capability of just like view synthesis,
+[25:47] it's sort of been this academic problem for a long time.
+[25:49] But in the sense of, oh, you're going to do this really tense capture,
+[25:52] like generative view synthesis is a relatively quite a new problem.
+[25:55] And we just see so many people who in this creative pipeline, right,
+[25:59] people have a multi-stage workflow, right?
+[26:01] I don't think there's a single person out there using one modelistic model,
+[26:04] not even see to answer whatever for their entire task.
+[26:07] People will have this like, you know, kind of a bunch of storyboards and moveboards
+[26:11] of images they pull out from like their favorite collection of image models.
+[26:14] And then they'll go to different video tools and like build those together as keyframes.
+[26:18] Then they'll go on like clip and edit those later, right?
+[26:20] So we were seeing this like sort of, you know, niche, but very specific use case for
+[26:24] marble is just providing that like sanity that you can ground your generations
+[26:28] in some kind of 3D consistent world, right?
+[26:30] People, you know, I thought was with various image models to ask them
+[26:35] to like give me different viewpoints of a room.
+[26:37] And every time you can just look and see, oh, those things kind of moved around,
+[26:39] like it's not stable.
+[26:40] And like even that one seat of a use case, I think kind of signals that there's this value
+[26:44] and there's hiding under the surface there, like there's just decades of people being used
+[26:49] to persistent 3D state, like virtually mauling what they would be doing in the real world
+[26:55] and having, you know, a stage and props and like elements there, whether it is for a movie
+[27:00] or a show or marketing show or like building out game environments.
+[27:03] Like this, this statefulness and persistence is so key in how people think
+[27:08] about spatial reasoning and like developing an environment over time.
+[27:11] Like people don't think in this ephemeral like generate a thing,
+[27:14] generate a thing like just throw it away and keep my text prompts.
+[27:16] Like people want to build this like collection of assets and like model a world in that way.
+[27:20] And so we're trying to provide like again with this spatial context mechanism
+[27:24] and other things like we're trying to provide that level of control and precision
+[27:28] and the ability to ingest different modalities of input starting with the post images,
+[27:33] but you know, we want to give people more control over the elements of the things in the scenes
+[27:37] they're looking at and editing and interaction and all that as we go forward.
+[27:40] And I think that that it unlocks like further use cases in those areas we're already seeing,
+[27:45] but also expanding out into kind of any place people want to create a virtual replication
+[27:51] or like, you know, a pre imagination of a real world space they need to build right for architecture
+[27:56] and construction. Like I talked to a guy at some point building booths for conferences, right?
+[28:00] There's just so many things in the world you don't think about need to be fabricated
+[28:03] and every single one of those basically goes through this like pretty painstaking virtual design phase.
+[28:08] And of that process, like the part where you go into 3D software is kind of one of the most like
+[28:14] arduous and like labor intensive parts right now, like taking feedback on a 3D design
+[28:20] from kind of like verbal commentary or sketches or really quick stuff you got from like a creative director
+[28:27] or like a design director or an architect or whatever, like mapping that back into the 3D representation
+[28:33] is like 95% of the work, right? You can have a meeting get feedback and then you go back and do a week of revisions.
+[28:38] And that's just because like our software is kind of decades old at this point
+[28:42] and it just never became as intuitive as, you know, playing with Legos or like pottery
+[28:46] or doing this stuff with your hands or sketching with a pencil.
+[28:49] And this is the real place where AI can actually unlock a ton of value for people in their process,
+[28:54] whether it's a creative application or something more industrial or design or whatever.
+[28:58] And that like really motivates me to kind of build different flavors of our model to caters, those kind of people.
+[29:05] Yeah, I can understand how it helps with the creatives because like Marvel did that
+[29:10] and also how that extends to things like design or architecture.
+[29:13] But they say you acquired a robotics company.
+[29:16] We just talked about it too much.
+[29:19] But it's less obvious to me, especially in the context of the Atlas, like how that maps to robotics.
+[29:24] So if you wouldn't mind just pedaling that out.
+[29:26] Yeah, actually Atlas is a key part of the puzzle.
+[29:29] So we acquired this company that was formerly known as Cenex.
+[29:35] And what is the key technology? Right now the key technology is a system
+[29:39] that goes from real to some and then some to real.
+[29:43] What does that mean in robotics situation?
+[29:46] You want to train a robotic arm to figure out how to do cabling, let's say, in an industrial setting.
+[29:55] Well, you need a whole bunch of data to first train a robotic policy to do these cables, cables, cabling activity.
+[30:04] And then you want to evaluate if the robotic policy is doing a good job.
+[30:09] And then you deploy the robot into the cabling environment.
+[30:13] In order to train what this company Cenex and our robotics team used to be doing is doing exactly what Bell was saying.
+[30:25] You take pictures of a situation and then try to reconstruct that environment is excruciatingly painful.
+[30:35] It takes a long time, laborious, and it really blocks the velocity of robotic simulation real to center.
+[30:43] So Atlas really is the next generation technology for that.
+[30:49] And this is not just for robotics cabling or anything.
+[30:53] We should zoom out and recognize the biggest problem right now in robotics is actually data.
+[31:00] One day it'll be chips, but for now it's data because it's so hard to collect real world data where robots are operating on.
+[31:12] And in order to, not only you need to collect the data of, let's say, the cabling situation or dishwashing situation or whatever,
+[31:22] there is also a very important step called randomization is that you have to take the same environment and then randomize the condition.
+[31:30] So the cable doesn't literally only bend this way, can bend a different way or the box can have different sizes, colors, different lids and all that.
+[31:40] Or in different parts of the scene.
+[31:43] So you have to go through a real to sim situation in order to get enough of that data, in addition to other data you can get from internet.
+[31:53] So this real to sim step will be really helped by Atlas.
+[32:00] That's just the first part of this is meeting the robotics needs in the current technology, because we don't yet have a frontier foundation model that's robust enough for robotics.
+[32:13] But Atlas is a multi-modal model.
+[32:19] It takes different kinds of input and generates different kind of output.
+[32:24] So you can totally imagine the next step is Atlas taking in data that's in that's dynamical.
+[32:34] And that can really start to bridge the gap between, you know, action planning and robotics and the Atlas output.
+[32:48] So that's on that roadmap.
+[32:51] Yeah, I was going to say there's something fundamentally different about training a robotics policy compared to really any other application in AI we've seen before.
+[32:58] And that's like, if you're generating a piece of code, like you're generating an image, you're generating a video, the model is fundamentally creating this artifact.
+[33:05] And that artifact, like there's a lot of examples of artifacts that you can go out on the web or somewhere and collect, right?
+[33:10] You want to generate images, there's a lot of images out there.
+[33:12] You want to generate videos, there's a lot of videos out there.
+[33:14] You want to generate a code base, there's a lot of code bases out there you can start from.
+[33:18] A robotics policy is something fundamentally different.
+[33:20] It's not producing a static thing.
+[33:22] It's instead a policy that's going to go out into the world, make actions and like try to achieve a goal.
+[33:27] And the world's not always going to respond the way you expect, right?
+[33:30] Unexpected stuff is going to happen.
+[33:32] So robotics policy is like fundamentally an agent that is out in the real world interacting with the real world.
+[33:38] And stuff happens.
+[33:40] So you need like a critical part of that is those policies during training need to be exposed to every possible thing
+[33:46] that could go wrong during a deployment.
+[33:48] And that's where simulation is really key for robotics, right?
+[33:52] So then there's two angles on that.
+[33:54] Like one is the kind of classical simulation.
+[33:56] You can go out, you can go and like go to your favorite physics engine and like try to imagine creatively as a human designer,
+[34:03] what are all the scenarios that might happen in this, in this, in this, when achieving this task,
+[34:07] and then try to write explicit code that models them all.
+[34:10] That's one angle.
+[34:11] And that's an interesting angle with coding agents.
+[34:13] Like that actually gets supercharged too.
+[34:15] But there's another angle, which is try to more data driven simulation, right?
+[34:19] Like maybe we can, can we have a learned model that can understand how the environment, how the world is going to respond to actions,
+[34:26] and maybe might respond in unexpected ways sometimes.
+[34:29] Then could we build these neural simulators that are trained on as much data as we can,
+[34:33] then use these neural simulators, these learned neural simulators, you know, as a simulation bed to train robotic policies.
+[34:40] And that's a really interesting future direction.
+[34:43] But, but then it doesn't stop there, right?
+[34:46] But once you have, you know, is learn simulator, like this learn simulator kind of already has in its like mental brain,
+[34:54] like it understands the world, it understands how the world is going to respond to actions,
+[34:58] and why doesn't the simulator itself become the planner, right?
+[35:02] Right.
+[35:03] And that's kind of the core thesis that we've had around world models and their generality,
+[35:07] that there's some core stuff that a model should understand around generating worlds,
+[35:11] simulating them, understanding how they appear in different search situations,
+[35:15] and, you know, understanding how the world's going to respond to an action is highly related to imagining what kind of action I need to take
+[35:22] to make the world respond in a particular way.
+[35:24] Yeah.
+[35:25] One piece of feedback that I got, I think by the way, congrats on the launch.
+[35:29] It was overwhelming and positive.
+[35:31] I think it was probably the most significant model launch this year.
+[35:34] And yeah, we said gluing things with one person who's an expert in the space who I texted was like,
+[35:39] what do you think?
+[35:41] And great person.
+[35:42] It's fantastic.
+[35:43] It's amazing, but there needs to be more dynamics.
+[35:45] And so it seemed to be at least the robotics case, but generally it was kind of ideal to actually have a world that moves.
+[35:52] And so maybe talk a little bit about that and then any other future directions that you're comfortable sharing,
+[35:58] but you think we're talking through.
+[35:59] Yeah.
+[36:00] I mean, like Danax is clearly going to happen.
+[36:01] Like actually,
+[36:02] we have baby dynamics.
+[36:03] We actually do have baby dynamics already.
+[36:04] And this is something I think people didn't quite appreciate.
+[36:06] We didn't really highlight in the blog posts.
+[36:08] But like the previous marble world model, it was like fundamentally static.
+[36:11] Yeah.
+[36:12] Like the model just like could not handle any dynamics at all.
+[36:15] And that was just like baked into the model architecture, baked into the training.
+[36:18] Like the whole thing was fundamentally static.
+[36:20] We already knew that that was a big problem post marble and we already fixed it in Atlas.
+[36:24] Right.
+[36:25] Like the Atlas architecture is already fundamentally supports dynamics.
+[36:28] The Atlas training data fundamentally has dynamics.
+[36:31] And if you look carefully in some of the videos that we even post it.
+[36:34] It actually is.
+[36:35] The waves.
+[36:36] Yeah.
+[36:37] The waves.
+[36:38] The waterway.
+[36:39] Yeah.
+[36:40] So like some of the examples, there's like waves in the water.
+[36:42] Like in some of the like air generated aerial views.
+[36:44] There's like little cars moving around.
+[36:45] And it's so like dynamics is actually already in this model.
+[36:48] But is it?
+[36:49] By the way, the dynamic seems very problematic to me if you're trying to reconstruct 3D from multiple views.
+[36:53] It is.
+[36:54] Right.
+[36:55] So like are these things like at odds or?
+[36:56] No.
+[36:57] So actually one of our thesesies here is that like, you know, if you're going to do fundamental 3D reconstruction,
+[37:00] you actually want to have no dynamics.
+[37:02] Like you want to be able to model like exact views of the scene with exact frozen time.
+[37:06] Right.
+[37:07] But then like this is actually kind of a problem with our previous marble approach.
+[37:10] Right.
+[37:11] Like there, like you can try to find data that's fully static.
+[37:14] But that's really hard to scale and really hard to get more of.
+[37:17] And the thing we realized is that even in the case where I want static output in the end,
+[37:22] the best way to get it is actually expose the model to dynamics.
+[37:25] Right.
+[37:26] Like expose the model to as much dynamic stuff as you got, as much static stuff as you got.
+[37:29] And let the model figure out how to factor out the dynamic stuff.
+[37:32] So especially in like the, this is like, so again, in that Atlas pre-training already,
+[37:37] like it saw a ton of dynamics in the pre-training already.
+[37:40] Then the post-training that we did specific to this checkpoint in this release was focused a lot more on static stuff,
+[37:46] focused a lot more on spatial movement and less on temporal.
+[37:49] But like we already like, I'm pretty sure this, the pre-trained checkpoint already has a lot of latent dynamics in it.
+[37:55] And this is something we're going to improve quite a lot going forward.
+[37:58] So Ben, does that mean we're going to get 40 video?
+[38:01] You can like go walk around.
+[38:03] You can see the smile on their face.
+[38:07] So I actually can see if like you just stopped now and you only did kind of bigger, you know, faster, better,
+[38:15] you could build almost an entire industry.
+[38:17] It feels like a very horizontal primitive and then if you did nothing else.
+[38:20] But are there other things that are not just kind of bigger, faster, that you're excited about the applications you're focused on,
+[38:25] which tend to be kind of more on the kind of content created 3D side?
+[38:27] Yeah, I'm really excited about pushing that kind of multi-mobile aspect.
+[38:30] I think different modes of control is so critical here.
+[38:32] I think like it's super underappreciated, especially in the academic community,
+[38:36] how critical it is to add control conditioning to these models to kind of get out what's inside it.
+[38:40] I mean, honestly, this dynamic versus static.
+[38:42] I'm not trying to even understand what those are.
+[38:44] The choice in layman's language is just the editability here.
+[38:48] I think editability is the key here.
+[38:51] Yeah.
+[38:52] So I mean, this is something we've seen in like sort of single image models.
+[38:54] And starting this year in video models is starting to be unlocked in terms of,
+[38:58] oh, like getting that flavor of like multi-turn or really like intuitively interpreting.
+[39:04] Like, I want like this person and this object and this thing to happen and kind of combining those all together
+[39:09] in like one pastiche without having to do a lot of like manual work with the system.
+[39:13] Like it just interprets it like kind of frontier image models are kind of there, right,
+[39:17] for in terms of editing.
+[39:18] But we haven't seen that propagate out as strongly into video yet and then into world models, right?
+[39:22] We've seen some really kind of toy examples of, oh, I can like put in a sentence and like, you know,
+[39:27] a dinosaur appears or something with these like sort of real-time models.
+[39:30] But I want to like turn that up to really industrial strength and make that.
+[39:34] Because like the trick here is you got to add control but not compromise the quality of the model
+[39:38] or just becomes a party trick basically.
+[39:40] Like it's like no one is going to seriously think about swapping their like cutting edge frontier video model usage
+[39:46] for your model if you give them extra knobs but the quality degrades.
+[39:50] So I think it's really that game of like how can we maintain like the high bar we've set was the outputs
+[39:55] we're able to get in the current model and then add all kinds of interesting stuff that people ask us for
+[39:59] in terms of like I want to interact with the scene or control the layout or control like the identity of the objects
+[40:05] and the things that we're seeing within there or control time, right?
+[40:08] And I think that's like an access where it opens up like a ton of really interesting product and interface work
+[40:13] the more complexity you add there and richness in terms of kind of like enabling you to really think about
+[40:19] redesigning almost from scratch the way people interact with sort of like stateful 3D worlds in the computer.
+[40:26] Like that's really the end goal here is getting like all the capabilities you need to build that kind of system.
+[40:31] Awesome.
+[40:32] Anything you'd add to that as far as new functionality that you'd be excited about that's not just bigger better?
+[40:37] I think for me let's go back to the first principle of intelligence.
+[40:41] Intelligence is not sitting there stuck and just seeing something or interpreting something when it comes to space and physical space, right?
+[40:49] It's really this closing the loop between seeing and experiencing and interaction.
+[40:55] So just thinking about going up that ladder is exactly what Ben said.
+[40:59] Cool.
+[41:00] I think one interesting motion there is this notion of AI completeness.
+[41:03] You read this report?
+[41:04] Yeah, yeah.
+[41:05] So like everyone, I hear about AI complete by the way in terms of LLMs which is like you have to be basically
+[41:10] like the smartest LM to answer the question what the smartest LM will need to answer or you have to solve general intelligence.
+[41:16] No, no, no.
+[41:17] It's a connection to Turing completeness, right?
+[41:20] Like the idea being that like a task is Turing complete like in classical complexity theory.
+[41:24] If like I can take any class at any problem in this category, reduce to that one problem.
+[41:29] Yeah, yeah, yeah.
+[41:30] So you can take any NP hard problem and reduce it to 3SAT, therefore you can use 2SAT to solve any problem.
+[41:36] Yes.
+[41:38] So then like the kind of like soft definition of AI completeness is like there's this fundamental primitive.
+[41:43] It's an AI task.
+[41:44] But if I could solve this AI task in its full broadest generality, it would solve any intelligence.
+[41:49] Yeah.
+[41:50] And like the classic example at LLMs is like next token prediction is a complete because I could like, you know, there's the classic example.
+[41:56] I think from Iliad, where like there's a mystery novel and like the thing has to read the whole mystery novel and the final sentence of the mystery novel is like,
+[42:02] and the killer was a particular next token.
+[42:05] So like you could basically like frame any kind of intelligence task in terms of that.
+[42:08] So clearly next token prediction is something that people believe is AI complete.
+[42:12] But I think that something we're kind of realizing and Ben was talking about this earlier today is like new view prediction,
+[42:17] this primitive that we have in Atlas, especially generative new view prediction.
+[42:21] This is also AI complete, right?
+[42:23] And because I could take something like, you can have the movie and you do all the frames of the movie and then like the killer walks out
+[42:31] and then you predict exactly who walks out.
+[42:33] Exactly.
+[42:34] I want to have a world where like Martine is like writing a proof of the remine hypothesis on the paper.
+[42:41] And it's over to the next one.
+[42:43] And he's so sorry.
+[42:45] Okay.
+[42:46] So to take an evolutionary view, right?
+[42:49] That new viewpoint prediction is exactly evolution had to solve by making animals move.
+[42:57] You they should give animals eyes.
+[43:01] But nature didn't give trees eyes.
+[43:04] Eyes.
+[43:05] Why?
+[43:06] Because when you move, you see a new viewpoint.
+[43:09] And that is the whether you call it AI complete or intelligence complete.
+[43:14] So we do believe very strongly that next viewpoint prediction is the equivalent of next token prediction.
+[43:22] Amazing.
+[43:23] Well, with that, congratulations.
+[43:25] All of you in a phenomenal model launch.
+[43:27] We're very excited for future model launches.
+[43:29] And thanks for coming.
+[43:30] Thank you.
+[43:31] Thanks so much.
+[43:33] Thanks for listening to this episode of the A16Z podcast.
+[43:36] If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review, and share it with your friends and family.
+[43:43] For more episodes, go to YouTube, Apple Podcast, and Spotify.
+[43:47] Follow us on X, A16Z, and subscribe to our Substack at a16z.substack.com.
+[43:53] Thanks again for listening, and I'll see you in the next episode.
+[43:58] As a reminder, the content here is for informational purposes only.
+[44:01] Should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security,
+[44:07] and is not directed at any investors or potential investors in any A16Z fund.
+[44:12] Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.
+[44:17] For more details, including a link to our investments, please see a16z.com forward slash disclosures.

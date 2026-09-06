@@ -1,0 +1,364 @@
+The a16z Show
+Aaron Levie on Why Open AI Wins
+Sat, 05 Sep 2026
+https://a16z.simplecast.com/episodes/aaron-levie-on-why-open-ai-wins-YUnuv_hR
+
+[00:00] Open-weight AI is often framed as a threat to frontier labs.
+[00:04] Aaron Levy thinks that gets the economics backwards.
+[00:07] The box co-founder and CEO joins Theo Jaffe and Sophia Puccini on MTS
+[00:12] to discuss why open models could make the AI ecosystem more competitive,
+[00:17] the debate around distillation in China, and why America needs more open-weight AI.
+[00:22] They also get into the latest frontier models, how AI is expanding rather than
+[00:26] shrinking boxes engineering roadmap, and why model routing could become the default for enterprise AI.
+[00:35] We are live with Aaron Levy, the co-founder and CEO of Box, which does all kinds of things,
+[00:41] cloud content, management, enterprise documents, permissions, collaboration,
+[00:46] a lot of different AI functions. He has an incredible Twitter account at Levy.
+[00:50] He's been around on the website forever, and he writes about AI and many other topics.
+[00:56] We have two huge stories today. I wonder what should we start with?
+[01:01] Astrology. Astrology. Of course, astrology.
+[01:05] Yeah, huge acquisition in the astrology image-gen space, something we want to monitor.
+[01:12] Is it an open-source play or not yet? I think not yet. I think astrology might remain close source
+[01:19] for the time. Okay, we've got to fight that. Yeah, we've got to fight that.
+[01:23] But going to the real story, today there was an open-weight letter that Jensen Huang
+[01:29] wrote, and Box signed. Can you tell us your interpretation of this letter? What exactly is it
+[01:35] aimed at? What are you guys trying to shape? What do you think Jensen was trying to shape?
+[01:41] Yeah, is the letter maybe like a Rorschach test of what do you see in this letter?
+[01:45] Well, what we saw when we read it was hopefully it's the default stance of the folks that signed it,
+[01:50] but basically almost two full main points. One, the reason why open-weight AI is super important
+[01:57] is because it actually drives AI progress. We get more innovation. We get more options. You can build
+[02:01] on top of these models. You can train them for your own use cases. So open-weight in general,
+[02:07] I would argue is actually a very important part of the AI ecosystem. So much so that I think it's
+[02:11] actually misframed a zero sum with closed-weight. It actually adds to the number of use cases
+[02:16] that people then do with AI. So that's kind of part one. And then part two, I think embedded in
+[02:20] there was a little bit of a call to arms on the US actually needs to be probably even more invested
+[02:25] in open-weight models. And we probably want even more companies showing up to the table with this
+[02:30] innovation. And so it didn't seem like it was directly about we must support all of the things
+[02:35] that are happening in China as much as US needs to continue to support open-weights. We probably
+[02:39] need even more innovation here. I know, by the way, distillation is actually not always bad,
+[02:44] and there's lots of use cases around it. So let's maybe like calm down on some of the foot on that.
+[02:48] We support every one of those stances. Open models are, I think, very important to the AI ecosystem.
+[02:53] And actually, I think it pushes even the closed model providers to innovate faster and be able
+[02:58] to deliver more for the market. So I think everybody is sort of a winner as a result of open-weights.
+[03:03] To be fair to the other side of the argument, I think there's a category for getting kind of
+[03:07] commercial and economic interest for a second of some of the close players. I think there's a category
+[03:10] that obviously has real arguments around the safety elements of open-weight at some point in
+[03:15] the future of capability. I don't agree with that point of view, but I think it's like a healthy
+[03:18] debate to have and to have conversations around it. But I almost unequivocally take the stance that
+[03:23] more open innovation and open-weights innovation is good for AI broadly and the diffusion of AI.
+[03:29] So diving into the distillation point, how would you separate distillation that is just normal,
+[03:34] basically normal economic activity from distillation that crosses a line into some sort of civil
+[03:40] or criminal violation? Well, I don't know if I would make that argument. I don't know where that
+[03:46] line would exist. I'm almost deeply on the side of, I think it's very hard to make the argument that
+[03:52] AI model should be trained on broadly the public internet, but another AI model can't be trained
+[03:57] on the outputs of an AI model. I think it's a very tenuous argument to make. I don't see how you
+[04:02] can kind of pull it off. At the exact same time, I understand, and if I were running a lab, I would
+[04:06] like to lock these things down as much as humanly possible. So I'd be trying to find every defensive
+[04:10] mechanism to prevent the distillation of my models, but I don't know that you'd be able to kind of
+[04:15] credibly argue that there's some ethical kind of line that is crossed simply because then you
+[04:19] would be basically arguing against the underlying training runs of these models. Most people didn't
+[04:24] get to opt in or out of their data being trained on. Maybe it's in some kind of terms of service
+[04:29] from the underlying provider somewhere in the fine print. But this is a thing that we are assuming
+[04:34] that the general knowledge of the world is going to be trained into these models, and that general
+[04:38] knowledge, whether it comes from Reddit or it comes from anthropic, is like, I don't see the
+[04:43] distinction between those in any meaningful way. Yeah, I mean, we heard a take yesterday that was
+[04:47] kind of exactly that. It was just like, we're focusing on the wrong part of the chain when we
+[04:52] blame distillation. It should really be like, how is anthropic thinking about how to restrict their
+[04:57] API use or how to very effectively prevent the sort of, because we were also talking about how distillation,
+[05:03] they still have to pay for the API usage. Anthropic is getting paid more for distillation than most
+[05:10] people have ever gotten paid for the original training runs. And if you kind of like, you almost
+[05:14] kind of do a thought experiment of like, well, what's the difference between distillation in a very
+[05:18] direct, like I'm using the API across the 10,000 accounts versus just quite literally,
+[05:23] if we all generate code from fable or GPT-5-6 and all that code ends up in public repos,
+[05:29] what's the kind of compelling difference between those two scenarios that a model will get trained
+[05:33] against? And I'm not sure I at least understand why there'd be arguments, why there'd be some
+[05:36] kind of ethical line between those two. And then you kind of layer in another element,
+[05:40] which is I think there's a lot of people that argue that actually China in this case are doing
+[05:44] kind of breakthrough innovation in general, independent of distillation that's causing models to progress.
+[05:49] But also, I'm sure that there's going to be other kind of controversies and conspiracies about what's
+[05:53] happening. And I don't know enough to be able to kind of credibly argue that other things are or are
+[05:59] not happening in why these models are progressing. I'll let obviously the labs to make those cases
+[06:04] and the government to kind of pursue that as they see fit. But all of that to me is independent of
+[06:09] do we want open weights models and do we want this innovation in general from the ecosystem?
+[06:13] I think the best case scenario personally would be you get a few people that are at a stage in life
+[06:19] where they can just be like, yep, I'm going to drop $10 billion on building an open lab in America.
+[06:24] And we have our own version of moon shot. I think that would be a great service to America
+[06:29] and to innovation in general. So I've been kind of waiting for the date that somebody does that,
+[06:33] but for now still waiting. We're going to tag another foundation under this post.
+[06:39] They might do it. They might do it. There's another angle here, which is most open weights models
+[06:44] are coming from China. And some people worry that if we become too dependent, if the American
+[06:49] startup ecosystem becomes too dependent on Chinese open weight models, and then they like shot
+[06:55] off the open weights, they stop releasing new open weights models that this could be very bad
+[06:59] for the American tech industry. Or that because these are Chinese open weight models, they undercut
+[07:05] the margins of American companies. And it's a national security concern, say some people.
+[07:11] And I think those are great arguments, but it's like, okay, so what do you do about that?
+[07:14] Some people say that the iPhone should cost $5,000 instead of $1,000 because we shouldn't
+[07:18] rely on manufacturing advancements that exist in China. I don't know, if you kind of play out
+[07:23] the alternative, then all you would basically be arguing is America should have really expensive
+[07:27] AI. And the rest of the world should have very cheap AI. And then we'll see how that works
+[07:32] competitively over the next five or 10 years. So it just may be one of those things, which is
+[07:37] the cats out of the bag on that. We can't unwind that dynamic, open weights models exist.
+[07:42] China knows how to produce them. Eileen Moore on the Jensen side of the argument,
+[07:46] you know, everybody had this moment where they watched the Jensen Dorkash podcast.
+[07:50] And that was like the original kind of Rorschach test of like, you know, some people post Dorkash
+[07:55] is like, obviously, like, that's the exact right position to be taking. And you know, you should be
+[07:58] interrogating Jensen. And then some other people watched it and was like, why is Dorkash not
+[08:02] understanding Jensen's point and kind of letting him kind of, you know, sort of expand on that.
+[08:07] I was like, watching it and just was like, yeah, Jensen's obviously right. You can disagree with it,
+[08:11] but he's obviously right that the following will happen. If you block off China,
+[08:15] China is like not going to give up on AI. They're not going to just decide that this is not that
+[08:20] important of a technology category for them to play in. So if you just assume that China considers
+[08:25] AI to be very strategic, you know, strategically important. And oh, by the way, you know, all these
+[08:31] funny meme, you know, tweets of like, we have more Chinese AI researchers than the Chinese labs do
+[08:36] in the US. Like, obviously they can produce incredible talent working on AI. So this is not
+[08:41] something that we own, you know, some impenetrable, you know, talent, you know, based to be able to
+[08:48] compete against. So it's incredibly important strategically for China. They actually have a lot
+[08:53] of the core raw materials needed between, you know, raw human talent and kind of industrial might
+[08:59] for building chips and fabs and whatnot over time. You know, like the getting the training data,
+[09:05] you could just, you know, go hire 100,000 people in China to go generate an insane amount of data.
+[09:10] Like there's like ways of getting the data. So at some point, you can, it's not that complex to
+[09:15] think through China becoming a very, very strong, you know, player in AI. And if they're a very strong
+[09:20] player in AI, and the world adopts their models and adopts their architecture, that obviously is going
+[09:26] to be bad for the US economically over the long run. So Jensen's point is, instead of sort of forcing
+[09:32] that and catalyzing that to happen even faster by the constraints that you impose, maybe we should
+[09:38] actually be a part of the infrastructure buildout that started going on. And I actually generally kind
+[09:44] of land on that, because what's going to happen is the alternative is that these models are still
+[09:47] going to get trained one way or another. But now they're going to be, you know, trained on a different
+[09:51] hardware stack. Ultimately, over time, that hardware stack can be the one that gets deployed in sovereign
+[09:56] clouds and whatnot. And so, so I think it's, I just don't think there's a scenario here where you can
+[10:03] kind of close off completely to China and somehow you dramatically slow them down. And then kind of
+[10:09] hand wavy, we just win. I just don't think that that plays out in this space. So, so, you know, all
+[10:16] of the, you know, kind of a lot of the sort of theoretical risks of either open weights or, or,
+[10:24] or, you know, the infrastructure side have to have to assume that we have such an insurmountable
+[10:29] lead against China. And that only accelerates past the point where like there's just simply
+[10:33] no catching up. And I think as we've seen recently with, with, you know, K three and, and other models,
+[10:39] you know, that gap is maybe narrowing as opposed to expanding over time.
+[10:43] Yeah, that Dorkesh Jensen interview by the generational they had such gems in it. Like when
+[10:49] Jensen was like, I'm not a loser, you know, you're not talking to somebody who woke up a loser. We're
+[10:54] not a car. Yeah. No sense.
+[10:58] No, that was some of the best content ever produced. So I don't know why they didn't charge for that one.
+[11:04] Yeah, it felt like a tech reality TV. Like he was actually just getting into it. It was awesome.
+[11:09] Absolute cinema. Yeah. Well, okay, what do you think would have happened if like,
+[11:15] let's say the US would have open sourced like beat China to open sourcing like a Kimmy
+[11:20] K three level capability model like, because I understand the argument of like, okay,
+[11:25] we need to deploy like American open source models that are the same if not better than the
+[11:30] Chinese open source models. But like, what do you think are the trade offs of like completely
+[11:36] open sourcing it to the point where like obviously Chinese labs would be able to like have access to
+[11:40] it? Yeah, I, you know, first of all, even even the open verse closed, I actually appreciate all the
+[11:47] debate that happens on this. So so I'm very passionate about the topic, but I also totally
+[11:53] appreciate all of the arguments on the other side, even, even, you know, I probably lean the
+[11:58] other way in some of them. But some of them do inform, inform some of my views. And I kind of
+[12:03] update maybe then to be a little bit more nuanced on my end. But, but you know, on the open source
+[12:10] US side, I generally think that the money maker in AI is inference. And so ultimately,
+[12:17] the dollars are going to flow to the infrastructure stack one way or another. I think in a world where
+[12:23] you only had one or two labs. And somehow there were these insanely kind of closed secrets about
+[12:29] training. And you had like real intellectual property that was protectable and patentable and
+[12:34] nobody ever could know about it. And it's like, you know, totally locked down. Then in that world,
+[12:39] I think you could probably argue that like, you know, there's another couple layers of the stack
+[12:43] that you can kind of close off. But in a world where we're going to have, you know,
+[12:47] three to five players in the US that consider it sort of existential to them to have leading models,
+[12:53] then then you have enough of a competitive dynamic in the market where you have to expect that the
+[12:59] cost of tokens converge closer and closer to the to the cost of the infrastructure over time,
+[13:04] not to zero. I'm definitely not a believer that there's no margin there, but closer. So, you know,
+[13:10] in the 20, 30, 40% range on top of the cost of infrastructure, which is different from 70 or 80
+[13:16] or 90%, let's say. So if that's the case, then actually, if you had an open model and you powered,
+[13:22] let's say, the preferred infrastructure for that open model, or you created the post training
+[13:26] environment for that open model, or you were the kind of considered the safer brand for deploying
+[13:31] that open model by enterprises, I actually would argue make almost the same amount of revenue just
+[13:36] by, again, driving the inference of that model. And so if you assume that with things like, you know,
+[13:41] I would actually make the case that even for somebody like an open AI, if you fast followed your
+[13:47] frontier models with open source versions of, let's say, the prior generation at a more consistent,
+[13:51] you know, pace, I actually think you would you would be even more competitive with your frontier models
+[13:57] because it would keep more and more of the use cases within your ecosystem and your family.
+[14:01] And you probably could just power a lot of the inference of those open models as well.
+[14:05] So I would just argue that these are these are kind of flavors of ways of enabling different
+[14:11] kinds of use cases with AI, as opposed to entirely different economic structures of AI,
+[14:16] because at the end of the day, you still are like, you're going to be paying for large GPU clusters,
+[14:22] no matter what open source AI does not mean that somehow I'm going to be running fable on my lap,
+[14:26] you know, my laptop. And I'm able to kind of circumvent the need to have cloud infrastructure,
+[14:32] like the dollars are going to be that's not for the flow. We did. Yeah.
+[14:35] Okay. Yeah. So the dollars are going to flow into some infrastructure provider.
+[14:38] And there's no reason that open AI can't be that infrastructure provider or anthropic can't be that
+[14:41] infrastructure provider, you know, obviously meta and SpaceX now are going to be getting into that space.
+[14:46] So I'm not convinced that open weights AI dramatically changes the economic structure of AI,
+[14:52] other than to just provide even more avenues to innovation and more avenues of use cases that
+[14:58] begin to emerge. And that I think would actually be a good thing for the ecosystem broadly. So I'm
+[15:04] pro, you know, US open weights, I actually think a lot of the closed labs should consider having
+[15:09] kind of faster follow open weights models. Yeah. You know, to be able to handle the post
+[15:14] training use cases and some of the sovereign use cases. And I don't think it would actually
+[15:18] be as bad as probably is sort of perceived from a market standpoint.
+[15:22] Yeah. This is a really interesting thread. I'm curious, you know, if this would be good for
+[15:26] the business model, the labs, like why don't the labs do it? Yeah. You know, anthropic is never
+[15:30] open source anything. Google open source is JAMA, which is like something, but it's not like the
+[15:34] last generation of Gemini. I think there's two categories that people fall in one is you sort of,
+[15:40] you have to have a, you know, your time horizon has to be longer to believe that you can monetize
+[15:45] open weights. Because like tomorrow, if I release a closed model, I just will literally make more
+[15:49] money. If I just keep it closed and I force everything to wrap through my API that on paper,
+[15:54] I'm going to make more money. No question. But over the long arc of time, where no matter what,
+[16:00] you have to assume that the cost of token per task, you know, gets driven down regardless,
+[16:05] then you know, you kind of play things out two or three stages and it's sort of, it's almost,
+[16:09] you know, kind of a wash, whether whether you were closed or open, because again, it's really just
+[16:13] the inference cost that ends up mattering. That's the first part. And then the second part for
+[16:17] anthropic specifically, let's say, is I actually just believe that they consider this to be a major
+[16:22] safety risk. So, so to them, they're not like thinking about this, I'm guessing they're not
+[16:26] thinking about this as like an economic, you know, argument that they should be open source for
+[16:30] market share reasons. I actually just think that they fundamentally believe, no, you actually need
+[16:34] one entity to control the flow of the tokens to be able to do, you know, kind of prevent, you know,
+[16:41] prompt injection and, and, and make sure that you can route to different models based on the,
+[16:45] the kind of queries people are doing, you can't do that in an open weights environment. So, so I would
+[16:50] just almost consider them to likely never to open open source their models for, you know, sort of like,
+[16:56] you know, kind of reasons that, you know, are tied to just the creation of anthropic in the first place.
+[17:01] Yeah, I feel like, well, with regards to like, frontier labs, this is going to be a segue to
+[17:08] Claude Opus 4.5, or Claude Opus 5 being out now. But yeah, with regards to like the timing of the
+[17:14] release of the models in Frontier Labs, it just feels like a timing thing now, like we know they're
+[17:18] cooking good models internally. So with that being said, what were your thoughts on Opus 5,
+[17:25] especially from like a, you know, knowledge work perspective, because you have that perspective
+[17:29] at box. Yeah, so we, we, we've been running emails on Opus, Opus 5 is the best kind of maybe
+[17:35] week or week and half or so, a couple weeks, and it's, it's a fantastic model. It meaning meaningful
+[17:42] jumps over Opus 4.8, which already was kind of best in class at the time period that it was launched.
+[17:50] And so, you know, the way this shows up in our world, so we deal with kind of, you know, corporate
+[17:55] data, documents, financial con, you know, documents, contracts, marketing assets, research materials
+[18:01] across every single industry. So this can be life sciences companies, law firms,
+[18:05] large banks. And so you can imagine that, that the things that you're, if you're a large enterprise,
+[18:10] you kind of need two major aspects within AI model. You want a deep domain understanding,
+[18:15] like you have to understand life sciences, you have to understand law, like that has to be
+[18:20] packed into the model. And then you have to be extremely good at just being able to kind of work
+[18:23] with large amounts of data, process it, deal with tools, analytical capabilities that are kind of,
+[18:30] you know, horizontal. So you have kind of general intelligence, you know, going up the
+[18:33] matters, and then you have very specific kind of industry intelligence, and Opus, Opus 5, you know,
+[18:38] kind of just represents an improvement on both those axes. So we tried it against, you know,
+[18:43] a variety of different industry tests that we do. Again, kind of meaningful jumps over over 4.8.
+[18:49] I'd expect that this, you know, becomes, you know, get a very compelling model across knowledge
+[18:54] work as, you know, GPT 5.6, you know, I think equally has. So definitely great kind of work on the,
+[19:02] on the cloud front. And I think, you know, again, like what's exciting is, and this is why I don't
+[19:07] think it's zero some, like the closed labs continue to stay ahead on the frontier. And I think the vast
+[19:14] majority of the dollars in profit will still go to the closed labs in almost all scenarios that this
+[19:19] plays out. And so I, you know, I think it's been a great month for both OpenAI and anthropic
+[19:25] on that front. Are you finding fable better for any tasks than Opus? You know, like it is, it seems
+[19:32] on vibes, like very slightly better, but also twice as expensive. So Opus seems like Pareto
+[19:36] superior there. Yeah, so I don't think we've, we've, like, so we have internal benchmarks that
+[19:43] deal with kind of general knowledge work. And I would actually agree with you that probably due to
+[19:47] the cost difference, you probably argue that that that Opus 5 is now kind of an improvement
+[19:54] over fable because of the cost delta on certain coding tasks that we had tested internally fable,
+[20:01] completely out matched for eight, like in a, in a way that you couldn't make up for by the,
+[20:06] by the, you know, token cost difference, just like, like being able to have superior solutions to
+[20:11] a hard technical problem. Sorry, 48 is fine. Prior to having access to five,
+[20:17] if we kind of compared like how big of a leap five was on that, I don't have enough internal
+[20:22] coding tests to kind of compare against. So, so I had to see if like, if how much is 48 meant to be,
+[20:30] you know, kind of a superior coding model versus a lot of the benchmarks that they just came out with,
+[20:35] where these kind of general knowledge work, kind of a gentle tool use type benchmarks.
+[20:40] So, I think it kind of open question. The one problem that fable had, and everybody's kind of
+[20:46] tweeted about this already is, is it will often, you know, again, kind of push you down to 48
+[20:51] for certain capabilities. And then that becomes a problem because you're not, you know, it's kind
+[20:55] of hard in advance to know, like, did the, did the thing kind of, you know, trigger some security
+[20:59] warning because it was looking through permissions, you know, access control code. And so it kind
+[21:04] of freaked out and, and, you know, isn't then giving you kind of fable level of intelligence.
+[21:08] So, I do think that anthropics going to have to kind of work through that.
+[21:12] I've heard of, you know, folks in the biospace that effectively can't use fable because it just,
+[21:18] again, pushes their queries down, you know, too frequently. So, you're not getting the raw
+[21:23] intelligence from the model. And so, you know, I think, I think we have to, like, I appreciated
+[21:30] anthropics ultimate proposal on, on how we should kind of work through these types of dynamics with
+[21:35] the government and have a, have a kind of a multi-point framework where we kind of
+[21:39] agree on what, what are these kind of capabilities that, that are of different risk levels and test
+[21:43] the models for them. But there's, there is kind of an interesting question though, which is like,
+[21:47] well, what, who gets to decide that risk framework and, and how do we agree that the risks are actually,
+[21:54] you know, real risk that we perceive? Because I would argue that if, if, if you kind of
+[21:59] snapshot it in time fable right now, the level of things that they, they push down and prevent
+[22:05] you from doing, that would be untenable for the future of AI. People will, will simply not use AI
+[22:11] if, if this is the kind of ongoing environment. And so, so like, how should we decide now, like,
+[22:17] like, maybe, maybe they see these risks are very highly nuanced. And so, so I, that's why I generally
+[22:22] lean to where like, it's all very, like way too early to be locking these models down,
+[22:27] you know, given, given how early we are. So, how is it affecting software engineering at box? Like,
+[22:32] are you hiring more fewer people? Like, how do the skills that you're looking for in software
+[22:37] engineers change over time? How do you expect them to change in the near future?
+[22:41] Yeah, we're, I'm still very bullish on software engineering. We're, we're, you know, the way that
+[22:47] we've used these models is, is simply to just to do way more than we were before. The, the kinds of,
+[22:53] and it's just like so qualitative and only, only people that are, you know, probably like in the
+[22:58] product roadmap reviews each day can, you know, maybe kind of fully process, but like, there's
+[23:02] something totally different when you're, when you're doing a product planning session.
+[23:09] When you are thinking in a world of, of just sheer human, you know, base constraints versus,
+[23:15] versus now what AI unlocks, like it completely changes your mindset about the things that you'll
+[23:20] go and tackle and take on. We have multiple dozens of, of, of projects right now that we
+[23:27] absolutely would not be doing if AI didn't exist. We just, we would not have, we would not have lit up
+[23:32] the projects. Like, we would have said no, that that's too complex. It's not worth it. Like,
+[23:37] you actually have two interesting scenarios. You either say no to the very small things
+[23:40] because it's not worth it, or you say no to the really big things because they're simply too hard.
+[23:45] And so most of your software projects kind of stay in this middle band, which is like,
+[23:49] okay, it feels like something that maybe you could do in one to six months. Like those are the kind
+[23:53] of things that we would use to kind of tackle pre AI. Now what happens is you can tackle the
+[23:59] multi year projects because they're not multi year anymore. And the things that are kind of like,
+[24:04] well, that would take a week, but it's not that big of an issue. So we're just never going to do
+[24:09] it. And so it just remains on the backlog just very far down the backlog. You do those because
+[24:13] now that takes two hours. So what happens is you end up basically being able to solve
+[24:18] more and more problems that your customers have always had. And that actually just increases your
+[24:22] ambition. So you know, wherever possible, I'm generally in the mode of actually trying to add
+[24:28] more human talent to this because there's actually just more things we want to go and take on.
+[24:33] And now actually the main problem is we have, you know, you just have financial constraints
+[24:37] because there's other areas of the business that you want to grow and that you want to hire for.
+[24:40] But I generally think if you're, if you think that you've kind of eliminated the need for software
+[24:47] engineers, there's just no chance you're being ambitious enough with your product roadmap.
+[24:52] And so we're constantly pushing ourselves of like, now what more can we take on as a result of AI?
+[24:58] Yeah, totally. Yeah, even like talking to some of these coding agents, they will overestimate
+[25:03] the amount of time that it takes to do a project. Like, severely, they'll be like, this is a
+[25:08] weekend long project. Sometimes they say it's a month. Yeah, they're like, this is a month-long
+[25:13] project. And I'm like, oh my God, like this is, this is going to be so long. And then I knock it out in
+[25:17] like three hours. Yeah, that's because it was trained on all of our Slack messages pre AI.
+[25:22] Yeah. And so where the, where the engineer, you know, said that's going to be two years. So I think
+[25:27] it's, it's, it's definitely trained to be highly, highly conservative on project timelines.
+[25:33] Same with math too. Like if you ask an AI, like, what is your timeline to an AI model
+[25:39] disproving and open conjecture and mathematics, it'll be like, maybe five years. No, it's already
+[25:47] happened. Yeah, totally. I guess like the last question, because we were talking about this earlier,
+[25:53] is like, since it looks like model releases are just happening way more frequently,
+[25:57] for enterprises specifically, it seems like, you know, loyalty to one provider is not going to make
+[26:03] it basically. So what do you think is like the optimal strategy here? Like we were talking about
+[26:08] how model routing is the future. And like all of these services that offer that sort of thing are the
+[26:13] future. Yeah, I mean, kind of that's, that's, that's my conclusion, but I'm also extremely biased in
+[26:19] that conclusion. Like, like the more that you need multiple models to do a task or a set of tasks,
+[26:28] the more value accrues to the layer that can understand the task and get access to the data
+[26:33] and handle the workflow, which obviously is, is a better outcome for the, let's say, applied AI layer,
+[26:39] which is, which is where we tend to sit. And, and that, that's, that's a, that's a future that
+[26:45] obviously a lot of companies are aligned to and, and, you know, strategically and kind of
+[26:51] existentially in some cases. So if you're cognition and factory and cursor, you know,
+[26:56] and replet, et cetera, obviously the outcome that you want to have happen is that you actually have
+[27:00] many models. They're all good on different axes. Some are like really like the cost tuned, you know,
+[27:07] kind of workhorse models and some are like the super frontier orchestrators. And you want to have
+[27:12] an outcome where you actually need multiple of those models to be able to complete the task
+[27:17] effectively or at least cost effectively. That's actually the, that, that appears to be the timeline
+[27:22] that we're on. And, and now again, I think you have basically five credible US players
+[27:28] in, in, in model development between SpaceX, Google,
+[27:36] anthropic open AI and, and, and, who'd I forget meta. And so like those five players are all on a,
+[27:44] on a war path for both driving down the cost of intelligence and improving the frontier at the same
+[27:50] time. So having a model router that can kind of be above that and again, pick and choose at different
+[27:55] points, you know, which model to use, I think creates a lot of value for enterprises and actually
+[28:01] helps with, interestingly, it actually helps with the diffusion of AI. You know, one of the, the,
+[28:07] the challenges that enterprises have is, is almost kind of like analysis paralysis on,
+[28:13] yeah, if you have so many models that are, that are emerging and they're constantly leap
+[28:17] frogging each other, you actually have like a resistance to just landing on one model family or
+[28:22] one partner. And so the applied layer, I think that gives you that relief, where it basically says,
+[28:28] you know what, you don't have to make that choice. You can, you can start to kind of get your workflows
+[28:32] going, get your data and the right setup. And then you want to use fable one day, go for it,
+[28:36] you want to use GPD 5.6, go for it, or you want to route that to, you know, rock 4.5. Also, you know,
+[28:42] go for it, we can lower the cost of the overall workflow. And so that's the, that's the layer
+[28:47] that I think is, is going to become increasingly valuable over time. And that layer is, is actually
+[28:52] kind of well-tuned to understand the deep industry and vertical use cases that AI needs to be applied
+[28:57] to. Whereas the pure horizontal models are, you know, it's much harder for them to go deep in,
+[29:04] in legal and finance and healthcare, not because the model can't do it, but because the surrounding
+[29:10] kind of, you know, apparatus that you need around the model is not there. It needs to get access to
+[29:15] the right data, it needs to be implemented into the workflow in the right way. And that's why I
+[29:19] think you're going to have just a tremendous amount of value creation at that layer of the stack.
+[29:23] Yeah, totally. That does seem to be what we're heading. Well, thank you so much, Aaron. We are
+[29:28] at time. It's been a crazy week. Great. I don't think it's over yet. Oh, we, yeah, we're not, we're,
+[29:35] we have at least 10 more hours to go of, yeah, of what could happen today. So,
+[29:40] Opus, open source so much to talk about. We're so glad to have you on. Open AI, guys, open AI,
+[29:46] hacked hugging face just four days ago. Yeah. So, that was four days ago. I thought that was a
+[29:51] month ago. We have until 1159 to figure out the next big story. So many, so many things can happen
+[29:57] today. Yeah, so many things. Thank you so much, Aaron. Thanks for listening to this episode of
+[30:03] the A16Z podcast. If you liked this episode, be sure to like, comment, subscribe, leave us a
+[30:09] rating or review and share it with your friends and family. For more episodes, go to YouTube,
+[30:14] Apple Podcasts and Spotify. Follow us on X and A16Z and subscribe to our sub stack at A16Z.substack.com.
+[30:23] Thanks again for listening and I'll see you in the next episode.
+[30:26] This information is for educational purposes only and is not a recommendation to buy,
+[30:30] hold, or sell any investment or financial product. This podcast has been produced by a third party
+[30:35] and may include pay promotional advertisements, other company references and individuals unaffiliated
+[30:40] with A16Z. Such advertisements, companies, and individuals are not endorsed by AH Capital Management
+[30:46] LLC, A16Z, or any of its affiliates. Information is from sources deep reliable on the data publication,
+[30:52] but A16Z does not guarantee its accuracy.

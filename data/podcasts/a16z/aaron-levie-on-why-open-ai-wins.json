@@ -1,0 +1,34 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Aaron Levie on Why Open AI Wins",
+ "date": "Sat, 05 Sep 2026",
+ "date_iso": "2026-09-05",
+ "lien": "https://a16z.simplecast.com/episodes/aaron-levie-on-why-open-ai-wins-YUnuv_hR",
+ "duree": "00:31:05",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.1,
+ "taille_transcript": 36759,
+ "transcript": "aaron-levie-on-why-open-ai-wins-transcript.txt",
+ "nb_outils": 5,
+ "outils": {
+  "Claude": [
+   "to open open source their models for, you know, sort of like, you know, kind of reasons that, you know, are tied to just the creation of anthropic in the first place. Yeah, I feel like, well, with regards to like, frontier labs, this is going to be a segue to Claude Opus 4.5, or Claude Opus 5 being out now. But yeah, with regards to like the timing of the release of the models in Frontier Labs, it just feels like a timing thing now, like we know they're cooking good models internally. So with that being said, what were y",
+   "their models for, you know, sort of like, you know, kind of reasons that, you know, are tied to just the creation of anthropic in the first place. Yeah, I feel like, well, with regards to like, frontier labs, this is going to be a segue to Claude Opus 4.5, or Claude Opus 5 being out now. But yeah, with regards to like the timing of the release of the models in Frontier Labs, it just feels like a timing thing now, like we know they're cooking good models internally. So with that being said, what were your thoughts on Opus"
+  ],
+  "Cursor": [
+   "layer, which is, which is where we tend to sit. And, and that, that's, that's a, that's a future that obviously a lot of companies are aligned to and, and, you know, strategically and kind of existentially in some cases. So if you're cognition and factory and cursor, you know, and replet, et cetera, obviously the outcome that you want to have happen is that you actually have many models. They're all good on different axes. Some are like really like the cost tuned, you know, kind of workhorse models and some are like the "
+  ],
+  "Gemini": [
+   "'m curious, you know, if this would be good for the business model, the labs, like why don't the labs do it? Yeah. You know, anthropic is never open source anything. Google open source is JAMA, which is like something, but it's not like the last generation of Gemini. I think there's two categories that people fall in one is you sort of, you have to have a, you know, your time horizon has to be longer to believe that you can monetize open weights. Because like tomorrow, if I release a closed model, I just will literally m"
+  ],
+  "Hugging Face": [
+   "razy week. Great. I don't think it's over yet. Oh, we, yeah, we're not, we're, we have at least 10 more hours to go of, yeah, of what could happen today. So, Opus, open source so much to talk about. We're so glad to have you on. Open AI, guys, open AI, hacked hugging face just four days ago. Yeah. So, that was four days ago. I thought that was a month ago. We have until 1159 to figure out the next big story. So many, so many things can happen today. Yeah, so many things. Thank you so much, Aaron. Thanks for listening to this e"
+  ],
+  "Slack": [
+   "long project. Sometimes they say it's a month. Yeah, they're like, this is a month-long project. And I'm like, oh my God, like this is, this is going to be so long. And then I knock it out in like three hours. Yeah, that's because it was trained on all of our Slack messages pre AI. Yeah. And so where the, where the engineer, you know, said that's going to be two years. So I think it's, it's, it's definitely trained to be highly, highly conservative on project timelines. Same with math too. Like if you ask an AI, like, w"
+  ]
+ },
+ "mentions_publicitaires": {}
+}
