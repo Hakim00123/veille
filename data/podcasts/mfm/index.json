@@ -14,9 +14,25 @@
   "how-a-5b-founder-is-using-ai-3-tutorials",
   "i-built-a-2-000-000-000-business-on-vibes",
   "how-to-naturally-monetize-what-you-love",
-  "7-things-mrbeast-bezos-thiel-do-that-you-don-t"
+  "7-things-mrbeast-bezos-thiel-do-that-you-don-t",
+  "decoding-tony-hawk-s-mindset-in-72-minutes",
+  "how-we-scaled-to-100m-in-under-a-year-ft-im8-co-founder-danny-yeung"
  ],
  "episodes": [
+  {
+   "fiche": "decoding-tony-hawk-s-mindset-in-72-minutes.json",
+   "titre": "Decoding Tony Hawk’s mindset in 72 minutes",
+   "date": "Wed, 09 Sep 2026",
+   "date_iso": "2026-09-09",
+   "nb_outils": 4
+  },
+  {
+   "fiche": "how-we-scaled-to-100m-in-under-a-year-ft-im8-co-founder-danny-yeung.json",
+   "titre": "How we scaled to $100M in under a year (ft. IM8 co-founder Danny Yeung)",
+   "date": "Mon, 07 Sep 2026",
+   "date_iso": "2026-09-07",
+   "nb_outils": 3
+  },
   {
    "fiche": "how-to-naturally-monetize-what-you-love.json",
    "titre": "How to naturally monetize what you love",
@@ -116,5 +132,5 @@
    "nb_outils": 3
   }
  ],
- "maj": "2026-09-06T19:18:52Z"
+ "maj": "2026-09-13T19:31:31Z"
 }

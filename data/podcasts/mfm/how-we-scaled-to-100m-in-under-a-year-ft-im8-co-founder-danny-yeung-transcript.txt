@@ -1,0 +1,1360 @@
+My First Million
+How we scaled to $100M in under a year (ft. IM8 co-founder Danny Yeung)
+Mon, 07 Sep 2026
+
+
+[00:00] We hit 100 million annual revenue run rate at 11 months.
+[00:04] Prune's still in 22 months, right?
+[00:06] And they were acquired for $1.2 billion.
+[00:08] Age you want to took them 10 years to hit 100 million.
+[00:10] We hit 200 million run rate in 18 months.
+[00:24] All right, Danny, welcome to the show, man.
+[00:25] Why don't we start off?
+[00:27] I'll just give a little intro to yourself.
+[00:28] So who are you?
+[00:30] What do you do?
+[00:31] Hey, Sean, thanks for having me.
+[00:32] Quick background, myself, always been an entrepreneur.
+[00:36] Started working at a very young age at 15.
+[00:38] I was a telemarketer, so that's how I got started working.
+[00:41] Age 24 had my first business, was a restaurant,
+[00:44] did that for three, four years.
+[00:46] Then ventured into hotel furniture business,
+[00:48] import, export from China into the US.
+[00:51] Eventually worked on some big projects
+[00:53] like the MGM City Center in Vegas.
+[00:55] Did that also for the three, four years?
+[00:57] Then in 2010, I took a leap of faith and moved to Hong Kong
+[01:02] to Laundry e-commerce company that was doing group buying.
+[01:05] And then when Groupon went international,
+[01:07] they acquired 51% of my company.
+[01:10] We became the largest e-commerce company in the region.
+[01:13] I left in 2014, we were doing about 200 million annual revenues.
+[01:17] I had a good exit, that's where I made my first million,
+[01:20] yeah, that per se, more than a million.
+[01:25] And then after e-commerce, I was like,
+[01:27] hey, what do I do next?
+[01:28] I had a lot of options at my disposal.
+[01:31] And I didn't just want to go back into e-commerce,
+[01:33] even though that was the easy route for me.
+[01:36] I ventured, then I actually got started
+[01:39] in diagnostics and DNA testing.
+[01:42] So founded Prenetix, which was a life sciences
+[01:45] DNA testing company.
+[01:46] And again, this was 2014, right?
+[01:48] So very early, no one was really talking about this stuff.
+[01:51] When anything, you'll see that in my entrepreneurial career,
+[01:55] it wasn't the obvious choice,
+[01:56] but everyone's now looking back at the obvious choice, right?
+[01:59] I mean, if you think about it in 2010,
+[02:01] no one was using e-commerce in Hong Kong.
+[02:04] Everyone in the fact told me to go back to US,
+[02:06] they're like, Danny, just go back to US,
+[02:08] this model's not gonna work in Hong Kong,
+[02:09] but we made it in the one e-commerce company at the time.
+[02:13] But going back to Prenetix,
+[02:14] started off as a life sciences company.
+[02:16] When COVID hit, we were prime position
+[02:21] to take advantage of it.
+[02:22] We worked very fast.
+[02:24] In two weeks, we got our COVID testing kit.
+[02:27] We then became Hong Kong's number one COVID PCR provider,
+[02:31] as well as in the UK.
+[02:33] So those three years, I would say we were printing money,
+[02:38] I was saying, right?
+[02:40] Big exploded.
+[02:41] At one point, we're doing 40,000 PCR tests a day.
+[02:45] We totaled it, 28 million.
+[02:48] This is lab or to hurry PCR tests.
+[02:51] Those three years, we did 700 million plus revenue
+[02:55] in three years time.
+[02:56] We listed on the NASDAQ in 2022,
+[02:58] where household name, everyone that arrived
+[03:01] in the Hong Kong at one point had a mandatory
+[03:05] Prenetix PCR test.
+[03:07] And then of course, that goes into IM8,
+[03:10] which is kind of what happened after COVID.
+[03:13] We had a billion dollar valuation during COVID in 2022,
+[03:17] because COVID was still going on.
+[03:19] 18 months later, our market cap hit,
+[03:22] I think it was like 50 million, right?
+[03:25] Went from billion plus to 50 million, we all like shit, right?
+[03:29] You really know who your friends are at that point, right?
+[03:31] Because I had a billion.
+[03:34] You got a lot of friends at a billion.
+[03:36] You got a lot of friends at a billion.
+[03:38] When you're down 95%, okay, the stock's down 95%,
+[03:42] were the friends also down 95% or it wasn't so bad?
+[03:45] No, I mean, the friends wasn't down 95%,
+[03:48] but when you're going up, everyone wants to be involved,
+[03:50] which is natural to be fair, right?
+[03:52] Everyone wants to be surrounded by winners,
+[03:54] but very few want to be surrounded and associated
+[03:58] when you're going down, right?
+[04:00] Because I think the path to recover
+[04:03] is significantly much harder.
+[04:05] I mean, we had a few options, like, you know what?
+[04:07] Why don't we just close the business?
+[04:09] Because you have to think about the background, right?
+[04:12] I think in 2022, we did 272 million revenue, right?
+[04:21] And basically 40,000 tests turned to nothing, right?
+[04:25] So basically a revenue dropped by 95%.
+[04:28] And to be fair, I think the market realized that
+[04:31] and it was workfully valued.
+[04:33] So we started here, what do we do?
+[04:36] Do we close up shop, just return capital to our shareholders?
+[04:40] Do I do something else?
+[04:41] I mean, of course, I've been successful
+[04:44] as an operator as well as an investor, right?
+[04:46] So I love options still, but, you know,
+[04:48] I knew that I still wanted to create something out of this
+[04:53] and also wanted to be very responsible
+[04:56] to the shareholders from before.
+[04:59] Coincidentally, at the same time as we were thinking
+[05:01] what to do, you know, I had the opportunity
+[05:05] to meet with David Beckham.
+[05:06] And this was right at the same time where I was thinking
+[05:10] about getting into the supplement category.
+[05:13] And when I met David, you know,
+[05:16] it wasn't to like pitch him on,
+[05:18] hey, let's get to the supplement category.
+[05:20] We're just having a conversation about his background,
+[05:24] what he's doing.
+[05:25] And he was very intrigued about my consumer background
+[05:29] as well as my life sciences background.
+[05:31] And he was telling me, you know, about his problem,
+[05:35] him and Victoria's problem about how,
+[05:38] even for where they are as individuals,
+[05:40] and of course, you know, they have all these resources
+[05:42] available to them, right?
+[05:44] They even found a supplement category very overwhelming,
+[05:48] especially that when they're traveling,
+[05:51] you know, they just can't maintain that routine
+[05:54] of taking 12, 13, 14, 15 pills in these capsules
+[05:57] and et cetera, they just, yeah, don't do it, right?
+[06:01] And then me as entrepreneurs like, hey,
+[06:03] I'm sure there's a better way for that.
+[06:07] And yeah, after, you know, three to four months,
+[06:10] countless conversations as I'm sure you can imagine,
+[06:14] and someone with David's pedigree and background,
+[06:17] if something went wrong, it's not,
+[06:19] no one cares about Danny,
+[06:21] it's always gonna be a David something blew up, right?
+[06:24] So he had to take significant precaution.
+[06:29] And I told David from day one day,
+[06:30] David, I know, you know, for the last 30 years,
+[06:33] there's been so many people wanting to do this category
+[06:35] as you reject it.
+[06:36] And I told David something that was surprising to him.
+[06:40] I was like, David, if we do this together, yeah,
+[06:42] I don't want you just as ambassador,
+[06:44] I want you as a co-founder,
+[06:45] but this brand has to live beyond you.
+[06:48] I don't want this to be another celebrity brand.
+[06:51] Yeah, so let's explain what I am a is, right?
+[06:54] Cause that's the current business.
+[06:55] So I am a, if I go to the website,
+[06:57] I see Beckham, I see Giannis, I see Lily Collins,
+[07:01] I see a bunch of famous people
+[07:03] and they're drinking a little red drink.
+[07:05] And, you know, so if you've seen-
+[07:07] I have been here too, yeah.
+[07:09] Most of the supplement category is green,
+[07:10] you guys are red and it's some sort of supplement drink,
+[07:15] longevity drink, you got the Beckham stack on here.
+[07:18] And can you explain just in short, like, you know,
+[07:22] just real quick, like what actually is the product
+[07:24] that you sell?
+[07:25] Yeah, so we've made the business model very simple.
+[07:28] We came out with our daily ultimate essentials
+[07:30] and it's very simple, right?
+[07:32] It has 90 ingredients, replaces 16 different supplements
+[07:36] in a powder sache.
+[07:38] You mix it with 12 ounces of water,
+[07:40] you just drink it every single morning
+[07:42] and it takes care of your foundational nutritional needs.
+[07:45] So what does that mean?
+[07:46] All of your multivitamins.
+[07:49] Your CoQ10, MSM, probiotics, prebiotics, postbiotics.
+[07:54] And cause normally you would have to take the equivalent
+[07:56] of 16 different supplements
+[07:58] that would easily cost you $250 to $300 on a monthly basis.
+[08:04] Yeah.
+[08:05] And for us, we're selling at $90 a monthly basis,
+[08:07] this combination, which also tastes great
+[08:10] and you can carry around with you everywhere.
+[08:12] Right.
+[08:13] And you guys have been, I mean, you're a public company,
+[08:15] so you're public about your numbers,
+[08:16] but you've talked about your numbers before.
+[08:18] Yes.
+[08:19] You're only about a year into this product line, right?
+[08:23] We're only 20 months in.
+[08:25] We only launched December of 24, right?
+[08:27] And now we've been the fastest grown supplement brand,
+[08:30] you know, ever recorded.
+[08:32] What does that mean?
+[08:33] How fast have you grown?
+[08:35] We had 100 million annual revenue run rate at 11 months.
+[08:39] In this category,
+[08:41] why is I mean, growing still in 22 months, right?
+[08:43] And they were acquired for 1.2 billion after three years.
+[08:47] Each one took them 10 years to hit 100 million.
+[08:50] We hit 200 million run rate in 18 months.
+[08:54] So you're at 200 million a year.
+[08:55] So there's two, two angles to this, right?
+[08:57] I have my e-com nerd hat,
+[08:59] because that's been an e-commerce
+[09:00] and I can ask you about the funnel and all that.
+[09:03] Then there's just like high level, you know,
+[09:07] product market fit.
+[09:08] When a product hits a nerve
+[09:10] and you've nailed the positioning, the branding,
+[09:13] you've nailed something in category and positioning.
+[09:16] Can you talk to me about category and positioning?
+[09:18] Because I think those are highly underrated
+[09:20] and most people are terrible at that.
+[09:21] It's very hard to recover.
+[09:22] If you have category and positioning wrong,
+[09:25] you can be the best at just trying to crank
+[09:27] that grind the funnel,
+[09:29] but it just doesn't matter if you haven't gotten those,
+[09:31] that the first key decision, right?
+[09:33] Can you talk to me about category and positioning?
+[09:35] Oh, do you see that?
+[09:36] I just stepped over a million dollar problem,
+[09:38] a million dollar business idea.
+[09:40] And that's the thing most people walk by
+[09:42] these million dollar ideas all the time
+[09:44] and they don't even notice.
+[09:45] And so our friends at Starter Story,
+[09:47] they put together a list of 90 business idea
+[09:51] each one it's vetted.
+[09:52] They're all real problems, real gaps in the market
+[09:54] because they talk to hundreds of entrepreneurs
+[09:57] and they put together this amazing stuff
+[09:58] that's incredibly well researched.
+[09:59] And so if you want to find a bunch
+[10:01] of amazing business opportunities,
+[10:02] you can get it for free.
+[10:03] Just scan the QR code or click the link in the description.
+[10:07] Even before we got into this category,
+[10:11] everyone told me not to do this.
+[10:13] They're like, hey, supplement category,
+[10:15] highly competitive,
+[10:16] so many bad eggs and to be fair,
+[10:18] I mean, I can tell the story now
+[10:20] is that my whole board disagreed with me, right?
+[10:23] They're like, you don't know anything
+[10:25] about supplement standing, I mean, it's true, right?
+[10:27] I haven't gotten, I didn't do anything
+[10:30] in this category before, right?
+[10:31] Yeah, it was e-commerce selling coupons, DNA testing,
+[10:35] running the lab, all that stuff.
+[10:37] Yeah, but also to be fair, yeah,
+[10:40] before any of that, I never had a background
+[10:42] as well too, right?
+[10:43] Yeah, so of course, yeah, the board was like, you know what?
+[10:47] And then we have to make a, of course,
+[10:48] a commitment with David Beckham,
+[10:50] or yeah, he was now a small commitment, correct?
+[10:53] And so they disagreed with me,
+[10:56] but you know, I knew that if we made a great product
+[11:01] and we've nailed the positioning and the brand right,
+[11:04] and with the support of DV, you know,
+[11:07] this would be a home brand.
+[11:09] So I had to really fight and educate my board.
+[11:13] And again, it's like, you know what,
+[11:14] if I'm wrong, I'm gonna resign.
+[11:16] I'm gonna, yeah, quit, right?
+[11:18] That was what, that was my position.
+[11:20] Because it really, I needed to be convinced myself
+[11:24] that was, this was the right move.
+[11:27] But what made you think that this would be the right move?
+[11:29] Because it is true, it's complicated, right?
+[11:31] Like a lot of people have a celebrity who cares, right?
+[11:34] Like, that doesn't do anything.
+[11:35] They lost celebrity brands' feel, right?
+[11:36] They're like, they're like, my board, tell me it,
+[11:38] there's so many, there's actually more failures
+[11:40] of celebrity brands if you think about
+[11:43] then actually success cases, right?
+[11:45] So what was your take?
+[11:46] So my take was the number one,
+[11:48] and everything starts with the product, right?
+[11:50] Everything starts with a better product
+[11:52] than what's available in the market.
+[11:53] And it can honestly say, yeah,
+[11:56] we have the best product in the market,
+[11:58] but like you fairly pointed out,
+[12:00] consumers may not recognize that, right?
+[12:02] And so this is where from day one,
+[12:04] we spend more time also on the taste profile.
+[12:09] Because a lot of times people have the great product
+[12:11] about what was that, but if it doesn't taste good,
+[12:12] no one's gonna drink it, right?
+[12:14] So I spent a week at the factories
+[12:16] that's every single day testing
+[12:18] like 20, 30 different flavors
+[12:20] until we got that taste like, ah, you know what?
+[12:23] This taste is good, right?
+[12:25] And that too wants to drink again.
+[12:27] But those two things, those two also doesn't relate
+[12:30] to success, right?
+[12:32] So you mentioned the color, the brand,
+[12:35] we wanted this to stand out,
+[12:36] we didn't want to just create another greens powder, right?
+[12:38] Then no one created a reds powder, right?
+[12:40] And then so I didn't buy the fall.
+[12:42] That was interesting to people.
+[12:44] Is it red because it's like made of beets
+[12:46] or it's red because you made it red?
+[12:48] Like, well, you know what I mean?
+[12:49] Like, did it need to be red or you chose to be red?
+[12:52] It was a natural coincidence
+[12:53] that when we created the formulation,
+[12:55] there was like beets inside and the formulation.
+[12:59] And this was a natural red color.
+[13:01] And no one loves shit.
+[13:02] Let's just go hard on this color, right?
+[13:05] Which then made sense.
+[13:06] And then our packaging, if you look at it,
+[13:08] it's a very big red box, right?
+[13:10] It's very premium, the positioning.
+[13:12] So I didn't want it just to be another supplement.
+[13:15] Brown wanted to have a really great unboxing experience.
+[13:20] It's bold, a name, yeah, easy to remember,
+[13:25] the fonts, the colors.
+[13:26] And you come up with the name
+[13:26] because you know, whenever I brainstorm company names,
+[13:29] you get 500 names, each one you look at,
+[13:32] you're like, that could be it.
+[13:33] And then, you know, so like if I had written down
+[13:36] on my list of supplement names,
+[13:38] I am and then the number eight.
+[13:40] I might have, maybe it'll be like, oh, that kind of flows,
+[13:43] but I would have, the courage it takes
+[13:45] to pick such a weird name.
+[13:47] Where does that come from?
+[13:48] Why that name?
+[13:48] Why that name?
+[13:49] I'm very good at names, right?
+[13:51] I would say, I'm like really good at names.
+[13:53] I mean, my e-commerce company is called You Buy I Buy, right?
+[13:56] Group buying, right?
+[13:57] With that just remember you.
+[13:59] Then Pre-netics was half prevention and genetics.
+[14:03] So you have Pre-netics, right?
+[14:04] And then of course, I am eight.
+[14:06] It came out one that's something simple and easy to remember.
+[14:10] And then I am means I am.
+[14:12] And then eight, if you flip it around,
+[14:14] means infinity and infinite possibilities, right?
+[14:17] And I knew at one day, we'll enter China
+[14:20] and the number eight will also work in China.
+[14:23] Right?
+[14:23] So there's definitely meaning.
+[14:24] That's the lucky number of China, right?
+[14:25] Number me, and it's like I am healthy, I am strong,
+[14:28] I am powerful, so there's a great meaning behind it.
+[14:33] Okay, and so you go into this category.
+[14:36] Now you get your formulation done.
+[14:38] What's the zero to one?
+[14:40] So what did that look like?
+[14:41] You just fire up Facebook ads, Shopify store,
+[14:43] did you do anything else?
+[14:44] Like what did zero to one look like?
+[14:45] Zero to one again, the formulation part, you know,
+[14:49] I would say was a result of also getting
+[14:52] an amazing scientific of ours report.
+[14:54] Yeah, on.
+[14:56] Again, when I looked into this, it was like,
+[14:57] okay, what are all the different challenges
+[14:59] someone can go at us?
+[15:02] And it's like, hey, it's just because
+[15:03] we have David Beckham, it's not enough.
+[15:05] And everyone knows David's not a scientist, right?
+[15:08] I'm not a scientist, right?
+[15:09] So we, then the next step was recruiting
+[15:13] a world-class scientific of ours,
+[15:14] you're born the likes of Dr. Don Muzilam from MailClick.
+[15:19] You know, James Green, the former chief science of NASA,
+[15:22] Suzanne Defkoda, the director of micro biomass,
+[15:25] say there's Sennai.
+[15:26] So these individuals we brought along,
+[15:29] they all took part in creating this formulation.
+[15:33] And that wasn't enough.
+[15:34] And how did you do that, by the way?
+[15:35] That's what, you're cold emailing, is there a,
+[15:38] I actually know there's like an agency,
+[15:40] there's like a brokerage service,
+[15:41] I don't know if you know this one.
+[15:42] There's a brokerage service between doctors and supplement
+[15:45] brands that literally is like,
+[15:47] get a doctor on your brand, I don't know if you've seen this.
+[15:50] I haven't seen this.
+[15:50] There's like a very niche agency some guy has.
+[15:52] But what did you do?
+[15:53] You cold call these people, you go fly out, meet them.
+[15:56] Yeah, so I mean, what's happening?
+[15:58] I knew the former chief science of NASA prior.
+[16:02] Yeah, yeah, basically he was at NASA before two years.
+[16:04] So that was easy because he knew me, right?
+[16:06] And get a lot of this relationships is built on trust.
+[16:09] And you know, for Dr. Don Musellum,
+[16:12] yeah, I contacted her on LinkedIn.
+[16:14] We got on a call and again,
+[16:16] the first time we had it, she was very skeptical.
+[16:18] Cause so many supplement brands, you know,
+[16:21] reach out to them.
+[16:22] And again, especially as if you're a practicing physician,
+[16:26] yeah, it's also quite rare to work with a supplement brand,
+[16:30] especially if you're, let's say, with Mayo Clinic.
+[16:32] Really, really rare.
+[16:34] Cause they have a lot of restrictions, et cetera, et cetera.
+[16:36] Right. So, but I think from day one,
+[16:39] yeah, even I told Don again,
+[16:40] where we're still working today very closely
+[16:43] is that we need to prove the science and evidence.
+[16:47] Yeah, so that's why we embarked on a clinical trial
+[16:50] before we launched a brand.
+[16:52] We embarked on third party testing
+[16:56] by not just one organization, but by two,
+[17:00] by Eurofins and NSF certification for sport.
+[17:04] So that means if you're a professional athlete,
+[17:06] you know it's free from 280 band substances.
+[17:09] So I have a lot of friends who are in the supplement game
+[17:11] and in general, when you're in e-commerce,
+[17:14] it's easy to become very skeptical and very jaded.
+[17:17] Of course.
+[17:18] Not because anybody means poorly,
+[17:20] but just because it's very easy to get something up
+[17:22] and running and put all your effort into the packaging,
+[17:25] maybe even summon to the taste,
+[17:27] but ultimately, you know, you're not in the factory.
+[17:32] And also, it's very easy to have something
+[17:36] that might help, but it's not scientifically proven, right?
+[17:40] Scientifically proven is a very high bar.
+[17:42] And so I would say there's almost two parts of the ledger.
+[17:45] There's the first part, which is like,
+[17:47] are these clean ingredients and is it made in clean fracture?
+[17:49] That's kind of like trust test number one.
+[17:52] Trust us number two is, what the hell is a postbiotic?
+[17:55] What's prebiotic?
+[17:56] Does any of this stuff actually matter?
+[17:57] If I drink this, does anything really change in my body?
+[17:59] I know, obviously, I'm asking, you know,
+[18:02] the priest if religion is real,
+[18:04] but I guess like, if I'm a highly logical, rational person,
+[18:07] what would be your most convincing thing you could tell me
+[18:11] that would make me actually believe in supplements?
+[18:13] A lot of supplements out there don't work.
+[18:15] And that's the reality, right?
+[18:17] And I think the best validation of our product
+[18:20] is that it doesn't matter who we have,
+[18:22] back on blah, blah, blah, et cetera.
+[18:24] Our business won't be in 20 months,
+[18:26] it can be a 200 million plus business
+[18:30] without recurring subscriptions.
+[18:32] And that means the product works as advertised, all right?
+[18:37] How does someone know that the product works?
+[18:38] How does the customer feel?
+[18:39] Oh, you feel it.
+[18:40] I mean, you'll feel it.
+[18:41] And then the best way to do it.
+[18:42] Energy, what have you done?
+[18:45] Better energy, recovery, yeah?
+[18:48] You sleep better, you're gut, yeah,
+[18:50] everything is working better.
+[18:52] Yeah, and of course a lot of these individuals
+[18:54] use our CEOs, athletes.
+[18:57] I think the best case I can show you.
+[18:59] I mean, I was surprised by this email, right?
+[19:01] Around last April or May of 2025, right?
+[19:06] I got an email from Arena Saba Linka's team, right?
+[19:09] Cole email into me, right?
+[19:12] They're like, hey, Arena's been on your product
+[19:14] for about three months now via a recommendation
+[19:18] from her nutrition coach.
+[19:20] When you're the world number one tennis player,
+[19:22] every single thing, they're measuring the recovery,
+[19:25] how you're feeling three to four times on a daily basis.
+[19:28] And they don't need a bullshit, right?
+[19:30] I mean, she has so many options and resources.
+[19:32] And she's like, yeah, she's been feeling amazing
+[19:34] from a recovery perspective.
+[19:36] And she hasn't gotten sick while on the product
+[19:39] given that they're traveling, yeah,
+[19:41] different times on every single week.
+[19:43] Can we partner together, right?
+[19:45] And so that was a great validation of the product working
+[19:49] at the highest level of sports.
+[19:51] And the reality is also every single ambassador
+[19:55] that came after that was inbound to me.
+[19:59] Hey, let me ask you a question.
+[20:00] Is the market in China or India for that matter,
+[20:04] like two big population places?
+[20:06] Is the supplement market the same?
+[20:09] Is it just the same but 10 years ago?
+[20:12] Is it different?
+[20:13] What's going on over there?
+[20:14] India, to be honest with you, I don't know.
+[20:17] I do know it's a much lower price point category.
+[20:21] In China, they do have AG1,
+[20:24] but it's not like, yeah, for one,
+[20:25] in the sense of not doing well.
+[20:28] What do you think that is?
+[20:29] Is it all just price point or is there another factor?
+[20:32] I mean, again, it goes back to price point,
+[20:34] education, branding, positioning.
+[20:37] There's like so much, right?
+[20:38] I mean, to be fair, 99% of American companies
+[20:42] going to China and think they can just succeed
+[20:45] with the same business model.
+[20:47] And for China to operate it successfully,
+[20:51] you need to a completely different business model,
+[20:54] completely different team.
+[20:56] Like for example, my team can't do China, 100%.
+[20:58] There's like no hell, they get no way they can do China.
+[21:01] So for me to enter China,
+[21:03] I would need to get a completely new team
+[21:06] of every single individual.
+[21:09] Hey, let's take a quick break.
+[21:10] You know that feeling when strategy is done,
+[21:12] the brief is written, everyone's aligned,
+[21:13] and you realize someone still has to sit down
+[21:15] and actually create all the content?
+[21:16] That someone is usually you and it's due tomorrow.
+[21:19] Well, the Breeze Assistant from HubSpot can help.
+[21:21] It works right inside HubSpot.
+[21:23] You can draft a campaign copy, blog posts, emails,
+[21:25] all in your brand voice,
+[21:26] all using your actual customer data.
+[21:28] So you don't create just content.
+[21:30] You create content that converts.
+[21:31] Check out HubSpot.com,
+[21:33] the Adgentic Customer Platform for Growing Businesses.
+[21:37] Tell me about some of the operational excellence.
+[21:39] So I wanna know what are some things that you're doing
+[21:41] that I could look at that I could be inspired by.
+[21:45] Oh, the way they do that, that's really good.
+[21:47] So now, I'll give you a couple examples.
+[21:49] So we had Chad from Grunes on the podcast
+[21:51] and he was showing us their funnels with their Facebook ads.
+[21:53] We're looking at his ad library together.
+[21:55] And they were showing like,
+[21:56] he's got like, you know,
+[21:58] there's eight different sort of reasons to buy, right?
+[22:01] Maybe you're on ozempic and you want ozempic support.
+[22:04] Maybe you're looking for mood and here's a mood thing.
+[22:08] Maybe you're a woman and your hair
+[22:09] and your hair's falling out post part or whatever.
+[22:11] I don't remember the exact angles.
+[22:13] He's like, I've got like the ad
+[22:15] that goes to the landing page for that persona
+[22:17] for that problem for that sales pitch.
+[22:20] And I'm running all eight simultaneously,
+[22:22] whereas most entrepreneurs are, you know,
+[22:23] usually just get fixated on one
+[22:25] and they don't get as much of the market who tell us that.
+[22:28] Or Eric Ryan from Method Soap and Ali Gummies came on
+[22:33] and he was, he's a master of packaging and positioning.
+[22:36] And he said, I was looking in the vitamin aisle
+[22:37] and you know, first thing I knew was that every container
+[22:40] was round and so we would be a rectangle.
+[22:42] And he's like, it's as simple as that.
+[22:44] I look for a sea of sameness.
+[22:46] And everywhere in the aisle that I see a sea of sameness,
+[22:48] I know there's an opportunity to come and do something different.
+[22:50] That's what they did in Band-Aids and Soap and vitamins.
+[22:53] Yeah, I would say even right now, you know,
+[22:56] to be fair wise, you know, the ads and landing pages,
+[22:58] per zone, that's quite standard operating for a seizure
+[23:00] right now, right?
+[23:01] If you're a DTC brand doing $100 to $200 million,
+[23:05] I mean, you have to be doing that, right?
+[23:07] I think for us wise,
+[23:09] any one thing that we've done really well
+[23:11] with scaling on meta ads, you know,
+[23:13] right now we have anywhere from, you know,
+[23:15] two to 3,000 ads live at any given time
+[23:18] we're testing out, you know,
+[23:19] 500 to 800 creators on a weekly basis.
+[23:22] So it's that constant testing that is really, really important,
+[23:26] right?
+[23:27] And right now, the reality is even with Appbuying,
+[23:30] I mean, you know, Appbuying is like a commodity, right?
+[23:33] Now, yeah, before a few years ago,
+[23:34] you have to be really, really good at Appbuying,
+[23:37] but now meta does all of that for you already, right?
+[23:40] You don't need to do the targeting,
+[23:41] you don't need to do all this stuff, right?
+[23:43] All you need to really figure out
+[23:45] is how do you get really good creators
+[23:47] and really good creative diversity
+[23:49] on the different personas,
+[23:50] because now you need the creative to do the targeting.
+[23:54] And so tell me about that creative machine.
+[23:55] So you said two things, you said,
+[23:57] you have a couple thousand ads running at a time.
+[24:00] So are those like statics or those videos?
+[24:02] Data and videos, I would say is well, you know,
+[24:04] 55, 60% statics and then the rest of the videos.
+[24:08] And you're doing that with what?
+[24:09] A studio, you're doing that with AI,
+[24:11] what is the machine that's building all that?
+[24:14] Combination of everything.
+[24:15] So we have our own ambassadors.
+[24:17] Yeah, again, we have,
+[24:19] of course we have like the top 10,
+[24:21] so very famous ambassadors,
+[24:22] then we have another thousand or more
+[24:25] so ambassadors affiliates
+[24:27] that are creating lots of content for us
+[24:30] on a daily basis, right?
+[24:31] And that feeds the engine depending
+[24:33] on whichever personas that we're going to.
+[24:35] And a lot of times you have your proven winners
+[24:37] and then it's like,
+[24:38] how do we recreate all these proven winners?
+[24:41] Because, you know, there's also
+[24:42] creative fatigue that happens, right?
+[24:44] So we have our own creative fatigue score
+[24:48] that we identify.
+[24:50] So we know, okay, when a ad is potentially going
+[24:53] to get in fatigue,
+[24:54] which then ultimately will drop that row as, right?
+[24:57] Again, 300,000 above on a daily basis on meta,
+[25:01] you know, which is quite high,
+[25:03] given that we're only 20 months in, right?
+[25:05] And we've been able to scale that.
+[25:08] And in one key, again,
+[25:09] public information given where public company is that,
+[25:12] if you look at what happened in Q2 versus Q1,
+[25:15] Q1, our CAC was three or five, right?
+[25:18] Our average order value is about $230, right?
+[25:21] So,
+[25:24] and we doubled our marketing spending Q2, right?
+[25:27] We doubled it from about $17 to $33 million in a quarter, right?
+[25:31] Our CAC actually went down by $4, right?
+[25:36] From three or five, three or one.
+[25:37] Because you would imagine if you're doubling spend,
+[25:40] your CAC is always going to go up, right?
+[25:43] And then so I think we've reached a point where, again,
+[25:45] we got the engine running, the brand is also doing very well
+[25:49] from a brand position, and we've ran now 200 plus
+[25:53] all-flying events.
+[25:54] I think this is something that I haven't seen
+[25:56] any other supplement brand do.
+[25:58] Why are you doing that?
+[25:59] Because that creates content or because that creates oil
+[26:02] to your both, what's the main reason
+[26:03] to do 200 offline events?
+[26:05] It's very important from us from day one,
+[26:08] and it's about a bit, this is about a authentic product
+[26:12] science, and when we have these events,
+[26:14] we have our scientific advice report members there.
+[26:17] They're talking about the product, right?
+[26:18] And again, this is not just a marketing aspect,
+[26:22] it's a real science behind the brand.
+[26:24] They get to meet our formulators and our scientists
+[26:28] and doctors last week in New York,
+[26:30] we did like seven events in seven days, right?
+[26:33] As part of the US Open, I always say these,
+[26:36] the events are very difficult to scale, right?
+[26:40] But I think that's very, very important,
+[26:43] especially in the age of AI, you don't know what's weird,
+[26:46] well, you don't know what's fake or whatever, right?
+[26:49] And that's why having the offline presence
+[26:52] is really important for us.
+[26:54] Yeah, and I think that's pretty counter
+[26:55] to where most brands are right now.
+[26:57] I think it's so easy to sit at your laptop, fire up ads,
+[27:02] tweak your landing page, and it's clearly you get the scale,
+[27:05] you get to measure it, you get the feedback loop right away,
+[27:09] you don't have to go get face rejection out in the real world,
+[27:12] and it almost means that offline
+[27:14] has this disproportionate premium
+[27:16] because it's simply less contested.
+[27:18] And once you've had an in-person touchpoint
+[27:21] and then you go see an ad, right?
+[27:22] It's gonna be a completely different experience
+[27:24] than if you've never, it's just a brand new version.
+[27:26] A hundred percent, and I know a tribute,
+[27:28] you have that cack lowering when we double our spend.
+[27:31] We're not talking about a lot of spend doubling, right?
+[27:35] And even July, our cack fell to $239, right?
+[27:40] Yeah, you know, which is spending more
+[27:43] than $10 million a month on marketing, right?
+[27:45] And then so it was contained lower if I do believe,
+[27:48] again, I don't have quantifiable data
+[27:51] to say these are all offline,
+[27:53] but I'm gonna continue to double down offline events
+[27:56] because that's really important to the brand side of things.
+[27:58] Tell me about some of the kind of early days
+[28:00] of entrepreneurship where maybe your entrepreneurial philosophy
+[28:04] got formed or the core skills that are helping you today,
+[28:09] but where were they first kind of originate?
+[28:11] What would you cut your teeth doing it?
+[28:13] I mean, so I dropped out of high school, right?
+[28:15] So I was, you know, basically a bad kid,
+[28:19] got kicked out of high school for fighting.
+[28:21] So I had to really learn everything, you know,
+[28:24] on the streets, I would say, right?
+[28:26] As an entrepreneur, you're always faced
+[28:29] with making decisions with very limited information.
+[28:33] And I think, you know, for everyone that knows me,
+[28:35] I'm like very street smart, right?
+[28:38] I can figure things out by myself with very little information.
+[28:41] Where were you going to high school?
+[28:42] In San Francisco.
+[28:44] Oh, you were in San Francisco, so you get kicked out.
+[28:47] So why telemarketing?
+[28:48] How did you stumble into telemarketing?
+[28:50] I mean, I didn't stumble, I think it was like,
+[28:53] what do I do, you know, I'm not going to school, right?
+[28:56] So, and then as a telemarketer, you know, I was 15,
+[28:59] it was good idea, I was good in, you know,
+[29:01] kind of like co-calling people.
+[29:02] What were you selling?
+[29:03] I was telling time shares.
+[29:05] Time shares, yeah.
+[29:07] Yeah, a room of time shares is like, again,
+[29:09] this is about 30 years ago, right?
+[29:11] So those few years where I was, I was a very bad kid,
+[29:16] actually formed a lot of my thinking as an entrepreneur,
+[29:20] because I always had to reinvent myself,
+[29:22] always had to go to a new school, make new friends,
+[29:26] and get very comfortable.
+[29:27] And yeah, I believe I can survive anywhere.
+[29:30] You put me into Nigeria, Africa, whatever it is,
+[29:32] I will figure it out.
+[29:33] Yeah.
+[29:35] Yeah, the sort of more adversity you face,
+[29:37] the more confidence you get when you survive.
+[29:41] You know, there's another guy, Craig Clemens,
+[29:44] who came on the podcast, good friend, great guy.
+[29:46] He's also an e-commerce sponsor.
+[29:47] So his company, Golden Hippo,
+[29:49] does hundreds of millions a year in sales,
+[29:50] bootstrapped him and his brothers.
+[29:52] He also was in telemarketing, he was selling dating products.
+[29:55] He was younger.
+[29:56] And you know, for him, one of the ways he got better at sales
+[30:00] was he was going to these seminars and he was reading books
+[30:04] and he was just looking for like anything
+[30:05] he could pull out, one line, one copywriting thing,
+[30:07] one psychological sort of hook that he could pull on to.
+[30:11] Did you do any of that,
+[30:13] or were you just brute force numbers game?
+[30:15] I mean, you have to like communicate properly, right?
+[30:18] I think you always have to be direct
+[30:20] and I've always kept that, right?
+[30:21] So very transparent in terms of,
+[30:23] hey, especially with B, let's say,
+[30:25] trying to meet someone for the first time,
+[30:27] always telling my team,
+[30:27] Jan, don't talk about Bo as BS, right?
+[30:30] I think you just have to be direct and transparent.
+[30:33] What's in it for them, what's in it for us?
+[30:35] And again, for me, I've always, for each of my businesses,
+[30:38] I'm always trying to deliver greater value first.
+[30:43] I think that's very important.
+[30:45] I never try to look at what's in it for me.
+[30:47] I was like, what can I help this person with?
+[30:49] How can I help my partner?
+[30:50] How can I help their business?
+[30:51] And that's been my philosophy from day one.
+[30:53] I think if you have that type of philosophy going in,
+[30:56] it doesn't matter if the other partner
+[30:59] doesn't reciprocate, you move and you learn to move on.
+[31:03] So you tell marketing, you learn about the numbers game,
+[31:06] you learn that you got to sort of figure it out,
+[31:08] so you get street smart to figure out things that survive.
+[31:10] And you learn, it doesn't matter who you talk to, right?
+[31:12] You can, I can go up to anyone that's a space late,
+[31:15] and the worst thing that happens is to reject me, right?
+[31:17] How many people would you call in a day?
+[31:20] It was like night shift at the time,
+[31:21] when I was working.
+[31:22] So I was like, you know, six, 30,
+[31:23] then I would say 100, 200 people.
+[31:27] And of that, what's the rejection rates?
+[31:29] They'll be like, how much?
+[31:30] Ninety, ninety, ninety, ninety five percent, right?
+[31:37] And so was that something?
+[31:39] Did you have to sort of, would you tell yourself
+[31:41] to be able to like kind of quickly bounce back from that?
+[31:44] No, he's just, I mean, again, it's a, it's a numerous game.
+[31:46] You just fail, you know, but basically you just tell yourself,
+[31:48] hey, you know, the next one is going to be more likely
+[31:50] to be positive, right?
+[31:52] So you have to just get through it.
+[31:53] And I think, you know, to be fair,
+[31:54] telemarketing taught me a lot.
+[31:55] Yeah, you have to have a dick skin.
+[31:57] Even when you talk to investors, same thing, right?
+[31:59] When you're early on, they's getting investment.
+[32:01] I mean, you talk to a hundred investors.
+[32:03] Yeah, only five maybe, may invest in you.
+[32:05] So there's nothing different about that.
+[32:07] It's just, you're not getting rejected,
+[32:09] like hanging up behind you,
+[32:11] but you're still faced with that, right?
+[32:12] I mean, giving example of how that came to use, right?
+[32:17] So I was doing my hotel furniture business.
+[32:19] I was cold calling, basically MGM, then I got a meeting.
+[32:24] And then once I was able to get a meeting,
+[32:25] that was able to deliver the value I was able to get.
+[32:28] But without my cold calling days,
+[32:29] I probably wouldn't have done that, right?
+[32:31] Even when I did my e-commerce business,
+[32:34] UBII by which was group buying,
+[32:37] I remember I went to Hong Kong
+[32:38] and I had to cold call all the merchants, myself, right?
+[32:41] Because again, you know, it's not like, you know.
+[32:43] It starts off with nobody.
+[32:44] It starts with nobody, right?
+[32:45] So I remember one time I was calling a big restaurant group
+[32:48] and then director of marketing, he hung up on me.
+[32:50] And I was like, he hung up on me really like,
+[32:53] he like was like, it hurt me.
+[32:54] I was like, wow, this guy, like,
+[32:55] he said some like very bad words
+[32:57] and blah, blah, blah to me, right?
+[32:58] And then normally he was like, oh shit,
+[33:00] you probably like, you know, that was dinging.
+[33:02] Wow, who's this guy's boss?
+[33:04] I was thinking, right?
+[33:05] And then I like found who this guy's boss is.
+[33:09] He was director of marketing
+[33:10] and I cold call the office and it was Sandeep
+[33:13] and he owned like 30 plus restaurants,
+[33:15] his Indian entrepreneur.
+[33:16] And I asked for Sandeep called a front desk.
+[33:19] He picked up the phone and then I'm like,
+[33:22] hey, this is Danny.
+[33:23] I just moved to Hong Kong.
+[33:24] I moved here from the US.
+[33:26] Yeah, can have five minutes of your time
+[33:28] because I have this interesting e-commerce idea
+[33:31] and would love to see if I can partner with you, right?
+[33:34] And then he met with me the next day for 20 minutes
+[33:38] and he told me Danny, hey, Danny,
+[33:41] I don't think your business is gonna work in Hong Kong
+[33:43] because why would I give 50% off to customers
+[33:47] and I only get 25% of the check, right?
+[33:51] But you know what?
+[33:52] Because you called me after my director of marketing
+[33:57] hung up on you and we're still here.
+[33:59] I'm gonna work with you
+[34:00] and give you all of my dirty restaurants and sign you up.
+[34:03] And he did that because he knew I didn't give up
+[34:07] and just was persistent, resilient
+[34:09] and that changed the directory of the business
+[34:12] because he gave me 30 restaurants
+[34:13] and I needed one deal a day, right?
+[34:15] So he gave me basically my whole next 30 days was filled
+[34:19] by one guy saying yes.
+[34:21] And then of course then I can continue
+[34:23] but he was a big restaurant group, right?
+[34:24] It was very, and then I would then go
+[34:26] to other restaurant groups because he got him
+[34:28] because he was so famous.
+[34:29] Hey, yes and deep, Danny Kansa was just working with us.
+[34:32] Yeah, can you partner too?
+[34:33] Then yeah, and once you get some traction, et cetera,
+[34:37] then more and more people will work with you, right?
+[34:39] But that's just reality.
+[34:40] Someone has to give you a chance
+[34:41] and he's just always got to be on the hunt.
+[34:44] My uncle Vinny was a door to door
+[34:47] when he came to the country.
+[34:48] He came to this country.
+[34:48] He was a door to door salesman of like the Bible
+[34:51] or I don't know what he was selling.
+[34:53] And I asked him the same thing.
+[34:54] I'm like, man, you were walking around in the heat
+[34:56] in Georgia, in the summers.
+[34:58] You're walking house to house, knocking on door,
+[35:00] like getting rejected even more than on the phone,
+[35:02] like to your face, door slam.
+[35:05] And same thing, 90 to 95% of people, door slam us.
+[35:08] He was the top sales guy.
+[35:09] And he had a thick Indian accent.
+[35:11] I was like, how did you do that?
+[35:12] And he goes, oh, I took rejection better than anyone else.
+[35:15] I said, well, how did you take rejection better?
+[35:16] He goes, I put a price on the word no.
+[35:19] So he said, if a yes is worth $100 to me
+[35:23] and it's going to take me, you know,
+[35:25] for every 20 no's, I get one yes.
+[35:28] Then he's like, then every no is worth $5 to me, right?
+[35:31] And he's like, I just, so when they would say no,
+[35:33] I would hear in my head, all right,
+[35:35] that's five bucks in the bank, let's keep going.
+[35:37] And so he's like, I was adding up the no's.
+[35:39] I was putting a price on it.
+[35:40] Cause I knew really like it's a numbers game.
+[35:42] I have to keep knocking.
+[35:43] And so I have to like sort of see each knock as a success,
+[35:47] even though my ears here is a rejection.
+[35:50] I have to change what I'm hearing.
+[35:52] And that led him to be the number one sales guy
+[35:54] in the country and he ended up training
+[35:55] all the other sales guys.
+[35:56] And I think there's a,
+[35:58] I think there's something everybody should take
+[35:59] from that, whether you're fundraising
+[36:01] or whatever you're doing that like, you know, e-commerce.
+[36:04] I think a good, like I think if I look
+[36:06] at our conversion rate right now,
+[36:07] I think it's like two point something percent.
+[36:10] Two percent, two percent, two and a half percent maybe.
+[36:13] And you know, 97.5% of people come to our site
+[36:16] and say, hell no.
+[36:18] Now you don't feel it as much when it's e-commerce,
+[36:21] but you feel it when it's over there, you know?
+[36:24] So it's all the numbers game.
+[36:28] Yes.
+[36:28] What else?
+[36:29] You mentioned MGM.
+[36:30] What's the story there?
+[36:31] I didn't understand that one.
+[36:32] When I started first working the hotel furniture business,
+[36:35] I was doing hotels that were like 50 rooms,
+[36:37] 100 rooms, small hotels, right?
+[36:40] How small hotels change?
+[36:41] Cause that's doing all of their custom furniture.
+[36:43] So I can you go back, why does Danny start
+[36:45] selling hotel furniture?
+[36:47] How does that happen?
+[36:47] No, because I was doing my restaurant business at the time.
+[36:50] I had a good friend that was an interior designer.
+[36:53] And she was just telling me, yeah,
+[36:54] she's a designer for these hotels.
+[36:56] And she was having difficulty sourcing furniture.
+[36:59] And I was like, why don't you look in China?
+[37:02] And she's like, she doesn't know how to.
+[37:04] And I'm like, why don't I help you?
+[37:05] And she's like, okay, why don't you help me, right?
+[37:07] And I just did it for her.
+[37:08] And then after a few of the hotels,
+[37:11] I figured out, you know, it's the same process
+[37:14] if I make 50 chairs or 50 tables,
+[37:17] as if I make two to 3000 chairs, right?
+[37:20] So I was like, who is making 2000 hotel rooms right now?
+[37:25] And at that time was like Vegas, right?
+[37:27] Then I started cold calling the Vegas hotels.
+[37:30] And eventually I cold called MGM
+[37:32] and it should give me a meeting.
+[37:34] And then I went into the meeting and one year later,
+[37:36] I got a four million dollar contract with MGM.
+[37:40] How did that feel, that first kind of big contract?
+[37:43] I mean, it felt amazing.
+[37:45] But of course, ultimately, you know, I wanted to deliver.
+[37:48] And that's why a lot of times even when we do
+[37:52] an achievement or milestone, you know,
+[37:54] I always tell the team, hey, this is good.
+[37:57] Yeah, but it's not the end, right?
+[37:58] We're just getting started, right?
+[38:00] And it's like, you know, even last month,
+[38:01] we had 20 million a monthly revenue, right?
+[38:04] But hey, this is good progress, great progress, I would say.
+[38:07] But we have so much greater opportunity.
+[38:09] So, but you know, of course, happy
+[38:11] that we're able to get such a big customer.
+[38:14] When you were doing the COVID testing,
+[38:16] you were kind of in the right place
+[38:18] when COVID hit where you could provide testing.
+[38:22] You said a couple of interesting things.
+[38:23] One, the ramp was crazy.
+[38:26] You said you did like 700 million revenue
+[38:27] in the couple of years, which is just a bonkers number.
+[38:30] I'm sure there was a lot of free cash flow in that too,
+[38:33] not just revenue.
+[38:34] Yeah, we made over $100 million net.
+[38:36] Net, yeah, exactly.
+[38:37] And you, the second thing was you said like in Hong Kong,
+[38:41] like everybody who entered the country had that sounds like
+[38:43] maybe you had like a kind of a really valuable key contract
+[38:46] that you won or some sort of like, you know,
+[38:49] pretty defensible position.
+[38:50] So can you tell the story of that?
+[38:52] And also during that, did you think, did you know?
+[38:56] Well, the music's gonna stop on this at some point.
+[38:59] And what happens after that?
+[39:01] Or did you say, I don't know, let's just run
+[39:03] and we'll figure it out when that happens?
+[39:05] Yeah, so I can tell you the backstory on this, right?
+[39:08] So I think this is in April, yeah, April of 2020.
+[39:14] So COVID was getting very bad.
+[39:16] I had a meeting with the chief executive of Hong Kong.
+[39:19] I was like, hey, you know, we have a lab.
+[39:22] You know, COVID seems to be getting worse and worse
+[39:26] by the day.
+[39:27] Yeah, can we somehow provide support
+[39:29] and make use of our laboratory?
+[39:31] Yeah, to basically to provide COVID testing
+[39:34] to the community, right?
+[39:37] And then, you know, the chief executive said the same
+[39:40] at the time saying, you know what,
+[39:42] we have our own public health laboratory.
+[39:46] We can do it all of ourselves.
+[39:48] So that was that, right?
+[39:50] And I'm like, okay, no worries.
+[39:51] And because at the time wise, it was very difficult
+[39:54] to get a COVID test in Hong Kong.
+[39:55] You would have to go to the hospital
+[39:57] and they were charging like three to $400 USD for COVID tests.
+[40:02] And then I knew the cost of a COVID test
+[40:04] is a fraction of that, right?
+[40:06] And they were making so much money at the time.
+[40:08] You don't want to go to a hospital to do a COVID test
+[40:10] because it means that you may get infected too, right?
+[40:12] I was like, you know what,
+[40:14] we'll just create our own at-home PCR tests.
+[40:17] And so we launched that within
+[40:19] about a little bit more than two weeks.
+[40:21] And every day we're just trying to help out the community.
+[40:23] We're selling it for $100 US
+[40:25] when everyone wants selling it for $400.
+[40:28] And even the hospitals would call me,
+[40:30] it's like, why are you guys selling it for so cheap?
+[40:32] And I was like, I just want to help the community, right?
+[40:35] That was a core reason for getting into it.
+[40:39] So every single day we'll be selling out.
+[40:41] And then July, yeah, the government actually then again,
+[40:46] called me and is like, can we meet again?
+[40:49] Because it was getting out of control, right?
+[40:51] You know, three months later,
+[40:52] and they're like, Daniel, we need your help.
+[40:55] Yeah, can you help us service COVID testing to the community?
+[41:00] And I'm like, yeah, we love to help.
+[41:01] Like, yeah, what do you want us to do?
+[41:04] They're like, we want you to test 300,000 restaurant workers
+[41:09] across 18,000 restaurants in Hong Kong.
+[41:13] And I'm like, how long of a time do you want this testing?
+[41:18] They're like, yeah, we want you to do this in three weeks.
+[41:22] So that was a crazy operations, right?
+[41:25] And I don't know why I even said yes to it.
+[41:27] Again, we went from 100,200 tests on a daily basis
+[41:32] to now testing, yeah, 300,000 people in about a month time,
+[41:38] which basically meant that we had to scale out
+[41:40] from 200 tests to 10,000 tests on a daily basis.
+[41:44] And myself, my executive team,
+[41:46] where we're all in a whole, we were done with,
+[41:50] and there were some people without jobs at that time, right?
+[41:52] And then basically we started mass hiring.
+[41:55] Yeah, at one point, we had like two to 3,000 people.
+[41:58] What was the bottleneck?
+[41:59] Was it the actual tests, the supply chain for the test,
+[42:03] or was it the people in the lab to read the test?
+[42:06] Because you get the results at home, right?
+[42:08] No, no, no, no, you get the result in the lab.
+[42:10] Okay, so you would send it in?
+[42:11] You have to send it in.
+[42:13] This was before antigen tests were rolled out, right?
+[42:16] Because early on, you had to do a laboratory test,
+[42:21] which is the PCR test, and then the antigen test,
+[42:24] which is the quick ones, which are less accurate,
+[42:27] only came to play maybe one year after.
+[42:30] I see, I see.
+[42:31] Okay, so you said supply chain and hiring people, yeah.
+[42:34] People, logistics, data, right?
+[42:37] And then we're the first company contracted
+[42:40] by the Hong Kong government to do mass community testing.
+[42:44] And of course, yeah, six months later,
+[42:46] there was like 14, 15 different labor toys
+[42:50] that were also doing COVID testing.
+[42:52] However, the thing that stood out from us
+[42:54] is I think a lot of it has to do with my technology
+[42:57] and e-commerce background and data and all that stuff, yeah?
+[43:01] Was we're the only testing provider
+[43:05] that never had a f*** up when it came to false positives
+[43:09] and false negatives.
+[43:11] And then so when all these other labor toys they messed up,
+[43:15] and then the government got a lot of crap for it, right?
+[43:18] Obviously because if you get a positive during that time,
+[43:20] you have to go to detention for like seven to 14 days, right?
+[43:25] And then so this is why at one point,
+[43:27] every single individual that landed Hong Kong airport
+[43:30] was mandated a prenetics test
+[43:32] because they wanted to be the most secure, most accurate test.
+[43:35] Did you have to do anything crazy
+[43:37] to unlock the supply chain there?
+[43:39] On a daily basis, you had to be fighting
+[43:42] with so many different other labor toys
+[43:45] around the world, right?
+[43:47] You had to get all the supply chains.
+[43:48] So it was like every single day we're fighting
+[43:50] and again, a lot of times you had just to outbid them.
+[43:53] And we have volumes, right?
+[43:54] So again, but it was a constant battle.
+[43:56] Those were some crazy, two, three years of craziness.
+[43:59] Yeah.
+[44:00] When you, so my last question,
+[44:03] I had a few friends who were doing this.
+[44:04] I had one friend who was doing mobile testing.
+[44:06] He had like vans that were testing.
+[44:08] I had another friend that was doing PPE
+[44:10] when you couldn't get masks and other PPE to hospitals
+[44:14] and whatnot.
+[44:14] And people were making money hand over fist
+[44:17] and doing this because there's so much,
+[44:18] I mean, there's the strongest demand
+[44:20] I've ever seen for anything ever, right?
+[44:21] Like life or death at global scale.
+[44:24] But, you know, some of those people,
+[44:26] they kind of stashed away enough cash
+[44:29] that it was still a success.
+[44:30] And some people had overbuilt
+[44:31] and then suddenly the music stopped
+[44:33] and now it's like a lot of work for nothing.
+[44:35] So it gives me an example, right?
+[44:37] And on that exact thing is that it was,
+[44:39] it was right when we knew COVA was over,
+[44:42] I let go of 2,000 people very, very fast.
+[44:45] And that turned out to be a really good decision.
+[44:50] Yeah, because again, during that time-wise,
+[44:52] I mean, you had Q-Health, you had Lucera
+[44:55] and these were at the time there were listed companies.
+[44:58] At one point, Q-Health was $3 billion on the market cap.
+[45:00] They had the billion dollars in revenue in the US, right?
+[45:03] Lucera, they had another like,
+[45:04] I think they were $2 billion on the market cap.
+[45:06] Yeah, they went bankrupt 18 months after COVID
+[45:10] because they overbuilt,
+[45:12] they built their own manufacturing places,
+[45:14] they bought into the at-home testing
+[45:17] which never panned out post-COVID.
+[45:20] But I knew that for both sides,
+[45:21] for a company to survive after this,
+[45:24] we needed to make a drastic cut.
+[45:27] And also for the individuals, right?
+[45:28] That's why we don't do one more have 2,000 people
+[45:30] because there's no testing.
+[45:31] We just couldn't stand around,
+[45:33] which is not good for them.
+[45:34] Everyone has to move on with their life and livelihood.
+[45:38] And that was a very difficult decision, of course.
+[45:43] But ultimately, it was the right decision for both sides.
+[45:47] Today's podcast is brought to you by my friends at Mercury.
+[45:50] They make the world's best banking product.
+[45:51] I think you know this already.
+[45:52] I use Mercury for all of my businesses.
+[45:54] I think I have like maybe seven or eight businesses.
+[45:55] We use Mercury as our business banking across all of them.
+[45:59] And now they actually just launched a personal banking account.
+[46:01] So I have my personal account there.
+[46:02] I moved off of Wells Fargo and Chase.
+[46:04] I'm just all in on Mercury.
+[46:06] Why?
+[46:07] I like products that are easy to use.
+[46:08] I like products that get me and the problems that I have.
+[46:11] So like very easy to make a joint account with my wife.
+[46:13] Very easy to spin up virtual cards.
+[46:16] One click and I get savings yield.
+[46:18] It just has all the stuff that I need in one place.
+[46:20] So if you're looking for the best banking product
+[46:22] on the market, it's definitely Mercury.
+[46:23] I will fist-fight anybody who disagrees with me on that.
+[46:26] Go to Mercury.com slash personal and learn more.
+[46:29] Mercury is a FinTech, not an FDIC insured bank.
+[46:32] Banking services are provided through Choice Financial Group
+[46:34] and column N.A. members FDIC.
+[46:37] If you were, I don't know, you meet a lot of entrepreneurs
+[46:41] or you know, there's a lot of people that will come up to you
+[46:43] that are excited about what you've done
+[46:45] and they're trying to do something and they're pitching you an idea.
+[46:47] What do you think most entrepreneurs just don't get?
+[46:50] What's the one thing if you feel like you could just shake them
+[46:52] and then say, look, Ben, you just really don't get it.
+[46:54] It's the gap between where you are and where you want to be.
+[46:57] Is this.
+[46:58] What do you think that gap looks like for most people?
+[47:01] I mean, again, go back to number one, right?
+[47:04] You know, I always believe that if you build the best product
+[47:08] in the market, it just makes everything so much easier, right?
+[47:12] And I think if you look at, again, even, you know,
+[47:15] when the COVID has, we had the best product in the market.
+[47:18] So if you had the best product in the market,
+[47:20] it's much easier to build foundation, branding, positioning,
+[47:25] premium pricing over any of your competitors, right?
+[47:29] And I also believe, you know, as entrepreneurs and et cetera,
+[47:32] you have to get into the weight of everything.
+[47:35] I think some entrepreneurs, they don't like to, yeah,
+[47:38] get involved in every part of the business,
+[47:41] but at least from my perspective, you know,
+[47:43] what's worked very well for me is I'm involved
+[47:45] in every part of the business.
+[47:47] Doesn't matter if we're 100 million coming to 200 million,
+[47:50] we'll be in a billion dollars, whatever.
+[47:52] I guarantee I'll be involved in a lot of the key,
+[47:55] all of the key decisions because I think that's
+[47:58] what separates a founder from a higher CEO, right?
+[48:04] I think the founder, and that's why a lot of times
+[48:06] these founders, blah, blah, blah, et cetera,
+[48:09] they grow their business to 400 to higher CEO.
+[48:11] Oftentimes, the founder always comes back, right?
+[48:14] Because the CEO, prescriptive, they're always
+[48:16] much more conservative, and they're looking at this
+[48:19] from a paycheck where the founders were able to take risks
+[48:22] that a CEO wouldn't be able to take.
+[48:24] So for example, even when I started iMate,
+[48:27] it was a CEO, there was no way he would
+[48:29] be able to take that risk, right?
+[48:30] But because I'm the founder, you have so much at stake here,
+[48:35] there's no one in the organization
+[48:36] that they take a risk as much as me, right?
+[48:39] To be able to make that move,
+[48:40] let's get into the supplement category, right?
+[48:43] Yeah, I don't know if you've read,
+[48:45] have you read Founder Mode?
+[48:46] The sort of Paul Graham blog post?
+[48:48] Yeah, I mean, I've read it.
+[48:49] Yeah, it's quite, I think your founder mode
+[48:51] is very different, right?
+[48:52] Because like, yeah, we're receiving
+[48:54] very, very uniquely different.
+[48:55] And I think entrepreneurs really have to dive into that.
+[48:59] Yeah, the first thing you said about products,
+[49:02] you know, the best product, I mean, on one hand,
+[49:04] that sounds obvious of like, oh, well, okay, yeah.
+[49:07] And I would say most people, everyone thinks
+[49:10] they have a good product.
+[49:11] Yeah, but you have the realistic, right?
+[49:12] It's like, yeah, it's like a big difference.
+[49:14] I tell people, like, how do you know this?
+[49:16] I say, don't trust me, just put it into a cloud,
+[49:18] put it in touch and see what's better iMate or, you know,
+[49:21] age you want Doran Grunes, right?
+[49:23] Let's see what it says on the similar product.
+[49:25] Right?
+[49:26] Well, what does it say?
+[49:27] Let's try it.
+[49:28] It says, if I had to choose one today,
+[49:30] I'd buy iMate over AG one.
+[49:32] So there you go.
+[49:33] It says, it's not just 90 ingredients for 75
+[49:36] because that's ingredient count is mostly marketing.
+[49:39] I think that it's currently doing a better job
+[49:40] putting useful ingredients at disclosed,
+[49:43] non-trivial doses in the same daily drink.
+[49:45] And then it goes through the formula
+[49:47] and it gives a little bit of an answer.
+[49:49] So at least according to Chad GPT right now,
+[49:52] that is correct.
+[49:54] Okay, I'm going to cut that and you,
+[49:57] I'm going to cut that segment out, use it as an add, okay?
+[49:59] That's perfect.
+[50:00] Okay, give me my kick back.
+[50:02] I mean, you can do whatever you want.
+[50:03] I'll give you 10% back up.
+[50:04] I'll be one of your Tiktok affiliates.
+[50:06] Exactly.
+[50:07] Yeah.
+[50:08] You know, I sold my company to this guy, Mike,
+[50:10] Mike Whitmire, and he was telling,
+[50:12] he had built the number one ranked result
+[50:14] for buying or selling gold online.
+[50:16] So anybody wants to buy gold.
+[50:18] His company was the premier leader.
+[50:21] And I was excited when we sold
+[50:23] because I was like, oh, you know so much about SEO.
+[50:25] What are all the SEO hacks that we were not doing?
+[50:27] I'm terrible at SEO.
+[50:29] I've never even tried that as a growth strategy.
+[50:31] So I was like, tell me, tell me, like, you know,
+[50:33] what should we start doing?
+[50:35] And after a few meetings, I was like, dude,
+[50:37] when are you going to tell me like the hacks?
+[50:39] And he's like, well, there's practices.
+[50:41] He's like, there's not really hacks.
+[50:43] He's like, so it's like, what'd you do with the gold company?
+[50:45] And he goes, I printed out like the page,
+[50:49] the webpage for all of us.
+[50:51] And I asked myself, honestly, is there a reason
+[50:54] you should use us?
+[50:55] Why should Google put us number one?
+[50:57] Are we better?
+[50:58] We actually better.
+[50:59] Is it easier to use?
+[51:00] Is it easier to understand?
+[51:02] Is it more friendly?
+[51:03] Is it faster?
+[51:04] Like, do we have, are we better in any way?
+[51:06] And he's like, we had a cold, honest conversation
+[51:09] with ourselves that no, we were not better.
+[51:11] And then we decided, well, we actually have to be better
+[51:13] if Google's going to rank us higher and slowly,
+[51:15] but surely we did, you know, one brick by brick.
+[51:18] We just made the actual experience better
+[51:21] until we felt we actually deserved to be number one.
+[51:23] And guess what?
+[51:24] Like at that point, we didn't need any of the hacks.
+[51:26] We actually were number one.
+[51:27] And I just remember thinking like, oh, I feel like
+[51:29] you just taught me like a very valuable,
+[51:33] like, you know, a very valuable obvious lesson
+[51:36] that I needed to hear from someone like you.
+[51:39] And I needed to hear from the guy who could shatter
+[51:42] this myth in my head that the guys who rank number one
+[51:45] are always just doing these clever tricks.
+[51:47] And it's like, there's no trick.
+[51:49] The trick was be the best.
+[51:50] And if you're not willing to be the best,
+[51:52] like if, you know, there's no way around,
+[51:53] you just got to go through this.
+[51:55] And I needed to hear that at the time.
+[51:57] Again, that's, it starts with the probably anything.
+[51:59] Entrepreneurs, that's, that'd be realistic, right?
+[52:01] Well, isn't it right that as a founder,
+[52:03] you basically have to alternate between delusion
+[52:06] and realism in a way that doesn't make any sense.
+[52:09] In one moment, you're going to have to be delusional.
+[52:11] You're going to have no evidence,
+[52:13] but you're going to have to have the faith.
+[52:15] And you're going to have to believe,
+[52:16] even though you have no experience in this,
+[52:17] the market tells you one thing,
+[52:19] smart people tell you one thing,
+[52:20] but you believe in other, that's delusion.
+[52:22] And you got to be a little deluded.
+[52:23] But then-
+[52:24] Exactly.
+[52:25] Then you have to switch gears and be hyper realistic.
+[52:27] And the guy, you know, somebody who's never delusional
+[52:29] they end up being an employee.
+[52:31] And somebody who's only delusional
+[52:33] ends up being a failed founder.
+[52:35] It's the person who's able to shift gears between the two.
+[52:38] I know when you're, when you need to be in each mode,
+[52:40] that's sort of the art of the whole thing.
+[52:42] Yeah. And then like, again, I had to be very,
+[52:44] like you said, it's to be very delusional because I knew
+[52:47] in my head, if we put all these pieces together,
+[52:50] we will have a big success, right?
+[52:53] But again, going back, I didn't have any experience in this.
+[52:55] So you had to build this with the limited information
+[52:58] I knew at the time.
+[53:00] Yeah.
+[53:01] Well, Danny, I appreciate you coming on, man.
+[53:03] This is a, you have a fun story from telemarketing
+[53:06] to now running one of the fast-growing supplement brands
+[53:09] in the world.
+[53:09] And thanks for coming on.
+[53:11] Thank you.
+[53:12] I feel like I can rule the world.
+[53:14] I know I could be what I want to.
+[53:17] I put my law in it like my days off on a road.
+[53:20] Let's travel. Never looking back.
+[53:23] All right. Let's take a quick break.
+[53:24] I want to tell you about marketing school.
+[53:25] It is a podcast that's part of the HubSpot podcast network.
+[53:28] And it is run by Neil Patel and Eric Su.
+[53:30] And these guys are both marketers who are running businesses.
+[53:33] And so if you want real world tactics from practitioners
+[53:36] who are actually out there in the field doing it,
+[53:38] this is the podcast for you.
+[53:39] Check it out wherever you get your podcast.

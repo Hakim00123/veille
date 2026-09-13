@@ -1,0 +1,40 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny’s Podcast",
+ "date": "Sat, 12 Sep 2026",
+ "date_iso": "2026-09-12",
+ "lien": "https://a16z.simplecast.com/episodes/why-companies-are-becoming-a-series-of-loops-anish-acharya-on-lennys-podcast-ZW9GBD70",
+ "duree": "01:18:04",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 8.2,
+ "taille_transcript": 96386,
+ "transcript": "why-companies-are-becoming-a-series-of-loops-anish-acharya-on-lenny-s--transcript.txt",
+ "nb_outils": 6,
+ "outils": {
+  "Claude": [
+   "ou've got labs, you've got open weight, you've got different variations within both. If you look at coding agents, we were talking about it. Your mental model for two years ago should have been, would have been, I think, it should be winner take all, and yet, Claude Code, Codex, Lovable, Replet, Wabi, they're all sort of working. It's really, really encouraging to see that. The second thing, you've heard all the kind of economic data, everything from radiologists who are supposed to be cooked every year for, I think, abo",
+   "lock it. And then it keeps going and going. And there's kind of this, like, agent to human kind of back and forth. Yes. And you know what really illustrates that? If you've ever tried to have an agent come up with a business idea for you, like, you know, Hey, Claude, make me a million dollars, make no mistakes. Like, why doesn't that work? You know, and it's because you sort of need to set it in the right direction and nothing and the technology has shown us that that is not needed. Yeah, it's interesting. Like, I've bee"
+  ],
+  "Claude Code": [
+   "ou've got labs, you've got open weight, you've got different variations within both. If you look at coding agents, we were talking about it. Your mental model for two years ago should have been, would have been, I think, it should be winner take all, and yet, Claude Code, Codex, Lovable, Replet, Wabi, they're all sort of working. It's really, really encouraging to see that. The second thing, you've heard all the kind of economic data, everything from radiologists who are supposed to be cooked every year for, I think, about 20"
+  ],
+  "Codex": [
+   "s, you've got open weight, you've got different variations within both. If you look at coding agents, we were talking about it. Your mental model for two years ago should have been, would have been, I think, it should be winner take all, and yet, Claude Code, Codex, Lovable, Replet, Wabi, they're all sort of working. It's really, really encouraging to see that. The second thing, you've heard all the kind of economic data, everything from radiologists who are supposed to be cooked every year for, I think, about 20 years "
+  ],
+  "Cursor": [
+   "out like, hey, I need a business plan that survives scrutiny from MBAs and VCs. I've got to have some really sophisticated idea of what my moat will be. And for that team, they just started shipping and it developed over time. Another great example of this is cursor. They were criticized a lot for not having a moat. But it turned out that initially being a high NPSDAU product was really good. And over time, they captured all the reasoning traces. They trained their own models, the composer won two models and so on and so",
+   " companies, according to their date in granolas, like number two or three. It's a tremendous product. It's that craft is really high. Yeah. And I think about that a lot these days, because there's so much, like there's co-work, there's chat, JPT work, there's cursor, there's rock what. And it's crazy how quickly one can switch from one to the other. And the underlying model is not that different. All it really is, most of it is the harness and slash UX of the product. And so to me, that tells you there's so much opportun",
+   "A hundred percent. And I think for the people that are at the edge, they pay for all of them because they all have the respective areas of specialization. Yeah. I have many $200 a month plan. I know. I know. It's a little painful. But yes, me too. And I think cursor is a $300, $300 a month plan now. So does rock? Oh, yeah, you're right. Yeah. That was a rock. It's pretty much that. Rock heavy. Yeah. RIP cursor. I think they've transitioned away from their brand. Something I've been talking a lot about is the distribution"
+  ],
+  "Gemini": [
+   "st initially, because there's like a thousand things launching every day. Imagine that's still a big opportunity and I don't know advantage, which to me makes me feel like incumbents have a huge advantage. They have the products they can tell you, hey, go use Gemini and every time you go search Google, I guess, do you feel like that? Do you feel like it's harder for startups now because of this distribution challenge? I don't know. I think it's easier because like Gemini, despite all the kind of heavy cross selling Googl",
+   "y have the products they can tell you, hey, go use Gemini and every time you go search Google, I guess, do you feel like that? Do you feel like it's harder for startups now because of this distribution challenge? I don't know. I think it's easier because like Gemini, despite all the kind of heavy cross selling Google has done, nobody would say they're winning startups can build in directions that incumbents are uncomfortable building in, like everything we talked around to companion, but there's many others, you know, pr"
+  ],
+  "Lovable": [
+   "ve got open weight, you've got different variations within both. If you look at coding agents, we were talking about it. Your mental model for two years ago should have been, would have been, I think, it should be winner take all, and yet, Claude Code, Codex, Lovable, Replet, Wabi, they're all sort of working. It's really, really encouraging to see that. The second thing, you've heard all the kind of economic data, everything from radiologists who are supposed to be cooked every year for, I think, about 20 years now. Of c"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

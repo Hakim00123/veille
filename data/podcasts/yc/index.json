@@ -16,9 +16,25 @@
   "max-junestrand-you-need-the-willingness-to-learn-faster-than-anyone-el",
   "susan-kare-designing-icons-graphics-for-the-original-mac",
   "paul-graham-on-startups-ambition-and-great-founders",
-  "the-world-s-largest-electric-aircraft-just-flew"
+  "the-world-s-largest-electric-aircraft-just-flew",
+  "8-ways-to-improve-your-outbound-sales",
+  "open-models-change-the-economics-of-ai"
  ],
  "episodes": [
+  {
+   "fiche": "8-ways-to-improve-your-outbound-sales.json",
+   "titre": "8 Ways To Improve Your Outbound Sales",
+   "date": "Sun, 13 Sep 2026",
+   "date_iso": "2026-09-13",
+   "nb_outils": 0
+  },
+  {
+   "fiche": "open-models-change-the-economics-of-ai.json",
+   "titre": "Open Models Change The Economics of AI",
+   "date": "Sat, 12 Sep 2026",
+   "date_iso": "2026-09-12",
+   "nb_outils": 4
+  },
   {
    "fiche": "paul-graham-on-startups-ambition-and-great-founders.json",
    "titre": "Paul Graham On Startups, Ambition, and Great Founders",
@@ -132,5 +148,5 @@
    "nb_outils": 1
   }
  ],
- "maj": "2026-09-06T19:18:57Z"
+ "maj": "2026-09-13T19:31:36Z"
 }

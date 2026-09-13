@@ -6,9 +6,17 @@
   "eric-vishria-a-decade-of-lessons-investing-in-software-hardware-invest",
   "ben-thompson-on-big-tech-china-and-the-ai-boom-running-out-of-money-in",
   "neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488",
-  "sarah-guo-funding-the-frontier-invest-like-the-best-ep-489"
+  "sarah-guo-funding-the-frontier-invest-like-the-best-ep-489",
+  "walter-russell-mead-how-america-keeps-winning-invest-like-the-best-ep-"
  ],
  "episodes": [
+  {
+   "fiche": "walter-russell-mead-how-america-keeps-winning-invest-like-the-best-ep-.json",
+   "titre": "Walter Russell Mead - How America Keeps Winning - [Invest Like the Best, EP.490]",
+   "date": "Tue, 08 Sep 2026",
+   "date_iso": "2026-09-08",
+   "nb_outils": 2
+  },
   {
    "fiche": "sarah-guo-funding-the-frontier-invest-like-the-best-ep-489.json",
    "titre": "Sarah Guo - Funding the Frontier - [Invest Like the Best, EP.489]",
@@ -52,5 +60,5 @@
    "nb_outils": 4
   }
  ],
- "maj": "2026-09-06T19:18:54Z"
+ "maj": "2026-09-13T19:31:34Z"
 }

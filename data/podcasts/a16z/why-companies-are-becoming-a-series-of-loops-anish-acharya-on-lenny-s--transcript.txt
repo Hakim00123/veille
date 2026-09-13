@@ -1,0 +1,1142 @@
+The a16z Show
+Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny’s Podcast
+Sat, 12 Sep 2026
+https://a16z.simplecast.com/episodes/why-companies-are-becoming-a-series-of-loops-anish-acharya-on-lennys-podcast-ZW9GBD70
+
+[00:00] There's a lot of fear and worry about the future with AI.
+[00:04] I want to talk about this idea that if you fall behind,
+[00:07] you're going to become part of this permanent class.
+[00:09] It's a funny dark fantasy that we seem to have as Silicon Valley collectively.
+[00:13] Like, things have never been better by almost every measure.
+[00:16] This is a technology that really amplifies our agency.
+[00:19] It kind of unbundles skill from desire.
+[00:22] Not only can we dramatically drive productivity, we can dramatically drive ambition.
+[00:25] Can you get too ambitious? Is that quite a limit?
+[00:27] In the old days, three years ago, we would see a company.
+[00:30] And if what they were trying to do was too ambitious, we would, you know, not engage.
+[00:34] Today, we're almost in the opposite problem.
+[00:36] An idea that's too small is not something that we want to engage with.
+[00:39] Do you have this interesting take that company building more and more
+[00:42] is going to become this kind of series of creating loops?
+[00:45] We're going to see this sort of cascading set of everything from a loop per person
+[00:49] to loops that can run large parts of the company.
+[00:52] With that said, I think humans are critical ingredient.
+[00:55] The loop will help you climb to the local maxima, but then it plateaus.
+[00:58] You need human intuition.
+[00:59] You need somebody to actually help you land at the base of the next hill.
+[01:03] We have this take that the big opportunity is this idea of loop make me happier.
+[01:07] We believe that people want to be more productive, but they don't.
+[01:11] I mean, more people want to spend time than save time.
+[01:14] So I think that the opportunity for this technology is the basics of consumer need.
+[01:18] How do we feel more connected, more loved?
+[01:20] We make progress. How do we have fun?
+[01:23] I don't think it's a model or a capability challenge. It's just a product design challenge.
+[01:27] Today's episode comes from our recommended listening series, where we feature standout conversations
+[01:32] from people across our broader network.
+[01:34] This one comes from Lenny's podcast, where Lenny Richitsky sits down with A16Z
+[01:39] general partner Anisha Charya for a wide-ranging conversation about AI, company building,
+[01:44] and why Anisha thinks we should be more ambitious about what this technology makes possible.
+[01:49] They get into Anisha's idea that companies are becoming a series of loops,
+[01:53] with AI increasingly handling repeatable work, while humans step in with judgment, intuition, and new ideas.
+[02:00] They also discuss why he's skeptical of fears around an AI permanent underclass,
+[02:05] where the biggest opportunities in consumer AI may emerge,
+[02:08] and why moats are often discovered rather than designed.
+[02:11] And his advice for navigating all of this is pretty simple, build something.
+[02:16] The fastest way to understand where AI is going is to use the models, ship things,
+[02:22] and develop your own intuition.
+[02:24] Today, my guest is Anisha Acharya. Anisha's general partner at A16Z, where he focuses on consumer investing.
+[02:33] He is one of the most insightful, thought-provoking, mind-expanding,
+[02:37] in-the-weeds product investors I've met. He's been at A16Z for over seven years now.
+[02:43] And unlike a lot of ECs, and why I loved having Anisha on the podcast is that he is a longtime product builder and founder.
+[02:49] He founded a company called Social Deck, which he sold to Google,
+[02:52] and then ended up leading a number of efforts within Google.
+[02:55] Then he started a new company called Snowball, which he then again sold, this time to Credit Karma,
+[03:00] where he moved to VPR product and then GM of the broader consumer product and the entire credit card business.
+[03:06] This conversation will get your mind buzzing.
+[03:09] Anish, thank you so much for being here and welcome to the podcast.
+[03:13] Thank you, Lenny. I'm so excited to be here. Thrilled.
+[03:16] I want to start with a very light topic. I want to talk about this meme of the permanent underclass.
+[03:22] It's kind of this joke that people have joke about, this idea that if you kind of fall behind
+[03:29] and aren't just like on top of all the latest AI tools, aren't becoming the most productive person ever,
+[03:35] you're going to become part of this permanent underclass and fall behind and have a really hard time.
+[03:40] Some people are joke about it. I think a lot of people take this really seriously and stresses a lot of people out.
+[03:45] How real but concerned do you think this really is? How seriously do you think people should take this?
+[03:50] Not very seriously, and it's a funny dark fantasy that we seem to have as Silicon Valley collectively.
+[03:55] Things have never been better really by almost every measure,
+[03:59] by how sort of distributed all the opportunities are, by the kind of technology we have access to,
+[04:04] to the types of ambition we're allowed to have,
+[04:07] and to the number of companies that are sort of independently working on things that are winning.
+[04:12] Yet, there's this sort of discussion of permanent underclass, being outside of the light cone, I've heard it.
+[04:17] It's not just something for deep insiders or outsiders. It feels like there's a real fear,
+[04:23] researchers at foundation model labs all the way through to the Silicon Valley laymen.
+[04:28] Here's a couple of points that I think are really important.
+[04:32] First, I think the last era of tech was a lot more centralized.
+[04:35] If you look at network effects, that's sort of the gold standard you worked on, the network effects product.
+[04:40] That's the gold standard of businesses from the mobile era, and those things led to dramatic centralization.
+[04:47] Of course, all of them are definitely sort of the end of one networks.
+[04:51] If you look at what's happening now, it's like every part of the stack, there's not even two relevant players, there's like 20.
+[04:57] You've got labs, you've got open weight, you've got different variations within both.
+[05:01] If you look at coding agents, we were talking about it.
+[05:04] Your mental model for two years ago should have been, would have been, I think, it should be winner take all,
+[05:09] and yet, Claude Code, Codex, Lovable, Replet, Wabi, they're all sort of working.
+[05:16] It's really, really encouraging to see that.
+[05:18] The second thing, you've heard all the kind of economic data, everything from radiologists who are supposed to be cooked every year for, I think, about 20 years now.
+[05:25] Of course, job postings are higher than they've ever been, as well as programmers.
+[05:29] I don't know that the empirical data bears it out.
+[05:32] I think the final thing is that there's this sort of discussion about RSI.
+[05:37] I know RSI is like recursive self-improvement is a fun term to throw around, but if you ask the most sophisticated individuals at the labs,
+[05:45] it's not actually RSI that's occurring, which could lead to some sort of runaway winner because they were an epsilon ahead of the others.
+[05:52] It's auto-catalytic effects, which just means you're using the technology to improve your process, but it's not truly recursive.
+[05:59] I think everything from the most empirical to the most technical viewpoints in the other direction, and yet, we can't seem to let go of this fantasy.
+[06:06] Something I've been thinking about recently is seeing all these, even seeing these crazy stories about open AI's models hacking, hugging phase, all these stories.
+[06:16] To me, it feels like there's always been this question of, are we on the fast takeoff or the slow takeoff scenario?
+[06:21] It feels very much so that we are on the slow takeoff scenario because every one of these milestones is like, holy shit, it hacked.
+[06:28] We had no idea it was doing this, but we're catching it, we're watching it, we're observing it, we're iterating, evolving.
+[06:34] There's always this fear, okay, but tomorrow it's going to take off.
+[06:37] What I'm hearing from you is that's probably not the case, which I think is the source of a lot of people's fears, this idea that all of a sudden it's going to become super-super-intelligent, and then we're in big trouble.
+[06:45] That's right, the line of reasoning for that case is always everything up until now, then something happens that no one can quite articulate and then fast takeoff.
+[06:55] So I don't believe that that's going to happen.
+[06:57] I do think that model progress is happening faster than ever before, but if you look at something like economic diffusion, I grew up in a small town, I went back home last summer, people's lives haven't changed that much.
+[07:08] So if nothing else, the slow rate of economic diffusion will catch it.
+[07:13] I think the other thing that's under-discussed, Lenny, is how many problems are truly intelligence-bound?
+[07:18] If you had a data center of PhDs working at FedEx or Domino's Pizza, are they going to be exponentially dominating supply chain and pizzas?
+[07:28] I don't think so.
+[07:29] So I think we might be overestimating how many problems are intelligence-bound versus bound by other things.
+[07:34] What are you seeing inside of companies in terms of is there more of a divide happening?
+[07:40] And do you think there will be more of a divide between the people that are becoming really good and embracing versus like, I don't have time for this, I hate all this stuff, my job's already so stressful.
+[07:49] What do you think is happening, and where do you think things will go inside of companies in terms of maybe a divide?
+[07:54] I mean, I have so many thoughts on this.
+[07:55] I don't think we give the average employee enough credit.
+[07:58] I think we have this abstraction of a white collar employee.
+[08:01] The white collar manager, the abstraction is like some Dilberg-esque manager who's just shuffling paper all day long.
+[08:07] You know, it is abstraction of consumers that they're sort of these low-agency NPCs.
+[08:11] Of course, that would never apply to us or our friends.
+[08:14] You know, we have this abstraction that everybody else's job is super-audubatable by AI, but of course ours is not.
+[08:20] So I think when you actually get into the details, a lot of people are actually excited to better themselves, get more leverage.
+[08:27] And you see this with, of course, sophisticated companies like Google, but even a company like Kebok, where they sell used cars in Mexico,
+[08:35] they've got this concept of a Jedi Academy where they're teaching everybody at the company, including the mechanics,
+[08:40] how to use the new tools and technologies, and kind of at the end of the six-week course, they ship a cutting-edge in production agent.
+[08:47] So I actually think that more people are embracing the technology than we sort of like to discuss.
+[08:52] I think a big change is going to be using AI versus reorganizing your entire company around AI.
+[08:58] And a great example of this is if you look at the diffusion of electricity as a technology,
+[09:02] you know, it took 40 years for us to get from the inception of electricity to reorganizing factories,
+[09:08] and that means like burning the buildings down and starting from scratch versus taking what was previously called
+[09:14] and simply swapping it with electricity.
+[09:16] So I do think that like the most ambitious companies are rethinking everything around the models,
+[09:21] and those that are a little less ambitious or perhaps a little earlier,
+[09:25] are thinking more about how do we give people an existing or existing job functions access to the technology.
+[09:31] So kind of a theme I'm hearing so far is we can be a little less stressed about where things are going
+[09:37] and the future of your job, your careers.
+[09:40] I think so, man.
+[09:41] I mean, I think if you even just think of the kind of incentives for the CEO and executives,
+[09:45] you know, Sundar running Google, he doesn't want to run a more efficient $4 trillion company.
+[09:50] He wants to build a $40 trillion company.
+[09:52] So anytime you have an economically productive unit, it's rational to kind of, especially if it gets more productive,
+[09:58] to maintain that sort of presence in your organization.
+[10:01] And then I don't know what you hear, but anecdotally, I talked to a good friend who's an executive at Google
+[10:06] and I said, hey, have you laid anyone off?
+[10:08] And he said, no, we didn't.
+[10:09] What we instead do is now rip through our roadmap.
+[10:11] So two years of roadmap happens in three months.
+[10:14] And we're actually our hardest problem is knowing what to add to the roadmap,
+[10:17] which by the way is like every PM's fantasy, you know,
+[10:20] how much emotion has been drained on prioritization conversations between you and I.
+[10:26] So yeah, I actually think that people shouldn't be stressed and I think they should feel really empowered.
+[10:31] And by the way, the best way to do it is just to ship stuff.
+[10:34] I mean, Claire is my muse.
+[10:36] She's so awesome because she's always shipping.
+[10:39] Yes, Claire, she's shipping.
+[10:41] She's trying things.
+[10:42] She's not afraid to be a little embarrassed by it.
+[10:45] And if you just see her whole kind of affect, she feels like the best version of herself that she's ever been.
+[10:50] And I think we all have an opportunity to be that.
+[10:54] I love that.
+[10:55] I want to be clear, when I grow up.
+[10:56] Totally.
+[10:57] Kind of along those lines, you have this interesting take that company building more and more is going to become this kind of series of creating loops and creating series of loops.
+[11:06] Talk about that.
+[11:07] Yeah.
+[11:08] Yeah.
+[11:09] Well, I think the broad concept and you know, the loops concept kind of gets teased a little on X because at sometimes it feels like maybe we're big braining it.
+[11:16] I know there is a big meme around graphs, like the next stage of loops is graphs.
+[11:21] But let me make the kind of steelman for it, which is, you know, we had prompts and then we invented agents.
+[11:27] Agents, of course, are just models in a loop with tools and memory and skill files.
+[11:32] And then we had sort of loops, which are, you know, sets of agents that are doing tasks.
+[11:37] If you look at a lot of work in coding, coding such a great domain because you have the best models and you have the most sort of technically apt customer, plus you have these established loops.
+[11:46] Like bug fix or sort of bug report comes in, reprogates generated, bug fix gets created, bug fix gets reviewed.
+[11:54] If high risk, then humans should confirm that it's okay to ship to prod and if low risk, it just gets shipped.
+[12:00] And maybe you even email the customer and say, Hey, we fixed the bug.
+[12:03] You reported that happens in five minutes.
+[12:05] There are many loops like that in engineering, everything from bug fixes to customer feedback to sales demos to new feature development.
+[12:14] So coding sets us up well itself up well.
+[12:17] So you have a coding loop and the kind of change it makes is to the code base.
+[12:21] My question is, what are the business loops, right?
+[12:24] So if you're the GM of a business, you're looking across many job functions and you've got loops running and coding and marketing and sales and support and legal.
+[12:32] The output of all of those loops is something that is itself a loop that you should be able to optimize for.
+[12:38] And I think the strong form of this is that it sends a message to the CEO saying, Hey, we need to actually make a change to one of the physical aspects of the business or to our business model or to our strategy.
+[12:48] So I think we're going to see this sort of cascading set of everything from a loop per person, loop per job function, loop across entire business units to loops that can run large parts of the company.
+[13:01] With that said, I think humans are a critical ingredient.
+[13:04] I just don't think that most work in the organization can be done fully autonomously.
+[13:08] When you think of what a human will do in this like AI native company, sales, support, strategy and exceptions, right?
+[13:16] And all those things are super critical.
+[13:18] We've seen one thing, Lenny, it's that the ability for models to do new thinking out of distribution thinking is still really limited.
+[13:24] And I don't actually take the point that some of the new thinking and math is actually representative of new thinking and demands like business.
+[13:30] So you're still going to need a person to say, Hey, here's the thing I think we should make and have them be right about it.
+[13:35] Let me just kind of make sure this point is really clear because it's so interesting.
+[13:39] What you're saying here is engineering and building more and more is becoming the sloop of input, feedback, support ticket, whatever input of just like what to build.
+[13:50] And then AI more and more is taking that, deciding here's a PR here.
+[13:54] Is this ready and then shipping it?
+[13:56] And you're saying that you expect that to spread to like say go to market, legal growth support.
+[14:03] So maybe describe what that loop looks like or may look like for it within a company.
+[14:08] I mean, a great example is a growth team.
+[14:10] You worked out the growth team at Airbnb, right?
+[14:12] Yeah.
+[14:13] Awesome.
+[14:14] Right.
+[14:15] So you remember those like war, I don't know how you ran your team, but I'm guessing it was something like you got everyone together.
+[14:19] You built a list of possible experiments.
+[14:21] You prioritize them.
+[14:22] You built them.
+[14:23] You ship them.
+[14:24] You measure them.
+[14:25] Yeah.
+[14:26] Correct.
+[14:27] A lot of spreadsheets.
+[14:28] So the loop version of that should be that every variant gets generated.
+[14:31] Every variant gets measured.
+[14:33] Once you get to stats, with the high enough P value, you converge and ship that variant.
+[14:38] You then have a long term hold out and you start working on the next experiment.
+[14:42] You know, and then you're going to hit some local maximum.
+[14:44] I think this is really important, you know, the loop will help you climb to the local maximum.
+[14:48] But then it plateaus and you need some sort of out of distribution thinking.
+[14:52] You need human intuition.
+[14:53] You need somebody to actually help you land at the base of the next hill.
+[14:57] Yeah, you have this chart.
+[14:58] I don't know.
+[14:59] Maybe we'll show it over late as we talk about this, which is such an interesting way of thinking about it.
+[15:03] This idea that agents will help you help climb and reach some new plateau.
+[15:08] And then you need a human there to think about a bigger idea, kind of unlock it.
+[15:14] And then it keeps going and going.
+[15:15] And there's kind of this, like, agent to human kind of back and forth.
+[15:18] Yes.
+[15:19] And you know what really illustrates that?
+[15:20] If you've ever tried to have an agent come up with a business idea for you, like, you know,
+[15:24] Hey, Claude, make me a million dollars, make no mistakes.
+[15:27] Like, why doesn't that work?
+[15:29] You know, and it's because you sort of need to set it in the right direction and nothing
+[15:33] and the technology has shown us that that is not needed.
+[15:36] Yeah, it's interesting.
+[15:38] Like, I've been hearing more and more.
+[15:40] I think it's a tweet that I think at OpenAI, the GoToMarket team now is using codecs more.
+[15:45] More of the GoToMarket team is using codecs more often than even the engineering team.
+[15:49] Yes.
+[15:50] And then think about how happy that makes them.
+[15:52] Like, what does the GoToMarket team want to do?
+[15:54] I mean, this is a caricature, but I'm going to stand behind it, which is they want to hit the gym.
+[15:58] They want to go to steak dinners and they want to, like, you know, like, raise the trophy up
+[16:04] for being salesperson of the quarter of the year.
+[16:08] So I actually think that this is a distillation of their job into the thing that they're the best
+[16:12] in the world at, that they're the most interested in.
+[16:15] And all the administration that goes around doing that core work is now handled for them.
+[16:19] So, like, that's where GoToMarket is going and it's going to be awesome.
+[16:22] This reminds me of a PM friend who has this really funny take that as a PM, you're constantly having to say no
+[16:29] to all these ideas that are coming at you.
+[16:31] And you have like, I'll put on the road now for a test.
+[16:33] He's like, okay, I'm going to flip this.
+[16:35] So just to everything, I'm going to build everything and then simulate every idea with, like,
+[16:41] simile, or all these products that are launching where you can simulate how a user will react.
+[16:46] And then that'll tell you this should rebuild this.
+[16:49] What a hilarious way to rethink PM.
+[16:52] And you know what's so beautiful about that?
+[16:54] Actually, there's two things.
+[16:55] And I'll tell you maybe the one that's less obvious to me, which is I feel like every PM at every
+[16:59] company feels like there are true zero to one thinker, but they're held back by the kind of, you know,
+[17:04] the heavy hand of management and executives and founders and engineering capacity.
+[17:10] And in a world where every story gets told, every product story gets told, every feature gets tried.
+[17:15] I think a lot of PMs are going to realize they're actually not that good at zero to one.
+[17:18] And it's much more fulfilling to work on someone else's good idea than your own bad idea.
+[17:23] So I think even things like that are going to lead you a lot more organizational health than we've had in the past,
+[17:29] you know, not to mention the fact that the idea that ends up winning doesn't have to be the one that's
+[17:34] came up with by the person who can sell it best to an executive.
+[17:37] It just gets tried.
+[17:38] And the best idea wins.
+[17:40] So coming back to this loops idea, the way I'm thinking about it is how can every function start to
+[17:45] think of their function as setting up an agent to be able to just go from input to some kind of impact.
+[17:53] And what this makes me think about is something actually clear tweeted recently.
+[17:57] At this point that people always used to joke that like soft skills are the least valuable at engineering skills,
+[18:02] the most important and valuable because they're so concrete.
+[18:05] And turns out that's what AI is the best at.
+[18:07] The things that are verifiable and you know what success looks like.
+[18:11] And so the question I think about now is just like, which skills can you not just turn into a loop
+[18:17] because the output is so hard to verify?
+[18:20] Yeah, I think that's right.
+[18:21] And I think that those are going to be the rate limiting factors because you can only do one steak dinner a night.
+[18:26] I guess you could do a steak lunch.
+[18:27] But to some extent, there's going to be these rate limiting factors in every system.
+[18:32] I think a useful way to think about it is anytime the models making a mistake or doing something you wouldn't do,
+[18:38] what do you know that it doesn't know?
+[18:41] And there's a really interesting example I heard from Ale at Kavak.
+[18:45] He's probably the most sophisticated thinker on this stuff that I get to hang out with.
+[18:49] Where he said anytime they have an agent per customer, they sell used cars online.
+[18:53] And when the agent gets stuck, it actually calls a human.
+[18:56] And the human will coach the agent through.
+[18:58] Now, the magic of that is not only does it unblock the agent, but of course the agent then captures all the traces and learns from it.
+[19:05] Like that's a really interesting mental model.
+[19:07] It's either a knowledge gap or a data gap that you have to give the agent.
+[19:10] And the next time it shouldn't have to call you.
+[19:12] I love that example.
+[19:14] Basically, the takeaway here is you need to start thinking about every function as an agent loop.
+[19:20] And the job is to figure out where it gets blocked, where it goes wrong and give it more context, more insight, more direction, basically.
+[19:28] That's right.
+[19:29] That's right.
+[19:30] And then hopefully a lot of your day-to-day work, you know, when you come up with a new idea that works, the kind of implications of that idea.
+[19:36] If it's a product, you know, there's marketing work, there's sales work, there's product marketing, there's communication, there's legal, all of that should be largely handled for you.
+[19:44] And your idea, you know, your job is to go take a hike and dream the dreams and come up with the next hill decline.
+[19:50] And this begs the question a bit of just what will separate the companies that win in this world where AI is kind of doing a lot of this?
+[19:57] I imagine part of the answer is the human in this local maxima coming in with a better idea.
+[20:02] So anything else that you think becomes like a differentiator in this world where AI is doing so much of the work that humans are currently doing?
+[20:09] I mean, I think one thing that's under-discussed is that it's unclear that the sort of competitive equilibria that exists in a lot of industries will really change.
+[20:19] You know, so let's say Pizza Hut and Domino's and Papa John's and Roundtable all get a data center of PhDs.
+[20:27] And, you know, they're all going to either adopt it or have a CEO change and adopt it.
+[20:32] So it'll be a rocky period and there'll be some, you know, relative shuffling.
+[20:35] But I think that they're all going to embrace new technology because most companies do.
+[20:39] I don't know that one of them is going to have 99% of the market.
+[20:42] So I think kind of what's under-discussed is that, yes, in the near term, I think there'll be winners and losers based on adoption of the technology and kind of how ambitiously you adopt it.
+[20:51] But I do think there's a lot of industries that will sort of maintain their current competitive dynamics because they're not intelligence bound.
+[20:59] I think the most useful question to ask yourself as a founder CEO is just, hey, if we assume these things are infinitely intelligent and astonishingly cheap, how would we reorganize the company?
+[21:11] Because that's where we're going.
+[21:12] Kind of along those lines, you have this interesting take about this kind of split that might be coming within companies between these generalists and specialists and how AI plays into that.
+[21:21] Talk about that.
+[21:22] Yeah.
+[21:23] Well, I think that there's so many interesting things that this touches on.
+[21:26] One is the question of open weight versus frontier.
+[21:29] So are you familiar with kind of Pareto efficiency?
+[21:32] I'm sure you are.
+[21:33] Please explain.
+[21:34] Yeah, so Pareto efficiency is just for price performance, for example, what is the kind of the efficient frontier is what's considered the optimal trade-off of a unit of performance for a unit of price.
+[21:47] And if you're along that curve, you're always paying the rational amount for the performance.
+[21:54] And what's interesting is that frontier models are actually irrationally priced in that, first of all, MyThos is infinite dollars a token. You can't use it.
+[22:03] But if you look at even something like Fable 5, for one IQ, conceptually one IQ of extra intelligence, you're paying 100x more than Opus 4.8.
+[22:13] So it's not rational, but I think there's a lot of jobs in which you have unbounded upside, like drug discovery.
+[22:20] And if that one IQ point lets you discover the next statin, it's a trillion dollar outcome.
+[22:26] So it's sort of rational to pay for the highest intelligence in these types of jobs and industries.
+[22:31] Now, on the other hand, I'm going to pick on maybe legal.
+[22:36] There's perhaps only so much upside to be had in legal or finance.
+[22:40] And for those jobs, you actually do want to be very Pareto efficient and probably pay for good performance at a good price, not infinitely priced, infinite potential.
+[22:49] So I think what we're going to see is a split between job functions that demand kind of mid IQ intelligence.
+[22:59] And those will often be open weight, sort of biased with reinforcement learning, things that make the models even cheaper and more performant for a narrow job,
+[23:08] along with incredibly quote unquote expensive, but performant frontier tokens for sales, support, research, engineering.
+[23:18] So I think you're going to end up having both architectures. And we can touch on this in a little bit, but I do think there are these sort of comparative advantages amongst model families.
+[23:26] And then also amongst, of course, individual models that we're seeing more and more of. It's not going to be one or the other.
+[23:31] Such an interesting insight. So just to make sure I understand what you're describing here, you're thinking there's going to be this split between kind of within an org function and model,
+[23:42] where specific functions that have a lot more upside and in potential leverage go for the frontier models.
+[23:48] And you describe these kind of product sales, engineering, research roles. And then there's like, and then for other functions, you don't need, you don't need mythos.
+[23:57] You don't need astra, I think, is that the least one?
+[24:00] And so it's both you're saying the AI doesn't need to be the frontier model and the people don't have to be the smartest people in the world to do really well in that world.
+[24:08] And I don't want to be diminutive. There's extraordinary people in those job functions. I just think that they're bounded upside problems that they work on.
+[24:15] You can only kind of close the books correctly. You can't close the books 100x better. So yeah, that's exactly what I'm saying.
+[24:24] I wonder if it's connected back to that discussion we had earlier about. It's verifiable. If it's a lot more verifiable, you don't need the frontier model versus the potential upside.
+[24:35] I'm not sure. I mean, I think for a verifiability is a good question because I think for a drug development company, you have infinite upside. It is verifiable.
+[24:44] But closing the books is also a verifiable problem, which has limited upside. I think the question is really how much upside is there and how hard is it to calculate it?
+[24:54] Like, here's a nuance. Customer support, a customer may call in and report a bug. That bug may actually be the first breadcrumb to a thing that changes our entire organization.
+[25:04] And if the CEO was on that call or the smartest person, they could follow the trail. But if we actually have this quote unquote, mid IQ generalist, then not.
+[25:11] That actually makes the case for as a basket of problems always use frontier intelligence. And I can of course make the case for the mid IQ basket as well, which is simply that we've crossed an intelligence threshold for almost every economically useful problem.
+[25:25] And anything beyond that threshold is simply waste.
+[25:28] Yeah. And like, I think I think people point people forget is that the models that are not the frontier models. They were like, that was what the frontier was, I don't know, six months ago. And we were so impressed. And we loved it.
+[25:38] I was like, holy shit, we can do all this. And not just because there's something better. We don't give those models as much credit.
+[25:43] You're right. Because it's sort of like this thing is so crazy. You know, this is this is AGI. And then a day later, it's like the old thing that you throw in the dustbin.
+[25:53] So kind of along those lines, I hear people jokingly call you a model Somalia. Tell us with your Somalia credentials. What's kind of like the current state of the model art? What are each model great at? What's your models terrible at?
+[26:08] Yes. Well, as you know, the secret to every Somalia is 10,000 hours, or maybe 10,000 bottles. So I think that the secret of being a model Somalia is just using them all drinking.
+[26:18] I push myself really hard to ship something with every new model that comes out. And I think you learn so much. You know, I think for people who believe the models are commodities or totally fungible, you just haven't actually used the models.
+[26:31] And, you know, for example, in the last few weeks, I've been obsessed with Quen 3.8 backs. Quen is an awesome model. It's very good at long horizon tasks. And it's actually really creative. It's a great storyteller.
+[26:45] So I've been using it to create these impossible documentaries, mostly of, you know, planets of the Star Wars universe.
+[26:52] I did a Tatooine, which turned out great. I did best bin last night. And it can just work for four or five hours. It tells a great story. It generates all the video using the Mini Max model via file generates audio via 11.
+[27:04] It actually like directs the movie, the five minute movie in that it like cuts all of the clips in, it overlays it, it watches it.
+[27:12] It's just extraordinary, you know. And that's just, it's got a totally different shape than GLM 5.2. GLM 5.3 just came out, which I used for a bunch of product work.
+[27:21] It doesn't have a vision component. And it's sort of like this neurotic PhD you put in the corner. And they both have the role, right? This is a little bit of the kind of these tension of models.
+[27:31] It's not that one is ahead of another. One is more intelligent. It's rather one is sort of has a mind that's shaped in one direction, perhaps creativity, openness for Quen.
+[27:41] And others that are shaped in other directions like, you know, neuroticism and precision like GLM 5.3. So that I just make something with every model. And that's how I build my intuition.
+[27:52] How important is this habit? Do you think for people because I hear a lot that it's really important to be using these models? And kind of a secondary question is how do you come up with what to do with these models?
+[28:04] Because a lot of people want to try these things. They're like, okay, what do I do? Any suggestions?
+[28:09] Well, I think almost all of us have got, you know, the most insufferable thing for a long time was your app idea friend. You know, every time you went to have a beer, they're like, let me tell you my app idea. You're like, ah, here we go again.
+[28:21] Like, we have got to be the app idea guys now. And all the silly ideas, actually, especially the silly ideas, because those are the ones that often have the most alpha are the ones that we should all be building.
+[28:32] So I've probably got, you know, two dozen apps that I built. I've got one or two large apps that I iterate on. And I think that if you don't have a chassis on which to like with which to use the models, it's really hard to come up with an idea from scratch every time.
+[28:45] So I'd say like work on something. It's actually better if it's not important with a capital I and then keep finding new ways to invest in it and add to it with a model as a kind of tool rather than as a goal. Does that make sense?
+[28:57] Yeah. Like maybe even zooming out. I've been thinking more and more. One of the most important habits to build right now is to whenever you're about to do something, ask yourself, how can AI do this for me?
+[29:08] Totally. I'm visualing this like input to response, you know, like the whole idea of there's a space between input and response and meditation helps you think more deeply before you respond.
+[29:19] And I feel like the trick now is insert in that moment. How can AI help me with this? Yeah, no, I think that's, I mean, I'm also a longtime meditator. We should talk about that if you like. But yeah, I think that's right. I think in our day-to-day knowledge work, sometimes it's less obvious to me.
+[29:34] I guess my mind is I've always been a consumer product person. I love products. So for me, it's easier to think of a new feature to add to my DJ streaming app or, you know, my sort of Google Reader for X that I use than it is to kind of find a part of my life to automate.
+[29:47] But you're right. There's some fun examples. You know, I posted about one a few weeks ago where I had my laptop transcribe everything that was happening in the kitchen.
+[29:55] And then it would award or detract springtime from my son's iPad, depending on whether he was being good or bad. So it was like a fun little social experiment.
+[30:05] It also had a fun outcome, which is that he recorded a video of himself saying, I love you dad over and over and put it next to the mic.
+[30:12] To hack the metrics.
+[30:13] To hack the metrics.
+[30:14] So yes. So yes, the kind of, you know, anything becomes a measure. It's no longer useful. But it was just a cool little social experiment. I think those things are super fun.
+[30:24] That is hilarious. And one of the measures was how often he said I love you. And I was going to give him a free time.
+[30:30] It was just easy saying things that are positive and prosocial or negative and anti-social and saying I love you is very prosocial.
+[30:38] That's so funny.
+[30:39] I had a friend who built this little device that measured how often he and his kid laugh throughout the day.
+[30:44] Oh, that's nice.
+[30:45] Yeah.
+[30:46] He hacked like one of his limit list pendants to do that. And then they just looked at that metric every day.
+[30:51] Isn't that so? And this is what I mean, you know, man, like I think we spent a lot of the time on the show so far really like intriguing talking about productivity, job loss, kind of all these like heady important topics with a capital I.
+[31:03] But what you just described, how often you laugh, like that's not a startup. That's probably not an economically consequential idea, but it is for like the quality of our life.
+[31:13] And I think we tend to think that happiness is fixed. But what if it's not, you know, if you and I were doing jobs 100 years ago, like, what would our jobs be?
+[31:20] I promise they'd be less cool than they are right now. And maybe 100 years from now, they'll be that much cooler.
+[31:26] So I think that the thing that gets often missed, and this is why I'm a fan of Claire and others is just like, how can this thing add texture to our human lives, even if they don't have economic consequences?
+[31:35] Yeah.
+[31:36] Along these lines, I saw a summary of this really interesting take that like the big opportunity, maybe just in consumer, but broadly is this idea of loop make me happier.
+[31:46] Yeah.
+[31:47] Talk about that.
+[31:49] Oh, yeah. I mean, I think that we believe that people want to be more productive, but they don't. I think more people want to spend time than save time.
+[31:58] There's a reason the biggest products in the world are kind of entertainment and social. So we get at the heart of how do we sort of deliver the value to the consumer?
+[32:08] Sometimes I tease and I say it's like the Instagram AI user versus the X AI user. The X AI user is like, you know, fearful of being outside of the permanent underclass is really opinionated on GLM 5.3 versus Kimmy K3. Like, they're just so peeled.
+[32:23] And then the Instagram person is like, well, this is like a better Google search. Kind of. It's cool. You don't get what all the hype is about.
+[32:29] So I think that a lot of the, and it's really a product design failure, we have the capabilities to radically transform people's lives.
+[32:36] I mean, many, many ways we spend 40 years building a technology that enables better spreadsheets, right? We built this like technology that extends our intellect, but nothing to extend our soul.
+[32:45] And I think that we have a little bit of a spiritual hunger, especially as a lot of these cultural institutions have gone away that fulfilled that, especially in the rest of America, you know, where you don't have as many hot yoga classes and Pilates and fasting and friends giving.
+[32:59] So I think that the opportunity for this technology is like, hey, that the basics of consumer need, how do we feel more connected, more loved?
+[33:06] Do we make progress? How do we have fun? Like the things that we all aspire to, the basics? How do we apply these tech, the technology to those areas?
+[33:14] That's what I want to see more of. And again, I don't think it's a model or a capability challenge. It's just a product design challenge.
+[33:20] I love this so much. We talked about this idea of loop, like grow my business, loop, find me more sales, close support tickets, but the way you're describing here, I think you, the way you had my notes here, just like loop, improve my health or loop, make me a better friend.
+[33:35] And there's no reason that I can't just think deeply and hard about all those things and figure out a way to actually do this.
+[33:41] Yeah. And also, look, we have to dial this in, but I think there's a way that AI can sort of challenge you, can push you, can be disagreeable.
+[33:49] This is also why I think startups are advantaged over incumbents. The idea, those 1,000 Google committees who would roll in their graves at the idea that they're going to release a model that's disagreeable or God forbid that it should be sexually suggestive.
+[34:02] But guess what? Those are all parts of human existence. So I think exploring the kind of uncomfortable parts of our social existence are things that startups are uniquely set up to do.
+[34:12] And I know you spend a lot of time investing in consumer companies. What I'm hearing here is this is a big opportunity for consumer businesses to basically build the app product that is exactly this loop around, improve my connections with my friends and family.
+[34:26] I think that's right. And I think the thing that's held back consumer so far a little bit and it maybe held back is just strong because if we kind of put this into iPhone terms, we're in iPhone 2010, right?
+[34:35] What is iPhone 2010? I think it's pre Airbnb, pre WhatsApp, pre Uber, pre all the important kind of consumer companies.
+[34:43] So it is early days, but what's held us back is I think three things. One is that the models have been expensive.
+[34:50] So if you want to do a kind of free to use product, it's that hasn't been easy.
+[34:55] The second is that we've kind of had an interface problem, like chat makes sense if you're the highest agency person in the world, which is Elon and Sam.
+[35:02] But for the average consumer, like their ideal interface is TikTok. So we need to find something between chat and TikTok.
+[35:11] And then the fact that the technology has been so much more focused on productivity than things like human connection and entertainment.
+[35:18] I think all those things are kind of up for grabs. Like the open weight models mean things are way cheaper.
+[35:23] I think that we're starting to have conversations about things like loop make me happier.
+[35:28] And I think that founders like Eugenia, who you should have on the show, she's tremendous, are thinking really ambitiously about user interfaces.
+[35:35] Brian Chesky from Airbnb that he started a foundation lab focused on next gen user interfaces.
+[35:40] So I think all those problems will get solved or they're at least in a better position to be solved than they were two years ago.
+[35:46] I want to come back to this whole space of consumer and AI and things like that.
+[35:50] But I want to follow this thread a little bit more about just the optimism around where things might go.
+[35:56] There's a lot of fear and worry about the future with AI and just generally.
+[36:02] Marc Andreessen, when he came on the pot of this really interesting take that AI came just in time to save us because population is declining,
+[36:10] productivity is going down, there's all this war, climate change and all these things.
+[36:15] And we would be in big trouble if I wasn't here to feel that gap.
+[36:19] Talk about just kind of your bigger picture perspective on why you think maybe people are underestimating the positive and optimism around AI.
+[36:28] One, I think it's a potential for it to be sort of emotional, spiritual interface on which we can kind of get leverage and explore aspects of ourselves that have been really buried.
+[36:37] If you look at the kind of effect of the industrial revolution, it's that there are these scale advantages which are insurmountable.
+[36:43] And as much as obviously I'm very pro-capitalism and I love the economy that we live in, I think that centralization, it sort of discourages the individual in some ways and it maybe detracts from their identity.
+[36:56] So I think one of the really magical things is this is a technology that really amplifies our identity, our agency, it kind of unbundles skill from desire.
+[37:04] For example, if you want to make music, you can make music now, you don't have to know how to play the piano.
+[37:09] If you want to be a programmer and make software, you can make software now.
+[37:12] So it really amplifies our individuality, it allows us to explore aspects of our lives that we were never able to explore before.
+[37:20] And just in terms of the nuts and bolts, we have been in this sort of more ass of 2% GDP growth.
+[37:26] Who said that we have to be there? Why can't we be 10 or 15 or 20%?
+[37:30] And this is a technology with which not only can we dramatically drive productivity, we can dramatically drive ambition.
+[37:36] Think of the, maybe this is a caricature, but the 1950s and 1960s, we believe that we could do anything.
+[37:42] We were coming out of World War II where the entire economy, the entire world mobilized in a way that we didn't think was possible
+[37:49] and one of my theories, Lenny, is that when the stakes are high, we are awesome.
+[37:53] When the stakes are low, we are at our absolute worst.
+[37:56] And in a lot of ways, I think the world we lived in five years ago felt like a low stakes world,
+[38:00] which is why we kind of collectively had a lot of these side projects as a society which weren't necessarily productive or making any of us happier.
+[38:08] And now it's not just Elon doing everything he's doing, but I think everybody feels like they're climbing the ambition ladder.
+[38:15] You ship your bad ideas. You can discover your good ideas.
+[38:18] And if you want to build software great, if you want to build a bridge, you don't have to be a civil architect to know how to do that anymore.
+[38:25] So I really think that we have the makings of a sort of dramatically happier, more fulfilled, more productive society.
+[38:32] And, you know, and yet we're here talking about permanent underclass.
+[38:35] I love all of that. It all feels so right. It's so hard to really believe that.
+[38:41] But if you actually look at how things have gone so far with the rise of AI, unemployment's down, people are making a lot of money.
+[38:48] You know, obviously a lot of people are struggling. There's a lot of downsides.
+[38:51] Data centers causing problems for people, things like that. A lot of issues.
+[38:55] But it feels like as an economy and as a country feels like things are going well so far.
+[39:00] Like they just almost like cured some kind of cancer the other day. So yeah.
+[39:04] Yeah, you're right. Moderna just did.
+[39:06] I mean, the fact that Dario can write a blog post and say what happens when we cure every disease and then we debate it as a serious topic.
+[39:13] Like what world are we living in here? You know, I also think that we're collectively worried always, like, you know, the kind of these abstractions, the world, the average worker, the middle manager, the person who lives in the vicinity of a data center.
+[39:28] These are abstractions. But our actual lives seem like they're getting more fulfilled. We're more capable. We're more empowered.
+[39:35] So I think that's also something that the revealed preferences tend to show how people are experiencing it individually and the stated preferences tend to show how people are sort of observing it or believe it's playing out societally.
+[39:46] You know, if you ask people if they want a data center in their neighborhood, most will say no. But if you ask them if they use chat GPT today, most people will say yes. So that's kind of the dissonance.
+[39:57] The obvious issue is just the PR over and AI has not been great. There's a lot of fear mongering thoughts on that. What's going on there? Do you think that'll change?
+[40:05] The most important thing that we can do with AI to change the kind of conversation around it is make important things cheap. There's two things that are extraordinarily important in America that have only got more expensive, right?
+[40:16] Health care and education. If you look at health care, 45% is administrative. So if you take a lot of that administrative burden out, you can actually see deflationary health care costs.
+[40:27] Also things like curing every disease. That sounds awesome. You know, GLP ones also obviously not an AI thing, but I think is a reason to be optimistic about deflationary health costs and then education as well.
+[40:40] Education now has the strongest form of competition, sort of traditional education that it's had in 200 years. And I think it's going to be very, very good to kind of unbundle learning from institutions.
+[40:52] And also by the way, like status from credentials, you know, like you don't need a Harvard degree, you just need to get. And that's pretty cool.
+[41:00] I saw open AI recently slowed down their AI development. They paused their RL kind of phase on the latest model because of what they're seeing.
+[41:10] So that's obviously a big concern for people just how fast and smart these models get any thoughts on just that. That's like a big shift now instead of race ahead to the fastest, best model ever.
+[41:19] Okay, we actually have to slow these things down. That feels crazy.
+[41:23] I mean, without commenting on open AI specifically, I think that maybe I'm a little skeptical on some of these things where I think the kind of the aura that anthropic got from having a model that was too dangerous to release was extraordinary.
+[41:36] And maybe they had a GPU shortage. You know, maybe it was, you know, the capabilities were more advanced and they actually wanted, you know, maybe they actually wanted to keep that proprietary model internal to extend their own lead.
+[41:49] So I think there's a lot of sort of confounding factors that would cause you to pull back a little bit. Look, I do take the points about offensive cyber seriously, which is we should harden all of our systems before we make them trivial to penetrate.
+[42:04] But I think the sort of concept of the model that's too dangerous to release it, it kind of conflates marketing, inference capacity, and then also economic considerations like, do you want to externalize your competitive advantage or use it to make yourself better?
+[42:19] Yeah, I always think about that when I have folks from anthropic, you know, in a band, the podcast, just like how an advantage they have when they have the best model.
+[42:27] It's crazy, right? Just like that's a loop right there is just have the best model for longer and they can move so much faster.
+[42:32] It's crazy, though, you know, to take the other side for a moment, like it felt like anthropic was unassailable and now opening eyes had an amazing six months and open weights are also ripping.
+[42:42] So despite the like the sort of scary concept of this like, you know, supremely intelligent model that's totally proprietary to one company, the so far, the kind of industry trends haven't played that way at all.
+[42:53] Yeah, like, Grockbot just came out of nowhere and is now like the most amazing AI kind of assistant tool. I'm just hooked on it.
+[43:00] Oh, man. I mean, we should talk about the personal agent thing. Like, actually, the three big products that I love here, Grockbot's totally nailed it.
+[43:08] And also the model underneath it is awesome, right? They came out of you right out of left field.
+[43:12] And that's I know a lot of the good work the CRISR team did. I think chat GPT work. It's kind of buried in the UI, but it's really, really good.
+[43:19] It's one of the best products they've released. And then there's a startup that's really getting some buzz called Instinct, which has made some more aggressive and interesting tradeoffs, but all in the same domain.
+[43:29] That's amazing. I don't know if it was a strategy for some ran, someone tweeting this vague about how awesome it is.
+[43:36] And I was like, what the hell are you talking about? That was really effective.
+[43:40] Is that a good job?
+[43:42] Chat GPT work, the episode that will come out right before this is the PM in charge of that Tara.
+[43:48] Oh, really?
+[43:49] Yeah.
+[43:50] Oh, man, they did such a good job on it. It's really, I don't know how much you use it, but it's really well done.
+[43:55] What is the, what is better than co-work there? Is it better runs in the cloud? Is that the big differentiator?
+[44:01] It runs in the cloud. It does a good job of kind of caching browser credentials, so it's not as aggressive as Grock or Instinct.
+[44:08] And it also, the remote feature, it's got the full duplex voice mode.
+[44:13] So you can actually just call it and can see all your threads and you can just talk to it and say,
+[44:17] Hey, what's happening across all my coding agents across this? Can you change that?
+[44:20] It's just because the full duplex voice is so good.
+[44:23] You really feel like you're calling your assistant, who knows everything that's happening in your world.
+[44:27] Whereas with Grock, it's a sort of one-way transcription, right?
+[44:31] Or with some of the other assistants, it's a text.
+[44:33] So the voice plus the kind of model that can see all threads is really well done.
+[44:37] Awesome. Okay. I want to come back to this AI system, consumer stuff, but just something I wanted to kind of close the thread on.
+[44:44] I feel like there's in terms of jobs and economy as a result of AI.
+[44:50] I see it almost as the spectrum of, there's like the dario into the spectrum of 50% of knowledge work will be disrupted
+[44:57] and we'll have going to have massive unemployment to like the SAC, David SAC spectrum of like,
+[45:02] it's going to be incredible. Jobs are going to be fine.
+[45:05] So far everything is pointing in the good direction.
+[45:08] Clearly you're closer to the SACs direction.
+[45:11] Is there anything else just along the lines that you think might make people feel better about jobs in the future?
+[45:16] I mean, I think that the entire trend of human existence has been that our desires grow faster than our ability to fulfill them.
+[45:24] If you look at the things that are expectations today, they were unimaginable luxuries 500 years ago,
+[45:29] even 50 years ago for things like therapy, right? Or things like antibiotics 100 years ago, right?
+[45:34] I mean, it didn't matter how rich you were. You simply didn't have access to it.
+[45:37] So they were underestimating human ambition, human desire.
+[45:42] You know, people are going to be mad that they don't have a vacation home in Mars in 20 years, like really mad, like this really mad.
+[45:47] They'll be seeing it on Insta and be like, come on, babe.
+[45:50] We got to work harder and make this happen.
+[45:52] Every CEO is going to want to build a much bigger company.
+[45:55] So I don't think already it feels like we're living a much larger form of human existence than we could have imagined 100 years ago.
+[46:02] And there's no reason that trend won't continue or accelerate.
+[46:05] This idea of ambition, I'm glad you brought that word up again.
+[46:08] It's something that's coming up a lot on this podcast that not only is AI making it easy to be a lot more ambitious,
+[46:15] it's almost making us have to be more ambitious because everybody else can just do all the easy stuff now.
+[46:21] And now what separates us is just how big can you go? Okay, I'm going to make a personal website.
+[46:25] Okay, it's cool. It'll be this white, simple background. No, okay.
+[46:28] I'm going to make this 3D game where you have to like walk through a world and discover all the things that like everything is just getting more epic.
+[46:34] Thoughts on just this idea of ambition becoming a bigger, I don't know, skill and habit.
+[46:39] A lot of things get conflated because when you and I say ambition on this pod, I think people have a very specific idea of what that ambition is.
+[46:46] You know, ambition to be a founder, ambitious to build a beautiful software product.
+[46:50] Like those are types of ambition, but there are other types of ambition.
+[46:53] Let's talk about creative ambition.
+[46:55] You know, when you're five, nobody says, Lenny, you're good at painting, but you're bad at drawing.
+[46:59] You know, you just have an ambition or a desire to make something and you make it.
+[47:03] Like that's something that's very unique and can now actually be encouraged.
+[47:07] You know, think of very local ambition.
+[47:09] So, you know, they have the NHS in the United Kingdom.
+[47:12] I think it's this sort of treasured institution that's not working well.
+[47:15] Maybe the way AI shows up in their societies making like the NHS as good as the iPhone, right?
+[47:20] That's very specific and local to them or simply the ambition to be more connected to our family, to be more present parents.
+[47:26] So the ambition doesn't have to be sort of ambition in the narrow economic sense.
+[47:30] It can be really anything that we want to do more of and who doesn't have that in their bones.
+[47:35] Yeah, that's like my example is so dumb now that I think about it.
+[47:38] Like, it feels like the thing we have to unblock in our brain is, okay, AI, solve cancer.
+[47:44] We're not like, that's where we can start to think now.
+[47:48] And it's so unnatural to us, especially as product people that always have to think about the MVP and the constraints.
+[47:53] Now we have to think big.
+[47:55] Okay, what's the big for what's the 10x, the 1000x version of this?
+[47:58] Yes.
+[47:59] I know, right?
+[48:00] We have to think small because this thing that we are whole lives and built around how precious software and intelligences.
+[48:06] And now it's totally not precious.
+[48:08] Like, that probably will be a harder change for you and I.
+[48:11] Yeah, so like all these new little habits.
+[48:14] I think a lot about on the cloud code team, they have a principle.
+[48:18] You know what's better than me doing it? It's cloud doing it.
+[48:21] And that just created this habit in everyone on the team.
+[48:24] How do I help cloud do this thing for me?
+[48:26] And I feel like that's a thing we all have to start to build in our head
+[48:29] and rock lots really good at that.
+[48:31] And not an investor, not an affiliation, but it's just so simple and good at this stuff.
+[48:35] I also think that there's so much learning that happens through doing.
+[48:38] You know, it's funny.
+[48:39] If you look at the number of people that are talking about vibe coding versus the number of people that are talking about their projects,
+[48:44] people are a little embarrassed.
+[48:45] I'm a little embarrassed to talk about a lot of my projects because they don't seem important or substantial enough.
+[48:50] But so much of it is learning through execution or shipping or being fulfilled through execution and shipping.
+[48:55] Like, I don't think we can underestimate that either.
+[48:58] It's something that I suppose is coming together from someone at Google that works on a lot of their lab stuff.
+[49:03] And I don't want to give away the goods, but just broadly her concept is that building is now the new reading,
+[49:09] where you build to learn and infuse and experience.
+[49:12] And it's totally okay for most of it to go through and away because that's still building your muscle.
+[49:19] Yeah.
+[49:20] So well said.
+[49:21] Yeah.
+[49:22] It's building as an activity rather than an outcome.
+[49:24] Right?
+[49:26] Which I think a lot of people feel bad.
+[49:27] I shipped all these things, but no one's using it.
+[49:29] I never use it.
+[49:30] And I think that the key here is like, that's actually okay.
+[49:32] That's totally fine.
+[49:33] Oh man.
+[49:34] I mean, it happens in every other domain.
+[49:36] You know, like I make a DJ said and like three people listen to it and I listen to it a hundred times.
+[49:40] And it's very fulfilling.
+[49:42] It doesn't matter.
+[49:43] We're going to talk about your DJ stuff later.
+[49:45] Okay.
+[49:46] Okay.
+[49:47] Okay.
+[49:56] So there's three big areas.
+[49:58] We're very early as we kind of discussed, you know, the labs have done a good job, but there
+[50:02] aren't as many sort of independent mass market consumer products.
+[50:06] Coding agents are awesome and I think a total lightning bolt.
+[50:09] You know, I think it's easy to say most people don't want to make code, but the big change in
+[50:13] my thinking is that coding agents are a way to interact with the world generally.
+[50:17] And you've seen a lot of this on X, you know, people use cloud code to edit videos, you know,
+[50:22] or codecs to create a game that they play with their kid on an airplane ride.
+[50:28] Like there, it's sort of this general problem solving tool that consumers can use in very
+[50:33] unique ways, you know, and probably the best example company we've invested in is Wabi,
+[50:38] where it's sort of a platform for many apps.
+[50:40] People can create them, consume them, share them.
+[50:42] So Coding agents is one big area.
+[50:44] I think that's important.
+[50:45] Personal agents, we have this credible moment around open claw, but guess what?
+[50:49] Open claw is a dev thing, you know?
+[50:51] And Hermes, of course, and Moltbook, like all of that is now getting distilled into mass market
+[50:57] consumer and enterprise agents that people understand, which is what we discussed previously.
+[51:02] And then the last is I'm going to call entertainment that doesn't fully do it justice.
+[51:06] I think that it's a lot of sort of creative tools, you know, soon has done such an amazing job.
+[51:11] It's companionship products, all that entire areas, you know, uncomfortable to talk about.
+[51:18] So I think it's under-discussed, but there's some huge fast growing products there.
+[51:22] I think those are the three big areas that we're watching right now.
+[51:25] That's really interesting.
+[51:26] Just think of it, these three buckets.
+[51:28] Coding agents, AI assistants kind of open claw, but much simpler and easier and more reliable.
+[51:33] Sounds like basically the three described there that you're excited about are instinct,
+[51:39] grok bot, and chat to be to work.
+[51:42] That's right.
+[51:43] And then Wabi, I guess, would fit in that first one.
+[51:45] It's like a personal coding agent that can build whatever you want for you.
+[51:48] Yes.
+[51:49] Yeah.
+[51:50] That's exactly right.
+[51:51] And then entertainment is their bucket, like AI girlfriends and that kind of stuff for it.
+[51:54] Yeah.
+[51:55] Those companies, it's like crazy.
+[51:56] You guys put out these market maps and like five of them are these different, like...
+[51:59] That's right.
+[52:01] Though, actually, to be accurate is more boyfriends and girlfriends, actually, you know?
+[52:05] The majority of people using companion products are women that are in their 40s and 50s.
+[52:10] Interesting.
+[52:11] Okay.
+[52:12] Cool.
+[52:13] So those are the three kind of areas you think the biggest opportunities will come from.
+[52:18] And it's interesting that they connect to this idea of loop.
+[52:21] I don't know.
+[52:22] Make me happier.
+[52:23] Like they...
+[52:24] Yeah.
+[52:25] These are kind of...
+[52:26] There's kind of like the jobs to be done for humans.
+[52:27] Make me happy.
+[52:28] Make me healthier.
+[52:29] Make me live longer.
+[52:30] That kind of stuff.
+[52:31] Yes.
+[52:32] Yes.
+[52:33] Give me a channel for my ambition, a channel for my sort of fulfillment, and then a thing to do when
+[52:38] I'm not doing everything else.
+[52:40] That makes sense.
+[52:41] Okay.
+[52:43] The other question I have for you along these lines is there's so many companies and so many
+[52:48] startups, so many products.
+[52:49] Everyone's launching the speed at which companies and products are shipped is like 1,000 Xing.
+[52:55] How do you think about durability and moats when you look at a startup?
+[52:59] Because a lot of founders get that question.
+[53:01] Everyone's getting that question.
+[53:02] How am I not a rapper?
+[53:03] What are signs that tell you this might be a durable thing?
+[53:06] Well, I think there's two important ideas.
+[53:09] One is something that Jesse from Decagon said, which I love and that is that moats are most
+[53:14] often discovered, not designed.
+[53:16] I think it's really easy.
+[53:18] I've done this as a founder to get in your own head about like, hey, I need a business plan
+[53:22] that survives scrutiny from MBAs and VCs.
+[53:25] I've got to have some really sophisticated idea of what my moat will be.
+[53:29] And for that team, they just started shipping and it developed over time.
+[53:33] Another great example of this is cursor.
+[53:35] They were criticized a lot for not having a moat.
+[53:37] But it turned out that initially being a high NPSDAU product was really good.
+[53:42] And over time, they captured all the reasoning traces.
+[53:45] They trained their own models, the composer won two models and so on and so forth.
+[53:49] We know how that story plays out.
+[53:50] So moats can be discovered.
+[53:52] They don't have to be designed is one.
+[53:54] And I think the other is that we seem to have forgotten that the classic moats, none of the
+[53:58] classic moats are based on how hard it is to make the software.
+[54:01] We're not building self-driving cars.
+[54:03] Most of us aren't.
+[54:04] So it's network effects, it's scaled bandages, it's brand effects, proprietary sort of data,
+[54:10] what was historically called a cornered resource.
+[54:12] Every moat from five years ago, generally, is still a good moat.
+[54:16] We just need founders to have ambition in those directions.
+[54:19] We need more multiplayer products.
+[54:20] We need consumer social.
+[54:22] We need products that get dramatically better the more you use them like town.
+[54:26] So on and so forth.
+[54:27] So still read Hamilton, Helper, and all that stuff still applies.
+[54:32] Yes.
+[54:33] Love his book.
+[54:34] Yeah, he's been on the podcast.
+[54:36] Yeah.
+[54:37] I feel like there is only five real business books in the world.
+[54:40] Every other one is in the business of selling business books and they're fake and his is on
+[54:45] my list of five.
+[54:46] Are there any other in this list that come to mind real cool on the topic?
+[54:50] The two that are so obvious are high output management, which is like that is as good as it ever was.
+[54:55] And then Ben's book, hard things is it was the first emotionally honest book about business
+[55:01] that was ever written.
+[55:02] And that's why founders love it.
+[55:04] That's why I love it.
+[55:05] Because you read it and you're like, wow, I'm not the only one that's anxious and feels like a failure
+[55:10] and can't tell anyone what I'm going through.
+[55:12] Ben went through it too.
+[55:13] Two of the most mentioned books on this podcast turns out.
+[55:16] I'm not surprised.
+[55:17] So on this moat idea, so say you're a founder and you're putting a pitch together trying to
+[55:22] pitch you or other VCs.
+[55:24] What's the best way to talk about a moat?
+[55:27] Is it like, can you just say we're going to discover it?
+[55:29] We're not sure nobody really knows yet.
+[55:31] Yeah, I think that we would happily take about in a product that doesn't have a quote unquote
+[55:35] moat or durability story.
+[55:36] If it has a lot of momentum, a lot of craft, a lot of sort of growing engagement.
+[55:42] It's actually the thing I've learned over the years.
+[55:44] I used to be very worried about people stealing my idea, but I've learned that the big ideas
+[55:49] are always supported by a dozen small ideas that are invisible.
+[55:52] And even if somebody replicates your big idea, they never see the small ideas that make the
+[55:56] big idea work.
+[55:57] So I actually think that there's something special in the water with certain products that
+[56:03] make them incredibly successful despite extraordinary competition.
+[56:07] I mean, look at granola.
+[56:08] Two years ago, it was really criticized.
+[56:11] And I don't know that they have a super strong durability story today, and yet it is beloved
+[56:16] and dominant.
+[56:18] So I listen to what the customers are saying more than what the business books say.
+[56:23] I just saw Ram put out a report of the fastest growing companies, according to their date
+[56:27] in granolas, like number two or three.
+[56:29] It's a tremendous product.
+[56:30] It's that craft is really high.
+[56:32] Yeah.
+[56:33] And I think about that a lot these days, because there's so much, like there's co-work, there's
+[56:39] chat, JPT work, there's cursor, there's rock what.
+[56:42] And it's crazy how quickly one can switch from one to the other.
+[56:46] And the underlying model is not that different.
+[56:48] All it really is, most of it is the harness and slash UX of the product.
+[56:54] And so to me, that tells you there's so much opportunity in the actual user experience being
+[56:59] a moat, or at least giving you a lot of time to find something that is durable.
+[57:03] A hundred percent.
+[57:04] And I think for the people that are at the edge, they pay for all of them because they all have
+[57:08] the respective areas of specialization.
+[57:09] Yeah.
+[57:10] I have many $200 a month plan.
+[57:12] I know.
+[57:13] I know.
+[57:14] It's a little painful.
+[57:15] But yes, me too.
+[57:16] And I think cursor is a $300, $300 a month plan now.
+[57:19] So does rock?
+[57:20] Oh, yeah, you're right.
+[57:21] Yeah.
+[57:22] That was a rock.
+[57:23] It's pretty much that.
+[57:24] Rock heavy.
+[57:25] Yeah.
+[57:26] RIP cursor.
+[57:27] I think they've transitioned away from their brand.
+[57:29] Something I've been talking a lot about is the distribution.
+[57:32] I call it distribution as new moat, but it's like, it's always been a moat, but it feels like
+[57:36] more and more.
+[57:37] That is actually a massive advantage because everybody is there's like a thousand launch videos
+[57:43] a day around launching, launch, launch, launch, and really the ability to get your stuff
+[57:49] into people's, attend, into people's feed, get them continue to be reminded your products.
+[57:55] It feels like increasingly is powerful and important thoughts on the rising value of
+[58:00] distribution, existing distribution being a big lever for growth and success.
+[58:04] This is so important.
+[58:05] And you know, I asked Chris Dixon about this because he sort of offered the famous comfort
+[58:10] of the tool, safer the network.
+[58:11] I think the issue is that our entire generation of founders and CEOs were trained on the theory
+[58:16] of networks and network building.
+[58:18] And as a result, every network that exists today is hyper-trained to ensure no one else
+[58:23] builds a network on their network.
+[58:24] So I actually think that the sort of network effect has gone back to this grassroots like
+[58:29] true word of mouth when somebody is getting a ton of mentions on X and on YouTube and
+[58:35] on Instagram and all of these places organically.
+[58:39] That is probably the best form of the sort of third party network effect that you can hope
+[58:44] for today.
+[58:45] And actually, just like the Web 2.0 era, unlike the mobile era where you had the app store or
+[58:49] you had growth hacking and you had all of these sort of, you know, little cottage industries,
+[58:53] we have to kind of build our own channels off of that word of mouth growth.
+[58:57] So in a sense, it's a, it's a pure growth problem, but a harder one than we've had in
+[59:02] a couple of product cycles.
+[59:04] And to get word of mouth, you need to build something, I always think about Seth Godin's
+[59:07] line, build something remarkable, something that people, that is worth remarking about,
+[59:13] which is basically, you know, build an amazing product that people want to talk about, which
+[59:17] is a, you know, a very hard to do.
+[59:19] And it makes sense that because there's so much happening, people are just going to pay
+[59:22] attention to what are my friends using and saying is worth paying attention to.
+[59:26] Well, you know, here's the one thing I would say that, here's the hopeful point, which is
+[59:29] I always say that nobody has a growth problem these days, they have a product problem.
+[59:34] I mean, the reason for that is like you can build such a wildly ambitious product in any
+[59:38] direction, you know, functional or emotional, you can charge a lot of money for it.
+[59:43] So my challenge is like, hey, is it that you have a growth problem or is it a failure of
+[59:47] our collective imagination?
+[59:50] You know, if we imagine our product cost $1,000 a month, $10,000 a month, like what if our product
+[59:54] was a software Birken bag, what would it have to do to justify that?
+[59:58] Okay, let's figure out how we build that.
+[60:00] And it comes back to the ambition question.
+[60:02] Yes.
+[60:03] And still though, you still need some advantage to get in front of people, to get it out there,
+[60:10] at least initially, because there's like a thousand things launching every day.
+[60:13] Imagine that's still a big opportunity and I don't know advantage, which to me makes
+[60:17] me feel like incumbents have a huge advantage.
+[60:19] They have the products they can tell you, hey, go use Gemini and every time you go search Google,
+[60:24] I guess, do you feel like that?
+[60:26] Do you feel like it's harder for startups now because of this distribution challenge?
+[60:30] I don't know.
+[60:31] I think it's easier because like Gemini, despite all the kind of heavy cross selling Google has
+[60:35] done, nobody would say they're winning startups can build in directions that incumbents are
+[60:41] uncomfortable building in, like everything we talked around to companion, but there's
+[60:44] many others, you know, prices can be pretty high, like people are open to paying 200 a month
+[60:51] or in the enterprise, they're open to signing million dollar ACV contracts without really
+[60:54] knowing what they're getting.
+[60:56] So I think like the kind of the floodgates are open, it feels like Christmas 2009 where
+[61:00] everybody got their iPhone and want to download your apps, you know, that'll change at some
+[61:04] point.
+[61:05] People will feel like they're, you know, they're done and they're tired and they don't want
+[61:07] to try anymore apps, but the windows are open for now.
+[61:09] I think it's easier for startups.
+[61:11] That's a really interesting insight and you're lying about how it's not a distribution or
+[61:15] growth problem.
+[61:16] It's a product problem.
+[61:17] It's such an important one because if your product was that good, people would talk
+[61:21] about it and share it and use it.
+[61:23] And it can be.
+[61:24] It's a wild social experiments that we're going to see with this technology kind of intermediating
+[61:29] them.
+[61:30] You know, I think a lot about actually, here's a fun example from a few years ago.
+[61:34] Have you heard of Mischief?
+[61:35] You know, Mischief?
+[61:36] Yeah.
+[61:37] Yeah.
+[61:38] Right.
+[61:39] They're awesome.
+[61:40] Right.
+[61:41] They're sort of like this creative studio that uses technology as their medium.
+[61:42] I'm very web 2.0 in that way, actually, many of the kind of, you know, they have Williams
+[61:44] and Kevin Rose is that's who they were painters, except technology was a canvas.
+[61:48] So they created this very funny product called Card versus Card where they shipped, I think,
+[61:53] 100,000 people, a debit card, and then every day they would text those people with a location
+[61:59] that they had to spend the money at and they would put $100 on the card and everyone would
+[62:02] rush out to spend the money and one or two would be able to spend it and everybody else
+[62:07] would get declined.
+[62:08] And it was just this hilarious social experiment that went hyper-viral and for me, it was always
+[62:13] inspiring in the world of FinTech because it was like, wow, why don't we build more products
+[62:16] like that?
+[62:17] You know, money is inherently social and yet all the financial products we have are so dry
+[62:21] and personal and embarrassing.
+[62:22] I think there's a sort of similar moment happening in AI right now where we can build
+[62:26] these wildly ambitious products that touch on many of our social nerves.
+[62:29] We just have to do it.
+[62:30] So let me follow that thread.
+[62:32] You get to see tons of companies both pitching you and also companies you're working with
+[62:37] that you're investing in.
+[62:39] What are some counterintuitive lessons you've learned from watching the companies that operate
+[62:46] well and have succeeded, lessons that maybe go against typical wisdom, startup wisdom?
+[62:52] I'll tell you the biggest one and in the old days, which is three years ago, we would
+[62:57] see a company and if what they were doing, trying to do was too ambitious, we would not
+[63:01] engage.
+[63:02] Just too crazy, too complex.
+[63:05] And implied by that is you wouldn't do a $100 million seed because it's too much money for
+[63:10] almost any problem, it's too much money for any person to actually manage, it's too much
+[63:15] money to build this sort of talent to absorb, it doesn't make sense as an inception round.
+[63:20] I think today we're almost seeing the opposite problem where an idea that's too small is not
+[63:26] something that we want to engage with and you can talk about how you put $100 million to
+[63:30] work in a seed productively.
+[63:32] Now, I'm not recommending you raise $100 billion, but I think that there's this sort of no ceiling
+[63:37] on ambition is also showing up in how we're picking companies and maybe how they're picking
+[63:42] us as well because when we invest, we tell every founder like, we're here to help you build
+[63:47] the strongest form of your vision.
+[63:50] Mark told this to me when him and I were talking about coming here and he said, in each the
+[63:53] way we sort of told our story when we were raising our first fund was, we were going to
+[63:58] the moon or we were going to leave a moon sized crater in the ground and there was no
+[64:02] other option.
+[64:03] That's sort of how we want to work with our founders as well.
+[64:06] I love that point.
+[64:07] So like is, can you get too ambitious, is there like a limit?
+[64:11] Obviously look at the team and what they're, but kind of the key lesson here is be more ambitious.
+[64:17] It's like the opposite of what used to be able to like here's ours.
+[64:20] Here's our wedge here's where we're going to go, what you're looking for is just how big
+[64:22] is the idea.
+[64:23] I mean, look at Adams, how crazy is Adams, you know, I mean, what an incredible heroes journey
+[64:29] for all of us collectively, but also what they're trying to do is something that, you
+[64:32] know, five or seven or 10 years ago, would have felt insurmountable.
+[64:36] And now it's like, okay, it's challenging, let's see, you know, interesting.
+[64:40] Is there anything else, anything else that has changed or I guess you've changed your
+[64:43] mind about around what you think it takes to build a successful company these days?
+[64:47] I mean, I think that the kind of old wisdom around consumer products have to be free.
+[64:52] I'm almost taking the opposite take, which is let's think about consumer products that
+[64:56] are extraordinarily expensive.
+[64:58] I think every part of consumer discretionary spend is up for grabs right now.
+[65:03] And I think they are really useful because prices and measure product market fit are really
+[65:07] useful product exercises.
+[65:09] That is the broken bag, 10,000 a month, 1000 a month version of our product.
+[65:13] So I think expensive consumer software is something like you and important that we wouldn't have
+[65:18] thought about five years ago.
+[65:19] I love that framing because it just pushes you again to be more ambitious.
+[65:23] Yeah.
+[65:24] You mentioned Mark, you work closely with Mark and Driesen, Ben Horowitz.
+[65:28] Yes.
+[65:29] What's what's one thing you've learned from each of those guys?
+[65:33] There's such extraordinary leaders, founders.
+[65:37] I mean, the thing that I actually feel so grateful to be a part of, that they really
+[65:41] embody to their core, I think is a feeling of stewardship for the technology industry
+[65:47] and for really the country and the sort of maybe the Western way of living and thinking.
+[65:53] And if you look at sort of a Ron Conway, you know, or Brebiers, Tom Perkins, there was
+[66:02] this feeling, I think, of obligation to sort of leave it better than you found it from
+[66:09] an industry perspective.
+[66:11] And that sort of aspiration goes way beyond just being the best investor in the world,
+[66:15] though we want to do that too.
+[66:17] I see them both show up that way over and over again, where they want to do hard, important
+[66:21] things that don't directly benefit the firm or at least not singularly because they're
+[66:25] just sort of important.
+[66:26] You know, Ben has done a lot of that in the direction of the industry and Mark and sort
+[66:30] of the direction of the country, though, of course, both work on both.
+[66:35] Another really cool thing is just to see how I think Mark and Ben, but maybe the firm a
+[66:39] little bit has shaped our collective ambition as a founder community and if you look at five
+[66:46] or seven or 10 years ago, Deep Tech was deeply unpopular, you know, wasn't a high-status thing
+[66:51] to be working on.
+[66:52] It was very fringe and now it's become very popular, high-status and mainstream.
+[66:58] And I think there's a lot of firms that have, of course, pulled in that direction.
+[67:01] But I think that someone like Mark has been very full-throated in support of working on
+[67:05] sort of capital-I-important work in the national interest and also can value has changed as
+[67:11] a result.
+[67:12] And you guys have had some big wins in the past couple of weeks investing wise too.
+[67:16] Yeah.
+[67:17] Thank you.
+[67:18] Congrats.
+[67:19] Final question before we get to our very exciting lightning round, what's your advice to product
+[67:25] people who are trying to think about what they might want to shift in, how they work,
+[67:31] how they think, how they operate to be more successful in the future in their careers and
+[67:36] with their companies?
+[67:37] Just make more things.
+[67:38] And I know it sounds silly.
+[67:39] I know everybody says it, but just please like come up with a project, you don't have to tell
+[67:44] anyone about it.
+[67:45] It can be totally unimportant, but use it as a chassis to use all the new models, ship
+[67:51] things, talk about them, build your own intuition.
+[67:53] I promise you're one sort of slightly frustrating and then very fulfilling week away from being
+[68:00] as peeled as anyone.
+[68:02] So you just got to use the technology.
+[68:05] And if not now, then when, right?
+[68:06] This is all of us got in the game to build the products we saw in our mind's eye.
+[68:13] And now we have a chance to do it.
+[68:14] So just please, please use the models and tell me what you built.
+[68:17] Text me.
+[68:18] You know, tag me.
+[68:19] Like I will reply and respond and engage with you and so will everyone else because the
+[68:23] magic of Silicon Valley is that it's a very positive, some mindset, you know, it's sort
+[68:28] of everybody is building on each other and vulnerability is really rewarded.
+[68:33] So I definitely would encourage people to use the models.
+[68:35] What's like a good heuristic if you're doing this enough?
+[68:39] Is it like build something once a month?
+[68:40] Is it sit at like some number of hours per day sitting, talking, building anything that you
+[68:45] think might help people be like, okay, you're doing a good job?
+[68:48] I mean, just ship something once a week and it doesn't have to be crazy.
+[68:51] You know, I mean, for example, when I was playing around with codecs, I had it build a slide
+[68:57] deck for Mother's Day for my wife that pulled from my text messages, it looked at my photo
+[69:04] gallery, it sets a music to it, created like a 20, you know, slide deck of our relationship
+[69:10] and pulled some cool text from when I first asked her out.
+[69:12] It was a really nice Mother's Day, you know, I mean, it wasn't important.
+[69:15] It wasn't something that I might come back to, but it was shipping something, so it can
+[69:19] be that small.
+[69:20] I know that you're our mutual friend, Nick Elsengal, you worked at Credit Karma with him.
+[69:25] He had a really good way of thinking about this.
+[69:28] He finds that people flip on AI and how they feel about it once they find some moment of
+[69:33] joy that it had created for them.
+[69:36] And this Mother's Day idea is such a good example.
+[69:39] And so I think that's kind of a tip I always think about is just like what's something that
+[69:42] just will bring you joy if this works.
+[69:45] What's something you can do for someone else?
+[69:47] You know, maybe that's a good starting point as well.
+[69:50] Anish, before we get to a very exciting lightning round, is there anything else that you want
+[69:55] to share anything else you want to double down on before we get into the lightning round?
+[70:00] I don't think so.
+[70:01] I've loved the conversation so far.
+[70:02] Me too.
+[70:03] And with that, we reached our very exciting lightning round.
+[70:05] I've got five questions for you.
+[70:07] Are you ready?
+[70:08] Okay.
+[70:09] Okay.
+[70:10] Here we go.
+[70:11] What are two or three books that you find yourself recommending most to other people?
+[70:14] Yeah.
+[70:15] So, okay.
+[70:16] This is my very favorite book.
+[70:18] It's Thomas Sol and it just talks about how conquests have led to culture change in different
+[70:25] societies around the world, sometimes positive, sometimes negative.
+[70:28] I think to me, it's just the best historic view of sort of culture as the biggest driver
+[70:33] of outcomes.
+[70:34] And I've experienced a lot of that as somebody who's born in Canada and moved here to America,
+[70:38] which has a very different culture of ambition.
+[70:41] There's that word again.
+[70:43] The Conquest in Cultures is great.
+[70:44] Seven Powers, you mentioned, is actually just an awesome book.
+[70:47] I think it's a very intellectual distillation about kind of, you know, moats and business
+[70:52] theory and compounding advantages.
+[70:54] I really like it.
+[70:55] You know, maybe the third is the one that Mark actually thought that he was maybe punking
+[71:00] me when he sent this to me before I started.
+[71:02] I said, Mark, are there any books that I should read and he sent me a couple?
+[71:05] And one was a book, a textbook called Increasing Returns to Scale, which I think is Brian Arthur
+[71:11] is the author.
+[71:13] It's an awesome book.
+[71:14] It's, you know, it's a slightly dense study of why things like software have such outlier
+[71:20] economic effects, but it really helps put things in perspective or help me in terms of, like,
+[71:25] why does our industry work in the way that it does?
+[71:27] Why does our culture work in the way that it does, right?
+[71:28] Why are we so positive some?
+[71:30] I'd love to say that we're better people, but I think it may be a sort of better system
+[71:33] and structure we work with it.
+[71:35] Favorite recent movie or TV show you have really enjoyed?
+[71:38] Oh, man.
+[71:39] I watched Trashy Movies and TV.
+[71:40] I mean, we've watched House of Dragon, which is pretty cool.
+[71:45] Yeah.
+[71:46] I don't know.
+[71:47] Yeah.
+[71:48] Maybe it's, it's not highbrow.
+[71:49] It's not important with the Capitol Eye, but it was awesome.
+[71:51] We love that.
+[71:53] And then I, I did see Odyssey.
+[71:57] I saw it in London as there for a board meeting in, you know, an IMAX theatre packed with
+[72:01] people drinking pints and having fun and amazing.
+[72:04] It was cool because it was just a whole, the movie was great, but it was just like a theatre
+[72:07] experience, like a weird social experience, kind of alone together.
+[72:10] Those are two recent ones.
+[72:13] I have, I have not been able to get tickets to the Odyssey at an IMAX.
+[72:17] I actually have a Grockbot just watching the site constantly and finding me get seats.
+[72:23] Perfect.
+[72:24] Perfect.
+[72:25] Then they've got them dumb capture though on AMC website that hasn't been able to get
+[72:28] through.
+[72:29] Really?
+[72:30] It's like a tricky one.
+[72:31] It's a really tricky one.
+[72:32] Is it the like, select the fruits?
+[72:34] Anyways.
+[72:35] Yeah.
+[72:36] And matching shapes, which is like, come on, you can't do that.
+[72:40] Hopefully by the time this comes out of it, I've seen it.
+[72:42] I think it's a few podcasts in a room like, I haven't seen it yet.
+[72:47] No, man, okay, favorite new AI product, I don't know, favorite AI product recently that you've
+[72:54] given me joy.
+[72:55] Oh man, I spent a lot of time with the First Lesions.
+[72:58] I think Grock, it's okay.
+[72:59] I'm going to give it to Grockbots only because it's just so unhinged for it to be so ambitious
+[73:05] about sort of caching credentials and getting work done on your behalf.
+[73:08] Like I love it and I expect it from a startup, but they actually are doing things that I think
+[73:14] no other sort of big company would do.
+[73:16] It's really, really well done.
+[73:18] It's a really thoughtful UI.
+[73:19] It's got a really powerful foundation model.
+[73:21] I think it also is like, okay, wait, maybe this is not a two horse race on the sort of
+[73:24] model side.
+[73:26] So I just think the product is like fun and ambitious and is sort of taking risks that other
+[73:31] products like that wouldn't take.
+[73:33] Two more questions, do you have a favorite like motto that you often come back to in
+[73:37] work or in life?
+[73:38] Oh man, I've got one, it's, I learned this or I sort of, you know, this is from my founder
+[73:43] days, but it also is something that's very true of parenting, which is, you know, don't
+[73:48] discover things through painful experience that somebody can just tell you.
+[73:53] So I unfortunately have had a bad habit of sort of discovery versus learning from somebody
+[73:57] who's just a few steps ahead of me and I find my children have that habit too.
+[74:01] That's one example of something that you wish someone had told you.
+[74:04] I mean, from my kids, it's don't touch the hot stove.
+[74:08] For my startup, literally, literally, my startup that was don't build a product in a platform
+[74:13] at the same time.
+[74:14] You know, if you're going to be a platform company, build one, our first company, we try
+[74:16] to build a sort of social platform for mobile games and be a gaming studio.
+[74:21] And you know, somebody wise told me right away, like, look, being a studio is so hard,
+[74:25] much less being a studio and a platform pick one and we did and then it was, it took us
+[74:29] years to figure out where we were on.
+[74:31] Final question.
+[74:32] Ask Ben Horowitz what to ask you about and he just said, ask him about his DJing.
+[74:37] He's very good.
+[74:38] And I went to your founder DJ site and I don't know if that you call it on SoundCloud slash
+[74:43] ill science.
+[74:44] It's very good.
+[74:45] I'm just like listening to it while I work.
+[74:49] Any tips for somebody that wants to get into DJing, any tools you found useful and any,
+[74:54] I don't know, insights that might help someone become better at this?
+[74:57] Totally.
+[74:58] That this is why I love music models so much.
+[75:01] So DJing has always, I mean, I love DJing, I've been playing for 30 years now since 95,
+[75:06] actually 31.
+[75:07] Wow.
+[75:08] And it's an awesome way to kind of express yourself musically if you're not a classically
+[75:12] trained musician, you know, you select the music, you pick the records, you mix them together
+[75:16] so it requires some technical skill.
+[75:18] But now I think you can go a step further and just make music with the models.
+[75:22] And the best part is when you can come up with music ideas and have the models do the kind
+[75:25] of strong form of them.
+[75:27] So I think music is just such a visceral, satisfying way to kind of, you know, experience and, you
+[75:33] know, provide experiences in the world.
+[75:34] So whether it's DJing or making music, I just suggest everyone to do it.
+[75:38] I hadn't thought about how DJing has changed now that you have soon known things like in
+[75:42] the 11 labs and all these things where you could just generate the music, not have to
+[75:44] just splice together existing music.
+[75:47] I mean, think of the history of it.
+[75:49] You know, you went from, okay, you know, first, you could only hear music if you were there
+[75:52] with a person playing on an instrument, you know, recorded music on the phonograph.
+[75:57] The big change in music, actually, from a medium perspective was the cassette tape.
+[76:01] Because the cassette tape was really the first time you could create, right?
+[76:05] You could actually compose your own quote, unquote album.
+[76:08] I think a lot of why music struggled in the 2000s is the sort of that went away and we
+[76:12] went back to broadcast.
+[76:14] And now that people are making music again, I think the music industry is going to be bigger
+[76:17] than it's ever been.
+[76:18] Wow.
+[76:19] Man.
+[76:20] Just disruption.
+[76:21] I mean, this was incredible.
+[76:24] We covered so much ground.
+[76:26] File question.
+[76:27] How can listeners be useful to you?
+[76:28] I mean, show me what you're building.
+[76:30] Please don't be despondent.
+[76:32] Build something and then tag me.
+[76:34] And I'd love to see it.
+[76:35] If you're interested in hearing more stuff like this, please follow me on X. I try to kind
+[76:39] of engage and follow back.
+[76:41] And otherwise, make sure you check out all the amazing folks in Lenny's network.
+[76:46] Claire is a star.
+[76:47] Alina is so so good and there's just so much compelling content to tell, which we talked
+[76:51] about.
+[76:52] Nicole is the best man.
+[76:53] That guy is is everything amazing and each thank you so much for being here.
+[77:00] Thank you, Lenny.
+[77:01] Bye, everyone.
+[77:02] Thanks for listening to this episode of the A16Z podcast.
+[77:08] If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review
+[77:13] and share it with your friends and family.
+[77:15] For more episodes, go to YouTube, Apple Podcasts and Spotify, follow us on X and A16Z and subscribe
+[77:21] to our substack at a16z.substack.com.
+[77:24] Thanks again for listening and I'll see you in the next episode.
+[77:29] This information is for educational purposes only and is not a recommendation to buy, hold,
+[77:33] or sell any investment or financial product.
+[77:36] This podcast has been produced by a third party and may include pay promotional advertisements,
+[77:40] other company references and individuals unaffiliated with A16Z.
+[77:43] Such advertisements, companies, and individuals are not endorsed by AH Capital Management LLC,
+[77:48] A16Z, or any of its affiliates.
+[77:51] Information is from sources deemed reliable on the date of publication, but A16Z does
+[77:55] not guarantee its accuracy.

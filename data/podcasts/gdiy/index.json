@@ -8,9 +8,17 @@
   "561-patrick-pruvot-passage-du-desir-en-france-on-sait-faire-un-airbus-",
   "562-rafaele-tordjman-jeito-capital-le-vrai-prix-de-l-innovation-medica",
   "564-vf-mati-staniszewski-elevenlabs-l-humain-a-ete-fait-pour-parler-pa",
-  "563-benoit-bazin-saint-gobain-tripler-la-valorisation-de-la-plus-vieil"
+  "563-benoit-bazin-saint-gobain-tripler-la-valorisation-de-la-plus-vieil",
+  "565-dimitri-rassam-yapluka-le-champion-europeen-des-blockbusters-d-aut"
  ],
  "episodes": [
+  {
+   "fiche": "565-dimitri-rassam-yapluka-le-champion-europeen-des-blockbusters-d-aut.json",
+   "titre": "#565 - Dimitri Rassam - YAPLUKA - Le champion européen des blockbusters d'auteurs",
+   "date": "Sun, 13 Sep 2026",
+   "date_iso": "2026-09-13",
+   "nb_outils": 1
+  },
   {
    "fiche": "564-vf-mati-staniszewski-elevenlabs-l-humain-a-ete-fait-pour-parler-pa.json",
    "titre": "#564 - VF - Mati Staniszewski - ElevenLabs - « L’humain a été fait pour parler, pas pour écrire »",
@@ -68,5 +76,5 @@
    "nb_outils": 9
   }
  ],
- "maj": "2026-09-06T19:18:46Z"
+ "maj": "2026-09-13T19:31:25Z"
 }

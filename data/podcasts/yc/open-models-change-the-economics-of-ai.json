@@ -1,0 +1,31 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "Open Models Change The Economics of AI",
+ "date": "Sat, 12 Sep 2026",
+ "date_iso": "2026-09-12",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/Open-Models-Change-The-Economics-of-AI-e3ooluj",
+ "duree": "00:57:15",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 4.4,
+ "taille_transcript": 69071,
+ "transcript": "open-models-change-the-economics-of-ai-transcript.txt",
+ "nb_outils": 4,
+ "outils": {
+  "AWS": [
+   "ates and like the partner firms out the work to the associate. It's like the same. We saw the same thing with cloud computing, where it was really a blend of proprietary software. Some of them provided by the cloud providers themselves. For example, you know, AWS had DynamoDB, which was kind of their proprietary a scale out database, but then a lot of customers use in conjunction with PostgresDB. And in the end, you know, what we see as customers, well, we'll use a combination of the two. I think it's a very common pa"
+  ],
+  "Codex": [
+   ", we try to package together. One is harness, for example, you know, whether it's an off-the-shelf harness or an SDK to help use the model, some existing harness that is designed for this. And what's great now, there's so many great open source harnesses. The Codex harness is open source, open code's a great one and one of the most popular harnesses from Olami users. Step one's getting that right. But then you got to package it with the model making sure that it's, you know, available, it's reliable. If it's in the clou"
+  ],
+  "Cursor": [
+   "or open models. We're as open models, I'd say in 2024, 2025, from the large models being served, we're mostly being served as custom models. So you'd taken off the shelf model like DeepSeek or Kimmy, and then you'd fine tune it for your use case. For example, Cursor had famously done. And from there, you could serve that at scale. But seeing out of the box open models being served, that really only took off at the start of this year. Even since we started this podcast, these things sort of come in cycles, maybe. Like, if"
+  ],
+  "Hugging Face": [
+   " Europe, whether it's here in the US, if you can solve the safety problems by and large adopting the Chinese origin model labs is completely on the table. And it's really exciting for these businesses. There's sort of this interesting moment right now where a hugging face had to use open weight models to actually even detect the hack from the frontier. A common question we get is like, well, where can I use open models that are leaps and bounds of an advantage over using a frontier close model? And one of the key use cases is ",
+   "king sure that your software is secure. Yeah, because if you try to get clawed to like pen test your product, you will just refuse to do that. Correct. Yeah, by and large. Whereas there are literally obliterated security researcher models that you can find on hugging face that allow you to do it. That is true. There are ones that are custom trained to be even more liberal to go and attack these problems. But even the out-of-the-box models, they do come with safety training. But they're a little better understanding if you're d"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

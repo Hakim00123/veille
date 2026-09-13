@@ -23,9 +23,33 @@
   "the-infrastructure-behind-the-machine-age",
   "your-ai-doctor-is-coming-julie-yoo",
   "aaron-levie-on-why-open-ai-wins",
-  "fei-fei-li-the-race-to-build-world-models-for-ai"
+  "fei-fei-li-the-race-to-build-world-models-for-ai",
+  "world-models-robotics-and-the-future-of-3d-ai",
+  "why-companies-are-becoming-a-series-of-loops-anish-acharya-on-lenny-s-",
+  "what-it-takes-to-build-a-startup-andrew-chen-matt-perault"
  ],
  "episodes": [
+  {
+   "fiche": "world-models-robotics-and-the-future-of-3d-ai.json",
+   "titre": "World Models, Robotics, and the Future of 3D AI",
+   "date": "Sun, 13 Sep 2026",
+   "date_iso": "2026-09-13",
+   "nb_outils": 0
+  },
+  {
+   "fiche": "why-companies-are-becoming-a-series-of-loops-anish-acharya-on-lenny-s-.json",
+   "titre": "Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny’s Podcast",
+   "date": "Sat, 12 Sep 2026",
+   "date_iso": "2026-09-12",
+   "nb_outils": 6
+  },
+  {
+   "fiche": "what-it-takes-to-build-a-startup-andrew-chen-matt-perault.json",
+   "titre": "What It Takes to Build a Startup | Andrew Chen & Matt Perault",
+   "date": "Fri, 11 Sep 2026",
+   "date_iso": "2026-09-11",
+   "nb_outils": 1
+  },
   {
    "fiche": "your-ai-doctor-is-coming-julie-yoo.json",
    "titre": "Your AI Doctor Is Coming | Julie Yoo",
@@ -188,5 +212,5 @@
    "nb_outils": 2
   }
  ],
- "maj": "2026-09-06T19:18:49Z"
+ "maj": "2026-09-13T19:31:28Z"
 }

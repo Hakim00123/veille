@@ -1,0 +1,259 @@
+Y Combinator Startup Podcast
+8 Ways To Improve Your Outbound Sales
+Sun, 13 Sep 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/8-Ways-To-Improve-Your-Outbound-Sales-e3opnar
+
+[00:08] If you're just starting outbound and your reply rates are low, maybe even close to zero,
+[00:13] this video is for you.
+[00:15] As the founder of my company, OneSkema, I personally generated and closed millions of
+[00:19] dollars in revenue through founder-led sales.
+[00:21] As a visiting partner at YC, I've helped hundreds of YC companies improve their outbound.
+[00:26] So in this video, we're going to cover eight things that you can do to improve your sales
+[00:29] outreach.
+[00:30] Tip number one, you want to start manual before you automate.
+[00:33] The biggest mistake I often see founders make, they'll come to me during office hours
+[00:37] and they'll show me their email pipeline and it will all be automated.
+[00:41] They've loaded up a tool, they blasted out a thousand emails, and they ended up getting
+[00:44] zero replies.
+[00:45] The biggest issue with this is if you get zero replies from a campaign that you didn't give
+[00:49] any thought to in the first place, then at the end, when you have zero replies, you've
+[00:53] learned nothing.
+[00:54] The problem could be your messaging, or your company targeting, your prospect selection,
+[00:58] your deliverability, or your subject line.
+[01:00] So my recommendation is to do at least 100 outreaches by hand for you automate anything.
+[01:07] It's honestly probably going to end up being more, and when I say by hand, I mean genuinely
+[01:11] by hand.
+[01:12] Spend time thinking about one individual person.
+[01:15] What is her problem specifically?
+[01:17] What would actually capture her attention?
+[01:19] Visit her LinkedIn page and read about her company.
+[01:22] Doing this homework personally is how you'll come up with your highest converting outbound
+[01:25] ideas.
+[01:26] Tip number two, targeting Beats Perfect Messaging.
+[01:29] I often see founders spending hours tweaking their email copy, but they barely even think
+[01:33] about who they're emailing.
+[01:34] Some prospecting is kind of like looking for a needle in a haystack.
+[01:38] You need a person that has the exact pain point that you solve, or a perfectly crafted
+[01:42] message won't even land.
+[01:43] So here's an example.
+[01:44] I worked with a company in the Winter Batch, who was selling an infrastructure product that
+[01:48] should have been sold to senior engineering leaders.
+[01:51] But when I opened up his LinkedIn and looked at the prospects that he was selling to,
+[01:54] a lot of them were DevRel managers, GTM managers, there was even a customer success manager.
+[01:59] He was sending hundreds of these messages and was wondering why he wasn't getting any replies.
+[02:02] So if you spend a little bit more time thinking about whether or not the person you're sending
+[02:06] the email to actually has the pain point, you'll often end up seeing a huge increase
+[02:10] in your reply rates.
+[02:11] Those wrong job titles were never going to buy, no matter how good your email was.
+[02:15] So how do you find the right job titles?
+[02:17] The first thing that I typically like to do is look at the customers that you already have.
+[02:21] Then look at the sales process.
+[02:23] Who was the person who was pushing the last deal to close?
+[02:26] Who actually signed the contract?
+[02:28] Who was the person who paid?
+[02:29] Look at all of their job titles and then reach out to people who have similar profiles.
+[02:33] You should also look at who was already replied to your outbound.
+[02:36] So if you're at the very earliest stages of your journey and you don't have any customers
+[02:40] or any replies yet, ask yourself who in the organization has the most to gain from buying
+[02:45] your software.
+[02:46] Here's an example.
+[02:47] Imagine you're selling software that monitors employee devices for security purposes.
+[02:52] A chief security officer might get fired if there's a date of breach, so they would really
+[02:56] be interested in something like this.
+[02:58] An engineering manager would probably rather not be monitored at all, so they're not a
+[03:02] great person to target.
+[03:03] It's also really important to make sure that you're reaching out to the right companies.
+[03:07] One mistake I'll often see companies make is they'll do a search in a tool like Sales
+[03:11] Navigator and it will return a bunch of profiles that maybe sort of match what they were looking
+[03:15] for but were actually the wrong type of company.
+[03:18] For example, if you search for tech companies in LinkedIn Sales Navigator, you're often
+[03:21] going to get a bunch of IT implementation consultancies.
+[03:24] So you want to be really thoughtful about how you're using list building tools.
+[03:28] Verify individually that each company is a good fit for your customer or your message
+[03:31] is going to fall in deaf ears.
+[03:33] As you do more outbound, you'll start to discover clues about a company that indicate
+[03:36] that they need your product.
+[03:38] These are called Intense Signals.
+[03:40] A great place to look is often at job postings, as they'll tell you a lot about a company's
+[03:44] priorities.
+[03:45] Company growth is another very common intense signal.
+[03:47] Imagine you're building compensation planning software.
+[03:50] Companies below 100 employees probably aren't introducing levels for their employees,
+[03:54] so they won't need your software.
+[03:56] These above 500 probably already have compensation band set.
+[04:00] So when they're crossing somewhere in that 100 employee range, that's a great intense
+[04:04] signal that they need your product.
+[04:06] Every product has signals like this.
+[04:08] Your job is to discover yours.
+[04:10] One more thing on targeting.
+[04:11] For closing your very first customers, it's also far easier to start with your warm network.
+[04:15] You really want to shake the tree to make sure you hit everyone you know because the
+[04:19] conversion rates will be much, much higher.
+[04:22] Start with your personal warm network and then ask for interest from friends, families,
+[04:26] investors, your college roommate, a guy you met a cafe, truly, whoever you can think
+[04:30] of.
+[04:31] Tip number three, craft a message worth reading.
+[04:34] The single most important thing you can do in your email is to give a crisp explanation
+[04:38] of how you can help the person that you're emailing.
+[04:40] Think about the top three things that keep your buyer up at night.
+[04:43] What would get them fired?
+[04:45] What would get them promoted?
+[04:46] Why should they believe that you can actually help them?
+[04:49] When you write an email and the buyer thinks that's exactly the problem that I have, they
+[04:53] really get it.
+[04:54] They're likely to take the call, even without fully understanding or trusting your solution.
+[04:58] The truth is that executives don't care about your product futures.
+[05:01] They don't care that you have blazing fast uploads.
+[05:03] They don't care that your database is built in rust.
+[05:05] They're worried about how they're going to hit their quarterly target.
+[05:07] For the product explanation, I would try to make it just one sentence.
+[05:11] You don't want to spend paragraphs and paragraphs of details here.
+[05:13] That's typically what the first call is for.
+[05:15] You want to make sure that you establish credibility that you're the right person to help.
+[05:19] Two common ways to do this are first to list the names of other impressive companies that
+[05:23] you're helping, or if you don't have that yet, talk about your very relevant background
+[05:26] for solving this problem.
+[05:28] At the end of your email, you want to include a very specific call to action.
+[05:32] It should be something like got 20 minutes to hop on a call this week, not does this sound
+[05:36] interesting to you.
+[05:37] You want to make it really easy for them to follow up with you.
+[05:40] Last, you can include a calendar link or a few times lots that work for you, again, to
+[05:44] make it really, really easy for them to schedule.
+[05:46] You want to make sure to keep your emails really short.
+[05:48] People are extremely busy and they're going to skim your emails.
+[05:52] Every filler word that you use dilutes the ones that matter.
+[05:54] As a rough guide, five to eight sentences is good for email, no more than two to five
+[05:58] for LinkedIn.
+[05:59] Longer than that, you should probably cut something.
+[06:01] Here's an example of an email that I think is really good.
+[06:05] It's from the founder of Apton, which is a YC company in the S24 batch.
+[06:08] Here are some things I really like about this email.
+[06:11] First, notice that it's written in a really informal tone that makes him sound like a peer.
+[06:15] He's not using any jargon.
+[06:17] He's not trying to sound super impressive.
+[06:19] This is an email that could have come from his friend.
+[06:21] The next thing I like about this is that he establishes credibility by showing that he
+[06:25] solved the same problem at a previous reputable company.
+[06:28] This is that first line.
+[06:29] I used to be a software engineer at Tesla.
+[06:31] We got crazy good at using SMS to convert the people who visited our website into car
+[06:35] buyers.
+[06:36] The next thing I like about this email is that it has a very clear call to action.
+[06:40] At the end, he says, would you be open to an experiment to see if we could improve your
+[06:43] conversion rate by using AI to reactivate leads?
+[06:46] As the buyer, I'm thinking, okay, is this something that I would want to experiment
+[06:50] with?
+[06:51] And it makes it really easy for me to directly follow up with him.
+[06:53] The email also feels personalized to Sumer's company by mentioning that he noticed on their
+[06:58] website that they collect phone numbers in the signup process.
+[07:01] And notice, he barely spends any time in the email at all explaining how this product works.
+[07:06] He focuses exclusively on how he's going to help Sumer solve his problems.
+[07:10] After you read a great message, focus on your subject line.
+[07:13] You should also pay attention to the first 20 to 30 characters of the body of your email
+[07:17] because that's what shows up in the Gmail preview.
+[07:19] The implementation is the best way to come up with great subject lines.
+[07:22] I find that creative and kind of weird ones can end up being the winners.
+[07:26] For example, I worked with a company selling an open-class-style agent product.
+[07:30] The subject line, broken agents, performed a lot better than the more descriptive but
+[07:33] less interesting, better agents for every workflow.
+[07:36] Tip number four, improve your LinkedIn profile.
+[07:39] If email has subject lines, LinkedIn has your profile.
+[07:42] It's how people decide whether or not to accept your connections and to reply.
+[07:45] Here are a few quick tips for making sure that your profile is great.
+[07:49] The first one is, you want to make sure that you have a profile picture.
+[07:52] It will really increase your trust level and show your prospect that you're actually
+[07:55] a real person.
+[07:56] The second is, you should turn that banner on the top of your LinkedIn page into an ad
+[08:00] for your company.
+[08:01] Typically, it should have a really clear and concise explanation of what your company does.
+[08:05] Make sure that you avoid jargon here as well.
+[08:07] The third is, you should rewrite your one-line description and your about section for your
+[08:11] company into short, concise descriptions of what your company does, similar to what
+[08:15] you put in your banner.
+[08:16] And fourth, elevate anything in your profile that a buyer would care about, like relevant
+[08:20] impressive experience by cutting everything else that's irrelevant.
+[08:24] If you have this really long about section that talks a lot about your hobbies and other
+[08:27] interests and things that aren't relevant, your buyers are less likely to see the ways
+[08:31] that you can help them.
+[08:32] Another area to invest for LinkedIn is building up your number of mutual connections.
+[08:36] The number of shared contacts is the single biggest predictor of whether or not somebody
+[08:40] is going to accept your connection request in the first place.
+[08:42] So you should focus on building relevant mutual connections with your target audience,
+[08:46] because often people within the same customer profile are connected to each other.
+[08:50] This takes time, so you should make it a daily habit to max out your connection allowance.
+[08:54] Tip number five, know what your reply rates are telling you.
+[08:57] At first, your reply rates might be very, very low.
+[09:00] But that's okay.
+[09:01] As long as you're getting a few replies, you have a baseline to improve on.
+[09:05] Even just two to three replies on a hundred emails is a great place to start iterating.
+[09:09] If I'm working with a founder that has on the order of two to three replies on a hundred emails,
+[09:13] here's typically the order I'll start debugging their outbound.
+[09:15] First, I'll make sure that they're contacting the right person.
+[09:18] Second, I'll make sure that they're contacting the right companies.
+[09:21] Third, I'll make sure that their subject lines are good.
+[09:24] And then only then, will I actually start looking at their messaging.
+[09:27] After that, I'll look at their materials.
+[09:29] So for example, make sure their website looks good and their LinkedIn profile looks good.
+[09:32] And then finally, I'll look at deliverability.
+[09:35] If you go through all six of these areas and they all seem to be reasonable and
+[09:38] they're still getting zero replies, this often might be indicative of a deeper product
+[09:42] market fit issue.
+[09:43] Tip number six, follow up.
+[09:45] And when they reply, reply fast.
+[09:47] You never want to just send one email because it's very, very possible that the person simply
+[09:51] just missed it.
+[09:52] I typically like to follow up two to four times spaced out by a couple of days.
+[09:56] But the last email that I send a prospect, I often send what's called a breakup message.
+[10:00] This is something usually to the effect of, since I haven't heard back, it seems like
+[10:04] sales tax automation isn't a priority for you right now.
+[10:07] Just let me know and I can spare your inbox.
+[10:09] You'll often get a reply to that one.
+[10:11] Reply rates I find are much higher on these breakup emails because it makes them really
+[10:14] low pressure for them to say no.
+[10:16] A real no is actually very useful to you in aggregate, the many no's improve who you target in
+[10:21] the future.
+[10:22] Once you get a reply, you should be like a heat seeking missile and that nothing is
+[10:25] going to get between you and getting on to their calendar.
+[10:27] Every founder will at least once experience the very painful lesson that time kills deals.
+[10:32] So hopefully maybe watching this video, I will save you from that lesson.
+[10:35] Tip number seven, block out time for Outbound.
+[10:38] This is actually one of the biggest mistakes that I see founders make.
+[10:41] When you're a founder, there are going to be so many things competing for your attention.
+[10:45] And Outbound is typically one of the least fun things to do for most founders.
+[10:50] So you'll find excuses to do literally anything else demanding your attention.
+[10:54] So you should come up with a concrete plan, decide how many messages am I going to send
+[10:57] per day?
+[10:58] How long does it take for me to send a typical message?
+[11:01] When exactly am I going to send these messages?
+[11:03] It might sound like micromanaging yourself, but I actually like to put it on my calendar
+[11:07] to hold myself accountable.
+[11:09] You can also have your co-founder hold you accountable if it's hard for you to do yourself.
+[11:12] The number one difference between founders who actually succeed without bound and founders
+[11:16] who don't is actually following through on the activity that they commit to.
+[11:20] Tip number eight, use the messaging from your customers.
+[11:23] The best feedback on your messaging always comes from your customer, not a friend, not
+[11:27] an advisor and not your co-founder.
+[11:30] There are a couple ways that you can get great messaging from your customers.
+[11:33] First, on the sales call, one of the first questions I like to ask is what got your attention
+[11:37] about my message?
+[11:38] They'll typically tell you the particular lines in your message that they thought were
+[11:41] most interesting and you should make sure to include those in future messages.
+[11:45] It also gets them open-endedly talking about their problems, which is exactly what you
+[11:48] want in a first call anyway.
+[11:50] The second thing I like to do for this is ask your existing customers how they think about
+[11:53] your product.
+[11:54] Ask them the single thing they got them to buy and then use their phrasing in future
+[11:58] messages.
+[11:59] Your customers are always going to write better copy than you do.
+[12:01] I know that outbound can be a slog.
+[12:03] I have personally sent thousands of outbound emails in my life.
+[12:07] But before you go though, one reminder, you're the founder and that's your superpower here.
+[12:11] The slog also pays off because your customer knowledge will compound over time.
+[12:15] You'll spot a job posting and instantly know that that company has pain.
+[12:19] You'll learn why it's better to talk about pain point A instead of pain point B with smaller
+[12:22] companies.
+[12:23] No salesperson or agency will ever be able to learn about your customers the way that
+[12:26] you can.
+[12:27] Outbound will only get easier over time.
+[12:29] Thanks so much for watching.
+[12:30] Go close some deals.

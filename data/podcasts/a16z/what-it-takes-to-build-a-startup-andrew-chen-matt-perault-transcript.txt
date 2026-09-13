@@ -1,0 +1,428 @@
+The a16z Show
+What It Takes to Build a Startup | Andrew Chen & Matt Perault
+Fri, 11 Sep 2026
+https://a16z.simplecast.com/episodes/what-it-takes-to-build-a-startup-andrew-chen-matt-perault-ihdfyK_8
+
+[00:00] This is truly little tech. The average team is two to three people.
+[00:04] They're running their companies, not in their office, not in their working space.
+[00:07] They're running it at the kitchen table.
+[00:09] For these founders, they are so mission focused trying to survive as a business.
+[00:14] They just don't have time to participate.
+[00:16] They don't have lobbyists. They're not really represented.
+[00:19] It's a choice whether or not each state or each city wants to have startups or not.
+[00:25] What does it actually look like to build a startup from day one?
+[00:29] In this episode, Matt Pearl sits down with A16Z General Partner and speedrun lead,
+[00:34] Andrew Chen, to talk about little tech, the tiny teams in the very beginning of building a company.
+[00:40] Andrew shares what life looks like for founders who are often just two or three people building from a kitchen table,
+[00:46] focused on getting a product to work and finding their first customers.
+[00:50] They rarely have lobbyists, policy teams, or even the time to participate in debates about rules that could directly affect them.
+[00:57] Matt and Andrew discuss how regulation can influence where startups choose to build,
+[01:01] what policymakers can learn by hearing directly from founders,
+[01:04] and what it takes to create an environment where the next generation of companies can get started.
+[01:11] Andrew, welcome to the A16Z AI Policy Brief.
+[01:16] Thank you for having me.
+[01:17] So you lead our speedrun program, so can you tell us a little bit about what speedrun is?
+[01:22] Yeah, so many folks in the audience will know that startups have to come from somewhere.
+[01:28] And so our job is to try to find them on day one when the founders are just starting to think about their companies.
+[01:35] And so what's great is we host a program based in the San Francisco office where we will announce to the broader internet
+[01:45] and through our marketing channels and podcasts and sub-stack these letters and everything else
+[01:49] that will be investing up to a million dollars into brand new startups.
+[01:53] And the ones that we really focus on are the ones that where folks are just getting going,
+[01:59] folks that maybe have full-time jobs and they're starting to come up with a new idea with their best friend
+[02:06] and they want to go start something.
+[02:08] It could be folks that have already left their roles or they just graduated from school
+[02:13] and they are coming up with something new.
+[02:15] And so what we do is we spend 12 weeks with them, they get the full force and power of the firm
+[02:20] and all of our relationships and all of that great stuff.
+[02:23] And then after we invest and we share them with the broader ecosystem, we host a speedrun demo day
+[02:29] where we have over a thousand angel investors and seed funds and many others come and invest.
+[02:34] And then we go from there and release them off in the world and hopefully we have the opportunity
+[02:39] to invest more in the future and to work with founders as kind of the beginning of a lifelong relationship with them.
+[02:45] That's not the idea.
+[02:46] How do you decide what looks like a company that you want to have as part of the speedrun program?
+[02:51] At its core in the earliest days, there are just so many famous examples of ideas changing all the time.
+[03:00] Many of you guys know that product we use every day, Slack, originally started out as a browser-based video game company
+[03:12] or in many, many other examples down the line.
+[03:17] And so what we try to do at its core is to really just invest in the best people.
+[03:22] And so we're looking for folks that have had some really unique experience in their past
+[03:30] and that could be anything from enormous athletic accomplishments on their way to a career in tech
+[03:37] or it could be that they started a GitHub repo that has now thousands of stars and has grown incredibly fast
+[03:44] or it could be some of the traditional markers where they have gone to elite universities
+[03:48] and had sort of learned elite, like incredible, unique insights at some of our best AI companies
+[03:57] and then they're ready to use that in any company as well.
+[04:01] I think when they were very open-minded and so we actually have mostly folks out of the area
+[04:06] actually all over America, a little slice from other places in the world, mostly focused on the US
+[04:14] and it's amazing to watch founders that are from, whether it's New York or Texas or Florida or Midwest
+[04:21] or any of these other places actually come to San Francisco, get to experience kind of what it's like to be in the Bay Area.
+[04:27] We work with them, of course, and a lot of them go back to their home communities and continue to build their companies
+[04:32] and of course quite a few of them stay in the Bay Area as well to build the next generation of tech companies here.
+[04:37] We're very happy when either of those happen.
+[04:40] So what is kind of interested in the range of types of sizes of companies that might participate in speedrun?
+[04:46] It sounds like on the small side it might be a couple of people who just decided to just have an idea,
+[04:53] like really the smallest of the small, how large are the companies yet?
+[04:56] Yeah, this is truly little tech.
+[04:58] When we talk about little tech, this is Ed.
+[05:01] I think the average team is two to three people.
+[05:06] They're running their companies, not in their office, not in a co-working space.
+[05:11] They're running it at the kitchen table.
+[05:14] It's really sort of the source of a lot of the success that we've seen in the overall American industry has been,
+[05:24] really starts in these very small places.
+[05:27] And then yeah, we invest up to a million dollars and then hopefully they raise more demo day
+[05:33] and hopefully they keep going and eventually they become incredible employers and pillars of the industry
+[05:41] and we want to be with them from that journey from day one.
+[05:45] What are organizations that would be too large to apply for the speedrun?
+[05:50] What's the upper bound?
+[05:52] Yeah, upper bound.
+[05:53] I mean, honestly, for us, we would say as soon as you've taken capital elsewhere,
+[06:00] we would consider that not maybe not disqualifying, but it would be sort of like maybe.
+[06:06] So you're kind of at a point where the question is, well, how many folks can you get to bootstrap the company together?
+[06:13] So if you have a group of five friends that all went to college and they trust each other a lot
+[06:19] and they want to spend six months on their own dime working on something,
+[06:23] like, of course, we would love to back a team like that, especially one without much trust.
+[06:27] But very rarely would we see a team above three, four, five people at that point.
+[06:33] At some point, you don't want to divide the company's ownership to be too small,
+[06:39] especially because people come and go.
+[06:41] You probably need to, some people's life situations will be such that you'll need to actually pay them.
+[06:46] And so, yeah.
+[06:47] So again, really, it's like a two or three person thing, typically.
+[06:53] So we invest in different phases of company life cycles.
+[06:57] We have a growth team that's when companies tend to get larger.
+[06:59] We have a venture team, when companies are smaller.
+[07:01] Speedrun, as you're describing it, is like the littlest of the little tech.
+[07:04] Why did we as a firm and why did you decide that this was an important part of the life cycle to support?
+[07:09] Yeah.
+[07:10] I think that the way I see the mission for A16Z speedrun is that we want to get as close as possible
+[07:21] to the moment that founders are actually created and new companies are created.
+[07:26] My first couple of years at the firm, I spent more in Series A, Series B,
+[07:32] and so you're writing checks there where these are mature businesses,
+[07:36] or there's at least a glimmer of a business there.
+[07:38] And so you're investing 10, 15, $20 million.
+[07:41] And so by that point, you have customers, you have metrics to look at, you have a team, et cetera.
+[07:50] And that's a wonderful place to invest.
+[07:52] And historically, it's been maybe the best place to invest.
+[07:55] For us, one of the really magical things, something that I take a lot of just personal pride and excitement in,
+[08:02] is the idea that we are not just waiting for entrepreneurs to show up at our doorstep
+[08:07] at A16Z, but we're actually helping create the companies in the first place.
+[08:11] So, for example, in the last speedrun batch, there were 70 companies.
+[08:15] And of the 70, there was probably a dozen where these were folks that had full-time jobs,
+[08:20] and they had to turn in the laptops and their badges, and we couldn't even wire the money over,
+[08:25] because they didn't have a company to even incorporate.
+[08:28] And so we sort of helped to accept the idea of like,
+[08:32] hey, let's create the most powerful and best path to starting the company.
+[08:41] And I think a lot of those founders eventually would have eventually started businesses.
+[08:46] When you're founders, sometimes you just can't get that bug out of your ear.
+[08:51] But I would like to think that we maybe hold some of that activity forward.
+[08:57] And so maybe folks that maybe would have waited another for another five or ten years of work experience
+[09:02] and financial stability, maybe they would have taken that jump.
+[09:06] And what an amazing time in the AI era to encourage them to jump in at the right moment.
+[09:14] Can you give a little texture to what a day in the life looks like for a speedrun company,
+[09:18] like when they're part of the program?
+[09:20] What does their day to day look like, both as part of the program?
+[09:23] And then I assume you see, again, there's high levels of variance, I'm sure,
+[09:27] but what are the common things that you see about founders who are operating at this stage?
+[09:32] Yeah, definitely.
+[09:33] So if you can kind of picture in your head, you might have two founders that are originally
+[09:41] based in Austin, Texas, they're based in Chicago, they're based in Pick Your City.
+[09:48] We also have teams from Utah, we've had teams from all over the US, quite a few from New York,
+[09:56] quite a few from Pacific Northwest as well.
+[10:00] So kind of imagine you have two people, they get accepted to this program, they're very excited,
+[10:05] they have to incorporate the company, they get the money, it gets wired in.
+[10:09] They've never seen that much money in their life, right?
+[10:12] They're excited, right?
+[10:15] They buy plane tickets, they come to San Francisco and they typically, you know, what we'll do
+[10:19] is we literally have a welcome to SF Guide that is, these are the neighborhoods we recommend,
+[10:25] here's how you go on Airbnb and pick the right ones.
+[10:28] And so they do that and we try to create a community.
+[10:31] And so we have all these Slack instances and email lists and you're meeting other founders.
+[10:39] So back to your kind of a day in the life of, you kind of imagine a founder waking up,
+[10:46] they're often for the duration of the program, they're roommates with their co-founder.
+[10:51] So you are spending 24-7 together like truly, you're not living somewhere fancy, you're
+[10:58] somewhere typically like maybe close to the A16Z office.
+[11:03] A lot of these folks are either working together at their homes and we also offer access to
+[11:08] the A16Z offices.
+[11:10] So sometimes they'll end up walking in or taking a Uber in, taking a Waymo into the office,
+[11:19] and then they end up in, we have a couple of coworking spaces where you'll spend time.
+[11:24] And the only thing that they should be spending time on really is just to figure out, is
+[11:29] this business going to work?
+[11:31] How do we, they got to build the product and they got to sell the product?
+[11:34] And they got to do it in a short period of time.
+[11:37] So typically you'll have maybe two co-founders, one will be more of a business co-founder,
+[11:42] one will be more of a technology and product co-founder.
+[11:45] The technology and product co-founder is typically using a lot of AI right now, a lot of AI coding.
+[11:51] So rather than going out and needing to add a lot of cost and maybe outsourcing parts of your coding
+[12:00] or hiring a bunch of young people to do coding,
+[12:04] you can just focus on just how effective can one or two people be right now.
+[12:09] And let's just make this business stable and survive.
+[12:11] Then let's go hire a bunch of folks.
+[12:13] Then the business co-founder is often out there interviewing customers, talking to customers,
+[12:17] trying to make deals happen.
+[12:19] And so there's often this dichotomy that we see of the outward spacing business co-founder
+[12:25] and then the inward spacing product and technology founder as well.
+[12:28] What we do with speedrun is once per week, we end up having some formal programming.
+[12:33] So we want to make sure the companies have as much time to work as possible.
+[12:36] But we will call them in once per week.
+[12:38] They come to the agency in the office.
+[12:39] We'll typically have a speaker who is, you know, we've had some amazing, amazing founders,
+[12:46] you know, the founder of, you know, Zingda or, you know, Versal.
+[12:51] We've had the, you know, C-level folks from OpenAI.
+[12:55] We've had, you know, we've had, of course, Marc Andreessen and Ben Horowitz with us many times as well.
+[13:01] You know, that's always fantastic.
+[13:03] And then we do these office hours where they will sit in a group of 20, 30 companies
+[13:08] and, you know, they will talk to each other about problems they're trying to solve.
+[13:14] So we run these office hours.
+[13:15] We talk about everything from hiring your first, you know, your first employees
+[13:20] to signing your first customers.
+[13:22] How do you launch on social media?
+[13:24] How do you, what's the difference between selling into a large enterprise versus selling into SMB?
+[13:29] All the things that you do.
+[13:30] And of course, how is everyone using AI?
+[13:33] You know, what are all the new tools that everybody's using?
+[13:36] We spend a lot of time on that as well.
+[13:39] And then, yeah, and then hopefully the rest of the week they are out and about working
+[13:43] and they're being immersed in kind of the milieu of the SFTAC ecosystem.
+[13:48] So they're meeting a ton of people, meeting a ton of investors, learning all of that.
+[13:53] And so, yeah, so we're very excited about just everything that can happen
+[13:58] in just a couple weeks.
+[14:00] So I know, like, obviously, the most exciting thing to talk about is success part of the ecosystem.
+[14:06] But in venture, like, there's a lot of not success, right?
+[14:08] It's like sort of the nature of the business.
+[14:10] And I assume the majority of the business will be in the earlier you go in the lifecycle,
+[14:15] the more true that is, the more companies don't succeed.
+[14:18] So what does that look like for a speedrun?
+[14:20] It's like growing companies come through the program and then they're not able to launch
+[14:24] a successful business, at least the one that we funded as part of the program.
+[14:28] What does that pathway look like?
+[14:30] Yeah, that's right.
+[14:31] Yeah, I think historically in the venture capital business overall,
+[14:35] you often, you know, the colloquial description is something like half the companies,
+[14:42] you know, don't work out at all, right?
+[14:44] They just kind of outright, you know, fold.
+[14:47] Then you'll have another, you know, if that's like five and ten companies,
+[14:52] you'll have another, you know, two or three where you make a little money.
+[14:56] And then all the money is made in that kind of top, top decile, you know, the one out of ten
+[15:02] that really where you get the grand slam.
+[15:04] And that just seems to be true mathematically, which is, you know, just amazing.
+[15:09] It's been very consistent over many decades.
+[15:11] So, you know, to your question that on, you know, what happens to the ones that fold?
+[15:16] Well, a bunch of great things happen, right?
+[15:18] I mean, first, like we think that even though we as a firm make the money on the, you know,
+[15:26] on the power law kind of exceptional companies that break through, you know,
+[15:32] we make our reputations with how we work with all the founders that are, you know,
+[15:38] working hard, working a hundred hours a week.
+[15:40] They're, you know, they're completely plugged in.
+[15:44] They're working weekends like the whole thing.
+[15:46] And it just doesn't work out, you know, and sometimes it's to no fault of their own.
+[15:50] Sometimes there's just a market downturn, you know, they're starting a pre-AI company
+[15:54] when everybody's doing AI.
+[15:56] It's because they are, you know, the co-founder got sick.
+[16:00] You know, it's because of all these kind of, you know, like many, many different potential things
+[16:05] that could happen.
+[16:06] And so as a result, the best thing we can do for those companies is number one.
+[16:10] Should we back the founders again?
+[16:12] You know, that's like one, I think, very special thing about kind of that Silicon Valley mentality
+[16:17] is like, okay, great, you've already, you've just spent, you know, a million bucks
+[16:22] educating these founders about how to start a company.
+[16:25] Hopefully they can start another company.
+[16:27] And by the way, like whether you're talking about Uber or Slack or, you know, Microsoft
+[16:35] or OpenAI or any of these companies.
+[16:37] And when you look at the CEO and the founders involved,
+[16:41] very frequently, more often than not, they have been involved in many other things along the way.
+[16:47] And so we often love the idea of, and we just did actually just last week,
+[16:52] we just funded a founder again on a better idea than his first idea, even though he ended up just returning
+[17:00] a little bit of the capital that he spent.
+[17:02] So I think that's great.
+[17:04] The other version is sometimes, you know, these founders, they need a little bit of a recharge.
+[17:09] Right.
+[17:10] And what that means is they went at it like completely just 150% and what they need is they need a little bit of time
+[17:19] to, you know, rebuild their finances.
+[17:21] They need to, you know, they probably weren't paying themselves that well.
+[17:24] They probably weren't, you know, they need to sometimes focus on their health.
+[17:27] You know, we find that a lot of these founders become very hot commodities because that means that you can get somebody
+[17:34] that works hard, you know, works on unstructured problems is completely current on all of the newest technology.
+[17:41] And you can get them, you know, at your company.
+[17:44] And so what we've been seeing is a lot of, a lot of teams will end up hiring, hiring each other.
+[17:49] You know, if one doesn't work out, you kind of like, you respect the founder, like, great, you hire them.
+[17:53] And then maybe they spend, you know, two or three years with you.
+[17:56] Maybe they'll lead some new initiatives and new products in your business.
+[17:59] And then a few years later, they spin out and they're ready to start a new company.
+[18:04] And then hopefully we as a 16 Z got another shot at them, you know, to work together.
+[18:09] So yeah, so that's sort of all by design.
+[18:11] And I think it's perfectly, perfectly expected, you know, as outcomes.
+[18:15] And we just want to partner with these founders for their whole professional career.
+[18:19] So I'd love to turn to policy now since we're a policy substandard.
+[18:24] So the policy, yes, yeah.
+[18:26] And so I'd love to like understand more about how the companies you work with think about policy issues.
+[18:34] This is something that we, we obviously do to some extent, but you're like living and breathing the founder side of it on a daily basis.
+[18:42] And we've tried to kind of channel the concept in different ways.
+[18:45] Like we recently wrote this piece called Greens from a Garage about what it looks like from a policy perspective.
+[18:51] People go into a garage to build the next great tech tool in California.
+[18:56] What is the regulatory landscape that they have to deal with?
+[18:59] And it was a really helpful exercise because often policy teams, legal teams will think about just incremental burden.
+[19:08] Like if we pass, there's a new law that's been proposed, what happens if we pass this new law?
+[19:12] How luminous or not is it going to be?
+[19:14] How helpful is it going to be?
+[19:16] And I think the insight that our, the head of our state team, Kevin had in it when we're thinking about this piece is like, it's not just the incremental burden.
+[19:25] It's all the things that a founder has to face from the moment they're building with the technology.
+[19:30] So like in California, that doesn't just mean SB 53, which is past last year.
+[19:35] It means all these data provenance requirements from the session before.
+[19:39] It means privacy law in California that was passed several years before.
+[19:42] It's all cumulative.
+[19:43] And the moment that you start building the tool, you have to comply with all these things.
+[19:47] And so really the policy picture is the composite of all those things.
+[19:51] It's not any individual one of them.
+[19:53] So I'm curious what you, like, you know, when you're at the stage, like you're literally at the, like, we just met in the coffee shop where, you know, we're in the garage where roommates were, you know, we're in the shared way.
+[20:05] On the way to the A6EZ office.
+[20:06] At that phase, how do the people that you work with think about policy issues?
+[20:12] For these founders, they are so mission focused, right?
+[20:17] To just make their, make their company, make their product.
+[20:20] I mean, it's not even a company at that point.
+[20:22] It's like, they might even think of that as a project or as a product.
+[20:25] You know, there's no, there's no company because it's just the two, it's just the two guys or gals, like trying to, trying to make things work.
+[20:31] And so for them, from a policy perspective, look, I think every, every obstacle that is put in front of them along the way for them to, to just prove that their initial product can even work just adds friction, you know, for the best part.
+[20:46] So I think, I think most of the founders when you, when you talk to them, they really see all that stuff as like, Oh, wow, I've incorporated, I'm doing this thing.
+[20:53] I'm hiring these people.
+[20:54] Okay, you get the stack of paperwork, this big.
+[20:58] And, you know, a lot of these laws, a lot of the paperwork is designed for companies that are much, much larger than them, right?
+[21:04] And have the ability to comply because they have teams of lawyers and teams of, you know, people, experts, you know, that, that are in there.
+[21:12] And of course we, we as a 16 Z try to, try to help them.
+[21:15] But for, for, for most of these folks, all they're trying to do is they're just trying to, to get going at all and to survive as, as a business.
+[21:25] And so generally, their, their interaction on, on kind of the regulatory, you know, side of the world is usually negative because these are things that are, you know, that actually create protections often for either big tech or for, you know, other, other parts of the industry that they,
+[21:43] that they, you know, end up, end up trying to disrupt.
+[21:46] So I'd say that that's kind of one major part. The other part is, is that, you know, for many of these founders, they, they just don't have time to participate, right?
+[21:55] They don't like these guys like don't have, you know, they don't, they don't have lobbyists. They don't have, you know, they're not, they're not involved in the political process.
+[22:04] They're not really represented in, in, in all these ways because frankly, they just don't have time.
+[22:09] You know, they're, they, they may not even have time to shower or to, you know, like have, have, have, have a nice dinner for themselves.
+[22:17] They're working, you know, that hard, much less to, to do things that are kind of sit, sit outside, you know, they're kind of just day to day of just survival, you know, at that point.
+[22:27] And that's a compounding thing. I mean, I think that's a dynamic that we encounter all the time because we, you know, we show up who we represent a little tech, but we're not, or I'm not a founder.
+[22:36] And so when, when we show up, people are like, well, we would, we'd rather talk to the startup. We don't want to talk to the investor in the startup.
+[22:44] But the challenge is the, like, as you're saying, like the startups are not showering, working a hundred hour weeks, like doing, they're, they're not going to go and like make the drive to Sacramento or the flight to Washington or flight to Brussels and represent what it's like for them to try to build under
+[23:02] the, in the current regulatory environment.
+[23:05] That's right. Yeah. Well, and, and, and their timeline, a startup, a two person startups timeline, not only is it not a year, like you may not know if you have a company in a year, right?
+[23:16] It may not even be six months. It may not even be three months. You know, you might like be working on really small time, time schedules.
+[23:24] And so to make the investment to, yeah, to fly to one of these places and to, you know, kind of be involved.
+[23:31] I do, I do think it's really hard to carve out time and do it, which is why I think both it's really important to have some mechanism to represent these people because, you know, like these are the future job creators, like these are the companies that are going to be employing folks
+[23:45] and driving, you know, continuing America's, you know, success on the technology, you know, field, but also, you know, on top of that, you know, the, the folks that maybe do show up and, and, and, you know, in all these places
+[23:59] and do advocate for tech, you get a very skewed view because you, you don't hear from little tech, but you might hear a lot from big tech.
+[24:08] You know, you might hear a lot about a lot from, you know, the industries that are getting disrupted and very little from the, you know, the 30 year olds that are, you know, that are spending nine day trying to, to make that happen.
+[24:22] So, so as we actually get hostile reactions from policymakers, when we raise that point, like they'll say, well, all of industry agrees on this.
+[24:29] And when they say all of industry, what they means is big tech companies or sometimes it might be big financial services companies, like large organizations, and they say, you have a different view and we need you to get on board.
+[24:39] And we'll say in the policy conversation, like it's sort of by design, at least some percent of the time, like there's lots of time where we agree with big tech companies.
+[24:48] But well, like when we disagree, we'll say like it's by design, we're representing the different part of the ecosystem. So of course, we don't agree on everything.
+[24:54] That's right. That's right. Absolutely. Absolutely. Yeah. It's just from an ROI time ROI standpoint, it just doesn't doesn't make any sense.
+[25:02] I think there's also a really unique thing because these teams are so small and they're kind of at their inception, which is they get to pick where they start the company from, right?
+[25:13] And I moved to the Bay Area in 2007. And in 2007, the world revolved around Palo Alto and Mountain View and what we think of as Silicon Valley.
+[25:28] But I think folks, I think, are familiar with this now that we saw a whole scale migration of the center of the startup ecosystem being from the peninsula to San Francisco proper.
+[25:43] And then subsequently, we've seen it now spread where New York is one of now, one of the huge startup hubs that's emerged.
+[25:53] And all the over the last couple of years, all the major venture capital firms had opened offices in various places in London and Europe.
+[26:04] There's been other major hubs that have created. And so I think there is also an interesting thing where that almost becomes part of one of the most important choices that you can make as a startup, which is where you're going to plant roots, where you're going to hire people from, where you're going to do that.
+[26:19] And if you end up working on an AI company and you know from day one that there's going to be a bunch of extra rules about how you can use AI, the two guys, two gals startup, they're very mobile.
+[26:38] They can, they can, they can, they can, they can choose where they want to go. And they do. And so, and historically, the Bay Area has benefited from, from that mobility.
+[26:47] I think there's some interesting stats about how nearly 50% of venture backed startups are first generation immigrants, for example, you know, people who relocate in order to do it.
+[26:58] And I bet you, if you were to say, okay, well, the other 50%, how many of them are actually native sectors, skins versus people who, you know, move here, the answer would be, you know, it's probably, probably approaching 100% at that point.
+[27:09] I think the important note there is like the Bay Area is certainly benefit from this. You know, it's not, it's not certain that it'll last forever.
+[27:16] It's not certain that, you know, that that California will always be the best place to start companies. And so I think it's important for us to preserve this ecosystem because it is, it is very, very special.
+[27:27] I think that is like unique, not just in the world, but even even within the US, you know, in order to have this, this funnel of an ecosystem for startups and new technology.
+[27:37] Are you hearing founders talk about regulatory issues as one factor that they consider and where they end up citing the business?
+[27:44] Yeah, I think that is sometimes indirect. I think, for example, just, you know, like cost of living is a great, you know, is a really simple one.
+[27:56] Or if you're building a deep tech company, if you're building the next generation of manufacturing, you have to go somewhere where people are building, you know, building large, that there's large scale lab and warehouse space at reasonable prices.
+[28:10] And so I think you're seeing these pockets like El Segundo in LA, you're seeing, you know, folks building things in Texas for many of those reasons.
+[28:21] I think the Bay Area has hugely benefited from just the AI wave, you know, really centered here.
+[28:29] So I think that's really extended the life of this ecosystem in a big way.
+[28:32] A lot of people have been coming back to the Bay Area since the sort of COVID dispersal.
+[28:37] And then I do think that, you know, the ability for, again, another indirect kind of, you know, force is that the startups have to really move where there's investors.
+[28:49] It turns out it's a lot easier to code, and it's a lot easier to get your first dollar revenue, and it's a lot easier to hire your first employee.
+[28:55] You can kind of do that anywhere.
+[28:56] But actually getting capital to really scale your business requires the ability for investors to be there.
+[29:03] And so, you know, I think that's why when you look around the world, a lot of the biggest startup hubs happen to be kind of where you have great universities co-located with customers, co-located with investors, kind of all,
+[29:17] and all in one spot.
+[29:19] And I wonder, and I worry about things like, you know, the wealth tax that are currently under discussion in its ability to potentially relocate a bunch of family offices and investors that are currently contributing in a big way, moving them to other geographies
+[29:35] as one of the potential, you know, negatives for sort of, you know, making the Silicon Valley thing like less dynamic and less powerful as a result.
+[29:46] So we've been talking a lot about the one-to-one relationships that you've developed as part of the speedrun program, but you've also been really invested in trying to create ecosystems through the Tech Week program.
+[29:57] What was the idea behind that program?
+[29:59] So we started Tech Week, and it's a program that sits in our team here within the speedrun umbrella.
+[30:08] And what Tech Week really does is it's really a celebration of startups and technology and progress in all the major cities.
+[30:18] And so we hosted in San Francisco, we hosted in LA, we hosted in New York, and for the first time this year, we're actually hosting in Boston as well.
+[30:26] How do you discover a founder before they know if they're a founder?
+[30:29] Well, we just feel like if you're a type of person with certain kinds of work experience, certain resume, and you're finding yourself attending a bunch of startup events.
+[30:41] You know, like the probability of you starting something, you're probably startup curious, but you're probably going to get there sometime in the next few years.
+[30:52] So that's what we found, which has been fantastic.
+[30:55] Our policy is policy showing up at Tech Week's like, are you seeing it in the various different local ecosystems that you're tapping into?
+[31:03] Yeah, so we would love to do more.
+[31:06] We're definitely exciting to see more and more of an ecosystem around policy.
+[31:14] So, for example, I think across all of the Tech Week's last year, we had 4,000 attendees attending various policy-related events,
+[31:23] and that includes over 1,000 folks from government, over 1,000 policy professionals.
+[31:28] And then oftentimes, we've had events where local government will come together, so I know whether that's in the mayor's office or folks that work on the national sphere.
+[31:42] We also have had a bunch of the consulates involved as well, because they're all very interested in building the bridge between their countries
+[31:50] and particularly the San Francisco system.
+[31:55] So the British Consulate has been super involved on tons of stuff, and then many other countries as well.
+[32:02] So it's been great to have that as a burgeoning part of the Tech Week ecosystem.
+[32:09] So if you see a local policymaker or a representative from a consulate or a member of Congress at a Tech Week event
+[32:16] and you're chatting with them on the sidelines, what would you relate to them about the realities of building a competitive company,
+[32:24] given what you know about what the early stage really looks like?
+[32:28] Yeah.
+[32:29] Well, I'd say a couple things.
+[32:33] I think the first is to just have them understand that it's a choice whether or not each state or each city wants to have startups or not.
+[32:45] If you want to have startups, you have to do things to make it conducive to having startups.
+[32:52] And there's a long list of things that might be involved in there.
+[32:57] And it's not just for the founders, it's for the angel investors, it's for the employees, it's for all these things that surround that whole group.
+[33:06] The second thing is, as we were just talking about a couple of minutes ago,
+[33:12] I think a lot of policymakers are not having real conversations with a little tech.
+[33:18] There's a little bit more friction, you have to put in a little bit more time into it.
+[33:23] But again, if we decide, hey, we want to have more startups in America, we want more innovation in America,
+[33:32] or we're talking about that at the city level, we have to figure out what are the things that we can unblock for a lot of these companies.
+[33:41] And those things change, software company will tell you something different than a AI native company,
+[33:46] which will tell you something different than a hardware company in a robotics company.
+[33:50] It's very dynamic.
+[33:51] One year, for example, this year, we are seeing way more robotics companies than in any year past.
+[33:59] And they have very different needs compared to supply chain needs, they have real estate needs,
+[34:05] they have a different set of investors, they have potentially a different set of partners.
+[34:10] And so we have to actually dig into that in a real way.
+[34:15] And then maybe, thirdly, to just maybe talk our book, I think working with folks like A16Z
+[34:23] and other venture capital firms and other ecosystem players, what we can do is we can certainly help open the door
+[34:32] to creating those conversations.
+[34:37] And so like open offer to the policy folks that are listening to this, anybody that wants to come and spend time with
+[34:46] five or 10 really curated little tech startups that are two, three people and just kind of hear like,
+[34:53] okay, what do you need to be successful?
+[34:55] We're very happy to arrange that.
+[34:57] Also, a lot of these companies are very interested to, like certain sectors are particularly interested in partnering with government.
+[35:05] So I think that's all great.
+[35:06] I'm a policy person who's interested in doing that.
+[35:08] I'm actually coming out to talk to speedrun, talk to speedrun so hard next week.
+[35:12] So I'm looking forward to it.
+[35:13] It's been fun doing that in the past because like you said, you really see in those conversations,
+[35:18] like when you talk through various different policy issues, sometimes they're not that relevant necessarily to people in the
+[35:23] room.
+[35:24] And then others really are.
+[35:25] We've had conversations in the past where we're talking about various different policy issues that are moving
+[35:29] and then you see like a panic look on someone's face where they're like, I'm building.
+[35:32] I'm building in a way that I think I'm building into a use case that might face regulatory headwinds.
+[35:38] But I think the use case is really compelling and I don't think policymakers understand what we're trying to do.
+[35:43] And so it's like interesting to see that Delta and we've engaged with the speedrun team in the past to make sure policymakers
+[35:50] also appreciate that Delta.
+[35:52] Yes, I think that's right.
+[35:53] And I think it's such, it is a wonderful thing to spend time with these teams because they're often very much
+[36:01] young people.
+[36:02] We have a lot of folks that are in the early 20s.
+[36:05] I think we even have a team that's all 18 and 19 year olds, for example, in the current batch,
+[36:09] we decided to forego college and instead start the dream company.
+[36:14] We also have folks that are co-founders of billion dollar companies that are now in the current
+[36:20] badge of speedrun as well.
+[36:21] But because these guys are all getting started, the conversations are so genuine, they're just full of optimism.
+[36:30] They're so fun to talk.
+[36:31] They're all on the cutting edge.
+[36:33] They're not at a point where they are at the risk of hitting into a lot of laws and hitting into a lot of different things.
+[36:46] It's often just a really fantastic set of conversations just based on what these guys are.
+[36:52] Andrew, thanks so much for joining the AI policy brief.
+[36:55] Awesome, thank you for having me.
+[37:00] Thanks for listening to this episode of the A16Z podcast.
+[37:03] If you liked this episode, be sure to like, comment, subscribe, leave us a rating or review,
+[37:08] and share it with your friends and family.
+[37:10] For more episodes, go to YouTube, Apple Podcasts, and Spotify.
+[37:14] Follow us on X and A16Z and subscribe to our substack at a16z.substack.com.
+[37:20] Thanks again for listening, and I'll see you in the next episode.
+[37:25] As a reminder, the content here is for informational purposes only.
+[37:28] Should not be taken as legal business, tax, or investment advice,
+[37:31] or be used to evaluate any investment or security
+[37:34] and is not directed at any investors or potential investors in any A16Z fund.
+[37:39] Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.
+[37:44] For more details, including a link to our investments, please see a16z.com forward slash disclosures.

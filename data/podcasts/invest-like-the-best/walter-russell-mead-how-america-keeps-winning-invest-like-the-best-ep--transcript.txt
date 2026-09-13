@@ -1,0 +1,754 @@
+Invest Like the Best
+Walter Russell Mead - How America Keeps Winning - [Invest Like the Best, EP.490]
+Tue, 08 Sep 2026
+https://colossus.com/episode/god-gold-silicon/
+
+[00:00] RAMP is the only platform built to make your finance team leaner, faster, and better,
+[00:04] saving businesses 5% annually on average so you can stay focused on growth.
+[00:09] RAMP customers grow revenue 3.2 times faster than the average American business.
+[00:13] Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP.
+[00:20] Mind us too, and so should yours. Learn more at ramp.com slash invest.
+[00:25] Felix by Rogo is a personal finance agent that turns a single prompt into finished,
+[00:29] client-ready work using your firm's own templates, context, and standards.
+[00:33] Send Felix an email like, take these comments and turn them for me.
+[00:37] Or, update my tracker with the context of these emails.
+[00:39] And Felix sends back Finnish PowerPoint decks, Excel bottles, and sourced research.
+[00:44] Felix works the way your team already does, delivering work quickly and accurately around the clock.
+[00:49] Learn more at rogo.ai slash Felix.
+[00:52] OpenAI, cursor, anthropic, perplexity, and Vercel all have something in common.
+[00:57] They all use WorkOS. To achieve enterprise adoption at scale,
+[01:00] you have to deliver on core capabilities like SSL, SCIM, RBAC, and audit logs.
+[01:06] Instead of spending months building these mission critical capabilities yourself,
+[01:09] you can just use WorkOS APIs to gain all of them on day zero.
+[01:13] That's why so many of the top AI teams you hear about already run on WorkOS.
+[01:17] WorkOS is the fastest way to become enterprise-ready and stay focused on what matters most
+[01:21] your product. Visit workOS.com to get started.
+[01:24] Hello and welcome everyone. I'm Patrick O'Shaughnessy and this is Invest Like the Best.
+[01:30] This show is an open-ended exploration of markets, ideas, stories, and strategies that will help
+[01:35] you better invest both your time and your money. If you enjoy these conversations and want to go
+[01:39] deeper, check out Colossus, our quarterly publication with in-depth profiles of the
+[01:43] people shaping business and investing. You can find Colossus along with all of our podcasts
+[01:48] at Colossus.com. Patrick O'Shaughnessy is the CEO of Positive Sum.
+[01:54] All opinions expressed by Patrick and podcast guests are solely their own opinions and do not
+[01:59] reflect the opinion of Positive Sum. This podcast is for informational purposes only and should not
+[02:04] be relied upon as a basis for investment decisions. Clients of Positive Sum may maintain positions
+[02:10] in the securities discussed in this podcast. To learn more, visit psum.vc.
+[02:18] While I've been looking forward to this for many, many months, we were introduced through
+[02:22] Jeremy Stern, who runs Colossus, who I know credits you with a lot of his skill in writing and thinking
+[02:27] about the world. I've been so excited to do this with you. We've got such a wide range of topics
+[02:32] that I thought it would be appropriate to begin by having you frame your view of America in the
+[02:37] world today. In very, very broad strokes, you've written a lot about how and why the UK and then
+[02:44] the success in America have won the last several hundred years of global affairs.
+[02:50] I'd love you to talk about the sweep of that winning, how you conceive of us and our role
+[02:54] in the world today. It's a really interesting time because on the one hand, the Pax Americana
+[03:01] that we developed after 1945 and then refurbished in 1990 at the end of the Cold War is really in
+[03:10] crisis. But if you step back a little bit, American power is not in crisis. The networks that we
+[03:17] built up, the way of dealing with the world, the institutionalized relations with Europe and so on,
+[03:23] those are all burning or crumbling. But the United States as a power, it seems to me, is if anything
+[03:31] thanks to the information revolution and sort of this extraordinary raises and productivity that I
+[03:37] believe we have experienced and are about to experience, I think we're still charging ahead.
+[03:41] It's this odd picture of a dynamic country in a collapsing world system. The Trump presidency
+[03:48] has kind of exaggerated a lot of the disruption. I'm optimistic about America's position,
+[03:54] medium to long term. I do think we're in rough waters right now. What do you mean by collapsing
+[04:00] world system? Well, you think about the World Trade Organization. We used to have this rules-based
+[04:05] system for trade. Now your tariff is more or less what President Trump wakes up in the morning
+[04:12] and thinks it should be. As a country, we exercise more of our power through institutions, the NATO
+[04:19] Alliance, UN even at times, and we're not doing that. Since World War II, it's been sort of a
+[04:27] principle of American foreign policy that we want to be steady, predictable. You want everybody to
+[04:34] know where America's red lines are. You want everybody to be able to rely. We made a commitment
+[04:39] in 1955, unless we announced with great fanfare that it's changing, it's still there. So we were
+[04:46] trying to provide this bedrock of solidity in the world. We're obviously not trying to do that
+[04:52] anymore for President Trump. I think he believes he maximizes his advantages by being completely
+[04:58] unpredictable and also crossing a lot of lines so that past presidents probably would not have said
+[05:07] things like, okay, if you don't raise your defense budget, we're going to double your tariffs or
+[05:13] something of that kind and try to solve problems through channels. Trump would make the argument that
+[05:19] didn't work. And so he's now completely trashing the institutional networks that for a very long time
+[05:28] were the vessels of American power. And I think he's doing it in a way that's going to be very
+[05:32] hard for his successors to rebuild. How would you teach someone else his method? You've written a lot
+[05:40] about this. I'm very curious how you framed it. He's an interesting president, no doubt, whether you're
+[05:45] for or against what he's been doing. How would you teach his method to somebody that was curious to
+[05:50] learn how he operates? So distinctive. He really is a genius. He's discovered, I think, one of the
+[05:57] secrets of power in the contemporary world, which is he's managed to turn fame into power, drama
+[06:05] into power, and to do it in ways that leave him completely free to act. If you lie enough,
+[06:14] the marginal cost of your 10,000th lie is nothing. While the marginal law of your first, second or
+[06:22] third, the marginal cost is very high. All of the normal constraints on political figures,
+[06:28] reputational and so on, he does not pay. In some ways, I think President Clinton first discovered
+[06:35] that shame only matters if you let it. Shame is an emotion that exists in other people's minds.
+[06:44] A lot of people thought when the Monica Lewinsky came out, he would have no choice but to resign.
+[06:49] This was so overwhelming, so dreadful. He basically realized, no, if you just keep
+[06:53] putting one's to thrill it in front of the other, you just pass through it. The dogs will bark,
+[06:59] but the caravan will move on. Trump has deployed that concept on an industrial scale.
+[07:06] You talk about this notion of speech and spectacle. Can you say more just about what you mean there?
+[07:10] The Donald Trump show is the most compelling entertainment, infotainment spectacle
+[07:17] that humanity has ever seen. Since the dawn of time, no living human being has occupied
+[07:24] the amount of bandwidth of the human race that Donald Trump does. And we say, well, global media
+[07:30] and so on, but it's very hard to think ever of a single ruler who just dominated everything.
+[07:37] Anywhere you go in the world today, I don't care where it is, what you hear is Trump, Trump, Trump,
+[07:43] some people hate Trump, some people love Trump, some people laugh at Trump, some people are
+[07:47] astonished by Trump, some people spend their lives thinking about their contempt for Trump,
+[07:52] but he remains the center of everything. And he sees that as the key to his unique power.
+[07:59] A lot of people thought that when he lost in 2020, it would go away that that was it.
+[08:05] He was just about as dominant out of office as he had been in office. At what he does,
+[08:11] he is as good as Napoleon was at what he did. I observed that Napoleon also lost at Waterloo and
+[08:18] ended in exile. So this is no guarantee that it will be what Trump would consider a happy ending to
+[08:24] the whole spectacle. But he is a major historic figure who has developed a new understanding of
+[08:33] how power works in an era of mass communications and social media. And the rest of us are just
+[08:39] trying to deal with it. How do you think the world is or will be the most different because of his
+[08:44] role in it? Well, I think he has vastly accelerated the disintegration of the post World War II
+[08:54] slash post Cold War structures. They're not going to be the same. He's not the only one who's done
+[09:00] this, but I think we're entering an era of much more personal and much less bureaucratic politics.
+[09:06] That is, I think for a long time in the 20th century, people got into the habit of thinking
+[09:12] one person rule or a central figure should be downgraded and we should be run by institutions
+[09:19] and bureaucrats and or committees. I think the only impacts of the internet is that people want
+[09:25] to be ruled by people again. So that in India, you see a Modi, we saw Abe in Japan, BB in Israel
+[09:34] and Erdogan in Turkey and Trump in the United States. Trump is sort of the greatest of these
+[09:40] are the most globally impactful of this new wave of Putin Xi Jinping. We're back to an era of
+[09:47] personal politics. If you think about the broader, longer arc of dominance or power leading up to
+[09:53] this moment, I love the historical context here and amazing story and talk about why, whether it's
+[09:59] maritime dominance or other major reasons that you think the UK and America up until, let's say,
+[10:05] you know, the end of the Cold War or something had such an incredible run.
+[10:09] Let's just start with the US-China rivalry today. And what you see is the sort of two sides. One is a
+[10:17] land-based continental empire, China, which believes that it can match the technological
+[10:25] and therefore military strength of the other power without all that political liberalism
+[10:32] and messy democracy. Okay, great idea. The first, I think, ruler in modern times to really embrace
+[10:39] that was Louis XIV, who thought that his technocratic government of the experts in France could beat
+[10:47] those pesky English with all of that ridiculous, you know, they every 20 years they kill the king
+[10:53] or kick him out or what who knows what they do. But it's utterly chaotic. The French idea was
+[10:59] we can do that with a strong centralized system. From the time of Louis XIV, right up until now,
+[11:05] you could sort of argue the dominant theme of global power politics has been this rise of this
+[11:13] English-speaking maritime commercial liberal order. And then it's being contested successively
+[11:21] by a series of great power continental states. France, under Louis XIV, again with Napoleon,
+[11:29] Germany, Prussian World War I, and then World War II, the Soviet Union. And that these contests
+[11:36] have been incredibly difficult. There have been moments in every case where the technocratic centralized
+[11:43] land power looked like it was just walking away in the ridiculous, confused, commercial English-speaking
+[11:51] maritime alliance was muddled, lost, crazy. And yet somehow in the end, the hobbits keep winning.
+[12:01] I should say that we stole our global strategy from the British. They stole it from the Dutch,
+[12:07] who had been doing this earlier in the 17th century. And God and gold, one of my books,
+[12:12] I say that you could sum up the last 300 years of modern history in 10 letters,
+[12:18] U.P., United Provinces, to U.K., to U.S. Now, obviously that raises the question to question
+[12:25] mark, question mark, question mark. I don't think China has it in it to beat us.
+[12:30] What is that strategy, the maritime strategy? What are these three entities done that's been so
+[12:35] effective to let the hobbits win? I don't know if I can really reveal all this. The secret five-point
+[12:40] plan for global dominance. Okay. Why not? Right. I'm just going to ask everyone here's
+[12:47] this to kind of be careful with how they use this information. Be terrible who it fell into the
+[12:51] wrong hands. Step one is have an open society at home. Think of the Dutch in the 17th century.
+[12:59] Okay. Everybody had these wars of religion. Well, the Dutch are pretty Calvinist, but they say,
+[13:04] well, you know what, these Lutherans, they're scum. They're going to hell. Everybody knows that.
+[13:09] But you know, until they do, they could kind of pay taxes and contribute to the economy.
+[13:17] And even the Catholics, I mean, of course they can't do their filthy idolatrous rights in the
+[13:22] streets or anything. But yeah, live and let live. The Jews live and let live. If an intellectual
+[13:29] scientist publishes some kind of scientific paper that the church doesn't like, well, people will
+[13:35] write nasty comments about it in other journals. But when Galileo doesn't go to the prison,
+[13:42] there's no inquisition. And also, if you have an idea, you can try it. If you are the son of a peasant
+[13:49] and you want to sort of try it as a merchant, and you can find some people who let you do it,
+[13:53] go right ahead. They come up with new ideas for government finance that we still use that joint
+[14:00] stock company, new seagoing technology, circulation of the blood lock comes to Holland and writes a
+[14:08] lot of his best work there. That's step one. You have this open dynamic society and you've got the
+[14:14] intellectuals are flocking there. Your universities are flourishing. Step two is now with all of these
+[14:20] products that you've developed and innovative technology. You take the show on the road, you trade
+[14:25] globally. So you have, I think, there were 10,000 seagoing ships coming from the Netherlands
+[14:33] in the 17th century. And they're traveling all over the world. And what this does is it makes you
+[14:41] stinking rich. I advise my students sometimes they go to the Met Museum here or any number of places
+[14:48] to see the Dutch Masters, not to look for, oh, like the brushstrokes and the composition that's so
+[14:54] exquisite, all of which is true. But just look at like all the stuff that these people have and
+[15:00] they're painting. You know, here's the merchant with his like silk robe from China. And he's standing
+[15:05] on a rug from Turkey. And he's got a stuffed parrot from Brazil on his mental face. There's
+[15:12] just this astounding amount of wealth, which then allows you to start thinking globally. 18th
+[15:20] century, the Prussians fight, Frederick, the great fights with Maria Teresa over Silesia,
+[15:28] the seven years war. This is a beautiful, I've been there. I've been to Silesia. I love Silesia.
+[15:34] It's a sausage shaped province in modern Poland. And seven years, both countries go bankrupt and
+[15:41] in the end, Frederick gets it, which means he's Frederick the great. And it's just Maria Teresa
+[15:46] who lost. But during that seven years war, the British basically kicked the French out of India
+[15:52] and Canada and North America and established the foundations of the world order that we
+[15:57] still live today. So you're thinking globally. Once you have built this global system,
+[16:04] you then do something extremely treacherous, which is you invite everyone else to participate
+[16:10] in your system. So you don't do say what the Spanish did in Latin America where you say,
+[16:15] this is ours. We conquered this. Nobody else can trade here. You people stay out,
+[16:21] which obviously condemns it to a certain stagnation. The British in the 19th century,
+[16:25] they have free trade in the British Empire. Everybody can trade and the British Navy keeps
+[16:31] piracy down for everybody, not just for the Brits. And what this does is it encourages other
+[16:39] countries to participate in your system as we did with Britain. We didn't fight with them after 18,
+[16:45] well, we came close a couple of times. But at the end of the day, we traded in the British system.
+[16:51] We were among the greatest beneficiaries of what the British did. And the Germans did the same thing.
+[16:57] Prussia, the German Empire became a great trading power. They had investments in Argentina and
+[17:04] Chile. And in many places, their commerce was driving out the British. Then the Germans discovered
+[17:10] that we have another little trick up our sleeves. They go to war in World War I. And they suddenly
+[17:16] discover that while they were integrating into the world, that made them very rich, gave them great
+[17:22] technology, a lot of military power. But now they're dependent on suddenly their war with the UK,
+[17:29] and they can't get all that grain from Argentina and America that fed their people.
+[17:34] They can't get that imported rubber from Malaya that provides the tires that they need for war.
+[17:41] So they've grown dependent on that international system. And you're able to cut it off. And this
+[17:45] is one of the big reasons the English won so many of these wars. So this system exists. I think a lot
+[17:52] of Americans really aren't conscious of it. But we sort of revert to these patterns. Things happen,
+[17:59] and we just bathe in these ways. So after the end of the Cold War, what do we say to Russia and
+[18:04] China come on in? And just as we said to Germany and Japan in 1945, benefit from the system. Actually,
+[18:12] we waited at about 47 to do that. But in any case, come on in, benefit. And now both Germany and
+[18:18] Japan are principal pillars of the world system. We sort of hoped that Russia and China would do
+[18:25] that too. They've taken more of the Wilhelm II path than the Conrad Adenauer path. We are now
+[18:32] testing what happens there. It's one of the reasons I'm worried. But it's a pattern that has been
+[18:38] recurring. And so far, whenever it finally comes to the test, our side has been winning.
+[18:47] Vanta automated security and compliance for over 16,000 fast-moving companies like Ramp,
+[18:52] Cursor and Harvey, keeping them all ready around the clock. It's the number one
+[18:56] agentic trust platform. And it now helps companies like yours watch for the risks that show up
+[19:00] between audits, across your vendors, your AI tools, and your whole environment.
+[19:05] Every new tool your team signs up for, every vendor that turns on AI features is an opportunity
+[19:10] for something to go wrong. And most security programs weren't built for AI's pace of growth.
+[19:14] The Vanta agent works like a 24-7 GRC engineer in the background finding issues, drafting fixes for
+[19:20] you, and cutting vendor assessment time by up to 50%. Whether you're a fast-growing startup or a
+[19:25] global enterprise, Vanta helps you earn and prove trust. Invest like the best listeners get a special
+[19:31] offer for $1,000 off at vanta.com slash invest. Ridgeline is the first end-to-end system of record
+[19:39] with embedded AI for investment management firms, running portfolio accounting, reconciliation,
+[19:44] reporting, trading, and compliance on one unified platform. Firms are moving off legacy
+[19:50] technology and onto Ridgeline because of how far ahead Ridgeline's AI features are compared to
+[19:54] anything else in investment management software, which is why I believe that firms that come out
+[19:59] ahead in the AI era will be the ones running on Ridgeline's unified platform. If you're serious
+[20:04] about your firm's AI strategy, Ridgeline should be part of that conversation. You can request a demo
+[20:08] at Ridgeline.ai. If I were to imagine an equivalent of me and an equivalent of you sitting somewhere
+[20:19] in China today, and I asked you the same question about how power is formed, what do you think they
+[20:25] would say there under a very different system? I used to have these conversations in China.
+[20:31] Some of my books have been published in Chinese, and I've gone to Chinese universities and had
+[20:35] these conversations with scholars and officials. What I can say is they are very aware of this
+[20:42] dynamic. If they're things that keep Xi Jinping awake at night, I think one of them is his awareness
+[20:50] that in any kind of conflict with the United States, China would face being cut off from so many
+[20:57] of the raw materials and so on and markets that economy needs. Let's imagine China declares a
+[21:05] blockade of Taiwan, which could very easily happen. In the United States, just from 100 miles further
+[21:10] out imposes a counter blockade on China. Nothing is going in or no oil is coming in or out.
+[21:18] No manufactured goods are being sold. What happens to the Chinese economy? All the soybean contracts
+[21:25] they have with farmers in Brazil and Argentina, not getting delivered. We've all been surprised
+[21:32] with the Iran war to see just how big the Chinese oil stockpiles have become. A lot of Chinese energy
+[21:40] policy can be understood as trying to avoid the trap of dependence on the global economy.
+[21:47] They're doing the solar. They're doing as much hydro as they can. Some of our friends in the
+[21:53] environmental movement are saying, oh, it's so wonderful. They're so green. Let's cooperate with
+[21:57] China to build a new world. They're also digging as much coal as they possibly can because what
+[22:02] they're trying to do is make themselves less dependent on the outside world so that in a worst case scenario
+[22:09] with the US, they can actually fight for the long term. Do you think the US runs the risk of trying to
+[22:16] do that same thing become more isolationist? Our exports are relatively low as a percent of GDP
+[22:21] compared to lots of other countries throughout the world. We are fairly self-sufficient. America is
+[22:25] an amazing place. Natural resource, rich, two oceans on either side. We have these amazing advantages.
+[22:31] Maybe we could do it without this interdependent thing that's created this amazing power structure
+[22:35] as you laid out. Does that worry you that we trend more in the direction of being isolationist or
+[22:40] something? Well, I think, look, there is obviously in American history, we have a tradition of
+[22:46] isolationism that is stronger at some times than others, and it's definitely coming up now.
+[22:52] And it does worry me a good deal because I do think American security and the American economy
+[23:00] do ultimately require us to be engaged globally, not necessarily as global social workers or something,
+[23:07] but you think about our trade. Roughly a third of it is in the hemisphere, a third of it across
+[23:12] the Pacific, a third of it across the Atlantic. We couldn't really very easily do without any one
+[23:18] of those. We saw during the pandemic that our dependence on China for all kinds of things was
+[23:25] really quite alarming. People look at our supply chains and they can see a lot of vulnerabilities.
+[23:31] But we can't make everything that we need right here. We can't get all the raw materials that we
+[23:37] need right here. But also, our producers need more than the American market. Traditionally,
+[23:44] the most free market lobby in the United States has been the agricultural lobby because America
+[23:50] can do a lot more than feed ourselves. Our farmers can feed practically the world. And if they're
+[23:56] reduced to only feeding the American market, they can't make money. The prices are so low.
+[24:04] They need that market. The same is true. There's so many economies of scale. If our AI companies,
+[24:11] if our tech companies can only benefit from the internal American market, that's actually not
+[24:17] enough to generate the revenue and growth that they need, even to stay technologically equal,
+[24:22] say to China, much less be ahead and be super profitable. Our business needs the world.
+[24:29] And then there's the question of, okay, well, you can't really make people buy your stuff at the
+[24:34] point of a gun. And you don't really want to have a gun around all the time. So you have to have a
+[24:39] trading relationship that works for both sides. Both sides have to agree to the trade.
+[24:45] There are ways of doing that. We got very doctrinaire in this belief that a simple free
+[24:51] trade system would work. We didn't look for systematic cheating from China.
+[24:57] But we also, after World War II, particularly, a lot of the European countries were so
+[25:03] cords and devastated from the war that reviving their economies became necessary for American
+[25:10] security. Otherwise, they would have gone communist and we didn't want that. So we said,
+[25:15] okay, find Germany, you can have really high tariffs on American goods. But we won't reciprocate
+[25:22] because it's in our interest for you to grow. A lot of that stuff got institutionalized.
+[25:28] There are many, many cases now where you have non reciprocal tariffs and our barriers have been
+[25:34] lower. I think the Trump people were not wrong to say, okay, this needed to change. We're also
+[25:40] seeing with the need for supply chain security and so on. You can't simply take your economic
+[25:47] policy out of a free trade textbook. On the other hand, you do still need trade. Trade needs to be
+[25:54] beneficial on both ends. I want to talk about the changing orientation of us versus the world
+[26:00] sort of our foreign policy. But first, ask about technology because when I started my career,
+[26:04] I'm 41. So 20 years ago, call it. I remember seeing I've always been an investor. If you looked at
+[26:09] the top 10 or 20 market cap companies, it was a total global mix of companies from many different
+[26:16] industries. It looked like this kind of potpourri list. Now that same list is literally just American
+[26:21] technology companies, basically one through 20. There's a couple exceptions. It's more or less
+[26:25] total dominance by American technology companies. And that was true before opening iron and
+[26:29] thropic and SpaceX. Now those are research and even on top of our great technology companies.
+[26:35] And I'd love to just hear you reflect on how tech, of course, AI, and you have to ask about that as
+[26:40] well, are changing the nature of global order in such a digitally dominant set of technologies that
+[26:46] were once again the leader. And how do you process it? I do try to look to historical analogies.
+[26:51] There's nothing exactly the same as this. The closest you really can see is to the actual
+[26:57] industrial revolution. Interestingly, the country that led the first industrial revolution,
+[27:03] Britain then dominated for 150 years became a dominant power. History is moving a lot faster now,
+[27:10] but I think we absolutely have been in this position of the first to really see and use this potential
+[27:18] source of power. I think since the 17th century, the key to power in the modern world is which
+[27:25] countries can be most effective at developing, harnessing, exploiting the power of new technology
+[27:34] without blowing up internally because of the social stress and upheavals that new technology causes.
+[27:42] And for a lot of reasons, I think first the British and then we were just better at writing
+[27:48] that wild horse than other people were. I think that is still true, but you can look at American
+[27:54] society today and see the reaction against tech, this sort of anti data center thing.
+[28:00] And we've got Trotskyites in the DSA thinking that the most retrograde forms of Marxism are our only
+[28:08] salvation in this terrible situation. It's not a given that we will be able to pull it off again.
+[28:15] Enormous progress and yet total chaos and dissension. The relationship between achievement
+[28:23] and order right now has broken down because we need a different kind of order than we've had
+[28:30] because our technology has created a new kind of world. It is changing the way power works.
+[28:35] It is changing the nature of power. So far, America is doing what we've been doing for a very long time,
+[28:43] which is dominating the cutting edge. So we've developed it. We have the horse. What's the key
+[28:49] to riding the wild horse? Because I think everyone in America would say,
+[28:52] yeah, I hope the next 150 years we dominate and it's because-
+[28:56] But in a nice way. That's the kind of people we are.
+[28:59] How would you have us do that? What are the keys to doing that? Well, now that we have the horse,
+[29:04] America's always been an ownership society. Why did a lot of the founders think that the United
+[29:11] States could survive as a reasonably democratic republic? And one of the big answers was
+[29:17] instead of being a country of people who lived in cities and basically own nothing and work for
+[29:24] other people, America was by and large a country of independent farmers who were kind of small
+[29:29] business people and who owned their own land had a stake in the system. And their life experience
+[29:36] as an owner teaches them citizenship. So boy, I really would love to see a new bridge over the
+[29:43] stream here. On the other hand, if they build that, they're going to have to raise my taxes.
+[29:47] You know, I then calculate in a rational way what I would like to happen. And that is the kind of
+[29:53] political education that prepares me to take a thoughtful role in the councils of the country,
+[29:59] plus I'm independent. And then with the Industrial Revolution, can this continue? We're getting the
+[30:04] big cities. We're getting industry. Well, the first stage we do with the railroads and the Homestead Act,
+[30:12] they kind of come in together. The government gives a ton of land in often in somewhat corrupt
+[30:17] ways to railroads, to build transcontinental railroads that turn the country into national
+[30:22] market, but then also gives free land to the American farmer. You go live on your farm for five
+[30:29] years and it's yours. Amazing. For the ordinary person, all right, I'm getting a free farm out of
+[30:35] the system and I'm a farmer. And yet you're doing this in a way that is simultaneously allowing
+[30:41] the infrastructure of a new industrial society to take place. To get in the 20th century,
+[30:48] think about how as the family farm begins to decay economically, it can't compete. You have to be
+[30:55] very well capitalized to farm under modern conditions and so on. And where people are starting to work
+[31:01] in cities and be employees, is this going to endanger the Republic? Are we still going to be a
+[31:08] free society of free people? Essentially, we came up with the idea of the single family home
+[31:14] in the suburbs to replace the single family farm. A lot of government policy was around think about
+[31:20] not only building the freeways and the highways, but subsidies to the tax code so that municipal
+[31:25] bonds are tax free, which means towns can build the infrastructure that you need to attract
+[31:32] the developers and the homeowners who will then raise the value of the property and so you can
+[31:37] repay the bonds out of the higher property values that the infrastructure has created.
+[31:42] So this kind of wealth creating machine, but right now we seem to be in a place where we're
+[31:49] reaching the limits of that wealth creating machine because it's just too expensive for the average
+[31:55] person to buy a house and land close enough to where you work so that the commute isn't killing
+[32:02] you. You look at why are so many young people really unhappy with the way the economy is working,
+[32:07] home ownership is one of the real big problems. IT can kind of address this
+[32:14] between remote work and hybrid work and self-driving cars. If you only have to go into work once or
+[32:21] twice a week or twice a month or whatever, you can work farther out. If you expand the commuting
+[32:29] radius, say from 40 miles to 75 miles, the amount of land that is developable for
+[32:39] housing goes up with the square of the radius is geometric. So you can open information technology
+[32:46] appropriately deployed can open up for another two generations this wealth creating machine.
+[32:56] Is there something equivalent to Homestead or the subsidy of homes that could drive this
+[33:01] expansion? It seems like a really, really important thing to get right for America.
+[33:05] I think so. I think we should be doing things like encouraging remote and hybrid work. Now,
+[33:11] there are problems with it. Mentoring, there are benefits, fine. There are problems with
+[33:16] every form of technology. How many people has the car killed since we started using cars?
+[33:23] How much money has it cost for the highway systems and so on? A new technology just doesn't appear
+[33:29] like an angel and grant wishes everywhere. You have to think really hard about how to make it work.
+[33:37] I think of this as infrastructure. Infrastructures building the bridges and the physicals.
+[33:43] Info structure is the institutional, legal, regulatory framework that can allow AI technology
+[33:53] to develop, give better results to patients in a hospital. That's actually incredibly complicated
+[34:00] or that could transform the legal system. Very complex stuff. You need a new kind of social
+[34:05] imagination for that, which I think we need to develop. But in this housing example, if a company
+[34:12] says, fine, you can stay home 60% of the time. That's less wear and tear on infrastructure,
+[34:18] fewer needs for construction. A tax benefit for companies that move toward greater hybrid and
+[34:25] remote work is not a net cost for government because, in fact, you're saving on another part of the
+[34:32] budget. This technology seems so unique because I'm curious what you think about it. In the case of AI,
+[34:38] we've seen with China, it seems through the other great power today, that through using our
+[34:42] technology that we've invested in, they're able to still would be the term in the AI world and have
+[34:48] fairly comparable systems without the capital investment, which is very different than the highway
+[34:53] system or the railroads. You can't copy those things. You have to do it yourself. The economy of scale
+[34:58] is easier for me to get my head around when it's a railroad than when it's a frontier lab model or
+[35:03] something like this, which makes me wonder about the right kind of foreign policy.
+[35:08] And it's a good excuse to talk about your four kinds of American foreign policy historically.
+[35:12] Maybe you could just quickly take through them and outline them as an intro before we talk about
+[35:16] that notion of tech Hamiltonians that I thought was quite interesting of yours.
+[35:19] One of the interesting things about America is that our foreign policy arguments are very repetitive.
+[35:25] Basically, if something comes up in foreign policy, we'll argue about it in many of the same ways
+[35:29] they would have done in George Washington's day. Our views of the country and of foreign policy
+[35:36] fairly predictably fall into one of four baskets. One is what I do call Hamiltonian,
+[35:42] Alexander Hamilton. What you see is a strong capitalist economy that is trading effectively
+[35:50] with the rest of the world, provides the money and the technological progress that holds society
+[35:58] together because people are making money at it and they're happy and also gives you the strength
+[36:03] so that no other country can attack you. We should have a strong federal government that does things
+[36:09] like promote infrastructure at home that sees itself as trying to help major American companies
+[36:17] succeed internationally. George H.W. Bush in some ways. Then you have people who say,
+[36:24] money that's just so vulgar. What about human rights? I would argue, what causes the threats that
+[36:30] America faces? Well, it's bad governance. Dictatorships and democracies don't go to war.
+[36:37] Dictatorships do. Generals like to fight. Moms don't. American foreign policy should be about
+[36:44] promoting democracy globally, promoting international institutions. Let's get rid of war by getting
+[36:50] rid of the causes of war. That's a kind of Wilsonian approach, which he certainly had
+[36:56] actually long before Woodrow Wilson. Then you've got people who say, wait a minute,
+[37:01] the thing that's great about America is personal liberty. The fact that government doesn't control
+[37:07] us all and isn't taxing us to death. If we get involved, whether it's these Wilsonians crusades
+[37:12] for human rights or Hamiltonian great power balance of politics, international finance,
+[37:19] what we're going to have is a powerful government that has secrets from the American people,
+[37:24] runs colossal defense budgets, gets us into endless wars, and that will destroy the liberty.
+[37:32] We can conquer the world and lose our freedom at home. What kind of foreign policy is that?
+[37:38] And again, we've been having this since the 1790s. And then finally, there's the group I
+[37:44] called Jacksonian after Andrew Jackson who sort of say, well, listen, foreigners, they can be
+[37:50] democratic. I don't really care what the foreigners do as long as you don't attack us or impune our
+[37:56] honor. If somebody attacks us, we should just go ahead and crush them and laws of war. No,
+[38:01] like rats, you should exterminate them and you beat them and pound them and crush them until
+[38:06] they understand that the last thing they should ever do is raise their hand against the United States.
+[38:12] And Jacksonians often look like Jeffersonians that isolationists in times of peace. But something
+[38:19] happens like Pearl Harbor and 911. And suddenly the Jacksonians are activated. So I think we've been
+[38:26] having these things for a very long time. We still have today. I say these are like suits in a deck
+[38:33] of cards. Very few of us have just like all 13 Hamiltonian cards. We generally all have a mixed
+[38:40] hand, but we tend to have some suits are stronger than others for each of those suits.
+[38:45] Do you think most defines us today? Well, I think the old Democratic consensus,
+[38:51] let's say the Clinton consensus was very much a coalition of Wilson and Hamilton,
+[38:56] build a global system that advances the country's economic security, but also promotes human
+[39:03] rights and democracy. And that will both make us rich and build a lasting global peace.
+[39:09] That's been kind of the predominant establishment idea really since World War II. Special provenance
+[39:17] came out right around the time of 911. And people at that time weren't really aware that there was
+[39:23] anything but Hamilton and Wilson. And then suddenly discovered, oh, wait a minute, there are these
+[39:28] Jacksonians there who won a new Afghanistan or whatever came up after that. I would say that Trump's
+[39:36] coalition is a mix of Jeffersonians and Jacksonians, isolationists and hawks. He could say,
+[39:43] Vance as the isolationist champion in some ways and Rubio as the hawk. Rubio is not interested
+[39:52] in the United Nations, or you know, look at in Venezuela. Let's get rid of our enemy Maduro,
+[39:59] but we're not going to make the restoration of democracy in Venezuela, the key of everything,
+[40:06] which someone like an Obama, I think, or Biden would have tried much harder to do.
+[40:11] So on Ukraine, you can see the Jeffersonians are saying, well, this is not really our fight.
+[40:16] Let's stay out of it while the Jacksonians are saying rushes to enemy. Let's knock Putin and punch
+[40:23] him in the nose while we can. They're all active today. Maybe say one word more about this notion
+[40:28] of tech Hamiltonians as a key faction that's emerged, typically tech in the government were
+[40:34] in my career, different concept. One of the biggest things that happened in modern American history
+[40:39] is the mutual discovery of tech and government. In the 1990s, which was back in the old end of
+[40:46] history, end of nations, companies would say, oh, I'm not an American company. I'm a global company,
+[40:52] right? And nowhere was that stronger than in the world of tech, where Google has no boundaries,
+[40:59] the cyber world is completely different. All of that stuff is irrelevant to us.
+[41:04] Washington, they don't even understand us, and we will just do what we do.
+[41:08] Today, tech is actually the locus of international great power competition.
+[41:15] And China's attempt to build a technosphere that can dominate the American technosphere
+[41:21] to American tech companies. This is really critical to your business, but also to the American
+[41:28] state, American government, it's critical to power and independence. Much, I think, to the
+[41:32] surprise of both the tech world and the political world, they've been driven in on each other.
+[41:39] And there's a kind of renationalization of tech and of the economy that we see. And the tech
+[41:47] folks, and you may know better, certainly Jeremy understands them a lot better than I do.
+[41:53] But my sense is that when the tech folks think about what are their economic interests,
+[41:59] they're different from what you might call a legacy multinational, the post World War II,
+[42:04] that are basically global trading and manufacturing companies. I make cars from
+[42:10] things I import from all over the world. I have factories all over the world that make cars.
+[42:15] So for these companies, free trade is the essence of their business. I need financial markets.
+[42:22] I need labor markets and I need manufactured goods markets that are seamless and open.
+[42:27] As Tom Friedman put it, I need a flat earth. But if you're a tech company, you don't.
+[42:34] Alphabet is not importing and exporting a lot of goods, even something like immigration,
+[42:40] which is if you're a hotel company or a construction company, having hard-working,
+[42:47] cheap migrant labor is pretty important to your business model.
+[42:51] If you're a Silicon Valley company and suddenly there's no more unskilled labor
+[42:57] crossing from Mexico, the cost of your janitorial and gardening services rises 30%.
+[43:04] So what? You're much more concerned about security of supply chain,
+[43:09] security of intellectual property. And I think increasingly companies are starting to realize
+[43:16] that they need their employees to be patriotic. That is, your employees need to think it's an
+[43:22] evil sin to sell IP to China. Your coworkers will rat you out in a heartbeat if they think you're
+[43:30] doing something like that. Both the economic agenda of the tech sector of the business world
+[43:38] and the kind of cultural political attitude is changing. So again, with the legacy multinationals,
+[43:43] I want to have a completely international workforce. I don't want it to matter whether my
+[43:49] employees are from Sri Lanka or Taipei or wherever. I need interchangeable units that I can plug in
+[43:58] anywhere. If you take a big step back with all of this context and just think about global power,
+[44:04] I feel like almost the whole world has decided that it's the Americans and the Chinese that have
+[44:10] any real power or are contenders to be the powerful nation of the next period of time.
+[44:15] What are the other interesting sources of power that have your interest in curiosity,
+[44:19] like with all the attention on just these two? We'll keep talking plenty more about these two as well,
+[44:23] of course. But what other areas of power are most interesting to you right now?
+[44:28] Well, I've gotten very interested in India. I've been lucky enough to get to know a number of the
+[44:34] folks that are close to the BJP and the RSS, which is the kind of Hindu nationalist
+[44:41] group that helped to create the BJP. And this is a group of people who 100 years ago,
+[44:47] basically five guys in a house, and they've now built this mass movement that has something like
+[44:54] 86,000 small groups around India that meet weekly. They're incredibly dynamic political force.
+[45:03] They powered Modi and they have very strong ideas about what India should be, what makes a country.
+[45:12] India is now the most populous country in the world. India has been pretty successful at developing
+[45:19] attack industry. It's not in the frontier of AI. I think it may get there faster than people think.
+[45:27] And it has its own sharply different view of what the world should be like.
+[45:32] Which is what? Multipolar, but not in the Chinese way.
+[45:36] Jaishankar, who's the foreign minister of India, once said that China is a revisionist power,
+[45:43] India is a reformist power, that India is not really happy with the global status quo.
+[45:49] In the United Nations system, India with 1.4 billion people in nuclear weapons has exactly as many votes
+[45:57] in the general assembly as Blichtenstein or Luxembourg. One vote, it's ridiculous.
+[46:04] And there's a certain kind of Western domination to the way a lot of international life is organized
+[46:10] because it was basically organized by the Europeans and the Americans at a time when nobody else really
+[46:16] had much of a standing. There are a lot of changes they want to make, but they really don't see the
+[46:22] Chinese autocratic top-down approach as possible for India or also good for the world.
+[46:30] They're an interesting power with different ideas. And I'm very much looking to see how that develops.
+[46:39] I think the Islamic world, again, we are seeing the world of Islam. It ranges from super sophisticated
+[46:48] scholars and intellectuals and writers to jihadi's in North Africa with machete's
+[46:56] torching huts or something. All of this range is an immense civilization, but
+[47:01] as a force in the world, it's becoming stronger. Understanding how it's changing, how the culture
+[47:10] in the Gulf states and Turkey is changing and developing. I think the industrial revolution
+[47:17] forced societies to become similar to each other because if you're going to have big manufacturing
+[47:24] plants, big infrastructure, trains, highways, airports, all of this, there are certain things you just
+[47:30] have to do, institutionally and organizationally, that tend to force you toward what we would think
+[47:37] of as a European, Western way of life and politics. The information revolution enables countries to
+[47:47] use their own cultures, languages, and so on as platforms. And Turkey is more Turkish. It's less
+[47:56] like Europe now than it was 25 years ago. India is becoming, I think Japan is becoming more Japanese
+[48:03] so that in the industrial revolution, there was a tendency toward convergence of the great
+[48:09] civilizations. Now, I think we're seeing a divergence. I'm not sure I fully understand the
+[48:14] reason why that is. Can you explain it a little bit more MTV when it first went into Latin America,
+[48:20] it was showing American rock videos on there and everybody says, oh, this is going to know it's the
+[48:26] end of indigenous Latin culture and so on. But before long, they weren't showing many American
+[48:32] videos at all because local artists were able, really in a pretty cheap way to
+[48:38] have their own music, their own videos that responded to those sensibilities. So I think we're seeing a
+[48:45] lot of that now, where instead of having to be on the mainline programming of global programming,
+[48:52] you're much freer to go off into your own civilization. In that structure, I'm sure AI just
+[48:59] pours fuel on that fire. What scares you the most? Like, as you think about the global power
+[49:04] dynamics and I'm assuming your vision of the future that's optimistic would be progress and
+[49:09] prosperity or something, what most would get in the way of the kind of future that you'd want to see?
+[49:14] A lot of things. The industrial revolution was in the long run, a pretty good thing,
+[49:19] but it had little side effects like the Communist Party, the killing 100 million people. World War
+[49:26] War II, reign of terror. Why were those necessarily side effects of the industrial revolution?
+[49:32] Because I think the social stresses that come with these new technologies, uprooting millions of
+[49:39] peasants from the farms where they've lived forever and now they're in cities and they're
+[49:44] letting you spill it, yet discontent and the old social institutions that used to manage
+[49:49] discontent, legitimate the stay, don't work as well in this new context. Everything is changing,
+[49:56] everyone's heads are scrambled and things happen. So I think the information revolution,
+[50:02] which is fantastic. Exactly. So I definitely see that. But then I look at things like,
+[50:08] some ways, one of the biggest geopolitical problems of the last 60 years has been nuclear
+[50:13] proliferation continues to be obviously to this day. But when I think about weapons of mass destruction
+[50:20] in the future, obviously biology, cyber, all kinds of things, while we have not been able to
+[50:27] completely stop the proliferation of nuclear weapons, you can usually tell when somebody is
+[50:33] trying to build them. Usually you have enough lead time to try to do something about it. How
+[50:38] could you verify whether somebody was abiding by some sort of cyber arms control agreement or
+[50:45] bio weapons, arms control, when basically in a basement lab somewhere, you can cook up a pathogen
+[50:52] that could destroy half the planet? The idea that we're going to have accelerating arms races
+[50:58] in a condition with an almost utter lack of strategic trust where you can't appeal to
+[51:05] verify ability as a way of ensuring compliance. I think it's a serious problem.
+[51:13] So I think the rapid and dynamic technological change across a whole range of disciplines and
+[51:20] technologies is destabilizing the balance of power. And this I think does significantly increase the
+[51:28] chance, both of confrontation and ultimately even of war between great powers.
+[51:33] Speaking of maybe Ukraine is the right flashpoint for this, but it does seem like there's been quite
+[51:38] an evolution of non-weapons of mass destruction, just regular old weapons. This is a highly
+[51:43] contested topic now because of the conflict in Iran and some reports that we've run out of certain
+[51:47] types of munitions, even as the United States of America. What have you learned from the last
+[51:51] several years of conflict about the nature of military technology weapons, their relative
+[51:57] importance in the eye world and so on? Unfortunately, I've learned a lot because there's been a lot
+[52:01] of war. The first time I went to Ukraine after the war, I went to this drone factory and
+[52:07] it really was remarkable because in real time, they were starting to get results from the battlefield
+[52:13] and then they were adapting. But at that time, it was a very simplistic stuff. They were like
+[52:17] getting kids toy trucks and re-engineering them into ground drones that could put a landmine on a
+[52:25] tank. I was back there a couple of months ago. The advances are just unbelievable. The intensity
+[52:31] is the same, but the scope of change is amazing. I talked to people who said that they don't treat
+[52:37] bullet wounds anymore. It's all drones. The Ukraine war is no longer a battalion over here
+[52:43] shooting at a battalion over there. With these drones, you have this gray kill zone, gray zone,
+[52:50] where in most you'd have a couple of soldiers together. One of the hardest problems in warfare
+[52:56] now, they tell me, is you'll get somebody wounded. How do you evacuate someone who's wounded? They're
+[53:03] having to build a new kind of ground drone that can go retrieve a body or a person and then cover
+[53:11] them with a kind of metal shield and wheel them out. But even to do this, you need a whole team of
+[53:18] drones working with this thing because they're looking for other drones that would try to attack
+[53:24] this. They tell me they had one soldier that it took them 63 days to get them evacuated after a wound.
+[53:33] This is so unlike what war was even six years ago. I asked myself, too, how fast is the Pentagon
+[53:43] learning if the tank and the rifle are becoming as obsolete as the cavalry charge and the sword?
+[53:53] What kind of forces do we have? What kind of forces do you need? Again, it changes every six months.
+[53:59] Right now, the Ukrainians have kind of a battlefield advantage that could flip. And it's also for us
+[54:06] as the power that has the most stuff. We're actually the most vulnerable to technological change because
+[54:13] we got so many tanks that the tank becomes useless. That's more of a problem for us than it is for
+[54:20] somebody who's figured out the tank killer or Navy, you know, the Russian Navy on the Black Sea. The
+[54:26] Ukraine doesn't really have a Navy. They got a few little tiny boats. They don't have battleships
+[54:30] and stuff. They have kept the Russian Navy out of the Black Sea with drones. Good news for Taiwan,
+[54:38] actually. But American power, traditionally, is about sea power to a very large extent.
+[54:44] How does that change over time? We've gone from your member in the 90s. You look like you're just
+[54:50] old enough to remember the 90s. They used to talk about the revolution in military affairs.
+[54:56] We've shifted now. Okay, there's this one thing happening. And once we've mastered and gotten used to
+[55:02] it, then we're good to go. Now it's continuing revolutions in military affairs. That's something
+[55:10] that I've learned about war by watching. What do you think is the most likely thing to happen in Taiwan?
+[55:16] Well, the Chinese Xi Jinping, I think, is committed to trying to get it.
+[55:21] I don't think he actually has an alarm clock by his bed that will ring on the day that has to happen.
+[55:28] The Chinese, I think, need a very high probability of success to commit themselves best at a certain
+[55:34] point, because failure would be catastrophic for whoever launched it. But there are a lot of steps
+[55:40] in between an invasion and doing nothing. And we see the Chinese, I think they're trying to get
+[55:47] themselves into a position where they could have a soft blockade. They could give the orders that
+[55:54] any ship that wants to go to Taiwan first has to stop at a Chinese port and go through a customs
+[56:01] clearing process to assert sovereignty and so on, and make it difficult for ships that don't do that.
+[56:08] They'll be looking for things that fly just under the radar that don't actually cause us to really
+[56:15] respond, but which alter the situation in their favor. So I see them moving in that kind of way.
+[56:24] The big new factor is that the Japanese have woken up and the Japanese would see Chinese
+[56:30] control of Taiwan as a direct threat to Japanese independence. I mean, they really see this.
+[56:36] And so they are much more engaged. They're only beginning. They're raising their defense spending,
+[56:43] they're rethinking their doctrine, they're beginning to kind of reshape their culture
+[56:48] around the new strategic environment. Historically, the Japanese have actually been pretty good at
+[56:55] changing direction when they genuinely feel threatened or feel the need to change in some way.
+[57:02] How this works out, I don't see, but I think it's one of the things people really need to keep an eye
+[57:07] on is how fast do the Japanese come up the learning curve? How serious does it turn out,
+[57:14] they really are about their own defense? And how does that affect China's calculations in Taiwan
+[57:20] if Japan is a new and complicating issue for them?
+[57:23] If I combine all these things, the changing forces of power, technology, military technology,
+[57:29] other things we've talked about with your observation that politics and the future is going to be more
+[57:33] personal. Are there any other rates of change, things changing in the world that we haven't talked
+[57:39] about yet that you think are especially important for what the future will look like?
+[57:44] There were three basic classes in American society during the kind of post-World War II era
+[57:52] of stability. And they spread a lot in the rest of the world. One was an industrial working class,
+[57:58] which is kind of more or less in stable jobs with color. Yeah, exactly. Often organized in unions,
+[58:05] they had a very pragmatic political attitude and they were economically focused. And political
+[58:10] competition between the left and the right was who can figure out how to raise living standards
+[58:15] for the workers better. And that kind of centered politics on a fairly rational basis.
+[58:22] Then you had the business class. And by the 1940s and 50s, it was no longer the founders,
+[58:30] the John D. Rockefeller originally or the first JP Morgan. It was grandsons and it was publicly
+[58:37] traded companies, professional managers. And so there was a kind of institutionalization of business.
+[58:46] That was also the era of these very regulated monopolies and oligopolies. So there's one phone
+[58:53] company, a limited number of airlines, the three networks, very structured business world.
+[58:59] And then between them, this organized, rationally focused working class and organized, regulated,
+[59:08] publicly managed business class, you had this expert class, the technocrats, the administrators
+[59:14] and so on, who according to the dictates of the best social science, peer reviewed social science,
+[59:22] were like making the decisions, regulate the businesses so they don't get too greedy,
+[59:27] but also keep the workers from being so demanding that the whole system collapses, etc. And they
+[59:33] were the balancing group. I would say in American society today, all three of those classes are in
+[59:39] total disarray. And yet we are facing a whole series of very serious changes, perplexities.
+[59:49] What do we do about AI? Just being one of many, we're not organized to answer these in the old ways.
+[59:57] So we are really out at sea. And because America has been for so long, and still, I think remains
+[60:04] the only potential pillar of global stability in organization. The internal incoherence of America
+[60:13] faced with all of these changes can't help but undermine any chances of global stability.
+[60:20] So I think what that means is for people like you and me and maybe our listeners in the show,
+[60:26] tremendously heavy responsibility to try to figure out answers and see some path through this,
+[60:34] and try to build a new kind of American politics and social order that can allow us,
+[60:41] once again, to be reasonably stable for ourselves and then project that globally.
+[60:47] What do you think against that backdrop it's going to mean or does mean to be an American?
+[60:52] If all of that is changing, what does it mean? Americans think about being American
+[60:58] in different ways. They have for a long time. You hear a lot of people talk these days about
+[61:03] America as a country founded on ideas. Honestly, I think I was maybe in college before I met anybody
+[61:10] who thought that way. I'm from the South and down there, you sort of thought, well, I'm an American
+[61:16] because everybody I know is American. My family, as long as I have any idea who the heck they were,
+[61:21] they're Americans. I'm an American the same way a French one is French or a Turk is Turk,
+[61:26] not because I believe in America, but because I'm here and no one else would have me.
+[61:32] It's like, this is it. But there really are other people who love America and contribute to America
+[61:38] who experience, yes, it's a country of ideas and we are a pluralistic country in this way.
+[61:45] And I don't myself feel more American than somebody that was naturalized last week.
+[61:51] I think for me in some ways, the sort of meeting ground between identity and ideas,
+[61:59] honestly, it's the Pledge of Allegiance. I pledge allegiance to the flag of the United States of
+[62:05] America and to the Republic for which it stands, one nation indivisible under God with liberty
+[62:12] and justice for all. And I would say anybody who says that and means it is an American.
+[62:18] For your remarkable, huh? Well, read and it's good. It's good.
+[62:23] One thing I haven't asked about that I'm deeply curious about as I'm sure everyone is,
+[62:28] is your interpretation of what's going on in the Middle East, both with Iran, with Israel,
+[62:33] with all the other key players where alliances seem to be shifting around for the first time
+[62:37] in a long time. How do you interpret what's happening? What are the deeper currents and messages that
+[62:42] you're focused on? A lot of things obviously going on in the Middle East. One background to a lot of
+[62:48] stuff is just the sort of collapse of Arab nationalism and kind of Arab identity as an
+[62:55] organizing force in the Middle East. In the 1950s, NASA and Egypt were the great pillars of Arab
+[63:03] identity and Pan-Arabism. After the 67 war, they took a hit, but you would still have countries like
+[63:11] Syria, Iraq, even for a while under Qaddafi, Libya, aspiring to that mantle. If we look at what
+[63:19] happened, Iraq collapsed. Certainly America a lot to do with that. Syria collapsed without America
+[63:26] having a lot to do with it. So Iran as a non-Sunni non-Arab power had created what people call that
+[63:34] Shia crescent from Lebanon, Syria, Iraq, into Iran. While that thanks to Israel primarily since
+[63:44] October 7, that's broken up. But what hasn't broken up is the underlying weakness of the Arab world
+[63:53] is still there. And you have the Gulf states that are very effective in many ways and are using
+[64:00] their oil and their money very effectively, but they still can't defend themselves from Iran.
+[64:04] They still without outside help, they cannot stand. And that leads to the Strait of Hormuz in that
+[64:13] region, which remains incredibly important for the economic stability and health of the world.
+[64:19] That is in chaos. If the United States or some other power doesn't hold Iran back in some way,
+[64:28] it has a hegemony over the oil resources in the Middle East in a way that allows them to blackmail
+[64:36] a lot of people economically and provides them with the kinds of resources that would not certainly
+[64:41] be used to our benefit. Israel, I think, may have hoped that it could kind of bear the weight of being
+[64:49] a counter hegemon to Iran. Israel is too small and too alien to the rest of the Middle East
+[64:57] to really play that role effectively, I think. Since Obama, the United States has been fundamentally
+[65:03] unwilling to do that itself. And we want to kick the can down the road. We want to find some other
+[65:09] way other than us putting down a red line that we enforce with Iran. History doesn't give us a choice.
+[65:16] We stop Iran ourselves or Iran asserts and maintains hegemony over the oil resources in the
+[65:24] Middle East. Why have we been unaffected? Obviously, we have vastly superior military capability or
+[65:31] whatever. This is a specific question about Iran in the Strait of Hormuz, but also people used to
+[65:35] call that Afghanistan, the graveyard of empires. Why do world power seem to have such a difficult
+[65:39] time being effective at all in the Middle East? Well, I think some of it is what we've also seen
+[65:44] with Russia is the erosion of deterrence. What you don't want to do is help Ukraine
+[65:51] win a war with Russia. What you want is for Russia to feel that if they attack Ukraine,
+[65:56] the consequences would be so terrible that it's just not worth doing it. Anything other than
+[66:02] deterrence involves long, difficult, expensive, divisive wars with uncertain outcomes and enormous
+[66:09] costs. The decline of deterrence becomes a massive geopolitical problem overseas and a massive
+[66:17] political problem at home. For example, right now, one of the real facts in the Strait is it's not
+[66:25] even as important that Iran can hit a tanker with a drone as it is that Iran could put some drones on
+[66:34] desalinization plants and make the cities of the Gulf essentially uninhabitable.
+[66:40] As long as that's the case, I'm not going to make big investments in the Gulf if I'm a foreign
+[66:45] guy. It's really, really scary. That means that these whole economic development plans that
+[66:52] those countries have for their future political stability go up in smoke because it doesn't work.
+[67:00] The only way to preserve that is in some ways, what we were doing in the Cold War in Europe,
+[67:05] just saying to Russia, you cross that line. You invade West Berlin and holy hell breaks out.
+[67:13] But I think as a country, we're not at the point where President of the United States can say it
+[67:19] and mean it and have the public back him up. For that, we need presidents who can explain to people,
+[67:25] okay, this is how the world works. What Harry Truman did after World War II, for that matter,
+[67:31] what Franklin Roosevelt did in the fireside chats, take the American people into your confidence,
+[67:38] have a clear vision of what you're doing, why you're doing it, be enough of a communicator
+[67:44] to be able to put it across. We haven't really had anybody do that in a very long time.
+[67:50] What do you hope we do? What do you hope America's role is in the next 20 years?
+[67:55] I hope we first of all figure out how to keep our balance as we enter the information revolution,
+[68:04] that we figure out how to use the wealth and the resources the information revolution creates
+[68:12] to deal with the stresses and problems that it inevitably causes and also draw from it the
+[68:19] abundance that will keep the American people feeling like America's working, it's working for them.
+[68:25] The way things are going is basically a good thing. You have that going, then people will back
+[68:32] an American president, American foreign policy in a serious way. And I think if you don't have that,
+[68:39] if we don't do that, we lose ground in the information revolution to China and the deck race.
+[68:44] We get challenged overseas and at home, we're just rabid ferrets fighting with each other
+[68:50] in a cage. And that's just not pretty and not fun. And if we can get that going,
+[68:56] then I think we act purposefully. We say, we don't want any great power dominating Europe.
+[69:03] We don't want any great power dominating Asia. And we don't want any power able to
+[69:09] interrupt the flow of oil in and out of the Middle East on commercial terms.
+[69:14] And we build the alliances and the relationships that do it. I don't think that is an unsustainable
+[69:21] ask. Germany and Japan in particular have a lot of resources and a lot of ability. But also,
+[69:28] our problem in Asia is not that China is so big. And it's the rest of Asia has fallen behind.
+[69:35] In 1980, India's GDP was something like 60%, 65% of China's. Today, it's about 17% of China's.
+[69:44] That gap, in a sense, is the imbalance of power that sort of tempts China into thinking hegemony
+[69:51] in Asia is really possible. And also ensures that without us putting a really heavy weight
+[69:58] on the balance scale, it can't be stopped. If we can create a world that there's room for others
+[70:05] to prosper, that not only India, but Indonesia and Vietnam are growing, I think what we're going to see
+[70:12] is China will kind of reach this point of understanding that Asia is too big for China to eat.
+[70:18] Nobody can eat it. And so we need to learn to live with folks, which Germany has done in Europe.
+[70:24] It's possible. And in the same way, if Russia is stopped in Ukraine and Ukraine goes like Poland
+[70:31] and becomes a prosperous country in all of this, that door is closed without American soldiers fighting
+[70:39] and dying to keep it closed. So there is, I think, the potential for the kind of natural balance of
+[70:47] power in these key theaters to emerge in a way that we can have the sort of world that is good
+[70:53] for us economically and from a security point of view, but does not require an ever-escalating
+[71:01] defense budget, an ever-escalating series of American commitments.
+[71:06] Is there anything especially unique you call it the information revolution? I would think
+[71:09] about it maybe as the intelligence revolution, like to make it very specific to AI.
+[71:13] Is there anything that you're thinking about that excites you most or worries you most about
+[71:17] this very unique brand of technology in global affairs?
+[71:20] Well, it is interesting how it seems, at least for now, to have simplified the international
+[71:27] playing field so that people, as you were saying earlier, just, they said, there's America and
+[71:31] there's China and there's no one else in the room. First of all, I wonder how long that will last
+[71:37] because originally there were two nuclear powers, America and Soviet Union and nobody else was in
+[71:43] the room, but then a bunch of other people started getting into the room. Is AI more replicable?
+[71:51] Are we going to start seeing other countries come up with their equivalent of these technologies?
+[71:57] The Chinese have obviously done it with less need for original skull sweat than we did.
+[72:03] Can third parties look comparing the US and China do more? So I'd be definitely watching that one
+[72:11] and there I think the Indians and the Europeans and the Israelis are all very interesting in
+[72:18] that respect. The Israelis got their nuclear bomb just a couple of years, a few years after China.
+[72:24] So look at that. I do think the whole question of AIs and national security decision-making and
+[72:34] deterrence is interesting because the whole goal of deterrence is you want to make the
+[72:40] adversary believe that there's no question. If I do X, they will do Y. They will be able to do
+[72:47] Y and they are willing to do Y. Automating your foreign policy decision-making process
+[72:54] increases deterrence. So we've turned that over to the AI and if the AI thinks you're doing this
+[73:00] Wham and anything less than that is, no, I'm leaving us human decision point because I might
+[73:07] decide not to do it. That's interesting when you think about how that might play out in the world of
+[73:13] deterrence and are we really willing to have the doomsday machine decide whether we're going to go to
+[73:20] war or use nuclear weapons or something like that. Very interesting and somewhat perplexing.
+[73:26] Maybe to end on a positive note, what are you most excited about in the future?
+[73:30] The list is almost endless. When I think about the acceleration of medical research that's going
+[73:37] to be coming, let's just look at what AI and generally advances in tech are doing in the field
+[73:44] of medicine. The rate at which cures are being found or treatments, my friend Ben Sasse who was
+[73:51] diagnosed with terminal pancreatic cancer, I mean, he's still in a very bad situation,
+[73:57] but a drug that didn't exist a year ago is keeping him not just breathing but interacting
+[74:05] with people and doing things. It is a stay of execution. But the point is, I can look back at
+[74:12] people in my own family who died of various conditions, which would now, if they had them,
+[74:19] be treatable and that's in one lifetime. And I also believe that we're going to be seeing a
+[74:25] cost revolution in health care that people will have 50 years from now better health care and cheaper
+[74:33] health care than anybody has today. I think this means that things like the federal deficit
+[74:40] due to entitlement programs are actually solvable, that we're going to have Medicare is going to be
+[74:47] less of a drag and the seniors are going to get better care. So I think many of the problems
+[74:54] that are driving us really crazy right now are actually amenable to solution and the solutions
+[75:02] are appearing at a fast rate. And that our biggest problem is that this cornucopia of wealth,
+[75:11] that the information revolution unlocks, the stuff is coming out of this cornucopia so fast,
+[75:17] we just don't know how to manage it. I am fundamentally optimistic that we are on the
+[75:25] cusp of a unique era of human transformation, renewal and development. And it's really exciting
+[75:31] to be able to see it. I've been reading your books and you're thinking and you're writing for so long,
+[75:35] it's such a thrill to do this together in person. When I do these, I ask everyone the same final
+[75:39] question, what is the kindest thing that anyone's ever done for you? They have less gale, but the
+[75:44] Council on Foreign Relations was just a magnificent mentor who when I would do something stupid would
+[75:51] help me see it, but also help me figure out the next step forward. I have had so much undeserved
+[75:59] kindness from so many people in so many dimensions of life, younger relatives now who
+[76:06] put up with their endlessly boring cognitive. Another one is all war stories, employers who
+[76:14] keep me going, put up with me, the Wall Street Journal, Paul Gico letting me be the global view
+[76:21] columnist at the journal. I float on a sea of kindness and I don't know that it's easy to
+[76:28] say there's one thing kinder than another. I've just been blessed. It's beautiful visual to close on
+[76:35] floating on a sea of kindness. Thanks so much for your time. If you enjoyed this episode, visit
+[76:41] colossus.com. You'll find every episode of this podcast complete with hand out of the transcripts.
+[76:45] You can also subscribe to Colossus, our quarterly print, digital and private audio publication,
+[76:50] featuring in-depth profiles of the founders, investors and companies that we admire most.
+[76:55] Learn more at colossus.com slash subscribe. You know how small advantages compound over time
+[77:20] that's true in investing and just as true in how you run your company. Your spending system is your
+[77:25] capital allocation strategy. Ramp makes it smarter by default. Better data, better decisions, better
+[77:30] economics over time. See how at ramp.com slash invest. As your business grows, Vanta scales with you,
+[77:35] automating compliance and giving you a single source of truth for security and risk,
+[77:39] learn more at vanta.com slash invest. The best AI and software companies from open AI to cursor
+[77:45] to perplexity. Use WorkOS to become enterprise ready overnight, not in months. Visit WorkOS.com
+[77:51] to skip the unglamorous infrastructure work and focus on your product. Ridgeline is redefining
+[77:55] asset management technology as a true partner, not just a software vendor. They've helped firms
+[78:00] five X and scale enabling faster growth, smarter operations and a competitive edge. Visit ridgeline
+[78:05] apps.com to see what they can unlock for your firm. Every investment firm is unique and generic AI
+[78:11] doesn't understand your process. Rogo does. It's an AI platform built specifically for Wall Street,
+[78:15] connected to your data, understanding your process and producing real outputs. Check them out at
+[78:20] rogo.ai slash invest.
