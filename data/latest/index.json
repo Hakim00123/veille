@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-12T20:09:06+00:00",
+ "genere_le": "2026-09-13T02:59:25+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
- "nb_articles": 379,
+ "nb_flux_en_erreur": 14,
+ "nb_articles": 376,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -78,6 +78,11 @@
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
   }
  ]
 }
