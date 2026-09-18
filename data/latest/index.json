@@ -1,8 +1,8 @@
 {
- "genere_le": "2026-09-17T20:55:29+00:00",
+ "genere_le": "2026-09-18T03:03:13+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 14,
+ "nb_flux_en_erreur": 13,
  "nb_articles": 400,
  "chunks": [
   "chunk-01.json",
@@ -14,11 +14,6 @@
   "chunk-07.json"
  ],
  "erreurs": [
-  {
-   "source": "Net-entreprises (DSN officiel)",
-   "url": "https://www.net-entreprises.fr/feed/",
-   "erreur": "ConnectTimeout: HTTPSConnectionPool(host='www.net-entreprises.fr', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.net-entreprises.fr', port="
-  },
   {
    "source": "Klement on Investing",
    "url": "https://klementoninvesting.substack.com/feed/",
