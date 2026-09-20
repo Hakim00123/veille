@@ -9,9 +9,25 @@
   "562-rafaele-tordjman-jeito-capital-le-vrai-prix-de-l-innovation-medica",
   "564-vf-mati-staniszewski-elevenlabs-l-humain-a-ete-fait-pour-parler-pa",
   "563-benoit-bazin-saint-gobain-tripler-la-valorisation-de-la-plus-vieil",
-  "565-dimitri-rassam-yapluka-le-champion-europeen-des-blockbusters-d-aut"
+  "565-dimitri-rassam-yapluka-le-champion-europeen-des-blockbusters-d-aut",
+  "567-raphael-chiche-avocat-defendre-l-indefendable",
+  "566-virginie-taittinger-champagne-virginie-t-rester-la-plus-petite-des"
  ],
  "episodes": [
+  {
+   "fiche": "567-raphael-chiche-avocat-defendre-l-indefendable.json",
+   "titre": "#567 - Raphaël Chiche - Avocat - Défendre l'indéfendable",
+   "date": "Sun, 20 Sep 2026",
+   "date_iso": "2026-09-20",
+   "nb_outils": 1
+  },
+  {
+   "fiche": "566-virginie-taittinger-champagne-virginie-t-rester-la-plus-petite-des.json",
+   "titre": "#566 - Virginie Taittinger - Champagne Virginie T. - Rester la plus petite des grandes maisons",
+   "date": "Wed, 16 Sep 2026",
+   "date_iso": "2026-09-16",
+   "nb_outils": 1
+  },
   {
    "fiche": "565-dimitri-rassam-yapluka-le-champion-europeen-des-blockbusters-d-aut.json",
    "titre": "#565 - Dimitri Rassam - YAPLUKA - Le champion européen des blockbusters d'auteurs",
@@ -76,5 +92,5 @@
    "nb_outils": 9
   }
  ],
- "maj": "2026-09-13T19:31:25Z"
+ "maj": "2026-09-20T19:47:04Z"
 }

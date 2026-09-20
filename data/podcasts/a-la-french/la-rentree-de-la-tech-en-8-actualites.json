@@ -1,0 +1,31 @@
+{
+ "podcast": "A la French",
+ "slug": "a-la-french",
+ "titre": "La rentrée de la tech en 8 actualités !",
+ "date": "Wed, 16 Sep 2026",
+ "date_iso": "2026-09-16",
+ "lien": "https://shows.acast.com/a-la-french/episodes/6aa8e6f05d36baebf17f1a7d",
+ "duree": "1:16:08",
+ "modele": "base",
+ "langue": "fr",
+ "minutes_transcription": 10.5,
+ "taille_transcript": 101014,
+ "transcript": "la-rentree-de-la-tech-en-8-actualites-transcript.txt",
+ "nb_outils": 3,
+ "outils": {
+  "Discord": [
+   "etites annonces avant, puisque la communauté nous a demandé des trucs pendant toute l'année dernière, qu'on n'avait pas forcément pu délivrer, parce qu'on n'avait pas le temps. Mais on a trois super annonces un peu cools. La première, c'est qu'on va lancer un Discord à la French. Oui. Alors, il y a un long débat, est-ce que c'est un Slack, est-ce que c'est un groupe WhatsApp, une communauté signal ou un Discord, au final. Ça finit sur un Discord. Le Slack, faut payer. Bah, c'est là que c'est chiant, faut payer sur la paie",
+   "e qu'on n'avait pas le temps. Mais on a trois super annonces un peu cools. La première, c'est qu'on va lancer un Discord à la French. Oui. Alors, il y a un long débat, est-ce que c'est un Slack, est-ce que c'est un groupe WhatsApp, une communauté signal ou un Discord, au final. Ça finit sur un Discord. Le Slack, faut payer. Bah, c'est là que c'est chiant, faut payer sur la paie historique. Ouais. WhatsApp. J'ai un enfer déjà géré WhatsApp, j'ai tellement de conversations. Voilà, et puis WhatsApp, on sait pas trop ce qu'il",
+   "on a trois super annonces un peu cools. La première, c'est qu'on va lancer un Discord à la French. Oui. Alors, il y a un long débat, est-ce que c'est un Slack, est-ce que c'est un groupe WhatsApp, une communauté signal ou un Discord, au final. Ça finit sur un Discord. Le Slack, faut payer. Bah, c'est là que c'est chiant, faut payer sur la paie historique. Ouais. WhatsApp. J'ai un enfer déjà géré WhatsApp, j'ai tellement de conversations. Voilà, et puis WhatsApp, on sait pas trop ce qu'ils n'en ont pas. Ça marche bien. Dis"
+  ],
+  "Slack": [
+   "nt toute l'année dernière, qu'on n'avait pas forcément pu délivrer, parce qu'on n'avait pas le temps. Mais on a trois super annonces un peu cools. La première, c'est qu'on va lancer un Discord à la French. Oui. Alors, il y a un long débat, est-ce que c'est un Slack, est-ce que c'est un groupe WhatsApp, une communauté signal ou un Discord, au final. Ça finit sur un Discord. Le Slack, faut payer. Bah, c'est là que c'est chiant, faut payer sur la paie historique. Ouais. WhatsApp. J'ai un enfer déjà géré WhatsApp, j'ai tell",
+   "uper annonces un peu cools. La première, c'est qu'on va lancer un Discord à la French. Oui. Alors, il y a un long débat, est-ce que c'est un Slack, est-ce que c'est un groupe WhatsApp, une communauté signal ou un Discord, au final. Ça finit sur un Discord. Le Slack, faut payer. Bah, c'est là que c'est chiant, faut payer sur la paie historique. Ouais. WhatsApp. J'ai un enfer déjà géré WhatsApp, j'ai tellement de conversations. Voilà, et puis WhatsApp, on sait pas trop ce qu'ils n'en ont pas. Ça marche bien. Discord, c'es"
+  ],
+  "Stripe": [
+   " Router, parce que les tweets, c'est une chose, Open Router, t'as un peu plus à réalité. Vous voyez, ils étaient tous, en même prix. Et donc, ils sont tous en même prix, bien, sur Open Router, qui, c'est pas, c'est-à-dire, c'est-à-dire... C'est à racheter par Stripe. Open Router, racheter par Stripe, c'est-à-dire... Ça, c'est ouf. Ça, c'est ouf pour moi. C'est-à-dire que, un token, c'est une nouvelle... Une idée économique. C'est une idée économique. Mais moi, je te déduide. D'ailleurs, j'ai va être codé un truc... Ça s'",
+   "st une chose, Open Router, t'as un peu plus à réalité. Vous voyez, ils étaient tous, en même prix. Et donc, ils sont tous en même prix, bien, sur Open Router, qui, c'est pas, c'est-à-dire, c'est-à-dire... C'est à racheter par Stripe. Open Router, racheter par Stripe, c'est-à-dire... Ça, c'est ouf. Ça, c'est ouf pour moi. C'est-à-dire que, un token, c'est une nouvelle... Une idée économique. C'est une idée économique. Mais moi, je te déduide. D'ailleurs, j'ai va être codé un truc... Ça s'appelle tokenindex.dev, où je refe"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

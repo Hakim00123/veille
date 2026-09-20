@@ -1,0 +1,1906 @@
+A la French
+La rentrée de la tech en 8 actualités !
+Wed, 16 Sep 2026
+https://shows.acast.com/a-la-french/episodes/6aa8e6f05d36baebf17f1a7d
+
+[00:00] Bienvenue dans la French, on est reparti pour la saison 2, avec Giebe et avec Steve.
+[00:03] Il y a eu plein de news cet été, plein d'annonces, on va les commenter ensemble
+[00:07] et on va délirer sur ce qui s'est passé, et on va faire ça à la French, c'est parti.
+[00:12] Vous êtes sur la French, le podcast qui a une certaine idée de la tech,
+[00:32] et on est de retour pour une saison 2 où on va French Maxé avec.
+[00:35] Giebe, t'as lu ?
+[00:36] T'as pas ?
+[00:36] Avec Steve.
+[00:37] Bonjour à tous, elle faisait passer de bonne vacances.
+[00:39] Pas mal, pas mal.
+[00:40] Ah, ça fait du bien, ça fait du bien.
+[00:43] Les vacances, c'est à la French, hein.
+[00:45] Les autres qui ne connaissent pas, qui ont une certaine idée de la plage,
+[00:48] qui ont une certaine idée de la déconnexion.
+[00:52] Toi, son vacances nous les français, on sait ce que c'est ?
+[00:55] Ah, bon, on a une attention.
+[00:57] Quelqu'un, on a inventé.
+[00:58] On a inventé quelque part.
+[01:00] On a bien trouvé quelque chose d'accepation.
+[01:02] On va trouver à une source d'en...
+[01:04] Et ouais, c'est cool les vacances, parce qu'on défaite tout ce qu'on a fait,
+[01:07] que tous les efforts, tout le taf, l'avance qu'on avait pris et tout.
+[01:10] En cinq semaines, c'était il y a longtemps à la fin des vacances.
+[01:12] Ouais, c'est vrai que, ouais, moi, je suis en train de venir des vacances là.
+[01:16] Ouais, ça repartit la verticale.
+[01:19] D'ailleurs, technique pour ceux qui, parce qu'en France, on a des vacances,
+[01:22] je parle pour tous les salariens notamment, prenez jamais,
+[01:25] moins de 10 jours de vacances.
+[01:26] Oui, parce que je confirme ça.
+[01:28] Parce que ce que tu prends moins de 10 jours,
+[01:29] tout le monde t'attend et tu te prends tous les mails,
+[01:31] dire un qui est délégué, tout le monde t'attend pour avoir ta réponse ou ton follow-up.
+[01:36] Alors, si t'es pas la deux semaines ou trois semaines,
+[01:38] on fait sans toi quoi.
+[01:39] La version, c'est que si on peut faire sans toi pendant trois semaines,
+[01:41] tu sais rien, donc...
+[01:42] C'est qu'on est là, je prends 15 jours.
+[01:44] Avec ça, tu vois, je garde...
+[01:45] Avec ta technique, j'ai qu'à dire, je suis 8 mois en vacances,
+[01:48] ne me parlais pas quoi.
+[01:49] Bah ouais, mais ça, comme ça, tu m'étais vite, voilà.
+[01:52] Pôle emploi, enfin, à France travail, voilà.
+[01:54] C'est longtemps que ça s'appelle plus pôle à toi.
+[01:55] Ouais, bah, c'est fait longtemps que je pas été au chômage.
+[01:57] Donc, voilà, en même temps, en même temps, c'est parti.
+[02:00] Ouais, donc on va reparler de cet été,
+[02:02] mais on va faire trois petites annonces avant,
+[02:03] puisque la communauté nous a demandé des trucs pendant toute l'année dernière,
+[02:06] qu'on n'avait pas forcément pu délivrer,
+[02:08] parce qu'on n'avait pas le temps.
+[02:09] Mais on a trois super annonces un peu cools.
+[02:11] La première, c'est qu'on va lancer un Discord à la French.
+[02:14] Oui.
+[02:15] Alors, il y a un long débat, est-ce que c'est un Slack,
+[02:17] est-ce que c'est un groupe WhatsApp,
+[02:19] une communauté signal ou un Discord, au final.
+[02:22] Ça finit sur un Discord.
+[02:23] Le Slack, faut payer.
+[02:25] Bah, c'est là que c'est chiant, faut payer sur la paie historique.
+[02:27] Ouais.
+[02:28] WhatsApp.
+[02:29] J'ai un enfer déjà géré WhatsApp, j'ai tellement de conversations.
+[02:31] Voilà, et puis WhatsApp, on sait pas trop ce qu'ils n'en ont pas.
+[02:34] Ça marche bien.
+[02:35] Discord, c'est cool, c'est geek.
+[02:36] Je pourrais t'inviter ou pas dans le truc.
+[02:38] Bah oui, mais on va t'inviter.
+[02:40] On va en discuter.
+[02:41] Mais justement.
+[02:42] Donc là, on vous met le lien.
+[02:43] On va accepter les gens 100% pour avoir le temps de modérer et tout ça.
+[02:46] Donc c'est une sorte de beta privée.
+[02:48] Donc voilà, inscrivez-vous maintenant.
+[02:50] Voilà, prenez 5 secondes.
+[02:51] Inscrivez-vous sur la liste d'attente.
+[02:52] Et ça vous permettra d'accéder au Discord à la French.
+[02:54] Deuxième annonce, à la French Tour.
+[02:57] En fait, on est invité par tellement de conférences à venir faire des podcasts chez eux,
+[03:01] ou à venir faire des panels,
+[03:03] qu'on a décidé de dire oui, parce que le but, c'est quand même d'y aller.
+[03:05] Donc on sera à Paris.
+[03:07] On sera Saint-Malo.
+[03:08] On sera à Marseille.
+[03:09] On sera à Toulouse.
+[03:10] On sera à plein d'endroits.
+[03:11] Donc si vous organisez des événements,
+[03:13] n'hésitez pas à nous souliciter.
+[03:14] Si ça renda la road map, on viendra.
+[03:16] Donc ça, ça peut être cool.
+[03:18] Allez voir les gens, en vrai quoi.
+[03:19] En vrai ?
+[03:20] En vrai ?
+[03:21] En vrai ?
+[03:22] En vrai ?
+[03:23] Les vrais gens.
+[03:24] Non, mais tu n'en as pas parlé de ça.
+[03:25] Il fallait y aller, mais...
+[03:26] Oui, les gens ne sont pas intéressés dans mon avis,
+[03:28] et qui est personne qui répond.
+[03:29] Oui, mais c'était un peu le deal, mais c'est très bien.
+[03:32] Le peuple n'est pas qu'une liste commentaire YouTube.
+[03:35] Donc...
+[03:36] Non, non, non, mais ça ne c'est pas qu'une liste.
+[03:37] Il n'est pas qu'une liste.
+[03:39] Une série de l'oeil.
+[03:40] Et la 3e News, la 3e News, c'est la confa à la freine du 3 décembre.
+[03:43] On sera 1200 à freine-max et le game,
+[03:46] à freine-max et tout ça, bien sûr,
+[03:48] des épisodes en live, des invitations en prise,
+[03:51] des cadeaux et des choses qu'on ne peut pas encore révéler.
+[03:54] Mais qui vont être des trucs bien salés.
+[03:57] Donc pareil, à la freine-malo pour aller voir la confe du 3 décembre,
+[04:01] il y a quelques histoires eggs.
+[04:03] Mr. Egg, quelques autres packs sur le site,
+[04:06] n'essayez les deviner un indice qu'on a mis code.
+[04:08] Donc voilà, vous pourrez tester par vous-même.
+[04:10] Donc ça, c'était pour les annonces pour la rentrée,
+[04:12] de la communauté, du déconferrence dans lesquels on va assister,
+[04:16] et puis, la troisième annonce,
+[04:17] une confe pour se réunir et French Max et Ensemble.
+[04:20] Allez, on s'est parti pour l'épisode.
+[04:21] Allez.
+[04:22] On se ramène en piste.
+[04:23] On part sur les news de l'été,
+[04:25] une des grosses news de l'été,
+[04:27] c'est Nvidia qui nous rachète Game Face,
+[04:30] qui nous rachète à la fin du pays.
+[04:31] Et oui, oui, voilà.
+[04:34] Game Face, c'est quand même à la French.
+[04:36] C'est la French.
+[04:37] C'est trois français.
+[04:39] Une boîte américaine.
+[04:40] Qui vaut un New York.
+[04:41] Qui vaut un New York.
+[04:42] C'est une boîte américaine avec des investisseurs américains.
+[04:45] Mais bien sûr, c'est le terroir qu'on aime.
+[04:47] Mais voilà, c'est élevé.
+[04:49] C'est le...
+[04:50] C'est voilà, c'est le terroir bien de chez nous, tu vois.
+[04:55] Parti à la capitale.
+[04:57] Oui, mais quand tu regardes l'ondre,
+[04:58] c'est, je crois, la neuvième ville française
+[05:01] en termes de nombre de Français
+[05:02] qui vivent à l'intérieur.
+[05:03] C'est juste derrière Bordeaux.
+[05:04] New York, il y a plein de Français.
+[05:05] Comment réelle la deuxième ?
+[05:07] Oui, il parle français.
+[05:08] Donc, francophone.
+[05:09] Mais francophone, mais francophone.
+[05:11] Mais...
+[05:12] Non, mais c'est à la frêche quand même, tu vois.
+[05:14] Clément.
+[05:15] Oui, mais bien sûr.
+[05:16] Julien, Thomas.
+[05:17] Ils voulaient faire une boîte en France.
+[05:19] Ils ont commencé à station F.
+[05:20] C'est vrai.
+[05:21] Après, ils sont partis, parce que...
+[05:23] Mais ils ont quelques business en gel français, quand même.
+[05:25] Florian Dueto, tout de la bonne clique.
+[05:28] Oui, bien sûr.
+[05:30] Tiboyles hier, il y en a quelques-uns, comme ça, qu'on investit.
+[05:33] Et puis, ça fait longtemps, c'est 2016, hein.
+[05:35] 2016, 2015.
+[05:37] C'est pas ridicule, hein, c'est bon.
+[05:39] C'est bon, de start, et tout.
+[05:41] Et j'ai obtenu leur captéball,
+[05:43] leur captable de capitalisation qui dit,
+[05:45] leur historique d'investissement,
+[05:46] quoi que ce soit.
+[05:46] Je suis passionnée à l'or, le public, bon, pas trop.
+[05:48] Mais on va voir si je l'obtenue, c'est que c'est public, hein.
+[05:51] C'est ça.
+[05:53] Oui, même toi.
+[05:55] Et apparemment, leur premier tour de pré-preside,
+[05:58] c'était 90.000 dollars.
+[06:00] Ils ont levé 90.000 dollars.
+[06:03] Donc, je ne sais pas si t'imagines
+[06:04] à une valorisation de 1.000 ans, 8.
+[06:06] Donc, c'était à l'époque...
+[06:08] Donc, il y a des mecs qu'on fait fois 6.000,
+[06:10] fois 6.000, 7.000 sur l'investissement.
+[06:12] C'est pas mal, ça.
+[06:13] Pas mal quand même, hein.
+[06:14] Tu mets 10.000 euros, t'as 60 millions d'euros, quoi.
+[06:18] C'est pas mal, hein.
+[06:19] C'est un bon retour.
+[06:20] Il y a eu des dilutions en ce moment.
+[06:21] C'est pas le week-end.
+[06:23] Mais ce que je veux dire, voilà, il faut y croire, quoi.
+[06:26] Non, c'est cool.
+[06:27] C'est cool parce que c'est quand même des Français.
+[06:29] C'est cool.
+[06:30] C'est quand même très visible.
+[06:32] Le côté moins cool.
+[06:33] Vraiment, il y a deux côtés.
+[06:35] Il y a un côté moins cool.
+[06:36] Il y a un côté un peu bizarre.
+[06:37] Je trouve qu'il y a une vieillière achète assez peu de boîtes
+[06:39] finalement par rapport à la taille.
+[06:41] Et les tunes qu'ils ont, quoi.
+[06:42] Ils sont à quoi, 5.000 milliards, 6.000 milliards, 4.000 milliards.
+[06:44] Enfin, un truc...
+[06:45] Je trouve, en fait...
+[06:46] Ça n'est pas sur les mardis où je l'ai dit.
+[06:47] Oui, c'est ça.
+[06:48] Alors, M&A est assez relativement pauvres en nombre de boîtes, quoi.
+[06:53] Quand je compare un peu à des boîtes,
+[06:55] qu'on va vraiment une vraie section Venture,
+[06:57] Google Venture, etc.
+[06:58] Je trouve que c'est quand même assez...
+[07:00] Ouais, assez mou et deuxièmement.
+[07:02] En fait, c'est un peu embêtant parce que ça fait quand même...
+[07:05] Ça fait encore plus de trucs sur NVIDIA, sur LIA.
+[07:07] Et il y a un vrai sujet qu'il y a.
+[07:08] Ouais, il y a un petit phago citage.
+[07:10] Mais en même temps, c'est pas pour eux.
+[07:12] C'est génial pour eux, quoi.
+[07:13] Mais tu vois, ça veut dire que...
+[07:15] Tu fais tes JPU.
+[07:16] Il faut aller les chercher chez NVIDIA.
+[07:18] Tu vas chercher tes modèles.
+[07:19] Il faut les chercher chez NVIDIA.
+[07:20] Ouais.
+[07:21] Tu veux les faire tourner.
+[07:22] C'est renier ici chez NVIDIA.
+[07:23] Après, il y a quand même un argument important.
+[07:26] NVIDIA, parce qu'il y a évidemment un angle...
+[07:30] Consolidation, enfin, phago citage.
+[07:32] Tu vois un peu Sorom, c'est-à-dire.
+[07:35] Mais dans l'autre côté, il y a aussi un annuellement,
+[07:38] je pense, d'intérêt,
+[07:39] qui est que l'opensource, ça doit vivre.
+[07:43] Et pour NVIDIA, l'opensource, c'est une manne.
+[07:45] Donc, ce n'est pas débile.
+[07:47] Je vais vous dire, je ne prends pas de gins face,
+[07:49] il y a le côté capitalistique,
+[07:50] mais ça aligne les intérêts aussi.
+[07:52] Pour moi, c'est un genre...
+[07:53] C'est typique.
+[07:54] C'est du coup, l'opensource.
+[07:55] C'est typique que mes détails sur complément, tu vois.
+[07:58] Ils vendent des JPU.
+[07:59] Donc, en fait, ils ont intérêt à aider à avoir
+[08:01] qu'il y a plein de modèles, parce que c'est...
+[08:02] C'est du complément.
+[08:03] Minderien sur les modèles américains,
+[08:05] je crois que c'est probablement le meilleur,
+[08:08] le plus gros, en tout cas, contributeur de modèles frontières,
+[08:11] américains, avec des modèles.
+[08:13] Avec des modèles, oui.
+[08:14] Et une vie de gagne,
+[08:15] des modèles.
+[08:16] Et une vie de physique à l'AI, etc.
+[08:17] Mais les data sets, tout ça.
+[08:18] Ça vaut quoi, des modèles, tu testes un peu, toi.
+[08:20] Non, je n'ai pas testé,
+[08:21] parce que je n'ai pas...
+[08:23] Moi, je testera peu le modèles, au final.
+[08:25] Mais, on m'en dit du bien, après, c'est...
+[08:29] On va dire du frontière like, quoi.
+[08:32] C'est pas au niveau des modèles chinois.
+[08:35] C'est juste en dessous la frontière, quoi.
+[08:37] C'est au niveau de la donne, quoi.
+[08:38] C'est au niveau de la donne, c'est le pas.
+[08:40] C'est la donne de la donne.
+[08:43] Je suis doignée.
+[08:45] Non, par contre, je pense qu'on a refusé des élus.
+[08:48] Je pense qu'on a refusé des élus.
+[08:50] C'est pas encore frontière.
+[08:51] Qu'on fait des sujets,
+[08:53] parce que sur le modèle américain,
+[08:56] il y a pas mal de boîtes qui se...
+[08:58] On va dire qu'ils se refusent à utiliser des modèles chinois.
+[09:01] On aime si ça s'achange aussi.
+[09:03] Mais du coup, de némotrons, c'est le prochain dans la liste, quoi.
+[09:06] Un peu frontière.
+[09:08] Mais c'était qu'il y a pas eu meta qui nous a fait à nouveau
+[09:10] enfin un modèle...
+[09:11] Les muse-parcs, ouais.
+[09:12] Alors qu'ils étaient partis pour faire des trucs,
+[09:14] c'était fini l'open source, l'open rate.
+[09:16] Moi, j'ai l'impression que les modèles sont pas mauvais,
+[09:18] mais c'est quand même l'impression qu'ils ont perdu
+[09:20] un peu leur superbe.
+[09:22] Non, je ne te parle pas dans la réalité.
+[09:24] On n'y va pas.
+[09:25] On n'y va pas.
+[09:26] On n'y va pas.
+[09:27] On n'y va pas.
+[09:28] On n'y va pas.
+[09:29] On n'y va pas.
+[09:30] On n'y va pas.
+[09:31] On n'y va pas.
+[09:32] On y va pas.
+[09:33] On y va pas.
+[09:34] On y va pas.
+[09:35] On y va pas.
+[09:36] On y va pas.
+[09:37] On y va pas.
+[09:38] Ça sentait bien sur la prédiction, mais là...
+[09:40] T***h, pardon.
+[09:42] Et qu'est-ce que les bords?
+[09:44] Alors que je trouve que justement, là, ils ont été
+[09:46] de mieux en mieux c'est leur intégration que dans Google Search.
+[09:48] Alors ça par contre, c'est super jéré, et même en fait.
+[09:50] Oui, mais c'est génial.
+[09:52] Et avant ça te pretake tout le truc, maintenant,
+[09:54] tu peux avoir un truc que tu déplies.
+[09:55] Et je vais me montrer.
+[09:56] Et je trouve plein de fois à utiliser ça,
+[09:58] plutôt que mon homepage ou n'importe quoi.
+[10:00] Microsoft a sorti aussi, Microsoft a sorti des modèles,
+[10:04] oui, non?
+[10:05] Ah, ok.
+[10:06] Ok?
+[10:07] Ah !
+[10:08] Bah, il est en tout cas...
+[10:10] J'ai oublié le nom de leurs modèles la comme il s'appelle.
+[10:12] Ah, tu vas, ça commence bien...
+[10:13] J'ai oublié le nom, mais je reçois retirer en ...
+[10:14] Ah ouais, se la dise...
+[10:15] Tu es pas un sujet intéressant?
+[10:16] Vous mevez même avec Muspark, c'est que y a quand même un sujet d'orat.
+[10:20] Ouais, et le comme...
+[10:21] Tu vois, c'est le branding, l'orat, ça compte des propos même plus que les benchmarks.
+[10:27] Même s'il faut état gauche du côté artificielle analogie ...
+[10:30] Artificial Analysis, qui, d'ailleurs, commence un peu à fraîtier, parce que ils sont tous
+[10:34] à 30 bench maxés, donc...
+[10:36] Ouais, et sur ArcGiA aussi.
+[10:38] Ouais, c'est pareil, donc il y a un vrai sujet de pertinence, quoi, les gens commencent
+[10:43] à moins croire les bench marks, c'est beaucoup de bouches à oreille.
+[10:48] Il y a beaucoup de vibe, quoi.
+[10:50] Les discussions sur Raker News, elles sont vraiment, vraiment, et elles changent de
+[10:54] moi sur moi, et les gens.
+[10:55] Et d'ailleurs...
+[10:56] Ouais, d'ailleurs, tu sais, j'ai...
+[10:58] Non, non, non, mais moi ça me rappelle la distribution, on dit souvent, avec Google,
+[11:02] la distribution, c'est le moteur de recherche, mais je me rappelle à l'époque, dans
+[11:04] les A-P-I, qui était donc, là, il n'y a pas de moteur de recherche d'A-P-I, et on
+[11:07] disait, la France, c'était, comment trouver une bonne A-P-I, c'est, bouches à oreille,
+[11:13] et un peu de chance, toi.
+[11:14] Ouais, bah...
+[11:15] Et bah, les models, c'est un peu ça, quoi.
+[11:16] Et bah là, il y a eu un gros sujet, c'était, on n'a pas fait d'à la French, mais
+[11:20] qui est monté, étant en train de redescendre max-12, là, c'était, qu'on appelle les
+[11:24] comptes, c'est-à-dire, les versions de compressés des modèles, où il y avait même
+[11:27] tout un truc, quoi.
+[11:28] Alors là, pour le coup, NVIDIA, même moi, j'avais tweeté NVFP4, ils se donnaient
+[11:32] au mote, quoi.
+[11:33] C'est qu'il y avait un fort pouche sur les versions de quantiser en 4 bits, et là,
+[11:38] on s'aperçoit que, en fait, ils sont tous lobotomisés, donc là, il y a un rôtre,
+[11:41] il y a un backpedaling en arrière là, sur ça, parce qu'il y a beaucoup de...
+[11:46] Tu vois, de d'ora qui a été créé sur ces benchmarks, etc, qui, dans la réalité,
+[11:51] parce que tu te dises un provider qui contise extrêmement fortement tes activations.
+[11:55] Enfin, c'est une alchimie, les modèles, si tu l'exécute pas de la manière dont
+[12:00] tu l'as été entraînés, ils seraient moins bons, c'est structuréles, qui ne retrouvaient
+[12:04] pas, en fait, on va dire, la rumeur, quoi.
+[12:07] Et ça, je l'ai entendu pas mal de beaucoup avec les modèles avec GLM, en particulier,
+[12:12] ou Kimi, ou les gens, alors, plus GLM, ce que Kimi a déployé, c'est une tannée, mais
+[12:17] qui, du coup, disais, on a testé ces nuls où le fameux coin qui raisonne pendant
+[12:22] 30 minutes, en fait, c'était un bug, alors, en fait, tu vois, et donc il est en train
+[12:28] de se dessiner nous, on le voit aussi, on va dire à ma couche d'exécution, quoi.
+[12:33] Une décoration entre, on va dire, bon, déjà, on savait entre les tweets et la réalité,
+[12:39] mais, du coup, une perte d'orafes, c'est très, très instable, là-dessus, et, du coup,
+[12:44] l'oraf, c'est le truc qui tient un peu la maison parce que, dans la réalité, t'as souvent
+[12:51] pas ce que tu vois dans les grafes.
+[12:52] Ouais, je suis assez d'accord, là, on a quand même pas mal de le sujet autour
+[12:55] de anthropicsin, qu'un faible sonner aupus, etc., ça a été un peu l'enfer, ça a
+[13:03] conceux vraiment beaucoup de tokennes, et surtout, à un moment, ils ont commencé, ils
+[13:08] l'a commencé à te parler, mais vraiment bizarre, très, très, très, très long, et là,
+[13:12] tout le monde a commencé à gueuler, en disant, ça, tu payes, et tu payes, en tout cas,
+[13:15] même même sur toi.
+[13:16] C'est comme les services trappés, les services de support, à l'époque, là, c'est
+[13:19] que tu fais parler de ça, mais vous êtes sûr, vous avez testé ça, vous avez testé
+[13:22] ça, parce que t'es en train de payer, je comprends ce que vous dites, si vous m'arrêtez
+[13:25] pour être bien sûr, à l'eau, à l'eau, à l'eau, et les gens, donc, pas mal
+[13:30] gueulés, et ils ont sorti une version 5.1, un peu plus rapidement qu'ils auraient
+[13:34] dû, et le premier truc, c'est le mec dans Acker News, le mec qui est, je travaille
+[13:38] chez Chica Entropique, on vous a bien entendu, voilà, comme on a changé le mode de façon
+[13:42] dont on dit par le quoi.
+[13:43] Parce qu'en fait, ils ont fait que ça, regardez les commentaires, et à chaque fois
+[13:46] qu'il y avait une news sur Entropique, t'avais un pavé, et sur Reddit, RTechno, et
+[13:50] sur Acker News, qu'ils aient attention, etc., les arrivations de Entropique à 5,
+[13:55] elle fait chier pour ça, et ça.
+[13:56] Et t'as eu le même sujet sur Quen, les Quen, ils sont arrivés, ils avaient des benches
+[14:00] absolument incroyables, et quand tu es juisé, franchement, c'était nul, enfin, pas nul, mais
+[14:05] en d'autres.
+[14:06] Ouais, surtout ça.
+[14:07] Elle est où l'amégie, quoi.
+[14:08] C'était long, etc., et donc là, vraiment, la partie, en fait, évidemment, comme
+[14:14] il y a eu tellement de benches marques, tout le monde a un peu benches maxées, et donc
+[14:17] là, t'as un retour avec pas mal de choses qui se passent sur plein de discours, où
+[14:22] il y a beaucoup de monde qui parle de ça, tout d'accord avec nes, en fait.
+[14:25] Beaucoup de gens sur Acker News et sur Reddit, et sur Twitter, c'est plutôt, toi, c'est
+[14:30] les annonces, et c'est pas la réalité, quoi, et de le que c'était la réalité.
+[14:32] Ouais, mais ça, pour le coup, ça a duré un mois, là, c'était du voir la course
+[14:38] au token de par seconde, tout le monde tweetait, moi, je suis à 300, moi, je suis à 400,
+[14:42] moi, j'ai un cher, moi, j'aime, j'aime.
+[14:43] Mais souvent, en fait, c'est la meilleure, tu vois, et donc là, ça a duré un mois, pendant
+[14:46] un mois, c'était le truc, et là, ça redescend.
+[14:48] On travaille à un retour, nous, et je sens en tout cas, un retour vers la… et c'est
+[14:53] très compliqué, parce que personne n'implément de ça, correctement.
+[14:54] Mais justement, si on vient sur le deal, Nvidia, le rachat par Geengface, en gros
+[15:00] Geengface, c'est la principale pageforme de distribution des modèles, de mise en
+[15:03] exposition des distributions, 18 millions d'utilisateurs actifs, selon les commentes
+[15:09] tu calculs, mais ils ont quasiment un million d'atats-7, 2 millions de modèles, 2 ou 3
+[15:14] millions de modèles, je crois, Geengface, par contre, l'idée, c'est qu'il y en a qui
+[15:20] disent qu'une Nvidia, en fait, bon, la quasi-totalité des modèles sont traînés sur
+[15:24] des puissants Nvidia.
+[15:25] Aujourd'hui, il y a des gens qui arrivent contestés un peu, tu vois, d'autres.
+[15:30] En pire Nvidia et d'autres, mais là, c'est qu'en contrôler dans la distribution,
+[15:34] ils vont pouvoir déjà sentir un peu l'attendance, mettre en avant les modèles potentiellement
+[15:39] entraînés sur Nvidia.
+[15:40] En tout cas, ils auront, ils seront connectés à la au système de distribution principale,
+[15:43] quoi.
+[15:44] Ils ont la grande distribution, le car four, le haut-champ, le walmart, c'est des modèles,
+[15:48] quoi.
+[15:49] Oui, alors c'est pas du messana, il y a un sujet stratégique, à très bien yard.
+[15:53] Ouais, ouais.
+[15:54] Et non, par contre, il y a un truc qu'on voit, nous, c'est qu'il y a un, tu vois,
+[16:00] sur cette sujet d'intelligence.
+[16:02] Aujourd'hui, particulièrement, les modèles frontières sont structurés, entraînés,
+[16:11] avec une manière de les déployer, déjà, on va dire, prévu, quoi.
+[16:14] Et donc, je te prends un kimi ou un GLM ou un Dipsik, enfin, en Benzourc, ça.
+[16:23] Il y a un truc qu'il est fait pour Open Weight, mais il y a un truc qu'il est fait
+[16:28] pour être déployé sur Iraq et le Iraq, il n'y en a pas 50, il a été entraîné
+[16:34] avec les numériques, d'ailleurs, même pas forcément de Nvidia ou AMD, d'ailleurs,
+[16:38] de 7 plateformes Nvidia, donc suivant comment il est, Dipsik, par exemple, il détaille
+[16:43] très bien ça.
+[16:44] Donc, si tu fais pas exactement, par exemple, Dipsik a mis dans son technique adréport, en
+[16:49] fait, tu vas avoir le modèle qui tourne, mais il ne va pas tourner au perfe d'intelligence
+[16:54] que tu t'attends.
+[16:55] Et déjà, et de deux, les économiques pour déployer ce genre de modèle-là, par exemple,
+[17:00] je prends l'exemple d'un kimi ou d'un GLM, ils sont faits pour être déployés non
+[17:04] pas sur des machines, mais sur un groupe de machines, interconnecté d'une certaine
+[17:09] manière, sinon les économiques.
+[17:10] Exactement, et sinon, les économiques ne retrouvent pas, enfin, tu fais pas
+[17:16] tes économiques, quoi.
+[17:17] Donc, le problème, c'est que la réponse à la plateforme de déploiement, il n'y en
+[17:20] a pas 5 ans, ça va être du NVL, 72, du NVIDIA machin.
+[17:24] Et donc, ce côté de dire, on regarde, si tu veux, dans l'open weight, comment
+[17:30] c'est fait.
+[17:31] Il y a un peu une sorte de, particulièrement, un code de chimote qui commence à entraîner
+[17:34] sur autre chose que du NVIDIA, et donc, à déployer ce autre chose que du NVIDIA commence
+[17:40] à se comporter, ce n'est pas débile parce que tu as un coup d'avance, tu connais les
+[17:44] coins qui marchent bien.
+[17:45] Là, il y a un gros sujet sur les quantisations, les NVL, les FQK, c'est qui a quantisé
+[17:49] et comment ?
+[17:50] Tu vas avoir les résultats, les gens.
+[17:52] En fait, tu vas avoir le marché testé, donc t'as les infos, de, en fait, les gens
+[17:55] sont en du compte que, pour ce type de modèle, en fait, FP8 c'est bon, donc en fait,
+[17:59] il va voir l'information.
+[18:00] C'est pour tout le monde, quoi.
+[18:01] Moi, je trouve ça, tu vois, stratégiquement, NVIDIA est très, très fort, c'est
+[18:05] très intelligent.
+[18:06] Je...
+[18:07] C'était toi.
+[18:08] NVIDIA ou Microsoft, qu'est-ce qu'il y avait ?
+[18:09] Il y avait plusieurs offes sur la table, il y avait apparemment plusieurs, il y avait
+[18:12] plus que deux, quoi.
+[18:13] Il y avait plusieurs offes sur la table, mais bon, c'est NVIDIA qui a peut-être payer
+[18:16] le prochain.
+[18:17] C'est qu'ils vont le voir.
+[18:18] Ils vont le voir, commencer à utiliser Microsoft, hymne, c'est quoi.
+[18:20] Ça, ça, ça, ça, ça.
+[18:22] Ça, ça, ça.
+[18:23] Mais bon, si ils avaient été racheté par Microsoft, ils auraient cherpés une table, quoi, donc
+[18:27] ça.
+[18:30] C'est peut-être ça que je vais dans le deal, d'ailleurs.
+[18:33] Pour 13 milliards, si tu me demandes, si je dois utiliser Microsoft hymne, je te dis, laisse
+[18:37] moi 10 minutes.
+[18:38] On parle quand même d'une certaine, enfin, je veux dire, on parle quand même de Microsoft
+[18:46] hymne, quoi.
+[18:47] Tu vois, c'est...
+[18:48] Mais parce qu'il y a trois mois, ils avaient fait une grande campagne, le premier tweet
+[18:52] officiel de Gensen sur x.com là, sur Twitter, c'était ce fameux appel pour que Open
+[18:59] Wait for American AI strategy, tu vois.
+[19:01] Oui, parce que c'est le...
+[19:02] Oui, mais parce que c'est le...
+[19:03] Enfin, ça sert ses intérêts.
+[19:04] Oui, ça sert ses intérêts.
+[19:05] Écoute, quand il y a la pénieuse, quand le chip de Penair isor, c'est pas pour remplacer
+[19:11] quelqu'un d'autre que lui, quoi, même si...
+[19:13] Mais contrairement aux autres, il a obligé de d'y lever les coups penaires.
+[19:16] Poi.
+[19:17] Il y a un rapport de force.
+[19:18] Ouais, c'est tout.
+[19:19] Mais lui il a intéresse qu'il y a beaucoup plus de modèle, beaucoup plus d'appoyer
+[19:22] en trainé, aussi, on y va, parce que c'est monopole.
+[19:25] C'est possible, parce que Penair y entropique la suite logique, c'est qu'il fasse leur propre
+[19:30] plus, leur propre plus, pour eux, par eux.
+[19:33] Et puis, parce que la main financière, elle n'est pas dans l'Ontropique, elle est dans l'Ontaprise.
+[19:40] Et ça, il va bien falloir faire tourner, vendre ses machines.
+[19:45] En tout cas, faire tourner ses modèles dans l'Ontaprise.
+[19:49] Et ça, il préfère que ce soit avec Buenvidia.
+[19:52] Et d'ailleurs, si c'est ce qui fait avec Buenvidia, ce ne sera pas fait avec des modèles closed sourds par définition.
+[19:56] Donc, du coup, enfin, closed wait, donc évidemment, pour qu'on va dire cette vision de l'Ontaprise se réalise,
+[20:03] ça doit être du open wait.
+[20:04] Et alors, moi, j'entends déjà, enfin, on les a vu en plein, les haters qui disent, c'est pas une boîte française d'un d'un d'un, peut-être, peut-être, peut-être.
+[20:10] Oui, oui, oui, oui.
+[20:11] Mais malgré tout, malgré tout, tout le capital qui est pour les fondateurs, là, en fait, quelque part, alors, peut-être,
+[20:19] un des lecies au clément qu'il lui est basé aux US, donc peut-être, voilà, mais les deux autres qui sont basés en France,
+[20:24] tous les salariés, enfin, il y a quasiment 200 millions d'euros, mais comme tout à chaque fois,
+[20:29] c'est un déprendement, il y a un problème, en fait, on va dire, qui est un peu, qu'on entend régulièrement, c'est,
+[20:39] ah oui, mais encore, c'est racheté par quelqu'un d'autre, enfin, un tiers, pas français, pas européens,
+[20:45] ce que tu veux, tu mets le curseur où tu veux, moi, moi, mon avis, c'est qu'on s'en branle absolument, parce que ce qui compte, c'est les gens,
+[20:52] et ce qui a fait, on va dire, les sortes, je prends un zonco-system parisien, dans lequel j'ai voulu,
+[21:00] moi, j'ai vu, on va dire, après la vague de Rachach, il y a eu 2015, 2017, ce que ça a fait de cet écosystème,
+[21:07] ce nouvel argent, donc il vient de gens à la base, hein, c'est incroyable, donc là, c'est que du bonheur.
+[21:13] Et il faut dire aussi, il y a un mécanisme fiscal qui s'appelle 150 béters, le réinvestissement, le mécanisme de réinvestissement,
+[21:22] qui fait que, là, aujourd'hui, bon, il y a les trois fondateurs, on va voir plus d'un milliard,
+[21:26] mais les salari, ça va faire à peu près 200 millionnaires au multimillionnaire, donc ça, c'est cool, parce qu'on va leur proposer,
+[21:32] donc il doit payer la flattax, donc il y a 31,7% maintenant, mais ils auront le choix, au contraire, de investir 60% de ce qu'ils ont gagné,
+[21:41] pour ne pas payer d'impôt, mais donc ils vont devoir réinvestir 60% de ce qu'ils ont eu dans l'écosystème, dans d'autres startups,
+[21:47] dans d'autres PME ou ainsi, et donc l'idée, c'est que ça soit cet argent en évitant l'impôt, mais en cet argent, il soit réinvesti pour financer l'écosystème.
+[21:54] C'est évite pas d'impôt, ça retarde l'impôt, ça retarde l'impôt, mais...
+[21:58] C'est un très bon mécanisme, parfois retardé, c'est éviter.
+[22:00] Non, mais c'est un très bon mécanisme de création de richesse, le réinvestissement, c'est comme ça que tu deviens, tu passes de, on va dire, de...
+[22:12] Millionaires à 100 et millionaires, quoi.
+[22:14] Non, mais ce que je veux dire, c'est que même s'il n'y a pas d'investisseur français officiellement dedans,
+[22:18] il y a tous les business angeles qui étaient français, les fondateurs, tous ceux qui sont domestiques, il y a tous les salariants.
+[22:23] En France, parce que je veux dire, on va y avoir quand même 20, 30 % qui va revenir dans l'écosystème.
+[22:26] C'est à dire, c'est pas une acquisition, on va dire, sur une ponde descendante, quoi, c'est une acquisition stratégique,
+[22:37] avec des très gros chiffres derrière, c'est super.
+[22:39] Non, bon, je trouve ça roya, voilà.
+[22:41] Donc, bon succès à la frêche, clement, julien, Thomas et toutes les, toutes les équipes de Gingfaces.
+[22:47] Alors, Nvidia, il y a enfin un gros mot aussi, c'est avec Poulside, donc pareil, le sitio de Poulside français.
+[22:54] C'est un des arburaux de taparis.
+[22:56] Leur bureau est à Paris et Poulside, 6 milliards de dollars, quoi.
+[23:01] Donc, on vend une liste à 5 milliards d'investissement.
+[23:03] Plus 5 milliards d'investissement, donc c'est Nvidia, c'est quoi, c'est une Nvidia qui s'ouvre une croque,
+[23:09] c'est-à-dire qu'en gros, il est senti la tech.
+[23:12] Croque plus ou croque qu'a ?
+[23:14] Croque plus.
+[23:15] Il faut faire fonctionner le système.
+[23:17] Et du coup, ils ont, avec la licence, ils viennent les gens qui ont créé ce système en l'occurrence.
+[23:24] Ils ont en licencié ce que Poulside, le produit Poulside, qui s'appelle la modèle factory.
+[23:30] Donc, c'est la capacité, on va dire, à hiterrer, à créer, à déployer.
+[23:37] Donc, la modèle factory, quoi, à déployer des modèles.
+[23:39] Donc, c'est un truc qu'ils avaient en interne...
+[23:42] Voilà, pour hiterrer sur l'architecture de modèle, les prêtraines, les postraines,
+[23:47] les déployer, les tester, de manière hyper simple.
+[23:50] Mais on va dire du point de vue, du chercheur, quoi, aussi.
+[23:54] Donc, bien, énorme succès, parce que c'est finalement le sujet stratégique.
+[24:00] Donc, on va dire, en tout cas, c'est ce que NVIDIA a licencié.
+[24:04] Donc, non, on va y à l'aussi, on va y à l'oba.
+[24:07] C'est pas à chance, c'est...
+[24:09] Non, c'est une licence.
+[24:10] Il y a un investissement.
+[24:11] Il y a un investissement.
+[24:12] Il y a un investissement.
+[24:13] Et avec évidemment un transfert de gens, quoi, pour repérer pour repérer ça.
+[24:17] Donc, ça c'est cool.
+[24:19] Il y a eu multiverse computing, qu'il y avait 500 millions.
+[24:23] Pour traîner des modèles, qui a réalisé un modèle.
+[24:25] Non, mais voilà ce que je veux dire, il y a de l'argent.
+[24:27] Et puis, l'autre BMOT, un peu de CT, c'est mistral, avec son deal avec Microsoft.
+[24:32] En cas, il a été un peu contesté, un peu de challenge.
+[24:36] Donc, c'est quoi, mi-ministral se repositionne en NeoCloud.
+[24:40] Il se positionne en hébergeur de modèle.
+[24:43] En fait, il y a un truc, enfin, indépendamment de mistral.
+[24:46] Il y a un sujet en ce moment.
+[24:48] C'est qu'il n'y a pas de capari, il n'y a pas de computer.
+[24:52] Donc, il n'y a pas de computer.
+[24:54] On en prend où on peut.
+[24:56] C'est pour ça que tu vois des boîtes qui se lèvent.
+[24:58] J'ai vu des gens recevoir des centaines de GPU.
+[25:03] La boîte, ils sont trois.
+[25:05] On parle de plusieurs dizaines de millions de capèques.
+[25:08] Ils sont trois les gars.
+[25:10] Ils n'avaient jamais fait ça avant.
+[25:12] Donc, il y a un vrai sujet de écoute.
+[25:14] Ça arrive à accéder à du computer.
+[25:17] Il y aura quelqu'un qui va le louer, souvent, c'est anthropique.
+[25:20] OpenAI, on fait feu de tout bois, quoi.
+[25:23] Et il se trouve qu'en France, on a 9 gigawatts d'excédent électrique.
+[25:28] Que mistral avait dit qu'en plus.
+[25:29] Donc, mistral, le louet déjà, son infrat à OpenAI, je crois,
+[25:33] ou anthropique, pour ça.
+[25:37] Et ça, c'est très, très lucratif.
+[25:39] C'est le fameux deal avec XAI, avec SpaceX, là.
+[25:42] Qui je rappelle quand même la première ligne de revenus de SpaceX aujourd'hui.
+[25:47] Donc, on va dire mercantillement, c'est pas un mauvais deal, quoi.
+[25:50] Tu l'as. Tu l'as à la capa.
+[25:52] T'as l'accès à l'énergie.
+[25:53] C'est le fameux point de plus de crunch, quoi.
+[25:55] C'est que, en ce moment, c'est la...
+[25:56] Il n'y en a pas.
+[25:57] C'est là, il n'y en a pas.
+[25:58] Celui qu'il y a la ressource, on a solo.
+[25:59] Comme il n'y en a pas, il y a une forme de...
+[26:02] On va dire de repli sur ce qu'on connaît, quoi.
+[26:05] Parce que très bien, il n'y en a pas.
+[26:08] Donc, soudainement, ce que tu devais, ce que tu pouvais louer,
+[26:10] un peu à droite à gauche, là, tu dois l'acheter.
+[26:12] Et si tu dois acheter, ce qu'est ce que tu vas acheter?
+[26:15] Tu vas acheter ce que tu connais, quoi.
+[26:17] La valeur sur ce n'est pas pour rien qu'NVIDIA fait des moves de plus en plus en mode.
+[26:20] On te sort les bilans financiers.
+[26:22] L'NVIDIA, ils ont son point.
+[26:23] Ils te disent, tu trouves le terrain.
+[26:24] On fait tout, hein.
+[26:25] Mais là, aujourd'hui, si tu as le data center,
+[26:27] c'est NVIDIA qui vient installer les GPU,
+[26:29] les brancher, les raccorder et tout.
+[26:32] Donc toi, t'es en mode.
+[26:34] C'est du privé téquiti bien comme il faut.
+[26:36] Il n'y a rien à faire.
+[26:37] Avec une bonne margin, tout est calculé.
+[26:39] Et après, est-ce que tu vends du token?
+[26:41] Est-ce que tu revends du computer?
+[26:43] Et puis, tout de suite, forcément, c'est des...
+[26:45] C'est des dilles plutôt gros.
+[26:48] Le truc, en plus.
+[26:49] Parce que l'internatie, aujourd'hui, si tu veux louer, hein.
+[26:51] Je peux pas pour ce qu'on essaie.
+[26:52] Et tu veux louer, je sais pas, 1000 GPU.
+[26:54] On te demande quatre ans d'engagement.
+[26:57] Et tu payes le fronte.
+[26:59] Donc les gens disent, ben, non, je suis en merde, je vais acheter.
+[27:02] Un kit à l'acheter, ce fric-là.
+[27:03] Au moins, dans quatre ans, je sais pas rien, quoi.
+[27:05] Allez, par, j'achète.
+[27:07] Tu as chuglant des...
+[27:10] Donc ce qui accélère, si tu veux, cette mécanique.
+[27:12] Donc, d'un point de vue business, je sais pas si c'est un mauvais move de leur part.
+[27:16] Par contre, ça casse les couilles.
+[27:18] Ouais, c'est nul, quoi.
+[27:20] Parce que c'est un parmi.
+[27:22] Donc...
+[27:23] Très bien sur ce segment-là, hein.
+[27:25] Faire un cloud provider et faire de l'inférence de service, enfin.
+[27:28] Y'a pas de mode technologique, quoi.
+[27:30] C'est de l'achat, quoi.
+[27:32] Pas dans six mois, je demande à cloud,
+[27:35] de me faire une stack d'inférence à service from scratch.
+[27:38] J'en ai machines, il me fait tout, quoi.
+[27:40] À la fin, il remplace, je dis juste,
+[27:42] ne pas me mes pas VLM, mais ZDML, quoi.
+[27:44] Mais en vrai, enfin...
+[27:45] Et pour rapates.
+[27:46] Mais toi, en vrai, je suis pas...
+[27:48] Moi, je suis...
+[27:49] Comment on va qu'il fait ça ?
+[27:50] C'est les secondes, quoi.
+[27:51] Moi, ce que je veux, c'est des modèles européens.
+[27:53] Je veux pas...
+[27:54] Mistral, c'est intéressant, c'est des modèles européens.
+[27:56] On est encore sur Metal, Mistral 35.
+[27:59] Le recère, qui était un truc que j'ai utilisé beaucoup,
+[28:01] j'utilise plus.
+[28:02] Les osseurs chinois sont bien meilleures pour moi.
+[28:04] Et Mistral grandeur.
+[28:05] Ils ont conçédé,
+[28:07] qu'ils étaient inspirés de l'architecture de...
+[28:09] C'est un image.
+[28:10] L'architecture, on s'en fout.
+[28:11] Mais ce que je veux dire,
+[28:13] je vais même envie de dire, voire même le pretrain.
+[28:15] Ouais, c'est clair.
+[28:16] On en est plus là.
+[28:17] Aujourd'hui, le gros du temps,
+[28:19] il est passé en post-training.
+[28:21] En tout cas, il peut être passé en post-training.
+[28:23] L'archie est novateur sur l'archie.
+[28:26] En vrai, d'ailleurs, c'est que tu regardes les vrais archies novatrices.
+[28:29] Il y en a ceux qui...
+[28:30] En tout cas, de ce que je vois,
+[28:32] ceux qui sont vraiment contiards sur les trucs un peu...
+[28:34] Je crois pas sur les performances,
+[28:36] mais qui sont très créatifs, c'est Dipsyck.
+[28:38] Dipsyck, tu retrouves ça partout.
+[28:40] Tu retrouves dans Kimi, tu retrouves dans G.M.
+[28:43] C'était la fin de ma phrase.
+[28:44] C'était une espérée de Dipsyck.
+[28:45] Oui, c'était parce que Dipsyck,
+[28:46] qui font les 4 flâches 0,7,31.
+[28:49] J'ai fait des trucs.
+[28:50] C'est tout petit, ça marche.
+[28:51] Oui, mais il est pensé architecturellement
+[28:54] pour être servi...
+[28:55] Avec Camerra.
+[28:56] Avec Camerra.
+[28:57] Non, mais Mistral frontière sur les modèles,
+[28:59] Open Source.
+[29:00] Non, le problème, c'est que ça crie une situation.
+[29:03] Et aujourd'hui...
+[29:04] Non, on est moins dans la merde,
+[29:06] je pense que les autres là-dessus,
+[29:07] mais le sujet, finalement,
+[29:10] on va dire, la tirance,
+[29:12] ou en tout cas le piège,
+[29:13] c'est de ne faire que ça.
+[29:14] C'est ce que fait, d'ailleurs,
+[29:16] au passage tout l'année au cloud américain,
+[29:18] c'est de revendre du modèle Open Weight,
+[29:21] c'est-à-dire du modèle chinois aujourd'hui,
+[29:23] pour être très clair.
+[29:24] C'est hyper fragile.
+[29:27] Demain, G.M.5.
+[29:30] Vous pouvez pas vendre,
+[29:32] si vous faites token de service,
+[29:34] vous pouvez pas vendre.
+[29:35] G.M. à ce service.
+[29:37] On va se marrer.
+[29:39] Parce que justement...
+[29:40] C'est le risque.
+[29:41] Parce que là, on parle un truc de licence,
+[29:43] si tu veux.
+[29:44] Demain, tu dis t'as pas accès à...
+[29:46] Après, c'est Rubin.
+[29:47] T'as pas accès à Rubin.
+[29:49] Bon, il se passe deux ans.
+[29:51] Là, t'as pas accès à G.M.
+[29:54] qui vient de sortir.
+[29:55] Genre Kimi 4-3,
+[29:57] quand il est sortie,
+[29:58] le pricing était imposé.
+[29:59] Donc là, soudainement,
+[30:01] sur Open Router,
+[30:02] parce que les tweets,
+[30:03] c'est une chose,
+[30:04] Open Router, t'as un peu plus à réalité.
+[30:05] Vous voyez,
+[30:06] ils étaient tous,
+[30:07] en même prix.
+[30:08] Et donc, ils sont tous en même prix,
+[30:09] bien,
+[30:10] sur Open Router,
+[30:11] qui, c'est pas, c'est-à-dire,
+[30:12] c'est-à-dire...
+[30:13] C'est à racheter par Stripe.
+[30:14] Open Router, racheter par Stripe,
+[30:15] c'est-à-dire...
+[30:16] Ça, c'est ouf.
+[30:17] Ça, c'est ouf pour moi.
+[30:19] C'est-à-dire que,
+[30:20] un token,
+[30:21] c'est une nouvelle...
+[30:23] Une idée économique.
+[30:24] C'est une idée économique.
+[30:25] Mais moi, je te déduide.
+[30:29] D'ailleurs,
+[30:30] j'ai va être codé un truc...
+[30:31] Ça s'appelle
+[30:32] tokenindex.dev,
+[30:33] où je reference
+[30:34] tout le prix des tokens,
+[30:35] mais j'ai aimé exactement
+[30:36] ce que tu disais,
+[30:37] parfois on a exactement
+[30:38] le même prix.
+[30:39] Dans le cadre Kimi,
+[30:40] c'était imposé.
+[30:41] Donc après,
+[30:42] là, c'est la première étape.
+[30:44] Donc ça veut dire
+[30:45] qu'il n'y a pas de différenciation possible
+[30:48] sur l'année au cloud,
+[30:49] sur l'année au cloud,
+[30:50] ce qui veut dire
+[30:51] que c'est un...
+[30:52] c'est un move prédateur
+[30:53] de commoditisation.
+[30:55] Et là, c'est compliqué,
+[30:57] parce que du coup,
+[30:58] mais alors,
+[30:59] il faut revenir avec ce qu'on disait
+[31:00] à l'heure sur l'intelligence,
+[31:01] c'est que c'est pas parce qu'ils sont
+[31:02] tout ce même prix,
+[31:03] qu'ils ont tout ce même intelligence.
+[31:04] Et là,
+[31:05] donc la marge
+[31:06] de différenciation
+[31:07] dans ce domaine,
+[31:08] elle est artificiellement
+[31:10] complètement écrasée,
+[31:11] que ce soit en hardware,
+[31:12] que ce soit en financement,
+[31:13] ou que ce soit même le modèle,
+[31:14] voire même le pricing,
+[31:15] parce que ça pouvait être
+[31:16] ton redge au début.
+[31:17] Quand le pricing est imposé,
+[31:18] tu peux choisir
+[31:19] de casser la licence, hein,
+[31:20] mais...
+[31:21] Écoute, j'espère juste
+[31:22] que Mistral va me sortir
+[31:23] un Mistral 4
+[31:24] et qu'ils vont
+[31:25] et qu'ils vont
+[31:26] blow my mind,
+[31:27] mais pour le moment,
+[31:28] c'est pas trop ce que je vois,
+[31:29] je suis un peu déçu, quoi.
+[31:30] Mais dans le cadre
+[31:31] d'un cadre Mistral,
+[31:32] l'indépendamment qui sortent
+[31:33] tout pas le Mistral 4,
+[31:37] c'est que même si il sortait
+[31:38] le Mistral 4 demain,
+[31:39] il faudra trapper le déficit
+[31:41] d'oral, les gars.
+[31:42] Parce que, alors,
+[31:43] il y a un grave sujet,
+[31:44] parce que...
+[31:45] J'ai l'écran,
+[31:46] j'ai l'écran,
+[31:47] j'ai l'écran,
+[31:48] j'ai l'écran,
+[31:49] j'ai l'écran,
+[31:50] j'ai l'écran,
+[31:51] j'ai l'écran,
+[31:52] j'ai l'écran,
+[31:53] indépendamment,
+[31:54] que c'est soit bien ou pas bien.
+[31:55] Tu vois,
+[31:56] il ne se soucie
+[31:57] c'est pas que le modèle soit bien ou pas bien,
+[31:58] le souci c'est que...
+[32:00] tu as pas...
+[32:01] Si,
+[32:02] et Musparc, c'est très bon exemple,
+[32:03] le modèle est très bien,
+[32:04] il classe très bien,
+[32:06] il est...
+[32:07] ils ont capitalisé sur un nom,
+[32:09] qui s'appelle Liyama.
+[32:10] Tout le monde parle,
+[32:11] et Musparc.
+[32:12] Alors Mus, tu vois,
+[32:13] c'est peut-être le mot le moins original, quoi.
+[32:14] Pour le coup,
+[32:15] si vous avez le sens de la masse,
+[32:16] si vous avez le sens de la masse,
+[32:17] si vous avez le sens de la masse,
+[32:18] il est le même,
+[32:19] je pense.
+[32:20] Bien sûr.
+[32:21] Tu sais.
+[32:22] Donc comme quoi,
+[32:23] rien n'est gagné,
+[32:26] et Laura.
+[32:27] Et là, c'est vrai,
+[32:28] c'est que Mistral,
+[32:29] leurs annonces,
+[32:30] bah tu vois,
+[32:31] voxtral,
+[32:32] la dernière annonce,
+[32:33] je sais même pas qu'on s'était,
+[32:34] ils ont fait un truc,
+[32:35] c'est très bien, voxtral.
+[32:36] Et peut-être,
+[32:37] mais ça fait un bout de temps, quoi.
+[32:38] Parce que malgré tout,
+[32:39] ils sont quand même
+[32:40] énormément de demandes
+[32:41] sur l'aspect gouvernance, quoi,
+[32:42] parce que aujourd'hui, donc,
+[32:43] le deal, c'est quoi,
+[32:44] c'est Microsoft,
+[32:45] qui, à la fois,
+[32:46] qui achète du compute
+[32:47] à Mistral,
+[32:48] pour plusieurs années,
+[32:49] mais beaucoup d'art.
+[32:50] Il y a des boîtes,
+[32:51] voilà, qui jouent le jeu.
+[32:52] Et Mistral, qui dit,
+[32:53] en fait, moi,
+[32:54] je ne fais plus que mes modèles,
+[32:55] je distribute aussi d'autres modèles
+[32:56] open-weight,
+[32:57] comme les modèles chinois et donc,
+[32:58] je deviens à nos séparations.
+[32:59] Le problème,
+[33:00] c'est que leur investissement financier
+[33:01] et en temps d'ingénierie,
+[33:02] se passe de plus en plus à créer un nouveau
+[33:04] et à nième et néoclade,
+[33:05] plutôt que de nous sortir des modèles
+[33:07] qui me donnent,
+[33:08] qui soient régulièrement,
+[33:09] qui soient dans le top of the mine,
+[33:11] depuis Mistral 3-5,
+[33:13] Cohen a dû sortir 3.2,3,3,3,3,3,5,
+[33:19] avec la 3.À ta intent,
+[33:20] voilà, voilà, voilà, voilà, voilà.
+[33:23] À toi, ma main c'est quoi ?
+[33:24] Les chinois, ils tendont d'où tous les devouts..
+[33:25] ça, et ça,
+[33:27] se bat en haut et en haut,
+[33:29] en haut, des benches pas.
+[33:30] Avec des non cools,
+[33:32] avec les gens connaissent,
+[33:33] avec des gens qui tests,
+[33:35] avec beaucoup des...
+[33:37] En fait,
+[33:38] ce qui est très gros,
+[33:39] c'est que c'est comme dans l'open source,
+[33:40] c'est que, tu as une communauté autour,
+[33:41] une communauté autour et une communauté de communauté.
+[33:44] En fait, toi, t'as le deuxième ring où t'es dit,
+[33:46] attends, mais attends, si tu déploies ça, on va represser le cas vécage,
+[33:49] on va faire ça, on va quantiser sur cette partie-là.
+[33:51] J'ai déployé comme ça sur ta acheteur.
+[33:52] Les gens, c'est même pas les gens de Coen,
+[33:54] ou d'ypsides qui le font, c'est les gens autour.
+[33:56] Et en fait, tu crées des gens qui font du bruit,
+[33:59] qui, là, c'est un peu d'emages.
+[34:02] Oui, mais par contre, ils ont officielisé ce qu'on disait à l'avant,
+[34:06] leurs 3 milliards d'investissements,
+[34:07] ils ont beaucoup, c'est plus officiel.
+[34:09] Donc quand même, s'il y a des agents,
+[34:11] il y a des contrats.
+[34:12] La promesse, elle dérive un peu, mais bon, l'évent.
+[34:15] On va le vent quand il s'arrête.
+[34:17] Non, mais il y a de l'argent, bien sûr, et en mieux, et bravo, hein.
+[34:23] Mais tu vois, ça fait quand même chier de se dire que le game,
+[34:25] c'est de lever de l'argent pour acheter du GB 300,
+[34:30] fous, de velet, elle est mouillée sur, et puis voilà, quoi.
+[34:34] Enfin, je veux dire, ça fait chier dans le sens où
+[34:38] elle est où ta défensabilité,
+[34:40] si ce n'est pas par voilà,
+[34:43] et toi, t'as eu accès à l'ennemi électrique avant les autres.
+[34:46] Ce qui peut être un game, mais si tu veux, on est loin du...
+[34:49] Je pense du potentiel.
+[34:51] D'autant que pendant un an et demi, ils ont dominé le game absolu.
+[34:54] Tu vois, les mistrales les premiers.
+[34:56] Ils sont tous moi, je les vois toujours, dans des papiers, dans le cher.
+[34:58] Et qu'on partirait avec des mistrales,
+[34:59] où on est modèles comme un an et demi, tu vois, deux ans.
+[35:01] Mais tu vois, il y a une...
+[35:04] Je pense, ça a passé à côté...
+[35:05] C'est pas mauvais d'y, d'encore une fois, c'est pas un mauvais business.
+[35:08] Père de...
+[35:09] Passement un peu tellement fou, et tu vois, c'est tellement...
+[35:12] Pour moi, dans six mois, il y a mal et il n'y a nulle part,
+[35:14] alors qu'en fait, tout le monde n'a pas encore bien à trois, quoi.
+[35:16] C'est très domachement.
+[35:17] Ah, mais moi, dans l'entreprise, c'est le probablement top 3 des modèles déployés.
+[35:20] Le 3.1, 8, et il y a des...
+[35:23] Il y a de quand même, hein ?
+[35:24] Il y a de... C'est la prise, toi ?
+[35:25] Ah oui, bien sûr.
+[35:27] Bah voilà.
+[35:28] Moi, les entreprises, les entreprises, elles ont trop pris,
+[35:29] elles ont bien la stabilité.
+[35:31] Mais elles ont bien la stabilité.
+[35:32] Et justement, on est pas...
+[35:33] La French entrepreneur, pas à faire.
+[35:35] Ouais, mais tu vois, on est en train de se dessiner un...
+[35:38] Moi, je le vois, un mot de faille.
+[35:41] Les modèles frontières, les kimi, les dipsyques, machins,
+[35:44] ils sont pas, un temps prêt, ils sont compatibles.
+[35:47] Ils sont servis, ils sont compatibles, ils sont faits pour ça.
+[35:50] Mais dire à une boîte, si tu veux faire ton dipsyque,
+[35:53] sans, enfin, de mener efficace,
+[35:55] c'est 7 millions d'euros de Capex investissement.
+[35:58] Et après, il faut faire le power, etc.
+[36:02] Parce que tu vois, Jean, je te donne un exemple.
+[36:03] On oublie un polishif, mais GLM5.2,
+[36:06] sur une machine à 1,2 millions d'euros.
+[36:08] Quand tu l'as l'audé, il te reste de la place,
+[36:10] ce que pour six qu'avec aches.
+[36:12] Pas beaucoup, hein ?
+[36:14] Tu vois, d'agents.
+[36:14] Bah, six agents pour une machine à 1,2 millions, à 500 millions d'euros.
+[36:18] À 1,2 millions d'euros.
+[36:19] Tout est consommé par la taille humainelle.
+[36:20] C'est des poids.
+[36:21] Ouais, mais ce n'est pas ce moment que tu fais.
+[36:22] Ouais, c'est des agents touristes, donc.
+[36:23] Ouais, c'est ça, c'est ça.
+[36:25] Mais donc, c'est ce que tu fais.
+[36:26] C'est que tu déplaçades sur un rack,
+[36:28] mais le rack, ça doit être du NVL72,
+[36:31] ou du NVL, en tout cas.
+[36:32] C'est bon, non, mais c'est magnifique.
+[36:33] Voilà. Et donc, d'un coup, soudainement,
+[36:34] sinon, ta partie cavecache,
+[36:37] elle dirait qui qui, par rapport à ta partie,
+[36:38] pointe avec ce son moyen, c'est de faire du expert parallèle.
+[36:41] Et tu vois, c'est des choses qui, du coup,
+[36:43] si tu veux dire que ce soit parallèle,
+[36:44] il faut que t'es le trafic pour justifier.
+[36:47] Bah, t'as les max studios à 512, gigala,
+[36:48] car il va aussi...
+[36:50] Que tu vas stacquer par 10, c'est que tu vas lier, quoi.
+[36:52] Ça, ça aussi, c'est qu'il y a de ramens.
+[36:54] Il a combien de temps?
+[36:54] Ça, c'est le catat d'autre sujet.
+[36:56] 30 000 ?
+[36:57] 30 000 euros ?
+[36:57] Bah, 30 000.
+[36:58] Par contre, il y a sur le nouveau qu'arrive, là.
+[37:00] Là, il n'y a pas de sentiment, elle est très intéressante.
+[37:02] À la gueule de terrabahite, là, ils ont fait très fort.
+[37:04] Si on résume un peu ce qui se passe avec les modèles chinois,
+[37:06] les GLM5.2, les KMI4.3,
+[37:09] les Dipsy, les Quen,
+[37:11] la Chine, elle est l'inont de le marcher,
+[37:13] des modèles de modèles.
+[37:15] Oui, on en fait des modèles open, oui, quoi.
+[37:17] Ouais, après, c'est pas, mais oui, oui.
+[37:19] Ah non, mais c'est...
+[37:21] Moi, je trouve que c'est une très très bonne stratégie de leur part.
+[37:25] Ils ne sont pas mauvais, mais bon, on n'est pas mauvais non plus.
+[37:27] Donc, c'est juste que, bah, ils le font.
+[37:30] Pour l'étape, c'est de le faire, tu vois.
+[37:33] Et donc, c'est une très bonne idée
+[37:38] d'arroser le monde entier, donc ils ont un marché domestique.
+[37:41] Donc, c'est une très bonne idée d'arroser le monde entier.
+[37:44] Et le jour où il est clair, il y a un marché licencieux.
+[37:46] Disons que moi, si je voulais d'estabiliser une économie américaine,
+[37:50] pendant deux ans, je n'y nondes pas ça, je fais du bon levier.
+[37:54] Et puis, à la GLM6 qui sort, je dis à oufette,
+[37:57] petit fine printe.
+[37:58] Si vous vendez du token, vous n'avez pas le droit.
+[38:02] Vous nous versez 80% du revenu, en fait.
+[38:05] Et donc là, là, il y a un paquet de levier néo-cloud
+[38:07] qui vont un peu trembler de la feuille,
+[38:09] parce que, bah, c'est un peu l'anticecrète,
+[38:11] quand on se basse sur...
+[38:13] Et donc, une fois, qui mis à un poser son pricing,
+[38:15] t'as laissé européenne routeur,
+[38:16] ils étaient tous à trois de l'art.
+[38:18] Ils étaient tous avec le même truc.
+[38:20] Et surtout, en plus, tout ce ne se valent pas.
+[38:24] Quand tu désutilises sur tel provider et tel provider,
+[38:26] t'en ailles le bottomiser, pas l'autre.
+[38:29] C'est...
+[38:31] Donc, je pense qu'on a besoin de modèles Open Source, Open Weight.
+[38:35] Voir Open Source, mais en tout cas, Open Weight.
+[38:38] Et donc, heureusement, il n'y a pas les seuls à se poser la question.
+[38:42] Je veux dire, il y a plein de gens en Europe qui se disent que,
+[38:45] bah, ouais, la, peut-être, qu'il faut en faire.
+[38:46] Multiverse, c'est un très bon exemple, des espagnols.
+[38:49] Il y en aura d'autres.
+[38:51] Je crois qu'il y a le gouvernement Emirati,
+[38:53] et la qu'elle sortit aussi un modèle.
+[38:55] Il y en aura d'autres et puis même des boîtes
+[38:58] qui commencent à se faire sur le fait de faire de l'infrastructure
+[39:02] pour entraîner ses propres modèles.
+[39:03] Quand j'ai parlé ça, je n'ai pas forcément la même lecture,
+[39:06] juste surtout ce qu'il faut dire.
+[39:08] C'est que ces modèles sont quand même carrément où?
+[39:10] On en parle assez régulièrement sur la freine,
+[39:13] j'ai été depuis un an et demi, etc.
+[39:15] Quand on est tous passés en tant que développeur sur Anthropique,
+[39:21] alors que tu vois, et de cette JPT, qui était le truc,
+[39:23] qui est passé complètement à la trappe,
+[39:25] que là, ils ont ramé comme des ouf, 5, 5, 8, 5, 6,
+[39:29] puis l'autre chose dont on a parlé après.
+[39:31] Ils sont revenus au niveau, notamment,
+[39:33] parce que Anthropique faisait un peu n'importe quoi,
+[39:34] donc comme on a parlé,
+[39:36] là, moi, j'ai plein de taches,
+[39:38] par Angélème, ça marche aussi bien
+[39:40] que Anthropique ou que Peunerie.
+[39:45] Donc, il y a quand même un sujet,
+[39:46] c'est que, à force de faire monter les frontières,
+[39:50] quand c'est pour répondre à tes questions de configuration
+[39:52] de ton ordi ou de ton terraformes pour ton DevOps,
+[39:58] en fait, c'est des questions relativement simples.
+[40:00] En fait, il y a une façon de faire et ils sont capables de faire.
+[40:03] Donc, t'as quand même déjà énormément de choses
+[40:06] et notamment, d'y psyches qui est très facile à faire tourner,
+[40:08] qui est plus facile que les autres à faire tourner en local.
+[40:10] Là, il y avait un 10 psyches qui a quatre flaches,
+[40:12] 0,7,31, dont tout le monde a parlé un moment,
+[40:15] très facile à faire tourner.
+[40:17] Et pour toutes, les petites taches,
+[40:18] et bien, ça y va, et donc, tu consomme moins de token.
+[40:20] Donc, en fait, moi, pour moi,
+[40:23] il y a quand même le sujet, le gros sujet,
+[40:26] c'est l'entrée en bourse d'opinéailles et c'est l'entroprique.
+[40:29] Les deux cherche doivent arriver à une capitation boursière
+[40:34] de 2000 milliards.
+[40:35] En fait, en tout cas, c'est leur objectif.
+[40:38] OK, mais ça veut dire qu'il faut qu'il fasse beaucoup,
+[40:41] beaucoup de chiffres d'affaires et, pour moi,
+[40:43] le moins, ils en sont très loin et plus,
+[40:45] tu vas avoir des modèles sur moi qui arrivent
+[40:47] et qu'ils sont bons.
+[40:48] Mon plus, tu vas dire, écoute, téminion,
+[40:50] j'ai pas trop envie.
+[40:51] Et puis, surtout, tu vas avoir des néo-clubs
+[40:53] qui vont te les faire tourner.
+[40:54] Alors, certes, tu auront un problème, peut-être, de token,
+[40:56] mais moi, je serai chinois, je continuerai à casser les prix
+[40:58] pour emmerder les américains.
+[41:00] Soit, je les ferai tourner en local sur Zélem.
+[41:01] C'est animal, quoi.
+[41:02] Mais à toi, à un moment, pour moi, t'as un vrai sujet
+[41:04] qui est que les chinois mettent une pression quasiment
+[41:09] géopolitique sur ces modèles et, comme ils sont contraints,
+[41:14] et, bizarrement, plus on les contraint, plus ils s'en sortent.
+[41:17] Là, on leur a dit, il y a plus, on a l'avoir
+[41:18] les grosses machines.
+[41:19] Ah, bien, bizarrement, maintenant,
+[41:20] d'y psyches sont capables de faire des trucs tout petit, quoi.
+[41:22] C'est d'y psyches qui s'est entraînés sur des puces
+[41:24] dans l'ennemi-dia.
+[41:25] Oui.
+[41:26] Oui, mais ça, tu peux...
+[41:27] En fait, là, il y a un dos, on va se suivre.
+[41:29] On oublie, c'est qu'on voit les chiffres d'affaires,
+[41:31] on voit les trucs comme ça, mais ce chiffre d'affaires,
+[41:32] il est payé par quelqu'un.
+[41:34] Et moi, j'ai eu des horrors stories, on va dire,
+[41:37] First End, tu vois, 1er degré, de gens accidentellement,
+[41:43] quand il y a des factures, des factures,
+[41:45] mais qui sont, enfin, c'est pas possible, en fait.
+[41:48] Et donc, ça va très bien que c'est pas possible.
+[41:49] Et donc, du coup, 7, 8 chiffres, ce des factures,
+[41:52] ouais, 6 chiffres, ouais, 6 chiffres.
+[41:55] Enfin, pour 15 jours, donc ça fait mal, tu vois.
+[41:57] Ils n'étaient pas une facture pour toute la boîte.
+[42:00] Donc, le truc, c'est que ce chiffre d'affaires,
+[42:03] qu'il faut attendre, il est payé par quelqu'un,
+[42:05] et ce quelqu'un, il s'en vient compte, que ça ne tient pas.
+[42:08] Et donc, quand tu vois, le prix, ça coûterait...
+[42:12] Zodal, le seul moyen que tu as de justifier ces spendes là,
+[42:15] c'est de non plus facturer auto-comme,
+[42:17] mais de facturer à la haute-comme.
+[42:18] Et donc, de facturer, c'est-à-dire, facturer au résultat.
+[42:21] Le problème, c'est que le résultat, avant de l'avoir fait...
+[42:24] Moi, moi, je me vois dans ma position.
+[42:26] Je sais que j'ai encore un an et demi,
+[42:30] où je vais écramer du token que je vais payer.
+[42:32] Je sais que dans un an et demi,
+[42:34] je fais tourner une grosse partie en local.
+[42:35] Je sais pas comment, mais en tout cas, telle que c'est parti...
+[42:38] En tout cas, c'est quoi ?
+[42:39] Moi, je le vois, c'est opérer.
+[42:41] Opencode, tu mettrai...
+[42:43] Ouais, tu fais de l'opencode, déjà.
+[42:46] Tu mets ce que tu veux derrière,
+[42:47] mais au moment, tu t'habitues à avoir un harness qui est open source, tu vois.
+[42:49] Pour ne pas être drogué ou harness propriétaire,
+[42:55] même si on ne peut pas être propriétaire de fait, ils sont propriétaire.
+[42:57] Mais t'estime qu'on peut être drogué à l'open web aussi, donc...
+[42:59] On peut être drogué à l'open web.
+[43:00] Ouais, mais une fois, donc en fait, c'est que ton interface de N-model,
+[43:03] tu t'habites, tu vas faire celle-là.
+[43:05] Une fois que, après, tu vas switch-y en fonction des coups,
+[43:08] et ça veut dire aussi que, il y en a, tu vas faire tourner en local,
+[43:11] parce que tu vas pas pouvoir te permettre d'avoir tant que c'est moins de 10% de ta masse salariale en coup de token.
+[43:18] Ça va ? Mais quand t'es haut de là, et il y a de plan de cas où tu vas être haut de là, quoi.
+[43:21] Moi, moi, j'ai vu de cas où c'était des multiples de la masse salariale.
+[43:23] Mais là, c'est pas possible, et tu vas dire, attends, ouais, non.
+[43:26] Et puis tu vas pas dire à tes devs, en fait, à la 2bossée, il est trésor, t'as plus de token, tu vois.
+[43:30] Et puis, surtout, trois mois après, ils sont là, bon, ben, ils sont moins réalisent.
+[43:35] Il avait l'exemple à 2 Spotify, pas si vous avez vu, ils ont fait sortir un truc
+[43:40] pour un peu optimiser le usage token et donc dans le ton qui disent,
+[43:43] qu'ils sont hyper, tu vois, AI inatives, ils sont à fond, sont les ailles,
+[43:47] ils sont hyper sophistiqués, et les gens disent, ouais, c'est super,
+[43:50] mais tous ces tokens que vous dépensez, ils vont où ?
+[43:52] Parce que l'appli est en plus mardique, ce qui est le cas, c'est la prise plus en plus mardique.
+[43:58] Mais ce petit fait, ils sont aussi fait connaître pour avoir,
+[44:01] générer des musiques avec l'IA, pour faire écouter les musiques lounge.
+[44:05] Mais je veux dire, tu vois, pas payer les artistes, tu vois.
+[44:07] Les gens se disent, bon, ils vont où, les tokens, c'était une générique qui est créée par ces tokens.
+[44:12] Il va où ? Et donc, t'as après, du coup, c'est pas de la question.
+[44:16] C'est quoi, du coup, le résultat ? De tout ça.
+[44:19] Et donc, quand ça devient, voilà, plusieurs fois la masse salariale, là, il y a un sujet.
+[44:22] Regardez Uber, début d'année, ils disent, on peut faire le droit de token de max,
+[44:27] vous allez le droit de utiliser des tokens, à volonté, en 4 mois,
+[44:31] en 4 mois, ils financent, ils dépensent tout le budget IT en 4 mois.
+[44:34] Et là, il y a 300 annonces de suppression d'emploi chez Uber, tu vois.
+[44:38] Ils disent officiellement pas que c'est l'IA et les dépensia, mais...
+[44:42] On réparie les suivants, c'est que, en fait, les modèles Open Weight
+[44:47] que tu peux faire tourner en local, là.
+[44:49] Donc là, on va pas être d'accord tous, mais le que tu peux faire tourner en local,
+[44:53] ça veut dire que tu fais de tourner sans 128 gigadrames.
+[44:56] Que le 120 gigadrames, c'est quelque chose qui va être de l'ordre de prix du gérable, quoi.
+[45:00] On va dire...
+[45:02] Allez, on va dire entre 10 et 50 000 euros de matériel.
+[45:05] Je peux... Ouais, tu vois, regarde, t'as dit développeur ?
+[45:07] Pour un temps frais, c'est acceptable.
+[45:08] T'as dit développeur ?
+[45:09] Entre 2 et 200 000 euros.
+[45:12] Non, mais regarde, regarde, on fait ça, on fait ça.
+[45:13] Quand il y a 5 euros, c'est une grande...
+[45:15] Mais c'est tout petit.
+[45:16] Non, mais c'est une grande fonte-chète.
+[45:17] Non, mais c'est comme le livreur qui dit, je veux vous livrer entre 11 euros de 7h.
+[45:21] Non, mais le problème, oui, mais le problème, c'est que quand tu as une machine qui coûte 500 000 euros
+[45:26] et que tu mets que 6 personnes dessus, t'en metton.
+[45:28] C'est un sujet, quand même.
+[45:29] Ah, je comprends.
+[45:30] Mais regarde-là, t'as une équipe de 10 personnes.
+[45:33] Tu te dis que tu vas mettre 5 000 euros de coup par eux pour l'année,
+[45:38] t'as une machine à 50 000 bales.
+[45:39] Alors, ok, il y a l'écoute électricité, etc.
+[45:41] Mais toi, c'est l'ordre de grandeur.
+[45:42] Donc, tu dis, en fonction du nombre de tokens, c'est d'accord, etc.
+[45:46] Puis tout le monde travaille pas en même temps, etc.
+[45:47] Mais toi, tu dis, moi, ce que je me dis, c'est que déployer des machines à 128 g de rame,
+[45:52] c'est dans l'ordre du faisable.
+[45:53] C'est des con grosses en montant, mais c'est dans l'ordre du faisable.
+[45:56] Toi, 10 000 euros la machine, 15 000 euros la machine.
+[45:59] Bah en fait, et quand même temps de l'autre côté,
+[46:01] tu as des modèles à la dipsy qui vont être des trucs assez cool en 30 milliards
+[46:06] ou en 80 milliards de paramètres.
+[46:08] Bah en fait, ça vaut le coup, quoi.
+[46:10] Et sauf qu'il n'y a pas, tu sais, il y a, enfin, à part qu'on,
+[46:17] mais dans un an et demi, je te parle.
+[46:18] Ouais, mais tu vois, à part qu'on, la tendance,
+[46:20] elle est plutôt vers les méga-modèles.
+[46:23] Parce qu'il y a simplement, c'est ceux qui sont faits pour être vendus au token.
+[46:26] Ouais, mais regarde, tu parles de méga-modèles, qui mi-4-3, là.
+[46:29] C'est quoi, c'est pas, c'est un...
+[46:31] Giga-modèles, Giga-modèles.
+[46:32] Ouais, mais...
+[46:33] Mais le problème de qui mi-4-3, c'est qu'il rentre pas sur une machine.
+[46:38] Et donc, même si il devait entrer sur une machine,
+[46:40] il y a ta plus de place pour que tu me mettes une personne dessus, quoi.
+[46:43] Donc, donc, le problème, c'est que du coup,
+[46:46] soudainement, il faut deux machines.
+[46:48] Mais si il faut deux machines, comment elles sont connectées?
+[46:52] Ah, du coup, elles sont sur le séduien de Vélic.
+[46:54] Très bien, mais si c'est le son sur de Vélic,
+[46:55] c'est-à-dire qu'il faut qu'elle soit approche, donc dans le même rack.
+[46:58] Ah, c'est quoi la réveille électrique du rack?
+[47:01] Ah, tu vois.
+[47:04] Et donc en fait, c'est contaminant dans ton infrat.
+[47:07] Et donc c'est pour ça que, par exemple,
+[47:08] c'est un modèle tout le monde,
+[47:10] tu vois, non, on est en train de me faire tourner et tout,
+[47:12] mais c'est un modèle qui est une tannée,
+[47:15] parce que surtout qu'après une fois que tu l'as mis sur kimi,
+[47:18] kimi, par exemple, c'est 30 minutes.
+[47:20] En JLM, je crois au kimi, je l'aime, je n'ai plus,
+[47:22] à démarrer, pas chez nous, mais en tout cas à démarrer,
+[47:25] JLM, c'était 30 minutes.
+[47:27] Tu vois, juste pour l'auder, les trucs est tout machinant.
+[47:30] Ah, le temps qu'il se lève, puis qu'il déjeuner,
+[47:32] c'est en 2 minutes, 46.
+[47:33] Oui, bon, bon, ça c'est des mèles, voilà.
+[47:36] Mais je veux dire, 30 minutes, ça veut dire que du coup,
+[47:38] le truc, il est jouré nuit là,
+[47:41] t'as, t'as peut-être, allez, sans du tiateur chez toi,
+[47:44] en interne, sans personne en même temps,
+[47:47] ton computer, il est sous d'utiliser, du coup,
+[47:49] ça ne sent pas à la place, d'utiliser de...
+[47:50] Oui, mais de gens, enfin, c'est d'en faire.
+[47:51] Ouais, je suis d'accord, mais c'est pas le sujet,
+[47:54] c'est que kimi, enfin, là, le kimi 4.3 et...
+[47:57] Et ce qu'on a vu à plusieurs milliers de milliards de paramètres
+[48:01] qui sont sortis par les chinois,
+[48:02] c'est juste pour que les chinois disent,
+[48:03] on est capables de faire aussi bien que les américains.
+[48:05] C'est tout là, maintenant, sur la prochaine anime,
+[48:08] on va voir...
+[48:09] Ça, il y en arrive à au top de Arcadia,
+[48:11] au-dessus de 80%,
+[48:12] et là, ils vont compresser,
+[48:14] ils vont devenir des petits petits modèles,
+[48:16] et moi, mon point, c'est que dans un an et demi,
+[48:18] à boire rien, donc, ce que j'ai fait,
+[48:20] mon point, c'est fin de 2027,
+[48:23] t'auras des performances très, très correctes en local
+[48:26] pour pleins de gens, quoi.
+[48:27] Un truc, alors, je ne sais pas si ça ne s'est pas intéressé,
+[48:29] mais kimi 4.3,
+[48:31] si tu le configures correctement,
+[48:33] il génère 12 secondes de vidéos
+[48:35] en 8 secondes.
+[48:37] Ça veut dire que tu peux arriver à faire...
+[48:39] Bah, mais monsieur, minimax.
+[48:40] Minimax à 3, minimax, on a fait tonner, maintenant, là.
+[48:44] Mais bon, c'est en ZDM, il n'y avait plus vite que l'haryl time.
+[48:46] Ah, mais c'est génial, c'est-à-dire que tu prompes un film,
+[48:49] et tu le stream, et tu le regardes.
+[48:50] Tu ne le connais pas.
+[48:51] Tu le connais le seul film à l'avoir vu,
+[48:52] tu connais pas la fin.
+[48:53] Bon, je ne parlais pas de...
+[48:55] C'est nulle, non, non, non.
+[48:56] Mais non, mais vous n'avez pas vu le gars,
+[48:57] qu'il fait une chaîne Twitch,
+[48:59] qu'il m'en fie en live.
+[49:00] Il a fait une chaîne Twitch, Rican Morty.
+[49:02] Et donc, en gros, il a pronté...
+[49:03] Voilà, c'était en live, quoi.
+[49:05] Et il stream en live, puisque le modèle génère plus de vidéos...
+[49:07] Enfin, génère plus de vidéos que le temps qu'il m'a la générer.
+[49:10] Et donc, la 24 sur 24, tu as du Rican Morty.
+[49:13] Générer par ya, inédit.
+[49:15] L'humour de Rican Morty, je sais pas si ils arrivent à le reproduire en IAC, hein,
+[49:18] parce que...
+[49:18] En vrai, c'est vraiment la fait des tests,
+[49:20] avec H3, parce que c'était...
+[49:23] En fait, tu vois,
+[49:24] tu prends simplement ta modèle de vidéo, c'est marrant,
+[49:26] parce qu'il va générer la vidéo.
+[49:28] Et c'est cohérent, mais par exemple,
+[49:30] c'est pas ce que tu as demandé.
+[49:31] Donc, nous, on lui a arrivé, on lui disait,
+[49:33] on voulait deux chats qui montaient sur Anto Parisiens.
+[49:35] Il nous a fait un renard qui montait sur Anto Parisiens.
+[49:38] Et donc, c'est là, mais ça, c'est un début,
+[49:41] c'est que tu as un pleinement de modèle, tu te dis, bon,
+[49:43] mais en fait, c'est un bug.
+[49:44] C'est pas censé marcher comme ça, tu vois.
+[49:46] Et du coup, c'était bien des bugs.
+[49:48] Et donc Rican Morty, en fait, on s'en s'arrive,
+[49:49] parce que c'est tout qu'on, les cartoules, en fait,
+[49:53] quand l'animation, en fait, quand il transitionne,
+[49:56] s'il y a des artefacts dans la transition,
+[49:57] tu sais qu'il y a un problème de précision.
+[49:59] Donc, t'arrives à lire, en fait, potentiellement,
+[50:01] le bug que ça peut être.
+[50:02] Par exemple, si il y a un problème de conformité,
+[50:05] tu lui dis que tu veux devoir être sûr, il en fait qu'une seule.
+[50:08] C'est ce qu'on a eue, des bugs qu'on a eue.
+[50:11] Et bien, ça, ça peut être un problème soit de tokenisation,
+[50:15] soit de cavecache.
+[50:17] Tu vois, tu le sais, c'est, voilà, c'est...
+[50:18] Ça rappelle, je peux souligner les premiers modèles
+[50:20] de génération d'image.
+[50:21] Tu disais, fais des saumons qui remontent une revière.
+[50:23] Ah, c'est d'accord.
+[50:24] Et t'avais des pavés de saumons.
+[50:26] Ah, c'est d'accord, plus que le reste, et donc, c'était assez drôle.
+[50:35] Et comment est-ce qu'il y a Will Smith avec ses spaghetti?
+[50:37] Mais, c'est fini, quoi.
+[50:41] Mais je crois que c'est un concours de spaghetti, de spaghetti,
+[50:46] de spaghetti mancé par Will Smith.
+[50:47] Oui, le vrai Will Smith perdra, je pense.
+[50:49] Oui, c'est vrai.
+[50:53] Mais, on a parlé beaucoup.
+[50:56] Est-ce que Will Smith, il en a parlé?
+[50:58] Oui, je crois qu'il a fait une version brille qui est mangée.
+[51:01] Et personne n'y a cru?
+[51:02] Je crois.
+[51:02] Non, mais est-ce que...
+[51:03] Est-ce qu'il s'est positionné en disant, ouais, c'est rigolo, etc.
+[51:06] Il sent que, justement, parce qu'il avait fait une version...
+[51:08] Ou alors, il mangeait des paroles qui se perdaient.
+[51:09] Ou alors, il est en train de pleurer, parce que de son, il en est pression en permanence, monsieur.
+[51:11] Parce que, pour l'histoire, Charlie Chaplin avait participé un concours de Charlie Chaplin.
+[51:15] Et il n'était pas acté qualifié en finale, voilà.
+[51:18] Et là, récemment, récemment, Timoté Chalamet,
+[51:21] a participé un concours de Sozi, Timoté Chalamet.
+[51:24] Il n'est pas révéprouvé.
+[51:26] Et est-ce que ça est arrivé avec notre Johnny national?
+[51:29] Ah, pardon, pas de Johnny.
+[51:30] J'ai pas dit Johnny, il avait assis du morgue, pas de l'aide.
+[51:32] Charlie, c'est quoi?
+[51:33] Ah, non.
+[51:33] Ça ne va pas de la plait, toujours, hein.
+[51:35] Il aurait pu vivre en cas un peu de Johnny.
+[51:39] Bon, en avance, alors,
+[51:40] un point que je voulais dire, c'était...
+[51:43] Est-ce que un truc que moi, que j'ai déliré
+[51:45] sur les Jeux Olympiques des Robots?
+[51:47] Ah, super cool.
+[51:48] Fantastique.
+[51:49] C'est quand même génial.
+[51:50] Alors, je conseille de le voir avec la dubstep.
+[51:57] C'est vraiment, si tu regardes...
+[51:59] C'était une cour de manière un peu...
+[52:01] L'étrange, et tout.
+[52:02] Donc, il criche, il sort des lignes.
+[52:04] Ouais, il sort des lignes et tout.
+[52:05] C'est où je vais faire des trucs aussi compliqués
+[52:07] et juste il tient pas sur l'îme.
+[52:08] Donc, en gros, c'est quoi?
+[52:09] C'est fan-out, la Chine a fait des Jeux Olympiques robotiques.
+[52:12] C'était quand même...
+[52:14] C'était quand... enfin.
+[52:15] Moi, bizarrement, je me suis apprécié à regarder, quoi.
+[52:17] Pour la perte de roll, ouais.
+[52:19] C'était de roll pour t'avais des robots
+[52:20] qu'on explosait en vol, qui sont massacrés.
+[52:22] Mais s'il vous suivi, à l'époque, c'était...
+[52:25] C'était Epita, qui faisait ça, il y a 25 ans.
+[52:29] Des combats de robots.
+[52:29] C'est encore un coup de France de robotiques.
+[52:31] Mais comment ça s'appelait à l'époque?
+[52:33] Et les trucs qui se rendent dedans, c'est comme ça.
+[52:34] Oui, c'est comme ça.
+[52:35] Au US aussi, ils ont un truc là, robot machin.
+[52:37] Oui, ils avaient ici, robot war.
+[52:39] Mais à 4 heures du matin, quand tu arrives pas à dormir,
+[52:41] un robot war avec les signes, avec l'avage, c'est fantastique.
+[52:43] Mais surtout, en fait, quasiment aucune règle.
+[52:46] Et t'as maintenant, t'es gris, comme le cas,
+[52:50] c'est super violent.
+[52:51] C'est hyper dur.
+[52:52] Et jamais, ce qui gagne, c'est souvent ce qui est juste
+[52:54] une sorte de...
+[52:55] C'est pas ça de sous, elle retourne également, c'est ça.
+[52:57] Et il le dégâne, c'est vraiment facile.
+[52:58] Mais là, sur le robot, il y a eu des...
+[53:00] La volonté, c'était de bâtes d'air cornus, mon humain.
+[53:03] Donc, je crois, le 400 mètres a été battu.
+[53:05] Bon, il marche un peu sur la ligne, mais...
+[53:06] Mais voilà.
+[53:07] Mais moi, c'était quand même intéressant.
+[53:09] Le son auteur.
+[53:10] Le son auteur.
+[53:12] En face, brille.
+[53:12] Mais, non, en face, brille.
+[53:13] En face? Non, non.
+[53:14] Où une situation?
+[53:16] Non, non, c'était pas une situation, non, c'était juste en saut.
+[53:18] C'est en saut, comme ça.
+[53:19] Mais en fait, il n'y a pas rien que tu sais.
+[53:21] Est-ce que tu sais ?
+[53:22] Est-ce que tu sais que dans le règne des humains en saut en auteur, il n'y a pas
+[53:26] de règles ?
+[53:27] Non, pas de règles, non.
+[53:28] T'es qu'en fait ?
+[53:29] Le Facebook, ça a été inventé, pas.
+[53:30] Chois, c'est Michael, Facebook.
+[53:31] Mais il n'a pas gagné, il y a troisième.
+[53:32] Mais il a inventé la technique qui fait que...
+[53:34] Mais si tu as été assez forte, à l'autre sauté, en fait, à pied loin, quoi.
+[53:38] Avant sauté sur le ventre.
+[53:39] Non, il a fait sauté.
+[53:40] Et surtout, on sauté.
+[53:41] Ciseau.
+[53:43] Mais moi, j'ai fait une prédiction un jour, mais je ne sais pas le faire.
+[53:45] Mais je pense qu'un gymnast qui ferait de triple salto, comme ça, avec les langues,
+[53:49] et qui saut très par dessus, je pense pas attirer un battre dans le record du monde,
+[53:53] avec son son de gravité, mais il y a aucun gymnast qui s'est intéressé à ça.
+[53:56] Donc, c'est complètement débile.
+[53:59] Donc, vous êtes sûrs.
+[54:01] Mais je pense qu'il y a un truc à faire.
+[54:03] Non, mais en tout cas, moi, je trouve ça assez intéressant.
+[54:05] L'altérophilie, l'altérophilie robot, et aussi le parcours d'obstacle.
+[54:09] Alors, tu vois, c'est pas en 2003, je pense que tu souviens.
+[54:12] Soni, là, au 2003-2004, ils étaient montés à l'escalier, le robot était tombé, ça
+[54:16] était un scandale.
+[54:17] Et là, aujourd'hui, tu as des robots qui montent des escaliers, qui sautent, qui m'achinent,
+[54:28] qui font tout un parcours.
+[54:29] Et non, non supervisé, parce qu'ils ont ce que c'est ma question.
+[54:32] C'est que c'est ma question.
+[54:33] Qu'est-ce qu'il y a été supervisé ?
+[54:34] Alors, je crois que les combats étaient supervisés, les combats avaient le droit d'être supervisés
+[54:37] et t'avais un...
+[54:38] C'est la course, ou pas ?
+[54:39] Non, la course, c'était pas supervisé.
+[54:41] Donc, ça, c'est...
+[54:42] Après, ce que je trouve souhaitent, c'est qu'ils ont...
+[54:45] C'est de quand même arriver à faire un truc ludique, sur un truc où on sait qu'il
+[54:49] n'y a aucun sujet, je ne sais pas, les concrôts d'altérophilie, tu vois ?
+[54:54] Bah oui, auquel le moteur est puissant, donc oui, il ne faut rien y à pas de...
+[54:58] Le truc qui est de relief, il faut...
+[54:59] Oui, une bagnole, ça va plus vite qu'un truc, mais pour courir, donc, tu vois, le
+[55:03] robot il a des roues, soudainement, il va faire 400 mètres plus habits.
+[55:05] Mais là-dedans, tu m'as loïdes, tu m'as loïdes ?
+[55:07] Mais du coup, ce que je veux dire, c'est que sur le truc où tu sais que oui, tu vois,
+[55:12] c'est la personne ludique, en tant qu'ingénieur, quand tu regardes, tu dis...
+[55:15] C'était la perfe, mais c'est sûr, c'était ludique, en tout cas, t'es le que c'était
+[55:17] tournoi, c'était l'extrême, c'est un parche.
+[55:20] Et surtout, il n'y avait pas du tout le fou, le fou, t'étais cher, meurt bien.
+[55:23] Il y avait, non, mais sur la course, il y avait une certaine autodérision, c'est qu'en
+[55:26] fait, il faisait des gris plais sur lui qui marche, tu vois, qui meurt la ligne, normalement,
+[55:32] c'est le cachet, etc.
+[55:33] Ils ont montré malin, la regarder, le truc, qui part au droit.
+[55:36] Il y a, il y en a, parfois, qui courait un peu en diagonale en signe de Zoydhal, là,
+[55:40] il y en a qui sont 10, qui sont pas en train d'inventer des techniques, que les humains
+[55:42] ont pas...
+[55:43] On pas m'a fait fouser les mains, on m'a lié à quoi, tu vois, en mode...
+[55:47] En mode...
+[55:48] C'était très chouette, ouais.
+[55:50] C'était assez cool, mais c'est aussi un gros truc de software, quoi, c'est en mode
+[55:53] les robots arrivent, c'est nous, par moi, je voyais un peu ça, quoi, tu vois.
+[55:56] Oui, oui, oui, oui, c'est vrai, moi, je l'ai même pas vu comme ça.
+[56:00] Je me suis dit quelque part, qui d'autre, ça l'a dit, avec leur cul, oui, oui,
+[56:03] t'as raison.
+[56:04] C'est-à-dire qu'il d'autre que pour le faire, et du coup, il n'y avait pas d'optimus,
+[56:07] il n'y avait pas de...
+[56:09] Voilà, c'était...
+[56:10] C'était...
+[56:11] Mais bon, en tout cas, c'était assez sympa.
+[56:12] Non, il m'a dit non super visée.
+[56:13] Ah ben oui.
+[56:14] Vous le savez pas, mais ça, c'est un missile, un missile sol-sol, envoyé sur Tesla direct,
+[56:21] là.
+[56:22] Peut-être, le dernier point, un appel aux ingénieurs, parce que, en dresser,
+[56:29] on revit A16Z, A16Z, un déformat estissement les plus performants et les plus...
+[56:35] Non, le premier.
+[56:36] Le premier, c'est le premier qui a théorisé l'investissement de vie ci.
+[56:40] C'est pas le premier vie ci, mais c'est le premier qui l'a théorisé.
+[56:43] Hé, mais...
+[56:44] C'est quoi, quoi ?
+[56:45] C'est lui qui a dit, c'est lui qui a défini, enfin toi, c'était lui qui a défini
+[56:48] ce que c'était un vie ci.
+[56:49] Oh non, je sais pas d'accord.
+[56:51] Ah bah c'est qui ?
+[56:52] Il y a...
+[56:53] C'est tous les gens de faire child.
+[56:54] Donc oui, mais à l'époque, ça ne s'appelait pas des vie ci, justement.
+[56:58] La...
+[56:59] Vraiment, la théorisation et cette investissement de capital, quoi.
+[57:03] J'ai rien à voir.
+[57:04] Ah bah ça va ?
+[57:05] Mais il essaie de faire passer les vie ci pour d'elle en termes.
+[57:07] Donc...
+[57:08] Ah non.
+[57:09] Voilà.
+[57:10] C'est le plais.
+[57:11] C'est le plais, c'est le plais.
+[57:12] Non, je ne sais pas le plus connu, mais c'est iconique, c'est...
+[57:14] Ah mais on s'en a envie.
+[57:15] Ah non, on est dans la French.
+[57:16] Non, mais donc, ils ont...
+[57:18] Ceux qui sont connus notamment en 2011, ils ont fait software-esiting the world, le software
+[57:22] d'avoir le monde, parce que, en gros, ceux qui font du logiciel, itère tellement
+[57:26] vite, apprennent tellement vite, ont tellement de données qui feront mieux les métiers
+[57:29] que les existants, quoi.
+[57:31] C'est pour ça que tu as eu des gens qui ont lancé des boîtes dans l'hôtellerie, dans
+[57:34] la transport, dans la banque, dans la finance, qui connaissaient rien tout ça, mais parce
+[57:38] qu'ils avaient les bonnes interfaces et les bonnes logicielles, ils ont été réplis
+[57:40] vite.
+[57:41] A sorti du Covid, ils ont sorti un grand papier qui est X-Time to build.
+[57:44] C'est le temps de construire, tu vois, parce qu'ils ont dit en gros la société
+[57:47] n'est pas résiliente.
+[57:48] Aux la fait du logiciel, on a fait du ça, c'est pendant 15 ans, super, mais bon, un
+[57:52] Covid est tout été foutu, quoi, donc il faut faire de la résilience, et là, il vient
+[57:56] de sortir à un papier qui est de machine age, c'est le temps des machines, tu vois, avec
+[58:00] un appel à l'infrastructure, au réseau, à l'électricité, tout ce qu'on dit dans
+[58:04] l'infraîge depuis un an, aux compétences techniques d'ingénierie.
+[58:08] Et...
+[58:09] Non, mais...
+[58:10] Il faut que j'aille les appeler, pour qu'on repissiez l'entrain, on va l'appeler, on va l'appeler
+[58:14] et puis ramènent « Heaven Smire », ou comment ça va ?
+[58:15] On va le faire, le mec est au suis, avec...
+[58:17] Il faut avoir de structure, c'est compliqué.
+[58:19] Une infrastructure, c'est compliqué, j'entends, j'entends.
+[58:22] Donc voilà...
+[58:23] Par exemple, en rigol, par exemple...
+[58:26] Non mais il y a un côté un peu...
+[58:29] Par exemple, Ren, venting, command-goods, from first principle, quoi, c'est un vitis,
+[58:34] quoi, surtout, ce n'est pas...
+[58:36] Alors, tant mieux que ce soit une séparation de equity par conscience, je suis très contente,
+[58:40] mais qui le dit ?
+[58:41] Moi, ça va dans ma thèse, très bien. Les Français ils sont bons, en infrastructures, etc.
+[58:45] C'est très cool. C'est bien pour Kayberg. C'est pas un papier révolutionnaire, le software
+[58:52] exiting the world. C'était un truc, tu l'as dit, tu l'as redis, etc.
+[58:58] Tu vois, c'est comme Comeditales Sur Complément, c'est des choses qui ne sont pas hyper intuitif
+[59:03] là, c'est juste voilà le nouveau train, très cool. Je suis content de ce train, mais c'est
+[59:08] pas fondamentalement une révolution. Le truc, c'est que traditionnellement, quand même le
+[59:13] vie-ci malgré son attention, son menant, mais malgré son monde, et quand même plutôt
+[59:19] adverse au risque, c'est-à-dire que dans le sens où l'infrastructure, les gros projets,
+[59:27] on va dire, ma chance, c'était pas l'ambiance, mais son avantage, c'était sa force de sa capacité
+[59:34] à déployer rapidement, facilement, sa capacité à absorber aussi le risque, il y a à crever,
+[59:39] si il fait en tout cas tu crèves. Et ça, que les sujets d'infrastructures puissent
+[59:44] être, on va dire, et access, cette forme d'investissement, je parle à des échelles qui sont
+[59:51] compatibles, j'entends. Ça, c'est une bonne nouvelle, et si ça part d'endressage
+[59:56] qui impose une manière de réfléchir, je trouve ça plutôt bien. Et ça va, entregimer en
+[60:05] même temps, en Correlation, avec en France, plusieurs mouvements qu'on dit, on n'est plus
+[60:08] assez d'ingénieurs en France, soit il part, soit il n'y en a pas assez, pour tout l'argent
+[60:12] qui va arriver sur les data centers, tout l'argent qui va arriver sur la physique, sur
+[60:16] l'énergie, tout ça, c'est un peu ce qu'on dit que puis un an, quoi, c'est le moment
+[60:18] des ingénieurs, c'est le moment des ingénieurs, quoi. Ah oui, mais complètement, mais on en
+[60:23] a, donc on s'est l'effet. Est-ce qu'on en a assez, mais on n'a jamais assez, mais
+[60:26] on s'est l'effet. Alors, non, on n'en a clairement pas assez, mais on s'est l'effet.
+[60:30] Bon bah écoute, il faut en faire. C'est certain, mais moi, est-ce que ce que je
+[60:33] dis tout le temps, c'est, dans ce, le game, il est toujours la même chose, capital,
+[60:40] énergie, talent. Ouais, je suis plus en plus stiviant dans mon approche, dernièrement, on
+[60:47] disant que l'énergie, c'est quand même de plus en plus un truc qui va être important,
+[60:52] et que finalement, ton token, c'est, c'est une approximation d'imprim et c'est aussi
+[60:56] un appréhémacitation d'un coup de l'énergie, en fait. Ça, c'est vraiment, c'est vraiment
+[61:02] clé. Et tu vois, je peux te dire quelques startups qui vont arriver, soit sur d'autres réacteurs
+[61:10] nucléaires, des startups qui vont arriver sur des nouveaux actionnaires, parce que en fait,
+[61:14] j'ai regardé les robots, maintenant, bon problème d'actionnaire, en fait, il va commencer
+[61:17] à coûter très, très cher, des batteries du stockage d'énergie, ça, c'est vraiment
+[61:24] des startups qui vont être clés. Le truc qui est intéressant, avec dans le domaine
+[61:28] de lias, c'est la main, d'ailleurs, c'est ce que disait Artyomène de Mistral, c'est
+[61:34] eux, ils transcendent lias, ça transcendent l'électricité en intelligence. C'était
+[61:38] ça, le, on va dire, ce qui est pas débile, non ? Le truc intéressant dans lias, c'est
+[61:45] la capacité à généraliser dans le reste des domaines. Et donc, par conséquent, d'avoir
+[61:50] une forme de récursivité, si tu veux, parce que tu utilises des agents d'importe quoi,
+[61:57] tu vas plus vite, donc tu peux mieux faire. Et si tu réinjectes ce que tu vas faire dans
+[62:02] le process, par exemple, tu vas construire un réacteur nucléaire, par exemple. Ça va
+[62:07] plus vite, imaginons, je ne sais pas si c'est le cas, mais imaginons, ça va plus vite
+[62:10] grâce à de lias. Du coup, tu vois, il y a une forme d'accélérationisme, et donc,
+[62:16] c'est exactement ce qu'on a besoin. Et d'ailleurs, c'est peut-être même pour ça
+[62:20] que ça devient incompatible. Cette forme de récursivité, je ne suis pas sûr que tu
+[62:25] puisses financer une route avec un visite, tu vois. En tout cas, ce soit le rôle, tu vois,
+[62:29] ou le rôle, tu vois. Mais j'ai eu des frères de ma tête sur comment tu vois, tu peux
+[62:32] faire une route, tu vois. Mais tu vois, ce n'est pas forcément un sujet d'infra, au
+[62:39] sens, je tricte tout son dessus, un frasse-touture, mais c'est un sujet, il y a un petit
+[62:43] côté... En tout cas, j'ai ma croire qu'il y a un petit côté un peu récursif dans
+[62:46] cette histoire. Et du coup, on en vient, et l'angle d'inquiétation, c'est l'étalant.
+[62:50] Mais tout ça, en fait, je trouve, justement, ce qui dit, c'est bien, ça revient sur ce
+[62:58] qu'on dit depuis longtemps, c'est art-tech, quoi. Alors on l'appelait du tech, mais
+[63:02] tu vois, j'aime pas trop le deep tech. Tu vois, j'aime bien plutôt le mot art-tech, parce
+[63:08] que... T'as besoin d'un géniaire, tu vois. T'as pas besoin juste de chercheur, t'as besoin
+[63:13] d'un géniaire, parce que le mot, il va être là-dessus et il faut faire. Mais il faut fabriquer
+[63:18] et c'est plus du saf, ce quoi. Mais là, il disait avec tout l'argent qui rêve sur
+[63:23] le data center, la France a horizon moyen-terme, donc d'un géniaire électrique, électricien,
+[63:28] d'un géniaire en BTP, il manque d'un géniaire. On a l'ouest, c'était moins d'un géniaire
+[63:32] en bère-bon, il y a des centrales, il y a des super-bonnes, d'un géniaire électrique,
+[63:35] il y a des super-bonnes, ils sont bons. Mais peut-être qu'on est en termes de taleur,
+[63:38] même peut-être qu'on manque strict au sensu en termes de chiffre. Mais ce qui est important,
+[63:43] c'est pas l'état, ce qui est important, c'est la dériver. Et la dériver, elle est
+[63:48] fonction de deux choses, parce que t'as un retard, t'as une latence à l'image. Ça, heureusement
+[63:53] pour nous, d'un point de vue, en tout cas, cursus, j'y virais juste qu'on fasse plus de
+[63:58] ce qu'on fait déjà. Et du coup, on aurait plus de modulo le cursus de sortie, et de
+[64:08] un sujet à l'instant, d'attractivité. Et donc d'un côté, tu as le pipeline de création
+[64:14] de talent, de l'autre, tu as l'histoire qui est créée pour que cet talent aille dans
+[64:18] ces filières, et ou que les talents de l'extérieur viennent chez toi. Donc les américains
+[64:23] sont très forts sur l'histoire, ils sont pas très forts sur la création, ils sont très,
+[64:27] très forts sur l'histoire. Et donc forcément, t'as une forme de recursivité où en
+[64:32] moment donné, ils sont assez, la venue du monde entier sur le même sujet pour se parler
+[64:35] entre eux, mais ça ne fut fait pas. Il faut quand même créer ces choses-là. Et donc
+[64:41] quand tu as le capital, tu as l'énergie d'un chose qui te manque, et c'est bien pour
+[64:45] ça que les américains le payent très, très cher, ils payent ça avec beaucoup de premiums,
+[64:48] mais ils contrôlent le capital, donc ça va ? C'est le talent, et donc en plus cas, nous,
+[64:53] on sait, on sait, on sait. Je vais te faire ça bien, en créée. Je vais te dire hyper
+[64:56] trop l'esque pour nos éditeurs. En fait, il faut que les mecs d'épitecs, il fasse un
+[65:00] peu moins d'épitecs, il y a un peu plus d'épita, et les mecs de l'épita, il faut qu'ils
+[65:03] fassent un peu moins de soft, et qu'ils aient plus faire de l'électronique et de la physique,
+[65:07] et en fait, bah ça va. En fait, ton appel d'air va être comme ça, et...
+[65:12] Je vous ai dit un sexy, s'il y a de la demande.
+[65:14] Il y a des tuines, les gens vont s'adapter, et puis surtout avec l'Ida, ça va être
+[65:19] beaucoup plus facile de se reformer, mais ça veut dire, ma physique, il faut savoir ce que
+[65:23] c'est, et français.
+[65:24] Ah, voilà.
+[65:25] Non, mais Genescent, qui est ingénieur électrique à la base, tu vois, c'est l'Asie l'ingénieur,
+[65:32] et puis bientôt.
+[65:33] Non, mais tu vois, il y a un truc, c'est qu'il y a aussi un sujet qui est important,
+[65:37] c'est la notion de statut, la notion de statut, de qu'est-ce que ça veut dire ?
+[65:42] Je t'ai cru qu'il y a eu une racontée qu'il a besoin qu'on construise une statut
+[65:44] du statut moral, c'était du fait qu'est-ce qu'il est ?
+[65:46] Et là, j'ai vu récemment une campagne de pub en Chine sur des ingénieurs, des scientifiques
+[65:52] des ingénieurs, les mises ou mises, ah oui, mais de remettre ingénieurs à l'atelier
+[65:56] mi-sort.
+[65:57] Non, mais remettre, ils sont bons en propagandes, donc voilà.
+[66:00] Ah non, mais j'ai vu leur documentaire, alors bon, sans Twitter, pas toujours d'accord,
+[66:03] mais en tout cas, j'ai vu leur documentaire, c'est un prêt, y a parce qu'ils font
+[66:06] des ingénieurs en 4 par 3, parce que c'est en 14, 27 par 2.
+[66:10] Après, si tu veux, t'as une forme de…
+[66:12] Des scientifiques, t'as une forme de…
+[66:14] Le point, c'est que évidemment, tu as les icônes, mais à minima, il y a le statut.
+[66:20] Et donc, est-ce que tu es l'ingénieur, pendant très longtemps, en France, ça a été l'ingénieur
+[66:28] de quelqu'un ? Ça a été, on va dire, celui qui m'était en œuvre, sauf que…
+[66:33] Je ne te parle pas dans la réalité, je te parle dans le statut.
+[66:35] Oui, mais si tu fais un peu plus loin dans le passé, c'était quand même monsieur l'ingénieur.
+[66:39] Monsieur l'ingénieur des mines, etc.
+[66:40] Alors, sauf qu'il faut que tu tourne encore malheureusement aujourd'hui.
+[66:45] C'est pour ça que tu as les grandes écoles, etc.
+[66:47] C'est tout ce qui est de ces grandes écoles.
+[66:49] Il y a une forme d'aristocratie.
+[66:50] Si tu vois malgré qu'on a des capités, les rois, on adore l'aristocratie.
+[66:55] Faut chier.
+[66:57] Et en France, est-ce que je veux dire, c'est que tu prends l'exemple de central,
+[67:00] ou de politique.
+[67:01] De politique.
+[67:02] De politique.
+[67:03] Les corps des mines.
+[67:04] Exactement, que ce sont des très, très grandes écoles.
+[67:05] Il y a quand même deux personnels qui se dessinent à chaque fois.
+[67:09] Tu as ceux qui sont maxing, tu as costard, roi, royale, machin, chose.
+[67:15] Et ceux qui font du fat engineering, pas ce qu'ils ont toujours voulu,
+[67:19] en un bon exemple ici, avec sans trace.
+[67:21] Je peux t'en costard.
+[67:22] Je tiens le prochain.
+[67:23] J'ai l'aprochante.
+[67:24] J'ai l'aprochante.
+[67:25] J'ai l'aprochante.
+[67:27] Je veux dire, il y a quand même une sorte de chisme, dans le cas de l'extérieur.
+[67:33] Il y a quand même une forme de statue, mais le statue,
+[67:39] donc finalement, il n'est pas vers eux qui sont allés dans le fat engineering.
+[67:42] On va dire le quittage, barbut tout ce que tu veux.
+[67:45] Il a été dans ce qu'on fait les voir royales, de perpétuation aristocratique,
+[67:50] si je peux y dire.
+[67:51] Et ça, malheureusement, c'est l'ingénieur, on va dire,
+[67:55] de statue, c'est pas l'ingénieur de compétences.
+[67:58] La question maintenant, c'est, est-ce qu'on arrive à faire en sorte que,
+[68:01] et donc moi, je pense que oui, parce que simplement, il y a la demande,
+[68:03] et simplement, c'est en train de blasculer.
+[68:05] Trois mini-news, vraiment, bullet point, en bullet comme ça.
+[68:09] On a versu il y a quelques mois, placard.
+[68:11] Vous souvenez placard, là, c'est le backup open source,
+[68:14] c'est tout ça, avec Gilles, avec Julien Pson.
+[68:16] Il vient de signer un super deal avec Overge Cloud.
+[68:18] Il l'avait dit, il l'avait dit.
+[68:19] Ah bravo, parce que Overge, il s'est une pas des dilles,
+[68:22] mais c'est un sacré achievement.
+[68:26] Et c'est intégré dans l'interface Overge Cloud.
+[68:29] C'est-à-dire que tu peux passer en backup directement depuis l'interface.
+[68:33] C'est une vraie intégration, parce que c'est pas harmonisé.
+[68:36] Le backup, c'est pas solvé.
+[68:38] Et tous les clubs te disent, tu te démerdes ici.
+[68:40] Ou quand ils te vendent des solutions de backup,
+[68:42] c'est obligatement dans le même opérateur cloud.
+[68:44] Et là, c'est public dans le communiqué.
+[68:46] Overge dit qu'avec placard, vous avez le droit,
+[68:49] même de backuper dans un autre opérateur cloud,
+[68:51] parce que je veux dire, c'est un super move pour Overge.
+[68:54] Et aussi, placard.
+[68:55] C'est cool, quoi. Ils sont venus à Frenchman que c'est ici.
+[68:57] C'est cool.
+[68:58] Mais surtout, c'est le meilleur produit.
+[69:03] Donc, c'est un win-win.
+[69:04] Est-ce que Overge est le plus gros opérateur cloud de européen?
+[69:06] Par contre, c'est monstre Overge.
+[69:08] Mais ce que je veux dire, c'est un duel.
+[69:10] Donc, PlayStation Julien-Gil est toute l'équipe de placard.
+[69:13] Le deuxième duos, vous avez vu MiniDoc ?
+[69:15] Oui.
+[69:16] Ce qui était assez drôle, c'est que lors de le rachat de GingFace,
+[69:19] le jour du rac officiellement dans la presse,
+[69:21] que toute la presse a annoncé,
+[69:22] ils n'avaient pas le droit encore à le dire.
+[69:24] Alors, les trois fondateurs...
+[69:25] Oui, tu es là-dessus.
+[69:26] Et tu es là.
+[69:27] Et tu es sur le GingFace.
+[69:28] Ils ont énormément ce aujourd'hui.
+[69:29] Donc, tout le monde regarde six morts qu'on va voir plus.
+[69:32] On lance MiniDoc.
+[69:33] Oui, il est trop laire.
+[69:34] C'est génial.
+[69:35] C'est génial.
+[69:36] C'est génial.
+[69:37] Et donc, c'est quoi ? C'est un petit robot hyper-mignon.
+[69:39] En plus, open source avec des librairies d'entraînement,
+[69:43] tu vois, après entraîner pour faire,
+[69:45] tout ce qu'on veut avec, quoi.
+[69:47] Et pour la petite blague,
+[69:48] là, il y a déjà un pot Nicolas Grenier qui va faire
+[69:51] un MiniDoc fight club
+[69:53] pour faire des combats de sumon de MiniDoc en mode fantastique.
+[69:56] Donc, c'est génial.
+[69:57] D'abord simulé, puis peut-être en vrai.
+[69:59] Voilà, il m'a demandé comment on peut faire ça en vrai.
+[70:01] Donc, Nico, si tu as des gens, voilà, ça peut être cool.
+[70:03] Voilà, puisqu'ils n'ont pas de bras.
+[70:05] Donc, ils n'ont pas de bras.
+[70:06] Non, en fait.
+[70:07] Donc, ils sont assez mignons.
+[70:08] On dirait un Wally.
+[70:09] Ils ont bien fait des produits comme ça.
+[70:11] Le produit, comment il s'appelait ?
+[70:13] Riki ?
+[70:14] Comment ?
+[70:15] Ouais.
+[70:16] Super mignons, pareil.
+[70:18] Donc, ça, c'est cool.
+[70:19] Et c'est le premier robot à avoir dépassé 10.000 unités,
+[70:21] en moins de 48h, quoi.
+[70:22] Tu vois, c'est vraiment cool.
+[70:23] Ah, Absolute, ouais.
+[70:24] Ils s'y ont tellement de succès,
+[70:26] ils disent qu'ils vivront peut-être même pas avant Noël.
+[70:28] Voilà.
+[70:29] J'en ai commandé deux pour la confa à la French.
+[70:30] On verra si ils arriveront à temps.
+[70:32] Ça peut être sympa de faire gagner ça aux gens,
+[70:34] si vous venez.
+[70:35] Moi, j'ai des mots cool à libesser avec le Riki Mini,
+[70:39] ou justement avec Kaiba.
+[70:41] En fait, on prend le robot en crobo,
+[70:43] et on fait toute l'intelligence déportée.
+[70:45] Ah, oui, d'accord.
+[70:46] Donc, en fait, ce qui se passe,
+[70:47] c'est qu'on utilise tous les capteurs,
+[70:48] qu'on stream vers une autre machine qui est en local,
+[70:50] en Edge, en Cloud, etc.
+[70:52] Et qui fait toute l'intelligence,
+[70:54] tous les modèles liables,
+[70:55] puisque tu vas pas les faire tourner sur Riki Mini,
+[70:56] et tu es au contrôle.
+[70:57] Donc là, par exemple,
+[70:58] tu cliques dessus,
+[71:00] et ça te fait tout le tracking de tête et de personne, etc.
+[71:03] Et c'est une démo.
+[71:04] Et donc, ce genre de plate-en,
+[71:05] mais sont géniales pour ça.
+[71:06] Donc, ça, c'est cool.
+[71:07] Et la dernière news, alors,
+[71:08] faudrait peut-être une mission entière,
+[71:10] mais liac, t'es entré en vigueur.
+[71:12] Donc, aujourd'hui, voilà,
+[71:13] on ne va pas rentrer dans le détail,
+[71:14] mais il y a un cadre législatif,
+[71:16] réglementaire qui fait que les IA,
+[71:18] voilà, maintenant,
+[71:19] donc, en fait,
+[71:20] je ne vais pas rentrer dans le détail,
+[71:21] puisque c'est un peu long,
+[71:22] mais ça veut juste dire
+[71:23] que les modèles un peu de mistral
+[71:24] ou des boîtes à l'effaf en Allemagne,
+[71:25] qui disent on va gouverner vos modèles
+[71:27] pour vous sur le marché européen.
+[71:28] Bon, voilà.
+[71:29] En tout cas,
+[71:30] il y a des barrières qui se sont montées.
+[71:31] Il y a des règles maintenant de liac,
+[71:33] pour que les bottes doivent respecter
+[71:35] pour déployer les modèles d'IA,
+[71:37] et dire, par exemple,
+[71:38] obligatoirement que quelque chose
+[71:42] doit être les compuies générées par IA,
+[71:44] lisées par des machines,
+[71:46] enfin, que le tag généré par IA
+[71:49] soit lisées par une machine.
+[71:50] Ou auchie, c'est-à-dire que l'un compuie
+[71:52] qui lui, d'une IA,
+[71:53] générepaient une autre IA,
+[71:54] non mais, je suis d'accord avec vous.
+[71:55] Non, non, non, non.
+[71:56] Attendez, non !
+[71:57] Dans le sens où je dis pas
+[71:58] que c'est des mauvaises idées,
+[71:59] et je dis pas que ça n'a pas
+[72:00] des récours des résoudres de des problèmes.
+[72:02] Des vrais gros problèmes, hein.
+[72:04] Mais trop tard.
+[72:07] Trop long.
+[72:08] Non, c'est pas trop tard, trop long.
+[72:09] Non, non, non, parce que c'est pas...
+[72:10] Encore une fois,
+[72:11] compliqué, c'est de résoudre. Manifestement, le sujet des fègues, des machins, des trucs.
+[72:19] Moi, j'ai un problème, par exemple, dans mon fruitement, là, c'est les aïslop. Comment
+[72:26] tu fais en sorte ? Il y a des identifièmes minima, tu vois. Donc, c'est pas mal.
+[72:34] Moi, je vais donner un bon algeau pour savoir si un truc est généré paria. 100% des trucs
+[72:40] sont généré paria dans ce 3 ans. De quoi tu parles ? Tu mets tout le monde avec les tâques.
+[72:43] C'est vrai, c'est vrai. C'est vrai. Il y a encore 2-3 trucs.
+[72:48] Il faudrait peut-être de mettre des tâques généré par un humain. 100% humain.
+[72:51] Après, par contre, je dirais bien la loi, parce que je me suis à l'époque du RGPD.
+[72:55] 214 pages, mais ce qu'il y avait été dit, est-ce qu'il était vraiment...
+[72:58] Il y avait quand même un gros gros... D'ailleurs, ce qu'il était dit, est-ce qu'on nous recommandait
+[73:02] d'implémenter ? Parce que ce qu'on a dû implementer vraiment, c'est-à-dire après 3 mois
+[73:05] de suivre ce qu'on nous disait et dire, attendez, mais là, ça devient n'importe quoi.
+[73:08] On va regarder, on va regarder. Ça a été fait en deux jours par un ingénieur.
+[73:12] Je regarderai bien la loi, quand même, pour être sûr.
+[73:16] Depuis le 2 août... Depuis le 2 août, en Europe, il y a des règles plus strictes
+[73:22] pour déployer des modèles d'IA, vérifier que ce qu'ils font, ce n'est pas dangereux
+[73:27] qu'il n'y a pas d'application militaire ou qu'ils doivent être déclarés.
+[73:29] Il y a un environnement un peu réglementaire. Pour beaucoup de personnes, ça peut
+[73:34] d'impact que les gros entreprises, ça l'est fait flipper. Donc, elle font gaffe, elle
+[73:38] font gaffe, ce qu'on ne connaît pas encore le montant des amandes qui arriveront un jour.
+[73:41] Là-bas, c'était un droit sur de gros récapats à la French, c'est l'arrêt d'entrer.
+[73:46] Ouais, c'était fou, c'était... Ouais, ça va être une entrée sport pour moi.
+[73:51] Il y a beaucoup de points, beaucoup de chiffres, beaucoup de lettres.
+[73:54] Il se va nier de remesse, là, ça n'en se... Ça va être sport.
+[73:57] Charger vénère. Vénère. Ah, si !
+[74:00] Vésit, il y a un truc aussi qu'il faut faire.
+[74:03] Et on a sorti l'LMD, nous, en début de...
+[74:07] Ah bah, c'est des mettés, mais les épisodes étaient déjà tournées, donc on n'est pas là.
+[74:10] Donc, acheter l'LMD, manger en séçon d'occurrebe, c'est gratos, on vous aime.
+[74:16] Et le vrai marche sur 54 formes messieurs, s'il vous plaît.
+[74:19] Qui sont, qui sont AMD, Nvidia, Metal, TPU et Intel.
+[74:26] Ok, voilà. Et le vrai, l'LMD n'est pas l'LMD de radata.
+[74:29] ZDML, Slash, LLMD. Voilà, ZDML.
+[74:31] Vous êtes MLAIs, Slash, LLMD sur Docker, puisque on ne peut pas voir le ZDML,
+[74:35] puisque les noms de 3 lettres sont enterrées.
+[74:37] Sur le hub, donc, alors, manger pourtant, je les tirerai toutes lesquelles que je pouvais.
+[74:40] Il n'y en a pas.
+[74:42] Donc voilà. Donc vous êtes MLAIs, Slash, LLMD.
+[74:44] Utilisez-en, mangez-en.
+[74:46] Voilà. C'est le partagez-le, partagez-le.
+[74:48] Et sur Mac, et si vous n'en avez pas, faites-en.
+[74:50] Et sur Mac, on est plus rapide que MLAX, monsieur, s'il vous plaît.
+[74:53] Voilà, je te tiens à vous le dire.
+[74:55] Et bah, écoute, trop cool, trop cool, bah, des balles annonces, quoi.
+[74:58] Super, sympathique.
+[75:00] On se revoit à la semaine prochaine.
+[75:02] Avec un épisode cette fois-ci sur l'open source.
+[75:05] On nous a demandé souvent comment monétiser l'open source,
+[75:07] les bisesses menées l'open source à l'air de l'IA en particulier.
+[75:09] C'est ça, rien de l'open source.
+[75:11] C'est ça, rien de l'open source.
+[75:12] Un truc de coco.
+[75:14] Open source, is Communism.
+[75:16] Voilà, c'est ça.
+[75:16] Comme disait, Microsoft.
+[75:18] Microsoft user group en 2003, etc.
+[75:22] Avec le diable rouge derrière le mec sur son ordinateur.
+[75:25] Ils ont bien changé, ils ont bien changé, donc voilà.
+[75:28] C'était la French, on espère que vous avez apprécié.
+[75:30] On est sûr que vous avez apprécié.
+[75:31] Avec Steve Ejibé, on a parlé de ce qui s'est passé stété.
+[75:34] On se revoit à la semaine prochaine.
+[75:35] À très vite.
+[75:37] Tu es une tigre, tu es une tigre, un tigre, un tigre, un tigre.
+[75:40] Tu laisse ces énergies en monter.
+[75:42] On te remet dans le truc, c'est sexy, ça fait longtemps.
+[75:44] Bah, n'est-ce qu'il y a pas un coup de la crime, ou pas ?
+[75:45] C'est un parti, c'est un parti.
+[75:47] Et on est parti, gars.
+[75:48] Allez.
+[75:48] Attends.
+[75:49] Il fait plus ans.
+[75:51] C'est pas mal, parce qu'il y a une sorte de monter une hôme de Syren entre 16h30 et 17h.

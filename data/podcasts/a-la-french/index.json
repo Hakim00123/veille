@@ -1,9 +1,17 @@
 {
  "slug": "a-la-french",
  "traites": [
-  "episode-bonus-recap-saison-1-et-annonces"
+  "episode-bonus-recap-saison-1-et-annonces",
+  "la-rentree-de-la-tech-en-8-actualites"
  ],
  "episodes": [
+  {
+   "fiche": "la-rentree-de-la-tech-en-8-actualites.json",
+   "titre": "La rentrée de la tech en 8 actualités !",
+   "date": "Wed, 16 Sep 2026",
+   "date_iso": "2026-09-16",
+   "nb_outils": 3
+  },
   {
    "fiche": "episode-bonus-recap-saison-1-et-annonces.json",
    "titre": "Épisode BONUS : recap saison 1 et annonces",
@@ -12,5 +20,5 @@
    "nb_outils": 2
   }
  ],
- "maj": "2026-09-13T19:31:34Z"
+ "maj": "2026-09-20T19:47:16Z"
 }

@@ -1,0 +1,56 @@
+{
+ "podcast": "Acquired",
+ "slug": "acquired",
+ "titre": "The Home Depot",
+ "date": "Sun, 13 Sep 2026",
+ "date_iso": "2026-09-13",
+ "lien": "https://www.acquired.fm/episodes/home-depot",
+ "duree": "12902",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 19.3,
+ "taille_transcript": 215859,
+ "transcript": "the-home-depot-transcript.txt",
+ "nb_outils": 5,
+ "outils": {
+  "Bubble": [
+   "ing the price up. So, right. But the high level point is, despite revenue and profits and being up due to new store openings, we do not think the future of this company is brighter. Yep. And meanwhile, during this same period, again, this is as the US housing bubble is reaching its peak inflation. Lowe's stock price is up 200%. They're winning the housing bubble. The other thing we haven't talked about is he tried to bolt a lot onto this company. He was growing by acquisition and expanding into adjacencies and launching ",
+   " due to new store openings, we do not think the future of this company is brighter. Yep. And meanwhile, during this same period, again, this is as the US housing bubble is reaching its peak inflation. Lowe's stock price is up 200%. They're winning the housing bubble. The other thing we haven't talked about is he tried to bolt a lot onto this company. He was growing by acquisition and expanding into adjacencies and launching new business lines to create these new adjacencies versus just kind of investing in the core busin",
+   ", things got pretty low there, didn't they for a little while? Yes. Fortunately, there's a comeback story here too. So the thing that is the context of all of this, we're going to talk about all the personnel stuff and the culture change. In 2006, the housing bubble burst. Yep. I mean, we know of the great financial crisis in 2008, which is after this leadership transition, which was January of 2007. But if you go back to 2006, that is where you can see it in Home Depot's financials. Spending on home improvement supplies"
+  ],
+  "Claude": [
+   "e $350 billion dollar market cap company today. Except it's not exactly a straight line. Yes. There is a fall from Grace coming listeners before we get to the Home Depot of today. But first, now is a great time to thank our friends at anthropic, the makers of Claude. So David, anthropic published a number over the summer that I have not been able to stop thinking about since I saw it for the first time. They looked at 1.2 million Claude co-work sessions over the course of three weeks across a ton of companies, like 600,0",
+   "oday. But first, now is a great time to thank our friends at anthropic, the makers of Claude. So David, anthropic published a number over the summer that I have not been able to stop thinking about since I saw it for the first time. They looked at 1.2 million Claude co-work sessions over the course of three weeks across a ton of companies, like 600,000 organizations, software development, which I thought would be a huge part of it, was less than 9% of those sessions. I assumed it'd be way higher. I know the biggest categ",
+   "s should be putting on the shelves. And so there's a lot of use cases there for AI, even though almost none of them are writing code. Yep. These are all types of cases that require analysis and documents and spreadsheets all day long. And that is exactly what Claude co-work is built for on your desktop, working in your actual folders, not just a chat window. And that's the important part for you listeners. As is so often the case, you are waiting on engineering resources to free up in your company to build some tool no l"
+  ],
+  "Cursor": [
+   "ilding anymore. It's the part afterwards. Something breaks in production and you have to figure out what actually went wrong. That's what Century does for builders of every kind, from a solo founders side project to the engineering teams at anthropic, Vercel, cursor, linear, and GitHub. And when something does go wrong, Century shows you exactly what broke, which release it started in and where it is in the code. Then it hands that whole picture to whatever you build with Claude code or cursor or Century's own agent, see"
+  ],
+  "Slack": [
+   "concepts in this episode. You can join the email list at acquired.fm slash email. That's where we'll send out all the behind the scenes photos of research and past episode corrections and vote on future episode topics that is acquired.fm slash email. Join the slack, come discuss it with David and I at acquired.fm slash slack. And before we dive in, we want to thank our brand new presenting partner, Sierra. Yes, Sierra helps the great companies of the world build better customer experiences and drive stronger business ou",
+   "ired.fm slash email. That's where we'll send out all the behind the scenes photos of research and past episode corrections and vote on future episode topics that is acquired.fm slash email. Join the slack, come discuss it with David and I at acquired.fm slash slack. And before we dive in, we want to thank our brand new presenting partner, Sierra. Yes, Sierra helps the great companies of the world build better customer experiences and drive stronger business outcomes with AI. And we are so excited to be working with them",
+   "ations of key concepts. Join the email list, acquire dot FM slash email, where we send out behind the scenes photos from research, past episode corrections, and vote on future episode topics. And come talk about this with David, me, and the whole community in Slack at acquire dot FM slash Slack listeners with that. We will see you next time. We'll see you next time. Who got the truth? Is it you? Is it you? Is it you? Who got the truth now?"
+  ],
+  "Vercel": [
+   "isn't building anymore. It's the part afterwards. Something breaks in production and you have to figure out what actually went wrong. That's what Century does for builders of every kind, from a solo founders side project to the engineering teams at anthropic, Vercel, cursor, linear, and GitHub. And when something does go wrong, Century shows you exactly what broke, which release it started in and where it is in the code. Then it hands that whole picture to whatever you build with Claude code or cursor or Century's own ag"
+  ]
+ },
+ "mentions_publicitaires": {
+  "Claude": [
+   "he engineering teams at anthropic, Vercel, cursor, linear, and GitHub. And when something does go wrong, Century shows you exactly what broke, which release it started in and where it is in the code. Then it hands that whole picture to whatever you build with Claude code or cursor or Century's own agent, seer, which finds the root cause and opens a PR for humans to review. Century is where software gets fixed with over 200,000 organizations running on it. So you can check out sentry.io slash acquired to get started. All "
+  ],
+  "Claude Code": [
+   "he engineering teams at anthropic, Vercel, cursor, linear, and GitHub. And when something does go wrong, Century shows you exactly what broke, which release it started in and where it is in the code. Then it hands that whole picture to whatever you build with Claude code or cursor or Century's own agent, seer, which finds the root cause and opens a PR for humans to review. Century is where software gets fixed with over 200,000 organizations running on it. So you can check out sentry.io slash acquired to get started. All right"
+  ],
+  "Cursor": [
+   "he dining room, which permissions tell you what an agent can do. WorkOS Airlock checks it was actually asked to do it. Turns out those are very different questions. Getting agent identity right is how you get in the door with enterprises now. It is why OpenAI cursor perplexity and friends of the show at Sierra and anthropic along with hundreds of other AI startups build on WorkOS. You can learn more at WorkOS.com and just tell them that Ben and David sent you. All right. So how is this company born in Atlanta so far? We'",
+   "teams at anthropic, Vercel, cursor, linear, and GitHub. And when something does go wrong, Century shows you exactly what broke, which release it started in and where it is in the code. Then it hands that whole picture to whatever you build with Claude code or cursor or Century's own agent, seer, which finds the root cause and opens a PR for humans to review. Century is where software gets fixed with over 200,000 organizations running on it. So you can check out sentry.io slash acquired to get started. All right, David, t"
+  ],
+  "Perplexity": [
+   "ng room, which permissions tell you what an agent can do. WorkOS Airlock checks it was actually asked to do it. Turns out those are very different questions. Getting agent identity right is how you get in the door with enterprises now. It is why OpenAI cursor perplexity and friends of the show at Sierra and anthropic along with hundreds of other AI startups build on WorkOS. You can learn more at WorkOS.com and just tell them that Ben and David sent you. All right. So how is this company born in Atlanta so far? We've been tal"
+  ],
+  "Sentry": [
+   "ole picture to whatever you build with Claude code or cursor or Century's own agent, seer, which finds the root cause and opens a PR for humans to review. Century is where software gets fixed with over 200,000 organizations running on it. So you can check out sentry.io slash acquired to get started. All right, David, the saving of Home Depot, man, things got pretty low there, didn't they for a little while? Yes. Fortunately, there's a comeback story here too. So the thing that is the context of all of this, we're going t"
+  ]
+ }
+}

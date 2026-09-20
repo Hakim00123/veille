@@ -16,9 +16,33 @@
   "how-to-naturally-monetize-what-you-love",
   "7-things-mrbeast-bezos-thiel-do-that-you-don-t",
   "decoding-tony-hawk-s-mindset-in-72-minutes",
-  "how-we-scaled-to-100m-in-under-a-year-ft-im8-co-founder-danny-yeung"
+  "how-we-scaled-to-100m-in-under-a-year-ft-im8-co-founder-danny-yeung",
+  "coach-for-spacex-openai-destroys-your-limiting-beliefs-for-88-minutes-",
+  "i-got-internet-famous-if-i-started-again-from-scratch-here-s-what-i-d-",
+  "david-rubenstein-we-took-5m-and-turned-it-into-500b"
  ],
  "episodes": [
+  {
+   "fiche": "coach-for-spacex-openai-destroys-your-limiting-beliefs-for-88-minutes-.json",
+   "titre": "Coach for SpaceX & OpenAI destroys your limiting beliefs for 88 minutes straight",
+   "date": "Fri, 18 Sep 2026",
+   "date_iso": "2026-09-18",
+   "nb_outils": 4
+  },
+  {
+   "fiche": "i-got-internet-famous-if-i-started-again-from-scratch-here-s-what-i-d-.json",
+   "titre": "i got internet famous... if i started again from scratch, here's what I'd do this time",
+   "date": "Wed, 16 Sep 2026",
+   "date_iso": "2026-09-16",
+   "nb_outils": 2
+  },
+  {
+   "fiche": "david-rubenstein-we-took-5m-and-turned-it-into-500b.json",
+   "titre": "David Rubenstein: We took $5M and turned it into $500B",
+   "date": "Mon, 14 Sep 2026",
+   "date_iso": "2026-09-14",
+   "nb_outils": 4
+  },
   {
    "fiche": "decoding-tony-hawk-s-mindset-in-72-minutes.json",
    "titre": "Decoding Tony Hawk’s mindset in 72 minutes",
@@ -132,5 +156,5 @@
    "nb_outils": 3
   }
  ],
- "maj": "2026-09-13T19:31:31Z"
+ "maj": "2026-09-20T19:47:11Z"
 }

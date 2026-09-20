@@ -26,9 +26,33 @@
   "fei-fei-li-the-race-to-build-world-models-for-ai",
   "world-models-robotics-and-the-future-of-3d-ai",
   "why-companies-are-becoming-a-series-of-loops-anish-acharya-on-lenny-s-",
-  "what-it-takes-to-build-a-startup-andrew-chen-matt-perault"
+  "what-it-takes-to-build-a-startup-andrew-chen-matt-perault",
+  "nas-grandmaster-caz-steve-stoute-ben-horowitz-on-paying-hip-hop-s-pion",
+  "what-makes-a-consumer-ai-product-stick-josh-elman",
+  "databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise"
  ],
  "episodes": [
+  {
+   "fiche": "nas-grandmaster-caz-steve-stoute-ben-horowitz-on-paying-hip-hop-s-pion.json",
+   "titre": "Nas, Grandmaster Caz, Steve Stoute & Ben Horowitz on Paying Hip-Hop’s Pioneers Their Due",
+   "date": "Sun, 20 Sep 2026",
+   "date_iso": "2026-09-20",
+   "nb_outils": 0
+  },
+  {
+   "fiche": "what-makes-a-consumer-ai-product-stick-josh-elman.json",
+   "titre": "What Makes a Consumer AI Product Stick? | Josh Elman",
+   "date": "Sat, 19 Sep 2026",
+   "date_iso": "2026-09-19",
+   "nb_outils": 3
+  },
+  {
+   "fiche": "databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise.json",
+   "titre": "Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
+   "date": "Fri, 18 Sep 2026",
+   "date_iso": "2026-09-18",
+   "nb_outils": 5
+  },
   {
    "fiche": "world-models-robotics-and-the-future-of-3d-ai.json",
    "titre": "World Models, Robotics, and the Future of 3D AI",
@@ -212,5 +236,5 @@
    "nb_outils": 2
   }
  ],
- "maj": "2026-09-13T19:31:28Z"
+ "maj": "2026-09-20T19:47:07Z"
 }

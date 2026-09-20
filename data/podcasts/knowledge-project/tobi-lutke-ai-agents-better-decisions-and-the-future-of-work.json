@@ -1,0 +1,40 @@
+{
+ "podcast": "The Knowledge Project",
+ "slug": "knowledge-project",
+ "titre": "Tobi Lütke: AI Agents, Better Decisions, and the Future of Work",
+ "date": "Tue, 15 Sep 2026",
+ "date_iso": "2026-09-15",
+ "lien": "",
+ "duree": "3948",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 5.7,
+ "taille_transcript": 64702,
+ "transcript": "tobi-lutke-ai-agents-better-decisions-and-the-future-of-work-transcript.txt",
+ "nb_outils": 5,
+ "outils": {
+  "Apollo": [
+   "matters, I think, because we discard great lessons and have to rediscover them over and over and over again. For instance, like, probably the best idea of all times in the earliest moments of operating system design was a file system. Like, if you look at the Apollo guidance computers, we didn't have file systems, right? Like, memory, in fact, because of radiation space, was actually encoded in as a rope with knots in it. Either a knot or no knot for once in zeros, and you had to pull through a thing to reboot strap the "
+  ],
+  "Claude": [
+   ", there's like this weird, um, especially clothisms, which are really common. And I've seen them, I've seen people type them. I always liked the term Lordbearing, but I'm pretty sure I didn't say it as much as now, because like, it's definitely something that Claude loves to use this language. Every few years, a new platform earns its place at the top of every smart advertiser's media plan. The people who find it early build advantages that are very hard to close. Apple Oven just had the most remarkable run in ad tech hi"
+  ],
+  "Missive": [
+   ", fuck. So now you put it in LLM to compress it again, which is like, okay, why did we invent decompression and recompression? I guess this is terrible. If you're already using LLM, just use it to synthesize your point, simply rather than blow it up as a big, missive that man wastes my time, right? So because of slob crannets that people trust at each other. And that's definitely a bad thing. Do you think like repeated exposure to AI slob impacts our ability on taste or intangible things? I think our language is shifting "
+  ],
+  "Shopify": [
+   ". You cannot make things better and better by adding stuff. You can't. You must prune. You must rebuild. You must create an end for things. Toby, welcome back. Shane, it's so good to be back. I'm glad we're doing this again. How are you using AI internally at Shopify? We find some ways for it to be supportive now. It's actually, look, when have we worked hard last time? Oh, we've worked it like two, three years ago. Yeah, so 100 years of internet. Like, look, I'm 10 out of 10 node. I cannot be of idea of somehow not being",
+   "things. Anyone growing up reading sci-fi books wanted to live, might take from sci-fi books I read was like, I wanted to live in that world. Like, how can I accelerate us there? Right? So, you know, even in whatever minor steps we can get there. So, inside of Shopify, the amount of people I now who really write code is like vanishingly small now. It still exists at the limits of complexity, for sure. And obviously in the reviews and so on and then state management of all things, it seems to be, remains to be the thing tha",
+   "f complexity, for sure. And obviously in the reviews and so on and then state management of all things, it seems to be, remains to be the thing that's really the hardest to get right, which people do by hand and then sort of vibe the rest around it. Inside of Shopify, this is what things look like. Very, very few people are writing code directly. Everyone who does does it deeply assisted by many agents. They often, 10, 20, 30, 40, 50 instances of them, all through either subagents or just different windows, coordinating, "
+  ],
+  "Toronto. I": [
+   " which by definition is something smarter than us, and then have the hubris to think that we can contain it and shape it, manipulate it? So, okay, super intelligence. Let's talk about this. My take and push back. I'm not going to go where you think I'm going. I live in Toronto. I have a house and which I very like, and I feel this is my house and I take pride in that it's you know, well functioning, because then something goes wrong, like, I know, some HVAC problem or some plumbing issue. I caught some of those, which allows me to keep my illusion th"
+  ]
+ },
+ "mentions_publicitaires": {
+  "Shopify": [
+   "th bespoke solutions for your biggest challenges and opportunities. We know all businesses are different, and that's why we approach business differently. Reimagine business as usual. KeyBank opens doors. Learn more at key.com slash b2b. Is there something in Shopify you've made more beautiful, even though nothing would support that? Oh, that's an entire job. You are not a crafts person unless you care about the parts of products that other people don't see. Like the architecture of it, the pros, the legibility. I mean, t",
+   "utiful, even though nothing would support that? Oh, that's an entire job. You are not a crafts person unless you care about the parts of products that other people don't see. Like the architecture of it, the pros, the legibility. I mean, these days, I look at Shopify of pre 2020, like two, 2020, three, and say, man, this is like tens of millions of lines of handcrafted code, as it will never exist again. We had to build this entire system by hand, line by line, and we did it by talking a lot about beauty and what is beaut"
+  ]
+ }
+}

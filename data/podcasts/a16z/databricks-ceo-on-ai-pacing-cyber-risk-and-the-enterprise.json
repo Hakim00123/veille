@@ -1,0 +1,36 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
+ "date": "Fri, 18 Sep 2026",
+ "date_iso": "2026-09-18",
+ "lien": "https://a16z.simplecast.com/episodes/databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise-QM1oJt1I",
+ "duree": "01:08:34",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 8.4,
+ "taille_transcript": 93157,
+ "transcript": "databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise-transcript.txt",
+ "nb_outils": 5,
+ "outils": {
+  "Databricks": [
+   " last week said that they're moving from the frontier models to GLM. Do you think that that's a trend? Do you think that's just like a one-off anecdote? AI may already be smart enough for the enterprise. The problem is that it doesn't understand your company. Databricks CEO Ali Godse joins A16Z, Martin Casado, and Sarah Wei to discuss what's actually holding back AI adoption and why the answer may have less to do with building smarter models and more to do with giving them the right context. They also debate the push to pace",
+   "and where the risks are real today. Ali argues that superintelligence remains far from what we currently see. While cybersecurity is an immediate problem as agents make attacks faster and harder for human security teams to keep up with. And they get into what Databricks has learned using AI internally, from building an organizational ontology to managing token costs and choosing different models for different jobs. Thank you for being here, Ali. Super excited. So we obviously want to get to Databricks, but there is a broader",
+   " And they get into what Databricks has learned using AI internally, from building an organizational ontology to managing token costs and choosing different models for different jobs. Thank you for being here, Ali. Super excited. So we obviously want to get to Databricks, but there is a broader conversation going on right now about AI. And Dario's waiting, Yafob's waiting, Elon's waiting, but we want to hear what Ali Godse thinks. In terms of, you know, if you called the topic broadly speaking, pacing the frontier, et cetera,"
+  ],
+  "Excel": [
+   "ntology. Why? Because, you know, what happens in a meeting? In a meeting, you go through some, you know, someone has done the analysis. You're probably at a PowerPoint deck with some pretty graphs in it. That person did analysis is some smart person that used Excel, made some models, there's some numerical. So a lot of that you can now just do with AI. So the AI can do the analysis for you. It has all the context. It can present it in a way that you want. You can ask questions about it. Instead of having follow-up meeti"
+  ],
+  "Gemini": [
+   "ew quarters ahead of folks to see what was happening here. And it was getting out of hand. So we already had a gateway. So it's called the gateway where we were already, this gateway was being used to provide token capacity. So you can get open AI, anthropic, Gemini, Grok capacity, like any customer can come to us and we'll just provide them the capacity because we have relationship with those and any open source model. So we started putting in budget constraints in place and giving people warnings like, okay, you have t"
+  ],
+  "Hugging Face": [
+   "ple. So like, I'm not going to stop unilaterally. That'll be a sucker, you know, why don't you stop first? You know, so then they're saying, Hey, can you come in and stop us? But, you know, I think that you could also make the argument that if you look at the hugging face opening incident, that by the way, I think these companies are great. And I think they are probably investing a lot of resources, but it's very clear from if you read what happened is that there weren't monitoring every token coming out and having it, you kno",
+   " in and checking up with what happened. So they should have paced. They should have been much slower in that particular incident, right? I said, I just don't want to just quibble on some on on on syntax, but like words matter with PR, right? So let's take the hugging face incident. Yeah. When I read that, you know, you know, my reaction was was not, Oh, opening I should pace. I was like, dude, fucking secure your thing, right? Like do security controls like we always have done, like it is facing though. It is facing like it is"
+  ],
+  "Merck. It": [
+   ". So, yeah, that's all, yeah, it's an AI use case, you know, built on Databricks, so it's a cool one, but there's more advanced ones also. Like one that I kind of like, but it's harder to maybe explain is this model that we built, a transformer based model we built with Merck. It's called Teddy, transformer enhanced drug discovery. It's done it. Yeah. So, and they published actually the research so you can, you can check it out. But it basically is a model instead of predicting the next token in English, it predicts what the gene regu"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

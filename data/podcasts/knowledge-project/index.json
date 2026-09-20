@@ -4,9 +4,17 @@
   "john-d-rockefeller-the-principles-behind-the-greatest-fortune-in-histo",
   "the-mindset-behind-building-billion-dollar-companies-brad-jacobs",
   "roblox-ceo-how-to-make-better-decisions-by-fixing-yourself-first",
-  "what-12-years-of-failure-taught-steve-jobs-about-success"
+  "what-12-years-of-failure-taught-steve-jobs-about-success",
+  "tobi-lutke-ai-agents-better-decisions-and-the-future-of-work"
  ],
  "episodes": [
+  {
+   "fiche": "tobi-lutke-ai-agents-better-decisions-and-the-future-of-work.json",
+   "titre": "Tobi Lütke: AI Agents, Better Decisions, and the Future of Work",
+   "date": "Tue, 15 Sep 2026",
+   "date_iso": "2026-09-15",
+   "nb_outils": 5
+  },
   {
    "fiche": "what-12-years-of-failure-taught-steve-jobs-about-success.json",
    "titre": "What 12 Years of Failure Taught Steve Jobs About Success",
@@ -36,5 +44,5 @@
    "nb_outils": 0
   }
  ],
- "maj": "2026-09-13T19:31:32Z"
+ "maj": "2026-09-20T19:47:13Z"
 }

@@ -1,0 +1,31 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "What Makes a Consumer AI Product Stick? | Josh Elman",
+ "date": "Sat, 19 Sep 2026",
+ "date_iso": "2026-09-19",
+ "lien": "https://a16z.simplecast.com/episodes/what-makes-a-consumer-ai-product-stick-josh-elman-xHQUEG_W",
+ "duree": "01:00:18",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 6.6,
+ "taille_transcript": 74390,
+ "transcript": "what-makes-a-consumer-ai-product-stick-josh-elman-transcript.txt",
+ "nb_outils": 3,
+ "outils": {
+  "Claude": [
+   "o. And even, you know, if I haven't called my mom in a week, reminds me to do that. I'm usually pretty good. Super fascinating. It makes you think, though, what type of platform can actually create this? Is it one with existing distribution, the likes of GPT, Claude? Are you going to enter this space? Is this going to be very difficult? I think for a new very small startup to measure into this category, they did not the distribution these am what those have. But I think it's going to be piece by piece. I'm a big believer"
+  ],
+  "Discord": [
+   "I've been super surprised about to go on this is we've had all of this amazing technology emerge in the last couple of years. But we haven't seen any new social media networks, sites emerge. You've worked at LinkedIn, you've worked at Facebook, you've been at Discord on their board. You've also been an ex and maybe a bunch of others I'm missing. Why haven't we had a new social network in the last few years? It's a great question. And I think in some ways, we haven't needed to. The social networks we have are at billions a",
+   "ssing. Why haven't we had a new social network in the last few years? It's a great question. And I think in some ways, we haven't needed to. The social networks we have are at billions and billions of users, or hundreds and hundreds of millions. You mentioned Discord and Musically, which Musically became TikTok, both really started growing in 2015. That was the year that I got to invest in both of them in those early days. And we had to navigate this question even in 2015. Well, we already had Instagram and Facebook and W",
+   " 2015. That was the year that I got to invest in both of them in those early days. And we had to navigate this question even in 2015. Well, we already had Instagram and Facebook and WhatsApp and Twitter and LinkedIn in 2015. Why would we even need things like Discord, Musically, and they both solved a very different problem in our lives? Discord was great for people who were trying to come together to play games and engage. Musically, it was great for people who had to actually tell stories and view stories from other peo"
+  ],
+  "Gemini": [
+   "enon. We're seeing people use AI to help them build spreadsheets, analyze documents, do research, and it's truly making work more and more productive. When I look at consumers, we are very, very early. Most consumers are, a lot of people are using chatubt and Gemini and other things and they've used them to kind of run searches more effectively instead of running a search and clicking on every single link to read the pages, you can get a better synthesized answer. People use this for homework. Some of them use them to co",
+   "he mainstream will have a fundamental tenet of trust. And just the way we search for items or things for online now for research, like I didn't know when the last time you Google something, but I haven't Google something in ages, I go to cool, do I go to GPT, Gemini sometimes with different things, the fundamental way we search for online now has run the API change forever. It's a great point. I think Google for a search when I kind of know what I want, but I don't quite know and I want to describe it, it's hard to get e",
+   "run the API change forever. It's a great point. I think Google for a search when I kind of know what I want, but I don't quite know and I want to describe it, it's hard to get exactly what I want out of that. And I personally find myself going to touch EBT or Gemini as a starting point for a lot of these conversations. I was recently looking for a keychain that makes it really easy to split for when I have to park at a valet garage and then put it back together. And I was having so much trouble on Google trying to find s"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

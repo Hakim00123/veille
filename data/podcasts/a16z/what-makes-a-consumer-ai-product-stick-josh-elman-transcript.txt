@@ -1,0 +1,818 @@
+The a16z Show
+What Makes a Consumer AI Product Stick? | Josh Elman
+Sat, 19 Sep 2026
+https://a16z.simplecast.com/episodes/what-makes-a-consumer-ai-product-stick-josh-elman-xHQUEG_W
+
+[00:00] It's never been easier to get consumers' attention.
+[00:02] What's harder, I think, is getting me not just to try something, but to actually stick.
+[00:07] It has to be such a good product doing that one thing really well out of the box that I
+[00:12] either stop doing something else or I turn more behaviors over to it and we have a lot
+[00:16] that we already have in our digital life.
+[00:18] So now as a product, you have to figure out some new wedge into some of these digital life
+[00:22] and then becoming so good that it becomes a habit and that you can pull other people
+[00:26] and things that I look for in a product are where it has a really clear value that you can
+[00:31] describe to somebody.
+[00:32] If you want to become a very big company, you have to start by it.
+[00:35] It's never been easier to get consumers' attention.
+[00:38] The hard part is getting them to stick.
+[00:41] In this episode, A16Z Partner Josh Elman joins Ali Forsyth on new economies.
+[00:46] To discuss what it takes to build a lasting consumer product in the AI era, Josh explains
+[00:51] why the best products start by doing one thing exceptionally well, become a habit, and then
+[00:56] earn the right to do more.
+[00:58] They also discuss why trust could become increasingly important as AI moves deeper into our lives,
+[01:03] from shopping and entertainment to personal agents that know our preferences and act
+[01:07] on our behalf.
+[01:09] They also look at what might come after today's social networks, how AI could bring people
+[01:13] together rather than replace human connection, and the signals Josh looks for when deciding
+[01:18] whether a new consumer product can actually last.
+[01:22] Hey Josh, welcome to new economies.
+[01:26] Thank you so much for being here.
+[01:27] Ali, thanks so much for having me.
+[01:29] I can't wait.
+[01:30] I'm super excited to have you here today, as you are our fifth partner from A16Z to join
+[01:35] the show.
+[01:36] We've had the likes of Justine Moore, Anisha Acharya, Adiyaha, David Heiber, and now you.
+[01:43] So I'm super excited to have you here, so thank you so much for joining us.
+[01:46] You know, when I was thinking about the title for today's episode, there is so much happening
+[01:50] in a consumer tech and can't wait to dive in more with you.
+[01:55] And this all off with the basics, you've actually been on the investment side, you've
+[01:58] been the founder side, the operator side, now it's kind of like come full circle.
+[02:03] Why are you back in investing modes?
+[02:06] You know, when I think about a lot of my career, when I got started in the late 90s, it was
+[02:10] the dawn of the internet.
+[02:12] And this idea that we could make products that could change the world, that could get into
+[02:15] hundreds of millions of people's hands and help them have a better life was so exciting
+[02:20] to me.
+[02:21] And I've kind of had this amazing career of doing it and I've always tried to find the right
+[02:24] place.
+[02:25] Sometimes it's been diving in and working on something that I was so passionate about that
+[02:28] I wanted to help bring to the world.
+[02:30] Sometimes it was, you know, in 2011, I had already been worked at LinkedIn, Facebook and
+[02:36] Twitter.
+[02:37] And I thought, wow, maybe there's a great opportunity for me to help the next wave of
+[02:40] companies.
+[02:41] And so I became a VC and got to invest in a lot of the next wave of the mobile internet and
+[02:45] the social internet.
+[02:46] And by eight years ago, I was like, maybe my best times will be spent helping build
+[02:50] companies again.
+[02:51] And I went back and I joined Robinhood and then I spent the last many years at Apple.
+[02:56] And then starting this year, I was so excited for what we were doing at Apple and we were
+[03:00] kind of bringing out this new version of Siri, Siri AI.
+[03:02] But at the same time, I was like, we're about at the beginning of a Cambrian explosion of
+[03:07] new consumer experiences around AI.
+[03:09] Now is the time I really believed it could happen.
+[03:11] And I felt like in my career, I have one more path.
+[03:14] I want to get back on the side of founders, I want to help founders create incredible companies.
+[03:18] And I thought, you know, at this point, what better firm to do this in the consumer world
+[03:23] than Andreessen Horowitz and was lucky enough to have known people like Anish for a very,
+[03:27] very long time and brought me in to help kind of get excited about this next wave.
+[03:33] You know, the rules of consumer tech have changed so much now.
+[03:35] And you mentioned a little bit around the different types of experiences that consumers
+[03:39] are now experiencing versus maybe even five years ago.
+[03:43] Can we maybe do a comparison without the new consumer experiences five years ago versus
+[03:47] what they are today?
+[03:49] Five years ago is a really interesting time because that was the heart of COVID five or six years
+[03:52] ago.
+[03:53] And I like to say, in the period of COVID, we realized just how much time we can spend online
+[03:58] and where our limits are, because we had nothing else to do.
+[04:00] We were on video calls, which normalized video calls that used to be kind of a weird thing
+[04:05] for someone to propose getting on a video call, it's become something that makes sense when
+[04:09] it makes sense when we can't be physically in person.
+[04:12] We had so much sharing going on.
+[04:14] We saw massive rises in gaming, both mobile gaming, social gaming, where we all play together.
+[04:19] Roblox has been an incredible phenomenon that's continued growing through that.
+[04:23] And we saw so many companies, but I almost say they kind of hit a cap and we realized that
+[04:27] we still need time for ourselves in the world.
+[04:31] And as COVID sort of relaxed and people felt more comfortable getting out in the world,
+[04:35] we've kind of seen this rebalance where a lot of things had happened, we're still spending
+[04:39] time on.
+[04:41] Now, we want to be more in the world and we actually, with this incredible rise of AI,
+[04:47] we want things that help us actually be more present in the world.
+[04:50] What's incredible at AI right now is there's all these new tools that can help us get things
+[04:54] done so we can do more of what we want to do, whether those are agents, whether those are
+[04:58] personal agents, obviously a lot of work and productivity tools.
+[05:03] And we're just at the cusp of what I think we're going to be able to use AI for.
+[05:06] And I think all of it's going to be like this period of coming out of COVID, giving us more
+[05:10] time to experience things and do the things we really want to be doing.
+[05:13] I think AI has obviously changed completely how we're going to work and live in the future
+[05:17] forever.
+[05:18] But I'll see, sometimes I think Washi pretty far ahead with AI already.
+[05:23] Some people I speak to, we're just scratching the surface.
+[05:26] Where are we on this incredible journey for AI, especially for consumers?
+[05:29] I mean, I think there's three different buckets of people.
+[05:32] I think for early adopters, what people are exploring and seeing in Silicon Valley, we've
+[05:36] got people who are truly living at the edge.
+[05:38] They have AI, managing their lives, managing their work.
+[05:42] Developers who are used to writing lines of code manually don't have to do that anymore.
+[05:46] They get direct swarms of agents to write things for them with open claw and Hermes agents
+[05:52] and other things like that that have come out over the past year, six months or eight
+[05:56] months really.
+[05:57] People are now getting things done in ways in their tasks that they can never imagine.
+[06:01] If you then go to the workforce, we're seeing a whole bunch of tools truly enter the workforce.
+[06:05] Obviously, AI coding is a massive phenomenon.
+[06:08] We're seeing people use AI to help them build spreadsheets, analyze documents, do research,
+[06:13] and it's truly making work more and more productive.
+[06:15] When I look at consumers, we are very, very early.
+[06:20] Most consumers are, a lot of people are using chatubt and Gemini and other things and they've
+[06:24] used them to kind of run searches more effectively instead of running a search and clicking on
+[06:28] every single link to read the pages, you can get a better synthesized answer.
+[06:32] People use this for homework.
+[06:34] Some of them use them to consult and brainstorm on things for their financial problems or financial
+[06:39] opportunities or legal challenges or simple things they're working through just if you
+[06:44] want to write a hard email.
+[06:45] AI is this great new consultant to do that.
+[06:48] But in terms of really transforming their lives and this new wave of either productivity
+[06:52] or experiencing more things, we're barely scratching the surface.
+[06:56] On the same time, on the entertainment side, there's a lot of questions about where does
+[07:00] AI fit in to the future of entertainment.
+[07:03] People want great stories and they want to just consume them wherever they come from.
+[07:06] But we're seeing a lot of interesting things happen as AI becomes either a tool for that
+[07:11] or create some challenges with the way that we're traditionally telling stories.
+[07:15] I love to hear your takeout.
+[07:16] I actually love all of those points.
+[07:18] I kind of think this year has been the main break for year for AI, especially for consumers.
+[07:24] You know, GBT now 900 million weekly active users, this thing only launched four and a half
+[07:30] years ago.
+[07:31] And if we just question and service here, you know, it can now do code for us, all the things
+[07:35] you just mentioned, like writing emails, giving it our transcripts, figuring out what to cook,
+[07:41] like got a bunch of things in the fridge, like what can I do use for it, where to go on
+[07:45] the call spots on the weekends, you know, this is just scratching the surface, right?
+[07:49] What do you think comes next?
+[07:51] If we've already experienced this in the last four and a half years, I kind of think of
+[07:55] these iterations as product updates, right?
+[07:56] You're at Apple.
+[07:57] It's a lot to obviously like, yeah, how high you spent your time there, having you iPhone
+[08:02] once a year, we can't do that with AI.
+[08:05] Updates happened every few weeks.
+[08:06] I think we're in this really interesting moment in time where the people who've been living
+[08:12] and breathing this AI world wonder why everybody else isn't on that cycle and cadence of updating.
+[08:18] But I really think it started at the beginning of this year or late last year.
+[08:21] The models got so much better towards the end of last year that they could do long running
+[08:24] tasks.
+[08:25] They could actually have loops of improvement, agent tasks finally started to work, and the
+[08:31] coding and envisioning of something got so much better, and that class of models resulted
+[08:36] in something like Open Claw that one person wrote by himself almost in his apartment and
+[08:43] came up with a whole new way of interacting with models and ways that models could remember
+[08:47] things in skills files and put all of that together in this modern experience that showed the
+[08:52] people who are very deep in AI, how different it could be.
+[08:56] And since then, we've obviously been on this race to try to bring this to so many people.
+[09:00] But you talked about this cycle of adoption.
+[09:02] And we sometimes when we're living in this AI world, it's breathless and you can keep
+[09:06] trying new things and every week a new model comes out and you want to see how that compares
+[09:09] to the other ones.
+[09:10] And a new incredible app comes out that everybody wants to try and see what it can agentically
+[09:14] do for you.
+[09:15] There's been a few hot ones even in the past couple of weeks that people are having incredible
+[09:18] experiences in the tech world that weren't possible before.
+[09:22] But to really bring this to consumers, it's going to take a more measured pace.
+[09:26] We have to bring people step by step into understanding what does it mean to have AI doing things
+[09:31] for you?
+[09:32] What does trust mean here?
+[09:33] You're asking it to have my credit card, take care of things, understand my life?
+[09:38] How do we build trust and privacy in?
+[09:40] And you talk about how Apple kind of ships a new version of the software and the hardware
+[09:44] yearly.
+[09:45] And it's incredible motion to bring people along on this journey.
+[09:49] And sometimes I always wonder how much faster are people really ready to keep changing their
+[09:52] lives up?
+[09:53] And they bet on one thing and then they're wrong two months later and they have to change
+[09:56] everything.
+[09:57] A lot of regular consumers who are just trying to get through their lives, their jobs, maybe
+[10:02] things that aren't as immediately impacted by AI aren't necessarily at that same pace.
+[10:07] So I'm looking for those companies and those founders that can bring people really on that
+[10:11] journey.
+[10:12] You mentioned trust size, you've been in trust as a new big mode for consumer AI apps and
+[10:17] companies.
+[10:18] I mean, I think in these early days of adoption, utility often trumps trust.
+[10:24] People will try new things and they'll experiment with it.
+[10:27] But if you truly want to break into the mainstream and really get to the hundreds of millions
+[10:30] or billions, trust ends up becoming paramount.
+[10:34] And the seriousness of a company and how it doesn't want your data to make itself better
+[10:39] and trade that with other people, but wants your data only in order to help give you a
+[10:44] better experience becomes important dividing lines.
+[10:47] I think the things that will break into the mainstream will have a fundamental tenet of
+[10:52] trust.
+[10:53] And just the way we search for items or things for online now for research, like I didn't know
+[10:59] when the last time you Google something, but I haven't Google something in ages, I go to
+[11:03] cool, do I go to GPT, Gemini sometimes with different things, the fundamental way we search
+[11:09] for online now has run the API change forever.
+[11:13] It's a great point.
+[11:14] I think Google for a search when I kind of know what I want, but I don't quite know and
+[11:18] I want to describe it, it's hard to get exactly what I want out of that.
+[11:22] And I personally find myself going to touch EBT or Gemini as a starting point for a lot
+[11:26] of these conversations.
+[11:27] I was recently looking for a keychain that makes it really easy to split for when I have
+[11:32] to park at a valet garage and then put it back together.
+[11:35] And I was having so much trouble on Google trying to find something on Amazon, trying
+[11:39] to find something.
+[11:40] And I went to touch EBT and started having this great conversation.
+[11:43] And it found me a bunch of, it kind of described me a bunch of the different attachments and
+[11:47] the way that they could connect and easily break a bunch of the ways that those either had
+[11:51] maintenance problems or the ones that were most likely to be durable over the years.
+[11:55] And then I said, and I really want one that's made in America and help me find just
+[11:58] the right one that was made by a store in Michigan.
+[12:02] And so it was kind of this incredible journey that it was a conversation about shopping.
+[12:06] Not googling, clicking on links and having to do all the work myself.
+[12:10] And I think that experience is just one of so many, but there's still so many ways that
+[12:15] I could have productized that to be a lot better experience.
+[12:18] And still I kind of still wanted a chance to browse at the end of my journey and chat
+[12:22] to EBT had kind of helped me narrow on like one option.
+[12:25] And I really still wanted now that shopping browse experience, but with all of my conditions
+[12:29] laid out.
+[12:30] And then I could really kind of explore from like the perfect set of options.
+[12:34] When we think about those new experiences for shopping online, you know, especially for
+[12:38] these AI models, what would you like to see that still hasn't emerged yet?
+[12:42] You know, you spend 10 years at Apple, so you've probably got a whole bunch of ideas, right?
+[12:45] It's on how you can make this product so much better because right now it is still pretty
+[12:49] basic.
+[12:50] It's only six and a half, not quite six years at Apple, but it was an incredible time
+[12:54] there.
+[12:55] But when I think about shopping, what's really interesting is the best experience is when
+[13:00] you can have a concierge experience at a store and you have somebody who's a true expert.
+[13:04] They're guiding you, commenting on maybe what looks great, helping you try different things
+[13:09] on.
+[13:10] And even better is when you know that their only incentive is your success.
+[13:13] Their incentive is not to get you to spend the most money or buy something where they get
+[13:17] a kickback, but it's truly that guidance in helping you.
+[13:22] And I'm really excited to find the companies that can sort of bring us that experience, but
+[13:26] using AI to actually simplify from the vast array of options, but it's truly on our side
+[13:32] and it's something that we learn to trust because it has our best interests and all of our questions.
+[13:37] And I'm very happy to, you know, try something on, take a picture, take a picture of stuff
+[13:41] I have that I want to upgrade and have AI comment on that and make it better.
+[13:45] This thing I'm wearing, I actually designed completely with AI, where I said I wanted
+[13:48] a new black polo sweater and it actually helped me figure out the design and went in, actually
+[13:54] had a manufactured for me in China.
+[13:56] And so I'm so excited by sort of all of these ways that we can improve the experience, but
+[14:02] it truly has to be something that's on my side.
+[14:04] Thank you all, Chef.
+[14:05] PC doesn't work out for you.
+[14:06] I'm sure I will, but you could always become a fashion designer.
+[14:09] That was pretty good.
+[14:11] I treated all to the tool.
+[14:12] I just described what I wanted and it did an amazing job for me.
+[14:15] But I think in a grocery show, you know, this is how far we have come in and for in
+[14:18] the half years, the next even 12 months, I think it's going to be incredibly exciting.
+[14:24] And there's some of the trends you're already excited about coming from a consumer lens,
+[14:28] that you're already excited to see in startups and hopefully back them.
+[14:34] There's so many ways that AI is going to reinvent the experiences that we do every day.
+[14:38] I mean, it almost goes from anything, you know, I start with being really excited about the
+[14:42] personal agent that is sort of the thing in my corner that I can rely on when I'm trying
+[14:47] to figure out what to do this weekend, maybe scheduling appointments or helping me monitor
+[14:52] my health, whether it's helping me think about my finances and whether there's opportunities
+[14:57] I'm missing out, whether it's just simply checking in and making sure I've had a good
+[15:01] day and seeing if there's anything I need to just do that's on my mind, that moment of
+[15:06] something even just checking in with you can either be naggy if done poorly, but amazing
+[15:11] when done right.
+[15:12] And it feels like it's really on your side and it's helping you think through things.
+[15:16] So this area of personal agents and I went through a few of the verticals to things like
+[15:20] health and finances and setting your goals and helping you kind of get through your day
+[15:25] better.
+[15:26] Maybe it's helping you shop and make sure you have the right amount of food at home that
+[15:30] you need.
+[15:31] Maybe it's helping you plan something fun because it can notice, hey, this weekend you
+[15:36] have a lighter weekend and maybe it's time to go out and there's amazing weather and or
+[15:40] this incredible festival is happening.
+[15:43] That's one area of just these personal agents that become part of our lives that are very,
+[15:47] very different than all the work agents that are helping us work more productively.
+[15:51] The second area I get really excited about is a future of entertainment.
+[15:55] Right now, there's so many things to watch and things to experience, but you end up having
+[16:00] just consume and absorb and what's really fun is when media is interactive and exciting
+[16:06] and it's your world and when you're watching a story, one of my favorite shows on is on
+[16:11] Apple TV.
+[16:12] It's called For All Mankind and there's so many times and I'm like, I would love to go deeper
+[16:17] on the backstory here or I would like to imagine if this happened instead now with AI, you could
+[16:22] imagine that any world that you're in, you can go much deeper, you can have these experiences
+[16:26] and even so I want to then be able to share them with somebody and that's sort of in the
+[16:29] fan fiction world, but you can do this even for new worlds and worlds that somebody else
+[16:34] creates and lets me start to experience and explore and add into.
+[16:38] I think of what Roblox has become as just an incredible phenomenon of all of these games
+[16:43] and all these shared experiences people have and I think that it's still very much kind
+[16:48] of in the game world and has a certain group that really enjoy Roblox and I think that opportunity
+[16:53] is even bigger for so many more types of generated experiences and we're going to have a world
+[16:59] of creators that can imagine these worlds that we then get to participate in and interact
+[17:04] in.
+[17:05] I think in terms of verticals, I mentioned health and finance, but I also believe in travel.
+[17:11] Right now, when you want to go somewhere, you are spending some of your hardest-earned
+[17:15] time and money to have a great experience and you don't always have full visibility in what's
+[17:20] there and you can't always express your own personal interests.
+[17:22] Having an expert that can actually help bridge that gap is an incredible opportunity.
+[17:27] I think the same thing is true for shopping, for fashion, for setting up your home, for
+[17:33] upgrading your home life in ways that you don't think about.
+[17:37] So this whole world of vertical services that are much more powered by AI and a very
+[17:44] different interaction model and very, very personalized to you.
+[17:48] Those are just some of the things I get really excited about.
+[17:50] I mean, there's so many more.
+[17:52] We talked about fashion and being able to actually have something made for you that you designed
+[17:56] in your mind, being able to connect with people in ways that AI facilitates.
+[18:02] It's like, I want to ask this question, but you can role play it with AI and then it might
+[18:06] actually do some of the work to go reach out on your behalf to some things and bring
+[18:10] you back answers before you actually then go have the human connection.
+[18:13] I don't want to add a replaced human connection, but anything it can do to get me closer to
+[18:18] having even better, more impactful human moments is going to be incredible.
+[18:23] I love all of these trends.
+[18:24] One, you mentioned that shopping, one of your companies is what not.
+[18:27] I'd be very honest, when I saw these live shopping companies in Europe and in the US, I was like,
+[18:35] they were super well in China, whereas most of the time, they worked super well in Asia,
+[18:40] but to talk about it in the US or Europe is obviously very different.
+[18:44] One of them just raised a massive round, I think, a few weeks ago, whether they've done
+[18:48] so well, that may be because humans just didn't quite see you and they're best as well.
+[18:52] I think live shopping is just an incredible category.
+[18:55] I think what not as a company has done a fabulous job really expanding their marketplace and expanding
+[19:02] all the ways in which people can buy things.
+[19:04] What's really fun with something like live shopping is that it's much more about participation.
+[19:09] I can go to the store, I can go to a static store and just click on a few things, but when
+[19:13] I'm actually on what not, I'm hearing the story behind the products.
+[19:17] I can actually ask questions.
+[19:18] I can interact with the people who are presenting that.
+[19:21] I can explore different things and different products and have just so much more depth
+[19:25] and story.
+[19:26] We're not just buying a flat thing that does something in our lives.
+[19:30] We're actually buying a whole story in a way that some new product comes into our lives
+[19:34] and whether that's fashion where you're talking to the designer or fashion where you're talking
+[19:38] to a curator who's done so much work where they're telling their story of why they think
+[19:42] these are the best, what not is really facilitated so many new ways for that interaction app.
+[19:47] It makes the shopping when you make your purchase, you feel much more confident, engaged and have
+[19:52] a connection to what you're buying.
+[19:55] I've been blown away by their execution over the number of years.
+[19:57] Again, one of those companies that you said at the beginning is live shopping ever really
+[20:03] going to work in the US.
+[20:05] There were clearly some evidence of it working in China.
+[20:09] When it starts to really flourish, you see massive new behavior and you see people buying
+[20:14] and selling things in a way that is, again, much more real and much more about a human connection.
+[20:21] I think live shopping and also entertainment, right?
+[20:24] You mentioned live entertainment with interactions.
+[20:27] There's this whole new trend happening now, AI microdramas.
+[20:30] I mean, that's going to be a really interesting category to watch.
+[20:34] I think that microdramas are a huge part of the next wave of entertainment.
+[20:39] It started with TikTok and actually even Musically, which I had backed when I was at
+[20:45] Greylock, we found a team that was building Musically and they had an idea that short-form
+[20:50] video, again, initially with even a music soundtrack, can create a whole different experience that
+[20:55] you watch and you have a meaningful connection before you go on to the next one and that
+[20:59] as they learn which ones you have meaningful connections, it becomes this really wonderful
+[21:04] feed of content that speaks to you, once you both connect with the creators and connect with
+[21:08] the content in a new way and as that was sold to by Dance and became TikTok, it is flourished
+[21:14] in a way that it truly has some of the richest, best content anywhere, but now what happens
+[21:19] is those are all these nice short videos and often you want to go deeper and often you
+[21:23] want a richer story and so the microdramas have come in and people have been able to create
+[21:28] these perfect vignettes and they fit really well into places like TikTok and YouTube
+[21:32] help first discover them, but then you're like, you're immediately hooked and you want to finish
+[21:35] the story. Now, we can only make so many of those and each of these companies has done a great job
+[21:40] making a lot of different stories and a lot of categories, both AI, we can open up this creativity
+[21:45] to so many more people, people who might not have a studio or a cast or sets to go film something,
+[21:50] but they can still imagine what is truly a great story and have that made and what I'm excited
+[21:55] about is how do we find those writers, those creators, those people with brilliant ideas,
+[21:59] give them the tools to express them, help that get in front of more people. I think there might be
+[22:04] incredible new marketplaces where people come together to see the creations from others,
+[22:09] read those, engage in those stories and be entirely new media channels. Right now, a lot of the
+[22:14] distribution might still be driven through existing social media channels, but I think there's room
+[22:19] for massive new marketplaces that become the first place you go when, hey, I want a story,
+[22:23] I just want to engage. Super interesting. So guess what? We actually just created our first AI
+[22:29] micro-drama. You did? We did. What is it? So it's on the Nike story. So an idea I had was,
+[22:36] how cool it would be to go and interview all of these incredible founders, the jackmas,
+[22:40] the full Knights of the world in person, slightly difficult though. But hang on, why don't we
+[22:45] tell these stories in four to five minute micro-dramas on how the most incredible companies cost started,
+[22:52] their origins. Obviously, there's always a bit of a romanticized love element part of each
+[22:57] micro-drama. So we collaborated with this company called Talk Party, which is like an early stage
+[23:02] startup. And we published it our first one a couple days ago. I'll send it to you afterwards,
+[23:08] but super interesting. We do all the storytelling. They do a lot of the creating. They just go
+[23:15] to show the different types of entertainment you can create. I'm not a movie director,
+[23:20] just hopefully a good storyteller. And we can now create dramas and get millions of views from it.
+[23:27] Oh, that's amazing. I can't wait to watch it. And I mean, you're a great storyteller. I've seen
+[23:30] you through these podcasts, be able to put together just amazing stories. Now I can't wait to see how
+[23:35] you do that. I remember the Nike movie from a couple of years ago. I think it was Air,
+[23:39] if I remember. And that was like an incredible movie. And it's always hard to take a corporate story
+[23:45] and actually bring drama into it and make it feel cinematic. But now that anybody can have access
+[23:51] to these tools, I'm sure you did the same in just a short little micro-drama. And I think so many
+[23:55] people have that talent. And the hardest part now is going to be less about the creation. We can
+[24:01] have a lot of people with talent, but it's still going to be the things that resonate,
+[24:04] finding an audience, figuring out how to build a relationship with the audience where they come
+[24:09] back to you. If you have the Nike one's great, now I might want to hear the Amazon story or the
+[24:13] Microsoft story. So I think about great companies from the Pacific Northwest, or you might go around
+[24:18] the whole world and keep telling these stories that people don't know, but in a way that I love
+[24:24] your style of truly creating the drama and interest. And it's all about taste rights. But I think as
+[24:31] we enter this new era for media creators, it's also just what can you do so differently that you can
+[24:37] own? I kind of feel like crazers should be building products that they can own. And obviously,
+[24:43] I just built, hopefully, into incredible companies. Now's the time to be doing it.
+[24:47] Yeah. And I think for creators, there really is an identity that they build. And they build a
+[24:51] relationship through the content that they produce, through the stories they tell directly, through the
+[24:56] stories that they bring out from other people, through the stories that they might create through AI.
+[25:02] But it still becomes an identity and a relationship over time. It's not that you can
+[25:06] slop lots of things in lots of different categories, but it's really that relationship with the creator
+[25:12] that is what's powered the most recent wave of these incredible user-generated content companies.
+[25:18] And then I think even as we move into an AI world, it's not just like some Borg AI is going to be
+[25:24] making things. It's still going to be people making things that tell stories that they have.
+[25:29] And those relationships you make with those storytellers, those creators are still going to be
+[25:33] very important. And for each person, it's building that set of relationships.
+[25:37] You know, one thing I've been super surprised about to go on this is we've had all of this amazing
+[25:42] technology emerge in the last couple of years. But we haven't seen any new social media networks,
+[25:48] sites emerge. You've worked at LinkedIn, you've worked at Facebook, you've been at Discord on their
+[25:54] board. You've also been an ex and maybe a bunch of others I'm missing. Why haven't we had a new social
+[26:01] network in the last few years? It's a great question. And I think in some ways,
+[26:07] we haven't needed to. The social networks we have are at billions and billions of users,
+[26:13] or hundreds and hundreds of millions. You mentioned Discord and Musically, which Musically
+[26:18] became TikTok, both really started growing in 2015. That was the year that I got to invest in
+[26:23] both of them in those early days. And we had to navigate this question even in 2015.
+[26:28] Well, we already had Instagram and Facebook and WhatsApp and Twitter and LinkedIn in 2015.
+[26:34] Why would we even need things like Discord, Musically, and they both solved a very different
+[26:37] problem in our lives? Discord was great for people who were trying to come together to play games
+[26:42] and engage. Musically, it was great for people who had to actually tell stories and view stories
+[26:48] from other people. So much of Instagram, I used to say, was the back facing camera. Look at the
+[26:53] incredible place I'm in or the incredible latte I'm having. Musically, I'm just going to create
+[26:57] something. I'm going to put some music behind it, do a dance. Might have my piles of laundry behind
+[27:02] me in my room, but because of my dance and because of this song, it's going to feel like a great
+[27:06] creation I'm proud to share. And it's obviously grown up a ton from there. And we need something
+[27:11] that feels new, that feels different. I've got a story I want to tell. I'm going to bring
+[27:15] everyone together who's telling these kinds of stories. And this becomes the place you go to read those
+[27:21] stories. Maybe that looks more like a marketplace than a social network, but I think there's a huge
+[27:25] opportunity for that. But I think a lot of the attempts at social media between then and now
+[27:31] were things that felt derivative that felt like, well, I'm already doing it elsewhere,
+[27:35] come and do it here slightly differently. There's a lot of variants of X and Twitter
+[27:42] that actually feel very similar to X and Twitter, which is a slightly different group of people.
+[27:47] It's hard for those to catch and truly become mainstream. But I think we're on the cusp of seeing
+[27:53] some things get invented that have us thinking in new ways, asking questions of very large groups
+[27:58] and seeing information that isn't actually available and that people wouldn't otherwise be sharing in
+[28:02] social media that can become a whole new network. I think we might see these creator marketplaces
+[28:07] where people are actually creating new stories and publishing them for other people. I think still
+[28:12] think, as we talked about coming out of COVID, there's room for networks that really help us
+[28:17] get back out in the world and do more in the world and bridge that online to IRL life.
+[28:25] Partiffle's one example, an Andreessen Horace portfolio that I think is a really exciting thing
+[28:30] that if you're going to different events, Partiffle actually is the places you really want to be,
+[28:34] and it becomes a great way to go out and explore the world much more with the community that you have.
+[28:40] In real life though, it's super hard. Do you remember Bibo idea? Yeah, so I spoke to the founder
+[28:46] for the first time. It's the first podcast he's done in about 10 years. There's Michael Verge,
+[28:51] he's incredible. Yeah, Michael Verge, we spoke on Monday, and I was in the same question,
+[28:56] why hasn't there been a new social network a much? But I also just think the appetite and
+[29:02] the consumer outside on how we engage with new social networks has mass three change.
+[29:07] We don't post on our Facebook time, it's as much anymore. Exes are good to maybe consumer out
+[29:11] for all things, contents, clubhouse, back in the days, which was an awesome app,
+[29:16] subsack, another A60s equal photo company. There's just different appetizers, right? Again,
+[29:21] I kind of just wish there was a new social network, which emerges. We haven't had any new apps in a few
+[29:28] years. I've heard a lot of people say that and want it to emerge, but I also say, we have great ones.
+[29:36] Maybe we're pretty satisfied. After I've checked out the people who are sharing on Instagram and
+[29:41] talked to some of my friends who are still on Facebook and seeing what they're up to and commented
+[29:45] on their post and went to TikTok, I'm no longer going, what else do my friends have to say? But I
+[29:51] do think we're going to see things about what are people creating? Where can I go co-experience
+[29:55] things with people? One of the amazing things with Discord was it was one of the rare places
+[30:00] you could really easily game and talk at the same time. It was actually a new behavior that
+[30:06] brought people together that then became a place people stayed and chatted. I think about
+[30:10] one of those things that are those new behaviors that bring us together that then once we're together,
+[30:16] now we'll also stay and do other things. We also talk a lot about AI, and right now a lot of AI is very
+[30:21] single player. I interact with the AI to help it do things in my life, but I don't yet have it plugged
+[30:27] into our group and understanding our group nuances. When I have it join a group, it's not helping me
+[30:33] do other things with the same group of people. Group chats have become such a popular form of
+[30:38] social media. Maybe that is in some ways the new network that we aren't thinking about, that we really
+[30:43] have developed over the past few years. I have way more local group chats that I probably had 10
+[30:48] years ago. But when we bring AI into some of those group chats, does that create a whole new pattern
+[30:53] or now interacting? Even more, what if the AI is interacting our behalf to bring us together?
+[30:58] And it's like, hey, I'm talking to it, you're talking to it, they're talking to each other.
+[31:02] Now, when we have a conversation, we're much more informed. I think we're just at the
+[31:05] cusp of many of these ideas, starting to get explored and have people trying them. I'm really
+[31:11] optimistic in this wave, a few of these will catch. I love to talk about that. Okay, so
+[31:16] if we're going to go down the separation of multiplayer communication between agents and
+[31:22] consumers, especially on maybe communication apps or others, helping bring people together,
+[31:28] realistically, what does that actually look like? Is that Josh and Oli communicating together?
+[31:33] Maybe we have a bunch of their mutual friends that are trying to meet up with the weekend,
+[31:36] trying to figure out where to go. I mean, is that just the basic? I mean, I think it's a
+[31:41] great basic place to start. That was actually the example I was about to give you, which is,
+[31:45] I get into my weekend and I'm like, which of my friends are even available? Now, it's a
+[31:49] little bit embarrassing. Sometimes we're like, who's up for something and get crickets back?
+[31:53] And you feel very vulnerable when you're asking that question. But what if I could go to my agent?
+[31:57] I'm like, can you just root around and see if anybody's up for something this weekend? And
+[32:01] it could talk to some other agents and to see if anybody's asked their agent the same question.
+[32:05] And once it has, it starts to make a match for us. And in some ways, people say, this sounds a
+[32:10] little bit dystopian. But I think in some ways, it's actually AI being the glue that brings us
+[32:15] together that I can take some of those innermost thoughts. I kind of want to do something. I don't
+[32:19] really know. Has anybody seen Odyssey? Maybe everybody else has seen Odyssey? Who hasn't seen it yet?
+[32:24] They might want to go. And if you can actually plant that seed in somebody who cares about you
+[32:31] and can go root around and find somebody else, maybe that becomes a way that now brings us together.
+[32:36] And so I'm always looking for these opportunities where the agent can make us
+[32:40] have better human experiences and more human experiences and make those happen.
+[32:46] I've always dreamed that imagine that we're all on a Friday night. A bunch of people are sitting
+[32:50] at home, talking to their AI about something. And it recognizes, hey, there's like 10 of you
+[32:56] in San Francisco, in Noe Valley. Why don't y'all go to the board game cafe and just play there?
+[33:02] They got two tables ready. I can even reserve them for you right now. Wouldn't that be amazing if it
+[33:08] actually moved us from talking to something online to bring us into that real world?
+[33:15] Doesn't say it. Okay, so a couple questions there. It feels this is maybe like the basic
+[33:21] middle layer of ideas of where we could go. If we think crazy big, how crazy can this actually go?
+[33:30] I mean, if you think crazy big, you just wake up every Saturday morning and you look at,
+[33:35] you talk to your agent or look at your calendar and you just go, I've got a rich day for you.
+[33:40] You're going to start here with this person. You're going to have a break this afternoon.
+[33:43] And you're going to go have dinner with these friends because everybody was looking for something
+[33:46] tonight. Sunday, you'll do this. Tuesday night, it's this. You know, your age and all of a sudden
+[33:52] is just becoming your social calendar. And you're really getting out in the world a lot more. And
+[33:57] every time you've talked to it, you're like, you know, oh, man, my favorite shirt got really frayed.
+[34:02] And I want a new one. It's like, great ordered for you on your way. Like, this is sort of this dream
+[34:07] of what having that true assistant looking out for you is, and the goal again is to save you
+[34:14] time from the things you don't want to be doing to do more of the things you do and that you enjoy
+[34:19] and that you love. And by the way, a lot of people need time for themselves. The agent should be able
+[34:24] to protect that and help remind people of that too, coaching you, getting more exercise,
+[34:29] whatever goals you have, wanting to eat better or indulge yourself sometimes, you know, having a
+[34:36] partner who who understands your goals and sometimes gives you encouragement and sometimes gives you
+[34:42] the tough love that you need. I mean, that's what we look for. I mean, I love my mother and
+[34:46] she's great at doing both of those, sometimes being my biggest cheerleader, sometimes being my
+[34:50] biggest critic. And it would be amazing to have something else in my life that is helping me do
+[34:55] that. I love my mother. She gives me tough love and encouragement. But I don't talk about everything
+[34:59] and I don't talk about everything every day. And there are times where I would love somebody who
+[35:04] kind of has the day-to-day understanding that gives me some of that too. And even, you know,
+[35:08] if I haven't called my mom in a week, reminds me to do that. I'm usually pretty good.
+[35:13] Super fascinating. It makes you think, though, what type of platform can actually create this?
+[35:18] Is it one with existing distribution, the likes of GPT, Claude? Are you going to enter this space?
+[35:26] Is this going to be very difficult? I think for a new very small startup to
+[35:29] measure into this category, they did not the distribution these am what those have.
+[35:36] But I think it's going to be piece by piece. I'm a big believer that if you want to become a very
+[35:41] big company, you can't start by trying to do everything. But you have to start by doing a few
+[35:45] things really, really well and earn the right to do more. You know, again, I keep coming back to
+[35:51] Discord, which earned the right to be the place that we played games and that we had a live chat
+[35:56] during games. And as it earned that right so well, it became a place we chatted more.
+[36:01] And we chatted more about just playing games. And then we did spend more time there. And then
+[36:04] more people did that. And even people didn't play games, came over to use the service to chat with
+[36:08] friends who might also be using it to play games. But it's slowly earned the right to be something
+[36:13] that you relied on for more. And I think for a lot of these assistants, if you just say,
+[36:17] I'm a general thing, I can take care of everything, you don't earn the right to be really trusted for
+[36:21] getting me a few things done. And so what is that agent and that assistant and that product
+[36:27] that goes step by step by step? And once we've learned to turn to it for one thing, it now
+[36:32] earns the right for something else and something else. When I think about Siri, I know it's something
+[36:37] that I spent a lot of time with the past many years thinking about, Siri was actually amazing
+[36:41] to earn the right to do a few things for you really well. Place phone calls, set timers,
+[36:46] set reminders, send a text message. But when you try to do more things with it, it often couldn't.
+[36:53] There were things you would expect it to do and get it right. And it didn't. But over time now,
+[36:58] you only get so many chances ago. Now try one more thing. Now try five more things. Now try a lot
+[37:03] of things you can imagine. And you'll have a much better conversation when it can't do something.
+[37:07] It can explain to you that it can't do it. And really understand that as opposed to just like
+[37:12] put up a hand and say, sorry, I can't help you. And so I think there's so much opportunity for
+[37:17] new products to do the same thing, but they're going to have to go step by step.
+[37:21] You know, when we think about the new rules of consumer tech, voice is going to be huge. It
+[37:27] feels like just scratching the surface. You spend a bit of time on Siri. What are you excited about
+[37:32] right now in voice? And again, it feels like we are just literally scratching the surface.
+[37:37] When I think, you know, we're talking here and people are listening, like voice is an incredible
+[37:42] medium to express a lot of thoughts. You can often talk much faster than you type. I'm one of these
+[37:47] people that tends to think out loud. And so I'll talk and talk and talk until I kind of fully
+[37:52] refine my point of view. Voice is also lossy though. Sometimes you wander and ramble a little bit
+[37:58] until you get something. When I'm typing, I might type it and ramble a little bit. But by the time I
+[38:03] edit and polish the thing that I'm typing to send or communicate somebody else, I've gotten
+[38:07] it really tight. And so I do think a lot about where voice sits as one part of the
+[38:13] entire continuum of communication. I think we're going to have a lot of times where voice
+[38:19] assistants should be able to let you ramble and let you have that long thought pattern
+[38:23] and then help you distill the real meaning out of it and capture those core thoughts.
+[38:27] We've a lot of these, you know, on the work side, we have all these great meeting
+[38:30] note takers that kind of record everything and synthesize them incredibly well.
+[38:34] Oh, in our personal lives, when we have ideas, we want to be able to ramble and think and dream
+[38:40] and have it sort of capture what we need to do. When you have just a quick idea and you want to
+[38:44] remember it later, voice is often a better paradigm than having to type it in because it's the
+[38:48] easiest way just to quickly express your thought. I'm not yet a believer though that
+[38:53] we're all going to move to voice for everything. I think it's always going to be
+[38:56] a balance and I think the idea of a voice only agent doesn't really make sense.
+[39:01] It's a, hey, there's times where I want to type. I might be in a quiet place. I might
+[39:05] not want other people to hear me and I do want to express something and I think voice
+[39:10] isn't always the best use if I want to refine my thoughts a little bit before I send them over
+[39:15] to an agent or to another person, but it's we're doing a lot less with it today than we should be
+[39:23] and I'm really excited for this massive wave.
+[39:27] Voice is also such a great tool. If you're coming into a podcast show or if you're preparing
+[39:31] for a speech, it's actually a pretty cool interaction tool as a sparring partner.
+[39:38] Oh, interesting. Yes, and with a lot of these new duplex modes and what some of the new technology
+[39:43] is doing, the AIs can now let you do a lot of role playing and sort of preview conversations
+[39:48] that you're having before you go have them and help you truly refine your thoughts.
+[39:52] I mean, I find voice conversations when I'm in the car. I love using voice to just go back and
+[39:57] forth with something because I have to otherwise be focused on the road. But when I'm sitting on my
+[40:02] couch, I don't often want to talk to my phone or my computer. I often there do just like typing and
+[40:07] reading and scrolling. So it's going to be a matter of being able to go back and forth very
+[40:11] smoothly with all these modalities. Yeah, I think it's going to be really interesting and especially if
+[40:16] people use these voice tools to prepare for speeches. If you can prepare with the person,
+[40:22] but virtually that'd be quite cool, right? We just had to read often on the show, for example,
+[40:27] one of the biggest interviews I've done. And I just thought, let's just try with GPT writes as a
+[40:32] sparring partner just bouncing ideas off. And actually it was pretty good. And I know you
+[40:36] read very closely together when you're great, and it's a pretty cool experience. If you have
+[40:42] read virtually and you're doing a virtual kind of like preview mock up, that could be quite cool.
+[40:48] No, that's great. And I mean, read one of the most incredible founders and thought leaders of our time.
+[40:55] And one of the fun things I've seen him doing is building read AI, which is actually not only
+[41:00] can you just interact with tattoo ET as a sparring partner, but actually building something that has
+[41:05] ingested and learned about him and creating sort of a double for him. Now it's still very different
+[41:09] than having the real live person interacting in the moment, but it's incredible proxy
+[41:15] to understand how he thinks, how he might go about certain situations to test things,
+[41:20] and to get really, you know, instead of just reading his writings or watching previous podcasts,
+[41:25] it's incredibly to synthesize it to at least see how that AI may apply things to new situations.
+[41:31] And then when you get to interview or interact with the real read, you feel like you're ready to go
+[41:36] up a much deeper conversation because you've actually experienced some of it before.
+[41:40] Like, I think these ideas of these, these doubles are really a fun way to sort of be a precursor to
+[41:46] a real meeting or in, you know, but not in lieu of. Exactly. It did actually help. We talked about a
+[41:52] ton. So if you can check it out, we'll put it in the link in the comments. I also think just like
+[41:56] the way these PC maps are thinking about pricing and how they think about monetizing is very
+[42:02] different rides. So many of these AI tools today, they're literally giving all of their products away
+[42:07] as cheaply as possible, basically for free rides, which is very normal just to get as much distribution
+[42:11] and attention as possible. Is this still the right way to go to consumer app today? And at one point
+[42:17] does that become a challenge when they start to, you know, stop having to try and make some
+[42:23] money so they can make investors happy? This is a really interesting challenge of our time
+[42:27] in technology. For many, many years, you know, as I first was getting my start in my career,
+[42:33] actually building a website was actually quite expensive. You had to go buy physical servers,
+[42:37] get racks at data centers, actually put them up in the data centers, manage them, have people who
+[42:43] are managing them. So if you want to just build a website, like you actually needed to raise a
+[42:47] lot of capital just to fund that. I remember in my first week when I joined LinkedIn,
+[42:52] one of the things we did was move from one set of racks to a much bigger set of racks in the data
+[42:56] center and they needed the entire company. I mean, it was maybe 15 or so people at the time
+[43:02] to actually go and move computers from one rack to another just to remind you of the costs.
+[43:07] What got amazing in this era of cloud scaling, Amazon Web Services, all these new stacks was
+[43:13] all of a sudden you didn't need that same set of heavy upfront infrastructure costs. And it became
+[43:18] very, very cheap or so cheap that you could scale these consumer things quite far to serve many,
+[43:23] many people in the product you were building mattered more. Fast forward to today,
+[43:28] we have costs again and actually their variable costs are these inference costs. They aren't just
+[43:33] even this fixed cost of infrastructure. And so we really need to figure out what you can give
+[43:39] consumers for free, what you need to be able to charge for. But we also know that for consumer
+[43:43] distribution, the willingness to pay doesn't always come up front. In enterprise world,
+[43:48] you can sell to a company and sometimes convince them that this is going to be valuable for them
+[43:53] and they'll actually pay you. You want to contract, obviously with a lot of product-led growth,
+[43:57] you see this sort of getting the hands of employees before they have to do it. But even if they want
+[44:01] to pay, if they find it valuable, they can find ways to expense that service. So they don't
+[44:06] necessarily need to think about as paying out their own pocket. On the consumer side, it is all
+[44:11] going to be ways that we need to figure out how to subsidize the inference, having consumers pay
+[44:14] for that. On the plus side, with the rise in mobile gaming, the rise of subscriptions,
+[44:20] consumers are much more used to paying for digital things than they were 10 or 15 years ago,
+[44:25] let alone 20 or 30 years ago. They are willing to pay for things that are valued through Apple's
+[44:32] App Store, through Google Play, through just online subscriptions, with all the different tools out
+[44:37] there now. When people hit a certain level of engagement with a product, asking them to pay
+[44:42] isn't the same hand to the face that it used to be. It's now very much an invitation as this is
+[44:47] finding you value, costing us money. On the other hand, we need the cost to come down
+[44:52] with what's going on with AI, with inference, being able to switch models, having open source models.
+[44:58] We're seeing just the beginning of how much cheaper you can actually build these things.
+[45:03] I think over the next couple of years, we're going to intersect with how much cheaper these can
+[45:06] get to build and serve, with how much customers are willing to pay for things that are of value
+[45:11] or entertainment for them. I think we're going to be at the right intersection point where
+[45:15] you'll be able to bring in both ad models, purchase models, subscription models, and fund
+[45:21] the cost of inference. Right now, it's still a little bit expensive. As investors, you're looking for
+[45:28] are you going to have enough value that people would be willing to pay or would be advertiser?
+[45:31] Are we willing to pay to get in front of those customers? Will that intersection actually happen?
+[45:35] That's what the big bet is over the next few years in consumer, but it all starts with a product of
+[45:40] value. What does a great consumer product actually look like today and as an investor,
+[45:46] when you're looking at all these thousands of companies,
+[45:49] are there some characteristics that just tickle your box? What's the golden list for Josh?
+[45:57] Things that I look for in a product are where it has a really clear value that you can describe
+[46:01] to somebody. Hey, if you start using this product, you get this thing that didn't exist
+[46:05] before where people will raise their eyebrows. Now, it's cool with AI. There's so many cool new things
+[46:09] you can do. It's easy to get people to raise their eyebrows. The second is when that person does
+[46:14] go and try it, do they have a good experience? Are they actually going, wow, I can figure out how
+[46:18] this fits in my life? And often, it is going to replace something they were doing elsewhere.
+[46:23] And is it a replacement that is an easy substitution or is it a really hard one?
+[46:27] And so I always like to ask people, what did you stop doing when you started using this new thing?
+[46:32] So if they've adopted a new product, what are you no longer doing? If you can get a good answer to
+[46:36] that question, now you know, it can intrigue people. You know that it can get them actually,
+[46:41] you know, trying it and using it. And then, did they want to spread it? Are they so excited about
+[46:46] it that they'll evangelize it to other people? Sometimes that happens naturally to the product
+[46:50] with network effects. Sometimes it just happens because, you know, with like ChatchBT, we're all
+[46:54] so excited about what you could do. You don't need to Google anymore. ChatchBT gives you the answer
+[46:58] right there. Like that spread very, very fast. And then I look for, why will people stay retained?
+[47:04] So not only do you need to have gotten me intrigued, gotten me to adopt it, and stop doing something else
+[47:10] potentially, gotten me to share it and spread the word, but now stick. And if I keep engaging
+[47:16] with this product over time, now I know, hey, we really are on to something. And one of the best
+[47:21] ways to keep somebody using something is with a little bit of a network effect that keeps them
+[47:25] and other people using it together. But it's not the only way some of it is the more I put in here,
+[47:29] the more it does for me, the more I don't want to move my information elsewhere, because now I've
+[47:34] built up a history. Sometimes it's, you know, if I'm going to one of these marketplaces,
+[47:38] you know, especially like we're talking about entertainment, these great creators are here.
+[47:41] And I want to see them keep telling stories. And if I'm there to keep seeing them tell stories,
+[47:45] then other people want to be there to get in front of the audience too. And then you'll have this
+[47:49] great effect where all the great creators will want to be on the same platform to reach the audience
+[47:53] and it will continue to go as a loop. So I really look for that entire process from, is it
+[48:00] intriguing in the first moment when people actually adopt it? Do they really use it and
+[48:04] stop doing other things? Do they spread the word about it? Then do they stick long term?
+[48:09] It's never been harder though, right, to grab the attention of the consumer. So when consumers
+[48:14] are thinking about, you know, is this thing going to save me time? Is it going to save me money?
+[48:19] It's all around these network effects and that body wise, right? How are the network effects
+[48:23] different today versus even two, three years ago? I mean, the first thing is actually
+[48:29] it's never been easier to get consumers attention. There are so many channels that we're paying
+[48:33] attention to, you know, things that rise up on TikTok or Instagram Reels or YouTube go viral
+[48:39] very, very quickly because people get excited about something new. So the idea of having something
+[48:43] that if as long as it's so compelling, people want to check it out, I've seen people go really,
+[48:48] really fast just by getting in front of people. What's harder, I think, is to your point,
+[48:53] getting me not just to try something, but to actually stick. It has to be such a good
+[48:58] product doing that one thing really well out of the box that I either stop doing something else
+[49:03] or I turn more behaviors over to it. And we have a lot that we already have in our digital life.
+[49:08] And so we already have a lot that we have in our real lives, but even, you know, I used to say,
+[49:13] there's so many things that can move from real life to digital life. And COVID again sort of
+[49:16] showed me what that saturation point is. So now as a product, you have to figure out some new wedge
+[49:21] into somebody's digital life if you're a digital product. And then becoming so good that
+[49:27] it becomes a habit and that you can pull other people in, you don't just have to get that one
+[49:31] person, you have to get more and more and more people. These are very, very hard challenges because
+[49:36] you're substituting versus just expanding, which I think 15 years ago, we were all getting our first
+[49:41] phones. There were so many things we'd never done before that we could do on our phones. Today,
+[49:46] you have to be better than those things. But I think with AI, we have a real possibility to be those
+[49:50] products that I'm like, well, that is so much better that that's great. The last thing you didn't
+[49:55] talk about that I think a lot in this competition world right now is that's cool. But if somebody
+[49:59] does it, can't everybody else do it and copy it very, very quickly. And so we do live in that
+[50:04] world where all great ideas people are chasing fast, whether it's other startups or big companies.
+[50:10] And the hardest part there is if you're that founder who has the idea and the insight,
+[50:15] even if other people can copy what you did, they can't copy where you're going. They can't figure out
+[50:19] where you're going ahead of you. They can't necessarily replicate that. So staying on your line and
+[50:25] really living up to your vision is sort of the best thing you can do in today's sort of
+[50:30] competitive market. This is all those challenge forefounders rise. The idea to clone is no longer
+[50:38] months or weeks is basically days. But I can only clone what I see. I can't clone where it's going
+[50:46] and I can't clone the next thing. And over time, you build that relationship with the user,
+[50:50] which is like, yeah, I tried that other thing, but it was missing the essence of something that was
+[50:54] really special. And so you stay with the product that really has that essence. And so much of building
+[50:59] an AI right now isn't just a product that does things, but that has personality, that has relationship,
+[51:04] that has an identity that you actually stick to that has a way of interacting with you that it can
+[51:09] learn over time to be even more personal to you, it actually has a point of view. And so I do think
+[51:14] that that while everything feels like there's eminently clonable things, the people who build these
+[51:20] durable platforms are finding their way to really connect with their customers and connect with
+[51:25] their networks in a way that is really rich and much better. And the hardest part is all of us in the
+[51:30] early days is teasing out, you know, which are which. This is just a small observation. But as I've
+[51:36] been thinking about all these apps I've been using over the last six or 12 months, they're all based
+[51:41] in the US. Why are American startups so good at consumer social versus maybe the likes of Europe?
+[51:48] I've got to think more if that's true. I mean, a company like Loveable came out of Sweden, for
+[51:52] example, that's just an incredible company. You know, all the things 11 Lab does, you know,
+[51:56] didn't start here in San Francisco. So I don't think it's true that the best ones started here
+[52:02] musically, for example, started actually as a team in China. They had spent some time in the United
+[52:06] States, but they were actually a team in China that was learning. And there's so much innovation
+[52:10] been happening in the Chinese ecosystem, for example, on some of those lessons, you know,
+[52:15] we talked about whatnot earlier, you know, was sort of inspired by some of the original growth of
+[52:19] live shopping in China. So I do think we're at this wonderful place in the world where more and
+[52:23] more innovation is happening everywhere. What's really unique though about the Bay Area is
+[52:29] how many people here, maybe not just the founders with that idea, but the next wave of people have
+[52:34] truly come and been able to help scale and find those companies and find those past independence
+[52:39] and find those past network effects. And we have so many people in the Bay Area that have been
+[52:44] part of some or many of these journeys. I mean, I myself live here and I've got to be a part of so
+[52:48] many different companies that have made this journey from something that was a really cool idea to a
+[52:53] really durable platform. I think to get that acceleration can happen anywhere, but you can
+[52:58] really get the right expertise even faster when you're interacting with people in the Bay Area.
+[53:03] So whether that's visiting, whether that's deciding you need to live here or hire people here,
+[53:08] and it's a very independent question for every founder. But I do think if you are going on this
+[53:13] journey, you want that expertise around you. And just part of why even for me, I'm on the VC side
+[53:18] now because I'd love to be able to help as many companies as I can navigate that incredible moment
+[53:23] from we kind of got something working to a really durable company and platform.
+[53:29] I also read Hoffman's question, so I'll ask you as well, is SF still the best place in the world
+[53:35] to sort the company? I don't think it's the best place in the world to start a company,
+[53:39] but I think it's a very important place in the world to scale a company.
+[53:42] Because I think if you believe that you have a great idea and you figured out how to get this
+[53:46] into the first set of people, but you want that expertise now to go, okay, how do I truly make this
+[53:52] durable? There's just so many people in and around the Bay Area that can help you do that. But I don't
+[53:57] know that that always means you have to live here full time. I think it does mean that it helps to be
+[54:01] a part of the ecosystem. I also think if you are a B2B company or selling to other small companies,
+[54:07] there's just so many here that it's an incredible place to start with adoption. But honestly,
+[54:13] if you're building for consumers, a lot of what you're also building for is culture.
+[54:17] And I'm not sure that the SF Tech culture is 100% transferable to everywhere else either.
+[54:21] So it's not like you always want to start everything here. You want to also make sure you really understand
+[54:26] the culture of other cities around the world and other communities around the world to make
+[54:30] sure that you're really being able to do something that will affect mainstream consumers where they
+[54:34] are. So I also don't want to get it too much SF classes.
+[54:38] You know, I'm a little jealous. You've worked at Apple,
+[54:41] Robin Hoods for the time. You've obviously held the team at X, Facebook, Linkedin, Musically,
+[54:49] which is your favorite? Oh my gosh. I mean, you can't really pick a favorite. But in my career,
+[54:55] I will tell you that I had this period of time that I joined Twitter late 2009. And so we kind of
+[55:00] got to go through the 2010. And it was this period of just true missionary work,
+[55:08] believing that we had this incredible platform at Twitter that could be so much more for the world.
+[55:13] And I got to live and breathe it every day with an incredible group of people.
+[55:17] And it was at that nascent period that we knew there was something and we were trying to solve
+[55:21] really hard problems. But before it was so obvious that it had to become a real mature company.
+[55:27] And I just, if I look back, like if I could just have done that year on repeat in my career,
+[55:33] in the late 2009 to the late 2010, that was one of the most special times of my entire life.
+[55:39] But everywhere else I've gotten to work was just been, I mean, I've got to work on things that
+[55:43] it was always my dream to help people make things that matter for the world. And I've gotten to help
+[55:47] do that. I was never a founder myself. I never went and started a company from scratch,
+[55:51] but I was always what I call an early joiner where I'd go find these things and say,
+[55:56] we're going to go make something great. You have an incredible idea that's getting started as a
+[56:00] momentum. How can we make it last? And there's so much joy in that. And the stuff we did at Twitter
+[56:06] is probably some of the most meaningful work of my life. And still see it to this day,
+[56:11] play out. And I still feel like, ah, it could have even been so much bigger and so much more
+[56:15] important than what it is. Even though it's a product I still use the most every day.
+[56:19] How many users were Twitter when you left? When I left, we had gotten well over 100 million users.
+[56:26] And when I joined where it maybe barely 10 million actives.
+[56:30] Was the most interesting lesson you learned from jealousy?
+[56:34] You know, it's funny is I didn't actually work with Jack. When I was at Twitter, it was the Evan
+[56:38] Williams era. And Evan had found a blogger and he had really helped build, he had really helped
+[56:44] build blogger. And he had this vision for how Twitter was going to become this next wave of
+[56:48] of media with people communicating. The single best lesson that I remember from Evan was
+[56:55] we got a lot of smart people in the building. We got a lot of smart people who are using our
+[56:59] product every day. Let's not just think we know what's best. Let's listen to them. Let's learn.
+[57:05] And then when we make decisions, let's make sure we engage with them on our thinking as well.
+[57:10] One of the most controversial things that Twitter launched was the retweet. The idea that, you know,
+[57:15] originally, and this is again, ancient history and sort of the tech world now, but when the
+[57:22] retweet first launched, the way people used to do retweet is it would come from their account and
+[57:25] it would say RT and then the name of the person you were retweeting. And instead of building that
+[57:30] product, everybody realized everyone wants to retweet and share voices from others, but decided
+[57:36] Twitter that the authenticity of the original poster was more important than switching the words
+[57:42] to look like they came from your name. So the retweet became a Josh retweeted Ollie's post
+[57:47] and that you would see all these face in your timeline. And that was one of those both
+[57:52] listen to the world on how they wanted to repeat others' voices and amplify others' voices,
+[57:56] but also take a very hard line that it was not about moving the words to the retweeters' voice,
+[58:02] but actually maintaining the original tweeters' voice. And the retweet and the quote tweet feature
+[58:07] that we have now are all part of how it still retains the original person's voice. And it was
+[58:12] this incredible lesson on listening, but still having a strong point of view and then communicating
+[58:17] that back out and engaging in discussion even when a lot of people weren't happy with it at first
+[58:22] because it changed the behavior a little bit. That's insane. 2009. I was only 11, 12 years old.
+[58:29] So I do remember all of this, but I do remember creating my ex-accounts, whether I count. And I
+[58:34] think whether it's been used for now or see today's awesome and see where it goes next.
+[58:39] For the audience, if you don't follow me, Josh, go and follow Josh. I always awesome insights into
+[58:44] what's happening in the tech world. We should have mentioned, Tech Week is coming up in SF,
+[58:48] so if you want to get a flavor of what's happening in the Bay Area and Solopland,
+[58:53] E6CZ hosts this awesome Tech Week every year, SF Tech Week. I went last year, I was so incredible.
+[58:59] I was like 2,000 events or something. And just awesome experience. So hopefully see you there,
+[59:05] but Josh, this has been awesome. Your first official podcast is joining E6CZ. So thank you so much
+[59:09] for coming on the show. Thanks so much for having me. Thanks for listening to this episode of
+[59:16] the E6CZ podcast. If you like this episode, be sure to like, comment, subscribe, leave us a rating
+[59:22] we'll review, and share it with your friends and family. For more episodes, go to YouTube, Apple
+[59:27] podcast and Spotify. Follow us on X, an A16Z, and subscribe to our substack at a16z.substack.com.
+[59:35] Thanks again for listening, and I'll see you in the next episode.
+[59:39] This information is for educational purposes only and is not a recommendation to buy, hold,
+[59:43] or sell any investment or financial product. This podcast has been produced by a third party and may
+[59:48] include pay promotional advertisements, other company references, and individuals unaffiliated
+[59:53] with A16Z. Such advertisements, companies, and individuals are not endorsed by AH Capital Management
+[59:58] LLC, A16Z, or any of its affiliates. Information is from sources deemed reliable on the date of
+[60:04] publication, but A16Z does not guarantee its accuracy.

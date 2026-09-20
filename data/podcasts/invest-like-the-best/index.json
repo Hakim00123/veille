@@ -7,9 +7,17 @@
   "ben-thompson-on-big-tech-china-and-the-ai-boom-running-out-of-money-in",
   "neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488",
   "sarah-guo-funding-the-frontier-invest-like-the-best-ep-489",
-  "walter-russell-mead-how-america-keeps-winning-invest-like-the-best-ep-"
+  "walter-russell-mead-how-america-keeps-winning-invest-like-the-best-ep-",
+  "michael-moritz-lessons-from-40-years-of-investing-and-writing-invest-l"
  ],
  "episodes": [
+  {
+   "fiche": "michael-moritz-lessons-from-40-years-of-investing-and-writing-invest-l.json",
+   "titre": "Michael Moritz - Lessons From 40 Years of Investing and Writing - [Invest Like the Best, EP.491]",
+   "date": "Wed, 16 Sep 2026",
+   "date_iso": "2026-09-16",
+   "nb_outils": 3
+  },
   {
    "fiche": "walter-russell-mead-how-america-keeps-winning-invest-like-the-best-ep-.json",
    "titre": "Walter Russell Mead - How America Keeps Winning - [Invest Like the Best, EP.490]",
@@ -60,5 +68,5 @@
    "nb_outils": 4
   }
  ],
- "maj": "2026-09-13T19:31:34Z"
+ "maj": "2026-09-20T19:47:15Z"
 }

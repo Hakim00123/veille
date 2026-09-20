@@ -1,0 +1,47 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "The State of Startups in 2026",
+ "date": "Fri, 18 Sep 2026",
+ "date_iso": "2026-09-18",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/The-State-of-Startups-in-2026-e3p1rf0",
+ "duree": "00:36:28",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 3.2,
+ "taille_transcript": 39981,
+ "transcript": "the-state-of-startups-in-2026-transcript.txt",
+ "nb_outils": 8,
+ "outils": {
+  "Claude": [
+   " to its roots. Yeah on the point about like the Pia investors wanting to do HeartTech again it does seem like that. I've never seen that happen so quickly. I mean it seemed like it happened pretty immediately when like SaaS stocks were down earlier this year. Claude Code was surging and that just became like the I mean I feel like even at Demoday literally happened. I feel like that happened probably mid the winter batch at the start of this year and it seemed like even Demoday that investors were starting to be a lot mo"
+  ],
+  "Claude Code": [
+   " to its roots. Yeah on the point about like the Pia investors wanting to do HeartTech again it does seem like that. I've never seen that happen so quickly. I mean it seemed like it happened pretty immediately when like SaaS stocks were down earlier this year. Claude Code was surging and that just became like the I mean I feel like even at Demoday literally happened. I feel like that happened probably mid the winter batch at the start of this year and it seemed like even Demoday that investors were starting to be a lot more in"
+  ],
+  "Codex": [
+   " use then that seems like the right type of software. Yeah Salesforce is super interesting because I think they started releasing their own slack harness, slack AI harness and so I think we're right at the beginning of like the next AI harness wars. It's like codex wants to be it, cloud code wants to be it, open cloud to be it, Hermes, open code. It seems like there are going to be a bunch of them and it's not going to be quite like the browser wars and that the browser wars tend toward like one winner but you know I gu"
+  ],
+  "Salesforce": [
+   "day that investors were starting to be a lot more interested in HeartTech companies and it's just extrapolated. It is worth knowing though on the other side like since that a bunch of the SaaS stocks have actually recovered and are doing better than ever like Salesforce is like the primary sample of that. I think Snowflake recently had like two days ago had these like blowout earnings and so it's possible that it all hits. Yeah maybe I mean that would be the dream case. I mean I sort of think we're seeing real stuff though l",
+   "be I mean that would be the dream case. I mean I sort of think we're seeing real stuff though like it clearly the software that gets built in the future and what's valuable is different like it just has to be and so partly it seems like what we're seeing with Salesforce is the classic the system or record argument is actually playing out. The modes are intact for now. Yeah but if you have a thing that agents can use that is actually valuable and if anything you'll just like agents where you use software a lot more than human",
+   "record argument is actually playing out. The modes are intact for now. Yeah but if you have a thing that agents can use that is actually valuable and if anything you'll just like agents where you use software a lot more than humans or that seems to be driving Salesforce growth and so kind of takes us back to the other trend that we've talked a little bit about is if you think of agents as your customers and you make things that agents want and your software are something that agents want to use then that seems like the right"
+  ],
+  "Shopify": [
+   " and just go do it you know like put your money where your mouth is I also wonder if managing coding agents is actually like in some ways not that different from managing people oh yes and so like people like Peter or you or or or force turning like Toby from Shopify who who have had whole careers like managing teams of engineers actually like take to this super well and can like spin up huge teams of coding agents and manage them maybe more effectively than even like a really smart 19 year old who hasn't had those years "
+  ],
+  "Slack": [
+   "ink of agents as your customers and you make things that agents want and your software are something that agents want to use then that seems like the right type of software. Yeah Salesforce is super interesting because I think they started releasing their own slack harness, slack AI harness and so I think we're right at the beginning of like the next AI harness wars. It's like codex wants to be it, cloud code wants to be it, open cloud to be it, Hermes, open code. It seems like there are going to be a bunch of them and ",
+   "s your customers and you make things that agents want and your software are something that agents want to use then that seems like the right type of software. Yeah Salesforce is super interesting because I think they started releasing their own slack harness, slack AI harness and so I think we're right at the beginning of like the next AI harness wars. It's like codex wants to be it, cloud code wants to be it, open cloud to be it, Hermes, open code. It seems like there are going to be a bunch of them and it's not going ",
+   "e quite like the browser wars and that the browser wars tend toward like one winner but you know I guess it's anyone's guess and then Benioff has a pretty big advantage in that you have a lot of the most AI-appilled people and companies in the world still use slack and you know if the harness is in there and it's your system of record for how people collaborate then you have like this mega data mode and then you know SaaS can still be as valuable as it's ever been valued if those modes hold. Yeah you had a really intere"
+  ],
+  "Snowflake": [
+   "ested in HeartTech companies and it's just extrapolated. It is worth knowing though on the other side like since that a bunch of the SaaS stocks have actually recovered and are doing better than ever like Salesforce is like the primary sample of that. I think Snowflake recently had like two days ago had these like blowout earnings and so it's possible that it all hits. Yeah maybe I mean that would be the dream case. I mean I sort of think we're seeing real stuff though like it clearly the software that gets built in the fut"
+  ],
+  "Stripe": [
+   "ild that. And it reminds me a bit of like when the Web 2.0 boom happened early in the YC days, we would have these new startups, but then they would prefer to buy from new startups that could sort of like move at their speed and like work well with them. Like Stripe, for example, you could use a legacy credit card vendor, but like it's just like way better to work with Stripe. And so I feel like they're sort of becoming that for the whole defense tech ecosystem. Now the third trend is basically compute is a very heavy ph",
+   "se new startups, but then they would prefer to buy from new startups that could sort of like move at their speed and like work well with them. Like Stripe, for example, you could use a legacy credit card vendor, but like it's just like way better to work with Stripe. And so I feel like they're sort of becoming that for the whole defense tech ecosystem. Now the third trend is basically compute is a very heavy physical atoms process to get all these data centers live very quickly, because a lot of the demand for AI that we"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

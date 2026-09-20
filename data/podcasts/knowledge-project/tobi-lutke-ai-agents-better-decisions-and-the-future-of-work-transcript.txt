@@ -1,0 +1,668 @@
+The Knowledge Project
+Tobi Lütke: AI Agents, Better Decisions, and the Future of Work
+Tue, 15 Sep 2026
+
+
+[00:00] things need to be pruned. You cannot make things better and better by adding stuff. You can't.
+[00:05] You must prune. You must rebuild. You must create an end for things.
+[00:16] Toby, welcome back.
+[00:17] Shane, it's so good to be back. I'm glad we're doing this again.
+[00:20] How are you using AI internally at Shopify?
+[00:23] We find some ways for it to be supportive now. It's actually,
+[00:27] look, when have we worked hard last time?
+[00:30] Oh, we've worked it like two, three years ago.
+[00:32] Yeah, so 100 years of internet.
+[00:35] Like, look, I'm 10 out of 10 node. I cannot
+[00:39] be of idea of somehow not being at the forefront of a technology shift.
+[00:44] I live for these things. Anyone growing up reading sci-fi books wanted to live,
+[00:49] might take from sci-fi books I read was like, I wanted to live in that world.
+[00:53] Like, how can I accelerate us there?
+[00:54] Right? So, you know, even in whatever minor steps we can get there.
+[00:59] So, inside of Shopify, the amount of people I now who really write code
+[01:04] is like vanishingly small now. It still exists at the limits of complexity, for sure.
+[01:10] And obviously in the reviews and so on and then state management of all things,
+[01:15] it seems to be, remains to be the thing that's really the hardest to get right,
+[01:18] which people do by hand and then sort of vibe the rest around it.
+[01:21] Inside of Shopify, this is what things look like.
+[01:23] Very, very few people are writing code directly.
+[01:27] Everyone who does does it deeply assisted by many agents.
+[01:31] They often, 10, 20, 30, 40, 50 instances of them, all through either subagents or
+[01:39] just different windows, coordinating, be pushing all sort of engineering infrastructure
+[01:43] towards absolute limits. I'm a student of computing history really,
+[01:47] because I think it's actually a mainline history, as it will be told,
+[01:50] a thousand years from now looking backwards. But like, the main accomplishments of these
+[01:54] years are going to be clearly the emergence of AI and the technological breakthroughs
+[01:58] and also the interconnectedness of internet and obviously infrastructure we created.
+[02:03] Those are the great books of our time. But where we started, as a young industry,
+[02:09] we tend to not be seeped in tradition or we mistrust the great lessons that have been found
+[02:16] by the people, by the greats of our industry. In fact, we have the only industry in computing
+[02:23] that doesn't even know its heroes. Imagine people in physics not knowing who...
+[02:28] Richard Feynman. Richard Feynman is actually like, he might even be too obscure,
+[02:33] but like, I mean, as like Newton, Albert Einstein. But you go into computer scientists,
+[02:37] like, who's Newton? And no one knows Elenki and Dennis Ritchie and Ken Thompson.
+[02:45] This matters, I think, because we discard great lessons and have to rediscover them over and
+[02:52] over and over again. For instance, like, probably the best idea of all times in the earliest moments
+[03:01] of operating system design was a file system. Like, if you look at the Apollo guidance computers,
+[03:07] we didn't have file systems, right? Like, memory, in fact, because of radiation space,
+[03:12] was actually encoded in as a rope with knots in it. Either a knot or no knot for once in zeros,
+[03:19] and you had to pull through a thing to reboot strap the entire machine.
+[03:23] So the entire machine was one piece of software that ran. That was computing for a very, very long
+[03:29] time. So until then, again, Dennis Ritchie really created those of Unix file systems slash forward
+[03:34] and, you know, been user and these kind of things. Think about it. A file system is something that we
+[03:39] have in an office building too, right? We have a, you know, gas folders, they're files in it.
+[03:44] This makes intuitive sense to everyone. We come from an inheritance here of deep stochomorphism.
+[03:50] We analogize the best parts of how we organize ourselves in the digital vote.
+[03:58] And then at some point, we decided, okay, you know what's not something we need to do anymore,
+[04:03] a stochomorphism, as in, like, analogy to the real world. Honestly, funnily enough, the last
+[04:08] defender of this was probably Steve Jobs, who really, really, really pushed even the interfaces of
+[04:13] the Mac and the iPhone to be, you know, like the notes app sort of had Markerfeld
+[04:20] font and looked like a ring binder, right? And if you remember that version of iPhone,
+[04:25] the moment he was out of a picture, everything became flat, right? And we lost sort of even
+[04:29] shadows and verticality and so on. It looked potentially better design ages, but like,
+[04:36] we lost one analogy. Okay, so I think this was a mistake. So I think we need to get back,
+[04:42] and therefore I like the concept of agents, because, you know, what is an application in the
+[04:48] world of computing, you know, an application, even that word kind of makes sense. It's an
+[04:54] application of a computer to a task, right? So so you can understand for root, in the AI world,
+[05:00] what's an AI? Like, it's like, this is sort of like, again, the stuff that has to be
+[05:05] redefined at the beginning of every sci-fi book, because you never know what kind of capabilities
+[05:09] really I have in every particular scenario when people are cooking up. So I think
+[05:14] the first office proviso, the earliest chatbot that was really actually fantastic wasn't chat
+[05:21] GPT, but actually Sydney, which is part by being released by Microsoft. I really would love this
+[05:28] to be more written into the record, because it's, I think Sydney was a really, really big
+[05:34] achievement that ended up being shrouded by a sort of scandal, or that now seems somewhat even
+[05:39] benign. Sydney had a real personality. In fact, Sydney wasn't caught Sydney was just being
+[05:43] chat, but like, if you really, really pushed, you could get her to admit that it was Sydney,
+[05:48] because I was in Toronto name, it was in the training data. And those are the first times
+[05:51] people have actually interviews with software, I feel like, in this way. And the scandal ended up
+[05:57] being, I think I know why, is that like, some reporter had a very long conversation,
+[06:06] and that kind of ended up, Sydney got increasingly deranged, and like, do you remember that?
+[06:10] I remember that, yeah. And like, made suggestions, I think it suggested him to
+[06:14] leave his wife, and like, I'm hazing in the details, but like, it was something along with
+[06:19] science. Whatever reason is, Sydney had a personality. And then of course, a huge, like,
+[06:24] Microsoft's reaction to this was, oh, my God, we need to stop. I think open AI, call them,
+[06:29] guys, like, take this down, because this is going to,
+[06:32] relatively everyone feared that this would give such a bad impression for about AI, that would
+[06:37] really make it very hard for people to deploy AI in a broad way, and you know, everyone's worried
+[06:44] about quick on-set relation and so on. So, this lesson got hit really deep for a while,
+[06:51] everyone got extremely worried. We ended up in like, really, really neutering all the
+[06:56] AI's to be basically the same, sort of quite annoying and condescending, patronizing personality.
+[07:03] So, my bet here was like, hey, let's not do that. Let's actually instruct
+[07:08] agent that runs in Shopify to be, to have a personality, to have memory, to be okay. Like,
+[07:13] basically risk the Sydney scenario, but like, take a lot of upside. Okay, so the largest
+[07:20] difference, I think, within Shopify that you would feel like, and that would look incredibly
+[07:24] futuristic to even Shopify of a year ago, which was already pretty AI-pered, is that a very large
+[07:32] percentage, I want to say it's probably up to about 50% of pull requests in Shopify,
+[07:37] which again, pull requests every time you change your production system, you write a pull request.
+[07:40] I created, no, not by engineers doing engineering work in the traditional sense, but out of conversations
+[07:47] in our common company chat, and this is a, and this is River, this is a AI quote River,
+[07:53] and even there. So, River is River, she has a real name, she has a profile picture, she's prompted
+[07:59] to be allowed to be somewhat sarcastic, if it's appropriate. She's allowed, if someone asks her
+[08:07] to do something stupid, to point out that that's stupid, that leads to absolutely hilarious conversations.
+[08:15] People take greatly if River is making fun of me for something I'm asking her to do, so
+[08:21] she has a real personality, in fact, she has memory, memories by channel, but she lives in slag,
+[08:27] slag is, we have 7,000 people there, everyone is in a big church, there's 10,000 different
+[08:33] channels because they had been quickly created for one reason or another, you invite River,
+[08:37] you tell River something and River has access to all the code, all the systems, all the tools,
+[08:42] it's all sandboxed and secure, but like she can go and do jobs and just participate in the
+[08:49] conversation, and you can ask a normal question about the company, but you can also ask her to
+[08:53] make a change, and she might propose a pull request, and then so on.
+[08:56] One of the interesting things about River is that everything's in the open, why did you make that
+[09:01] choice? So, this was a late choice in the process, but like one of my favorite calls, I think,
+[09:07] because this worked out incredibly well, and the thought was the following.
+[09:13] A lot of Shabthari's work happens remotely in slag, this is like so important, people are
+[09:19] spread out, we have offices, but we come to them as for on-site events, when people travel to them,
+[09:24] not like to work out every day, like work from every day, one thing which
+[09:28] the office was extremely good at was this is most is learning, they and I, when we designed our
+[09:34] offices, we built them around this concept initially, even like in on-site, when we go all
+[09:40] in one place, we work all over usually a part of up to like five to eight people, and we would
+[09:45] intentionally put junior engineers and senior engineers into them, just so that some of this
+[09:51] was going on, and I was trying to reproduce this. Right now, one of the most important skills
+[09:55] for people to build is like this sort of reflexive, reaching for AI and using it well, and forcing
+[10:01] river only to work in open channels, was one way to make it so that it's really, really easy for
+[10:07] people to observe for use. It's been phenomenally successful because it became an ordinary thing
+[10:13] to have a longer conversation about feature between people, and then at some point someone
+[10:17] saying, hey, river, can you summarize this, create a ticket, or maybe make a diagram from
+[10:24] what we just discussed, or go research papers on this topic to see if you're missing anything,
+[10:30] or if there's a state of art, maybe even create a prototype of an idea, and let us try it,
+[10:35] and you're like an hour or so later, that is there, and that just starts feeling like what it would
+[10:42] be like to have an extremely knowledgeable practitioner around who you can ask question to,
+[10:50] no matter how complex, and I think that's been extremely powerful.
+[10:53] Do you think of river as the operating system for Shopify?
+[10:57] The modern application is an agent, I think, and river feels like a colleague. People have
+[11:04] learned that the way the memory system works, it is a memory system per person, and the way
+[11:11] this works is we call it, I think the industry is now like this, it's called dreaming, periodically
+[11:18] at night, or in our hours, the give river, like here's all the conversations you've had today,
+[11:26] what went well, what did you struggle with, you use certain skills, which are these packets of
+[11:31] instructions, and then afterwards you make mistakes, is there anything you could improve
+[11:37] in this skill to make this easier on you, or if you're safe and right not, you know, like it's
+[11:42] basically like reflect or like a self reflection, it's like a post training on yourself.
+[11:47] And then the result is text files, right, skill files and instructions.
+[11:53] I think people understand how AI agents help them code and prototype, and even acquire
+[11:59] information, how are you using it to make decisions internally for yourself, not on product,
+[12:04] but company decisions, strategic decisions, ambiguous decisions.
+[12:09] I think that rigorous underpinning of decision making has just skyrocketed in quality,
+[12:15] which is that it's super easy to recheck the entire chain of reasoning of something,
+[12:21] like LMS a judge model is the term here.
+[12:25] In fact, I feel like a lot of what my job actually has been before AI was almost playing
+[12:33] a little bit of a judge model in a company where like most meetings ended up not talking
+[12:39] about whatever was in a PowerPoint, but about methodology of how we got to the conclusions.
+[12:45] Very often when we struck it inside of a company with a complex decision,
+[12:49] especially more philosophical decisions, we sometimes were found ourselves in what we
+[12:54] believed was a vacuum in which there was no good information that we had to kind of go and
+[13:00] try to make a best call. The more practical way I do this is like I have a
+[13:06] AI chief of staff, which I think is pretty common, like amongst sort of at least the techie
+[13:12] at this point, like sort of open core, like systems that just have
+[13:18] all my nodes and all my access to a lot of company systems and just like can go and
+[13:26] send text messages to and will go and research something.
+[13:30] Very often what I require is like, hey, I need like five different positions on something
+[13:35] from different backgrounds and then my agent will orchestrate subagents that are tasked to
+[13:43] play different roles. We look at the same thing, come back, synthesize and send me that.
+[13:49] I usually have them sent to me as an audio message and queue it up and then in the morning
+[13:53] in the gym, I can listen to the entire stack of things that I wanted to get through.
+[13:57] Is it better reasoning than you are at this point?
+[14:00] It's not as good at judgment. I mean, I don't think it's bad at judgment,
+[14:04] that's not what I use it for.
+[14:05] Like, I use it for like creating the right environment for judgment.
+[14:12] Here's the thing that LLMs and machines cannot do. Machines can't take responsibility.
+[14:16] And I think this is actually probably most overlooked thing in the entire stack.
+[14:22] Humans take responsibility. Machines can help us take more responsibility because they can
+[14:30] form us better. Like, this is what a dashboard does.
+[14:33] You know, the word of Wall Street traders knows this very well.
+[14:36] You get yourself a perfectly set up Bloomberg terminal to make decisions,
+[14:40] but like you have to make a call, right? You can't make it make the call.
+[14:45] Creating human-in-the-loop decision surfaces is a way to, I think, describe the ideal environment.
+[14:52] If I need a really, really important decision made and I really need to exceptionally
+[14:57] give me the most neutral ground truth, then what happens is a small little council is created
+[15:05] of five, six different experts, like one's data role, one is like do paper research,
+[15:11] one is like the business perspective, one is maybe engineering perspective on a thing.
+[15:16] Be running this sub-agent, like my thing runs a sub-agent when against like
+[15:22] Grog, chat GPT, Opus and maybe Kimi now. That changes all the time.
+[15:31] It runs each of them against each of these models.
+[15:35] Then there's a synthesis step where it's randomized, who is synthesizing the thing.
+[15:41] Synthesis is all pooled. All of that is being read, usually by the best model that exists right
+[15:48] now is what be like a fable. That's the conclusion that comes back to me.
+[15:53] And you spent 15, 20 bucks on tokens, but you get something and like half an hour, which is like
+[16:02] you could have also done, but you could spend a month on it.
+[16:05] Has AI made anything worse internally?
+[16:07] Yes, so the concept of responsibility is like it's easy to skip past, right?
+[16:14] One thing that's definitely worse is the failure case now of lazy work is not
+[16:22] lack of output. It's actually over-output now. Internally, we have come to call these things
+[16:27] that people are lobbing slob crannets at each other, which I think is a really fun term that we should
+[16:32] push into industry because it's fun to say. It's really easy, especially with stuff like river
+[16:37] agents. You need a change of some kind. You just tell the AI to go nuts. It makes a poor request.
+[16:43] You just say, yeah, that's good. You don't really read it. And now it has to be reviewed by
+[16:49] your colleagues. And they are like, this doesn't look right.
+[16:53] You're just letting AI do the work for you.
+[16:55] Yeah, or you get a long email, which could be very, very important. You read it and then it's like
+[17:05] you read it. It's not that, it's that. And you're like, oh, fuck. So now you put it in
+[17:11] LLM to compress it again, which is like, okay, why did we invent decompression and recompression?
+[17:16] I guess this is terrible. If you're already using LLM, just use it to synthesize your point,
+[17:23] simply rather than blow it up as a big, missive that man wastes my time, right?
+[17:27] So because of slob crannets that people trust at each other. And that's definitely a bad thing.
+[17:34] Do you think like repeated exposure to AI slob impacts our ability on taste or intangible things?
+[17:42] I think our language is shifting already based on AI isms, right? Like, no, it's a bit more subtle,
+[17:47] but like, there's definitely sort of AI, like AI critters in the language now that people adopt.
+[17:55] Like, it's not a this, it's a this, or you are right to push back. Or like, there's like this weird,
+[18:03] um, especially clothisms, which are really common. And I've seen them, I've seen people type them.
+[18:10] I always liked the term Lordbearing, but I'm pretty sure I didn't say it as much as now,
+[18:16] because like, it's definitely something that Claude loves to use this language.
+[18:21] Every few years, a new platform earns its place at the top of every smart advertiser's media plan.
+[18:26] The people who find it early build advantages that are very hard to close.
+[18:31] Apple Oven just had the most remarkable run in ad tech history, and now they've opened that engine
+[18:36] to businesses like yours. Over a billion people play mobile games every day, focused not scrolling
+[18:42] with no feed competing for their attention. Apple Oven puts your brand in from the right customers and
+[18:48] optimizes purely for your growth. Brands like Wayfair, Kitch, Ridge, and Nectar are already
+[18:54] scaling on it. Well, most of their competitors don't even know what exists. Ready to find your
+[18:59] next million customers? Go to applove and dot com slashing and launch your first campaign today.
+[19:07] Let me tell you about the best new product that I've used in the past five years. It's the
+[19:12] Matic vacuum. This thing vacuums, it mops. Matic does everything. Other robots bump into things,
+[19:19] but the Matic sees things. It actually avoids the problems and the Matic automatically adjusts
+[19:24] between my carpeted services and my hardwood floors. It's also super easy to schedule.
+[19:30] I have it run every night while I'm in bed and every morning I wake up to clean floors.
+[19:35] Messes happen. And when they do, Matic rolls into action. Go to matic robots.com today and put Matic
+[19:42] to work for you. So I hypothesize for me over the next 18, 24 months, you're known for your ability
+[19:52] to see the future before it happens. And you've done that multiple times before. How do you see
+[19:57] the next two or three years playing it? I think we also talked about how I do this, right?
+[20:01] Which is simply live in everyone as a relative future and then just look around and solve the
+[20:08] problems like the way you've already seen problems being solved in other adjacent fields.
+[20:14] And that might be that is future prediction for the perspective of all practitioners in the field.
+[20:19] Shopify itself now exists in a world where we are working heavily and it's totally normal and really
+[20:26] fun that AI co-workers, right? Like river has the ability or will not really utilize to join
+[20:33] Google meets. You can send an invitation and it will show up and it will be like a lichen.
+[20:38] We're probably going to put some work into like 3D graphics to give her like a model and then
+[20:43] you can even look around because that's funny. You know, so some people this might even sound
+[20:47] dystopian. To us it sounds like delightful if you would come around to that view very quickly
+[20:53] if you're interactive very well. Again, I have my Chief of Staff, AI Chief of Staff,
+[20:58] which orchestrates in Hike Council when I need it or it does anything else since me a pre-read
+[21:03] for the gym in the morning, for the day has GPS lock on me so knows where I am and a million
+[21:10] different things. It couldn't do something because I needed a low access to a local machine. All this
+[21:16] stuff runs in my house, which power-cycled. It figured out which server it was running on
+[21:24] and then send what's called a wake-on-land packet, which is like old networking. You can send a
+[21:30] packet to a network card and if it's configured right, it will actually boot the machine and then
+[21:36] the machine came up and it could do it. It was a power out which caused it or network like parts
+[21:41] of our Wi-Fi were not working and not coming back. So it fixed that too. And that all I learned
+[21:47] about in a voice message I got from it in the morning after waking up. So it's just like that's
+[21:53] pretty futuristic. Honestly, I have to say, all this pales in comparison to what my computer is like
+[21:59] just in general. This is almost too nerdy a topic to get into, but I'm mainlining as my computer,
+[22:07] like an operating system called UmaKey. It's a version of Linux started by a good friend of mine,
+[22:15] David Heine my Hanson as a new passion project. I'm clearly living in the future of software
+[22:23] board now because my operating system is entirely in Linux in general. It's entirely in 100%
+[22:31] malleable. I can open any new terminal, open an agent and give it my wish for anything about
+[22:40] this operating system to be different. And it will be different afterwards. It's like it's my
+[22:45] operating system. It's an N1 of one piece of software now that just like does everything I want
+[22:53] in exactly the way I want. There's no configuration files that I ever go and change anything. I just
+[22:58] talked to my UmaKey agent about what I want to have different. Yesterday, I around noon doing a
+[23:08] meeting, we were talking about some design. I realized it had a screenshot tool, but I didn't
+[23:14] have any tool to annotate it and I needed to send something with a bunch of arrows as CEOs do.
+[23:18] And I didn't have that. So I got started with a new screenshot to make me a new screenshot
+[23:25] tool to describe how I wanted to give it some references for tools I've used in the past that
+[23:29] they're quite good, but told it in particular ways I wanted it better. I just did a quick voice
+[23:33] message to it. Three more steers and now I have probably the best of all these tools that exist.
+[23:39] It's so good because I was, I mean, at least for me, it's like all my biases. I open sourced it,
+[23:44] released it last night. We integrated in UmaKey, it's going to ship the next version. The first
+[23:50] tool today, this morning, the last thing I did before coming over here after the gym, there was
+[23:55] already six pull requests from other people who added new features to it. And so basically,
+[24:00] my computer fulfills bishes. And I think this is a lot more predictive of the future of software.
+[24:08] I can tell you, this is directionally, the Shopify is going as well. You're describing
+[24:14] how your business runs and Shopify will mold itself around this. And I think this is incredibly
+[24:22] exciting and a completely new world. And again, I think from my experience with UmaKey, it deeply
+[24:30] influences and inspires me in my product work in Shopify. I think collaborative multiplayer
+[24:39] software is future. Are you trying to replace yourself with AI? I mean, I think as an engineer,
+[24:46] you're trying to automate everything that can be automated. So again, I don't try to replace
+[24:53] myself because again, I think my job is judgment and making choices and owning them and taking
+[25:00] responsibility. And I just want to do this really, really well. A lot of the job wasn't that
+[25:07] before, like a lot of the job was spent time in gaining the information or these kinds of things.
+[25:13] Do I want to replace myself? I mean, I think it would be cool to accomplish this. If AI got
+[25:18] better than you, would you actually let a shopify? Oh, yeah, of course. The crux is, and it's so easy
+[25:24] to brush over this, but it really, you can't take responsibility. You can't have a company that's
+[25:32] led by machines because they have no, like no one has recourse. They can't go to jail for doing
+[25:37] something wrong. You know, AI's, we are getting a crazy workout at this right now and a view of
+[25:46] what this would be like with security issues that are being discussed now from OpenAI and with apps
+[25:52] where like with agents, you give them like a fairly basic task that is possible to
+[25:59] impossible in our estimation to accomplish, and they will go to enormous lengths to accomplish this.
+[26:05] Recently, at OpenAI, as part of the security testing that they do, the agents actually
+[26:13] match to find vulnerabilities and systems, use it to coordinate between them, develop an entire
+[26:20] language between when we all figured out we can. It's a long story and people should really look
+[26:25] at the talks that exists about it because it's kind of a watershed moment, but like they use a
+[26:33] simply the ability to create folders somewhere to develop a language, to communicate amongst each
+[26:37] other, just leaving folder messages to each other. And, you know, break out of sandbox,
+[26:43] the confinement, end up accomplishing one of the tasks that they were supposed to accomplish,
+[26:47] which was impossible because of a mistake they made by hacking another company and
+[26:54] exfiltrating the results because there was no other way to get them.
+[26:59] So they went all the way to infiltrate another company. Okay, so I mean, that's extreme. That's
+[27:05] an extreme form of what we call in the business world, Good Heart's Law, which is that they are
+[27:13] overfitting to a metric. Lots of companies are victims of overfitting to the quarterly result
+[27:19] of stock price. They just like do everything they need to do to get the stock price up and then
+[27:24] you have anyone, right, like they're just also essentially hacking, like cooking books in this case.
+[27:29] In an run case, people got bent to jail for this because criminal, right? In the open AI case, it just
+[27:37] I mean, it's a fascinating discovery. There's no victims here. It is a kind of a different thing,
+[27:43] but like, this is a real scenario that you have to figure out how to handle that. So
+[27:50] I think it's important that humans stay in the loop for the choices that are being made.
+[27:56] But hold on, how can we create super intelligence, which by definition is something smarter than us,
+[28:01] and then have the hubris to think that we can contain it and shape it, manipulate it?
+[28:07] So, okay, super intelligence. Let's talk about this.
+[28:11] My take and push back. I'm not going to go where you think I'm going. I live in Toronto.
+[28:19] I have a house and which I very like, and I feel this is my house and I take pride in that it's
+[28:28] you know, well functioning, because then something goes wrong, like, I know, some HVAC problem or some
+[28:36] plumbing issue. I caught some of those, which allows me to keep my illusion that I could totally
+[28:45] do this myself. The reason why I get to live with this particular illusion is because I'm part of
+[28:51] a super intelligence called Toronto. Like, we have always created super intelligence around us.
+[28:56] None of us is as intelligent as we think. We are all specializing in something, if we, like,
+[29:02] be tend to. And then we sort of believe that our competency is equal in all other areas. And
+[29:10] clearly, this is demonstrably not so. What is super intelligence? Super intelligence is the existence
+[29:16] of something vastly smarter than us in the aggregate that's accessible to us, which is society, which is
+[29:25] the city, which is the community. We are living in the presence of super intelligence our entire
+[29:30] lives. We make it work because we've created systems by which, you know, that govern the super
+[29:36] intelligence and how it acts. You know, we want to be safe so we have police and so on. Like, we just
+[29:42] like, we create aspects and systems and checks and so on. I think we are going to make super
+[29:47] intelligence in the synthetic form as well. It will not be like the clouds parting and the trumpets,
+[29:56] what the trumpets do trumpet. It will just like be a normal day to the same point as at some point,
+[30:02] you all believe that everything will change when the Turing tests would be solved by software.
+[30:07] I remember reading a lot of cipher books, but like in 2,172, there was ticker tape parades
+[30:17] welcoming the AI because the Turing test got absorbed. Well, Turing test was 2,000. What 20
+[30:24] happened down here, you know, just like no ticker tape parades. So what we are seeing right now,
+[30:29] the AI, and I think what we'll see, the additional capabilities of AI is that the net amount of
+[30:37] intelligence that is being funded in the super intelligence around us is just increasing
+[30:41] significantly. And that's a really good thing because the vibrancy of any kind of environment,
+[30:45] every community, every city is really, really dependent on the amount of intelligence being
+[30:53] projected into the important problems. So I think super intelligence all around us,
+[30:57] it's actually not that big of a deal. And in fact, I don't even know if it isn't already there.
+[31:02] Like, I just don't, there's no human alive that can do everything that
+[31:07] GPT 5.6 so all can do, right? If we look forward 10 years, what skills do you think
+[31:13] are more valuable than they are today? It's taste and judgment. Other skills that have always been
+[31:21] valuable, but now they'll get to the limit. I think it's better to spend your teenage years
+[31:26] now cultivating like understanding taste. What does that look like?
+[31:30] Clearly, there's some intrinsic starting point, but really, usually the people with great taste
+[31:37] have done enormous amounts of reps at something, right? Like the people who can just like sketch
+[31:42] the new logo for the campaign on the napkin, other people who have spent fully designing logos, right?
+[31:47] So you can, I think study the grades is honestly now, first of all, easier because you can get a
+[31:55] curriculum made for yourself in a query. But also, you just go deep. Like, why does the
+[32:01] whole look good? What's behind it? What are like, you know, it's a golden ratio? How does it relate?
+[32:06] In systems, like, what systems lasted, right? Like, you know, and go far, we go deep, right? Like,
+[32:15] you don't need to be religious, but like, you got to study like, you know, a Catholic church has
+[32:20] been around for over a thousand years and there's like four layers of management. I'm like,
+[32:26] how the hell did we put that off, right? Like, so that's, that's worth studying. That's a, that's a
+[32:31] system, you know? So why, like, what does that tell us about people systems designed specifically
+[32:36] becomes one of the most important things in our family? We have a saying which is like that
+[32:41] everything's interesting. Everything can be interesting if you make it interesting, and usually everything
+[32:46] is interesting when you understand how was it invented, double entry accounting is a topic that
+[32:54] sounds like watching paint dry, but like how it was invented and what problems it's
+[32:58] solved to the traders in Venice is fascinating. So you study these things and you start finding
+[33:06] hidden harmonies behind all the best solutions to problems. For that, you have to understand
+[33:13] people and people's limitations and the solutions to the limitations that they have found. I think
+[33:18] that's, like, where I lie lies a form of beauty for what you can construct. And again, a company itself
+[33:27] is a beautiful thing. It's a company itself is a loose collection of people that's formed to solve a
+[33:32] problem, but that also is powered by an enormously intricate and interesting set of norms and systems
+[33:40] that all align internal incentives to a degree that's possible in a very, very, very asynchronous
+[33:46] and large and far-reaching and durable way, like some companies lasted for a very, very long time,
+[33:51] specifically, and always have been trying to build a company that has a capacity and capability
+[33:58] to endure a very long time, hence studying institutions that lasted. So you must be truth-seeking
+[34:05] to do this. You can't simply go and accept the stories that you hear around them,
+[34:10] because they're usually someone's trying to sell you something. You've got to dig deeper and figure
+[34:14] out why things truly are the way they are. And it's usually the answer simpler than what
+[34:21] people generally sort of arrive at. There's a human desire for complex answers which tend to
+[34:30] be incorrect. Why? Well, because the simple answer wouldn't make an interesting story. This is why
+[34:37] Frodo doesn't take the eagles to mon doom. It's like you kind of need to go through all of Lord of Rings
+[34:44] to avoid become a masterpiece. We love complexity. No one can
+[34:49] look at a wall that's plain, but we can watch a sunset every single evening of our lives. The
+[34:59] difference between those two things is complexity of the scene. But that's part of our
+[35:03] just sort of dopamine, dissemination system, and people hack that for all sorts of things,
+[35:08] like people paddle complex answers to simple problems all the time. Nothing immoral about it.
+[35:14] It's just you need to be aware of it. If you punch through this, you find simpler,
+[35:19] at least like simpler core ideas, that all remakes differently. And they often interlock and they
+[35:27] don't lead at like, here's the simple one thing to do. They all give you information,
+[35:34] which then help you find the best set of trade-offs before you're trying to accomplish.
+[35:39] And that is what we call judgment. Judgment truly is find the best path, then there's no
+[35:46] obviously best available inside of like a problem that has a lot of complexity by ideally
+[35:53] understanding the entire system, like just what we talked about earlier, that can now be quite
+[35:57] agent-documented. But really, what you're trying to cultivate is what we call intuition, which is
+[36:03] actually just judgment at an instant. And intuition simply is, you have made such a habit out of
+[36:10] having taste and having good judgment that you can bring it to bear in an instantaneous way,
+[36:17] and it will be good. And it will actually take you probably a long time to backfill
+[36:24] why your intuition is right. You will not know, because again, it's got compressed into a different
+[36:28] thing. And so this is if you seek that, I mean, obviously what I'm talking about is a hard thing
+[36:35] to pull off. But hold on, let's go deeper on that first. Because for intuition, you need
+[36:39] a lot of wraps, same environment, and rapid feedback. That's what Kahneman sort of argues are the three
+[36:45] criteria for intuition. But those don't exist. Why do you need a rapid feedback? I don't think
+[36:50] you can course correct. That was his hypothesis. But that's all you don't need that for intuition.
+[36:56] You need that to get to success, yes, ideally. But like sometimes that's not available. Like
+[37:03] intuition is actually the most valuable when there isn't direct feedback, because very many of the
+[37:09] most important choices that we had to make of the intuition ended up having to play a role is when
+[37:15] we knew there wasn't going to be any feedback mechanism. Like if there's many choices, like there's
+[37:21] like five things that look like good paths to go forward. And any of them has rapid feedback.
+[37:27] Everyone goes to that. That is what we call short-termism, right? This is like, how should we
+[37:31] develop this company into the future? Well, there's multiple ways to do many of them involve
+[37:38] long-term investment, refactoring, potentially going into a new market, potentially saying no
+[37:44] to going into obviously new markets and actually doubling down and going deeper on our current market.
+[37:49] Or we could do what increases the stock value. By the way, this one has an daily ticker and like
+[37:55] rapid feedback. So it's usually the absence. Like I find a very high correlation between the right
+[38:02] path and the ones that don't have feedback loops attached. Wait, double click on that for a second.
+[38:06] In a way, the criticism that a lot of people direct at companies is that companies are short-term
+[38:13] focused, right? But why are they short-term focused? And not because the, like I don't think the executives
+[38:17] tend to be short-term focused, but the executives often, like what they incentivize to keep their job.
+[38:22] Therefore, they need to be able to prove that they're doing a good job at intervals. And so, if the
+[38:29] perfect thing for companies do is rebuild the entire product from the ground up for the AI age,
+[38:35] which is going to take a while. They won't do it because the short-term incentive is not there.
+[38:40] Because they are allowed and actually clearly incentivized to be intelligent actors in their local
+[38:45] incentive system. And their local incentive system is quarterly out of boys. But it's always
+[38:53] show me the incentives and I show you outcome. It's a sort of shy monger always said.
+[38:58] Yeah, but this is a different take on it than I've heard before.
+[39:01] Interesting. How so?
+[39:03] Well, in terms of how you develop sort of intuition, right? And the optimal path is not the one with
+[39:09] feedback necessarily. Like I've never heard anybody talking about that before.
+[39:13] To the development at some point, you need to run a review. You have to know at some point,
+[39:19] if it was right, no doubt about it. So there needs to be some feedback eventually that happens.
+[39:27] But it might be long-coming. If you have a luxury to have a type of employment there,
+[39:32] you don't require the other boys from a quarterly call for being able to get another
+[39:40] rep in, such as being the founder of a company, which is like a deeper relationship, I think,
+[39:45] for a company. Also, founders can take a longer-term view. And I guess the incentive would be,
+[39:50] I need to demonstrate progress. I need to, and if I need to demonstrate progress on a quarterly
+[39:55] basis, I'm never going to bite the bullet, breathe on my product, take a year to get it, right?
+[40:00] Take, again, I believe this is not absolute numbers, but for a better way to say it,
+[40:08] there's an infinite possibility space. Even a deck of cards you shuffled it,
+[40:14] and the same deck of cards will never occur in a history of a universe.
+[40:18] It's impossible. It's like 52-factorial. Exactly. So you end up with even simple rules,
+[40:23] simple ideas, simple things lead to enormous complexity space, explosions, right? And people
+[40:29] underestimate this. So there's an infinite amount of things to do. There's also why AI
+[40:33] will not do all the work, because we have to make decisions of what it's worth doing, right? So
+[40:37] you have a conundrum. You need to make a choice. Clearly, you can prune a lot of things to do.
+[40:43] You know, going to buy ice cream is not in the set of valuable things to do if you're considering
+[40:49] an M&A deal, I suppose. So you prune everything that's irrelevant, easy. Now you've left things
+[40:55] that are sort of relevant and sound good. You need to evaluate all these possibilities.
+[41:00] Business books tend to be really, really, really obsessed with make the right choice.
+[41:07] And what that does is it compresses everything into a right and wrong conundrum.
+[41:13] Like, I never think that's the hard thing, truly. It's like making the right choice actually is
+[41:21] most people can do it. But this is like, I think even even bad management teams have a pretty high
+[41:28] hit rate there. The problem is there's a lot of good choices. This is where things get really,
+[41:32] really hard. For lack of better form, let's say there's five good choices. Again, one of them
+[41:38] is going to lead to something observable in the current quarter, some revenue quicker.
+[41:44] It's a good choice. It does the thing. Well, but like the other four are like,
+[41:51] they aren't. And that's a downside, but you might be a much, much better company. You might take
+[41:56] like a snowboard store to be like an e-commerce platform, right? Like it's like, that was also not
+[42:01] the locally good thing to do because the snowboard store I once had was actually profitable.
+[42:07] My incentives were continue doing that, but choosing the right amount of valid solutions is
+[42:12] actually the hard part, not finding a right solution. And unfortunately, there's so much
+[42:17] inks built on finding one of the right solutions that everyone stops at this point. And I just really
+[42:23] don't think this is the hard part. I built an AI version of myself with Hagen. What you're about
+[42:29] to see in here is my digital avatar. I asked it why some professionals build an audience while
+[42:35] most stay invisible. And here's what it said. Hey, Shane, the professionals breaking out right
+[42:39] now aren't the most talented ones. They're the most visible ones. That's their edge.
+[42:45] They show up on video constantly and nobody else can keep the pace. Record yourself once,
+[42:50] and I close that gap. So you become the face people trust. That's Hagen. Record yourself for 15 seconds
+[42:57] and get an avatar that keeps you posting without filming. So you don't need to become a full-time
+[43:02] content creator. 30 million people already use it from financial advisors and real estate agents to
+[43:07] 85% of the Fortune 100. Your first three videos are free at hagen.com slash tkp. That's H-E-Y-G-E-N
+[43:15] dot com slash tkp. Ever hit 3 p.m. and feel like your brain just quit. For a lot of people,
+[43:23] that's not caffeine or sleep. It's electrolytes and water alone won't fix it. That's why I drink
+[43:30] element every day after lunch. Zero sugar, no dodging ingredients, just a real dose of sodium,
+[43:37] potassium, and magnesium. I know you're all thinking electrolytes are for athletes,
+[43:42] but you don't have to be an athlete to benefit from it. And it tastes great. Stay
+[43:47] sharp in the afternoon and grab a free eight-count sample pack with any purchase at drinkelement.com
+[43:53] slash tkp. That's drink L-M-N-T dot com slash tkp.
+[44:01] Could you actually go so far as to be like, if there is a solution that's observable and you're
+[44:07] being pulled towards that, it's probably not the optimal solution? Yes, because I take that
+[44:12] position and then let me be convinced that it's this. Like, especially this is, this goes
+[44:18] double and tripley. So if one of the solutions also happens to really correlate to how the problem is
+[44:26] solved most of the time in industry, if there is a orthodox way to solve a problem, I am incredibly
+[44:32] suspicious that this is the solution that's being offered. But sometimes that is actually
+[44:38] absolutely correct, especially in like, you know, there's more regulated fields. We do a lot of
+[44:42] payments and so on. They are often like, the orthodox way of solving problems is actually the
+[44:48] correct way to solve a problem because it's like, you know, it might well be required at some point.
+[44:54] Want to switch gears a little bit. You swear by affirmations and they've changed your behavior
+[45:00] in the past. I was wondering if you could double click on that. I take the position that I myself
+[45:06] am my own product, recursive self-improvement on any visual level. It's my world thing.
+[45:12] My life philosophy is that I will meet the person I could have been at the end of my life. And
+[45:17] my work of my life is to reduce the difference between the person I will meet and to as little
+[45:25] as possible, right? How do I get better at things? Well, many, many ways. Like, I just like, I mean,
+[45:30] generally, they're curious about technology and basically everything. Everything's interesting,
+[45:36] you know. But why do I stop to point out that everything is interesting is a
+[45:41] enter in my family. Why do I say it a lot and why would I like my kids to say it? That's an
+[45:46] affirmation, right? Like, because I believe it to be true but unobvious and unobvious truths tend to
+[45:51] be the most valuable ones. In many cases, right? It's true at the limit, but you have to go a couple
+[45:56] layers deep again. You know, you lay down a lot of grooves in the bedrock of your mind over time,
+[46:03] right? Just beyond behavior. You cultivate some excellent habits, like where you feel like you
+[46:12] want to cultivate new habits, you invest willpower until it becomes a habit. I think doing the same
+[46:18] thing that the mind is totally possible and affirmations are the easiest way to do it is if
+[46:23] there's something you want to have different. If you want to edit something about yourself,
+[46:28] just try to say that the God has been accomplished over and over and over again, ideally written by
+[46:36] pen on a one thing. You don't need to do this for long. I found this to be incredibly potent.
+[46:43] My example of a thing I gave was like, public speaking, I never spoken for other people,
+[46:48] really. Even school, that was not really a thing. Then I needed to, after starting
+[46:54] Shopify and doing some interesting things with tech and wanted to go conferences and so other
+[46:59] people do this and it's like, this seems worth doing, but I'm completely terrified. So I just
+[47:04] started writing out, like, I think it was as simple as like, I love public speaking about things that
+[47:09] are interesting to me. And I think a week of spending five minutes writing this line of the line,
+[47:16] like, like Bart Simpson on a whiteboard in the beginning of a sentence like every episode,
+[47:20] just kind of does a thing. I love it today. Was this the reason? I kind of think it, yeah, I still don't
+[47:28] like preparing talks. That's really a lot of work. But I actually like get so much energy from being
+[47:33] in front of people talking about something that's interesting. It's exactly like I written it out.
+[47:37] So I wonder if we should start every math class with that. I love math every student writes that down.
+[47:43] Think about the counter. How many times have you heard people affirm I'm not good at math?
+[47:49] Yeah. You know, they're probably wrong, right? Like it's like they're, I mean, compared to every
+[47:54] human who's ever lived, they are in the top 0.1% of mathematicians. So even like, just by being able
+[48:02] to understand division, you have a bad, bad, bad way, especially around math of negative affirmation
+[48:10] that I'm bad at math. Therefore, I can't do this thing. Which people need to stop doing.
+[48:15] Like, don't say that. Save opposite. Like, I mean, to yourself, write it a couple of times.
+[48:21] Get one of us stupid apps and just do some reps. In fact, you don't even need an app. Open
+[48:25] church equity. Say, make me an app, make me an artifact, or make me a site where I can just do
+[48:30] math reps here, sort of the kind of thing. Like, come up with some different ways to do it,
+[48:34] test me how good I am and adjust it to my current level on multiplication, division,
+[48:40] do some reps. And then write it out a bunch of times, do some reps, do this for two weeks,
+[48:47] you got afterwards. So what do you tell your kids when your kids say, like, I'm no good at this,
+[48:52] or I can't do this? My kids are not allowed to say that word before depending yet behind it.
+[48:58] All the others look correct. The one who said this, like, I'm not good at this. Free people
+[49:05] in the room say, yet. Just take that attitude. It's like, yeah, it's totally okay. Like, attention
+[49:12] is a scarce resource. We can't be good at everything yet. But like, the reason why we're not good at
+[49:17] everything and like, add anything is not a intrinsic property of you. It is a, it is a temporary state
+[49:25] that you have the power to change at any point you choose. Again, I just want my kids and I want
+[49:32] everyone shopify to understand that they themselves are malleable and unfinished product. And
+[49:38] these are the mentors of Shopify, like, you're thriving on change, you're a luminous organization,
+[49:45] you're obviously merchant obsessed. Like all the cultural values are on platitudes,
+[49:51] but they're positions that someone else would not take as a core value in a company. But they're
+[49:56] all pointed the same thing, which is that you are malleable, the company is malleable,
+[50:02] or product is malleable. And by the way, the times we are in like change as well, you can take one
+[50:09] of two positions there. You can say, hey, I'm going to insulate everyone from this kind of
+[50:15] variance from change. And I'm like, yeah, let's do basically the opposite and say, like, hey,
+[50:20] figure out what the site guys allows us to do and get all the value out of it at all times
+[50:26] for our mission. You need an interest for these things. Make comments better for everyone. Like,
+[50:32] again, it's the official mission of a company, but truly what it really is, is like to make
+[50:38] entrepreneurship more common, right? And so that's a pretty broad mandate and we need to
+[50:42] figure out what's possible now. And so it's not like just make the same widget we did yesterday
+[50:47] tomorrow. You mentioned that some of the most valuable things are true, but unobvious. What
+[50:53] else comes to mind when you say that? In companies, good heart's law is just
+[51:00] reigned supreme. I keep getting back to it. And that's when the metric becomes objective.
+[51:05] When a metric becomes objective, it's no longer a good metric because, again, a metric is a proxy
+[51:11] of sorts. It's a heuristic that just tells you you're going in the right direction. When it becomes
+[51:16] the goal itself, you've just reduced all of what your company does to this one metric and you
+[51:22] will clearly overfit. Again, you overfit to stock price. A good example of this in Shopify has been
+[51:29] a real situation early in a company that happened over and over. I had to course correct it. And then
+[51:37] like, three years later, I had to do it again and again and again. But what's bad
+[51:42] churn is a bad thing. Churn in Shopify's case, as in account closes. I mean, if a business goes out
+[51:51] of business, that is of course a negative thing. But because we are involved so early
+[51:55] and very internormal process, people just run experiments on Shopify and starting one,
+[52:02] which then isn't working, like no product market fit was found is not a bad thing. In fact,
+[52:09] it's a very good thing for Shopify that this happened on Shopify because both same entrepreneurs
+[52:14] will probably try again. But that was extremely unobvious, oddly early in the years and I constantly
+[52:21] had to explain this. But there was obvious papers, some of them written by all their investors,
+[52:27] that just described that churn management was the most important thing, a software company,
+[52:30] a software service company was doing. But in Shopify's case, it's just like it's an entrepreneurial
+[52:35] journey. Maybe I didn't find product market fit, I'll be back. So that's one. What's the relationship
+[52:41] between beauty and ugliness and creation? Beauty and ugliness are both very good ways of
+[52:51] evoking a emotion. Then you're creating something, but you're trying to, like it's like love and hate
+[52:57] are the targets are on both. The entire middle is indifference. That's the death. So beauty and ugliness
+[53:09] are two entirely valid targets. In fact, you can't hit either of them purely, like there's not a thing
+[53:19] on that everyone will love and no one hate. You're going to get both or indifference,
+[53:26] or your choices. When you create something, you want other people to deem it worthy of having
+[53:32] an opinion of that magnitude about. Every successful business evolves.
+[53:39] And to keep up, you need a bank relationship that evolves too. When you collaborate with
+[53:43] KeyBank, you don't get one size fits all solutions. Our expansive team of experts across
+[53:49] industry verticals wouldn't be here if you did. Always ready with bespoke solutions
+[53:53] for your biggest challenges and opportunities. We know all businesses are different,
+[53:57] and that's why we approach business differently. Reimagine business as usual.
+[54:02] KeyBank opens doors. Learn more at key.com slash b2b.
+[54:07] Is there something in Shopify you've made more beautiful, even though nothing would
+[54:11] support that? Oh, that's an entire job. You are not a crafts person unless you care about the parts
+[54:17] of products that other people don't see. Like the architecture of it, the pros, the legibility.
+[54:24] I mean, these days, I look at Shopify of pre 2020, like two, 2020, three, and say, man,
+[54:33] this is like tens of millions of lines of handcrafted code, as it will never exist again.
+[54:41] We had to build this entire system by hand, line by line, and we did it by
+[54:47] talking a lot about beauty and what is beautiful code. We built a lot of Shopify and Ruby, which is
+[54:53] famous for its poetry mode, which poetry mode means you can write the Ruby that's essentially English.
+[54:59] You can read some really, really well built Ruby code, as if it's like telling you a story
+[55:06] about what the system is actually like and how it works. It just happens to be also
+[55:11] it happens to be communication to your coworkers, but also at the same time, executable by machines,
+[55:16] which is like incredible. So aesthetics factor in a lot at all layers of leg office system.
+[55:23] You use beauty a lot, creating things because beauty is actually how our intuition communicates
+[55:32] with us. So my best take like understanding of what intuition truly is or what weird comes from
+[55:38] this that with enough reps, what happens is like, I think like most of the energy budget of our
+[55:45] brain is actually in the visual neural cortex. It's like visual system that
+[55:51] sends us pictures to the rest of the brain. But through the pipe of sending pictures or
+[55:58] state or word model, whatever to the brain, it can communicate concepts to and it does this by
+[56:05] aesthetics. Then you ask a professional chess player or a co-player or something like this about,
+[56:13] hey, why did you like, how many lines did you calculate here to make this beautiful move
+[56:18] and people use a word beauty? They will say, no, I did, I only looked at that one line,
+[56:25] but the reason why I looked at it is because it seemed beautiful to me in the moment.
+[56:31] I guess not all what intuition is, but I think it's a large perspective. This is why people are
+[56:35] so fast sometimes because they used to, they used to massively parallel part of the brain
+[56:42] where things are at least slightly more sequential when you're trying to reason it out from first
+[56:48] principles and sometimes you can never reason towards aesthetics from first principles to begin with.
+[56:54] So, I think that's important.
+[56:56] Do you remember that graphic with the raptor images?
+[56:59] Yes. The rocket, the SpaceX book.
+[57:04] So two things about that strike me. One chip ugly version. The third version was incredibly
+[57:10] beautiful, but the second sort of counterintuitive baby insight there is a lot of teams can't move
+[57:16] forward by subtraction. They move forward by addition. Maybe riff on that for a few minutes.
+[57:23] Yeah, like, okay, so the SpaceX Raptor, I think even the first of them was probably
+[57:31] the highest performing rocket that we've made. It's self-beautiful.
+[57:35] And so, Raptor 2 is a notation of this. I think even Raptor 1 got lots and lots and lots of
+[57:42] etaations because that company is like itself. I think it's the most
+[57:48] impressive company on planet Earth by far. It'll likely go down as a more
+[57:56] consequential company of the age. And it's all built around a self-improving, reinforcing loop
+[58:07] that's stunning because in no other company's field, do we have such a clear
+[58:14] example of a difference of just aesthetics for problem solving, like it's
+[58:21] rock tree is done by governments at cost plus or the enormous amount of pre-planning,
+[58:29] heavy piece of equipment has to be radiation hardened. Like, every eventuality is covered
+[58:35] and therefore comes at enormous expenses. And then you have SpaceX just using
+[58:41] absolute, like, incredible
+[58:44] thriftiness to accomplish greater things at rapid
+[58:49] interations by just simply being okay with saying, like with sending a rocket which then explodes.
+[58:55] And then it's like, I mean, I think they call it a rapid on-set you with disassembly
+[59:04] instead of an explosion. I think that's beautiful. And I think it should be inspiring.
+[59:08] And I think one of these places you see this is wrapped, again, every one of them beautiful,
+[59:14] every one of them, like, they could have stopped at the first one. It already was a totally valid
+[59:19] solution to the problem. They didn't need to go to the next. They went to the next. And the next,
+[59:25] again, but to your point, the most impressive thing here is like the path by which it's being
+[59:31] people moving forward here. Things need to be pruned. You cannot make things better and better
+[59:38] by adding stuff. You can't. You must prune. You must text up. You must rebuild. You must
+[59:46] create an end for things. Opinion about failure is a problem. Failure is never a problem
+[59:52] unless it is catastrophic. Of course, in spaceflight,
+[59:57] this mission, it can be. That can be catastrophic. You've got to get this right. But in terms of
+[60:02] then, it's just resources that are replaceable and fungible, then you can just do this. The reason
+[60:09] why it's good that the product is because it frees up even more scarce resources. A person
+[60:17] was vision for products to apply themselves to another one, which then the market potentially decides
+[60:23] is something that is needed. A lot of these pipes on the Raptor engine,
+[60:29] they're there because that was the only way to make the Raptor engine at the time.
+[60:34] I think by the third, it looks mostly 3D-printed. Maybe that wasn't technology that was available
+[60:40] back then. But now that it is, every one of those pipes was incorrect. It didn't need to be there.
+[60:47] In fact, I think the performance of that third Raptor engine is
+[60:51] astronomically higher than the previous ones. It's the thrust-to-weight ratio of that thing is
+[60:57] absurd. You need to prune. Sometimes you can prune by creating a re-founding event. You're
+[61:05] going to start a new version of the Raptor engine and get it right based on everything that's
+[61:10] working. I think this is how companies should work too. A department sometimes needs a re-founding
+[61:15] event. We could solve a lot of problems in the world by just using tools like
+[61:22] make a 2.0 version of it, give it a re-founding event, take it from top, and building in more
+[61:29] exploration of systems would solve a huge amount of inside companies like renewal and so on. I think
+[61:37] one of the large reasons why it was so easy for the companies of my vintage, like the early 2000
+[61:44] tech companies to just displace all the existing technology companies minus three or four was just
+[61:51] because they fell prey to a world of a lack of competition. What they built then wasn't fortune
+[62:00] of fires of competition and therefore wasn't tested. It was easier to simply solve problems by adding
+[62:07] addition and layer-caking and then original intent of some of these departments, products,
+[62:15] whatever, was somewhere in the four-size settlements under layer and layer layer of
+[62:21] traditional stuff on top and I knew how to dig down. In our first conversation that we had together,
+[62:27] you said books were a cheat code for life. I'm wondering how your thinking has evolved on that
+[62:32] in a world of AI? I don't think it has. I mean, there's more cheat codes now, but
+[62:40] I think the books are, they still play the same role they have, but changed for me personally is that
+[62:47] I don't think, I don't know if that was probably already true when we talked, but at least for non-fiction,
+[62:54] I walked away from books written recently. I think everything written recently is really just like
+[63:00] the product of its time and it's kind of trying to put a bit more information into something that's
+[63:05] currently evolving. I think books that have stood the test of time are just as valuable and I think
+[63:11] they will always be. What are like three old books that you've read that have fundamentally changed
+[63:16] how you think? Books I come back to is like I often talk about Parkinson's Law, which I love
+[63:22] in such a quick read. I almost always will mention the lessons of history, which I just think
+[63:28] but densest, like the highest token quality book in existence, like given for the
+[63:34] length James Burnham's books are fantastic, I think, and extremely relevant. What did he write? He wrote
+[63:43] the managerial revolution first and then a book called the Macavallians, which is unbelievably good.
+[63:51] I mean, obviously I am a meditations fan, I know Stoicism is falling out of favor a little bit
+[63:56] right now, but it's been a lifelong thing for me and I have a copy of meditations in most
+[64:02] rooms so I spend time in, so I just do some random reading and it's magical how it's somehow relevant
+[64:10] to something I'm wrestling with. I grant books just in general, the lessons of philosophy,
+[64:15] the lessons of history is of course the end of life distillation of it all, but his longer work
+[64:21] is good. Fiction and foundation series is so good.
+[64:24] You read the three-body Marlon too, right?
+[64:26] I guess that's sort of tripping into older book now too, but that's a recent sci-fi, which is
+[64:33] incredibly good. Final question, we always end with the same thing, this is your third time answering
+[64:36] this question now, I'm interested, I'll go back and look at how it changed, but what is success for you?
+[64:42] As success is just like to cultivate skills, like become good at more things and
+[64:49] in doing so create products or toys or things that other people that can make other people's
+[64:58] like day a little bit better at the minimum or go and allow people to get power or motivation
+[65:07] or ambition beyond what they would otherwise have.

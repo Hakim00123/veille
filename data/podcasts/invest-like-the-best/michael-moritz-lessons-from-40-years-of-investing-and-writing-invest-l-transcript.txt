@@ -1,0 +1,718 @@
+Invest Like the Best
+Michael Moritz - Lessons From 40 Years of Investing and Writing - [Invest Like the Best, EP.491]
+Wed, 16 Sep 2026
+https://colossus.com/episode/the-outsider/
+
+[00:01] RAMP is the only platform built to make your finance team leaner, faster, and better,
+[00:04] saving businesses 5% annually on average so you can stay focused on growth.
+[00:09] RAMP customers grow revenue 3.2 times faster than the average American business.
+[00:13] Visa, Vercel, Cursor, Stripe, Notion, 11Labs, Shopify, and 70,000 other businesses all now run on RAMP.
+[00:20] Mind us too and so should yours. Learn more at ramp.com slash invest.
+[00:25] Felix by Rogo is a personal finance agent that turns a single prompt into finished,
+[00:29] client-ready work using your firm's own templates, context, and standards.
+[00:33] Send Felix an email like, take these comments and turn them for me.
+[00:37] Or, update my tracker with the context of these emails.
+[00:39] And Felix sends back Finnish PowerPoint decks, Excel models, and sourced research.
+[00:44] Felix works the way your team already does, delivering work quickly and accurately around the clock.
+[00:49] Learn more at rogo.ai slash Felix.
+[00:52] OpenAI, cursor, anthropic, perplexity, and Vercel all have something in common.
+[00:57] They all use WorkOS. To achieve enterprise adoption at scale,
+[01:00] you have to deliver on core capabilities like SSL, SCIM, RBAC, and audit logs.
+[01:06] Instead of spending months building these mission-critical capabilities yourself,
+[01:09] you can just use WorkOS APIs to gain all of them on day zero.
+[01:13] That's why so many of the top AI teams you hear about already run on WorkOS.
+[01:17] WorkOS is the fastest way to become enterprise-ready and stay focused on what matters most
+[01:21] your product. Visit WorkOS.com to get started.
+[01:24] Hello and welcome everyone. I'm Patrick O'Shaughnessy and this is Invest Like The Best.
+[01:30] This show is an open-ended exploration of markets, ideas, stories, and strategies that will help
+[01:35] you better invest both your time and your money. If you enjoy these conversations and want to go
+[01:39] deeper, check out Colossus, our quarterly publication with in-depth profiles of the people
+[01:44] shaping business and investing. You can find Colossus along with all of our podcasts at Colossus.com.
+[01:50] Patrick O'Shaughnessy is the CEO of Positive Some.
+[01:54] All opinions expressed by Patrick and podcast guests are solely their own opinions and do not
+[01:59] reflect the opinion of Positive Some. This podcast is for informational purposes only and should not
+[02:04] be relied upon as a basis for investment decisions. Clients of Positive Some may maintain positions
+[02:10] in the securities discussed in this podcast. To learn more, visit psum.vc.
+[02:22] that has really stuck with me ever since is where does one person and the next person begin.
+[02:29] And this deep dive that you took into the impact of one's family history heritage
+[02:36] on who a person is. I'm interested in this from so many angles as a parent,
+[02:41] as a person interested in history, as a person interested in genetics, nature versus nurture.
+[02:46] If I were to sum up the book in that question, what is your answer to that? What did you come away
+[02:51] thinking after this deep study of your own family's history?
+[02:54] One of the things that came out of the book, which I didn't really expect, was discovering
+[03:02] who I am and why I became whatever it is that I've become. And that was an unexpected gift
+[03:09] of the writing. And it came from this exploration of my family's past, in particular,
+[03:15] my parents going back and excavating the deep memories of childhood.
+[03:23] The sort of atmosphere in our home and in the general year in which I grew up helped me
+[03:31] understand a lot about why I am who I am and react to certain things in the fashion that
+[03:40] I do because unwittingly, obviously, every parent leaves an imprint on a child.
+[03:47] That's obviously especially true during the formative years. Whatever the formative years are,
+[03:52] I'm no sort of child specialist or scientist. But before you turn 12, 13, 14 years old,
+[03:59] those imprints that you've absorbed in some manner, consciously or unconsciously,
+[04:08] those remain with you and both the angels and demons I think that you deal with for the rest
+[04:14] of your life. What were yours? I'm so curious that you're performing on yourself the exercise that
+[04:20] you're famous for doing with others that you invested in or hired, focusing on these first 14
+[04:25] years. What new understanding of yourself came out of this exercise? I grew up in this
+[04:33] family of refugees from Nazi Germany and Wales. Refugees by definition are minority.
+[04:41] Jewish refugees in Wales during the 1960s and 1970s were a further minority.
+[04:48] People look at me today and they think, oh, here's this old white man. He's not a minority.
+[04:53] And I can understand that, but it's how an individual feels rather than how other people might
+[04:59] look at you. It touched me in a variety of ways. My parents, they were never in the camps. They
+[05:06] got out of Germany in the 1930s and they were loath to use the word survivor because they always
+[05:13] felt the word survivor denoted somebody who actually had survived the camps, but they were
+[05:19] refugees and in their own way had survived. That motive to survive no matter what the odds were
+[05:29] even though the odds that I face growing up weren't like my parents. I think the need to survive.
+[05:36] When you think about surviving, you're thinking about, to some extent, living by your wits,
+[05:43] being very suspicious of the motives of others, wondering where and how bad things will occur
+[05:52] and happen and guard against them. I think it gave me in retrospect, I didn't understand it at the time,
+[05:59] a sort of drive and grit that I wouldn't have had without that particular atmospheric backdrop.
+[06:06] When you study it and you think about your own childhood, how did that transfer from your parents
+[06:10] to you? Was it the stories they told? It was definitely not the stories they told because they
+[06:15] didn't tell the stories. I didn't really get to know the stories until I sat down and began
+[06:22] work on this book. What I did know was the general arc of history, obviously,
+[06:28] this miserable ferocious catastrophic whirlwind in which they and millions of others were caught up,
+[06:36] but they didn't talk about the past in the real detail that I'm much later when I was thinking
+[06:43] about the book, became interested in. It was just broad sweeps. I think it was much more
+[06:49] the daily behavior, the reaction to events, the reaction to things, the sense that
+[06:55] doom was not very far away. The fact that if horrors had occurred in the past, there was a real need
+[07:03] to be vigilant and wary about navigating daily life. There was a couple stories in the book,
+[07:10] one in particular where you talk about two separate people, one who decided to stay in Germany and
+[07:15] one who decided to leave. Quite a point and interesting on this topic of survivor
+[07:20] outsider early instinct when things are changing to take notice and not double down and stick around.
+[07:26] Let me tell that story and explain what you learned.
+[07:29] The two individuals, Patrick, that you refer to were my grandfathers, my maternal grandfather
+[07:35] and my paternal grandfather. I'll start with my paternal grandfather, who was a civil servant. He
+[07:42] was a sort of lower level judge in the judiciary in Bavaria, province in southern Germany.
+[07:49] He had fought in World War I. He had somehow or other survived the horror of Verdun. He had
+[07:59] been given his iron cross and he was, I think, a great believer in the German state, in the security
+[08:08] that the state offered. And then, much later, in 1933, he lost his job. This is my assessment
+[08:17] of the situation because he was a civil servant. He was by nature conservative, by nature somewhat
+[08:25] cautious, but also had this great belief in the state and the endurance of the state and the
+[08:31] durability of the state and that eventually the storm would blow over. He also had a pension and
+[08:38] the pension was very important to him as a means for survival. It was a combination of all of those
+[08:45] things. He wasn't oblivious, obviously, to what was happening around him, but it did make him
+[08:51] more reluctant to leave Germany, I think, until it was too late. And people forget, even if somebody
+[08:57] had decided to leave Germany, there were all sorts of obstacles in the way you had to find a place
+[09:02] elsewhere that would accept you. You had to pay big taxes to the Nazi government in order to be able
+[09:09] to secure your exit visa, so they're all these sorts of obstacles. So that was my paternal
+[09:14] grandfather. And he and his wife eventually worshipped our feast and disappeared from history.
+[09:21] My maternal grandfather was cut from a different cloth. I was too
+[09:26] callow as a youth to really understand this, but he died when I was about 16. He had been a
+[09:32] cattle trader, which was one of the occupations that Jews were really permitted to do in Germany,
+[09:39] but he was almost blind as a young man and completely blind by the time that I met him. But
+[09:45] somehow or other had been able to carve out a comfortable living for himself and his family
+[09:51] by trading in cattle in the rural village in northwestern Germany. My assessment of him,
+[09:57] in retrospect, was that he was more streetwise, he was more entrepreneurial, wasn't burdened by
+[10:05] the need to remain and collect a state pension because he had always been able to sustain himself
+[10:12] and look out for his future. And he got out with his wife, my grandmother, but they got out by the
+[10:19] skin of their teeth. They got out 72 hours before war broke out. 72 hours later, they too would have
+[10:28] perished. What do you take from that? What is the big lesson from that instinct? How does that instinct
+[10:35] imprinted on you and on the people you back throughout your life and career written about?
+[10:40] I'm not sure that it's all that relevant to the people that I've encountered in this journey
+[10:45] through life. But it certainly has had consequences for me, particularly in times like the ones that
+[10:52] we are living through at the moment and the atmosphere that is prevalent to some extent in the US and
+[10:59] also in Western Europe. I think the necessity for always feeling that you have a bolt hole,
+[11:05] that you have some place to go if the fire gets too hot. That's the lesson that I took away from
+[11:11] my family history, glibly saying that you can never have enough passports. Do you feel that,
+[11:17] especially true now? Say a bit about the state of the world, how you perceive the state of the world.
+[11:23] It's an uncomfortable place for minorities. The United States and Western Europe writ large.
+[11:30] It doesn't matter whether you're Asian or Muslim or Black or Jewish. I understand the
+[11:39] reasons and I want to be careful as well. I am not whining about antisemitism. I'm not complaining
+[11:45] about it. Long ago came to terms with the fact that it's just a fact of life. It's been around
+[11:52] for 2,500 years. It's not going to disappear in 2026 or 2030. It's always going to be with us.
+[11:59] And in fact, as we were talking about a few minutes ago, I think the fact that antisemitism was around
+[12:05] and has been around and has been something I've been conscious of all my life or my sentient life,
+[12:11] it's made me stronger. But I think it's disquieting if you're living in a society where in America,
+[12:19] I think my simplistic way of thinking about who feels safe is the contingent of Americans who feel
+[12:26] safe are white Christians who own guns. Everybody else feels a degree of insecurity,
+[12:33] whether you're pursued by ICE or you go to a house of prayer that has to be guarded by police
+[12:40] to ensure that that's safe and that exists in America. It exists in the United Kingdom,
+[12:47] in France, in other countries around Europe where far-right governments have come to the fore.
+[12:54] And obviously everybody has read about the recent elections in Germany of a far-right party in
+[13:01] Saxony Province. And I think in times of economic distress, where you have millions of people who've
+[13:07] been tens of millions of people who feel they've been left behind, that feeling of despair can easily
+[13:17] be whipped up into a horrendous stew by leaders with authoritarian impulses.
+[13:25] That force you to put on your optimistic or hopeful hat and thinking about the future as it relates
+[13:30] to this problem. Well, Victor Orban was booted from office. He was riding high a couple of years
+[13:37] ago in some places that clearly are pushes to the center, which would be, I think, very consoling
+[13:45] for people and return to some modicum of civility in the various societies in which, you know, people
+[13:51] like us travel. So here in America clearly the midterms in the next 18 months after that are really
+[13:58] going to shape how we're going to live in the next decade, because there's been the imprint of
+[14:03] one person on the last decade in America, I think, in Britain, the person who's identified with the
+[14:09] far-right Nigel Farage may well have had his best day and his best day may well be behind him.
+[14:15] I think it's different in France with Marie Le Pen and the elections next year. It's different in
+[14:21] Spain and it's potentially different in Germany. Do you think that the internet fundamentally
+[14:26] changes the potential for civility and political moderation, because it's so rewards, extremes,
+[14:33] and attention? I think the three letter answer is yes. I think it's been true of every form of new
+[14:40] media from the beginning of the printing press. But obviously the internet and the mobile telephony
+[14:45] has made it far easier to spread false memes in UNDO. But it's a much larger, more amplified version of
+[14:55] what occurred in Germany when radio took off during the 1930s and where the radio waves were
+[15:02] dominated by extreme propaganda and racist views and loud lies toe frequently.
+[15:12] Vanta automates security and compliance for over 16,000 fast-moving companies like Ramp,
+[15:17] Cursor, and Harvey, keeping them audit-ready around the clock. It's the number one
+[15:21] agentic trust platform, and it now helps companies like yours watch for the risks that
+[15:25] show up between audits, across your vendors, your AI tools, and your whole environment.
+[15:30] Every new tool your team signs up for, every vendor that turns on AI features is an opportunity
+[15:35] for something to go wrong, and most security programs weren't built for AI's pace of growth.
+[15:40] The Vanta agent works like a 24-7 GRC engineer in the background finding issues,
+[15:44] drafting fixes for you, and cutting vendor assessment time by up to 50%.
+[15:49] Whether you're a fast-growing startup or a global enterprise, Vanta helps you earn and prove trust.
+[15:55] Invest like the best listeners get a special offer for $1,000 off at vanta.com slash invest.
+[16:02] Ridgeline is the first end-to-end system of record with embedded AI for investment management firms,
+[16:07] running portfolio accounting, reconciliation, reporting, trading, and compliance on one unified
+[16:13] platform. Firms are moving off legacy technology and onto Ridgeline because of how far ahead
+[16:18] Ridgeline's AI features are compared to anything else in investment management software,
+[16:22] which is why I believe that firms that come out ahead in the AI era will be the ones running
+[16:26] on Ridgeline's unified platform. If you're serious about your firm's AI strategy,
+[16:30] Ridgeline should be part of that conversation. You can request a demo at Ridgeline.ai.
+[16:40] Going back to your family's history, one of my favorite topics is this idea that you can learn
+[16:45] so much about a person from what happens in their first 12, 13, 14 years, as you said.
+[16:50] Carl Jung had this great idea of studying the unlived life of the parent. Another way of framing
+[16:56] this is a little trite, but you should be like who your father was supposed to be.
+[17:01] You should live the life that he was unable to or didn't quite, and that part of that imprinting
+[17:08] is children observing their parents, what they're not going after the risks they're not taking,
+[17:14] and maybe running in that direction is a great way to explore. Back to the point about where
+[17:19] does one person end in the next begin, like the break from the parents is really important.
+[17:23] I'm curious how you arrived at this method of yours, this first 14-year interrogation method.
+[17:29] When you first did it, how you do it, like what the method is, and why you find it just so impactful
+[17:34] and understanding a new person. I suppose I first came across it oddly in Detroit when I was a
+[17:40] correspondent for Time Magazine. With a colleague, I wrote a book about the Christ of the Corporation,
+[17:46] but more importantly, the person who turned around Christ at the end of the 1970s and the beginning
+[17:52] of the 1980s, and the man who was, for a time, the best-known business figure in America,
+[17:58] even though today most people struggled to pronounce his last name, but he was a gentleman
+[18:04] called Lee Iacocca. He was the son of Italian immigrants. In writing this book, we spent a fair
+[18:13] amount of time interviewing Iacocca, and what came through loud and clear was how much as
+[18:22] the son of Italian immigrants who'd grown up in Pennsylvania, Lee grew up in Pennsylvania,
+[18:28] he felt like an outsider. He worked in the automobile industry and obviously in the upper
+[18:33] echelons of the automobile industry where I think he was always viewed with suspicion,
+[18:39] most notably when he worked at the Ford Motor Company by Henry Ford II and the other people who
+[18:45] obviously everybody had immigrated but who were much more members of the establishment.
+[18:51] And Iacocca never felt like a member of the establishment and became very clear
+[18:56] that all of that stemmed from his childhood, as the years went by. He began to interpret many of
+[19:04] the slights that then fell upon him, including not getting the top job at Ford to the fact that
+[19:11] he was seen as an Italian immigrant. If you think about the people who have harnessed that
+[19:16] outsider energy, a lot of whom you've backed with great success, have you seen people graduate out of
+[19:22] it? And when they do, does their drive in motivation go away or suffer? I want to answer the previous
+[19:29] question a little bit as well. You asked when I've met various people and various founders over
+[19:34] the years spent so much time on the backgrounds. Many of these people are only 20 years old or 20
+[19:40] years old. You're not exactly going to be able to ask them about their life in their 50s.
+[19:45] So it's just natural to try to understand that. I don't think people grow out of it. I think what
+[19:51] happens is that people work with a certain intensity in their late teens and their 20s and maybe their
+[19:58] early 30s. And that intensity for a whole variety of reasons diminishes over time. I think that's
+[20:06] what changes. The inner being doesn't change. The outward intensity changes.
+[20:11] When you were asking these questions, was there any one thing or set of things that you tended to
+[20:15] be looking for? Was it you coming away feeling as though someone had extreme drive? I tried to paint
+[20:23] when I have some time. I'm not a good painter, but I really enjoy it. At least the way that I paint.
+[20:30] You make marks in different parts of the canvas and the marks seem unrelated. Maybe if the color blue
+[20:38] here and the color brown there, you're putting these marks and dots on the canvas. There doesn't
+[20:45] seem to be any composition there whatsoever. And eventually, in my case, the picture comes out
+[20:50] and it's bad, but there's a picture at the end of it. And it's the accumulation of all these
+[20:55] different marks. And I think that's what happens when you're talking to people about their backgrounds.
+[20:59] You're looking for these little dots here, and then eventually you put together this
+[21:04] portrait for yourself of the individual. In searching for those dots, did you come to
+[21:09] favorite questions that you always found yourself asking? There's one that comes to mind which
+[21:16] I've always found quite revealing as to ask somebody if they think back and had a chance to do one
+[21:24] thing differently, one action differently. What is it that they would do? And I remember one
+[21:32] person we interviewed for Sequoian who burst into tears when I asked that question. It turned out
+[21:39] that he'd grown up as the son of an immigrant here in America. He was Hispanic. His father was very
+[21:46] proud to have made it here and that his child was bright, his son was bright, and he was getting
+[21:52] good marks at school. And this fella probably when he was 12 or so. Had gone down to a corner
+[21:59] grocery store with a pal of his, Mr. Linson Candy, the shopkeeper who knew his father complained to his
+[22:06] father. And his father took him by the ear and took him back down to the candy store, made him
+[22:12] apologize, made him empty as pockets. The man I interviewed was so chasing, so embarrassed
+[22:19] by bringing shame upon his family and his father he just burst into tears. What's your answer to
+[22:24] the question? What would you have done differently? You're a good interview of people. Don't listen
+[22:29] to answers very often when they interview people. I think every child of parents feels this in one
+[22:36] way or another. I felt it as I was writing the book that I was embarrassed and if I could erase
+[22:44] one thing, it would be the sum of my interactions and dealings with my parents, which I feel ashamed
+[22:53] about today, but there's no going back. And I spent the first 16, 17 years of my life with them,
+[22:59] but there were many things probably that I wish. And also when I was a younger man, I'd just
+[23:05] encounters with them that I wished to go on differently because I didn't really understand
+[23:10] who they were and so be it. Do you think that was mostly a natural drive to create your own
+[23:15] independence like every child goes through with their parents? Yeah, I'm sure that was some of it.
+[23:20] Arrogance was probably another part of fail of comprehension of what they themselves had experienced,
+[23:28] what had made them who they were, which I didn't understand. There's this notion of very small
+[23:33] deeds in the book. I think the character's name was Anna. Yes. Can you talk about what you learned
+[23:38] about the impact of small deeds? It was more than small deeds. So this lady that you refer to,
+[23:44] whom I knew as a child, her first name was Anna. When my father and uncle were growing up in Munich
+[23:51] in the 1920s and the early 1930s, every sort of middle class, lower middle class household had a
+[24:00] family servant. These were the days before washing machines and vacuum cleaners and all rest of it.
+[24:06] Those individuals in these households, when children were born, invariably became
+[24:13] nannies as well. For my father and my uncle, this lady Anna, who was that person in my grandfather's
+[24:21] house, she became a surrogate. She was a nanny. She was Roman Catholic. Eventually left the
+[24:29] employment of my grandparents. She married a railway worker in Bavaria, who was also a Roman Catholic.
+[24:37] They built their own house with their own hands. She and her husband never forgot the Moritz family.
+[24:47] They, in the 1930s, opened their house to my grandparents and my uncle and father at a time
+[24:54] when it became very unpopular to have Jews come stay in rural Bavaria for their holidays.
+[25:03] But they did it for as long as possible. They didn't have children these two. They were horrified by the
+[25:09] nats. They did everything possible to help my grandparents and my father and uncle.
+[25:16] And then after the war, because the feelings were so intense,
+[25:22] between my father and my uncle and this lady Anna, they went back to Bavaria very soon after the
+[25:29] end of the war, developed this very strong connection with her until she eventually died.
+[25:34] And I remember going and staying in her house and the story of this house features in the book as well
+[25:40] as a young boy surrounded by the specters of the Nazi past. But this lady was, I think, what they
+[25:50] say at Yad Vashem when they disturb acknowledgments on all the people who help Jews and others during
+[25:57] World War II. She was one of the righteous and had this ethical compass that she wouldn't allow
+[26:04] anyone else to alter. What did you learn from these categories of people? I think you called them
+[26:09] the resistors, the silent and the collabos. This is a spectacular series that came out maybe 12
+[26:16] years ago shot in France. Maybe it's a six series tale about life in a French village during World
+[26:26] War II and how some people resisted the occupation for as long as possible. Most people remained silent
+[26:36] and some became active collaborators with the Nazis. And during COVID, when we were all on these
+[26:43] long zoom calls with lots of little pictures of 10 other participants that were in the zoom room,
+[26:50] I always used to look at each individual whom I knew on the whole. And I kept asking myself, well,
+[26:59] if these people have been living in the French village in the 1940s, who would have stayed silent,
+[27:05] who would have resisted, and who would have been collabos? So I was judging people whom I know
+[27:11] and whom I work with. And it was an interesting exercise. I didn't tell anybody else about it at
+[27:18] the time, obviously. But I knew everybody on these calls well enough to know who had the sort of
+[27:24] backbone that this lady that we were just talking about had. And they were always in the minority.
+[27:29] How rare is it? Is it 1% resistors out of 100 people? How rare do you think that expression is?
+[27:36] I think it's very rare because bad things happen in countries when most people stay silent.
+[27:43] Very few actively resist. Do you think that most of the people that you've back in your career would
+[27:50] be resistors? I'd have to think about that. I'd like to think so, but I'm not sure.
+[27:55] Can you talk about the role that Bill Deeds played in your life? I'm always interested in these
+[28:00] early moments of activation. And I'm curious when you first felt in life, whether it was with him or
+[28:06] at some other time, when you first felt you were really good at something?
+[28:10] I've never felt I'm really good at something. That's not false modesty on my part. To this day.
+[28:16] How can that be in face of the evidence? Well, I think everybody is plagued by
+[28:21] doubts, maybe competitiveness. It's a failure on my part. I have a very difficult time
+[28:27] celebrating good things and celebrating success. Given that you're self-aware about it,
+[28:33] have you ever tried to reverse that? I think it's heritage. I think it's the fact that
+[28:38] my mother always felt that disaster was always around the corner. Doom was always around the corner.
+[28:45] She died a few weeks before COVID. My mother was the predictor of doom. I remember as a kid growing
+[28:51] up, she would have listened to the radio and inevitably the talk. When we're having breakfast,
+[28:56] would be about some natural disaster that had occurred or a plane crash or something dreadful
+[29:02] around the world. She died a few weeks before COVID. I felt sorry for her in a way that she missed
+[29:07] COVID because this was the disaster that she being predicted or one of the natural disasters that
+[29:14] she'd been predicting all her life. She was cheated out of COVID. But I think it's that sort of sense
+[29:21] being one step away from the precipice. Have you ever though been proud of a piece of
+[29:26] work that you've done or created or felt that pride like the emotion of it?
+[29:32] I think I've always felt everything is unfinished and could be improved and none of it's ever been
+[29:40] perfect. It's never a satisfied moment. Sometimes when I paint and compare a painting
+[29:48] to what I might have been able to paint 10 years ago or 15 years ago. So I see a road to
+[29:53] improvement, but then you go to MoMA or the Met. You're diminished. And you're reduced to being
+[30:01] an insignificant speck. What about feeling of pride for someone else, not so much for yourself.
+[30:06] You back some of the most extraordinary people in business history, for sure. You've written
+[30:11] about some of the most extraordinary leaders, Alex Ferguson, others. Have you felt proud of them?
+[30:16] No, not necessarily. The relationship is different. And so those have been voyages of
+[30:23] curiosity where they're the people who should feel proud of their accomplishments,
+[30:29] not me as a bystander. I'm so curious about for someone that's been involved in so many
+[30:35] fascinating things, unlikely things. What jumps out is the highest energy moments. What were the
+[30:41] things along the whole journey that gave you the most energy? I know you're a deeply curious person,
+[30:45] so maybe it's something there. I think it's family, children, all the moments associated with
+[30:52] Harriet. My wife and I, we have two sons, and then now in their 30s, and one of them's got a couple
+[30:57] of grandkids. I think it's deeply personal stuff. Back to Bill D's, I lost my train of thought there
+[31:03] for a minute. I'm curious the impact that he had on you. And I'm always interested in early impact
+[31:09] that people have on others. I grew up, as you know, in Britain. And when I left college, I really wanted
+[31:16] to be a Joeist. My goal was to work on one of the big, at that point, what we call the Fleet Street
+[31:21] newspapers. This is a long time ago, it's 50 years ago, that everybody read. And there were papers for
+[31:29] different sections of the population. And I wanted to work on one of the big, really well-regarded
+[31:34] newspapers. But there were trade union rules because the unions had a big clamp down on the way in
+[31:41] which they held the operators of these newspapers in a straight jacket. And one of the consequences
+[31:48] was the newspaper editors, they weren't allowed to hire college graduates directly from college,
+[31:55] because the fear of the unions was that it would impede their ability, interfere with their ability
+[32:01] to hire 16-year-olds straight out of high school. The result was that if I'd wanted to go and work
+[32:07] on the Times or the Financial Times Daily Telegraph, one of those papers, I would have to go and spend
+[32:12] two or three years working on a small provincial newspaper. And I just didn't really want to do it.
+[32:17] I was impatient. I was ambitious and all that sort of stuff. And I met this fellow Bill Deeds,
+[32:23] who was the editor of the Daily Telegraph, and was a revered figure in British journalism,
+[32:29] and had actually, in an earlier life, been the figure on which Evelyn War had
+[32:37] modeled one of the characters in his famous satirical Marvel Call School. Bill Deeds very
+[32:43] kindly responded to a letter that I'd written to him applying for a job at the Daily Telegraph.
+[32:48] He gave me half an hour in his office in Fleet Street, and I remember it. It was in the winter,
+[32:53] it was raining, and I asked him for advice, and he told me that what he had wished he had
+[32:59] dumb as a young man was go to America, and he encouraged me to move to America.
+[33:06] I think that really helped propel me in this direction. So when you arrived here,
+[33:12] what was the first big break or big move that you made that kicked off the circle?
+[33:17] Well, I got very lucky. I got hired by time straight out of school without any work experience.
+[33:23] They were very willing to take a risk on a 22-year-old or 23-year-old without any real prior experience,
+[33:31] and that was my first big break. The episode with jobs and time was so fascinating in your history,
+[33:38] and I'm sure frustrating for you. What happened and what did you learn through that episode?
+[33:43] It's a painful part of the past. This is three years after I joined time. I'd taken the
+[33:48] leave of absence by then I was working in San Francisco and the bureau there, and had taken a
+[33:53] leave of absence to write a book about Apple, and for a variety of reasons, because the magazine
+[33:59] didn't have room enough to tell the tale of the private days of Apple, which is what I was really
+[34:04] interested in doing. Then I was on this leave, and I got a call from Time asking me to contribute
+[34:11] to a profile of Steve that they wanted to run in what became a very famous edition of Time, which was
+[34:19] the computer of the year. I think it was the only time in Time's history where they'd picked an
+[34:24] enanimate object to celebrate for that big annual issue. I worked on this profile of Steve. Steve was
+[34:31] convinced that he was going to be named Man of the Year, even though nobody had told him that confirmed
+[34:36] it, yes or no. But worst of all, the profile which he hated for very good reason, I might say,
+[34:44] in his defense, and I was appalled by for different reasons, severed my relationship with Steve.
+[34:53] Back then at time, these things went through an editorial combine harvester. So what came out in
+[35:01] the bale at the end probably didn't resemble very much of the straw that got fed in, and so
+[35:07] the whole tone of the piece was malicious and nasty and underhanded. As I said, Steve disliked it,
+[35:15] and it was one of the reasons I left Time. I felt very, very disenchanted by the treatment of it all.
+[35:22] Sadly, as a result of that, really never repaired the relationship with Steve.
+[35:27] Were you in awe of him? No. Have you ever been in awe of anyone? That's a difficult question.
+[35:34] The people that I've known who have done incredible, remarkable things are also flawed individuals,
+[35:42] and if you get to know them well, you also see Van Aspect a bit. So seeing that up close makes it
+[35:49] difficult to hold anybody in awe because you see the flaws as well as all of their accomplishments
+[35:55] and virtues. Why were you not in awe of Steve? It seems like he's the person that the most
+[35:59] people in our world were in awe of in living memory. I want to be careful here because I respected
+[36:07] him. I admired him tremendously. I was well aware of the fact that he had achieved things later
+[36:15] obviously as well, that I couldn't ever possibly have accomplishment. But I think I knew some of the
+[36:23] darker shades of him, which made it difficult to hold him up as an object of unalloyed admiration.
+[36:33] But he's a heroic figure, obviously. What's the role of monomania in all of these character
+[36:39] studies? And I'm curious to tie back to this idea of the outsider, the survivor. You see it now.
+[36:45] This goes in generations. The monomania, when it comes to creating anything of value,
+[36:53] it could be a piece of music, it could be a book, it could be a painting, it could be a company,
+[36:58] complete obsession with the topic, at hand, and walking out the rest of the world,
+[37:04] eliminating every unnecessary distraction. And their downsides to this, people get hurt
+[37:10] along the way. There isn't enough time for families or others or friends because of the
+[37:16] monomania that you refer to. But then great things sometimes come out of it.
+[37:21] Is the primary cost of monomania relationships typically?
+[37:25] I suspect the answer is yes, or maybe for some of these people feeling that it may have lived
+[37:32] like differently if they had to live it over again, because there were consequences to this
+[37:39] monomania, but yes, clearly relationships. Even in war, people don't really know him
+[37:45] today, but a very famous British author who was capable of writing 10,000 words a week with these
+[37:55] 10,000 good words not rubbish. He said, the greatest enemy to good art is the site of the
+[38:01] pram, the stroller in today's parlates, is the site of the stroller in the hallway.
+[38:07] What about Frank Auerbach, the painter? Was he a monomaniacal?
+[38:12] Frank Auerbach has never got the recognition in this country that he deserves, although there's
+[38:17] a retrospective of him coming here in the next two years to very significant museums around the country
+[38:23] here. He was a refugee from Nazi Germany. He died maybe five years or so ago. I didn't know him well,
+[38:32] but I got to know him a little bit, and he was a complete obsessive, completely obsessed with
+[38:38] his art, painted every day, except he treated himself to a day one holiday. For many, many years,
+[38:45] he treated himself to one day off a year, and every year he'd go to Brighton, where there's a famous
+[38:51] pier, it's on the south coast of England, and take the day off on Christmas Day. Every other day of the
+[38:58] year, he worked, and I remember once talking to him, his wife had a house out on the English coast,
+[39:04] and I asked him, once at a dinner, I said, so ever do you ever go out and visit Judeo, your wife?
+[39:12] He said, I've never been to the house. Now, this is probably 10 years ago. We were chatting,
+[39:18] and New York came up, and he said, I love New York City. I just love it. It is so bustling with energy
+[39:26] and going to Times Square and all the rest of it. And so this conversation was maybe in 2012,
+[39:32] 2013. Frank, were you just in New York? Oh, yeah, I went there in 1967, and he had this routine where
+[39:44] he had, and I knew some of these people who posed for him or know some of these people,
+[39:49] they're all his subjects are still alive. They posed for him once a week. He had this regular
+[39:55] coterie of sitters, and he painted these same individuals for his figurative work over the course
+[40:01] of 30, 40 years. And there's one of the subjects who lived in venusable places who once a week flew
+[40:09] to London for his session with Frank, because I think the sitters found it like therapy,
+[40:14] sitting for Frank, but he'd go into an autumn meltdown if the sitter was late. And then similarly,
+[40:21] with his landscape paintings, he painted the same landscape over and over and over again,
+[40:27] interpreting it. But he lived for art. Really, there was no time for, he had a song, Jake,
+[40:35] but there was no time for anything else. Do you get more energy from Monomaniacs?
+[40:39] You spend a lot of time around them. You prefer being with them over
+[40:43] Doltan's like yourself. It's nice to have a mixture of friends and acquaintances, some of whom
+[40:51] have tied themselves to a particular master, others who have prepared to wander around and live
+[40:56] life more casually. But I've always found it more difficult to be around people who, and I like
+[41:02] them and enjoyed being with them, but who appear to be doing nothing. What did Don Valentine see
+[41:09] in you and what did you see in him? So Don was the founder of Sequoia. He took a risk on me
+[41:16] van 1985, hired me to join Sequoia when Sequoia is a very small firm. We're sitting around this
+[41:23] table here in your studio. It's probably large enough to accommodate all of the people who work
+[41:29] for Sequoia at that point. I was a journalist, been a journalist, but wanted to get into the
+[41:34] venture business because I've become interested by it and had met some of the people who were
+[41:40] running these firms, all of which were very small at the time, and had written to five of them.
+[41:46] This was in the days when you didn't send emails. You actually wrote letters and had gone to see
+[41:52] each of them. They were kind enough to give me some time. All Save Don said, we don't really know
+[41:58] what to do with you because you don't have a technical background. You don't have an engineering
+[42:04] degree of any sort. You don't really have any technical knowledge. You don't have any work
+[42:10] experience in a Silicon Valley kind of company. You've been a journalist. Maybe you should go and
+[42:17] find a role in public relations or marketing or something like that, which is not exactly what
+[42:21] I wanted to do. Don was more willing to take a risk. The reason was fairly straightforward,
+[42:28] because he had seen people that he expected because they had big operating backgrounds in
+[42:34] technology companies. A few of them come into the venture business and not be very successful.
+[42:39] And then he was aware of some who had carved out very successful lives as investors.
+[42:47] There was a fellow called Tommy Davis, I think, who started a fund called the Mayfield fund.
+[42:52] There was another guy who had been an insurance actor, but the one that Don pointed to more than
+[42:59] anybody else was a gentleman called Arthur Rock, who just celebrated his 100th birthday.
+[43:04] He was an investment banker at a small boutique here in New York called Hayden Stone. This is
+[43:09] back in the 1950s. He had had the moxie to organize the original breakout and financing of Fairchild
+[43:17] Semiconductor. And then in the 1960s, people won't know the names anymore, but he had
+[43:25] health finance, Talladine to Henry Singleton, right? Henry Singleton who later became one of the
+[43:33] early board members, our first board members at Apple, scientific data systems, and then
+[43:38] became the chairman, original investor, and Intel, day one. And then a few years later,
+[43:45] backed Apple. Don said, look, there's nothing in this background that would have suggested
+[43:49] to be successful. That was the main reason. And what did you see in him in the early days?
+[43:54] A job. What did he teach you? Don didn't believe in teaching. He had a survivalist instinct.
+[44:03] So he just believed in tossing people into the deep end and see if they drowned.
+[44:09] But I learned a lot by observation and listening. Good things and bad things.
+[44:15] There was another gentleman at Sequoia named Pierre Lamond, who played a huge role in the
+[44:21] rise of the semiconductor industry. And he, too, is something of an influence. But it was being
+[44:27] in the middle of that knee you're watching. Good things happen and bad things happen and
+[44:34] gradually trying to form my own opinions about things. What do you think it teaches us about
+[44:40] early stage investing that a journalist with no technical ability and no work experience
+[44:45] can be one of the best investors of that type ever? The venture business that I got into
+[44:52] way back when is very different from the venture business today. There aren't many parallels.
+[44:57] I don't know that I would flourish in today's venture business. It's for a whole variety of
+[45:02] reasons. Why not? I think it's become much more difficult. We had a variety of benefits
+[45:08] back in the 80s and 90s. I think they began to dissipate maybe 15, 16 years ago that don't exist today.
+[45:17] One of them being imperfect information, the pre-internet, unless you were very close to things,
+[45:24] you didn't know what was happening today, because the internet was some of the stuff that
+[45:28] we're talking about earlier. Everybody around the world knows exactly what's happening. Everybody's
+[45:32] got access to the same information. More or less is the same information. So that's number one. Number
+[45:38] two, there are just so many more entities of all stripes. Individuals, two or three people banding
+[45:45] together in a small firm at the other end of it, huge mutual funds pouring money into it,
+[45:51] that the very early stage private market is very, very different. 40 years ago, 30 years ago,
+[45:58] it was possible if you were an individual to form a relationship, a real relationship,
+[46:04] close relationship with the people that you were getting into business with. That doesn't
+[46:09] exist today, particularly for a venture firm. There are just too many intermediaries in between.
+[46:15] I'm not sure the luck that I had back then. I was also catapulted right into the middle of the
+[46:22] one place in the world where all of this stuff was happening. So that's a huge competitive advantage,
+[46:28] too. I'm not sure that any of that translates today. I think a moderately intelligent 14, 16-year-old
+[46:36] who had his or her wits about him would have been able to succeed in the venture business in
+[46:41] the mid-80s. Do you think the ecosystem is healthy today? I think it is if you're a founder.
+[46:47] Pretty good. I like the quote that you've said often that your favorite investment was square.
+[46:52] What was going through your head as you took it over? Not to screw it up. The sequoia that was
+[46:59] around in 1995 was very different from the one that was around when I stepped down in 2012,
+[47:06] 2013. Number one was not to screw it up. Number two was to ensure that everybody who
+[47:13] worked there felt that we were only as good as our next investment and that we couldn't rest on
+[47:19] the laurels of the past. And then number three, take advantage of the new market opportunities
+[47:27] that began to occur, whether it was eventually going overseas as Silicon Valley's share of startup
+[47:35] activity, though still obviously the best place to be became smaller. So first of all,
+[47:41] we went to Israel and we went to most notably to China, started another business called Sequoia
+[47:48] Heritage, which is a very different business. And are Kevin Welles incredible talent?
+[47:54] Yes. And Keith and our small and mighty heroic investment team there.
+[48:00] I don't want to sound like Joan of Arc here. I felt doing right by our investors was really
+[48:08] important. Most of our investments and investors were not for profits. I think making sure that
+[48:16] we perform well for them. I didn't want to be in that business where if we didn't perform well,
+[48:22] we still got paid very handsomely. I think that's part of the problem with a lot of the
+[48:27] aspects of the financial service providers of all sorts of different forms. And it has been for a
+[48:33] long time, which is the firm that provided us well, but that clients may not may have done as well,
+[48:39] just investing in an index. I did this with Doug. He told me the story of that one fund that you
+[48:44] fought so hard to get back to par over 10 years or something like this.
+[48:49] We could have said to investors, well, look, you've had a lot of good times with us and
+[48:56] you just got to accept the fact that you've got a fund here that isn't going to make any money.
+[49:01] I certainly wasn't alive like that. It was a matter of pride. What did you learn about working
+[49:06] with someone like Doug that was so different than you, but you had such a fruitful partnership,
+[49:11] tolerance anymore? I think you have to adjust. When you're trying to work in a team,
+[49:19] you have to try to understand what the other people around you need. What's important
+[49:25] to them and feed that need with people who are wired, as you said, very, very differently.
+[49:32] I think that's the most important thing I've learned about building a team or leading a team.
+[49:37] I think today I'd be much better at it than I was 25 years ago, 30 years ago.
+[49:42] And I learned a lot of that actually from the way that I did this book, maybe 10, 11 years ago,
+[49:48] with a famous soccer manager. I was just going to ask about Alex Ferguson.
+[49:52] I think one of his great skills was the ability to understand what motivated each of his individual
+[50:00] players. How did you see him do that? I know he was famous for preferring players with tough
+[50:05] upbringings. He's got this reputation, which is an unfair reputation of being very hard and harsh.
+[50:11] That was certainly an aspect of the way that he managed, but he was man who didn't want to be
+[50:18] loved. He didn't want to be feared. He wanted to be respected by the individuals who
+[50:22] played for him. So he was there for them, which people don't understand, in their bleak dark times
+[50:30] when they needed support, when they were feeling lower than a snake's belly. He was there for them.
+[50:36] None of that really gets written about. There was an incident, I remember, I forget which year it was,
+[50:42] but David Beckham had been playing for England in a World Cup competition where he got sent
+[50:48] off and the British press was merciless about Beckham's perceived stupidity.
+[50:55] And Alex went to meet him at the Apple because he knew he needed an arm around his shoulder,
+[51:01] those sorts of things, little things that happen out of sight. People aren't aware of them.
+[51:07] There are no cameras around. Do you think you were so interested in him for almost like
+[51:11] autobiographical reasons? That description kind of sounds like you. He was much more skillful than
+[51:17] I was. The reason the book came together was this, people for whatever reason had been
+[51:21] badgering me to write a book about Silicon Valley. And I was always very interested through the
+[51:26] Sequoia lens of what it took to build two things, one of which was a business that endured for ourselves
+[51:33] for Sequoia, because there were all these tales of venture firms that had a period in the limelight
+[51:39] and then blew up for whatever reason the founders killed each other, all the pawns killed each other,
+[51:44] and they all split up, and it all became ugly. And then also the byproduct of it being what it
+[51:51] took to have an enduring standalone company that Therm-like Sequoia could invest in.
+[51:58] And I didn't want to do that through a Silicon Valley lens, and there are enough books about
+[52:02] Silicon Valley. So I was casting around for the company or for an organization that had flourished
+[52:10] over the course of multiple decades. I'd been a bit of a fan of Manchester United Football Club
+[52:15] since I was a kid. Here was this manager who took them over, I think in 1986 and retired in 2013,
+[52:24] when he took them over when they're in bad shape, and then established a record over multiple
+[52:29] seasons, 26 seasons of astonishing success that will be almost impossible for anybody to duplicate.
+[52:37] We had a PR guy who were all communications guy who worked for Sequoia, and I'd shown him
+[52:43] at that point when I finished the book, and I showed him a draft of the book, and he said,
+[52:47] well, I can't tell because I ghosted the book, ghost wrote the book, and this fella sent to me,
+[52:54] I can't tell what's you and what's ceralex, I said precisely.
+[53:00] Do you believe in the great man theory of history? I'm asking this question because
+[53:05] I'm very interested by institutions that endure, and what you've learned about how the ones that
+[53:10] have endured have pulled that off like Sequoia. And I'm also pulled to people, of course, like
+[53:14] Elon, who you were an early backer and partnered to in x.com, how they shape history. And it seems
+[53:21] like we might have a few world historic figures alive and operating today. What do you think is the
+[53:27] balance of shaping history between these world historic people, great men and women, and enduring
+[53:33] institutions? The short answer to the question is, I'm a great believer in the great person theory.
+[53:40] All these people that we've talked about, well, you just referred to Elon, or we were talking about
+[53:45] Liya Koka or Steve Jobs, or you go into the political realm or the field of battle. It is about great
+[53:52] leaders, great leaders. And obviously, there are some terrible authoritarian figures that have cast
+[54:00] black shadows over tens of millions of people and over multiple decades in different countries
+[54:06] around the world for hundreds of years. And so for good and bad, I think the individual has
+[54:13] an enormous impact on what is around him or her, capable of on the good side of it, not the dark side
+[54:22] of it, persuading others to achieve what's perceived as impossible. I'm a huge acolyte of that theory.
+[54:31] Do you think Elon is the great exemplar of that today? Yes, he may well be the greatest industrialist
+[54:39] in the history of America. Or would you say about him, I don't know that I have anything to add other
+[54:45] than it's impossible for me to understand how one individual has been able to achieve.
+[54:51] And I know he's a controversial figure, but I'm just looking at him through the lens of history
+[54:58] and through an investor's lens. They have this phrase in Britain called gobsmacked. I'm completely
+[55:06] gobsmacked by the scale of his achievements in a variety of different industries, which is the
+[55:12] thing that sets him apart from others. Your finance team isn't losing money on big mistakes.
+[55:18] It's leaking through a thousand tiny decisions nobody's watching. Ramp puts guardrails on spending
+[55:23] before it happens. Real-time limits, automatic rules, zero firefighting. Try it at ramp.com
+[55:30] slash invest. As your business grows, Banta scales with you, automating compliance and giving you a
+[55:36] single source of truth for security and risk. Learn more at vanta.com slash invest.
+[55:42] Ridgeline offers one unified platform that automates away the complexity across portfolio
+[55:46] counting, reconciliation, reporting, trading, compliance, and more, all at scale. Schedule a
+[55:51] demo at ridgeline.ai. Every investment firm is unique and generic AI chatbots don't understand
+[55:58] your process. ROGO is built by finance professionals. It's connected to your data, learns your process,
+[56:04] and quickly produces client-ready outputs. Check them out at rogo.com slash invest.
+[56:11] The best AI and software companies from OpenAI to cursor to perplexity use
+[56:15] workOS to become enterprise-ready overnight, not in months. Visit workOS.com to skip the
+[56:20] unglamorous infrastructure work and focus on your product. What do you make of today's
+[56:25] prevailing technology environment and how this changes all the things we've talked about? One of
+[56:30] the other PayPal founders told me recently that he thinks people like Elon and other great entrepreneurs
+[56:34] will probably do more things more than one company expand out of monomania because
+[56:39] all these tools give them so much leverage. Do you think that this is a true tear in history
+[56:46] that we now have intelligence? I don't know. If you go to China, you will find the founders
+[56:53] of companies. Or if you go to, I think probably South Korea, which I know far less about,
+[56:58] you will find that the creators of one company have really imperial ambitions and the creator of
+[57:04] companies along the way. Or they take their one company and convert it into, look at Xiaomi,
+[57:10] the manufacturers, these cars today that exceed the quality and performance and other attributes
+[57:17] of Porsche, but began in 2010 as a phone maker, as an Android lysusia, I think,
+[57:24] creative people or these rare, rare people armed with this extraordinary selection of
+[57:32] powering the tools that are at fingertips or at the fingertips of the people who work for them,
+[57:37] they're going to be able to do a lot more in the future than somebody might have been able to do
+[57:42] in the past. What is your model of this technology? As an observer of it, and I'm sure interested
+[57:48] observer, how do you tell your family about it and what it will mean? Well, we don't talk about it.
+[57:53] Well, not very much. People will always ask me, but I'm not a technologist. I'm not an AI
+[58:00] but you were so good at seeing what was going to play out. If I think about so many of your investments,
+[58:06] the thing seemed small, but it was then something that became infrastructure that the world was built
+[58:14] on. You're being too generous. I had very little sense that a company could grow at the rate that
+[58:21] some of these artificial intelligence companies have grown at today. I mean, it's beyond comprehension.
+[58:27] I remember many years ago, this was at the dawn of the internet or probably after the dawn of the
+[58:33] internet, and Tom Siebel, who started a well-known entrepreneur and had been seen as a very successful
+[58:41] entrepreneur. I remember him wistfully saying one day his company is sold for whatever it was,
+[58:47] $10 billion. And he said very wistfully, that was back when $10 billion was worth a lot of money.
+[58:53] Today he looked back and he said, whether it was Facebook's IPO or Google, that was back when
+[58:59] $100 billion was worth a lot of money. I think the idea that you can have a six-year-old company
+[59:04] with trillions of dollars nobody would have imagined. Are you mostly excited about this technology
+[59:10] or scared or both? I read what everybody else reads and have heard the boogeyman opine, and I think
+[59:19] I'm probably a bit more hopeful than others. Again, I'm not an expert. I don't mean to diminish the
+[59:25] dark side of what may or may not happen with AI. I do take some solace in the fact that Armageddon
+[59:33] was predicted or a form of Armageddon was predicted when the first nuclear bomb was exploded. And
+[59:40] fortunately, here we are close to a century later, and that hasn't occurred. Or if you read all the
+[59:46] stuff from the mid-1970s about the genetic revolution and how there were going to be scientists
+[59:53] creating legions of individuals that they deem suitable to walk on the face of the Earth,
+[59:59] that hasn't occurred here. And today, even though I'm absolutely certain that there's going to be
+[60:04] enormous disruption in particular jobs sectors caused by AI, I think that it's going to create more jobs
+[60:12] than are going to be lost. Everyone can say that this time is different, but there hasn't been a
+[60:18] huge improvement in technology that has in the last two or three centuries led to lower employment
+[60:28] in the long term. I mean, there have been depressions and massive disruptions in sectors, but overall
+[60:34] employment has grown. So I'm a little more optimistic. I think there'll be a lot of jobs that
+[60:39] get created that we couldn't categorize today.
+[60:43] Because AI produces prodigious amounts of new text and writing so easily,
+[60:49] I think the value of extraordinary writing is going up that can cut through the CFSLOP.
+[60:56] How would you define extraordinary writing, having done quite a bit of it yourself?
+[61:01] Again, you're too flattering kind about that on that particular topic. It's hearing the unmistakable
+[61:08] voice of the author. How do you do that as a writer?
+[61:11] It's the same with the journey through life. The toughest thing, I think, for an individual,
+[61:17] whether it's guiding them through what it is they want to do in life, or what they want to put on
+[61:24] paper. It's being in touch enough with your inner feelings and inner voice to allow those to
+[61:32] conquer the pressures of the expectations of others. Joseph Campbell said,
+[61:38] the privilege of a lifetime is becoming who you are, but also that that's the hardest thing to do.
+[61:43] I wish I'd been clever enough to say that. I completely agree. I think that's the struggle
+[61:48] everybody has, and it's also the struggle when you put things down on paper.
+[61:54] Is there a moment in your own life that was the most important in becoming who you were,
+[61:59] like the hardest part of doing it? It's so valuable to do, and it's so hard to do.
+[62:04] It makes me wonder about what the hardest part was for you.
+[62:07] I don't think I've done it. Why not? What's the barrier that's left between you and who you are?
+[62:13] It's one of my many weaknesses. I've always been too prone to live up to the pressures or
+[62:19] expectations from the outside or from others than to let myself run free.
+[62:25] Is it a goal of the remainder of your life to do so?
+[62:27] I'll try. I'm so struck by how unbelievably self-aware you seem, but then you're giving yourself poor
+[62:35] grades that seem objectively wrong. What is that? I'm just still struggling to understand.
+[62:43] I don't know. Maybe it's the specter of my mother.
+[62:46] Can you say more about her? We didn't talk too much about her other than her doom prophecies.
+[62:51] I owe her many things. She aroused my interest in art and a variety of things, but she would always
+[62:59] find fault and no matter how good things or what I had done. I remember there was some newspaper
+[63:08] coverage years ago in Britain when Yahoo! became public and there was some stories about me in
+[63:14] the British press. I mean, she was convinced I was a crook. She absolutely convinced the police
+[63:20] should come for me because there was no possible way that I could have participated in anything
+[63:26] like this that could possibly be legal. Did that hurt? No. By that point, I was more amused by it
+[63:35] than anything else. Early did it hurt that nothing you did was
+[63:39] such a bad person. No, because it was just a fact of life. And yet it seems to have echoed.
+[63:44] Yeah. You never get the boy out of the man. What is the experience of
+[63:49] stepping back from Sequoia because you were sick? What has that taught you?
+[63:53] Well, first of all, I don't think leaders should stick around. If they have decided for whatever
+[63:59] reason not to lead, they've got to get out of the way. So I went cold turkey, even though I tried
+[64:05] help Sequoia in what ways I could and was involved with a variety of companies, but it was as an
+[64:11] individual contributor. But it was not as leadership. I got out of there as quickly as possible,
+[64:16] because I didn't think it was fair for someone to linger in those sorts of meetings. I'd lived
+[64:21] through that myself. So it's allowed me to do things. When I was running Sequoia, it was
+[64:26] talking about monomania and obsessions. I mean, that was it. It was everything every single day
+[64:32] of the week. So it allowed me to do things I could write. My wife and I, about 25 years ago,
+[64:38] we started a foundation. So we spent more time on that. In recent years, I spent more time on
+[64:44] trying to help San Francisco, which is where I've lived pushing 50 years, not quite, but to turn
+[64:51] around and flourish along with a wonderful co-founder, Griff Gaffney. I started, they meet your business
+[64:58] there as well, which is fun. And I hope contributes to the life of the city called the San Francisco
+[65:05] standard. And then I'm involved with what used to be called Sequoia heritage in a sort of advisory
+[65:10] capacity. So there's plenty of stuff to do, which is fulfilling and unfulfilling at the same time,
+[65:16] because while there are a whole variety of things, it's not the obsessive monomaniacal focus on one
+[65:23] thing. Do you miss it? Yeah, the aspects of it. But I miss aspects of it, but I know full well that I
+[65:29] would not want to return to that way of life. Is it the flow state of it that you miss the feeling of
+[65:36] total immersion and forgetting yourself? Maybe I get that one on painting. It's a simple life.
+[65:42] You don't have to make decisions about how you allocate your time, because your calendar is
+[65:49] commanded by some other force. The difference between having your calendar dictated by others
+[65:56] and being complete control of your calendar yourself is mind and day. What's your hope for
+[66:01] the standard? What are the principles that guide you? Griff and I didn't set it up as an
+[66:06] offer-profit. One of the things that we wanted to do was to show that local journalism can be a
+[66:13] profitable business. Number one, number two, it's to have a vibrant, interesting, diverting,
+[66:21] but reliable source of information for people in San Francisco and the greater Bay Area
+[66:27] for people who care about that sort of stuff. Number three, I've been very clear from day one,
+[66:33] the news coverage. There's no proprietorial thumb on the scale when it comes to news coverage.
+[66:41] Some of the stories in the standard I've been mentioned and referred to in ways that I wouldn't
+[66:46] necessarily write myself. That's fair game, but in the ideas and opinions area, it's center of
+[66:55] right of center. That's what this is, and that's a much-needed voice in San Francisco.
+[67:01] As I think back to the book, and I put it down and wondered about what's going to last in me
+[67:07] having read this. The thing I keep going back to, it's obviously selfish and context-dependent,
+[67:11] is parenting. I have two young kids. How old are they? They're 12 and 10. They're approaching the end
+[67:16] of that window where you describe them as being imprinted into time. You already done the damage
+[67:21] Patrick. They're in painful life. So I wonder if you turn the whole exercise of exploring your
+[67:28] own history and your family's history into how to think about the role of parenting.
+[67:34] Curious what comes to mind? I think it's to arm the children with confidence.
+[67:39] Simple as that, by doing what? I don't know. I have to think hard about the handbook of parenting,
+[67:46] but I think it's to instill that feeling of self-confidence and freedom and to try as a parent,
+[67:55] not to be sensorious. Do you think also we can hear about the book that an important
+[68:00] lesson is that we cannot take progress for granted? Positive progress? History is littered with examples
+[68:07] of terrible things that happened over periods of time for millions of people all around the world.
+[68:15] Russia, China, Iran, Africa, India. There have been terrible things that have happened over
+[68:23] the last thousand years. I think there's very little that separates the human from the beast,
+[68:29] and it's remaining human and not becoming the beast that is everybody's challenge.
+[68:37] How do you think you were most changed by the exercise of studying your family and writing the
+[68:42] book? Understanding myself a little better. And in the final analysis, what matters?
+[68:48] I think it's two things. I think it's relationships with the people that you care about, knowing that
+[68:55] we're all completely insignificant, no matter what the individual has accomplished, trying to
+[69:01] leave things a little better than they were before any of us got engaged with them.
+[69:07] Do you ever write an expert topic, pizza or curiosity? I've been playing around with this
+[69:14] idea, which I don't know if I'll ever actually get around to writing, but I've been reading about it
+[69:20] a fair amount. I'm very interested, weirdly, in Iran, Persia of the 1940s, the collision of individuals
+[69:31] from inside and outside Iran. The explain so much about the world we live in today.
+[69:39] I think what I've been thinking about is not nonfiction, but a blend of fiction and nonfiction.
+[69:47] Now, as I said, I don't know if I'll ever get the narrative and the structure and the composition
+[69:53] right, but it's my view of what has happened in Iran. It's this collision of personalities from
+[70:01] very different backgrounds and different parts of the world that have failed to understand each
+[70:06] other. It's pretty fascinating. One of the great things about
+[70:09] your thinking in writing was how short some of the very famous memos and things were your
+[70:16] what could go right understanding for a company like Stripe, where I understand the memo was quite
+[70:20] short. I'm curious about that notion of compression and the power of compression, but if you were to
+[70:25] sort of write something like that about the state of the world and give it to your grandson or
+[70:28] something today, you seem so good at identifying the things that matter that will determine where
+[70:34] things will go. Again, you're too kind. For me, part of the training is a journal, as it's
+[70:40] part of what I learned at college, being able to distill things to their essence, keep it very short,
+[70:48] has stood me in good stead over the years. Can that be taught? It seems like more valuable
+[70:53] than ever. So much information and embodiment. I don't know. I think it depends a lot on reading.
+[71:00] It's hard when people are fed a diet of a limited vocabulary. I am singling him out,
+[71:07] but if you do these studies of the vocabulary of presence in the United States, Trump's vocabulary
+[71:15] is by far the lowest. I think he's got a vocabulary of about 2,400 words. Obama was maybe 4,500 words
+[71:23] common vocabulary. And I think having a huge vocabulary at your fingertips that you can select
+[71:32] from allows you to express complicated ideas in a simple manner.
+[71:38] I love the book. I loved our conversation. I've loved all your writing.
+[71:42] Oh, you're far too kind and flattering and gracious. The questions have been, as you can tell,
+[71:49] provoking and wonderful. I ask one final question every time I introduce someone.
+[71:53] What is the kindest thing that anyone's ever done for you?
+[71:57] Absolutely. So beautiful, simple. What do you learn for your life?
+[72:02] Tolerance. Common theme. Mike, thanks so much for your time.
+[72:06] Thank you. Really good.
+[72:09] If you enjoyed this episode, visit Colossus.com. You'll find every episode of this podcast
+[72:13] complete with hand out of the transcripts. You can also subscribe to Colossus or
+[72:17] quarterly print, digital, and private audio publication, featuring in-depth profiles of the
+[72:21] founders, investors, and companies that we admire most. Learn more at colossus.com slash subscribe.
+[72:48] You know how small advantages compound over time? That's true in investing and just as true in how
+[72:52] you run your company. Your spending system is your capital allocation strategy.
+[72:56] Ramp makes it smarter by default. Better data, better decisions, better economics over time.
+[73:00] See how at ramp.com slash invest. As your business grows, Vanta scales with you.
+[73:05] Automating compliance and giving you a single source of truth for security and risk.
+[73:09] Learn more at vanta.com slash invest. The best AI and software companies from OpenAI
+[73:14] to cursor to perplexity. Use WorkOS to become enterprise ready overnight, not in months.
+[73:19] Visit WorkOS.com to skip the unglamorous infrastructure work and focus on your product.
+[73:24] Ridgeline is redefining asset management technology as a true partner, not just a
+[73:28] software vendor. They've helped firms 5x in scale, enabling faster growth, smarter operations,
+[73:33] and a competitive edge. Visit ridgelineapps.com to see what they can unlock for your firm.
+[73:38] Every investment firm is unique and generic AI doesn't understand your process.
+[73:42] Rogo does. It's an AI platform built specifically for Wall Street, connected to your data,
+[73:46] understanding your process, and producing real outputs. Check them out at rogo.ai slash invest.
