@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-21T17:49:37+00:00",
+ "genere_le": "2026-09-21T21:40:45+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 15,
- "nb_articles": 395,
+ "nb_flux_en_erreur": 16,
+ "nb_articles": 391,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -53,6 +53,11 @@
    "source": "Indie Hackers",
    "url": "https://www.indiehackers.com/feed.xml",
    "erreur": "HTTPError: 404 Client Error: Not Found for url: https://www.indiehackers.com/feed.xml"
+  },
+  {
+   "source": "SaaStr",
+   "url": "https://www.saastr.com/feed/",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.saastr.com/feed/"
   },
   {
    "source": "Startup Unlocked",
