@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-25T11:04:07+00:00",
+ "genere_le": "2026-09-25T16:27:36+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
  "nb_flux_en_erreur": 14,
- "nb_articles": 398,
+ "nb_articles": 419,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -28,6 +28,11 @@
    "source": "The Evidence-Based Investor",
    "url": "http://www.evidenceinvestor.co.uk/feed/",
    "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
+  },
+  {
+   "source": "Early Retirement Now",
+   "url": "https://earlyretirementnow.com/feed/",
+   "erreur": "HTTPError: 429 Client Error: Too Many Requests for url: https://earlyretirementnow.com/feed/"
   },
   {
    "source": "HR Executive",
@@ -73,11 +78,6 @@
    "source": "Dans la Tete d'un VC",
    "url": "https://danslatetedunvc.substack.com/feed",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://danslatetedunvc.substack.com/feed"
-  },
-  {
-   "source": "Hugging Face Blog",
-   "url": "https://huggingface.co/blog/feed.xml",
-   "erreur": "HTTPError: 429 Client Error: Too Many Requests for url: https://huggingface.co/blog/feed.xml"
   },
   {
    "source": "Patent Drop",
