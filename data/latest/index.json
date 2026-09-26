@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-25T21:03:56+00:00",
+ "genere_le": "2026-09-26T03:22:25+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
- "nb_articles": 419,
+ "nb_flux_en_erreur": 15,
+ "nb_articles": 410,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -75,9 +75,19 @@
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://danslatetedunvc.substack.com/feed"
   },
   {
+   "source": "Tech a suivre - L'ADN",
+   "url": "https://www.ladn.eu/tech-a-suivre/feed/",
+   "erreur": "ConnectTimeout: HTTPSConnectionPool(host='www.ladn.eu', port=443): Max retries exceeded with url: /tech-a-suivre/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ladn.eu', port=443) at "
+  },
+  {
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
   }
  ]
 }
