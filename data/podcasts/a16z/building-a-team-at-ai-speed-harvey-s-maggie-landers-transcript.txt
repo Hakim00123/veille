@@ -1,0 +1,778 @@
+The a16z Show
+Building a Team at AI Speed | Harvey’s Maggie Landers
+Sun, 27 Sep 2026
+https://a16z.simplecast.com/episodes/building-a-team-at-ai-speed-harveys-maggie-landers-1mxeFqtp
+
+[00:00] Transforming the legal industry is very different
+[00:04] than trying to transform customer support
+[00:07] or build an AI harness.
+[00:09] More create a model.
+[00:11] You're going to do more in a month at Harvey
+[00:14] than you would in a quarter somewhere else.
+[00:16] There's a lot of experimentation,
+[00:17] so you're gonna fail more than you're necessarily
+[00:19] gonna get it right.
+[00:20] And so I think the emphasis is on both failing fast
+[00:24] and correcting to make something or build something
+[00:27] that has never been built before.
+[00:29] It's like nothing inspires people more
+[00:31] than actually seeing their impact in the world
+[00:33] and knowing that even being part of a really large organization
+[00:36] they still feel like everything they're doing
+[00:38] is working towards a much bigger vision.
+[00:40] The right sort of mentality for Harvey is that passion
+[00:43] to be part of creating it.
+[00:45] What about the legal industry gets you so fired up?
+[00:48] I think that.
+[00:50] What happens when you add more than 1,000 employees in a year
+[00:53] but still want to operate like a startup?
+[00:56] A16Z is Katie Kirsch,
+[00:57] sits down with Harvey VP of talent, Maggie Landers,
+[01:00] to discuss how the company is approaching hiring
+[01:02] and culture as it scales.
+[01:04] Maggie explains Harvey's focus on progress over perfection,
+[01:08] giving employees the autonomy to move quickly,
+[01:10] make mistakes and learn.
+[01:12] They also discuss what Harvey looks for in new hires
+[01:15] and why succeeding in a fast moving environment
+[01:18] requires comfort with ambiguity and strong judgment.
+[01:23] Welcome to the A16Z podcast.
+[01:26] Today we're joined by Maggie Landers
+[01:28] who's the VP of talent at Harvey.
+[01:30] I'm so excited.
+[01:31] Harvey's valuation has been skyrocketing in the past year
+[01:36] from 3 billion last February of 2025
+[01:39] to 5 billion in June, 8 billion in October,
+[01:42] 11 billion this past March of 2026
+[01:45] and you've been at Harvey for,
+[01:47] you just hit your one year mark, is that right?
+[01:49] Yes, I'm a little over one year.
+[01:51] It's been insane, not just the valuation
+[01:54] but the company growth, the customer growth,
+[01:58] I think our product growth,
+[02:01] but I would say that we don't take any of it for granted.
+[02:06] I don't think there's anyone internally
+[02:08] who feels like we've fully made it
+[02:10] or actualized our potential.
+[02:12] It definitely still feels like a startup.
+[02:15] We just celebrated our fourth birthday as a company.
+[02:17] Congratulations, happy birthday, Harvey.
+[02:19] Yes, happy birthday, Harvey.
+[02:20] But yeah, I don't think there's any part of us
+[02:23] that feels that we are anywhere close to the company.
+[02:27] We aspire to build.
+[02:29] Yeah.
+[02:29] Are you celebrating wins in any way
+[02:32] or it's just hard work petals to the metal?
+[02:35] I would say we definitely are.
+[02:36] I think we celebrate in big ways.
+[02:38] I think we celebrate in small ways.
+[02:40] I think that whether it's sort of our global
+[02:43] go-to-market company sort of wins channel
+[02:47] where folks are constantly sort of celebrating
+[02:50] the accomplishments and sharing kudos,
+[02:52] I think we come together as a company for celebrations
+[02:56] like this.
+[02:57] Anniversary, product launches, milestones,
+[03:01] but we also have a jobs not finished culture.
+[03:04] It's one of our core values.
+[03:07] And so I would say the celebration is always
+[03:12] an acknowledgement of the great work that we've done,
+[03:15] but then also we're thinking about what we need to do next.
+[03:20] And I think that's just a very kind of core
+[03:24] fundamental part of what Harvey is about.
+[03:27] I do think the team likes to have fun
+[03:29] and there's a lot of humor in everything,
+[03:32] kind of injected in everything that we do,
+[03:34] but we're always thinking ahead.
+[03:38] And I think you mentioned earlier,
+[03:40] so are you employee number, is it 340?
+[03:44] I'm somewhere in the 300s.
+[03:46] Yeah.
+[03:47] I'm somewhere in the 300s.
+[03:48] And yeah, we've added over a thousand employees
+[03:53] since I've joined and will likely be about 2000 employees
+[03:56] before the end of this calendar year,
+[04:00] which is insane, more than 70% of the company
+[04:05] started after January 1st of this year.
+[04:08] Wow.
+[04:09] What does that feel like on the inside?
+[04:11] Is so many new faces?
+[04:12] Are you all in person?
+[04:13] Yeah, what's it like?
+[04:14] A lot of new faces, those onboarding classes
+[04:16] just feel big.
+[04:19] They're growing, yeah.
+[04:19] They're growing for sure.
+[04:22] I would say it still feels like Harvey,
+[04:26] and I can explain what that means,
+[04:28] but I do think that we've done a good job
+[04:31] of understanding kind of what makes somebody successful
+[04:37] at Harvey.
+[04:38] I'm looking for a lot of those sort of characteristics
+[04:43] when we go to market and we bring new people on board.
+[04:47] I also think that we have pretty good kind of self selection
+[04:52] in that I think folks know that Harvey is
+[04:55] a really ambitious company
+[04:57] and that we are looking to be generational in what we build.
+[05:03] And I think that also attracts folks
+[05:05] who are very sort of, for the most part,
+[05:08] intrinsically motivated and want to do something
+[05:11] super fulfilling.
+[05:13] But at the same time, it creates a ton of unique challenges.
+[05:17] When the majority of folks on board are relatively new,
+[05:22] under one year, 10 year,
+[05:23] I think you have this unique dynamic where,
+[05:26] especially on the recruiting side,
+[05:27] I see situations where a recruiter and a hiring manager
+[05:31] and the leader are all relatively new
+[05:35] and kind of actively working together
+[05:38] to try to figure out how to run the process effectively,
+[05:42] what the right fit for the role is going to be.
+[05:44] And in many cases, leaving behind what worked
+[05:49] at their old company and in real time,
+[05:51] trying to figure out what is going to work at Harvey.
+[05:55] The beauty of working at a company like Harvey,
+[05:58] both sort of AI native and frankly,
+[06:02] a place that values kind of progress over perfection
+[06:06] and wants to move quickly is that it almost doesn't matter
+[06:12] what you did three years ago or five years ago
+[06:15] or how you did it.
+[06:16] I think it's more important that you're sort of like
+[06:18] actively collaborating and working to figure out
+[06:21] what is going to make sense in this new world.
+[06:24] And at this moment in time,
+[06:27] we're genuinely trying to transform how the legal industry works
+[06:32] and operates and do something unprecedented.
+[06:35] And so everyone's experimenting and trying to figure it out
+[06:39] for the first time, whether you're a tenured employee or not.
+[06:42] That sounds like exciting but also overwhelming
+[06:45] and that you've got completely new faces,
+[06:48] now training other completely new faces.
+[06:50] But you mentioned, I love what you said about Harvey
+[06:53] still feels like it's Harvey.
+[06:54] It does.
+[06:55] Yeah.
+[06:56] Tell me more about that.
+[06:57] I think that Harvey is unique in certain ways.
+[07:01] I think our pace is pretty unique.
+[07:03] We move very quickly.
+[07:06] If you come from an environment that you thought moved quickly,
+[07:11] you join Harvey and you're like, wow.
+[07:13] Harvey is fast.
+[07:14] Yeah, you're going to do more in a month at Harvey
+[07:18] than you would in a quarter somewhere else.
+[07:20] I'll do more in a year than you probably would
+[07:25] over a few years elsewhere.
+[07:27] So you actually have a lot of reps quickly in terms of trying to
+[07:31] figure things out and figure out what works.
+[07:35] I think that most folks at Harvey have been successful in whatever
+[07:40] it is that they were doing previously,
+[07:43] whether they were practicing law in a sort of traditional environment.
+[07:47] If they worked at a tech company previously,
+[07:49] if they came from school or an academic program.
+[07:53] And I think that there's a bit of kind of
+[07:56] ridding yourself of needing to be an A student when you join Harvey,
+[08:02] most people probably were A students and super successful at whatever
+[08:07] it was that they were doing previously because what we're trying to do
+[08:12] is A pretty brand new and B there's a lot of experimentation.
+[08:17] So you're going to fail more than you're necessarily going to get it right.
+[08:20] And so I think the emphasis is on both failing fast and correcting
+[08:25] experimentation and also kind of putting that ego aside.
+[08:31] For kind of the greater good of figuring out, okay,
+[08:34] how do we all work together to make something or build something
+[08:39] that has never been built before?
+[08:42] Yeah, I like this piece around like progress over perfection,
+[08:45] especially when you're talking about A plus students who are used to
+[08:49] distinguishing between right and wrong and knowing what it takes to do
+[08:52] something well and they're being thrust into an environment that's growing
+[08:55] so fast, they have to almost rewrite the rules as they go.
+[08:59] For sure.
+[09:00] I also think that what we have to offer is this opportunity to learn
+[09:07] and to grow and do something really meaningful.
+[09:11] A lot of people before they join whether they're working parents,
+[09:17] like I am, if they're sort of concerned about this, like,
+[09:21] they've heard that it's an intense culture.
+[09:24] I think folks have questions about sort of how Harvey might impact
+[09:30] their lifestyle.
+[09:31] What's it going to be like?
+[09:32] Is it really cut the road?
+[09:33] Is it really intense?
+[09:34] And the reality is I have seen more sort of true collaboration
+[09:40] and teamwork at Harvey than I would have ever imagined,
+[09:44] probably more so anywhere that I've ever kind of worked.
+[09:48] People are really looking to support their colleagues.
+[09:53] There is a big emphasis on us sort of winning as a team.
+[09:57] And I also believe that what we're doing and the impact each individual
+[10:02] is able to have creates this sort of career fulfillment that makes the effort
+[10:13] required to put in worth it.
+[10:15] I think that there is nothing worse.
+[10:18] I can't imagine there'd be anything worse than working really hard
+[10:21] and knowing it doesn't matter.
+[10:22] If you show up or not, like if that work doesn't actually matter.
+[10:25] If it's not going to contribute, if it's not going to make a difference.
+[10:28] And so what we have to offer is this opportunity to really come in even
+[10:33] as we're growing so quickly and know that every single person we bring in
+[10:37] is so kind of critical in our ability to get to the next level.
+[10:42] And we give folks a lot of agency.
+[10:43] So you're not going to be held back.
+[10:45] You're going to be able to sort of run and do things, which I think makes it
+[10:50] kind of balances out that yes, it's intense and yes, it moves fast.
+[10:54] But at the same time, you're going to get a lot of feedback.
+[10:58] You know, both feedback in the traditional sense, but also just feedback
+[11:03] from like an impact perspective in seeing whatever it is that you build
+[11:08] or that you launch or that you market or that you sell kind of get out into the world.
+[11:13] And those reps happen quickly.
+[11:15] Yeah, it's amazing.
+[11:16] It's like nothing inspires people more than actually seeing their impact
+[11:19] in the world and knowing that even being part of a really large organization,
+[11:23] they still feel like everything they're doing is working towards a much bigger vision.
+[11:27] There is nobody, I would be hard pressed to find anybody at Harvey who feels
+[11:32] like they're part of a machine that could be running without them in the same way.
+[11:38] I think everybody feels deeply connected to whatever it is that they're working on
+[11:44] and knows that, you know, they have an opportunity to make a real impact on whatever
+[11:52] that is.
+[11:53] It's amazing.
+[11:54] You know, I often think that the culture of a company comes from, I mean,
+[12:00] initially the founders.
+[12:02] And obviously Harvey is so much bigger than just the founders today,
+[12:06] but they're still a massive part of what Harvey is.
+[12:08] And, you know, Winston and Gabriel only started Harvey in 2022, which was
+[12:12] four years ago.
+[12:13] And now we're talking about hiring 600 people by the end of this year.
+[12:17] You know, I'm curious when you think about their leadership style, you know,
+[12:22] what does that look like?
+[12:24] What kinds of leaders are they and how do they show up in the company
+[12:28] to help create that culture for everyone?
+[12:31] I think they definitely set the tone.
+[12:34] They're both incredibly brilliant and driven and motivated,
+[12:40] which I think you expect from founders.
+[12:45] What I would say is unique about Winston and Gabe is this quality
+[12:50] to be both sort of very, like operate at a very high level,
+[12:57] strategic future facing altitude and then get super into the details
+[13:09] and be able to do both.
+[13:11] They are very involved in the day today.
+[13:15] Very.
+[13:16] Harvey is not a place where in order to present something to the executive team
+[13:21] or to the founders, you're submitting a deck and waiting to get on some
+[13:27] calendar to present to the exec team eight weeks out and have it be sort of
+[13:32] reviewed and buttoned up.
+[13:35] You can slack when center gave and get a response immediately.
+[13:39] Amazing.
+[13:40] Yeah.
+[13:41] That attitude and I think the accessibility and frankly,
+[13:44] the fact that they are still so in the details shapes,
+[13:50] I think the broader sort of executive team ethos.
+[13:54] So as we've added to the executive team and we have some incredible new leaders
+[14:00] on the team.
+[14:01] Rachel Hepworth is running marketing.
+[14:03] A neat drum right on the product side.
+[14:05] Brooks Evans is our new CISO.
+[14:07] We have brought in some incredible experienced leaders.
+[14:12] Katie Burke, COO.
+[14:14] My boss.
+[14:15] Amazing.
+[14:16] These folks all have that really, really unique combination of
+[14:25] strategic vision, but real day to day involvement and execution.
+[14:33] So learning from folks who have both the vision and that sort of
+[14:41] detailed understanding of how to run, you know, how to build a product
+[14:46] or how to market a product or how to, you know, build world class
+[14:51] security into everything we do is super unique.
+[14:54] And I think people, a lot of people joined to work for one of these leaders
+[14:58] because it's essentially a masterclass in how to do some of these jobs,
+[15:04] not just as figureheads, but as true collaborators.
+[15:08] Yeah.
+[15:09] I'm imagining like Winston gave, you know, they're walking around the
+[15:13] office, you know, looking over people, you know, what are you working on?
+[15:16] You know, that's like the kind of curious mentality.
+[15:18] Do I have the right vision?
+[15:19] Yeah.
+[15:20] Totally.
+[15:21] Sitting with new hires at lunch, introducing themselves.
+[15:23] They also do founder AMAs, which I think is great.
+[15:26] We actually have our interns host these, which is amazing.
+[15:30] Seeing them sort of up in front of the company asking,
+[15:33] Gabe and Winston, everybody's questions that they might be,
+[15:37] might be too shy to ask in person.
+[15:41] Yeah.
+[15:42] They have a great dynamic.
+[15:46] I think co-founders tend to have a bit of a yin and yang,
+[15:51] and I would describe them as kind of having sort of a yin and yang vibe,
+[15:58] but they speak so openly about how they see the company evolving,
+[16:04] how they see the space evolving.
+[16:08] People feel very close to them because I think they understand
+[16:13] what their thought process is because they share it.
+[16:17] When something's happening in the market,
+[16:19] it's not unusual for Winston to put a memo together quickly with all of his thoughts
+[16:24] and put it in the company general channel, and everyone can just read what he thinks
+[16:28] is going to happen, why he thinks it's going to happen,
+[16:30] what his take on something is after every quarter,
+[16:33] he'll put together a quarterly memo for the whole team on what he thinks worked
+[16:37] and didn't, et cetera.
+[16:39] I think sharing that as broadly as we do, it's pretty open.
+[16:45] I mean, the company is very open in terms of what the leaders share.
+[16:49] We post board decks for the whole company to review after board meetings,
+[16:52] so they can see what's been shared in those board meetings
+[16:56] and host AMAs and Slack so that people can ask questions or get clarification.
+[17:02] I do think that keeps folks very connected to the leaders as we scale
+[17:07] globally as we add so many folks.
+[17:09] It gives you a chance to kind of get inside their brains a little bit.
+[17:14] Yeah.
+[17:15] Love that.
+[17:16] What's a recent story or a fun fact or something
+[17:19] that the founders recently shared that people were amused by or that stands out for you?
+[17:25] I don't know if there's a single anecdote.
+[17:28] I think that it's pretty normal to hear them speak about
+[17:38] mistakes that they've made, things that they look back on,
+[17:41] that they think we should have done completely differently,
+[17:44] times maybe where as a company, we got lucky, but it was not on purpose
+[17:49] or times where we made the wrong call.
+[17:52] There's a lot of, I guess, vulnerability for lack of a better word,
+[17:56] transparency in terms of how they think things are going to.
+[18:02] There's no mystery.
+[18:03] And I think that all the leaders sort of share that mentality.
+[18:07] There's no mystery in terms of where we think we are nailing it,
+[18:14] where we need to put in more work or more reps,
+[18:18] what we haven't figured out yet.
+[18:20] And there's a lot of just kind of openness at the company level.
+[18:27] And I don't think that people could be as impactful if there wasn't.
+[18:31] People know what we're all kind of working toward.
+[18:37] It sounds like Harvey's culture is open and transparent
+[18:42] and vulnerable and supportive and low ego.
+[18:45] It's got all these amazing qualities,
+[18:47] and obviously not every company is right for everyone.
+[18:51] It's clear why people would want to join Harvey.
+[18:54] I'm curious, why would people leave?
+[18:57] Or why do you tend to see people not be as fair to a fit for Harvey?
+[19:01] Harvey is entering teenage years.
+[19:06] I would describe it as such because we are not this teeny,
+[19:11] tiny startup that hasn't found product market fit.
+[19:16] And we're also not this fully actualized sort of old,
+[19:26] longstanding mega public company.
+[19:31] And I think that there are a lot of people who either prefer
+[19:36] this sort of structure and stability and pace of one of those
+[19:43] massive companies.
+[19:45] And I also think that there are people who want to be at really,
+[19:49] really early startups where maybe they haven't found product
+[19:55] market fit, maybe the role is undefined,
+[19:57] but they're kind of figuring out what to work on,
+[20:02] working across everything.
+[20:04] We're just not at that phase anymore.
+[20:07] So I think that given that we're that in between,
+[20:11] which frankly I love, and I know a lot of people love,
+[20:14] where you've got this vision and strategy and leadership team
+[20:22] that folks can learn a ton from,
+[20:25] you also aren't this big sort of behemoth that's working as a
+[20:30] machine.
+[20:31] That's not for everybody.
+[20:34] Some people want more structure.
+[20:36] Some people want less structure.
+[20:37] And I think that's okay.
+[20:39] Our goal, especially on my team, as a recruiting team,
+[20:43] is to make sure the resort matches the brochure.
+[20:48] We want people to basically get as close to life within Harvey's
+[20:54] during that interview process as possible for them to be able to
+[20:58] make the call.
+[20:59] Does this feel right?
+[21:00] Does this feel exciting?
+[21:01] Does this feel like, you know, this is the kind of work I want to do?
+[21:04] This is the work that gets me excited.
+[21:06] And if not, I think that's, we're doing our job also by showcasing,
+[21:13] I think, what the role entails with a company is about and knowing
+[21:19] that people are going to self-select and they're going to
+[21:21] self-select out.
+[21:22] Yeah.
+[21:23] But yeah, I think that this, the industry and the stage and the size
+[21:35] and the way of working is not for everyone.
+[21:39] Yeah.
+[21:40] Yeah.
+[21:41] Okay.
+[21:42] You're in this in-between period.
+[21:43] And so you're looking for other, for people who are down for that
+[21:47] ride of taking a company from its teenage years,
+[21:50] all the way into adulthood and, you know, who kind of passed the
+[21:54] point where everything is scrapping undefined, but not yet at the
+[21:57] point where there are systems for everything.
+[21:59] And so, people who are willing to, and excited about, you know,
+[22:03] creating those much scalable systems.
+[22:05] Totally.
+[22:06] That's absolutely right.
+[22:08] And I also think that AI application layer companies, in general,
+[22:17] are trying to transform industries.
+[22:22] I think that we attract folks who have a certain customer
+[22:31] centricity and an interest and a desire to sort of genuinely sort
+[22:38] of reshape something like the legal industry.
+[22:44] It is very tangible.
+[22:46] We are very close to our customers.
+[22:48] We start up every all hands with sort of a customer testimonial.
+[22:51] It doesn't matter what team you're on.
+[22:53] You're very, very connected to what our customers are trying to do.
+[23:02] And we have so many lawyers or folks who are no longer practicing
+[23:08] law, but once we're within Harvey and all sorts of roles.
+[23:13] Of course, we have an internal legal team, but we also have applied
+[23:17] legal researchers who sit in product.
+[23:19] We have legal innovation partners who sort of liaise with various,
+[23:25] you know, CIOs and the innovation community.
+[23:28] We have our legal engineers and legal engineering product
+[23:31] specialists who sit on the sales team.
+[23:33] And so there's this like deep admiration and respect for the
+[23:40] legal industry for, you know, these law firms for these in-house legal
+[23:45] teams, what they're trying to do.
+[23:47] And the folks at Harvey are genuinely looking to be part of
+[23:51] transforming all of it.
+[23:53] And I think that there are a lot of companies that whether they're
+[23:58] focused more on sort of the other layers of the stack, maybe
+[24:04] purely, you know, building models themselves or, you know,
+[24:08] infrastructure companies, et cetera, that have very cool technology,
+[24:13] but don't necessarily touch the customer in the same way.
+[24:16] Yeah.
+[24:17] I think it takes a certain person to be, I think certain folks are motivated
+[24:21] to work on these customer problems.
+[24:23] And that might look different at different places.
+[24:26] Yeah.
+[24:27] Is that one in part inspired you to join Harvey or actually tell me
+[24:31] about the story of you first hearing about Harvey and deciding to join?
+[24:36] I had been at my previous company for almost a decade.
+[24:40] And I had gotten a call from a recruiter.
+[24:44] He kind of laughed and basically said, I have the perfect role for you
+[24:48] for two reasons, one being Katie, my boss, being probably one of the
+[24:54] most sort of inspiring leaders in the people's space.
+[24:57] She's now taken on the COO role at Harvey.
+[25:00] But I knew that her scope was very big.
+[25:04] And she was working across many different priorities.
+[25:07] And then I could learn a ton from her, not just in the recruiting
+[25:10] or HR space, but just about business in general.
+[25:14] And the other piece was what Harvey was doing in the legal industry,
+[25:22] but also in AI.
+[25:24] I felt like it was a massive, a massive opportunity.
+[25:27] And frankly, we have a very market motion.
+[25:32] And we are super customer centric.
+[25:35] And AI transformation is more than just building a great product.
+[25:40] But we have essentially this like heavy people motion where for all
+[25:45] of our customers, we have essentially an army of go-to-market
+[25:50] resources for them, both pre-sale and post-sale.
+[25:54] And we had plans to get to 16 markets in a year.
+[25:59] So the growth that was going to be required to sort of actualize
+[26:04] our potential and essentially give our customers the attention
+[26:11] they needed created a very unique recruiting challenge.
+[26:16] In terms of how quickly we were going to have to hyper scale
+[26:20] across so many different markets and do it with a level of
+[26:27] quality and care while maintaining a really high bar.
+[26:32] So the opportunity for impact in my role in particular was pretty unique.
+[26:42] I knew what the growth plans were.
+[26:45] The growth plans expanded quickly after I started.
+[26:51] And I definitely wasn't sure it was possible.
+[26:56] I wasn't sure we could pull it off.
+[26:59] And I think that that's sort of the story of Harvey.
+[27:04] You join and you're being asked to do something that you don't actually
+[27:07] know is maybe whether or not it's like maybe possible or possible in
+[27:13] that amount of time or possible at the level or quality and
+[27:17] execution that you think you should be able to operate.
+[27:22] But then you just do it.
+[27:25] You just do it.
+[27:26] We have a funny saying on the new media team at A6 and Z,
+[27:29] we always say you can just do things.
+[27:31] And you just got to do it.
+[27:34] Someone's got to do it.
+[27:35] And you just got to get in there and roll up and figure it out.
+[27:38] It sounds like that's what the role was, you know.
+[27:41] Like Maggie, we think you can do it.
+[27:43] For sure.
+[27:44] And also we're going to help you do it.
+[27:47] That was a big part of it too.
+[27:49] I think that in a head of recruiting role or a head of talent role,
+[27:54] it's important how the leaders look at the function.
+[27:59] It's important that they actually believe that it matters to go out
+[28:05] to market and hire some of the best people in the industry.
+[28:08] It's important that they believe that part of their job is doing that.
+[28:12] It's not another team's job to just go out and bring folks in.
+[28:17] And also they were willing to resource it and staff it.
+[28:23] I mean, that is a very important component of I think asking people
+[28:32] to push themselves is to give them the resources and the support.
+[28:40] And we do that across the board.
+[28:43] So my team went from, I want to say about 16 to 80 folks in a year in
+[28:52] order to support that growth.
+[28:55] If you look across other teams, whether it's engineering teams or
+[29:00] product teams or marketing teams, I think that they would all agree that
+[29:03] they're being given all the tools that they need in order to.
+[29:09] Do what they need to do and build something great for our customers.
+[29:15] And you're hiring hundreds of people right now.
+[29:18] Yeah.
+[29:19] What?
+[29:20] How does that work?
+[29:22] What teams are you hiring for?
+[29:24] What roles?
+[29:25] I want to hear about the interview process.
+[29:28] Yeah.
+[29:29] We have over 400 jobs open right now.
+[29:32] So I won't go into the specific roles.
+[29:35] But we are hiring across every team.
+[29:38] We are hiring pretty much across every region.
+[29:41] We have added many new regions who will continue to add some new
+[29:46] regions.
+[29:47] I won't.
+[29:48] I won't share any today.
+[29:49] But I've stay tuned.
+[29:50] Stay tuned.
+[29:51] The interview process definitely differs by team.
+[29:56] The engineering loop looks very different than the SDR loop as you would
+[30:01] expect.
+[30:02] I would say that the commonalities across the process,
+[30:10] season, and different regions, we have a values interview for all
+[30:17] candidates when they come on site.
+[30:20] The values interview is structured around our three values.
+[30:23] So simplicity, decisiveness, and jobs not finished.
+[30:26] It's an opportunity both to understand how people have worked in
+[30:30] the past, but also give candidates the chance to dig in and dive
+[30:35] into our values and ask questions about what they mean and how they
+[30:40] show up.
+[30:41] And frankly, as we talked before about self-selection,
+[30:45] think about is this the kind of environment where I want to work
+[30:48] and how they might approach scenarios that come up with those
+[30:53] values in mind?
+[30:54] Can you give me a quick one liner on each of these values and
+[30:59] what you look for?
+[31:00] Absolutely.
+[31:01] So for decisiveness, wins and loves to say we don't take the
+[31:05] square root of the weather.
+[31:07] What does that mean?
+[31:09] What it basically means is we want to move fast.
+[31:13] We'd rather make mistakes and learn than overanalyze and spend all
+[31:18] this time pontificating on how is this going to go or what do you think
+[31:22] of this thing or that thing.
+[31:23] It's almost about just being willing to build and put things out
+[31:28] into the world and then react really quickly.
+[31:31] And so that is, I think, sort of the underlying value or mentality
+[31:40] that drives our pace.
+[31:42] You can't operate at the pace we do and be completely afraid to make
+[31:49] a mistake.
+[31:50] You can't move at our pace and get 300 people to weigh in on
+[31:57] every decision that you want to make.
+[32:00] It's not a consensus driven place.
+[32:02] It's really about people being able to take ownership and make
+[32:07] those decisions and move forward and be able to own when they
+[32:10] were the wrong decisions.
+[32:11] But also understand that if we don't act, we're never going to
+[32:16] move things forward.
+[32:17] Simplicity, again, I think is one of the reasons why we are
+[32:24] able to move fast, right?
+[32:26] It goes hand in hand with the decisiveness, but let's not
+[32:29] overbuild.
+[32:30] Let's put something out into the world.
+[32:33] Let's get feedback.
+[32:35] Let's go from there.
+[32:36] Let's make this simple.
+[32:38] I think that those two in conjunction with this sort of jobs not
+[32:47] finished mentality, which is really about the fact that kind of not
+[32:52] just the work is never done, but that we have a sense of
+[32:57] humility and openness to the ways that it could be done better or
+[33:03] could have been done better.
+[33:04] I think those three things hand in hand create that
+[33:10] environment I was describing to you about sort of this straight
+[33:13] A student giving up some of the perfectionist tendencies
+[33:18] ultimately for the satisfaction of being able to have this
+[33:23] massive impact on the industry and, frankly, drive their career
+[33:27] forward incredibly quickly.
+[33:29] It also creates a real culture of discourse.
+[33:38] I think that the ability to speak openly about mistakes, the
+[33:46] ability to put things out in front of people before they're
+[33:49] completely perfect, the ability to make a decision without
+[33:54] all the necessary information, just doing the best that you can,
+[33:59] is this sort of like hotbed for gross and learning.
+[34:08] It's not a place about sort of posturing and sharing all the
+[34:14] things that you've done right.
+[34:17] So, yeah, I think for folks who genuinely want to kind of go
+[34:23] through this crash course of essentially learning and
+[34:27] growing and getting all this feedback and building a bunch of
+[34:31] stuff and seeing what works and seeing what doesn't work and
+[34:34] doing it with other people who are also just kind of in the same
+[34:38] boat, it's pretty amazing.
+[34:44] Yeah, sounds like a very iterative, let's experiment, let's just
+[34:48] look at how it goes.
+[34:49] There's only, it goes back to what you said about you can't take
+[34:52] the square root of weather.
+[34:53] You just need to run with it, break it down, make decisions,
+[34:56] learn by doing.
+[34:58] Yeah, most companies move out of that phase really quickly.
+[35:02] And they're very afraid to make mistakes.
+[35:06] Yeah.
+[35:07] And they slow things down and create a bunch of friction so that
+[35:12] people can't move so fast.
+[35:14] And I would say that we don't operate out of fear.
+[35:19] Winston said recently in one of our co-founder AMAs that the thing
+[35:25] that he wants to hold on to most as we grow is trust.
+[35:31] And the trust that we have for our employees and frankly the
+[35:36] agency that we give folks to just run and execute without a lot
+[35:42] of the policing and without a lot of the friction is what
+[35:46] continues to allow us to hire the amazing folks that we do and
+[35:50] move as quickly as we do and experiment the way that we do.
+[35:53] Yeah.
+[35:54] And so people forget that we're only four years old, but we still
+[36:02] have held on to that trust.
+[36:06] We still allow folks to have that level of agency and
+[36:10] autonomy and the values enable it.
+[36:13] They allow you to move quickly.
+[36:15] They allow you to make mistakes.
+[36:17] And without that, you know, I think that we would not be seeing
+[36:22] the success that we have.
+[36:24] Yeah.
+[36:25] I love that it all comes down to trust.
+[36:27] I have maybe one or two last questions.
+[36:29] Yeah.
+[36:30] So one, you mentioned the team is opening up new locations.
+[36:33] I won't pry.
+[36:34] Yeah.
+[36:35] You'll have to wait to get the reveal on where you're opening up.
+[36:37] But you already have offices here in San Francisco, New York,
+[36:41] Chicago, Dallas, London, Dublin, Paris, Madrid, Milan, and many more.
+[36:47] Correct.
+[36:48] Which is crazy.
+[36:49] Sydney, Singapore.
+[36:51] Yep.
+[36:52] I missed a few.
+[36:53] Sydney, Singapore.
+[36:54] It's a while.
+[36:55] I probably missed a few too.
+[36:56] But yes.
+[36:57] Are all the offices different?
+[36:58] Have you been to all of them?
+[36:59] You're based in San Francisco.
+[37:00] What is that off?
+[37:01] You know, give me a sense of just the different locations and what
+[37:05] that's looked like for your team.
+[37:06] I have not been to all of the offices.
+[37:09] I plan to get to a few more this fall, but I've spent a lot of time.
+[37:14] I'm based in our San Francisco office.
+[37:15] I've spent a lot of time in our New York office as well.
+[37:18] I've been out to our London office.
+[37:20] I would say that we do a great job of having sort of a core Harvey brand
+[37:31] and vibe.
+[37:33] Each office feels distinct for that market.
+[37:38] And not every office has the same mix of functions.
+[37:44] So, EPD, which is our engineering product and design team, went from one
+[37:50] location just in San Francisco about 18 months ago to four locations.
+[37:56] So San Francisco, Toronto, New York.
+[38:01] And Bengaluru, India are sort of the home of our four EPD hubs.
+[38:08] And those offices have that mix of EPD and go to market.
+[38:14] A lot of the other global offices start out with our legal engineering
+[38:19] function, some of our go to market function.
+[38:21] And because lawyers practice law differently in different parts of the world
+[38:28] and speak different languages, as I mentioned, we do so much to sort of help
+[38:33] our customers not just implement Harvey, but truly transform their organizations.
+[38:41] We want to make sure that the folks that are on the ground in those regions
+[38:46] understand how law is practiced there, they have experience working within
+[38:52] that jurisdiction and speak the language, et cetera.
+[38:55] And so a lot of our growth has been around providing our customers with this
+[39:02] amazing experience.
+[39:04] And they take that knowledge and sort of the local nuances and that
+[39:11] definitely shapes sort of the differences and how the offices feel.
+[39:16] But we have a great workplace team.
+[39:21] We have a great real estate team.
+[39:23] We tend to find the right spots.
+[39:27] We tend to find great locations.
+[39:31] We have beautiful spaces.
+[39:33] And it's also important, I think, for our customers to know that they can come visit
+[39:39] us and spend time with employees in a beautiful space, typically near where a lot of law firms
+[39:48] work, but there's more that we're going to continue to do and build out so that our
+[39:52] customers can access us wherever they need to.
+[39:57] And are there certain locations where you're hiring more aggressively than others?
+[40:01] Or is it pretty spread across the board?
+[40:04] It's spread across the board.
+[40:06] We tend to swarm new markets and do events and kind of go that extra mile early on when
+[40:15] we're entering a new place to sort of deep dive with the talent there and sort of
+[40:19] understand the landscape.
+[40:21] But the founding teams are super important.
+[40:24] I think we put these strong founding teams in place and then through referrals and great
+[40:30] sort of leaders there.
+[40:32] They tend to have this sort of flywheel effect in, bringing a lot of great folks in.
+[40:39] And you're based in the San Francisco office.
+[40:42] Tell me about the San Francisco office.
+[40:44] If you work in, then they're like five days a week.
+[40:47] Is the team pretty hybrid?
+[40:49] We have a hybrid.
+[40:50] We have a hybrid three day a week policy, but I would say people are in typically more than
+[41:00] that.
+[41:01] It is very much turret versus stick when it comes to that hybrid in office policy.
+[41:09] We are not a place that has to do policing in terms of how many days a week have you come
+[41:15] in.
+[41:16] We have an energy and I can speak for the San Francisco office.
+[41:24] There is a buzz for sure in the office.
+[41:28] People are there.
+[41:29] They're collaborating.
+[41:30] It's a beautiful space to work in.
+[41:32] There's always something going on.
+[41:34] You're running into somebody in the hall.
+[41:36] You're asking a question.
+[41:37] Somebody's like, oh, I forgot to tell you this thing or that thing.
+[41:41] You get a lot done.
+[41:43] I think you learn from your team members.
+[41:45] As I mentioned, so many people are new and most people are frankly onboarding or ramping in
+[41:53] some way.
+[41:54] And so being able to sit next to somebody who's maybe six months ahead of you or four weeks
+[41:58] ahead of you and ask questions is so important.
+[42:01] I actually see people who tend to come in sort of more than those three days because they'd
+[42:07] rather be in the office than working from home.
+[42:11] Anything you want candidates to know?
+[42:13] If you actually take a step back, transforming the legal industry is very different than trying
+[42:20] to transform customer support or build an AI harness.
+[42:27] Or create a model, even though we're now building some of our own models.
+[42:34] But understanding what we are truly trying to achieve and how that is going to make your
+[42:42] job different than working at anthropic or at open AI or at 11 labs or at Sierra, I think
+[42:53] is super important because it will be different.
+[42:56] And so I think taking the time to actually think about that, what is unique about this
+[43:01] industry?
+[43:02] What is unique about the way law is practiced?
+[43:05] How long it's been practiced for the security requirements?
+[43:08] You know, when we think about the fact that law is essentially like the basis of civilization
+[43:15] as we know it and our aspirations to essentially transform this whole space, taking the time
+[43:23] to think about it, does I believe help folks start to differentiate some of these opportunities?
+[43:31] So what I feel like I'm hearing is the thing you love to hear most from candidates is what
+[43:37] about the legal industry gets you so fired up?
+[43:41] I think that's a big part of it.
+[43:42] I also think that people are attracted to gross companies and they should be because it
+[43:49] opens up a lot of opportunities when a company is growing, you just get more at bats than
+[43:57] if a company is shrinking or remaining flat.
+[44:01] I think that what people should understand is that we are still a startup as well.
+[44:09] And so while you're getting all these up, while you're going to have all these at bats,
+[44:16] I think that people sometimes ask for processes that don't exist yet and the right sort of
+[44:24] mentality I think for Harvey is that passion to be part of creating it and the ability to
+[44:32] work through some of the, what might be seen as noise and not get frustrated but frankly
+[44:40] get energized by it.
+[44:44] You can call it chaos, you can call it opportunities, I think that thinking about the kind of environment
+[44:53] that you'd be excited to be a part of is super important.
+[45:00] I think that there has to be a little bit of this sort of adventurous kind of maverick attitude.
+[45:09] I think that sort of managing the ambiguity is so kind of key and critical to being successful
+[45:16] at Harvey.
+[45:17] Yeah, you want, it sounds like you're looking for people you can pull into the trenches with
+[45:22] you and who are excited to find their way through and that have a lot of resources and
+[45:28] a lot of momentum behind them but there's still these big questions that your company
+[45:33] is asking and that you're looking for people who are eager to roll their sleeves to help
+[45:37] you answer them.
+[45:40] Absolutely.
+[45:42] Judgment's an important one as well and it's hard because it's hard to assess and it's
+[45:48] hard to measure but I also think that when you're given agency and autonomy and opportunity
+[45:57] for impact and you're going to get a lot of at bats because we do move relatively quickly,
+[46:04] you have to have that sort of spidey sense.
+[46:10] You have to have good judgment.
+[46:11] You have to have that voice in the back of your head that's saying, hey, before I press
+[46:16] send on this thing, is there somebody who I should have like run through this way or
+[46:24] and it's not 10 people, right?
+[46:25] It's like that perfect balance of I'm not going to go out and ask for 20 people's feedback
+[46:29] on this but like who is the right person who should have seen this before I press send?
+[46:35] Is there like one spot check I want to do here before pushing this live or I think again
+[46:43] hard to assess and hard to put your finger on it but having that judgment in an environment
+[46:51] that does move really quickly where there is a lot of agency and autonomy is kind of
+[46:55] a critical part of success and also being able to maintain that trust.
+[47:05] Thanks for listening to this episode of the A16Z podcast.
+[47:09] If you like this episode, be sure to like, comment, subscribe, leave us a rating or review
+[47:14] and share it with your friends and family.
+[47:16] For more episodes, go to YouTube, Apple Podcasts and Spotify, follow us on X and A16Z and subscribe
+[47:23] to our substack at a16z.substack.com.
+[47:26] Thanks again for listening and I'll see you in the next episode.
+[47:31] As a reminder, the content here is for informational purposes only.
+[47:34] Should not be taken as legal business, tax or investment advice, or be used to evaluate
+[47:38] any investment or security and is not directed at any investors or potential investors in
+[47:42] any A16Z fund.
+[47:44] Please note that A16Z and its affiliates may also maintain investments in the companies
+[47:48] discussed in this podcast.
+[47:50] For more details, including a link to our investments, please see a16z.com forward slash disclosures.

@@ -1,0 +1,17 @@
+{
+ "podcast": "A la French",
+ "slug": "a-la-french",
+ "titre": "La Révolution des Robots Humanoïdes",
+ "date": "Tue, 22 Sep 2026",
+ "date_iso": "2026-09-22",
+ "lien": "https://www.linkedin.com/company/a-la-french-podcast",
+ "duree": "1:21:25",
+ "modele": "base",
+ "langue": "fr",
+ "minutes_transcription": 12.4,
+ "taille_transcript": 95437,
+ "transcript": "la-revolution-des-robots-humanoides-transcript.txt",
+ "nb_outils": 0,
+ "outils": {},
+ "mentions_publicitaires": {}
+}

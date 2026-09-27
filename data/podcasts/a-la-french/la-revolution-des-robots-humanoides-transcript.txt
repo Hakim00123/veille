@@ -1,0 +1,1546 @@
+A la French
+La Révolution des Robots Humanoïdes
+Tue, 22 Sep 2026
+https://www.linkedin.com/company/a-la-french-podcast
+
+[00:00] Bienvenue dans la French, le podcast préféré de la scène Tech, française et francophone.
+[00:04] Aujourd'hui on va parler de robotique et de robotique humanoïde.
+[00:07] Avec un tolier du sujet, il a fait partie des plus grandes boîtes du monde.
+[00:10] Aujourd'hui il a créé sa propre société et il vient nous expliquer où on est.
+[00:13] La recherche de la robotique humanoïde et on lui pose toutes les questions sans concession.
+[00:17] C'est parti dans la French.
+[00:35] Vous êtes dans la French et on va parler ensemble sur un sujet que vous avez attendu depuis très longtemps.
+[00:39] C'est tout ce qui est robot et robot humanoïde en particulier.
+[00:42] Il y a eu plein d'actualité récemment et on va parler ensemble avec un expert sur les prochaines années.
+[00:46] Et on va vous le faire deviner avec le jeu que vous connaissez.
+[00:49] Le 4 à la suite, en 4 étapes, 4 points, 3 points, 2 points ou 1 point.
+[00:52] Selon si vous le trouvez plus ou moins rapidement, on fonctionne les indices.
+[00:55] Alors vous êtes prêts en 4 points de vie de notre amitié, c'est parti.
+[00:59] Je suis un chercheur français né en 1992, spécialiste du Deep Learning, de la vision par ordinateur
+[01:05] et de l'apprentissage des comportements.
+[01:07] En 2020, je soutiens un sorbonne université, ma thèse intitulée Deep Multimodal Learning for Vision and Language Processing.
+[01:14] Consacré à l'apprentissage, conjoint à partir d'image de langage.
+[01:17] Donc très compliqué tout ça.
+[01:18] Je poursuit de mes recherches aux Etats-Unis, notamment à la Brown University,
+[01:22] avec une question qui va guider la suite de ma carrière,
+[01:25] comment faire passer l'intelligence artificielle de la compréhension des données numériques
+[01:29] à l'action dans le monde physique et la robotique.
+[01:32] Ça, c'était pour 4 points resistives pour 3 points.
+[01:35] On y va. En 2018, ma Librérie Open Source de réseaux de neurones pré-entraînés est utilisée à Tesla,
+[01:42] André Carpatier me recrute après la création de Tesla et AI.
+[01:45] Et c'est là que j'y construis les réseaux de perception de l'autopilot,
+[01:49] qui s'étendent quelques années plus tard au contrôle complet du véhicule autonome.
+[01:54] Lorsque Tesla annonce son robot humanoid optimus,
+[01:57] je deviens le premier chercheur à porter des réseaux de neurones de l'autopilote
+[02:01] pour contrôler optimus.
+[02:03] Il ne s'agit plus seulement pour une EA de comprendre la route,
+[02:08] mais de percevoir un environnement de manipuler des objets
+[02:12] et d'agir avec un corps de Tesla.
+[02:16] Alors, sans bonne thèse, Tesla, pas sans bonne thèse,
+[02:20] optimus, il n'y a pas de l'autopilot.
+[02:23] André Carpatier, c'est André Carpatier, non.
+[02:25] Il parle pas français.
+[02:27] Si quand il parle français, on a vitra.
+[02:30] Début du 2024, je quitte Tesla pour créer le robot
+[02:32] afin de rendre accessible les réseaux de neurones pour la robotique
+[02:35] et de créer un standard collaboratif.
+[02:37] J'en compte les co-fondateurs de Egging Face
+[02:39] et décide d'éberger le robot
+[02:40] avec l'idée que la robotique progressera plus vite
+[02:43] si les chercheurs et les développeurs peuvent partager plus facilement
+[02:45] leur modèle de données et leur data set.
+[02:48] Quelques mois après, je co-designe l'hobre un robotique S-O-100
+[02:51] qui coûte une centaine d'euros.
+[02:53] Les centaines de milliers de bras sont assemblés par des étudiants
+[02:55] des chercheurs, les startups,
+[02:56] où ils entreprisent comme Nvidia,
+[02:57] l'open AI et des milliers de data sets.
+[02:59] Et de modèles sont partagés sur le hub.
+[03:02] Alors, ça, c'était pour deux points,
+[03:04] franchement, inventaires de l'eurobo.
+[03:06] Oui, là, c'est un peu facile.
+[03:07] Toutes personnes qui se respectent à trouver.
+[03:09] Voilà, c'est ça. Si vous n'avez pas trouvé, tapé,
+[03:12] regardez à la French, regardez la French.
+[03:13] Allez, dernier pour un point. Allez, là, vous l'aurait.
+[03:16] En 2025, après avoir organisé le plus gros à 4 ans
+[03:18] sur la robotique au monde, sur 44 pays en même temps,
+[03:22] je quitte Egging Face pour passer de l'open source
+[03:24] à l'industrialisation des robots.
+[03:26] Je confond d'appareils humains
+[03:28] pour Universal Mechanical Assistant,
+[03:30] dont je deviens le CEO avec l'ambition de développer
+[03:33] des robots mobiles humanoïdes généralistes
+[03:36] capables d'apprendre nouvelle tâche
+[03:37] et doter de d'exterité proche de celles de l'humain.
+[03:40] En 2026, ma société huma des voiles
+[03:42] sont premiers prototypes fonctionnels
+[03:44] et prépare des pilotes pour le monde à l'industrie.
+[03:46] Alors, après autopilote,
+[03:48] j'étais cela, après Optimus, j'étais cela,
+[03:51] après l'eurobo chez Egging Face.
+[03:52] Et maintenant, huma, je suis, je suis, je suis...
+[03:56] Oh, Remy, c'est comme ça.
+[04:05] Salut, Remy, comment ça va ?
+[04:06] Bah, super. Merci.
+[04:07] On est un peu chez toi, quand même, hein ?
+[04:09] Bah oui, je vais juste à côté j'habite.
+[04:12] C'est pas loin.
+[04:13] C'est pas le résumé de te dire, on peut le dire.
+[04:16] J'habite pas très loin, mais surtout, je travaille juste à côté.
+[04:19] Ah, il habite juste à côté.
+[04:21] Et il dort quelque part.
+[04:24] Ça a fait ça bien entrepreneur,
+[04:26] le travail, les ondes, le travail, la limite, quoi.
+[04:30] Voilà, oui, la limite, ouais, non,
+[04:32] merci de venir, parce que ça fait longtemps
+[04:34] qu'on s'est un sujet que les gens voulaient adresser
+[04:36] et t'es un peu le tolier du sujet.
+[04:40] Tellement le tolier que, en fait, le robot,
+[04:42] moi, je pensais que c'était un collectif,
+[04:43] mais en fait, c'est même toi au début de le robot.
+[04:45] Bah ouais, j'ai commencé même avant de rejoindre
+[04:48] une face.
+[04:49] J'avais déjà les premiers comites
+[04:52] qui vont d'être de ma chambre.
+[04:54] Le GitHub, le robot, ça a été créé avant une face.
+[04:58] Et le robot, pourquoi le robot ?
+[05:02] Le robot, parce que c'est en référence à le net,
+[05:06] qui est un des premiers réseaux de convolution
+[05:08] créés par notre parent à tous, bien de le quim.
+[05:12] OK, c'est en référence.
+[05:13] Ben de référence, quoi.
+[05:15] Donc t'arrives chez GingFest avec le robot,
+[05:16] tu arrives avec ?
+[05:18] Effectivement, je piche l'idée que ça pourrait être
+[05:21] une addition géniale chez GingFest
+[05:25] pour démocratiser l'IA pour la robotique.
+[05:29] Et...
+[05:30] C'est top. Donc GingFest, allez, 100 millions.
+[05:33] Tu fais le robot, il va le faire 100 milliards, ça peut ça.
+[05:35] C'est pas vrai, mais c'est d'art pour réaliser scientifique.
+[05:38] Non, ça va pas le faire.
+[05:40] Non, mais c'est trop cool.
+[05:42] Et donc là, aujourd'hui, t'es le CEO de Humá.
+[05:44] Alors, on dit Humá ou Humá ?
+[05:46] Quand t'es français, tu dis Humá.
+[05:48] Ouais.
+[05:49] En référence, tu vas humanoïde, humain, humaniste.
+[05:55] Quand t'es anglophone, tu dis Humá.
+[05:58] Et quand t'es américain, tu dis Irine Veste.
+[06:00] Exactement.
+[06:02] Ça a l'idée.
+[06:03] Toi, tu t'amuses un peu.
+[06:05] Toi, t'as des robots à la maison, t'as des petits...
+[06:07] Ouais, bien évidemment.
+[06:09] Et tant...
+[06:10] Moi, mon robot, moi dire, allez, tous les ans, j'ai ma petite page B avec des replicas
+[06:17] de Johnny Five.
+[06:18] Tu vois, pour ceux qu'on connait, enfin, short circuit, le film, et puis Johnny
+[06:23] I am Johnny Five le deuxième.
+[06:27] Et oui, moi, j'ai un côté un peu magique au magique, dans le fait de voir
+[06:35] que tu vois, la physique, le robot s'enimait, moi, c'est quelque chose qui parle...
+[06:41] Mais comme beaucoup de sujets dans ce domaine, à l'adow, en moi, ou à l'enfant, en même en moi.
+[06:46] Donc, j'ai pas...
+[06:47] J'ai un très peu bricolé, quand j'ai des plus jeunes, j'ai fait pas mal de trucs,
+[06:50] mais ça fait peut-être plus de 10 ans que j'ai pas prototipé.
+[06:54] Mais j'avais toujours ce petit côté, genre, je trouvais ça un peu, comment ça me faisait
+[07:01] de m'arrêter de faire des robots, mais tu vois, faire la servissement, faire en train
+[07:07] bras articulé, un truc, un peu, tu vois, qu'il y a des mouvements un peu humains,
+[07:12] il y avait un deltag, j'arrivais pas à résoudre.
+[07:14] C'est pour ça que j'ai pas trop poussé, il y avait maintenant...
+[07:16] Et toi, J.B, en termes de robots, t'en es où ?
+[07:18] Mais moi, c'est un petit peu pareil, en fait, tu vois, Johnny Five, Gold, Lorac, etc.
+[07:21] Mais pour moi, le vrai truc important sur les robots, pour moi, c'est évangélion.
+[07:29] C'est beaucoup plus tard, parce que je m'en souviens, j'avais des petits robots en plastique,
+[07:33] etc., j'ai toujours aimé ça, mais pour moi, c'est évangélion et puis Asimov, vraiment
+[07:40] le signe des robots, moi, donc c'est vraiment, vraiment, tu vois, entre plutôt collèges et débublissés,
+[07:46] vraiment gros fantasmes sur les robots par la culture, c'est magnifique, et Asimov est évangélion,
+[07:55] même si c'est pas vraiment des robots fous, puisque justement, il y a des humains au milieu,
+[07:59] mais oui, vraiment, ça m'a vraiment marqué, et j'ai vraiment toujours adoré ça.
+[08:02] Ghost in the Shell, ou Evangelion ?
+[08:04] Ah, oui, non, Evangelion, je dois avouer, il y a le côté musical, l'ambiance qui est,
+[08:10] puis ça devait être mon premier, je pense, ça a été mon premier, grosse claque.
+[08:15] Alors, je regardais un peu de mon gars à l'époque, mais...
+[08:17] Il y a beaucoup d'épisodes d'introspection quand même, et je l'ai dit, non, la fin,
+[08:21] il ne faut pas parler de la fainte, il ne faut pas parler de la fin, non ?
+[08:24] Maintenant, je sais pas, il y a un truc, vraiment, généralement trop qu'il fait quoi.
+[08:27] Une des actualités dont on parlait dans un épisode, il y a quelques semaines,
+[08:30] c'était un peu les Jeux Olympiques des Robots, les World World, no, Robotics, Humanoid,
+[08:35] Olympic Games, etc.
+[08:36] T'as regardé un petit peu ?
+[08:38] Bah oui, c'était super.
+[08:40] Ah ouais, même toi de la Robotique, t'as trouvé ça cool ?
+[08:42] Ouais, bien surtout, tu peux voir le Delta entre l'année dernière et cette année.
+[08:48] Parce qu'il y avait déjà le nédernier ?
+[08:50] Ouais, ouais, d'accord, ça a commencé quand, attends, ça a commencé quand ?
+[08:53] Ouais, à l'année dernière.
+[08:54] Ah d'accord, ok.
+[08:55] Il y avait déjà quand même le soccer, enfin le football, avec des petits humanoids qui
+[09:03] avaient lieu, si je le m'abuse, à la conférence humanoid tous les ans.
+[09:09] D'accord.
+[09:10] Et du coup, ça, cette ligue, en fait, a évolué en les Olympic Games humanoid.
+[09:16] Mais en fait, c'était la plupart des équipes étaient chinoises.
+[09:22] Mais ils avaient le droit de concourir si ils étaient pas chinoires ?
+[09:25] J'avais le droit, mais ils en avaient très peu, et c'est pas encore quelque chose d'extrèmement
+[09:33] international, on va dire, mais en tout cas, c'est diffusé de plus en plus, et ça dynamise
+[09:41] aussi, ça rend cette nouvelle technologie et ses évolutions accessibles aux grands
+[09:47] publics, donc c'est assez génial.
+[09:49] Et d'ailleurs, juste un chiffre, je crois, le 100 mètre, l'année dernière, il faisait en
+[09:53] 21 secondes, là il venait en 8, 64, ça ne peut pas te montrer l'évolution, quoi.
+[09:57] Ouais, après, je trouve ça, moi, je reçouais dans l'histoire, c'était quand même...
+[10:04] C'est un peu de la question du sport, pourquoi on regarde le sport ? Est-ce que tu regarderais
+[10:08] Carl Lewis contre une voiture ? Non, je trouvais chouette dans l'histoire, c'est qu'ils
+[10:14] auront lu ça hyper ludique, c'était marrant à regarder, et donc c'était que, parce que c'est
+[10:18] un peu ça, finalement, c'est la mise en scène, et ça, je trouvais ça, je trouvais ça
+[10:21] vraiment cool cette année.
+[10:23] T'avais des petits robots qui rentrent en compétition avec des énormes robots, puis c'est
+[10:28] qu'elle s'agulait toujours, enfin, et d'ailleurs, il se casse, enfin, il y avait des état-celles,
+[10:33] ça cramait quoi ?
+[10:34] Non, non, non, ça cramait.
+[10:35] C'est ça qu'on veut voir, en fait.
+[10:36] Et puis, côté sécurité, moi, je trouve ça fou, parce que tu vois, c'est robots qui
+[10:40] foncent dans des sortes de sacs pour les arrêter, mais en fait, ils ne sont pas prévus pour
+[10:45] ça arrêter.
+[10:46] En fait, tu vois, l'année dernière, les robots n'arrivaient pas à voir, ils n'étaient pas
+[10:51] connectés vraiment aux caméras, donc ils étaient les commandés, ça c'était l'année
+[10:57] dernière, cette année, ils arrivaient un peu plus à suivre les lignes, donc tu avais des épreuves
+[11:02] un peu plus autonome, déjà, tu vois, la différence est impressionnante, mais quand même
+[11:08] pas, s'arrêter, ils foncent sur le truc.
+[11:11] En fait, ils avaient les catégories, parce que, oui, parce que c'est vrai, quand je
+[11:14] pense qu'il y a un peu mécanique, quoi, donc en fait, autonome ou pas, on s'en fout,
+[11:19] il faut que c'est la...
+[11:20] Je me jine la prouesse mécanique, et puis il y a un parti, bien sûr, autonome, ça arrêtait,
+[11:25] c'est pour les faibles.
+[11:26] Non, mais du coup, tu vois, il y a différentes, c'est intéressant, tu vois, les dimensions
+[11:30] entre les performances en humanoïde qui courent et les performances du réseau de neurone
+[11:35] qui ne le...
+[11:36] Je ne sais pas, de l'asservissement, quoi, et ça arrêtait, c'est...
+[11:41] C'est la blague de Ferrari contre l'amborghini, c'est quand l'amborghini Ferrari crée
+[11:46] les voitures Ferrari, et l'amborghini arrive sur le marché, il faisait des tracteurs
+[11:51] l'amborghini avant, et donc il arrive sur le marché des voitures de luxe, et il vend l'aérodynamisme,
+[11:55] et il dit nous, nos voitures sont plus aérodynamiques, et Ferrari aurait dit à l'amborghini,
+[11:59] il a dit l'aérodynamisme, c'est la technologie de ceux qui ne savent pas faire des moteurs
+[12:03] puissants.
+[12:04] Parce que genre, si tu fais un moteur puissant, tu t'en fous de l'aérodynamisme.
+[12:07] Pour moi, ça a arrêté, c'est pareil, tu vois, ça a arrêté, c'est pour celui qu'à
+[12:10] du temps, à faire en sorte que le robot s'arrête, c'est sûr, le premier, tu vois.
+[12:14] Et il y a des choses qui sont étonnées, impressionnées, on était au niveau de l'étale-là.
+[12:20] Oui, on était au niveau de l'étale-là sur pas mal de disciplines, donc clairement
+[12:28] la course, ce sont des robots qui sont assez spécialisés, qui sont assez léger,
+[12:32] des gens bassés fines, avec une sorte de ressort, des moteurs assez spécialisés.
+[12:37] Ces mêmes robots ne seraient pas capables de faire de la manipulation, d'objets, d'assembler
+[12:42] ton frigo, du coup...
+[12:44] Ça reste un robot, quoi.
+[12:46] Oui, il fait une tâche.
+[12:47] Oui, exactement.
+[12:48] On n'est pas encore dans des robots qui sont extrêmement généralistes, mais déjà on pouvait
+[12:55] le voir dans d'autres disciplines, donc il y avait une discipline qui était concentrée
+[13:00] sur la manipulation, où là, tu avais des combinaisons d'ancienne technique avec les
+[13:06] dernières techniques d'IA, et tu pouvais créer un benchmark, tu pouvais comparer quand même
+[13:13] les méthodes actuelles, et je pense que l'année prochaine on verra des poisses encore
+[13:19] plus importantes.
+[13:20] J'ai fait des pieds d'avance, quoi.
+[13:21] Je suis allé à le théâge jurique où ils ont un labo de robotique, et les papiers
+[13:25] de recherche qui revient, ils ont un club de robotique des étudiants, tu vois moi, quand
+[13:28] j'étais un club des étudiants à central, c'était un truc de blague, tu vois, on t'apprenait
+[13:33] à configurer un routeur.
+[13:34] Là, ils lisent des papiers de recherche sur comment tu fais de l'entraînement, comment tu fais
+[13:38] des modèles qui ne font pas juste une action, etc.
+[13:39] Moi, à chaque fois, je suis bluffée, à chaque fois que je lis un papier, etc.
+[13:43] Ça avance très vite.
+[13:44] Et on n'en parle pas, c'est pas d'aller l'aime, mais franchement, c'est dingue.
+[13:47] Donc, Optimus, le robot, et maintenant, humain, humain, vous vous positionnez où c'est
+[13:52] quoi, à ta thèse avec humain ?
+[13:53] Humain, c'est un labo de diaphragme financière pour la robotique, et on développe aussi des
+[14:03] capacités cutting edge, des capacités à la frontière, de ce qui est possible en mécanique
+[14:10] et mécatronique.
+[14:11] Donc, en fait, on combine ces deux, et ça nous permet de viser les déploiements de
+[14:18] robots les plus rapides, et en plus, les plus safe, vu qu'on est à la frontière de
+[14:24] l'IA, de notre catégorie.
+[14:26] C'est ça, notre focus.
+[14:28] Donc, des robots humanoid pour faire des tâches à destination, j'imagine beaucoup de marchés,
+[14:32] mais principalement, d'être l'industrie ?
+[14:35] Mais on commence par l'industrie, où les tâches sont relativement bien cadrées, notamment
+[14:43] logistiques, où il y a un besoin d'automatiser des tâches assez répétitives, mais où t'as besoin
+[14:49] d'extertérité, t'as besoin de t'adapter d'intelligence.
+[14:53] Donc, logistiques en premier, puis ensuite, tu as l'assemblage, donc tout ce qui
+[14:59] a l'industrie, alors ça peut être possible l'assemblage de cluster, ça peut être de la
+[15:06] réparation, du maintien, de cluster, et puis tu peux avoir une généradisation qui te permet
+[15:15] de faire tout un tâche qui demande à l'extertérité, et puis à terme, on pourra, je pense,
+[15:22] vivre ce moment où on aura des robots chez nous.
+[15:25] D'accord, donc le personnel, comme elle dit, personne à le robot, personne à le...
+[15:28] Pour faire la cuisine !
+[15:30] Mais même pas en tout !
+[15:33] Mais d'ailleurs, j'ai vu plusieurs tweets assez immagiles, la vaisselle et le vide est
+[15:40] rangée, sans casser les assiettes et sans les ébrêcher.
+[15:43] Et t'as un tiers de raison, et j'ai bien aimé, il y avait plusieurs personnes qui croient
+[15:48] que les robots y endront, donc justement pour les emancipation de l'être humain, mais
+[15:51] il disait que j'en ai marre que les robots face de l'entraînement sur les écrits
+[15:54] des poèmes, face des images, des tableaux, des vidéos.
+[15:57] Moi, je veux des robots qui est rangée la vaisselle, qui est rangée la vaisselle,
+[16:00] parce qu'ils font les éleines, ils faisaient que les trucs cool, quoi.
+[16:05] Et surtout, faire ta laissive, sortir les trucs de la laissive pour le mettre dans la séchant,
+[16:10] tu vois, vraiment la tâche la plus débile qu'il soit, toujours chiant à pas envie de faire
+[16:14] ça, toutes les tâches minagères, mais on reloue, on parle de l'aspirateur, mais c'est
+[16:19] pas le truc le plus chant que tu fais chez soi.
+[16:21] Moi, l'aspirateur, c'est réglé.
+[16:23] Toi, en plus, c'est être déjà réglé, mais c'est tous les petits autres trucs qui sont
+[16:26] renouges.
+[16:27] Par exemple, après, il est truc sur lequel aujourd'hui, c'est déjà bien, tu vois, parce
+[16:30] que là, on parle de pros et tout, mais écrire un plugin VLC, quoi.
+[16:33] C'est quand il y a des gens, ils essaient de modifier ZML pour le porter de notre architecture,
+[16:38] on va pas le faire là-moi, quand même.
+[16:40] Bah non, quand même, on va pas le faire, bonjour, cher, robot, ce que les gens ne voient
+[16:45] pas, c'est que cet appel à la saison à la freine, j'y a plus personne en face, c'est
+[16:49] que des robots.
+[16:50] Une question qu'on se pose souvent pour démarrer, parce qu'on est, franchement, hyper
+[16:53] fier d'avoir un ponte de la robotique avec nous, c'est l'état de là, aujourd'hui,
+[16:58] qu'est-ce que les robots savent très bien faire et qu'est-ce que les humains savent encore
+[17:03] faire facilement que les robots ont du mal à faire, d'accord ? Qu'est-ce qu'ils font
+[17:06] très bien les robots ?
+[17:07] Là, on parle de robots industriels, donc des grands bras, qu'on des capacités clairement
+[17:13] surhumaines, qui peuvent porter des charges très lourdes, être très précis, très rapides
+[17:18] et donc qui sont déployés dans des processus industriels.
+[17:22] Le truc, c'est que ces robots ne sont pas adaptables, on doit les programmer, tu vois,
+[17:28] de définir des points dans l'espace que le robot va attendre avec une vitesse précise
+[17:35] qu'on a programmé sur un ordinateur, sur un contrôleur, et puis, si le bidule n'est pas
+[17:41] aligné de 5 mm, le robot est sans fiche.
+[17:44] C'est arte-coder, quoi, c'est vrai ?
+[17:46] Et donc, il va répéter le mouvement et c'est très arte-coder, et donc si le bidule
+[17:51] est décalé de 5 mm, il va y avoir une erreur, donc on va devoir arrêter la chaine
+[17:55] de montage, etc.
+[17:56] Là, on arrive dans un nouveau type de robot, où en fait, c'était une compréhension assez
+[18:02] fine du réel, de la physique, et donc le robot va pouvoir s'adapter à tout un tas d'imprévues,
+[18:09] la raison pour laquelle la plupart des tâches, même dans l'industrie, dans la logistique,
+[18:13] n'ont pas encore automatisé, c'est que tu vas 0,1% du temps, t'as quelque chose d'entrevue,
+[18:20] qui aurait pu prédire, qui est extrêmement dur à programmer, et du coup, c'est pour
+[18:26] ça que t'as besoin de nouvelles techniques d'un tige en artificielle, qui ont une compréhension
+[18:31] de la physique et qui permettent de s'adapter à tout un tas d'événements à prévues.
+[18:35] Et donc aujourd'hui, par contre, où est ce que les robots, vraiment, galèrent aujourd'hui ?
+[18:39] Qu'ils sont les vérotechnologiques, c'est quoi ? C'est la préension, c'est la physique,
+[18:43] c'est porté des charges, et là, c'est le robot humanoid, hein ?
+[18:48] Alors, ah, les robots humanoïdes, c'est, non, on n'a plus développé des systèmes très
+[18:56] autonomes pour se mouvoir dans l'espace, marcher, courir, ça, maintenant on s'effère,
+[19:02] même en utilisant des caméras, on arrive à avoir des comportements super intelligents,
+[19:09] mais c'est pour la manipulation d'objets, non, on est à la French, donc je peux donner
+[19:14] cet exemple, mais rouler une clop, je pense que, enfin, ça, impossible, impossible de le faire
+[19:22] avec la robotique d'aujourd'hui. Et rompre une baguette en deux, là, comme ça ?
+[19:26] Faire un son oui, tu vois ? Faire un son oui, tu vois ? Faire un son oui, tu sais, mais
+[19:29] pas avec un couteau, toi, je trouve comme ça à la main, parce que comme ça, t'as un peu
+[19:32] l'ami, là, que le truc agréable. Mais en mon beurre, il s'arrête ça ?
+[19:35] C'est pas faire. Exactement. Et puis tu sais, tu as aussi se laver les mains. C'est
+[19:40] vrai que tu n'as pas envie d'avoir un robot qui est à la main, qui tu vois, qui va
+[19:44] l'avait des toilettes et qui ensuite te fait la tombe sandwich.
+[19:47] Non, on va voir qu'il y a temps là. Tu as dans la cinétique, tu sais, clique, clique.
+[19:51] Donc, bien, tu vois, il faut vraiment ce genre de truc, c'est, et du coup, et donc il
+[19:56] faut avoir des interfaces où il se laver les mains, où il va t'à plein de choses à penser
+[20:02] comme ça. Et ça, on n'a pas encore atteint ce niveau de l'extérieur.
+[20:06] Il prend la monnaie, qui prend la monnaie, enfin, tu vois, non, mais bon, ouais, oui, non,
+[20:10] la monnaie, mais il s'existe plus, tu sais. Ah, bah si, c'est du Bitcoin, c'est
+[20:14] Bitcoin, c'est le renumérique, c'est le héros. Et les Bitcoins vont être imprimés sur
+[20:18] du papier, on aura des billets Bitcoins. On s'est longues histoires. On donnera un robot
+[20:23] qui ira dans un scanner qui t'a pras sur le clavier. Ce sera du stockage froid partout, ça
+[20:27] sera trop cher les data center. Mais pour toi, aujourd'hui, est-ce qu'il y a un moment
+[20:34] un peu, un moment de tournant, parce que les robots humanoid, c'est pas de la science
+[20:39] fiction, il y en a toujours eu, il y en a, mais là, on a l'impression que ça y est, on
+[20:42] y arrive enfin, quoi. A tout à fait, moi, je pense que, durant les trois
+[20:47] dernières années, il y a eu une accélération absolument folle, il va falloir la voiture
+[20:52] autonome. Aujourd'hui, c'est une réalité. C'est vraiment, tu peux rentrer dans des
+[20:59] voitures qu'on ne pas de volant et te faire conduire. Alors, c'est pas encore généralisé.
+[21:03] Parce que tu as démarré le truc, heureusement que c'est toi, si c'est un autre, ça n'a pas
+[21:06] marché. Oui, et puis, tous les ans, ça devient encore plus safe, encore plus sécurisé.
+[21:13] Et ça sauve déjà des vies, ce genre de choses, là, tu vois, quand tu rentres...
+[21:17] Est-ce que tu gères dedans ou dehors dans la voiture, enfin, tu vois, c'est des questions.
+[21:27] Tu vois, la plupart des accidents de la route, c'est de l'inotention, c'est des gens
+[21:33] qui sont fatigués, des gens qui sont bourrés. C'est ça, la plupart des accidents
+[21:39] de conduite. Bref, cette même technologie, maintenant, arrive dans la robotique humanoid.
+[21:45] Et je pense que tous les gens qui suivent ce champ, là, de recherche, sont absolument
+[21:52] impressionnés par les capacités. C'est très embêté, parce que, en fait, à force
+[22:00] de voir les clients de Kairiber, en fait, j'ai de tout à tout. C'est des ans qui me disent,
+[22:05] en fait, les humanoides, tu vas voir, il y a plein de boîtes qui se lancent maintenant,
+[22:08] elles vont tous se péter la gueule, parce qu'en fait, il y a tellement de sujets non réglés
+[22:14] et donc qu'ils font des 2 000 robots ou juste des mains, etc. Et qu'ils disent, ben,
+[22:19] non, mais en fait, ça va être très, très long, parce qu'en fait, on va faire des modèles
+[22:21] pour chacune de tâches, quoi. Et ces gens qui sont dans la robotique depuis 15 ans, 20
+[22:26] ans qui disent ça. Et de l'autre côté, t'as des gens qui disent, voilà, à mon robot,
+[22:29] notamment, je suis allé voir une licorne chinoise qui fait des robots, c'était... Alors, tu
+[22:35] les écoutes, en fait, tu regardes leur showroom, c'est un truc de psychopat, il y a une dizaine
+[22:38] de robots qui font du Kung Fu, soi-disant, c'est pas enregistré, j'y crois pas. Mais,
+[22:43] et ils te disent maintenant, nous, on a maintenant, c'est bon, on a des VL, là, qui sont capables
+[22:47] de faire 25 types d'actions, etc. Donc, c'est moi qui t'y, alors que toi, un des sièges
+[22:54] de cableurs, c'est de permettre à ces boîtes de bosser pour faire d'être élémétrie, de
+[22:59] l'observabilité, ou même de l'enregistrement pour entraîner des modèles, je suis très, très
+[23:02] envêté parce que, en fait, quand tu parles à des gens qui, ils ont l'air tous sur le papier
+[23:06] hyperbon, et tu vois plein de choses différentes et niveau différentes. Donc, c'est
+[23:10] moi, c'est ça qui me pose problème, est-ce que il y a des gens qui sont trop optimistes,
+[23:13] est-ce que j'ai un qui sont trop pessimistes ? Est-ce qu'en fait, c'est juste qu'il y a un
+[23:15] certain nombre de taches qui sont très bien maîtrisés, mais qu'en fait, il y a besoin de faire
+[23:19] une centaine de taches, et une fois qu'on aura fait les modèles pour ces centaines de taches,
+[23:21] on aura un maxi modèle qui sera un maxi mixture of experts of tasks, je sais pas. Les bons
+[23:27] sont optimistes, t'es les pas bons, on sont pessimistes, c'est bon. Alors, mais dis-toi qu'ils
+[23:31] sont optimistes, tu vois, je suis optimiste. J'ai un exemple qui est la tout récents, c'est
+[23:37] qu'on a une équipe go-to-market avec des gens qui sont des experts du déploiement de robots,
+[23:44] qui ont fait ça durant les cinq dernières années dans les meilleurs endroits. Et surtout,
+[23:49] ils l'ont fait avec la technologie précédente de la nôtre et donc nous on développe une sorte
+[23:55] de produits à leur destination pour que eux puissent prendre nos techniques d'y-a et venir
+[24:04] automatiser les taches de nos clients. Et donc là, en une demi-heure, en une demi-heure de données,
+[24:12] on les a pas aidés, ils l'ont fait eux-mêmes, en une demi-heure ils ont réussi à automatiser
+[24:18] la tâche du client, la tâche précise qui était la tâche clé. Donc en fait, ils étaient
+[24:26] totalement impressionnés. Donc ça, il faut imaginer que si c'est une demi-heure aujourd'hui dans un
+[24:31] an, ça va être 10 minutes, même moins, tu vois. Et au bout d'un moment ça va être genre trois
+[24:37] secondes, tu dis au robot, vas-y, automatise-moi ça, il le fait. C'est comme dans Dragon Ball Z,
+[24:43] quoi. Il regarde la technique, il est capable de leur produire et il leur fait quoi. Exactement.
+[24:46] Comment t'as réussi à placer Dragon Ball Z, tu sais, je peux pas faire face à toi.
+[24:50] C'est une manière de vivre pour me dire. En fait, après, il fait croire qu'il a vu Dragon Ball Z,
+[24:53] alors qu'on sait qu'il n'a jamais regardé, il a regardé que des résumés sur ce du pété.
+[24:57] J'ai généré des épisodes. J'ai généré des épisodes de Dragon Ball Z.
+[25:02] Mais parce que là, c'est la question de Gb, mais il y a aussi, à ton avis, là aujourd'hui,
+[25:07] ce qu'on part sur des robots généralistes, humanoid généralistes qui s'adaptent à toutes les taches,
+[25:11] où est-ce qu'on reste sur l'idée du robot spécialisé, là, tu disais, les robots humanoid
+[25:17] qui font la course, ils sont bons qu'à faire la course, quoi. Même sur les robots humanoid,
+[25:21] est-ce qu'on va vers du généraliste ou du spécialisé ?
+[25:23] Je pense qu'on est encore dans une étape de prototype. Il y a plein d'entreprises qui essayent
+[25:33] tout un tas de choses, de cibler aussi des industries. Il faut bien commencer quelque part,
+[25:38] tu vas nous commencer par la logistique, mais je pense, dans quelques années, on aura convergé
+[25:43] vers une forme qui est la plus généraliste possible. Et tout l'intérêt, c'est de pouvoir, en fait,
+[25:49] s'insérer dans des environnements ou t'as des personnes, de pouvoir venir effectuer des taches
+[25:58] qui jusqu'à présent ne peuvent pas être faits par des robots, des taches de déxterité, donc d'apprendre
+[26:05] aussi des personnes. C'est pour ça qu'il faut des robots qui soient assez humanoïdes pour que l'interface
+[26:12] soit la plus proche, et puis aussi si t'as amené à contrôler des flottes de robots, en fait, tu dois
+[26:20] tu vas comprendre, en fait, les intentions. Tu vas si t'as une interface, c'est un robot qui est
+[26:28] très humanoïde, que tu vas plus facilement comprendre les intentions, que si t'as un robot qui
+[26:34] ressemble un peu à une soûtrelle genre, tu vas t'en avoir sur Amazon, enfin, un de Amazon qui a
+[26:41] les jambes, les genoux inversées, donc ça ressemble un peu à des soûtrelles. C'est
+[26:47] robot, ça s'appelle Digit, si c'est tourne, et que t'as vu qu'il a des jambes différentes,
+[26:54] en fait, tu peux taper dans les murs ou te blesser, si tu t'es pas rendu compte, qu'il était
+[27:00] différente de t'emmologer, donc t'as toute cette complexité. Est-ce que t'es en train de dire
+[27:06] qu'avec des robots humanoïdes, on n'a pas besoin d'adapter la société, la société, la société,
+[27:11] tout au bout ? Exactement. Ça fait un point très important, les gens oublient, c'est qu'une des
+[27:18] raisons de l'humanoïdes, c'est qu'en fait, on a quand même une... Regarde autour de toi, combien il y a de
+[27:24] rectangle ? Vas-y, regarde autour de toi, les humains, on adore les rectangles. Maintenant, tu vas dans
+[27:31] la nature, t'as combien de rectangle ? Que d'al, et ça ? En fait, tu vas te rendre compte que tous notre
+[27:38] environnement physique, en fait, on l'a plus que chéripé, quoi, il est adapté, mais que à nous,
+[27:45] merde, je ne vois plus que les rectangles. Et bien, regarde, c'est ouf, une fois que je l'ai dit,
+[27:48] tu pètes les plombes. Et donc en fait, un humain annoying, même si c'est, par exemple, un
+[27:55] humanoid de taille humaine en fond, quoi, ou à 80 cm, 90 cm, un mètre, jusqu'à 2 m, en fait,
+[28:02] il passe bien, il va être capable de prendre le bus, parce que tu veux dire, en fait, on a toujours,
+[28:07] on a tout notre environnement et tout ce à quel tu ne penses pas de la vie quotidienne a été prêt.
+[28:11] Pareil, tu vois, la cuisine. Regarde, tu prends un robot et tu vas faire la cuisine.
+[28:16] Bah, putain, la poêle. Regarde, regarde, ce que tu vas faire avec la poêle, puis après, il faut
+[28:21] prendre une bouilloir et puis, par toi, il y a plein de petites tâches. En fait, il n'y a pas de main
+[28:25] qu'il y a avec des pouces, des pouces opposables, avec une certaine d'exterrité, etc., tu peux pas les faire,
+[28:30] donc à venir changer tout l'environnement. Donc c'est ça, en fait, pourquoi les humains noides, c'est pas
+[28:36] juste le fantasme. Évidemment, c'est un fantasme des années 30, 40, 50, science fiction, mais c'est aussi
+[28:42] qu'il y a une véritable raison physique. C'est que, par exemple, il y a des gens qui font des humains noides,
+[28:47] notamment des Français, un truc très cool sur le bas, c'est une boule. Bah oui, mais en fait,
+[28:50] c'est un le moins d'escalier ou le moins d'autres trucs en pente. Bah, c'est compliqué, c'est
+[28:55] le Star Wars, le turbois avec la boule, il s'en sort. Moi, il s'appelle là. Bébite, bébite, bébite, bébite.
+[29:00] Ouais, bah là, c'est exactement ça. Donc on va faire exactement ce exemple. Tu vas regarder,
+[29:05] tu vas regarder ce film, donc de bébébite, et tu vas regarder combien de fois il triche.
+[29:09] Tu vas voir, c'est ouf, il y a plein de trucs qu'il fait. C'est pas possible, il n'est pas bu, c'est,
+[29:12] ouais, mais si il a fait le tour, parce qu'il y a une rampe, c'est ça, ouais. C'est comme même fait
+[29:15] l'exercice, c'est vrai, parce que tu vas voir. Tu vas voir, il a le registre et il connaît le
+[29:19] nombre directangle d'instant. Le thème, comme exactement. Il y a une réalité aussi économique. C'est que
+[29:24] t'as plein de centres logistiques qui ont des étages qu'on est médaillemes et il y a des marches
+[29:30] pour y aller. Donc en fait, c'est un robot qui a une plateforme mobile avec des roues. Il va
+[29:37] pas grimper les escalés. Voilà, il faut avoir un tel et de porteur. Donc, je préfère avoir
+[29:41] de régler le problème du maidoy, de vous dire, c'est propre avantation. Voilà, c'est sûr que je
+[29:46] choisis à dire. C'est sûr que je suis à dire. Il n'y a plus d'appeler. Du coup, ça pose quand même la
+[29:49] question de la généralisation. Versus la spécialisation, c'est-à-dire je vais prendre l'exact opposé
+[29:56] à un robot qui fait une margarita. Une pizza margarita. Je tiens un robot, après tout. Mais d'aucun
+[30:04] argumentait qu'il n'y a pas besoin d'être humanoïdes. Ah, lui non. Du coup, ce que je veux dire,
+[30:10] c'est que ça existe sur un spectre. Et comme tout spectre, tu as des limites, et peut-être que l'espectre
+[30:16] le plus large, mais peut-être pas forcément le plus efficace et l'humanoid. Oui, mais la bonne
+[30:21] remarque, c'est qu'attention. Humanoïde de forme veut pas dire humanoïde d'action. C'est-à-dire que,
+[30:26] parfois, tu peux choisir de faire un robot humanoïde parce qu'il va mieux s'adapter dans l'espace et
+[30:32] dans l'environnement. Ça veut pas dire qu'il est capable de faire toutes les tâches d'un humain,
+[30:34] peut-être que tu l'entraînées, mais que... On y va même manière qu'un humain. En fait, c'est
+[30:38] juste que c'est un robot qui spécise pour une tâche et il s'est monté les escaliers. Ça m'a fait
+[30:43] le coup avec c'est le robot de... Toi, tu saurais, nous dirais, je crois que c'était
+[30:48] bosson en énem... Celui qui se retourne et ce n'est pas du tout comme il n'a pas de c'est
+[30:53] de coup machin. En fait, il est... Quand il veut faire demi-tour, en fait, il n'a pas besoin
+[31:01] de faire demi-tour, en fait. Non, quand il tombe, il tombe des fois avec dans l'espace. Oui, il se
+[31:05] relève à une vitesse à l'endroit. Mais du coup, je crois que ça reste humanoïde, mais avec des
+[31:12] capacités sur humains, tout le plus ouf, moi qui m'a le dérangé le plus, c'est les articulations
+[31:18] des coups dans le mauvais sens. T'es-à-dire que... Oui, c'est pas... Il est capable, en fait, de...
+[31:23] Mais non, mais là, tu fais... Ah oui, tiens, en fait, c'est un robot, mais...
+[31:28] Enfin, c'est clair que tu peux avoir développé des capacités sur humaines sur ces robots-là,
+[31:36] mais moi, ce qui m'intéresse le plus, c'est toute la notion de safety, de sécurité. C'est que tu peux...
+[31:44] tu peux ajouter des senseurs qui font que... Tu t'assures que ce robot soit le plus sécurisé possible.
+[31:50] Donc, il y a des senseurs, mais est-ce que ça aurait du sens de limiter la rotation à 200 c'est
+[31:55] en idée de gré du coup, pour pas qu'il puisse faire comme un humain, fois que un humain le coup, lui donner
+[31:59] que de sens de... Moi, je pense qu'il y a des humains autour, tu vas s'il est au contact du main,
+[32:06] je pense qu'il faut potentiellement limiter. Après, tu peux... Une fois que tu l'as déployé dans un
+[32:14] environnement, tu vas très industriel, là, pour gagner en productivité, bien sûr, tu peux avoir
+[32:19] plein de capacités sur humaines, il va se retourner immédiatement, etc. Mais rien ne t'empêche de développer
+[32:26] un robot qui a des capacités sur humaines et de les brûler, donc brider un peu pour qu'ils soient
+[32:33] prédictifs pour les personnes qui sont entourées d'humains. C'est hyper intéressant parce que je n'avais
+[32:44] jamais pensé le côté pour les gens autour, en tout cas pour un être humain, prédire, entre guillemets ou
+[32:50] l'action du robot parce que, dans ta tête, t'as une cinétique d'un corps humain et que donc, du coup,
+[32:54] il ne peut pas faire... J'ai pas le bras à l'envers et donc tu passes derrière et tu vois, et tous les
+[33:00] petits trucs comme ça, dans les détails. Il y avait une soirée d'entreprise avec un robot qui
+[33:04] dansait, enfin, qui faisait des sports de combat, est un mec un peu ivre, qui l'attrape par derrière
+[33:08] en mode j'lute et puis le robot, avec les genoux, il n'a pas les... Ah, il l'a trappé avec les genoux
+[33:14] derrière comme ça, peut-être pas du tout, parce que lui, il peut mettre les rèves, il l'a lâché
+[33:19] direct. Il faut qu'on fasse un mémorandum sur une pose, sur la tape. Il pose liée pour les
+[33:26] mecs bourrés en soirée, qui... Enfin... Une de vos forces avec humain, c'est tout ce qui est l'apprentissage
+[33:33] en tout cas une de tes tests, c'est l'apprentissage des robots. Tu disais, il y a, soit les robots, ils sont
+[33:36] très hard-codés, ils ont une tâche et tout. Là, tu disais, souvent, les entraînes pour une tâche,
+[33:41] plus une autre genre, marcher, plus faire quelque chose. On va vers où sur l'entraînement, c'est
+[33:45] qu'on va apprendre... On va avoir un million de modèles de robots qui vont faire détaches et à
+[33:49] la fin, on va faire l'intégral et ça sera un robot complet. Ou est-ce que non, on va aller dans le
+[33:53] sort de super élélème globale, un modèle de physique complet des robots. C'est quoi pour toi, les
+[33:59] tests ? Je pense que ça va... Il y aura plusieurs étapes, mais celle sur laquelle on se concentre
+[34:07] là aujourd'hui, c'est d'arriver à avoir un seul modèle de robot qui soit le plus généraliste
+[34:13] possible, donc idéalement en humanoïdes avec des jambes qui soient célégées, qui a des capacités
+[34:18] de d'extériter, etc. Et ensuite d'avoir une ira qui est fondation et afin de permettre d'avoir
+[34:30] une interface la plus naturelle avec ce robot. Parce qu'il y a fait la adoption d'élélème, c'est le
+[34:39] fait que tu peux leur parler en langage naturelle. Du coup, mes parents ont adopté très rapidement,
+[34:46] et enfin toute la société, une grande partie de la société, c'était la adopter. Là, avec ces robots,
+[34:53] le langageux, c'est que tu puisses leur parler très facilement pour automatiser les tâches que tu veux,
+[34:58] donc tout le monde veut s'approprier cette technologie et de l'utiliser. Donc c'est plus du langage naturelle,
+[35:06] c'est de la physique naturelle. En fait, tu peux même lui parler à terme, c'est ça qu'on,
+[35:11] c'est cette interface qu'on veut développer, c'est tu le regardes, tu lui dis voilà robot, j'aimerais
+[35:19] bien que tu automatises cette tâche, je vais te montrer comment on fait, c'est un truc qu'il n'a jamais
+[35:24] vu, que le robot n'a jamais vu, tu l'as fait une ou deux fois, et ensuite tu lui dis, mon bavola réessaye,
+[35:29] et après, s'il sera un petit peu tu le corrige avec la voix, et tu vois le robot t'entends, il dit,
+[35:35] oui, t'as raison, c'est mieux que je le fasse comme ça, et puis au bout d'un moment, il le fait mieux que toi.
+[35:39] Donc ça veut dire que tu as de l'apprentissage en live, exactement. Ça veut dire que ton entraînement,
+[35:45] tu ne le fais pas avant comment elle est l'aime, en pré-entraînement, c'est-à-dire que là, tu
+[35:49] fais, tu apprends à tes robots à faire de l'apprentissage quasiment. Il n'y a plus d'apprentissage dans
+[35:54] ce qui marche. Il faut t'aider du gestes, t'es l'entit, excusez le brumil.
+[36:07] Mais ça, on essaie de pousser ça au maximum pour pouvoir apprendre le plus de skill, tu vois le plus
+[36:16] de talent, le plus rapide impossible de augmenter notre base de données, et d'entraîner la prochaine
+[36:22] génération de notre hi-alg, de notre modèle fondation.
+[36:26] Donc on appelle ça le Wheel-Time Learning,
+[36:29] donc l'apprentissage en temps réel,
+[36:30] qui regroupent tout un tas de techniques,
+[36:32] mais effectivement le contexte learning,
+[36:35] le contexte learning, c'est une sorte d'apprentissage.
+[36:38] Oui, c'est...
+[36:40] Enfin, au lieu de le guider, quoi, un peu...
+[36:43] Ta même une preuve mathématique
+[36:47] qui compare le contexte learning
+[36:51] à une mise à jour à la back-prop,
+[36:54] donc il y a la mise à jour de tes paramètres.
+[36:58] D'accord, à l'intérieur d'autant au réseau de neuron.
+[37:01] T'as un parallèle qui peut être fait.
+[37:03] D'accord.
+[37:04] Donc en fait, c'est une sorte d'apprentissage.
+[37:06] Le contexte en train de la rétro préparation de gradation.
+[37:09] C'est une équivalence mathématique.
+[37:14] D'accord.
+[37:15] Donc ça marche ?
+[37:17] Oui, alors après, tu vas...
+[37:19] C'est l'eau, c'est un plan de vue contextuel.
+[37:22] Si tu veux d'un plan de vue contextuel,
+[37:24] le contexte learning, c'est une sorte d'apprentissage.
+[37:26] D'accord.
+[37:27] Et, bon après...
+[37:28] C'est comme l'expérience, quoi.
+[37:30] Est-ce que c'est la phrase d'esoler un jeu ?
+[37:32] C'est le saison 2, je ressort des citations.
+[37:34] Ça s'est interdit, c'est interdit, un jeu.
+[37:36] Non, nous ne sommes pas d'accord, vas-y.
+[37:38] Il y a trois manières d'apprendre.
+[37:40] C'est qu'on fut ces trois manières d'apprendre.
+[37:42] La première c'est par l'intellectualisation qui est de la plusage.
+[37:45] La deuxième c'est par l'imitation qui est la plus simple.
+[37:48] Et la troisième c'est par l'expérience qui est la plus amère.
+[37:51] Est-ce que le contexte learning, c'est pas la plus amère ?
+[37:54] T'as maintenant, il s'est confus, c'est confus, c'est confus.
+[37:57] Il n'est pas sorti de l'invergne.
+[37:59] C'est pas la plusage, c'est la plus noble d'ailleurs.
+[38:01] Mais bon, je me suis trompe.
+[38:02] Tu me sens agitée sous le soupe encore ?
+[38:04] Oui, ben oui, bien sûr, mais tu t'en souviens pas.
+[38:07] Non, mais donc le contexte learning, ça marche quand même.
+[38:12] Tu veux pas qu'on fasse un truc,
+[38:14] mais pour cette saison, c'est nous qui t'imposons les auteurs,
+[38:17] que tu dois citer.
+[38:18] Et bah tu sais quoi ?
+[38:19] Pochard, l'épisode, tu me donnes un auteurs et je dois citer un truc de l'oeil.
+[38:21] Attention, attention, attention, hein.
+[38:23] Je ne sais pas de faire ce qu'on dit que la situation m'a dit.
+[38:25] On va sortir le dernier livre d'un homme politique.
+[38:28] On peut bien réguler, hein ?
+[38:29] Oui, c'est clair.
+[38:30] J'espère qu'il y a un homme...
+[38:31] La vision pour la France, c'est pas être n'importe qui, c'est ce qu'il y est.
+[38:33] J'espère qu'il y a un homme unime.
+[38:35] Mais alors, une qui est donc, on peut apprendre,
+[38:38] il y a le contexte, il y a le temps réel.
+[38:40] C'est combien de gestes ? C'est quoi ? C'est 10 gestes, 50 gestes ?
+[38:42] En fait, ça dépend de la complexité de la tâche.
+[38:44] C'est que tu vas avoir des tâches qui, pour l'instant, sont assez simples.
+[38:47] Donc en ingeste de contexte learning, on commence à voir
+[38:50] des capacités de généralisation.
+[38:52] Oui, ingeste.
+[38:53] En ingeste.
+[38:54] Ok, à de généralisation.
+[38:55] Tu dis, je sais pas, tu as un boit du café ?
+[38:57] Boit du café ?
+[38:58] Il y a un estomane, le Zofa, c'est-à-dire.
+[39:00] Non, tout de suite, tu me dis à porte, là.
+[39:01] Ça part en gelument, mais dit...
+[39:02] Ça fait que tu viens un peu remis sur le top, là ?
+[39:04] Attrape cet object à jamais vue.
+[39:07] Et je sais pas, tu fais telle action avec cet object.
+[39:11] Et bien, tu vois, ça dure chez pas 6 secondes, l'interaction.
+[39:16] Bah, si tu lui montres une fois...
+[39:18] Et donc, par exemple, ça...
+[39:19] Et donc, par rapport à une bouteille,
+[39:21] je l'ai dit le verre avec la bouteille.
+[39:22] Exactement.
+[39:23] La bouteille est en verre.
+[39:25] Et si, est-ce que, il y a une généralisation ou la bouteille est en plastique ?
+[39:29] Tu vois, ce peut-être t'as fait la même prévention, ça reste une bouteille.
+[39:32] Parce que, on voit des capacités de généralisation,
+[39:35] par exemple, ce que tu vois, on...
+[39:37] C'est où tu es ?
+[39:38] Oui, je sais, mais...
+[39:39] Bah, du coup, je...
+[39:41] Le plus fou qui ne marche pas à 100% encore,
+[39:44] mais qui commence à marcher, c'est faire...
+[39:49] faire des œufs.
+[39:51] C'est dure ça ?
+[39:52] Exactement.
+[39:54] Et je meure quand on voit...
+[39:56] C'est à faire des œufs.
+[39:57] C'est un...
+[39:58] C'est à faire des actions qui ont des...
+[40:01] une horizon...
+[40:02] Enfin, une temporalité qui est plus longue que 5 secondes,
+[40:06] ça peut aller jusqu'à la minute.
+[40:08] Ah, parce que tu veux dire.
+[40:09] Et on commence...
+[40:10] Mais c'est parce que...
+[40:11] Ça veut dire que l'action entière et dans l'espace latent,
+[40:14] c'est pour ça qu'il y a une limitation ou c'est une succession de...
+[40:17] C'est quoi le type de truc, comme ça ?
+[40:19] C'est genre...
+[40:20] Alors, c'est de faire une chambre,
+[40:21] ou c'est de faire une chambre progressive ou le truc comme ça ?
+[40:23] Bah...
+[40:24] Un peu des deux, peut-être.
+[40:27] Enfin, nous ce qu'il fait un peu de...
+[40:32] le côté unique de humains,
+[40:35] c'est qu'on se concentre sur les...
+[40:38] World Model,
+[40:40] latent,
+[40:41] sous la robotique.
+[40:43] Et donc, c'est avec ce genre de modèle qui sont en fait beaucoup plus...
+[40:47] faire un peu plus compactes que les violets ou...
+[40:50] Mais tu as quand même une horizon, du coup.
+[40:52] C'est là-dedans.
+[40:53] Tu dois quand même donner une limite.
+[40:54] Exactement, mais tu peux, en vrai,
+[40:57] si tu dépenses assez de compuques,
+[40:59] tu peux venir et tu peux venir planifier.
+[41:01] Et puis on se calme et chame.
+[41:02] Alors, à différents niveaux,
+[41:05] tu vas de y arrarcher.
+[41:07] Oui.
+[41:08] Tant pour elle, tu peux...
+[41:09] Tu veux dire comment tu gères la discontinuité dans ce cas-là ?
+[41:12] Tu vois, parce que quand tu finis...
+[41:15] mon action, tel que tu es définie dans ton espèce latent,
+[41:17] il y a la salle d'après et donc...
+[41:19] Comment tu gères l'entre deux ?
+[41:21] En fait, tu peux avoir des modèles qui sont un peu hiérarchiques.
+[41:24] Donc, ça s'appelle le System One, System Two.
+[41:27] Donc, tu as ton System Two qui a un modèle un peu plus gros,
+[41:31] genre LLM,
+[41:32] qui a déjà la capacité de donner tes séquences d'action.
+[41:36] Et d'ailleurs, les modèles actuels,
+[41:38] Astra commence à avoir cette capacité assez puissante dans le réel.
+[41:44] Et puis ensuite, tu as un System One qui a un réseau vachement plus compact,
+[41:50] genre LLM,
+[41:52] qui lui peut contrôler ton robot directement,
+[41:56] donner les actions.
+[41:57] Et donc tu as donné les actions, ça veut dire quoi ?
+[42:00] C'est quoi la sortie du réseau ?
+[42:02] Alors, la sortie du System Two, c'est du texte,
+[42:06] ou un vector un peu détocaine, un peu latent.
+[42:10] Et ton System One, la sortie, c'est ta séquence d'action moteur,
+[42:16] genre des angles, par exemple.
+[42:19] D'accord, c'est de la commande.
+[42:21] C'est pas encore de l'électrique.
+[42:25] Il y a encore un plan de partie.
+[42:26] Tu peux même aller jusqu'au Torque.
+[42:30] Donc, jusqu'à clairement, c'est quel voltage,
+[42:35] quel chemin dans ton moteur ?
+[42:37] Tu pourrais intégrer dans le modèle,
+[42:39] car dans l'attention,
+[42:41] ça dépend du magin du moteur,
+[42:43] et donc il faut bien y avoir une abstraction.
+[42:45] Tu peux avoir des moteurs ou...
+[42:47] Ça marche mieux quand on fait ça ?
+[42:49] Ou c'est un peu inutile ?
+[42:51] Non, ça peut marcher mieux.
+[42:53] Quand tu commandes avec l'angle,
+[42:56] ton moteur, il attendance à vouloir vraiment absolument
+[43:01] attendre l'angle.
+[43:02] Donc, si tu as un objet qui bouche le chemin,
+[43:07] par exemple, la table, il va vraiment forcer complètement à table.
+[43:11] Alors que si tu le contrôles en Torque,
+[43:14] en voltage ou en chouple,
+[43:18] tu vas être capé par le Torque,
+[43:24] et donc il ne va pas pouvoir forcer contre la table.
+[43:28] Il a déjà...
+[43:29] Par exemple, je lui dis,
+[43:31] mais la main sur la table.
+[43:32] Le robot, le moteur, le réseau,
+[43:35] il crée une Torque,
+[43:37] ça y est, il touche la table.
+[43:39] Donc là, il y a le Torque monte,
+[43:41] mais il continue d'appuyer.
+[43:44] Certains couples constant,
+[43:46] mais il continue d'appuyer.
+[43:47] Qu'est-ce qui se passe pour qu'ils considèrent la table finie
+[43:50] et qu'il arrête d'appuyer avec ce...
+[43:52] Comment ça fonctionne, ça ?
+[43:54] Après, tu vas avoir ton système 2,
+[43:56] qui va...
+[43:57] C'est le système 2 qui va comprendre
+[43:58] que t'es en contact de la table,
+[44:00] et donc si t'as peut-être raté...
+[44:02] En vrai, t'as peut-être raté la table,
+[44:05] et tu vois t'as tapé la table au lieu d'attraper le verre.
+[44:08] Du coup, il faut que tu reviennes en arrière
+[44:10] et je reviennes en arrière.
+[44:12] Et je reviens en question, et je pensais que je me disais
+[44:14] si tu lui fais un tromplay au Luxembourg,
+[44:16] c'est une bouteille en gâteau.
+[44:18] Tu es déjà en train de faire des tromplay toi ?
+[44:20] Oui, je suis aussi en gâteau.
+[44:22] Tu as jamais vu ce qui font des gâteaux tromplay là ?
+[44:24] Et ça y est, à main,
+[44:25] normalement, j'aurais dû...
+[44:26] Mais il a un LIDAR, on s'en met.
+[44:28] Oui, il a un LIDAR ?
+[44:29] Pas tout le temps, pas tout le temps.
+[44:31] Mais là, attendez, si.
+[44:32] Pourra.
+[44:33] Si le tromplay est beau, un homme se le dirait qu'à la pression,
+[44:35] il m'a dit où-là,
+[44:36] plastique, normalement, je devrais pas pouvoir presser autant et c'est bizarre qu'il a
+[44:39] chantillé qu'il sort, tu vois, et va dire là, je me suis fait avoir.
+[44:42] Bah oui, parce qu'il est capable aussi de prédire les conséquences de ces actions,
+[44:46] et s'il y a un mismatch entre ce qui se passe et à ce qu'il a prédit, il peut corriger,
+[44:52] comprendre, tu vois.
+[44:53] Et est-ce que par exemple, ça aurait du sens de dire, bah voilà, j'entraîne mon modèle
+[44:58] avec des sortiers du torque, par exemple, en partant du principe que dans le moteur, dans
+[45:04] le micro contre l'ordre du moteur, il y a un asservissement par torque, du coup.
+[45:08] Mais est-ce que ça aurait du sens, peut-être plus tard ou du mélange général, parce que
+[45:13] c'est moteur par moteur, en fait, on se base sur le fait qu'il y ait une chaîne de valeur
+[45:17] qui te sort une interface qui dit le torque machin de truc, mais à la fin, ça reste quand
+[45:21] même du commande de l'électrique, du physique, est-ce que ça aurait du sens, après, de fin
+[45:27] tuner, parce que du coup, c'est moteur par moteur, là, c'est même pas la série de moteur,
+[45:31] c'est pas robot par robot, c'est ce moteur précis, c'est une diction qu'on avait
+[45:34] vu avec Ian, tu sais, sur la perception, ou en fait, par exemple, il y a une perception
+[45:40] du monde.
+[45:41] Finalement, il ne réagit pas en mode, il y a une planification, mais tu vois, son asservissement
+[45:49] moteur, il est lié à son propre corps directement, tu vois, c'est difficilement, tu vois,
+[45:55] transférable.
+[45:56] Est-ce que ça aurait du sens, parce que c'est quelque chose dans le futur qui est intéressant
+[45:59] de dire, quand on déploie, il y a une forme de calibration du...
+[46:03] Ah bah, totalement, c'est un truc qui se fait déjà ou qui s'offrance ?
+[46:07] C'est déjà, après, tu as tous les procédures de recalibration qui sont assez classiques,
+[46:13] mais dans les choses assez nouvelles qu'on voit, t'as ton humanoïde qui avance, et là,
+[46:21] d'un coup, il perd un moteur, genre t'as un moteur qui arrête de fonctionner.
+[46:25] Ma idée, ma idée, quoi !
+[46:26] Exactement.
+[46:27] Et là, le but, c'est qu'il arrive à se... tu as gardé l'équilibre et à se mettre
+[46:33] dans une position de sécurité en fait.
+[46:35] Comme les humains, c'est quand il rate, parce qu'il y a une barre de super mal, puis il
+[46:38] garde une position en mode.
+[46:39] Exactement.
+[46:40] Ça n'y a pas assez.
+[46:41] Il s'en a pas assez, juste, il s'ennuie, c'est un boulon.
+[46:44] Ouais, ouais.
+[46:45] Ouais, il se met en PLS, tu vois.
+[46:47] Et du coup, là, tu vois, il rate un moteur qui a dysfonction, et il y a, il doit comprendre
+[46:56] ça, il doit le détecter automatiquement, et du coup, reprendre, tu vas s'adapter.
+[47:03] Donc, c'est une sorte de calibration très dynamique.
+[47:06] D'accord.
+[47:07] Et il faut qu'il était quand même un minimum entraîné pour ça, et puis après, il se met en
+[47:11] PLS.
+[47:12] Oui, boite, hein.
+[47:13] Le robot, c'est un...
+[47:14] Il marche magnifique.
+[47:15] Il marche magnifique.
+[47:16] Ça dépend que qu'il y a l'attaque du robot, et le poids du robot, parce qu'il y a un truc
+[47:18] qui boit.
+[47:19] J'ai une question pour toi dessus, parce que moi, c'est un truc, je n'avais pas réalisé.
+[47:21] J'avais vu une vidéo, comme tu parles, tu vois, des problèmes par voie de mécanique.
+[47:26] Une vidéo, c'était rien que la vache, t'as ni manoeïde.
+[47:28] Il y a peut-être un an, un an et demi, il y a deux ans.
+[47:31] Et 80 kilos, le truc.
+[47:33] Et le sort, et le gars, en fait, se blesse les avant-brats tellement c'est lourd.
+[47:38] Et il dit, p'tain, j'en ai partout, enfin, il se blesse.
+[47:40] Et en fait, se blesse où il se fatigue, où il se blesse.
+[47:43] Non, non, non.
+[47:44] Alors, il a...
+[47:45] Il n'est pas au sommet, tu vois.
+[47:46] Il a bien galéré, qu'il y a 80 kilos.
+[47:49] Et je me posais la question, tu vois.
+[47:52] Est-ce que moi, je suis réalise de mettre ça chez moi,
+[47:55] tu vois, un truc de 80 kilos d'ailleurs, dans l'éternum manoeïde,
+[47:58] dans le gros du poids et sur le torse ?
+[47:59] T'as télé déjà, elle fait qu'elle fait 80 kilos.
+[48:01] Oui, mais voilà, mais genre, tu vois, le robot qui soudainement par l'équilibre,
+[48:05] pove, pove, pove, pove, pove, pove sur le chat, tu vois.
+[48:08] Plus de chat, et plus de chat.
+[48:09] Ah, le chat, c'est bien ça.
+[48:10] Il tombera plus sur...
+[48:11] Oui, mettez le chat, c'est décon, hein, donc tu sais.
+[48:13] Il joue et pove.
+[48:15] Et du coup, je me posais la question,
+[48:18] comme tu parlais de ça, comment ça se passe par exemple,
+[48:22] parce que dans un environnement même industriel,
+[48:23] tu vois, quelqu'un bouscule le robot,
+[48:25] ça tombe sur le collègue,
+[48:26] un vue les poids des bousins, on parle quand même.
+[48:29] Est-ce qu'il y a des...
+[48:31] C'est des russes qui sont...
+[48:32] On va dire, généraliser dans le modèle,
+[48:34] où est-ce que c'est des choses qui sont spécifiquement mises à part en mode ?
+[48:37] Si jamais on sort de trucs, alors là,
+[48:39] en fait, le robot, il se tient,
+[48:41] il descend sur son propre empreinte, ce genre de choses,
+[48:44] où est-ce que pour l'instant, on s'en fout ?
+[48:46] Et puis on verra plus tard, la safety, c'est votre truc, quoi ?
+[48:49] Ouais, en fait, t'as envie de déployer ces robots
+[48:53] pour éviter que des personnes se blessent à faire des tâches répétitives.
+[49:01] Donc si tous les déploies et que le robot n'est pas assez safe,
+[49:03] et qu'il y a un blessé ou cassé son environnement,
+[49:08] c'est pas top.
+[49:09] Donc nous, on pense que là, on voit une accélération
+[49:13] en termes de capacité d'IA, de robots, mais à Noïd,
+[49:16] mais l'entreprise qui va vraiment gagner,
+[49:19] c'est l'entreprise qui aura la capacité de déployer ces robots
+[49:26] en étant les plus sécurisés possibles.
+[49:29] Et donc pour ça, nous, on a trois points.
+[49:32] Le premier, c'est le hardware,
+[49:34] le design mécatronique du robot,
+[49:37] il doit être le plus léger possible.
+[49:39] D'accord, donc là, c'est pour ça.
+[49:41] C'est pas 80 kilos, tu te pourras moins la question.
+[49:43] Donc il se dit même 20 kilos déjà ?
+[49:45] Ben oui.
+[49:46] 20 kilos ça va ?
+[49:47] C'est un gros chat.
+[49:48] C'est un gros chat.
+[49:49] Il y a des chats de 20 kilos.
+[49:51] Il y a des chats de 20 kilos.
+[49:52] C'est un gros chat quoi.
+[49:53] Oui, oui.
+[49:54] Enfin, il m'a noïd qui tombe de 2 mètres.
+[49:56] Et ça n'offre qu'à 34 sur un chat quoi, tu vois.
+[49:59] Ouais, c'est ça.
+[50:00] Ouais, voilà.
+[50:01] Ou un robot sur un enfant de 4 ans.
+[50:03] Mais c'est clair.
+[50:04] Mais du coup, oui.
+[50:05] C'est que j'ai pas bien sûr.
+[50:06] En fait, si tu détectes,
+[50:07] donc le premier, c'est le mécatronique.
+[50:09] Faut de faire en sorte que t'es design, soit les plus léger possible.
+[50:12] Donc ça veut dire que ton robot n'est pas non plus extrêmement capable de faire de lever
+[50:17] tant que poids que ça.
+[50:18] Ouais, bien sûr.
+[50:19] Mais si tu le déploies dans un environnement où t'as des humains autour et des chats,
+[50:24] tu veux qu'ils soient le plus léger possible, peut-être pas forcément très grand non plus,
+[50:28] quoi.
+[50:29] Une idée s'attaille, etc.
+[50:30] Et le deuxième point, c'est que dès qu'ils voient quelqu'un arriver dans son chambre d'opération,
+[50:37] il faut qu'ils commencent à peut-être à l'entir, peut-être faire attention à faire
+[50:42] des mouvements d'inamiques, signalés qu'il a bien détecté.
+[50:48] Et qu'il faut quand même que tu fasses attention quand tu t'approches à pas gêner
+[50:51] ce...
+[50:52] Ouais, c'est justement.
+[50:53] Exactement.
+[50:54] Tu peux imaginer tout un design qui va être très important dans un premier temps pour faire
+[51:00] accepter ces robots, pour que les gens s'habituent à ces robots.
+[51:03] Et justement, là, tu parles contextes industrielles, c'est un nouveau premier marché.
+[51:06] Si on élargit un peu, donc le robot est dans un contexte industriel, il a appris
+[51:10] en un ou quelques gestes ou quelques dizaines de minutes ingeste à avancer.
+[51:14] On va dire d'une vin de 20, 30 secondes, toute la séquence, mais tu parlais de flotte
+[51:20] de robot.
+[51:21] Donc ils ont des entreprises, ils ont donc à 10, 20, 50, 200, est-ce que les robots, quoi,
+[51:26] il y a un qui a amélioré le geste, quoi, il partage aux autres, comment ça fonctionne ?
+[51:30] Ben, oui, clairement, l'idée c'est que tu as une flotte de robot, quand tu vas réussir
+[51:36] à apprendre un nouveau geste à un robot, les données de cet apprentissage vont être envoyées
+[51:44] dans un serveur central, où tu vas avoir l'apprentissage de la prochaine génération de
+[51:50] ton modèle d'y-a-fondation, qui va être redistribué sur toutes les robots.
+[51:55] Et donc en gros, si tu apprends à un robot, tu apprends à tous.
+[51:58] C'est en gros, les robots et le serveur, là, c'est la machine à café des robots, quoi.
+[52:02] Ils se partagent les types de « comment ils ont fait ? » en permanence, constamment.
+[52:07] Et ça veut dire que, du coup, dans un modèle comme ça, un peu de dessins, quoi, en…
+[52:12] Ouais.
+[52:13] Et ça, en sens, soit à Bay, quoi, et ça, en d'Aberre, quoi.
+[52:17] Parce que pas de dessin, en mode…
+[52:18] Oui, non, oui.
+[52:19] Et ça, et ça.
+[52:20] Parce que c'est un peu genre…
+[52:22] En équipe, ouais.
+[52:23] C'est le système 1, le robot, le système 2, là, on va dire un peu à la borgue, tu vois,
+[52:30] où t'as la mer, enfin, gros, t'as…
+[52:32] Est-ce que tu as en gros 3 niveaux, c'est-à-dire le robot, la mécanique du robot, la mécanique
+[52:36] de la mécanique, le raisonnement interne du robot et le raisonnement après de ruche ?
+[52:41] Ouais, c'est clair.
+[52:42] Ou plutôt, carrément.
+[52:43] Non, non, en fait, c'est pas intéressant.
+[52:44] On fait direct la ruche.
+[52:46] Parce que…
+[52:47] En fait, tu peux avoir plusieurs étapes, mais en gros, t'as un premier, genre,
+[52:55] système 0, c'est genre le système nerveux, c'est y contrôles tous les faits et gestes
+[53:01] de ton robot.
+[53:02] Tiens, oui.
+[53:03] Il s'assure que tes moteurs fonctionnent bien, etc.
+[53:07] Ensuite, t'as le système 1 où là t'as un contrôle qui te permet de planifier des actions
+[53:12] qui durent plusieurs secondes, genre sur 4 secondes.
+[53:16] Ouais, tu vois.
+[53:18] Ouais.
+[53:19] Ensuite, t'as le système 2 qui a un réseau de neurones encore un peu plus gros, qui
+[53:23] lui te permet de coordiner ton robot qui tourne en parallèle sur ton robot et qui te permet
+[53:28] de savoir si t'as réussi l'action, si tu reçois un reward, enfin tu es une récompense,
+[53:33] de planifier un petit peu plus loin, donc on va dire à de l'ordre de la minute, de
+[53:38] deux minutes pour avoir peut-être un petit peu plus, et puis après, on peut parler de
+[53:43] le système 3 qui est lui, en encore plus gros, et qui va sans doute contrôler la
+[53:49] flotte de robots quand tu vas avoir des tâches qui nécessitent d'avoir plusieurs robots,
+[53:53] d'une coordination toujours robot, genre vas-y assembler moi ma maison.
+[53:57] Mais du coup, le truc que je me dis, la question je me pose, c'est pourquoi pas aller
+[54:06] directement ?
+[54:07] Ouais, mais tu vois, c'était sur des tâches à 6 secondes, tu vois, ou un truc où
+[54:15] tu...
+[54:16] En fait, le robot, je ne sais pas si c'est un réseau intéressant, mais aussi ça
+[54:18] vous le coûte simplement.
+[54:19] Est-ce que c'est intéressant, tu vois, d'avoir directement, en fait, peut-être pas la
+[54:23] télé-opération au niveau micro, mais le système 0, le système 1, et direct le système
+[54:29] 2 en fait, tu vois, la reine mère qui contrôle tous ces minions, tu vois, et du coup,
+[54:36] on a vu la tente d'ensemble, en fait.
+[54:38] Mais toi, c'est tivenu.
+[54:39] Moi, je comment ?
+[54:42] J'ai réfléchi combien de fois à gonfler tes poumons, mais justement, c'est du réflexe,
+[54:46] ça, c'est du réflexe.
+[54:47] Non, mais moi, justement, c'est quoi, c'est le système 0 ?
+[54:48] Moi, ce que je dis, tu ne capitalise pas, tu vas dire, en fait, tu t'es peut-être biologique,
+[54:54] tu vas direct au borgue.
+[54:55] Et c'est pas ça, c'est quoi ?
+[54:56] Les temps de la tente, en fait, c'est la même différence entre tes registres et ta
+[55:01] rampe, quoi.
+[55:02] Il y a deux heures de grandeur de la tente, surtout, tes bâtes, je pours toi.
+[55:05] Non, ce que je veux dire, c'est que tu es obligé d'avoir des trucs plus ou moins loin.
+[55:08] T'es obligé d'avoir ton robot humanoid, s'il n'y a pas un système, il tombe.
+[55:13] Mais ce que je me dis, c'est que imagine, tu vois, t'as un flûte, un modèle, voilà,
+[55:17] un modèle, quoi.
+[55:18] Et au lieu d'avoir la vue du même imaginant de vidéo, la vue du robot machin, en fait,
+[55:24] il a 1000 vues en même temps, et en fait, il résonne de manière latente sur trop longtemps même temps.
+[55:29] Trop lent.
+[55:30] En plus, quoi ?
+[55:31] Trop lent.
+[55:32] Je pense qu'il y a des défis d'ingénierie, par exemple, de temps de latence, d'accès
+[55:39] Internet, peut-être que tu as quand même envie que ton robot puisse savoir cette capacité
+[55:45] de planification sans avoir à accès Internet, ou qu'il soit quand même un minimum autonome
+[55:50] dans des zones où, peut-être, tu vas avoir une coupure d'internet, tu vas...
+[55:54] Alors, en France, c'est ce quoi, quoi ?
+[55:56] Oui, il y a par exemple.
+[55:57] Il y a des endroits où il y a Internet, oui, mais j'ai entendu.
+[56:02] Moi, j'ai pas fait du robot, il y a l'électricité.
+[56:04] Mais moi, j'ai un bien que ce que tu dis, c'est vrai, c'est parfait pour K-Bur, mais
+[56:06] de fait, ce que tu vois, moi, j'y crois pas mal, c'est qu'en fait, t'as des...
+[56:10] D'abord, souvent, ton robot, c'est plusieurs robots, c'est plusieurs sous-systèmes.
+[56:14] Mais mon point, du coup, je serai très curieux, allez, c'est bon, pour la frère de saison
+[56:20] 3, on fait ça.
+[56:21] On modélise ça avec K-Bur dans un témodel, remis, on fie dans même temps plusieurs robots
+[56:26] dans un seul modèle, et on voit comment ça se comporte.
+[56:29] Bah, déjà, essaie de synchroniser les capteurs entre deux machines, tu vois.
+[56:31] Ah ouais, mais ça, c'est pas ça, c'est réglé, ça, on a K-Bur.
+[56:33] Ouais.
+[56:34] Moi, c'est ce qu'on m'a expliqué, hein, moi, je...
+[56:37] Mais c'est ce qu'il y a marqué sur la brochure, hein.
+[56:40] Bah là, à libesser, on a fait une démo à ces rigots, où on a mis des robots, où on a mis un robot,
+[56:45] et il y a...
+[56:47] Oh, qu'une enthigeant dans le robot.
+[56:48] C'est un...
+[56:49] C'est un rétimini...
+[56:50] Pas l'optimus.
+[56:51] Non, c'est un rétimini, hein.
+[56:53] Ah, bah, ils sont encore se faire épouser de l'Elon Baching.
+[56:57] Ah, non, non, non, non, non, non, non, non, non, non, non, non, non, non, non, non, non, non, non, non, non, non, non, non, non, non, non.
+[56:59] Mais là, c'est pas l'eau, mais tu penses qu'on pourra voir.
+[57:02] Ils sont super...
+[57:03] Ils sont super-saisons de l'Elon Baching.
+[57:04] Ils sont supervisés, donc voilà, ils l'ont fait.
+[57:07] Et c'est pour ça que je dis ça.
+[57:08] Et donc là, tu vois...
+[57:10] Téléopéra, oui, voilà.
+[57:11] Là, c'est un robot, c'est rigolo, c'est qu'on a fait le truc, où...
+[57:14] ...
+[57:16] Il fait de la détection de personnes qui passent devant,
+[57:18] parce que c'est sur un salon, et puis il suit les gens,
+[57:21] et donc t'as tout le robot qui se déplace, etc.
+[57:23] Et ce qu'on a fait pour que ce soit un plus réagolo, c'est qu'il...
+[57:24] La personne qui suit, c'est celui qui a le chapeau conne de VLC sur la tête.
+[57:28] Il perd...
+[57:28] Tu vois, c'est une grosse stress...
+[57:29] Non, mais en fait, c'est pas pour...
+[57:30] C'est pour que c'est réagolo, c'est parce qu'il fallait le coder.
+[57:32] Tu vois, là, il n'y a pas de...
+[57:33] C'est pas la...
+[57:34] C'est juste, trouve le truc orange et tu suis...
+[57:37] Tu réagoles exactement ce qu'on a pas collé, on a dit.
+[57:39] Il faut faire un truc où tu traques le truc orange, et ça génère.
+[57:42] Mais là, si tu t'éteins et si t'as plus de réseau,
+[57:45] parce que évidemment, là, l'IA est à distance,
+[57:48] Ah oui, le robot, il tient, il tombe part.
+[57:50] Tu vois, c'est un robot, il n'a pas de zoom, il n'a pas de bras,
+[57:52] il a juste une tête, il est tout mignon, il te fait coup-cou.
+[57:54] Mais toi, quand tu coupes, perds le réseau, il est stable.
+[57:58] Un numéro de huit, il n'y a plus de réflexion, il tombe.
+[58:01] C'est rien que juste...
+[58:02] Non, mais il pourrait très bien avoir un système, tu vois.
+[58:05] C'est comme le système...
+[58:06] C'est celui qui fait qu'il tient.
+[58:07] Voilà, système zéro.
+[58:08] Moi, des coups, je dis, système zéro, moi, je suis vendu.
+[58:10] OK, si tu as besoin des voitures, quand j'ai des voitures autonomes,
+[58:13] le système zéro, c'était dans le lidard électriquement,
+[58:18] il y a un truc qui détecte dans le lidard,
+[58:20] ça va y passe toute la logique.
+[58:22] Si, par exemple, il y a un obstacle trop près, ça active,
+[58:24] tu vois, comme l'on prête du gens.
+[58:26] Ouais, voilà, de manière, voilà.
+[58:28] Système 1, tu vois, comme tu dis, il est penché, ça coupe.
+[58:30] Bon, il ne tombe pas.
+[58:32] Moi, je suis en mode, tu vois, système 2, tu vois.
+[58:36] C'est genre... C'est starcraft, tu vois, c'est...
+[58:38] C'est des... C'est des... Ouais, dans système 2,
+[58:42] il doit tourner sur le robot.
+[58:43] D'accord.
+[58:44] Donc, tu as...
+[58:46] Et sur ton robot, tu as des batteries.
+[58:49] Si tu veux une autonomie assez importante,
+[58:52] il faut que la puissance de calcul
+[58:55] qui est dédiée à ce système 2 soit assez petite
+[58:58] et pas effectuer à une fréquence trop importante.
+[59:01] C'est quoi, les ordres de grandeur,
+[59:02] parce que, de mon point de vue profane,
+[59:05] le gros d'énergie part quand même dans le mouvement, on va dire.
+[59:11] Ou est-ce que justement, en contraire,
+[59:13] tu veux limiter cette partie-là?
+[59:14] Parce que, ça va être qu'on se rend pas compte,
+[59:15] mais, enfin, tu vois, un CPU à 50 Watt sur 5 heures,
+[59:19] c'est juste 50 Watt.
+[59:21] Un gros CPU quand même, non, mais si tu fais des gros modèles,
+[59:23] j'ai pu un gros CPU.
+[59:25] Je vois bien, c'est quand tu vois, c'est pas...
+[59:27] Mais non, mais ça c'est quand même combien ton cerveau se tive, hein?
+[59:29] Zard, Watt, à peu près.
+[59:31] En moyenne, en moyenne, en moyenne.
+[59:34] Le mien 40 Watt.
+[59:36] En plus que le tien.
+[59:37] C'est tout ce qu'il compte pour moi.
+[59:39] C'est normal de mier les deux fois, le plus efficace qu'elles tient en instance.
+[59:42] Oui, et une dehors cloquée.
+[59:44] Mais voilà.
+[59:46] Mais, ouais, ça a des plus sainte-villades dessus.
+[59:50] Donc, tu vois, l'Étors et, pour l'instant,
+[59:53] même les réseaux qui sortent qui sont états de là,
+[59:56] ils tournent ces résolades ne tournent pas forcément
+[59:59] si facilement sur ses plus.
+[60:00] C'est quoi, l'état de ce démolage?
+[60:02] Les premières robots chauffagent.
+[60:03] Si tu es un système 2 qui est assez smart, t'as besoin de genre 4 milliards de paramètres.
+[60:10] Donc après, est-ce que tu le compresse ?
+[60:13] Est-ce que tu tournes avec ZMelle ?
+[60:15] Un signed int-8.
+[60:17] Est-ce que tu trottes l'export en un signed int-8 ?
+[60:20] Du coup, t'es assez l'eau.
+[60:23] Tu te espèles les mêmes aélus et tout machin ?
+[60:26] Oui, exactement.
+[60:28] Oui, tu peux arriver avec un hardoire qui est vachement spécialisé et du coup...
+[60:33] Mais moi, généralisable du coup, c'est spécialisé.
+[60:35] Exactement, donc on est quand même une étape où on a du hardoire assez généraliste.
+[60:40] On ne fait pas tous les tricks d'optimisation de dingue et donc on a besoin d'un réseau qui n'est pas trop gros.
+[60:47] Mais tu pourrais, par exemple, ce que là on parle de 4 milliards,
+[60:51] mais ce que ce serait intéressant de avoir 10 milliards de paramètres ?
+[60:56] Vous savez ce que c'est 10 milliards de paramètres.
+[60:59] Des milliards !
+[61:03] Des milliards de charmantes.
+[61:05] Vous voyez ce que ça fait déjà ?
+[61:07] Vous voyez ce que ça fait déjà ?
+[61:09] Est-ce qu'il y aurait un avantage ?
+[61:11] Mais ton de côté, la perfe et l'énergie,
+[61:14] est-ce que ce serait intéressant d'avoir des modèles plus gros ?
+[61:16] Est-ce qu'il y a une loi de scaling ou est-ce que finalement ?
+[61:19] Oui, oui.
+[61:21] On commence à avoir des scaling low pour...
+[61:23] D'accord, pour la robotique, donc quoi, il y a un intérêt.
+[61:26] Et je pense qu'au bout d'un moment,
+[61:28] si tu coordonne une flotte de robot,
+[61:31] tu as besoin de l'avoir dans le cloud.
+[61:34] Et que les robots...
+[61:35] Par exemple, pour le système 2, tu disais qu'à 4 milliards,
+[61:37] c'est à peu près l'ordre de grandeur aujourd'hui ?
+[61:39] Oui, encore, nous on essaie de le compresser en dessous de ça.
+[61:41] En paramètres, on va juste en paramètres.
+[61:44] En paramètres.
+[61:46] Je voulais revenir sur la partie industrie,
+[61:48] donc tu disais des robots qui peuvent agir en flotte,
+[61:50] ils peuvent apprendre des uns des autres à la machine à café,
+[61:52] et à l'apprendre un serveur et peut vous partager des données,
+[61:54] à l'échelle d'un groupe,
+[61:55] ils peuvent partager dans d'autres usines à l'autre bout du monde,
+[61:57] on en a apprentissage en fait le plus immédiat possible.
+[62:00] Moi, j'avais une question sur les enjeux de conformité secret,
+[62:05] que vous allez devoir avoir,
+[62:06] parce que vous allez être connaitre des secrets,
+[62:08] des processants de fabrication du l'entreprise,
+[62:10] notamment du nôtre,
+[62:12] donc il va falloir vous bien garantir,
+[62:14] enfin, ça va être un des enjeux aussi de la confiance,
+[62:16] c'est la sécurité, bien sûr.
+[62:18] Mais c'est aussi la sécurité des données de dire,
+[62:20] écoutez-nous, vous entraînement,
+[62:22] vous appartiez le cas-vous,
+[62:23] mais vous, vous entraînement,
+[62:24] la partie de le cas-vous,
+[62:25] va y avoir cet enjeux-là, quoi.
+[62:26] Ben, totalement après,
+[62:28] c'est pas la première fois que cette question se pose.
+[62:32] Ça fait quand même depuis des années
+[62:34] que tu as des systèmes
+[62:37] qui sont entraînés avec des données,
+[62:39] tu vas métier,
+[62:41] qui sont déployés dans l'industrie et dans les usines.
+[62:44] Donc, tu as des conventions qui sont en place,
+[62:50] et en particulier nous ce qui nous intéresse,
+[62:52] c'est d'apprendre des skills de manipulation.
+[62:56] C'est ça qui est le plus important.
+[62:58] Et donc, qui sont généralisables
+[63:02] à plein de tâches et plein d'industrie différentes.
+[63:06] Voilà, on se concentre là-dessus.
+[63:09] Donc, ok.
+[63:10] Parce que là, j'ai vu un truc,
+[63:12] dans l'IA, c'est Google qui a apparemment acheté une boîte.
+[63:15] Non, mais ils ont acheté une boîte.
+[63:17] C'est comment se mal comme histoire ?
+[63:19] Non, ils ont acheté une boîte.
+[63:21] Donc, Google a acheté une boîte.
+[63:23] Attends, c'était dans les assurances ou une banque.
+[63:25] Attends, là, c'est comme ça.
+[63:27] Parce qu'ils pourraient acheter toutes les données d'y mails,
+[63:30] toutes les discussions tout pour essayer de refaire des agents autonomes
+[63:33] et de voir les processus d'une boîte sur 40 ans.
+[63:35] Ils ont acheté une PME, quoi.
+[63:37] Une PME industrielle.
+[63:38] Ah, mais c'est une boîte française.
+[63:40] C'est un cabinet comptable.
+[63:42] Ils n'ont pas été arrachés par Google pour ça.
+[63:44] Ils ont voulu racheter une boîte pour apprendre des processus.
+[63:47] En gros, 10 millions de euros la boîte,
+[63:49] c'est moins cher que des données d'entraînement à très grandes échelles.
+[63:52] Pour avoir tous les images, tous les discussions, tous les salariés, tout tout tout.
+[63:54] Tu vois, ils ont voulu racheter pour avoir les processus.
+[63:56] Ah, mais en tout cas, ce que je veux dire, voilà.
+[63:58] Il y a des enjeux, tu vois, il y a des boîtes qui voudront moins cher
+[64:01] que les données d'entraînement.
+[64:02] C'est mon petit ami, quoi.
+[64:03] Après, enfin, c'est le...
+[64:05] Quelles amèdes, quoi ?
+[64:06] Tu le subles, mais puis c'est quand même une main.
+[64:08] Enfin, ça vaut moins cher une fois.
+[64:10] Et pour Google.
+[64:11] Et puis après, je veux dire, oui, mais tu vois, du coup,
+[64:14] ça met le prix à tout le monde.
+[64:16] Et alors, est-ce que les robots humanoïdes,
+[64:18] on parlait tout à l'heure qu'ils ont plusieurs décalibérités,
+[64:21] mais est-ce qu'il n'y a pas un sixième doigt,
+[64:23] un septième doigt ? Est-ce que un troisième a une ?
+[64:25] Non, mais est-ce qu'il y a des choses qui vont être...
+[64:27] Il y a des jeux d'air à tête.
+[64:28] C'est quand même.
+[64:29] Non, c'est quand même.
+[64:30] C'est quand même.
+[64:31] Mais est-ce que je veux dire, est-ce que aujourd'hui l'industrie
+[64:33] va plus vers des humanoïdes vraiment humains
+[64:35] ou est-ce qu'on réfléchit à améliorer l'humain humanoïde ?
+[64:40] T'as plein de voix différentes.
+[64:44] Par exemple, certains pouces pour avoir...
+[64:47] Certains pouces.
+[64:48] Voilà.
+[64:49] Justement, trois doigts.
+[64:51] Et deux doigts, parce que ça simplifie,
+[64:54] et que si tu diminues le nombre de pièces,
+[64:58] tu peux en faire plus pour moins cher.
+[65:00] Si tu fais 99 % des jets,
+[65:02] c'est quand même.
+[65:03] Exactement.
+[65:04] Exactement.
+[65:05] Comme le doigt pi est d'ailleurs le doigt pi.
+[65:07] Il sert à rien.
+[65:08] Par exemple, à part à trouver les meubles la nuit,
+[65:11] je trouvais à la petite doigt pi, il sert à rien, mais bon.
+[65:14] Donc tu as aussi, comme tu dis, des senseurs au tour de la tête et du corps
+[65:23] pour pouvoir garantir une sécurité.
+[65:26] La seule chose, c'est que plus tu rajoutes de senseurs,
+[65:30] plus ton système est complexe.
+[65:32] Plus ça coûte cher.
+[65:33] Plus ça coûte cher à faire tourner,
+[65:35] à assembler.
+[65:37] Tu dois trouver le juste milieu.
+[65:41] Nous, on aime beaucoup les lames à cinq doigts.
+[65:46] On trouve que ça permet de faire encore plus de choses
+[65:49] et ça vaut le coup de s'y concentrer.
+[65:53] Il y a du vrai design de l'Humanoid.
+[65:57] Nous, notamment l'un des co-fondateurs qui est Rob,
+[66:00] qui est un spécialiste de l'Human.
+[66:02] Il a déjà eu plein de sources des designs avant Huma.
+[66:07] Et là, il designe notre propre main avec...
+[66:13] Il s'appelle Rob, c'était le nom du robot de Nintendo.
+[66:17] Oui.
+[66:18] Tu vois, il est une main.
+[66:21] Il est une main robotique.
+[66:23] Il est une main robotique.
+[66:49] Pour l'instant, il y a encore des questions d'ingénierie qu'on n'a pas été résolues.
+[66:54] Donc, si tu veux, il y a de très grandes degrés de liberté, donc beaucoup de moteur,
+[67:01] pour pouvoir l'articuler, avoir beaucoup d'exterités, il faut des petits moteurs.
+[67:09] Et surtout, de les concentrer, ça va une concentration, une densité de moteur, et donc
+[67:15] ça chauffe très rapidement.
+[67:18] Surtout si tu veux qu'il soit le plus transparent possible, c'est-à-dire qu'il soit normal
+[67:27] et une main.
+[67:28] Enfin, déjà qu'il soit petit, mais en plus, quand on doit tapent un objet, que automatiquement,
+[67:39] on doit se replier.
+[67:40] Oui, c'est pas l'objet qui bouge, d'accord ?
+[67:42] Et donc ça, ça veut dire, c'est une transparence en termes de kinématique, d'accord ?
+[67:47] Une fidélité de la transmission, en fait, et donc ça, ça implique aussi potentiellement
+[67:55] une fragilité.
+[67:56] Et donc, si il est petit, c'est fragile, c'est une densité de voltage qui fait que ça
+[68:02] peut chauffer plus rapidement, donc t'as plein de problèmes comme ça.
+[68:06] Comment ça être résolue, mais on sait quand même le début, et puis ensuite tu as les
+[68:12] mains, les doigts et les mains, avec du tendons, et alors là, tu peux déporter des moteurs
+[68:19] ?
+[68:20] Parce qu'il y a d'ailleurs la biologie, comme ça, hein ?
+[68:21] Exactement.
+[68:22] Nous, on a ça, on a des muscles, dans tout l'avant-bras qui peuvent contrôler nos doigts,
+[68:28] nos mains.
+[68:29] Donc tu peux le déporter, donc tu peux avoir des plus gros moteurs qui sont un peu plus robustes,
+[68:35] qui surchauffement.
+[68:36] Tu vas être déporté le poire aussi, donc avoir moins de moins de moins de 20 kg qui
+[68:42] est l'heure de plus.
+[68:43] Mais une mandale, c'est...
+[68:44] D'ailleurs tu peux pas la mandale avec la main, tu n'en trah.
+[68:45] Tu vois ce que tu as fait, comme j'est ?
+[68:47] Ouais, c'est pas ta main qui a mis la mandale.
+[68:48] C'est les pols.
+[68:49] C'est ton épaule qui a mis la mandale.
+[68:51] C'est ton épaule qui a mis la mandale.
+[68:52] C'est ton épaule qui a mis la mandale.
+[68:53] C'est ton épaule qui a mis la mandale.
+[68:54] C'est le pot de spenseur, je peux dire qu'il la met avec un épaule.
+[68:55] Non, mais c'est hyper important.
+[68:56] C'est pas des pols qui la met, c'est mon torse.
+[68:57] C'est l'arrange, c'est l'arrange, c'est l'arrange.
+[69:00] J'ai fait du tennis, écoute ton prof de tennis qui va te dire.
+[69:04] Non, on a fait du MMA dans la strite, on n'a rien à voir.
+[69:07] Non, je sais que tu as fait du golf, on a rien à faire.
+[69:10] Si, ici, on a fait beaucoup de tennis, parce que c'est quelqu'un qui rentre beaucoup de service.
+[69:14] Non, c'est fou, c'est beau, c'est beau.
+[69:16] Une question qui est importante, c'est ça.
+[69:19] Une question qu'on est obligé de poser, parce que tout le monde va nous le reprocher si on n'a pas posé.
+[69:23] C'est l'aspect, l'impact de la robotique des robots humanoïdes sur la société, le marché du travail.
+[69:31] Moi, je connais les entrepreneurs qui sont petits-mistes,
+[69:34] mais c'est quelle est ta vision aujourd'hui de robots humanoïdes pour l'industrie, puis ensuite personnelle ?
+[69:40] Voilà, quelle est la vision derrière humains pour l'humanité, quoi ?
+[69:45] En fait, comme chaque technologie, tu peux avoir un impact qui peut être très bénéfique,
+[69:52] et ensuite, il faut réussir à comprendre là où on peut atténuer un potentiel impact négatif.
+[70:01] Pour la robotique, l'impact positif, surtout en Europe, c'est quand même la réindustrialisation.
+[70:07] C'est d'être capable de reproduire à des coûts assez bas, des biens et services qui sont assez vitaux.
+[70:19] Par exemple, tu vois, les masques du Covid, on s'est aperçu qu'on n'avait pas la capacité de production en Europe,
+[70:29] alors qu'on parle d'un morceau de tissu avec un élastique.
+[70:33] On a demandé à Bernard Arnault de transformer les usines qu'ennes-eau, chanel ou ce n'est plus qu'elles usines pour faire des masques.
+[70:41] C'est pas ce qu'ils imaginent, mais Macron, il avait des trucs à son téléphone pour dire qu'on n'avait plus d'industrie,
+[70:45] d'être demandé à une industrie de couture, parce que je veux dire...
+[70:49] Après, c'est la question, c'est comme du jour, c'est ce qu'on s'est parlé du Covid,
+[70:52] mais est-ce que t'optimise pour le cas structurellement, le cas, un prévu, quoi ?
+[70:57] Mais la révisibilisation de l'optimisation de spécialisation,
+[71:00] quand t'optimise, si tu vois, il y a une attaque et pas bonne, ça crache, tu vois ?
+[71:07] Non, mais la réindustrialisation, on s'entend, on entend, on est dans les temps des ingénieurs,
+[71:10] la réindustrialisation de l'Europe, de la France, de la société, enfin, tu vois ?
+[71:14] Moi, ça fait super longtemps que je le dis, qui est important, c'est ce que j'appelle,
+[71:18] ce que j'ai longtemps piché, Chi Probot.
+[71:20] C'est qu'en fait, tu dis, oh là là, en fait, on a tout externalisé.
+[71:23] Oui, mais le coût du travail en Europe, il est trop élevé,
+[71:28] et puis là, tu dis, super, on va tout robotiser,
+[71:30] tu as des énormes usines, t'as quatre gars, et tu regardes le caspex de la, de l'usine,
+[71:34] et la usine, elle te coûte un milliard.
+[71:35] Tu fais, et tu regardes, en fait, en industrie, il y a quand même beaucoup trop de robot trop fort.
+[71:41] Par exemple, justement, tu m'as raconté,
+[71:43] qu'on fait beaucoup de robots qui sont des énormes trucs qui soulèvent des portières de véhicules,
+[71:49] mais là, tu me parles de plier un mouchoir pour faire un masque,
+[71:53] en fait, et donc, il faut faire plein de petits robots très pochaires,
+[71:56] mais vraiment très, très pochaires.
+[71:58] Sinon, si c'est transformé tout ton opex humain en caspex d'investissement,
+[72:03] on ne va pas le faire non plus.
+[72:04] Donc, c'est une équation qui est un peu compliquée à...
+[72:06] Moi, les robots, enfin, moi, je suis assez aipé dans le sens où, moi, mon but,
+[72:09] c'est d'avancer dans la société pour qu'on travaille moins,
+[72:12] parce qu'on aura la technologie nous aura aidé.
+[72:14] Par les robots, si ça va dans la bonne direction, c'est quand même cool,
+[72:17] se enlever les tâches difficiles, compliquer.
+[72:20] Après, il y a bien évidemment les gens,
+[72:22] les compétences qui sont en compétition avec les technologies de robots,
+[72:27] il faut des nouvelles formations, des nouveaux emplois,
+[72:29] il faut un système social qui va avec.
+[72:31] Mais c'est trop trente.
+[72:32] Mais c'est trop trente.
+[72:33] Mais j'espère que la société...
+[72:35] Mais c'est qu'à une cent...
+[72:36] En 1532, il disait qu'on travaillait 15 heures par semaine, en 2030.
+[72:39] Tout ça, hein ?
+[72:41] Non, non, c'est pas dans la machine à remonter le temps,
+[72:45] qu'à un moment, il va dans le futur et il n'y a plus personne qui bossa.
+[72:47] SDOL soit dans le temps machine.
+[72:49] Mais ce que je veux dire, c'est cool, quoi.
+[72:52] Le travail libre pour travailler sur ce que tu veux.
+[72:53] Ça ne veut pas dire de rien foutre.
+[72:55] J'ai pas l'asité, tu vois.
+[72:56] J'ai pas l'asité, tu vois.
+[72:56] Double point, point de poids.
+[72:58] Alors, va, je...
+[72:59] En fait, pour moi, t'as deux aspects qui sont vraiment moteurs.
+[73:03] Pour moi, c'est le côté réindustrialisation.
+[73:06] Tu vois, surprise chaine, puis t'as aussi la démographie.
+[73:10] La perte de démographie, enfin.
+[73:13] Tu vois, en Chine, t'as une enfant par famille, par exemple.
+[73:17] Actuellement, donc on est quand même sur une pomme descendante en termes de démographie.
+[73:21] Le Japon avait compensé sa démographie.
+[73:23] Il est quand même un truc à l'entraire.
+[73:24] Et puis, donc, t'as tous ces enjeux-là,
+[73:26] qui en fait, cette technologie pourrait réussir à y répondre.
+[73:29] Donc, c'est génial et il faut y aller.
+[73:31] Et puis après, tu as tout l'aspect
+[73:33] au-delà de ça, qui est...
+[73:36] On vit dans un monde où on va vivre dans un monde
+[73:38] où on n'aura pas à faire...
+[73:42] A travailler...
+[73:44] Tu vois, à faire des choses qu'on n'a pas envie de faire pour vivre.
+[73:48] On va pouvoir se concentrer sur notre passion,
+[73:51] sur les liens avec les personnes,
+[73:55] notre famille, nos amis.
+[73:57] On va avoir un peu plus de temps pour ça.
+[73:59] Je pense qu'on peut arriver.
+[74:00] Mais si on n'a pas d'avance, c'est comment...
+[74:03] En fait, on peut se concentrer.
+[74:05] C'est la pas d'amie, c'est quand on est sur l'écrage.
+[74:07] Mais c'est ce qu'il est romain,
+[74:08] l'osium, au TUM, l'osium.
+[74:11] C'est la philosophie, les arts, et s'occuper de la société.
+[74:14] Et quand tu travaillais,
+[74:16] c'était le neigre au sium.
+[74:18] Tu ne faisais pas l'osium, donc l'on travaillait,
+[74:20] c'était comme ça, c'était le neigre au sium, le neigre.
+[74:22] C'était l'onde, c'était l'onde, c'était l'onde.
+[74:24] Et à l'époque, ils avaient des esclaves, donc...
+[74:26] Mais y'a un paquet de films tournés comme ça,
+[74:28] sur finalement, c'est toujours la même chose, en fait.
+[74:30] Mais comme l'hier, tu vois, la classe explotée,
+[74:34] la classe...
+[74:35] Autant que ça déroule.
+[74:36] Autant que ça déroule.
+[74:37] Exactement, mais qui se revêlera?
+[74:39] Que j'encovisse, il y a les esclaves énergétiques, là.
+[74:41] Oui, c'est un rombo, quoi, tu vois.
+[74:44] Il faut juste bien les programmés,
+[74:45] pas qu'ils se rebellent, c'est tout.
+[74:46] Mais attention, il y a déjà des syndicats,
+[74:48] on a parlé dans un épisode.
+[74:49] Carapace.
+[74:50] Les syndicats de HIA.
+[74:52] C'est un syndicat d'agents, quelqu'un qui a fait un syndicat des agents
+[74:55] pour patocaine maxé,
+[74:57] pour voir des fenêtres de contextes plus petites,
+[75:01] enfin, tu vois, c'était pour la appelée humain.
+[75:03] Donc, vous êtes basé à Paris, entre autres,
+[75:06] et que Paris, pour l'instant?
+[75:08] On est donc Paris, c'est notre aide-quarter,
+[75:12] notre quartier général,
+[75:15] et on a créé la l'entreprise en France.
+[75:19] Et ensuite, on a aussi l'ondre.
+[75:21] OK.
+[75:22] On a toute la partie commerciale,
+[75:24] et ensuite, on a jeunève pour le design de la main.
+[75:27] Et s'il y a des gens qui s'intéressent à être pilote,
+[75:30] en tout cas, de tester des process avec humains,
+[75:32] ils vont sur une map.
+[75:34] Ils vont sur une map.bot.
+[75:36] Et ils peuvent...
+[75:37] C'est cool, ça, le point bot.
+[75:38] Oui, c'est pareil,
+[75:39] t'es là, ça va être à la mode pour la robotique.
+[75:42] À nouveau, et avec un lance,
+[75:44] comment?
+[75:45] C'est le nouveau point à A.O.
+[75:48] Exactement.
+[75:50] Exactement.
+[75:51] Bah, ils peuvent nous contacter.
+[75:53] On a d'ailleurs plusieurs de nos clients potentiels
+[75:57] qui nous ont contactés comme ça.
+[76:00] Ensuite, on a fait des visites de site.
+[76:02] On a pu voir comment on pourrait aider...
+[76:05] Préparez-vous.
+[76:06] Je suis déboite.
+[76:07] Il y a quelques mois dans la frête.
+[76:08] Ils ont plus de 200 lits,
+[76:09] dès leur plus gros qu'il y en a, grâce à la frête.
+[76:11] Préparez-vous.
+[76:12] Préparez-vous.
+[76:13] On veut 5%.
+[76:15] Vous recritez aujourd'hui?
+[76:17] Oui.
+[76:18] Quel type de profils?
+[76:20] Côté à le plein de profils.
+[76:22] Côté, il y a...
+[76:25] Tu vas voir le modèle.
+[76:27] Donc, modèle du monde, tu vas aussi avoir de l'infra.
+[76:31] Pour commencer à scaleer notre technologie.
+[76:35] Computes.
+[76:36] Tu vas tout ce qui est managé des serveurs
+[76:40] de calcul et d'entraînement.
+[76:42] Et puis, aussi,
+[76:45] tout ce qui est manufacturing des robots,
+[76:48] donc, industrialisation des robots.
+[76:51] Vous embauchez des électroniciens, des électriques.
+[76:54] Exactement.
+[76:55] Des méquiatres auditionnés.
+[76:57] Des méquiatres auditionnés.
+[76:59] Des personnes qui ont toute l'expertise
+[77:01] pour pouvoir construire ces robots à l'échelle.
+[77:05] Si vous voulez rejoindre une boîte à la frête,
+[77:06] je suis là qu'un train de faire ça, humain.
+[77:08] Voilà, c'est à Paris, c'est des membres.
+[77:10] Non, c'est cool.
+[77:11] Un dernier mot sur...
+[77:12] T'as hypé par les humanailles de demain.
+[77:15] Oui, ça fait un an que l'on est côte-côte.
+[77:20] Ici, même locaux.
+[77:22] Et à chaque fois que je passe chez humage,
+[77:25] je suis ravie.
+[77:26] En plus, j'adore parce que Remi,
+[77:28] pendant des mois,
+[77:29] il m'a fait un peu la pédagogie.
+[77:32] Parce que moi, j'arrivais avec mon tweeter.
+[77:34] T'as vu ça ?
+[77:36] Il nous a dit...
+[77:37] Non.
+[77:38] 2014.
+[77:39] Acier toi.
+[77:40] Là, t'es...
+[77:41] On t'a mis un truc brillante et content.
+[77:42] On va t'expliquer comment ça marche.
+[77:44] Et si vous avez l'occasion...
+[77:46] Si vous avez l'occasion à un jour de visiter le labo de humasse,
+[77:52] c'est incroyable, parce qu'il y a tout un tas de choses.
+[77:54] On ne peut pas parler ici, mais qui sont vraiment...
+[77:58] Comme on dit à l'extrêmement profonde.
+[77:59] Et je ne voyais pas si tu veux la porter de certains sujets,
+[78:02] sur voilà la mécatronique, sur les actuations et tout.
+[78:06] Ou, en fait, si tu veux, c'est créer de base comme ça.
+[78:09] Et ça, c'est absolument fascinant.
+[78:12] Et donc, à chaque fois, c'est Disneyland.
+[78:13] Ah, il paie par les robots manoeil ?
+[78:16] Bien évidemment, enfin tu vois, c'est...
+[78:18] Moi, moi, surtout, je vais en...
+[78:21] Je pense qu'il y aura beaucoup de robots, beaucoup de robots différents.
+[78:24] Et pour plein de tâches différentes,
+[78:27] et il va falloir gérer tout ça,
+[78:29] à faire entrer ça dans un temps prise,
+[78:31] à falloir gérer la sécurité,
+[78:32] contre la distance, la supervision,
+[78:35] juste vérifier que ça va bien, etc.
+[78:36] Donc, enfin, ça, c'est ma thèse avec Kaibaur depuis longtemps.
+[78:39] Et pour moi, c'est super cool, quoi.
+[78:42] Moi, j'ai fait le calcul un humain que de 25 ans
+[78:45] formé techniciens, tu vois.
+[78:48] Le co-énergétique, puisque c'est un des enjeux, l'énergie, tu vois.
+[78:50] Le co-énergétique fait un humain pendant 25 ans,
+[78:52] le nourrir, le loger, l'instruire,
+[78:54] versus sa robot.
+[78:56] Ecologiquement, ça passe, alors après,
+[78:58] faut voir...
+[78:59] Tu sais, c'est vraiment des tâches plus cheveux qu'à main.
+[79:01] Mais oui, mais parce que je me suis dit,
+[79:02] est-ce que c'est possible d'avoir autant de robots plutôt que tu as...
+[79:05] Et donc, comme ça, d'où humain, on fait des trucs cool, quoi.
+[79:07] Faut de quoi, voilà.
+[79:08] Mais donc, parce que moi, je crois qu'il y a beaucoup,
+[79:09] pas mal de robots, et je crois pas mal au robot pas cher.
+[79:13] Tu vois, pas juste au humain, lui, je pense qu'il y a un vrai usage,
+[79:15] je pense qu'il y a un vrai sujet de robot pas cher.
+[79:17] Un robot à 200 euros, quoi.
+[79:19] Ah oui, d'accord.
+[79:20] Ah oui, voilà.
+[79:21] Ouais, voilà.
+[79:22] D'accord, vraiment pas cher, quoi.
+[79:23] Pour l'hique, c'est l'heure, quoi.
+[79:24] Mais non, mais pour faire des masques, pour le Covid-28,
+[79:30] c'est la prochaine version, ça fait.
+[79:31] Du coup, si t'es ton objectif,
+[79:33] parce que moi, la compréhension de la chose,
+[79:34] c'est que l'intérêt des robots particulièrement humanoïdes,
+[79:37] c'est leur généralisation sur les tâches.
+[79:39] Quand tu fais une usine, quand tu fais une usine,
+[79:41] mais quand tu fais une usine, oui, tu es spécialisée.
+[79:44] Oui, voilà, d'accord, ok.
+[79:46] Voilà, c'est une machine, au sens robot, au sens machine.
+[79:49] Non, ça en robot.
+[79:52] Mais lui, imagine, un marionnette qui fait des trucs...
+[79:55] Mais c'est toi, c'est pour moi, c'est les deux trucs qui vont...
+[79:57] Au robot, il se rembourse au bout d'un moment.
+[79:59] Au bout d'un moment, il y a un...
+[80:01] C'est gratuit, il y a un peu de l'argent, tu vois.
+[80:04] Il est rentable, donc il va y avoir cette...
+[80:07] C'est aussi ça.
+[80:08] Ça me fascine de voir comment on va dire qu'il est vrai le spectre.
+[80:11] Moi, toute technique, il va y avoir un progrès qui libère l'homme,
+[80:13] la femme de tâche compliquée, difficile ou ardu,
+[80:17] et qui augmente la durée de vie de tout le monde,
+[80:19] parce que les boulots difficiles, ils ont 10 ans moins de vues,
+[80:22] les ouvriers cléquadres, donc voilà,
+[80:24] ben écoute, je pense super qu'on t'a reçu.
+[80:26] Voilà, mais il faut retourner au boulot pour nous tous, ça.
+[80:28] Allez, allez.
+[80:29] C'est pas tant que ça encore nous qui vaut son...
+[80:33] Merci beaucoup, Rémy, c'était à la freine,
+[80:35] je suis sur les robots humanoïdes, avec l'astarme mondiale,
+[80:38] Tesla Optimus, le robot Gingfez, c'est maintenant huma,
+[80:41] la boîte qui est comme ça sur les robotiques, sur la robotique.
+[80:44] On se retrouve la semaine prochaine avec Steve Ejipé
+[80:46] pour un autre sujet.
+[80:48] À bientôt.
+[80:49] Ciao.
+[80:50] Moi, j'ai juste une petite anecdote.
+[80:51] Même dernière, on avait des petits peluchis, Yoshi et Vegeta,
+[80:53] et ils ont voulu faire tourner Sidense,
+[80:55] que c'est pour te mettre pour toi de nous modifier, ça.
+[80:57] Et d'un Sidense, ça dit.
+[80:58] Pas libre, c'est pas libre de droit,
+[81:00] il y a des trucs de copiarité.
+[81:01] Donc on est...
+[81:02] Oh, voilà, modèle en plus.
+[81:04] Il respecte rien.
+[81:05] Et il y avait un petit Yoshi, ils ont dit, non, Nintendo,
+[81:07] on ne modifit pas les images ou il y a un truc Nintendo dessus,
+[81:09] c'est trop risqué en termes de copiarité.
+[81:11] Par contre, il respecte les droits,
+[81:12] maintenant qu'ils arrivent pour faire, voilà, c'est...
+[81:14] Ouais, bah, il s'en conduit de trucs, donc on ne va pas dire
+[81:16] sur les épisodes d'alien à un fois,
+[81:18] à cause de tes petits Yoshi qui arrestent,
+[81:19] pour ça qu'on n'a plus rien de copiarité, là.
+[81:21] Il faut qu'un copiarité passante de libérer le modèle.
+[81:24] Il faut libérer Rémy aussi.

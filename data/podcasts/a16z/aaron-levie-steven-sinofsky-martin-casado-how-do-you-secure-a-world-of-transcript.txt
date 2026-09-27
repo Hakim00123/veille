@@ -1,0 +1,681 @@
+The a16z Show
+Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?
+Sat, 26 Sep 2026
+https://a16z.simplecast.com/episodes/aaron-levie-steven-sinofsky-martin-casado-how-do-you-secure-a-world-of-ai-agents-v8Q401cc
+
+[00:00] But if you regulate AI too early, you actually don't solve anything.
+[00:04] You still just kind of have the same risk ultimately.
+[00:06] You will the thing into being, but you haven't figured out how to control it.
+[00:09] The problem we have now is this rift between the labs and the security community that keeps
+[00:14] coming to two conclusions, sloppy, and you're not complete in what you're telling us happened.
+[00:20] An employee is like 10% chance of species extinction.
+[00:24] The post is very reasonable, but the atmospherics are not.
+[00:28] Agents worms completely flip that.
+[00:29] These are just roaming drones, but like time is 10,000 and they will easily mistake a good
+[00:35] task for a bad one.
+[00:36] So now we need a whole layer internally that just is tracking way more about what
+[00:41] authentications are being done, what APIs are being done.
+[00:43] The US, about 15 years ago, stopped leading in tech antitrust.
+[00:47] The problem is that Europe is going to lead with that because they have nothing to lose.
+[00:52] This could change the nature of software fundamentally.
+[00:54] The center of innovation has just moved.
+[00:56] This is the signal that...
+[00:58] The early internet was riddled with viruses, worms, and security failures.
+[01:03] We didn't stop building it.
+[01:04] We learned how to make it safer.
+[01:06] What should AI take from that history?
+[01:09] In this episode, I sit down with Aaron Levy, Steven Sinofsky, and Martin Casado to debate
+[01:14] AI safety, regulation, and what changes when agents start operating across the software
+[01:20] we use every day.
+[01:21] We get into why agents could force a rethink of permissions and cybersecurity.
+[01:26] The decades of software security can teach today's AI labs and why regulating a technology
+[01:31] before we understand how it actually fails can create problems of its own.
+[01:35] And we look at a broader shift already underway.
+[01:38] As models mature, some of the most important AI in a nation may increasingly happen outside
+[01:43] the frontier labs in the systems and software built around them.
+[01:49] Guys, welcome back to the podcast.
+[01:52] Thank you.
+[01:53] Thank you.
+[01:54] We didn't think we'd ever do this again.
+[01:55] I can't believe this is great.
+[01:57] I mean, Martin's just building these $100 billion companies too busy for this podcast.
+[02:01] I'm probably taking credit for this as VCs do.
+[02:04] Exactly.
+[02:05] We've a lot to discuss today.
+[02:06] But Aaron, when we start with you, pacing the frontier, how have you reacted and reflected
+[02:10] on what's happened there and just the discourse that's followed?
+[02:12] Oh boy, I think we should start with Martin on this one.
+[02:15] You were fighting lots of good ground wars.
+[02:17] Maybe I'll say one thing that we probably all agree with, and then we can figure out where
+[02:20] we maybe kind of fracture off.
+[02:22] I think we would agree that any AI lab right now at the frontier should be building in the
+[02:29] safest way possible with the highest degree of governance and security and whatever your
+[02:34] definition of alignment is, this is an incredibly important area of research.
+[02:38] It's an incredibly important area for the diffusion of AI.
+[02:41] You're not going to have AI diffusion without extremely high quality products that can be
+[02:46] trusted by enterprises and that aren't constantly hacking systems.
+[02:49] So when, at least I read the Dario post, I actually didn't disagree with almost anything
+[02:54] because it was all about how do you have better security of the system, sandboxing,
+[02:58] better testing.
+[02:59] There's going to be some debates around the embedded nature of the testers and do you agree
+[03:03] with who those are and does the industry all align on that?
+[03:05] But I think actually all of the major points were probably salient and appropriate.
+[03:09] Then the only question is, does this get sort of user leveraged to do things that maybe we
+[03:15] don't agree with, which would be like a slow down of AI dramatically because of regulatory
+[03:19] controls that would sort of not make it easy to compete with the frontier labs or do politicians
+[03:26] kind of end up sort of taking the message and run with it and maybe even worse outcomes happen.
+[03:31] It's used to ban data centers far faster and whatnot and so I think the actual substance
+[03:36] of the topic is actually incredibly important and I think very important for AI advancement
+[03:39] in general.
+[03:40] Then the question is, what do you do about it, especially what do you do about it from a
+[03:43] regulatory standpoint and that's probably where the industry is going to land on very
+[03:47] different points in the continuum but Martin was putting up a good fight on let's make
+[03:50] sure that we don't use this for regulatory kind of capture, which I also agree with.
+[03:54] But I think the ideas in the pacing conversation are important.
+[03:57] Again, it's a little bit of a funny concept because maybe it's not even pacing as much
+[04:01] as just good hygiene and engineering and so with good engineering, obviously there is
+[04:06] a slight slowdown but it's a slowdown that obviously allows acceleration of your diffusion
+[04:11] because you wouldn't be able to have any of the AI be diffused if nobody would trust
+[04:15] using it.
+[04:16] The post is very reasonable but the atmospherics are not right so an employee is like this is
+[04:23] going to kill whatever 10% chance of species extinction and you know what Dario says?
+[04:29] I agree with him more than I disagree with him right like on TV the same day that he landed
+[04:36] these things and so in some way you can't have these conversations in isolation which
+[04:40] is of course if he's going to agree in species extinction, this post that he has looks like
+[04:47] this milk toast capitulation that's totally not adequate for the task at hand and so I
+[04:52] think the atmospherics are totally broken and a lot of my comments were on the atmospherics
+[04:57] and then I have this quibble but it really bothers me because I'm a pedant which is I
+[05:01] think pacing is the wrong way to describe this one yes it is orthogonal to security right
+[05:08] so you can very slowly build a nuclear weapon right and that doesn't make anybody feel better
+[05:13] than a slow versus fast so that's one the second one it just feels like a capitulation
+[05:19] to the pause folks without actually addressing it so you're saying well we're not going
+[05:24] to pause we're going to pace to make them happy but we'll also somehow make the regulators happy
+[05:28] and I think it makes them both unhappy because the pause people are like well that's not
+[05:32] a pause that's just pacing and the regulator you're still doing the thing right and so I
+[05:37] just feel like my sense of what's happening is the labs are actually trying to do the right
+[05:41] thing and I applaud them for that I think this is a pragmatic proposal and I applaud them
+[05:45] for that I think the messaging is wrong because they're trying to like split the difference
+[05:50] between an internal kind of fringe faction which are doomers pause and then the regulators
+[05:55] on the other side and the problems are making both of them unhappy and I think what they
+[05:59] have to do is they need to come out they need to address the x risk question directly they
+[06:04] need to say no we don't think this stuff we're going to do is going to cause extinction
+[06:07] and then I think this becomes this very sensible and what would you do just to play the other
+[06:12] side for one second what do you do do you make room for the one possible Venn diagram which
+[06:17] is the lab researcher that is both simultaneously super scared but also works on advancing the
+[06:24] state of AI because they believe that it's so important to get right that they want to
+[06:30] pursue that and then obviously the language is right now very problematic but that person
+[06:35] does exist and that is a real kind of person in our industry which is like we have to be
+[06:41] at the forefront of AI I'm also very scared of it and so that's why I'm working on this
+[06:45] so let me address this directly I used to work for Lawrence level one national labs on
+[06:48] a weapons program nuclear weapons I know what it's like to work on things that have access
+[06:52] you were the first pacer so if a constituency within the labs that are the most knowledgeable
+[07:04] people believe the stuff has existential risk yes the answer is to nationalize it and actually
+[07:09] put controls that we know that work right now if they don't actually believe that and
+[07:14] in the private conversations I have the most sensible people don't it's a small fraction
+[07:18] that do this is an HR problem right so to me an HR problem is a company problem like
+[07:24] if they are worried that they can't recruit people right or they can't retain people which
+[07:29] it seems to me a lot of this is just that concern it's almost more of this kind of research or
+[07:33] currency if that's the case mm-hmm I think that is the wrong reason to cause a national
+[07:39] level lockdown on a very promising technology so listen I think the post again I think the
+[07:44] post is actually very sensible I think there are real concerns around security we've had
+[07:49] many compute epochs that have real security concerns I don't think you can reconcile discussions
+[07:55] on X risk with the proposal that was put out you just can't reconcile those two things and
+[07:59] that's always been my primary right right okay unleash the first thing is is there a schedule
+[08:09] that they published that says wait all this stuff whatever bad stuff is gonna happen
+[08:14] is gap they haven't so you can't pace it because nobody knows what it was supposed to finish
+[08:18] in the right it all it all just seems disingenuous to 100% like you can't claim it this is like
+[08:23] when the press reports on Apple's latest iPhone is late from what nobody knows exists
+[08:29] I haven't told anybody yeah my apple car was very late yeah I don't understand in order for
+[08:35] something to be slower you need to know the rate it which was moving in the first place
+[08:39] so it's all just the utter nonsense and you can't escape that and then by the way this
+[08:44] is another problem that like again from my little quibble on PR is nobody believes it anyway
+[08:51] right and so that's the thing we would correct the pacing right we know what they're going
+[08:56] to pace that they're going to pay I say I've been at a dead run they've raised more money
+[08:59] than ever before and faster than ever before there's no indication that they're pacing so
+[09:03] this is what you're gonna hang your I say I say yeah well well the issue obviously is that
+[09:07] the model that everybody has internally far seen what anybody else has access to so that's
+[09:11] part of the it's really just the pacing of external releases but again back to your point
+[09:15] pacing versus what right we don't know if the one that scares everybody also doesn't work
+[09:19] for a legal brief it might actually screw all that stuff up because it's so who knows right
+[09:23] so there's that and it's just disingenuous to claim that you're paid second why do they
+[09:29] have to announce all of this and ask the government to tell them to be like that's the part that
+[09:34] it starts to go well this is really spooky if you are the most afraid of how everything
+[09:37] is going to go because of your product just stop don't do it like this like I worked at
+[09:42] a missile factory in college and we had nuclear missiles and I walked the floor it's with
+[09:47] you guys in missiles I don't know I'm just here with software I guess in one of two people
+[09:54] in college and we were which was here you were protesting to keep them off campus or building
+[09:58] through I don't know that that's your choice and like we had like like nuns from the Catholic
+[10:07] church show up and poor blood all over our missiles and you know and I'm busy just wheeling
+[10:12] PCs around on parts saying here's your PC and I'm like scared to the I've no idea what's
+[10:16] going on and I'm like it's a nuclear missile and then you find out that that's what stopped
+[10:20] the Cold War like that literally it was a purging missile and that was what did it and so but
+[10:25] that you said something and I think it's super interesting which is pacing is this sort
+[10:29] of fuzzy non-word between like it going and not going yeah and the problem is it you're
+[10:38] exactly right like that it there's no one is going to be happy with the middle road and
+[10:43] so one of the things that that people I think it's almost fun for me to watch as a sport
+[10:47] they think that they're that all these people saying to the government do this don't do
+[10:51] this that they think they're gonna get what they want and it's a complete hundred percent
+[10:56] misunderstanding of how government works which is you when you talk to the government they
+[11:01] actually know how these things work and they know they're just listening to you and they're
+[11:06] listening to everyone and no one is going to get what they want because they know in order
+[11:11] to do anything in our system it's a compromise and so everything that that all the inputs
+[11:18] can make it into the government the output never makes everyone happy right hundred percent
+[11:23] of the time it either doesn't go far enough or it goes way way too far yeah and so you can't
+[11:30] take the view that you're going to talk to the government and talk your way into the solution
+[11:34] you want so the bottom line is that they're asking for pacing they're going to get the wrong
+[11:38] velocity well my favorite thing is like it was was it David Saxles like I think it was David
+[11:45] Sax but someone from the government said you're asking us to regulate you no the answer was
+[11:53] no I'm just trumpeting the thing that they know now that that you just know from experience
+[11:59] is once the wheels start on regulating you cancel that one down of course and now it's
+[12:04] become an election issue for every party in every jurisdiction up and down the whole government
+[12:08] stack so there is now this this whole basket goods basket of regulatory approaches well
+[12:14] the next election will hundred percent be a referendum on on AI so like it has to happen
+[12:20] that that 2028 is like the AI election and you could basically run on the problem is
+[12:27] is like it's not obvious who would run on the pro AI story because it would be it's going
+[12:32] to be too nebulous to tell that story so then it's just it's just basically varying degrees
+[12:36] of how much do you regulate it or at least try and like avoid the topic yeah but it is
+[12:41] it is too bad that we've we as a country are in a spot where like the pro AI case is just
+[12:46] like it sounds to it's like it's just like takes too many words you know it's way too
+[12:51] long it's defensive it's defensive yes and we we own none of the vocabulary right so right
+[12:57] the whole debate is is is pause it's it's swarms it's rogue every word has been chosen by the
+[13:05] people who don't want to do AI yeah and so it means the first thing you have to do is
+[13:09] invent new words and say that their words are wrong which takes so many words that yeah
+[13:14] so we got to be like union jobs and in you know cancer and like you know there we need
+[13:20] you know there needs to be another word cloud that emerges what I would I don't what I don't
+[13:23] understand is why the labs have not taken a position on x risk like short of that I think
+[13:29] this goes in any direction other than heavy-handed regulation yeah well it would just be negligent
+[13:34] of the government to be like there's a 10% chance of species extinction the CEO of the
+[13:39] top company says he agrees with that like how can a government not do you have a regulation
+[13:44] well but what but what would anybody really knowing the knowing this this ecosystem though
+[13:49] I don't know that you would be able to pin anybody down on that other than something no
+[13:53] I was a dar you said it on no but I'm saying you're not gonna pin anybody down on a lower
+[13:56] well in fact he he he does the worst thing about it which is he agrees with people who claim
+[14:02] that they believe that there's an X percentage of extinction happening but he will he specifically
+[14:08] is out of his way to say I'm not gonna put a percentage on it mm-hmm which I just think
+[14:11] is the weirdest no but that is to be fair to be fair no okay no nobody could be fair
+[14:17] ah to be fair the that's like it's not a hundred percent like um uh like disingenuous or whatever
+[14:25] like like he probably doesn't specifically agree that it's 10% or maybe he does and it's
+[14:30] just too scary if you were to say it let's just play binary search but I mean is it more
+[14:34] or is it less than that but the whole thing is it made up you know is it made up concept
+[14:40] that we just create but like nobody can you can't quantify any of this what about that
+[14:43] so martin's point would have been but you just had an official position though so the only
+[14:47] official position would be like I think the only official position you could possibly get
+[14:51] would be the PR version of this that would be the only thing that would be intellectually
+[14:55] honest would be there are real risks with AI there's incredibly positive benefits as well
+[15:00] I don't we are working to mitigate the risks so they are as reduced as humanly possible
+[15:04] I don't know I don't think that's true listen so wait what do you think the we've been through
+[15:08] multiple epochs of technology yeah we've been through compute we've been through the internet
+[15:12] we've been through the web we've been through some networking we had a discussion about the
+[15:16] risks without talking about extras right so for example one thing you can say is that we do
+[15:19] not think the marginal risk for species extinction is different right than it is but what do they
+[15:25] do think it is higher well then I think the answer is they do think it's more than just
+[15:33] they don't have too often to believe that we're gonna go interesting to shut it all fucking
+[15:37] down like shut it down they believe it exists a chance that we got it no one like depending
+[15:48] on you know they ran a lot of simulations on the chances for nuclear war great movie
+[15:53] war games about the whole thing all of that but the thing was it was it was non-zero yeah
+[15:59] and so once you said it was can they say no can they say non-zero then I think as soon as
+[16:04] you think it's not zero the problem is if you say non-zero that could be like you know shit
+[16:08] maybe I think 93 percent just so we're all having a thing conversation let's talk about
+[16:13] marginal risk yes yeah we're not talking about absolute risk right yes right okay it's just
+[16:18] that I think if it once you say it's non-zero the only answer of like catastrophic
+[16:24] for my fault the only answer is you have to nationalize it yes and so right what he's trying
+[16:29] to what the the labs in general that have that view or trying to threat is they want it
+[16:33] to be non-zero as a license to do a certain set of things without the burden of just becoming
+[16:41] an actual what do you do you have I actually don't know all of the precedents you hopefully
+[16:45] do but but like there must be some things that are non-zero let's say x-rich x-rists that
+[16:51] are not particularly nationalized but the but the regulatory environment around them is
+[16:55] so heavy that it might as well be nationalized because of the KYC requirements on well like
+[17:01] like I'm sure like to develop anthrax you have to go to a particular kind of lab well
+[17:05] L4 labs okay but they are nationalized they are nationalized they are nationalized yes
+[17:12] like normal human safety not so much like industry oversight that over time becomes federal
+[17:19] regulation right and the progression which I think is just super important to this discussion
+[17:23] has been since the post World War II era most industries that are critical to the infrastructure
+[17:31] power and banking and healthcare the trend has been to basically be nationalized yeah
+[17:38] by by just like what you like your examples of KYC and all the other stuff the banks are
+[17:43] for all practical purposes nationalized and the financial crisis but okay but you said all
+[17:48] practical purposes right they're literally not nationalized right so so maybe that but
+[17:52] this might be the intent of the labs is to look like JP Morgan or look like Verizon and it's
+[17:57] just like we're critical infrastructure we get right heavily regulated it's not good
+[18:01] for open source or at least frontier open source but it's a it is like it's it's like a plausible
+[18:06] outcome for this industry in the limit for innovation is the pro I think even that's fine
+[18:11] just don't use species extinction sure as your area is like the difference between the things
+[18:17] that are like stuck in the lab and let me just say something I actually think the labs are
+[18:21] moving in the right direction yeah I actually think the actual statement was really good you
+[18:26] know in my discussions with you know executives and leaders like they understand that they
+[18:31] have like this tension and they're gonna reconcile it so I actually am quite optimistic
+[18:35] that the labs above doing the right things and trying to do the right thing I just think
+[18:39] that grew so fast grew so fast and just trying to figure out how this machinery works I think
+[18:43] Sonoski really hit the nail on the head I mean typical processes its own is its own thing
+[18:48] I don't think I don't know if it's naivety or hubris but I just don't think that they kind
+[18:52] of know how to navigate it well I think the tech industry has literally over a hundred
+[18:57] years consistently relearn the lesson at each technology wave it that that we don't understand
+[19:04] the regulatory climate and can't navigate it and even the companies like AT&T and IBM
+[19:09] that were born out of basically being government monopolies from the start never figured out
+[19:14] both that seemed for antitrust both got substantially and structurally changed as a result and they
+[19:19] had hundreds of lawyers in the 1960s navigating them and that you know Microsoft came along
+[19:25] like we were just like what yeah like we had no idea what was happening to us and there's
+[19:31] you know there's Bill Gates playing golf with Bill Clinton and then we get slapped with anti
+[19:34] trust laws for his administration and Bill was like I was playing golf and that doesn't help
+[19:40] and like isn't that what I supposed to do was go and play golf that's a shortened version
+[19:43] of those bad but I think and I think it's just it's I always use this example which is
+[19:49] the Hollywood got together during the the red scare and all and and censorship when they
+[19:54] were worried about the government censoring movies for for for sexual content for adult
+[20:00] themes and they all got together and and of course they were never been able to win in court
+[20:04] if they tried to but they were gonna threaten to do it and they got together and they formed
+[20:09] the motion picture association and movie ratings and all that and they policed themselves so how
+[20:14] do you do you like do you like the FINRA proposal okay because FINRA is that's as close
+[20:20] to MPAA as you can get with no it's not because it is gonna it FINRA becomes legislation which
+[20:25] comes with direct oversight yeah I think MPAA might not have as much consequence in like
+[20:31] house society yeah first of all fantastic but but but I still don't know if you want it
+[20:44] like I agree free speech is really important but like but like you know like the I just
+[20:51] think there was no societal risk I just think what's in our movies will be like we'll survive
+[20:55] like I'm like a different continuum of every history is always relative and and at the time
+[21:02] being a communist was a really bad thing and 30% of Hollywood got fire for you know is
+[21:07] all this stuff yeah so I it's always a risk to bring up something in that kind of way because
+[21:12] it sounds so dumb like nobody thinks about movie ratings and that's right like actually they
+[21:16] were ruled basically you can't constitutionally mandate them so they couldn't regulate them
+[21:20] on cable TV and so we got to grow up with HBO and all this other stuff yeah but the problem
+[21:25] with FINRA is that is a perfect example of essentially nationalizing risk yes because even
+[21:31] though the banks all pay money into it and that's how it's run and stuff it's all mandated
+[21:36] okay wait sorry you think we're gonna end up with a situation that is better than FINRA
+[21:40] it appears to be the best case scenario it is the best case scenario but not even anymore
+[21:45] like like I do think this this technology is in the limit again so powerful relative to
+[21:51] what I mean for what it can deliver that it would be impossible for eventually Congress
+[21:57] not caring about that that's like it's like not possible that's just like if it's if it's
+[22:01] eventually if it's eventually making every recommendation in your health care process
+[22:05] and and it's inside of your medical device as an open weights model and it's and it's
+[22:09] all and every trading system for high frequency trading there's just and it's on an airplane
+[22:15] like there's no chance that the government doesn't say we need something where FINRA actually
+[22:19] is like the probably the best case scenario of what that looks like right yeah and so now
+[22:23] that's a that's absolutely the most crucial point because if you all the people in the
+[22:27] Senate now we're in the Senate when when the Communications Act was passed and the light
+[22:32] and liability was not passed through to ISP right into social networks and they sat around
+[22:38] the debate at the time was they would literally say to us the internet is so big how did we
+[22:44] not have anything to do with it and that's why Al Gore gets a bunch of abuse for saying
+[22:48] he created it right because he he was actually trying to get out in front of that and so no
+[22:52] the government was instrumental in and it all backfired because it made it look like he was
+[22:56] a crazy person but but that it is absolutely the case that they felt like they did they missed
+[23:03] their chance to be on top of the internet with Al Gore being on the positive side of the innovation
+[23:07] well that was their fault yeah they so who is the Al Gore there's no one there's a couple
+[23:13] well that's it seems to be right right that you know the defense people sort of wanted
+[23:17] private but not which is exactly where they were on the internet right and so it's very
+[23:21] interesting that a lot of this is just this like Elizabeth Warren's Senator Warren's tweets were
+[23:26] all like we missed this for social networks and it's like there's a lot of pent up energy
+[23:31] against tech that that could end up just all siphoning into into AI right now that is exactly
+[23:37] what it is that's what's happening yeah I think there's another problem which is we're all trying
+[23:41] to predict what's bad which is not how we've normally done things like by this time on the
+[23:46] internet we've taken out like tens of billions of dollars of like economic well we've caused tens
+[23:52] of billions of dollars of economic damage we've we've had words that took out 10% of the infrastructure
+[23:57] yeah that the internet infrastructure which was running critical infrastructure we had hospitals
+[24:00] go down we really should have blocked the internet in like 97 how do we yeah okay yeah okay yeah
+[24:07] I mean I remember when you would you would you would buy your CD of windows 95 and by the time it
+[24:16] was done installing you would have a worm potentially way to go Steven no no it was it was it was in
+[24:24] reality the reality the PC until 2001 yeah was you could not install a PC connected to the network
+[24:31] without getting infected viruses were everywhere for the time and there were there were two every
+[24:36] two level two two rounds of congressional hearings you had all the same that is actually okay okay
+[24:41] okay I'll agree that's a very interesting point uh this type of zeitgeist in 94 would have we would
+[24:48] probably not have the internet listen listen listen listen listen I mean the automotive the airline
+[24:51] edition you always have these periods of kind of like teams cutting where like you learn about the
+[24:55] dangers and you learn about the technology and the internet I mean we were on the ground floor
+[24:58] because I mean things were down all the time there's economic damage all the time like there
+[25:03] was like novel really there was new viruses their new worms are all over the place y2a y2k was gonna
+[25:08] destroy the world here's the here's the interesting thing about this but what it's just I just want to
+[25:12] say like like so when we created policy and we did create a lot of policy it was kind of like with
+[25:17] a bunch of very specific data points on what you're trying to do is so you know that the policy
+[25:21] actually fits the the fact pattern and in this case I mean even when you were talking you're like
+[25:26] well what if you know yada yada yada and it's very hard to predict a policy when we don't know that
+[25:31] now one area we can talk about is there seems to be novel cybersecurity risk great and what is nice
+[25:37] about the discourse and it's actually starting to evolve around that like you actually hear people
+[25:40] from the lab saying novel cybersecurity risk this is an engineering problem we're talking about that
+[25:45] so the more this becomes concrete around real identified risks I think we can all fall in line
+[25:50] but that's not been the discussion today that's a very perfect thing perfect perfect point because
+[25:54] if you look in in in 1986 the computer crime and fraud act got signed it was out of a very very
+[26:02] specific scenario which was two groups of hackers broke into gte telemail and one of them lived in
+[26:08] my dorm go figure and sure no it wasn't you he worked at Cisco Larry and and and the problem was
+[26:20] that was 1983 and there was no crime and it took two and a half years for the bill to make it through
+[26:27] that made it very very specific and that's the law that says you can't you so you can't access
+[26:32] unauthorized computer systems so I think we'd all agree that that you we probably you know we
+[26:37] probably have like 90% of laws already in the applied layer like you can't hack systems etc
+[26:42] do you think there's anything that should be from a liability standpoint in the model layer
+[26:46] which of course then wait and now are you making it legal legal no the legal everything my read
+[26:52] of of hugging face open AI yeah for they're all absolutely blatant computer crime acts except
+[26:59] for the fact that there's they carved out an amendments later that if you're a white hat it's
+[27:05] not illegal anymore and that was because people kept making mistakes and and they didn't want to go
+[27:10] around arresting everybody who was actually trying to make the system better because they messed
+[27:14] something up and so the justice department wrote a memo that said we're not going to prosecute
+[27:18] for for this and we're also not going to prosecute if you just like violate the terms of use right
+[27:24] of a system versus actually try to breach it uh-huh and and so I think the law is ample for this
+[27:30] for the scenario and and it was all written this GT telemed was used by NASA and Livermore and all
+[27:35] the labs yeah and so that's why it was it caught the attention of DC because it was federal systems
+[27:40] that were being broken into and the problem we have now is is this is this rift between the labs
+[27:46] and the security community that keeps looking at all their post-mortems and coming to two conclusions
+[27:51] sloppy and and you're not complete in what you're telling us happened and so of course the
+[27:58] CBE process came about in the 1980s the computer virus and vulnerability reporting stuff out of
+[28:03] CMU and and for years they worked on very structured reporting with obligations and how to and
+[28:10] for some reason they're not using any of that to do this reporting and so there is this very basic
+[28:16] stuff that I look at and say well until they're doing that they really should stop talking but they
+[28:21] shouldn't do a post-mortem on a breach that looks like an intern wrote it and it's not a post-mortem
+[28:26] it's this selective memory it looks like exact narratives trying to post-mortem you do when you hire
+[28:31] outside lawyers to investigate some random thing and you only give them certain stuff because you
+[28:37] don't have to give the lawyers you hire all the information about what happened yeah like where's
+[28:41] all the slack messages where's the actual details of what happened can I can I just interject an
+[28:47] annoying aside so which is which is which is very in line with this which is um
+[28:54] oven in the security like the actual cyber security committee for a long time
+[28:58] and it is you know it's always been one of these things where like they just don't like practical
+[29:02] solutions so even if you build like you know a secure system like well what if somebody you know
+[29:06] shows up oh yeah yeah you know like you know can rustle crow can like break the encryption
+[29:10] or something like that it's mission impossible so yeah there's always like these kind of like
+[29:15] whatever so my favorite thing that happened recently was like gnome brown yeah it was some
+[29:18] podcast we've all said stupid stuff in podcast of where you said oh you didn't like this one
+[29:22] no it was great no it was fun no it was fantastic i'm setting it up oh yeah yeah yeah so so no brown
+[29:28] I was like listen you know uh you don't know what a super intelligence could do it could maybe use
+[29:32] like the heat of a uh cpu to exfiltrate us off to another computer which this brought me back to
+[29:38] my hand okay okay now i'm very comfortable yeah yeah right now i can have endless pointless
+[29:43] discussions on this but what is interesting is you basically have the access people saying
+[29:48] something if that was plausible and then you have like the security people having this kind of endless
+[29:52] discussion i saw i think it's some level now these communities are being bridged which was like
+[29:58] you know i actually think that was a very reasonable thing from gnome brown to say
+[30:01] i think you can pick holes in it but we all say we're stuff on podcast i actually think
+[30:05] exfilrist is real i mean i worked in secure computing environments that were highly classified that
+[30:11] you would the covert channels were unbelievable but you'd actually i mean so these are very real
+[30:15] comments but like we actually have a real discourse and it was the first time i saw really hardcore
+[30:19] systems people having pretty caught like i would say constructed but they were calculating the bit
+[30:24] rate yeah it was great but it was a constructive discussion and like you know you had like the
+[30:28] kind of the the typical extras people were engaging of course it was it was twitter so there's like
+[30:32] a lot of name calling this and that but it was actually i felt like a real discussion for the
+[30:35] first time so i hope we see more of this i know we see more you know you know cyber related
+[30:41] things i think the lab should talk more about it i think it'll engage the community and i think
+[30:45] once that happens we can actually well Greg yeah Greg's been out there a lot more on this topic
+[30:49] which has been which has been good but i think the takeaway is gnome brown should be doing more
+[30:53] brainstorms on podcasts i thought it was just it opened people's eyes to the fact that actually
+[30:59] there's a lot of risks yeah security that most people don't understand yeah and so that means
+[31:04] that there's more stuff that that like you can't make baseline risk you know like how is your
+[31:10] authentication layer work you can't just wave your hand and say that should go away and then bring
+[31:13] up oh but you know space aliens can and that's a little bit of what was going on that i felt uncomfortable
+[31:19] but like what do you mean like it was sort of like but you know there's also this risk
+[31:24] oh i view that of the heat thing but at least for now we're now in a
+[31:28] in a domain where comfortable like i can talk about entropy and i think we can actually have a
+[31:32] concrete discussion that's not oh well it's super powerful right because we've reduced it to like
+[31:36] the laws of physics and the laws of sense although and most people did oh i would say most people
+[31:40] had no idea that that that kind of risk was real i mean like when i'm walking around the purging
+[31:45] missiles i actually had to test the graphics cards and PCs because a d o d requirement
+[31:50] is that the screen memory not be sustained when you pull the power oh but not for zero time like it
+[31:56] the minute that the power went off the memory image how to go and if there was like a three-second
+[31:59] delay yeah oh you you you had that could be read oh see you see we we had people that came into our
+[32:05] offices and would literally measure the distance of the monitors to each other because of tempest
+[32:10] attacks okay yeah which is a hundred percent away to use electromagnetic radiation to leak
+[32:14] information i've seen the same thing with spread spectrum from the bios i've seen it from i've seen
+[32:18] it from from audio speakers like we had to remove the speakers up we have some very high better
+[32:22] our building our buildings are all very real things our building had had just music speakers
+[32:27] aimed at the windows yeah just to produce interference you need to go run safety at one of
+[32:31] these labs this is like i've never seen you at more excited than he you know based communication
+[32:37] i tell you the craziest comfort channel i've ever seen so it turns remember the old CR i know
+[32:40] this is like one yeah so i'm glad that someone's older than me not really but i think it so remember
+[32:46] the old CRT so it turns out if like let's say it's night and you're using a CRT terminal in your room
+[32:52] the lightest thing in the room is actually the pixel that the raster beam is on so most people
+[32:55] think it's like the glow of the monitor but it's actually that given pixel so somebody figured
+[33:00] out that like let's say you're in like you know a hotel room and you're on your computer if you have
+[33:05] something that can sample the color of the window you can reconstruct the screen oh that's crazy
+[33:10] right you just do it at the same Hertz that the raster beam is moving and somebody else figured
+[33:14] out if you can subvert three pixels you can use those you know because it just looks like bad
+[33:17] pixels you can use those to basically send a message so like you could literally like sit out
+[33:22] in right whatever like your own sos you sample the message and you can it is a relatively high
+[33:27] bandwidth one-way communication and so like what no brand was saying like maybe heat is not the
+[33:31] way to do it but that level sophistication is actually real I like that's a that's a thing my
+[33:36] when I was at the missile factory like I had to lock my keyboard up I that's really an
+[33:40] impolite word but that's what we call it I had to lock my keyboard up at night because they didn't
+[33:45] want the custodians who didn't have clearance walking by and and just noticing which keys were
+[33:50] dirtier or cleaner oh yeah and I once left it out and there's like a note from security you know
+[33:56] telling me to report to security and pick up my keyboard like the guard who walked the hallways
+[34:01] just took the keyboard that night off my machine and that's like baseline I was not
+[34:04] clear I was just had sensitive you know I was like nothing I was an intern big problem with
+[34:08] this conversation is now this is all in the training data of every AI model in the future so but that's
+[34:14] also that's also the threat but that's the threat model for these things is always you've
+[34:20] got to trust a side and an untrusted side yeah NIST has 500 page manual okay this is already
+[34:25] out there again and untrusted side you assume basically an oracle that can do and know everything
+[34:30] and then the question is can you get information off the trusted side which by the way is what
+[34:34] no one was saying which again this is actually quite which I do think brings up a super interesting
+[34:37] point which I'm gonna bridge which is just that I think the thing that people really aren't
+[34:41] wrapping their heads around and are using the language that's really confusing is just that
+[34:45] what AI can do is it can try all of those things in a very short time yeah and and it doesn't get
+[34:52] tired it doesn't get bored and you know and so but the interesting thing about it is there's a whole
+[34:57] layer of security that you now have to go look at every single API every single service you're
+[35:01] running internally on your network as like you know like nobody thinks that their internal
+[35:06] github or their internal slack or internal finance expense tool is is vulnerable to a denial of
+[35:12] service attack but swarms will do it look literally look like a denial of service attack yeah and so
+[35:18] now we need a whole layer internally that just is tracking way more about what authentication is
+[35:23] being done what APIs are being done yeah and and but that's just like now it's just going to be
+[35:27] basic and and all the offset people that are old are like mailing me like why are we swaying
+[35:32] to the steps so basic because nobody did it internally yeah and well you don't have to worry
+[35:38] about it for your people and that's the like but now your person is just a piece of soft yeah or
+[35:43] like unlimited and and the has a credit card yeah I mean we you kind of got by with with information
+[35:49] security like to some extent uh on the fact that most people will do the right thing 95 to 99
+[35:57] percent of the time wait is that fine the malicious employee is like one in ten yeah yeah yeah so so
+[36:02] like so all these systems are basically open to whoever wants to access them or like one tap on the
+[36:09] shoulder and then you have access and agent swarms completely flip that because they will these
+[36:15] are just roaming they're roaming drones yes and but like yeah times 10 000 and and they will easily
+[36:21] mistake uh like a good task for a bad one and vice versa so so the the data security in our systems
+[36:28] is a this is going to be a huge upgrade moment i i actually i like i think that actually we're
+[36:33] going to need a different access to the security model yeah going forward yeah so where are we going
+[36:38] to go on that because the model we have is not granular enough yeah and it's not performance enough
+[36:42] to handle this stuff so i'll just step back i'll say like a metacom like a meta point which is
+[36:47] i think this is how these conversations should go we've identified a novel risk which is like cyber
+[36:51] security which we actually have proof points and now we're talking about solutions i think the
+[36:55] entire discourse around AI can be of that form and that's the biggest mistake is that's not what
+[36:59] it's been uh like i think the entire industry and community is very happy to engage exactly like
+[37:05] this yes and i have something to say about exactly what you're asking about i'm saying like i think
+[37:08] this is what the conversation should be yeah so we're we're known for having healthy conversations
+[37:12] that everyone should learn from so so so so here's the thing um i don't think there's a
+[37:19] technical limitation here like these threat models are very well understood and i've been in
+[37:23] the literature for a long time i mean like the operating systems research the um mls the multi-layer
+[37:29] security research has has considered these sorts of things from an academic lens the reason it
+[37:34] hasn't been adopted is just tended to be a usability issue it's like it's just really hard to maintain
+[37:39] and you didn't have to so you could argue that AI solves the usability issue because it's AI is
+[37:45] using it so maybe now it's going to be a renaissance in operating systems and networking computer
+[37:50] languages and we should like go back to the old research and we should kind of start rebuilding
+[37:55] Cisco systems that are secure by design and oh by the way if we don't think that you know these
+[38:00] things are safe to put out we don't put them out until we have these systems built and and oh by the
+[38:05] way the AI is very smart so they can help us build it and so i think again like computer always
+[38:10] about like you know how much of the stack we had to change for the internet mmm everything right
+[38:14] tell me about it and you know how vulnerable everything was like like we could be in one of
+[38:19] those moments like oh shit we got to rethink everything and that's fine we've done that before
+[38:23] but but i think that's a conversation we should have so i agree it's time to think about evolving
+[38:28] these things well like look at like here you mentioned earlier like there's booting a pc and
+[38:33] getting a virus in 30 seconds or whatever so if you look at how like you take an iphone out of
+[38:37] box which a lot of people are doing this week you know the what happens is it the whole network is
+[38:42] basically shut down except for getting the latest version of operating system because it doesn't
+[38:47] even though it was pressed you know six weeks ago you know there's some zero-day thing has been
+[38:52] discovered since and so actually the whole out of box process now involves first step update doing an
+[38:58] update where the device can't do anything else and it can never do anything else until it's updated
+[39:04] that's like like there are all these things that we've learned that we turned off in all of
+[39:09] this desktop software of the era that used to be good things like it was having a macro for words
+[39:15] so you could build automatic citations or something it was like the super cool thing until it became
+[39:19] a part we had a thing where you could put a CD in and it would just arbitrarily run a program
+[39:24] and so then what somebody did was like oh well i'm gonna burn a clone of that CD and replace the
+[39:28] program with my virus but it's gonna look like the thing that's supposed to run and it's just
+[39:33] collecting all this stuff and being evil yeah i mean disable that and so what one of the things
+[39:38] that's happening right now is we there's a whole bunch of stuff that happens on like you on your own
+[39:44] box court network that actually is gonna have to just change as the standard procedure two-factor
+[39:50] of five years ago was not standard in most places the whole your whole like your whole sass world
+[39:56] like i remember in like 2015 or so when when you would talk to a new company about their all
+[40:02] we're gonna do enterprise pricing and whatever and then you realize the first thing to do would go
+[40:06] do octa integration and or google off because they could not have their own directory of how to
+[40:13] manage it and then that just became a thing and there's not a sass program anywhere that doesn't
+[40:16] just launch right with managed authentication right and so there's just so many things
+[40:21] that need to happen before you you're even software now yeah well yeah we're uh i mean
+[40:28] there's probably every layer of the stack has to evolve a bit on this like even the like a lack
+[40:33] of granular nature of like you know you have these modes of like the agent will either ask you every
+[40:39] single time you know if you if you want to you know give a permission to do something or the exact
+[40:44] opposite of like it can just like delete your entire computer right and like our OS probably
+[40:48] wasn't built for the right level of of granular set of of tools you want to give the agent um we've
+[40:55] kind of done a lot of work work in this space because obviously like you know do you want to
+[40:59] give an agent exactly like your entire file system probably not right maybe in some cases you do but
+[41:03] oftentimes you want to have granular controls of like in this folder you can do read right and in that
+[41:08] folder you can only do read and and so how do you kind of make this all intuitive for the user so
+[41:13] it's very difficult and so so there's good like yeah very deep comment i know yeah which is
+[41:20] basically the conclusion of 40 years is right no 100 is like you actually can make it but maybe
+[41:25] with AI you actually can like maybe there is like well i actually this is if you ask me like walking
+[41:30] in like what i wrote down on my note like was my biggest fear yeah is that europe decides that
+[41:36] GDPR was the best thing ever uh-huh and they're gonna just GDPR AI yeah and and the AI will be fine
+[41:44] it'll be have one it'll have one prompt for when it text that's emitted that just says
+[41:48] this vendor is emitting text and it's probably wrong yes or no that that's going to be because
+[41:53] you can't really right at least in north american you're not going to send your speech in europe
+[41:57] they still will and and they'll have filters and keywords and blog lists but then on any verb
+[42:02] anytime that an agent or or you know a background agent or a frontline agent touches a third-party
+[42:10] product i i'm really worried that they're just going to say we need a GDPR prompt uh-huh and it's
+[42:15] going to be over i was back to the users of the agent every single right or every single non look
+[42:21] up yeah becomes like a a safety warning like the airbag thing in your car and and the regulators love
+[42:28] that yeah because it it's a liability assignment and so it has this sort of legal precedent yeah
+[42:33] and and i really worry that that's that's actually the mid ground where we're gonna end up
+[42:40] and and unfortunately because the u.s about 15 years ago stopped leading in tech antitrust
+[42:46] the problem is that europe is gonna lead with that because they have nothing to lose
+[42:51] yeah like and and so i don't want to be sad and down about it but i i just can't get on my head that
+[42:57] they love prompt i mean look i had to put in that browser your views on problems thank you
+[43:04] yeah they they it because it it's the same look get into a new car yeah which i haven't done in years
+[43:09] but you know like your bottom stickers are you know you have all of these things yes
+[43:14] and and someone thinks that that was success yeah and it's like has anybody ever read like what
+[43:19] is this if you're if there's a baby in this seat and it's like well that's relevant for some
+[43:23] people some of the time but it's this it's the entire it's attached to the seat and and they
+[43:30] love that that is a very particular thing that they just love and so i would i would say if i were
+[43:36] an ai now the one thing i would be trying to avoid it and look we added it okay fender for ai
+[43:41] we'll we'll we'll create that standard i i mean look we had to put this we on on the
+[43:46] when the internet was new the big thing was to download a program and run it and of course
+[43:51] if your machine is running in administrator mode it was download a virus and take all your
+[43:54] files forever and so with with windows XP which is in 2000 we added this thing that prompted you
+[44:01] and stopped yeah like literally your machine stopped user account control and like it was absolute
+[44:06] assault and we often didn't word the stupid little macro to help you write your thesis
+[44:11] also came with a warning every time you opened your thesis saying this has my everybody would
+[44:15] just click and and so you end up in this world where just like with GDPR everybody is numb
+[44:20] yeah and so then they're like well it needs to be bigger although mac i mean mac kind of
+[44:24] fated on the software that's the way you were usage better on mac so i i was sorry i i was
+[44:30] i don't i'm like 10 applications of my mac but well that's like 10 and then you're done yeah
+[44:35] yeah but it's a lot of people still do all this stuff imagine if instead it was every time you
+[44:41] go to a new website yes which you do now because that would be bad yeah i mean to to to start
+[44:46] from here but to bring it kind of back to the the macro by like i wish this was the discussion
+[44:50] we were having yeah which is like i feel like we've dealt with a lot of these problems i feel like
+[44:56] when we talk about philosophical x-risk we're not solving these very dramatic problems i actually
+[45:00] think this is actually a constructive conversation to have maybe props would help i don't know
+[45:05] and i think part of the problem is like people don't remember like you know how how unfettered
+[45:11] axis wasn't how bad it was and just how relatively benign that ended up being like i even remember
+[45:15] like there's that stanford during our phm remember the oscilloscope was kind of janky
+[45:19] i'm like what's going on with this oscilloscope like it's you know it's a little slow and i was
+[45:22] measuring the network traffic you know it's like more network traffic than you would expect
+[45:27] um and i'm like why is there network tracking to know the thing had a tcp stack is somebody like
+[45:30] broken in because there's an old version of windows se and was running a porn server you know and so
+[45:35] like i knew that it used to be just for the record not it it used to be the case that like any time
+[45:41] you turned over a stone yeah yeah somebody had broken into something and like was it this
+[45:47] like worst case malicious whatever and it was actually very rarely even though the capability
+[45:52] was there and so if we could just somehow tone down the rhetoric and put it in context and
+[45:57] the still computer systems and yes there's very serious stuff and people have definitely died because
+[46:02] networks have gone down yeah there's been real issues but like and then can we just quibble about
+[46:07] GDPR that would be amazing but the problem is like that's not the discussion it's not about GDPR
+[46:11] and prompts it's about species extinction and philosophy and philosophy and and irrefutable
+[46:18] things and it's just it's also very soon like i i think that that's such a great point and i i think
+[46:25] you you hear people now talk about we regulate airplanes and we regulate cars and you forget like
+[46:30] well the first cars were to turn to the century yeah and unsafe at any speed was in the mid 1960s totally
+[46:36] and and you know people had been doing selling pharmaceuticals in the during the gold rush
+[46:41] and thalidomide happened to you know 50 or 75 years later and not even in the u.s and then there was the
+[46:47] fda and you know people the first pilots were flying obviously at the beginning of the 20th century
+[46:53] and it wasn't until the 1920s that you had to get a license to be a pilot and you literally
+[46:58] showed up with your own plane and you got a certificate it was like it was literally no
+[47:02] different than driver's ed is today and then it was 20 more years until they had anything to do
+[47:08] with airworthiness and looking at your plane but it was it was minimal and then it wasn't until
+[47:13] way after old work prove that they got involved in like what you think of as the modern FAA and so
+[47:18] you're looking at 40 years yeah of innovation and they were not moving slow i mean if you ever seen
+[47:23] that video in black and white of like all the different planes that are actually really that
+[47:27] was 20 years after the right brothers and the FAA is incredibly effective and and right it's
+[47:32] incredibly effective it's the safest form of transportation like you know and so i i do think
+[47:36] that this process it's also the slowest most difficult form of innovation and so if you start
+[47:41] the f if you had started the fda in 1910 yeah you don't know you don't know if yes you never have
+[47:46] well i was i was listening to a nick bostrom podcast just a couple days ago no i i i it was
+[47:54] interesting it was interesting and but no but but he actually makes his point if you regulate
+[47:58] ai too early you actually basically don't solve anything and you you you still just kind of had
+[48:05] the same risk ultimately but you don't understand that you will the thing into to being but you
+[48:10] haven't figured out how to control it yeah i know what it actually is yeah like like there are new
+[48:14] things coming out all the time and like casting ai completely differently right as yeah then we
+[48:21] thought of just six or nine months ago and i think that that like all the innovations
+[48:24] can happen at the application layer is going to cause things to move in and out of the models
+[48:29] in different ways and like where we you know we we thought up until last week i think that you
+[48:35] know text prompts and text coming back was going to be the best way to interact with
+[48:39] all the jeff chefs and then jeff chefs are so good and then i'll talk about that i think
+[48:44] why you find it so remarkable yeah well okay so so the way i think about it is um so okay so
+[48:50] LLMs were kind of text and text out right they generate text and and and they came from chat
+[48:54] right it was to communicate with a human and we spent the last few years trying to take this thing
+[48:59] that spits out text and cram it into a traditional program right and but traditional programs don't
+[49:04] really speak text right and so then you end up doing this janky thing where you're like in the
+[49:08] popular like here's this demon here's this thing but the thing is generating text and it kind of ignores
+[49:13] it and it's just been super janky and so what jeff basically said is that listen you know generating
+[49:18] the text on the outside is a very expensive thing but it's also kind of you know it's more
+[49:23] complicated than you need so why don't we we will we'll we'll read text and we'll have all of that kind
+[49:28] of knowledge to read the text but then rather than generating text which is very expensive
+[49:32] we will just if you give us a set of options we'll choose the best option we can do that incredibly
+[49:37] um we can do it incredibly fast incredibly cheaply but also we can do it with much more
+[49:42] accuracy because we can train just for this and so for all of the use cases that are not talking to
+[49:47] to like a chat bot but are actually trying to put it in traditional software this is a great fit and so
+[49:52] this has probably been the fastest adoption of an AI model since chat gbt has just been remarkable
+[49:57] because we're all primed for this i just want to pile on this one because i i can't tell you how
+[50:01] much i love seeing this exact form of of innovation and because what it's does is it does the thing
+[50:09] that's bugged me from the very beginning which is there's been no user study ever that shows like
+[50:14] interacting with computer using um full natural language is efficient it's it's like literally
+[50:20] always the least efficient way and it's very simple and it's just like ask yourself how many
+[50:24] people are asked a really really good at asking questions and immediately that's like less than
+[50:29] half the people can ask a good question in a meeting yeah and then how often do you look at the
+[50:34] answer and get really frustrated before it's finished but you have to pay all this money to
+[50:37] watch the seven paragraphs come out and then apologize that it's only a look and so that's one like
+[50:43] having a different model and then the other of course is my favorite which is the output of it
+[50:47] is designed for probabilistic programming you know and so instead of saying like is this a customer
+[50:54] service question then route to customer service otherwise route to general help desk or whatever
+[50:59] it's like well this is 80% customer service and that's exactly simulation it turns out there's
+[51:04] like 50 years of computer science research in literally like probabilistic if statements and so
+[51:10] suddenly the coolest place to be in computer science is going to be in probabilistic programming
+[51:15] which was like all of computer science in the 1960s and 70s so it's basically how to because
+[51:21] all of computers started but doing math and it was all simulation so it was like let's launch the
+[51:26] missile and hit that target but it's windy but wind isn't constant so like let's model the wind
+[51:34] and decide where to put the thrusters in order to do the art and so most programming
+[51:39] through like say 1970 before it got to accounting was probably we ruined everything
+[51:45] no it was like counting there's no probability right accounting right but but most programming
+[51:50] was basically this modeling kind of thing and so most programming language design was trying to
+[51:54] figure out how to put probability into if statements or into while loops like do this
+[52:00] until something happens maybe most of the time and like so my first cs class like the very second
+[52:07] assignment or so was a simulation about like waiting online at a store and I didn't know it
+[52:11] at the time I actually looked all this up when I was reading about JED which was like the the
+[52:15] whole thing was my my professor was like wrote the book called The Theory of Simulation in like 1960
+[52:20] and I just didn't know that because it was kind of died by the 80s because it was all replaced by
+[52:26] hyper and so this this notion of probabilistic and that slide deck you shared about the future
+[52:33] what's different about language models and stuff that you said was super good oh helper
+[52:36] flanks one yeah fun nominal Thomas a great deck but the part that I felt was missing was that like
+[52:41] oh wait this is not all new yeah like like all of computer science was this probabilistic stuff
+[52:46] and so it's going to be very interesting to dust off all of that work because it's exactly
+[52:50] what's going on like it's not an if statement now is if x percent not if always and so the way that
+[52:58] Jev worked is just to like you you basically it's a custom programming logic almost which is here's the
+[53:04] right prompt come back with a percentage yeah and then you put that in the if statement but the
+[53:08] consequential thing is like finally we have a way to integrate these language models into a traditional
+[53:14] software and I think it's kind of funny because it like you ask a question like why haven't the labs
+[53:19] done this right and it's kind of like a like not an indictment but a reflection on how they
+[53:23] think like they're trying to create beings and being speak if you're trying to create God God's
+[53:28] beach and natural languages or whatever where this is really about something that's for traditional
+[53:32] software which is kind of not the direction that they've been taken but one of the reasons the
+[53:37] uptick was been so dramatic is because a lot of us software people have been trying to integrate
+[53:42] these models into softwares hasn't so even before you get to the probabilistic like if I want a
+[53:46] language model to drive an if statement like it's really hard today yeah with this model and makes
+[53:51] much much much easier and then of course this could change the nature of software
+[53:55] fundamentally to make it more stochastic okay well I think but I absolutely and I think that what's
+[53:59] so cool is that that it is happening outside the models because that's what I think is just going
+[54:06] to happen which is the center of innovation is just moved yeah and it's just and now people
+[54:11] it turns out that the outside of the lab the platform providers you know basically reach a
+[54:17] point of critical mass where the innovation stops happening at the platform layer and then you know
+[54:23] Apple there's this famous expression in the Apple community called Sherlocking where Apple looks around
+[54:28] and the the things from the outside world become features and people complain and it's a meal but
+[54:32] that's sort of how the innovation works because once you're a platform you're overwhelmed no matter
+[54:37] how many people you add you're overwhelmed with just keeping the thing running and compatibility
+[54:42] and stuff like that and so I think that this is the signal that now people have figured out that
+[54:48] there's innovation to be done to the model but outside the model yeah guys thanks for coming
+[54:54] this is great okay great thanks for listening to this episode of the a 16z podcast if you like
+[55:02] this episode be sure to like comment subscribe leave us a rating or review and share it with your friends
+[55:08] and family for more episodes go to youtube apple podcast and Spotify follow us on x a 16z
+[55:15] and subscribe to our sub stack at a 16z.substack.com thanks again for listening and i'll see you in the
+[55:21] next episode as a reminder the content here is for informational purposes only should not be taken
+[55:28] as legal business tax or investment advice or be used to evaluate any investment or security and
+[55:33] is not directed at any investors or potential investors in any a 16z fund please note that a 16z
+[55:39] and its affiliates may also maintain investments in the companies discussed in this podcast for more
+[55:43] details including a link to our investments please see a 16z.com forward slash disclosures

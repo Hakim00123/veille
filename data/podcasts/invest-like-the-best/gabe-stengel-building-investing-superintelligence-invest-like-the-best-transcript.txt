@@ -1,0 +1,828 @@
+Invest Like the Best
+Gabe Stengel - Building Investing Superintelligence - [Invest Like the Best, EP.492]
+Tue, 22 Sep 2026
+
+
+[00:00] Ramp is the only platform built to make your finance team leaner, faster, and better,
+[00:05] saving businesses 5% annually on average so you can stay focused on growth.
+[00:10] Ramp just opened for business in the United Kingdom, so if you're running a business in
+[00:13] the UK, you can now use Ramp's AI-powered finance platform to manage cards, expenses,
+[00:19] bills, approvals, and accounting all in one place.
+[00:22] I run my business on Ramp and so should you.
+[00:25] Learn more at ramp.com slash invest.
+[00:28] On AI, cursor, anthropic, perplexity, and bracelle all have something in common.
+[00:33] They all use WorkOS.
+[00:35] And here's why.
+[00:36] To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSO,
+[00:42] SCIM, RBAC, and audit logs.
+[00:45] That's where WorkOS comes in.
+[00:47] Instead of spending months building these mission critical capabilities yourself, you can
+[00:51] just use WorkOS APIs to gain all of them on day zero.
+[00:54] That's why so many of the top AI teams you hear about already run on WorkOS.
+[00:59] WorkOS is the fastest way to become enterprise ready and stay focused on what matters most
+[01:03] your product.
+[01:05] Visit WorkOS.com to get started.
+[01:13] You and I have talked many times about this basic question that I'll start with over the
+[01:16] last couple of years.
+[01:17] You are effectively trying to build investing super intelligence tools to help investors do
+[01:22] their job much faster, better, cheaper, easier, higher quality.
+[01:26] But it's starting to feel like, wow, we were really eating a lot of the core functions that
+[01:30] even a very smart analyst or even portfolio manager was doing a couple of years ago.
+[01:36] How do you think about that trajectory as you've seen it and lived it so far and where it's
+[01:40] going over the next two years?
+[01:42] I think two years is actually easier to reason about than 10 years or 20 years, because in
+[01:47] two years, the best investors are going to be figuring out how to reinvent their own firms
+[01:51] and reinvent themselves.
+[01:53] If you look at what happened to market making and quant trading, James Street took 15 years
+[01:57] to build the dominant franchise and the world's best investors today are going to spend the
+[02:01] next two to five years figuring out how to integrate AI into what they do.
+[02:06] Dario has the great line about everyone's going to have a data center full of geniuses
+[02:10] or a country full of geniuses in the data center.
+[02:13] What would Goldman do?
+[02:14] What would Millennium do?
+[02:15] What would Citadel do if they had a country full of geniuses show up?
+[02:17] It would probably take them a while to figure out how to change the way they work, how
+[02:21] to take advantage of that, how to integrate it into their system.
+[02:24] I think figuring out how to fly AI into the investment lifecycle is the biggest challenge
+[02:30] over the next five years for every great investor.
+[02:32] There's been many companies on this trajectory where the product was, cognition is very famous
+[02:38] for literally their ads now say, remember Devin, it's good now.
+[02:43] Lots of now clearly great companies with great products had a stage of an AI business where
+[02:49] the product stunk.
+[02:52] Now it's excellent.
+[02:53] If you think about the couple increases in capability that we've seen just from the
+[02:57] raw models, could you do the same thing for the eras of Rogo and its product like you pick
+[03:03] how many eras it is?
+[03:04] I don't know.
+[03:05] I frame it up.
+[03:06] What it could do at each level up to and including today?
+[03:09] Yeah.
+[03:10] I actually tried starting Rogo two times before we got started.
+[03:13] In high school, I had a friend whose dad was an investment banker who wanted an app for
+[03:18] trying to track the equity exchange rate of two public companies as they were emerging.
+[03:23] We tried using really old AI techniques to do that.
+[03:27] Terrible.
+[03:28] Then in college, before GB3 came out, we published a paper on AI assistance for econometrics and
+[03:34] financial econometrics.
+[03:35] We tried commercializing at the time and nothing worked at all.
+[03:38] When we actually started the business, it was when GB3 came out, pre-chatch UPT.
+[03:43] All the early days of Rogo, it was clear how kind of magical it was.
+[03:47] You could demo things that were cool.
+[03:49] Nothing worked at all.
+[03:50] I would say since things actually started to work, the eras are very tied to the model
+[03:55] eras.
+[03:56] It was O1 Pro and then probably Opus 4.5.
+[03:58] O1 Pro was the first time you got enough reliability where it was a good search tool at
+[04:03] the very least.
+[04:04] You could say, help me calculate this financial metric for this business over the last 12
+[04:09] quarters.
+[04:10] It could do it reliably enough where it wasn't so annoying that you would just do it yourself.
+[04:15] Then with Opus 4.5 and the last year, the end of 2025, end of the beginning of this year,
+[04:20] the models just became capable of basically anything a junior investment professional or
+[04:24] a junior banker was doing as long as you gave it the right instructions and context.
+[04:28] I mean, I think there was a first mover's disadvantage for a lot of applied AI companies
+[04:32] because you thought you knew where the world was going.
+[04:34] You wanted to build a product for it, but the models weren't quite there.
+[04:38] So people would try it and go, this is terrible.
+[04:40] This is garbage.
+[04:41] You have a disadvantage.
+[04:42] For us, we saw that too.
+[04:44] But now what we've seen is, well, if you were right about the end state and where the models
+[04:48] were going and you were building towards that, when they get there, it's magical.
+[04:53] And for me, a great product is all the feedback we get every day.
+[04:57] People all day are saying, hey, this is transforming the way I work.
+[05:00] I'm saving hundreds of hours a month.
+[05:03] I am doing things I never could have done before.
+[05:05] And so I'm smarter as a result and I'm able to make better decisions.
+[05:09] And it's delightful.
+[05:10] And I like using it.
+[05:11] And it brings me joy in my day to day because the UX and the attention to detail in the craft
+[05:16] smanship is so obviously built for me and who I am.
+[05:20] And so that's been the best part of the product.
+[05:23] And you would attribute that to you took seriously all the compliance, regulatory, workflow, last
+[05:30] mile, hook up stuff, and then the models became good enough and all of a sudden that was super
+[05:34] valuable.
+[05:35] Well, there's also small details of understanding how someone within one of these firms works and
+[05:40] building for it.
+[05:41] To give you an example, we make it so easy for a managing director at a bank to email a
+[05:46] markup of a deck, which is how they're typically doing these workloads anyway, except sending
+[05:50] it to an analyst and sending it to our AI analyst over email and then returning that markup
+[05:55] on 20 minutes as opposed to two days.
+[05:58] And at the same time, alert the junior analyst on the deal, what's happening and show them the
+[06:02] full auditability of all the little markups that were made in case they want to wait.
+[06:06] And that whole UX, that whole flow just makes it so much easier for this financial
+[06:11] professional who has not logged into a computer in 10 years, but does have an iPad where they
+[06:16] know how to mark these things up to actually adopt and use AI.
+[06:19] And there are these small details of how you build a product that's great for a specific
+[06:23] end user that you only know if you have the kind of spidey sense for what the job is.
+[06:29] What is like the bleeding edge of what it can do that impresses you the most of what
+[06:35] kinds of jobs?
+[06:36] The coolest things that we're working on is taking these innovations like Moltbook.
+[06:41] Imagine if every PM at a hedge fund had 10,000 agents that were just kind of fraternizing talking
+[06:46] about ideas, reading through the notes, pontificating, and then at the end of 24 hours of debate just
+[06:51] gave you one idea.
+[06:53] And the reason you're able to do that is because investors are happy to pay $50,000 for one
+[06:57] really good idea, whereas there's very few other domains where you can expand that many
+[07:02] tokens just for one simple insight.
+[07:05] What we're seeing right now though is that the models are smarter than anyone I know,
+[07:08] anyone I spend time with, and it's plumbing connected to your context, informed about your
+[07:12] thesis, tell it the way that you work and try and integrate it into what you do.
+[07:16] And so building out all the plumbing to actually collect that data, collect that context is what
+[07:20] is cutting edge to me.
+[07:22] It's always interesting to me for a product like this that you're opinionated about what
+[07:26] it should be used to do.
+[07:27] But in some sense, people can be creative with how they use it.
+[07:30] So you get to sort of revealed how people want to use it.
+[07:33] And if I adopted a God's-eye view of it's Monday morning here in New York City, lots of
+[07:38] Rover users are probably fired up in using it right now.
+[07:40] If I could somehow see into every instance of the product being used, what would I see?
+[07:45] Who are the people?
+[07:46] What are the predominant use cases?
+[07:47] How varied are they?
+[07:48] Give us a sense of how it's being used right now as we record.
+[07:52] Even though in so many ways, I think public equities is the best application in AI because
+[07:57] all the data is available.
+[07:58] And so it's just about being as smart as possible.
+[08:01] That's a very brute-first framing.
+[08:03] Our early users in ICP and kind of core market is actually what I would describe as deal makers
+[08:08] or people that are transacting or buying companies, selling companies, helping coordinate transactions.
+[08:15] And so a lot of what we do is both make people smarter, but actually do the deal making.
+[08:19] How do you prepare a data room?
+[08:21] How do you unpack a data room?
+[08:22] How do you coordinate the call with the third parties to discuss the data room?
+[08:27] How do you go through all of the initial steps through closing of a deal?
+[08:32] Because if you took a bird's eye view of all the folks using ROGO, I mean, it's people who
+[08:35] are either on the sell side of a transaction or the buying side of a transaction and are
+[08:40] using it to basically prepare all the thoughts and materials to help execute that full deal.
+[08:46] Whether it's putting things into a data room, this is the company's model, this is the PowerPoint
+[08:50] that describes their customers, these are the answers to the DDQ questions on what customer
+[08:55] concentration is, or it's all the agents on the other side of that that are tearing through
+[08:59] the data and mapping it to the firm's investment philosophy to say, oh, great, you know, is it
+[09:04] lower than the concentration risk profile that we would want for this fund too?
+[09:08] And then the components of the system are people access it via all the classic channels you would
+[09:14] access an AI tool, email, chatbots, proactive alerts and those kind of things.
+[09:20] But then ROGO is actually in a lot of the behind the scenes systems of these firms.
+[09:25] Because when you're working on a deal, it's not just important for the human beings working on it,
+[09:28] but you need to update your CRM. You need to update your portfolio monitoring systems.
+[09:33] You need to update the way that you distribute information to your LPs after the fact. And so half
+[09:39] of our surface area is actually the underneath of the iceberg of interacting with these different
+[09:43] systems of record based on what the humans are doing over the course of the deal.
+[09:48] So deal makers today, when do you think you'll be able to give the same answer for
+[09:54] junior analysts at a public equity hedge fund or something like this?
+[09:58] There's a process to their workflow as well, but it's very, very different.
+[10:02] You're right that it's interesting that my first intuition would be public markets are the best
+[10:06] place to do this because there's so much data available. When do you think that transition happens?
+[10:11] I think that for our business, we need to have all the requisite domain knowledge
+[10:16] of what it takes to be a great public market semester. I don't know what it takes. I've never done it.
+[10:23] I haven't spent nearly as much time as I should have with the folks that are great at it.
+[10:27] And we need to both hire out that domain expertise and then figure out based on it how to apply the
+[10:32] systems that we have built to that market. I have extreme conviction in the fact that the underlying
+[10:38] systems and tools and infrastructure we have built will be invaluable to that market.
+[10:43] But now we need the great chef who can figure out how to piece it together and create that kind
+[10:47] of end state product and that last mile delivery for public equities, investors.
+[10:52] I get pushed a lot by our board to think about expanding the ICP beyond just core banking.
+[10:58] But the reality has been is there's been so much depth and time in this deal makers vertical.
+[11:04] And then for my end state vision of actually being the full infrastructure for private markets
+[11:10] where people can transact very effectively, that is far more important to the deal makers.
+[11:14] Whereas for public equities, all that infrastructure, all those exchanges already exist.
+[11:19] And so I'd like to serve them because I want to serve the most sophisticated,
+[11:22] smartest users who have inordinate amounts of knowledge on the companies they track and the
+[11:28] industries they follow. And I'd like to make them even smarter because that sounds super cool.
+[11:33] But I can build a huge, huge business just concentrating where I am today.
+[11:37] Interesting. So one takeaway from that would be a lot of the opportunity to build an AI business
+[11:42] in a vertical is somewhere where there's lots of plumbing that's not yet built.
+[11:46] Yes. And then applying your down top of that.
+[11:49] Exactly. I mean, part of the reason private markets are so attractive is because it's
+[11:53] all done by humans, the coordination, the standardization, looking into things and the actual
+[11:58] transacting. Whereas public equities, a lot of it has been automated.
+[12:03] Based on what you know, what skills do you think investment professionals broadly speaking,
+[12:08] public and private should think about being or becoming more valuable as time progresses
+[12:14] and which skills become, it kind of obvious the skills have become less valuable.
+[12:17] What the hell are we going to do? I think to do the soup to nuts, diligence and
+[12:22] IC memo and objection handling and all this kind of stuff, that's a big part of a job for
+[12:27] at least a junior person in the investing world. So what skills do you think people
+[12:31] will still matter a lot in a couple of years? I mean, I want to preface it all with it.
+[12:35] I worked in finance for two years. And so I am a student of these guys,
+[12:39] just as much as I'm fascinated by the technology and want to figure out how to use it.
+[12:43] But the world's best investors have a way of figuring out what matters and exercising their own
+[12:49] judgment across a range of topics. And I think jury is still out on whether or not that is something
+[12:54] that I can eventually replace when move 37 happened and Lisa all saw something I could never see.
+[13:01] If that starts to happen in public equities, yeah, it's going to really change what matters.
+[13:05] And if that really changes all of how that works, I mean, I think the core skill set is folks
+[13:10] who can go out and gather data and inputs into their model that no one else will have.
+[13:15] If you can spend time in the field, if you can speak to experts, if you can develop a relationship
+[13:19] graph of folks who can inform your model, maybe you're not the one that needs to calculate what
+[13:24] your move 37 would be for a great public equities investment. But you can actually feed your model
+[13:29] with data that no one else has too. Fanta automates compliance so your team can spend
+[13:34] less time on security reviews and more time getting customers. Fanta cuts audit prep by 82%.
+[13:40] And gives you instant up-to-date proof of trust without all the manual work.
+[13:44] So you can close deals faster and with less friction.
+[13:47] Customers report a 526% return on investment, and more than 16,000 companies use Fanta,
+[13:54] including Ramp, Harvey, and Snowflake, get started with $1,000 off at vanta.com slash invest.
+[14:01] Ridgeline is the first end-to-end system of record with embedded AI for investment management firms
+[14:06] running portfolio, accounting, reconciliation, reporting, trading, and compliance on one unified
+[14:11] platform. Firms are moving off legacy technology and on to Ridgeline because of how far ahead Ridgeline's
+[14:17] AI features are compared to anything else in investment management software. I've been hearing
+[14:22] from a lot of investment managers about AI, and they fall roughly into two camps, with some unsure
+[14:27] where to even start and others convinced they can build their own order management system
+[14:31] over a weekend. The reality is that running an investment firm will always require governance,
+[14:36] controls, and a single source of truth for your data, and no amount of AI enthusiasm changes that
+[14:41] requirement. Ridgeline is built on exactly that foundation, which is why I believe that the firms
+[14:46] that come out ahead in the AI era will be the ones running on Ridgeline's unified platform.
+[14:51] If you're serious about your firm's AI strategy, Ridgeline should be part of that conversation,
+[14:56] and you can request a demo at Ridgeline.ai.
+[14:59] Maybe it's a good time to talk about the assembly line, like if Rogo puts out some really useful
+[15:05] output. I want to learn about each component part of the system that leads to that output,
+[15:09] and I'm most especially interested in the data that you yourself have and use and buy and build
+[15:14] and whatever, and how you do that, how you think about data, and then how you think about model.
+[15:18] And these are both questions, one that I'm curious about your specific business for,
+[15:21] but I also think that there will be some business like Rogo built in basically every vertical,
+[15:26] and so I'm curious what can be abstracted to other professional services or other
+[15:30] verticals that are interesting as well that will fall to AI progress.
+[15:33] So talk us through specifically the data and model piece and how that's evolved over time.
+[15:39] The early days of Rogo is this root Goldberg contraption where you had 60 different model calls.
+[15:44] A question comes in, you try to say, what company is this Patrick asking about?
+[15:48] Now, what are their tickers? Now, how do I feed those tickers into an API called a Bloomberg or
+[15:52] fax that are some internal data set? Now, it comes back and I need to call a different model to
+[15:56] pull it all together. And as the models get smarter, you kind of want to be less prescriptive,
+[16:01] less of a root Goldberg machine, and just think about what are the simplest, best, highest quality
+[16:06] tools. And the same way that a few of the world's smartest human beings starting here tomorrow,
+[16:10] trying to be a great banker and investor, what are the tools that they would need that are not
+[16:14] just intrinsic to being smart, right? What are the data tools? What are the ways of going out and
+[16:18] gathering information? What are the ways of auditing its own work? And then what are the ways of
+[16:22] presenting it and pushing it back into the systems that it needs? And so for us, we spend a
+[16:26] lot of time thinking through what are all the data inputs that a great banker or a great investor
+[16:31] would need to actually do their job. Then we spend a lot of time thinking about, great,
+[16:34] when you're doing that job, what are all the compliance and regulatory requirements to make
+[16:39] sure that if someday some Delaware court judge makes AI inputs and research discoverable,
+[16:45] you have actually done it all the right way such that you're not intermingling information,
+[16:49] because the reality of AI investment judgments and AI banker outputs is that you're going to be
+[16:54] able to see the full lineage of how those things are created. And then we spend a lot of time
+[16:58] benchmarking these models and creating different EVALS and data sets. So we can always decide what
+[17:03] is the most performant? What is the cheapest from a token perspective? What is the lowest latency
+[17:08] and route tasks to the appropriate type of models? I'm sure your favorite question is,
+[17:12] how do you ultimately compete with anthropic and open AI who view finance as a big one of the
+[17:17] few categories that you see them talking about and thinking about, what can you do in the long run
+[17:22] that's kind of positioned against what they can or will do? Do you think?
+[17:25] I mean, you want to build things that are perpendicular to what they want to build.
+[17:28] And sometimes you might build a chatbot because that helps you go to market faster,
+[17:32] but you should know there's a whole bunch of stuff underneath the surface that the labs are
+[17:36] never going to build that we need to build for finance or for any other vertical. And when you
+[17:40] think about financial services and capital markets, how many businesses are there that generate more
+[17:45] than five or $10 billion by just going deep into those workflows, into the data sets and how work is
+[17:50] done? There's a huge amount of time and spend on top of very messy specific problems. And all of
+[17:56] finance is a collection of different niches with different data sets, different definitions of good,
+[18:01] different regulatory requirements. And we can get to $5 billion in revenue by going deep across those
+[18:06] things and creating the systems, the systems of record that help manage them. That for anthropic
+[18:12] would kind of be like stopping on the side of the road to pick up a penny because they're on the pathway
+[18:16] of trying to go from $100 billion in revenue to a trillion in revenue. And there's so much depth
+[18:22] to these systems that actually need to be built beyond just intelligence.
+[18:26] Is there a favorite example of that of some like pain in the ass thing that you've had to
+[18:29] wire up last mile things? Yeah, I mean, think about if you are ingesting MMPI because you are working
+[18:36] on transactions or you're working on deals that have an effect on the market, the compliance requirements
+[18:42] you have just in the auditability or what you can flag and how it feeds into the internal systems
+[18:47] of an investment firm or a bank so that if you ever get audited or a regulator ever wants to see what
+[18:51] you did, do you have all that plumbing in place that is pixel perfect? That's one example. Another
+[18:56] example is if you actually want to transact, say you are a big public company buying another big
+[19:01] public company and you send data back and forth, you actually need some sort of data room, something
+[19:07] that is compliance safe and secure that coordinates. And ideally, it's not just some static kind of
+[19:12] Dropbox folder, but something that's plugged into the way that you do work, your agents, your workflows.
+[19:18] And I don't think Open Air and Tropic will ever want to build a data room business. And if you
+[19:22] actually want to be the exchange for all of high finance and all of capital markets, you not just
+[19:26] need to own the intelligence, you need to own the transaction venue, the communication venue,
+[19:30] the workflows, and all the data inputs that go into it. It's interesting. I asked about data
+[19:35] and models, but actually it sounds like harness or infrastructure is probably the most important
+[19:41] of the three. Think about the fundamental difference between cloud code when it came out and cloud
+[19:47] co-work versus OpenAI and ChatchBT. The models were actually fairly similar, but the harness
+[19:53] and the way that it was presented from cloud was far better. And it just allowed the models to
+[19:58] exercise more of their long running capabilities. And that's why they had a run up in usage and a huge
+[20:04] amount of expansion. And it just shows the way that you harness these models is so, so important.
+[20:09] And I think people underappreciate that intelligence, the reasons that humans are high
+[20:14] agency and can do a lot is not just because we have high raw recall and IQ and knowledge,
+[20:19] but there's all these different microservices in your brand. How do you put knowledge away? How
+[20:23] do you retrieve it? How do you trigger things? Emotions are a way to trigger all these different
+[20:26] microservices. That's why a great investor might have great judgment is because they have good
+[20:31] spidey sense for when they see this sort of thing in the market. It actually triggers the
+[20:34] recall from this event that informs a creative decision. All those kind of small microservices
+[20:39] are things that need to be built out. But if I force you to become an investor and your only goal
+[20:44] is to invest in rogo-like businesses, like one of these businesses that's, let's say, a vertical
+[20:49] application that's wiring up the capabilities of AI to an industry, what features would you look for
+[20:55] that would get you the most excited, either in the industry or in the founder, builder, and their approach
+[21:00] based on what you've learned. A few things. One is the industry actually does have to have
+[21:06] enough complexity and depth in the types of data, the types of systems of record that people use,
+[21:11] the types of deployment models that you can spend a lot of effort solving those problems in order
+[21:17] to have a wedge to solve everything else. Because if it's an industry that anyone can just walk
+[21:21] into and sell the basic version of Chadubite or co-work or co-pilot immediately and you don't
+[21:26] have to solve all these weird integrations, you're not going to have enough time to build all those
+[21:30] things that are perpendicular to what you're doing. And so the industry itself needs to be
+[21:34] adjacent enough to the core market. So that's one thing. The second thing I would look for is
+[21:39] domain expertise from the team and the founders. And I don't have unique domain expertise,
+[21:44] but I had enough to get started. And then I was so curious about finance and money in capital
+[21:49] markets. And I grew up in New York and I was surrounded by people that all they could think about,
+[21:54] all they could talk about was high finance. And I was fascinated by it and I wanted to learn
+[21:58] about it. And then we assembled a team that was uniquely passionate about it too. And so I have over
+[22:03] 100 people that have spent time with an investment banks or with an investment firms across the world's
+[22:08] best institutions. And so we can constantly take the models as they're released and harness them for
+[22:13] finance. And our job is really to catch the change in the models and figure out how to apply it in
+[22:18] these institutions. The final big thing I would look for is a business that's willing to
+[22:24] constantly reinvent the core product and constantly willing to slash it to nothing.
+[22:29] And I think anyone who their delivery method of their product is not something that they can
+[22:35] fully cannibalize quickly, like a terminal, or like a very specific UX or interface, is not going
+[22:41] to be agile enough to constantly reinvent every six months when there's a step change. And
+[22:46] that's an example of that that you've done, like a tear down and rebuild. The story that
+[22:50] the anecdote I'm most inspired by is Max Levchin, who talks about how to firm, they rebuild the
+[22:55] fundamental ledger technology every year. And they rebuild it for a few reasons. One is it's the most
+[23:00] interesting engineering problem. And so all the engineers want to work on it. So it's a good
+[23:04] way to retain talent, to teach engineers about the core fundamental business of a firm. But then
+[23:09] number two, it's a good way to make sure that system doesn't ossify and it's constantly improving.
+[23:12] And so we do that same exact thing for our harness and the core agentic system, we are constantly
+[23:18] looking at it, realizing we're not even at a local minima. It would be impossible if we were at a
+[23:23] local minima because the models are changing so quickly. And we do the whole thing.
+[23:27] What's something that the models currently cannot do that if they could would really change
+[23:32] the nature of the product? Compaction. So it's if you have 100 conversations with a single
+[23:39] agent, how does it make sure that actually remembering the right things and compacting its
+[23:43] memory into an amount of tokens that it can use every time? And it has enough coherence
+[23:48] and context on who you are and what you care about to make it feel like it's a true person that
+[23:52] you're speaking to that, you know, learns more and more about you. That's a hard problem. And it
+[23:57] compounds exponentially when you think about agents, not just as a one to one right now,
+[24:01] almost all agents are one to one, you use chat gbt individually, you use copie individually,
+[24:05] you use Gemini individually. As soon as these are actually things that can sort with a lot of
+[24:10] colleagues or in a slack channel with 100 people have to work across an entire company.
+[24:15] Now the compaction problem just scaled exponentially, because it's having conversations
+[24:19] with 100 different people and needs to be able to coordinate across those things. And so being
+[24:23] able to take all of that memory, all those interactions and actually lodge it into the
+[24:27] mental model or brain of that agent so that it can be persistent, so that it can actually
+[24:32] maintain context over the course of a bunch of interactions. That's something that the models are
+[24:36] not great at today. What do you think the major kinds of AI software businesses there are? So
+[24:41] we've got companies like a cognition or a cursor or something that can grow unbelievably quickly.
+[24:46] And I'm especially curious for you to compare this like the old classification system for
+[24:50] software companies. I'm curious how people buy Rogo, what kind of category you would put it in?
+[24:54] Is it usage based? Is it seat based? Is it something else? Like,
+[24:57] talk us through the how people want to buy this stuff and what the emerging levels are for AI
+[25:02] software business. We are that classic enterprise software business. We price per seat right now,
+[25:07] because our buyers are used to pricing per seat. They think of us when it's similar category
+[25:13] to Bloomberg, to fact set to capital IQ to pitch book. And so we have to build a very human business.
+[25:20] Every time you sign a deal, it requires an AE and a solutions architect to the sales
+[25:25] engineer going in, shaking a lot of hands, explaining how it works, explaining how to integrate it.
+[25:30] You can't sign one deal where the usage just rises a hundred fold. I look at how hard it was
+[25:36] for anthropic to sell to us very easy and the amount that we pay them has risen exponentially
+[25:41] without a human in the loop because it's a token consumption model. There's a lot of industries
+[25:45] where riding the coattails of token consumption isn't going to work for enterprise sales and
+[25:49] we're one of those. And so it's actually pretty interesting because we have to build a go-to-market
+[25:53] machine five times faster than most enterprise sales organizations ever have to build. And so I
+[25:58] do think there's the category that's just typical enterprise sales, but using AI models as a tailwind
+[26:04] to build a hundred times better products. And then there are the token brokers, the token
+[26:09] consumption businesses where you're selling in the parts of enterprise where they're used to buying
+[26:13] usage-based tools, cursor, factory, cloud code, and others. And so you can go much further commercially
+[26:19] with fewer people. What's your prediction for how or if that will change in finance?
+[26:24] I think that every business needs to go through two different pricing revolutions. You need to
+[26:29] move to some sort of usage-based and then you need to move to some sort of outcome-based.
+[26:32] For me, if I can figure out a way to skip the token base, skip the usage base,
+[26:37] simplify it for my users, and just wait until I can say, hey, Patrick, what if I just charge
+[26:41] you for every good investment idea I give you? Or what if I charge you for the quarterly report
+[26:44] you send to LPs that I can do perfectly? Or what if I charge you for every sim that you create as a
+[26:49] banker? I would much rather get there than have to figure out some random way of trying to assign
+[26:55] dollars per token. That is something that we're not going to quite agree on because you're going to
+[27:00] spend $100,000 on tokens and say, well, then I get $100,000 of value and I don't really know.
+[27:04] But you know what the value is to you of a good investment idea because you can actually see how
+[27:08] much money did I have? Or you know what the value to you is if you can produce a sim if you're a bank
+[27:12] because you know what you charge these firms to actually sell the business. Presumably,
+[27:16] you can't change your C price on the fly dynamically, at least with the same customer.
+[27:21] So how do you deal with the problem of like, in some ways, misalignment with the customer
+[27:25] for your business where if you do a great job and they use the thing way more, which costs you
+[27:29] a lot of money, they become a worse customer. The reality is, is we are 1% of the way into our
+[27:35] product roadmap. 99% of the innovation for capital markets is in front of us. And so what matters is
+[27:40] that we're a good partner. We're a good steward of their AI strategy and they want to work with us
+[27:44] in the future. It's so interesting to think about the shape of this in the future. When you say you're
+[27:49] 1% penetrated into the roadmap, give us a sense of where you think this is all going from your product
+[27:54] perspective, not industry wide. If you have that much of the roadmap ahead of you still,
+[27:58] describe that to us. Think about the percentage of all capital markets,
+[28:02] workflows, investment workflows, investment banking, jobs that are still completely
+[28:08] human rate limited and done by human intermediaries. It's kind of similar to other parts of financial
+[28:15] services where 15 years ago, 20 years ago, every mortgage that someone got, you went in,
+[28:20] you spoke to a banker at a local branch. It felt like a very human decision. I'm buying a house,
+[28:26] I'm taking out a loan. This is important. I need to speak to someone. No one ever thought
+[28:30] that you wouldn't want a human in the loop for that. Now 40 to 50% of mortgages are just delivered
+[28:35] online by platforms like Rocket Mortgage. I think there's going to be a huge amount of innovation
+[28:40] and how companies transact, how companies raise capital, how companies raise debt. I think it'll be
+[28:45] easier than it's ever been in 10 or 20 years for someone who's a business owner or someone who works
+[28:51] at a company to go online and click a button and try to raise capital the way that someone can go
+[28:55] onto Robinhood and click a button by an equity. I think it'll take five minutes for KKR to figure
+[29:01] out, can I sell this portfolio company to another sponsor? Not five months. I think you're going to
+[29:05] be able to price assets in an order of magnitude less time. As a result, markets are going to be
+[29:11] more transparent, more liquid, more efficient, and there's going to be a whole bunch more activity.
+[29:16] I'm going to focus on the specific future of automated risk pricing for lack of a better
+[29:22] simple term. We're three years from now and everything you just said is true where I can raise
+[29:27] single-digit millions of dollars of better equity kind of filling out an online form and the thing
+[29:32] can just price the risk for me and give me an offer. It's like open door for like everything or something.
+[29:37] What do you need to build that you don't already have to enable that capital market future?
+[29:42] It's actually a very similar strategy to Bloomberg strategy. Bloomberg strategy was,
+[29:46] I'm going to omit a lot of details here, but offer a little bit of data again in the door.
+[29:51] Build all the analytics and workflows on top that someone would need and then provide the
+[29:55] exchange and the communication platform where you can actually transact in a bunch of asset
+[30:00] classes that before it was pretty opaque, Bloomberg Messenger. For assets, use a little bit of AI to
+[30:05] get in the door. Build out the full workflows, go from co-pilot chatbot to full autopilot tool,
+[30:09] so I can make sure that I am 100% accurate on your IC memo or on the DDQs that you're doing,
+[30:14] and then provide the communication channel between counterparties so that if I have agents that can
+[30:19] autopilot do the work, I can actually transact for you. And the difference between what I need
+[30:23] to build in Bloomberg Messenger is I don't need to build the communication channel for humans to
+[30:27] transact. I need to build the communication channel for the agents to transact across these
+[30:31] businesses, across these investment firms. And so if you think about what is the actual
+[30:36] infrastructure that needs to get built, I mean, think about what is the system that would allow
+[30:41] a large private equity firm to feel comfortable having an agent negotiate a deal on its behalf,
+[30:47] correspond with all the third party consultants in the transaction, the people doing the QOV,
+[30:51] the legal advisors and so on, and then actually run an auction process where you have a bunch
+[30:55] of sponsors providing bits. There's a huge amount of software to be built out. And I think sometimes
+[31:01] we talk about that as looking like an exchange for a lot of these asset classes that are not standardized.
+[31:05] Tell us a little bit about the customer base today, like how much of it is giant banks versus
+[31:10] investing firms. It's mostly large banks. And that's very simply because that was my
+[31:15] background, right? I worked as an investment banker for just a handful of years doing buy side
+[31:20] M&A coverage, which was super interesting. And so we started targeting the banks pretty early on
+[31:26] for a few simple reasons. One is the investment banks are kind of the distribution channel for
+[31:30] the rest of finance. A lot of the folks who then end up as great investors started in their first
+[31:35] two years as an analyst at Goldman and the TMT program or something of that nature.
+[31:39] Two, they have the most seats by far. And so if you can land a bank like Bank of America,
+[31:44] you can actually get in the hands of far, far, far more people than if you land the 10 best single
+[31:50] portfolio manager, public equities, investors who each only have 10 investors.
+[31:55] If I think about a Bank of America or something, everyone's kind of wondering how deep into
+[31:58] the adoption curve are we for enterprises using AI? You have a biased sample because
+[32:03] your customers are using your own and using it a lot. But give us a sense of where you think we are.
+[32:08] It seems really hard to pin down a good answer. I would say the majority of firms
+[32:13] are seeing a huge amount of individual productivity. And they're trying to figure out how do we
+[32:18] parlay that individual productivity into firm productivity that we can measure. Speak to any
+[32:23] individual banker at a bank we're deployed with like, life's great. Oh, they're like,
+[32:27] I'm a hundred times more efficient than I used to be, right? You'll speak to an MD who will say,
+[32:31] Gabe, I sent five pages to a client that before I would have had to go back and forth with an analyst on
+[32:37] over three days to create. And I made it in 10 minutes myself. And these are bankers who haven't
+[32:42] done any sort of analysis in 25 years. They haven't actually opened an Excel file in 20 years,
+[32:47] and they're able to do it themselves. The problem is, where is that flowing through? Are you winning
+[32:52] more deals? Are you actually transacting more? Are you servicing a part of the market that you
+[32:57] haven't seen? And this is where it becomes not just an individual productivity to a problem,
+[33:01] but a firm strategy problem. Like, what's your plan? Do you want to use this thing to cut costs?
+[33:05] Do you want to use this thing to enter parts of the market that before didn't make sense to serve?
+[33:10] You can look at a bank like JP Morgan. JP Morgan just announced that they're going to try and do
+[33:14] a lot more M&A work for SMBs for a parts of the market that before they didn't think it made sense
+[33:19] to go out and serve, because the deal fees were probably too small. And so you needed too many people
+[33:23] to staff them. Well, now if you have a banker that can be a deal team of one, well, maybe you can
+[33:27] enter parts of the market that before just made no sense. So in some sense, the bottleneck at some point
+[33:33] will be the creativity of the customer. Like you can provision unlimited capability, and you're
+[33:41] soon going to be just relying on them figuring out the answer. It's them figuring out what they
+[33:44] want to do, right? If you had a hundred great investors start here tomorrow working for you,
+[33:48] how would you channel that productivity? It would take you a while to figure out,
+[33:52] what's the structure? Do they all work on different things? How much money do I give each of them?
+[33:56] What do we attack? Two years ago, the most obvious question in this would have been about
+[34:00] accuracy and people to use the word hallucinations, which seems to have dropped out of the conversation,
+[34:06] and I have a camera last time that someone said hallucinations to me. Or can you teach us about
+[34:10] that problem, ensuring accuracy where accuracy matters a lot to the decimal? What's the nature of
+[34:16] that these days? It's still super important. I think it's actually more important to be
+[34:21] auditable than it is to be accurate. And obviously, those two things are conflated.
+[34:26] But what's really important is that I give you an answer. You know how to use it. And if it's not
+[34:31] accurate, and you don't know how to check it, and it's hard to see where it came from, you can't use
+[34:36] it at all, whether it's accurate or not, because you don't trust it. If it's accurate most of the time,
+[34:41] but even when it's not, it's very easy to see the assumptions that went in where the data was pulled
+[34:44] from, it's still actionable, and it still saves you time. And then increasingly, as these things go
+[34:49] from copilot tools that you're just using for information retrieval to autopilots where you're
+[34:53] trusting them, not just to gather them information, but to execute on it, to have agency and actually
+[34:58] make an investment decision or send an email, you need to have the full confidence that if you were
+[35:03] to go back in and see why it made the decision, you would be able to understand why, because you're
+[35:07] going to need to debug it. And the same way that there's going to be individual investors that make
+[35:11] horrible decisions, and you need to go in and see what went wrong. Was there an incorrect data input
+[35:15] to someone to lie to them? What was going on? You're going to need to do the same thing with
+[35:19] agents, and then especially in parts of capital markets that have regulators that look at these
+[35:24] things and need to make sure there's no foul play. If you can't explain why you made a decision and
+[35:29] the data went in, that's not going to fly. You were talking before about how you have to sell
+[35:33] like a normal enterprise sales organization would. You have to grow or can grow many multiples faster
+[35:39] than the fastest growing enterprise sales companies of the last era. How do you solve that problem?
+[35:45] You're rate limited by the speed of humans to some degree in enterprise sales. How do you
+[35:49] hire enough people fast enough? How do you think about being able to grow at the right rate when
+[35:54] you don't have the anthropic cognition, API, usage growth? It's so easy for them to grow 10x.
+[36:01] It's much harder for you. How do you solve that? The core problem we need to solve is how fast
+[36:05] can you make a human being productive as a half person? They always person, but anyone else,
+[36:10] as a marketer, as an SDR, as a post sales person, how quickly can they understand our business and
+[36:16] help push us forward and push customers forward and help our end users and so enablement and training
+[36:23] people and constantly retraining people is the fundamental problem that we and I assume other
+[36:28] fast growing enterprise startups have to deal with. You should use AI to build tools.
+[36:32] Internal tools we have are kind of magical. First off, every internal conversation that happens at
+[36:38] rogo is recorded. When anyone starts, we say, hey, just FYI, Patrick, you're always being recorded.
+[36:44] It's always being filtered into the company brain. This is not in a kind of big brother
+[36:49] situation. It's just everyone you're going to speak to is going to have granola or some
+[36:53] getting transcription running because they need to use it and they need to have excellent recall
+[36:56] and they need to compound the knowledge that they have. As a result, we just have this huge
+[37:01] reservoir of information. Then we have all of these tools that people can use on top to say,
+[37:05] oh, you know what? We're deploying with this sort of public equity firm in this sort of market.
+[37:09] Have we ever served this kind of data before or their use cases that might be helpful?
+[37:13] And you can pull in the conversation that appear of your have three weeks ago and you never even
+[37:17] met that person because they're stationed in APAC. Being able to sponge all that information in and
+[37:21] then get it out to people when they need it is the core problem of enablement.
+[37:25] So maybe describe the internal brain. It's called Shrek for some reason because my
+[37:30] engineers thought it would be hilarious to call it Shrek. There's a dashboard where you can see
+[37:35] the swamp of everything that people are working on at any given time, but it's connected to all
+[37:39] of our different systems. It is very prescriptive about what it knows our company goals are.
+[37:44] What are our values? What are the things we want to deliver to clients? What are our North Star metrics?
+[37:50] And so it can shape every answer and deliverable that way. And it's both proactive and reactive.
+[37:55] Someone can go in and say, I'm trying to get up to speed on how I should talk about
+[38:01] model routing and how I should think about the value prop there for a very large institution and
+[38:06] what the savings will be. And it can pull out all that information for you. But it can also say,
+[38:11] hey, Patrick, I see on your calendar on Thursday, you're meeting with this sort of private credit firm.
+[38:16] Here's all the information you should know, all of the use cases that will resonate. And then
+[38:20] all of the types of ROI metrics that firms we've worked with in the past would want to hear.
+[38:25] So what's the sales pitch to talent? Let's say there's somebody that, if you landed them tomorrow,
+[38:31] would be transformative because they're so high quality or well-known or whatever,
+[38:35] what is the pitch to them to come work at Rogo versus go somewhere else that's exciting right now?
+[38:40] Always depends on the person's motivation. So it's hard to give a generic pitch. But
+[38:45] my pitch for Rogo today for talent is AI is going to completely transform the world.
+[38:51] The place it is going to be the most interesting is applied AI because that's where AI intersects
+[38:56] with humanity. And so the companies that dictate how AI intersects with humans and touches humans
+[39:01] are going to do the most interesting creative engineering and product work in the world.
+[39:05] Finance is a domain that is the catalyst for all human progress and innovation. And capital
+[39:11] allocation is upstream of the financing of every company, every idea, every economy. And so if you
+[39:17] can make that more efficient, you can supercharge the world. And we're the category leading player
+[39:22] who is the best shot on gold and not just be the hundred billion dollar business to do it,
+[39:26] but the five hundred billion dollar business that completely transforms capital markets.
+[39:30] And there's such a depth and a complexity and amount of interesting problems that's so exciting.
+[39:35] And we have a killer group of people that is super smart, hungry, curious and low ego that's
+[39:40] going to do it. They fucking pitch. But I go, I just got an investor.
+[39:44] Say more about this capital markets piece. Historically, as markets get more efficient and
+[39:50] liquid, their positive impact, in my opinion, grows a lot. You can chart this through market
+[39:55] history, which isn't that long, three, four hundred years of like proper markets. What do you
+[40:00] think is possible? Like where might this be going and why you believe that creating more
+[40:06] or less friction, I guess, in capital markets can be so powerful?
+[40:10] You're always at risk of sounding like the billionaire private equity guy saying that private
+[40:16] equity is good for the world when you talk about how finance is good for the world. But I like to
+[40:20] think about the origins of high finance. And when you think about a business like JP Morgan,
+[40:26] some of the origins are Jay Pierpott Morgan helping connect European investors with the
+[40:31] entrepreneurs in an emerging market, the United States to finance railroads and the infrastructure
+[40:37] build out and everything that allowed the US to be a juggernaut economy. And that happened
+[40:42] because there were intermediaries who helped connect folks who were risk takers and capital
+[40:47] allocators with the folks who were entrepreneurial and wanted to innovate. And that was something that
+[40:52] had a profoundly great effect on the world. And now think about all the parts of the economy,
+[40:58] all the parts of the US domestically, but also internationally that can't tap into capital markets.
+[41:03] Every emerging nation where you would struggle to raise capital to finance your idea, to raise debt.
+[41:08] And then the 300,000 American businesses that couldn't even tell you what Goldman Sachs does,
+[41:14] and JP Morgan doesn't have the time to go out and work with them because the business is too small.
+[41:19] If you're able to speed up the rate at which entrepreneurs and company founders and individuals
+[41:25] can tap into capital markets, you can accelerate all innovation. What are you learning from your peers
+[41:32] that are building companies kind of shaped like yours, but in other categories?
+[41:36] I am learning how much aggression it takes to grow this quickly. I am learning how much chewing glass
+[41:44] it is on a day to day basis and how much conviction you need to have in the long term
+[41:49] TAM and SAM to make sure that you don't fuss over all the things that are going completely wrong
+[41:55] every single day. And I'll call someone like Winston at Harvey and Winston's ability to just
+[42:02] not worry about the 100 flesh wounds that are inflicted on him at any given time and just think
+[42:07] about the kind of end state goal of where he's going to be three years from now. And the only two
+[42:12] things that matter to get there is pretty amazing. What is the glass like and what is the aggression
+[42:18] like? What does that mean? I worked during COVID, so I didn't even get to see what an office looked
+[42:22] like. John, my co-founder, and I used to joke that it's a very expensive business school education,
+[42:27] because we were just doing everything wrong. Did not I or did not have fired, did not have mentored,
+[42:31] and then I managed not to give feedback, did not have set direction. And a lot of the people
+[42:35] problems that arise with scaling quickly feel like eating glass to me anyway. And so when
+[42:41] people quit, when you have retention issues, when you spend six months recruiting a candidate they
+[42:46] don't join, that's chewing glass. When you spend a bunch of time working on a product that gets
+[42:50] completely washed over by the next model that comes out and makes you feel like an idiot for
+[42:56] spending all that time and capacity on something that was the wrong call, chewing glass. When you
+[43:01] get rejected by 40 investors in a row before you're able to raise capital, chewing glass. And my
+[43:07] experience of startup building is it's like a roller coaster where you have to feel the extreme highs
+[43:12] and feel the extreme lows, and I'm a super emotional guy. And I try not to let the team feel it, but I
+[43:18] will feel on top of the world at the high, and like everything is cataclysmic at the low. But then
+[43:24] if I look back at the journey, the lows get lower, the highs get much higher. And I look back three
+[43:29] months ago at the low, I was dealing with her, the high I was dealing with, I was like, I could do
+[43:32] that in my sleep now. And I think it's just about modulating those things and channeling the emotion
+[43:38] to push the business forward, but not letting it distract you. What about aggression? Like that
+[43:43] seems kind of like a trope. You've interviewed Pat Grady. Pat Grady was at our board meeting on
+[43:48] Wednesday, and we presented what was an extremely aggressive plan for next year in terms of hiring
+[43:54] goals, commercial goals, product goals. And one of the reasons I love Pat is because he boils
+[44:01] everything down into like two bullet points. And it's logically infallible. And you know, he's just
+[44:06] like premise one, premise two, this is the result he goes game. Well, if everyone in finance is going
+[44:11] to make a buying decision on AI in the next 18 months, and they're definitely going to buy
+[44:15] something, no matter what, even if you're not there, then the only thing that matters is that you can
+[44:20] blitz the market as quickly as possible to make sure that you are there. Given that, do you think
+[44:25] this plan is aggressive enough or no? The answer was no. And the reason it wasn't aggressive enough
+[44:30] is because I was being soft. And I think the reality is you need to be so, so, so aggressive,
+[44:36] and underwrite all that risk and know the game that you're playing. And my goal is if that
+[44:40] introback business is to increase the tails of the distribution, it's fine if it gets 30%
+[44:45] more likelihood that I fail if the odds that I become a hundred billion dollar company also
+[44:49] increased by 20%. But you actually have to be okay with raising both of those tails at the same time.
+[44:55] What's the most emotional low that you've faced?
+[44:58] When we were raising our series A, we didn't have any star investors in our cap table yet,
+[45:05] but there was a great investor, David Tisch at Box Group, who is an early pre-seed seed investor
+[45:11] who introduced me to a bunch of all-time greats for the series. And I thought, wow, I've seen what
+[45:17] it does to get a blue chip investor in your cap table that does for a print talent, becoming more
+[45:22] of a black hole for brand and customers and so on. This is finally the opportunity we're going to have
+[45:27] to do that. We've been building for two and a half years. And David introduced us to 40 investors,
+[45:32] and I met with everybody. I met with Sequoia, Kleiner, Benchmark, everybody, and 40 people passed.
+[45:39] And it wasn't just like, you've got the email with the deck and it's not exciting. It was like,
+[45:43] oh, this is interesting. Let me meet Gabe. Oh, I kind of like Gabe. Let me spend an hour with him.
+[45:47] Oh, Gabe, come to IC. Oh, Gabe, let's go to dinner. Oh, Gabe, come in for the weekend afterwards.
+[45:52] You know what? We're going to pass. And it's so personal because at that stage,
+[45:55] it has nothing to do with anything but you, right? It's like being broken up with by 40 girlfriends
+[46:00] who like every time you fell in love, and then every time they said, eh, not for you.
+[46:05] And that was actually Thrive too at the Series A. Thrive spent so much time with me. We went to
+[46:10] dinner with Avery and Vince fell in love with them and the firm because they were awesome.
+[46:14] And then crushing blow. And luckily, Keith's were boy came basically a month after everyone else had
+[46:20] rejected us and Keith was like, Gabe, this isn't a contrarian bet. It's basically just Harvey for
+[46:24] finance. Why would I do it? And I said, Keith, if it's not contrarian, why did every single one of your
+[46:29] friends just say it was a bad idea and not believe in me? Why do you think they didn't believe?
+[46:34] For a lot of reasons. I think people underappreciated the TAM finance, which was silly,
+[46:38] but it's partly because I think SF has less intuition for finance because they didn't fund
+[46:42] ION Group or Bloomberg or S&P or Faxet or Pitch Book, Morningstar and so on. And so there actually
+[46:48] haven't been great venture-backed businesses in this market. And so there's no intuition for
+[46:52] the kind of contours of the market and how large it is. Two is the product was terrible. And so every
+[46:58] investor said, oh, I work in finance. Let me use it. Is it going to transform what I do? And they
+[47:02] tried it and it was wrong half the time they go, this is never going to work. And it's like, guys,
+[47:06] you know, we're on the exponential. It's going to work in six months or 12 months or 18 months or
+[47:10] whatever it is. I'm going to figure it out. And the final reason was people didn't think I could
+[47:15] figure it out. People didn't have enough data points of watching the issue glass and watching me
+[47:20] figure out what the next iteration would be. What do you think changed after that? Because now it's
+[47:24] who's who have kept able? Well, because I met all these guys very early on and I met them at every
+[47:29] single round. And so every time I said, hey, we're going to do this. And they said, yeah, there's no
+[47:33] way. And then every time we would do it. And by the way, a lot of the times it would manifest in a
+[47:37] different way. You would actually lose the key employee you needed or that actually excellent
+[47:42] customer that you thought you were going to land totally dissipated. But we kept figuring out what to
+[47:47] do and kept navigating the market. And I think when you're investing in a market like today,
+[47:51] especially at Applied AI, where it's so turbulent, so ambiguous, you need to underwrite the founders
+[47:56] being able to be extremely dynamic. Why do you think there aren't more credible financial services
+[48:03] competitors? Distribution is really hard to crack. I think it's far more a people problem on building
+[48:09] trust and delivering value and working with these institutions than just an engineering and product
+[48:15] problem. But then there's an enormously high engineering and product burden to the standard to execute
+[48:20] to really crack this market. I think it's pretty high. And I was just so lucky that a number of the
+[48:26] early people I hired were ex-finance and just killers. And we just hired folks from InterNetwork
+[48:32] who worked at Goldman or City, or Jeffries, or Apollo, or Ares, or Blackstone. And so we had a team
+[48:38] of people who were die hard, ambitious, curious, smart, and then just good humans, low ego, humble,
+[48:44] young enough to be open minded and to want to eat class too.
+[48:48] I'm also really curious how you've dealt with technical talent and what matters in a technical
+[48:53] person on your team and how that has evolved. One, intuition might be the value of domain expertise
+[48:59] from the technical person has gone up as the ease of execution has changed a lot. You don't
+[49:04] need to be super technical to write good code or less so than in the past. So what is the shape
+[49:09] of the engineering or technical team look like over time? I'm asking this again because I'm
+[49:13] curious about thinking about other companies that want to tackle this and whatever their industry
+[49:17] might be. So I would say there's definitely problems where domain expertise is increasing
+[49:23] in value and product intuition and having more of a GM like mindset versus an engineer like mindset
+[49:28] is super super important. There are also parts of our product surface area where it's like you just
+[49:33] need raw gray engineering talent because you're scaling things up so aggressively. But if I look
+[49:38] at the folks on our team who have been so excellent, a lot of them are former founders. They're folks
+[49:42] who started businesses, persevered, ate glass, had a lot of product intuition, figured out how to
+[49:48] channel it, and then the business may be petered out. And to the point you made, there's been a lot
+[49:54] of companies trying to tackle financial AI. There's been a lot of really smart product-minded,
+[50:00] engineering-minded domain experts who have tried to tackle finance AI and we've acquired six
+[50:04] different fledgling financial AI startups. And so those former founders who can be galaxy-brained
+[50:10] about the future of the product and navigate a course on what the UX should be, but also have
+[50:14] engineering chops and so they can constantly make the right decisions. It's super important.
+[50:18] You said earlier to me before we were recording that this is the first time that we have a major
+[50:22] innovators dilemma in this category. Can you describe what you mean by that?
+[50:25] Yeah. I think for a lot of investment firms and a lot of high finance financial services,
+[50:30] the last 10, 20 years have been pretty good. You can make a lot of money being a capital
+[50:35] allocator, being an investor. It's a very hard industry to enter. And then especially if you're
+[50:40] in private markets, your businesses have some natural momentum because when you raise a fund,
+[50:45] another fund, another fund, it's hard to mess up the business after that. And I'm sure there's
+[50:50] a hundred people who have started funds who know it's a hundred times harder than I just described.
+[50:55] But to be fair, there hasn't been a moment in a shock to the market where every investment firm,
+[50:59] every bank is saying, oh, wow, I need to completely rethink what I'm doing. And now there's going to
+[51:04] be an opportunity for hundreds of AI-native disruptors, AI-native investment firms,
+[51:09] AI-native investment banks to attack my business model. And I need to figure out what I'm going to
+[51:13] do now. And there has not been an innovator's dilemma for private equity firms, for hedge funds,
+[51:18] for investment banks and a long time. AI-native, what does that term mean to you? What is the
+[51:24] definition of that? In some ways, I think it just means willing to constantly reinvent everything
+[51:30] you're doing and being so AI-filled that you don't worry about what's possible or what might seem
+[51:39] completely far-fetched, but you're just charting a trajectory towards integrating this alien fundamental
+[51:45] technology into everything that you do. And it's showing up in every part of the business. And
+[51:52] there's no part of the business that you hold sacred that is immune to being revolutionized.
+[51:56] How do you do that? So you're a leader in a company that's very AI-filled that want to make
+[52:00] sure. Do you want to do everything you have said in Rogo? And yet, I'm sure there are areas that
+[52:05] you're unhappy with the status of how much AI is used to do x, y, or z. How do you do it as a
+[52:10] leader? How do you make sure that your company keeps doing this as a practice and habit versus a
+[52:15] one time or so? I'll give you a very simple thing, which is every month I have a report that
+[52:21] gets sent to me that shows me every one of the company, how much are they using the various
+[52:25] different AI tools we have, both the ones we've procured, the ones we've built internally,
+[52:29] all of these different things. And I have a stack ranking within every division of the top five power
+[52:34] users and the bottom five users. And we post that everywhere. And the bottom user in each division
+[52:40] gets a printout with a dunce cap and we post it around the office. And it's hilarious,
+[52:44] but people know it's coming. And by the way, as we get bigger and fewer people know me and know
+[52:48] how it's kind of a joke and I'm funny, they're actually terrified. And I hope they're not terrified.
+[52:52] And I hope that changes. But it's a strong incentive function to actually make sure you're using these
+[52:58] things. If you were to list questions, let's say there's someone sitting down to run one of these
+[53:04] firms that's been a great business, hard fought, but a great business. And these businesses tend to
+[53:08] be quite simple from an organizational and technical standpoint. Mostly humans, right? There's not a
+[53:14] lot of overhead in lots of these businesses. Maybe they buy a lot of data or something.
+[53:18] What questions would you encourage them to ask of themselves of their business to stand the best
+[53:24] chance of navigating this transition effectively? If you knew for sure that right now 90% of your
+[53:32] enterprise value is in your people. Your best investors, your best bankers are the people that
+[53:37] bring in deals, bring in revenue. And actually, that's what a cruise enterprise value. And in 10 years,
+[53:42] the world's best investment firms, best banks will have 90% of their enterprise value, not in
+[53:47] people, but in software and data and systems. What would you start doing? You would start trying
+[53:52] to figure out how do you take all of what lives in the latent minds of your best people and putting
+[53:57] it into a system that you own and operate autonomously. So that's a big one. The second thing I would
+[54:02] think about is unpack every part of the deal lifecycle. And in each one, try and chart, where do you
+[54:11] think you are invaluable or you have data or you have domain expertise that no one else has,
+[54:17] and then be diligent about saying, okay, do I actually have something that no one else has in
+[54:21] this market? And is it a relationship? Is it context that no one else has? Or do I just think I'm
+[54:26] smarter and better read on the subject area in the market? In which case, AI is going to obviate that.
+[54:31] Have you seen anyone be the most cutting edge exemplar of this attitude in a big firm?
+[54:37] Like, is there a favorite example of a person that's just?
+[54:40] Oh, yeah, there's a theory thing of this. It's the folks that today look the most prescient,
+[54:44] sounded crazy batch it two years ago. They were the guys that came in and said,
+[54:49] we need to record every conversation. You're going to be able to pipe in this conversation
+[54:53] directly into my company brain. And there's going to be a digital clone of me. And then it's
+[54:57] going to spit out the game theory on exactly what the investment should look like. And two years ago,
+[55:01] everyone listened to this kind of guys were like, what the heck is Patrick talking about?
+[55:06] One example is there's a co-founder of Fermolus, John Montazzi, who was just prescient about where
+[55:11] it was going. And he wanted digital clones while they're best bankers. He wanted systems that
+[55:15] could basically show up to calls, speak on his behalf, know how he thinks, then ingest that context.
+[55:20] And then he wanted to build a system such that anyone in junior levels of that investment bank
+[55:25] could leverage his expertise and context and relationships immediately. So that context and that data
+[55:30] wasn't just powering his ability to be revenue generating, but it was a powering the ability of
+[55:34] every junior in that bank to be revenue generating. And so there are a number of folks who had their
+[55:39] kind of move 37 moment where they realized, wow, this is going to be so much more profound than anyone's
+[55:44] expecting. What do you feel is the most uncertain about the future of your business?
+[55:50] I would say how quickly private markets actually do transform. If you think about why different
+[55:56] types of asset classes have increased in transaction volume and have increased in liquidity,
+[56:02] often it has to do with standardization because it gets easier than to track those assets and trade
+[56:06] them. Private markets have been immune to standardization because there's so much unstructured data.
+[56:12] AI should fix that. That said, is there going to be a regulatory or market force that forces
+[56:17] some additional standardization that really accelerates the kind of transparency and liquidity you
+[56:22] have in private markets? That's a little bit out of my control. The other thing is it's still unclear
+[56:27] to me how much alpha will be left in the human relationships. I talk about that microcap M&A.
+[56:34] It's very hard to imagine that if you're a small business owner and you've been building a business
+[56:38] for 20 years and you want to make sure that if you hand that business off of someone else,
+[56:42] that you trust them, that you can shake their hand, that that can be fully automated. But for a
+[56:47] lot of sponsor owned businesses or things like secondaries or private credit or GPLP secondaries,
+[56:52] I do think it can be fully automated. But how long it takes for the long tail of all these small
+[56:58] businesses, all these medium sized businesses that have to deal with generational turnover for them
+[57:03] to get comfortable clicking a button to sell their business as opposed to shaking the hand to someone?
+[57:07] That's a little up in there. If you had several new young founders here with us and they were curious
+[57:13] about how to navigate an interface with private markets investors, what would you teach them?
+[57:18] What would you tell them to do to not do my style for fundraising might not be everyone's style?
+[57:25] I'm super direct. I'm super transparent about what I'm worried about, where I want to go.
+[57:30] But then you have to be very headstrong on that end state. And then I would say it's about reps
+[57:37] and relationships. And the folks who come out of nowhere and lead the series C or the series D
+[57:42] are the folks that I met at the seed and then the A and then the B and the C and they passed every
+[57:46] time for all sorts of reasons, but they gather a lot more data on me and the business.
+[57:50] Anything that you would encourage people to not do? I think there's a lot of the fake it till you make
+[57:55] it. And you need to have the bravado and the confidence in what you're doing, even if you're not fully
+[58:01] confident. I'm a deeply paranoid, deeply insecure, deeply scared person. But you need to put on the face
+[58:08] and say that you are confident about where you're going, even in the moments where it's the ebb
+[58:14] and flow, it's the ebb and flow. And I think people can misinterpret that sometimes. It's like they
+[58:19] need to pretend they're something they're not. I think that's not true. You need to believe that
+[58:24] that 5% likelihood that you can be at $100 billion business is likely. And you don't need to pretend
+[58:30] it's 100% likely, but you should be able to delineate with very clear roadmap and strategy how it is
+[58:38] possible that you can become $100 billion business and then have confidence that if those things play
+[58:43] out, you will be. Why are you scared and insecure? I'm so paranoid about everything that can go wrong.
+[58:49] Every day it feels like you're on the knife's edge of a thousand things collapsing. And I think
+[58:54] the reality of this sort of business building is that it's a game of compounding momentum.
+[58:58] How do you do every small thing to just race a little bit faster downhill? And I'm just scared
+[59:03] the momentum will stop? Or you hit a roadblock and then you go off course, and then you need to
+[59:07] re-catalyze momentum. And it's so clear to me how hard it is to actually build a machine that
+[59:13] gathers momentum. So if there's any stumbling block that holds that velocity, if I wasn't
+[59:18] constantly petrified of those moments, I wouldn't be doing everything under the sun to prepare for them.
+[59:23] What have we missed? Like what that you've learned about building a company like this in this era,
+[59:27] where everything feels like a jump ball. It feels like there's going to be a rogo or a
+[59:31] harvey or whatever for every place that there can be, especially where the last mile wiring is hard
+[59:37] and it's not just going to be anthropic. It's one company to rule them all or open AI.
+[59:41] What else have we missed that you think is really important to the experience so far
+[59:45] of building the business? I think that there are going to be businesses that solve all these
+[59:49] problems. But the businesses that do it are going to become black holes for talent and capital
+[59:55] and brand. And they're going to be able to siphon in the resources to actually execute.
+[59:59] Because AI is an amazing tailwind, but the execution bar is higher than it's ever been
+[60:04] too to compete. And everyone is getting pulled into the big leagues and is having their welcome
+[60:09] to the NFL moment. You have to move faster and be stronger and be more resilient and agile than
+[60:14] you ever expected. And having the right team is more important than ever. And the right team these
+[60:19] days is extremely, extremely expensive. And so if you can't figure out what is the strategy to
+[60:25] become a black hole for talent and capital as quickly as possible, I do think you are far more at
+[60:30] risk at being roadkill of a lab or a company that can.
+[60:35] When I do these, that's my favorite question. Last, what is the kindest thing that anyone's
+[60:39] ever done for you? I benefited so much by having parents who were enormously kind and generous and
+[60:46] selfless. But it showed up in such different ways for my mother versus my father. And my mother's
+[60:54] version of kindness was no matter what I did. I was amazing and smart and could do no wrong,
+[61:00] even though growing up, that was absolutely not the case. But she instilled in me the confidence
+[61:05] to believe in myself. Even when you were in those low trajectories where it felt like everything
+[61:10] was going to go sideways, or even do anything right, 40 nose in a row, idiot, failing out,
+[61:15] flunking out, whatever it is. No matter what, she acted like I was maybe the smartest person on
+[61:21] Earth. That was irrational. But you need some of that irrational confidence that comes from just
+[61:26] undying love. My dad was very different. My dad, if I came home and I had done something wrong,
+[61:32] would see thing, could barely look at me, couldn't understand it, right? Like he was someone who was
+[61:37] so disciplined, so good, had such high standards. And so his version of kindness was figuring out
+[61:43] how does he understand who I am and why I am failing at this thing, and then help me. He would sit down
+[61:49] and go over every detail with me, even though he sometimes just couldn't even understand why
+[61:55] I had the opportunities I had, and I couldn't take advantage of them, and take the time to
+[61:59] make me better while staying true to his principles and his standards of excellence and his definitions
+[62:04] of good too. You're building a fascinating business. It's been so cool to watch it. Get better. Thanks
+[62:08] for doing this with me. Thank you. If you enjoyed this episode, visit colossus.com. You'll find every
+[62:15] episode of this podcast complete with hand at the transcripts. You can also subscribe to Colossus
+[62:20] our quarterly print digital and private audio publication featuring in-depth profiles of the
+[62:24] founders, investors, and companies that we admire most. Learn more at colossus.com slash subscribe.
+[62:32] Patrick O'Shaughnessy is the CEO of Positive Sum. All opinions expressed by Patrick and podcast
+[62:37] guests are solely their own opinions and do not reflect the opinion of Positive Sum.
+[62:42] This podcast is for informational purposes only and should not be relied upon as a basis for
+[62:46] investment decisions. Clients of Positive Sum may maintain positions in the securities discussed
+[62:51] in this podcast. To learn more, visit psum.cc. You know how small advantages compound overtime
+[63:18] that's true in investing and just as true in how you run your company. Your spending system is your
+[63:22] capital allocation strategy. Ramp makes it smarter by default. Better data, better decisions, better
+[63:27] economics over time. See how at ramp.com slash invest. As your business grows,
+[63:31] Vanta scales with you automating compliance and giving you a single source of truth for security
+[63:36] and risk. Learn more at vanta.com slash invest. The best AI and software companies from OpenAI
+[63:42] to cursor to perplexity. Use WorkOS to become enterprise ready overnight, not in months.
+[63:46] Visit WorkOS.com to skip the unglamorous infrastructure work and focus on your product.
+[63:51] Ridgeline is redefining asset management technology as a true partner,
+[63:55] not just a software vendor. They've helped firms 5x and scale enabling faster growth,
+[63:59] smarter operations and a competitive edge. Visit ridgelineapps.com to see what they can unlock for
+[64:05] your firm. Every investment firm is unique and generic AI doesn't understand your process.
+[64:10] ROGO does. It's an AI platform built specifically for Wall Street connected to your data,
+[64:14] understanding your process and producing real outputs. Check them out at rogo.ai slash invest.

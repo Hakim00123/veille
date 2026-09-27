@@ -19,9 +19,17 @@
   "the-world-s-largest-electric-aircraft-just-flew",
   "8-ways-to-improve-your-outbound-sales",
   "open-models-change-the-economics-of-ai",
-  "the-state-of-startups-in-2026"
+  "the-state-of-startups-in-2026",
+  "robot-use-agents-why-general-purpose-models-may-win-in-robotics"
  ],
  "episodes": [
+  {
+   "fiche": "robot-use-agents-why-general-purpose-models-may-win-in-robotics.json",
+   "titre": "Robot-Use Agents: Why General-Purpose Models May Win in Robotics",
+   "date": "Sat, 26 Sep 2026",
+   "date_iso": "2026-09-26",
+   "nb_outils": 1
+  },
   {
    "fiche": "the-state-of-startups-in-2026.json",
    "titre": "The State of Startups in 2026",
@@ -156,5 +164,5 @@
    "nb_outils": 1
   }
  ],
- "maj": "2026-09-20T19:47:18Z"
+ "maj": "2026-09-27T20:13:45Z"
 }

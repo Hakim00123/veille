@@ -19,9 +19,25 @@
   "how-we-scaled-to-100m-in-under-a-year-ft-im8-co-founder-danny-yeung",
   "coach-for-spacex-openai-destroys-your-limiting-beliefs-for-88-minutes-",
   "i-got-internet-famous-if-i-started-again-from-scratch-here-s-what-i-d-",
-  "david-rubenstein-we-took-5m-and-turned-it-into-500b"
+  "david-rubenstein-we-took-5m-and-turned-it-into-500b",
+  "there-s-98-days-until-2027-do-this-and-you-ll-thank-yourself-on-jan-1s",
+  "whatnot-founder-this-is-the-future-of-e-commerce"
  ],
  "episodes": [
+  {
+   "fiche": "there-s-98-days-until-2027-do-this-and-you-ll-thank-yourself-on-jan-1s.json",
+   "titre": "There’s 98 days until 2027...Do this and you’ll thank yourself on Jan 1st",
+   "date": "Fri, 25 Sep 2026",
+   "date_iso": "2026-09-25",
+   "nb_outils": 1
+  },
+  {
+   "fiche": "whatnot-founder-this-is-the-future-of-e-commerce.json",
+   "titre": "Whatnot founder: This is the future of e-commerce",
+   "date": "Mon, 21 Sep 2026",
+   "date_iso": "2026-09-21",
+   "nb_outils": 4
+  },
   {
    "fiche": "coach-for-spacex-openai-destroys-your-limiting-beliefs-for-88-minutes-.json",
    "titre": "Coach for SpaceX & OpenAI destroys your limiting beliefs for 88 minutes straight",
@@ -156,5 +172,5 @@
    "nb_outils": 3
   }
  ],
- "maj": "2026-09-20T19:47:11Z"
+ "maj": "2026-09-27T20:13:37Z"
 }

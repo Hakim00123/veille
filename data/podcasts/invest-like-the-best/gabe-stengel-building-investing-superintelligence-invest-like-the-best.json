@@ -1,0 +1,59 @@
+{
+ "podcast": "Invest Like the Best",
+ "slug": "invest-like-the-best",
+ "titre": "Gabe Stengel - Building Investing Superintelligence - [Invest Like the Best, EP.492]",
+ "date": "Tue, 22 Sep 2026",
+ "date_iso": "2026-09-22",
+ "lien": "",
+ "duree": "3864",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 6.6,
+ "taille_transcript": 79466,
+ "transcript": "gabe-stengel-building-investing-superintelligence-invest-like-the-best-transcript.txt",
+ "nb_outils": 9,
+ "outils": {
+  "Apollo": [
+   "dard to execute to really crack this market. I think it's pretty high. And I was just so lucky that a number of the early people I hired were ex-finance and just killers. And we just hired folks from InterNetwork who worked at Goldman or City, or Jeffries, or Apollo, or Ares, or Blackstone. And so we had a team of people who were die hard, ambitious, curious, smart, and then just good humans, low ego, humble, young enough to be open minded and to want to eat class too. I'm also really curious how you've dealt with techni"
+  ],
+  "Copilot": [
+   "ou don't trust it. If it's accurate most of the time, but even when it's not, it's very easy to see the assumptions that went in where the data was pulled from, it's still actionable, and it still saves you time. And then increasingly, as these things go from copilot tools that you're just using for information retrieval to autopilots where you're trusting them, not just to gather them information, but to execute on it, to have agency and actually make an investment decision or send an email, you need to have the full con"
+  ],
+  "Cursor": [
+   ", so that it can actually maintain context over the course of a bunch of interactions. That's something that the models are not great at today. What do you think the major kinds of AI software businesses there are? So we've got companies like a cognition or a cursor or something that can grow unbelievably quickly. And I'm especially curious for you to compare this like the old classification system for software companies. I'm curious how people buy Rogo, what kind of category you would put it in? Is it usage based? Is it",
+   "nterprise sales, but using AI models as a tailwind to build a hundred times better products. And then there are the token brokers, the token consumption businesses where you're selling in the parts of enterprise where they're used to buying usage-based tools, cursor, factory, cloud code, and others. And so you can go much further commercially with fewer people. What's your prediction for how or if that will change in finance? I think that every business needs to go through two different pricing revolutions. You need to m"
+  ],
+  "Devin": [
+   "ut how to fly AI into the investment lifecycle is the biggest challenge over the next five years for every great investor. There's been many companies on this trajectory where the product was, cognition is very famous for literally their ads now say, remember Devin, it's good now. Lots of now clearly great companies with great products had a stage of an AI business where the product stunk. Now it's excellent. If you think about the couple increases in capability that we've seen just from the raw models, could you do the"
+  ],
+  "Excel": [
+   "five pages to a client that before I would have had to go back and forth with an analyst on over three days to create. And I made it in 10 minutes myself. And these are bankers who haven't done any sort of analysis in 25 years. They haven't actually opened an Excel file in 20 years, and they're able to do it themselves. The problem is, where is that flowing through? Are you winning more deals? Are you actually transacting more? Are you servicing a part of the market that you haven't seen? And this is where it becomes no"
+  ],
+  "Gemini": [
+   "u know, learns more and more about you. That's a hard problem. And it compounds exponentially when you think about agents, not just as a one to one right now, almost all agents are one to one, you use chat gbt individually, you use copie individually, you use Gemini individually. As soon as these are actually things that can sort with a lot of colleagues or in a slack channel with 100 people have to work across an entire company. Now the compaction problem just scaled exponentially, because it's having conversations with"
+  ],
+  "Ramp": [
+   " Fanta cuts audit prep by 82%. And gives you instant up-to-date proof of trust without all the manual work. So you can close deals faster and with less friction. Customers report a 526% return on investment, and more than 16,000 companies use Fanta, including Ramp, Harvey, and Snowflake, get started with $1,000 off at vanta.com slash invest. Ridgeline is the first end-to-end system of record with embedded AI for investment management firms running portfolio, accounting, reconciliation, reporting, trading, and complianc"
+  ],
+  "Slack": [
+   "ink about agents, not just as a one to one right now, almost all agents are one to one, you use chat gbt individually, you use copie individually, you use Gemini individually. As soon as these are actually things that can sort with a lot of colleagues or in a slack channel with 100 people have to work across an entire company. Now the compaction problem just scaled exponentially, because it's having conversations with 100 different people and needs to be able to coordinate across those things. And so being able to take "
+  ],
+  "Snowflake": [
+   "prep by 82%. And gives you instant up-to-date proof of trust without all the manual work. So you can close deals faster and with less friction. Customers report a 526% return on investment, and more than 16,000 companies use Fanta, including Ramp, Harvey, and Snowflake, get started with $1,000 off at vanta.com slash invest. Ridgeline is the first end-to-end system of record with embedded AI for investment management firms running portfolio, accounting, reconciliation, reporting, trading, and compliance on one unified platfo"
+  ]
+ },
+ "mentions_publicitaires": {
+  "Cursor": [
+   "o if you're running a business in the UK, you can now use Ramp's AI-powered finance platform to manage cards, expenses, bills, approvals, and accounting all in one place. I run my business on Ramp and so should you. Learn more at ramp.com slash invest. On AI, cursor, anthropic, perplexity, and bracelle all have something in common. They all use WorkOS. And here's why. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSO, SCIM, RBAC, and audit logs. That's where WorkOS comes in. Inste",
+   " time. See how at ramp.com slash invest. As your business grows, Vanta scales with you automating compliance and giving you a single source of truth for security and risk. Learn more at vanta.com slash invest. The best AI and software companies from OpenAI to cursor to perplexity. Use WorkOS to become enterprise ready overnight, not in months. Visit WorkOS.com to skip the unglamorous infrastructure work and focus on your product. Ridgeline is redefining asset management technology as a true partner, not just a software v"
+  ],
+  "Perplexity": [
+   " a business in the UK, you can now use Ramp's AI-powered finance platform to manage cards, expenses, bills, approvals, and accounting all in one place. I run my business on Ramp and so should you. Learn more at ramp.com slash invest. On AI, cursor, anthropic, perplexity, and bracelle all have something in common. They all use WorkOS. And here's why. To achieve enterprise adoption at scale, you have to deliver on core capabilities like SSO, SCIM, RBAC, and audit logs. That's where WorkOS comes in. Instead of spending months b",
+   " how at ramp.com slash invest. As your business grows, Vanta scales with you automating compliance and giving you a single source of truth for security and risk. Learn more at vanta.com slash invest. The best AI and software companies from OpenAI to cursor to perplexity. Use WorkOS to become enterprise ready overnight, not in months. Visit WorkOS.com to skip the unglamorous infrastructure work and focus on your product. Ridgeline is redefining asset management technology as a true partner, not just a software vendor. They've"
+  ],
+  "Ramp": [
+   " Ramp is the only platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. Ramp just opened for business in the United Kingdom, so if you're running a business in the UK, you ca",
+   "ly platform built to make your finance team leaner, faster, and better, saving businesses 5% annually on average so you can stay focused on growth. Ramp just opened for business in the United Kingdom, so if you're running a business in the UK, you can now use Ramp's AI-powered finance platform to manage cards, expenses, bills, approvals, and accounting all in one place. I run my business on Ramp and so should you. Learn more at ramp.com slash invest. On AI, cursor, anthropic, perplexity, and bracelle all have something"
+  ]
+ }
+}

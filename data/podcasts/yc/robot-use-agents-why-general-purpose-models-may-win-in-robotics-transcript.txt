@@ -1,0 +1,769 @@
+Y Combinator Startup Podcast
+Robot-Use Agents: Why General-Purpose Models May Win in Robotics
+Sat, 26 Sep 2026
+https://podcasters.spotify.com/pod/show/ycombinator/episodes/Robot-Use-Agents-Why-General-Purpose-Models-May-Win-in-Robotics-e3pe354
+
+[00:00] One of the big surprises the last few years
+[00:01] has been the generalizability of coding agents
+[00:03] across different domains, and now frontier researchers
+[00:06] are showing that this includes controlling robots.
+[00:08] This led MIT professor Philip Isola to suggest
+[00:11] in a recent viral essay that we may be entering the era
+[00:14] of robot use agents, where general purpose models
+[00:17] could make different robots more capable.
+[00:19] So today, Francois and I invited the founders
+[00:21] of Waddle Labs and Robocurve, two groups of startups
+[00:24] that are working at the very frontier
+[00:25] of making robots more capable with LLMs.
+[00:35] Maybe you guys want to briefly introduce yourselves
+[00:37] and just say a little bit about what each of your company
+[00:39] is focused on.
+[00:40] I'm Hammeh, I'm from Waddle Labs together with Vincent.
+[00:43] We work on building LLMs that control robots,
+[00:46] and we do this by doing two things.
+[00:48] Building a harness that allows the LLMs
+[00:50] to do this very effectively, selecting data
+[00:52] and using that data to train better LLMs.
+[00:54] Hi, I'm Jay, co-founder of Robocurve.
+[00:57] We are an EVOS company for physical AI.
+[01:01] We measure everything, any robot, any model,
+[01:04] including LLMs and also classical approaches,
+[01:07] such as VLAs, vision language action models
+[01:10] and world action models.
+[01:11] And we evaluate all kinds of important models, like hands,
+[01:15] grippers, arms, humanoids, quadruplets, all kinds of stuff.
+[01:20] So in the last few weeks,
+[01:21] videos from both of you guys went quite viral on Twitter
+[01:24] and I think inspired,
+[01:25] and both of them are actually quoted
+[01:26] in that Philip Isola essay talking about robot use agents.
+[01:30] The videos showed things like LLMs
+[01:32] being able to unscrew caps,
+[01:33] being able to communicate between multiple robots,
+[01:35] being able to do tasks like uncapping a pen, for example.
+[01:40] And so I thought maybe what would be fun
+[01:41] is for Francois and I to dig in with you guys
+[01:44] on some of the research that led to this moment to begin.
+[01:46] And then maybe we can also show
+[01:47] some demonstrations of what this can actually do.
+[01:49] To start, why don't we talk about some of the early research
+[01:52] around transfer between language models and robot control?
+[01:56] So I want to talk about some of the early work
+[01:59] on pre-training language models for decision making
+[02:01] and then also the RT2 paper which established the VLA.
+[02:05] So maybe Jay, do you want to tell us a little bit
+[02:07] about some of this early work involving being able
+[02:10] to use language models to do any kind of robot control?
+[02:12] One of the earliest successful approaches
+[02:15] of using AI on robots is the RT2 paper
+[02:19] where they use a pre-trained language model
+[02:22] on web text and images and use that to control robots.
+[02:27] And the interesting thing about that
+[02:29] is that it's a fine-tuned version of a language model.
+[02:34] And instead of outputting English, for example,
+[02:37] they just output what we call an ineffective pose
+[02:41] which is the coordinates that you can then translate
+[02:44] into joint commands that can control the robots.
+[02:48] In some cases, it's, in some sense,
+[02:50] it's very similar to what we see now
+[02:53] with large language models,
+[02:54] just that instead of fine-tuning,
+[02:56] the models are good enough to just do it off the box.
+[02:58] And this is actually quite similar to like the mapping
+[03:01] that I have in my head is kind of like the COT moment.
+[03:05] And so like when we did GSM8K and you said,
+[03:07] Susie had $8, she spent five, how much does she have now?
+[03:11] It had to output like four hash marks
+[03:14] and then the answer and then EOS.
+[03:17] There was no ability for it to chain of thought.
+[03:20] And so then we allowed it to actually have like,
+[03:22] okay, let me go eight minus five is three,
+[03:25] and so like, hash, hash, hash, three.
+[03:28] And so you allowed it to do this kind of thinking
+[03:30] before it actually gave an action or an answer.
+[03:33] And similarly now, like VLA is where basically like in RT2
+[03:38] is basically like, it has to output an action.
+[03:39] There's no like, I can't allocate more compute
+[03:42] for a more complex task.
+[03:43] And then now I have this code chain of thought thing
+[03:46] that I can do.
+[03:47] And I can say, okay, even if you were using the example
+[03:50] where you're not actually outputting the code,
+[03:51] you're just giving it to Astra
+[03:52] and let it think, think, think, think, think,
+[03:54] and then output an action.
+[03:55] Similarly now, like, and then with code,
+[03:57] it's a more Kolmogov complexity
+[04:00] or lower Kolmogov complexity code length
+[04:03] to just use code and really compact code
+[04:05] to just like, here's code, just go.
+[04:07] I totally agree with you on that.
+[04:09] I feel like at the end of the day,
+[04:11] it's a lot about a bit of less, right?
+[04:12] If you give the agents or you give the AI model more autonomy
+[04:17] and you if you unshackle it a bit more
+[04:20] and give it more resources,
+[04:21] it can actually do a lot of the things
+[04:23] that we find unit to do.
+[04:25] I'm just going to hop in here as well.
+[04:27] I think the really interesting thing
+[04:28] about the bits of lesson here is that
+[04:31] like VLAs by design architecturally,
+[04:34] they're built on top of language models as well, right?
+[04:36] They can potentially reason they can write code.
+[04:39] So perhaps the bits of lesson here
+[04:40] isn't necessarily what architecture you build necessarily,
+[04:43] but it's what data is most useful, right?
+[04:46] Like people have been sort of nagging
+[04:48] at this VLA data bottleneck for years now
+[04:51] and we're seeing very, very slow progress.
+[04:53] And so the lesson here is maybe
+[04:54] we have a modality of data that we know works very well
+[04:57] and this idea of transferring across different modalities
+[05:00] which Hamming and I are super excited about.
+[05:02] Like how do you take something
+[05:03] that is traditionally out of distribution
+[05:05] like robotics and make it something that's in distribution?
+[05:07] Like maybe the way of harnessing a bit of lesson is saying
+[05:10] let's pick a data for which we know this modality
+[05:12] is pretty blessed.
+[05:13] There's a lot of data,
+[05:14] these language, what these models understand it well
+[05:17] and then use this as a way of unlocking
+[05:20] a lot of other domains as well.
+[05:22] Yeah, and to add to that,
+[05:23] the reason why RT2 is such a good model
+[05:27] is because it is using a language model
+[05:29] that taps into the modality of all the data
+[05:33] that a language model is trained on.
+[05:35] So all those web images and web tags
+[05:38] actually improves the VLA compared to just training
+[05:41] a specific robotics foundation model
+[05:44] without any pre-training.
+[05:45] So you're benefiting in the case of RT2,
+[05:47] these early VLA approaches from pre-training.
+[05:51] I guess what's the limitation in the,
+[05:54] I guess, action-taking fine-tuning approach
+[05:56] that you can now get around
+[05:58] if you can directly write code?
+[06:00] Like you're referring to like a difference in data there.
+[06:03] What exactly is that difference in data you're referring to?
+[06:05] There's a few things that models have got much better
+[06:07] since RT2, like one.
+[06:10] I mean, they're much better tool use, for example.
+[06:13] So, you know, one kind of data is now these models can,
+[06:16] well, I mean, they write code much better.
+[06:18] So now they can write complex policies as code.
+[06:21] They're also much better using tools
+[06:22] to explore the kinds of environments they're in,
+[06:24] like what arms they have access to.
+[06:26] And a lot of this comes from in-context learning.
+[06:28] Like the key difference between like these VLAs
+[06:31] and we're like GPD6 or LLM isn't necessarily the architecture,
+[06:34] but kind of the approach you take towards training.
+[06:37] We want to be better, less than pill, right?
+[06:39] We want to benefit from all kinds of data.
+[06:41] We want to pour and computer use data into our robot models.
+[06:45] We want to pour in coding data into our robot models.
+[06:47] But when you do that, you just end up getting what's,
+[06:49] what we think of as like these general purpose LLM agents.
+[06:52] And then so, to me, it's like, okay,
+[06:54] why not just build a really good foundational LLM?
+[06:57] And I use that to control robots
+[06:59] rather than training like a model that's specifically
+[07:01] for robotics and that's more dependent on just robot data.
+[07:05] On that note, maybe one of the things that I think,
+[07:08] if we could have run the clock a couple of years
+[07:10] may have been a good sign that we were training
+[07:11] in a good direction to this,
+[07:12] is research on code as policies, right?
+[07:15] Do you guys want to talk a little bit about
+[07:16] when the research community refers to code as policies?
+[07:19] What exactly that means?
+[07:19] And I think it's worth putting this in the context
+[07:22] of when this paper came out,
+[07:24] which was coding agents just starting to work.
+[07:26] I think this was still in the era
+[07:27] in which people were like putting comments
+[07:29] and auto-filling Python code blocks,
+[07:32] which now we think of as ancient history,
+[07:34] but this was like two years ago.
+[07:35] So yeah, how does code as policies work?
+[07:37] And how did that inspire some of what you guys
+[07:39] are now seeing as possible?
+[07:40] I probably rewind back to Voyager,
+[07:43] where like Voyager was like the one of the first,
+[07:45] what does a coding agent mean?
+[07:47] Coding agent requires good tool use
+[07:49] and on-the-fly tool creation, that's called code, okay?
+[07:53] You have Python built-ins, let's just say
+[07:56] I have only Python built-ins, those are tools.
+[07:58] And I have sort and I have like if and I have for
+[08:02] and I have while and I have all these things
+[08:03] and I need to like use those tools to assemble a new tool
+[08:06] called a new Francois.py, right?
+[08:09] And like, now that's a new tool and I get to use that.
+[08:11] That was Voyager.
+[08:12] And like, yeah, I'm not gonna say Voyager
+[08:14] was the first one to do this.
+[08:15] Voyager was the most popular one to do this for Minecraft.
+[08:17] And then they created tools that they can invoke on the fly
+[08:20] to help them play the game better
+[08:22] and compressed thinking and experience into a new tool
+[08:26] that I can later invoke.
+[08:27] And then I think because everyone in 2024 had this insight
+[08:33] it was like, okay, if we just pour, you know,
+[08:35] Darian Sam both all realized if I pour all of my heart
+[08:38] and soul and resources and compute and intelligence
+[08:42] into getting better at coding, we will have liftoff.
+[08:45] Then I can automate the ML engineer,
+[08:47] then I can have liftoff and I'll have all the things.
+[08:49] I'll solve all the things.
+[08:51] And so then that's what everyone did.
+[08:52] And I don't think that they had the insight.
+[08:54] I don't think they were so insightful to know that,
+[08:57] oh, if I did this, then we will have LMs
+[09:00] that we good enough to write policies for robotics
+[09:04] and I can displace all of robotics
+[09:06] with actual coding agents.
+[09:08] And I can displace artists with like, you know,
+[09:12] coding agents that are writing JavaScript
+[09:13] to make beautiful like art.
+[09:15] Like I'm not sure that they had that insight,
+[09:17] to be honest.
+[09:18] Could we talk a little bit about
+[09:19] what some of these early CODIS policy methods
+[09:21] were even able to do?
+[09:21] So even, you know, this is well ahead of us
+[09:23] having coding agents that are widely available
+[09:25] and people intuitively understanding how they work.
+[09:27] It's well ahead of people using ARL methods
+[09:30] to actually train those coding agents
+[09:31] to be really good at tool calling.
+[09:32] What did some of those early ones,
+[09:33] maybe even before Voyager like CODIS policies,
+[09:36] which I think the paper came out in 2022 at the end,
+[09:39] right around when chat should be taken out.
+[09:40] What was the capability of those
+[09:41] compared to what you can see now?
+[09:43] Yeah, those CODIS policy papers,
+[09:46] especially once the Google DeepMind team were incredible
+[09:48] because what they did is they created these kind of functions,
+[09:54] like pick up an object, lift up,
+[09:56] or like move to a certain post.
+[09:59] Like they provided this list of functions
+[10:00] into a coding agent in the form
+[10:03] of like literally Python functions.
+[10:04] And then decoding agent will be able to write code
+[10:08] involving these functions to then control the robot
+[10:10] to do very complex hacks.
+[10:11] And what was very surprising,
+[10:13] what this excelled was that coding agents
+[10:15] can do this very one shot.
+[10:17] They did not need additional robot data
+[10:19] in order to work with this code
+[10:20] because they're already trained on so much coding data.
+[10:22] They already have a sense of like what to do first,
+[10:25] what to do second in order to like move a block
+[10:27] into a bowl, for example.
+[10:29] And I think it's this one shot ability,
+[10:31] this in-context exploration ability
+[10:33] that really motivated a lot of later work
+[10:36] to continue exploring,
+[10:37] including us to continue exploring
+[10:38] how we can apply LLMs to robotics.
+[10:41] I know, Francois, you have this framework
+[10:43] we've talked about of, you know,
+[10:44] the various ways that learning can happen.
+[10:46] There's gonna be learning that's embedded
+[10:47] into the weights versus in-context learning and so on.
+[10:50] Do you want to quickly talk about that?
+[10:51] And then maybe we can think about
+[10:53] where all the research over the last few years
+[10:54] has fit into that framework,
+[10:56] especially in the direction it seems to be going.
+[10:57] I mean, I've been working on this experiment
+[10:59] and actually I haven't really crystallized it
+[11:02] into a paper yet.
+[11:02] But basically it's like,
+[11:04] what is the most efficient way
+[11:06] from a intelligence per sample perspective
+[11:10] to input a learning, let's say, in this context,
+[11:14] a state action result or state action reward tuple
+[11:17] back into the policy.
+[11:19] There's ICL.
+[11:21] There is-
+[11:22] That's in context learning.
+[11:22] Yeah, we're describing context learning.
+[11:24] We're like, I just like append it.
+[11:26] This is how most people are using LLMs.
+[11:30] So they're just like, oh, no, don't do it like this.
+[11:31] Do it like this.
+[11:32] And I'm like, okay.
+[11:33] And then it's still in the context
+[11:33] and then I can remember it can iterate.
+[11:36] And that really only works if you train the LLM
+[11:38] or at least post train the LLM
+[11:40] to be able to learn and improve.
+[11:42] And that self-refines a reflection,
+[11:45] like literature from way back
+[11:46] that like actually allowed more if you turn
+[11:49] into the training set.
+[11:50] If you don't have that, it doesn't learn.
+[11:52] It doesn't, any kind of learn.
+[11:53] But even then there's a limit to how good ICL can go.
+[11:56] So I've done this experiment where like you take an LLM
+[12:00] that we've trained on and I've held out a task.
+[12:03] Let's just say GSM make a K for simplicity.
+[12:07] And then I ICL it and I want to measure on the vowel set
+[12:11] how much it improves on a per sample basis.
+[12:13] And it improves greatly very cheaply.
+[12:15] It doesn't cost much.
+[12:16] I don't have that there's no SGD.
+[12:17] So I don't have any flops.
+[12:18] And so very quickly I can adapt and improve on my vowel set.
+[12:21] Example, example, example.
+[12:23] One, it's non monotonic improvement, which is wild.
+[12:26] So it gets worse, it gets better,
+[12:27] it gets worse, it gets better, like pretty aggressively.
+[12:31] Number two is that it caps out very quickly.
+[12:33] And so after like 2030, maybe 40 examples,
+[12:37] it is basically saturated and more examples
+[12:39] back into the context is not improved.
+[12:41] You're like you're constrained by the model's ability
+[12:43] to intelligently use all of its context.
+[12:45] Exactly. From the post training,
+[12:46] how many multi turns did it actually get
+[12:49] to be able to improve and do self reflection?
+[12:51] And then the most important one for surely can't do
+[12:54] is after it hits the context window context length
+[12:56] of the model that it was trained on.
+[12:58] If it was trained on 100,000,
+[13:00] really that means you have a context window of like 50,000.
+[13:02] Once you exceed 50,000, you don't improve anymore.
+[13:04] You actually just get worse
+[13:05] because the model can't attend over everything.
+[13:08] There's a really example you said,
+[13:09] which I didn't really think about is like,
+[13:10] well, if I can rag or I can load in my into active memory
+[13:16] and this is very prime agent continual harness
+[13:18] kind of like thinking where I can pull stuff in
+[13:21] on the fly, similar examples,
+[13:23] then it's like me like, hmm, I have an exam
+[13:27] or I have an exam with a textbook.
+[13:29] I'm gonna do better if I have the textbook
+[13:31] to look up as reference.
+[13:32] And so that is, you know, definitely gonna work.
+[13:36] And it also scales what I would imagine much better.
+[13:39] And then the last two paradigms would be Laura
+[13:42] with rank one or rank two or whatever,
+[13:45] Laura with rank 10 or rank 100
+[13:49] and then all the way to full SFT RL.
+[13:51] And if you're Tesla and you have all the data,
+[13:55] infinite data and you're learning,
+[13:57] doing self-driving car by ICL, what are you doing?
+[14:00] Like clearly we wouldn't do that, right?
+[14:03] And if you're figures, I'm like that.
+[14:05] But it's amazing how good in low data regimes
+[14:09] you can do with ICL and then even cooler
+[14:12] where you can compress the ICL into tool use,
+[14:15] into tools or like compress it into learnings.
+[14:18] And that's the hierarchy that we haven't really figured out
+[14:20] that you guys are probably on the forefront of.
+[14:23] Yeah, you guys wanna elaborate a little bit
+[14:24] because I mentioned that's a central part
+[14:25] of how you guys think about building a model.
+[14:27] There's a few things that are quite interesting here,
+[14:28] I think to unpack.
+[14:29] Yeah, the first thing is we've been sort of thinking
+[14:32] about this idea of a harness,
+[14:34] almost as a form of like domain specificity.
+[14:39] Like when you, for example, deploy a robot
+[14:42] in a new environment, maybe it's in a wet lab
+[14:44] and it just needs to do a lot of tests you picking up,
+[14:47] for example, you can learn a lot of this in context,
+[14:50] but then one way of consolidating this context
+[14:52] for future agents is sort of packaging each of these skills
+[14:55] that you learn into specific programs, for example,
+[14:58] like writing out these skills and writing out these memories
+[15:00] is a form of consolidating.
+[15:02] It's like a form of distillation from past experience
+[15:05] for your future agents to use.
+[15:07] So this is quite interesting.
+[15:08] The other thing that's quite interesting is
+[15:11] it almost seems like there's some relationship
+[15:14] to the broader meta-learning literature
+[15:17] throughout in machine learning history.
+[15:18] Like you have this sort of bigger model
+[15:20] that then programs a smaller model to do things.
+[15:22] And one of the very interesting things is that,
+[15:24] yes, these smaller models are gonna learn in context,
+[15:27] they're sort of wrapped inside the harness
+[15:28] and they're doing the task.
+[15:29] You can make them maybe smaller,
+[15:30] you can make them run faster,
+[15:31] as long as the bigger model can sort of do this
+[15:34] domain specialization of your harness quite well.
+[15:37] So this is something that we're pretty interested in right now.
+[15:41] And last point as well, I think the really interesting
+[15:44] theoretical question is how far in context learning
+[15:46] can get you?
+[15:47] And I think it's really anyone's guess as to that.
+[15:49] Like there's papers that show that,
+[15:51] these models sort of can approximate gradient descent
+[15:53] during in context learning as well.
+[15:54] So it's this line between weight space and symbolic space,
+[15:59] I think it's a little bit blurry.
+[16:00] YC's next batch is now taking applications.
+[16:03] Got a startup in you?
+[16:05] Apply at ycombinator.com slash apply.
+[16:08] It's never too early and filling out the app
+[16:10] will level up your idea.
+[16:12] Okay, back to the video.
+[16:14] So what exactly are we watching here?
+[16:16] We're watching Ashra controlling the arms
+[16:19] to pick a block off the table and put it into the bowl.
+[16:23] So here Ashra is using just these camera inputs
+[16:25] and presumably it's aware of the robot that it's controlling
+[16:28] and it's gonna write code that controls the robot
+[16:30] at its individual joints.
+[16:31] Yeah, so it does look at all the cameras.
+[16:34] It has all the camera feeds.
+[16:36] Instead of code, it's more like a tool call.
+[16:39] So it sends commands to the robot to control
+[16:44] and put the block into the bowl.
+[16:46] So in this situation, we're using Ashra directly,
+[16:48] but if we were using say, Waddle's harness,
+[16:50] what's the kind of difference between
+[16:52] directly using Ashra to control this versus doing this
+[16:55] through Waddle's API?
+[16:56] Sometimes directly, like having Apple
+[16:58] that we command the post the robot should go to
+[17:01] is not the optimal tool to use.
+[17:04] If it's a repetitive task, you don't want Ashra in the loop.
+[17:06] Maybe you want to write code.
+[17:07] It can run repeatedly very, very fast.
+[17:10] Or if it's a task, you've done a similar task before,
+[17:12] you should be able to call a skill that has compiled
+[17:14] and use that skill to do the task faster
+[17:16] and handle edge cases better.
+[17:18] So here we can see it seems to be approaching in on this guy.
+[17:21] Oh, very dramatic.
+[17:22] Yeah, you can look at it.
+[17:23] You can notice that the latency is a bit slow
+[17:25] because we're bottlenecked by the latency of Ashra.
+[17:29] But if you look at the trends,
+[17:31] the latency of these models are improving very rapidly.
+[17:35] So one thing that we saw is that for Babel class LLMs,
+[17:39] their latency is improving by around two X a month,
+[17:43] which is very, very fast.
+[17:44] Yeah, if the trends continue,
+[17:46] we could get real-time control by end of the year.
+[17:50] So now that we saw this task go from end to end,
+[17:52] why don't we walk through what that actually entailed?
+[17:54] So there's a coding agent in the loop here running this.
+[17:57] Yes.
+[17:58] What are the steps that the coding agent would have taken?
+[18:00] And let's kind of contrast the direct coding agent version
+[18:04] versus the water harness in the loop version.
+[18:06] Yes.
+[18:06] So what just happened was that in a series of turns,
+[18:10] Ashra received the images from the cameras
+[18:14] and it outputted the end effect opposed
+[18:17] for the robot to go to.
+[18:19] And it does it over multiple turns to complete the task.
+[18:23] This is less of code as policies, but more of tool calls.
+[18:27] The on screen part is pretty repetitive.
+[18:29] So you could actually automate a lot of that using code
+[18:32] as well as actually approaching the bottle, picking it up.
+[18:34] Like a lot of these things are pretty deterministic
+[18:39] once you've done a task quite a few times.
+[18:42] The interesting part is where you're building the variation
+[18:44] into the code as policy graph.
+[18:46] And so we have a few points of variation.
+[18:48] This can come from, for example,
+[18:49] when you detect an object,
+[18:50] maybe you use a VLM as far as your tool call.
+[18:53] Or when something fails, for example,
+[18:55] how do you check that it's failed?
+[18:57] How do you then potentially do something else
+[19:00] depending on the failure?
+[19:01] Like there's kind of more flexible responses.
+[19:04] We tend to put a VLM inside a loop
+[19:07] to ensure that while the coding graph is sort of deterministic,
+[19:11] there's points of variation that allow it to generalize.
+[19:13] The biggest insight I think I've had
+[19:14] or change in world view on how to perform machine learning
+[19:18] and how to get the rest of the distance on AGI,
+[19:20] it was like a lot of conversations I've had with Francis Chalet.
+[19:23] And in 2020, maybe even 2018 when he did
+[19:27] on the measure of intelligence,
+[19:29] he talked a lot about transduction versus just wrong
+[19:32] versus program induction.
+[19:33] And transduction just means that I'm learning a function
+[19:36] theta that maps from Xs to Ys.
+[19:38] And why is that wrong?
+[19:39] It's just slow and it's information inefficient.
+[19:43] And so to go from Xs to Ys,
+[19:44] I need a lot of pairs of Xs to Ys.
+[19:47] And if I have a very small amount,
+[19:48] then you need a lot of inductive bias
+[19:50] and what you need to act is a generator
+[19:54] to map from Xs to Y.
+[19:55] So now my theta takes in three and end pairs of Xs and Ys,
+[20:01] and he mits the function that maps from X to Ys.
+[20:04] And that's what code is.
+[20:06] And so that's like, if you give me a coding interview,
+[20:08] even whiteboard, you say, okay, here's a coding problem,
+[20:11] here's some examples, okay, cool, write the function.
+[20:13] And then we are emitting an F that will map from X to Y.
+[20:17] And this is quite interesting, right?
+[20:18] I guess I think, I mean, this was a lot
+[20:21] of the traditional program synthesis literature.
+[20:23] And I feel like a lot of the reason why those methods
+[20:25] didn't work as well was because that inductive bias,
+[20:27] as you said, right, it's your shift in the difficulty
+[20:30] of the problem from finding that mapping
+[20:31] to finding the right inductive biases
+[20:33] to map it to this like smaller code to then do the mapping.
+[20:37] But finding that set of inductive biases is super hard.
+[20:40] But maybe that's what Astra is buying us.
+[20:41] Like even at Coxide, there's a giant shift
+[20:43] in the literature from, you know,
+[20:45] specifically neurosymbolic methods to just using Astra
+[20:47] to write code to map.
+[20:49] And so maybe that's a cool way to think about it.
+[20:51] Which is neurosymbolic.
+[20:52] That is neurosymbolic.
+[20:53] We have neurons and then they're emitting symbols
+[20:55] with some code.
+[20:56] I think it's actually a pretty good segue
+[20:57] to a kind of final topic, which is around,
+[21:00] inspired by this paper also from Philip Isola
+[21:04] that he titles the Platonic Representation Hypothesis,
+[21:07] right, where Platonic, because as a reference,
+[21:09] Plato's Cave and, you know, the idea that, you know,
+[21:12] they're seeing shadows of various realities.
+[21:15] And I think here the point he's making
+[21:17] is that there's extensive evidence to show
+[21:21] that language models and various representations
+[21:24] of different data has actually learned
+[21:26] these distance mappings between similar things
+[21:30] under different training policies that are overlapping.
+[21:33] And so like the idea there would be that
+[21:35] as you train these systems on increasingly large amounts
+[21:39] of data, they converge to a kind of consistent mapping
+[21:44] of the world, and maybe this implies
+[21:46] that we would expect language models to get better
+[21:48] and better at things over time
+[21:50] that would make them useful for new tasks,
+[21:51] like robot control.
+[21:52] But maybe I imagine this representation hypothesis
+[21:55] is actually pretty central to all of your guys' worldview
+[21:57] or your view of your companies.
+[21:59] And so maybe why don't you guys tell me a little bit
+[22:01] about how you think about this?
+[22:02] And also maybe we can use that to make some guesses
+[22:05] as to why we think models like Astra seem to be so much better
+[22:09] at robot control than previous models
+[22:10] and where it makes some predictions
+[22:12] for where we might be going here.
+[22:13] I think one way to make this concrete
+[22:15] for the robotics models versus language models debate
+[22:19] is that the very, very strong language models
+[22:22] will have very similar representations of the world
+[22:25] with very strong robotics models.
+[22:27] And if that's the case, then if you have
+[22:29] a really strong language model,
+[22:32] you also have a really strong robotics model
+[22:35] using if we believe in the platonic representation hypothesis.
+[22:39] And if that's the truth, then with a lesson,
+[22:43] that is the best manifestation of the bit of lesson, right?
+[22:46] Because you just need one really strong model
+[22:48] regardless of our architecture
+[22:50] and they would be outperforming any specific models
+[22:54] that is slightly weaker.
+[22:56] The interesting thing that's maybe not entirely intuitive
+[22:59] and maybe it'd be curious to hear you guys all think about
+[23:00] is why specifically it seems like these newest models
+[23:03] specifically Astra seems to be so much better
+[23:05] at spatial intelligence.
+[23:06] We've all seen the demos online of controlling Blender
+[23:08] and making great 3D images.
+[23:10] Now, it seems like you showed Jay in a benchmark
+[23:13] that is like a meaningful step function improvement
+[23:15] on certain tasks.
+[23:18] Where do you guys think the pre-training
+[23:21] and post-training, I guess, of those models,
+[23:23] what has likely changed about opening eyes approach there
+[23:25] that made them so much better compared to models
+[23:28] even six months earlier?
+[23:29] Like, you know, that's still we're benefiting
+[23:30] from their lesson and we're still extremely good at code
+[23:32] and we're still solving math problems
+[23:34] but having quite crack the spatial intelligence needed here.
+[23:37] I think what Astra does incredibly well
+[23:39] is it's like vision of capabilities.
+[23:41] It was probably pre-trained on way more computer use data
+[23:44] than ever before.
+[23:45] It started with pre-trained on so much like CAD data
+[23:48] and it's like all of these kinds of data
+[23:50] probably teach the model similar understanding
+[23:54] of like physical world as like a lot of robot data might.
+[23:58] So the computer use data is an interesting point
+[24:00] because it's not totally intuitive, I think,
+[24:02] why computer use data is useful
+[24:03] for understanding the physical world
+[24:04] and that it tends to be like a computer
+[24:06] where you're clicking around.
+[24:07] Like, say more about why you think that is a big unlock
+[24:09] because I totally buy the trained way more computer use data
+[24:12] than ever before.
+[24:13] Right.
+[24:14] I think immediately if you were just training
+[24:15] a model for computer use,
+[24:16] that would not be able to apply for robotics.
+[24:18] But if you feed a computer use data into a big model
+[24:21] like Astra and by computer use data,
+[24:23] I mean like you drag a cursor around on a screen
+[24:25] to orbit some CAD object in order to design and blender.
+[24:28] This tells you like how to reason about spaces.
+[24:32] At least tells you about like top down left, right?
+[24:35] All these concepts that you need to control a robot, right?
+[24:38] And I think that's why this data helps so much
+[24:41] for making these LLMs so much better at robot use.
+[24:44] I think like from the other direction,
+[24:45] like a lot of people in the robotics community
+[24:47] we're trying more and more different kinds of data as well.
+[24:50] Like egocentric videos kind of went from just tell the operation
+[24:53] to like, you know, broader range of this data
+[24:56] because it's not just robot data
+[24:58] that can teach a model how to use a robot.
+[25:00] So if we take this to the extreme,
+[25:01] it's like why not feeding every kind of data
+[25:04] coding computer use egocentric into the same model?
+[25:07] I think that's how we get to the most capable
+[25:09] like robot use agent.
+[25:11] Yeah, it's so funny that like, you know,
+[25:12] if you go to 1980s or X-Park or whatever,
+[25:15] like we literally made the graphical user interface
+[25:18] to be more like the physical world
+[25:20] so that we could interface with it.
+[25:22] And like, what we ended up doing is building an environment
+[25:24] that was actually helpful for robotics
+[25:26] to learn how to use the physical world, right?
+[25:29] We have file systems, we have like files, we have folders,
+[25:32] we have, you know, the gooies for like solid works
+[25:35] and like Autodesk to like spin around stuff
+[25:37] to make it similar similar to the physical world.
+[25:40] And then like, we couldn't get robots to work
+[25:43] in the physical world.
+[25:44] So we just trained on that.
+[25:45] And then now it works.
+[25:46] Right, exactly.
+[25:47] There were incredible papers, I think from Princeton
+[25:49] and also cloud paste robotics touches on this.
+[25:51] It's like, if you design a right harness
+[25:54] where you make the tools that you face with the robot
+[25:56] look like computer use tools,
+[25:57] like you have an agent drag cursor around
+[25:59] to control what a robot goes.
+[26:01] That improves how well the LLM is able to perform
+[26:04] on these physical tasks.
+[26:05] Where do you guys see, you know,
+[26:07] given like a reasonable guesses as to where the base models
+[26:10] are going to continue improving
+[26:12] and your guys' own investments in either evaluating
+[26:15] these models or building harnesses around them?
+[26:18] What do you think is going to be capabilities
+[26:20] that we maybe now see as challenging to do
+[26:22] but that are going to be increasingly possible
+[26:24] or even trivial very few months from now?
+[26:26] Like, you know, six months ago even the demonstrations
+[26:27] that I've seen you guys post on your Twitter
+[26:29] I think would have been kind of mind blowing
+[26:30] to imagine coming from an LLM.
+[26:32] There's some consensus within the frontier labs
+[26:34] and also in the robotics foundation of all those companies
+[26:38] that we will have general purpose robots
+[26:40] within the next two years or even earlier.
+[26:43] And this is something that society is probably unaware of
+[26:46] or even unprepared for.
+[26:47] And when we say general purpose robots,
+[26:50] we mean something like,
+[26:51] if you give any natural language instruction,
+[26:53] it can do what a competent teenager could do
+[26:56] with their bare hands.
+[26:57] It's kind of like the chat GPT moment
+[27:00] but for robotics in terms of capabilities
+[27:02] where you can generalize to unseen tasks
+[27:05] and unseen environments.
+[27:06] For you guys, for the world of labs guys,
+[27:08] what does that mean for what you guys are building?
+[27:10] I think we're going to want to take steps
+[27:12] to get there in about two years time.
+[27:14] I think there's so many challenges that are very visible.
+[27:16] For example, when I love to go online
+[27:18] and talk about latency, this is a big problem.
+[27:20] If you just have Astra being in the loop thinking
+[27:23] at every step, this is really slow.
+[27:24] This is not going to be economically like beautiful.
+[27:27] So how do you consolidate kind of a first pass by Astra
+[27:32] like this contextual learning into like a faster skill
+[27:36] or policy that you can then run repeatedly
+[27:38] at incredibly high throughput?
+[27:40] I think it's the mappings to humans
+[27:43] will get more and more like this
+[27:44] where like the optimal thing to do
+[27:47] may be to put a new SAR state action reward
+[27:52] back into context is very quick.
+[27:54] But then there needs to be some like
+[27:56] to go to sleep for a while.
+[27:57] Like almost everything that is intelligent sleeps.
+[28:00] Like tell me an intelligent system that doesn't sleep
+[28:03] right in some way.
+[28:04] And then during sleep, compression happens.
+[28:06] The weird thing that happens from your hippocampus
+[28:08] and it's short wave ripples to both lobes
+[28:11] and like there's weird, you know,
+[28:12] pass from memories that were compressed throughout the day
+[28:15] to train the weights.
+[28:16] And similarly, maybe what the right thing to do
+[28:17] is similar to dagger data segregation framework
+[28:21] in our classic RL where you're going
+[28:23] you're collecting a bunch of data
+[28:24] and then you're somewhat reflecting on it
+[28:26] and then you're using it to update your weight file
+[28:28] and then you have distillation in from those experiences
+[28:31] back into an updated weight file
+[28:33] that maybe isn't asked of it, maybe it's your own models.
+[28:36] It sounds very dream coder-esque.
+[28:38] But a lot of those specific tools,
+[28:40] I think that people used to build
+[28:42] to take dream coder, for example, right?
+[28:43] It had this library of skills
+[28:44] and then during the sleep phase,
+[28:46] it basically refracted everything
+[28:48] into more compact representation and so on.
+[28:50] I mean, we're seeing sort of similar things
+[28:51] just happen not as rigidly as before
+[28:54] in the space of programs,
+[28:55] but now it's maybe like maybe you want to refactor traces,
+[28:59] maybe you want to refactor skills.
+[29:02] A lot of these robotic coders policy papers, right?
+[29:04] They have this growing library of skills
+[29:05] and as anyone gets really how you print them,
+[29:07] how you organize them and things like that.
+[29:08] So yeah, I think as water goes forward,
+[29:12] like how you manage our growing context of skills,
+[29:15] of deployment data, all that is going to be quite interesting.
+[29:19] I think with that, I think this was an excellent discussion.
+[29:22] Thank you so much Vincent,
+[29:23] Han Meng and Jay for being here.
+[29:24] I'm very excited for all the incredible robotics advancements.
+[29:27] I think we're going to see over the next few years
+[29:29] and I think you're totally right, Jay,
+[29:30] that I don't think broader society is totally aware
+[29:34] of how much is coming and it's going to be
+[29:36] a very incredible few years to come.
+[29:38] Thank you so much.

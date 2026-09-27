@@ -8,9 +8,17 @@
   "neil-movva-making-ai-10x-cheaper-invest-like-the-best-ep-488",
   "sarah-guo-funding-the-frontier-invest-like-the-best-ep-489",
   "walter-russell-mead-how-america-keeps-winning-invest-like-the-best-ep-",
-  "michael-moritz-lessons-from-40-years-of-investing-and-writing-invest-l"
+  "michael-moritz-lessons-from-40-years-of-investing-and-writing-invest-l",
+  "gabe-stengel-building-investing-superintelligence-invest-like-the-best"
  ],
  "episodes": [
+  {
+   "fiche": "gabe-stengel-building-investing-superintelligence-invest-like-the-best.json",
+   "titre": "Gabe Stengel - Building Investing Superintelligence - [Invest Like the Best, EP.492]",
+   "date": "Tue, 22 Sep 2026",
+   "date_iso": "2026-09-22",
+   "nb_outils": 9
+  },
   {
    "fiche": "michael-moritz-lessons-from-40-years-of-investing-and-writing-invest-l.json",
    "titre": "Michael Moritz - Lessons From 40 Years of Investing and Writing - [Invest Like the Best, EP.491]",
@@ -68,5 +76,5 @@
    "nb_outils": 4
   }
  ],
- "maj": "2026-09-20T19:47:15Z"
+ "maj": "2026-09-27T20:13:42Z"
 }

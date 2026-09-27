@@ -2,9 +2,17 @@
  "slug": "a-la-french",
  "traites": [
   "episode-bonus-recap-saison-1-et-annonces",
-  "la-rentree-de-la-tech-en-8-actualites"
+  "la-rentree-de-la-tech-en-8-actualites",
+  "la-revolution-des-robots-humanoides"
  ],
  "episodes": [
+  {
+   "fiche": "la-revolution-des-robots-humanoides.json",
+   "titre": "La Révolution des Robots Humanoïdes",
+   "date": "Tue, 22 Sep 2026",
+   "date_iso": "2026-09-22",
+   "nb_outils": 0
+  },
   {
    "fiche": "la-rentree-de-la-tech-en-8-actualites.json",
    "titre": "La rentrée de la tech en 8 actualités !",
@@ -20,5 +28,5 @@
    "nb_outils": 2
   }
  ],
- "maj": "2026-09-20T19:47:16Z"
+ "maj": "2026-09-27T20:13:42Z"
 }

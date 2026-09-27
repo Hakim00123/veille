@@ -1,0 +1,885 @@
+The a16z Show
+The Reputation Graph of Silicon Valley | Introducing Cosign
+Fri, 25 Sep 2026
+https://a16z.simplecast.com/episodes/the-reputation-graph-of-silicon-valley-introducing-cosign-qLcU00IT
+
+[00:00] The most important skill in this industry, or perhaps in the world, is your ability to identify things before at the market.
+[00:07] There are so many people in the world who we want to meet, who also want to meet us, and it's just an information problem.
+[00:12] What's more impressive to you? Someone who went to Stanford or someone who is followed by Patrick Carlson, Elon Musk, Mark Andreessen.
+[00:20] A lot of people in Silicon Valley have a pretty high bar for who they're willing to publicly endorse.
+[00:25] One of what we do is finding awesome people and connecting them to our companies, otherwise kind of getting them in the A16 network.
+[00:32] And it allows us to really extend all that network and all that value and all that trust, and really that reputation that transfers and builds over time.
+[00:41] There's this Nobel quote I love, be so good that people do business through you.
+[00:45] In fact, if I cosign two people, they might be able to meet and otherwise build something on a way that I enabled without even having to know about.
+[00:52] But it's always hard to match the needs and the skills at exactly the right time.
+[00:56] What we've enabled is this...
+[00:58] Some of the most important opportunities in Silicon Valley start with a simple signal.
+[01:03] Someone you trust believes in someone you don't know yet.
+[01:06] In this episode, I sit down with Josh Elman, Olivia Moore, and David Booth to introduce cosign, a new product built around professional reputation.
+[01:15] We talk about why those who believe in you can sometimes say more than a resume.
+[01:20] How endorsements can help serve as great people before they're obvious.
+[01:24] And why that human signal could become even more valuable as AI makes everything else easier to generate.
+[01:30] We also get into what we've learned from LinkedIn, X, and AngelList.
+[01:35] And what happens when the reputation that normally lives in private conversations and fleeting social poses becomes more visible and durable?
+[01:43] We're super excited to announce cosign, a product that is around professional reputation for the startup community.
+[01:52] And really just trying to be the most comprehensive directory of companies and people.
+[01:56] And I want to start with the story, which is my friend David Perel told me he said my Twitter account is more valuable to me than my college education.
+[02:05] You know, I paid a quarter of my whatever it is.
+[02:08] My Twitter has given me more value to my career and also personally.
+[02:12] Now we, of course, just launched our own school.
+[02:14] So we are big fans of higher education.
+[02:17] But I thought that story was profound because of course, Twitter has been free for so long.
+[02:21] And this idea, we got behind it is, of course, college is a bundle of education, network, and credential.
+[02:29] And social life.
+[02:31] Yes, of course.
+[02:32] Yeah, some of that is hard to recreate on Twitter.
+[02:34] But yeah, exactly.
+[02:35] And so the education you learn from having conversations, the network, of course, you meet people, you discover people.
+[02:41] It kind of is proof of work of if they're interesting, if they're funny, etc.
+[02:44] If they build something cool, you can discover them.
+[02:46] But I think the credential thing is really interesting because here's the thought experiment.
+[02:50] What's more impressive to you?
+[02:51] Someone who went to Stanford or someone who is followed by Patrick Carlson, Elon Musk, Mark Andreessen, etc.
+[02:58] I think most people would say the latter.
+[02:59] Right.
+[03:00] And so this kind of like peer to peer credential.
+[03:02] And so what that is implicitly, other people also do this explicitly, is a cosine.
+[03:08] It's an endorsement that this person is worth tracking.
+[03:10] It's a public signal that this person is worth following.
+[03:14] And we think there are lots of other ways to express that signal and create this kind of like reputational benefit that these people get, which is really the exhaust of this person's not even trying to give them reputational benefit.
+[03:25] They're just trying to read what they write.
+[03:27] And the exhaust is this endorsement.
+[03:29] And this endorsement, if you're followed by these people, now your doors are open.
+[03:33] People want to also read what you say.
+[03:35] They want to work with you.
+[03:36] They want to invest in you.
+[03:37] They want to have you part of their team.
+[03:39] And also there's benefit to the receiver, but there's also benefit to the giver too.
+[03:43] Because if you're the first person to discover someone, well, it's kind of how Silicon Valley operates.
+[03:47] You're going to be able to hire them quicker.
+[03:49] You'll be able to fund them quicker.
+[03:51] And the cool thing about Silicon Valley is you don't know who the next big person is going to be always.
+[03:54] And sometimes they're 18 or come from, you don't come from a new brand school.
+[03:58] And so we're kind of all in this, a little bit of race to discover talent before anybody else.
+[04:03] And like Zach Frankel has done an amazing job, right?
+[04:05] So many people have done amazing building your reputation for discovering people.
+[04:08] And so the benefit they get is talent thinks, oh, I can get king made by them.
+[04:12] Like if Josh Allen or Olivia invested in my company, that's a signal to the market.
+[04:16] And angel investing or just investing from venture firm, that's one way to express a cosign or a signal.
+[04:22] But a lot of people aren't founders and a lot of people aren't investors.
+[04:26] And so we think there are lots of other ways to express this signal.
+[04:29] Really curious, as you've been building cosign like, what are the kinds of endorsements you hope to get from the platform?
+[04:35] Yeah.
+[04:36] So we want on every profile to have at least three.
+[04:40] One is who shaped your career?
+[04:42] Wow.
+[04:43] Because we think this sort of like mentor economy, this what Silicon Valley runs on.
+[04:47] If Josh Allen was my mentor, that means that he is putting, which is true actually.
+[04:51] It just happens to be true.
+[04:53] I was a young person, Josh spent a bunch of time with me.
+[04:56] And that's a signal to other people that I'm worth other people spending time with too.
+[05:00] Because if you respect Josh, you respect me by association.
+[05:02] And it's also, again, the benefit to you to discover talent early,
+[05:05] to be known.
+[05:06] People want to work with you if you help them.
+[05:08] So one is shaped my career.
+[05:09] Two is would work with anywhere or in the trenches with.
+[05:13] Because it's hard to tell from existing platforms like as you were saying the other night, who were you really in the trenches with?
+[05:18] Who have you really built bonds?
+[05:19] Who would you go to war with?
+[05:21] Who would you, like no matter what you're doing, you'd want to work with them?
+[05:24] That's a much more granular signal than do I follow them?
+[05:27] Which could be any number of things.
+[05:29] And then third is person to watch.
+[05:31] Like who do you think is going to really be emergent?
+[05:34] Like I send it.
+[05:35] And we rank order these two.
+[05:37] So platforms just started most of its fair game.
+[05:40] But in the same way, like to build a great investor profile, it takes so many years.
+[05:43] But then you've got the credit for doing so.
+[05:45] We think you do that around people too.
+[05:46] So you could say, hey, let's say when you're just starting in your career.
+[05:49] I think Olivia's going to be one of the greats.
+[05:51] I think she's a person to watch.
+[05:52] It's actually funny.
+[05:53] I did this experiment seven years ago where I emailed a few hundred people.
+[05:55] You were definitely one of them.
+[05:56] And I asked them for their prison watch.
+[05:58] I was just checking today.
+[05:59] One of them was Russell Kaplan, who's now the president at Cognition.
+[06:02] And he was like a 22 year old just engineer at Tesla.
+[06:05] And so there's actually a signal in that too.
+[06:07] So those are some of the ones.
+[06:09] We're also excited for people to do it for companies too.
+[06:11] Like what are the companies that you think right at seed but are going to be great.
+[06:15] Because of course, if you're able to, you can express your conviction with your money.
+[06:19] But not everyone's an investor.
+[06:20] This is almost like fantasy investing or social capital invest.
+[06:23] Yeah.
+[06:24] I love this idea.
+[06:25] I feel like I have long felt this.
+[06:27] But as I have invested now for almost a decade, I believe it more and more.
+[06:31] Every week, every day, every month is like the most valuable data in all of Silicon Valley is like who has conviction and who and who can give you kind of a real read on a person for so many decisions.
+[06:43] Like who do you invest in?
+[06:45] Who do you hire?
+[06:46] What company do you join?
+[06:48] And there's such information asymmetry right now.
+[06:51] Like our job investing every day.
+[06:54] We are pinging people saying, Hey, do you know anyone who worked with this person and we do it every day.
+[06:59] And we still, I would say, have to work really hard to find that signal.
+[07:03] And so how can someone who is maybe evaluating between five startup job offers get that level of, you just can't, especially if you're like an entry level engineer.
+[07:12] And yet that could be the difference between joining like a complete rocket ship and like a company that isn't doing as well.
+[07:18] And I know the data has to be handled carefully around who says what about who, but I think it will be.
+[07:23] And there's like a massive opportunity to add so much value to people's lives and careers.
+[07:29] Talk a bit about because you think a lot about towns.
+[07:31] Yeah.
+[07:32] Talk about the news that you did exciting as well.
+[07:34] Yeah.
+[07:35] Yeah.
+[07:36] So my twin sister, Justine also works here at Andre Sin on our infrastructure team.
+[07:39] We have both been in venture for basically a decade now.
+[07:43] And at our very first venture role, we started a newsletter that we ran every Sunday for I think like six and a half or seven years.
+[07:51] Which is a subscriber.
+[07:52] Thank you so much.
+[07:54] It was basically just aggregating startup job postings.
+[07:57] And the thesis was like, we both went to Stanford.
+[08:00] We ran a startup incubator at Stanford.
+[08:02] And still before we were working on a venture firm, we had no way to differentiate between all these startups and founders of who is legitimate, who's not, who's the most exciting.
+[08:12] And so we're like, okay, we have some insight information now.
+[08:14] Let's curate a list of the companies that we think are worth joining for young people.
+[08:20] And it really built up a real community because I think people appreciated it because you can't get that information outside of Silicon Valley.
+[08:27] We had a network of scouts on campuses that read it.
+[08:30] And some of those people are now founders that Andre Sin has invested in.
+[08:34] They're all funding fantastic companies and in fantastic places.
+[08:37] So that was like the less scalable version of this kind of network.
+[08:42] And I'm excited for more people to have the ability to kind of put their name behind ideas.
+[08:47] And one thing I'd have is that as it gets easier and easier to start companies, as it gets noisier and noisy out there, it's actually getting harder for people to do what you're describing exactly.
+[08:56] So this kind of signal is more important than ever.
+[08:58] If you think about the average student graduating out of Stanford today, they're looking at the startup market and they have to rely on the signals that are given by firms who are investing, but even before that, that are given by people like you and hundreds of others we have to empower here.
+[09:11] An example I love to point to you on the site when people go and you've got people like Packy McCormick who I think has always had a lot of very good signal around the deep tech and the vertical integrators in particular and Packy's got 37 companies that he's chosen.
+[09:21] He says, these are the companies if you want to get into one into the space.
+[09:24] And there's many, many more behind themselves included.
+[09:26] So there was like in a way he's co-signing some of his reputation against that company.
+[09:30] He's saying, I trust this company.
+[09:31] I'm putting my money where my mouth is.
+[09:33] I'm writing about them.
+[09:34] And I think that if you wanted to start your career off there.
+[09:37] So it becomes a sort of living directory of companies of people that are worth paying attention to.
+[09:41] And free.
+[09:42] Crunchbase, Pitchbook, Postmoney, etc other great products they have to be with businesses.
+[09:45] But we have the luxury of being able to just really offer this for the startup community.
+[09:49] And so we wanted to be the most valuable place where people can see, you know, who invested in what?
+[09:54] What is Olivia's set of deals that she's done?
+[09:56] What is the sort of most reliable company information on like who are the co-founders?
+[10:00] Who are the employees?
+[10:01] What are the products they shipped?
+[10:02] And one thing we've decided is that no product can be all things to all people.
+[10:06] And there are trade-offs.
+[10:07] And this is just going to be positive.
+[10:09] So this is going to be a place where people brag.
+[10:12] It's going to be accurate.
+[10:13] But, you know, so how often do you go to, you know, someone's LinkedIn and text.
+[10:19] I want to be like, hey, you're connected to someone on LinkedIn.
+[10:21] Like, can you tell me about it?
+[10:22] And be like, ah, I don't really know them.
+[10:24] You're like, we're going to have much more granular information to make sure that there's real signal there.
+[10:29] But that is, you know, one product decision that we've made.
+[10:34] David, this is something that we experimented with seven years ago and decided not to pursue
+[10:39] because we got busy with other stuff.
+[10:40] But I'm curious what has always struck you about this idea in terms of the need for it
+[10:45] or, you know, what we're really trying to do here.
+[10:47] One thing I've always believed is the most important skill in this town or in this industry
+[10:53] or perhaps in the world is your ability to identify things before at the market.
+[10:58] And those things, if you're investors, companies, if you're a hiring manager,
+[11:02] if you're a founder, it's people, sometimes it's products.
+[11:05] If you are in charge of procurement for a growing company, maybe you need to identify which product
+[11:10] is better before the market.
+[11:11] But there's no way of recording that.
+[11:13] There's no, there's no hipster leaderboard that says this person found this coffee shop this.
+[11:17] For angel investors, of course, they want to be non-consensus and right.
+[11:22] And they're rewarded for doing so because I can invest in your pre-seed round.
+[11:25] If I'm right, then it's lucrative for me.
+[11:28] One of the things that's always drawn me back was the idea that I can't invest
+[11:31] in my personal social capital in you.
+[11:34] I am very willing to make an introduction for you.
+[11:36] Like if I really, really believe in someone and no one else is heard of them,
+[11:39] I can make an introduction to them, you know, that Josh Ilman, for example.
+[11:42] And he will hopefully take that introduction because he sees me putting my rotation against
+[11:47] that introduction.
+[11:48] He has no idea who this person is, but he knows that David thinks highly enough of this person
+[11:52] to take a chance.
+[11:53] To me, the thing that stood out the first time around and the thing that we're trying to really
+[11:57] come back is when I cosign something, I take it seriously.
+[12:01] I want that person to be able to take the cosign I've given them.
+[12:04] And they might be able to go straight to Josh.
+[12:06] And they say, hey, David cosign me.
+[12:08] And Josh might see that.
+[12:09] He might reply to that cold DM.
+[12:11] And in fact, that sort of lubricates the wheels of social capital that should,
+[12:16] you know, could empower a lot more people to achieve a lot more.
+[12:19] There's this novel quote I love from a long time ago.
+[12:22] It's be so good that people do business through you.
+[12:24] If I cosign two people, they might be able to meet and otherwise build something or otherwise
+[12:29] hire each other and this and each other in a way that I enabled without even having to know
+[12:34] about it, which is very exciting.
+[12:36] Yeah.
+[12:37] It's really interesting.
+[12:38] Related to that, I want to talk about more features of the product.
+[12:40] I was talking about sort of the more granular ways of expressing reputation.
+[12:43] One of the best events I ever went to was this SV Angel conference in like 2018.
+[12:48] I think they do it once a year or something like that.
+[12:51] And every event should do this.
+[12:53] But before I went to the event, they had this list of 150 people that is sent out and it was
+[12:57] all of them was a, you know, everybody was a, you know, baller.
+[13:01] And they said swipe who you want to meet, who you want to intro to.
+[13:05] And I swiped on almost everybody.
+[13:07] You know, it was up and coming.
+[13:09] You remember Josh and eager to meet great people.
+[13:12] And basically if they swiped right on me, then we would get an automatic intro and it would
+[13:16] be like, you guys have full context, you know, you should chat.
+[13:19] And I then ended up meeting with most of those people and they became like really, like so
+[13:24] that event, of course, I couldn't have met, you know, 40 people at an event and had deep
+[13:28] conversations with them.
+[13:29] But that event provided the context for us to, you know, become friends and collaborators.
+[13:35] And I said to say that there's, there's so many people in the world who we want to meet,
+[13:39] who also want to meet us.
+[13:40] And it's just an information problem.
+[13:42] And if you can reduce the friction to make that introduction, because right now it's like I have
+[13:47] to tell them them, but I have to think about something to say.
+[13:49] Are they interested?
+[13:50] I don't know.
+[13:51] But this is just sort of passive.
+[13:52] Like, yeah, here people I would meet.
+[13:53] Now, what we've enabled is this privately signal.
+[13:56] It's actually a bit more granular.
+[13:58] So it's not just I want to meet them, though.
+[14:00] There is that.
+[14:01] But it's also I would fund them if they started a company or I would hire that if they consider
+[14:06] leaving.
+[14:07] I can't, there's a lot of people who I would hire, but I can't like reach out to all of them
+[14:10] and also might be inappropriate and like I'm too busy.
+[14:12] And I would only want to talk to them if they want to join me or whatever.
+[14:16] Having more granularity around professional intent.
+[14:21] Passively.
+[14:22] There's no low risk of like because there's some cost in sending a DM.
+[14:25] I don't know.
+[14:26] You might feel rejected or it's time or whatever it is.
+[14:28] And if they also express interest, then it's an introduction with high intent.
+[14:32] I think an unlock just a lot of good stuff.
+[14:35] Yeah.
+[14:36] That conference example is so interesting because I feel like the other takeaway for me is like,
+[14:41] we can all be people mattress now with a product like a sign.
+[14:44] Like I think about in all of our jobs, we meet so many people every day.
+[14:48] I often meet someone.
+[14:49] I'm like, they are awesome.
+[14:51] They have this really specific skill set that I meet someone else three months later who's
+[14:55] looking for that skill set.
+[14:56] And I have to figure out like, remember this person check if they still want the intro, make
+[15:01] the intro.
+[15:02] And so like that's store of information and somewhere that's more persistent is and can kind of work
+[15:08] across time is really, really interesting.
+[15:10] I agree that completely.
+[15:11] You know, so much of what we like to do.
+[15:14] Both those investors and people around Silicon Valley is make these connections.
+[15:18] But it's always hard to match the needs and the skills at exactly the right time.
+[15:22] And remember that being able to codify this.
+[15:24] Here's the people I think are truly great designers.
+[15:27] Or here's the people I think are truly great PR people who can help you through a crisis.
+[15:32] Or here's the people that have really helped me through a career decision that I was making
+[15:37] and are the mentors that I go to be able to actually endorse that.
+[15:40] Now has it available so that when you're looking for that, you don't just have to go, Josh,
+[15:45] who can help me think through this decision?
+[15:47] I have to go through and see who have I recently talked to, who's fresh top of mind that I can
+[15:52] think of, but I can really go back and be able to say, hey, Josh, I'm looking through those
+[15:56] cosines and you said that this person really helped you in this one situation.
+[15:59] Like, do you think they'd be open to helping me?
+[16:01] And it allows us to really extend all that network and all that value and all that trust.
+[16:06] And yet still is a way that you're trusting me to try to make that introduction.
+[16:10] Like, it's not that any of us want to just say, hey, you know, everything's open to everybody.
+[16:14] It's really still part of the trusted community.
+[16:17] And really that reputation that transfers and builds over time.
+[16:21] So building us on Eric said, the private signal is one core piece of it.
+[16:25] And I think what we're here is in a way the public signal.
+[16:28] So we built the two of them, the private signal.
+[16:30] I mean, honestly, the product is so fun.
+[16:32] You can go rabbit-holing around.
+[16:34] It's a bit like Wikipedia clicking from link to link to person to profile to a company to
+[16:38] invest through and back again.
+[16:39] And as you go, you're collecting.
+[16:41] Maybe it's Pinterest that I'm going to put this person on my personal private list of people
+[16:45] that I want to work on in the future.
+[16:47] And I'm going to put this person on my public list of designers that I read.
+[16:50] And every time a founder comes to me and they say, David, who I need a new designer,
+[16:55] I need a growth guy, I need an engineer, I can say, well, do I consult my private signals?
+[17:00] Or do I send them my public list?
+[17:02] And hopefully everyone has this habit of, if I really believe in someone,
+[17:05] I'm putting them on my private list.
+[17:07] It's actually utility both ways.
+[17:08] It's telling them that I believe in them.
+[17:10] It's telling their network that I believe in them.
+[17:12] It's also something I can use.
+[17:14] I can turn around.
+[17:15] I can give to a founder or someone I respect.
+[17:17] I can kind of shortcut that work that you're saying you do.
+[17:19] You have to do it every time someone asks a question.
+[17:21] What's so interesting about that to me as well is there's this often timing discrepancy
+[17:26] that happens in networks where I'm like, oh my gosh.
+[17:29] I know this person has been trying to get their startup off the ground.
+[17:33] This other startup would love to merge with them or welcome them to the team something
+[17:37] like if the timing is right.
+[17:39] But if I go to that founder, I'm like, hey, are you thinking about exiting your company?
+[17:43] That's a big risk.
+[17:45] It could be offensive or insulting or maybe the company is working
+[17:48] and they want to keep going on it.
+[17:50] And so the idea of just having this two-sided network where there's information on both sides
+[17:56] and they can match when the time is right, when they indicate,
+[17:59] I think it's like really, really, really great on both hires, acquisitions,
+[18:04] like job changes, tons of things.
+[18:06] So fastening the company to company.
+[18:09] I didn't even think about it.
+[18:10] I would buy stuff.
+[18:11] Yeah.
+[18:12] Yeah.
+[18:13] We'll get the product features.
+[18:14] Yeah.
+[18:15] Exactly.
+[18:16] We just extended the roadmap.
+[18:17] Yeah.
+[18:18] Yeah.
+[18:19] That happens.
+[18:20] There are a couple of things I want to add to that.
+[18:21] So, you know, it's interesting.
+[18:22] We thought a lot about, you know, should there be a feed?
+[18:25] So what is on the feed?
+[18:26] Is it free form, et cetera?
+[18:27] And Josh helped us really nail down sort of the focus of the feed to be around questions
+[18:33] and announcements.
+[18:34] And, you know, announcement is so interesting because we think a way to differentiate there
+[18:38] is to basically make reputation durable.
+[18:40] A lot of reputation is built on social media, but it's a femoral.
+[18:45] So when Josh joined the firm, you know, he wanted me to focus on other people,
+[18:48] but you're such a good example.
+[18:50] A lot of people came out of the woodwork who've been working with him for a long time,
+[18:54] but who maybe haven't, you know, publicly said anything recently because they didn't
+[18:57] need to and said, wow, you know, I really endorsed Josh.
+[18:59] You should work with Josh.
+[19:00] Josh helped me in my career.
+[19:01] You know, I said that.
+[19:02] Nikita said that.
+[19:03] A bunch of other people said that.
+[19:05] And then, you know, the next day just happened.
+[19:08] Some people saw that.
+[19:09] Some people didn't see it.
+[19:10] But that type of stuff is so valuable and should exist in someone's profile,
+[19:13] like the first time you're looking them up.
+[19:15] And so for us, any announcement is going to be tied to their sort of, you know,
+[19:20] durable reputation.
+[19:22] And so when companies fundraise and people switch jobs,
+[19:24] these are opportunities for cosigns, for endorsements, et cetera.
+[19:27] And then on the question side, it's really this, you know, this we were talking earlier,
+[19:32] it's like, who's the best comms person for this?
+[19:34] Or who's the best angel investor in FinTech?
+[19:36] Or, you know, who are people I should work with for this?
+[19:38] Or this kind of like, you know, very specific, you know, question of some sort of person or
+[19:44] company or product you're looking to either surface to you or learn more about.
+[19:49] And in that way, it will also build durable reputation because you get added to a list
+[19:53] through that.
+[19:54] And I think this idea of bringing those ephemeral moments and those ephemeral conversations
+[19:58] that happen on Twitter and other social media forms all the time are like,
+[20:03] there's so much that just happens and it's wonderful in the moment and then it gets lost.
+[20:07] And I think this idea of building a profile, not a profile that is just what you say
+[20:13] about yourself, but really that lets other people, you know, be positive and help,
+[20:18] you know, shine on your strengths, I think is really, really powerful.
+[20:21] And, you know, I see a lot of these for you and the great work you're doing here.
+[20:25] I see a lot of these for Olivia and David.
+[20:28] Like, we get these comments and it's just so special and you feel so lucky to have people,
+[20:33] you know, that you've helped in the past be able to say those things about you now.
+[20:37] But then again, it just gets lost.
+[20:39] And I think this idea of tracking those cosines and really making it feel like this fundamental
+[20:44] network of the web that we are of Silicon Valley, of the tech industry.
+[20:48] I'll give you an example.
+[20:50] Do you know the meme where the guy's like walking into a party at stick figures and he's like,
+[20:54] they don't even know that, like, that's something you get like a baller cosine or whatever.
+[20:59] And you're like, it's not probably like, you know, Mark Andreessen wrote a blog post about
+[21:03] me joining the firm.
+[21:04] Like, that's pretty dope.
+[21:06] Like, I want that on my, like, I want the first thing when you think about me is to think
+[21:10] about Mark Andreessen and his professional leaders.
+[21:12] Yeah.
+[21:13] And so, yeah, there's just all these moments that happen if we can make them more legible.
+[21:17] Yeah.
+[21:18] You know, you can more accurately represent someone's.
+[21:20] Honestly, it wasn't until we actually hooked up the internet fire hose to this product that
+[21:23] I realize how many of those modes are.
+[21:25] I mean, you look at the main feed and every day there is fan raising announcements, there's
+[21:29] talent transitions, thanks to our good friends at X, we're plugged into a lot of those
+[21:33] and we're taking like, we never stumbled in quote tweets in announcement or replies and
+[21:37] it's a, it's a, you're filtering them.
+[21:39] It's a genuinely thoughtful positive comment, you're pointing at me about positivity.
+[21:42] Yeah.
+[21:43] Those are pulled through it.
+[21:44] And it's, yeah, it's really coming from a person and it's on the profile.
+[21:48] It comes from and it goes to a person.
+[21:50] To it.
+[21:51] And the reason why it's all positive is because, you know, products have to win on some dimension
+[21:54] and this product is going to win on people using it to show off.
+[21:59] Like, you know, you're having a good way.
+[22:01] Hey, this is what I'm proud of.
+[22:02] Like this represents the, like the full manifestation of what I'm capable of on a person level and
+[22:08] on a company level.
+[22:09] And I really think it's about, it's about celebration.
+[22:11] I mean, like so much of what we did, there's so much hard work that goes on making every
+[22:16] single product that happens.
+[22:18] It's a toil of somebody's love, their idea, the coding they wrote or maybe that they worked
+[22:23] on with their agent now.
+[22:24] But like putting that on the world, it's a very vulnerable moment.
+[22:28] And it's very like, do you like what I've tried to make?
+[22:31] Are you going to use it?
+[22:33] And I think, you know, we need to celebrate that effort and what goes into those moments
+[22:38] and what goes into all the hard work that we do as opposed to, you know, there's plenty of
+[22:43] places for critique and we see all that all the time too.
+[22:46] But I think that doesn't need to be recorded for posterity in the same way.
+[22:49] And I, one thing we're talking offline is interesting is a lot of, you know, there's a lot of awards
+[22:54] and a lot of shine on founders.
+[22:55] Yeah.
+[22:56] And, you know, just to be so obviously, and also there's a lot, you know, a lot of other
+[23:01] people build the companies too.
+[23:02] Yeah.
+[23:03] And a lot more people are critical to those companies and they're, you know, unknown or not celebrated
+[23:07] to the same degree.
+[23:08] And this is an opportunity to do as well.
+[23:10] Totally.
+[23:11] I think even just positive signal is going to be incredibly informative because I think a lot
+[23:16] of people in Silicon Valley have a pretty high bar for who they're willing to publicly endorse
+[23:20] and in any way, like when I think about like the number of intro requests that come in and
+[23:25] how many of those do I actually bridge?
+[23:27] Like, I think it's great.
+[23:28] Yeah.
+[23:29] You endorse someone who's not great.
+[23:30] That reflects poorly.
+[23:31] Exactly.
+[23:32] Yeah.
+[23:33] You're the national reputation of cinematism.
+[23:34] Yeah.
+[23:35] And there's a whole thing about, you know, do you share something that you haven't even played with?
+[23:37] You know, there's a whole, you know, have you even read the article before you retweet it?
+[23:40] Yeah.
+[23:41] And I think the key is like you'll get to know pretty quickly who's just spouting things in is, you know,
+[23:46] celebrating everything that can be celebrated versus, you know what, I've actually played with
+[23:49] this.
+[23:50] I've spent time with it.
+[23:51] I've heard the backstory.
+[23:52] I've thought about the backstory.
+[23:53] And I just want to double down on one comment you said about this going beyond the founders.
+[23:57] Like, I think, you know, the founders who take that risk to start a company from nothing.
+[24:01] That's such an incredible thing.
+[24:03] But it takes a village to build every one of these companies.
+[24:06] It takes so many great designers and engineers and marketers and product managers and we all,
+[24:13] you know, finance and like there's so many parts of every single company that have to get built
+[24:19] and celebrating that work.
+[24:21] And when that happens from a specific team or a specific individual and be able to have
+[24:25] that be part of this kind of endorsement and co-signing, I think is going to be incredibly
+[24:30] powerful beyond just, you know, the people that we talk about most of the time.
+[24:34] Well, tell a story or perhaps nudge Eric to tell a story.
+[24:37] The one of the first times I actually heard of Eric and then went on to meet Eric was the
+[24:41] Riser Awards.
+[24:42] The Riser Awards 2015, 16 thereabouts over a decade ago now.
+[24:45] And it was around the thesis that, you know, farmers get a lot of publicity.
+[24:48] A lot of credit, but it's actually the people who are the operators behind the scenes.
+[24:51] And so the principal, do you want to tell a story?
+[24:53] What were the Riser Awards?
+[24:54] Yeah, so the Riser Awards were this series of awards meant to be for everybody else.
+[24:59] For the engineers, the designers, the product, I believe Josh was a judge, you know, many
+[25:03] others and we had thousands of submissions and, you know, discovered and selected some great
+[25:08] people because of it.
+[25:09] And we're going to bring that back to some capacity.
+[25:11] You know, there's this was a phrase fear not the guy who has a thousand moves, but the guy who
+[25:15] does one move a thousand times.
+[25:17] That's a camera I would kick a thousand times.
+[25:20] So Riser Awards, of course, a lot of these ideas have been in the ether for us.
+[25:25] In fact, the thing that stands out is a lot of the people who were the Riser Award recipients
+[25:29] got to know each other and build lifelong relationships through the retreats that ended,
+[25:33] through the groups that you added them to and things.
+[25:35] So there's something around that, the connection.
+[25:37] It's really interesting because I feel like we often meet people who are spinning out of
+[25:41] great companies to start their own companies.
+[25:43] And often, if you get really deep, like if you call everyone they've ever worked with,
+[25:48] it's like, wow, this person who was like, I don't know, engineer number four actually was
+[25:54] a huge determinant in this company being successful or not.
+[25:57] But that, to your point earlier about legibility, that's not something that they can like publicize.
+[26:03] They're not going to be like the face of every article about the company.
+[26:06] And yet there's like so many of these people who I think I would love to see them get to
+[26:10] leave that company.
+[26:11] If they go start a new company, they go to another one and carry that accomplishment with them.
+[26:16] Totally.
+[26:17] And they can't really do that right now.
+[26:18] Yeah.
+[26:19] We're making the reputation market more like efficient, basically we're more liquid in the
+[26:22] sense of both efficient and liquid.
+[26:24] So for example, there's some people who have an amazing reputation, but there's not awareness.
+[26:29] Not a lot of people know that they have a great reputation.
+[26:32] And then more liquid in the sense of if it was known that they're a great reputation,
+[26:35] a lot of people would want to hire them or fund them and they should get those opportunities
+[26:39] as a result.
+[26:40] And so it's basically like trying to fix that information asymmetry.
+[26:43] I want to return to what you were saying earlier, because it's really interesting.
+[26:47] It's like a bunch of times a candidate will, or someone looking for a new job will sit you
+[26:52] down and say, hey, what company should I join?
+[26:55] And there's a lot of people who wish they could do that.
+[26:57] But if you've got your list of companies they should join, it's kind of the do business
+[27:00] through you.
+[27:01] It's like Olivia stamped these companies, they can reach out.
+[27:06] And similarly, and it'd be cool also for the ones you do meet with that you could just
+[27:14] press a button and it would go to all your companies instead of having to think through.
+[27:18] Because there's some of you might want to share private just to keep to your companies
+[27:22] or whatever it is.
+[27:23] But then also there are companies who are like, hey, I want a head of comms.
+[27:28] Who in my network knows?
+[27:30] Who should I even talk to and to the extent that people are cosigning heads of comms
+[27:33] or this kind of thing, it can just like facilitate much more, you know, imagine.
+[27:38] Yeah, totally.
+[27:39] I feel like even for investors, like the most up-to-date profile of the companies they care
+[27:44] about is maybe if they tag them all in their expo and maybe if they put them on their LinkedIn,
+[27:50] otherwise you have to go to the firm's page and see if they connect them to investments.
+[27:54] And like, if I could and not ruin kind of the reach in the audience, I would be tweeting
+[27:59] at all my companies all day every day, like promoting them go work for them.
+[28:03] They just did this amazing thing, but you can't do that.
+[28:06] And I love the idea of a place where like that kind of lives to see it at any time.
+[28:11] Yeah, be shameless.
+[28:12] Yes.
+[28:13] It is a jammy.
+[28:14] So there's so many existing platforms per second.
+[28:17] Like X, obviously, you know, such a great platform and the exhaust of it is so valuable to some people.
+[28:23] But there's also times where like, I'm like, man, I wish I could just download my follower.
+[28:26] Like, I wish I could just like, we're like, you know, a few thousand people liked this thing
+[28:30] about joining my company.
+[28:31] I wish I could just like see this and why is it so difficult?
+[28:34] Like, it's not built for this use case of like, you know, discovering people to work for or just get more signal.
+[28:39] Like, okay, you follow me.
+[28:40] But like, you know, do you want to work for me?
+[28:42] Do you want to invest in me?
+[28:43] I don't know.
+[28:44] What do you want?
+[28:45] What do we want to do here?
+[28:46] And so I, and then LinkedIn, you know, it's such a valuable utility.
+[28:50] We're on it all the time and yet everyone hates it.
+[28:55] Obviously, we love.
+[28:57] We love LinkedIn.
+[28:58] We love LinkedIn.
+[28:59] Josh used to work there.
+[29:00] LinkedIn, you know, one of the most iconic products of all time.
+[29:02] Mark famously defended it.
+[29:03] I remember when they got acquired because we were like, what?
+[29:06] Only 26 billion.
+[29:07] It was like, you know, it's a great outcome.
+[29:09] And it was iconic product.
+[29:10] And yet, you know, people have frustrations with it.
+[29:13] So I'm well, maybe it's even before the fee.
+[29:16] I said people say the feed is crazy or whatever.
+[29:17] But even before the feed, I feel like people were like, I wish there was just more more that we could do here.
+[29:22] So why don't you talk about that?
+[29:24] You know, look, I worked at LinkedIn back in 2004 and five.
+[29:27] And we were just starting to form the network and read Hoffman, the founder.
+[29:31] Just talk about it very much.
+[29:33] It's like we have three stages of the company.
+[29:34] Like first is growth.
+[29:36] We really have to figure out how to make sure we have the largest professional network and give everybody value of just being part of their network, even if they have nothing to do.
+[29:44] And actually, for a lot of users, sign up, make your profile.
+[29:47] Don't do anything else for a while unless something comes to you was a perfectly good usage.
+[29:51] Then we talked about usage.
+[29:53] We really have to start to build products on top of the network.
+[29:56] The real thing was the network is just the substrate.
+[29:59] We need to go build a real job service.
+[30:01] I hope once the first LinkedIn job, we had to go build services, find the best PR professional, find those things.
+[30:06] And then we'll build revenue.
+[30:08] So first, so it was kind of the, I call it a girl, growth usage revenue.
+[30:12] And we really had to figure out what those platforms and products were going to be on top of the network.
+[30:16] Now, the challenge is, as you build the network, there's very single signal.
+[30:20] Are we connected?
+[30:21] And at the early days, the beauty of that was the idea that we really know each other, all vouch for Olivia.
+[30:26] And if David is asking for an intro to me and Olivia says, David's really good, you take this intro, that's great.
+[30:35] And it was even better, if you imagine this whole table, David would ask Olivia for an intro to say,
+[30:40] Hey, can you introduce me to Eric?
+[30:43] And then Olivia would say, Josh, David's my really good friend.
+[30:46] It looks like, you know, Eric, would you be willing to pass him on?
+[30:48] And this idea of this trusted graph, I'm so happy to connect with you and I'll pass you on to somebody else was the important condition.
+[30:55] But over time, it started to fade from that strength, the connection to like, yeah, we met once at a party.
+[31:01] We high five, we had a good email exchange.
+[31:03] And all of a sudden, then you know, everybody kind of got into a collecting.
+[31:07] And the challenge with collecting that network is it makes it much harder to figure out where the real signal is.
+[31:12] Now, on the other side, it still is the iconic representation of who each of us is the professional profile.
+[31:18] But when we think about how to use our professional profile, it's only really good if it adds value.
+[31:23] One of the things I remember when we were first building LinkedIn jobs was the goal was to take a current job service where someone just applies and gets a resume.
+[31:31] And you see a job listing go, how do we use the power of your professional network to make it better?
+[31:35] A very favorite like read would push us a lot.
+[31:37] And you'd say, what is a social resume?
+[31:39] When a job application comes in and it wasn't just here's who this person is.
+[31:43] It was here's who this person is and here's who else in your company might also know more about who the person is.
+[31:49] Here's who else might have worked at similar companies they worked at in the past.
+[31:52] Or here's who knows people really well who also worked at those companies.
+[31:56] So you wouldn't just get this flat resume, you'd get a resume annotated by who else can help you reach that person.
+[32:02] So that was like this big change to make job applications socially enhanced.
+[32:06] And then when you're looking at jobs, you might just see a flat job and that job looks really to that company.
+[32:11] We said, no, we're going to put the hiring manager, their profile is going to be on the job.
+[32:14] All of a sudden, instead of a faceless job that you're just applying and throwing your resume over the wall,
+[32:19] hey, you're going to get hired by this person.
+[32:21] And then by the way, here's the ways that you might have connections to that person or you might have connections to other people who work at that company.
+[32:28] So it's again, how do you use your network to do those things.
+[32:31] Those were the beginning epiphanies of how to really rethink just something as simple as a job application and job site with the social network.
+[32:40] And I think, again, what was been missing, though, is the set of things that happens, a family through X, like you were talking about,
+[32:47] the set of things that we all have, but we don't figure out how to strengthen and put into LinkedIn anymore.
+[32:53] The true connection, the reason that we were in the trenches together, we worked on this thing, it bailed me out of a crisis.
+[32:59] And when we can have that, that information in the network is going to allow all these use cases to happen so much better.
+[33:06] And when you get to focus just on kind of making sure the network's right and getting all that usage,
+[33:10] I think cosign can really open up so many opportunities.
+[33:13] Yeah, it feels like there's kind of like a hierarchy, almost, of connections.
+[33:17] And LinkedIn, for good reason, again, I feel like we're all saying iconic product.
+[33:21] I'm an hourly active user making a ton of revenue.
+[33:24] They're clearly doing fine.
+[33:25] They're doing great.
+[33:26] But LinkedIn treats almost every kind of type of connection, the same, especially as products like endorsements on LinkedIn have been really taken off.
+[33:33] So, like, for example, 90% of the time when I say to someone, hey, I saw you're connected to this person on LinkedIn, can you intro me?
+[33:40] I will get the, hmm, I don't think I know them.
+[33:43] Maybe I'm at the party, I'm not sure.
+[33:46] So there's like, do you actually know the person?
+[33:48] Did you work at the same company?
+[33:50] Did you work at the same company at the same time?
+[33:52] Were you on the same team or adjacent teams that work together?
+[33:55] Did you manage them?
+[33:56] And like, all of those are treated as one like connection or not connection now.
+[34:00] And I love the idea for cosign of being able to, like, break that into the granularity that it deserves because it's so much more useful.
+[34:07] It seems like the greatest time in history to be building products generally that can accumulate context that was otherwise unavailable.
+[34:13] You say the social CV.
+[34:15] I love that idea.
+[34:16] I think, Olivia, in particular, you're thinking a lot about, like, the talent in the social space and agents are an interesting way to accumulate a lot of context around a person.
+[34:25] I think a lot of the things that we're building here to talk more about that.
+[34:28] There's a lot of-
+[34:29] Totally.
+[34:30] What is a future hope?
+[34:31] So a lot of what we do, both actually are investing teams in our operating teams, is just finding awesome people and investing in them, connecting them to our companies, otherwise kind of getting them in the A16T network.
+[34:43] And so right now a lot of this is scraping these existing profiles and networks and then doing a lot of manual work of going to see who actually is the best strength of connection.
+[34:53] How can we make this happen?
+[34:55] I think that that kind of manual work that's truly external signal-based and it's kind of binary signal versus really granular signal, that's only going to get harder.
+[35:07] Because, for example, recently I posted on, like, Dan, I was like, hey, I'd love to help my portfolio companies hire.
+[35:13] If you want to work at a startup, fill out this Google form.
+[35:16] When it works, it's almost harder because I get 2,000 results, right?
+[35:24] And that's going to happen to every person who posts a job or who posts any kind of opportunity.
+[35:29] And it's going to be 2,000 now and it's going to be 10,000, you know, a month from now.
+[35:34] As browser user's agent gets better and more people use browsers, it's going to be 100,000.
+[35:38] And so it's like, how do you even be using Astra at like maximum strength?
+[35:42] Like, how do you sift and sort?
+[35:44] And so in an age, I think of like endless kind of outreach and interest with AI, like the scarce thing is like the human endorsement or the human conviction or the human knowledge.
+[35:57] And so that's where I get especially excited because I think cosign is going to be valuable hopefully so many people in the community and also very valuable to the work that we do and what we try to do.
+[36:08] And yeah, it's interesting.
+[36:09] You know, we've sort of gotten to a place where there's only like broadcasting networks to the whole world or like group chats with like 50 people.
+[36:15] There's not really this like, you know, 10,000 or like a much more vetted community.
+[36:19] And that's where we are to start.
+[36:21] And growing, you know, growing slowly and basically where you put out a post and you'll just be more confident in the signal that comes in.
+[36:28] It's going back to LinkedIn for a second.
+[36:31] Some things that I wish it had is like, you know, sort of like, remember like a MySpace top eight.
+[36:38] Like, I want that for business.
+[36:39] Like, who do you have the changes with?
+[36:41] Who do you talk to regularly?
+[36:42] Like, who are mutuals?
+[36:43] How do you know them?
+[36:44] How do you meet them?
+[36:45] You know, what do they think about you?
+[36:47] So this more is sort of, as you said, it treats connections all the same.
+[36:51] And you don't really get context on the relationship or context on, you know, people's reputation.
+[36:56] It's like, LinkedIn is about personal identity.
+[36:58] We hope that cosign is about professional identity.
+[37:00] We hope cosign is about professional reputation.
+[37:02] You know, LinkedIn is about, they say it's like people you know, Twitter is like people who are interested in knowing you.
+[37:09] And we hope that cosign delivers both in a more granular way.
+[37:13] And at the same time, you know, to give props to LinkedIn.
+[37:15] It's like, it started 20 plus years ago.
+[37:17] Yeah.
+[37:18] And no one's even come close to competing with it in any capacity.
+[37:21] I remember Charles Hudson, you know, great, great investor.
+[37:24] Like, you know, 12 years ago was a blog post like where the LinkedIn competitors, it's time to disrupt.
+[37:29] Like, I don't like the product or XYZ reasons.
+[37:31] It doesn't do this.
+[37:32] And we've seen tons of them.
+[37:33] You know, we backed them, you know, at the firm and visually.
+[37:36] And, you know, people who try crypto, like all sorts of like different incentives to break LinkedIn.
+[37:42] It's just fascinating.
+[37:43] You know, I was joking once everyone hates it, but people do have like, they use it obsessively.
+[37:48] And yet they have like low NPS on it or something.
+[37:51] And they know that a better version can exist.
+[37:54] And yet, you know, it's been impossible to disrupt.
+[37:57] But I think the real thing with LinkedIn is actually think the NPS is really high for the people who aren't actively in the flow and in the searching and in the community.
+[38:06] LinkedIn's always served two audiences.
+[38:07] One is, I call it the people who want to find people.
+[38:10] And the other one is people who want to maybe be found at some point in their lives.
+[38:14] And when you think about it, all of us would love to be found for the right opportunity that comes to us.
+[38:19] We aren't known.
+[38:20] A lot of us might be happy.
+[38:22] We used to talk about the like mildly happily employed because there's a lot of people who like, they like what they're doing.
+[38:28] They're not in any urgent need to go do something else.
+[38:31] But if the right thing popped, whether it was from, you know, someone you know or someone you don't know, but it matched all your interests, you might be like, hmm, should I actually think about that?
+[38:41] And I might consider it still might not be right for you in life at the time.
+[38:43] But for those mildly happily employed people, they aren't constantly, you know, if they're an engineer, they're not checking LinkedIn every day for like new people or new things.
+[38:52] If you're in sales, if you're in BD, if you're in venture and investor, you're using it all the time.
+[38:57] But that was what was really special.
+[38:59] And I think moving tens and tens and tens are hundreds of millions.
+[39:03] I think they're over a billion people now of people who are happily employed, who are maybe open to the right opportunity.
+[39:09] Like, that's the kind of network effect that really sticks.
+[39:13] And you think a lot about what is a 20 year network effect?
+[39:16] Like, look at LinkedIn.
+[39:18] And as you're building and I says lots to new companies, as you're thinking about something new, how do you think about that kind of network effect?
+[39:24] It'd be so powerful for 20 years.
+[39:26] And even if some people wish there was a better product, you can't move the masses over.
+[39:31] Yeah. We have looked at and invested in some attempted LinkedIn killers.
+[39:35] And I think what they've done a remarkable job with is the switching costs are just very high, both because they are famously good at bot detection.
+[39:43] So you can't really scrape it in real time.
+[39:45] There's whole businesses that are built up scraping LinkedIn and selling that data.
+[39:50] But also because it's just such a tight and dense network that ultimately, if it's something as important as your career, you're going to want to be on the platform where everyone else is.
+[39:59] That being said, I think there's a massive opportunity for a new platform when there is new information or new value to be kind of gleaned or shared, which is very much high quality endorsements and high conviction people.
+[40:12] Well, generational shifts and also niche, the hyper niche.
+[40:17] So in LinkedIn, for example, GitHub is arguably a better LinkedIn for engineers than LinkedIn itself.
+[40:22] And I'd say, is there an opportunity to say, what is the emergent niche here?
+[40:26] Is it the individual who's trying to build their reputation as a talent scout?
+[40:31] Are they trying to be a founder who wants to break through?
+[40:33] Is there a world for a better LinkedIn that represents their tastes in people?
+[40:39] And when it gets me excited about cosign, isn't that it has to even be a better LinkedIn set?
+[40:42] Is that it really pulls together all this information that's already lately happening in our industry?
+[40:47] And the Silicon Valley and the tech industry is so special for this kind of pay it forward, for this belief in somebody, the stuff we talked about at the very beginning.
+[40:56] The belief in this person who may not have had a previously strong reputation that has an insight and idea and that alone can gather a bunch of people and a bunch of momentum and change the world.
+[41:08] And that's what makes this so special.
+[41:10] And that's what I think, you know, these platforms like LinkedIn, you know, serving so many people now across so many industries and so many domains.
+[41:17] And I think there's room for something that's really special for the community that we have and that, you know, combines the things that are happening ephemerally with the things that are happening professionally with the depth that is going to be great.
+[41:28] And if cosign works great and it still only serves the tech community as a huge win.
+[41:33] And if it then, other communities and other industries figure out, they should figure out how to take part in this too and bring some of that Silicon Valley energy to more places.
+[41:43] That's even better.
+[41:44] But the pay it forward and the every great idea can just come from somebody who wasn't previously known, but truly has a unique insight.
+[41:52] Like, that's what I hope this captures too.
+[41:55] Eric from Benchmark had this comment in the Patrick Roshana Sea podcast where Patrick was asking him sort of like, you know, what do you think about every category?
+[42:02] And he's like, it's all going to work.
+[42:04] Like everything is going to be huge, not every company, but just as an index.
+[42:07] Like every cat, everything we've come to similar conclusion.
+[42:10] And I think, and I think similarly, like when people say like, you know, do this world need another podcast, like there's too many podcasts and yet another great podcast comes in and it doesn't kill the other, it just all works.
+[42:21] Everything is great works.
+[42:22] And similarly, like, you know, we just launched a school like Stanford's going to be fine.
+[42:26] You know, our offer is going to be fine and our thing's going to be great.
+[42:29] And then similarly, like, yeah, LinkedIn is going to be great.
+[42:31] Like it's going to keep doing its thing.
+[42:33] And you know, we're inspired by them in so many ways.
+[42:35] We're also inspired by Angelist, like 10 years ago when they owned the investor graph and really it was for the startup community.
+[42:42] And it was really focused around, you know, companies, investors and talent.
+[42:46] And, you know, they made a series of other bets that then sort of made them focus on other parts of that or deprecate the free public social network that used to exist.
+[42:55] And we think it's an opportunity to bring back.
+[42:57] And then we're also inspired in terms of like how we're going to do this.
+[43:00] We're also inspired by Wikipedia.
+[43:02] One in terms of, you know, people want Wikipedia profiles, they're aspirational, but two in that we're creating profiles for people.
+[43:09] So that's we're starting and we think people are going to be excited about it because we're bragging for them on their behalf in an exclusive, you know, way.
+[43:15] And, you know, if they don't want it, we will take it off.
+[43:17] But you're going to see your profile.
+[43:18] It's going to be fleshed out with all, you know, people give you compliments and also people expressing their interest in funding you or working with you or even before you go to the profile, like, you know, before, you know, and so that's one of the ways in which we're differentiating it.
+[43:30] And only, you know, because of AI, can we generate all of this information on people and like recreate, you know, a professional graph.
+[43:37] But if we didn't go that third party route, then we would have to get people excited.
+[43:40] It's a cold start problem.
+[43:41] It's a cold start problem.
+[43:42] It's the place where people go to update their, you know, purpose is the most reliable.
+[43:45] Often people say like, what's the daily behavior?
+[43:47] Well, we're, you know, brute forcing it by covering every sort of, you know, transition.
+[43:53] So we'll also have reliable profiles with, you know, more reputation and benefits to it.
+[43:58] Totally.
+[43:59] I feel like the best, I'm curious if you agree, but for consumer products, like the easiest way to acquire users is to tell them that someone else is saying something about them on the product.
+[44:09] Especially if it's something, it's the Nikita Beer and like your friends just answered this question about your strategy, which worked so well three times.
+[44:16] And it wasn't possible before AI for a network.
+[44:20] I think it's big as Silicon Valley.
+[44:22] And now it is, which is awesome.
+[44:23] Someone calling it today, the Nikita Beer of Powder Communities.
+[44:25] It's a real compliment.
+[44:27] That's a true compliment.
+[44:28] Yeah.
+[44:29] Yeah.
+[44:30] Yeah.
+[44:31] So it's worth pointing out everything that is being pulled in is coming from public sources.
+[44:34] That's what people have posted on their, you know, a variety of different places.
+[44:38] It's being aggregated.
+[44:39] There's a lot of like the funding announcements.
+[44:41] They're the ones that are being announced.
+[44:42] So there's a lot of really, really high quality information that is spread across the public development in it.
+[44:47] And it's uniquely compiled and structured, we think, in one place.
+[44:51] And Eric talks about the Angeles example.
+[44:53] I recall very early in my career, Angeles was probably the first, it was like the wedge that I took into the Silicon Valley.
+[44:59] It was the ability to see which companies and which geographies, which people at those companies, which, you know, for a long time, it felt like it could be the LinkedIn for the sort of little niche of people who were ambitious in technology.
+[45:12] And then, as Eric said, it sort of moved away from that for a number of reasons.
+[45:15] But that's been missing.
+[45:16] Becomes a place that you can go as a founder who's like, which angel investors do I want to get to know over the next six months before my round?
+[45:23] It's a public utility.
+[45:24] It's something it's worth pointing out here.
+[45:26] We're putting this out into the world.
+[45:28] It's like a thing we'd like to build with people.
+[45:31] It's not something that's being presented as a fully finished, perfect products.
+[45:35] It's an invitation.
+[45:36] It's an invitation to everybody who wants to come in and edit and submit an update to their own or someone else's profile.
+[45:45] So I will ask, let's build this thing together for everyone.
+[45:48] Yeah.
+[45:49] And submit things to people's profiles, cosign, the things you endorse on people.
+[45:53] And then even if somebody has feedback, cosign that feedback so that it gets back to David and David order to keep improving things.
+[46:02] Yeah.
+[46:03] And so to end on that sort of higher level note, a lot of the industry, but also other industries sort of run on cosigns and set, you know, Paul Graham, cosign, Sam Altman famously, I feel like 2009 or something.
+[46:16] He said like the five best entrepreneurs, like Steve Jobs, you know, three other people and Sam Altman.
+[46:20] And at the time, Sam Altman hadn't like had a huge exit yet.
+[46:23] But that really just like gave him such a reputational boost, him running YC, et cetera.
+[46:28] You know, it's critical to him then building going on to build one of the most important companies of all time.
+[46:32] And so many, you know, Ben Horowitz and Ali from Databricks.
+[46:35] I mean, so many examples of people who got their cosign from someone older and more senior in the industry and were able to rise up because of it.
+[46:43] Ryan Hoover, who was founder of Product Hunt, cosigned Eric and brought Eric on to become one of the leaders of building the community for everything.
+[46:50] And it was such a great endorsement of you early in your career and your potential.
+[46:54] I'm going to go with you because it's amazing.
+[46:56] I'm a successful room.
+[46:57] And it's so fascinating because, I mean, one of the things that makes Silicon Valley so special is how much of a meritocracy it is and how you don't have to like, you know, necessarily just pay your dues for 20 years before we're taking seriously.
+[47:10] Like, one of the most important intellectuals right now is Dorkesh.
+[47:13] He's 25 years old.
+[47:14] He's never had a job as far as I'm aware.
+[47:16] He just, you know, came to San Francisco, started podcasting.
+[47:18] And, you know, someone was, I don't know if his Patrick Colson or Mark Andreessen also went on a number of people by going on his podcast early, cosigned him and then said, hey, this is a place where then Zuck and others can go on.
+[47:29] You know, one of the most important founders is Michael Trul, you know, a young guy in the mid to late 20s, et cetera.
+[47:36] One of the most important, you know, people, Leopold Ashman Brenner is like, I think, like 24 or 25 as well.
+[47:42] And so it just, like, if you're talented, if you're smart in this industry, someone will discover you, cosign you and make your career.
+[47:51] And so we hope that happens on our planet.
+[47:52] Well, we're talking about social capital and positive some mindsets.
+[47:55] I think it's really important.
+[47:56] There's a critique of this I wanted to talk about where someone might rightfully say, well, why would I share this cosign?
+[48:03] This is my alpha.
+[48:04] This is like, I know that person's good.
+[48:05] Like, why would I tell you?
+[48:06] You're good.
+[48:07] And I think actually something, if you take a very long term view of this, you can say, sure, if that person's raising a pre-seed round right now and you want to do it, don't cosign them right now.
+[48:15] But the person you want to cosign is the one that's raising a pre-seed round two years from now, five years from now.
+[48:21] And when they do, they remember you.
+[48:23] They say, yeah, the reason I'm able to raise this pre-seed round is Olivia cosign me two years ago.
+[48:28] And in doing so, she helped me meet my co-founder and she helped me meet the five people who were my early believers in my product.
+[48:34] And that's why I'm here today.
+[48:35] And of course, I'm going to call her first, my pre-seed round.
+[48:37] And if you turn it around that way and you take a very long term mindset, like, it's such a long term.
+[48:42] Oh, I understand.
+[48:43] The benefits just accrue to you in the sense of people always remember, like, by order of magnitude more, the people who believed in them first.
+[48:49] Right?
+[48:50] You know, Brian Chesky, when he, you know, goes public with Airbnb, who does he write in the blog post?
+[48:56] He writes YC, you know, Paul is first investor.
+[48:59] You know, so much investment all throughout.
+[49:01] But so much more money, so much more time into this company.
+[49:04] But you remember the first person.
+[49:06] So if you build, if you are the first person, especially publicly, because that's where the value is, because they will remember for you for it.
+[49:13] And then more people will come to you.
+[49:15] Yeah.
+[49:16] So 10.
+[49:17] Let's wrap on that.
+[49:18] Thank you so much.
+[49:19] Thank you.
+[49:20] Thank you.
+[49:21] Thanks for listening to this episode of the A60C podcast.
+[49:26] If you liked this episode, be sure to like, comment, subscribe,
+[49:30] leave us a rating, we'll review, and share it with your friends and family.
+[49:34] For more episodes, go to YouTube, Apple Podcasts, and Spotify.
+[49:38] Follow us on X, A60C, and subscribe to our substack at A60C.substack.com.
+[49:44] Thanks again for listening, and I'll see you in the next episode.
+[49:48] As a reminder, the content here is for informational purposes only.
+[49:52] Should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security,
+[49:57] and is not directed at any investors or potential investors in any A60C fund.
+[50:02] Please note that A60C and its affiliates may also maintain investments in the companies discussed in this podcast.
+[50:07] For more details, including a link to our investments, please see A60C.com forward slash disclosures.

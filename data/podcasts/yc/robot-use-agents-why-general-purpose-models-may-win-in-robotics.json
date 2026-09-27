@@ -1,0 +1,22 @@
+{
+ "podcast": "Y Combinator Startup Podcast",
+ "slug": "yc",
+ "titre": "Robot-Use Agents: Why General-Purpose Models May Win in Robotics",
+ "date": "Sat, 26 Sep 2026",
+ "date_iso": "2026-09-26",
+ "lien": "https://podcasters.spotify.com/pod/show/ycombinator/episodes/Robot-Use-Agents-Why-General-Purpose-Models-May-Win-in-Robotics-e3pe354",
+ "duree": "00:29:49",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 2.4,
+ "taille_transcript": 38723,
+ "transcript": "robot-use-agents-why-general-purpose-models-may-win-in-robotics-transcript.txt",
+ "nb_outils": 1,
+ "outils": {
+  "Cursor": [
+   "ata than ever before. Right. I think immediately if you were just training a model for computer use, that would not be able to apply for robotics. But if you feed a computer use data into a big model like Astra and by computer use data, I mean like you drag a cursor around on a screen to orbit some CAD object in order to design and blender. This tells you like how to reason about spaces. At least tells you about like top down left, right? All these concepts that you need to control a robot, right? And I think that's why ",
+   "actly. There were incredible papers, I think from Princeton and also cloud paste robotics touches on this. It's like, if you design a right harness where you make the tools that you face with the robot look like computer use tools, like you have an agent drag cursor around to control what a robot goes. That improves how well the LLM is able to perform on these physical tasks. Where do you guys see, you know, given like a reasonable guesses as to where the base models are going to continue improving and your guys' own inv"
+  ]
+ },
+ "mentions_publicitaires": {}
+}

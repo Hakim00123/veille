@@ -1,9 +1,25 @@
 {
  "slug": "envers-du-business",
  "traites": [
-  "comment-savoir-si-avez-reellement-un-avantage-concurrentiel"
+  "comment-savoir-si-avez-reellement-un-avantage-concurrentiel",
+  "comment-expliquer-les-remunerations-exuberantes-des-grands-patrons",
+  "comment-devenir-un-partenaire-cle-dans-les-metaux-aeronautiques-avec-n"
  ],
  "episodes": [
+  {
+   "fiche": "comment-expliquer-les-remunerations-exuberantes-des-grands-patrons.json",
+   "titre": "Comment expliquer les rémunérations exubérantes des grands patrons",
+   "date": "Fri, 25 Sep 2026",
+   "date_iso": "2026-09-25",
+   "nb_outils": 0
+  },
+  {
+   "fiche": "comment-devenir-un-partenaire-cle-dans-les-metaux-aeronautiques-avec-n.json",
+   "titre": "📣 Comment devenir un partenaire clé dans les metaux aéronautiques ? Avec Nicolas Dufourcq et Pauline Lambert",
+   "date": "Fri, 25 Sep 2026",
+   "date_iso": "2026-09-25",
+   "nb_outils": 2
+  },
   {
    "fiche": "comment-savoir-si-avez-reellement-un-avantage-concurrentiel.json",
    "titre": "Comment savoir si avez réellement un avantage concurrentiel ?",
@@ -12,5 +28,5 @@
    "nb_outils": 0
   }
  ],
- "maj": "2026-09-20T19:47:16Z"
+ "maj": "2026-09-27T20:13:43Z"
 }

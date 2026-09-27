@@ -1,0 +1,25 @@
+{
+ "podcast": "The a16z Show",
+ "slug": "a16z",
+ "titre": "Aaron Levie, Steven Sinofsky & Martin Casado: How Do You Secure a World of AI Agents?",
+ "date": "Sat, 26 Sep 2026",
+ "date_iso": "2026-09-26",
+ "lien": "https://a16z.simplecast.com/episodes/aaron-levie-steven-sinofsky-martin-casado-how-do-you-secure-a-world-of-ai-agents-v8Q401cc",
+ "duree": "00:56:00",
+ "modele": "base.en",
+ "langue": "en",
+ "minutes_transcription": 5.2,
+ "taille_transcript": 66798,
+ "transcript": "aaron-levie-steven-sinofsky-martin-casado-how-do-you-secure-a-world-of-transcript.txt",
+ "nb_outils": 2,
+ "outils": {
+  "Hugging Face": [
+   "laws already in the applied layer like you can't hack systems etc do you think there's anything that should be from a liability standpoint in the model layer which of course then wait and now are you making it legal legal no the legal everything my read of of hugging face open AI yeah for they're all absolutely blatant computer crime acts except for the fact that there's they carved out an amendments later that if you're a white hat it's not illegal anymore and that was because people kept making mistakes and and they didn't w"
+  ],
+  "Slack": [
+   "t narratives trying to post-mortem you do when you hire outside lawyers to investigate some random thing and you only give them certain stuff because you don't have to give the lawyers you hire all the information about what happened yeah like where's all the slack messages where's the actual details of what happened can I can I just interject an annoying aside so which is which is which is very in line with this which is um oven in the security like the actual cyber security committee for a long time and it is you know",
+   "he interesting thing about it is there's a whole layer of security that you now have to go look at every single API every single service you're running internally on your network as like you know like nobody thinks that their internal github or their internal slack or internal finance expense tool is is vulnerable to a denial of service attack but swarms will do it look literally look like a denial of service attack yeah and so now we need a whole layer internally that just is tracking way more about what authentication"
+  ]
+ },
+ "mentions_publicitaires": {}
+}
