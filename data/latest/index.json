@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-28T12:49:58+00:00",
+ "genere_le": "2026-09-28T22:54:40+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 15,
- "nb_articles": 408,
+ "nb_flux_en_erreur": 14,
+ "nb_articles": 413,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -30,11 +30,6 @@
    "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
   },
   {
-   "source": "Early Retirement Now",
-   "url": "https://earlyretirementnow.com/feed/",
-   "erreur": "HTTPError: 429 Client Error: Too Many Requests for url: https://earlyretirementnow.com/feed/"
-  },
-  {
    "source": "HR Executive",
    "url": "https://hrexecutive.com/feed/",
    "erreur": "HTTPError: 404 Client Error: Not Found for url: https://hrexecutive.com/feed/"
@@ -48,6 +43,11 @@
    "source": "Indie Hackers",
    "url": "https://www.indiehackers.com/feed.xml",
    "erreur": "HTTPError: 404 Client Error: Not Found for url: https://www.indiehackers.com/feed.xml"
+  },
+  {
+   "source": "SaaStr",
+   "url": "https://www.saastr.com/feed/",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.saastr.com/feed/"
   },
   {
    "source": "Startup Unlocked",
@@ -78,11 +78,6 @@
    "source": "Dans la Tete d'un VC",
    "url": "https://danslatetedunvc.substack.com/feed",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://danslatetedunvc.substack.com/feed"
-  },
-  {
-   "source": "Tech a suivre - L'ADN",
-   "url": "https://www.ladn.eu/tech-a-suivre/feed/",
-   "erreur": "ConnectTimeout: HTTPSConnectionPool(host='www.ladn.eu', port=443): Max retries exceeded with url: /tech-a-suivre/feed/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ladn.eu', port=443) at "
   },
   {
    "source": "Patent Drop",
