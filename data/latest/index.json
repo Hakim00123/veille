@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-09-30T17:33:38+00:00",
+ "genere_le": "2026-09-30T21:50:14+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 16,
- "nb_articles": 418,
+ "nb_flux_en_erreur": 14,
+ "nb_articles": 425,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -11,7 +11,8 @@
   "chunk-04.json",
   "chunk-05.json",
   "chunk-06.json",
-  "chunk-07.json"
+  "chunk-07.json",
+  "chunk-08.json"
  ],
  "erreurs": [
   {
@@ -50,11 +51,6 @@
    "erreur": "HTTPError: 404 Client Error: Not Found for url: https://www.indiehackers.com/feed.xml"
   },
   {
-   "source": "SaaStr",
-   "url": "https://www.saastr.com/feed/",
-   "erreur": "HTTPError: 429 Client Error: Too Many Requests for url: https://www.saastr.com/feed/"
-  },
-  {
    "source": "Startup Unlocked",
    "url": "https://pierregaubil.substack.com/feed",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://pierregaubil.substack.com/feed"
@@ -88,11 +84,6 @@
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
-  },
-  {
-   "source": "Max Tegmark – publications",
-   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
-   "erreur": "ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
   }
  ]
 }
