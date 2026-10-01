@@ -1,18 +1,16 @@
 {
- "genere_le": "2026-10-01T12:22:42+00:00",
+ "genere_le": "2026-10-01T22:18:47+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
- "nb_articles": 425,
+ "nb_flux_en_erreur": 14,
+ "nb_articles": 347,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
   "chunk-03.json",
   "chunk-04.json",
   "chunk-05.json",
-  "chunk-06.json",
-  "chunk-07.json",
-  "chunk-08.json"
+  "chunk-06.json"
  ],
  "erreurs": [
   {
@@ -79,6 +77,11 @@
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  },
+  {
+   "source": "Blog du Moderateur",
+   "url": "https://www.blogdumoderateur.com/feed/",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='www.blogdumoderateur.com', port=443): Read timed out. (read timeout=20)"
   }
  ]
 }
