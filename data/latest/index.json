@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-14T11:07:13+00:00",
+ "genere_le": "2026-10-14T16:28:13+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 14,
- "nb_articles": 418,
+ "nb_flux_en_erreur": 13,
+ "nb_articles": 419,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -14,11 +14,6 @@
   "chunk-07.json"
  ],
  "erreurs": [
-  {
-   "source": "Village de la Justice - Droit social",
-   "url": "https://www.village-justice.com/articles/spip.php?page=backend",
-   "erreur": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.village-justice.com/articles/spip.php?page=backend"
-  },
   {
    "source": "Klement on Investing",
    "url": "https://klementoninvesting.substack.com/feed/",
