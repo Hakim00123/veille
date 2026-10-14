@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-14T03:24:50+00:00",
+ "genere_le": "2026-10-14T11:07:13+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
  "nb_flux_en_erreur": 14,
- "nb_articles": 420,
+ "nb_articles": 418,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -14,6 +14,11 @@
   "chunk-07.json"
  ],
  "erreurs": [
+  {
+   "source": "Village de la Justice - Droit social",
+   "url": "https://www.village-justice.com/articles/spip.php?page=backend",
+   "erreur": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.village-justice.com/articles/spip.php?page=backend"
+  },
   {
    "source": "Klement on Investing",
    "url": "https://klementoninvesting.substack.com/feed/",
@@ -78,11 +83,6 @@
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
-  },
-  {
-   "source": "Max Tegmark – publications",
-   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
-   "erreur": "HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15"
   }
  ]
 }
