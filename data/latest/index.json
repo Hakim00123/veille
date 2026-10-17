@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-17T14:54:07+00:00",
+ "genere_le": "2026-10-17T20:03:18+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 15,
- "nb_articles": 423,
+ "nb_flux_en_erreur": 14,
+ "nb_articles": 424,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -34,11 +34,6 @@
    "source": "Early Retirement Now",
    "url": "https://earlyretirementnow.com/feed/",
    "erreur": "HTTPError: 429 Client Error: Too Many Requests for url: https://earlyretirementnow.com/feed/"
-  },
-  {
-   "source": "Raptitude",
-   "url": "http://www.raptitude.com/feed/",
-   "erreur": "HTTPError: 520 Server Error: <none> for url: https://www.raptitude.com/feed/"
   },
   {
    "source": "HR Executive",
