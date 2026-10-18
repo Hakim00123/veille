@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-18T10:20:21+00:00",
+ "genere_le": "2026-10-18T15:20:08+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
  "nb_flux_en_erreur": 14,
- "nb_articles": 424,
+ "nb_articles": 422,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -31,9 +31,9 @@
    "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
   },
   {
-   "source": "Ness Labs",
-   "url": "https://nesslabs.com/feed",
-   "erreur": "ConnectTimeout: HTTPSConnectionPool(host='nesslabs.com', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='nesslabs.com', port=443) at 0x7fa71d5085c"
+   "source": "Early Retirement Now",
+   "url": "https://earlyretirementnow.com/feed/",
+   "erreur": "HTTPError: 429 Client Error: Too Many Requests for url: https://earlyretirementnow.com/feed/"
   },
   {
    "source": "HR Executive",
