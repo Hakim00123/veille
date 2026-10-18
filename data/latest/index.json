@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-18T02:54:10+00:00",
+ "genere_le": "2026-10-18T10:20:21+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
  "nb_flux_en_erreur": 14,
@@ -29,6 +29,11 @@
    "source": "The Evidence-Based Investor",
    "url": "http://www.evidenceinvestor.co.uk/feed/",
    "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
+  },
+  {
+   "source": "Ness Labs",
+   "url": "https://nesslabs.com/feed",
+   "erreur": "ConnectTimeout: HTTPSConnectionPool(host='nesslabs.com', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='nesslabs.com', port=443) at 0x7fa71d5085c"
   },
   {
    "source": "HR Executive",
@@ -79,11 +84,6 @@
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
-  },
-  {
-   "source": "Max Tegmark – publications",
-   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
-   "erreur": "ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
   }
  ]
 }
