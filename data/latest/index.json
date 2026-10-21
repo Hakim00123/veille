@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-21T11:06:23+00:00",
+ "genere_le": "2026-10-21T16:33:37+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 14,
- "nb_articles": 424,
+ "nb_flux_en_erreur": 13,
+ "nb_articles": 437,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -15,11 +15,6 @@
   "chunk-08.json"
  ],
  "erreurs": [
-  {
-   "source": "Net-entreprises (DSN officiel)",
-   "url": "https://www.net-entreprises.fr/feed/",
-   "erreur": "SSLError: HTTPSConnectionPool(host='www.net-entreprises.fr', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certific"
-  },
   {
    "source": "Klement on Investing",
    "url": "https://klementoninvesting.substack.com/feed/",
