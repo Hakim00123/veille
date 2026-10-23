@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-23T16:24:12+00:00",
+ "genere_le": "2026-10-23T20:56:44+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
- "nb_articles": 462,
+ "nb_flux_en_erreur": 14,
+ "nb_articles": 455,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -34,6 +34,11 @@
    "source": "HR Executive",
    "url": "https://hrexecutive.com/feed/",
    "erreur": "HTTPError: 404 Client Error: Not Found for url: https://hrexecutive.com/feed/"
+  },
+  {
+   "source": "Workology",
+   "url": "https://workology.com/feed/",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='workology.com', port=443): Read timed out. (read timeout=20)"
   },
   {
    "source": "Personnel Today",
