@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-25T10:39:23+00:00",
+ "genere_le": "2026-10-25T15:30:10+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
  "nb_flux_en_erreur": 13,
- "nb_articles": 451,
+ "nb_articles": 447,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
