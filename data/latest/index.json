@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-28T12:03:33+00:00",
+ "genere_le": "2026-10-28T22:08:44+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
  "nb_flux_en_erreur": 13,
- "nb_articles": 453,
+ "nb_articles": 454,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -33,7 +33,7 @@
   {
    "source": "HR Executive",
    "url": "https://hrexecutive.com/feed/",
-   "erreur": "HTTPError: 404 Client Error: Not Found for url: https://hrexecutive.com/feed/"
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='hrexecutive.com', port=443): Read timed out. (read timeout=20)"
   },
   {
    "source": "Personnel Today",
