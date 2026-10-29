@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-10-28T22:08:44+00:00",
+ "genere_le": "2026-10-29T04:14:32+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
- "nb_articles": 454,
+ "nb_flux_en_erreur": 14,
+ "nb_articles": 453,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -33,7 +33,7 @@
   {
    "source": "HR Executive",
    "url": "https://hrexecutive.com/feed/",
-   "erreur": "ReadTimeout: HTTPSConnectionPool(host='hrexecutive.com', port=443): Read timed out. (read timeout=20)"
+   "erreur": "HTTPError: 404 Client Error: Not Found for url: https://hrexecutive.com/feed/"
   },
   {
    "source": "Personnel Today",
@@ -79,6 +79,11 @@
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"
   }
  ]
 }
