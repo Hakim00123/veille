@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-11-08T21:38:56+00:00",
+ "genere_le": "2026-11-09T04:30:17+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
- "nb_articles": 445,
+ "nb_flux_en_erreur": 15,
+ "nb_articles": 429,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -29,6 +29,11 @@
    "source": "The Evidence-Based Investor",
    "url": "http://www.evidenceinvestor.co.uk/feed/",
    "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
+  },
+  {
+   "source": "Culture RH",
+   "url": "https://culture-rh.com/feed/",
+   "erreur": "HTTPError: 503 Server Error: Service Unavailable for url: https://culture-rh.com/feed/"
   },
   {
    "source": "HR Executive",
@@ -79,6 +84,11 @@
    "source": "Patent Drop",
    "url": "https://patentdrop.substack.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://patentdrop.substack.com/feed/"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15"
   }
  ]
 }
