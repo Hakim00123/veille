@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-11-13T23:12:27+00:00",
+ "genere_le": "2026-11-14T04:49:09+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 4,
- "nb_articles": 513,
+ "nb_flux_en_erreur": 5,
+ "nb_articles": 511,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -35,6 +35,11 @@
    "source": "Indie Hackers",
    "url": "https://www.indiehackers.com/feed.xml",
    "erreur": "HTTPError: 404 Client Error: Not Found for url: https://www.indiehackers.com/feed.xml"
+  },
+  {
+   "source": "Max Tegmark – publications",
+   "url": "http://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15",
+   "erreur": "HTTPError: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=au:%22Max+Tegmark%22&sortBy=submittedDate&sortOrder=descending&max_results=15"
   }
  ]
 }
