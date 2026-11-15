@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-11-15T13:24:07+00:00",
+ "genere_le": "2026-11-15T22:26:54+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 13,
- "nb_articles": 446,
+ "nb_flux_en_erreur": 14,
+ "nb_articles": 445,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -34,6 +34,11 @@
    "source": "HR Executive",
    "url": "https://hrexecutive.com/feed/",
    "erreur": "HTTPError: 404 Client Error: Not Found for url: https://hrexecutive.com/feed/"
+  },
+  {
+   "source": "CIO Online",
+   "url": "https://www.cio-online.com/rss.php",
+   "erreur": "SSLError: HTTPSConnectionPool(host='www.cio-online.com', port=443): Max retries exceeded with url: /rss.php (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificat"
   },
   {
    "source": "Personnel Today",
