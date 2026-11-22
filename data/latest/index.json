@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-11-22T13:59:34+00:00",
+ "genere_le": "2026-11-22T23:11:14+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 14,
- "nb_articles": 440,
+ "nb_flux_en_erreur": 15,
+ "nb_articles": 429,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -34,6 +34,11 @@
    "source": "HR Executive",
    "url": "https://hrexecutive.com/feed/",
    "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://hrexecutive.com/feed/"
+  },
+  {
+   "source": "Workology",
+   "url": "https://workology.com/feed/",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='workology.com', port=443): Read timed out. (read timeout=20)"
   },
   {
    "source": "CIO Online",
