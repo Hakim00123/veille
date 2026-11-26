@@ -1,9 +1,9 @@
 {
- "genere_le": "2026-11-26T01:30:16+00:00",
+ "genere_le": "2026-11-26T16:19:54+00:00",
  "fenetre_jours": 30,
  "nb_flux": 66,
- "nb_flux_en_erreur": 14,
- "nb_articles": 436,
+ "nb_flux_en_erreur": 16,
+ "nb_articles": 441,
  "chunks": [
   "chunk-01.json",
   "chunk-02.json",
@@ -31,6 +31,11 @@
    "erreur": "ConnectionError: HTTPConnectionPool(host='www.evidenceinvestor.co.uk', port=80): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"HTTPConnection(host='www.evidenceinvestor.co.uk',"
   },
   {
+   "source": "Morningbull",
+   "url": "https://morningbull.ch/feed/",
+   "erreur": "ReadTimeout: HTTPSConnectionPool(host='morningbull.ch', port=443): Read timed out. (read timeout=20)"
+  },
+  {
    "source": "HR Executive",
    "url": "https://hrexecutive.com/feed/",
    "erreur": "HTTPError: 404 Client Error: Not Found for url: https://hrexecutive.com/feed/"
@@ -49,6 +54,11 @@
    "source": "Indie Hackers",
    "url": "https://www.indiehackers.com/feed.xml",
    "erreur": "HTTPError: 404 Client Error: Not Found for url: https://www.indiehackers.com/feed.xml"
+  },
+  {
+   "source": "SaaStr",
+   "url": "https://www.saastr.com/feed/",
+   "erreur": "HTTPError: 403 Client Error: Forbidden for url: https://www.saastr.com/feed/"
   },
   {
    "source": "Startup Unlocked",
